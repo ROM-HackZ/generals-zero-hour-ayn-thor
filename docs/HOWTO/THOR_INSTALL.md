@@ -130,7 +130,7 @@ USB connection and downloads/verifies the published app. If the same APK is
 already installed, the installer skips reinstalling it.
 
 The current installer automatically downloads game preview **0.1.0-alpha.1**.
-For the newer [game preview, 0.1.0-alpha.3](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.3),
+For the newer [game preview, 0.1.0-alpha.4](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.4),
 download its APK and choose it under **Advanced → Local APK**. Tick **App update
 only** if your game files are already installed. Local APKs do not have the
 automatic download's pinned checksum; the release provides `SHA256SUMS.txt`.

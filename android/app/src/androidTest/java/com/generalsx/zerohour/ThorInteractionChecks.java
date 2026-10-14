@@ -14,6 +14,10 @@ import org.json.JSONObject;
 // This is a separate instrumentation APK. Save your match before running; it loads the newest save.
 public final class ThorInteractionChecks extends Instrumentation {
     GeneralsZHActivity activity;
+    boolean fresh;
+    boolean extended;
+    String faction="";
+    boolean inventoryOnly;
     long touchDown;
     JSONObject state() throws Exception { return new JSONObject(ThorBridge.nativeSnapshot()); }
     interface Condition { boolean matches(JSONObject s) throws Exception; }
@@ -41,7 +45,7 @@ public final class ThorInteractionChecks extends Instrumentation {
         float x=(row.optInt("x")+row.optInt("w")*.5f)/s.optInt("width"),y=(row.optInt("y")+row.optInt("h")*.5f)/s.optInt("height");
         finger(MotionEvent.ACTION_DOWN,x,y); finger(MotionEvent.ACTION_UP,x,y); SystemClock.sleep(2000);
     }
-    @Override public void onCreate(Bundle arguments) { super.onCreate(arguments); start(); }
+    @Override public void onCreate(Bundle arguments) { super.onCreate(arguments); fresh=arguments!=null && "true".equals(arguments.getString("fresh")); extended=arguments!=null && "true".equals(arguments.getString("extended")); inventoryOnly=arguments!=null && "true".equals(arguments.getString("inventory")); faction=arguments==null?"":arguments.getString("faction",""); start(); }
     @Override public void onStart() {
         Bundle result=new Bundle();
         try {
@@ -57,14 +61,26 @@ public final class ThorInteractionChecks extends Instrumentation {
                 ThorBridge.intent(11,0); SystemClock.sleep(400);
             }
             SystemClock.sleep(2000);
-            activate("LOAD"); activate("LOAD GAME");
-            await(s->{ JSONArray rows=s.optJSONArray("widgets"); if(rows==null) return false; for(int i=0;i<rows.length();i++) if((rows.optJSONObject(i).optInt("style")&32)!=0) return true; return false; },"Save list missing");
-            activate("LOAD GAME");
+            if(fresh) { activate("SOLO PLAY"); activate("SKIRMISH"); if(!faction.isEmpty()) chooseFaction(); activate("PLAY GAME"); }
+            else {
+                activate("LOAD"); activate("LOAD GAME");
+                await(s->{ JSONArray rows=s.optJSONArray("widgets"); if(rows==null) return false; for(int i=0;i<rows.length();i++) if((rows.optJSONObject(i).optInt("style")&32)!=0) return true; return false; },"Save list missing");
+                activate("LOAD GAME");
+            }
             await(s->s.optBoolean("battle"),"Saved match did not load");
-            report("Saved skirmish loaded.");
+            report(fresh?"Fresh skirmish loaded.":"Saved skirmish loaded.");
+            if("China".equals(faction)) {
+                chinaToggle(); result.putString("stream","China toggle checks passed. Reload your saved match.\n"); finish(0,result); return;
+            }
+            if(inventoryOnly) {
+                ThorBridge.intent(5,1); SystemClock.sleep(400); ThorBridge.intent(18,7); SystemClock.sleep(800);
+                inventory(); result.putString("stream","Inventory checks passed. Reload your saved match.\n"); finish(0,result); return;
+            }
             selectionAndCamera();
             minimap();
             placement();
+            commandsAndTools();
+            if(extended) inventory();
             result.putString("stream","Thor interaction checks passed. Reload your saved match to discard test construction.\n");
             finish(0,result);
         } catch(Throwable error) {
@@ -213,6 +229,8 @@ public final class ThorInteractionChecks extends Instrumentation {
             return false;
         },"Unfinished building did not expose its cancel button");
         JSONObject cancel=null; JSONArray rows=selected.getJSONArray("widgets");
+        check(selected.has("constructionProgress"),"Unfinished building lost its progress indicator");
+        commandCoverage(selected);
         for(int i=0;i<rows.length();i++) if(rows.getJSONObject(i).optString("action").equals("Command_CancelConstruction")) cancel=rows.getJSONObject(i);
         check(cancel!=null && cancel.optBoolean("command") && cancel.optBoolean("enabled"),"Cancel construction is missing from the command snapshot");
         final int cancelId=cancel.getInt("id"); ThorDeck d=deck();
@@ -232,5 +250,155 @@ public final class ThorInteractionChecks extends Instrumentation {
         dispatch(d,MotionEvent.ACTION_DOWN,point); dispatch(d,MotionEvent.ACTION_UP,point);
         await(s->s.optInt("money")==moneyBefore,"Cancel construction did not refund the original building cost");
         report("Unfinished-building cancel appeared in wheel/grid; bottom-screen touch cancelled it and refunded the full cost.");
+    }
+    // GeneralsX @test Codex 14/10/2026 Every visible retail command survives export; virtual tools and bound queue cancellation use actual deck controls.
+    void commandCoverage(JSONObject s) {
+        JSONArray rows=s.optJSONArray("widgets"); if(rows==null) return;
+        for(int i=0;i<rows.length();++i) {
+            JSONObject row=rows.optJSONObject(i);
+            if(row.optInt("commandType")!=0 && !row.optBoolean("queueSlot")) check(row.optBoolean("command"),"Missing command: "+row.optString("action"));
+        }
+    }
+    void tapDeckRow(ThorDeck d,int id) {
+        float[] point=new float[2];
+        runOnMainSync(()->{
+            d.geometry(); int index=-1;
+            for(int i=0;i<d.shown.size();++i) if(d.shown.get(i).optInt("id")==id) index=i;
+            check(index>=0,"Deck row not visible: "+id);
+            android.graphics.RectF rect=d.commandRects.get(index);
+            point[0]=d.offsetX+d.scale*rect.centerX(); point[1]=d.offsetY+d.scale*rect.centerY();
+        });
+        dispatch(d,MotionEvent.ACTION_DOWN,point); dispatch(d,MotionEvent.ACTION_UP,point);
+    }
+    void commandsAndTools() throws Exception {
+        ThorBridge.intent(5,0); SystemClock.sleep(500); commandCoverage(state());
+        ThorDeck d=deck(); tapDeckRow(d,-1000); SystemClock.sleep(200);
+        runOnMainSync(()->check(d.control.toolsMenu && d.control.commands.size()==9,"Tactical tools did not open"));
+        tapDeckRow(d,-105); // Select matching: the original shortcut should select this constructor's matching units.
+        await(s->s.optInt("selected")>0,"Select matching lost the builder selection");
+        tapDeckRow(d,-108); await(value->Math.abs(Math.atan2(Math.sin(value.optDouble("cameraAngle")),Math.cos(value.optDouble("cameraAngle"))))<.02,"Camera reset did not restore the default angle");
+        runOnMainSync(()->d.control.key(new android.view.KeyEvent(android.view.KeyEvent.ACTION_DOWN,android.view.KeyEvent.KEYCODE_BUTTON_B)));
+        SystemClock.sleep(200); runOnMainSync(()->check(!d.control.toolsMenu,"B did not close tactical tools"));
+        report("Tools opened through the deck; matching selection, camera reset and B back passed.");
+        ThorBridge.intent(5,1); SystemClock.sleep(500);
+        JSONObject s=state(),build=null; commandCoverage(s);
+        JSONArray rows=s.getJSONArray("widgets");
+        for(int i=0;i<rows.length();++i) if(rows.getJSONObject(i).optString("action").equals("Command_ConstructAmericaDozer")) build=rows.getJSONObject(i);
+        check(build!=null && build.optBoolean("enabled"),"Command center cannot produce a dozer");
+        int money=s.optInt("money"); final JSONObject buildRow=build;
+        runOnMainSync(()->d.control.activate(buildRow));
+        await(value->value.optInt("money")==money-1000,"Dozer production did not spend $1000");
+        JSONObject queued=await(value->{JSONArray widgets=value.optJSONArray("widgets"); for(int i=0;i<widgets.length();i++) if(widgets.optJSONObject(i).optBoolean("queue")) return true; return false;},"No production queue entry");
+        JSONObject queue=null; rows=queued.getJSONArray("widgets");
+        for(int i=0;i<rows.length();i++) if(rows.getJSONObject(i).optBoolean("queue")) queue=rows.getJSONObject(i);
+        check(queue!=null && !queue.optBoolean("command"),"Production queue leaked into the command wheel");
+        ThorBridge.nativeActivateChecked(queue.getInt("id"),queue.optString("action"),queue.optString("activation")+":stale");
+        SystemClock.sleep(200); check(state().optInt("money")==money-1000,"Stale production token cancelled a different item");
+        SystemClock.sleep(200); tapDeckRow(d,queue.getInt("id"));
+        await(value->value.optInt("money")==money,"Actual queue tap did not refund production");
+        report("All visible commands exported; stale queue activation rejected and actual deck cancellation refunded $1000.");
+    }
+    JSONObject action(JSONObject s,String name) {
+        JSONArray rows=s.optJSONArray("widgets"); if(rows==null) return null;
+        for(int i=0;i<rows.length();++i) if(rows.optJSONObject(i).optString("action").equals(name)) return rows.optJSONObject(i);
+        return null;
+    }
+    void chooseFaction() throws Exception {
+        JSONObject s=state(),combo=null; JSONArray rows=s.getJSONArray("widgets");
+        for(int i=0;i<rows.length();++i) { JSONObject row=rows.getJSONObject(i); if((row.optInt("style")&32768)!=0 && (row.optString("label").equals("USA") || row.optString("label").equals("China"))) { combo=row; break; } }
+        check(combo!=null,"Local faction dropdown not found"); int id=combo.getInt("id"); ThorBridge.nativeActivate(id,"");
+        for(int i=0;i<15;i++) {
+            SystemClock.sleep(100); JSONObject current=null; rows=state().getJSONArray("widgets");
+            for(int j=0;j<rows.length();++j) if(rows.getJSONObject(j).optInt("id")==id) current=rows.getJSONObject(j);
+            if(current!=null && current.optString("label").equals(faction)) { ThorBridge.intent(12,40); SystemClock.sleep(200); return; }
+            ThorBridge.intent(12,81);
+        }
+        throw new AssertionError("Faction dropdown did not reach "+faction);
+    }
+    void chinaToggle() throws Exception {
+        check(state().optString("faction").equals("China"),"China fixture did not start as China");
+        ThorBridge.intent(5,1); SystemClock.sleep(300); ThorBridge.intent(4,0); SystemClock.sleep(300);
+        construct("Command_ConstructChinaPowerPlant",.78f,.60f);
+        JSONObject s=state(),toggle=null; JSONArray rows=s.getJSONArray("widgets");
+        for(int i=0;i<rows.length();++i) if(rows.getJSONObject(i).optString("action").toLowerCase(java.util.Locale.ROOT).contains("overcharge")) toggle=rows.getJSONObject(i);
+        check(toggle!=null && toggle.optBoolean("command") && toggle.optBoolean("enabled"),"Overcharge command missing");
+        final String name=toggle.optString("action"); ThorDeck d=deck(); SystemClock.sleep(200);
+        tapDeckRow(d,toggle.getInt("id")); await(value->action(value,name)!=null && action(value,name).optBoolean("active"),"Overcharge did not display its active state");
+        check(ThorUi.status(action(state(),name),state()).equals("Active"),"Overcharge details lost active state");
+        tapDeckRow(d,toggle.getInt("id")); await(value->action(value,name)!=null && !action(value,name).optBoolean("active"),"Overcharge did not switch off");
+        report("China reactor overcharge toggled on/off through deck touch with correct active state.");
+    }
+    void selectSite(float x,float y) throws Exception {
+        ThorBridge.intent(1,0); SystemClock.sleep(150);
+        finger(MotionEvent.ACTION_DOWN,x,y); finger(MotionEvent.ACTION_UP,x,y); SystemClock.sleep(300);
+    }
+    // GeneralsX @test Codex 14/10/2026 Build a real local garrison fixture without retail overrides or engine test hooks.
+    void construct(String name,float x,float y) throws Exception {
+        for(int attempt=0;attempt<15 && action(state(),name)==null;++attempt) { ThorBridge.intent(18,8); SystemClock.sleep(300); }
+        await(value->action(value,name)!=null,"No constructor selected for "+name);
+        // Idle-worker selection recentres the camera. Keep all fixture sites relative to the same command center.
+        ThorBridge.intent(8,9); SystemClock.sleep(100); ThorBridge.intent(5,1); SystemClock.sleep(300); ThorBridge.intent(7,9); SystemClock.sleep(300);
+        JSONObject s=await(value->action(value,name)!=null && action(value,name).optBoolean("enabled"),"Missing builder action: "+name);
+        JSONObject button=action(s,name); int money=s.optInt("money"),cost=button.optInt("cost");
+        ThorBridge.nativeActivateChecked(button.getInt("id"),name,button.optString("activation"));
+        await(value->value.optInt("placementStage")==1,"Missing build preview: "+name);
+        ThorBridge.nativeIntent(0,0,x,y); await(value->value.optInt("placementStage")==2,"Missing facing stage");
+        ThorBridge.nativeIntent(0,0,x,y); await(value->value.optInt("money")==money-cost,"Construction rejected: "+name);
+        selectSite(x,y);
+        // A foundation can briefly exist before the dozer reaches it and sets UNDER_CONSTRUCTION.
+        // Observe construction starting before accepting the later cleared flag as completion.
+        await(value->value.optInt("selected")==1 && value.has("constructionProgress"),"Fixture construction did not start: "+name);
+        await(value->value.optInt("selected")==1 && !value.optString("selection").contains("Dozer") && !value.has("constructionProgress"),"Fixture building did not complete: "+name);
+        commandCoverage(state());
+    }
+    void inventory() throws Exception {
+        construct("Command_ConstructAmericaPowerPlant",.20f,.35f);
+        await(value->value.optJSONArray("radarMarkers")!=null && value.optJSONArray("radarMarkers").length()>0,"Construction radar alert was lost from the deck");
+        report("Fixture reactor completed; its original radar alert reached the deck.");
+        construct("Command_ConstructAmericaBarracks",.25f,.72f); report("Fixture barracks completed.");
+        construct("Command_ConstructAmericaFireBase",.88f,.68f); report("Fixture fire base completed.");
+        ThorBridge.intent(8,8); SystemClock.sleep(150); // Remember the host independently of later camera/selection changes.
+        selectSite(.25f,.72f);
+        JSONObject s=await(value->action(value,"Command_ConstructAmericaInfantryRanger")!=null,"Barracks ranger command missing");
+        JSONObject ranger=action(s,"Command_ConstructAmericaInfantryRanger"); int money=s.optInt("money"),cost=ranger.optInt("cost");
+        ThorBridge.nativeActivateChecked(ranger.getInt("id"),ranger.optString("action"),ranger.optString("activation"));
+        ThorBridge.nativeActivateChecked(ranger.getInt("id"),ranger.optString("action"),ranger.optString("activation"));
+        await(value->value.optInt("money")==money-cost*2,"Two rangers did not enter production");
+        await(value->{ JSONArray rows=value.getJSONArray("widgets"); for(int i=0;i<rows.length();i++) if(rows.optJSONObject(i).optBoolean("queue")) return true; return false; },"Ranger queue did not appear");
+        await(value->{ JSONArray rows=value.getJSONArray("widgets"); for(int i=0;i<rows.length();i++) if(rows.optJSONObject(i).optBoolean("queue")) return false; return true; },"Rangers did not complete production");
+        for(int attempt=0;attempt<30 && state().optInt("selected")!=2;++attempt) { ThorBridge.intent(18,1); SystemClock.sleep(200); }
+        await(value->value.optInt("selected")==2,"Select army did not select both rangers");
+        SystemClock.sleep(500); report("Army members before group assignment: "+state().optJSONArray("selectionMembers"));
+        ThorBridge.intent(8,7);
+        await(value->value.optJSONArray("groups").optInt(7)==2,"Both rangers were not committed to the saved control group");
+        ThorBridge.intent(7,8);
+        await(value->value.optString("selection").equals("Fire Base"),"Host group did not restore fire base selection");
+        ThorBridge.intent(4,0); SystemClock.sleep(300);
+        JSONObject host=state(); float targetX=(float)host.optDouble("selectionScreenX"),targetY=(float)host.optDouble("selectionScreenY");
+        ThorBridge.intent(7,7); await(value->value.optInt("selected")==2,"Ranger group did not restore");
+        SystemClock.sleep(300);
+        check(distance(host,state())<2,"Recalling rangers moved the fixture camera");
+        ThorBridge.nativeIntent(0,0,targetX,targetY); SystemClock.sleep(500);
+        ThorBridge.intent(7,8); await(value->value.optString("selection").equals("Fire Base"),"Host selection lost after order");
+        s=await(value->{
+            if(value.optInt("passengers")!=2) return false;
+            int count=0; JSONArray buttons=value.getJSONArray("widgets");
+            for(int i=0;i<buttons.length();++i) if(buttons.optJSONObject(i).has("occupant")) count++;
+            return count==2;
+        },"Both ranger exits did not reach the fire base's original command panel"); commandCoverage(s);
+        java.util.ArrayList<JSONObject> occupants=new java.util.ArrayList<>(); JSONArray rows=s.getJSONArray("widgets");
+        for(int i=0;i<rows.length();i++) if(rows.optJSONObject(i).has("occupant")) occupants.add(rows.optJSONObject(i));
+        check(occupants.size()==2,"Native snapshot lost an individual passenger");
+        ThorDeck d=deck(); SystemClock.sleep(200);
+        runOnMainSync(()->{
+            int count=0; java.util.HashSet<String> keys=new java.util.HashSet<>();
+            for(JSONObject row:d.control.commands) if(row.has("occupant")) { count++; keys.add(row.optString("identity")); check(row.optString("label").contains("Ranger"),"Passenger label is not the occupant"); check(!row.optString("icon").isEmpty(),"Passenger portrait missing"); }
+            check(count==2 && keys.size()==2,"The wheel collapsed individual passenger slots");
+        });
+        JSONObject first=occupants.get(0); tapDeckRow(d,first.getInt("id"));
+        await(value->value.optInt("passengers")==1,"Individual exit did not remove exactly one ranger");
+        ThorBridge.nativeActivateChecked(first.getInt("id"),first.optString("action"),first.optString("activation"));
+        SystemClock.sleep(200); check(state().optInt("passengers")==1,"Stale passenger slot ejected another occupant");
+        report("Two independent Ranger slots reached the wheel/grid; individual exit and stale-occupant protection passed.");
     }
 }

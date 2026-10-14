@@ -54,6 +54,9 @@ public:
 	// GeneralsX @feature Codex 14/10/2026 Export only the already filtered radar layers.
 	Bool copyDeckRadar(std::vector<unsigned int> &pixels);
 	Bool copyDeckViewBox(std::vector<float> &corners);
+	// GeneralsX @feature Codex 14/10/2026 Radar icons and alerts are drawn separately from the map textures.
+	struct DeckMarker { bool hero; float points[6]; unsigned color; };
+	void copyDeckMarkers(std::vector<DeckMarker> &markers, Bool playEventSound);
 	// GeneralsX @bugfix Codex 14/10/2026 Drawing and input use the same fitted map rectangle.
 	Bool copyDeckBounds(std::vector<float> &bounds);
 	Bool deckPointToWorld(Real x, Real y, Coord3D *world);

@@ -32,14 +32,16 @@ natively on Android and uses your PC installation's game data and the original
 | Menus | Controller focus, value editing and an on-screen text keyboard. |
 | Settings | Button remapping, dead zone, camera speed, pan/zoom direction and snapping. |
 
-Game preview **0.1.0-alpha.3** restores **Cancel Construction** when selecting
-an unfinished building, in both the RT wheel and bottom-screen command grid.
+Game preview **0.1.0-alpha.4** fills more gaps in the original UI: timer-panel
+commands, separate passenger exits, active toggles, construction/countdown
+information, radar alerts and a **Tactical Tools** panel for keyboard shortcuts.
+It includes alpha.3's **Cancel Construction** in the RT wheel and bottom screen.
 It includes alpha.2's two-step building placement (A chooses the
 site, left stick chooses facing, A builds; B cancels), one-finger touch selection,
 and corrected bottom-screen minimap taps plus drag-to-pan. Pinch/twist camera
-controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.3).
+controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.4).
 The desktop installer 0.1.0 still installs the first preview; use **Advanced →
-Local APK** to select this newer APK for an update. The source build uses alpha.3.
+Local APK** to select this newer APK for an update. The source build uses alpha.4.
 
 ### A few pictures
 
@@ -88,6 +90,9 @@ This is a **development preview**, tested on a real Thor running Android 13.
 - Native/APK builds and small host tests for controller input, deck focus and artwork.
 - Alpha.3 device check: unfinished-building cancellation in the wheel/grid,
   with the original $800 reactor refund through a bottom-screen tap.
+- Alpha.4 device checks: Tactical Tools and camera reset, stale production-token
+  rejection, queue refunds, two independent Ranger exit entries, stale occupant
+  protection, construction radar alerts and China's Overcharge active state.
 
 The observed game rate is around 30 fps. That is a device check, not a long-run
 performance promise. The revised wheel and deck have also been tried by hand.

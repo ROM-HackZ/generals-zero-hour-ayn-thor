@@ -9,6 +9,8 @@ final class ThorBridge {
     static native int[] nativeIcon(String key);
     static native void nativeText(String text);
     static native void nativeActivate(int id, String action);
+    // GeneralsX @bugfix Codex 14/10/2026 Validate the snapshot's object/occupant/production binding before acting.
+    static native void nativeActivateChecked(int id, String action, String activation);
     static native void nativeOptions(boolean snap, boolean externalDeck);
     static void intent(int type, int value) { nativeIntent(type, value, -1, -1); }
     private ThorBridge() {}

@@ -46,6 +46,9 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
     boolean description;
     int descriptionScroll;
     JSONObject confirmation;
+    // GeneralsX @feature Codex 14/10/2026 Tactical tools expose keyboard-only actions through existing wheel/deck navigation.
+    boolean toolsMenu;
+    JSONObject toolsEntry;
     boolean editingWidget;
     boolean controllerActive;
     boolean ltButton, rtButton, ltAxis, rtAxis;
@@ -99,6 +102,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                 boolean wasBattle = battle;
                 battle = snapshot.optBoolean("battle");
                 if (wasBattle != battle) {
+                    toolsMenu = false;
                     focusedId = 0; deckFocus = mapMode = rt = lb = false; aHeld = false;
                     if (!battle && ready) ThorBridge.intent(97, 0);
                 }
@@ -112,7 +116,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                     widgets.add(row);
                     if (row.optBoolean("command")) commands.add(row);
                     if (row.optBoolean("queue")) queueRows.add(row);
-                    if (row.optString("label").equals("Generals Experience Menu")) powers = row;
+                    if (row.optString("action").equals("NonCommand_GeneralsExperience")) powers = row;
                 }
                 // GeneralsX @feature Codex 14/10/2026 Stable native slot ordering and contextual/shortcut deduplication.
                 scienceMenu = false;
@@ -121,12 +125,28 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                     for (int i = commands.size() - 1; i >= 0; --i) if (!commands.get(i).optBoolean("science")) commands.remove(i);
                     java.util.Collections.sort(commands, (a, b) -> a.optInt("y") == b.optInt("y") ? Integer.compare(a.optInt("x"), b.optInt("x")) : Integer.compare(a.optInt("y"), b.optInt("y")));
                 } else java.util.Collections.sort(commands, (a, b) -> Integer.compare(a.optInt("slot", -1) < 0 ? 1000 : a.optInt("slot"), b.optInt("slot", -1) < 0 ? 1000 : b.optInt("slot")));
-                java.util.HashSet<String> identities = new java.util.HashSet<>();
+                // GeneralsX @bugfix Codex 14/10/2026 Only duplicate power shortcuts merge; repeated occupant/action slots remain independent.
+                java.util.HashMap<String, Integer> identities = new java.util.HashMap<>();
                 for (int i = 0; i < commands.size();) {
                     JSONObject row = commands.get(i);
                     String identity = row.optString("identity", row.optString("action", "id:" + row.optInt("id")));
-                    if (!identities.add(identity)) commands.remove(i); else ++i;
+                    Integer existing = identity.startsWith("power:") ? identities.get(identity) : null;
+                    if (existing == null) { identities.put(identity, i); ++i; }
+                    else {
+                        JSONObject previous = commands.get(existing);
+                        if (ThorCommands.preferReplacement(previous.optBoolean("enabled"), (float)previous.optDouble("recharge", 1), row.optBoolean("enabled"), (float)row.optDouble("recharge", 1))) commands.set(existing, row);
+                        commands.remove(i);
+                    }
                 }
+                if (battle) {
+                    toolsEntry = new JSONObject().put("id", -1000).put("label", toolsMenu ? "Back to commands" : "Tactical tools").put("enabled", true).put("identity", "tools-menu");
+                    widgets.add(toolsEntry);
+                    if (toolsMenu) {
+                        commands.clear();
+                        JSONArray tools=snapshot.optJSONArray("tools");
+                        if(tools!=null) for(int i=0;i<tools.length();++i) { JSONObject row=tools.optJSONObject(i); if(row!=null) { commands.add(row); widgets.add(row); } }
+                    } else commands.add(toolsEntry);
+                } else toolsEntry = null;
                 if (battle) {
                     deckRows.addAll(commands);
                     deckRows.addAll(queueRows);
@@ -191,7 +211,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         running = false; handler.removeCallbacks(tick);
         aHeld = false; lt = rt = lb = r3 = false; lx = ly = rx = ry = 0;
         ltButton = rtButton = ltAxis = rtAxis = false;
-        typing = deckFocus = mapMode = false; confirmation = null;
+        typing = deckFocus = mapMode = toolsMenu = false; confirmation = null;
         if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(99, 0); }
     }
     void destroy() {
@@ -270,6 +290,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
             if (confirmation != null) confirmation = null;
             else if (typing) { typing = false; entered = ""; }
             else if (editingWidget) editingWidget = false;
+            else if (toolsMenu) { toolsMenu = false; focusedId = 0; page = deckPage = 0; }
             else if (rt || lb) { rt = lb = false; }
             else if (scienceMenu && powers != null) activate(powers);
             else if (deckFocus || mapMode) { deckFocus = mapMode = false; }
@@ -311,7 +332,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         sendAxes(); overlay.invalidate(); return true;
     }
     void confirm(long now) {
-        if (confirmation != null) { ThorBridge.nativeActivate(confirmation.optInt("id"), confirmation.optString("action")); confirmation = null; return; }
+        if (confirmation != null) { activateChecked(confirmation); confirmation = null; return; }
         if (typing) { if (keyboardIndex < keys.length()) entered += keys.charAt(keyboardIndex); return; }
         if (editingWidget) { ThorBridge.intent(12, 40); editingWidget = false; return; }
         if (lb) { if (wedge >= 0 && groupPage * 8 + wedge < 10) ThorBridge.intent(7, groupPage * 8 + wedge); return; }
@@ -327,12 +348,19 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
     }
     void activate(JSONObject w) {
         if (!w.optBoolean("enabled")) return;
+        if(w.optInt("id")==-1000) { toolsMenu=!toolsMenu; focusedId=0; page=deckPage=0; return; }
+        if(w.optString("action").equals("NonCommand_GeneralsExperience")) { toolsMenu=false; page=deckPage=0; }
         if (w.optBoolean("confirm")) { confirmation = w; return; }
-        ThorBridge.nativeActivate(w.optInt("id"), w.optString("action"));
+        activateChecked(w);
         if ((w.optInt("style") & 64) != 0) {
-            typing = true; entered = w.optString("label"); keyboardIndex = 0;
+            typing = true; entered = w.optString("value", w.optString("label")); keyboardIndex = 0;
         }
         else if ((w.optInt("style") & (8 | 16 | 32 | 32768)) != 0) editingWidget = true;
+    }
+    // GeneralsX @bugfix Codex 14/10/2026 Reused queue/passenger slots cannot activate a different target from an old snapshot.
+    void activateChecked(JSONObject w) {
+        if(w.has("intent")) { ThorBridge.intent(w.optInt("intent"),w.optInt("value")); return; }
+        ThorBridge.nativeActivateChecked(w.optInt("id"), w.optString("action"), w.optString("activation"));
     }
     void commitText() {
         if (!typing) return;
@@ -369,6 +397,8 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         ui.fetch(snapshot.optString("portrait")); ui.fetch(snapshot.optString("factionIcon"));
         for (JSONObject row : commands) ui.fetch(row.optString("icon"));
         for (JSONObject row : queueRows) ui.fetch(row.optString("icon"));
+        JSONArray markers=snapshot.optJSONArray("radarMarkers");
+        if(markers!=null) for(int i=0;i<markers.length();++i) if(markers.optJSONObject(i).optBoolean("hero")) { ui.fetch("HeroReticle"); break; }
         long now = android.os.SystemClock.uptimeMillis();
         if (now - lastRadarRead >= 100) {
             int[] pixels = battle ? ThorBridge.nativeRadar() : null;
