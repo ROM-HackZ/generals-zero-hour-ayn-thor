@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:ChooseLadder",
+  "text": "选择天梯"
+ },
+ {
+  "label": "GUI:UnknownLadder",
+  "text": "未知天梯"
+ },
+ {
+  "label": "GUI:WOLLogin",
+  "text": "GENERALS ONLINE 登录"
+ },
+ {
+  "label": "GUI:PleaseEnterWOLInfo",
+  "text": "请输入信息"
+ },
+ {
+  "label": "GUI:Username",
+  "text": "昵称"
+ },
+ {
+  "label": "GUI:Server",
+  "text": "服务器"
+ },
+ {
+  "label": "GUI:RememberPassword",
+  "text": "记住密码"
+ },
+ {
+  "label": "GUI:CreateAccount",
+  "text": "创建账户"
+ },
+ {
+  "label": "GUI:TryAgain",
+  "text": "重试"
+ },
+ {
+  "label": "GUI:NetworkOptions",
+  "text": "网络选项"
+ },
+ {
+  "label": "GUI:GammaAdjustment",
+  "text": "亮度"
+ },
+ {
+  "label": "GUI:HelpDescription",
+  "text": "显示帮助对话框"
+ },
+ {
+  "label": "GUI:ReturnToGame",
+  "text": "返回游戏"
+ },
+ {
+  "label": "GUI:NewGame",
+  "text": "新游戏"
+ },
+ {
+  "label": "GUI:RestartGame",
+  "text": "重新开始"
+ },
+ {
+  "label": "GUI:MatchingProgress",
+  "text": "快速对战进度"
+ },
+ {
+  "label": "GUI:Player'sName",
+  "text": "对手名称"
+ },
+ {
+  "label": "GUI:AllTimeWins",
+  "text": "历史胜场"
+ },
+ {
+  "label": "GUI:AllTimeLosses",
+  "text": "历史负场"
+ },
+ {
+  "label": "GUI:AllTimePoints",
+  "text": "历史军衔积分"
+ },
+ {
+  "label": "GUI:AllTimeDisconnects",
+  "text": "历史断线次数"
+ },
+ {
+  "label": "GUI:HighestRank",
+  "text": "历史最高军衔"
+ },
+ {
+  "label": "GUI:Honor",
+  "text": "战斗荣誉"
+ },
+ {
+  "label": "GUI:LastUpdated",
+  "text": "玩家资料最后更新"
+ },
+ {
+  "label": "GUI:WOLIconKey",
+  "text": "图标说明"
+ },
+ {
+  "label": "GUI:MyInfo",
+  "text": "我的资料"
+ },
+ {
+  "label": "GUI:Buddies",
+  "text": "通讯器"
+ },
+ {
+  "label": "GUI:Community",
+  "text": "各阵营每日胜率"
+ },
+ {
+  "label": "GUI:SortAlpha",
+  "text": "名称"
+ },
+ {
+  "label": "GUI:SortPing",
+  "text": "连接"
+ },
+ {
+  "label": "GUI:SortBuddies",
+  "text": "好友"
+ },
+ {
+  "label": "GUI:GSRank0",
+  "text": "列兵"
+ },
+ {
+  "label": "GUI:GSRank1",
+  "text": "下士"
+ },
+ {
+  "label": "GUI:GSRank2",
+  "text": "中士"
+ },
+ {
+  "label": "GUI:GSRank3",
+  "text": "中尉"
+ },
+ {
+  "label": "GUI:GSRank4",
+  "text": "上尉"
+ },
+ {
+  "label": "GUI:GSRank5",
+  "text": "少校"
+ },
+ {
+  "label": "GUI:GSRank6",
+  "text": "上校"
+ },
+ {
+  "label": "GUI:GSRank7",
+  "text": "准将"
+ },
+ {
+  "label": "GUI:GSRank8",
+  "text": "将军"
+ },
+ {
+  "label": "GUI:GSRank9",
+  "text": "总司令"
+ },
+ {
+  "label": "GUI:GSErrorTitle",
+  "text": "通知"
+ },
+ {
+  "label": "GUI:GSDisconnected",
+  "text": "你已与聊天服务器断开连接"
+ },
+ {
+  "label": "GUI:GSDisconReason1",
+  "text": "该昵称已被占用。请另选一个"
+ },
+ {
+  "label": "GUI:GSDisconReason2",
+  "text": "该昵称无效。请另选一个"
+ },
+ {
+  "label": "GUI:GSDisconReason3",
+  "text": "与 C&C 将军：绝命时刻 在线 的连接已断开"
+ },
+ {
+  "label": "GUI:GSDisconReason4",
+  "text": "无法连接到 C&C 将军：绝命时刻 在线"
+ },
+ {
+  "label": "GUI:GSDisconReason5",
+  "text": "登录超时。请检查你的网络连接"
+ },
+ {
+  "label": "GUI:GSDisconReason6",
+  "text": "该昵称/邮箱组合不存在。如果你想创建账户，请点击“创建账户”"
+ },
+ {
+  "label": "GUI:GSDisconReason7",
+  "text": "该邮箱无效"
+ },
+ {
+  "label": "GUI:GSDisconReason8",
+  "text": "密码错误。请重试"
+ },
+ {
+  "label": "GUI:GSDisconReason9",
+  "text": "资料无效"
+ },
+ {
+  "label": "GUI:GSDisconReason10",
+  "text": "资料已被删除"
+ },
+ {
+  "label": "GUI:GSDisconReason11",
+  "text": "好友服务器拒绝连接"
+ },
+ {
+  "label": "GUI:GSDisconReason12",
+  "text": "好友服务器认证失败"
+ },
+ {
+  "label": "GUI:GSDisconReason13",
+  "text": "序列号无效。请换一个"
+ },
+ {
+  "label": "GUI:GSDisconReason14",
+  "text": "注册表已损坏或被修改"
+ },
+ {
+  "label": "GUI:GSDisconReason15",
+  "text": "序列号已被封禁"
+ },
+ {
+  "label": "GUI:GSGroupRoomJoinFail",
+  "text": "加入聊天室失败"
+ },
+ {
+  "label": "GUI:JoinFailedRoomFull",
+  "text": "加入失败 - 房间已满"
+ },
+ {
+  "label": "GUI:JoinFailedInviteOnly",
+  "text": "加入失败 - 该房间仅限受邀者"
+ },
+ {
+  "label": "GUI:JoinFailedBannedFromRoom",
+  "text": "加入失败 - 你已被禁止进入该房间"
+ },
+ {
+  "label": "GUI:JoinFailedBadPassword",
+  "text": "加入失败 - 密码错误"
+ },
+ {
+  "label": "GUI:JoinFailedAlreadyInRoom",
+  "text": "加入失败 - 你已在一个房间中"
+ },
+ {
+  "label": "GUI:JoinFailedNoConnection",
+  "text": "加入失败 - 未连接到聊天服务器"
+ },
+ {
+  "label": "GUI:JoinFailedCRCMismatch",
+  "text": "加入失败 - 游戏版本不同"
+ },
+ {
+  "label": "GUI:JoinFailedUnknownLadder",
+  "text": "加入失败 - 该游戏使用了未知天梯"
+ },
+ {
+  "label": "GUI:JoinFailedDefault",
+  "text": "加入房间失败"
+ },
+ {
+  "label": "GUI:GSKicked",
+  "text": "你被踢出了房间"
+ },
+ {
+  "label": "GUI:NATNegotiationFailed",
+  "text": "无法连接到其他玩家"
+ },
+ {
+  "label": "GUI:GPErrorTitle",
+  "text": "好友错误"
+ },
+ {
+  "label": "GUI:GPDisconnected",
+  "text": "你已与好友服务器断开连接。要重新连接吗？"
+ },
+ {
+  "label": "GUI:GPNoProfile",
+  "text": "你没有使用资料登录。无法获取好友信息"
+ },
+ {
+  "label": "GUI:PSErrorTitle",
+  "text": "持久存储错误"
+ },
+ {
+  "label": "GUI:PSCannotConnect",
+  "text": "无法连接到持久存储服务器"
+ },
+ {
+  "label": "Buddy:Offline",
+  "text": "离线"
+ },
+ {
+  "label": "Buddy:Online",
+  "text": "在线"
+ },
+ {
+  "label": "Buddy:Chatting",
+  "text": "在 %ls 聊天"
+ },
+ {
+  "label": "Buddy:Staging",
+  "text": "在 %ls 准备中"
+ },
+ {
+  "label": "Buddy:Loading",
+  "text": "在 %ls 载入中"
+ },
+ {
+  "label": "Buddy:Playing",
+  "text": "在 %ls 游戏中"
+ },
+ {
+  "label": "Buddy:Matching",
+  "text": "快速匹配中"
+ },
+ {
+  "label": "Buddy:OnlineNotification",
+  "text": "%hs 已上线"
+ },
+ {
+  "label": "Buddy:OfflineNotification",
+  "text": "%hs 已离线"
+ },
+ {
+  "label": "Buddy:AddNotification",
+  "text": "来自 %hs 的好友请求"
+ },
+ {
+  "label": "Buddy:MessageNotification",
+  "text": "%hs 说：\n'%s...'"
+ },
+ {
+  "label": "GUI:Com/Tac",
+  "text": "指挥/战术"
+ },
+ {
+  "label": "GUI:MoneySymbol",
+  "text": "$"
+ },
+ {
+  "label": "GUI:$$$",
+  "text": "$$$"
+ },
+ {
+  "label": "GUI:OverchargeExhausted",
+  "text": "超载已耗尽"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToBuild",
+  "text": "你没有足够的资金建造它"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToUpgrade",
+  "text": "你没有足够的资金进行升级"
+ },
+ {
+  "label": "GUI:Level",
+  "text": "等级"
+ },
+ {
+  "label": "GUI:Tac",
+  "text": "战术"
+ },
+ {
+  "label": "GUI:Strat",
+  "text": "战略"
+ },
+ {
+  "label": "GUI:Struct",
+  "text": "建筑"
+ },
+ {
+  "label": "GUI:Waypt",
+  "text": "路径点"
+ },
+ {
+  "label": "GUI:WOLStatus",
+  "text": "C&C 将军：绝命时刻 在线 状态"
+ },
+ {
+  "label": "GUI:AIDifficulty",
+  "text": "电脑难度"
+ },
+ {
+  "label": "GUI:EasyAI",
+  "text": "简单电脑"
+ },
+ {
+  "label": "GUI:MediumAI",
+  "text": "中等电脑"
+ },
+ {
+  "label": "GUI:HardAI",
+  "text": "困难电脑"
+ },
+ {
+  "label": "GUI:Hide",
+  "text": "返回"
+ },
+ {
+  "label": "GUI:Pause",
+  "text": "暂停"
+ },
+ {
+  "label": "GUI:NextFrame",
+  "text": "下一帧"
+ },
+ {
+  "label": "GUI:ReplayMenu",
+  "text": "载入"
+ },
+ {
+  "label": "GUI:AntiAliasing",
+  "text": "抗锯齿"
+ },
+ {
+  "label": "GUI:ScreenCapture",
+  "text": "截图已保存到“%s”"
+ },
+ {
+  "label": "GUI:ScreenshotCapture",
+  "text": "截图"
+ },
+ {
+  "label": "GUI:ScreenshotCaptureDescription",
+  "text": "截取游戏画面"
+ },
+ {
+  "label": "GUI:Null",
+  "text": "."
+ },
+ {
+  "label": "GUI:CRCMismatch",
+  "text": "游戏检测到数据不一致。这意味着多人游戏中玩家之间的同步数据已丢失"
+ },
+ {
+  "label": "GUI:CurrentHotkey",
+  "text": "当前快捷键"
+ },
+ {
+  "label": "GUI:AssignNewHotkey",
+  "text": "分配新快捷键"
+ },
+ {
+  "label": "GUI:CurrentlyAssignedTo",
+  "text": "当前分配给"
+ },
+ {
+  "label": "GUI:Reset",
+  "text": "重置"
+ },
+ {
+  "label": "QM:JOININGQMCHANNEL",
+  "text": "正在加入快速对战……"
+ },
+ {
+  "label": "QM:WORKING",
+  "text": "当前有 %d 名玩家正在尝试匹配……"
+ },
+ {
+  "label": "QM:POOLSIZE",
+  "text": "当前有 %d 名玩家正在尝试匹配……"
+ },
+ {
+  "label": "QM:LOOKINGFORBOT",
+  "text": "正在寻找 C&C 将军：绝命时刻 在线 匹配服务……"
+ },
+ {
+  "label": "QM:SENTINFO",
+  "text": "游戏信息已发送……"
+ },
+ {
+  "label": "QM:WIDENINGSEARCH",
+  "text": "正在扩大搜索范围，寻找最符合你偏好的对手……"
+ },
+ {
+  "label": "QM:MATCHED",
+  "text": "太好了，已找到对手……"
+ },
+ {
+  "label": "QM:INCHANNEL",
+  "text": "已进入频道……"
+ },
+ {
+  "label": "QM:NEGOTIATINGFIREWALLS",
+  "text": "正在协商防火墙……"
+ },
+ {
+  "label": "QM:STARTINGGAME",
+  "text": "正在开始游戏……"
+ },
+ {
+  "label": "QM:COULDNOTFINDBOT",
+  "text": "找不到匹配服务"
+ },
+ {
+  "label": "QM:COULDNOTFINDCHANNEL",
+  "text": "找不到快速对战频道"
+ },
+ {
+  "label": "QM:COULDNOTNEGOTIATEFIREWALLS",
+  "text": "无法协商防火墙"
+ },
+ {
+  "label": "QM:STOPPED",
+  "text": "快速对战已中止"
+ },
+ {
+  "label": "QM:WaitingForPlayerToJoin",
+  "text": "正在等待对手加入"
+ },
+ {
+  "label": "QM:FindingGameChannel",
+  "text": "正在寻找对手的游戏"
+ },
+ {
+  "label": "QM:JoinedGameChannel",
+  "text": "已加入对手的游戏"
+ },
+ {
+  "label": "QM:PlayerJoined",
+  "text": "对手已加入"
+ },
+ {
+  "label": "QM:LookingForMatchChannel",
+  "text": "正在寻找快速对战频道"
+ },
+ {
+  "label": "QM:NoMatchChannel",
+  "text": "未找到快速对战频道"
+ },
+ {
+  "label": "QM:JoinedMatchChannel",
+  "text": "已加入快速对战频道"
+ },
+ {
+  "label": "QM:NoMatchingBot",
+  "text": "未找到匹配服务"
+ },
+ {
+  "label": "QM:GameNotFound",
+  "text": "快速对战找不到对手的游戏"
+ },
+ {
+  "label": "QM:TimeoutOtherPlayer",
+  "text": "快速对战等待对手加入游戏超时"
+ },
+ {
+  "label": "Version:Format4",
+  "text": "%d.%02d.%d 版本 %d %c%c"
+ },
+ {
+  "label": "Version:Format3",
+  "text": "版本 %d.%02d.%d"
+ },
+ {
+  "label": "Version:Format2",
+  "text": "版本 %d.%02d"
+ },
+ {
+  "label": "Version:BuildTime",
+  "text": "%ls %ls"
+ },
+ {
+  "label": "Version:BuildMachine",
+  "text": "构建机器：%ls"
+ },
+ {
+  "label": "Version:BuildUser",
+  "text": "构建者 %ls"
+ },
+ {
+  "label": "GUI:SuperweaponDaisyCutter",
+  "text": "燃料空气炸弹"
+ },
+ {
+  "label": "GUI:SuperweaponParadropAmerica",
+  "text": "伞兵空降"
+ },
+ {
+  "label": "GUI:SuperweaponClusterMines",
+  "text": "集束地雷"
+ },
+ {
+  "label": "GUI:SuperweaponEMPPulse",
+  "text": "EMP 电磁脉冲"
+ },
+ {
+  "label": "GUI:SuperweaponA10ThunderboltMissileStrike",
+  "text": "A10 导弹打击"
+ },
+ {
+  "label": "GUI:SuperweaponCrateDrop",
+  "text": "补给箱空投"
+ },
+ {
+  "label": "GUI:SuperweaponCarpetBomb",
+  "text": "地毯式轰炸"
+ },
+ {
+  "label": "GUI:SuperweaponNapalmStrike",
+  "text": "凝固汽油弹打击"
+ },
+ {
+  "label": "GUI:SuperweaponCashHack",
+  "text": "资金入侵"
+ },
+ {
+  "label": "GUI:SuperweaponNeutronMissile",
+  "text": "核导弹"
+ },
+ {
+  "label": "GUI:SuperweaponScudStorm",
+  "text": "飞毛腿风暴"
+ },
+ {
+  "label": "GUI:SuperweaponTerrorCell",
+  "text": "恐怖小组"
+ },
+ {
+  "label": "GUI:SuperweaponRebelAmbush",
+  "text": "伏击"
+ },
+ {
+  "label": "GUI:SuperweaponBlackMarketNuke",
+  "text": "黑市核弹"
+ },
+ {
+  "label": "GUI:SuperweaponAnthraxBomb",
+  "text": "炭疽炸弹"
+ },
+ {
+  "label": "GUI:SuperweaponDemoralize",
+  "text": "士气打击"
+ },
+ {
+  "label": "GUI:SpecialAbilityGuidedMissiles",
+  "text": "激光制导导弹"
+ },
+ {
+  "label": "GUI:SpecialAbilityDetonateCharges",
+  "text": "引爆炸药"
+ },
+ {
+  "label": "GUI:SuperweaponParticleUplinkCannon",
+  "text": "粒子加农炮"
+ },
+ {
+  "label": "GUI:PatchAvailable",
+  "text": "有可用更新"
+ },
+ {
+  "label": "GUI:MustPatchForOnline",
+  "text": "你必须下载更新才能进行 C&C 将军：绝命时刻 在线 游戏"
+ },
+ {
+  "label": "GUI:CanPatchForOnline",
+  "text": "你想下载更新吗？"
+ },
+ {
+  "label": "GUI:CheckingForPatches",
+  "text": "正在检查更新"
+ },
+ {
+  "label": "GUI:DownloadErrorTitle",
+  "text": "下载错误"
+ },
+ {
+  "label": "GUI:DownloadSuccessTitle",
+  "text": "下载成功"
+ },
+ {
+  "label": "GUI:DownloadSuccess",
+  "text": "下载已完成，没有错误"
+ },
+ {
+  "label": "GUI:DownloadSuccessMustQuit",
+  "text": "点击“确定”退出 Command & Conquer 将军：绝命时刻 并应用更新"
+ },
+ {
+  "label": "GUI:DownloadBytesRatio",
+  "text": "%d / %d 字节"
+ },
+ {
+  "label": "GUI:DownloadTimeLeft",
+  "text": "剩余 %d:%02d:%02d"
+ },
+ {
+  "label": "GUI:DownloadUnknownTime",
+  "text": "???"
+ },
+ {
+  "label": "FTP:StatusIdle",
+  "text": "空闲"
+ },
+ {
+  "label": "FTP:UnknownError",
+  "text": "未知错误"
+ },
+ {
+  "label": "FTP:NoSuchServer",
+  "text": "服务器不存在"
+ },
+ {
+  "label": "FTP:CouldNotConnect",
+  "text": "无法连接"
+ },
+ {
+  "label": "FTP:LoginFailed",
+  "text": "登录失败"
+ },
+ {
+  "label": "FTP:NoSuchFile",
+  "text": "文件不存在"
+ },
+ {
+  "label": "FTP:LocalFileOpenFailed",
+  "text": "无法打开本地文件"
+ },
+ {
+  "label": "FTP:TCPError",
+  "text": "TCP 错误"
+ },
+ {
+  "label": "FTP:DisconnectError",
+  "text": "断开连接错误"
+ },
+ {
+  "label": "FTP:StatusConnecting",
+  "text": "正在连接"
+ },
+ {
+  "label": "FTP:StatusLoggingIn",
+  "text": "正在登录"
+ },
+ {
+  "label": "FTP:StatusFindingFile",
+  "text": "正在查找文件"
+ },
+ {
+  "label": "FTP:StatusQueryingResume",
+  "text": "正在查询是否可以续传"
+ },
+ {
+  "label": "FTP:StatusDownloading",
+  "text": "正在下载"
+ },
+ {
+  "label": "FTP:StatusDisconnecting",
+  "text": "正在断开连接"
+ },
+ {
+  "label": "FTP:StatusFinishing",
+  "text": "正在完成"
+ },
+ {
+  "label": "FTP:StatusDone",
+  "text": "完成"
+ },
+ {
+  "label": "FTP:StatusNone",
+  "text": "无"
+ },
+ {
+  "label": "WOL:InternalError",
+  "text": "C&C 将军：绝命时刻 在线 内部错误"
+ },
+ {
+  "label": "WOL:ServerBan",
+  "text": "抱歉，你已被 C&C 将军：绝命时刻 在线 封禁。请查看服务条款"
+ },
+ {
+  "label": "WOL:DisconnectedError",
+  "text": "抱歉，你已被 C&C 将军：绝命时刻 在线 封禁。请查看服务条款"
+ },
+ {
+  "label": "WOL:NoServers",
+  "text": "未找到 C&C 将军：绝命时刻 在线"
+ },
+ {
+  "label": "WOL:LoginTimeout",
+  "text": "等待加入 C&C 将军：绝命时刻 在线 超时"
+ },
+ {
+  "label": "WOL:NoMatchChannel",
+  "text": "未找到匹配频道"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:GameOptions",
+  "text": "게임 옵션"
+ },
+ {
+  "label": "GUI:SinglePlayer",
+  "text": "싱글 플레이"
+ },
+ {
+  "label": "GUI:Network",
+  "text": "네트워크"
+ },
+ {
+  "label": "GUI:Options",
+  "text": "옵션"
+ },
+ {
+  "label": "GUI:Skirmish",
+  "text": "스커미시"
+ },
+ {
+  "label": "GUI:Back",
+  "text": "뒤로"
+ },
+ {
+  "label": "GUI:StartGame",
+  "text": "게임 시작"
+ },
+ {
+  "label": "GUI:Color",
+  "text": "색상"
+ },
+ {
+  "label": "GUI:Slower",
+  "text": "느리게"
+ },
+ {
+  "label": "GUI:Faster",
+  "text": "빠르게"
+ },
+ {
+  "label": "GUI:Low",
+  "text": "낮음"
+ },
+ {
+  "label": "GUI:Medium",
+  "text": "중간"
+ },
+ {
+  "label": "GUI:High",
+  "text": "높음"
+ },
+ {
+  "label": "GUI:None",
+  "text": "없음"
+ },
+ {
+  "label": "GUI:Random",
+  "text": "무작위"
+ },
+ {
+  "label": "GUI:Cancel",
+  "text": "취소"
+ },
+ {
+  "label": "GUI:Ok",
+  "text": "확인"
+ },
+ {
+  "label": "GUI:Delete",
+  "text": "제거"
+ },
+ {
+  "label": "GUI:Description",
+  "text": "설명"
+ },
+ {
+  "label": "GUI:Load",
+  "text": "불러오기"
+ },
+ {
+  "label": "GUI:Progress",
+  "text": "진행 상황"
+ },
+ {
+  "label": "GUI:Assign",
+  "text": "지정"
+ },
+ {
+  "label": "GUI:CustomizeKeyboard",
+  "text": "키보드 설정"
+ },
+ {
+  "label": "GUI:Category",
+  "text": "분류"
+ },
+ {
+  "label": "GUI:Commands",
+  "text": "명령"
+ },
+ {
+  "label": "GUI:ResetAll",
+  "text": "모두 초기화"
+ },
+ {
+  "label": "GUI:DisplayOptions",
+  "text": "화면 옵션"
+ },
+ {
+  "label": "GUI:KeyboardOptions",
+  "text": "키보드 옵션"
+ },
+ {
+  "label": "GUI:MainMenu",
+  "text": "종료"
+ },
+ {
+  "label": "GUI:Units",
+  "text": "유닛"
+ },
+ {
+  "label": "GUI:Buildings",
+  "text": "건물"
+ },
+ {
+  "label": "GUI:Players",
+  "text": "플레이어"
+ },
+ {
+  "label": "GUI:Preview",
+  "text": "맵 미리보기"
+ },
+ {
+  "label": "GUI:Save",
+  "text": "저장"
+ },
+ {
+  "label": "GUI:Side",
+  "text": "진영"
+ },
+ {
+  "label": "GUI:Accept",
+  "text": "수락"
+ },
+ {
+  "label": "GUI:Games",
+  "text": "게임"
+ },
+ {
+  "label": "GUI:Join",
+  "text": "게임 참가"
+ },
+ {
+  "label": "GUI:LoadGame",
+  "text": "게임 불러오기"
+ },
+ {
+  "label": "GUI:SaveGame",
+  "text": "게임 저장"
+ },
+ {
+  "label": "GUI:Score",
+  "text": "점수"
+ },
+ {
+  "label": "GUI:Add",
+  "text": "추가"
+ },
+ {
+  "label": "GUI:MusicVolume",
+  "text": "음악 볼륨"
+ },
+ {
+  "label": "GUI:VoiceVolume",
+  "text": "음성 볼륨"
+ },
+ {
+  "label": "GUI:Play",
+  "text": "게임 시작"
+ },
+ {
+  "label": "GUI:Stop",
+  "text": "정지"
+ },
+ {
+  "label": "GUI:Continue",
+  "text": "계속"
+ },
+ {
+  "label": "GUI:MaxPing",
+  "text": "최대 허용 핑:"
+ },
+ {
+  "label": "GUI:Ladder",
+  "text": "래더"
+ },
+ {
+  "label": "GUI:Close",
+  "text": "닫기"
+ },
+ {
+  "label": "GUI:Help",
+  "text": "도움말"
+ },
+ {
+  "label": "GUI:Rank",
+  "text": "계급"
+ },
+ {
+  "label": "GUI:Password",
+  "text": "비밀번호"
+ },
+ {
+  "label": "GUI:Disconnect",
+  "text": "연결 끊기"
+ },
+ {
+  "label": "GUI:No",
+  "text": "아니요"
+ },
+ {
+  "label": "GUI:Yes",
+  "text": "예"
+ },
+ {
+  "label": "GUI:Blank",
+  "text": "."
+ },
+ {
+  "label": "GUI:Open",
+  "text": "열림"
+ },
+ {
+  "label": "GUI:Closed",
+  "text": "닫힘"
+ },
+ {
+  "label": "GUI:Login",
+  "text": "로그인"
+ },
+ {
+  "label": "GUI:WOLWelcome",
+  "text": "환영합니다, %hs 장군님"
+ },
+ {
+  "label": "GUI:QuickMatch",
+  "text": "빠른 대전"
+ },
+ {
+  "label": "GUI:CustomMatch",
+  "text": "사용자 지정 대전"
+ },
+ {
+  "label": "GUI:LadderRank",
+  "text": "래더 순위"
+ },
+ {
+  "label": "GUI:Disconnects",
+  "text": "연결 끊김"
+ },
+ {
+  "label": "GUI:CreateGame",
+  "text": "게임 만들기"
+ },
+ {
+  "label": "GUI:AutoLogin",
+  "text": "다음부터 자동 로그인"
+ },
+ {
+  "label": "GUI:AddBuddy",
+  "text": "친구 추가"
+ },
+ {
+  "label": "GUI:RemoveBuddy",
+  "text": "친구 삭제"
+ },
+ {
+  "label": "GUI:AudioOptions",
+  "text": "오디오 옵션"
+ },
+ {
+  "label": "GUI:LadderWins",
+  "text": "래더 승리"
+ },
+ {
+  "label": "GUI:LadderLosses",
+  "text": "래더 패배"
+ },
+ {
+  "label": "GUI:LadderPoints",
+  "text": "래더 점수"
+ },
+ {
+  "label": "WOL:BuddyOffline",
+  "text": "%ls 님이 오프라인입니다"
+ },
+ {
+  "label": "WOL:Locale00",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "WOL:Locale01",
+  "text": "기타 지역"
+ },
+ {
+  "label": "WOL:Locale02",
+  "text": "미국"
+ },
+ {
+  "label": "WOL:Locale03",
+  "text": "캐나다"
+ },
+ {
+  "label": "WOL:Locale04",
+  "text": "영국"
+ },
+ {
+  "label": "WOL:Locale05",
+  "text": "독일"
+ },
+ {
+  "label": "WOL:Locale06",
+  "text": "프랑스"
+ },
+ {
+  "label": "WOL:Locale07",
+  "text": "스페인"
+ },
+ {
+  "label": "WOL:Locale08",
+  "text": "네덜란드"
+ },
+ {
+  "label": "WOL:Locale09",
+  "text": "벨기에"
+ },
+ {
+  "label": "WOL:Locale10",
+  "text": "오스트리아"
+ },
+ {
+  "label": "WOL:Locale11",
+  "text": "스위스"
+ },
+ {
+  "label": "WOL:Locale12",
+  "text": "이탈리아"
+ },
+ {
+  "label": "WOL:Locale13",
+  "text": "덴마크"
+ },
+ {
+  "label": "WOL:Locale14",
+  "text": "스웨덴"
+ },
+ {
+  "label": "WOL:Locale15",
+  "text": "노르웨이"
+ },
+ {
+  "label": "WOL:Locale16",
+  "text": "핀란드"
+ },
+ {
+  "label": "WOL:Locale17",
+  "text": "이스라엘"
+ },
+ {
+  "label": "WOL:Locale18",
+  "text": "남아프리카 공화국"
+ },
+ {
+  "label": "WOL:Locale19",
+  "text": "일본"
+ },
+ {
+  "label": "WOL:Locale20",
+  "text": "한국"
+ },
+ {
+  "label": "WOL:Locale21",
+  "text": "중국"
+ },
+ {
+  "label": "WOL:Locale22",
+  "text": "싱가포르"
+ },
+ {
+  "label": "WOL:Locale23",
+  "text": "대만"
+ },
+ {
+  "label": "WOL:Locale24",
+  "text": "말레이시아"
+ },
+ {
+  "label": "WOL:Locale25",
+  "text": "오스트레일리아"
+ },
+ {
+  "label": "WOL:Locale26",
+  "text": "뉴질랜드"
+ },
+ {
+  "label": "WOL:Locale27",
+  "text": "브라질"
+ },
+ {
+  "label": "WOL:Locale28",
+  "text": "태국"
+ },
+ {
+  "label": "WOL:Locale29",
+  "text": "아르헨티나"
+ },
+ {
+  "label": "WOL:Locale30",
+  "text": "필리핀"
+ },
+ {
+  "label": "WOL:Locale31",
+  "text": "그리스"
+ },
+ {
+  "label": "WOL:Locale32",
+  "text": "아일랜드"
+ },
+ {
+  "label": "WOL:Locale33",
+  "text": "폴란드"
+ },
+ {
+  "label": "WOL:Locale34",
+  "text": "포르투갈"
+ },
+ {
+  "label": "WOL:Locale35",
+  "text": "멕시코"
+ },
+ {
+  "label": "WOL:Locale36",
+  "text": "러시아"
+ },
+ {
+  "label": "WOL:Locale37",
+  "text": "터키"
+ },
+ {
+  "label": "GUI:Observer",
+  "text": "관전자"
+ },
+ {
+  "label": "GUI:Team",
+  "text": "팀"
+ },
+ {
+  "label": "LETTER:G",
+  "text": "G"
+ },
+ {
+  "label": "LETTER:L",
+  "text": "L"
+ },
+ {
+  "label": "LETTER:M",
+  "text": "M"
+ },
+ {
+  "label": "LETTER:S",
+  "text": "S"
+ },
+ {
+  "label": "LETTER:O",
+  "text": "O"
+ },
+ {
+  "label": "NUMBER:1",
+  "text": "1"
+ },
+ {
+  "label": "NUMBER:2",
+  "text": "2"
+ },
+ {
+  "label": "NUMBER:3",
+  "text": "3"
+ },
+ {
+  "label": "NUMBER:4",
+  "text": "4"
+ },
+ {
+  "label": "NUMBER:5",
+  "text": "5"
+ },
+ {
+  "label": "NUMBER:6",
+  "text": "6"
+ },
+ {
+  "label": "NUMBER:7",
+  "text": "7"
+ },
+ {
+  "label": "NUMBER:8",
+  "text": "8"
+ },
+ {
+  "label": "NUMBER:9",
+  "text": "9"
+ },
+ {
+  "label": "NUMBER:0",
+  "text": "0"
+ },
+ {
+  "label": "Color:Gold",
+  "text": "금색"
+ },
+ {
+  "label": "Color:Red",
+  "text": "빨간색"
+ },
+ {
+  "label": "Color:Blue",
+  "text": "파란색"
+ },
+ {
+  "label": "Color:Green",
+  "text": "초록색"
+ },
+ {
+  "label": "Color:Orange",
+  "text": "주황색"
+ },
+ {
+  "label": "Color:SkyBlue",
+  "text": "하늘색"
+ },
+ {
+  "label": "Color:Purple",
+  "text": "보라색"
+ },
+ {
+  "label": "Color:Pink",
+  "text": "분홍색"
+ },
+ {
+  "label": "MSG:Testing",
+  "text": "산토끼 토끼야 어디를 가느냐"
+ },
+ {
+  "label": "MSG:Test2",
+  "text": "깡충깡충 뛰면서 어디를 가느냐"
+ },
+ {
+  "label": "GUI:ShowBehindBuildings",
+  "text": "건물 뒤 열 신호 표시 켜짐"
+ },
+ {
+  "label": "GUI:HideBehindBuildings",
+  "text": "건물 뒤 열 신호 표시 꺼짐"
+ },
+ {
+  "label": "GUI:DetailsSetToLowest",
+  "text": "그래픽 품질 낮음"
+ },
+ {
+  "label": "GUI:ReturnGraphicsToPreviousSettings",
+  "text": "그래픽 품질을 이전 설정으로 되돌리는 중"
+ },
+ {
+  "label": "GUI:BeaconLabel",
+  "text": "메시지 입력:"
+ },
+ {
+  "label": "GUI:Beacon",
+  "text": "비컨"
+ },
+ {
+  "label": "GUI:EACopyright",
+  "text": "© 2003 ELECTRONIC ARTS INC. ALL RIGHTS RESERVED"
+ },
+ {
+  "label": "GUI:DeleteBeacon",
+  "text": "비컨\n삭제"
+ },
+ {
+  "label": "GUI:BeaconPlaced",
+  "text": "%ls 님이 비컨을 설치했습니다"
+ },
+ {
+  "label": "GUI:BeaconPlacementFailed",
+  "text": "여기에는 비컨을 설치할 수 없습니다"
+ },
+ {
+  "label": "GUI:TooManyBeacons",
+  "text": "죄송합니다. 더 이상 비컨을 설치할 수 없습니다"
+ },
+ {
+  "label": "GUI:EA",
+  "text": "EA"
+ },
+ {
+  "label": "GUI:TestBrowser",
+  "text": "테스트 브라우저"
+ },
+ {
+  "label": "GUI:Multiplayer",
+  "text": "멀티플레이"
+ },
+ {
+  "label": "GUI:GameName",
+  "text": "게임 이름:"
+ },
+ {
+  "label": "GUI:NoFileSelected",
+  "text": "파일을 선택하십시오"
+ },
+ {
+  "label": "GUI:PleaseSelectAFile",
+  "text": "파일을 선택하십시오"
+ },
+ {
+  "label": "GUI:DeleteFile",
+  "text": "파일을 삭제하시겠습니까?"
+ },
+ {
+  "label": "GUI:AreYouSureDelete",
+  "text": "선택한 파일을 삭제하시겠습니까?"
+ },
+ {
+  "label": "GUI:CopyFileToDesktop",
+  "text": "리플레이를 바탕 화면에 복사하시겠습니까?"
+ },
+ {
+  "label": "GUI:AreYouSureCopy",
+  "text": "이 파일을 바탕 화면에 복사하시겠습니까? 같은 이름의 파일은 덮어쓰게 됩니다"
+ },
+ {
+  "label": "GUI:ErrorCopyingFile",
+  "text": "파일을 복사하는 중 오류가 발생했습니다"
+ },
+ {
+  "label": "GUI:LoadReplay",
+  "text": "리플레이 불러오기"
+ },
+ {
+  "label": "GUI:DeleteReplay",
+  "text": "리플레이 삭제"
+ },
+ {
+  "label": "GUI:CopyReplay",
+  "text": "리플레이 복사"
+ },
+ {
+  "label": "GUI:ErrorDeletingFile",
+  "text": "파일을 삭제하는 중 오류가 발생했습니다"
+ },
+ {
+  "label": "GUI:ShortDescription",
+  "text": "게임 간단 설명:"
+ },
+ {
+  "label": "GUI:LadderName",
+  "text": "래더 이름:"
+ },
+ {
+  "label": "GUI:LadderPassword",
+  "text": "래더 비밀번호"
+ },
+ {
+  "label": "GUI:LadderURL",
+  "text": "홈페이지: %hs"
+ },
+ {
+  "label": "GUI:LadderHasPassword",
+  "text": "이 래더는 비밀번호로 보호되어 있습니다"
+ },
+ {
+  "label": "GUI:LadderMinWins",
+  "text": "최소 승리 수: %d"
+ },
+ {
+  "label": "GUI:LadderMaxWins",
+  "text": "최대 허용 승리 수: %d"
+ },
+ {
+  "label": "GUI:LadderFactions",
+  "text": "허용 진영:"
+ },
+ {
+  "label": "GUI:LadderRandomFactions",
+  "text": "무작위 진영:"
+ },
+ {
+  "label": "GUI:LadderMaps",
+  "text": "허용 맵:"
+ },
+ {
+  "label": "GUI:LadderRandomMaps",
+  "text": "무작위 맵:"
+ },
+ {
+  "label": "GUI:AllowObservers",
+  "text": "관전자 허용"
+ },
+ {
+  "label": "GUI:USA",
+  "text": "미국"
+ },
+ {
+  "label": "GUI:China",
+  "text": "중국"
+ },
+ {
+  "label": "GUI:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "GUI:AmericaAllies",
+  "text": "미국 동맹"
+ },
+ {
+  "label": "GUI:ChinaAllies",
+  "text": "중국 동맹"
+ },
+ {
+  "label": "GUI:GLAAllies",
+  "text": "GLA 동맹"
+ },
+ {
+  "label": "GUI:AmericaEnemies",
+  "text": "미국 적"
+ },
+ {
+  "label": "GUI:ChinaEnemies",
+  "text": "중국 적"
+ },
+ {
+  "label": "GUI:GLAEnemies",
+  "text": "GLA 적"
+ },
+ {
+  "label": "GUI:EndCampaign",
+  "text": "캠페인 종료"
+ },
+ {
+  "label": "GUI:Retry",
+  "text": "다시 하시겠습니까?"
+ },
+ {
+  "label": "GUI:RecentSave",
+  "text": "최근 저장"
+ },
+ {
+  "label": "GUI:GetUpdate",
+  "text": "업데이트 받기"
+ },
+ {
+  "label": "GUI:DirectConnect",
+  "text": "직접 연결"
+ },
+ {
+  "label": "GUI:WorldBuilder",
+  "text": "월드 빌더"
+ },
+ {
+  "label": "GUI:WorldBuilderLoadFailed",
+  "text": "월드 빌더를 불러오지 못했습니다"
+ },
+ {
+  "label": "GUI:DontUseAccount",
+  "text": "계정 사용 안 함"
+ },
+ {
+  "label": "GUI:UseAccount",
+  "text": "계정 사용"
+ },
+ {
+  "label": "GUI:ScoreScreen",
+  "text": "점수 화면"
+ },
+ {
+  "label": "GUI:Rehost",
+  "text": "다시 하시겠습니까?"
+ },
+ {
+  "label": "GUI:UnitsBuilt",
+  "text": "생산한\n유닛"
+ },
+ {
+  "label": "GUI:UnitsLost",
+  "text": "잃은\n유닛"
+ },
+ {
+  "label": "GUI:UnitsKilled",
+  "text": "파괴한\n유닛"
+ }
+]

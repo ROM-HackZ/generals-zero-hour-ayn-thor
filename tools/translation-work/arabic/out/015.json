@@ -1,0 +1,802 @@
+[
+ {
+  "label": "UPGRADE:BecomeRealGLABlackMarket",
+  "text": "سوق سوداء حقيقية"
+ },
+ {
+  "label": "UPGRADE:FusionReactors",
+  "text": "مفاعلات الاندماج"
+ },
+ {
+  "label": "UPGRADE:CamoNetting",
+  "text": "شباك التمويه"
+ },
+ {
+  "label": "UPGRADE:FortifiedStructure",
+  "text": "مبنى محصّن"
+ },
+ {
+  "label": "UPGRADE:BoobyTrap",
+  "text": "فخ مفخخ"
+ },
+ {
+  "label": "UPGRADE:AnthraxGamma",
+  "text": "الجمرة الخبيثة غاما"
+ },
+ {
+  "label": "UPGRADE:WorkerShoes",
+  "text": "أحذية العمال"
+ },
+ {
+  "label": "UPGRADE:ChemicalSuits",
+  "text": "بدلات كيميائية"
+ },
+ {
+  "label": "UPGRADE:AmericaCountermeasures",
+  "text": "التدابير المضادة"
+ },
+ {
+  "label": "UPGRADE:UpgradeChinaIsotopeStability",
+  "text": "استقرار النظائر (&I)"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaIsotopeStability",
+  "text": "يمنع معظم الإشعاع الجانبي من إيذاء الوحدات الصديقة عند تدمير المركبات"
+ },
+ {
+  "label": "OBJECT:SecretResearchLab",
+  "text": "مختبر الأبحاث السري"
+ },
+ {
+  "label": "OBJECT:InternetCenter",
+  "text": "مركز الإنترنت"
+ },
+ {
+  "label": "OBJECT:AircraftCarrier",
+  "text": "حاملة طائرات"
+ },
+ {
+  "label": "OBJECT:TechArtilleryPlatform",
+  "text": "منصة مدفعية -- استولِ عليها لقصف الأعداء البريين"
+ },
+ {
+  "label": "OBJECT:NukeHunter",
+  "text": "صائد نووي"
+ },
+ {
+  "label": "OBJECT:TechRepairPad",
+  "text": "منصة إصلاح -- استولِ عليها لتتمكن المركبات من الإصلاح فيها"
+ },
+ {
+  "label": "OBJECT:AirF_Aurora",
+  "text": "قاذفة أورورا بالوقود الجوي"
+ },
+ {
+  "label": "OBJECT:SupW_Aurora",
+  "text": "قاذفة أورورا ألفا"
+ },
+ {
+  "label": "OBJECT:BattleBus",
+  "text": "حافلة القتال"
+ },
+ {
+  "label": "OBJECT:Helix",
+  "text": "هيليكس"
+ },
+ {
+  "label": "OBJECT:PropagandaTrooper",
+  "text": "جندي الدعاية"
+ },
+ {
+  "label": "OBJECT:HellfireDrone",
+  "text": "طائرة هيلفاير مسيّرة"
+ },
+ {
+  "label": "OBJECT:Avenger",
+  "text": "أفنجر"
+ },
+ {
+  "label": "OBJECT:Microwave",
+  "text": "دبابة الميكروويف"
+ },
+ {
+  "label": "OBJECT:MOAB",
+  "text": "أم القنابل"
+ },
+ {
+  "label": "OBJECT:NukeDrop",
+  "text": "إنزال نووي"
+ },
+ {
+  "label": "OBJECT:SuitcaseNuke",
+  "text": "قنبلة نووية حقيبة"
+ },
+ {
+  "label": "OBJECT:StructureEMPMine",
+  "text": "لغم نيوتروني"
+ },
+ {
+  "label": "OBJECT:ECMTank",
+  "text": "دبابة التشويش الإلكتروني"
+ },
+ {
+  "label": "OBJECT:Saboteur",
+  "text": "مخرّب"
+ },
+ {
+  "label": "OBJECT:TechRepairBay",
+  "text": "ورشة إصلاح تقنية -- استولِ عليها لإصلاح المركبات في كل ساحة المعركة"
+ },
+ {
+  "label": "OBJECT:TechReinforcementPad",
+  "text": "منصة التعزيزات -- استولِ عليها لتحصل على مركبات إضافية"
+ },
+ {
+  "label": "OBJECT:Sniper",
+  "text": "قنّاص"
+ },
+ {
+  "label": "OBJECT:FireBase",
+  "text": "قاعدة نيران"
+ },
+ {
+  "label": "OBJECT:KingRaptor",
+  "text": "الرابتور الملك"
+ },
+ {
+  "label": "OBJECT:CombatBike",
+  "text": "دراجة قتالية"
+ },
+ {
+  "label": "OBJECT:SentryDrone",
+  "text": "طائرة حراسة مسيّرة"
+ },
+ {
+  "label": "OBJECT:TomahawkStorm",
+  "text": "عاصفة توماهوك"
+ },
+ {
+  "label": "OBJECT:ListeningOutpost",
+  "text": "موقع تنصت"
+ },
+ {
+  "label": "Map:LeipzigLowlands",
+  "text": "Leipzig Lowlands"
+ },
+ {
+  "label": "Map:BombardmentBeach",
+  "text": "Bombardment Beach"
+ },
+ {
+  "label": "Map:BearTownBeatdown",
+  "text": "Bear Town Beatdown"
+ },
+ {
+  "label": "MAP:RiverSnakes",
+  "text": "Winding River"
+ },
+ {
+  "label": "MAP:KillingFields",
+  "text": "Killing Fields"
+ },
+ {
+  "label": "MAP:ThinIce",
+  "text": "Thin Ice"
+ },
+ {
+  "label": "MAP:ElScorcho",
+  "text": "El Scorcho"
+ },
+ {
+  "label": "MAP:GreenPastures",
+  "text": "Green Pastures"
+ },
+ {
+  "label": "MAP:FreeFireZone",
+  "text": "Free Fire Zone"
+ },
+ {
+  "label": "MAP:DestructionStation",
+  "text": "Destruction Station"
+ },
+ {
+  "label": "MAP:PolarStorm",
+  "text": "Polar Storm"
+ },
+ {
+  "label": "MAP:BitterWinter",
+  "text": "Bitter Winter"
+ },
+ {
+  "label": "MAP:CitySweep",
+  "text": "City Sweep"
+ },
+ {
+  "label": "MAP:FrozenPlains",
+  "text": "Frozen Plains"
+ },
+ {
+  "label": "MAP:RoadRage",
+  "text": "Road Rage"
+ },
+ {
+  "label": "HELP:SentryDrone-01",
+  "text": "تلميح:\nيمكن لطائرة الحراسة المسيّرة رصد وحدات العدو المموّهة"
+ },
+ {
+  "label": "HELP:SentryDrone-02",
+  "text": "تلميح:\nاشترِ رشاش طائرة الحراسة المسيّرة من مركز الاستراتيجية"
+ },
+ {
+  "label": "HELP:MicrowaveTank-01",
+  "text": "تلميح:\nيمكن لدبابة الميكروويف تعطيل المنشآت"
+ },
+ {
+  "label": "HELP:MicrowaveTank-02",
+  "text": "تلميح:\nموجات دبابة الميكروويف تصيب المشاة القريبين"
+ },
+ {
+  "label": "HELP:Avenger-01",
+  "text": "تلميح:\nيمكن لليزر الأفنجر 'تعليم' أهداف العدو\nإطلاق النار على الأهداف المعلَّمة يُحدث ضررًا أكبر"
+ },
+ {
+  "label": "HELP:Avenger-02",
+  "text": "تلميح:\nالأفنجر وحدات دعم يمكنها أيضًا مهاجمة الطائرات"
+ },
+ {
+  "label": "HELP:FireBase-01",
+  "text": "تلميح:\nزوّد قاعدة النيران بالمدافعين الصاروخيين\nلتوفير دفاع جوي وأرضي معًا"
+ },
+ {
+  "label": "HELP:SpectreGunship-01",
+  "text": "تلميح:\nحدّد منطقة لتهاجمها الحربية سبكتر،\nثم استهدف الأعداء يدويًا"
+ },
+ {
+  "label": "HELP:LeafletDrop-01",
+  "text": "تلميح:\nاستخدم إلقاء المنشورات لتعطيل مشاة العدو"
+ },
+ {
+  "label": "HELP:MOAB-01",
+  "text": "تلميح:\nأم القنابل فعّالة ضد المركبات\nوتصعق كل الناجين"
+ },
+ {
+  "label": "HELP:Countermeasures-01",
+  "text": "تلميح:\nرقِّ إلى التدابير المضادة لتساعد الوحدات الجوية على تفادي الهجمات"
+ },
+ {
+  "label": "HELP:HellfireDrone-01",
+  "text": "تلميح:\nرقِّ مركباتك بطائرات هيلفاير المسيّرة\nلزيادة فاعليتها ضد القوات المدرعة"
+ },
+ {
+  "label": "HELP:ChemicalSuit-01",
+  "text": "تلميح:\nاستخدم ترقية البدلات الكيميائية لحماية المشاة\nمن السموم القاتلة والإشعاع"
+ },
+ {
+  "label": "HELP:BunkerBuster-01",
+  "text": "تلميح:\nترقية مدمرات المخابئ للقاذفة الشبحية\nيمكنها إيذاء الأعداء المتحصنين"
+ },
+ {
+  "label": "HELP:BunkerBuster-02",
+  "text": "تلميح:\nيمكن لمدمرات المخابئ قتل الوحدات داخل المخابئ"
+ },
+ {
+  "label": "HELP:SupplyLines-01",
+  "text": "تلميح:\nترقية خطوط الإمداد تحسّن الدخل"
+ },
+ {
+  "label": "HELP:SupplyLines-02",
+  "text": "تلميح:\nرقِّ خطوط الإمداد لزيادة\nكفاءة مروحيات الشينوك"
+ },
+ {
+  "label": "HELP:ListeningOutpost-01",
+  "text": "تلميح:\nمواقع التنصت متخفية وترصد\nالوحدات المموّهة"
+ },
+ {
+  "label": "HELP:ListeningOutpost-02",
+  "text": "تلميح:\nلمواقع التنصت مدى رؤية واسع جدًا"
+ },
+ {
+  "label": "HELP:Helix-01",
+  "text": "تلميح:\nرقِّ الهيليكس ببرج دعاية\nلإصلاح وحداتك القريبة وعلاجها"
+ },
+ {
+  "label": "HELP:Helix-02",
+  "text": "تلميح:\nيمكن ترقية الهيليكس لإلقاء قنابل النابالم\nوتُلقى على الأهداف أسفل الهيليكس"
+ },
+ {
+  "label": "HELP:Helix-03",
+  "text": "تلميح:\nيمكنك ترقية الهيليكس بمخبأ قتالي\nأو برج دعاية أو مدفع جاتلينج"
+ },
+ {
+  "label": "HELP:ECMTank-01",
+  "text": "تلميح:\nاستخدم دبابة التشويش الإلكتروني لإرباك صواريخ العدو وقذائفه الصاروخية"
+ },
+ {
+  "label": "HELP:Frenzy-01",
+  "text": "تلميح:\nاستخدم قدرة الهيجان لزيادة\nالقوة النارية لوحداتك ودروعها"
+ },
+ {
+  "label": "HELP:InternetCenter-01",
+  "text": "تلميح:\nضع الهاكرز في مركز الإنترنت\nلزيادة معدل جمع المال"
+ },
+ {
+  "label": "HELP:InternetCenter-02",
+  "text": "تلميح:\nابنِ مركز الإنترنت ورقِّه إلى\nاختراق الأقمار الصناعية 1 و2"
+ },
+ {
+  "label": "HELP:SatelliteHack1-01",
+  "text": "تلميح:\nيكشف اختراق الأقمار الصناعية 1 جميع مراكز قيادة العدو"
+ },
+ {
+  "label": "HELP:SatelliteHack2-01",
+  "text": "تلميح:\nيكشف اختراق الأقمار الصناعية 2 كل ما تراه وحدات العدو"
+ },
+ {
+  "label": "HELP:EMPMines-01",
+  "text": "تلميح:\nيمكن ترقية الألغام إلى ألغام نيوترونية\nتعطّل مركبات العدو"
+ },
+ {
+  "label": "HELP:NeutronShell-01",
+  "text": "تلميح:\nهجمات القذائف النيوترونية من المدفع النووي تقضي على طواقم\nالمركبات، فيستطيع أي جندي مشاة الاستيلاء عليها"
+ },
+ {
+  "label": "HELP:CombatCycle-01",
+  "text": "تلميح:\nيمكن للدراجات القتالية القفز من المنحدرات"
+ },
+ {
+  "label": "HELP:CombatCycle-02",
+  "text": "تلميح:\nضع جندي آر بي جي على دراجة قتالية\nلتتمكن من إطلاق الصواريخ"
+ },
+ {
+  "label": "HELP:CombatCycle-03",
+  "text": "تلميح:\nضع إرهابيًا على دراجة قتالية\nلتحصل على دراجة انتحارية"
+ },
+ {
+  "label": "HELP:CombatCycle-04",
+  "text": "تلميح:\nيستطيع جارمن كيل القنص من دراجة قتالية"
+ },
+ {
+  "label": "HELP:CombatCycle-05",
+  "text": "تلميح:\nيمكن للعمال استخدام الدراجات القتالية للتنقل بسرعة"
+ },
+ {
+  "label": "HELP:Saboteur-01",
+  "text": "تلميح:\nيعطّل المخرّب قدرات منشآت العدو"
+ },
+ {
+  "label": "HELP:Saboteur-02",
+  "text": "تلميح:\nوجّه المخرّب إلى مركز قيادة العدو\nلإعادة تصفير مؤقتات قدرات جنرالاته"
+ },
+ {
+  "label": "HELP:FakeStructures-01",
+  "text": "تلميح:\nابنِ مبانٍ وهمية لخداع أعدائك"
+ },
+ {
+  "label": "HELP:SneakAttack-01",
+  "text": "تلميح:\nاستخدم الهجوم المباغت لبناء شبكة أنفاق فورًا\nفي أي مكان تراه"
+ },
+ {
+  "label": "HELP:GPSScramble-01",
+  "text": "تلميح:\nاستخدم قدرة مشوّش GPS\nلتمويه الوحدات الصديقة"
+ },
+ {
+  "label": "HELP:WorkerShoes-01",
+  "text": "تلميح:\nاشترِ أحذية العمال لزيادة سرعة تنقل العمال\nوجمعهم للموارد"
+ },
+ {
+  "label": "HELP:CamoNetting-01",
+  "text": "تلميح:\nتموّه شباك التمويه مواقع ستينغر\nوشبكات الأنفاق"
+ },
+ {
+  "label": "HELP:FortifiedStructures-01",
+  "text": "تلميح:\nالمباني المحصّنة أصعب تدميرًا"
+ },
+ {
+  "label": "HELP:BoobyTrap-01",
+  "text": "تلميح:\nتنفجر الفخاخ المفخخة حين يحاول العدو\nالتحصن في المبنى المفخخ أو الاستيلاء عليه"
+ },
+ {
+  "label": "HELP:KingRaptor-01",
+  "text": "تلميح:\nتحمل طائرات الرابتور الملك ذخيرة إضافية ودروعًا أقوى"
+ },
+ {
+  "label": "HELP:CombatChinooks-01",
+  "text": "تلميح:\nيمكن للمشاة داخل الشينوك القتالية إطلاق النار أثناء الطيران"
+ },
+ {
+  "label": "HELP:AuroraAlpha-01",
+  "text": "تلميح:\nأورورا ألفا مزوّدة بقنبلة وقود جوي\nصغيرة لكنها مدمّرة"
+ },
+ {
+  "label": "HELP:MicrowavePatriot-01",
+  "text": "تلميح:\nصواريخ باتريوت الكهرومغناطيسية فعّالة\nضد المركبات والمشاة معًا"
+ },
+ {
+  "label": "HELP:AdvancedRods-01",
+  "text": "تلميح:\nتوفر القضبان المتطورة طاقة أكثر من قضبان التحكم العادية"
+ },
+ {
+  "label": "HELP:LaserTank-01",
+  "text": "تلميح:\nابنِ محطات طاقة إضافية حين تستخدم دبابات الليزر\nفهي لا تستطيع التحرك أو إطلاق النار حين تنخفض الطاقة"
+ },
+ {
+  "label": "HELP:LaserDefenseTurret-01",
+  "text": "تلميح:\nأبراج الدفاع الليزرية قوية لكنها تتطلب طاقة إضافية"
+ },
+ {
+  "label": "HELP:AssaultTroopTransport-01",
+  "text": "تلميح:\nيمكن للوحدات إطلاق النار من ناقلة الجنود الهجومية"
+ },
+ {
+  "label": "HELP:AttackOutpost-01",
+  "text": "تلميح:\nيمكن للموقع الهجومي استيعاب مشاة إضافيين\nورصد الوحدات المتخفية"
+ },
+ {
+  "label": "HELP:FortifiedBunkers-01",
+  "text": "تلميح:\nتأتي المخابئ المحصّنة بألغام\nودروع أقوى، ويمكنها استيعاب مشاة إضافيين"
+ },
+ {
+  "label": "HELP:Mini-Gunner-01",
+  "text": "تلميح:\nيحمل رماة الرشاش الدوّار مدفع جاتلينج شخصيًا"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-01",
+  "text": "تلميح:\nوحدات اللوتس الأسود لديك تمتلك قدرات محسّنة"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-02",
+  "text": "تلميح:\nيمكنك بناء عدة وحدات من اللوتس الأسود"
+ },
+ {
+  "label": "HELP:InfantryHacker-01",
+  "text": "تلميح:\nهاكرز جنرال المشاة يخترقون المال بسرعة أكبر"
+ },
+ {
+  "label": "HELP:ChineseParadrop-01",
+  "text": "تلميح:\nالإنزال المظلي الصيني يُسقط الحرس الأحمر في أي مكان"
+ },
+ {
+  "label": "HELP:EmperorTank-01",
+  "text": "تلميح:\nدبابات الإمبراطور هي الدبابة المطلقة،\nفعّالة ضد المركبات والمشاة معًا"
+ },
+ {
+  "label": "HELP:EmperorTank-02",
+  "text": "تلميح:\nيمكن ترقية دبابة الإمبراطور بمدفع جاتلينج"
+ },
+ {
+  "label": "HELP:EmperorTank-03",
+  "text": "تلميح:\nتأتي دبابات الإمبراطور مزوّدة بأبراج دعاية"
+ },
+ {
+  "label": "HELP:TankDrop-01",
+  "text": "تلميح:\nيتيح لك إنزال الدبابات إسقاط دبابات باتل ماستر بالمظلات"
+ },
+ {
+  "label": "HELP:TacticalNuke-01",
+  "text": "تلميح:\nيمكن لمطارك العسكري ترقية طائرات الميغ لتحمل قنابل نووية تكتيكية"
+ },
+ {
+  "label": "HELP:IsotopeStability-01",
+  "text": "تلميح:\nيقلل استقرار النظائر الضرر الذي يلحق بالوحدات\nالصديقة عند تدمير الدبابات النووية"
+ },
+ {
+  "label": "HELP:AdvancedNuclearPower-01",
+  "text": "تلميح:\nتولّد محطات الطاقة النووية المتطورة طاقة أكثر من المحطات النووية العادية"
+ },
+ {
+  "label": "HELP:ToxinRebels-01",
+  "text": "تلميح:\nيطلق متمردو السموم تيارًا من السموم شديدة الفتك"
+ },
+ {
+  "label": "HELP:ToxinRebels-02",
+  "text": "تلميح:\nمتمردو السموم مقاومون لهجمات السموم"
+ },
+ {
+  "label": "HELP:ToxinRebels-03",
+  "text": "تلميح:\nاستخدم متمردي السموم لتطهير المباني المحصنة بسرعة"
+ },
+ {
+  "label": "HELP:ToxinNetworks-01",
+  "text": "تلميح:\nتطلق شبكات السموم تيارات من السموم من مدافعها"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-01",
+  "text": "تلميح:\nينفجر إرهابيو السموم في سحابة من السموم"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-02",
+  "text": "تلميح:\nاستخدم إرهابيي السموم لمهاجمة مجموعات المشاة الكبيرة"
+ },
+ {
+  "label": "HELP:AnthraxGamma-01",
+  "text": "تلميح:\nتزيد الجمرة الخبيثة غاما ضرر جميع هجمات السموم"
+ },
+ {
+  "label": "HELP:AnthraxGamma-02",
+  "text": "تلميح:\nالجمرة الخبيثة غاما أشد فتكًا من الجمرة الخبيثة بيتا"
+ },
+ {
+  "label": "HELP:AdvancedTrap-01",
+  "text": "تلميح:\nالفخاخ المتطورة أقوى من فخاخ التفجير العادية"
+ },
+ {
+  "label": "HELP:Demolitions-01",
+  "text": "تلميح:\nتمنح ترقية التفجير الوحدات القدرة على تفجير نفسها"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-01",
+  "text": "هدف المهمة رقم 1:\nتحقق"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-02",
+  "text": "هدف المهمة رقم 2:\nتحقق"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-03",
+  "text": "هدف المهمة رقم 3:\nتحقق"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-04",
+  "text": "هدف المهمة رقم 4:\nتحقق"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-05",
+  "text": "هدف المهمة رقم 5:\nتحقق"
+ },
+ {
+  "label": "LOSE:AllUnits",
+  "text": "رسالة واردة:\nدُمّرت جميع وحداتنا\nلقد هُزمنا أيها الجنرال. هذه المرة فقط"
+ },
+ {
+  "label": "LOSE:AllBuildings",
+  "text": "رسالة واردة:\nدُمّرت جميع مبانينا\nلقد هُزمنا أيها الجنرال. هذه المرة فقط"
+ },
+ {
+  "label": "LOSE:AllUnitsAndBuildings",
+  "text": "رسالة واردة:\nدُمّرت جميع وحداتنا ومبانينا\nلقد هُزمنا أيها الجنرال. هذه المرة فقط"
+ },
+ {
+  "label": "HELP:OilRefinery-01",
+  "text": "تلميح:\nاستولِ على مصافي النفط لتخفيض تكلفة المركبات"
+ },
+ {
+  "label": "HELP:ReinforcementPad-01",
+  "text": "تلميح:\nاستولِ على منصات التعزيزات لتحصل على تعزيزات من الدبابات"
+ },
+ {
+  "label": "HELP:OilDerrick-01",
+  "text": "تلميح:\nاستولِ على أبراج النفط لتحصل على مال إضافي"
+ },
+ {
+  "label": "HELP:RepairBay-01",
+  "text": "تلميح:\nاستولِ على ورش الإصلاح لإصلاح المركبات في أي مكان"
+ },
+ {
+  "label": "HELP:ArtilleryPlatform-01",
+  "text": "تلميح:\nاستولِ على منصات المدفعية للسيطرة على المناطق الرئيسية"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1",
+  "text": "هدف المهمة:\nأمّن محطة القطارات ودمّر قاعدة جيش التحرير العالمي المحيطة بها"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1a",
+  "text": "هدف المهمة رقم 1:\nأمّن محطة القطارات ودمّر قاعدة جيش التحرير العالمي المحيطة بها"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplished",
+  "text": "تحقق هدف المهمة"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplisheda",
+  "text": "هدف المهمة رقم 1 تحقق"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2",
+  "text": "رسالة واردة:\nانقل الوحدات إلى عربات القطار"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2a",
+  "text": "رسالة واردة:\nانقل الوحدات إلى عربات القطار"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3",
+  "text": "هدف المهمة:\nدمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3a",
+  "text": "هدف المهمة رقم 2:\nدمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1",
+  "text": "تلميح:\nيمكن للمشاة دخول المركبات المهجورة في الشمال الشرقي"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1a",
+  "text": "تلميح:\nيمكن للمشاة دخول المركبات المهجورة في الشمال الشرقي"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2",
+  "text": "تلميح:\nضع مشاة في محطة الإذاعة لاستدعاء طائرات A-10"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2a",
+  "text": "تلميح:\nضع مشاة في محطة الإذاعة لاستدعاء طائرات A-10"
+ },
+ {
+  "label": "OBJECT:TrainDepot",
+  "text": "مستودع القطارات"
+ },
+ {
+  "label": "OBJECT:TrainLoading",
+  "text": "رصيف الصعود"
+ },
+ {
+  "label": "MAP:MD_USA01Title",
+  "text": "قاعدة بايكونور الفضائية، جنوب كازاخستان\n'عملية الأمن العالمي'"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation02",
+  "text": "قاعدة بحرية أمريكية\nشمال أوروبا"
+ },
+ {
+  "label": "MAP:Intro_Breifing_01",
+  "text": "قاعدة استطلاع أمريكية خارج بايكونور\nجنوب كازاخستان"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation01",
+  "text": "في مكان ما في جنوب كازاخستان\nفي الطريق إلى بايكونور"
+ },
+ {
+  "label": "MAP:USAX02MissionINtro",
+  "text": "قبالة سواحل الصومال"
+ },
+ {
+  "label": "MAP:USAX02MissionStart",
+  "text": "بربرة، الصومال\n'عملية: يد العون'"
+ },
+ {
+  "label": "MAP:USAX02NavyHint",
+  "text": "رسالة واردة:\nالأسطول البحري متاح لإضعاف المقاومة"
+ },
+ {
+  "label": "MAP:USAX02ConvoyHint",
+  "text": "رسالة واردة:\nستنطلق القافلة حين تصل 10 شاحنات إمدادات"
+ },
+ {
+  "label": "MAP:USAX02ConvoyArrived",
+  "text": "هدف المهمة رقم 1:\nتحقق"
+ },
+ {
+  "label": "MAP:USAX02objectives3a",
+  "text": "هدف المهمة رقم 2:\nدمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:USAX02Objectives1",
+  "text": "هدف المهمة رقم 1:\nاحمِ شاحنات الإمدادات القادمة وأمّن مستودع الإمدادات"
+ },
+ {
+  "label": "MAP:USAX02Objectives2",
+  "text": "هدف المهمة:\nدافع عن الأرصفة\nاحمِ شاحنات الإمدادات القادمة\nأمّن المستودع"
+ },
+ {
+  "label": "MAP:USAX02Objectives3",
+  "text": "هدف المهمة:\nاعثر على منشآت جيش التحرير العالمي في الجبال ودمّرها"
+ },
+ {
+  "label": "MAP:USAX02Ships",
+  "text": "الدعم المتاح:\nحاملة الطائرات CVN-88 دايدالوس\nمجموعة مرافقة السفن الحربية، دريدنوت"
+ },
+ {
+  "label": "MAP:USAX02Truck1Arrived",
+  "text": "وصلت شاحنة الإمدادات 1 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck2Arrived",
+  "text": "وصلت شاحنة الإمدادات 2 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck3Arrived",
+  "text": "وصلت شاحنة الإمدادات 3 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck4Arrived",
+  "text": "وصلت شاحنة الإمدادات 4 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck5Arrived",
+  "text": "وصلت شاحنة الإمدادات 5 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck6Arrived",
+  "text": "وصلت شاحنة الإمدادات 6 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck7Arrived",
+  "text": "وصلت شاحنة الإمدادات 7 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck8Arrived",
+  "text": "وصلت شاحنة الإمدادات 8 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck9Arrived",
+  "text": "وصلت شاحنة الإمدادات 9 من 10"
+ },
+ {
+  "label": "MAP:USAX02Truck10Arrived",
+  "text": "وصلت شاحنة الإمدادات العاشرة\nالقافلة تستعد للانطلاق نحو المستودع"
+ },
+ {
+  "label": "MAP:USAX02ConvoyToWarehouse",
+  "text": "رافق القافلة إلى المستودع"
+ },
+ {
+  "label": "MAP:USAX02Dozer",
+  "text": "وصلت جرافة بناء إلى الأرصفة\nابدأ بناء القاعدة"
+ },
+ {
+  "label": "MAP:USAX02Dozerb",
+  "text": "وصلت جرافة بناء"
+ },
+ {
+  "label": "MAP:USAX02Dozer2",
+  "text": "وصلت جرافة بناء جديدة إلى الأرصفة"
+ },
+ {
+  "label": "MAP:USA03xMapName",
+  "text": "النداء الأخير"
+ },
+ {
+  "label": "MAP:USA03xOpen",
+  "text": "جبل إلبروس، جورجيا\n'عملية: تساقط الثلوج'"
+ },
+ {
+  "label": "MAP:USA03xOpenAlt",
+  "text": "جبل إلبروس، روسيا\n'عملية: تساقط الثلوج'"
+ },
+ {
+  "label": "MAP:USA03xObjective02",
+  "text": "هدف المهمة رقم 1:\nدمّر معسكر أسرى جيش التحرير العالمي وأنقذ الأسرى\nيجب أن يبقى العقيد بيرتون حيًا"
+ },
+ {
+  "label": "MAP:USA03xObjective03",
+  "text": "هدف المهمة رقم 2:\nانقل العقيد بيرتون إلى نقطة التجمع"
+ },
+ {
+  "label": "MAP:USA03xObjectiveCompleted",
+  "text": "هدف المهمة رقم 1:\nتحقق"
+ },
+ {
+  "label": "MAP:USA03xTownHallHint",
+  "text": "رسالة واردة:\nابحث في القرية عن الجنود المفقودين"
+ },
+ {
+  "label": "MAP:USA03xToxinNetworksWarning",
+  "text": "تحذير:\nاحذر شبكات السموم ومواقع ستينغر"
+ },
+ {
+  "label": "MAP:USA03xPOWCamp02Hint",
+  "text": "تلميح:\nأزِل منشآت جيش التحرير العالمي التي تحرس هذا المعسكر\nلتحرير الأسرى المحتجزين فيه"
+ },
+ {
+  "label": "MAP:USA03xBurtonWarning",
+  "text": "تحذير:\nالعقيد بيرتون مصاب بجروح بالغة\nيجب أن يبقى حيًا في هذه المهمة"
+ },
+ {
+  "label": "MAP:USA03xChemWarning02",
+  "text": "تحذير:\nعُدّلت هذه الدفاعات لتطلق مواد كيميائية\nوستقتل أي مشاة يقتربون منها كثيرًا"
+ },
+ {
+  "label": "MAP:USA03xLoseReason01",
+  "text": "رسالة واردة:\nقُتل العقيد بيرتون\nلقد هُزمنا أيها الجنرال. هذه المرة فقط"
+ },
+ {
+  "label": "MAP:MD-USA04_LOCALE",
+  "text": "حقول نفط أميس آباد، إيران\n'عملية: الذهب الأسود'"
+ },
+ {
+  "label": "MAP:MD-USA04_Start02",
+  "text": "رسالة واردة:\nوصلت التعزيزات"
+ }
+]

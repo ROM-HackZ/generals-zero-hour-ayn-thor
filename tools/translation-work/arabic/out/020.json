@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat02Subtitle",
+  "text": "*نصبوا لنا كمينًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat03Subtitle",
+  "text": "*نصبوا كمينًا لقاعدتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat04Subtitle",
+  "text": "*عثرنا على قاعدتهم السرية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat05Subtitle",
+  "text": "*إنهم قادمون من الضفة البعيدة للبحيرة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat06Subtitle",
+  "text": "*لا بد أن قواتهم مختبئة في الغابة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat07Subtitle",
+  "text": "*أتساءل ماذا يوجد عبر النهر"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat08Subtitle",
+  "text": "*هجماتهم الخاطفة بدأت تزعجنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat09Subtitle",
+  "text": "*عادت العربات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat10Subtitle",
+  "text": "*هجوم مباغت!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat11Subtitle",
+  "text": "*اسحقوا مدفع الجحيم ذاك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat12Subtitle",
+  "text": "*الناس خائفون جدًا من الخروج من بيوتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat13Subtitle",
+  "text": "*يجب أن نحررهم من هذا الظلم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO01Subtitle",
+  "text": "*الشعب ينتفض لدعمنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO10Subtitle",
+  "text": "*أيها الجنرال، تدمير تماثيل جيش التحرير العالمي حاسم لتحسين الرأي العام الدولي تجاهنا وسيعزز دعم السكان لجهودنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO11Subtitle",
+  "text": "*أرسلوا جرار سموم لتطهير مبانينا المحصنة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO12Subtitle",
+  "text": "*ستكون دبابات التنين هدفًا ذا أولوية... احرسها جيدًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO13Subtitle",
+  "text": "*أحسنت يا سيدي. تدمير التمثال رفع رأي العالم فينا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO16Subtitle",
+  "text": "*لا تدعهم يدمّرون المباني!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO17Subtitle",
+  "text": "*استخدم القذيفة النيوترونية لتطهير المباني دون إلحاق الضرر بها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO18Subtitle",
+  "text": "*احذر! منشآتهم الدفاعية مخفية بشباك التمويه"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO19Subtitle",
+  "text": "*أيها الجنرال، يدافع جيش التحرير العالمي عن المدينة جيدًا. علينا طردهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO20Subtitle",
+  "text": "*تحرز تقدمًا جيدًا أيها القائد. تحرر جزء كبير من المدينة من سيطرة جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO21Subtitle",
+  "text": "*سيدي! المدينة تنتفض ضد أعدائنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO22Subtitle",
+  "text": "*أيها الجنرال، يجب أن نطهّر هذه المنطقة من جيش التحرير العالمي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO23Subtitle",
+  "text": "*الرأي العام الدولي تجاهنا مرتفع. عمل رائع!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat01Subtitle",
+  "text": "*كادوا يفلتون! يجب أن نوقفهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat010Subtitle",
+  "text": "*يلتفّون حول البحيرة. اعترضوهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat011Subtitle",
+  "text": "*إنهم قادمون نحو قاعدتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat012Subtitle",
+  "text": "*أوقفنا الموجة الأولى من جيش التحرير العالمي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat013Subtitle",
+  "text": "*مرة أخرى أعدناهم إلى حجمهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat014Subtitle",
+  "text": "*لا أحد يصمد أمام قوة الصين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat015Subtitle",
+  "text": "*كان صن تزو سيفخر بنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat016Subtitle",
+  "text": "*النصر لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat017Subtitle",
+  "text": "*لن تمرّوا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat018Subtitle",
+  "text": "*سنطردهم من السماء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat019Subtitle",
+  "text": "*قوتنا لا تُضاهى!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat02Subtitle",
+  "text": "*اقطعوا عليهم الطريق عند القرية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat020Subtitle",
+  "text": "*الهيليكس ليست القوة الضاربة الوحيدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat03Subtitle",
+  "text": "*لا يمكن أن نسمح لهم بتجاوز تلك التلة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat04Subtitle",
+  "text": "*سيمرون من هنا حتمًا. يجب أن ندافع عن هذه المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat05Subtitle",
+  "text": "*هنا نقطة اختناق أخرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat06Subtitle",
+  "text": "*يجب أن نؤمّن هذه المباني"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat07Subtitle",
+  "text": "*ماذا يفعلون؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat08Subtitle",
+  "text": "*احذروا السموم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat09Subtitle",
+  "text": "*وقعنا في كمين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat15Subtitle",
+  "text": "*قواتنا في مواقعها. نحن مستعدون لأي شيء"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat16Subtitle",
+  "text": "*إنهم أقوى مما ظننا. نحتاج إلى دعم جوي. أرسلوا الهيليكس الآن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO01Subtitle",
+  "text": "*يرسل جيش التحرير العالمي موجة أخرى!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO02Subtitle",
+  "text": "*هذه الموجة تنسحب نحو الشمال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO03Subtitle",
+  "text": "*إنهم ينسحبون نحو الشمال الشرقي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO04Subtitle",
+  "text": "*هذه الموجة تنسحب نحو الشرق"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO05Subtitle",
+  "text": "*الاتحاد الأوروبي راضٍ جدًا عن أدائنا أيها الجنرال. يجب أن نبقى هجوميين ونقضي على جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO06Subtitle",
+  "text": "*كانت هذه القوة مجرد تمويه!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO07Subtitle",
+  "text": "*أيها الجنرال، لديهم عاصفة سكود! يجب أن ننشر قواتنا حتى لا نعطيهم هدفًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO08Subtitle",
+  "text": "*مهلًا... إنهم لا يستهدفوننا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO09Subtitle",
+  "text": "*لا شرف لدى جيش التحرير العالمي! دمّروا القرية ليفتحوا طريقًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO10Subtitle",
+  "text": "*يجب أن ننشئ قاعدة لتأمين هذه المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO11Subtitle",
+  "text": "*الهيليكس لدينا هي أوفرلورد السماء. ابنِ المزيد منها لتساعدنا على السيطرة على المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO12Subtitle",
+  "text": "*سيدي، أوصي بوضع مواقع التنصت في النقاط الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO13Subtitle",
+  "text": "*تفيد الاستخبارات الحالية بأن جيش التحرير العالمي ينسحب نحو هذا الموقع. هنا سنصمد. لا تسمح لأي وحدة من جيش التحرير العالمي بمغادرة هذه المنطقة. مروحية الهيليكس الجديدة لدينا ستضمن نجاحك. ظهور قواتنا من الجنوب سيعني اكتمال هدفك الرئيسي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO14Subtitle",
+  "text": "*تفيد الاستخبارات الحالية بأن جيش التحرير العالمي ينسحب نحو هذا الموقع. هنا سنصمد. لا تسمح لأي وحدة من جيش التحرير العالمي بمغادرة هذه المنطقة. إن فرّ كثير منهم فستفشل مهمتنا. مروحية الهيليكس الجديدة لدينا ستضمن نجاحك. ظهور قواتنا من الجنوب سيعني اكتمال هدفك الرئيسي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO15Subtitle",
+  "text": "*موجة من جيش التحرير العالمي تقترب من الغرب"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO16Subtitle",
+  "text": "*موجة من جيش التحرير العالمي تقترب من الجنوب"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO17Subtitle",
+  "text": "*رُصدت قوات جيش التحرير العالمي تقترب من الجنوب الغربي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO18Subtitle",
+  "text": "*قوات جيش التحرير العالمي قادمة من الجنوب الشرقي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO19Subtitle",
+  "text": "*موجة من قوات جيش التحرير العالمي تقترب من الجنوب الغربي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO20Subtitle",
+  "text": "*موجة أخرى من جيش التحرير العالمي تقترب"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO21Subtitle",
+  "text": "*عمل ممتاز يا سيدي. تؤكد الاستخبارات أنك دمّرت الموجة بأكملها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO22Subtitle",
+  "text": "*العدو على وشك اختراق دفاعاتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO23Subtitle",
+  "text": "*رُصدت عدة عمليات إطلاق لعاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO24Subtitle",
+  "text": "*اختُرقت دفاعاتنا أيها القائد، لقد فشلنا في المهمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO25Subtitle",
+  "text": "*أيها القائد، وصلت قواتنا من الجنوب. نجحت مهمتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO26Subtitle",
+  "text": "*أيها الجنرال، قوات العدو قريبة بشكل خطير من الفرار. يجب أن نتعامل معها بسرعة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO27Subtitle",
+  "text": "*رُصدت قوات جيش التحرير العالمي تفر عبر هذا الموقع. اتخذ مواقع دفاعية وانتظر الاشتباك مع العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO28Subtitle",
+  "text": "*أيها الجنرال، رُصدت الموجة 1 من العدو المنسحب وهي تدخل المنطقة، وتفيد الاستخبارات بأنها تتحرك على المسار الظاهر على رادارك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO29Subtitle",
+  "text": "*أيها الجنرال، رُصدت الموجة 2 من العدو المنسحب وهي تدخل المنطقة، وتفيد الاستخبارات بأنها تتحرك على المسار الظاهر على رادارك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO30Subtitle",
+  "text": "*أيها الجنرال، رُصدت الموجة 3 من العدو المنسحب وهي تدخل المنطقة، وتفيد الاستخبارات بأنها تتحرك على المسار الظاهر على رادارك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO31Subtitle",
+  "text": "*أيها الجنرال، رُصدت الموجة 4 من العدو المنسحب وهي تدخل المنطقة، وتفيد الاستخبارات بأنها تتحرك على المسار الظاهر على رادارك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO32Subtitle",
+  "text": "*أيها الجنرال، رُصدت الموجة 5 من العدو المنسحب وهي تدخل المنطقة، وتفيد الاستخبارات بأنها تتحرك على المسار الظاهر على رادارك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO33Subtitle",
+  "text": "*وصلت قواتنا من الجنوب. نجحت في منع انسحاب العدو. عمل جيد أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO34Subtitle",
+  "text": "*أيها الجنرال، فرّت قوات العدو إلى الشمال. فشلنا في المهمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi05OfficerC01Subtitle",
+  "text": "*حان الوقت لنصحح خطأنا. اقتلوهم جميعًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi05OfficerC02Subtitle",
+  "text": "*لنُخرج هذه الجرذان من جحورها. الموت للجبناء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf01Subtitle",
+  "text": "*بفضل جهودك الرائعة في هالبرشتات أوشك جيش التحرير العالمي على النهاية. حدّدت الاستخبارات الأمريكية آخر معاقل جيش التحرير العالمي خارج هامبورغ. للأسف تأخرنا في مساعدة الأمريكيين في هذه المنطقة واستولى جيش التحرير العالمي على قاعدتهم. ابنِ قواتك ودمّر قاعدتي جيش التحرير العالمي والأمريكيين معًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf02Subtitle",
+  "text": "*استولى جيش التحرير العالمي على قاعدة أمريكية قديمة في المنطقة ويحشد قواته. هدفك الأخير تدمير القاعدتين الأمريكية وقاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf03Subtitle",
+  "text": "*عزّز جيش التحرير العالمي قدراته على التخفي أيها الجنرال. يستطيعون الآن إخفاء أي شيء تقريبًا. علينا البقاء متيقظين"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf04Subtitle",
+  "text": "*استخدم مواقع التنصت لرصد الوحدات المتخفية"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf05Subtitle",
+  "text": "*أيها الجنرال، أقترح أن تركز هجومك أولًا على القاعدة الأمريكية. علينا تدمير مدافع الجسيمات لديهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xChat01Subtitle",
+  "text": "*كأننا نبحث عن إبرة في كومة قش أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin01Subtitle",
+  "text": "*أيها العريف! هل من أثر للصينيين؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin02Subtitle",
+  "text": "*لا يا سيدي، آخر رسالة وصلت عند الساعة 02:00... ولا شيء بعدها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin03Subtitle",
+  "text": "*حسنًا، أتمنى أن يصلوا قريبًا. تشير استخباراتنا إلى هجوم شامل من جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin04Subtitle",
+  "text": "*حاضر يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin06Subtitle",
+  "text": "*ما هذا...؟! اشتباك مع العدو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin07Subtitle",
+  "text": "*اختُرقت قاعدتنا... جميع الوحدات إلى مواقعها! أين الصينيون الذين وعدونا بهم؟!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin08Subtitle",
+  "text": "*قنبلة! انبطحوا! قنبلة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin09Subtitle",
+  "text": "*من أين أتوا؟!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin10Subtitle",
+  "text": "*يستولون على مبانينا! لا نستطيع الصمود! جميع الوحدات، انسحبوا! أكرر، انسحبوا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO01Subtitle",
+  "text": "*هذا هو! انقطعت الطاقة عن القاعدة الأمريكية! أجهز عليهم بسرعة قبل أن يعيدوا البناء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO02Subtitle",
+  "text": "*أحسنت أيها الجنرال. لم يعد العدو قادرًا على إنتاج وحدات أمريكية"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO03Subtitle",
+  "text": "*أحسنت أيها الجنرال. لم يعد العدو قادرًا على إنتاج وحدات جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO04Subtitle",
+  "text": "*أحسنت أيها الجنرال. حُيّدت القاعدة الأمريكية. دمّر قاعدة جيش التحرير العالمي لتنهي هذه المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO05Subtitle",
+  "text": "*أحسنت أيها الجنرال. حُيّدت قاعدة جيش التحرير العالمي. دمّر القاعدة الأمريكية لتنهي هذه المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO06Subtitle",
+  "text": "*يجب أن نكمل ما عجزت عنه الولايات المتحدة. يجب أن يسقط جيش التحرير العالمي وسيعمّ السلام العالم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO07Subtitle",
+  "text": "*إن استطعنا هزيمة جيش التحرير العالمي وإنقاذ أوروبا من براثنه فستكون المكافآت عظيمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO08Subtitle",
+  "text": "*أيها الجنرال، ستأخذ مكانك بين أعظم أبطال الصين. سقط جيش التحرير العالمي وأصبحت الصين المنارة المشرقة في عالم جديد. خذ مكانك المشرّف وانعم بمجد الصين"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO09Subtitle",
+  "text": "*أيها الجنرال، حسّن العدو قدرته على التخفي، لكن لا يبدو أنه يستخدم الدبابات"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO10Subtitle",
+  "text": "*أيها الجنرال، قائد جيش التحرير العالمي يفتقر إلى الدبابات. ربما نستطيع سحقه بقواتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO11Subtitle",
+  "text": "*أيها الجنرال، نخسر مركبات بسبب جارمن كيل. يجب أن تتعقبه إن أردنا فرصة للنجاة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO12Subtitle",
+  "text": "*أيها الجنرال، العدو يستخدم الخاطفين! يجب أن نوقفهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO13Subtitle",
+  "text": "*أيها الجنرال، نشر العدو قنّاصة في القرى المحلية. يجب أن نطهّرها منهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO14Subtitle",
+  "text": "*أيها الجنرال، نخسر جنودًا بسبب المدافع الرباعية للعدو، نحتاج إلى دروع ثقيلة هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO15Subtitle",
+  "text": "*أيها الجنرال، تشير الاستخبارات الحالية إلى أن جارمن كيل قد يكون متحصنًا في هذه القرية الصغيرة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO16Subtitle",
+  "text": "*أيها الجنرال، يبدو أن قاعدة العدو على الجانب الآخر من هذا النهر. ربما نستطيع حصاره بنشر قوات قرب الجسور"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO17Subtitle",
+  "text": "*أيها الجنرال، لدينا مركبات كثيرة بلا سائقين في الميدان... أرسل وحدات لاستعادتها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO18Subtitle",
+  "text": "*سيدي! رصدنا حافلات قتال في القطاع C. يجب أن نتعامل معها قبل أن تصل إلى قاعدتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO19Subtitle",
+  "text": "*أيها الجنرال، أدخل العدو وحدات إلى قاعدتنا خلسة! يجب أن نحسّن دفاعاتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO20Subtitle",
+  "text": "*أيها الجنرال، تسلل العدو إلى قاعدتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO21Subtitle",
+  "text": "*أيها الجنرال! تدمير مركز القيادة الأمريكي سيوقف دعمه الجوي الثقيل"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO22Subtitle",
+  "text": "*أيها الجنرال، علينا بناء مركز الإنترنت بأسرع ما يمكن. سيساعدنا على تحديد مواقع العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO23Subtitle",
+  "text": "*أيها الجنرال، ترك العدو جناحه دون حراسة! الآن فرصتنا للهجوم المضاد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO24Subtitle",
+  "text": "*أيها الجنرال، يمتلك الأمريكيون تقنية متفوقة لرصد المتخفين. ربما عليك الاستيلاء على هذه القاعدة بدلًا من تدميرها"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi07RedGuard108Subtitle",
+  "text": "*كمين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion105Subtitle",
+  "text": "*الصينيون قريبون"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion108Subtitle",
+  "text": "*وجدنا طريقًا سريًا. حراسته ضعيفة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion109Subtitle",
+  "text": "*نتعرض لإطلاق نار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat01Subtitle",
+  "text": "*رُصدت منشآت دفاعية للعدو أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat02Subtitle",
+  "text": "*رُصد موقع للعدو! يجب أن نجد طريقًا لتجاوزهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat03Subtitle",
+  "text": "*دورية للعدو! جميع الوحدات، أطلقوا النار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat04Subtitle",
+  "text": "*طائرات حراسة أمريكية مسيّرة! يجب أن ندمّرها بسرعة قبل أن تطلق الإنذار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat05Subtitle",
+  "text": "*انظروا كيف يتخبطون! كان هجومنا مفاجأة كاملة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat06Subtitle",
+  "text": "*المهاجمون الأمريكيون يقتربون! يجب أن نصمد في موقعنا أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat07Subtitle",
+  "text": "*كانت المفاجأة كاملة! جميع الوحدات، ركّزوا على محطات الطاقة لديهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat08Subtitle",
+  "text": "*أيها الجنرال! نتكبد خسائر فادحة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin01Subtitle",
+  "text": "*من الدورية إلى القاعدة: حُدّد موقع الهدف ونحن نطارده"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin02Subtitle",
+  "text": "*للعلم، بدأت حملة القصف بالفعل. توخوا الحذر أيتها الدورية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin03Subtitle",
+  "text": "*علم يا قاعدة. أنا على اليمين"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin04Subtitle",
+  "text": "*سأتولى اليسار"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin05Subtitle",
+  "text": "*أتعرض لإطلاق نار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin06Subtitle",
+  "text": "*ابقوا خلفهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin07Subtitle",
+  "text": "*انتبه!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin08Subtitle",
+  "text": "*القاعدة! سقط تشارلي ثلاثة! أكرر: سقط تشارلي ثلاثة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin09Subtitle",
+  "text": "*واصل المطاردة يا تشارلي اثنان! هذه أفضل فرصة لنا للإمساك به!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin10Subtitle",
+  "text": "*قُضي على المرافقين! إنه في قبضتي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin11Subtitle",
+  "text": "*لااااا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin12Subtitle",
+  "text": "*هه هه. أيها الجنرال، تمكّنا من الفرار... ونتجه إلى نقطة الالتقاء. سينهض جيش التحرير العالمي من جديد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin13Subtitle",
+  "text": "*علم. فريق الاستطلاع ينطلق"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin14Subtitle",
+  "text": "*هنا فريق الاستطلاع. لا نرصد أي وجود للعدو. انتظروا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin15Subtitle",
+  "text": "*كمين أمريكي! لقد حاصرونا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin16Subtitle",
+  "text": "*طائرات حراسة مسيّرة! هؤلاء الأمريكيون أذكياء جدًا. طائراتهم تختفي حين تكون ساكنة. عليك التقدم بحذر أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen01Subtitle",
+  "text": "*حاصر الأمريكيون معقلنا بنقاط تفتيش عسكرية. عليك فتح الطريق"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen02Subtitle",
+  "text": "*أيها الجنرال، يجب أن تساعد قائدنا الحقيقي على الفرار، ليبقى جيش التحرير العالمي حيًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen03Subtitle",
+  "text": "*ربما مات الدكتور ثراكس من أجل القضية، لكنه لم يكن مهمًا. إن فرّ أخونا فلن يكون الأمريكيون قد رأوا آخر ما لدى جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen04Subtitle",
+  "text": "*أيها الجنرال، دفاعات قاعدة النيران حول هذا الموقع الأمريكي قوية جدًا. يجب أن نتجنب المواجهة المباشرة ونجد طريقًا آخر إلى القاعدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen05Subtitle",
+  "text": "*أبقِ قواتك في الخلف أيها الجنرال. نرسل فريقًا لاستطلاع الجانب الآخر من الجسر، وسيبلغنا عن مواقع العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen06Subtitle",
+  "text": "*يا جنرالي، تمكّن أحد فرق الضربات السريعة من الإفلات من مطارديه الأمريكيين، ووافق على مساعدتنا في مهمتنا. ستكون حاويات صواريخه مفيدة جدًا ضد دروع العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen07Subtitle",
+  "text": "*عثرنا على أحد فرق التفجير التابعة لنا. سيساعدوننا على فتح الطريق بتدمير قواعد الدعم الأمريكية النائية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen08Subtitle",
+  "text": "*أيها الجنرال، يجب أن نؤمّن المطار قبل وصول طائرة النقل. بقاء جيش التحرير العالمي يعتمد على نجاحك"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen09Subtitle",
+  "text": "*دراجاتنا القتالية متعددة الاستخدامات. تعزز قدرات مشاتنا المخلصين، وتستطيع السير على الأراضي الوعرة، بل وتنجو من القفز عن المنحدرات. استخدمها لتجاوز المعاقل الأمريكية ومهاجمة جوانبهم الضعيفة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen10Subtitle",
+  "text": "*أيها الجنرال! أرسل الأمريكيون مجموعة ثانية من المطاردين للقبض على قائدنا. احمِه مهما كلّف الأمر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen11Subtitle",
+  "text": "*أيها الجنرال، يمكن لهذه القاعدة المخفية أن توفر لنا الموارد اللازمة لكسر الحصار الأمريكي والوصول إلى المطار"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen12Subtitle",
+  "text": "*أيها الجنرال، قائدنا يتعرض للهجوم! يجب ألا يقع في أيدي الأمريكيين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen13Subtitle",
+  "text": "*أيها الجنرال، تتقدم قواتك كثيرًا أمام قائدنا. تذكّر أنه يجب أن يصل إلى المطار إن أردنا لقضيتنا البقاء"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen14Subtitle",
+  "text": "*قاعدة أمريكية أخرى. يجب القضاء عليها. احذر قواعد النيران لديهم يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen15Subtitle",
+  "text": "*أصبحنا على مقربة من المطار أيها الجنرال. دمّر القوات الأمريكية وأمّن المنطقة لننقل قائدنا جوًا إلى بر الأمان"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen16Subtitle",
+  "text": "*أحسنت أيها الجنرال. وأنت في القيادة لا يمكن أن نفشل"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen17Subtitle",
+  "text": "*وصلنا إلى المطار يا سيدي. تأكد أن قائدنا جاهز وينتظر على المدرج حين تصل طائرته"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen18Subtitle",
+  "text": "*طائرتنا تقترب أيها الجنرال! اصمد في موقعك قليلًا بعد. يجب أن يبقى قائدنا حيًا ليصعد إلى تلك الطائرة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen19Subtitle",
+  "text": "*وصلت الطائرة. أصعِد قائدنا لننقله إلى بر الأمان ونعيد تنظيم صفوفنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen20Subtitle",
+  "text": "*الطائرة تنتظر صعود قائدنا. أسرع وأحضره أيها الجنرال. لا تستطيع قواتنا الصمود أمام الأمريكيين إلى الأبد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen21Subtitle",
+  "text": "*عميلنا جارمن كيل يضايق خطوط الإمداد الأمريكية. سيكون عونًا كبيرًا لمهمتنا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen22Subtitle",
+  "text": "*عمل ممتاز أيها الجنرال. سنُري الأمريكيين أننا ما زلنا قادرين على مقاومتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen23Subtitle",
+  "text": "*عثرنا على قوة استطلاع متقدمة أيها الجنرال. عرضوا مساعدتنا في مهمتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen24Subtitle",
+  "text": "*أيها الجنرال! دمّر محطات الطاقة الأمريكية لتعطيل دفاعات قاعدتهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen25Subtitle",
+  "text": "*ضعفت قواتنا أيها الجنرال. يجب أن نختار معاركنا بحكمة أكبر"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02Chatter04Subtitle",
+  "text": "*نحن هنا وجاهزون لأوامرك"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02Chatter18Subtitle",
+  "text": "*هذا هو التفوّق الأمريكاني إذن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02General07Subtitle",
+  "text": "*القوات الأمريكية قادمة. استعدوا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat01Subtitle",
+  "text": "*العدو، إنهم يهاجمون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat02Subtitle",
+  "text": "*المقاومة قوية جدًا، لا بد من طريق آخر"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat03Subtitle",
+  "text": "*يجب إيقاف الأمير. يجب ألا يسقط جيش التحرير العالمي في يده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat04Subtitle",
+  "text": "*قاعدتنا تتعرض للهجوم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat05Subtitle",
+  "text": "*دُمّر قصرنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat06Subtitle",
+  "text": "*خسرنا الثكنات"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat07Subtitle",
+  "text": "*يجب أن نعيد بناء تاجر الأسلحة بسرعة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin01Subtitle",
+  "text": "*من الاستطلاع 1 إلى القاعدة. أنهي دوريتي. القطاع خالٍ"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin02Subtitle",
+  "text": "*هنا القاعدة. هل أنت متأكد يا استطلاع 1؟ وصلتنا تقارير عن تحركات قوات مرتبطة بالأمير قصّاد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin03Subtitle",
+  "text": "*متأكد تمامًا. لم أرَ منذ ساعات سوى الغبار والشجيرات. سأعود إلى القاعدة بعد هذا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin04Subtitle",
+  "text": "*ما هذا؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin05Subtitle",
+  "text": "*من الاستطلاع 1 إلى القاعدة! اشتباك مع العدو! أكرر، اشتباك مع العدو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin06Subtitle",
+  "text": "*استطلاع 1! ما موقعك؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin07Subtitle",
+  "text": "*إنه يستعد لإطلاق النار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin08Subtitle",
+  "text": "*استطلاع 1، ما حالتك؟ استطلاع 1! أجب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin09Subtitle",
+  "text": "*حين نتخلص من الأمير قصّاد سيصبح جيش التحرير العالمي تحت سيطرتنا. عندها سيكون الانتقام لنا وسيحترق الكفار الأمريكيون"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin10Subtitle",
+  "text": "*بدأ الأمير قصّاد يستولي على السلطة أينما استطاع. يجب أن نضع حدًا لسعيه إلى السلطة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen01Subtitle",
+  "text": "*أيها الجنرال، مواردنا تنفد -- يجب أن نجد مصدرًا جديدًا للإمدادات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen02Subtitle",
+  "text": "*يحاول قصّاد الاستيلاء على الموارد القريبة! يجب ألا ندعه يأخذ ما هو حق لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen03Subtitle",
+  "text": "*يجب أن نوحّد جيش التحرير العالمي تحت قائد واحد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen04Subtitle",
+  "text": "*احذر! شن قصّاد هجومًا مباغتًا علينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen05Subtitle",
+  "text": "*خططنا أكبر بكثير من ذلك الجرذ قصّاد. سيرتجف العالم حين نطلق غضب جيش التحرير العالمي"
+ }
+]

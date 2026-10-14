@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:LimitSuperweapons",
+  "text": "초강력 무기 제한"
+ },
+ {
+  "label": "TOOLTIP:LimitSuperweapons",
+  "text": "선택하면 입자 캐논, 스커드 스톰 등을 플레이어당 하나로 제한합니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100",
+  "text": "연승 훈장\n스커미시 게임에서 100연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500",
+  "text": "연승 훈장\n스커미시 게임에서 500연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000",
+  "text": "연승 훈장\n스커미시 게임에서 1000연승을 달성했습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3Online",
+  "text": "연승 훈장\n온라인 게임에서 3연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10Online",
+  "text": "연승 훈장\n온라인 게임에서 10연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25Online",
+  "text": "연승 훈장\n온라인 게임에서 25연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100Online",
+  "text": "연승 훈장\n온라인 게임에서 100연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500Online",
+  "text": "연승 훈장\n온라인 게임에서 500연승을 달성했습니다\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000Online",
+  "text": "연승 훈장\n온라인 게임에서 1000연승을 달성했습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100",
+  "text": "지배 훈장\n스커미시 게임에서 100승 이상을 거두었습니다\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500",
+  "text": "지배 훈장\n스커미시 게임에서 500승 이상을 거두었습니다\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000",
+  "text": "지배 훈장\n스커미시 게임에서 1,000승 이상을 거두었습니다\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000",
+  "text": "지배 훈장\n스커미시 게임에서 10,000승 이상을 거두었습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100Online",
+  "text": "지배 훈장\n온라인 게임에서 100승 이상을 거두었습니다\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500Online",
+  "text": "지배 훈장\n온라인 게임에서 500승 이상을 거두었습니다\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000Online",
+  "text": "지배 훈장\n온라인 게임에서 1,000승 이상을 거두었습니다\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000Online",
+  "text": "지배 훈장\n온라인 게임에서 10,000승 이상을 거두었습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallenge",
+  "text": "도전 캠페인 훈장\n장군 도전 캠페인을 완료하면 받을 수 있습니다\n어려움 난이도로 완료하면 최고 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimate",
+  "text": "궁극 훈장\n모든 스커미시 맵에서 최대 수의 어려움 상대를 물리치면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneral",
+  "text": "세계 장군 훈장\n모든 장군으로 온라인 게임을 한 번 이상 이기면 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakDisabled",
+  "text": "연승 훈장\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakOnlineDisabled",
+  "text": "연승 훈장\n3, 10, 25, 100, 500, 1000연승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallengeDisabled",
+  "text": "도전 캠페인 훈장\n장군 도전 캠페인을 완료하면 받을 수 있습니다\n어려움 난이도로 완료하면 최고 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimateDisabled",
+  "text": "궁극 훈장\n모든 스커미시 맵에서 최대 수의 어려움 상대를 물리치면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationDisabled",
+  "text": "지배 훈장\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationOnlineDisabled",
+  "text": "지배 훈장\n통산 100, 500, 1000, 10000승마다 새 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneralDisabled",
+  "text": "세계 장군 훈장\n모든 장군으로 온라인 게임을 한 번 이상 이기면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitzDisabled",
+  "text": "전격 훈장\n10분 안에 상대를 물리치면 받을 수 있습니다"
+ },
+ {
+  "label": "GUI:SuperweaponSpectreGunship",
+  "text": "스펙터 건쉽"
+ },
+ {
+  "label": "GUI:Nuke_SuperweaponNeutronMissile",
+  "text": "핵미사일"
+ },
+ {
+  "label": "GUI:SuperweaponGPSScrambler",
+  "text": "GPS 교란기"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponParticleUplinkCannon",
+  "text": "입자 캐논"
+ },
+ {
+  "label": "GUI:SuperweaponTankParadrop",
+  "text": "전차 투하"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponTomahawkStorm",
+  "text": "토마호크 스톰"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponNeutronMissile",
+  "text": "ICBM"
+ },
+ {
+  "label": "INI:FactionAmericaSuperWeaponGeneral",
+  "text": "미국 초강력 무기 장군"
+ },
+ {
+  "label": "INI:FactionAmericaLaserGeneral",
+  "text": "미국 레이저 장군"
+ },
+ {
+  "label": "INI:FactionAmericaAirForceGeneral",
+  "text": "미국 공군 장군"
+ },
+ {
+  "label": "INI:FactionAmericaCommanderInChief",
+  "text": "미국 총사령관"
+ },
+ {
+  "label": "INI:FactionChinaTankGeneral",
+  "text": "중국 전차 장군"
+ },
+ {
+  "label": "INI:FactionChinaInfantryGeneral",
+  "text": "중국 보병 장군"
+ },
+ {
+  "label": "INI:FactionChinaNukeGeneral",
+  "text": "중국 핵 장군"
+ },
+ {
+  "label": "INI:FactionChinaCommanderInChief",
+  "text": "중국 총사령관"
+ },
+ {
+  "label": "INI:FactionGLAToxinGeneral",
+  "text": "GLA 독소 장군"
+ },
+ {
+  "label": "INI:FactionGLADemolitionGeneral",
+  "text": "GLA 폭파 장군"
+ },
+ {
+  "label": "INI:FactionGLAStealthGeneral",
+  "text": "GLA 스텔스 장군"
+ },
+ {
+  "label": "INI:FactionGLACommanderInChief",
+  "text": "GLA 총사령관"
+ },
+ {
+  "label": "INI:FactionBossGeneral",
+  "text": "보스 장군"
+ },
+ {
+  "label": "SIDE:AmericaSuperWeaponGeneral",
+  "text": "미국 초강력 무기 장군"
+ },
+ {
+  "label": "SIDE:AmericaLaserGeneral",
+  "text": "미국 레이저 장군"
+ },
+ {
+  "label": "SIDE:AmericaAirForceGeneral",
+  "text": "미국 공군 장군"
+ },
+ {
+  "label": "SIDE:ChinaTankGeneral",
+  "text": "중국 전차 장군"
+ },
+ {
+  "label": "SIDE:ChinaInfantryGeneral",
+  "text": "중국 보병 장군"
+ },
+ {
+  "label": "SIDE:ChinaNukeGeneral",
+  "text": "중국 핵 장군"
+ },
+ {
+  "label": "SIDE:GLAToxinGeneral",
+  "text": "GLA 독소 장군"
+ },
+ {
+  "label": "SIDE:GLADemolitionGeneral",
+  "text": "GLA 폭파 장군"
+ },
+ {
+  "label": "SIDE:GLAStealthGeneral",
+  "text": "GLA 스텔스 장군"
+ },
+ {
+  "label": "SIDE:Boss",
+  "text": "보스 장군"
+ },
+ {
+  "label": "GUI:SelectAllAircraft",
+  "text": "모든 항공기 선택"
+ },
+ {
+  "label": "GUI:SelectAllAircraftDescription",
+  "text": "모든 항공기를 선택합니다"
+ },
+ {
+  "label": "SCIENCE:USASpectreGunship1",
+  "text": "스펙터 건쉽"
+ },
+ {
+  "label": "SCIENCE:USALeafletDrop",
+  "text": "전단 살포"
+ },
+ {
+  "label": "SCIENCE:ChinaTankHunterTraining",
+  "text": "탱크 헌터 훈련"
+ },
+ {
+  "label": "SCIENCE:ChinaBattleMasterTraining",
+  "text": "배틀마스터 훈련"
+ },
+ {
+  "label": "SCIENCE:ChinaOverlordTraining",
+  "text": "오버로드 훈련"
+ },
+ {
+  "label": "SCIENCE:ChinaGattlingTankTraining",
+  "text": "개틀링 전차 훈련"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeDrop",
+  "text": "핵 투하"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy",
+  "text": "광란 1"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy2",
+  "text": "광란 2"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy3",
+  "text": "광란 3"
+ },
+ {
+  "label": "SCIENCE:ChinaCarpetBomb",
+  "text": "융단 폭격"
+ },
+ {
+  "label": "SCIENCE:GPSScrambler",
+  "text": "GPS 교란기"
+ },
+ {
+  "label": "SCIENCE:GLASneakAttack",
+  "text": "기습 공격"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop1",
+  "text": "전차 공수 1"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop2",
+  "text": "전차 공수 2"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop3",
+  "text": "전차 공수 3"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop1",
+  "text": "보병 공수 1"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop2",
+  "text": "보병 공수 2"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop3",
+  "text": "보병 공수 3"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyFrenzy",
+  "text": "광란"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligenceShortcut",
+  "text": "정보"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownload",
+  "text": "통신 및 다운로드(&D)"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownloadShortcut",
+  "text": "통신 및 다운로드(&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixPropagandaTower",
+  "text": "선전탑(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixBattleBunker",
+  "text": "전투 벙커(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixGattlingCannon",
+  "text": "개틀링 캐논(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNukeBomb",
+  "text": "핵폭탄(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaFireBase",
+  "text": "화력 기지(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaArtilleryPlatform",
+  "text": "포병 플랫폼(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankAvenger",
+  "text": "어벤저(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankMicrowave",
+  "text": "마이크로웨이브 전차(&M)"
+ },
+ {
+  "label": "CONTROLBAR:BunkerExit",
+  "text": "벙커에서 나가기"
+ },
+ {
+  "label": "CONTROLBAR:FireBaseExit",
+  "text": "화력 기지에서 나가기"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLACommandCenter",
+  "text": "가짜 사령부(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABarracks",
+  "text": "가짜 병영(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLASupplyStash",
+  "text": "가짜 보급 은닉처(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLAArmsDealer",
+  "text": "가짜 무기상(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInternetCenter",
+  "text": "인터넷 센터(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleCombatBike",
+  "text": "전투 오토바이(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankEmperor",
+  "text": "황제 오버로드(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySaboteur",
+  "text": "파괴 공작원(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryPropagandaTrooper",
+  "text": "선전병(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryMiniGunner",
+  "text": "미니거너(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetKingRaptor",
+  "text": "킹 랩터(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetFuelAirAurora",
+  "text": "오로라 알파 폭격기(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetHypersonicAurora",
+  "text": "오로라 알파(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySniper",
+  "text": "저격수(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleSentryDrone",
+  "text": "센트리 드론(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHellfireDrone",
+  "text": "헬파이어 드론(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehiclePointDefenseDrone",
+  "text": "점 방어 드론(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleHelix",
+  "text": "헬릭스(&X)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryNukeHunter",
+  "text": "핵 헌터(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaICBMLauncher",
+  "text": "ICBM(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleListeningOutpost",
+  "text": "청음 전초기지(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABlackMarket",
+  "text": "가짜 암시장(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTomahawkStorm",
+  "text": "토마호크 스톰(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankECM",
+  "text": "ECM(&E)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBattleBus",
+  "text": "배틀 버스(&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSentryDroneGun",
+  "text": "센트리 드론 기관총(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAQuadCannonSnipe",
+  "text": "쿼드 캐논 저격(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSupplyLines",
+  "text": "보급선(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaMOAB",
+  "text": "모든 폭탄의 어머니(&M)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLACommandCenter",
+  "text": "진짜 사령부로 전환(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABarracks",
+  "text": "진짜 병영으로 전환(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLAArmsDealer",
+  "text": "진짜 무기상으로 전환(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLASupplyStash",
+  "text": "진짜 보급 은닉처로 전환(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABlackMarket",
+  "text": "진짜 암시장으로 전환(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaBunkerBusters",
+  "text": "벙커 버스터(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCountermeasures",
+  "text": "대응 장비(&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaChemicalSuits",
+  "text": "화학 방호복(&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackOne",
+  "text": "위성 해킹 I(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackTwo",
+  "text": "위성 해킹 II(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFanaticism",
+  "text": "애국심(&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaWGUraniumShells",
+  "text": "무기급 우라늄탄(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTankAutoLoader",
+  "text": "자동 장전기(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNeutronShells",
+  "text": "중성자탄(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFusionReactors",
+  "text": "핵융합로(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNapalmBomb",
+  "text": "이 헬릭스가 네이팜 폭탄을 투하할 수 있게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNukeBomb",
+  "text": "이 헬릭스가 핵폭탄을 투하할 수 있게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNapalmBomb",
+  "text": "네이팜 폭탄(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAFortifiedStructure",
+  "text": "강화 건물(&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABoobyTrap",
+  "text": "부비 트랩(&O)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateFakeBuilding",
+  "text": "즉시 폭파!(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerFakeCommandSet",
+  "text": "가짜 건물로 전환(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerRealCommandSet",
+  "text": "진짜 건물로 전환(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAHighExplosiveDemoTraps",
+  "text": "고폭 폭파 함정(&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamoNetting",
+  "text": "위장망(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxGamma",
+  "text": "탄저균 감마(&X)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerShoes",
+  "text": "일꾼 신발(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeEMPMines",
+  "text": "중성자 지뢰(&M)"
+ },
+ {
+  "label": "CONTROLBAR:NukeWarhead",
+  "text": "핵 포탄(&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronWarhead",
+  "text": "중성자탄(&E)"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDrop",
+  "text": "전단 살포(&L)"
+ },
+ {
+  "label": "CONTROLBAR:SuitcaseNuke",
+  "text": "가방 핵폭탄(&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissileShortcut",
+  "text": "핵미사일"
+ },
+ {
+  "label": "CONTROLBAR:ICBM",
+  "text": "ICBM(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ICBMShortcut",
+  "text": "ICBM"
+ },
+ {
+  "label": "CONTROLBAR:ScudStormShortcut",
+  "text": "스커드 스톰"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStorm",
+  "text": "토마호크 스톰(&T)"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStormShortcut",
+  "text": "토마호크 스톰"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunship",
+  "text": "스펙터 건쉽(&G)"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunshipFromShortcut",
+  "text": "스펙터 건쉽"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttack",
+  "text": "기습(&T)"
+ },
+ {
+  "label": "CONTROLBAR:TankParadrop",
+  "text": "전차 투하(&P)"
+ },
+ {
+  "label": "CONTROLBAR:NukeDrop",
+  "text": "핵 투하(&U)"
+ },
+ {
+  "label": "CONTROLBAR:Frenzy",
+  "text": "광란(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScanShortcut",
+  "text": "레이더 스캔"
+ },
+ {
+  "label": "CONTROLBAR:SelectAircraftCarriersFromShortcut",
+  "text": "항공모함 선택"
+ },
+ {
+  "label": "CONTROLBAR:SelectBattleshipsFromShortcut",
+  "text": "전함 포격"
+ },
+ {
+  "label": "CONTROLBAR:BattleshipFire",
+  "text": "전함 포격"
+ },
+ {
+  "label": "CONTROLBAR:AircraftCarrierFire",
+  "text": "항공모함에서 랩터 공격"
+ },
+ {
+  "label": "CONTROLBAR:ECMDisableVehicle",
+  "text": "차량 무력화(&D)"
+ },
+ {
+  "label": "CONTROLBAR:BoobyTrapAttack",
+  "text": "부비 트랩 공격(&B)"
+ },
+ {
+  "label": "CONTROLBAR:GPSScrambler",
+  "text": "GPS 교란기(&G)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannonShortcut",
+  "text": "입자 캐논"
+ },
+ {
+  "label": "UPGRADE:AmericaSentryDroneGun",
+  "text": "센트리 드론 기관총"
+ },
+ {
+  "label": "UPGRADE:AmericaMOAB",
+  "text": "MOAB: 초대형 폭탄"
+ },
+ {
+  "label": "UPGRADE:AmericaBunkerBusters",
+  "text": "벙커 버스터 미사일"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackOne",
+  "text": "위성 해킹 I"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackTwo",
+  "text": "위성 해킹 II"
+ },
+ {
+  "label": "UPGRADE:HelixGattlingCannon",
+  "text": "헬릭스 개틀링 캐논"
+ },
+ {
+  "label": "UPGRADE:HelixPropagandaTower",
+  "text": "헬릭스 선전탑"
+ },
+ {
+  "label": "UPGRADE:HelixBattleBunker",
+  "text": "헬릭스 전투 벙커"
+ },
+ {
+  "label": "UPGRADE:SupplyLines",
+  "text": "보급선"
+ },
+ {
+  "label": "UPGRADE:PointDefenseDrone",
+  "text": "점 방어 드론"
+ },
+ {
+  "label": "UPGRADE:QuadCannonSnipe",
+  "text": "쿼드 캐논 저격탄"
+ },
+ {
+  "label": "UPGRADE:HellfireDrone",
+  "text": "헬파이어 드론"
+ },
+ {
+  "label": "UPGRADE:Fanaticism",
+  "text": "애국주의"
+ },
+ {
+  "label": "UPGRADE:EMPMine",
+  "text": "중성자 지뢰"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNapalmBomb",
+  "text": "네이팜 폭탄"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNukeBomb",
+  "text": "핵폭탄"
+ },
+ {
+  "label": "UPGRADE:WGUraniumShells",
+  "text": "무기급 우라늄탄"
+ },
+ {
+  "label": "UPGRADE:TankAutoLoader",
+  "text": "자동 장전 장치"
+ },
+ {
+  "label": "UPGRADE:NeutronShells",
+  "text": "중성자탄"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLACommandCenter",
+  "text": "진짜 사령부"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLABarracks",
+  "text": "진짜 병영"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLAArmsDealer",
+  "text": "진짜 무기상"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLASupplyStash",
+  "text": "진짜 보급 은닉처"
+ }
+]

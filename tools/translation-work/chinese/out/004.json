@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Scatter",
+  "text": "散开"
+ },
+ {
+  "label": "GUI:StopObject",
+  "text": "停止"
+ },
+ {
+  "label": "GUI:StopObjectDescription",
+  "text": "停止所选对象"
+ },
+ {
+  "label": "GUI:GoToRadarEvent",
+  "text": "前往雷达事件"
+ },
+ {
+  "label": "GUI:GoToRadarEventDescription",
+  "text": "将战术视图对准最近的雷达事件"
+ },
+ {
+  "label": "GUI:SaveView1",
+  "text": "设置书签 1"
+ },
+ {
+  "label": "GUI:SaveView1Description",
+  "text": "设置视图书签地图位置 1"
+ },
+ {
+  "label": "GUI:SaveView2",
+  "text": "设置书签 2"
+ },
+ {
+  "label": "GUI:SaveView2Description",
+  "text": "设置视图书签地图位置 2"
+ },
+ {
+  "label": "GUI:SaveView3",
+  "text": "设置书签 3"
+ },
+ {
+  "label": "GUI:SaveView3Description",
+  "text": "设置视图书签地图位置 3"
+ },
+ {
+  "label": "GUI:SaveView4",
+  "text": "设置书签 4"
+ },
+ {
+  "label": "GUI:SaveView4Description",
+  "text": "设置视图书签地图位置 4"
+ },
+ {
+  "label": "GUI:ViewView1",
+  "text": "查看书签 1"
+ },
+ {
+  "label": "GUI:ViewView1Description",
+  "text": "查看书签地图位置 1"
+ },
+ {
+  "label": "GUI:ViewView2",
+  "text": "查看书签 2"
+ },
+ {
+  "label": "GUI:ViewView2Description",
+  "text": "查看书签地图位置 2"
+ },
+ {
+  "label": "GUI:ViewView3",
+  "text": "查看书签 3"
+ },
+ {
+  "label": "GUI:ViewView3Description",
+  "text": "查看书签地图位置 3"
+ },
+ {
+  "label": "GUI:ViewView4",
+  "text": "查看书签 4"
+ },
+ {
+  "label": "GUI:ViewView4Description",
+  "text": "查看书签地图位置 4"
+ },
+ {
+  "label": "GUI:CenterBase",
+  "text": "基地居中"
+ },
+ {
+  "label": "GUI:CenterBaseDescription",
+  "text": "将视图对准玩家基地"
+ },
+ {
+  "label": "GUI:SelectNone",
+  "text": "取消选择"
+ },
+ {
+  "label": "GUI:SelectAll",
+  "text": "全选"
+ },
+ {
+  "label": "GUI:SelectAllDescription",
+  "text": "选择所有作战单位"
+ },
+ {
+  "label": "GUI:SelectNextUnit",
+  "text": "下一个对象"
+ },
+ {
+  "label": "GUI:SelectNextUnitDescription",
+  "text": "选择下一个对象"
+ },
+ {
+  "label": "GUI:SelectPrevUnit",
+  "text": "上一个对象"
+ },
+ {
+  "label": "GUI:SelectPrevUnitDescription",
+  "text": "选择上一个单位"
+ },
+ {
+  "label": "GUI:SelectNextWorker",
+  "text": "下一个工人"
+ },
+ {
+  "label": "GUI:SelectNextWorkerDescription",
+  "text": "选择下一个工人"
+ },
+ {
+  "label": "GUI:SelectPrevWorker",
+  "text": "上一个工人"
+ },
+ {
+  "label": "GUI:SelectPrevWorkerDescription",
+  "text": "选择上一个工人"
+ },
+ {
+  "label": "GUI:TypeSelect",
+  "text": "同类选择"
+ },
+ {
+  "label": "GUI:TypeSelectDescription",
+  "text": "按类型选择单位。左键双击单位可选择所有同类单位"
+ },
+ {
+  "label": "GUI:CreateTeam0",
+  "text": "创建第 0 队"
+ },
+ {
+  "label": "GUI:CreateTeam0Description",
+  "text": "将当前所选单位编为第 0 队"
+ },
+ {
+  "label": "GUI:CreateTeam1",
+  "text": "创建第 1 队"
+ },
+ {
+  "label": "GUI:CreateTeam1Description",
+  "text": "将当前所选单位编为第 1 队"
+ },
+ {
+  "label": "GUI:CreateTeam2",
+  "text": "创建第 2 队"
+ },
+ {
+  "label": "GUI:CreateTeam2Description",
+  "text": "将当前所选单位编为第 2 队"
+ },
+ {
+  "label": "GUI:CreateTeam3",
+  "text": "创建第 3 队"
+ },
+ {
+  "label": "GUI:CreateTeam3Description",
+  "text": "将当前所选单位编为第 3 队"
+ },
+ {
+  "label": "GUI:CreateTeam4",
+  "text": "创建第 4 队"
+ },
+ {
+  "label": "GUI:CreateTeam4Description",
+  "text": "将当前所选单位编为第 4 队"
+ },
+ {
+  "label": "GUI:CreateTeam5",
+  "text": "创建第 5 队"
+ },
+ {
+  "label": "GUI:CreateTeam5Description",
+  "text": "将当前所选单位编为第 5 队"
+ },
+ {
+  "label": "GUI:CreateTeam6",
+  "text": "创建第 6 队"
+ },
+ {
+  "label": "GUI:CreateTeam6Description",
+  "text": "将当前所选单位编为第 6 队"
+ },
+ {
+  "label": "GUI:CreateTeam7",
+  "text": "创建第 7 队"
+ },
+ {
+  "label": "GUI:CreateTeam7Description",
+  "text": "将当前所选单位编为第 7 队"
+ },
+ {
+  "label": "GUI:CreateTeam8",
+  "text": "创建第 8 队"
+ },
+ {
+  "label": "GUI:CreateTeam8Description",
+  "text": "将当前所选单位编为第 8 队"
+ },
+ {
+  "label": "GUI:CreateTeam9",
+  "text": "创建第 9 队"
+ },
+ {
+  "label": "GUI:CreateTeam9Description",
+  "text": "将当前所选单位编为第 9 队"
+ },
+ {
+  "label": "GUI:SelectTeam0",
+  "text": "选择第 0 队"
+ },
+ {
+  "label": "GUI:SelectTeam0Description",
+  "text": "选择第 0 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam1",
+  "text": "选择第 1 队"
+ },
+ {
+  "label": "GUI:SelectTeam1Description",
+  "text": "选择第 1 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam2",
+  "text": "选择第 2 队"
+ },
+ {
+  "label": "GUI:SelectTeam2Description",
+  "text": "选择第 2 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam3",
+  "text": "选择第 3 队"
+ },
+ {
+  "label": "GUI:SelectTeam3Description",
+  "text": "选择第 3 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam4",
+  "text": "选择第 4 队"
+ },
+ {
+  "label": "GUI:SelectTeam4Description",
+  "text": "选择第 4 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam5",
+  "text": "选择第 5 队"
+ },
+ {
+  "label": "GUI:SelectTeam5Description",
+  "text": "选择第 5 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam6",
+  "text": "选择第 6 队"
+ },
+ {
+  "label": "GUI:SelectTeam6Description",
+  "text": "选择第 6 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam7",
+  "text": "选择第 7 队"
+ },
+ {
+  "label": "GUI:SelectTeam7Description",
+  "text": "选择第 7 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam8",
+  "text": "选择第 8 队"
+ },
+ {
+  "label": "GUI:SelectTeam8Description",
+  "text": "选择第 8 队的成员"
+ },
+ {
+  "label": "GUI:SelectTeam9",
+  "text": "选择第 9 队"
+ },
+ {
+  "label": "GUI:SelectTeam9Description",
+  "text": "选择第 9 队的成员"
+ },
+ {
+  "label": "GUI:ViewTeam0",
+  "text": "第 0 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam0Description",
+  "text": "选择第 0 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam1",
+  "text": "第 1 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam1Description",
+  "text": "选择第 1 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam2",
+  "text": "第 2 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam2Description",
+  "text": "选择第 2 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam3",
+  "text": "第 3 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam3Description",
+  "text": "选择第 3 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam4",
+  "text": "第 4 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam4Description",
+  "text": "选择第 4 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam5",
+  "text": "第 5 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam5Description",
+  "text": "选择第 5 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam6",
+  "text": "第 6 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam6Description",
+  "text": "选择第 6 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam7",
+  "text": "第 7 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam7Description",
+  "text": "选择第 7 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam8",
+  "text": "第 8 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam8Description",
+  "text": "选择第 8 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:ViewTeam9",
+  "text": "第 9 队居中"
+ },
+ {
+  "label": "GUI:ViewTeam9Description",
+  "text": "选择第 9 队并将视图对准该队"
+ },
+ {
+  "label": "GUI:LocalIPDesc",
+  "text": "本地 IP"
+ },
+ {
+  "label": "GUI:RemoteIPDesc",
+  "text": "远程 IP"
+ },
+ {
+  "label": "GUI:SaveCamera",
+  "text": "在录像中保存镜头"
+ },
+ {
+  "label": "GUI:UseCamera",
+  "text": "在录像中使用保存的镜头"
+ },
+ {
+  "label": "Mouse:Windows",
+  "text": "Windows 光标"
+ },
+ {
+  "label": "Mouse:W3D",
+  "text": "W3D 光标"
+ },
+ {
+  "label": "Mouse:Poly",
+  "text": "多边形光标"
+ },
+ {
+  "label": "Mouse:DX8",
+  "text": "DX8 光标"
+ },
+ {
+  "label": "Mouse:Heal",
+  "text": "接受治疗"
+ },
+ {
+  "label": "Mouse:GetRepaired",
+  "text": "接受维修"
+ },
+ {
+  "label": "Mouse:Dock",
+  "text": "停靠"
+ },
+ {
+  "label": "Mouse:DoRepair",
+  "text": "维修"
+ },
+ {
+  "label": "Mouse:ResumeConstruction",
+  "text": "继续建造"
+ },
+ {
+  "label": "Mouse:Enter",
+  "text": "进入"
+ },
+ {
+  "label": "Mouse:SetRallyPoint",
+  "text": "设置集结点"
+ },
+ {
+  "label": "Mouse:DisguiseAsVehicle",
+  "text": "伪装成它！"
+ },
+ {
+  "label": "Mouse:Invalid",
+  "text": "无效"
+ },
+ {
+  "label": "Mouse:FireFlame",
+  "text": "焚烧"
+ },
+ {
+  "label": "Mouse:FireFlashBang",
+  "text": "闪光震撼弹"
+ },
+ {
+  "label": "Mouse:FireTranqDarts",
+  "text": "麻醉飞镖"
+ },
+ {
+  "label": "Mouse:FireStunBullets",
+  "text": "眩晕子弹"
+ },
+ {
+  "label": "Mouse:MakeCarBomb",
+  "text": "制造汽车炸弹"
+ },
+ {
+  "label": "Mouse:Hijack",
+  "text": "劫持"
+ },
+ {
+  "label": "Mouse:FireBomb",
+  "text": "发射\n炸弹"
+ },
+ {
+  "label": "Mouse:Defector",
+  "text": "策反\n叛逃"
+ },
+ {
+  "label": "Mouse:CaptureBuilding",
+  "text": "占领建筑"
+ },
+ {
+  "label": "Mouse:DisableVehicleHack",
+  "text": "瘫痪车辆"
+ },
+ {
+  "label": "Mouse:StealCashHack",
+  "text": "窃取资金"
+ },
+ {
+  "label": "Mouse:SnipeVehicle",
+  "text": "狙击车辆"
+ },
+ {
+  "label": "Mouse:DisableBuildingHack",
+  "text": "瘫痪建筑"
+ },
+ {
+  "label": "Mouse:LaserGuidedMissiles",
+  "text": "激光制导导弹"
+ },
+ {
+  "label": "Mouse:TankHunterTNTAttack",
+  "text": "TNT 攻击"
+ },
+ {
+  "label": "Mouse:A10ThunderboltStrike",
+  "text": "A10 打击位置"
+ },
+ {
+  "label": "Mouse:StabAttack",
+  "text": "刺杀"
+ },
+ {
+  "label": "Mouse:PlaceRemoteCharge",
+  "text": "放置遥控炸药"
+ },
+ {
+  "label": "Mouse:PlaceTimedCharge",
+  "text": "放置定时炸药"
+ },
+ {
+  "label": "Mouse:RepairVehicles",
+  "text": "紧急维修(&E)"
+ },
+ {
+  "label": "Mouse:Demoralize",
+  "text": "士气打击"
+ },
+ {
+  "label": "Mouse:PickUpPrisoner",
+  "text": "押送俘虏"
+ },
+ {
+  "label": "Mouse:Return",
+  "text": "返回"
+ },
+ {
+  "label": "Mouse:PlaceBeacon",
+  "text": "放置信标"
+ },
+ {
+  "label": "SCRIPT:TestString",
+  "text": "老兄，这就像是一个测试字符串"
+ },
+ {
+  "label": "SCRIPT:LongTestString",
+  "text": "老兄，这就像是一个非常长的测试字符串。它用来确保自动换行和间距都能正常工作"
+ },
+ {
+  "label": "SCIENCE:GeneralName",
+  "text": "<输入名称>"
+ },
+ {
+  "label": "SCIENCE:SkillPoints",
+  "text": "技能点数：%d"
+ },
+ {
+  "label": "SCIENCE:Rank",
+  "text": "等级 %d"
+ },
+ {
+  "label": "SCIENCE:TempName",
+  "text": "为我的科技命名"
+ },
+ {
+  "label": "SCIENCE:TempDescription",
+  "text": "请抽空填写我在 Science.ini 中的描述！万分感谢"
+ },
+ {
+  "label": "SCIENCE:USAPaladin",
+  "text": "帕拉丁坦克"
+ },
+ {
+  "label": "SCIENCE:USAPathFinder",
+  "text": "探路者"
+ },
+ {
+  "label": "SCIENCE:USAStealthFighter",
+  "text": "隐形战机"
+ },
+ {
+  "label": "SCIENCE:USASpyDrone",
+  "text": "间谍无人机"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop1",
+  "text": "伞兵空降 1"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop2",
+  "text": "伞兵空降 2"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop3",
+  "text": "伞兵空降 3"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike1",
+  "text": "A10 空袭 1"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike2",
+  "text": "A10 空袭 2"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike3",
+  "text": "A10 空袭 3"
+ },
+ {
+  "label": "SCIENCE:USADaisyCutter",
+  "text": "燃料空气炸弹"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeLauncher",
+  "text": "核弹炮"
+ },
+ {
+  "label": "SCIENCE:ChinaRedGuardTraining",
+  "text": "红卫兵训练"
+ },
+ {
+  "label": "SCIENCE:ChinaClusterMines",
+  "text": "集束地雷"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryTraining",
+  "text": "炮兵训练"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage",
+  "text": "炮火覆盖 1"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage2",
+  "text": "炮火覆盖 2"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage3",
+  "text": "炮火覆盖 3"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack1",
+  "text": "资金入侵 1"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack2",
+  "text": "资金入侵 2"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack3",
+  "text": "资金入侵 3"
+ },
+ {
+  "label": "SCIENCE:ChinaEMPPulse",
+  "text": "EMP 电磁脉冲"
+ },
+ {
+  "label": "SCIENCE:GLAHijacker",
+  "text": "劫车犯"
+ },
+ {
+  "label": "SCIENCE:GLASCUDLauncher",
+  "text": "飞毛腿发射车"
+ },
+ {
+  "label": "SCIENCE:GLAMaruaderTank",
+  "text": "劫掠者坦克"
+ },
+ {
+  "label": "SCIENCE:GLATechnicalTraining",
+  "text": "技术车训练"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush1",
+  "text": "叛军伏击 1"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush2",
+  "text": "叛军伏击 2"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush3",
+  "text": "叛军伏击 3"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty1",
+  "text": "现金赏金 1"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty2",
+  "text": "现金赏金 2"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty3",
+  "text": "现金赏金 3"
+ },
+ {
+  "label": "SCIENCE:GLAAnthraxBomb",
+  "text": "炭疽炸弹"
+ },
+ {
+  "label": "CONTROLBAR:Demoralize",
+  "text": "士气打击"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligence",
+  "text": "情报(&C)"
+ },
+ {
+  "label": "CONTROLBAR:CombatDrop",
+  "text": "空降突击(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Guard",
+  "text": "警戒(&G)"
+ },
+ {
+  "label": "CONTROLBAR:GuardWithoutPursuit",
+  "text": "近距警戒(&C)"
+ },
+ {
+  "label": "CONTROLBAR:GuardFlyingUnitsOnly",
+  "text": "对空警戒(&R)"
+ },
+ {
+  "label": "CONTROLBAR:AttackMove",
+  "text": "攻击移动(&A)"
+ },
+ {
+  "label": "CONTROLBAR:Stop",
+  "text": "停止(&S)"
+ },
+ {
+  "label": "CONTROLBAR:Waypoints",
+  "text": "路径点(&T)"
+ },
+ {
+  "label": "CONTROLBAR:CancelBuild",
+  "text": "取消建造(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Contaminate",
+  "text": "污染(&C)"
+ },
+ {
+  "label": "CONTROLBAR:FireWall",
+  "text": "火墙(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAArmTheMob",
+  "text": "武装暴民(&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordGattlingCannon",
+  "text": "加特林机炮(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordPropagandaTower",
+  "text": "宣传塔(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordBattleBunker",
+  "text": "战斗碉堡(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireBomb",
+  "text": "燃烧弹(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UnderConstructionDesc",
+  "text": "建造中：%.0f%%"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDesc",
+  "text": "距下次空投：%d:%d"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDescWithPadding",
+  "text": "距下次空投：%d:0%d"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanBombardment",
+  "text": "轰炸作战计划(&B)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanHoldTheLine",
+  "text": "坚守阵线作战计划(&O)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanSearchAndDestroy",
+  "text": "搜索与摧毁作战计划(&D)"
+ }
+]

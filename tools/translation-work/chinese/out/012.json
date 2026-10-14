@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:NoMansLand",
+  "text": "No Man's Land"
+ },
+ {
+  "label": "MAP:OverlandOffensive",
+  "text": "Overland Offensive"
+ },
+ {
+  "label": "MAP:RockyRampage",
+  "text": "Rocky Rampage"
+ },
+ {
+  "label": "MAP:SnowblindStrike",
+  "text": "Snowblind Strike"
+ },
+ {
+  "label": "MAP:UrbanUnderground",
+  "text": "Urban Underground"
+ },
+ {
+  "label": "MAP:VictoryValley",
+  "text": "Victory Valley"
+ },
+ {
+  "label": "MAP:WastelandWarfare",
+  "text": "Wasteland Warfare"
+ },
+ {
+  "label": "MAP:RogueAgent",
+  "text": "Rogue Agent"
+ },
+ {
+  "label": "MAP:DesertEagle",
+  "text": "Desert Eagle"
+ },
+ {
+  "label": "MAP:FlashFire",
+  "text": "Flash Fire"
+ },
+ {
+  "label": "MAP:MountainGuns",
+  "text": "Mountain Guns"
+ },
+ {
+  "label": "MAP:FlashEffect",
+  "text": "Flash Effect"
+ },
+ {
+  "label": "MAP:LightsOut",
+  "text": "Lights Out"
+ },
+ {
+  "label": "MAP:SteelTrap",
+  "text": "Steel Trap"
+ },
+ {
+  "label": "MAP:ArmoredFury",
+  "text": "Armored Fury"
+ },
+ {
+  "label": "MAP:InfiniteJustice",
+  "text": "Cairo Commandos"
+ },
+ {
+  "label": "MAP:Whiteout",
+  "text": "Whiteout"
+ },
+ {
+  "label": "MAP:FalloutEffect",
+  "text": "Fallout Effect"
+ },
+ {
+  "label": "MAP:FloodedPlains",
+  "text": "Flooded Plains"
+ },
+ {
+  "label": "MAP:TournamentContinent",
+  "text": "Tournament Continent"
+ },
+ {
+  "label": "MAP:TournamentCity",
+  "text": "Tournament City"
+ },
+ {
+  "label": "MAP:TournamentLadder01",
+  "text": "Tournament Ladder 01"
+ },
+ {
+  "label": "MAP:TournamentLadder02",
+  "text": "Tournament Ladder 02"
+ },
+ {
+  "label": "MAP:TournamentLadder03",
+  "text": "Tournament Ladder 03"
+ },
+ {
+  "label": "MAP:TournamentLadder04",
+  "text": "Tournament Ladder 04"
+ },
+ {
+  "label": "MAP:TrainingGLAHole",
+  "text": "GLA 建筑拥有很深的地下区域，能保护其中的工人。摧毁 GLA 建筑后会留下一个洞口。躲在洞口里的工人最终会重建该建筑。攻击洞口以彻底消除 GLA 威胁"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25",
+  "text": "连胜荣誉\n玩家已连续赢得 25 场遭遇战\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "GUI:InsertCDPrompt",
+  "text": "缺少光盘"
+ },
+ {
+  "label": "GUI:InsertCDMessage",
+  "text": "请插入第一张游戏光盘"
+ },
+ {
+  "label": "CONTROLBAR:OrRequirement",
+  "text": "或"
+ },
+ {
+  "label": "SCRIPT:USA02RescueCounter",
+  "text": "剩余飞行员："
+ },
+ {
+  "label": "GUI:AddCash",
+  "text": "$%d"
+ },
+ {
+  "label": "GUI:LoseCash",
+  "text": "-$%d"
+ },
+ {
+  "label": "RADAR:HarvesterUnderAttack",
+  "text": "资源采集单位遭到攻击"
+ },
+ {
+  "label": "OBJECT:PharmaceuticalFactory",
+  "text": "制药厂"
+ },
+ {
+  "label": "GUI:CareerWins",
+  "text": "生涯胜场"
+ },
+ {
+  "label": "GUI:CareerLosses",
+  "text": "生涯负场"
+ },
+ {
+  "label": "GUI:CurrentWinStreak",
+  "text": "当前连胜"
+ },
+ {
+  "label": "GUI:CarrerWinPercent",
+  "text": "生涯胜率"
+ },
+ {
+  "label": "TOOLTIP:NumberOfPlayers",
+  "text": "当前游戏中的玩家数量"
+ },
+ {
+  "label": "TOOTIP:Password",
+  "text": "加入游戏所需的密码"
+ },
+ {
+  "label": "TOOLTIP:PingInfo",
+  "text": "与主机的连接质量"
+ },
+ {
+  "label": "TOOLTIP:LobbyOfficersClub",
+  "text": "军官俱乐部：将军社区创始会员"
+ },
+ {
+  "label": "GUI:Display",
+  "text": "选项"
+ },
+ {
+  "label": "GUI:Audio",
+  "text": "音频"
+ },
+ {
+  "label": "GUI:LANLobby",
+  "text": "局域网大厅"
+ },
+ {
+  "label": "GUI:Mute",
+  "text": "静音"
+ },
+ {
+  "label": "GUI:NeedHumanPlayers",
+  "text": "需要一名非观察者的真人玩家才能开始游戏"
+ },
+ {
+  "label": "GUI:MediumDifficulty",
+  "text": "中等"
+ },
+ {
+  "label": "CONTROLBAR:ObsPlayerLabel",
+  "text": "%ls（队伍 %ls）"
+ },
+ {
+  "label": "GUI:LowTextureDetail",
+  "text": "低纹理细节"
+ },
+ {
+  "label": "TOOLTIP:LowTextureDetail",
+  "text": "使用低分辨率纹理"
+ },
+ {
+  "label": "GUI:QuickMatch800x600",
+  "text": "请将视频分辨率改为 800 x 600 以进行快速对战"
+ },
+ {
+  "label": "OBJECT:CargoPlane",
+  "text": "运输机"
+ },
+ {
+  "label": "OBJECT:HuNanProvince",
+  "text": "北京"
+ },
+ {
+  "label": "OBJECT:HongKong",
+  "text": "香港"
+ },
+ {
+  "label": "OBJECT:HubeiProvince",
+  "text": "三峡大坝"
+ },
+ {
+  "label": "OBJECT:Tangula",
+  "text": "唐古拉山"
+ },
+ {
+  "label": "OBJECT:Balykchy",
+  "text": "巴雷克奇"
+ },
+ {
+  "label": "OBJECT:Bishkek",
+  "text": "比什凯克"
+ },
+ {
+  "label": "OBJECT:Dushanbe",
+  "text": "杜尚别"
+ },
+ {
+  "label": "OBJECT:Shymkent",
+  "text": "奇姆肯特"
+ },
+ {
+  "label": "OBJECT:Almaty",
+  "text": "阿拉木图"
+ },
+ {
+  "label": "OBJECT:Zambul",
+  "text": "江布尔"
+ },
+ {
+  "label": "OBJECT:Astana",
+  "text": "阿斯塔纳"
+ },
+ {
+  "label": "OBJECT:Incirlik",
+  "text": "因吉尔利克"
+ },
+ {
+  "label": "OBJECT:AralSea",
+  "text": "咸海"
+ },
+ {
+  "label": "OBJECT:Lenger",
+  "text": "楞格尔"
+ },
+ {
+  "label": "OBJECT:Baikonur",
+  "text": "拜科努尔"
+ },
+ {
+  "label": "OBJECT:Mazar",
+  "text": "马扎尔"
+ },
+ {
+  "label": "OBJECT:Baghdad",
+  "text": "巴格达"
+ },
+ {
+  "label": "OBJECT:AlHanad",
+  "text": "阿尔哈纳德"
+ },
+ {
+  "label": "OBJECT:NorthKazakhstan",
+  "text": "哈萨克斯坦北部"
+ },
+ {
+  "label": "OBJECT:KazakhstanCoast",
+  "text": "哈萨克斯坦海岸"
+ },
+ {
+  "label": "OBJECT:KazakhstanDMZ",
+  "text": "哈萨克斯坦非军事区"
+ },
+ {
+  "label": "OBJECT:SouthKazkahstan",
+  "text": "哈萨克斯坦东南部"
+ },
+ {
+  "label": "OBJECT:Akmola",
+  "text": "阿克莫拉"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective01a",
+  "text": "任务目标：\n占领东边的指挥中心以开始生产\n消灭 200 名叛徒"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective02a",
+  "text": "任务目标：\n用毒素拖拉机消灭 200 名叛徒"
+ },
+ {
+  "label": "TOOLTIP:Campaign1",
+  "text": "战役 3"
+ },
+ {
+  "label": "TOOLTIP:Campaign2",
+  "text": "战役 2"
+ },
+ {
+  "label": "TOOLTIP:Campaign3",
+  "text": "战役 1"
+ },
+ {
+  "label": "GUI:Setup",
+  "text": "设置"
+ },
+ {
+  "label": "GUI:PlayerInfo",
+  "text": "玩家信息"
+ },
+ {
+  "label": "GUI:Persona",
+  "text": "个人资料"
+ },
+ {
+  "label": "GUI:TextureHigh",
+  "text": "高质量（较慢）"
+ },
+ {
+  "label": "GUI:TextureMedium",
+  "text": "中等质量"
+ },
+ {
+  "label": "GUI:TextureLow",
+  "text": "低质量（较快）"
+ },
+ {
+  "label": "GUI:GameSpeed",
+  "text": "游戏速度"
+ },
+ {
+  "label": "GUI:SlowGameSpeed",
+  "text": "慢"
+ },
+ {
+  "label": "GUI:MediumGameSpeed",
+  "text": "中"
+ },
+ {
+  "label": "GUI:FastGameSpeed",
+  "text": "快"
+ },
+ {
+  "label": "GUI:RestartConfirmationTitle",
+  "text": "重新开始？"
+ },
+ {
+  "label": "GUI:SurrenderConfirmationTitle",
+  "text": "投降？"
+ },
+ {
+  "label": "TOOLTIP:StartPositionN",
+  "text": "玩家 %d 的起始位置"
+ },
+ {
+  "label": "LABEL:FORMATION",
+  "text": "F"
+ },
+ {
+  "label": "GUI:IgnoreSm",
+  "text": "忽略"
+ },
+ {
+  "label": "GUI:AcceptSm",
+  "text": "接受"
+ },
+ {
+  "label": "GUI:EasyCaps",
+  "text": "简单"
+ },
+ {
+  "label": "GUI:MediumDifficultyCaps",
+  "text": "中等"
+ },
+ {
+  "label": "GUI:HardCaps",
+  "text": "困难"
+ },
+ {
+  "label": "TOOLTIP:AdvanceOptionsAccept",
+  "text": "接受对高级显示选项所做的更改"
+ },
+ {
+  "label": "TOOLTIP:AdvanceOptionsCancel",
+  "text": "不保存更改并退出高级显示选项菜单"
+ },
+ {
+  "label": "GUI:AdvanceDisplayOptions",
+  "text": "高级显示选项"
+ },
+ {
+  "label": "GUI:Shadows",
+  "text": "阴影"
+ },
+ {
+  "label": "TOOLTIP:Shadows",
+  "text": "切换游戏中的阴影显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:BehindBuilding",
+  "text": "建筑后单位"
+ },
+ {
+  "label": "TOOLTIP:BehindBuilding",
+  "text": "切换显示建筑后方的单位。关闭以提高性能"
+ },
+ {
+  "label": "GUI:ShowProps",
+  "text": "显示道具"
+ },
+ {
+  "label": "TOOLTIP:ShowProps",
+  "text": "切换游戏道具的显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:LowResSlider",
+  "text": "纹理分辨率"
+ },
+ {
+  "label": "GUI:HighResSlower",
+  "text": "高分辨率（较慢）"
+ },
+ {
+  "label": "GUI:LowResFaster",
+  "text": "低分辨率（较快）"
+ },
+ {
+  "label": "TOOLTIP:LowResSlider",
+  "text": "更高分辨率的纹理可能拖慢游戏"
+ },
+ {
+  "label": "GUI:ParticleCap",
+  "text": "粒子上限"
+ },
+ {
+  "label": "GUI:MoreParticlesSlower",
+  "text": "最多粒子（较慢）"
+ },
+ {
+  "label": "GUI:LessParticlesFaster",
+  "text": "最少粒子（较快）"
+ },
+ {
+  "label": "TOOLTIP:ParticleCapSlider",
+  "text": "更多粒子可能拖慢游戏"
+ },
+ {
+  "label": "GUI:CurrentLossStreak",
+  "text": "当前连败"
+ },
+ {
+  "label": "GUI:Custom",
+  "text": "自定义"
+ },
+ {
+  "label": "GUI:ToggleOnOff",
+  "text": "视觉效果"
+ },
+ {
+  "label": "GUI:RestartMission",
+  "text": "重新开始任务"
+ },
+ {
+  "label": "GUI:ExitMission",
+  "text": "退出任务"
+ },
+ {
+  "label": "GUI:OlderReplayVersionTitle",
+  "text": "旧版本录像"
+ },
+ {
+  "label": "GUI:OlderReplayVersion",
+  "text": "载入后可能无法正常显示录像，是否继续载入？"
+ },
+ {
+  "label": "GUI:Shadows2D",
+  "text": "2D 阴影"
+ },
+ {
+  "label": "TOOLTIP:Shadows2D",
+  "text": "切换游戏中的 2D 阴影显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:Shadows3D",
+  "text": "3D 阴影"
+ },
+ {
+  "label": "TOOLTIP:Shadows3D",
+  "text": "切换游戏中的 3D 阴影显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:CloudShadows",
+  "text": "云层阴影"
+ },
+ {
+  "label": "TOOLTIP:CloudShadows",
+  "text": "切换地面上的云层阴影显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:GroundLighting",
+  "text": "额外地面光照"
+ },
+ {
+  "label": "TOOLTIP:GroundLighting",
+  "text": "切换地面细节光照显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:SmoothWater",
+  "text": "平滑水域边缘"
+ },
+ {
+  "label": "TOOLTIP:SmoothWater",
+  "text": "切换水域边缘平滑。关闭以提高性能"
+ },
+ {
+  "label": "GUI:ExtraAnimations",
+  "text": "额外动画"
+ },
+ {
+  "label": "TOOLTIP:ExtraAnimations",
+  "text": "切换树木摇摆等可选动画。关闭以提高性能"
+ },
+ {
+  "label": "GUI:NoDynamicLOD",
+  "text": "禁用动态细节层次"
+ },
+ {
+  "label": "TOOLTIP:NoDynamicLOD",
+  "text": "禁用自动细节调整。关闭以提高性能"
+ },
+ {
+  "label": "GUI:UnlockMaxFPS",
+  "text": "不限帧率"
+ },
+ {
+  "label": "TOOLTIP:UnlockMaxFPS",
+  "text": "允许帧率超过 30。会影响游戏速度，因此仅建议用于性能测试"
+ },
+ {
+  "label": "GUI:TreeSway",
+  "text": "树木动画"
+ },
+ {
+  "label": "TOOLTIP:TreeSway",
+  "text": "切换树木动画。关闭以提高性能"
+ },
+ {
+  "label": "GUI:TankTreads",
+  "text": "载具履带痕迹"
+ },
+ {
+  "label": "TOOLTIP:TankTreads",
+  "text": "切换载具留下的痕迹。关闭以提高性能"
+ },
+ {
+  "label": "GUI:WaterWaves",
+  "text": "水波"
+ },
+ {
+  "label": "TOOLTIP:WaterWaves",
+  "text": "切换岸边的波浪动画。关闭以提高性能"
+ },
+ {
+  "label": "GUI:BuildupAnimations",
+  "text": "建造动画"
+ },
+ {
+  "label": "TOOLTIP:BuildupAnimations",
+  "text": "在建造建筑时显示额外动画。关闭以提高性能"
+ },
+ {
+  "label": "GUI:AdvancedOptionsToggleOnOff",
+  "text": "开启/关闭 - 关闭以提高性能"
+ },
+ {
+  "label": "GUI:PerformanceTestingMessage",
+  "text": "正在测试系统性能以确定最佳设置，请稍候"
+ },
+ {
+  "label": "GUI:PerformanceTestingTitle",
+  "text": "正在测试系统性能"
+ },
+ {
+  "label": "GUI:ReducedColor",
+  "text": "16 位色彩"
+ },
+ {
+  "label": "TOOLTIP:ReducedColor",
+  "text": "提高性能，但会降低画面质量"
+ },
+ {
+  "label": "GUI:SelectAMapLowerCase",
+  "text": "选择地图"
+ },
+ {
+  "label": "GUI:SaveAndExit",
+  "text": "保存并退出"
+ },
+ {
+  "label": "GUI:PerSideWinPercentage",
+  "text": "%d%% %ls"
+ },
+ {
+  "label": "GUI:WinnersToday",
+  "text": "今日赢家"
+ },
+ {
+  "label": "GUI:WinnersLastWeek",
+  "text": "上周赢家"
+ },
+ {
+  "label": "MOTD:NumPlayersHeading",
+  "text": "欢迎来到将军：绝命时刻在线对战。"
+ },
+ {
+  "label": "TOOLTIP:GameAcceptance",
+  "text": "游戏接受度"
+ },
+ {
+  "label": "TOOLTIP:ConnectionSpeed",
+  "text": "连接速度"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyArtilleryBarrage",
+  "text": "炮火覆盖"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeySpySatellite",
+  "text": "间谍卫星"
+ },
+ {
+  "label": "GUI:FetchingPlayerInfo",
+  "text": "更新中……"
+ },
+ {
+  "label": "CREDITS:EALosAngelesFieldRecordingsTeam",
+  "text": "EA 洛杉矶外景录音团队"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceSeniorLead",
+  "text": "EA Tiburon 质量保证高级主管"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceProjectLead",
+  "text": "EA Tiburon 质量保证项目主管"
+ },
+ {
+  "label": "CREDITS:TiburonAssociateQualityAssuranceLeads",
+  "text": "EA Tiburon 质量保证副主管"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceSeniorTesters",
+  "text": "EA Tiburon 质量保证高级测试员"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceTesters",
+  "text": "EA Tiburon 质量保证测试员"
+ },
+ {
+  "label": "CREDITS:EAUKAdditionalQualityAssurance",
+  "text": "EAUK 额外质量保证"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipants",
+  "text": "多人游戏测试参与者"
+ },
+ {
+  "label": "CREDITS:FocusTesters",
+  "text": "焦点测试员"
+ },
+ {
+  "label": "CREDITS:NorthAmericaMarketingPartners",
+  "text": "北美市场合作伙伴"
+ },
+ {
+  "label": "CREDITS:ManagingDirectorEurope",
+  "text": "欧洲区总经理"
+ },
+ {
+  "label": "CREDITS:EuropeanMarketingPartners",
+  "text": "欧洲市场合作伙伴"
+ },
+ {
+  "label": "CREDITS:AsiaPacificPresidentandCoach",
+  "text": "EA 亚太区总裁兼教练"
+ },
+ {
+  "label": "CREDITS:AsiaPacificMarketingPartners",
+  "text": "EA 亚太区市场合作伙伴"
+ },
+ {
+  "label": "CREDITS:GamingCommunityPartners",
+  "text": "游戏社区合作伙伴"
+ },
+ {
+  "label": "CREDITS:EADevelopmentExecutives",
+  "text": "EA 开发高管"
+ },
+ {
+  "label": "CREDITS:SpecialThankstotheMaxiscrew",
+  "text": "特别感谢 Maxis 团队"
+ },
+ {
+  "label": "CREDITS:VerySpecialThanks",
+  "text": "特别鸣谢"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle",
+  "text": "Command & Conquer (TM) 将军：绝命时刻开发者"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam",
+  "text": "Electronic Arts Los Angeles"
+ },
+ {
+  "label": "CREDITS:ExecutiveInCharge",
+  "text": "制作执行总监"
+ },
+ {
+  "label": "CREDITS:Producer",
+  "text": "制作人"
+ },
+ {
+  "label": "CREDITS:LeadDesigner",
+  "text": "首席设计师"
+ },
+ {
+  "label": "CREDITS:TechnicalDirector",
+  "text": "技术总监"
+ },
+ {
+  "label": "CREDITS:ArtDirector",
+  "text": "美术总监"
+ },
+ {
+  "label": "CREDITS:ArtProducer",
+  "text": "美术制作人"
+ },
+ {
+  "label": "CREDITS:SeniorProducer",
+  "text": "高级制作人"
+ },
+ {
+  "label": "CREDITS:AssociateProducers",
+  "text": "助理制作人"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestProducer",
+  "text": "多人游戏测试制作人"
+ },
+ {
+  "label": "CREDITS:SeniorEngineers",
+  "text": "高级工程师"
+ },
+ {
+  "label": "CREDITS:Engineers",
+  "text": "工程师"
+ },
+ {
+  "label": "CREDITS:AdditionalEngineering",
+  "text": "额外工程"
+ },
+ {
+  "label": "CREDITS:Designers",
+  "text": "设计师"
+ },
+ {
+  "label": "CREDITS:AdditionalDesignInspirationandSupport",
+  "text": "额外设计、灵感与支持"
+ },
+ {
+  "label": "CREDITS:AdditionalDesign",
+  "text": "额外设计"
+ }
+]

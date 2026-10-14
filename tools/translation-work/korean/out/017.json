@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:MD-CHI05_PartCannon_Detected",
+  "text": "경고:\n입자 캐논 발견"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint01",
+  "text": "힌트:\n미군 기지 공격에 집중해야 합니다\n입자 캐논을 제거해야 합니다"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint02",
+  "text": "수신 통신:\n미군 사령부를 파괴해 항공 지원을 끊으십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint05",
+  "text": "수신 통신:\n적 하이재커를 처치해 아군 차량을 보호하십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint08",
+  "text": "수신 통신:\n자르멘 켈이 이 마을에 숨어 있을지도 모릅니다"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint10",
+  "text": "수신 통신:\n배틀 버스가 기지에 도달하지 못하게 막으십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint13",
+  "text": "수신 통신:\n미군 기지에 전력이 끊겼습니다. 신속히 공격하십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint15",
+  "text": "수신 통신:\n청음 전초기지로\n자르멘 켈이 아군 차량을 저격하지 못하게 하십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint16",
+  "text": "수신 통신:\n보병으로 무력화된 아군 차량을 되찾으십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_InternetCenter02",
+  "text": "힌트:\n인터넷 센터에 해커를 주둔시켜 추가 수입을 올리십시오"
+ },
+ {
+  "label": "MAP:ChemGeneral",
+  "text": "스랙스 박사"
+ },
+ {
+  "label": "GC_CHINABOSS:Loc",
+  "text": "중국/티베트 국경 근처 어딘가\n'호랑이 굴'"
+ },
+ {
+  "label": "GC_CHINABOSS:Hint",
+  "text": "수신 통신:\n적 무기 벙커를 파괴하면 모든 초강력 무기 타이머가 초기화됩니다"
+ },
+ {
+  "label": "GC_CHINABOSS:Reset",
+  "text": "\n초강력 무기 타이머 초기화"
+ },
+ {
+  "label": "GC_CHINABOSS:Strike",
+  "text": "\n초강력 무기 공격 임박"
+ },
+ {
+  "label": "GC_CHINABOSS:Resources",
+  "text": "힌트:\n이곳의 자원은 한정되어 있습니다. 빨리 보급품을 더 찾아야 합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMOAB",
+  "text": "강함: 건물\n폭발 반경 내 유닛을 기절시킵니다\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipLeafletDrop",
+  "text": "강함: 보병\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipTankParaDrop",
+  "text": "항공기로 배틀마스터를 투하합니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeDrop",
+  "text": "항공기로 전술 핵탄두를 투하합니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSuitcaseNuke",
+  "text": "해커의 서류 가방에 핵무기가 들어 있습니다\n"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSpectreGunship",
+  "text": "강함: 차량\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireICBM",
+  "text": "강함: 건물, 보병\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireTomahawkStorm",
+  "text": "강함: 건물, 차량\n\n재사용 대기시간: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFrenzy",
+  "text": "일정 시간 동안 유닛의 피해량을 높입니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireGPSScrambler",
+  "text": "GPS 교란기\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCommunicationsDownload",
+  "text": "모든 적 병력의 위치 정보를 다운로드합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSentryDroneGun",
+  "text": "센트리 드론에 기관총이 장착됩니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeQuadCannonSnipe",
+  "text": "쿼드 캐논이 보병을 한 발에 처치할 수 있게 됩니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSupplyLines",
+  "text": "자원 수집 장비가 10%를 추가로 가져옵니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeMOAB",
+  "text": "연료 기화 폭탄이 모든 폭탄의 어머니로 업그레이드됩니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBecomeRealBuilding",
+  "text": "이 가짜 건물을 완전히 작동하는 건물로 업그레이드합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeChemicalSuits",
+  "text": "보병이 독소와 방사능 피해에 더 강해집니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeBunkerBusters",
+  "text": "스텔스 전투기의 미사일이 주둔한 병력에 피해를 줍니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCountermeasures",
+  "text": "모든 항공기가 날아오는 미사일의 50%를 회피합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon",
+  "text": "이 헬릭스에 개틀링 캐논을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixPropagandaTower",
+  "text": "이 헬릭스에 선전탑을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixBattleBunker",
+  "text": "이 헬릭스에 벙커를 설치합니다. 병력이 벙커에 들어가 밖으로 사격할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackOne",
+  "text": "상대의 사령부를 드러내는 위성 해킹 능력을 활성화합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo",
+  "text": "모든 상대의 영역을 주기적으로 드러내는 위성 해킹 능력을 활성화합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeFanaticism",
+  "text": "무리 보너스 추가 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaWGUraniumShells",
+  "text": "배틀마스터와 오버로드의 포탄 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTankAutoLoader",
+  "text": "배틀마스터의 발사 속도가 빨라집니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNeutronShells",
+  "text": "핵 캐논이 중성자탄을 발사하도록 업그레이드합니다\n중성자탄은 차량 안의 보병을 처치합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeChinaEMPMines",
+  "text": "지뢰가 작동하면 중성자 폭발을 일으킵니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaFusionReactors",
+  "text": "황제와 배틀마스터의 속도가 빨라집니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateFakebuilding",
+  "text": "가짜 건물을 즉시 폭파하도록 명령합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerFakeCommandSet",
+  "text": "명령 바를 가짜 건물 건설로 전환합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerRealCommandSet",
+  "text": "명령 바를 진짜 건물 건설로 전환합니다"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ToolTipGLAUpgradeHEBomb",
+  "text": "모든 폭파 함정의 피해가 100% 늘어납니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLACamoNetting",
+  "text": "이 건물이 위장됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure",
+  "text": "건물이 공격에 대한 추가 장갑을 얻습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBoobyTrap",
+  "text": "반군이 건물과 중립 유닛에 부비 트랩을 설치할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeWorkerShoes",
+  "text": "일꾼들이 그토록 원하던 새 신발을 줘서 이동 속도를 높입니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxGamma",
+  "text": "모든 독소 유닛 피해 +50%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSaboteur",
+  "text": "건물을 무력화합니다. 초강력 무기 타이머를 초기화합니다"
+ },
+ {
+  "label": "CONTROLBAR:DropNapalmBomb",
+  "text": "네이팜 폭탄 투하(&D)"
+ },
+ {
+  "label": "CONTROLBAR:DropNukeBomb",
+  "text": "핵폭탄 투하(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNukeBomb",
+  "text": "목표 지역에 전술 핵을 투하합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNapalmBomb",
+  "text": "강함: 대부분의 지상 목표\n약함: 화염 차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNukeWarhead",
+  "text": "핵 포탄 장전"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNeutronWarhead",
+  "text": "중성자탄 장전"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireBattleship",
+  "text": "연안 전함에 포격을 요청합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireAircraftCarrier",
+  "text": "항공모함의 공격기를 출격시킵니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipECMDisableVehicle",
+  "text": "적 차량 무력화"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireRebelBoobyTrapAttack",
+  "text": "부비 트랩 설치"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFireBase",
+  "text": "지상 방어. 보병 4명이 주둔할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildArtilleryPlatform",
+  "text": "방어용 장거리 포병 플랫폼을 건설합니다\n\n필요 전력: 4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFakeGLABuilding",
+  "text": "가짜 건물은 폭파하거나 진짜 건물로 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInternetCenter",
+  "text": "해커의 자금 수입을 돕습니다. 업그레이드하면 상대를 정찰할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaICBMLauncher",
+  "text": "대륙간 탄도 미사일을 발사합니다\n필요 전력: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaBuildTomahawkStorm",
+  "text": "토마호크 미사일을 일제 발사합니다\n\n재사용 대기시간: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBike",
+  "text": "빠르고 다재다능함\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSaboteur",
+  "text": "비전투 침투 유닛. 적 건물을 일시적으로 무력화할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaTrooper",
+  "text": "선전으로 근처 유닛을 치료합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMiniGunner",
+  "text": "강함: 보병, 공중\n약함: 전차"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAvenger",
+  "text": "레이저로 미사일과 항공기를 파괴합니다\n\n강함: 미사일, 항공기\n약함: 차량, 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildKingRaptor",
+  "text": "지상 또는 공중 목표를 공격할 수 있습니다. 점 방어 레이저를 장착했습니다\n탑재량 증가. 스텔스 탐지\n\n강함: 항공기, 전차, 경차량\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFuelAirAurora",
+  "text": "초음속 공격 중 소형 연료 기화 폭탄을 투하하며 적 공격에 면역입니다. 초음속 공격 후 속도가 50%로 줄어듭니다\n\n강함: 건물\n약함: 전투기, 대공 유닛"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHyersonicAurora",
+  "text": "극초음속 공격 중에는 적 공격에 면역입니다. 극초음속 공격 후 속도가 50%로 줄어듭니다\n\n강함: 건물\n약함: 전투기, 대공 유닛"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSniper",
+  "text": "이동하거나 사격하지 않을 때 위장합니다. 숨은 적을 발견합니다\n\n강함: 보병\n약함: 경차량, 정찰병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMicrowave",
+  "text": "강함: 기지 방어\n약함: 전차, 항공기, 경차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSentryDrone",
+  "text": "스텔스 탐지\n\n강함: 보병\n약함: 전차"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHellfireDrone",
+  "text": "헬파이어 미사일을 발사합니다\n\n강함: 차량\n약함: 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPointDefenseDrone",
+  "text": "대미사일 레이저를 발사합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHelix",
+  "text": "중량 수송기\n기지 방어 건물과 네이팜 폭탄을 업그레이드할 수 있습니다\n\n강함: 전차, 경차량\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildListeningOutpost",
+  "text": "수송 차량. 스텔스 유닛을 탐지합니다\n\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildECM",
+  "text": "강함: 전차, 차량\n약함: 보병, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBattleBus",
+  "text": "보병 8명을 태울 수 있습니다\n\n강함: 보병, 건물"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpectreGunship",
+  "text": "스펙터 건쉽이 전장을 선회하며 곡사포와 개틀링 캐논으로 적을 두들깁니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceLeafletDrop",
+  "text": "전단이 적 병력 밀집 지역을 잠시 무력화합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankHunterTraining",
+  "text": "모든 탱크 헌터가 베테랑으로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceBattlemasterTraining",
+  "text": "모든 배틀마스터가 엘리트로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceOverlordTraining",
+  "text": "모든 오버로드가 엘리트로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceGattlingTankTraining",
+  "text": "모든 개틀링 전차가 엘리트로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeDrop",
+  "text": "전술 핵무기를 공중에서 투하합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceFrenzy",
+  "text": "목표가 된 유닛이 일정 시간 동안 더 큰 피해를 줍니다\n\n등급 1: 10초 동안 10%\n등급 2: 20초 동안 20%\n등급 3: 30초 동안 30%\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCarpetBomb",
+  "text": "중폭격기를 불러 지역에 융단 폭격을 합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceGPSScrambler",
+  "text": "효과 범위 내 유닛을 은폐합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASneakAttack",
+  "text": "병력이 맵 어디에나 터널을 만들 수 있습니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectAircraftCarriers",
+  "text": "항공모함을 선택해 편리하게 공격을 개시합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectBattleships",
+  "text": "연안 전함에 포격을 요청합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankParadrop",
+  "text": "공중에서 배틀마스터를 투하합니다\n\n등급 1: 배틀마스터 1대\n등급 2: 배틀마스터 2대\n등급 3: 배틀마스터 4대\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceInfantryParadrop",
+  "text": "공중에서 레드가드를 투하합니다\n\n등급 1: 레드가드 5명\n등급 2: 레드가드 10명\n등급 3: 레드가드 15명\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "TOOLTIP:ChallengeButton",
+  "text": "장군 도전"
+ },
+ {
+  "label": "GUI:GeneralsChallenge",
+  "text": "장군을 선택하십시오"
+ },
+ {
+  "label": "GUI:Biography",
+  "text": "약력"
+ },
+ {
+  "label": "GUI:BioName",
+  "text": "이름:"
+ },
+ {
+  "label": "GUI:BioDOB",
+  "text": "나이:"
+ },
+ {
+  "label": "GUI:BioBirthplace",
+  "text": "주둔지:"
+ },
+ {
+  "label": "GUI:BioStrategy",
+  "text": "전술:"
+ },
+ {
+  "label": "GUI:BioRank",
+  "text": "계급:"
+ },
+ {
+  "label": "GUI:BioBranch",
+  "text": "병과:"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos0",
+  "text": "그레인저 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos0",
+  "text": "62"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos0",
+  "text": "미국 텍사스주 휴스턴, 포트 벨몬트"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos0",
+  "text": "공군력"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos0",
+  "text": "4성 장군"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos0",
+  "text": "미 공군"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos0",
+  "text": "07121969-HB"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos0",
+  "text": "말콤 '에이스' 그레인저 장군은 가용한 공군력을 최대한 동원해 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos0",
+  "text": "이제 괜찮은 항공사에 일자리나 알아봐야겠군."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos0",
+  "text": "내가 이기고 네가 졌다. 더 할 말이 있나?"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos1",
+  "text": "스랙스 박사"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos1",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos1",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos1",
+  "text": "독소 무기"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos1",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos1",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos1",
+  "text": "스랙스 박사는 치명적인 독소를 조합해 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos1",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos1",
+  "text": "통신 대학에서 학위를 따는 게 아니었는데."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos1",
+  "text": "내 독소가 쓸모없다고 생각했나? 지금 네 꼴을 봐라, 장군."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos2",
+  "text": "타오 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos2",
+  "text": "50"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos2",
+  "text": "중국 청두, 황소 기지"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos2",
+  "text": "핵무기"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos2",
+  "text": "장군, AAA급"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos2",
+  "text": "인민해방군"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos2",
+  "text": "칭시 타오 장군은 핵 방사능을 이용해 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos2",
+  "text": "해당 없음"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos2",
+  "text": "조금만 더 있었으면 너를 먼지로 만들었을 텐데."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos2",
+  "text": "이 전투에서 무사히 살아남은 걸 행운으로 알아라. 자신 있으면 다시 도전해라."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos3",
+  "text": "알렉산더 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos3",
+  "text": "42"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos3",
+  "text": "미국 메인주 벨파스트, 캠프 프랭클린"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos3",
+  "text": "대량 살상 무기"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos3",
+  "text": "4성 장군"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos3",
+  "text": "미 해병대"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos3",
+  "text": "알렉시스 알렉산더 장군은 강력한 기지 방어를 구축하고 초강력 무기를 건설해 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos3",
+  "text": "178923478-HBGB"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos3",
+  "text": "불공평해! 초강력 무기 하나만 더 있었으면 이겼을 거야, 장군. 다시 도전해 봐, 할 수 있으면."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos3",
+  "text": "내 초강력 무기는 절대 못 이긴다고 했지, 장군. 다시 해 볼래?"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos4",
+  "text": "콰이 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos4",
+  "text": "51"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos4",
+  "text": "중국 지난, 쥐 기지"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos4",
+  "text": "정예 전차 사단"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos4",
+  "text": "장군, AAA급"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos4",
+  "text": "인민해방군"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos4",
+  "text": "타훈 콰이 장군은 잘 만든 전차로 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos4",
+  "text": "9999-3224536-5"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos4",
+  "text": "내 전차를 이겼을지는 몰라도, 장군, 암호랑이가 너를 벌레처럼 짓밟을 거다."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos4",
+  "text": "전차는 모든 승리의 열쇠다... 너도 잘 알겠지만."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos5",
+  "text": "타운스 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos5",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos5",
+  "text": "미국 캘리포니아주 레드우드 쇼어스, 포트 유니언"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos5",
+  "text": "레이저 무기"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos5",
+  "text": "4성 장군"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos5",
+  "text": "미 육군"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos5",
+  "text": "'핀포인트' 타운스는 최첨단 레이저 기술로 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos5",
+  "text": "00010204-01KE0"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos5",
+  "text": "나를 이겼군, 장군. 하지만 네 전술을 분석해서 더 뛰어난 전략을 세우겠다."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos5",
+  "text": "네 전술을 분석하니 약점이 뻔히 보이더군."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos6",
+  "text": "카사드 왕자"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos6",
+  "text": "34"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos6",
+  "text": "리비아, 트리폴리"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos6",
+  "text": "매복과 위장"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos6",
+  "text": "해당 없음"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos6",
+  "text": "GLA 코브라 조직"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos6",
+  "text": "카사드 왕자는 위장과 비밀 작전으로 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos6",
+  "text": "해당 없음"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos6",
+  "text": "부하들은 지도자의 이번 패배를 용납하지 않을 거다, 장군. 네 뛰어난 전술이 내 사형 집행 영장에 서명한 셈이지..."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos6",
+  "text": "쓰디쓴 패배를 받아들이고 내 눈앞에서 사라져라, 장군."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos7",
+  "text": "파이 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos7",
+  "text": "57"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos7",
+  "text": "중국 베이징, 뱀 기지"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos7",
+  "text": "정예 보병 사단"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos7",
+  "text": "장군, AAA급"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos7",
+  "text": "인민해방군"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos7",
+  "text": "'모루' 신 파이 장군은 고도로 훈련된 병사를 징집해 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos7",
+  "text": "2030-200403-1"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos7",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos7",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos8",
+  "text": "주지즈 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos8",
+  "text": "36"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos8",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos8",
+  "text": "폭약과 폭탄"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos8",
+  "text": "해당 없음"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos8",
+  "text": "GLA 스콜피온 조직"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos8",
+  "text": "로달 '데모' 주지즈 장군은 강력한 폭약을 설치해 적을 격파하는 것을 선호합니다"
+ }
+]

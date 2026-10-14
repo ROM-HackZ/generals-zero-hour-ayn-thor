@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry088Subtitle",
+  "text": "*اگر همین حالا عقب ننشینی لشکر را رها می‌کنم تا از سرزمینمان جارویت کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry089Subtitle",
+  "text": "*حس می‌کنی پایان نزدیک است، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry090Subtitle",
+  "text": "*هاها! شکستت دادم. حالا باید انتخاب کنی: به لشکرم بپیوندی یا بمیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry091Subtitle",
+  "text": "*وقت رها کردن لشکر است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry092Subtitle",
+  "text": "*با من روبه‌رو شو و مثل بقیه بیفت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry093Subtitle",
+  "text": "*مردانم له‌ات می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry094Subtitle",
+  "text": "*مثل ملخ از میانت می‌گذریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry095Subtitle",
+  "text": "*مردان؟ مردانم کجا هستند؟ نمی‌شود بگذاری بروم؟ خواهش می‌کنم آسیبی به من نرسان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry096Subtitle",
+  "text": "*در لشکر لباس‌های فرم قشنگی داریم... آن‌قدرها هم بد نیست... شاید حتی خوشت بیاید. البته بعید می‌دانم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry097Subtitle",
+  "text": "*آماده رویارویی با لشکرم هستی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry098Subtitle",
+  "text": "*و فکرش را بکن، این تازه موج اول است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser001Subtitle",
+  "text": "*حالا در تیررس من هستی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser002Subtitle",
+  "text": "*حمله دقیق آغاز می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser003Subtitle",
+  "text": "*(یگان‌های بازیکن نابود شدند) انتخاب جالبی برای تاکتیک بود، به حریف قبلی‌ام هم کمکی نکرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser004Subtitle",
+  "text": "*می‌خواهم حمله کنم، فکر کردم شاید هشدار به کارت بیاید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser005Subtitle",
+  "text": "*شاید بهتر باشد استراتژی‌هایت را بازبینی کنی، پیداست که جواب نمی‌دهند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser006Subtitle",
+  "text": "*از اسباب‌بازی‌های جدیدم خوشت می‌آید، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser007Subtitle",
+  "text": "*آماده شو، ژنرال، می‌خواهند درسی از جنگ به تو بدهند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser008Subtitle",
+  "text": "*باد آورده را باد می‌برد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser009Subtitle",
+  "text": "*شاید برای این کار ساخته نشده‌ای، نقاشی را امتحان کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser010Subtitle",
+  "text": "*زیبا هستند، نه، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser011Subtitle",
+  "text": "*لیزرهایم مثل کارد داغ در کره از دفاع‌هایت می‌گذرند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser012Subtitle",
+  "text": "*کیش و مات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser013Subtitle",
+  "text": "*عصر تازه‌ای از جنگ است، ژنرال، و دارد به در خانه‌ات می‌رسد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser014Subtitle",
+  "text": "*هدف نشانه‌گذاری شد... همه نیروها حمله را آغاز کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser015Subtitle",
+  "text": "*اول همه سلاح‌هایم نشانه‌گیر لیزری هم داشتند، ولی دشمنانم گیج می‌شدند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser016Subtitle",
+  "text": "*مستقیم به لیزر نگاه نکن... ممکن است پشت سرت بسوزد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser017Subtitle",
+  "text": "*در حال شارژ لیزرها... لطفاً صبر کنید، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser018Subtitle",
+  "text": "*برای بیشترین اثر، لیزرها باید دقیق تنظیم شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser019Subtitle",
+  "text": "*بولدوزرها، رآکتور بیشتری بسازید... لیزرها برق زیادی می‌خورند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser020Subtitle",
+  "text": "*می‌توانی با پنجاه میلیون مگاژول توان لیزری برابری کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser021Subtitle",
+  "text": "*شبیه یک نبرد فضایی بزرگ است، نه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser022Subtitle",
+  "text": "*لیزرهایم زره‌ات را بخار می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser023Subtitle",
+  "text": "*ژنرال، واقعاً باید حمله‌هایت را هماهنگ کنی... این برای من زیادی آسان بوده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser024Subtitle",
+  "text": "*حواست با این چراغ‌های قشنگ پرت نشود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser025Subtitle",
+  "text": "*می‌خواهی «با پرتو بفرستمت بالا»، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser026Subtitle",
+  "text": "*سلاح‌هایت به دقت سوزنی من نمی‌رسند، ژنرال. چرا تسلیم نمی‌شوی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser027Subtitle",
+  "text": "*چرا یک سربازخانه دیگر نمی‌سازی، ژنرال؟ از نابود کردن آن یکی هم لذت می‌برم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser028Subtitle",
+  "text": "*اگر نمی‌توانی از کارخانه جنگت محافظت کنی، مرکز فرماندهی‌ات چقدر امن است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser029Subtitle",
+  "text": "*هواپیماهایت از لیزرهایم در امان نیستند، به‌خصوص بدون فرودگاهت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser030Subtitle",
+  "text": "*دفاع‌های پایگاهت در برابر من بی‌ارزش‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser031Subtitle",
+  "text": "*آه، مرکز فرماندهی... وزیر این صفحه شطرنج. این مسابقه دیگر تقریباً تمام است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser032Subtitle",
+  "text": "*لیزرهایم این همه از ساختمان‌هایت را نابود کرده‌اند... چطور هنوز می‌جنگی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser033Subtitle",
+  "text": "*ژنرال، ساختمان‌های فناوری‌ام را نابود نکن، لازمشان دارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser034Subtitle",
+  "text": "*از سربازخانه‌ام دور شو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser035Subtitle",
+  "text": "*کارخانه جنگم! نههه!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser036Subtitle",
+  "text": "*چطور جرئت می‌کنی فرودگاهم را نابود کنی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser037Subtitle",
+  "text": "*دارند دفاع‌هایمان را نابود می‌کنند! همه نیروها: از پایگاه دفاع کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser038Subtitle",
+  "text": "*ژنرال، این تلفات پذیرفتنی نیست. تاوان نابود کردن ساختمان‌هایم را پس می‌دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser039Subtitle",
+  "text": "*نه! زود، بولدوزرها مرکز فرماندهی را دوباره بسازند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser040Subtitle",
+  "text": "*ژنرال، اگر یک هواپیمای دیگرم را بزنی با همه ابرسلاح‌هایم نابودت می‌کنم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser041Subtitle",
+  "text": "*به خودروهایم کاری نداشته باش، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser042Subtitle",
+  "text": "*عمداً مردانم را شکار می‌کنی، نه، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser043Subtitle",
+  "text": "*تا می‌توانی از آن دکل نفت بهره ببر؛ به‌زودی می‌آییم پسش بگیریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser044Subtitle",
+  "text": "*آن سکوی توپخانه حریف لیزرهای هوایی من نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser045Subtitle",
+  "text": "*می‌دانستی آن پالایشگاه نفت باعث می‌شود خودروها را سریع‌تر و کارآمدتر بسازی؟ اوه، احتمالاً نباید این را می‌گفتم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser046Subtitle",
+  "text": "*لیزرهای هشدار محدوده بیرونی‌مان را فعال کردی، ژنرال. حالا می‌دانیم آن‌جایی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser047Subtitle",
+  "text": "*می‌بینم به پایگاهم نزدیک می‌شوی، ژنرال. توصیه نمی‌کنم نزدیک‌تر بیایی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser048Subtitle",
+  "text": "*دشمن در پایگاه ماست! همه نیروها برگردند و لیزرها را مستقر کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser049Subtitle",
+  "text": "*از رآکتورهایم دور شو، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser050Subtitle",
+  "text": "*ژنرال، آن منابع مال من است... از آن‌ها دور بمان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser051Subtitle",
+  "text": "*حمله از جناحین، ها؟ برای شکست دادن من بیشتر از ترفندهای تاکتیکی لازم است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser052Subtitle",
+  "text": "*حمله از جناح؟! حیله‌گری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser053Subtitle",
+  "text": "*بله، مستقیم از در جلوی پایگاهم بیا، ژنرال... اگر جرئتش را داری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser054Subtitle",
+  "text": "*مراقب باش، ژنرال... در پشتی پایگاهم آن‌قدرها که به نظر می‌رسد بی‌دفاع نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser055Subtitle",
+  "text": "*احمقی که به این‌جا آمدی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser056Subtitle",
+  "text": "*این منابع برای نجات استراتژی شکست‌خورده‌ات کافی نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser057Subtitle",
+  "text": "*نه! دور بمان! آن رآکتورها را برای برق لیزرهایم لازم دارم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser058Subtitle",
+  "text": "*برق نداری؟! چطور گذاشتی برق پایگاهت تمام شود؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser059Subtitle",
+  "text": "*تمام شدن برق اشتباهی مرگبار است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser060Subtitle",
+  "text": "*منابعت ته کشیده، ژنرال. پیش از آنکه زیرت کنیم هرگز کمر راست نمی‌کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser061Subtitle",
+  "text": "*منابع تمام شد؟! پذیرفتنی نیست! شینوک‌ها، سریع‌تر جمع کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser062Subtitle",
+  "text": "*آن طوفان اسکاد را بفروش، ژنرال، وگرنه خودم برایت نابودش می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser063Subtitle",
+  "text": "*آن سیلوی هسته‌ای جلوی مرا نمی‌گیرد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser064Subtitle",
+  "text": "*اگر توپ ذره‌ای بسازی و من با پرتو ذره‌ای نابودش کنم... این طنز روزگار است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser065Subtitle",
+  "text": "*این همه دفاع اضافی پایگاه فقط لیزرم را کند می‌کند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser066Subtitle",
+  "text": "*تانک‌های معمولی‌ات حریف سکوهای تسلیحاتی لیزری من نیستند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser067Subtitle",
+  "text": "*چه هواپیماهای زیادی، ژنرال. نمایش هوایی راه انداخته‌ای؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser068Subtitle",
+  "text": "*چه پیاده‌نظام زیادی آموزش داده‌ای، ژنرال. برای دیدن این نقشه دیوانه‌وار لحظه‌شماری می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser069Subtitle",
+  "text": "*پایگاهت دارد شبیه یک شهرک مسکونی می‌شود، ژنرال. شاید باید با توپ ذره‌ای کمی «نقطه‌ها را به هم وصل کن» بازی کنم تا کمی خلوتش کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser070Subtitle",
+  "text": "*آن موشک‌های اسکاد را می‌زنم، ژنرال. بعد تاوانش را می‌دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser071Subtitle",
+  "text": "*لیزرهایم آن بمب اتمی را پایین می‌آورند، ژنرال. ریزش رادیواکتیو به گردن تو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser072Subtitle",
+  "text": "*توپ ذره‌ای؟! نمی‌دانم اگر پرتوها را از هم رد کنیم چه می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser073Subtitle",
+  "text": "*ژنرال، در آن ساختمان سنگر نگیر؛ بیا بیرون بازی کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser074Subtitle",
+  "text": "*ژنرال، سرهنگ برتون یک احمق دست‌وپاچلفتی است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser075Subtitle",
+  "text": "*نیلوفر سیاه برای لیزرهای من نامرئی نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser076Subtitle",
+  "text": "*امیدوارم جارمن کل روی تفنگش دوربین لیزری نگذاشته باشد... در برابر من کار نمی‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser077Subtitle",
+  "text": "*ساختن فرودگاه فقط برای لیزرهایم هدف هوایی فراهم می‌کند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser078Subtitle",
+  "text": "*برای رسیدن به من تانک خیلی زیادی لازم داری، ژنرال. موفق باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser079Subtitle",
+  "text": "*ساختن سربازخانه فقط باعث می‌شود مردانت آسیب ببینند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser080Subtitle",
+  "text": "*سازه‌هایت را می‌فروشی، ها؟ این اولین اشتباه یک ژنرال درمانده است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser081Subtitle",
+  "text": "*چی؟! نمی‌توانی داری مرا می‌بری! همین بی‌دقتی‌ات باید پیروزی‌ام را تضمین کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser082Subtitle",
+  "text": "*نمی‌توانم به تو ببازم... تو یک دلقک دست‌وپاچلفتی هستی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser083Subtitle",
+  "text": "*چطور ممکن است ببری؟ در شبیه‌سازی این‌طور پیش نرفت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser084Subtitle",
+  "text": "*همه متغیرها را حساب کرده‌ام، ولی تو داری می‌بری... چطور ممکن است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser085Subtitle",
+  "text": "*نه! این نمی‌تواند پایان باشد! با چه حقه‌ای شکستم دادی؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser086Subtitle",
+  "text": "*برنامه‌ریزی و آمادگی‌ام مرا به پیروزی قطعی می‌رساند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser087Subtitle",
+  "text": "*دقت همیشه بر زور بازو پیروز می‌شود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser088Subtitle",
+  "text": "*این باید برایت مثل یک کابوس باشد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser089Subtitle",
+  "text": "*تصمیم گرفته‌ای این شکست را چطور بپذیری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser090Subtitle",
+  "text": "*شکست خوردی، ژنرال. ولی این هیچ‌وقت واقعاً محل تردید نبود، بود؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser091Subtitle",
+  "text": "*لیزرها شارژ شدند... در حال ردیابی اهداف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser092Subtitle",
+  "text": "*هم‌سطح من نیستی، ژنرال... حریف آسان‌تری امتحان کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser093Subtitle",
+  "text": "*محاسبه‌ام می‌گوید این نبرد را می‌بازی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser094Subtitle",
+  "text": "*لیزرها سلاح‌های برتری هستند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser095Subtitle",
+  "text": "*شکستم دادی، ژنرال، ولی تاکتیک‌هایت را اسکن می‌کنم و استراتژی برتری طراحی می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser096Subtitle",
+  "text": "*وقتی تاکتیک‌هایت را اسکن کردم ضعف‌هایت آشکار شد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser097Subtitle",
+  "text": "*بفرما، ژنرال... خط قرمز را کشیدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser098Subtitle",
+  "text": "*حالا اگر جرئت داری از آن رد شو. بیا سراغم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke001Subtitle",
+  "text": "*خوبی‌اش این است که هوا شرجی نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke002Subtitle",
+  "text": "*به‌زودی پایگاهت مثل خورشید می‌درخشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke003Subtitle",
+  "text": "*چطور انتظار داری با این بجنگی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke004Subtitle",
+  "text": "*سلاح‌هایت حریف قدرت من نیستند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke005Subtitle",
+  "text": "*ذوب شو! همه‌چیز باید ذوب شود!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke006Subtitle",
+  "text": "*آن درخشش! آن درخشش شگفت‌انگیز! نمی‌بینی‌اش، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke007Subtitle",
+  "text": "*به نظر امسال زمستان هسته‌ای داریم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke008Subtitle",
+  "text": "*پایان نزدیک است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke009Subtitle",
+  "text": "*این فقط آغاز است، ژنرال. آغاز پایان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke010Subtitle",
+  "text": "*نگران نباش، ژنرال، کلاهک‌ها در راه‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke011Subtitle",
+  "text": "*ببخشید بابت تأخیر، ژنرال؛ فقط دارم نیروهایم را جمع می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke012Subtitle",
+  "text": "*گرما اذیتت می‌کند، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke013Subtitle",
+  "text": "*داری ذوب می‌شوی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke014Subtitle",
+  "text": "*همه نیروها، برای یورش بعدی آماده شوید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke015Subtitle",
+  "text": "*حالا آن کدهای پرتاب را کجا گذاشتم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke016Subtitle",
+  "text": "*آماده‌ای برای بیشتر، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke017Subtitle",
+  "text": "*فکر کنم این نیمه‌عمر توست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke018Subtitle",
+  "text": "*امیدوارم رادارت از کار نیفتاده باشد، ژنرال؛ حیف است چیزی را که در راه است از دست بدهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke019Subtitle",
+  "text": "*حالا ضعف‌هایت را می‌شناسم، ژنرال. حمله بعدی توقف‌ناپذیر خواهد بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke020Subtitle",
+  "text": "*به‌زودی شکوه زرادخانه هسته‌ای‌ام را خواهی شناخت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke021Subtitle",
+  "text": "*اگر جای تو بودم کلی کرم ضدآفتاب انبار می‌کردم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke022Subtitle",
+  "text": "*\"    Ne"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke023Subtitle",
+  "text": "*بالاخره یکی باید مسابقه تسلیحاتی را ببرد، وگرنه مسابقه چه فایده‌ای دارد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke024Subtitle",
+  "text": "*وقت پوشیدن زیرشلواری سربی است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke025Subtitle",
+  "text": "*یادت باشد: مستقیم به انفجار نگاه نکن، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke026Subtitle",
+  "text": "*به نظر مردانت را فقط برای مردن آموزش داده‌ای، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke027Subtitle",
+  "text": "*حالا کارخانه جنگت یک دهانه درخشان است. عالی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke028Subtitle",
+  "text": "*دفاع‌هایت مثل پوست تخم‌مرغ ترک برمی‌دارند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke029Subtitle",
+  "text": "*اوه، که تو در آن مرکز فرماندهی نبودی، بودی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke030Subtitle",
+  "text": "*چرا سربازخانه‌ام را نابود می‌کنی، ژنرال؟ تو نباید از مردان من بترسی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke031Subtitle",
+  "text": "*کارخانه جنگم! چه کردی؟! تانک‌های عزیزم... از دست رفتند..."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke032Subtitle",
+  "text": "*دست از سرم بردار! من مگر چه بدی به تو کرده‌ام؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke033Subtitle",
+  "text": "*مرکز فرماندهی‌ام! نه!!! فرماندهی را از دست نمی‌دهم! نمی‌دهم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke034Subtitle",
+  "text": "*باورم نمی‌شود داری مرا می‌بری! شاید یک لحظه به من فرصت بدهی تا دوباره بسازم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke035Subtitle",
+  "text": "*از دست تو تلفات سنگینی دادیم، ژنرال، ولی هنوز تمام نشده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke036Subtitle",
+  "text": "*ژنرال، آن دکل نفت مال تو، ولی کمکی نمی‌کند جلوی مرا بگیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke037Subtitle",
+  "text": "*از پایگاهم برو بیرون، ژنرال! دو بار نمی‌گویم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke038Subtitle",
+  "text": "*چقدر قصد داری در پایگاهم بمانی، ژنرال؟ برایت تخت آماده کنم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke039Subtitle",
+  "text": "*از پایگاهم برو، ژنرال، وگرنه مجبور می‌شوم کلاهک‌هایم را منفجر کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke040Subtitle",
+  "text": "*از روستایم خوشت می‌آید، ژنرال؟ بفرما، راحت باش، خانه خودت است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke041Subtitle",
+  "text": "*آمده‌ای بمب‌های اتمی را بازرسی کنی، ژنرال؟ نگاه کن، ولی دست نزن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke042Subtitle",
+  "text": "*اگر جای تو بودم مراقب بودم، ژنرال؛ این انبارهای هسته‌ای معمولاً نشت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke043Subtitle",
+  "text": "*از تدارکاتم دور شو، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke044Subtitle",
+  "text": "*ژنرال، اگر جای تو بودم آن دکل نفت را تصرف نمی‌کردم... فقط نابودش می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke045Subtitle",
+  "text": "*از سیلوهایم دور شو، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke046Subtitle",
+  "text": "*می‌بینم برقت رفته، ژنرال. کمی انرژی هسته‌ای برایت بفرستم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke047Subtitle",
+  "text": "*به همین زودی پولت تمام شد؟ نمی‌دانی جنگ گران است، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke048Subtitle",
+  "text": "*خواهش می‌کنم، تانک بیشتری بساز، ژنرال؛ آن‌ها هم ذوب می‌شوند... بالاخره"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke049Subtitle",
+  "text": "*آن هواپیماها را از سیلوهایم دور نگه دارید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke050Subtitle",
+  "text": "*این همه سرباز، ژنرال. لباس ضدتشعشع پوشیده‌اند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke051Subtitle",
+  "text": "*فکر می‌کنی برای نابود کردن آن سلاح جدید چند بمب اتمی لازم دارم، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke052Subtitle",
+  "text": "*فکر می‌کنی برای نابود کردن آن سلاح جدید چند بمب اتمی لازم دارم، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke053Subtitle",
+  "text": "*ساختمان می‌فروشی؟ ژنرال، اگر می‌خواستی آن منطقه را خالی کنی خودم برایت انجامش می‌دادم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke054Subtitle",
+  "text": "*نمی‌توانی در برابر قدرت من بایستی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke055Subtitle",
+  "text": "*تسلیم شو! یا می‌خواهی بمباران ادامه پیدا کند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke056Subtitle",
+  "text": "*داری این جنگ را می‌بازی، ژنرال. چند بمب دیگر و پایگاهت سقوط می‌کند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke057Subtitle",
+  "text": "*حق با زورمندان است. موافق نیستی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke058Subtitle",
+  "text": "*و حالا حمله نهایی‌ام. صبر کن، ژنرال، از این خوشت می‌آید... نه، صبر کن، خوشت نمی‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke059Subtitle",
+  "text": "*هیچ‌کس در برابر زرادخانه هسته‌ای ما نمی‌ایستد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke060Subtitle",
+  "text": "*به چالشم بکش تا پایگاهت مثل خورشید بدرخشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke061Subtitle",
+  "text": "*به‌زودی چیزی جز پسماند هسته‌ای نخواهی بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke062Subtitle",
+  "text": "*یک لحظه دیگر و خاکسترت کرده بودم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke063Subtitle",
+  "text": "*خوش‌شانسی که از این نبرد سالم بیرون آمدی. اگر جرئت داری دوباره به چالشم بکش"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke064Subtitle",
+  "text": "*به مهمانی خوش آمدی، ژنرال. لطفاً ببخش که این‌جا به‌هم‌ریخته است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke065Subtitle",
+  "text": "*حالا، ژنرال، فکر کنم می‌فهمی چرا مرا مائوی اتمی می‌نامند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke066Subtitle",
+  "text": "*منتظرت بودیم، ژنرال. لطفاً هدیه‌هایمان را بپذیر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke067Subtitle",
+  "text": "*هدیه‌های بیشتر، ژنرال. سخاوت ما حد و مرزی ندارد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke068Subtitle",
+  "text": "*حالا نبرد جدی آغاز می‌شود. آماده شو، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke069Subtitle",
+  "text": "*همجوشی سرد راه تولید برق نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke070Subtitle",
+  "text": "*نابود کردن رآکتورهایت دلم را به درد می‌آورد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke071Subtitle",
+  "text": "*به این می‌گویی «ابرسلاح»، ژنرال؟ مثل اسباب‌بازی می‌شکند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke072Subtitle",
+  "text": "*نه! کلاهک‌هایم! کلاهک‌های زیبایم! تاوانش را می‌دهی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke073Subtitle",
+  "text": "*اشکالی ندارد، ژنرال، بمب اتمی بیشتری برایت دارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke074Subtitle",
+  "text": "*هی، می‌دانی آن سیلوی هسته‌ای چقدر خرج دارد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke075Subtitle",
+  "text": "*باشه، ژنرال، بس است... بمب اتمی‌ام دارد تمام می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke076Subtitle",
+  "text": "*اصلاً چرا می‌خواهی بمب‌های اتمی مرا منفجر کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke077Subtitle",
+  "text": "*نه! آن آخرین سیلوی هسته‌ای‌ام بود! چرا، ژنرال... چرا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke078Subtitle",
+  "text": "*(دشمن همه سیلوها را از دست داد) همه سیلوهایم را نابود کردی... چرا، ژنرال؟ چرا؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke079Subtitle",
+  "text": "*(دشمن سربازخانه بازیکن را تصرف کرد) سربازخانه‌ات را تصرف کردم، ژنرال. شاید بفروشمش"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke080Subtitle",
+  "text": "*(دشمن کارخانه جنگ بازیکن را تصرف کرد) مردانم کارخانه جنگت را تصرف کردند. واقعاً باید بهتر از آن محافظت می‌کردی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke081Subtitle",
+  "text": "*(پایگاه بازیکن) دفاع‌هایت ضعیف است، ژنرال؛ وارد پایگاهت شدیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke082Subtitle",
+  "text": "*(منطقه نبرد) نیروهایم در میدان‌اند، ژنرال. به‌زودی به پایگاهت می‌تازند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke083Subtitle",
+  "text": "*(منطقه انبار تدارکات) آه، کمی تدارکات پیدا کردیم. به‌زودی همه منابع را در اختیار می‌گیریم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke084Subtitle",
+  "text": "*(منطقه دوم انبار تدارکات) تدارکات بیشتر برای ما. تو خرج نیروهایت را از کجا می‌دهی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke085Subtitle",
+  "text": "*(منطقه دکل نفت) گارد سرخ... آن دکل نفت را تصرف کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke086Subtitle",
+  "text": "*به نظر همه تدارکات منطقه را مصرف کرده‌ایم. امیدوارم فکر دیگری کرده باشی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke087Subtitle",
+  "text": "*(برق دشمن تمام شد) چی؟! برقم تمام شده؟ چطور ممکن است برقم تمام شود؟ یکی برق بیشتری برایم بیاورد! همین حالا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke088Subtitle",
+  "text": "*(آمبولانس) آن آمبولانس مردانت را از تشعشع نجات نمی‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke089Subtitle",
+  "text": "*(مرکز استراتژی) مرکز استراتژی؟ چه استراتژی‌ای می‌توانی برای جنگ با من طراحی کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke090Subtitle",
+  "text": "*(بازار سیاه) بازار سیاه چیزی آن‌قدر قدرتمند به تو نمی‌فروشد که جلوی مرا بگیرد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke091Subtitle",
+  "text": "*(مرکز تبلیغات) تبلیغاتت هیچ‌کس را علیه قدرت هسته‌ای من برنمی‌گرداند، ژنرال"
+ }
+]

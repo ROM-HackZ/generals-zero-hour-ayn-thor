@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Tank091Subtitle",
+  "text": "*آااارغ! لا يمكن! كيف هزمت دباباتي؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank092Subtitle",
+  "text": "*حان وقت إطلاق آلة الحرب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank093Subtitle",
+  "text": "*اندفاع دباباتك لا شيء مقارنة باندفاعي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank094Subtitle",
+  "text": "*لا تتحدَّ دباباتي أيها الجنرال--ستخسر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank095Subtitle",
+  "text": "*مدرعاتي ستسحق قواتك البائسة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank096Subtitle",
+  "text": "*ربما هزمت دباباتي أيها الجنرال، لكن النمرة ستسحقك كحشرة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank097Subtitle",
+  "text": "*الدبابات مفتاح كل نصر، كما تعرف جيدًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank098Subtitle",
+  "text": "*أرى أنك هزمت كشافتي أيها الجنرال. أظن أن الهجوم التالي لن يسير بهذه السهولة معك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank099Subtitle",
+  "text": "*ها نحن قادمون أيها الجنرال، أرجو أن دفاعاتك جاهزة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank100Subtitle",
+  "text": "*وهذه مجرد دبابات باتل ماستر أيها الجنرال... انتظر حتى تنضم الأوفرلورد إلى المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank101Subtitle",
+  "text": "*لو كنت مكانك لحذرت أيها الجنرال، أحيانًا يحب الحرس الأحمر الاستيلاء على المباني بينما أنت منشغل بدباباتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin001Subtitle",
+  "text": "*أنا أراك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin002Subtitle",
+  "text": "*تذوّقه مرة، ولن تعود أبدًا -- حتى لو أردت!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin003Subtitle",
+  "text": "*ذُق من الكأس نفسها!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin004Subtitle",
+  "text": "*كم تستطيع أن تحبس أنفاسك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin005Subtitle",
+  "text": "*مستعد لدرس آخر في الكيمياء؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin006Subtitle",
+  "text": "*ليس بهذا السوء. لن تشعر بعده إلا بحرقة طويلة ومؤلمة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin007Subtitle",
+  "text": "*يا جنود السموم، هجوم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin008Subtitle",
+  "text": "*ها نحن قادمون أيها الجنرال، كتسرّب كيميائي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin009Subtitle",
+  "text": "*صعب أن تجد طبيبًا يزورك في البيت، لكن الدكتور ثراكس يفعل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin010Subtitle",
+  "text": "*انسكاب في الممر رقم واحد! نظّفوا الممر!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin011Subtitle",
+  "text": "*كالمطر الحمضي نهبط على قاعدتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin012Subtitle",
+  "text": "*انطلقوا يا محاربيّ السامّين! أوصلوا رسالتنا إلى الجماهير!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin013Subtitle",
+  "text": "*أوه، سيعجبك هذا أيها الجنرال. لا، انتظر... لن يعجبك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin014Subtitle",
+  "text": "*جلبت هذا على نفسك أيها الجنرال. الآن شاهد رجالك يدفعون ثمن خطئك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin015Subtitle",
+  "text": "*بلا صوت... ولا رائحة... لكنها قاتلة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin016Subtitle",
+  "text": "*هذا صحيح -- استرخِ وارتح! امنح سمومي وقتًا أطول لتعمل!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin017Subtitle",
+  "text": "*التشويق... يقتلك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin018Subtitle",
+  "text": "*حان وقت تحضير دفعة جديدة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin019Subtitle",
+  "text": "*كل لحظة تتأخر فيها تموت قليلًا أكثر!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin020Subtitle",
+  "text": "*تعرف أنها استوت تمامًا حين يسقط اللحم عن العظم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin021Subtitle",
+  "text": "*الجمرة الخبيثة... غذاء كامل... للدود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin022Subtitle",
+  "text": "*تشم هذا؟ لا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin023Subtitle",
+  "text": "*والآن شهيق... زفير... ومرة أخرى... أحسن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin024Subtitle",
+  "text": "*طعمها يدوم لآخر قطرة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin025Subtitle",
+  "text": "*سأمنحك \"فرصة لالتقاط الأنفاس\" قبل هجومنا التالي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin026Subtitle",
+  "text": "*عندنا فوهة سموم مسدودة أيها الجنرال... أمهلني ثانية لإصلاحها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin027Subtitle",
+  "text": "*ستأتي من أجل السموم، لكنك ستبقى... لأنك ميت!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin028Subtitle",
+  "text": "*ستندم على تطفلك على تجاربي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin029Subtitle",
+  "text": "*هل ستهاجمني، أم تخشى ما قد تجده في قاعدتي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin030Subtitle",
+  "text": "*لا شيء يعيش تحت سحابتي السامة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin031Subtitle",
+  "text": "*لم تكن تحتاج إلى ذلك على أي حال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin032Subtitle",
+  "text": "*جنودك يبدون متسممين أيها الجنرال... أقصد سكارى!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin033Subtitle",
+  "text": "*أوه أيها الجنرال، يبدو أن جنودك خفاف... ما بيتحمّلوا السم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin034Subtitle",
+  "text": "*دُمّر مطارك أيها الجنرال. الآن عليك المشي عبر سحب الموت خاصتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin035Subtitle",
+  "text": "*لاحظ كيف تمزّق السموم كل شيء؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin036Subtitle",
+  "text": "*آرغ! كانت مجموعة النبيذ خاصتي هناك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin037Subtitle",
+  "text": "*بين سمومي وجنودك كيمياء واضحة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin038Subtitle",
+  "text": "*لم أكن أحتاج إلى ذلك على أي حال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin039Subtitle",
+  "text": "*من أين سيأتي جنودي الكيميائيون الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin040Subtitle",
+  "text": "*شاحنات سمومي ستسير من جديد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin041Subtitle",
+  "text": "*أرأيت، البشر لا مكان لهم في الجو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin042Subtitle",
+  "text": "*أنت تزعجني أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin043Subtitle",
+  "text": "*توقف عن تدمير مبانيّ أيها الجنرال، وإلا جعلت الأمور... غير سارة بالنسبة إليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin044Subtitle",
+  "text": "*دمّرت مركز قيادتي! لا بأس، كنت أكره قادتي على أي حال... الآن بقينا أنا وأنت فقط أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin045Subtitle",
+  "text": "*أيها الجنرال، إن واصلت تدمير مركباتي فكيف أوصل إليك دواءك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin046Subtitle",
+  "text": "*محاربيّ الشجعان! كيف تفعل بهم هذا؟ ماذا فعلوا لك يومًا-- أوه انتظر، لا تهتم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin047Subtitle",
+  "text": "*أعد برج النفط ذاك! ألا تعرف أن البترول مكوّن أساسي في سمومي؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin048Subtitle",
+  "text": "*منصة المدفعية تلك لن توقفني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin049Subtitle",
+  "text": "*أيها الجنرال، أحتاج إلى تلك المصفاة لتنقية سمومي. فيمَ قد تحتاجها أنت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin050Subtitle",
+  "text": "*هل أذنت لك بالدخول؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin051Subtitle",
+  "text": "*ماذا تفعل هنا؟ الوصفات لي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin052Subtitle",
+  "text": "*أنت أحمق لدخولك قاعدتي أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin053Subtitle",
+  "text": "*أنت قريب جدًا من سمومي الغالية أيها الجنرال. الآن يجب أن تموت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin054Subtitle",
+  "text": "*ابتعد عن صواريخ سكود خاصتي! سأعطيك إياها حين أكون جاهزًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin055Subtitle",
+  "text": "*لا أظنك تريد تلك الإمدادات، إنها لم تنضج بعد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin056Subtitle",
+  "text": "*أرى أنك تبني قاعدة أخرى. قريبًا ستُهجر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin057Subtitle",
+  "text": "*اخرج من قريتي أيها الجنرال. لم يبقَ منها الكثير، لكنها لي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin058Subtitle",
+  "text": "*احذر وأنت تعبر ذلك الجسر أيها الجنرال--الماء في الأسفل غير آمن للسباحة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin059Subtitle",
+  "text": "*انتبه أيها الجنرال، قد لا يكون ذلك الجسر آمنًا... لكن ما الآمن هنا أصلًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin060Subtitle",
+  "text": "*أتظن نفسك ذكيًا وأنت تتسلل من بابي الخلفي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin061Subtitle",
+  "text": "*إذن تمكّنت من عبور النهر. الآن تصبح المعركة مثيرة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin062Subtitle",
+  "text": "*يبدو أن طاقتك نفدت أيها الجنرال. ربما عليّ أن أهاجم الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin063Subtitle",
+  "text": "*نفدت طاقتك أيها الجنرال. حان وقت مجيئي لألعب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin064Subtitle",
+  "text": "*كومة مواردك صغرت أيها الجنرال. لا أظن أنه بقي لديك ما يكفي لإيقاف هجومي التالي... ممتاز"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin065Subtitle",
+  "text": "*الميزانية؟! لا أريد أن أسمع عن الميزانية!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin066Subtitle",
+  "text": "*تتجرأ على بناء عاصفة سكود في حضرتي! تعرف طبعًا أننا جميعًا محصّنون ضد سمومها، صح أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin067Subtitle",
+  "text": "*صومعة نووية؟ لم أتوقع أن تستخدم الإشعاع السام... ربما نتعاون يومًا ما"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin068Subtitle",
+  "text": "*إذن مدفع جسيمات لمواجهة سمومي، هاه؟ تقنيتك ليست ندًا لسمومي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin069Subtitle",
+  "text": "*كل هذه الدفاعات أيها الجنرال. كلها بلا فائدة!!!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin070Subtitle",
+  "text": "*المعدن مجرد حاجز مؤقت أمام سمومي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin071Subtitle",
+  "text": "*آه -- جبان! طيّاروك ما زالوا بحاجة إلى التنفس!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin072Subtitle",
+  "text": "*هل تستمتع برؤية رجالك يتوهجون في الظلام؟ ابنِ المزيد إذن!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin073Subtitle",
+  "text": "*كبرت قاعدتك أيها الجنرال... هدف مثالي لعاصفة سكود خاصتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin074Subtitle",
+  "text": "*نعم، أطلق عاصفة سكود... وأنزل سمومك التافهة على قاعدتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin075Subtitle",
+  "text": "*صاروخك النووي سيجعلنا نتحوّر ونصبح أقوى فقط أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin076Subtitle",
+  "text": "*لا أمل لك في إزالة سمومي بشعاع الجسيمات ذاك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin077Subtitle",
+  "text": "*نعم، تحصّن في ذلك المبنى--متأكد أن جرارات سمومي ستحب ذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin078Subtitle",
+  "text": "*إن أدخلت العقيد بيرتون في هذا فسأضطر لإطلاق جارمن كيل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin079Subtitle",
+  "text": "*اللوتس الأسود؟ تعرف طبعًا أن اللوتس الأسود زهرة سامة... أظنها في أحد سمومي... لكنني أستطرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin080Subtitle",
+  "text": "*أرى أن جارمن كيل انضم إلى حربنا الصغيرة. ربما يستمتع جارمن خاصتي بمبارزة قنّاصين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin081Subtitle",
+  "text": "*والآن ماذا تريد بذلك المطار أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin082Subtitle",
+  "text": "*إذن جنرالنا يبني مصنع حرب. كم أنت متوقَّع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin083Subtitle",
+  "text": "*نعععم، ابنِ الثكنات--وأرسل رجالك إليّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin084Subtitle",
+  "text": "*بع... كل مبانيك أيها الجنرال... وأرسل رجالك إليّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin085Subtitle",
+  "text": "*استسلم الآن، وأضمن لك أنك ستتنفس الصعداء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin086Subtitle",
+  "text": "*جنودك يلهثون أيها الجنرال. استسلم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin087Subtitle",
+  "text": "*نَفَسي الثاني يعني هلاكك أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin088Subtitle",
+  "text": "*دعني أغرق أحزانك بسمّ لطيف!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin089Subtitle",
+  "text": "*نهاية سامة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin090Subtitle",
+  "text": "*لقد هُزمت أيها الجنرال. ربما يعلّمك هذا ألا تتحدى الدكتور ثراكس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin091Subtitle",
+  "text": "*هل تقبل عرض سلام؟ ترياقًا مثلًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin092Subtitle",
+  "text": "*ربما استنشقت الكثير من سمومي--لا يمكن أن تكون تهزمني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin093Subtitle",
+  "text": "*ابتعد عني! لن تهزمني أيها الجنرال. هل تسمعني!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin094Subtitle",
+  "text": "*ما مشكلتك مع السموم؟ هل رأيت ما يضعونه في الطعام هذه الأيام؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin095Subtitle",
+  "text": "*حتى لو هزمتني، ستصل إليك سمومي -- في النهاية!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin096Subtitle",
+  "text": "*لا! لا. لقد هُزمت. أين كبسولة السيانيد تلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin097Subtitle",
+  "text": "*كان ذلك الزر مغطى بالسم... أنت ميت بالفعل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin098Subtitle",
+  "text": "*تتجرأ على اختيار الدكتور ثراكس؟ يجب أن تعيد النظر أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin099Subtitle",
+  "text": "*لا يمكنك هزيمة سمومي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin100Subtitle",
+  "text": "*ربما ما كان عليّ أن أشتري شهادتي من بسطة على الرصيف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin101Subtitle",
+  "text": "*ظننت أن سمومي بلا فائدة، فانظر الآن ماذا حلّ بك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin102Subtitle",
+  "text": "*مرحبًا أيها الجنرال. لا تظن أنني لا أرى جواسيسك يحلّقون فوق قاعدتي. تفضّل، انظر ما شئت، فقد تكون هذه آخر مرة ترى فيها معقلي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin103Subtitle",
+  "text": "*كما ترى، دفاعاتي لا تُخترق... وأنظمة أسلحتي السامة ستسمّم جنودك قبل أن يصلوا إليّ بوقت طويل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin104Subtitle",
+  "text": "*ولا تقلق من إيذاء السكان المدنيين أيها الجنرال؛ فقد فرّوا منذ زمن من وادي الموت السام هذا. ستجري حربنا الصغيرة دون مقاطعة... ولن تُجرح مشاعرك الرقيقة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin105Subtitle",
+  "text": "*آه نعم، وهنا وضعت قاعدتك البائسة. والآن اصمد في وجهي--أنا الدكتور ثراكس--وحين تتنفس قواتك آخر أنفاسها من هوائي السام، أعود إلى تجاربي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin106Subtitle",
+  "text": "*هل تثق بحواسك أيها الجنرال؟ بمواجهتي حكمت على نفسك بموت طويل ومؤلم، فأنا الدكتور ثراكس، وأسلحتي تضرب دون أن تُرى!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin107Subtitle",
+  "text": "*تنفّس براحة أيها الجنرال، فأنا الدكتور ثراكس، ومع كل نفس تأخذه أنت في طريقك إلى الهزيمة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin108Subtitle",
+  "text": "*أول عينة مجانًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin109Subtitle",
+  "text": "*تريد الأخضر أم الأزرق؟ كلاهما يُشبع بالقدر نفسه!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin110Subtitle",
+  "text": "*استعد لتحكي لأحفادك ذوي العيون الثلاث عن هزيمتك اليوم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin111Subtitle",
+  "text": "*موادي الكيميائية الغالية! هل تعرف كم يستغرق خلطها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin112Subtitle",
+  "text": "*مزيد من الضحا-- آه-- المتطوعين لتجاربي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin113Subtitle",
+  "text": "*الآن عندي مزيد من المركبات لنقل سمومي! كم أنت كريم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin114Subtitle",
+  "text": "*أوه، هل نسيت أن أخبرك عن هذه؟ انتبه للألغام أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin115Subtitle",
+  "text": "*أين وضعت جنودي الكيميائيين يا ترى؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin117Subtitle",
+  "text": "*باه! أنت!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin118Subtitle",
+  "text": "*آه نعم، وهنا وضعت قاعدتك البائسة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle001Subtitle",
+  "text": "*أوه، ما زلت هنا أيها الجنرال. عزيمتك تبهرني. لنرقص"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle002Subtitle",
+  "text": "*لم يؤلم ذلك كثيرًا، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle003Subtitle",
+  "text": "*ساحة المعركة مكان قاسٍ أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle004Subtitle",
+  "text": "*ضربة أخرى نُفّذت بإتقان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle005Subtitle",
+  "text": "*كل شيء يسير وفق الخطة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle006Subtitle",
+  "text": "*يبدو أن كل شيء يسير لصالحي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle007Subtitle",
+  "text": "*بماذا تشعر أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle008Subtitle",
+  "text": "*التفوق التكتيكي هو المفتاح أيها الجنرال. تعال، دعني أريك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle009Subtitle",
+  "text": "*لا أظن حقًا أنك ستستطيع إيقاف الهجوم التالي... أتظن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle010Subtitle",
+  "text": "*ها هو هجوم آخر قادم... أوه، وكل قدرات الجنرال لديّ تقريبًا جاهزة... أيّها تريد أن ترى أولًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle011Subtitle",
+  "text": "*هل هذا سلاحي الخارق جاهز للإطلاق؟ أوه لا، هجماتي فقط تبدو هكذا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle012Subtitle",
+  "text": "*جميع الوحدات: نمط الهجوم ألفا! أمزح... من يسمّي شيئًا \"ألفا\" أصلًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle013Subtitle",
+  "text": "*ها هي بعض وحداتي قادمة أيها الجنرال. هل تمانع مساعدتها على اكتساب بعض الخبرة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle014Subtitle",
+  "text": "*نادرًا ما أرسل القوات، لكنك تستحق اهتمامًا خاصًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle015Subtitle",
+  "text": "*أحذرك من الاستهانة بي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle016Subtitle",
+  "text": "*قد تظن أنني أختبئ، لكنني في الحقيقة أخطط فقط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle017Subtitle",
+  "text": "*الحمقى يندفعون أيها الجنرال. أما أنا فآخذ وقتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle018Subtitle",
+  "text": "*لا تعرف ماذا تتوقع مني، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle019Subtitle",
+  "text": "*من يفشل في التخطيط يخطط للفشل أيها الجنرال. فكّر في ذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle020Subtitle",
+  "text": "*أعظم \"سلاح خارق\" لديّ هو عقلي... ألا توافقني أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle021Subtitle",
+  "text": "*هيا أيها الجنرال، أرني أفضل ضرباتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle022Subtitle",
+  "text": "*ننتظرك أيها الجنرال. ما الذي يؤخرك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle023Subtitle",
+  "text": "*كنت أحلل تكتيكاتك وأنا مذهولة... هل لديك تكتيكات أصلًا أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle024Subtitle",
+  "text": "*لو كنت مكانك لهاجمت أيها الجنرال. إن انتظرت فسيكون لديّ سلاح خارق إضافي أطلقه عليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle025Subtitle",
+  "text": "*إذن استراتيجيتك الشاملة أن تطردني من ساحة المعركة بالملل؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle026Subtitle",
+  "text": "*هل تعيد التفكير في حكمة مهاجمتي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle027Subtitle",
+  "text": "*كنت أحاول الرفق بك أيها الجنرال، لكنك بدأت تزعجني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle028Subtitle",
+  "text": "*كان هذا ممتعًا أيها الجنرال، لكنني أظن أن الوقت حان لإنهائه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle029Subtitle",
+  "text": "*ربما نفعل هذا في وقت آخر... حين لا تكون مشتتًا هكذا... على الأقل أرجو أن هذه هي المشكلة. قلت إنك \"جنرال\"، صح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle030Subtitle",
+  "text": "*لم تكن تستخدم ذلك، صحيح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle031Subtitle",
+  "text": "*لم يعجبني شكل تلك الثكنات إطلاقًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle032Subtitle",
+  "text": "*مركباتك بدأت تثير أعصابي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle033Subtitle",
+  "text": "*ابتعد عن الجو أيها الجنرال--ستكون أكثر أمانًا على الأرض"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle034Subtitle",
+  "text": "*هل كان يُفترض بذلك أن يمنعني من دخول قاعدتك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle035Subtitle",
+  "text": "*واو، خسرت للتو مركز قيادتك. هذا ليس جيدًا، أليس كذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle036Subtitle",
+  "text": "*كانت قاعدتك مكتظة أكثر من اللازم من قبل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle037Subtitle",
+  "text": "*لا تحترم ممتلكات الآخرين إطلاقًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle038Subtitle",
+  "text": "*يا جماعة، من كان مكلفًا بحراسة الثكنات!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle039Subtitle",
+  "text": "*كنت أستخدم مصنع الحرب ذاك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle040Subtitle",
+  "text": "*هل الاحتفاظ بمطاري طلب كبير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle041Subtitle",
+  "text": "*وضعت ذلك هناك لسبب!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle042Subtitle",
+  "text": "*كنت للتو قد رتّبت كل تلك المباني كما أريد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle043Subtitle",
+  "text": "*لا أقبل هذا النوع من قلة الاحترام!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle044Subtitle",
+  "text": "*بنيت كل تلك الطائرات لسبب!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle045Subtitle",
+  "text": "*دمّر ما شئت من المركبات. وكأنني أهتم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle046Subtitle",
+  "text": "*كيف تجرؤ على إيذاء جنودي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle047Subtitle",
+  "text": "*تركت لك هذه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle048Subtitle",
+  "text": "*لم أكن أحتاج إلى ذلك على أي حال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle049Subtitle",
+  "text": "*تستولي على المصفاة؟ يا للعجب أيها الجنرال، لم أعرف أنك حريص على الكفاءة إلى هذا الحد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle050Subtitle",
+  "text": "*من دعاك إلى هنا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle051Subtitle",
+  "text": "*لا أظن أن لديك تصريحًا أمنيًا مناسبًا للوجود هنا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle052Subtitle",
+  "text": "*ما الذي يمنحك الحق في دخول قاعدتي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle053Subtitle",
+  "text": "*هذه قاعدتي، اخرج الآن!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle054Subtitle",
+  "text": "*لا تتوقع أن أكون مضيفة لطيفة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle055Subtitle",
+  "text": "*لا أحب الزوار غير المتوقعين أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle056Subtitle",
+  "text": "*ماذا تظن نفسك فاعلًا هنا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle057Subtitle",
+  "text": "*متسللون!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle058Subtitle",
+  "text": "*بدأ وجودك يزعجني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle059Subtitle",
+  "text": "*من كان مكلفًا بحراسة تلك المنطقة؟!؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle060Subtitle",
+  "text": "*إذن تمكّنت من اختراق دفاعاتي... لن يتكرر ذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle061Subtitle",
+  "text": "*اخرج من قاعدتي أيها الجنرال. لا تظن أنني أتعفف عن إطلاق مدفع الجسيمات هنا بالذات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle062Subtitle",
+  "text": "*يبدو المكان مظلمًا قليلًا في قاعدتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle063Subtitle",
+  "text": "*هل نسي أحدهم دفع فاتورة الكهرباء؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle064Subtitle",
+  "text": "*لم تُدِر مواردك بحكمة كبيرة، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle065Subtitle",
+  "text": "*أنت تدفعني إلى تجاوز الميزانية أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle066Subtitle",
+  "text": "*كيف حدث هذا! خططت لكل شيء بإتقان!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle067Subtitle",
+  "text": "*أتظن أنني أخاف من عاصفة سكود الصغيرة خاصتك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle068Subtitle",
+  "text": "*تلك الصومعة النووية لا تخيفني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle069Subtitle",
+  "text": "*أقدّر اختيارك للأسلحة، لكنني الوحيدة المسموح لها بامتلاك مدفع جسيمات في ساحة المعركة هذه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle070Subtitle",
+  "text": "*هل هذا أقصى ما يمكن أن تكون عليه قاعدتك من أمان؟ هل هو كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle071Subtitle",
+  "text": "*هذه دبابات كثيرة أيها الجنرال. هل رأيت ماذا يفعل مدفع الجسيمات بدبابات كثيرة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle072Subtitle",
+  "text": "*كل هذه الطائرات مجرد تلوث جوي بالنسبة إليّ"
+ }
+]

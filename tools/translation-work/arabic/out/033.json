@@ -1,0 +1,90 @@
+[
+ {
+  "label": "GUI:LoadReplayLong",
+  "text": "تحميل إعادة"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak5",
+  "text": "وسام السلسلة\nفاز اللاعب في 5 ألعاب متتالية عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak20",
+  "text": "وسام السلسلة\nفاز اللاعب في 20 لعبة متتالية عبر الإنترنت"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBuggyAmmor",
+  "text": "زيادة 25% في ذخيرة عربة الصواريخ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3Disabled",
+  "text": "وسام السلسلة\nانتصر في 3 ألعاب متتالية أو أكثر لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz10Disabled",
+  "text": "وسام الحرب الخاطفة\nاهزم خصم (خصوم) الحاسوب في 10 دقائق أو أقل لتنال هذه الميدالية"
+ },
+ {
+  "label": "GUI:CÀontrolBarBack",
+  "text": "رجوع"
+ },
+ {
+  "label": "GUI:BuddyAddReqMessageSent",
+  "text": "أُرسل طلب الصداقة"
+ },
+ {
+  "label": "GUI:BuddyAddReqMessageRejected",
+  "text": "رُفض طلب الصداقة"
+ },
+ {
+  "label": "GUI:BuddyAddReqMessageAccepted",
+  "text": "قُبل طلب الصداقة"
+ },
+ {
+  "label": "TOOLTIP:RefreshGamePlayerList",
+  "text": "تحديث قائمتي الألعاب واللاعبين"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorBuddyRadioButton",
+  "text": "انقر بالزر الأيمن على اسم في قائمة اللاعبين لإرسال طلب صداقة"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorIgnoreRadioButton",
+  "text": "انقر بالزر الأيمن على اسم في قائمة اللاعبين لتجاهل ذلك اللاعب"
+ },
+ {
+  "label": "GUI:GroupRoom15",
+  "text": "3 ضد 3"
+ },
+ {
+  "label": "GUI:GroupRoom16",
+  "text": "4 ضد 4"
+ },
+ {
+  "label": "GUI:GroupRoom17",
+  "text": "المبتدئون"
+ },
+ {
+  "label": "GUI:GroupRoom18",
+  "text": "التعديلات"
+ },
+ {
+  "label": "GUI:GroupRoom19",
+  "text": "التصنيف"
+ },
+ {
+  "label": "GUI:GroupRoom20",
+  "text": "ألمانيا"
+ },
+ {
+  "label": "GUI:GroupRoom21",
+  "text": "الولايات المتحدة"
+ },
+ {
+  "label": "GUI:GroupRoom22",
+  "text": "كوريا"
+ },
+ {
+  "label": "GUI:BeaconClear",
+  "text": "مسح"
+ }
+]

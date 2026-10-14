@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry088Subtitle",
+  "text": "*如果你现在不撤退，我就放出大军把你从我们的土地上刮干净"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry089Subtitle",
+  "text": "*你感觉到末日临近了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry090Subtitle",
+  "text": "*哈哈！我打败你了。现在你要么加入我的大军，要么去死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry091Subtitle",
+  "text": "*是时候放出大军了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry092Subtitle",
+  "text": "*面对我，像其他人一样倒下吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry093Subtitle",
+  "text": "*我的士兵会碾碎你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry094Subtitle",
+  "text": "*我们会像蝗虫一样把你啃光"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry095Subtitle",
+  "text": "*士兵？我的士兵在哪儿？你不考虑放我走吗？求你别伤害我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry096Subtitle",
+  "text": "*我们大军的制服很漂亮……不会那么糟的……你说不定还会喜欢。不过我很怀疑"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry097Subtitle",
+  "text": "*准备好面对我的大军了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry098Subtitle",
+  "text": "*想想看，这才只是第一波"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser001Subtitle",
+  "text": "*我现在已经瞄准你了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser002Subtitle",
+  "text": "*精确打击开始"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser003Subtitle",
+  "text": "* （玩家单位被摧毁）有趣的战术选择，它也没帮上我上一个对手"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser004Subtitle",
+  "text": "*我要进攻了，我想你可能需要个提醒"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser005Subtitle",
+  "text": "*也许你该重新评估一下你的战略，它们显然不管用"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser006Subtitle",
+  "text": "*喜欢我的新玩具吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser007Subtitle",
+  "text": "*做好准备，将军，你要上一堂战争课了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser008Subtitle",
+  "text": "*来得容易，去得也快"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser009Subtitle",
+  "text": "*也许你不是干这行的料，试试画画吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser010Subtitle",
+  "text": "*很美吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser011Subtitle",
+  "text": "*我的激光会像热刀切黄油一样切开你的防线"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser012Subtitle",
+  "text": "*将死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser013Subtitle",
+  "text": "*这是一个全新的战争时代，将军，它已经来到你家门口"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser014Subtitle",
+  "text": "*目标已标记——所有部队开始攻击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser015Subtitle",
+  "text": "*本来我所有的武器都有激光瞄准，但我的敌人搞糊涂了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser016Subtitle",
+  "text": "*别直视激光——你可能会把后脑勺烧穿"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser017Subtitle",
+  "text": "*激光充能中……请稍候，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser018Subtitle",
+  "text": "*激光必须精确校准才能发挥最大效果"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser019Subtitle",
+  "text": "*推土机，多建反应堆——激光很耗电"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser020Subtitle",
+  "text": "*你能匹敌五千万兆焦的激光功率吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser021Subtitle",
+  "text": "*看起来像一场太空大战，是吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser022Subtitle",
+  "text": "*我的激光会把你的装甲化为蒸汽"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser023Subtitle",
+  "text": "*将军，你真该协调一下你的进攻——这对我来说实在太容易了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser024Subtitle",
+  "text": "*别被漂亮的灯光分了心，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser025Subtitle",
+  "text": "*要我把你“传送上来”吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser026Subtitle",
+  "text": "*你的武器比不上我的精准打击，将军。何不干脆投降？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser027Subtitle",
+  "text": "*你为什么不再建一座兵营，将军？我也会很乐意摧毁它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser028Subtitle",
+  "text": "*如果你连战车工厂都保护不了，你的指挥中心又能有多安全？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser029Subtitle",
+  "text": "*你的飞机躲不过我的激光，没有机场就更别提了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser030Subtitle",
+  "text": "*你的基地防御对我毫无用处"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser031Subtitle",
+  "text": "*啊，指挥中心——这张棋盘上的皇后。这盘棋基本已经结束了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser032Subtitle",
+  "text": "*我的激光摧毁了你那么多建筑……你怎么还在打？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser033Subtitle",
+  "text": "*将军，别摧毁我的科技建筑，我需要它们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser034Subtitle",
+  "text": "*离我的兵营远点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser035Subtitle",
+  "text": "*我的战车工厂！不——！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser036Subtitle",
+  "text": "*你竟敢摧毁我的机场！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser037Subtitle",
+  "text": "*他们在摧毁我们的防御！所有部队：保卫基地！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser038Subtitle",
+  "text": "*将军，这些损失不可接受。我会报复你摧毁我建筑的行为"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser039Subtitle",
+  "text": "*不！快，推土机重建指挥中心！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser040Subtitle",
+  "text": "*将军，如果你再击落我的飞机，我就用所有超级武器摧毁你！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser041Subtitle",
+  "text": "*别碰我的载具，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser042Subtitle",
+  "text": "*你是故意猎杀我的士兵，对吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser043Subtitle",
+  "text": "*趁还能用，好好享受那座油井的收益吧；我们很快就会来夺回它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser044Subtitle",
+  "text": "*那座火炮平台不是我机载激光的对手"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser045Subtitle",
+  "text": "*你知道那座炼油厂能让你更快更高效地生产载具吗？哎呀，我大概不该告诉你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser046Subtitle",
+  "text": "*你触发了我们外围的警戒激光，将军。现在我们知道你在那儿了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser047Subtitle",
+  "text": "*我看到你正在接近我的基地，将军。我不建议你再靠近"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser048Subtitle",
+  "text": "*敌人进入我们的基地！所有部队返回并部署激光！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser049Subtitle",
+  "text": "*离我的反应堆远点，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser050Subtitle",
+  "text": "*将军，那些资源是我的——离它们远点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser051Subtitle",
+  "text": "*从侧翼进攻，是吧？要打败我光靠战术把戏可不够"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser052Subtitle",
+  "text": "*侧翼进攻？！你真狡猾，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser053Subtitle",
+  "text": "*对，从我的前门直接进来吧，将军……如果你敢的话"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser054Subtitle",
+  "text": "*小心，将军——我基地的后门并不像看上去那样无人防守"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser055Subtitle",
+  "text": "*你来这里真是愚蠢，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser056Subtitle",
+  "text": "*这些资源救不了你失败的战略，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser057Subtitle",
+  "text": "*不！走开！我需要那些反应堆给激光供电！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser058Subtitle",
+  "text": "*没电了？！你怎么能让基地断电？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser059Subtitle",
+  "text": "*断电是致命的错误，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser060Subtitle",
+  "text": "*你的资源用光了，将军。在我们攻陷你之前，你永远恢复不过来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser061Subtitle",
+  "text": "*资源用光了？！这不可接受！支奴干，采集快一点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser062Subtitle",
+  "text": "*卖掉那座飞毛腿风暴吧，将军，不然我替你摧毁它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser063Subtitle",
+  "text": "*那座核弹发射井阻止不了我，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser064Subtitle",
+  "text": "*如果你建了粒子加农炮，而我用粒子光束摧毁它……这算不算讽刺？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser065Subtitle",
+  "text": "*过多的基地防御只会拖慢我的激光，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser066Subtitle",
+  "text": "*你的常规坦克不是我激光武器平台的对手，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser067Subtitle",
+  "text": "*好多飞机啊，将军。你在搞飞行表演吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser068Subtitle",
+  "text": "*你训练了不少步兵啊，将军。我等不及看这个疯狂的计划了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser069Subtitle",
+  "text": "*你的基地开始像个住宅区了，将军。也许我该用粒子加农炮玩一把连连看，稍微削减一下你的数量"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser070Subtitle",
+  "text": "*我会把那些飞毛腿导弹打下来，将军。然后你就要付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser071Subtitle",
+  "text": "*我的激光会把那枚核弹打下来，将军。放射性尘埃的责任在你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser072Subtitle",
+  "text": "*粒子加农炮？！真想知道如果我们的光束交叉会怎样"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser073Subtitle",
+  "text": "*将军，别进驻那栋建筑；出来玩玩吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser074Subtitle",
+  "text": "*将军，伯顿上校是个笨手笨脚的蠢货"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser075Subtitle",
+  "text": "*黑莲花在我的激光面前可不是隐形的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser076Subtitle",
+  "text": "*希望贾曼·凯尔的步枪没装激光瞄准镜……那对我可不管用"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser077Subtitle",
+  "text": "*建机场只会为我的激光提供空中靶子，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser078Subtitle",
+  "text": "*你需要很多坦克才能打到我这里，将军。祝你好运"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser079Subtitle",
+  "text": "*建兵营只会让你的士兵受伤，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser080Subtitle",
+  "text": "*卖掉建筑，是吧？那是绝望将军犯下的第一个错误"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser081Subtitle",
+  "text": "*什么？！你不可能在打败我！光是你缺乏精准就该保证我的胜利"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser082Subtitle",
+  "text": "*我不能输给你——你这个笨手笨脚的小丑！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser083Subtitle",
+  "text": "*你怎么可能赢？模拟里可不是这样的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser084Subtitle",
+  "text": "*我计算了每一个变量，可你还是在赢……这怎么可能？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser085Subtitle",
+  "text": "*不！这不可能是结局！你用了什么诡计打败我？！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser086Subtitle",
+  "text": "*我的计划和准备正引领我走向明确的胜利"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser087Subtitle",
+  "text": "*精准永远胜过蛮力，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser088Subtitle",
+  "text": "*这对你来说一定像场噩梦，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser089Subtitle",
+  "text": "*你想好怎么接受这次失败了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser090Subtitle",
+  "text": "*你被打败了，将军。不过这本来就毫无悬念，不是吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser091Subtitle",
+  "text": "*激光已充能——正在追踪目标"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser092Subtitle",
+  "text": "*你跟我不是一个级别的，将军——去找个容易点的对手吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser093Subtitle",
+  "text": "*据我计算，你会输掉这场战斗，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser094Subtitle",
+  "text": "*激光才是更优越的武器"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser095Subtitle",
+  "text": "*你打败了我，将军，但我会扫描你的战术，制定出更优的策略"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser096Subtitle",
+  "text": "*扫描你的战术后，你的弱点一目了然"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser097Subtitle",
+  "text": "*好了，将军——我已经在沙地上画好了线"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser098Subtitle",
+  "text": "*现在我倒要看你敢不敢跨过来。来抓我吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke001Subtitle",
+  "text": "*至少是干热，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke002Subtitle",
+  "text": "*很快你的基地就会像太阳一样发光"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke003Subtitle",
+  "text": "*你打算怎么对抗这个，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke004Subtitle",
+  "text": "*你的武器根本敌不过我的力量！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke005Subtitle",
+  "text": "*熔化！一切都要熔化！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke006Subtitle",
+  "text": "* 那光芒！那美妙的光芒！你看不到吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke007Subtitle",
+  "text": "*看来今年是个核冬天，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke008Subtitle",
+  "text": "*末日近了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke009Subtitle",
+  "text": "*这只是开始，将军。终结的开始"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke010Subtitle",
+  "text": "*别担心，将军，弹头已经在路上了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke011Subtitle",
+  "text": "*抱歉耽搁了，将军；正在集结部队"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke012Subtitle",
+  "text": "*热得受不了了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke013Subtitle",
+  "text": "*要崩溃熔毁了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke014Subtitle",
+  "text": "*所有部队，准备下一次进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke015Subtitle",
+  "text": "*我把发射密码放哪儿了？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke016Subtitle",
+  "text": "*准备好迎接更多了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke017Subtitle",
+  "text": "*我看这就是你的半衰期了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke018Subtitle",
+  "text": "*希望你的雷达没坏，将军；错过接下来的好戏就太可惜了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke019Subtitle",
+  "text": "*我现在知道你的弱点了，将军。下一次进攻将势不可挡"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke020Subtitle",
+  "text": "*很快你就会领略我核武库的荣光"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke021Subtitle",
+  "text": "*我要是你，就囤点防晒霜，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke022Subtitle",
+  "text": "*\"    Ne"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke023Subtitle",
+  "text": "*军备竞赛总得有人赢，不然比赛还有什么意义？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke024Subtitle",
+  "text": "*是时候穿上铅内裤了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke025Subtitle",
+  "text": "*记住：别直视爆炸，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke026Subtitle",
+  "text": "*看来你训练士兵只是为了让他们去送死，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke027Subtitle",
+  "text": "*现在你的战车工厂成了个发光的弹坑。太好了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke028Subtitle",
+  "text": "*你的防线像蛋壳一样碎裂，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke029Subtitle",
+  "text": "*哦，你刚才不在那座指挥中心里吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke030Subtitle",
+  "text": "*你为什么要摧毁我的兵营，将军？你该害怕的可不是我的士兵"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke031Subtitle",
+  "text": "*我的战车工厂！你干了什么？！我宝贵的坦克……没了……"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke032Subtitle",
+  "text": "*别烦我！我什么时候招惹你了？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke033Subtitle",
+  "text": "*我的指挥中心！不！！！我不会失去指挥权！绝不！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke034Subtitle",
+  "text": "*真不敢相信你在打败我！也许你能给我点时间重建？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke035Subtitle",
+  "text": "*我们在你手下损失惨重，将军，但这还没完"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke036Subtitle",
+  "text": "*将军，那座油井你可以拿去，但它帮不了你阻止我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke037Subtitle",
+  "text": "*滚出我的基地，将军！我不会说第二遍"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke038Subtitle",
+  "text": "*你打算在我的基地待多久，将军？要我给你准备个铺位吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke039Subtitle",
+  "text": "*离开我的基地，将军，否则我将被迫引爆弹头"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke040Subtitle",
+  "text": "*喜欢我的村庄吗，将军？请随意，就当自己家"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke041Subtitle",
+  "text": "*来视察核弹吗，将军？可以看，但别碰"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke042Subtitle",
+  "text": "*我要是你就小心点，将军；这些核仓库容易泄漏"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke043Subtitle",
+  "text": "*离我的补给远点，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke044Subtitle",
+  "text": "*将军，我要是你就不会占领那座油井——我只会摧毁它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke045Subtitle",
+  "text": "*离我的发射井远点，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke046Subtitle",
+  "text": "*看来你停电了，将军。要我给你送点核能吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke047Subtitle",
+  "text": "*这么快就没钱了？你不知道战争很烧钱吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke048Subtitle",
+  "text": "*请多造些坦克吧，将军；就连它们也会熔化的……迟早而已"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke049Subtitle",
+  "text": "*让那些飞机离我的发射井远点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke050Subtitle",
+  "text": "*好多士兵啊，将军。他们穿防辐射服了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke051Subtitle",
+  "text": "*你觉得我需要多少颗核弹才能摧毁那件新武器，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke052Subtitle",
+  "text": "*你觉得我需要多少颗核弹才能摧毁那件新武器，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke053Subtitle",
+  "text": "*卖掉建筑？将军，如果你想清空那片地方，我本可以替你代劳"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke054Subtitle",
+  "text": "*你无法抵挡我的力量，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke055Subtitle",
+  "text": "*投降！还是你想让轰炸继续？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke056Subtitle",
+  "text": "*你正在输掉这场战争，将军。再来几颗炸弹，你的基地就会陷落！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke057Subtitle",
+  "text": "*强权即公理。你不同意吗，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke058Subtitle",
+  "text": "*现在是我的最后一击。等着，将军，你会喜欢的……等等，不，你不会"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke059Subtitle",
+  "text": "*没有人能抵挡我们的核武库"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke060Subtitle",
+  "text": "*挑战我，你的基地就会像太阳一样发光"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke061Subtitle",
+  "text": "*很快你就只是一堆核废料了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke062Subtitle",
+  "text": "*再给我一点时间，我就能把你化为灰烬"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke063Subtitle",
+  "text": "*你能完好无损地挺过这场战斗真是幸运。有胆量就再来挑战我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke064Subtitle",
+  "text": "*欢迎加入派对，将军。请原谅这一片狼藉"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke065Subtitle",
+  "text": "*现在，将军，你大概明白为什么大家叫我“核弹毛”了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke066Subtitle",
+  "text": "*我们一直在等你，将军。请收下我们的礼物"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke067Subtitle",
+  "text": "*更多礼物，将军。我们的慷慨是无限的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke068Subtitle",
+  "text": "*现在战斗才真正开始。做好准备，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke069Subtitle",
+  "text": "*冷聚变可不是发电的办法，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke070Subtitle",
+  "text": "*摧毁你的反应堆让我很心痛，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke071Subtitle",
+  "text": "*你管那叫“超级武器”，将军？它像玩具一样一碰就碎"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke072Subtitle",
+  "text": "*不！我的弹头！我美丽的弹头！你会付出代价的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke073Subtitle",
+  "text": "*没关系，将军，我还有更多核弹给你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke074Subtitle",
+  "text": "*嘿，你知道那座核弹发射井多少钱吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke075Subtitle",
+  "text": "*好了，将军，够了——我的核弹快用光了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke076Subtitle",
+  "text": "*你到底为什么要炸我的核弹，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke077Subtitle",
+  "text": "*不！那是我最后一座核导弹发射井！为什么，将军……为什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke078Subtitle",
+  "text": "*（敌方失去所有发射井）你摧毁了我所有的发射井……为什么，将军？为什么？！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke079Subtitle",
+  "text": "*（敌方占领玩家兵营）我占领了你的兵营，将军。也许我会把它卖了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke080Subtitle",
+  "text": "*（敌方占领玩家战车工厂）我的士兵占领了你的战车工厂。你真该守得更好一点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke081Subtitle",
+  "text": "*（玩家基地）你的防御很弱，将军；我们已经进入你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke082Subtitle",
+  "text": "*（交战区）我的部队已在战场上，将军。很快他们就会开进你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke083Subtitle",
+  "text": "*（补给站区域）啊，我们找到了一些补给。很快所有资源都将由我们控制！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke084Subtitle",
+  "text": "*（第二补给站区域）更多补给归我们了。你靠什么养活你的部队，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke085Subtitle",
+  "text": "*（油井区域）红卫兵——占领那座油井！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke086Subtitle",
+  "text": "*看来我们用光了这一带的所有补给。希望你另有打算，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke087Subtitle",
+  "text": "*（敌方断电）什么？！我没电了？我怎么会没电？谁给我弄点电来！马上！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke088Subtitle",
+  "text": "*（救护车）那辆救护车救不了你的士兵免受辐射"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke089Subtitle",
+  "text": "*（战略中心）战略中心？你能想出什么战略来对付我？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke090Subtitle",
+  "text": "*（黑市）黑市卖不出任何强大到足以阻止我的东西，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke091Subtitle",
+  "text": "*（宣传中心）你的宣传不会让任何人反对我的核力量，将军"
+ }
+]

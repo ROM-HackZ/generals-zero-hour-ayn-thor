@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen06Subtitle",
+  "text": "*فناوری مختل‌کننده GPS را به دست آوردیم! حالا می‌توانیم ترفندهای قصاد را علیه خودش به کار ببریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen07Subtitle",
+  "text": "*عالی، ژنرال! توانایی حمله غافلگیرانه را ایمن کردیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen08Subtitle",
+  "text": "*مراکز فرماندهی دشمن را تصرف کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen09Subtitle",
+  "text": "*اگر مرکز فرماندهی دشمن را تصرف کنیم می‌توانیم فناوری‌اش را علیه خودش به کار ببریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen10Subtitle",
+  "text": "*ژنرال، باید مرکز فرماندهی‌شان را تصرف کنیم و از دانششان برای رسیدن به هدفمان، یعنی متحد کردن GLA زیر یک پرچم، استفاده کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen11Subtitle",
+  "text": "*منابعمان کم است. باید چند دکل نفت تصرف کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen12Subtitle",
+  "text": "*دشمن به منابع نفتمان حمله می‌کند! باید متوقف شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen13Subtitle",
+  "text": "*با مختل‌کننده GPS دزدکی از دفاع دشمن بگذر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen14Subtitle",
+  "text": "*مختل‌کننده GPS اینجا کار نمی‌کند، سایت‌های استینگر زیادی هست. باید تاکتیک دیگری به کار ببریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen15Subtitle",
+  "text": "*شاید بتوانیم منطقه بی‌دفاعی برای توانایی تازه حمله غافلگیرانه پیدا کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen16Subtitle",
+  "text": "*مرکز فرماندهی را نابود نکن. باید سازه را سالم تصرف کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen17Subtitle",
+  "text": "*دانششان را باید دزدید. باید با تاکتیک‌های پیشرفته خودشان شکستشان دهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen18Subtitle",
+  "text": "*ژنرال، مراقب تک‌تیراندازها باش -- قصاد عاشق استفاده از آن‌هاست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen19Subtitle",
+  "text": "*از این پل به‌شدت دفاع می‌شود. برای گذشتن از آن کمک لازم داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen20Subtitle",
+  "text": "*مرکز فرماندهی دشمن در شمال را تصرف کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen21Subtitle",
+  "text": "*مرکز فرماندهی دشمن در غرب را تصرف کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen22Subtitle",
+  "text": "*ژنرال، اگر این توپ را تصرف کنیم می‌توانیم علیه نیروهای قصاد به کارش ببریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen23Subtitle",
+  "text": "*اگر مرکز فرماندهی را تصرف کنیم با توانایی‌هایشان ورق این نبرد را برمی‌گردانیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen24Subtitle",
+  "text": "*شاهزاده قصاد دیگر نیست. GLA بار دیگر علیه دشمنانمان متحد است!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen25Subtitle",
+  "text": "*حالا که مختل‌کننده GPS داریم، می‌توانیم نادیده از دفاع پل قصاد بگذریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen26Subtitle",
+  "text": "*خائن بر این تپه سنگر گرفته و همه راه‌های دیگر را بسته. حمله غافلگیرانه تنها راه ضربه زدن به پایگاه اصلی اوست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen27Subtitle",
+  "text": "*ژنرال، این منطقه زیر کنترل شاهزاده قصاد است. او به برادرانش پشت کرده و در آرمانمان علیه کافران کمکمان نمی‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen28Subtitle",
+  "text": "*قصاد استاد پنهان‌کاری است و نیروهایش را جلوی چشم همه پنهان می‌کند. حاضر نیست دانشش را با ما شریک شود، پس از او می‌گیریمش"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen29Subtitle",
+  "text": "*یک هسته انشعابی GLA به فرماندهی شاهزاده قصاد این منطقه را کنترل می‌کند. قصاد اجازه نمی‌دهد از توانایی‌هایش به نفع GLA استفاده کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen30Subtitle",
+  "text": "*قصاد استاد پنهان‌کاری است و برای غافلگیری و حمله به دشمنانش به چند شیوه تکیه دارد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen31Subtitle",
+  "text": "*مختل‌کننده GPS به او قدرت می‌دهد هر یگانی را نادیده به دشمن بکوبد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen32Subtitle",
+  "text": "*حمله‌های غافلگیرانه تونلی برتری تاکتیکی بیشتری می‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen33Subtitle",
+  "text": "*باید این فناوری‌ها را داشته باشیم. اگر قصاد شریک نمی‌شود، از او می‌گیریمشان. مراکز فرماندهی‌اش را تصرف کن و توانایی‌هایش را علیه خودش به کار ببر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar03Subtitle",
+  "text": "*برادران زندانی‌مان را آزاد کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar15Subtitle",
+  "text": "*یک اردوگاه زندان دیدیم، برادرانمان آنجا در بندند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf01Subtitle",
+  "text": "*خوش آمدی، فرمانده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf02Subtitle",
+  "text": "*قصاد ترسوتر از آن بود که چنین کاری علیه آمریکا بکند. ژنرال، تو واقعاً یک نابغه‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf03Subtitle",
+  "text": "*وقتی نیروی دریایی آمریکا در مدیترانه درهم بشکند، همه اروپا در چنگ ما خواهد بود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf04Subtitle",
+  "text": "*حالا که دوباره متحدیم، وقت آن است قدرتمان را نشان دهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf05Subtitle",
+  "text": "*آمریکا به پایگاه مخفی ما در مدیترانه حمله کرده"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf06Subtitle",
+  "text": "*اما پیش از نابودی‌اش، از موقعیت توپ ذره‌ای و ناوگان دریایی‌شان در منطقه باخبر شدیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf07Subtitle",
+  "text": "*بیشتر کشتی‌هایشان در بندر و بی‌دفاع‌اند. توپ ذره‌ای‌شان را می‌دزدیم و با آن ناو هواپیمابرشان را نابود می‌کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf08Subtitle",
+  "text": "*دنبال فرصتی برای پس گرفتن و بازسازی پایگاه مخفی‌مان باش"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat01Subtitle",
+  "text": "*جانمان فدایت!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat02Subtitle",
+  "text": "*این هم یکی دیگر، رفت که رفت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat03Subtitle",
+  "text": "*قربانی‌های بیشتر برای من"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat04Subtitle",
+  "text": "*درو کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat05Subtitle",
+  "text": "*از خشم ما گریزی ندارند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat06Subtitle",
+  "text": "*همان‌جا که می‌خواستیم گیرشان انداختیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat07Subtitle",
+  "text": "*پیروزی از آن ما خواهد بود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat08Subtitle",
+  "text": "*عجب شالاپی کرد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin01Subtitle",
+  "text": "*انتقام این حمله ترسوانه را می‌گیریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin02Subtitle",
+  "text": "*ناوشان به قراضه تبدیل می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin03Subtitle",
+  "text": "*قدرت GLA را ثابت کردیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen01Subtitle",
+  "text": "*هایجکرهای ما آن تانک را راحت می‌گیرند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen02Subtitle",
+  "text": "*آن رنجر برای کمک می‌دود! نباید بگذاریم فرار کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen03Subtitle",
+  "text": "*برای غرق کردن ناو دشمن به این توپ ذره‌ای نیاز داریم. خوب از آن دفاع کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen04Subtitle",
+  "text": "*شورشیان ما با توانایی تصرف ساختمان می‌توانند کنترل توپ ذره‌ای را بگیرند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen05Subtitle",
+  "text": "*با حمله غافلگیرانه می‌توانیم روی جزیره‌های نزدیک شبکه تونل بسازیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen06Subtitle",
+  "text": "*نباید بگذاریم خلبان به تاماهاکش برسد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen07Subtitle",
+  "text": "*دارند سراغ تاماهاک می‌آیند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen08Subtitle",
+  "text": "*این پادگان حالا مال ماست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen09Subtitle",
+  "text": "*این کاخ را آزاد کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen10Subtitle",
+  "text": "*این دلال اسلحه به خوبی به کارمان می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen11Subtitle",
+  "text": "*مرکز فرماندهی‌مان را پس گرفتیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen12Subtitle",
+  "text": "*ژنرال، آن هواپیماهای تدارکات دشمن را می‌بینی؟ اگر مناطق پرتابشان را نابود کنیم، تولیدشان فلج می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen13Subtitle",
+  "text": "*آه، این تراکتور سمی به دردمان می‌خورد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen14Subtitle",
+  "text": "*این توپ‌های چهارلول از ما در برابر هواپیماهای دشمن دفاع می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen15Subtitle",
+  "text": "*این ماراودرها قدرت آتشمان را بالا می‌برند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen16Subtitle",
+  "text": "*این تانک‌ها را نابود کن تا پادگان را آزاد کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen17Subtitle",
+  "text": "*اگر این منطقه را پاک کنیم می‌توانیم مرکز فرماندهی را با خیال راحت اشغال کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen18Subtitle",
+  "text": "*آن سربازها را بکش تا دلال اسلحه مال ما شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen19Subtitle",
+  "text": "*شاید دارند به ما حمله می‌کنند! از ساختمان‌هایمان دفاع کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen20Subtitle",
+  "text": "*کومانچی! پدافند هوایی را آماده کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen21Subtitle",
+  "text": "*باید در برابر آن کومانچی‌ها دفاع کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen22Subtitle",
+  "text": "*می‌خواهند توپ ذره‌ای را پس بگیرند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen23Subtitle",
+  "text": "*هواپیماهایشان شبکه تونل ما را نابود کردند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen24Subtitle",
+  "text": "*چه تبهکاران زرنگی! نیروگاه‌هایمان را هدف گرفته‌اند. برای استفاده از توپ ذره‌ای برق لازم داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen25Subtitle",
+  "text": "*تقریباً همه نیروگاه‌ها نابود شده‌اند. برای استفاده از توپ ذره‌ای باید برق داشته باشیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen26Subtitle",
+  "text": "*اگر بتوانیم چند نیروگاه تصرف کنیم، می‌توانیم توپ ذره‌ای را علیه‌شان به کار ببریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen27Subtitle",
+  "text": "*آه... چند غنیمت پنهان پیدا کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen28Subtitle",
+  "text": "*از این گذرگاه خوب دفاع می‌شود. باید با توپ ذره‌ای راهمان را باز کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen29Subtitle",
+  "text": "*مراقب باش! از این گذرگاه به‌شدت محافظت می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen30Subtitle",
+  "text": "*پیاده‌نظام به جزیره‌ها فرستاده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen31Subtitle",
+  "text": "*هلیکوپترهایشان نیروی کمکی می‌آورند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen32Subtitle",
+  "text": "*حمله A10 علیه ما آغاز کرده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen33Subtitle",
+  "text": "*روی توپ ذره‌ای چترباز پیاده کرده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen34Subtitle",
+  "text": "*مناطق پرتاب تدارکاتشان را از کار انداختیم! تولیدشان فلج می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen35Subtitle",
+  "text": "*مأموریت تو نابودی ناو هواپیمابر دشمن با توپ ذره‌ای است. باید به پایگاهشان در خشکی نفوذ کنی تا دید مستقیم به ناو پیدا کنی و نابودش کنی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen36Subtitle",
+  "text": "*کار عالی! حالا باید چند نیروگاه را ایمن کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen37Subtitle",
+  "text": "*شبکه تونل ما را به جزیره بعدی می‌رساند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen38Subtitle",
+  "text": "*توپ ذره‌ای اکنون فعال است. باید از آن و نیروگاه‌ها دفاع کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen39Subtitle",
+  "text": "*همه یگان‌ها و ساختمان‌هایمان نابود شدند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen40Subtitle",
+  "text": "*بدون توپ ذره‌ای غرق کردن ناو ناممکن است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen41Subtitle",
+  "text": "*حالا آمریکایی‌ها طعم تلخ شکست را می‌چشند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen42Subtitle",
+  "text": "*شبکه تونلمان را نابود کردند! با حمله غافلگیرانه توپ ذره‌ای را پس بگیر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen43Subtitle",
+  "text": "*به ناو هواپیمابر نزدیک می‌شویم. درست جنوب اینجاست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen44Subtitle",
+  "text": "*آنجاست، ناو هواپیمابر! با توپ ذره‌ای نابودش کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen45Subtitle",
+  "text": "*جارمن کل اینجاست تا به ما خدمت کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen46Subtitle",
+  "text": "*توانایی تک‌تیراندازی‌اش خودروهای دشمن را از کار می‌اندازد تا پیاده‌نظام ما تصرفشان کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen47Subtitle",
+  "text": "*این ناوهای جنگی لنگرانداخته بی‌خطرند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen48Subtitle",
+  "text": "*ناو جنگی دارد ما را بمباران می‌کند! نابودش کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen49Subtitle",
+  "text": "*این باید پایگاه اصلی دشمن باشد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen50Subtitle",
+  "text": "*این ساختمان‌های قلابی دشمنانمان را فریب می‌دهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen51Subtitle",
+  "text": "*برای فریب دشمن سازه‌های قلابی بیشتری بساز!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04Dispatcher06Subtitle",
+  "text": "*نیروهای آمریکا در راه‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat01Subtitle",
+  "text": "*باید آن سنگرها را پاک کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat02Subtitle",
+  "text": "*برقشان قطع است! دیگر پاتریوتی در کار نیست!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat03Subtitle",
+  "text": "*حصارها را بشکنید و برادرانمان را نجات دهید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat04Subtitle",
+  "text": "*حالا برادرانمان آزادند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat05Subtitle",
+  "text": "*یک شینوک آمریکایی به جابه‌جایی نیروهایمان کمک می‌کند. اگر می‌توانی این انبار تدارکات را تصرف کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat06Subtitle",
+  "text": "*اینجا پدافند هوایی بیاور، ژنرال! کومانچی‌هایشان تکه‌تکه‌مان می‌کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat07Subtitle",
+  "text": "*ژنرال، باید راهی برای نابودی دفاع این پل پیدا کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat08Subtitle",
+  "text": "*ژنرال، با تلفن همراهمان یک شبکه تونل غافلگیرانه سفارش می‌دهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat09Subtitle",
+  "text": "*اگر بخواهیم سنگری را پاک کنیم به این تراکتورها نیاز داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat10Subtitle",
+  "text": "*این کشتی حالا زیر کنترل ماست! هر جا بخواهیم می‌بریمان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat11Subtitle",
+  "text": "*چشم، چشم. هرچه بگویید انجام می‌دهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat12Subtitle",
+  "text": "*برادرانمان آزاد شدند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat13Subtitle",
+  "text": "*در این سرزمین عجیب چقدر ماشین شاسی‌بلند هست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat14Subtitle",
+  "text": "*در این منطقه یک هوادار GLA داریم. او و برادرانش پذیرفته‌اند کمکمان کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat15Subtitle",
+  "text": "*تانک! فرار! برو، برو، برو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin01Subtitle",
+  "text": "*اینجا تیم یک. در موقعیتیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin02Subtitle",
+  "text": "*برادرانم، مراقب باشید، چون روی خاک دشمن گام برمی‌داریم. هدف اصلی ما گرفتن نمونه‌های شیمیایی از تأسیسات سموم آمریکایی نزدیک است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin03Subtitle",
+  "text": "*بقایای نیروی دریایی آمریکا در پاسخ به از دست دادن ناوگان فرماندهی‌شان به مدیترانه رفته‌اند. همین به ما اجازه داد دزدکی وارد شویم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin04Subtitle",
+  "text": "*آنجا شکستشان دادیم و اینجا هم پیروز می‌شویم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin05Subtitle",
+  "text": "*شاد باشید برادران! وقتی سموم این تأسیسات را بگیریم دانشمندانمان می‌توانند سلاحی برای آلودگی گسترده بسازند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin06Subtitle",
+  "text": "*آمریکایی‌ها زیادی دخالت کرده‌اند. با این سلاح تازه ترس را به دل ستمگرانمان می‌اندازیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin07Subtitle",
+  "text": "*(خنده بسیار شیطانی)"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin08Subtitle",
+  "text": "*تیم یک، سموم ایمن و بارگیری شده؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin09Subtitle",
+  "text": "*نمونه‌ها را داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin10Subtitle",
+  "text": "*برای برخاستن آماده‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin11Subtitle",
+  "text": "*تأیید. محموله ایمن است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin12Subtitle",
+  "text": "*اجازه حرکت دارید. از فرارتان دفاع می‌کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin13Subtitle",
+  "text": "*ژنرال، پاتریوت‌ها فعال‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin14Subtitle",
+  "text": "*نگهشان دارید تا باند فرود را خالی کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin15Subtitle",
+  "text": "*از دُممان دورشان کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin16Subtitle",
+  "text": "*برید کنار، آمریکایی‌های احمق!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin17Subtitle",
+  "text": "*وقتی به تأسیسات سموم برسیم دوباره همدیگر را می‌بینیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin18Subtitle",
+  "text": "*آمریکایی‌ها خیال می‌کنند بیرونمان کرده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin19Subtitle",
+  "text": "*تفرقه بینداز و حکومت کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin20Subtitle",
+  "text": "*در برابر این قدرت هوایی هیچیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin21Subtitle",
+  "text": "*هنوز آخرین روی ما را ندیده‌اید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin22Subtitle",
+  "text": "*انتقاممان را می‌گیریم، آمریکایی‌های کثیف!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin23Subtitle",
+  "text": "*بیایید سهم خودمان را در سرنگونی این خوک‌های سرمایه‌دار ادا کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin24Subtitle",
+  "text": "*این آمریکایی‌ها تاوان جان برادرانمان را می‌دهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin25Subtitle",
+  "text": "*بیایید این نفوذی‌های GLA را روشن کنیم! فاکس ۱!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin26Subtitle",
+  "text": "*GLA نزدیک ساحل دیده شد! همه یگان‌ها به مواضع دفاعی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin27Subtitle",
+  "text": "*نفوذ GLA در مختصات 77 بتا گاما! همه یگان‌های در دسترس برای پاسخ حرکت کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin28Subtitle",
+  "text": "*تعداد بیشتری روی ساحل هستند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin29Subtitle",
+  "text": "*نفوذی‌های GLA روی لبه صخره دیده شدند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin30Subtitle",
+  "text": "*GLA داخل محدوده شهر است! همه یگان‌ها در مختصات 34 آلفا آلفا جمع شوند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen01Subtitle",
+  "text": "*آفرین، ژنرال! فقط 15 نمونه سم دیگر باید بازیابی شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen02Subtitle",
+  "text": "*آفرین، ژنرال! فقط 10 نمونه سم دیگر باید بازیابی شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen03Subtitle",
+  "text": "*آفرین، ژنرال! فقط 5 نمونه سم دیگر باید بازیابی شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen04Subtitle",
+  "text": "*ژنرال، نقشه‌ای برای حمله به فرماندهی مرکزی آمریکا در اروپا داریم. اما هنوز توان ضربه مستقیم نداریم. به سلاح سمی تازه‌ای نیاز داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen05Subtitle",
+  "text": "*هر دو نیرویمان در موقعیت‌اند. اگر بخواهیم سموم را بگیریم دو گروه باید با هم کار کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen06Subtitle",
+  "text": "*هایجکرهای ما می‌توانند خودرو تصرف کنند و جز هنگام حرکت پنهان‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen07Subtitle",
+  "text": "*جارمن کل می‌تواند خلبان‌ها را از خودروها هدف بگیرد و پیاده‌نظام را از دور بزند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen08Subtitle",
+  "text": "*خرابکاران ما می‌توانند چند عملیات مخفی مثل خاموش کردن نیروگاه‌ها انجام دهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen09Subtitle",
+  "text": "*شورشیان ما استتارشده‌اند و برای آرمانمان ساختمان تصرف می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen10Subtitle",
+  "text": "*موفق باشی، ژنرال. پنهان‌کاری و زیرکی در این راه همراهت باد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen11Subtitle",
+  "text": "*صبح بخیر، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen12Subtitle",
+  "text": "*ژنرال، باید آن کشتی را تصرف کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen13Subtitle",
+  "text": "*ژنرال، اینجا مین هست اما نمی‌توانیم شناسایی‌شان کنیم! ون رادار لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen14Subtitle",
+  "text": "*ژنرال، کسی را به ایستگاه شیر کنار رودخانه بفرست. خالی کردن مخزن خنک‌کننده به برادرانمان اجازه پیشروی می‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen15Subtitle",
+  "text": "*عالی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen16Subtitle",
+  "text": "*آفرین"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen17Subtitle",
+  "text": "*ژنرال! پیش از آنکه نابود شویم آن فرودگاه را نابود کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen18Subtitle",
+  "text": "*ژنرال. باید برقشان را نابود کنیم! آن‌وقت آمریکایی‌ها حتماً لقمه چربی می‌شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen19Subtitle",
+  "text": "*ژنرال، باید آن تأسیسات سموم را تصرف کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen20Subtitle",
+  "text": "*کار عالی، ژنرال. حالا باید از این کامیون‌ها که سموم را به هواپیمای باری می‌برند محافظت کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen21Subtitle",
+  "text": "*با کامیون‌ها جمع‌آوری سموم از تأسیسات را شروع کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen22Subtitle",
+  "text": "*ژنرال، آمریکایی‌ها نیروی کمکی فرستاده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen23Subtitle",
+  "text": "*هسته دیگری از هایجکرها برای حمایت از آرمانمان رسید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen24Subtitle",
+  "text": "*هسته دیگری از شورشیان برای حمایت از آرمانمان رسید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen25Subtitle",
+  "text": "*جارمن کل پیدا شد و برای کمک به آرمانمان برگشت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen26Subtitle",
+  "text": "*برادرانمان خط را شکستند و نیروی کمکی برایمان آوردند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen27Subtitle",
+  "text": "*آمریکایی‌ها پس از پیروزی ما در یونان حمله‌ای روی خاک خودشان را انتظار ندارند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen28Subtitle",
+  "text": "*قصاد هرگز جرئت حمله به خاک آمریکا را نداشت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen29Subtitle",
+  "text": "*وقتی عامل سمی مخفی را از مرکز زیستی آمریکا بدزدیم، کسی جلودارمان نیست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy104Subtitle",
+  "text": "*مراقب سامانه‌های پاتریوت باشید، خطرناک‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy108Subtitle",
+  "text": "*بروید به گور، آشغال‌های آمریکایی!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar02bSubtitle",
+  "text": "*پایگاه هوایی آمریکا را نابود کن تا بخش بزرگی از توانشان برای اعمال قدرت در این منطقه را از دست بدهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar05Subtitle",
+  "text": "*آمریکایی‌ها با قدرت هوایی‌شان می‌خواهند جلوی ما را بگیرند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Quad201Subtitle",
+  "text": "*بمیر آمریکایی!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Rebel02Subtitle",
+  "text": "*در برابر حمله‌های هوایی آمریکا بی‌دفاعیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Scorpion105Subtitle",
+  "text": "*آمریکایی‌های ترسو! مثل مرد روی زمین بجنگید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xChat01Subtitle",
+  "text": "*این منطقه زیر کنترل ژنرال گرینجر از نیروی هوایی آمریکاست. می‌توانیم و خواهیم توانست با زور شما را از این منطقه بیرون کنیم. به شما دستور داده می‌شود فوراً منطقه را ترک کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin01Subtitle",
+  "text": "*نیروهایمان کم‌اند، اما با همین‌ها می‌توانیم پیروز شویم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin02Subtitle",
+  "text": "*چون در این منطقه پایگاهی نداریم، باید یکی را بگیریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin03Subtitle",
+  "text": "*پایگاه چینی... باید همین حالا ضربه بزنیم! پایگاهشان به‌زودی مال ما می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen01Subtitle",
+  "text": "*اگر رفقایمان را از پایگاه جنوبی آمریکا نجات دهی، جنگجویان نخبه ما در کنارت می‌جنگند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen02Subtitle",
+  "text": "*ممنون که برادرانمان را نجات دادی! در عوض بخشی از پایگاه آمریکا را برایت باز می‌کنیم تا حمله‌ات را شروع کنی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen03Subtitle",
+  "text": "*هه هه هه هه هه (خنده شوم) این درسی برایشان می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen04Subtitle",
+  "text": "*نگذار مرگمان بی‌کیفر بماند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen05Subtitle",
+  "text": "*با هم دشمن را شکست دادیم! پیروزی از آن ماست!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen06Subtitle",
+  "text": "*ممنون که در نجات سربازانم کمک کردی. جبران می‌کنیم و در نابودی پایگاه فرماندهی مرکزی آمریکا کمکت می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen01Subtitle",
+  "text": "*وقتی این پایگاه نابود شود آمریکایی‌ها مثل سگ‌های ترسو به خانه فرار می‌کنند. همه اروپا مال ما می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen02Subtitle",
+  "text": "*آمریکایی‌ها برادرانمان را در پایگاهشان گروگان گرفته‌اند. باید نجاتشان دهیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen03Subtitle",
+  "text": "*به نفع ماست که اسرا را از چنگ آمریکایی‌ها نجات دهیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen04Subtitle",
+  "text": "*آفرین! این پایگاه را تصرف یا نابود کن تا اسرا در امان باشند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen05Subtitle",
+  "text": "*باید آن‌ها را سالم به پایگاهشان در شمال برگردانیم. نباید آسیبی ببینند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen06Subtitle",
+  "text": "*تدارکاتمان کم است. باید پخش شویم و منابع تازه‌ای تصرف کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen07Subtitle",
+  "text": "*حمله‌های هوایی بیشتر! باید پدافند هوایی بیشتری بسازیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen08Subtitle",
+  "text": "*دفاعمان را سریع بازسازی کن، تا حمله بعدی وقت زیادی نداریم"
+ }
+]

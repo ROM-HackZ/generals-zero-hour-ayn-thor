@@ -1,0 +1,802 @@
+[
+ {
+  "label": "UPGRADE:BecomeRealGLABlackMarket",
+  "text": "真实黑市"
+ },
+ {
+  "label": "UPGRADE:FusionReactors",
+  "text": "聚变反应堆"
+ },
+ {
+  "label": "UPGRADE:CamoNetting",
+  "text": "伪装网"
+ },
+ {
+  "label": "UPGRADE:FortifiedStructure",
+  "text": "强化建筑"
+ },
+ {
+  "label": "UPGRADE:BoobyTrap",
+  "text": "诡雷"
+ },
+ {
+  "label": "UPGRADE:AnthraxGamma",
+  "text": "炭疽 Gamma"
+ },
+ {
+  "label": "UPGRADE:WorkerShoes",
+  "text": "工人鞋"
+ },
+ {
+  "label": "UPGRADE:ChemicalSuits",
+  "text": "防化服"
+ },
+ {
+  "label": "UPGRADE:AmericaCountermeasures",
+  "text": "反制措施"
+ },
+ {
+  "label": "UPGRADE:UpgradeChinaIsotopeStability",
+  "text": "同位素稳定(&I)"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaIsotopeStability",
+  "text": "载具被摧毁时，防止大部分附带辐射伤害友军单位"
+ },
+ {
+  "label": "OBJECT:SecretResearchLab",
+  "text": "秘密研究实验室"
+ },
+ {
+  "label": "OBJECT:InternetCenter",
+  "text": "网络中心"
+ },
+ {
+  "label": "OBJECT:AircraftCarrier",
+  "text": "航空母舰"
+ },
+ {
+  "label": "OBJECT:TechArtilleryPlatform",
+  "text": "火炮平台 —— 占领后可轰炸地面敌人"
+ },
+ {
+  "label": "OBJECT:NukeHunter",
+  "text": "核猎人"
+ },
+ {
+  "label": "OBJECT:TechRepairPad",
+  "text": "维修台 —— 占领后载具可在此设施维修"
+ },
+ {
+  "label": "OBJECT:AirF_Aurora",
+  "text": "燃料空气极光轰炸机"
+ },
+ {
+  "label": "OBJECT:SupW_Aurora",
+  "text": "极光阿尔法轰炸机"
+ },
+ {
+  "label": "OBJECT:BattleBus",
+  "text": "战斗巴士"
+ },
+ {
+  "label": "OBJECT:Helix",
+  "text": "赫利克斯"
+ },
+ {
+  "label": "OBJECT:PropagandaTrooper",
+  "text": "宣传兵"
+ },
+ {
+  "label": "OBJECT:HellfireDrone",
+  "text": "地狱火无人机"
+ },
+ {
+  "label": "OBJECT:Avenger",
+  "text": "复仇者"
+ },
+ {
+  "label": "OBJECT:Microwave",
+  "text": "微波坦克"
+ },
+ {
+  "label": "OBJECT:MOAB",
+  "text": "炸弹之母"
+ },
+ {
+  "label": "OBJECT:NukeDrop",
+  "text": "核弹空投"
+ },
+ {
+  "label": "OBJECT:SuitcaseNuke",
+  "text": "手提箱核弹"
+ },
+ {
+  "label": "OBJECT:StructureEMPMine",
+  "text": "中子地雷"
+ },
+ {
+  "label": "OBJECT:ECMTank",
+  "text": "ECM 坦克"
+ },
+ {
+  "label": "OBJECT:Saboteur",
+  "text": "破坏者"
+ },
+ {
+  "label": "OBJECT:TechRepairBay",
+  "text": "科技维修站 —— 占领后可在战场各处维修载具"
+ },
+ {
+  "label": "OBJECT:TechReinforcementPad",
+  "text": "增援平台 —— 占领后可获得额外载具"
+ },
+ {
+  "label": "OBJECT:Sniper",
+  "text": "狙击手"
+ },
+ {
+  "label": "OBJECT:FireBase",
+  "text": "火力基地"
+ },
+ {
+  "label": "OBJECT:KingRaptor",
+  "text": "猛禽之王"
+ },
+ {
+  "label": "OBJECT:CombatBike",
+  "text": "战斗摩托"
+ },
+ {
+  "label": "OBJECT:SentryDrone",
+  "text": "哨兵无人机"
+ },
+ {
+  "label": "OBJECT:TomahawkStorm",
+  "text": "战斧风暴"
+ },
+ {
+  "label": "OBJECT:ListeningOutpost",
+  "text": "监听站"
+ },
+ {
+  "label": "Map:LeipzigLowlands",
+  "text": "Leipzig Lowlands"
+ },
+ {
+  "label": "Map:BombardmentBeach",
+  "text": "Bombardment Beach"
+ },
+ {
+  "label": "Map:BearTownBeatdown",
+  "text": "Bear Town Beatdown"
+ },
+ {
+  "label": "MAP:RiverSnakes",
+  "text": "Winding River"
+ },
+ {
+  "label": "MAP:KillingFields",
+  "text": "Killing Fields"
+ },
+ {
+  "label": "MAP:ThinIce",
+  "text": "Thin Ice"
+ },
+ {
+  "label": "MAP:ElScorcho",
+  "text": "El Scorcho"
+ },
+ {
+  "label": "MAP:GreenPastures",
+  "text": "Green Pastures"
+ },
+ {
+  "label": "MAP:FreeFireZone",
+  "text": "Free Fire Zone"
+ },
+ {
+  "label": "MAP:DestructionStation",
+  "text": "Destruction Station"
+ },
+ {
+  "label": "MAP:PolarStorm",
+  "text": "Polar Storm"
+ },
+ {
+  "label": "MAP:BitterWinter",
+  "text": "Bitter Winter"
+ },
+ {
+  "label": "MAP:CitySweep",
+  "text": "City Sweep"
+ },
+ {
+  "label": "MAP:FrozenPlains",
+  "text": "Frozen Plains"
+ },
+ {
+  "label": "MAP:RoadRage",
+  "text": "Road Rage"
+ },
+ {
+  "label": "HELP:SentryDrone-01",
+  "text": "提示：\n哨兵无人机可以探测隐蔽的敌方单位"
+ },
+ {
+  "label": "HELP:SentryDrone-02",
+  "text": "提示：\n在战略中心购买哨兵无人机机枪"
+ },
+ {
+  "label": "HELP:MicrowaveTank-01",
+  "text": "提示：\n微波坦克可以瘫痪建筑"
+ },
+ {
+  "label": "HELP:MicrowaveTank-02",
+  "text": "提示：\n微波坦克的微波会伤害附近的步兵"
+ },
+ {
+  "label": "HELP:Avenger-01",
+  "text": "提示：\n复仇者的激光可以‘标记’敌方目标\n攻击被标记的目标可造成更多伤害"
+ },
+ {
+  "label": "HELP:Avenger-02",
+  "text": "提示：\n复仇者是支援单位，也能攻击飞机"
+ },
+ {
+  "label": "HELP:FireBase-01",
+  "text": "提示：\n派导弹兵进驻火力基地\n可同时提供对空和对地防御"
+ },
+ {
+  "label": "HELP:SpectreGunship-01",
+  "text": "提示：\n为幽灵炮艇选择攻击区域，\n然后手动选择敌方目标"
+ },
+ {
+  "label": "HELP:LeafletDrop-01",
+  "text": "提示：\n使用传单空投瘫痪敌方步兵"
+ },
+ {
+  "label": "HELP:MOAB-01",
+  "text": "提示：\nMOAB 对载具很有效，\n还会使幸存者陷入眩晕"
+ },
+ {
+  "label": "HELP:Countermeasures-01",
+  "text": "提示：\n升级反制措施可帮助空中单位躲避攻击"
+ },
+ {
+  "label": "HELP:HellfireDrone-01",
+  "text": "提示：\n为你的载具升级地狱火无人机\n以提高对抗装甲部队的效果"
+ },
+ {
+  "label": "HELP:ChemicalSuit-01",
+  "text": "提示：\n使用防化服升级保护步兵\n免受致命毒素和辐射伤害"
+ },
+ {
+  "label": "HELP:BunkerBuster-01",
+  "text": "提示：\n隐形轰炸机的钻地导弹升级\n可以伤害驻守在建筑中的敌人"
+ },
+ {
+  "label": "HELP:BunkerBuster-02",
+  "text": "提示：\n钻地导弹可以杀死碉堡内的单位"
+ },
+ {
+  "label": "HELP:SupplyLines-01",
+  "text": "提示：\n补给线升级可以提高收入"
+ },
+ {
+  "label": "HELP:SupplyLines-02",
+  "text": "提示：\n升级补给线可提高\n支奴干的效率"
+ },
+ {
+  "label": "HELP:ListeningOutpost-01",
+  "text": "提示：\n监听站处于隐形状态，可以探测\n隐蔽单位"
+ },
+ {
+  "label": "HELP:ListeningOutpost-02",
+  "text": "提示：\n监听站拥有非常大的视野范围"
+ },
+ {
+  "label": "HELP:Helix-01",
+  "text": "提示：\n为赫利克斯升级宣传塔，可\n维修并治疗附近的单位"
+ },
+ {
+  "label": "HELP:Helix-02",
+  "text": "提示：\n赫利克斯可以升级投掷凝固汽油弹\n可投向赫利克斯正下方的目标"
+ },
+ {
+  "label": "HELP:Helix-03",
+  "text": "提示：\n你可以为赫利克斯升级战斗碉堡、\n宣传塔或加特林机炮"
+ },
+ {
+  "label": "HELP:ECMTank-01",
+  "text": "提示：\n使用 ECM 坦克干扰敌方导弹和火箭攻击"
+ },
+ {
+  "label": "HELP:Frenzy-01",
+  "text": "提示：\n使用狂热将军技能提高\n单位的火力和装甲"
+ },
+ {
+  "label": "HELP:InternetCenter-01",
+  "text": "提示：\n让黑客进驻网络中心\n可以提高资金收集速度"
+ },
+ {
+  "label": "HELP:InternetCenter-02",
+  "text": "提示：\n建造网络中心并升级\n卫星入侵 1 和 2"
+ },
+ {
+  "label": "HELP:SatelliteHack1-01",
+  "text": "提示：\n卫星入侵 1 会显示所有敌方指挥中心"
+ },
+ {
+  "label": "HELP:SatelliteHack2-01",
+  "text": "提示：\n卫星入侵 2 会显示敌方单位能看到的一切"
+ },
+ {
+  "label": "HELP:EMPMines-01",
+  "text": "提示：\n地雷可以升级为中子地雷，\n可瘫痪敌方载具"
+ },
+ {
+  "label": "HELP:NeutronShell-01",
+  "text": "提示：\n核弹炮的中子炮弹攻击可使\n载具失效，让任何步兵都能夺取它们"
+ },
+ {
+  "label": "HELP:CombatCycle-01",
+  "text": "提示：\n战斗摩托可以从悬崖上跳下"
+ },
+ {
+  "label": "HELP:CombatCycle-02",
+  "text": "提示：\n让火箭兵骑上战斗摩托，\n即可发射火箭"
+ },
+ {
+  "label": "HELP:CombatCycle-03",
+  "text": "提示：\n让恐怖分子骑上战斗摩托，\n即可制造自杀摩托"
+ },
+ {
+  "label": "HELP:CombatCycle-04",
+  "text": "提示：\n贾曼·凯尔可以在战斗摩托上狙击"
+ },
+ {
+  "label": "HELP:CombatCycle-05",
+  "text": "提示：\n工人可以骑战斗摩托快速移动"
+ },
+ {
+  "label": "HELP:Saboteur-01",
+  "text": "提示：\n破坏者可以干扰敌方建筑的能力"
+ },
+ {
+  "label": "HELP:Saboteur-02",
+  "text": "提示：\n让破坏者潜入敌方指挥中心\n可重置其将军技能计时器"
+ },
+ {
+  "label": "HELP:FakeStructures-01",
+  "text": "提示：\n建造伪建筑来迷惑敌人"
+ },
+ {
+  "label": "HELP:SneakAttack-01",
+  "text": "提示：\n使用偷袭可在任何可见位置\n瞬间建造地道网"
+ },
+ {
+  "label": "HELP:GPSScramble-01",
+  "text": "提示：\n使用 GPS 干扰器将军技能\n隐蔽友军单位"
+ },
+ {
+  "label": "HELP:WorkerShoes-01",
+  "text": "提示：\n购买工人鞋可提高工人\n移动和收集资源的速度"
+ },
+ {
+  "label": "HELP:CamoNetting-01",
+  "text": "提示：\n伪装网可隐蔽你的毒刺导弹阵地\n和地道网"
+ },
+ {
+  "label": "HELP:FortifiedStructures-01",
+  "text": "提示：\n强化建筑更难被摧毁"
+ },
+ {
+  "label": "HELP:BoobyTrap-01",
+  "text": "提示：\n敌人试图进驻或占领\n被设置诡雷的建筑时，诡雷就会引爆"
+ },
+ {
+  "label": "HELP:KingRaptor-01",
+  "text": "提示：\n猛禽之王携带额外弹药，装甲也更强"
+ },
+ {
+  "label": "HELP:CombatChinooks-01",
+  "text": "提示：\n战斗支奴干内的步兵可以在飞行中开火"
+ },
+ {
+  "label": "HELP:AuroraAlpha-01",
+  "text": "提示：\n极光阿尔法装备了一枚小型\n但威力巨大的燃料空气炸弹"
+ },
+ {
+  "label": "HELP:MicrowavePatriot-01",
+  "text": "提示：\nEMP 爱国者的导弹\n对载具和步兵都很有效"
+ },
+ {
+  "label": "HELP:AdvancedRods-01",
+  "text": "提示：\n高级控制棒比普通控制棒提供更多电力"
+ },
+ {
+  "label": "HELP:LaserTank-01",
+  "text": "提示：\n使用激光坦克时要多建发电厂\n电力不足时它们无法移动或开火"
+ },
+ {
+  "label": "HELP:LaserDefenseTurret-01",
+  "text": "提示：\n激光防御炮塔很强大，但需要额外电力"
+ },
+ {
+  "label": "HELP:AssaultTroopTransport-01",
+  "text": "提示：\n单位可以从突击运兵车内开火"
+ },
+ {
+  "label": "HELP:AttackOutpost-01",
+  "text": "提示：\n攻击前哨站可容纳更多步兵，\n并能探测隐形单位"
+ },
+ {
+  "label": "HELP:FortifiedBunkers-01",
+  "text": "提示：\n强化碉堡附带地雷，\n装甲更强，并能容纳更多步兵"
+ },
+ {
+  "label": "HELP:Mini-Gunner-01",
+  "text": "提示：\n机枪兵携带个人加特林机枪"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-01",
+  "text": "提示：\n你的黑莲花单位能力得到增强"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-02",
+  "text": "提示：\n你可以建造多个黑莲花单位"
+ },
+ {
+  "label": "HELP:InfantryHacker-01",
+  "text": "提示：\n步兵将军的黑客窃取资金更快"
+ },
+ {
+  "label": "HELP:ChineseParadrop-01",
+  "text": "提示：\n中国伞兵空降可将红卫兵空投到任意地点"
+ },
+ {
+  "label": "HELP:EmperorTank-01",
+  "text": "提示：\n皇帝坦克是终极坦克，\n对载具和步兵都很有效"
+ },
+ {
+  "label": "HELP:EmperorTank-02",
+  "text": "提示：\n皇帝坦克可以升级加特林机炮"
+ },
+ {
+  "label": "HELP:EmperorTank-03",
+  "text": "提示：\n皇帝坦克自带宣传塔"
+ },
+ {
+  "label": "HELP:TankDrop-01",
+  "text": "提示：\n坦克空投可让你空降战斗大师"
+ },
+ {
+  "label": "HELP:TacticalNuke-01",
+  "text": "提示：\n你的机场可以为米格升级携带战术核弹"
+ },
+ {
+  "label": "HELP:IsotopeStability-01",
+  "text": "提示：\n同位素稳定可减少核动力坦克\n被摧毁时对友军单位造成的伤害"
+ },
+ {
+  "label": "HELP:AdvancedNuclearPower-01",
+  "text": "提示：\n高级核电站比普通核电站产生更多电力"
+ },
+ {
+  "label": "HELP:ToxinRebels-01",
+  "text": "提示：\n毒素叛军会喷射剧毒的毒素流"
+ },
+ {
+  "label": "HELP:ToxinRebels-02",
+  "text": "提示：\n毒素叛军对毒素攻击有抗性"
+ },
+ {
+  "label": "HELP:ToxinRebels-03",
+  "text": "提示：\n使用毒素叛军迅速清除被驻守的建筑"
+ },
+ {
+  "label": "HELP:ToxinNetworks-01",
+  "text": "提示：\n毒素地道网的炮口会喷射毒素流"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-01",
+  "text": "提示：\n毒素恐怖分子会在一团毒雾中爆炸"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-02",
+  "text": "提示：\n使用毒素恐怖分子攻击大批步兵"
+ },
+ {
+  "label": "HELP:AnthraxGamma-01",
+  "text": "提示：\n炭疽 Gamma 可提高所有毒素攻击的伤害"
+ },
+ {
+  "label": "HELP:AnthraxGamma-02",
+  "text": "提示：\n炭疽 Gamma 比炭疽 Beta 更加致命"
+ },
+ {
+  "label": "HELP:AdvancedTrap-01",
+  "text": "提示：\n高级陷阱比普通爆破陷阱威力更大"
+ },
+ {
+  "label": "HELP:Demolitions-01",
+  "text": "提示：\n爆破升级使单位获得引爆能力"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-01",
+  "text": "任务目标 #1：\n已完成"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-02",
+  "text": "任务目标 #2：\n已完成"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-03",
+  "text": "任务目标 #3：\n已完成"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-04",
+  "text": "任务目标 #4：\n已完成"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-05",
+  "text": "任务目标 #5：\n已完成"
+ },
+ {
+  "label": "LOSE:AllUnits",
+  "text": "收到通讯：\n我们的所有单位都已被摧毁\n我们被击败了，将军。这一次"
+ },
+ {
+  "label": "LOSE:AllBuildings",
+  "text": "收到通讯：\n我们的所有建筑都已被摧毁\n我们被击败了，将军。这一次"
+ },
+ {
+  "label": "LOSE:AllUnitsAndBuildings",
+  "text": "收到通讯：\n我们的所有单位和建筑都已被摧毁\n我们被击败了，将军。这一次"
+ },
+ {
+  "label": "HELP:OilRefinery-01",
+  "text": "提示：\n占领炼油厂可降低载具造价"
+ },
+ {
+  "label": "HELP:ReinforcementPad-01",
+  "text": "提示：\n占领增援平台可获得坦克增援"
+ },
+ {
+  "label": "HELP:OilDerrick-01",
+  "text": "提示：\n占领油井可获得额外资金"
+ },
+ {
+  "label": "HELP:RepairBay-01",
+  "text": "提示：\n占领维修站可在任何地方维修载具"
+ },
+ {
+  "label": "HELP:ArtilleryPlatform-01",
+  "text": "提示：\n占领火炮平台以控制关键区域"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1",
+  "text": "任务目标：\n夺取火车站并摧毁周围的 GLA 基地"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1a",
+  "text": "任务目标 #1：\n夺取火车站并摧毁周围的 GLA 基地"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplished",
+  "text": "任务目标已完成"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplisheda",
+  "text": "任务目标 #1 已完成"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2",
+  "text": "收到通讯：\n将单位移进火车车厢"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2a",
+  "text": "收到通讯：\n将单位移进火车车厢"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3",
+  "text": "任务目标：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3a",
+  "text": "任务目标 #2：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1",
+  "text": "提示：\n步兵可以进入东北方被遗弃的载具"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1a",
+  "text": "提示：\n步兵可以进入东北方被遗弃的载具"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2",
+  "text": "提示：\n派步兵进驻广播电台以呼叫 A-10"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2a",
+  "text": "提示：\n派步兵进驻广播电台以呼叫 A-10"
+ },
+ {
+  "label": "OBJECT:TrainDepot",
+  "text": "火车车库"
+ },
+ {
+  "label": "OBJECT:TrainLoading",
+  "text": "登车站台"
+ },
+ {
+  "label": "MAP:MD_USA01Title",
+  "text": "哈萨克斯坦南部，拜科努尔航天发射场\n‘全球安全行动’"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation02",
+  "text": "美国海军基地\n北欧"
+ },
+ {
+  "label": "MAP:Intro_Breifing_01",
+  "text": "拜科努尔郊外的美军侦察基地\n哈萨克斯坦南部"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation01",
+  "text": "哈萨克斯坦南部某处\n前往拜科努尔途中"
+ },
+ {
+  "label": "MAP:USAX02MissionINtro",
+  "text": "索马里海岸外"
+ },
+ {
+  "label": "MAP:USAX02MissionStart",
+  "text": "索马里，柏培拉\n‘行动代号：援手’"
+ },
+ {
+  "label": "MAP:USAX02NavyHint",
+  "text": "收到通讯：\n海军舰队可用于削弱抵抗"
+ },
+ {
+  "label": "MAP:USAX02ConvoyHint",
+  "text": "收到通讯：\n10 辆补给卡车抵达后车队将出发"
+ },
+ {
+  "label": "MAP:USAX02ConvoyArrived",
+  "text": "任务目标 #1：\n已完成"
+ },
+ {
+  "label": "MAP:USAX02objectives3a",
+  "text": "任务目标 #2：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:USAX02Objectives1",
+  "text": "任务目标 #1：\n保护抵达的补给卡车并夺取补给仓库"
+ },
+ {
+  "label": "MAP:USAX02Objectives2",
+  "text": "任务目标：\n保卫码头\n保护抵达的补给卡车\n夺取仓库"
+ },
+ {
+  "label": "MAP:USAX02Objectives3",
+  "text": "任务目标：\n找到并摧毁山中的 GLA 建筑"
+ },
+ {
+  "label": "MAP:USAX02Ships",
+  "text": "可用支援：\n航空母舰 CVN-88 代达罗斯号\n战列舰护航群 无畏号"
+ },
+ {
+  "label": "MAP:USAX02Truck1Arrived",
+  "text": "第 1 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck2Arrived",
+  "text": "第 2 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck3Arrived",
+  "text": "第 3 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck4Arrived",
+  "text": "第 4 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck5Arrived",
+  "text": "第 5 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck6Arrived",
+  "text": "第 6 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck7Arrived",
+  "text": "第 7 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck8Arrived",
+  "text": "第 8 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck9Arrived",
+  "text": "第 9 辆补给卡车已抵达（共 10 辆）"
+ },
+ {
+  "label": "MAP:USAX02Truck10Arrived",
+  "text": "第 10 辆补给卡车已抵达\n车队正准备前往仓库"
+ },
+ {
+  "label": "MAP:USAX02ConvoyToWarehouse",
+  "text": "护送车队前往仓库"
+ },
+ {
+  "label": "MAP:USAX02Dozer",
+  "text": "一辆推土机已抵达码头\n开始建设基地"
+ },
+ {
+  "label": "MAP:USAX02Dozerb",
+  "text": "一辆推土机已抵达"
+ },
+ {
+  "label": "MAP:USAX02Dozer2",
+  "text": "一辆新推土机已抵达码头"
+ },
+ {
+  "label": "MAP:USA03xMapName",
+  "text": "最后召唤"
+ },
+ {
+  "label": "MAP:USA03xOpen",
+  "text": "格鲁吉亚，厄尔布鲁士山\n‘行动代号：雪落’"
+ },
+ {
+  "label": "MAP:USA03xOpenAlt",
+  "text": "俄罗斯，厄尔布鲁士山\n‘行动代号：雪落’"
+ },
+ {
+  "label": "MAP:USA03xObjective02",
+  "text": "任务目标 #1：\n摧毁 GLA 战俘营并解救战俘\n伯顿上校必须存活"
+ },
+ {
+  "label": "MAP:USA03xObjective03",
+  "text": "任务目标 #2：\n将伯顿上校带到集结点"
+ },
+ {
+  "label": "MAP:USA03xObjectiveCompleted",
+  "text": "任务目标 #1：\n已完成"
+ },
+ {
+  "label": "MAP:USA03xTownHallHint",
+  "text": "收到通讯：\n在村庄中搜寻失踪士兵"
+ },
+ {
+  "label": "MAP:USA03xToxinNetworksWarning",
+  "text": "警告：\n小心毒素地道网和毒刺导弹阵地"
+ },
+ {
+  "label": "MAP:USA03xPOWCamp02Hint",
+  "text": "提示：\n消灭守卫这座营地的 GLA 建筑\n以解救关押在此的囚犯"
+ },
+ {
+  "label": "MAP:USA03xBurtonWarning",
+  "text": "警告：\n伯顿上校身负重伤\n他必须在此任务中存活"
+ },
+ {
+  "label": "MAP:USA03xChemWarning02",
+  "text": "警告：\n这些防御设施已被改装为发射化学武器\n会杀死任何靠得太近的步兵"
+ },
+ {
+  "label": "MAP:USA03xLoseReason01",
+  "text": "收到通讯：\n伯顿上校已阵亡\n我们被击败了，将军。这一次"
+ },
+ {
+  "label": "MAP:MD-USA04_LOCALE",
+  "text": "伊朗，阿米斯巴德油田\n‘行动代号：黑金’"
+ },
+ {
+  "label": "MAP:MD-USA04_Start02",
+  "text": "收到通讯：\n增援已抵达"
+ }
+]

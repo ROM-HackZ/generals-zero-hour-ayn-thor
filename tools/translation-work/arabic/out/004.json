@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Scatter",
+  "text": "تفريق"
+ },
+ {
+  "label": "GUI:StopObject",
+  "text": "إيقاف العنصر"
+ },
+ {
+  "label": "GUI:StopObjectDescription",
+  "text": "إيقاف العنصر (العناصر) المحددة"
+ },
+ {
+  "label": "GUI:GoToRadarEvent",
+  "text": "الانتقال إلى حدث الرادار"
+ },
+ {
+  "label": "GUI:GoToRadarEventDescription",
+  "text": "توسيط العرض التكتيكي على آخر حدث رصده الرادار"
+ },
+ {
+  "label": "GUI:SaveView1",
+  "text": "تعيين الإشارة المرجعية 1"
+ },
+ {
+  "label": "GUI:SaveView1Description",
+  "text": "حفظ موقع الخريطة في الإشارة المرجعية 1"
+ },
+ {
+  "label": "GUI:SaveView2",
+  "text": "تعيين الإشارة المرجعية 2"
+ },
+ {
+  "label": "GUI:SaveView2Description",
+  "text": "حفظ موقع الخريطة في الإشارة المرجعية 2"
+ },
+ {
+  "label": "GUI:SaveView3",
+  "text": "تعيين الإشارة المرجعية 3"
+ },
+ {
+  "label": "GUI:SaveView3Description",
+  "text": "حفظ موقع الخريطة في الإشارة المرجعية 3"
+ },
+ {
+  "label": "GUI:SaveView4",
+  "text": "تعيين الإشارة المرجعية 4"
+ },
+ {
+  "label": "GUI:SaveView4Description",
+  "text": "حفظ موقع الخريطة في الإشارة المرجعية 4"
+ },
+ {
+  "label": "GUI:ViewView1",
+  "text": "عرض الإشارة المرجعية 1"
+ },
+ {
+  "label": "GUI:ViewView1Description",
+  "text": "عرض موقع الخريطة المحفوظ في الإشارة المرجعية 1"
+ },
+ {
+  "label": "GUI:ViewView2",
+  "text": "عرض الإشارة المرجعية 2"
+ },
+ {
+  "label": "GUI:ViewView2Description",
+  "text": "عرض موقع الخريطة المحفوظ في الإشارة المرجعية 2"
+ },
+ {
+  "label": "GUI:ViewView3",
+  "text": "عرض الإشارة المرجعية 3"
+ },
+ {
+  "label": "GUI:ViewView3Description",
+  "text": "عرض موقع الخريطة المحفوظ في الإشارة المرجعية 3"
+ },
+ {
+  "label": "GUI:ViewView4",
+  "text": "عرض الإشارة المرجعية 4"
+ },
+ {
+  "label": "GUI:ViewView4Description",
+  "text": "عرض موقع الخريطة المحفوظ في الإشارة المرجعية 4"
+ },
+ {
+  "label": "GUI:CenterBase",
+  "text": "توسيط القاعدة"
+ },
+ {
+  "label": "GUI:CenterBaseDescription",
+  "text": "توسيط العرض على قاعدة اللاعب"
+ },
+ {
+  "label": "GUI:SelectNone",
+  "text": "إلغاء التحديد"
+ },
+ {
+  "label": "GUI:SelectAll",
+  "text": "تحديد الكل"
+ },
+ {
+  "label": "GUI:SelectAllDescription",
+  "text": "يحدد جميع الوحدات العسكرية"
+ },
+ {
+  "label": "GUI:SelectNextUnit",
+  "text": "العنصر التالي"
+ },
+ {
+  "label": "GUI:SelectNextUnitDescription",
+  "text": "تحديد العنصر التالي"
+ },
+ {
+  "label": "GUI:SelectPrevUnit",
+  "text": "العنصر السابق"
+ },
+ {
+  "label": "GUI:SelectPrevUnitDescription",
+  "text": "تحديد الوحدة السابقة"
+ },
+ {
+  "label": "GUI:SelectNextWorker",
+  "text": "العامل التالي"
+ },
+ {
+  "label": "GUI:SelectNextWorkerDescription",
+  "text": "تحديد العامل التالي"
+ },
+ {
+  "label": "GUI:SelectPrevWorker",
+  "text": "العامل السابق"
+ },
+ {
+  "label": "GUI:SelectPrevWorkerDescription",
+  "text": "تحديد العامل السابق"
+ },
+ {
+  "label": "GUI:TypeSelect",
+  "text": "التحديد حسب النوع"
+ },
+ {
+  "label": "GUI:TypeSelectDescription",
+  "text": "يحدد الوحدات حسب نوعها. انقر نقرًا مزدوجًا بالزر الأيسر على وحدة لتحديد كل الوحدات من نوعها"
+ },
+ {
+  "label": "GUI:CreateTeam0",
+  "text": "إنشاء الفريق 0"
+ },
+ {
+  "label": "GUI:CreateTeam0Description",
+  "text": "ينشئ الفريق 0 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam1",
+  "text": "إنشاء الفريق 1"
+ },
+ {
+  "label": "GUI:CreateTeam1Description",
+  "text": "ينشئ الفريق 1 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam2",
+  "text": "إنشاء الفريق 2"
+ },
+ {
+  "label": "GUI:CreateTeam2Description",
+  "text": "ينشئ الفريق 2 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam3",
+  "text": "إنشاء الفريق 3"
+ },
+ {
+  "label": "GUI:CreateTeam3Description",
+  "text": "ينشئ الفريق 3 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam4",
+  "text": "إنشاء الفريق 4"
+ },
+ {
+  "label": "GUI:CreateTeam4Description",
+  "text": "ينشئ الفريق 4 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam5",
+  "text": "إنشاء الفريق 5"
+ },
+ {
+  "label": "GUI:CreateTeam5Description",
+  "text": "ينشئ الفريق 5 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam6",
+  "text": "إنشاء الفريق 6"
+ },
+ {
+  "label": "GUI:CreateTeam6Description",
+  "text": "ينشئ الفريق 6 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam7",
+  "text": "إنشاء الفريق 7"
+ },
+ {
+  "label": "GUI:CreateTeam7Description",
+  "text": "ينشئ الفريق 7 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam8",
+  "text": "إنشاء الفريق 8"
+ },
+ {
+  "label": "GUI:CreateTeam8Description",
+  "text": "ينشئ الفريق 8 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:CreateTeam9",
+  "text": "إنشاء الفريق 9"
+ },
+ {
+  "label": "GUI:CreateTeam9Description",
+  "text": "ينشئ الفريق 9 من الوحدات المحددة حاليًا"
+ },
+ {
+  "label": "GUI:SelectTeam0",
+  "text": "تحديد الفريق 0"
+ },
+ {
+  "label": "GUI:SelectTeam0Description",
+  "text": "تحديد أفراد الفريق 0"
+ },
+ {
+  "label": "GUI:SelectTeam1",
+  "text": "تحديد الفريق 1"
+ },
+ {
+  "label": "GUI:SelectTeam1Description",
+  "text": "تحديد أفراد الفريق 1"
+ },
+ {
+  "label": "GUI:SelectTeam2",
+  "text": "تحديد الفريق 2"
+ },
+ {
+  "label": "GUI:SelectTeam2Description",
+  "text": "تحديد أفراد الفريق 2"
+ },
+ {
+  "label": "GUI:SelectTeam3",
+  "text": "تحديد الفريق 3"
+ },
+ {
+  "label": "GUI:SelectTeam3Description",
+  "text": "تحديد أفراد الفريق 3"
+ },
+ {
+  "label": "GUI:SelectTeam4",
+  "text": "تحديد الفريق 4"
+ },
+ {
+  "label": "GUI:SelectTeam4Description",
+  "text": "تحديد أفراد الفريق 4"
+ },
+ {
+  "label": "GUI:SelectTeam5",
+  "text": "تحديد الفريق 5"
+ },
+ {
+  "label": "GUI:SelectTeam5Description",
+  "text": "تحديد أفراد الفريق 5"
+ },
+ {
+  "label": "GUI:SelectTeam6",
+  "text": "تحديد الفريق 6"
+ },
+ {
+  "label": "GUI:SelectTeam6Description",
+  "text": "تحديد أفراد الفريق 6"
+ },
+ {
+  "label": "GUI:SelectTeam7",
+  "text": "تحديد الفريق 7"
+ },
+ {
+  "label": "GUI:SelectTeam7Description",
+  "text": "تحديد أفراد الفريق 7"
+ },
+ {
+  "label": "GUI:SelectTeam8",
+  "text": "تحديد الفريق 8"
+ },
+ {
+  "label": "GUI:SelectTeam8Description",
+  "text": "تحديد أفراد الفريق 8"
+ },
+ {
+  "label": "GUI:SelectTeam9",
+  "text": "تحديد الفريق 9"
+ },
+ {
+  "label": "GUI:SelectTeam9Description",
+  "text": "تحديد أفراد الفريق 9"
+ },
+ {
+  "label": "GUI:ViewTeam0",
+  "text": "توسيط الفريق 0"
+ },
+ {
+  "label": "GUI:ViewTeam0Description",
+  "text": "تحديد الفريق 0 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam1",
+  "text": "توسيط الفريق 1"
+ },
+ {
+  "label": "GUI:ViewTeam1Description",
+  "text": "تحديد الفريق 1 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam2",
+  "text": "توسيط الفريق 2"
+ },
+ {
+  "label": "GUI:ViewTeam2Description",
+  "text": "تحديد الفريق 2 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam3",
+  "text": "توسيط الفريق 3"
+ },
+ {
+  "label": "GUI:ViewTeam3Description",
+  "text": "تحديد الفريق 3 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam4",
+  "text": "توسيط الفريق 4"
+ },
+ {
+  "label": "GUI:ViewTeam4Description",
+  "text": "تحديد الفريق 4 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam5",
+  "text": "توسيط الفريق 5"
+ },
+ {
+  "label": "GUI:ViewTeam5Description",
+  "text": "تحديد الفريق 5 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam6",
+  "text": "توسيط الفريق 6"
+ },
+ {
+  "label": "GUI:ViewTeam6Description",
+  "text": "تحديد الفريق 6 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam7",
+  "text": "توسيط الفريق 7"
+ },
+ {
+  "label": "GUI:ViewTeam7Description",
+  "text": "تحديد الفريق 7 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam8",
+  "text": "توسيط الفريق 8"
+ },
+ {
+  "label": "GUI:ViewTeam8Description",
+  "text": "تحديد الفريق 8 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:ViewTeam9",
+  "text": "توسيط الفريق 9"
+ },
+ {
+  "label": "GUI:ViewTeam9Description",
+  "text": "تحديد الفريق 9 وتوسيط العرض عليه"
+ },
+ {
+  "label": "GUI:LocalIPDesc",
+  "text": "عنوان IP المحلي"
+ },
+ {
+  "label": "GUI:RemoteIPDesc",
+  "text": "عنوان IP البعيد"
+ },
+ {
+  "label": "GUI:SaveCamera",
+  "text": "حفظ الكاميرا في الإعادات"
+ },
+ {
+  "label": "GUI:UseCamera",
+  "text": "استخدام الكاميرا المحفوظة في الإعادات"
+ },
+ {
+  "label": "Mouse:Windows",
+  "text": "مؤشر Windows"
+ },
+ {
+  "label": "Mouse:W3D",
+  "text": "مؤشر W3D"
+ },
+ {
+  "label": "Mouse:Poly",
+  "text": "مؤشر مضلّع"
+ },
+ {
+  "label": "Mouse:DX8",
+  "text": "مؤشر DX8"
+ },
+ {
+  "label": "Mouse:Heal",
+  "text": "تلقّي العلاج"
+ },
+ {
+  "label": "Mouse:GetRepaired",
+  "text": "تلقّي الإصلاح"
+ },
+ {
+  "label": "Mouse:Dock",
+  "text": "رسوّ"
+ },
+ {
+  "label": "Mouse:DoRepair",
+  "text": "إصلاح"
+ },
+ {
+  "label": "Mouse:ResumeConstruction",
+  "text": "استئناف البناء"
+ },
+ {
+  "label": "Mouse:Enter",
+  "text": "دخول"
+ },
+ {
+  "label": "Mouse:SetRallyPoint",
+  "text": "تعيين نقطة التجمع"
+ },
+ {
+  "label": "Mouse:DisguiseAsVehicle",
+  "text": "تنكّر في هيئة هذا!"
+ },
+ {
+  "label": "Mouse:Invalid",
+  "text": "غير صالح"
+ },
+ {
+  "label": "Mouse:FireFlame",
+  "text": "إحراق"
+ },
+ {
+  "label": "Mouse:FireFlashBang",
+  "text": "قنبلة صاعقة"
+ },
+ {
+  "label": "Mouse:FireTranqDarts",
+  "text": "سهام مخدرة"
+ },
+ {
+  "label": "Mouse:FireStunBullets",
+  "text": "رصاص صاعق"
+ },
+ {
+  "label": "Mouse:MakeCarBomb",
+  "text": "صنع سيارة مفخخة"
+ },
+ {
+  "label": "Mouse:Hijack",
+  "text": "اختطاف"
+ },
+ {
+  "label": "Mouse:FireBomb",
+  "text": "قنبلة\nحارقة"
+ },
+ {
+  "label": "Mouse:Defector",
+  "text": "صنع\nمنشق"
+ },
+ {
+  "label": "Mouse:CaptureBuilding",
+  "text": "الاستيلاء على المبنى"
+ },
+ {
+  "label": "Mouse:DisableVehicleHack",
+  "text": "تعطيل المركبة"
+ },
+ {
+  "label": "Mouse:StealCashHack",
+  "text": "سرقة المال"
+ },
+ {
+  "label": "Mouse:SnipeVehicle",
+  "text": "قنص المركبة"
+ },
+ {
+  "label": "Mouse:DisableBuildingHack",
+  "text": "تعطيل المبنى"
+ },
+ {
+  "label": "Mouse:LaserGuidedMissiles",
+  "text": "صواريخ موجَّهة بالليزر"
+ },
+ {
+  "label": "Mouse:TankHunterTNTAttack",
+  "text": "هجوم TNT"
+ },
+ {
+  "label": "Mouse:A10ThunderboltStrike",
+  "text": "موقع ضربة A10"
+ },
+ {
+  "label": "Mouse:StabAttack",
+  "text": "طعن"
+ },
+ {
+  "label": "Mouse:PlaceRemoteCharge",
+  "text": "زرع عبوة عن بُعد"
+ },
+ {
+  "label": "Mouse:PlaceTimedCharge",
+  "text": "زرع عبوة موقوتة"
+ },
+ {
+  "label": "Mouse:RepairVehicles",
+  "text": "إصلاح طارئ (&E)"
+ },
+ {
+  "label": "Mouse:Demoralize",
+  "text": "إضعاف المعنويات"
+ },
+ {
+  "label": "Mouse:PickUpPrisoner",
+  "text": "نقل الأسير"
+ },
+ {
+  "label": "Mouse:Return",
+  "text": "عودة"
+ },
+ {
+  "label": "Mouse:PlaceBeacon",
+  "text": "وضع منارة"
+ },
+ {
+  "label": "SCRIPT:TestString",
+  "text": "هذا نص تجريبي يا صاحبي، على الماشي"
+ },
+ {
+  "label": "SCRIPT:LongTestString",
+  "text": "هذا نص تجريبي طويل جدًا يا صاحبي، طويل كيوم بلا غداء. وظيفته التأكد من أن التفاف الأسطر والمسافات يعملان كما يجب"
+ },
+ {
+  "label": "SCIENCE:GeneralName",
+  "text": "<أدخل الاسم>"
+ },
+ {
+  "label": "SCIENCE:SkillPoints",
+  "text": "نقاط المهارة: %d"
+ },
+ {
+  "label": "SCIENCE:Rank",
+  "text": "المستوى %d"
+ },
+ {
+  "label": "SCIENCE:TempName",
+  "text": "امنح علمي اسمًا"
+ },
+ {
+  "label": "SCIENCE:TempDescription",
+  "text": "أرجو أن تتكرّم بملء وصفي الموجود في Science.ini! ألف شكر"
+ },
+ {
+  "label": "SCIENCE:USAPaladin",
+  "text": "دبابة بالادين"
+ },
+ {
+  "label": "SCIENCE:USAPathFinder",
+  "text": "المستكشف"
+ },
+ {
+  "label": "SCIENCE:USAStealthFighter",
+  "text": "مقاتلة شبحية"
+ },
+ {
+  "label": "SCIENCE:USASpyDrone",
+  "text": "طائرة تجسس مسيّرة"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop1",
+  "text": "إنزال مظلي 1"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop2",
+  "text": "إنزال مظلي 2"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop3",
+  "text": "إنزال مظلي 3"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike1",
+  "text": "ضربة A10 1"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike2",
+  "text": "ضربة A10 2"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike3",
+  "text": "ضربة A10 3"
+ },
+ {
+  "label": "SCIENCE:USADaisyCutter",
+  "text": "قنبلة الوقود الجوي"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeLauncher",
+  "text": "مدفع نووي"
+ },
+ {
+  "label": "SCIENCE:ChinaRedGuardTraining",
+  "text": "تدريب الحرس الأحمر"
+ },
+ {
+  "label": "SCIENCE:ChinaClusterMines",
+  "text": "ألغام عنقودية"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryTraining",
+  "text": "تدريب المدفعية"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage",
+  "text": "قصف مدفعي 1"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage2",
+  "text": "قصف مدفعي 2"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage3",
+  "text": "قصف مدفعي 3"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack1",
+  "text": "اختراق مالي 1"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack2",
+  "text": "اختراق مالي 2"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack3",
+  "text": "اختراق مالي 3"
+ },
+ {
+  "label": "SCIENCE:ChinaEMPPulse",
+  "text": "نبضة كهرومغناطيسية"
+ },
+ {
+  "label": "SCIENCE:GLAHijacker",
+  "text": "الخاطف"
+ },
+ {
+  "label": "SCIENCE:GLASCUDLauncher",
+  "text": "منصة سكود"
+ },
+ {
+  "label": "SCIENCE:GLAMaruaderTank",
+  "text": "دبابة ماراودر"
+ },
+ {
+  "label": "SCIENCE:GLATechnicalTraining",
+  "text": "تدريب التكنيكال"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush1",
+  "text": "كمين المتمردين 1"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush2",
+  "text": "كمين المتمردين 2"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush3",
+  "text": "كمين المتمردين 3"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty1",
+  "text": "مكافأة نقدية 1"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty2",
+  "text": "مكافأة نقدية 2"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty3",
+  "text": "مكافأة نقدية 3"
+ },
+ {
+  "label": "SCIENCE:GLAAnthraxBomb",
+  "text": "قنبلة الجمرة الخبيثة"
+ },
+ {
+  "label": "CONTROLBAR:Demoralize",
+  "text": "إضعاف المعنويات"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligence",
+  "text": "الاستخبارات (&C)"
+ },
+ {
+  "label": "CONTROLBAR:CombatDrop",
+  "text": "إنزال قتالي (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Guard",
+  "text": "حراسة (&G)"
+ },
+ {
+  "label": "CONTROLBAR:GuardWithoutPursuit",
+  "text": "حراسة قريبة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:GuardFlyingUnitsOnly",
+  "text": "حراسة جوية (&R)"
+ },
+ {
+  "label": "CONTROLBAR:AttackMove",
+  "text": "تحرّك مع الهجوم (&A)"
+ },
+ {
+  "label": "CONTROLBAR:Stop",
+  "text": "إيقاف (&S)"
+ },
+ {
+  "label": "CONTROLBAR:Waypoints",
+  "text": "نقاط المسار (&T)"
+ },
+ {
+  "label": "CONTROLBAR:CancelBuild",
+  "text": "إلغاء البناء (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Contaminate",
+  "text": "تلويث (&C)"
+ },
+ {
+  "label": "CONTROLBAR:FireWall",
+  "text": "جدار ناري (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAArmTheMob",
+  "text": "تسليح الحشود (&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordGattlingCannon",
+  "text": "مدفع جاتلينج (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordPropagandaTower",
+  "text": "برج الدعاية (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordBattleBunker",
+  "text": "مخبأ قتالي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireBomb",
+  "text": "قنبلة حارقة (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UnderConstructionDesc",
+  "text": "البناء: %.0f%%"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDesc",
+  "text": "الوقت حتى الإسقاط التالي: %d:%d"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDescWithPadding",
+  "text": "الوقت حتى الإسقاط التالي: %d:0%d"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanBombardment",
+  "text": "خطة معركة القصف (&B)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanHoldTheLine",
+  "text": "خطة معركة الصمود (&O)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanSearchAndDestroy",
+  "text": "خطة البحث والتدمير (&D)"
+ }
+]

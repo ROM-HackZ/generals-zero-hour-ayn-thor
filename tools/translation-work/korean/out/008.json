@@ -1,0 +1,802 @@
+[
+ {
+  "label": "SCRIPT:CHI02AudioHolder03",
+  "text": "<'EVA' 발언>\n'장군님, 살아 계셨군요!?! 다리가 무너졌을 때 잃은 줄 알았습니다. 하지만 아직 위험에서 벗어난 건 아니니 시작하죠'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder04",
+  "text": "<'EVA' 발언>\n'먼저 기지를 완성해야 합니다. 병영, 원자로, 보급 센터는 생존에 필수이니 즉시 건설을 마치십시오. 기지가 완성되면 다시 연락드리겠습니다'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder05",
+  "text": "<'EVA' 발언>\n'훌륭합니다. 군수 공장만 빼고 기지가 완성됐습니다. 지금 바로 하나 구해야 합니다. 이쪽에 군수 공장이 있는 예비 기지가 있을 겁니다'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder06",
+  "text": "<'EVA' 발언>\n'기지 상태는 잘 모르겠지만, 기갑 유닛을 생산해 전투에 도움이 될 겁니다. 최대한 빨리 그곳으로 가십시오, 장군님.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder07",
+  "text": "<'EVA' 발언>\n'이제 GLA가 홍콩에 온 이유를 알았습니다. 도시 곳곳의 주요 건물을 노리고 있습니다. 주목표는 GLA 병력을 모두 섬멸하는 것이지만, 그 건물들이 파괴되는 것까지 막는다면 지도부가 크게 감사할 겁니다.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder08",
+  "text": "<'EVA' 발언>\n'레이더를 계속 가동하면 테러리스트를 추적해서 가능한 목표를 알려 드릴 수 있습니다.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder09",
+  "text": "<'EVA' 발언>\n'장군님, 테러리스트 하나가 컨벤션 센터를 떠나고 있습니다. 건물 하나를 무너뜨릴 만큼 폭약을 두르고 있습니다! 레이더에 테러리스트는 빨간색으로, 가능한 목표는 노란색으로 표시하겠습니다. 목표에 닿기 전에 막으십시오!'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder10",
+  "text": "<'EVA' 발언>\n'또 다른 테러리스트가 컨벤션 센터를 떠났습니다! 위치는 빨간색, 가능한 목표는 노란색으로 표시했습니다. 막으십시오, 장군님.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder11",
+  "text": "<'EVA' 발언>\n'장군님, 이 건물이 테러리스트의 목표입니다. 반드시 지켜야 합니다!'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder12",
+  "text": "<'EVA' 발언>\n'장군님, 테러리스트들이 컨벤션 센터를 장악했습니다! 테러 위협을 막으려면 컨벤션 센터와 연결된 주차 건물을 파괴해야 합니다.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder13",
+  "text": "<'EVA' 발언>\n'훌륭합니다. 예비 기지에 도착했습니다. 음, 볼품은 없지만 필요하면 전차와 추가 군수 공장을 생산할 수 있습니다.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder14",
+  "text": "<'EVA' 발언>\n'테러 위협이 제거되었습니다. 잘하셨습니다, 장군님.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder15",
+  "text": "<'EVA' 발언>\n'장군님, GLA 기갑 유닛이 이동하는 것을 포착했습니다. 컨벤션 센터에서 나온 게 아니니 홍콩 어딘가에 GLA 기지가 하나 더 있는 게 분명합니다. 그 기지를 찾아 파괴하십시오!'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder16",
+  "text": "<'EVA' 발언>\n'장군님, GLA가 독소 트랙터를 끌고 왔습니다. 초록색 점액을 뿌리는 게 그놈들입니다. 보병은 멀리 떨어뜨리고 전차로 이 새로운 위협을 처리하십시오.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder17",
+  "text": "<'EVA' 발언>\n'잘하셨습니다, 장군님. 독소 기지를 파괴했습니다. 이제 놈들은 독소 트랙터를 더 만들 수 없을 겁니다.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder18",
+  "text": "<'EVA' 발언>\n'잠깐만요, 장군님. 앞에 대규모 병력이 있습니다. EMP 공격을 요청해 지역을 정리하겠습니다. 대기하십시오.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder19",
+  "text": "<'EVA' 발언>\n'이제 적 기지로 가는 길이 열렸을 겁니다. 끝을 내죠, 장군님.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder20",
+  "text": "<자동차 페리 선장 발언>\n'드디어 군대가 왔군! 저 테러리스트 놈들 때문에 장사를 망쳤다고! 부대를 태우면 컨벤션 센터까지 데려다 드리지. 뒷문으로 몰래 들어가서 기습할 수 있을 거요. 준비되면 수송 버튼을 누르시오.'"
+ },
+ {
+  "label": "SCRIPT:CHI02Box01",
+  "text": "건설 도저로 사령부를 건설하십시오\n사령부가 완성되면\n선택해서 레이더 업그레이드를 시작하십시오\n업그레이드가 끝나면\n지휘 인터페이스 왼쪽 아래에 레이더 화면이 나타납니다"
+ },
+ {
+  "label": "SCRIPT:CHI02Box02",
+  "text": "새 유닛: 드래곤 전차\n드래곤 전차는 화염을 뿜어 적 보병을 빠르게 제거합니다.\n건물 안에 주둔한 적도 마찬가지입니다"
+ },
+ {
+  "label": "MAP:CHI02Obj01",
+  "text": "임무 목표:\n컨벤션 센터와\n연결된 주차 건물을 파괴하여\n테러 위협을 제거하십시오"
+ },
+ {
+  "label": "MAP:CHI02Obj02",
+  "text": "임무 목표:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:CHI02SecondaryObj01",
+  "text": "보조 목표:\nGLA 테러리스트가 홍콩 도심의\n목표 건물을 파괴하지 못하게 막으십시오"
+ },
+ {
+  "label": "MAP:CHI02SecondaryObj02",
+  "text": "보조 목표:\n독소 트랙터 생산 시설 파괴"
+ },
+ {
+  "label": "MAP:CHI03Open",
+  "text": "중국 후베이성... 싼샤 댐\n폭력의 홍수"
+ },
+ {
+  "label": "MAP:CHI03Obj1",
+  "text": "임무 목표:\n댐 파괴"
+ },
+ {
+  "label": "MAP:CHI03Obj2",
+  "text": "임무 목표:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:CHI03Obj3",
+  "text": "임무 목표:\n남은 GLA 병력 모두 격파"
+ },
+ {
+  "label": "MAP:CHI03AudioHolder01",
+  "text": "<레드가드 발언> '장군님, 수위가 낮아졌습니다! GLA 병력이 강을 건너고 있습니다!'"
+ },
+ {
+  "label": "MAP:CHI06Open",
+  "text": "알다스탄 부수도, 비슈케크\n길 위의 죽음"
+ },
+ {
+  "label": "MAP:CHI06Obj1",
+  "text": "임무 목표:\n블랙 로투스를 철교 한가운데로 데려가십시오"
+ },
+ {
+  "label": "MAP:CHI07Open",
+  "text": "알다스탄 수도, 두샨베\n핵겨울"
+ },
+ {
+  "label": "MAP:Demo58Open",
+  "text": "카자흐스탄 비무장 지대\n작전명: 블루 이글"
+ },
+ {
+  "label": "MAP:Demo58End1",
+  "text": "전투 통제 오프라인..."
+ },
+ {
+  "label": "MAP:Demo58End2",
+  "text": "커맨드 앤 컨커 제너럴\n2002년 크리스마스 출시 예정"
+ },
+ {
+  "label": "MAP:Demo48Open",
+  "text": "마자르 자유 사격 구역\n작전명: 화이트 나이트"
+ },
+ {
+  "label": "MAP:GLA02MapName",
+  "text": "마을 약탈"
+ },
+ {
+  "label": "MAP:GLA02Open",
+  "text": "카자흐스탄 알마티 외곽 마을\n구호품 투하 지점"
+ },
+ {
+  "label": "MAP:GLA02ObjectiveText01",
+  "text": "임무 목표\n훔친 보급품 $40,000어치 수집"
+ },
+ {
+  "label": "MAP:GLA021stThirdObjective",
+  "text": "첫 번째 목표:\nUN 호송대의 상자를 빼앗아 $20,000 수집"
+ },
+ {
+  "label": "MAP:GLA022ndThirdObjective",
+  "text": "두 번째 목표:\n미군 수송기가 떨어뜨린 상자를 빼앗아 $30,000 수집"
+ },
+ {
+  "label": "MAP:GLA023rdThirdObjective",
+  "text": "최종 목표: 미군 기지를 습격해 $40,000어치 보급품 수집"
+ },
+ {
+  "label": "MAP:GLA02CivBuildingHint",
+  "text": "마을 사람들이 집에 보급품을 숨겨 두었습니다\n집을 부수고 숨겨진 보급품을 훔치십시오"
+ },
+ {
+  "label": "MAP:GLA02CivKillHint",
+  "text": "마을 사람들이 우리 보급품을 가져가고 있습니다. 막으십시오"
+ },
+ {
+  "label": "MAP:GLA02QuadsArrival",
+  "text": "증원 도착:\n쿼드 캐논으로 적 항공기를 격추하십시오"
+ },
+ {
+  "label": "MAP:GLA02CrateReminder",
+  "text": "상자를 모아 목표를 달성하십시오"
+ },
+ {
+  "label": "MAP:GLA02MonkeyReminder",
+  "text": "돈을 다 써 버리면 목표를 달성할 수 없습니다"
+ },
+ {
+  "label": "MAP:GLA06MapName",
+  "text": "독에는 독으로"
+ },
+ {
+  "label": "MAP:GLA06Open",
+  "text": "카자흐스탄 아랄해 서안\n유독성 폐기물 격리 및 처리 시설"
+ },
+ {
+  "label": "MAP:GLA06MissionObjective",
+  "text": "임무 목표:\n벙커 4개를 점령하고 미군 수비대를 전멸시키십시오"
+ },
+ {
+  "label": "MAP:GLA06BunkerWarning",
+  "text": "경고:\n벙커는 약해서 파괴되면 격렬하게 폭발합니다"
+ },
+ {
+  "label": "MAP:GLA06BunkerDestroyed",
+  "text": "경고:\n어리석은 미국인들이 벙커를 파괴해 우리를 막으려 합니다"
+ },
+ {
+  "label": "MAP:GLA06BunkerRetaken",
+  "text": "미국인들이 우리 벙커를 되찾았습니다. 당장 다시 빼앗으십시오"
+ },
+ {
+  "label": "MAP:GLA06BunkerObjective",
+  "text": "임무를 완수하려면 벙커 4개를 보유해야 합니다"
+ },
+ {
+  "label": "MAP:GLA06KillEnemies",
+  "text": "필요한 수의 벙커를 확보했습니다\n이제 미국인들을 전멸시켜 승리를 확정하십시오"
+ },
+ {
+  "label": "MAP:GLA06ScoutsInBase",
+  "text": "미군 정찰병에게 발견되었습니다\n미국인들과 싸울 준비를 하십시오"
+ },
+ {
+  "label": "MAP:GLA06Only8Bunkers",
+  "text": "벙커를 더 조심히 다루십시오\n임무를 완수하려면 4개를 보유해야 합니다"
+ },
+ {
+  "label": "MAP:GLA06Only6Bunkers",
+  "text": "벙커가 6개만 남았습니다\n3개가 더 파괴되면 임무에 실패합니다"
+ },
+ {
+  "label": "MAP:GLA06Only4Bunkers",
+  "text": "경고:\n벙커가 하나 더 파괴되면 임무에 실패합니다"
+ },
+ {
+  "label": "MAP:GLA07MapName",
+  "text": "트로이의 목마"
+ },
+ {
+  "label": "MAP:GLA07Open",
+  "text": "카자흐스탄 렝게르 근처 어딘가\n분파 조직 통제 지역"
+ },
+ {
+  "label": "SCRIPT:GLA07ChnTmr",
+  "text": "중국군 도착까지:"
+ },
+ {
+  "label": "MAP:GLA07ChineseArrival",
+  "text": "경고: 중국군이 지역에 진입했습니다"
+ },
+ {
+  "label": "MAP:GLA07MissionObjective",
+  "text": "임무 목표\n모든 배신자 제거"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint01",
+  "text": "훔친 트럭을 배신자들의 기지로 몰래 들여보내십시오\n안에 들어가면 트럭을 폭파해 배신자들을 없애십시오"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint02",
+  "text": "경고:\n아군 병력이 훔친 트럭과 함께 있는 게 발각되면\n배신자들이 트럭의 정체를 알아챕니다"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint03",
+  "text": "경고: 훔친 트럭은 이 지역에 들어갈 수 없습니다\n배신자들이 여기서 발견하면 공격합니다"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint04",
+  "text": "효과를 극대화하려면 배신자들의 건물 근처에서\n트럭을 폭파하도록 명령하십시오"
+ },
+ {
+  "label": "MAP:GLA07BaseKIACleanUp",
+  "text": "배신자들의 기지가 파괴되었습니다\n남은 병력을 전멸시켜 승리를 완성하십시오"
+ },
+ {
+  "label": "MAP:GLA07ConvoyDetected",
+  "text": "경보:\n배신자들이 호송대가 우리 손에 있다는 걸 알았습니다\n이제 호송대가 공격받을 겁니다"
+ },
+ {
+  "label": "MAP:GLA03Open",
+  "text": "카자흐스탄 잠불\n중국 통제하의 민간인 거주 중심지"
+ },
+ {
+  "label": "MAP:USA01Open",
+  "text": "마자르 자유 사격 구역\n작전명: 사일런트 던"
+ },
+ {
+  "label": "SCRIPT:TrainingMove",
+  "text": "유닛을 왼쪽 클릭하면 선택됩니다. 선택한 유닛에게 명령을 내릴 수 있습니다. 유닛을 선택한 상태에서 땅을 왼쪽 클릭하면 이동 명령을 내립니다. 적 병사를 왼쪽 클릭하면 선택한 유닛이 공격합니다"
+ },
+ {
+  "label": "SCRIPT:TrainingCommand",
+  "text": "미군 사령부를 해방했습니다. 여기서 여러 특수 능력을 사용할 수 있습니다. 기술과 특수 무기를 고르려면 깜박이는 장군 버튼을 클릭하십시오"
+ },
+ {
+  "label": "SCRIPT:TrainingExplor",
+  "text": "아직 탐색하지 않은 새 지역으로 이동하면 유닛 주변의 전장의 안개를 걷어낼 수 있습니다. 안개는 탐색한 곳과 탐색하지 않은 곳을 보여 줍니다. 새 지역을 탐색해 적군과 군대를 늘릴 자원을 찾으십시오"
+ },
+ {
+  "label": "SCRIPT:TrainingBarracks",
+  "text": "미군 병영을 해방했습니다. 이런 건물에서는 새 유닛을 훈련할 수 있습니다. 병영은 병사를 훈련합니다. 새 병영을 왼쪽 클릭해 훈련 가능한 병사를 확인하십시오. 병영에서 유닛을 왼쪽 클릭하면 보급품을 써서 그 유닛을 만듭니다"
+ },
+ {
+  "label": "SCRIPT:TrainingPilots",
+  "text": "조종사 몇 명을 구출했습니다. 미군 조종사들은 대개 많은 전투를 겪은 베테랑이라 차량에 탑승하면 승무원에게 기술과 경험을 더해 줍니다. 금색 계급장이 있는 차량은 숙련된 승무원이 타고 있어 전투에서 더 효과적입니다"
+ },
+ {
+  "label": "SCRIPT:TrainingSupply",
+  "text": "미군 보급 센터를 해방했습니다. 보급 센터는 보급품을 모아 새 건물과 유닛을 만들 자원을 제공합니다. 각 보급 센터는 보급품을 모아 줄 치누크 헬기를 자동으로 한 대 만듭니다"
+ },
+ {
+  "label": "SCRIPT:TrainingDozer",
+  "text": "미군 건설 도저를 해방했습니다. 새 건설 도저를 왼쪽 클릭해 지을 수 있는 건물을 확인하십시오. 군수 공장을 선택하고 건설 위치를 고르십시오. 군수 공장을 다 지으면 도저는 다른 건설에 쓸 수 있습니다"
+ },
+ {
+  "label": "SCRIPT:TrainingUnits",
+  "text": "새 군수 공장에서는 크루세이더 전차 같은 차량을 생산할 수 있습니다. 크루세이더 전차를 왼쪽 클릭하면 생산을 명령합니다. 여러 번 클릭하면 여러 대를 생산하도록 명령할 수 있습니다"
+ },
+ {
+  "label": "SCRIPT:TrainingPower",
+  "text": "미군 상온 핵융합로를 해방했습니다. 미군과 중국군은 원자로로 기지에 전력을 공급합니다. 전력 막대는 기지의 전력량을 보여 줍니다. 전력이 부족하면 기지 방어 시설이 멈추고 레이더가 꺼질 수 있습니다"
+ },
+ {
+  "label": "SCRIPT:TrainingAbilities",
+  "text": "일부 유닛은 특수 능력이 있습니다. 유닛을 선택하면 가진 특수 능력을 볼 수 있습니다. 능력을 왼쪽 클릭하면 발동합니다. 미군 크루세이더 전차는 각각 전투 드론을 하나씩 만들 수 있습니다. 전투 드론은 적을 자동으로 공격하고 크루세이더 전차가 피해를 입으면 수리해 주는 작은 로봇 도우미입니다"
+ },
+ {
+  "label": "SCRIPT:TrainingObjective",
+  "text": "미군 기지 전체를 해방했으니 이제 적에게 반격할 준비가 됐습니다. 모든 임무에는 승리하고 전쟁을 진행하기 위해 따라야 하는 임무 목표가 있습니다. 임무 목표를 따라 임무에서 승리하십시오"
+ },
+ {
+  "label": "SCRIPT:TrainingUrban",
+  "text": "민간 건물에는 병사가 들어갈 수 있습니다. 병사를 민간 건물에 들여보내면 방어 보너스를 받습니다. 이렇게 점거한 민간 건물은 강력한 거점이 되어 기지로 드나드는 중요한 길목을 지킬 수 있습니다"
+ },
+ {
+  "label": "SCRIPT:TrainingTech",
+  "text": "레인저로 민간 목표 건물을 점령할 수 있습니다. 이런 건물을 차지하면 적보다 유리해집니다. 레인저를 선택하고 점령 버튼을 왼쪽 클릭한 다음 유정을 왼쪽 클릭하면 유정을 점령합니다. 유정은 석유를 뽑아 추가 자원을 줍니다"
+ },
+ {
+  "label": "SCRIPT:TrainingCrate",
+  "text": "상자에는 병사의 능력을 높여 주는 보너스 아이템이 들어 있습니다. 추가 탄약, 장갑 등을 얻을 수 있습니다. 병사나 차량을 상자 위로 이동시키면 상자를 열고 내용물을 얻습니다"
+ },
+ {
+  "label": "SCRIPT:TrainingMissionObjective",
+  "text": "임무 목표\nGLA 생물 무기 공장 파괴"
+ },
+ {
+  "label": "SCRIPT:TrainingOpeningObjective",
+  "text": "임무 목표\n미군 기지 해방"
+ },
+ {
+  "label": "MAP:USA01Opening",
+  "text": "이라크 전쟁 지역\n작전명: 파이널 저스티스"
+ },
+ {
+  "label": "MAP:USA01BahdadText",
+  "text": "바그다드 포위전\n3일째"
+ },
+ {
+  "label": "MAP:USA01ObjectiveText",
+  "text": "임무 목표\n스커드 스톰 파괴"
+ },
+ {
+  "label": "MAP:USA02Open",
+  "text": "예멘, 알 하나드\n작전명: 보물찾기"
+ },
+ {
+  "label": "MAP:USA02Objective1Text",
+  "text": "임무 목표\n포로가 된 조종사 구출"
+ },
+ {
+  "label": "MAP:USA02Objective2Text",
+  "text": "임무 목표\n마지막 조종사를 기지로 데려와 보고하게 하십시오"
+ },
+ {
+  "label": "MAP:USA03Objective1Text",
+  "text": "임무 목표\n미군 100명의 탈출 보장"
+ },
+ {
+  "label": "SCRIPT:USA03RescueCounter",
+  "text": "탈출한 미군:"
+ },
+ {
+  "label": "MAP:USA04Open",
+  "text": "카자흐스탄 해안, 14시\n작전명: 스톰브링어"
+ },
+ {
+  "label": "SCRIPT:USA04BomberTimer",
+  "text": "폭격기 도착까지:"
+ },
+ {
+  "label": "MAP:USA06Objective1Text",
+  "text": "임무 목표:\nGLA의 강변 기지 건설 저지"
+ },
+ {
+  "label": "MAP:USA06Objective2Text",
+  "text": "임무 목표:\nGLA 본기지 파괴"
+ },
+ {
+  "label": "SCRIPT:GLA03CivCounter",
+  "text": "처치한 배신자:"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective01",
+  "text": "임무 목표:\n동쪽 사령부를 점령해 생산을 시작하십시오\n배신자 300명 처치"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective02",
+  "text": "임무 목표:\n독소 트랙터로 배신자 300명 처치"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective03",
+  "text": "북쪽 제약 공장 파괴"
+ },
+ {
+  "label": "MAP:GLA03Objective04",
+  "text": "포로 해방"
+ },
+ {
+  "label": "MAP:GLA03Objective05",
+  "text": "배신자 300명 처치"
+ },
+ {
+  "label": "MAP:GLA03Objective06",
+  "text": "제약 공장 파괴"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective01",
+  "text": "임무 목표:\n민간 건물을 파괴하고 $40,000 모으기"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective02",
+  "text": "경고:\n유닛에 돈을 쓰면 $40,000 목표에서 멀어집니다\n과소비하지 않도록 주의하십시오"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective03",
+  "text": "경고:\n미군이 공항을 집결 기지로 쓰고 있습니다\n강을 건너 파괴하십시오"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective04",
+  "text": "경고:\n미군 항공기가 중장비 차량을 없애려고 출격했습니다\n성난 폭도와 테크니컬만 쓰기를 권합니다"
+ },
+ {
+  "label": "SCRIPT:GLA05Objective01",
+  "text": "임무 목표:\n미군 공군 기지 파괴"
+ },
+ {
+  "label": "SCRIPT:GLA05Objective02",
+  "text": "임무 목표:\n서쪽 미군 공군 기지 파괴"
+ },
+ {
+  "label": "MAP:GLA01Open",
+  "text": "심켄트 비무장 지대\n작전명: 블랙 레인"
+ },
+ {
+  "label": "MAP:GLA01ObjectiveText",
+  "text": "임무 목표: 댐 파괴"
+ },
+ {
+  "label": "MAP:USA07Open",
+  "text": "카자흐스탄 남동부\n작전명: 절박한 연합"
+ },
+ {
+  "label": "MAP:USA07Objective1",
+  "text": "임무 목표:\n북동쪽 GLA 파괴"
+ },
+ {
+  "label": "MAP:USA07General",
+  "text": "장군 도착"
+ },
+ {
+  "label": "MAP:USA07Objective2",
+  "text": "임무 목표:\n중국 사령부와\n핵미사일 격납고 파괴"
+ },
+ {
+  "label": "MAP:GLA08Temp",
+  "text": "GLA 임무 8 - 카자흐스탄 남부\n바이코누르 우주 기지"
+ },
+ {
+  "label": "MAP:CHI08Temp",
+  "text": "중국 임무 8 - 마지막 중국 임무\n상태: 미완성"
+ },
+ {
+  "label": "MAP:CHI07Temp",
+  "text": "중국 임무 7 - 핵폭탄 잔치\n상태: 미완성"
+ },
+ {
+  "label": "MAP:CHI05Temp",
+  "text": "중국 임무 5 - GLA 화공\n상태: 미완성"
+ },
+ {
+  "label": "MAP:USA08Temp",
+  "text": "미국 임무 8 - GLA 초토화\n상태: 미완성"
+ },
+ {
+  "label": "MAP:USA06Temp",
+  "text": "미국 임무 6 - E3 개편\n상태: 미완성"
+ },
+ {
+  "label": "MAP:USA05Temp",
+  "text": "미국 임무 5 - 강 기습\n상태: 미완성"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDaisyCutter",
+  "text": "강함: 건물\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireParticleUplinkCannon",
+  "text": "강함: 건물\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipParaDrop",
+  "text": "항공기로 레인저 투하\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipClusterMines",
+  "text": "항공기로 지뢰 투하\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipEMPPulse",
+  "text": "강함: 차량\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipA10Strike",
+  "text": "강함: 건물\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireNukeMissile",
+  "text": "강함: 모든 대상\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSCUDStorm",
+  "text": "강함: 모든 대상\n\n재사용 대기시간: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireArtilleryBarrage",
+  "text": "강함: 건물, 대규모 유닛 집단\n\n재사용 대기시간: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSuperWeaponCashHack",
+  "text": "적 보급 센터에서 돈을 훔칩니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSpySatScan",
+  "text": "목표 지역을 드러냅니다. 숨은 유닛을 발견합니다\n\n재사용 대기시간: 1:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSpyDrone",
+  "text": "목표 상공에 정찰 드론을 만듭니다\n\n재사용 대기시간: 1:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRadarVanScan",
+  "text": "목표 지역을 드러냅니다. 숨은 적을 발견합니다\n\n재사용 대기시간: 0:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRadioJam",
+  "text": "적 통신을 차단합니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireEmergencyRepair",
+  "text": "긴급 수리\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRebelAmbush",
+  "text": "반군을 만듭니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireAnthraxBomb",
+  "text": "강함: 보병\n\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCIAIntelligence",
+  "text": "적 병력을 정찰합니다\n\n재사용 대기시간: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapProxy",
+  "text": "적이 가까이 오면 폭발"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapManual",
+  "text": "명령에 따라 폭발"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapDetonate",
+  "text": "폭파 함정 폭발"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMissileDefenderLaser",
+  "text": "레이저 조준으로 미사일 연사 속도가 빨라집니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansBombardment",
+  "text": "포대 배치\n모든 유닛: 화력 보너스 20%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansHoldTheLine",
+  "text": "방벽 배치\n모든 유닛: 장갑 보너스 10%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansSearchAndDestroy",
+  "text": "스캐너 배치\n모든 유닛: 무기 사거리 보너스 20%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSetRallyPoint",
+  "text": "이 건물의 집결지 설정"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSell",
+  "text": "건물을 가치의 50%에 판매합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeReactorOverCharge",
+  "text": "원자로에 손상을 입혀 전력을 50% 더 만듭니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCancelUpgrade",
+  "text": "이 업그레이드 취소"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeAdvancedTraining",
+  "text": "유닛의 경험치 획득 속도가 두 배가 됩니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeDroneARmor",
+  "text": "모든 드론의 장갑이 강화됩니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods",
+  "text": "원자로 전력이 100% 늘어납니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades",
+  "text": "레인저가 민간 건물에 섬광탄을 던져 적 병사를 몰아냅니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCompositeArmor",
+  "text": "전차 장갑 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCruiseMissile",
+  "text": "토마호크에 비행 경로를 지정할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeTOW",
+  "text": "험비에 미사일을 장착합니다. 지상과 공중 목표를 공격할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:USAUpgradeRocketPods",
+  "text": "코만치가 로켓 일제 사격을 합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeLaserMissiles",
+  "text": "랩터와 스텔스 전투기의 미사일 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeMines",
+  "text": "건물 주변에 지뢰를 매설합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordGattlingCannon",
+  "text": "이 오버로드에 개틀링 캐논을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordPropagandaTower",
+  "text": "이 오버로드에 선전탑을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordBattleBunker",
+  "text": "이 오버로드에 벙커를 설치합니다. 병사들이 벙커에 들어갈 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeRadar",
+  "text": "이 사령부에 레이더를 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeNationalism",
+  "text": "레드가드, 탱크 헌터, 배틀마스터의 무리 보너스 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeBlackNapalm",
+  "text": "모든 화염 무기 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeChainGuns",
+  "text": "모든 개틀링 무기 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaSubliminal",
+  "text": "확성기 탑 보너스 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaUraniumShells",
+  "text": "배틀마스터와 오버로드의 포탄 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNuclearTanks",
+  "text": "오버로드와 배틀마스터의 속도가 빨라집니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaStunBullets",
+  "text": "레드가드가 적 병사를 생포하려 할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDisguiseAsVehicle",
+  "text": "폭탄 트럭을 목표 차량으로 위장합니다"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeBioBomb",
+  "text": "폭탄 트럭이 생물 무기가 됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeHEBomb",
+  "text": "이 폭탄 트럭의 피해가 100% 늘어납니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRadarVanScan",
+  "text": "레이더 밴이 맵을 스캔해 적 병력을 찾을 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeScorpionRocket",
+  "text": "스콜피온이 로켓 공격을 얻습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAPRockets",
+  "text": "모든 로켓 공격 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeToxinShells",
+  "text": "스콜피온과 마라우더의 포탄에 소량의 탄저균이 들어갑니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxBeta",
+  "text": "모든 독소 유닛 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAPBullets",
+  "text": "반군, 테크니컬, 쿼드 캐논, 자르멘 켈의 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeJunkRepair",
+  "text": "모든 차량이 자동 수리됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeCamouflage",
+  "text": "반군이 사격하지 않을 때 적에게 보이지 않습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeTranqDarts",
+  "text": "반군이 적 병사를 생포하려 할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeArmTheMob",
+  "text": "모든 성난 폭도를 AK-47로 무장시킵니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipStructureExit",
+  "text": "이 유닛을 내리게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipTransportExit",
+  "text": "이 유닛을 내리게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipEvacuate",
+  "text": "모든 유닛을 내리게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipRailedTransport",
+  "text": "출발"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSACombatDrop",
+  "text": "레인저가 적 목표 위로 레펠 강하합니다. 주둔 중인 건물에 사용하면 안의 적 병사를 모두 처치합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuard",
+  "text": "유닛이 특정 위치로 이동해 경계하고, 필요하면 목표를 추격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuardWithoutPursuit",
+  "text": "유닛이 특정 위치로 이동해 경계하지만, 구역 밖으로는 목표를 추격하지 않습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuardFlyingUnitsOnly",
+  "text": "유닛이 이동해 지정 위치 근처로 오는 공중 유닛을 공격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAttackMove",
+  "text": "유닛이 목표 지역으로 이동하며 도중에 멈춰 적과 교전합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCommandStop",
+  "text": "유닛이 하던 일을 멈춥니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipWayPoints",
+  "text": "땅을 클릭해 경유지를 설정합니다"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "RADAR:StructureUnderAttack",
+  "text": "مبنى يتعرض للهجوم"
+ },
+ {
+  "label": "RADAR:UnderAttack",
+  "text": "تحت الهجوم"
+ },
+ {
+  "label": "RADAR:Infiltration",
+  "text": "رُصد تسلّل للعدو"
+ },
+ {
+  "label": "UPGRADE:AdvancedTraining",
+  "text": "تدريب متقدم"
+ },
+ {
+  "label": "UPGRADE:AmericaLaserMissiles",
+  "text": "صواريخ ليزر أمريكية"
+ },
+ {
+  "label": "UPGRADE:Mines",
+  "text": "ألغام أرضية"
+ },
+ {
+  "label": "UPGRADE:Radar",
+  "text": "رادار"
+ },
+ {
+  "label": "UPGRADE:OverlordGattlingCannon",
+  "text": "مدفع جاتلينج للأوفرلورد"
+ },
+ {
+  "label": "UPGRADE:OverlordPropagandaTower",
+  "text": "برج دعاية للأوفرلورد"
+ },
+ {
+  "label": "UPGRADE:OverlordBattleBunker",
+  "text": "مخبأ قتالي للأوفرلورد"
+ },
+ {
+  "label": "UPGRADE:ControlRods",
+  "text": "قضبان التحكم"
+ },
+ {
+  "label": "UPGRADE:ScoutDrone",
+  "text": "طائرة استطلاع مسيّرة"
+ },
+ {
+  "label": "UPGRADE:BattleDrone",
+  "text": "طائرة قتالية مسيّرة"
+ },
+ {
+  "label": "UPGRADE:RangerFlashBangGrenade",
+  "text": "قنابل صاعقة للرينجر"
+ },
+ {
+  "label": "UPGRADE:HoverTank",
+  "text": "دبابة حوّامة"
+ },
+ {
+  "label": "UPGRADE:TomahawkRemoteControl",
+  "text": "صواريخ كروز"
+ },
+ {
+  "label": "UPGRADE:AircraftFuel",
+  "text": "وقود الطائرات"
+ },
+ {
+  "label": "UPGRADE:LaserMissiles",
+  "text": "صواريخ ليزر"
+ },
+ {
+  "label": "UPGRADE:TOWMissile",
+  "text": "صاروخ TOW"
+ },
+ {
+  "label": "UPGRADE:ComancheRocketPods",
+  "text": "حاويات صواريخ الكومانش"
+ },
+ {
+  "label": "UPGRADE:RailGun",
+  "text": "مدفع كهرومغناطيسي"
+ },
+ {
+  "label": "UPGRADE:Nationalism",
+  "text": "القومية"
+ },
+ {
+  "label": "UPGRADE:AntiTankGrenade",
+  "text": "قنابل يدوية مضادة للدبابات"
+ },
+ {
+  "label": "UPGRADE:VehicleHack",
+  "text": "اختراق المركبات"
+ },
+ {
+  "label": "UPGRADE:IRGoggles",
+  "text": "نظارات الأشعة تحت الحمراء"
+ },
+ {
+  "label": "UPGRADE:BlackNapalm",
+  "text": "النابالم الأسود"
+ },
+ {
+  "label": "UPGRADE:ChainGuns",
+  "text": "رشاشات متسلسلة"
+ },
+ {
+  "label": "UPGRADE:SubliminalMessaging",
+  "text": "رسائل لا شعورية"
+ },
+ {
+  "label": "UPGRADE:UraniumShells",
+  "text": "قذائف اليورانيوم"
+ },
+ {
+  "label": "UPGRADE:NuclearTanks",
+  "text": "دبابات نووية"
+ },
+ {
+  "label": "UPGRADE:StunBullets",
+  "text": "رصاص صاعق"
+ },
+ {
+  "label": "UPGRADE:TranqDarts",
+  "text": "سهام مخدرة"
+ },
+ {
+  "label": "UPGRADE:APBullets",
+  "text": "رصاص خارق للدروع"
+ },
+ {
+  "label": "UPGRADE:BioBomb",
+  "text": "قنبلة بيولوجية"
+ },
+ {
+  "label": "UPGRADE:HighExplosiveBomb",
+  "text": "قنبلة شديدة الانفجار"
+ },
+ {
+  "label": "UPGRADE:ArmTheMob",
+  "text": "تسليح الحشود"
+ },
+ {
+  "label": "UPGRADE:ScorpionRocket",
+  "text": "صاروخ سكوربيون"
+ },
+ {
+  "label": "UPGRADE:SCUDLauncherExplosiveWarhead",
+  "text": "رأس حربي متفجر"
+ },
+ {
+  "label": "UPGRADE:SCUDLauncherAnthraxWarhead",
+  "text": "رأس حربي بالجمرة الخبيثة"
+ },
+ {
+  "label": "UPGRADE:BuggyAmmo",
+  "text": "ذخيرة عربة الصواريخ"
+ },
+ {
+  "label": "UPGRADE:AnthraxBeta",
+  "text": "الجمرة الخبيثة بيتا"
+ },
+ {
+  "label": "UPGRADE:ToxinShells",
+  "text": "قذائف سامة"
+ },
+ {
+  "label": "UPGRADE:JunkRepair",
+  "text": "إصلاح بالخردة"
+ },
+ {
+  "label": "UPGRADE:Camouflage",
+  "text": "تمويه"
+ },
+ {
+  "label": "UPGRADE:CompositeArmor",
+  "text": "دروع مركّبة"
+ },
+ {
+  "label": "OBJECT:Beacon",
+  "text": "منارة"
+ },
+ {
+  "label": "OBJECT:Dam",
+  "text": "سد"
+ },
+ {
+  "label": "OBJECT:CommandCenter",
+  "text": "مركز القيادة"
+ },
+ {
+  "label": "OBJECT:ColdFusionReactor",
+  "text": "مفاعل الاندماج البارد"
+ },
+ {
+  "label": "OBJECT:NuclearReactor",
+  "text": "مفاعل نووي"
+ },
+ {
+  "label": "OBJECT:DemoTrap",
+  "text": "فخ تفجير"
+ },
+ {
+  "label": "OBJECT:PowerPlant",
+  "text": "محطة كهرباء"
+ },
+ {
+  "label": "OBJECT:DetentionCamp",
+  "text": "معسكر احتجاز"
+ },
+ {
+  "label": "OBJECT:StrategyCenter",
+  "text": "مركز الاستراتيجية"
+ },
+ {
+  "label": "OBJECT:Airfield",
+  "text": "مطار عسكري"
+ },
+ {
+  "label": "OBJECT:SupplyCenter",
+  "text": "مركز الإمدادات"
+ },
+ {
+  "label": "OBJECT:AmericaSupplyDropZone",
+  "text": "منطقة إسقاط الإمدادات"
+ },
+ {
+  "label": "OBJECT:SupplyStash",
+  "text": "مخزن الإمدادات"
+ },
+ {
+  "label": "OBJECT:Barracks",
+  "text": "ثكنات"
+ },
+ {
+  "label": "OBJECT:BlackMarket",
+  "text": "السوق السوداء"
+ },
+ {
+  "label": "OBJECT:WarFactory",
+  "text": "مصنع الحرب"
+ },
+ {
+  "label": "OBJECT:ArmsDealer",
+  "text": "تاجر الأسلحة"
+ },
+ {
+  "label": "OBJECT:AmmoCache",
+  "text": "مخبأ ذخيرة"
+ },
+ {
+  "label": "OBJECT:AmphibiousTransport",
+  "text": "ناقلة برمائية"
+ },
+ {
+  "label": "OBJECT:AutoFerry",
+  "text": "عبّارة سيارات"
+ },
+ {
+  "label": "OBJECT:TrainGuide",
+  "text": "دليل القطار"
+ },
+ {
+  "label": "OBJECT:AngryMob",
+  "text": "حشد غاضب"
+ },
+ {
+  "label": "OBJECT:TankHunter",
+  "text": "صائد الدبابات"
+ },
+ {
+  "label": "OBJECT:Apartment",
+  "text": "شقة"
+ },
+ {
+  "label": "OBJECT:ChemicalFactory",
+  "text": "مصنع كيميائي"
+ },
+ {
+  "label": "OBJECT:GovBuilding",
+  "text": "مبنى حكومي"
+ },
+ {
+  "label": "OBJECT:TechHospital",
+  "text": "مستشفى -- استولِ عليه ليُعالَج جميع المشاة تلقائيًا"
+ },
+ {
+  "label": "OBJECT:ApartmentComplex",
+  "text": "مجمع سكني"
+ },
+ {
+  "label": "OBJECT:SpyPost",
+  "text": "موقع تجسس"
+ },
+ {
+  "label": "OBJECT:SupplyPile",
+  "text": "كومة إمدادات"
+ },
+ {
+  "label": "OBJECT:TrainStation",
+  "text": "محطة قطار"
+ },
+ {
+  "label": "OBJECT:TechRadioStation",
+  "text": "محطة إذاعة"
+ },
+ {
+  "label": "OBJECT:TechOilDerrick",
+  "text": "برج نفط -- استولِ عليه لتحصل على أموال إضافية"
+ },
+ {
+  "label": "OBJECT:Arcade",
+  "text": "صالة ألعاب"
+ },
+ {
+  "label": "OBJECT:Aurora",
+  "text": "قاذفة أورورا"
+ },
+ {
+  "label": "OBJECT:A10Thunderbolt",
+  "text": "A10 ثاندربولت"
+ },
+ {
+  "label": "OBJECT:AVPOWTRUCK",
+  "text": "شاحنة أسرى الحرب"
+ },
+ {
+  "label": "OBJECT:B52",
+  "text": "B52"
+ },
+ {
+  "label": "OBJECT:BMW",
+  "text": "سيارة"
+ },
+ {
+  "label": "OBJECT:Bank",
+  "text": "مصرف"
+ },
+ {
+  "label": "OBJECT:BarnCoop",
+  "text": "حظيرة دواجن"
+ },
+ {
+  "label": "OBJECT:BarnShed",
+  "text": "سقيفة حظيرة"
+ },
+ {
+  "label": "OBJECT:Barrel",
+  "text": "برميل"
+ },
+ {
+  "label": "OBJECT:BattleDrone",
+  "text": "طائرة قتالية مسيّرة"
+ },
+ {
+  "label": "OBJECT:BattleMaster",
+  "text": "باتل ماستر"
+ },
+ {
+  "label": "OBJECT:Battleship",
+  "text": "سفينة حربية"
+ },
+ {
+  "label": "OBJECT:BigRig",
+  "text": "شاحنة كبيرة"
+ },
+ {
+  "label": "OBJECT:BikeRack",
+  "text": "حامل دراجات"
+ },
+ {
+  "label": "OBJECT:Billboard",
+  "text": "لوحة إعلانات"
+ },
+ {
+  "label": "OBJECT:Bird",
+  "text": "طائر"
+ },
+ {
+  "label": "OBJECT:BombTruck",
+  "text": "شاحنة مفخخة"
+ },
+ {
+  "label": "OBJECT:Boulders",
+  "text": "صخور كبيرة"
+ },
+ {
+  "label": "OBJECT:Boxes",
+  "text": "صناديق"
+ },
+ {
+  "label": "OBJECT:BrickWall",
+  "text": "جدار طوب"
+ },
+ {
+  "label": "OBJECT:BrokenWall",
+  "text": "جدار مهدّم"
+ },
+ {
+  "label": "OBJECT:Bunker",
+  "text": "مخبأ"
+ },
+ {
+  "label": "OBJECT:BurningBarricade",
+  "text": "حاجز مشتعل"
+ },
+ {
+  "label": "OBJECT:Checkpoint",
+  "text": "نقطة تفتيش"
+ },
+ {
+  "label": "OBJECT:BusStop",
+  "text": "موقف حافلات"
+ },
+ {
+  "label": "OBJECT:Bush",
+  "text": "شجيرة"
+ },
+ {
+  "label": "OBJECT:Camaro",
+  "text": "سيارة"
+ },
+ {
+  "label": "OBJECT:CarBug",
+  "text": "سيارة"
+ },
+ {
+  "label": "OBJECT:CarSwatchEuro",
+  "text": "سيارة"
+ },
+ {
+  "label": "OBJECT:CargoLoadingCranes",
+  "text": "رافعات تحميل البضائع"
+ },
+ {
+  "label": "OBJECT:CargoNet",
+  "text": "شبكة شحن"
+ },
+ {
+  "label": "OBJECT:Cart",
+  "text": "عربة"
+ },
+ {
+  "label": "OBJECT:ChainLinkFence",
+  "text": "سياج شبكي"
+ },
+ {
+  "label": "OBJECT:Chalet",
+  "text": "شاليه"
+ },
+ {
+  "label": "OBJECT:CheckPointCrossingGuard",
+  "text": "نقطة تفتيش"
+ },
+ {
+  "label": "OBJECT:Chinook",
+  "text": "شينوك"
+ },
+ {
+  "label": "OBJECT:Church",
+  "text": "كنيسة"
+ },
+ {
+  "label": "OBJECT:Clete",
+  "text": "مربط"
+ },
+ {
+  "label": "OBJECT:ClothesLine",
+  "text": "حبل غسيل"
+ },
+ {
+  "label": "OBJECT:Comanche",
+  "text": "كومانش"
+ },
+ {
+  "label": "OBJECT:ComancheHull",
+  "text": "هيكل الكومانش"
+ },
+ {
+  "label": "OBJECT:CompactCar",
+  "text": "سيارة صغيرة"
+ },
+ {
+  "label": "OBJECT:Ambassador",
+  "text": "سفير"
+ },
+ {
+  "label": "OBJECT:Redguard",
+  "text": "الحرس الأحمر"
+ },
+ {
+  "label": "OBJECT:ConstructionBarricade",
+  "text": "حاجز إنشاءات"
+ },
+ {
+  "label": "OBJECT:ConvenienceStore",
+  "text": "متجر صغير"
+ },
+ {
+  "label": "OBJECT:ConvoyTruck",
+  "text": "شاحنة قافلة"
+ },
+ {
+  "label": "OBJECT:Cottage",
+  "text": "كوخ"
+ },
+ {
+  "label": "OBJECT:Crate",
+  "text": "صندوق"
+ },
+ {
+  "label": "OBJECT:CrossingGuard",
+  "text": "حارس عبور المشاة"
+ },
+ {
+  "label": "OBJECT:Crusader",
+  "text": "كروسيدر"
+ },
+ {
+  "label": "OBJECT:Paladin",
+  "text": "بالادين"
+ },
+ {
+  "label": "OBJECT:DaisyCutterBomb",
+  "text": "قنبلة الوقود الجوي"
+ },
+ {
+  "label": "OBJECT:BlackMarketNuke",
+  "text": "قنبلة نووية من السوق السوداء"
+ },
+ {
+  "label": "OBJECT:ToxinTank",
+  "text": "دبابة السموم"
+ },
+ {
+  "label": "OBJECT:AnthraxBomb",
+  "text": "قنبلة الجمرة الخبيثة"
+ },
+ {
+  "label": "OBJECT:CarpetBomb",
+  "text": "قصف سجادي"
+ },
+ {
+  "label": "OBJECT:ClusterMinesBomb",
+  "text": "ألغام عنقودية"
+ },
+ {
+  "label": "OBJECT:EMPPulseBomb",
+  "text": "نبضة كهرومغناطيسية"
+ },
+ {
+  "label": "OBJECT:NeutronMissile",
+  "text": "صاروخ نووي"
+ },
+ {
+  "label": "OBJECT:Dealership",
+  "text": "معرض سيارات"
+ },
+ {
+  "label": "OBJECT:Dirt",
+  "text": "تراب"
+ },
+ {
+  "label": "OBJECT:Docks",
+  "text": "أرصفة الميناء"
+ },
+ {
+  "label": "OBJECT:DogwoodTree",
+  "text": "شجرة"
+ },
+ {
+  "label": "OBJECT:Dozer",
+  "text": "جرافة بناء"
+ },
+ {
+  "label": "OBJECT:Dragon",
+  "text": "دبابة التنين"
+ },
+ {
+  "label": "OBJECT:ElectricRetail",
+  "text": "متجر إلكترونيات"
+ },
+ {
+  "label": "OBJECT:ElectricalTransformer",
+  "text": "محوّل كهربائي"
+ },
+ {
+  "label": "OBJECT:FireHydrant",
+  "text": "صنبور إطفاء"
+ },
+ {
+  "label": "OBJECT:StructureMine",
+  "text": "لغم"
+ },
+ {
+  "label": "OBJECT:ClusterMine",
+  "text": "لغم"
+ },
+ {
+  "label": "OBJECT:FireStorm",
+  "text": "عاصفة نارية"
+ },
+ {
+  "label": "OBJECT:FlamingInfantry",
+  "text": "مشاة مشتعلون"
+ },
+ {
+  "label": "OBJECT:ToxicInfantry",
+  "text": "مشاة سامّون"
+ },
+ {
+  "label": "OBJECT:FoodCart",
+  "text": "عربة طعام"
+ },
+ {
+  "label": "OBJECT:Fountain",
+  "text": "نافورة"
+ },
+ {
+  "label": "OBJECT:FruitStand",
+  "text": "كشك فاكهة"
+ },
+ {
+  "label": "OBJECT:Gargoyle",
+  "text": "تمثال حجري"
+ },
+ {
+  "label": "OBJECT:GasStation",
+  "text": "محطة وقود"
+ },
+ {
+  "label": "OBJECT:GasStorageFacility",
+  "text": "منشأة تخزين الغاز"
+ },
+ {
+  "label": "OBJECT:GattlingTank",
+  "text": "دبابة جاتلينج"
+ },
+ {
+  "label": "OBJECT:GrassHut",
+  "text": "كوخ من القش"
+ },
+ {
+  "label": "OBJECT:Gravel",
+  "text": "حصى"
+ },
+ {
+  "label": "OBJECT:FlashBangGrenade",
+  "text": "قنبلة صاعقة"
+ },
+ {
+  "label": "OBJECT:TankShell",
+  "text": "قذيفة دبابة"
+ },
+ {
+  "label": "OBJECT:Rebel",
+  "text": "متمرد"
+ },
+ {
+  "label": "OBJECT:JarmenKell",
+  "text": "جارمن كيل"
+ },
+ {
+  "label": "OBJECT:GuardTower",
+  "text": "برج حراسة"
+ },
+ {
+  "label": "OBJECT:GuardianControlCenter",
+  "text": "مركز تحكم الحارس"
+ },
+ {
+  "label": "OBJECT:GuardianDrone",
+  "text": "طائرة حراسة مسيّرة"
+ },
+ {
+  "label": "OBJECT:BlackLotus",
+  "text": "اللوتس الأسود"
+ },
+ {
+  "label": "OBJECT:Hanger",
+  "text": "حظيرة طائرات"
+ },
+ {
+  "label": "OBJECT:HarvardsOffice",
+  "text": "صندوق قمامة"
+ },
+ {
+  "label": "OBJECT:Hedge",
+  "text": "سياج شجيري"
+ },
+ {
+  "label": "OBJECT:HighwaySign",
+  "text": "لافتة طريق سريع"
+ },
+ {
+  "label": "OBJECT:Hijacker",
+  "text": "الخاطف"
+ },
+ {
+  "label": "OBJECT:AngryMobNexus",
+  "text": "<<حشد غاضب>>"
+ },
+ {
+  "label": "OBJECT:Hotel",
+  "text": "فندق"
+ },
+ {
+  "label": "OBJECT:Humvee",
+  "text": "همفي"
+ },
+ {
+  "label": "OBJECT:POWTruck",
+  "text": "شاحنة أسرى الحرب"
+ },
+ {
+  "label": "OBJECT:IndustrialBuilding",
+  "text": "مبنى صناعي"
+ },
+ {
+  "label": "OBJECT:InfernoCannon",
+  "text": "مدفع الجحيم"
+ },
+ {
+  "label": "OBJECT:JapaneseLantern",
+  "text": "فانوس ياباني"
+ },
+ {
+  "label": "OBJECT:JunkCar",
+  "text": "سيارة خردة"
+ },
+ {
+  "label": "OBJECT:Limo",
+  "text": "ليموزين"
+ },
+ {
+  "label": "OBJECT:Lumber",
+  "text": "أخشاب"
+ },
+ {
+  "label": "OBJECT:MIG",
+  "text": "ميغ"
+ },
+ {
+  "label": "OBJECT:MailBox",
+  "text": "صندوق بريد"
+ },
+ {
+  "label": "OBJECT:ManHoleCover",
+  "text": "غطاء فتحة صرف"
+ },
+ {
+  "label": "OBJECT:MapleTree",
+  "text": "شجرة"
+ },
+ {
+  "label": "OBJECT:MarketVendor",
+  "text": "بائع في السوق"
+ },
+ {
+  "label": "OBJECT:Medic",
+  "text": "سيارة إسعاف"
+ },
+ {
+  "label": "OBJECT:MegaMall",
+  "text": "مركز تسوق ضخم"
+ },
+ {
+  "label": "OBJECT:Missile",
+  "text": "صاروخ"
+ },
+ {
+  "label": "OBJECT:MissileTeam",
+  "text": "المدافع الصاروخي"
+ },
+ {
+  "label": "OBJECT:Moat",
+  "text": "خندق مائي"
+ },
+ {
+  "label": "OBJECT:MogadishuHighrise",
+  "text": "برج سكني"
+ },
+ {
+  "label": "OBJECT:NewsStand",
+  "text": "كشك صحف"
+ },
+ {
+  "label": "OBJECT:NightClub",
+  "text": "ملهى ليلي"
+ },
+ {
+  "label": "OBJECT:NotAMosque",
+  "text": "قبة"
+ },
+ {
+  "label": "OBJECT:NuclearMissile",
+  "text": "صاروخ نووي"
+ }
+]

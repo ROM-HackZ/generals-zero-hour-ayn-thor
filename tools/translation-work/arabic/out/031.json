@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaInfantryHacker",
+  "text": "الهاكر الخارق (&A)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildHacker",
+  "text": "متخفٍّ. يمكنه تعطيل مباني العدو ومركباته بفيروس حاسوبي أو اختراق الإنترنت لسرقة المال\n\nقوي ضد: المباني\nضعيف ضد: المشاة، المركبات"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus",
+  "text": "اللوتس الخارقة (&S)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost",
+  "text": "الموقع الهجومي (&O)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler",
+  "text": "ناقلة الجنود الهجومية (&A)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleHelix",
+  "text": "الهيليكس الهجومية (&X)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildHelix",
+  "text": "وسيلة نقل هجومية ثقيلة\nتُرقّى بمنشآت دفاعية وقنبلة نابالم\n\nقوي ضد: الدبابات، المركبات الخفيفة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "OBJECT:Infa_Helix",
+  "text": "هيليكس هجومية"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaScienceInfantryParadrop",
+  "text": "إسقاط رماة الرشاش الدوّار من الجو\n\nالرتبة 1: 5 رماة\nالرتبة 2: 10 رماة\nالرتبة 3: 15 راميًا\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeSuicideBomb",
+  "text": "قدرة التفجير (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeSuicideBomb",
+  "text": "يتيح لكل الوحدات\nودفاعات القاعدة استخدام\nقدرة التفجير"
+ },
+ {
+  "label": "OBJECT:MiniGunner",
+  "text": "رامي الرشاش الدوّار"
+ },
+ {
+  "label": "OBJECT:AirF_Chinook",
+  "text": "شينوك قتالية"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ConstructAmericaVehicleChinook",
+  "text": "الشينوك القتالية (&T)"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABUildChinook",
+  "text": "مروحية نقل هجومية. تجمع الإمدادات. تعمل مع جنود الرينجر لتنفيذ هجوم الإنزال القتالي"
+ },
+ {
+  "label": "CONTROLBAR:SuicideAttack",
+  "text": "انتحار (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASuicideAttack",
+  "text": "تفجير"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks",
+  "text": "زيادة 25% في سرعة الإمبراطور وباتل ماستر"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipUSABuildPowerPlant",
+  "text": "يوفر الطاقة للقواعد\n\nالطاقة المُنتَجة: 5"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildListeningOutpost",
+  "text": "وسيلة نقل هجومية. ترصد الوحدات المتخفية\n\nقوي ضد: المشاة، المباني\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ConstructChinaVehicleListeningOutpost",
+  "text": "موقع التنصت الهجومي (&S)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildTroopCrawler",
+  "text": "وسيلة نقل هجومية. تأتي مع 8 رماة رشاش دوّار. ترصد الوحدات المتخفية\n\nقوي ضد: المشاة، المباني\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildListeningOutpost",
+  "text": "وسيلة نقل. تتسع لـ 8 جنود مشاة. ترصد الوحدات المتخفية\n\nقوي ضد: المشاة، المباني\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaBunker",
+  "text": "مخبأ محصّن (&K)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildBunker",
+  "text": "يتسع لـ 10 جنود صينيين\nيأتي مع ترقية حقل الألغام"
+ },
+ {
+  "label": "OBJECT:Infa_Bunker",
+  "text": "مخبأ محصّن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSneakAttack",
+  "text": "تستطيع القوات إنشاء نفق في أي مكان من الخريطة\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLAInfantryRebel",
+  "text": "متمرد السموم (&B)"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildRebel",
+  "text": "يطلق تيارًا من السموم\nقوي ضد: المشاة\nضعيف ضد: الدبابات، المركبات الخفيفة"
+ },
+ {
+  "label": "OBJECT:Chem_Rebel",
+  "text": "متمرد السموم"
+ },
+ {
+  "label": "OBJECT:Chem_Terrorist",
+  "text": "إرهابي السموم"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLAInfantryTerrorist",
+  "text": "إرهابي السموم (&T)"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildTerrorist",
+  "text": "جندي انتحاري ينفجر في سحابة من السموم"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLATunnelNetwork",
+  "text": "شبكة السموم (&N)"
+ },
+ {
+  "label": "OBJECT:Chem_TunnelNetwork",
+  "text": "شبكة السموم"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildTunnelNetwork",
+  "text": "دفاع للقاعدة ونفق تحت الأرض. يطلق تيارًا من السموم. يمكن للوحدات دخول شبكة الأنفاق والخروج من أي شبكة أنفاق أخرى"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeStealthComanche",
+  "text": "ترقية التخفي (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAirFUpgradeComancheStealth",
+  "text": "تصبح الكومانش متخفية"
+ },
+ {
+  "label": "OBJECT:Entrance",
+  "text": "مدخل"
+ },
+ {
+  "label": "CONTROLBAR:Boss_TooltipChinaUpgradeNationalism",
+  "text": "زيادة 25% في مكافأة الحشد لصائد الدبابات"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildPowerPlant",
+  "text": "يوفر الطاقة لقواعد الولايات المتحدة\n\nالطاقة المُنتَجة: 8"
+ },
+ {
+  "label": "GUI:DoubleClickAttackMove",
+  "text": "حراسة بالنقر المزدوج"
+ },
+ {
+  "label": "TOOLTIP:DoubleClickAttackMove",
+  "text": "تتحرك وحدات اللاعب ثم تحرس منطقة وجهتها عند النقر المزدوج على زر الأمر"
+ },
+ {
+  "label": "DIALOGEVENT:01_AllCheerSoundSubtitle",
+  "text": "<هتاف>"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery",
+  "text": "دفاع أرضي وجوي. يمكنه نقل موقع العدو إلى الأبراج القريبة\n\nالطاقة المطلوبة: 5"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ConstructAmericaPatriotBattery",
+  "text": "برج الدفاع الليزري (&T)"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ConstructAmericaTankCrusader",
+  "text": "دبابة الليزر (&T)"
+ },
+ {
+  "label": "OBJECT:Lazr_Tank",
+  "text": "دبابة ليزر"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildCrusader",
+  "text": "قوي ضد: المركبات، المباني\nضعيف ضد: الطائرات، المشاة المسلحين بالصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildEmperor",
+  "text": "قوي ضد: المركبات، المباني\nضعيف ضد: الصواريخ، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSAScienceSpectreGunship",
+  "text": "تحلّق الحربيات سبكتر فوق ساحة المعركة وتسحق قوات العدو بمدافع الهاوتزر والجاتلينج\n\nالمستوى 1: 10 ثوانٍ\nالمستوى 2: 15 ثانية\nالمستوى 3: 30 ثانية\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "OBJECT:ValveStation",
+  "text": "محطة صمامات"
+ },
+ {
+  "label": "HELP:Hijacker-01",
+  "text": "تلميح:\nأدخل خاطفًا إلى مركبة معادية لسرقتها"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint08",
+  "text": "تلميح:\nابنِ قواعد النيران للمساعدة على حماية قاعدتك"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint09",
+  "text": "رسالة واردة:\nعُثر على عميل وكالة المخابرات المركزية"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint10",
+  "text": "تلميح:\nابنِ دفاعات في حقل النفط لحماية الآبار"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint11",
+  "text": "رسالة واردة:\nدُمّرت محطة إذاعة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:MD-USA06Warning17",
+  "text": "تحذير:\nعُرف عن الدكتور ثراكس استخدامه شبكة أنفاق الهجوم المباغت\nلمفاجأة أعدائه"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_1",
+  "text": "\nيبدأ الهجوم على القاعدة الصينية الآن\nقاعدتهم ستصبح لنا قريبًا"
+ },
+ {
+  "label": "MAP:MD_CHI03-Title-01",
+  "text": "كوبورغ، ألمانيا\n'التحرير'"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-01",
+  "text": "هدف المهمة:\nدمّر تماثيل جيش التحرير العالمي لتحرير المدينة\nسينخفض الرأي العام الدولي تجاهنا حتى ننجح"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-02",
+  "text": "رسالة واردة:\nإن وصل الرأي العام الدولي تجاهنا إلى 0 فسنُهزم"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-03",
+  "text": "رسالة واردة:\nدمّر تماثيل جيش التحرير العالمي لتحسين الرأي العام الدولي تجاهنا"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-10",
+  "text": "رسالة واردة:\nحرّرنا المدينة\nأبِد الآن قاعدة جيش التحرير العالمي على الضفة الشمالية للنهر"
+ },
+ {
+  "label": "MAP:MD_CHI03-Event-Built-SpeakerTower-01",
+  "text": "رسالة واردة:\nبرج مكبرات الصوت هذا يحسّن الرأي العام الدولي تجاهنا"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaUraniumShells",
+  "text": "زيادة 25% في ضرر قذائف باتل ماستر والإمبراطور"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBuggyAmmo",
+  "text": "زيادة 100% في ذخيرة عربة الصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLAUpgradeAPBullets",
+  "text": "زيادة 25% في ضرر الوحدات التي تطلق الرصاص"
+ },
+ {
+  "label": "GUI:BioFeatures_USA",
+  "text": "أم القنابل\nالتدابير المضادة\nمدمّر المخابئ\nطائرة هيلفاير المسيّرة\nالحربية سبكتر\nطائرة الحراسة المسيّرة\nدبابة الميكروويف\nأفنجر\nقاعدة النيران"
+ },
+ {
+  "label": "GUI:BioFeatures_GLA",
+  "text": "الهجوم المباغت\nمشوّش GPS\nالمخرّب\nالفخ المفخخ\nشباك التمويه\nالمباني الوهمية\nالمباني المحصّنة\nالدراجات القتالية\nحافلة القتال"
+ },
+ {
+  "label": "GUI:BioFeatures_China",
+  "text": "هيليكس\nموقع التنصت\nالألغام النيوترونية\nالهيجان\nمركز الإنترنت\nقاذفة القصف السجادي\nدبابة التشويش الإلكتروني\n"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos0",
+  "text": "الرابتور الملك\nالشينوك القتالية\nدفاعات الليزر النقطية\nترقية تخفي الكومانش\nتخفيض تكلفة الطائرات\nالحربية سبكتر برتبة أدنى\nيبدأ بالمقاتلة الشبحية\nبلا دبابات"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos1",
+  "text": "متمردو السموم\nشبكات السموم\nإرهابيو السموم\nالجمرة الخبيثة غاما\nالدبابات تبدأ بقذائف سامة\nالسموم تبدأ بالجمرة الخبيثة بيتا"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos2",
+  "text": "الدبابات تبدأ بقذائف اليورانيوم\nميغ بقنبلة نووية تكتيكية\nترقية استقرار النظائر\nمفاعل نووي متطور\nالقاذفة النووية\nيبدأ بالمدافع النووية"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos3",
+  "text": "أورورا ألفا\nمنظومة باتريوت الكهرومغناطيسية\nالقضبان المتطورة\nمدافع الجسيمات أرخص\nالمركبات أغلى\nبلا دبابات"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos4",
+  "text": "دبابة الإمبراطور\nإنزال الدبابات\nكل الدبابات تبدأ قدامى محاربين\nالدبابات أرخص\nالطائرات أغلى\nبلا مدافع نووية أو مدافع جحيم"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos5",
+  "text": "دبابة الليزر\nبرج الدفاع الليزري\nالأفنجر أرخص\nمفاعلات اندماج بارد متطورة\nبلا منصات صواريخ توماهوك"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos6",
+  "text": "يمكن تمويه كل المنشآت بالشباك\nمتمردون مموّهون\nالدفاعات تبدأ بشباك التمويه\nيبدأ بالخاطف\nالخاطف متخفٍّ دائمًا\nيحصل على مشوّش GPS أبكر\nيستخدم مشوّش GPS أكثر"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos7",
+  "text": "ناقلة الجنود الهجومية\nالهيليكس الهجومية\nالموقع الهجومي\nالمخابئ المحصّنة\nرامي الرشاش الدوّار\nاللوتس الأسود تخترق أسرع\nالهاكرز يخترقون أسرع\nإنزال رماة الرشاش الدوّار\nكل المشاة يبدؤون قدامى محاربين"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos8",
+  "text": "فخ التفجير المتطور\nترقية القنبلة الانتحارية\nالإرهابيون يُحدثون ضررًا أكبر\nيبدأ بالفخ المفخخ\nالدراجات القتالية تبدأ بإرهابي\nبلا وحدات مموّهة\nالشاحنات المفخخة أرخص"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos9",
+  "text": "يستخدم أفضل الأفضل\nكل الأبطال\nكل الأسلحة الخارقة\nقدرات جنرالات متنوعة\nوحدات من كل الفصائل\nدفاعات متطورة\n"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos10",
+  "text": "غير مطبّق"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos11",
+  "text": "غير مطبّق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_AirTrafficControl01Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth107Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth105Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth106Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "GUI:GroupRoom14",
+  "text": "الجيوش الأصلية فقط"
+ },
+ {
+  "label": "OBJECT:MissileSilo",
+  "text": "صومعة صواريخ"
+ },
+ {
+  "label": "OBJECT:ScudLauncherHiDef",
+  "text": "منصة سكود"
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainParticleBones",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainScrollingSnow",
+  "text": "ثلج"
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainStatic",
+  "text": "جبل"
+ },
+ {
+  "label": "OBJECT:CINE_TreeBirds",
+  "text": "طيور"
+ },
+ {
+  "label": "TOOLTIP:NoUserMaps",
+  "text": "الخرائط غير الرسمية غير مسموحة في الألعاب التي تُسجَّل إحصاءاتها"
+ },
+ {
+  "label": "GUI:FireWallPort",
+  "text": "تجاوز منفذ الجدار الناري:"
+ },
+ {
+  "label": "TOOLTIP:FireWallPort",
+  "text": "رقم منفذ الجدار الناري المفتوح"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaOverlordGattlingCannon",
+  "text": "بناء مدفع جاتلينج على هذا الإمبراطور"
+ },
+ {
+  "label": "OBJECT:Tank_Overlord",
+  "text": "الإمبراطور"
+ },
+ {
+  "label": "GUI:USAAllies",
+  "text": "حلفاء الولايات المتحدة"
+ },
+ {
+  "label": "GUI:USAEnemies",
+  "text": "أعداء الولايات المتحدة"
+ },
+ {
+  "label": "OBJECT:BigNuclearReactor",
+  "text": "مفاعل نووي"
+ },
+ {
+  "label": "CONTROLBAR:SabotageBuilding",
+  "text": "تخريب المبنى (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASabotageBuilding",
+  "text": "يمكنه تعطيل مباني العدو مؤقتًا\n\nقوي ضد: منشآت العدو\nضعيف ضد: المشاة، الكشافة"
+ },
+ {
+  "label": "SCIENCE:Nuke_ChinaCarpetBomb",
+  "text": "قاذفة نووية"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ConstructGLADemoTrap",
+  "text": "فخ تفجير متطور (&D)"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ConstructChinaPowerPlant",
+  "text": "مفاعل نووي متطور (&R)"
+ },
+ {
+  "label": "CONTROLBAR:SupW_UpgradeAmericaAdvancedControlRods",
+  "text": "قضبان التحكم المتطورة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_CarpetBomb",
+  "text": "القاذفة النووية (&K)"
+ },
+ {
+  "label": "OBJECT:Nuke_NuclearReactor",
+  "text": "مفاعل نووي متقدم"
+ },
+ {
+  "label": "OBJECT:Demo_DemoTrap",
+  "text": "فخ تفجير متقدم"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildPowerPlant",
+  "text": "مفاعل نووي متطور. يمكن تحميله فوق طاقته لتوفير طاقة أكبر\n\nالطاقة المُنتَجة: 18"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaScienceCarpetBomb",
+  "text": "يتيح لك استدعاء قاذفة ثقيلة لقصف منطقة قصفًا سجاديًا بقنابل نووية تكتيكية\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_TooltipCarpetBomb",
+  "text": "قصف نووي لمنطقة مستهدفة\n\nمؤقت العد التنازلي: 3:00"
+ },
+ {
+  "label": "GUI:FastForwardInstructions",
+  "text": "اضغط F لتفعيل التسريع أو إيقافه"
+ },
+ {
+  "label": "GUI:FF_ON",
+  "text": "التسريع مفعّل"
+ },
+ {
+  "label": "GUI:FF_OFF",
+  "text": "التسريع معطّل"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDropShort",
+  "text": "إلقاء المنشورات"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttackShort",
+  "text": "الهجوم المباغت"
+ },
+ {
+  "label": "CONTROLBAR:TankParadropShort",
+  "text": "إنزال دبابات"
+ },
+ {
+  "label": "OBJECT:Nuke_CarpetBomb",
+  "text": "القاذفة النووية"
+ },
+ {
+  "label": "CONTROLBAR:Slth_ConstructGLAInfantryRebel",
+  "text": "المتمرد المتخفي (&B)"
+ },
+ {
+  "label": "GUI:AdjustGameSpeed",
+  "text": "ضبط سرعة اللعبة"
+ },
+ {
+  "label": "GUI:SkirmishLower",
+  "text": "مناوشة"
+ },
+ {
+  "label": "GUI:Refresh",
+  "text": "تحديث"
+ },
+ {
+  "label": "CONTROLBAR:MOAB",
+  "text": "أم القنابل (&B)"
+ },
+ {
+  "label": "MAP:TournamentPlains",
+  "text": "Tournament Plains"
+ },
+ {
+  "label": "MAP:DarkNight",
+  "text": "Dark Night"
+ },
+ {
+  "label": "MAP:TournamentUrban",
+  "text": "Tournament Urban"
+ },
+ {
+  "label": "MAP:TwoRoads",
+  "text": "Two Roads"
+ },
+ {
+  "label": "CONTROLBAR:Chem_TooltipFireRebelAmbush",
+  "text": "يستدعي متمردي سموم\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABuildAurora",
+  "text": "هجومها الأسرع من الصوت يجعل الأورورا محصّنة من نيران العدو. بعد الهجوم تنخفض سرعتها إلى 50%\n\nقوي ضد: المباني\nضعيف ضد: المقاتلات، الوحدات المضادة للطائرات"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush",
+  "text": "يتيح لك نصب كمين مفاجئ من متمردي السموم في أي مكان\n\nالرتبة 1: 4 متمردي سموم\nالرتبة 2: 8 متمردي سموم\nالرتبة 3: 16 متمرد سموم\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CREDITS:PackagingProjectManager",
+  "text": "مدير مشروع التغليف"
+ },
+ {
+  "label": "CREDITS:PackagingDesign",
+  "text": "تصميم التغليف"
+ },
+ {
+  "label": "CREDITS:DocumentationLayout",
+  "text": "تخطيط التوثيق"
+ },
+ {
+  "label": "CREDITS:DocumentationEditor",
+  "text": "محرر التوثيق"
+ },
+ {
+  "label": "CREDITS:Writer",
+  "text": "الكاتب"
+ },
+ {
+  "label": "CREDITS:Studio",
+  "text": "الاستوديو"
+ },
+ {
+  "label": "CREDITS:ChineseLanguageTester",
+  "text": "مختبر اللغة الصينية"
+ },
+ {
+  "label": "CREDITS:Marketing",
+  "text": "التسويق"
+ },
+ {
+  "label": "CREDITS:QuotedTraducoes",
+  "text": "Quoted Traduções"
+ },
+ {
+  "label": "CREDITS:ClementDuval",
+  "text": "Clément Duval"
+ },
+ {
+  "label": "CREDITS:JoseLuisRovira",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:ExecutiveProducer",
+  "text": "المنتج التنفيذي"
+ },
+ {
+  "label": "CREDITS:TechnicalDirection",
+  "text": "الإدارة التقنية"
+ },
+ {
+  "label": "CREDITS:LeadArtists",
+  "text": "كبار الفنانين"
+ },
+ {
+  "label": "CREDITS:QualityAssurance",
+  "text": "ضمان الجودة"
+ },
+ {
+  "label": "CREDITS:TestAnalysts",
+  "text": "محللو الاختبار"
+ },
+ {
+  "label": "CREDITS:TiburonAdditionalQualityAssurance",
+  "text": "ضمان جودة إضافي في Tiburon"
+ },
+ {
+  "label": "CREDITS:LocalizationBrazil",
+  "text": "التعريب - البرازيل"
+ },
+ {
+  "label": "CREDITS:TranslationServices",
+  "text": "خدمات الترجمة"
+ },
+ {
+  "label": "CREDITS:TranslationCoordinator",
+  "text": "منسق الترجمة"
+ },
+ {
+  "label": "CREDITS:LTCoordinator",
+  "text": "منسق اختبار اللغة"
+ },
+ {
+  "label": "CREDITS:RecordingStudio",
+  "text": "استوديو التسجيل"
+ },
+ {
+  "label": "CREDITS:EAWorldwideDevelopmentExecutives",
+  "text": "مسؤولو التطوير العالميون في EA"
+ },
+ {
+  "label": "CREDITS:SpecialThanks",
+  "text": "شكر خاص"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam3",
+  "text": "فريق التطوير"
+ },
+ {
+  "label": "CREDITS:NACustomerQualityControl",
+  "text": "مراقبة جودة العملاء في أمريكا الشمالية"
+ },
+ {
+  "label": "CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods",
+  "text": "يوفر المفاعل طاقة أكثر بنسبة 300%"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABuildStealthFighter",
+  "text": "متخفية أثناء الحركة\nمزودة بليزر دفاع نقطي\n\nقوي ضد: دفاعات قاعدة العدو\nضعيف ضد: مقاتلات العدو"
+ },
+ {
+  "label": "GUI:RetaliationTitle",
+  "text": "الرد التلقائي"
+ },
+ {
+  "label": "GUI:Retaliation",
+  "text": "أوقف هذا الزر لمنع وحداتك من الرد تلقائيًا على الأعداء المهاجمين"
+ },
+ {
+  "label": "CREDITS:LocalizationChinese",
+  "text": "التعريب - الصينية"
+ },
+ {
+  "label": "MAP:Breakdown",
+  "text": "Breakdown"
+ },
+ {
+  "label": "MAP:BulletMassacre",
+  "text": "Bullet Massacre"
+ },
+ {
+  "label": "MAP:CarnageCityLimits",
+  "text": "Carnage City Limits"
+ },
+ {
+  "label": "MAP:Cityscape",
+  "text": "Cityscape"
+ },
+ {
+  "label": "MAP:CivilUnrest",
+  "text": "Civil Unrest"
+ },
+ {
+  "label": "MAP:CottageCheese",
+  "text": "Cottage Cheese"
+ },
+ {
+  "label": "MAP:DeathValley",
+  "text": "Death Valley"
+ },
+ {
+  "label": "MAP:DogsOfWar",
+  "text": "Dogs of War"
+ },
+ {
+  "label": "MAP:DoorToDoor",
+  "text": "Door to Door"
+ },
+ {
+  "label": "MAP:FarmersFrenzy",
+  "text": "Farmers Frenzy"
+ },
+ {
+  "label": "MAP:Firestorm",
+  "text": "Firestorm"
+ },
+ {
+  "label": "MAP:FlakAttack",
+  "text": "Flak Attack"
+ },
+ {
+  "label": "MAP:FlankTown",
+  "text": "Flank Town"
+ },
+ {
+  "label": "MAP:Flashbang",
+  "text": "Flash Bang"
+ },
+ {
+  "label": "MAP:FoxHunt",
+  "text": "Fox Hunt"
+ },
+ {
+  "label": "MAP:GhostTown",
+  "text": "Ghost Town"
+ },
+ {
+  "label": "MAP:HighRoad",
+  "text": "High Road"
+ },
+ {
+  "label": "MAP:HighlandHunt",
+  "text": "Highland Hunt"
+ },
+ {
+  "label": "MAP:HostileDawn",
+  "text": "Hostile Dawn"
+ },
+ {
+  "label": "MAP:IslandInTheZone",
+  "text": "Island in the Zone"
+ },
+ {
+  "label": "MAP:JungleRebellion",
+  "text": "Jungle Rebellion"
+ },
+ {
+  "label": "MAP:LARiot",
+  "text": "L.A. Riot"
+ },
+ {
+  "label": "MAP:Liberation",
+  "text": "Liberation"
+ },
+ {
+  "label": "MAP:LongNight",
+  "text": "Long Night"
+ },
+ {
+  "label": "MAP:ManicAggression",
+  "text": "Manic Aggression"
+ },
+ {
+  "label": "MAP:Marshland",
+  "text": "Marshland"
+ },
+ {
+  "label": "MAP:Mirage",
+  "text": "Mirage"
+ },
+ {
+  "label": "MAP:PanicDemise",
+  "text": "Panic Demise"
+ },
+ {
+  "label": "MAP:PowerPlay",
+  "text": "Power Play"
+ },
+ {
+  "label": "MAP:RedRock",
+  "text": "Red Rock"
+ },
+ {
+  "label": "MAP:RubbleTown",
+  "text": "Rubble Town"
+ },
+ {
+  "label": "MAP:SeasideMutiny",
+  "text": "Seaside Mutiny"
+ },
+ {
+  "label": "MAP:ShellShocker",
+  "text": "Shell Shocker"
+ },
+ {
+  "label": "MAP:Shellshock",
+  "text": "Shellshock"
+ },
+ {
+  "label": "MAP:ShockAndAwe",
+  "text": "Shock and Awe"
+ },
+ {
+  "label": "MAP:Shockwave",
+  "text": "Shockwave"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:GameOptions",
+  "text": "گزینه‌های بازی"
+ },
+ {
+  "label": "GUI:SinglePlayer",
+  "text": "بازی تک‌نفره"
+ },
+ {
+  "label": "GUI:Network",
+  "text": "شبکه"
+ },
+ {
+  "label": "GUI:Options",
+  "text": "گزینه‌ها"
+ },
+ {
+  "label": "GUI:Skirmish",
+  "text": "نبرد آزاد"
+ },
+ {
+  "label": "GUI:Back",
+  "text": "بازگشت"
+ },
+ {
+  "label": "GUI:StartGame",
+  "text": "شروع بازی"
+ },
+ {
+  "label": "GUI:Color",
+  "text": "رنگ"
+ },
+ {
+  "label": "GUI:Slower",
+  "text": "کندتر"
+ },
+ {
+  "label": "GUI:Faster",
+  "text": "سریع‌تر"
+ },
+ {
+  "label": "GUI:Low",
+  "text": "کم"
+ },
+ {
+  "label": "GUI:Medium",
+  "text": "متوسط"
+ },
+ {
+  "label": "GUI:High",
+  "text": "زیاد"
+ },
+ {
+  "label": "GUI:None",
+  "text": "هیچ"
+ },
+ {
+  "label": "GUI:Random",
+  "text": "تصادفی"
+ },
+ {
+  "label": "GUI:Cancel",
+  "text": "لغو"
+ },
+ {
+  "label": "GUI:Ok",
+  "text": "تأیید"
+ },
+ {
+  "label": "GUI:Delete",
+  "text": "حذف"
+ },
+ {
+  "label": "GUI:Description",
+  "text": "توضیحات"
+ },
+ {
+  "label": "GUI:Load",
+  "text": "بارگذاری"
+ },
+ {
+  "label": "GUI:Progress",
+  "text": "پیشرفت"
+ },
+ {
+  "label": "GUI:Assign",
+  "text": "تخصیص"
+ },
+ {
+  "label": "GUI:CustomizeKeyboard",
+  "text": "شخصی‌سازی صفحه‌کلید"
+ },
+ {
+  "label": "GUI:Category",
+  "text": "دسته"
+ },
+ {
+  "label": "GUI:Commands",
+  "text": "فرمان‌ها"
+ },
+ {
+  "label": "GUI:ResetAll",
+  "text": "بازنشانی همه"
+ },
+ {
+  "label": "GUI:DisplayOptions",
+  "text": "گزینه‌های نمایش"
+ },
+ {
+  "label": "GUI:KeyboardOptions",
+  "text": "گزینه‌های صفحه‌کلید"
+ },
+ {
+  "label": "GUI:MainMenu",
+  "text": "خروج"
+ },
+ {
+  "label": "GUI:Units",
+  "text": "یگان‌ها"
+ },
+ {
+  "label": "GUI:Buildings",
+  "text": "ساختمان‌ها"
+ },
+ {
+  "label": "GUI:Players",
+  "text": "بازیکنان"
+ },
+ {
+  "label": "GUI:Preview",
+  "text": "پیش‌نمایش نقشه"
+ },
+ {
+  "label": "GUI:Save",
+  "text": "ذخیره"
+ },
+ {
+  "label": "GUI:Side",
+  "text": "ارتش"
+ },
+ {
+  "label": "GUI:Accept",
+  "text": "پذیرفتن"
+ },
+ {
+  "label": "GUI:Games",
+  "text": "بازی‌ها"
+ },
+ {
+  "label": "GUI:Join",
+  "text": "پیوستن به بازی"
+ },
+ {
+  "label": "GUI:LoadGame",
+  "text": "بارگذاری بازی"
+ },
+ {
+  "label": "GUI:SaveGame",
+  "text": "ذخیره بازی"
+ },
+ {
+  "label": "GUI:Score",
+  "text": "امتیاز"
+ },
+ {
+  "label": "GUI:Add",
+  "text": "افزودن"
+ },
+ {
+  "label": "GUI:MusicVolume",
+  "text": "صدای موسیقی"
+ },
+ {
+  "label": "GUI:VoiceVolume",
+  "text": "صدای گفتار"
+ },
+ {
+  "label": "GUI:Play",
+  "text": "شروع بازی"
+ },
+ {
+  "label": "GUI:Stop",
+  "text": "توقف"
+ },
+ {
+  "label": "GUI:Continue",
+  "text": "ادامه"
+ },
+ {
+  "label": "GUI:MaxPing",
+  "text": "حداکثر پینگ مجاز:"
+ },
+ {
+  "label": "GUI:Ladder",
+  "text": "رده‌بندی"
+ },
+ {
+  "label": "GUI:Close",
+  "text": "بستن"
+ },
+ {
+  "label": "GUI:Help",
+  "text": "راهنما"
+ },
+ {
+  "label": "GUI:Rank",
+  "text": "درجه"
+ },
+ {
+  "label": "GUI:Password",
+  "text": "گذرواژه"
+ },
+ {
+  "label": "GUI:Disconnect",
+  "text": "قطع اتصال"
+ },
+ {
+  "label": "GUI:No",
+  "text": "نه"
+ },
+ {
+  "label": "GUI:Yes",
+  "text": "بله"
+ },
+ {
+  "label": "GUI:Blank",
+  "text": "."
+ },
+ {
+  "label": "GUI:Open",
+  "text": "باز"
+ },
+ {
+  "label": "GUI:Closed",
+  "text": "بسته"
+ },
+ {
+  "label": "GUI:Login",
+  "text": "ورود"
+ },
+ {
+  "label": "GUI:WOLWelcome",
+  "text": "خوش آمدی ژنرال %hs"
+ },
+ {
+  "label": "GUI:QuickMatch",
+  "text": "مسابقه سریع"
+ },
+ {
+  "label": "GUI:CustomMatch",
+  "text": "مسابقه سفارشی"
+ },
+ {
+  "label": "GUI:LadderRank",
+  "text": "رتبه در رده‌بندی"
+ },
+ {
+  "label": "GUI:Disconnects",
+  "text": "قطع اتصال‌ها"
+ },
+ {
+  "label": "GUI:CreateGame",
+  "text": "ساخت بازی"
+ },
+ {
+  "label": "GUI:AutoLogin",
+  "text": "ورود خودکار در آینده"
+ },
+ {
+  "label": "GUI:AddBuddy",
+  "text": "افزودن دوست"
+ },
+ {
+  "label": "GUI:RemoveBuddy",
+  "text": "حذف دوست"
+ },
+ {
+  "label": "GUI:AudioOptions",
+  "text": "گزینه‌های صدا"
+ },
+ {
+  "label": "GUI:LadderWins",
+  "text": "بردهای رده‌بندی"
+ },
+ {
+  "label": "GUI:LadderLosses",
+  "text": "باخت‌های رده‌بندی"
+ },
+ {
+  "label": "GUI:LadderPoints",
+  "text": "امتیاز رده‌بندی"
+ },
+ {
+  "label": "WOL:BuddyOffline",
+  "text": "%ls آفلاین است"
+ },
+ {
+  "label": "WOL:Locale00",
+  "text": "نامشخص"
+ },
+ {
+  "label": "WOL:Locale01",
+  "text": "مکان دیگر"
+ },
+ {
+  "label": "WOL:Locale02",
+  "text": "ایالات متحده"
+ },
+ {
+  "label": "WOL:Locale03",
+  "text": "کانادا"
+ },
+ {
+  "label": "WOL:Locale04",
+  "text": "بریتانیا"
+ },
+ {
+  "label": "WOL:Locale05",
+  "text": "آلمان"
+ },
+ {
+  "label": "WOL:Locale06",
+  "text": "فرانسه"
+ },
+ {
+  "label": "WOL:Locale07",
+  "text": "اسپانیا"
+ },
+ {
+  "label": "WOL:Locale08",
+  "text": "هلند"
+ },
+ {
+  "label": "WOL:Locale09",
+  "text": "بلژیک"
+ },
+ {
+  "label": "WOL:Locale10",
+  "text": "اتریش"
+ },
+ {
+  "label": "WOL:Locale11",
+  "text": "سوئیس"
+ },
+ {
+  "label": "WOL:Locale12",
+  "text": "ایتالیا"
+ },
+ {
+  "label": "WOL:Locale13",
+  "text": "دانمارک"
+ },
+ {
+  "label": "WOL:Locale14",
+  "text": "سوئد"
+ },
+ {
+  "label": "WOL:Locale15",
+  "text": "نروژ"
+ },
+ {
+  "label": "WOL:Locale16",
+  "text": "فنلاند"
+ },
+ {
+  "label": "WOL:Locale17",
+  "text": "اسرائیل"
+ },
+ {
+  "label": "WOL:Locale18",
+  "text": "آفریقای جنوبی"
+ },
+ {
+  "label": "WOL:Locale19",
+  "text": "ژاپن"
+ },
+ {
+  "label": "WOL:Locale20",
+  "text": "کره"
+ },
+ {
+  "label": "WOL:Locale21",
+  "text": "چین"
+ },
+ {
+  "label": "WOL:Locale22",
+  "text": "سنگاپور"
+ },
+ {
+  "label": "WOL:Locale23",
+  "text": "تایوان"
+ },
+ {
+  "label": "WOL:Locale24",
+  "text": "مالزی"
+ },
+ {
+  "label": "WOL:Locale25",
+  "text": "استرالیا"
+ },
+ {
+  "label": "WOL:Locale26",
+  "text": "نیوزیلند"
+ },
+ {
+  "label": "WOL:Locale27",
+  "text": "برزیل"
+ },
+ {
+  "label": "WOL:Locale28",
+  "text": "تایلند"
+ },
+ {
+  "label": "WOL:Locale29",
+  "text": "آرژانتین"
+ },
+ {
+  "label": "WOL:Locale30",
+  "text": "فیلیپین"
+ },
+ {
+  "label": "WOL:Locale31",
+  "text": "یونان"
+ },
+ {
+  "label": "WOL:Locale32",
+  "text": "ایرلند"
+ },
+ {
+  "label": "WOL:Locale33",
+  "text": "لهستان"
+ },
+ {
+  "label": "WOL:Locale34",
+  "text": "پرتغال"
+ },
+ {
+  "label": "WOL:Locale35",
+  "text": "مکزیک"
+ },
+ {
+  "label": "WOL:Locale36",
+  "text": "روسیه"
+ },
+ {
+  "label": "WOL:Locale37",
+  "text": "ترکیه"
+ },
+ {
+  "label": "GUI:Observer",
+  "text": "ناظر"
+ },
+ {
+  "label": "GUI:Team",
+  "text": "تیم"
+ },
+ {
+  "label": "LETTER:G",
+  "text": "G"
+ },
+ {
+  "label": "LETTER:L",
+  "text": "L"
+ },
+ {
+  "label": "LETTER:M",
+  "text": "M"
+ },
+ {
+  "label": "LETTER:S",
+  "text": "S"
+ },
+ {
+  "label": "LETTER:O",
+  "text": "O"
+ },
+ {
+  "label": "NUMBER:1",
+  "text": "1"
+ },
+ {
+  "label": "NUMBER:2",
+  "text": "2"
+ },
+ {
+  "label": "NUMBER:3",
+  "text": "3"
+ },
+ {
+  "label": "NUMBER:4",
+  "text": "4"
+ },
+ {
+  "label": "NUMBER:5",
+  "text": "5"
+ },
+ {
+  "label": "NUMBER:6",
+  "text": "6"
+ },
+ {
+  "label": "NUMBER:7",
+  "text": "7"
+ },
+ {
+  "label": "NUMBER:8",
+  "text": "8"
+ },
+ {
+  "label": "NUMBER:9",
+  "text": "9"
+ },
+ {
+  "label": "NUMBER:0",
+  "text": "0"
+ },
+ {
+  "label": "Color:Gold",
+  "text": "طلایی"
+ },
+ {
+  "label": "Color:Red",
+  "text": "قرمز"
+ },
+ {
+  "label": "Color:Blue",
+  "text": "آبی"
+ },
+ {
+  "label": "Color:Green",
+  "text": "سبز"
+ },
+ {
+  "label": "Color:Orange",
+  "text": "نارنجی"
+ },
+ {
+  "label": "Color:SkyBlue",
+  "text": "فیروزه‌ای"
+ },
+ {
+  "label": "Color:Purple",
+  "text": "بنفش"
+ },
+ {
+  "label": "Color:Pink",
+  "text": "صورتی"
+ },
+ {
+  "label": "MSG:Testing",
+  "text": "اتل متل توتوله، گاو حسن چه جوره"
+ },
+ {
+  "label": "MSG:Test2",
+  "text": "نه شیر داره نه پستون، شیرشو بردن هندستون"
+ },
+ {
+  "label": "GUI:ShowBehindBuildings",
+  "text": "ردپای حرارتی پشت ساختمان‌ها: روشن"
+ },
+ {
+  "label": "GUI:HideBehindBuildings",
+  "text": "ردپای حرارتی پشت ساختمان‌ها: خاموش"
+ },
+ {
+  "label": "GUI:DetailsSetToLowest",
+  "text": "جزئیات گرافیکی کم"
+ },
+ {
+  "label": "GUI:ReturnGraphicsToPreviousSettings",
+  "text": "بازگرداندن جزئیات گرافیکی به تنظیمات قبلی"
+ },
+ {
+  "label": "GUI:BeaconLabel",
+  "text": "پیام را بنویسید:"
+ },
+ {
+  "label": "GUI:Beacon",
+  "text": "نشانگر"
+ },
+ {
+  "label": "GUI:EACopyright",
+  "text": "© 2003 ELECTRONIC ARTS INC. ALL RIGHTS RESERVED"
+ },
+ {
+  "label": "GUI:DeleteBeacon",
+  "text": "حذف\nنشانگر"
+ },
+ {
+  "label": "GUI:BeaconPlaced",
+  "text": "%ls یک نشانگر گذاشت"
+ },
+ {
+  "label": "GUI:BeaconPlacementFailed",
+  "text": "اینجا نمی‌توان نشانگر گذاشت"
+ },
+ {
+  "label": "GUI:TooManyBeacons",
+  "text": "متأسفیم، دیگر نمی‌توانید نشانگر بگذارید"
+ },
+ {
+  "label": "GUI:EA",
+  "text": "EA"
+ },
+ {
+  "label": "GUI:TestBrowser",
+  "text": "مرورگر آزمایشی"
+ },
+ {
+  "label": "GUI:Multiplayer",
+  "text": "چندنفره"
+ },
+ {
+  "label": "GUI:GameName",
+  "text": "نام بازی:"
+ },
+ {
+  "label": "GUI:NoFileSelected",
+  "text": "لطفاً یک فایل انتخاب کنید"
+ },
+ {
+  "label": "GUI:PleaseSelectAFile",
+  "text": "لطفاً یک فایل انتخاب کنید"
+ },
+ {
+  "label": "GUI:DeleteFile",
+  "text": "حذف فایل؟"
+ },
+ {
+  "label": "GUI:AreYouSureDelete",
+  "text": "آیا مطمئنید که می‌خواهید فایل انتخاب‌شده را حذف کنید؟"
+ },
+ {
+  "label": "GUI:CopyFileToDesktop",
+  "text": "کپی بازپخش روی دسکتاپ؟"
+ },
+ {
+  "label": "GUI:AreYouSureCopy",
+  "text": "آیا مطمئنید که می‌خواهید این فایل را روی دسکتاپ کپی کنید؟ هر فایل هم‌نامی بازنویسی خواهد شد"
+ },
+ {
+  "label": "GUI:ErrorCopyingFile",
+  "text": "هنگام کپی فایل خطایی رخ داد"
+ },
+ {
+  "label": "GUI:LoadReplay",
+  "text": "بارگذاری بازپخش"
+ },
+ {
+  "label": "GUI:DeleteReplay",
+  "text": "حذف بازپخش"
+ },
+ {
+  "label": "GUI:CopyReplay",
+  "text": "کپی بازپخش"
+ },
+ {
+  "label": "GUI:ErrorDeletingFile",
+  "text": "هنگام حذف فایل خطایی رخ داد"
+ },
+ {
+  "label": "GUI:ShortDescription",
+  "text": "توضیح کوتاه بازی:"
+ },
+ {
+  "label": "GUI:LadderName",
+  "text": "نام رده‌بندی:"
+ },
+ {
+  "label": "GUI:LadderPassword",
+  "text": "گذرواژه رده‌بندی"
+ },
+ {
+  "label": "GUI:LadderURL",
+  "text": "صفحه اصلی: %hs"
+ },
+ {
+  "label": "GUI:LadderHasPassword",
+  "text": "این رده‌بندی با گذرواژه محافظت می‌شود"
+ },
+ {
+  "label": "GUI:LadderMinWins",
+  "text": "حداقل برد لازم: %d"
+ },
+ {
+  "label": "GUI:LadderMaxWins",
+  "text": "حداکثر برد مجاز: %d"
+ },
+ {
+  "label": "GUI:LadderFactions",
+  "text": "ارتش‌های مجاز:"
+ },
+ {
+  "label": "GUI:LadderRandomFactions",
+  "text": "ارتش‌های تصادفی:"
+ },
+ {
+  "label": "GUI:LadderMaps",
+  "text": "نقشه‌های مجاز:"
+ },
+ {
+  "label": "GUI:LadderRandomMaps",
+  "text": "نقشه‌های تصادفی:"
+ },
+ {
+  "label": "GUI:AllowObservers",
+  "text": "اجازه به ناظران"
+ },
+ {
+  "label": "GUI:USA",
+  "text": "آمریکا"
+ },
+ {
+  "label": "GUI:China",
+  "text": "چین"
+ },
+ {
+  "label": "GUI:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "GUI:AmericaAllies",
+  "text": "متحدان آمریکا"
+ },
+ {
+  "label": "GUI:ChinaAllies",
+  "text": "متحدان چین"
+ },
+ {
+  "label": "GUI:GLAAllies",
+  "text": "متحدان GLA"
+ },
+ {
+  "label": "GUI:AmericaEnemies",
+  "text": "دشمنان آمریکا"
+ },
+ {
+  "label": "GUI:ChinaEnemies",
+  "text": "دشمنان چین"
+ },
+ {
+  "label": "GUI:GLAEnemies",
+  "text": "دشمنان GLA"
+ },
+ {
+  "label": "GUI:EndCampaign",
+  "text": "پایان کارزار"
+ },
+ {
+  "label": "GUI:Retry",
+  "text": "دوباره بازی می‌کنید؟"
+ },
+ {
+  "label": "GUI:RecentSave",
+  "text": "آخرین ذخیره"
+ },
+ {
+  "label": "GUI:GetUpdate",
+  "text": "دریافت به‌روزرسانی"
+ },
+ {
+  "label": "GUI:DirectConnect",
+  "text": "اتصال مستقیم"
+ },
+ {
+  "label": "GUI:WorldBuilder",
+  "text": "ویرایشگر نقشه"
+ },
+ {
+  "label": "GUI:WorldBuilderLoadFailed",
+  "text": "بارگذاری ویرایشگر نقشه ناموفق بود"
+ },
+ {
+  "label": "GUI:DontUseAccount",
+  "text": "استفاده نکردن از حساب"
+ },
+ {
+  "label": "GUI:UseAccount",
+  "text": "استفاده از حساب"
+ },
+ {
+  "label": "GUI:ScoreScreen",
+  "text": "صفحه امتیاز"
+ },
+ {
+  "label": "GUI:Rehost",
+  "text": "دوباره بازی می‌کنید؟"
+ },
+ {
+  "label": "GUI:UnitsBuilt",
+  "text": "یگان‌های\nساخته‌شده"
+ },
+ {
+  "label": "GUI:UnitsLost",
+  "text": "یگان‌های\nازدست‌رفته"
+ },
+ {
+  "label": "GUI:UnitsKilled",
+  "text": "یگان‌های\nنابودشده"
+ }
+]

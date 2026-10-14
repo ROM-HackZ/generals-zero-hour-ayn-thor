@@ -1,0 +1,802 @@
+[
+ {
+  "label": "WOL:NoMatchbot",
+  "text": "لم يُعثر على منظِّم المباريات"
+ },
+ {
+  "label": "WOL:BadMatchParams",
+  "text": "معايير مطابقة غير صالحة"
+ },
+ {
+  "label": "WOL:ChatErrorNickInUse",
+  "text": "هذا الاسم المستعار مستخدم بالفعل"
+ },
+ {
+  "label": "WOL:ChatErrorBadPass",
+  "text": "كلمة المرور غير صحيحة لهذا الاسم"
+ },
+ {
+  "label": "WOL:ChatErrorNoneSuch",
+  "text": "لا يوجد مستخدم أو قناة بهذا الاسم"
+ },
+ {
+  "label": "WOL:ChatErrorConNetDown",
+  "text": "اتصال الشبكة معطّل"
+ },
+ {
+  "label": "WOL:ChatErrorConLookupFailed",
+  "text": "فشل استعلام DNS"
+ },
+ {
+  "label": "WOL:ChatErrorConError",
+  "text": "حدث خطأ فادح في الشبكة"
+ },
+ {
+  "label": "WOL:ChatErrorTimeout",
+  "text": "انتهت المهلة"
+ },
+ {
+  "label": "WOL:ChatErrorMustPatch",
+  "text": "يجب الحصول على آخر تحديث قبل الانضمام إلى C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:ChatErrorStatusError",
+  "text": "خطأ داخلي في الحالة"
+ },
+ {
+  "label": "WOL:ChatErrorUnknownResponse",
+  "text": "رد غير معروف"
+ },
+ {
+  "label": "WOL:ChatErrorChannelFull",
+  "text": "القناة ممتلئة"
+ },
+ {
+  "label": "WOL:ChatErrorChannelExists",
+  "text": "القناة موجودة بالفعل"
+ },
+ {
+  "label": "WOL:ChatErrorChannelDoesNotExist",
+  "text": "القناة غير موجودة"
+ },
+ {
+  "label": "WOL:ChatErrorBadChannelPassword",
+  "text": "كلمة مرور القناة غير صحيحة"
+ },
+ {
+  "label": "WOL:ChatErrorBanned",
+  "text": "عذرًا، لقد حُظرت من C&C Generals Zero Hour Online. يرجى مراجعة شروط الخدمة"
+ },
+ {
+  "label": "WOL:ChatErrorNotOper",
+  "text": "لا يمكن تنفيذ هذه العملية"
+ },
+ {
+  "label": "WOL:ChatErrorAccountDisabled",
+  "text": "عُطّل حسابك"
+ },
+ {
+  "label": "WOL:ChatErrorSerialBanned",
+  "text": "حُظر رقمك التسلسلي. يرجى مراجعة شروط الخدمة"
+ },
+ {
+  "label": "WOL:ChatErrorSerialDup",
+  "text": "رقمك التسلسلي مستخدم بالفعل"
+ },
+ {
+  "label": "WOL:ChatErrorSerialUnknown",
+  "text": "رقمك التسلسلي غير صالح"
+ },
+ {
+  "label": "WOL:NetUtilErrorGeneric",
+  "text": "خطأ عام في NetUtil"
+ },
+ {
+  "label": "WOL:NetUtilErrorBusy",
+  "text": "مشغول"
+ },
+ {
+  "label": "WOL:NetUtilErrorTimeout",
+  "text": "انتهت المهلة"
+ },
+ {
+  "label": "WOL:NetUtilErrorInvalidField",
+  "text": "حقل غير صالح"
+ },
+ {
+  "label": "WOL:NetUtilErrorCantVerify",
+  "text": "تعذّر التحقق"
+ },
+ {
+  "label": "WOL:NetUtilFinished",
+  "text": "انتهى"
+ },
+ {
+  "label": "WOL:UnknownError",
+  "text": "خطأ غير معروف"
+ },
+ {
+  "label": "WOL:CouldNotCreateChannel",
+  "text": "تعذّر إنشاء القناة"
+ },
+ {
+  "label": "WOL:ErrorTitle",
+  "text": "خطأ في C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:LoginErrorTitle",
+  "text": "خطأ في تسجيل الدخول"
+ },
+ {
+  "label": "WOL:CreatingChannel",
+  "text": "جارٍ إنشاء القناة"
+ },
+ {
+  "label": "WOL:ChannelClosed",
+  "text": "أُغلقت القناة"
+ },
+ {
+  "label": "WOL:BadChannelPassword",
+  "text": "كلمة مرور القناة غير صحيحة"
+ },
+ {
+  "label": "WOL:ChannelFull",
+  "text": "القناة ممتلئة"
+ },
+ {
+  "label": "WOL:BannedFromChannel",
+  "text": "لقد حُظرت من القناة"
+ },
+ {
+  "label": "WOL:CannotJoinChannel",
+  "text": "لا يمكن الانضمام إلى القناة"
+ },
+ {
+  "label": "WOL:NoWOLAPI",
+  "text": "لم تُثبَّت مكونات الإنترنت المشتركة"
+ },
+ {
+  "label": "WOL:OldWOLAPI",
+  "text": "يجب تحديث مكونات الإنترنت المشتركة. يرجى تثبيتها من قرص C&C Generals Zero Hour"
+ },
+ {
+  "label": "WOL:BadRegistry",
+  "text": "سجل C&C Generals Zero Hour تالف"
+ },
+ {
+  "label": "WOL:GotPing",
+  "text": "زمن الاستجابة %d م.ث. كلما قلّ زمن الاستجابة، كان الاتصال أفضل"
+ },
+ {
+  "label": "WOL:ServerListAndVersion",
+  "text": "جارٍ جلب قائمة الخوادم"
+ },
+ {
+  "label": "WOL:GettingPings",
+  "text": "جارٍ قياس زمن الاستجابة. كلما قلّ، كان الاتصال أفضل"
+ },
+ {
+  "label": "WOL:Connecting",
+  "text": "جارٍ الاتصال"
+ },
+ {
+  "label": "WOL:JoinedChannel",
+  "text": "انضممت إلى %ls"
+ },
+ {
+  "label": "WOL:LeftChannel",
+  "text": "غادرت %ls"
+ },
+ {
+  "label": "WOL:UserKicked",
+  "text": "طرد %ls اللاعب %ls من %ls"
+ },
+ {
+  "label": "WOL:BeginIgnoreList",
+  "text": "بداية قائمة التجاهل"
+ },
+ {
+  "label": "WOL:IgnoredUser",
+  "text": "%ls"
+ },
+ {
+  "label": "WOL:EndIgnoreList",
+  "text": "نهاية قائمة التجاهل"
+ },
+ {
+  "label": "WOL:DownloadPatchNow",
+  "text": "هل تريد تنزيل التحديث الآن؟"
+ },
+ {
+  "label": "WOL:FindInChannel",
+  "text": "%ls موجود في %s"
+ },
+ {
+  "label": "WOL:FindInChannelOtherServer",
+  "text": "%ls موجود في %s على %s"
+ },
+ {
+  "label": "WOL:FindOffline",
+  "text": "%ls لم يسجّل الدخول"
+ },
+ {
+  "label": "WOL:FindHiding",
+  "text": "%ls لا يستجيب للبحث"
+ },
+ {
+  "label": "WOL:FindNotInChannel",
+  "text": "%ls ليس في أي قناة"
+ },
+ {
+  "label": "WOL:FindNotInChannelOtherServer",
+  "text": "%ls موجود على %s"
+ },
+ {
+  "label": "WOL:Lob_49_0",
+  "text": "الردهة الرئيسية"
+ },
+ {
+  "label": "WOL:Lob_49_1",
+  "text": "بديلة"
+ },
+ {
+  "label": "WOL:Lob_49_2",
+  "text": "الواقع"
+ },
+ {
+  "label": "WOL:Lob_41_0",
+  "text": "مباراة سريعة"
+ },
+ {
+  "label": "WOL:UnknownServer",
+  "text": "خادم غير معروف"
+ },
+ {
+  "label": "WOL:UnknownChannel",
+  "text": "قناة غير معروفة"
+ },
+ {
+  "label": "WOL:BuddyMatching",
+  "text": "%ls في مباراة سريعة"
+ },
+ {
+  "label": "WOL:BuddyNotInChan",
+  "text": "%ls متصل"
+ },
+ {
+  "label": "WOL:BuddyInGame",
+  "text": "%ls يلعب مباراة"
+ },
+ {
+  "label": "WOL:BuddyInChat",
+  "text": "%ls يدردش في %ls"
+ },
+ {
+  "label": "WOL:BuddyGameSetup",
+  "text": "%ls موجود في %ls"
+ },
+ {
+  "label": "WOL:BuddyMatchingOtherServer",
+  "text": "%ls في مباراة سريعة على %ls"
+ },
+ {
+  "label": "WOL:BuddyNotInChanOtherServer",
+  "text": "%ls متصل على %ls"
+ },
+ {
+  "label": "WOL:BuddyInGameOtherServer",
+  "text": "%ls يلعب مباراة على %ls"
+ },
+ {
+  "label": "WOL:BuddyInChatOtherServer",
+  "text": "%ls يدردش في %ls على %ls"
+ },
+ {
+  "label": "WOL:BuddyGameSetupOtherServer",
+  "text": "%ls موجود في %ls على %ls"
+ },
+ {
+  "label": "WOL:BuddyHiding",
+  "text": "%ls مختبئ"
+ },
+ {
+  "label": "Chat:Everyone",
+  "text": "يراها الجميع"
+ },
+ {
+  "label": "Chat:Allies",
+  "text": "يراها الحلفاء فقط"
+ },
+ {
+  "label": "GUI:Clear",
+  "text": "مسح"
+ },
+ {
+  "label": "LAN:GameStartTimerPlural",
+  "text": "ستبدأ اللعبة خلال %d ثانية"
+ },
+ {
+  "label": "LAN:GameStartTimerSingular",
+  "text": "ستبدأ اللعبة خلال %d ثانية"
+ },
+ {
+  "label": "LAN:HostNotResponding",
+  "text": "أُنهيت اللعبة؛ المضيف لا يستجيب"
+ },
+ {
+  "label": "LAN:PlayerDropped",
+  "text": "خرج %ls؛ اللاعب لا يستجيب"
+ },
+ {
+  "label": "LAN:NeedMorePlayers",
+  "text": "تحتاج إلى أكثر من %d لاعب لبدء اللعبة"
+ },
+ {
+  "label": "LAN:NeedMoreTeams",
+  "text": "تحتاج إلى أكثر من فريق واحد لبدء اللعبة"
+ },
+ {
+  "label": "LAN:TooManyPlayers",
+  "text": "هذه الخريطة تدعم %d لاعبين كحد أقصى"
+ },
+ {
+  "label": "LAN:OK",
+  "text": "موافق"
+ },
+ {
+  "label": "LAN:ErrorNoGameSelected",
+  "text": "يرجى اختيار لعبة أولًا"
+ },
+ {
+  "label": "LAN:ErrorTimeout",
+  "text": "انتهت مهلة الاتصال"
+ },
+ {
+  "label": "LAN:ErrorGameFull",
+  "text": "هذه اللعبة ممتلئة"
+ },
+ {
+  "label": "LAN:ErrorDuplicateName",
+  "text": "يوجد اسم مطابق في اللعبة بالفعل"
+ },
+ {
+  "label": "LAN:ErrorCRCMismatch",
+  "text": "اكتشفت اللعبة عدم تطابق. هذا يعني أن اللعبة الجماعية فقدت بيانات التزامن بين اللاعبين. من المحتمل أن يكون خصمك قد عدّل نسخته، وقد ترغب في إضافته إلى قائمة التجاهل"
+ },
+ {
+  "label": "LAN:ErrorGameStarted",
+  "text": "عذرًا، هذه اللعبة بدأت بالفعل"
+ },
+ {
+  "label": "LAN:ErrorGameExists",
+  "text": "توجد لعبة بالاسم نفسه بالفعل"
+ },
+ {
+  "label": "LAN:ErrorGameGone",
+  "text": "اختفت اللعبة"
+ },
+ {
+  "label": "LAN:ErrorBusy",
+  "text": "هناك عملية أخرى قيد الانتظار"
+ },
+ {
+  "label": "LAN:ErrorUnknown",
+  "text": "خطأ غير معروف"
+ },
+ {
+  "label": "LAN:JoinFailed",
+  "text": "فشل الانضمام"
+ },
+ {
+  "label": "Network:PlayerLeft",
+  "text": "غادر %ls اللعبة"
+ },
+ {
+  "label": "INI:MissingDisplayName",
+  "text": "MISSING DisplayName for Object '%S'"
+ },
+ {
+  "label": "INI:FactionDefault",
+  "text": "الجيش الافتراضي"
+ },
+ {
+  "label": "INI:FactionObserver",
+  "text": "مراقب"
+ },
+ {
+  "label": "INI:FactionCivilian",
+  "text": "مدني"
+ },
+ {
+  "label": "INI:FactionAmerica",
+  "text": "الولايات المتحدة"
+ },
+ {
+  "label": "INI:FactionChina",
+  "text": "الصين"
+ },
+ {
+  "label": "INI:FactionGLA",
+  "text": "جيش التحرير العالمي"
+ },
+ {
+  "label": "INI:FactionChinaHacker",
+  "text": "هاكر صيني"
+ },
+ {
+  "label": "SIDE:America",
+  "text": "الولايات المتحدة"
+ },
+ {
+  "label": "SIDE:China",
+  "text": "الصين"
+ },
+ {
+  "label": "SIDE:GLA",
+  "text": "جيش التحرير العالمي"
+ },
+ {
+  "label": "INI:RankLevel1",
+  "text": "جنرال بنجمة واحدة"
+ },
+ {
+  "label": "INI:RankLevel2",
+  "text": "جنرال بنجمتين"
+ },
+ {
+  "label": "INI:RankLevel3",
+  "text": "جنرال بثلاث نجوم"
+ },
+ {
+  "label": "INI:RankLevel4",
+  "text": "جنرال بأربع نجوم"
+ },
+ {
+  "label": "INI:RankLevel5",
+  "text": "جنرال بخمس نجوم"
+ },
+ {
+  "label": "INI:RankLevel6",
+  "text": "كبير الأشقياء (الرتبة 6)"
+ },
+ {
+  "label": "INI:RankLevel7",
+  "text": "دكتور الخراب (الرتبة 7)"
+ },
+ {
+  "label": "INI:RankLevel8",
+  "text": "الفتّاك الأعظم (الرتبة 8)"
+ },
+ {
+  "label": "TOOLTIP:MyInfo",
+  "text": "انقر لاستكشاف معلومات هويتك. يمكنك مشاهدة رتبتك ونقاطك وانتصاراتك وهزائمك وأوسمة المعارك وغير ذلك"
+ },
+ {
+  "label": "TOOLTIP:CustomMatch",
+  "text": "انقر للانضمام إلى ردهة المباريات المخصصة لمقابلة اللاعبين الآخرين والدردشة معهم"
+ },
+ {
+  "label": "TOOLTIP:SelectAll",
+  "text": "مباراة سريعة على جميع الخرائط المتاحة"
+ },
+ {
+  "label": "TOOLTIP:SelectNone",
+  "text": "مباراة سريعة بلا خرائط"
+ },
+ {
+  "label": "TOOLTIP:EnterPassword",
+  "text": "يرجى إدخال كلمة مرور"
+ },
+ {
+  "label": "TOOLTIP:Quickmatch",
+  "text": "انقر لبدء مباراة سريعة. ستحاول المباراة السريعة مطابقتك تلقائيًا مع الأقرب إلى مستواك وتفضيلاتك"
+ },
+ {
+  "label": "TOOLTIP:GameLobbys",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:ClearButton",
+  "text": "مسح نافذة الدردشة"
+ },
+ {
+  "label": "TOOLTIP:Disconnectbutton",
+  "text": "انقر لقطع الاتصال عن لعبتك الحالية. سيُحتسب قطع الاتصال ضمن مجموعك الكلي"
+ },
+ {
+  "label": "TOOLTIP:playersonline",
+  "text": "قائمة اللاعبين الموجودين حاليًا على C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "TOOLTIP:WidenSearch",
+  "text": "انقر لتوسيع معايير البحث عن خصم. كلما كانت معاييرك أدق، صعُب العثور على خصم"
+ },
+ {
+  "label": "TOOLTIP:Emote",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:JoinGame",
+  "text": "انقر للانضمام إلى اللعبة المحددة"
+ },
+ {
+  "label": "TOOLTIP:BuddyButton",
+  "text": "ترتيب قائمة الألعاب حسب الأصدقاء"
+ },
+ {
+  "label": "TOOLTIP:matchingprogress",
+  "text": "يمكنك متابعة المباراة السريعة وهي تبحث عن أنسب خصم لك. ادعُ لنا بالتوفيق!"
+ },
+ {
+  "label": "TOOLTIP:CancelButton",
+  "text": "انقر لإلغاء العملية الحالية"
+ },
+ {
+  "label": "TOOLTIP:resizewindows",
+  "text": "انقر واسحب عموديًا لتغيير حجم نافذة قائمة الألعاب مقابل نافذة الدردشة"
+ },
+ {
+  "label": "TOOLTIP:CreateGame",
+  "text": "إنشاء لعبة جديدة. ستظهر اللعبة في نافذة قائمة الألعاب لينضم إليها اللاعبون الآخرون"
+ },
+ {
+  "label": "TOOLTIP:ChatWindow",
+  "text": "اكتب في مربع إدخال النص بالأسفل واضغط Enter لإرسال رسائل إلى نافذة الدردشة هذه. يمكن للاعبين الآخرين قراءتها والرد عليها"
+ },
+ {
+  "label": "TOOLTIP:StopSearch",
+  "text": "إيقاف البحث الحالي"
+ },
+ {
+  "label": "TOOLTIP:StartSearch",
+  "text": "بدء البحث"
+ },
+ {
+  "label": "TOOLTIP:UnknownGame",
+  "text": "لعبة غير معروفة"
+ },
+ {
+  "label": "TOOLTIP:textentrybox",
+  "text": "اكتب في مربع إدخال النص هذا واضغط Enter لإرسال رسائل إلى نافذة الدردشة أعلاه"
+ },
+ {
+  "label": "TOOLTIP:PlayersInLobby",
+  "text": "اللاعبون الحاليون في ردهتك"
+ },
+ {
+  "label": "TOOLTIP:LocalPlayer",
+  "text": "اللاعب الحالي %s"
+ },
+ {
+  "label": "TOOLTIP:BuddyPlayer",
+  "text": "صديقك %s"
+ },
+ {
+  "label": "TOOLTIP:ProfiledPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:GenericPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:IgnoredModifier",
+  "text": "(متجاهَل)"
+ },
+ {
+  "label": "TOOLTIP:PlayerInfo",
+  "text": "\nالمنطقة: %s\n%d فوز/%d خسارة"
+ },
+ {
+  "label": "TOOLTIP:GameInfoGameName",
+  "text": "اسم اللعبة: %s"
+ },
+ {
+  "label": "TOOLTIP:GameInfoLadderName",
+  "text": "\nالتصنيف: %s"
+ },
+ {
+  "label": "TOOLTIP:LadderName",
+  "text": "التصنيف: %s"
+ },
+ {
+  "label": "TOOLTIP:UnknownLadder",
+  "text": "\nتصنيف غير معروف"
+ },
+ {
+  "label": "TOOLTIP:NoLadder",
+  "text": "\nبلا تصنيف"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersionSingleLine",
+  "text": "إصدار هذه اللعبة مختلف"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersion",
+  "text": ""
+ },
+ {
+  "label": "TOOLTIP:GameInfoMap",
+  "text": "\nالخريطة: %s\nاللاعبون:"
+ },
+ {
+  "label": "TOOLTIP:GameInfoPlayer",
+  "text": "\n%s (%d/%d)"
+ },
+ {
+  "label": "TOOLTIP:FreeForAll",
+  "text": "الكل ضد الكل. لا فرق ولا تحالفات"
+ },
+ {
+  "label": "TOOLTIP:ListOfPlayers",
+  "text": "اللاعبون في اللعبة الحالية"
+ },
+ {
+  "label": "TOOLTIP:MapName",
+  "text": "الخريطة المحددة حاليًا"
+ },
+ {
+  "label": "TOOLTIP:GameName",
+  "text": "اسم اللعبة"
+ },
+ {
+  "label": "TOOLTIP:StartGame",
+  "text": "بدء لعبة جماعية"
+ },
+ {
+  "label": "TOOLTIP:IgnoreButton",
+  "text": "تجاهل اللاعب"
+ },
+ {
+  "label": "TOOLTIP:closeButton",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:GameOptions",
+  "text": "الخيارات المفعّلة حاليًا في اللعبة"
+ },
+ {
+  "label": "TOOLTIP:Crates",
+  "text": "صناديق المكافآت"
+ },
+ {
+  "label": "TOOLTIP:SuperWeapons",
+  "text": "الأسلحة الخارقة: مدفع الجسيمات، الصاروخ النووي وغيرها"
+ },
+ {
+  "label": "DOZER:ConstructionComplete",
+  "text": "اكتمل البناء: %s"
+ },
+ {
+  "label": "DOZER:RepairComplete",
+  "text": "اكتملت عملية الإصلاح"
+ },
+ {
+  "label": "UPGRADE:UpgradeComplete",
+  "text": "اكتملت الترقية: %s"
+ },
+ {
+  "label": "GUI:CantBuildRestrictedTerrain",
+  "text": "التضاريس تمنعك من البناء هنا"
+ },
+ {
+  "label": "GUI:CantBuildNotFlatEnough",
+  "text": "الأرض ليست مستوية بما يكفي للبناء هنا"
+ },
+ {
+  "label": "GUI:CantBuildObjectsInTheWay",
+  "text": "لا يمكنك البناء هناك لوجود عوائق في الطريق"
+ },
+ {
+  "label": "GUI:CantBuildNoClearPath",
+  "text": "لا تستطيع الوحدة الوصول إلى موقع البناء"
+ },
+ {
+  "label": "GUI:CantBuildShroud",
+  "text": "يجب أن تستكشف المكان قبل البناء فيه"
+ },
+ {
+  "label": "GUI:CantBuildThere",
+  "text": "لا يمكنك البناء هنا"
+ },
+ {
+  "label": "GUI:RallyPointObjectsInTheWay",
+  "text": "تعذّر تعيين نقطة التجمع، توجد عوائق في طريق الوجهة"
+ },
+ {
+  "label": "GUI:RallyPointNoPath",
+  "text": "تعذّر تعيين نقطة التجمع"
+ },
+ {
+  "label": "GUI:RallyPointSet",
+  "text": "عُيّنت نقطة تجمّع %s"
+ },
+ {
+  "label": "GUI:MouseType",
+  "text": "نوع الفأرة"
+ },
+ {
+  "label": "GUI:Com",
+  "text": "EAPIM"
+ },
+ {
+  "label": "GUI:CONTROL",
+  "text": "التحكم"
+ },
+ {
+  "label": "GUI:INFORMATION",
+  "text": "المعلومات"
+ },
+ {
+  "label": "GUI:INTERFACE",
+  "text": "الواجهة"
+ },
+ {
+  "label": "GUI:SELECTION",
+  "text": "التحديد"
+ },
+ {
+  "label": "GUI:TAUNT",
+  "text": "الاستفزاز"
+ },
+ {
+  "label": "GUI:MISC",
+  "text": "متفرقات"
+ },
+ {
+  "label": "GUI:DEBUG",
+  "text": "التصحيح"
+ },
+ {
+  "label": "GUI:Cheer",
+  "text": "هتاف"
+ },
+ {
+  "label": "GUI:CheerDescription",
+  "text": "يأمر قواتك بالابتهاج بإنجازاتك العظيمة"
+ },
+ {
+  "label": "GUI:Deploy",
+  "text": "نشر العنصر"
+ },
+ {
+  "label": "GUI:DeployDescription",
+  "text": "نشر العنصر (العناصر) المحددة"
+ },
+ {
+  "label": "GUI:Guard",
+  "text": "حراسة"
+ },
+ {
+  "label": "GUI:GuardDescription",
+  "text": "وضع العنصر (العناصر) المحددة في وضع حراسة المنطقة"
+ },
+ {
+  "label": "GUI:CreateFormation",
+  "text": "إنشاء تشكيل"
+ },
+ {
+  "label": "GUI:Follow",
+  "text": "اتّباع"
+ },
+ {
+  "label": "GUI:FollowDescription",
+  "text": "تبديل حالة الاتّباع للعنصر (العناصر) المحددة"
+ },
+ {
+  "label": "GUI:ToggleControlBar",
+  "text": "إظهار/إخفاء شريط التحكم"
+ },
+ {
+  "label": "GUI:ToggleControlBarDescription",
+  "text": "يُظهر شريط التحكم داخل اللعبة أو يخفيه"
+ },
+ {
+  "label": "GUI:ToggleLetterbox",
+  "text": "إظهار/إخفاء الشريط السينمائي"
+ },
+ {
+  "label": "GUI:ToggleLetterboxDescription",
+  "text": "يفعّل وضع الشريط السينمائي أو يعطّله"
+ }
+]

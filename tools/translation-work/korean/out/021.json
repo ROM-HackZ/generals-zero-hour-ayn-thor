@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen06Subtitle",
+  "text": "*GPS 교란 기술을 손에 넣었다! 이제 카사드의 수법을 그에게 되돌려 줄 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen07Subtitle",
+  "text": "*훌륭하다, 장군! 기습 능력을 확보했다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen08Subtitle",
+  "text": "*적 사령부를 점령하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen09Subtitle",
+  "text": "*적 사령부를 점령하면 그들의 기술로 그들을 칠 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen10Subtitle",
+  "text": "*장군, 놈들의 사령부를 점령하고 그 지식을 이용해 GLA를 한 깃발 아래 통합한다는 목표에 다가가야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen11Subtitle",
+  "text": "*자원이 떨어져 간다. 유정을 점령해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen12Subtitle",
+  "text": "*적이 우리 석유 공급을 공격하고 있다! 막아야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen13Subtitle",
+  "text": "*GPS 교란으로 적 방어를 몰래 지나가라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen14Subtitle",
+  "text": "*여기선 GPS 교란이 통하지 않는다. 스팅어 기지가 너무 많다. 다른 전술이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen15Subtitle",
+  "text": "*새 기습 능력을 쓸 무방비 지역을 찾을 수 있을지도 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen16Subtitle",
+  "text": "*사령부를 파괴하지 마라. 건물을 온전히 점령해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen17Subtitle",
+  "text": "*놈들의 지식을 훔쳐야 한다. 놈들의 고급 전술로 놈들을 쳐부숴야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen18Subtitle",
+  "text": "*장군, 저격수를 조심해라 -- 카사드는 저격수를 즐겨 쓴다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen19Subtitle",
+  "text": "*이 다리는 방어가 삼엄하다. 건너려면 지원이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen20Subtitle",
+  "text": "*북쪽의 적 사령부를 점령하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen21Subtitle",
+  "text": "*서쪽의 적 사령부를 점령하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen22Subtitle",
+  "text": "*장군, 이 포를 점령하면 카사드의 병력에 쓸 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen23Subtitle",
+  "text": "*사령부를 점령하면 놈들의 능력으로 전세를 뒤집을 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen24Subtitle",
+  "text": "*카사드 왕자는 끝났다. GLA가 다시 하나로 뭉쳐 적에 맞선다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen25Subtitle",
+  "text": "*GPS 교란이 있으니 카사드의 다리 방어선을 들키지 않고 지날 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen26Subtitle",
+  "text": "*배신자가 이 언덕 꼭대기를 요새화하고 다른 모든 접근로를 끊었다. 놈의 본기지를 칠 방법은 기습뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen27Subtitle",
+  "text": "*장군, 이 지역은 카사드 왕자가 장악하고 있다. 놈은 형제들을 등지고 이교도와의 싸움에서 우리를 돕지 않을 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen28Subtitle",
+  "text": "*카사드는 은폐의 달인이라 병력을 버젓이 숨겨 둔다. 지식을 나누지 않겠다면 빼앗아 오겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen29Subtitle",
+  "text": "*카사드 왕자가 지휘하는 GLA 분파가 이 지역을 장악하고 있다. 카사드는 GLA를 위해 자기 능력을 쓰게 해 주지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen30Subtitle",
+  "text": "*카사드는 은폐의 달인으로, 여러 기법으로 적을 기습한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen31Subtitle",
+  "text": "*GPS 교란은 어떤 유닛이든 보이지 않게 적을 치게 해 준다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen32Subtitle",
+  "text": "*터널 기습은 더 큰 전술적 이점을 준다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen33Subtitle",
+  "text": "*우리에겐 이 기술들이 필요하다. 카사드가 나누지 않겠다면 빼앗아라. 놈의 사령부를 점령해 놈의 능력으로 놈을 쳐라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar03Subtitle",
+  "text": "*갇힌 형제들을 풀어 주어라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar15Subtitle",
+  "text": "*포로수용소를 발견했다. 우리 형제들이 안에 갇혀 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf01Subtitle",
+  "text": "*환영한다, 사령관!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf02Subtitle",
+  "text": "*카사드는 겁이 많아서 미국에 이런 공격을 시도하지 못했다. 장군, 넌 진정한 전략가다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf03Subtitle",
+  "text": "*미 지중해 함대만 무너뜨리면 유럽 전체가 우리 손에 들어온다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf04Subtitle",
+  "text": "*다시 뭉쳤으니 이제 우리의 힘을 보여 줄 때다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf05Subtitle",
+  "text": "*미국이 지중해의 비밀 기지를 공격했다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf06Subtitle",
+  "text": "*하지만 기지가 무너지기 전에 이 지역의 입자 캐논과 함대 위치를 알아냈다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf07Subtitle",
+  "text": "*놈들 함선 대부분이 항구에 정박해 무방비 상태다. 입자 캐논을 훔쳐 항공모함을 날려 버리자!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf08Subtitle",
+  "text": "*비밀 기지를 되찾아 재건할 기회를 노려라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat01Subtitle",
+  "text": "*당신을 위해 죽겠다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat02Subtitle",
+  "text": "*또 하나 쓰러졌다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat03Subtitle",
+  "text": "*제물이 더 늘었군"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat04Subtitle",
+  "text": "*쓸어버려라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat05Subtitle",
+  "text": "*우리의 분노를 피할 수 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat06Subtitle",
+  "text": "*놈들을 원하는 곳으로 몰아넣었다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat07Subtitle",
+  "text": "*승리는 우리 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat08Subtitle",
+  "text": "*물보라 한번 크게 튀는군!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin01Subtitle",
+  "text": "*이 비겁한 공격의 복수를 하겠다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin02Subtitle",
+  "text": "*놈들의 항공모함은 고철이 될 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin03Subtitle",
+  "text": "*GLA의 힘을 증명했다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen01Subtitle",
+  "text": "*하이재커라면 저 전차를 쉽게 빼앗을 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen02Subtitle",
+  "text": "*저 레인저가 도움을 청하러 달려간다! 놓쳐선 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen03Subtitle",
+  "text": "*적 항공모함을 침몰시키려면 이 입자 캐논이 필요하다. 잘 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen04Subtitle",
+  "text": "*반군의 건물 점령 능력으로 입자 캐논을 장악할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen05Subtitle",
+  "text": "*기습으로 근처 섬에 터널 네트워크를 만들 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen06Subtitle",
+  "text": "*조종사가 토마호크에 가지 못하게 해야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen07Subtitle",
+  "text": "*놈들이 토마호크를 노리고 온다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen08Subtitle",
+  "text": "*이 병영은 이제 우리 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen09Subtitle",
+  "text": "*이 궁전을 해방했다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen10Subtitle",
+  "text": "*이 무기상은 우리에게 큰 도움이 될 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen11Subtitle",
+  "text": "*사령부를 되찾았다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen12Subtitle",
+  "text": "*장군, 저 적 보급기들이 보이나? 투하 지점을 파괴하면 놈들의 생산이 마비된다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen13Subtitle",
+  "text": "*아, 이 독소 트랙터는 쓸모가 있겠군"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen14Subtitle",
+  "text": "*이 쿼드 캐논이 적 항공기로부터 우리를 지킬 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen15Subtitle",
+  "text": "*이 마라우더가 화력을 높여 줄 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen16Subtitle",
+  "text": "*이 전차들을 파괴하면 병영을 해방할 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen17Subtitle",
+  "text": "*이 지역을 소탕하면 사령부를 안전하게 차지할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen18Subtitle",
+  "text": "*저 병력을 처치하면 무기상은 우리 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen19Subtitle",
+  "text": "*놈들이 공격해 올지 모른다! 건물을 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen20Subtitle",
+  "text": "*코만치다! 대공 방어를 집결하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen21Subtitle",
+  "text": "*저 코만치를 막아야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen22Subtitle",
+  "text": "*놈들이 입자 캐논을 되찾으려 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen23Subtitle",
+  "text": "*놈들의 항공기가 터널 네트워크를 파괴했다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen24Subtitle",
+  "text": "*교활한 악당들! 발전소를 노리고 있다. 입자 캐논을 쓰려면 전력이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen25Subtitle",
+  "text": "*발전소가 거의 다 파괴되었다. 입자 캐논을 쓰려면 전력이 있어야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen26Subtitle",
+  "text": "*발전소 몇 개를 점령하면 입자 캐논으로 놈들을 칠 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen27Subtitle",
+  "text": "*아... 숨겨진 보물을 찾았군"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen28Subtitle",
+  "text": "*이 길목은 방어가 튼튼하다. 입자 캐논으로 뚫어야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen29Subtitle",
+  "text": "*조심해라! 이 길목은 경비가 삼엄하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen30Subtitle",
+  "text": "*놈들이 섬에 보병을 보냈다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen31Subtitle",
+  "text": "*놈들 헬기가 증원군을 실어 나르고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen32Subtitle",
+  "text": "*놈들이 A10 공습을 가해 왔다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen33Subtitle",
+  "text": "*놈들이 입자 캐논 위로 공수 강하했다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen34Subtitle",
+  "text": "*적 보급품 투하 지점을 무력화했다! 놈들의 생산이 마비될 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen35Subtitle",
+  "text": "*임무는 입자 캐논으로 적 항공모함을 파괴하는 것이다. 본토의 적 기지를 뚫고 들어가 항공모함을 육안으로 조준해야 파괴할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen36Subtitle",
+  "text": "*잘했다! 이제 발전소를 확보해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen37Subtitle",
+  "text": "*터널 네트워크로 다음 섬에 갈 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen38Subtitle",
+  "text": "*입자 캐논이 가동되었다. 캐논과 발전소를 지켜야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen39Subtitle",
+  "text": "*우리 유닛과 건물이 모두 파괴되었다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen40Subtitle",
+  "text": "*입자 캐논 없이는 항공모함을 침몰시킬 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen41Subtitle",
+  "text": "*이제 미국인들이 쓰디쓴 패배를 맛볼 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen42Subtitle",
+  "text": "*놈들이 터널 네트워크를 파괴했다! 기습으로 입자 캐논을 되찾아라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen43Subtitle",
+  "text": "*항공모함에 가까워지고 있다. 바로 남쪽이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen44Subtitle",
+  "text": "*저기 항공모함이다! 입자 캐논으로 파괴하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen45Subtitle",
+  "text": "*자르멘 켈이 우리를 돕기 위해 왔다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen46Subtitle",
+  "text": "*그의 저격 능력은 적 차량을 무력화해 보병이 점령할 수 있게 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen47Subtitle",
+  "text": "*정박한 전함들은 위협이 되지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen48Subtitle",
+  "text": "*전함이 우리를 포격하고 있다! 파괴하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen49Subtitle",
+  "text": "*여기가 적 본기지인 모양이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen50Subtitle",
+  "text": "*이 가짜 건물들이 적을 속일 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen51Subtitle",
+  "text": "*가짜 건물을 더 지어 적을 속여라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04Dispatcher06Subtitle",
+  "text": "*미군이 오고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat01Subtitle",
+  "text": "*저 벙커들을 소탕해야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat02Subtitle",
+  "text": "*놈들 전력이 끊겼다! 패트리어트 걱정은 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat03Subtitle",
+  "text": "*울타리를 부수고 형제들을 구하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat04Subtitle",
+  "text": "*이제 형제들이 자유를 얻을 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat05Subtitle",
+  "text": "*미군 치누크가 있으면 병력 수송에 도움이 될 것이다. 할 수 있다면 이 보급 기지를 점령하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat06Subtitle",
+  "text": "*대공 병력을 보내라, 장군! 놈들 코만치가 우리를 산산조각 내고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat07Subtitle",
+  "text": "*장군, 다리 방어를 없앨 방법을 찾아야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat08Subtitle",
+  "text": "*장군, 휴대폰으로 기습 터널 네트워크를 부르고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat09Subtitle",
+  "text": "*벙커를 소탕하려면 이 트랙터들이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat10Subtitle",
+  "text": "*이 페리는 이제 우리 손에 있다! 우리가 가자는 곳으로 가라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat11Subtitle",
+  "text": "*네, 네. 시키는 대로 하겠습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat12Subtitle",
+  "text": "*형제들이 풀려났다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat13Subtitle",
+  "text": "*이 낯선 땅에는 SUV가 정말 많군"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat14Subtitle",
+  "text": "*이 지역에 GLA 동조자가 있다. 그와 형제들이 우리를 돕기로 했다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat15Subtitle",
+  "text": "*전차다! 도망쳐! 빨리, 빨리!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin01Subtitle",
+  "text": "*여기는 1팀. 위치에 도착했다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin02Subtitle",
+  "text": "*형제들이여, 적의 땅을 밟고 있으니 조심하라. 주목표는 근처 미군 독소 시설에서 화학 샘플을 확보하는 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin03Subtitle",
+  "text": "*미 해군의 잔존 병력이 지휘 함대를 잃고 지중해로 이동했다. 덕분에 우리가 몰래 들어올 수 있었다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin04Subtitle",
+  "text": "*거기서 놈들을 물리쳤으니 여기서도 이길 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin05Subtitle",
+  "text": "*형제들이여 기뻐하라! 이 시설의 독소만 손에 넣으면 과학자들이 대량 감염 무기를 만들 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin06Subtitle",
+  "text": "*미국인들은 너무 오래 간섭해 왔다. 이 새 무기로 압제자들의 심장에 공포를 심어 줄 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin07Subtitle",
+  "text": "*(아주 사악한 웃음)"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin08Subtitle",
+  "text": "*1팀, 독소는 확보해서 실었나?"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin09Subtitle",
+  "text": "*샘플을 확보했다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin10Subtitle",
+  "text": "*이륙 준비 완료"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin11Subtitle",
+  "text": "*확인. 화물 안전"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin12Subtitle",
+  "text": "*진행해도 좋다. 탈출을 엄호하겠다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin13Subtitle",
+  "text": "*장군, 패트리어트가 가동됐다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin14Subtitle",
+  "text": "*활주로를 정리할 때까지 놈들을 막아라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin15Subtitle",
+  "text": "*놈들이 꼬리에 붙지 못하게 해라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin16Subtitle",
+  "text": "*꺼져라, 멍청한 미국 놈들!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin17Subtitle",
+  "text": "*독소 시설에 도착하면 다시 만나자"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin18Subtitle",
+  "text": "*미국인들은 우리를 몰아냈다고 생각한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin19Subtitle",
+  "text": "*분할해서 정복하겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin20Subtitle",
+  "text": "*이런 공군력 앞에선 우린 아무것도 아니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin21Subtitle",
+  "text": "*이게 끝이 아니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin22Subtitle",
+  "text": "*복수하고 말겠다, 더러운 미국 놈들!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin23Subtitle",
+  "text": "*이 자본주의 돼지들을 쓰러뜨리는 데 한몫하자!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin24Subtitle",
+  "text": "*이 미국인들은 형제들의 목숨값을 치를 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin25Subtitle",
+  "text": "*GLA 침입자들을 불태워 버리자! 폭스 원!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin26Subtitle",
+  "text": "*근해에서 GLA 발견! 전 병력 방어 위치로"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin27Subtitle",
+  "text": "*좌표 77베타감마에 GLA 침투! 가용 병력은 모두 대응하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin28Subtitle",
+  "text": "*해변에 더 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin29Subtitle",
+  "text": "*절벽 위에 GLA 침투자 발견!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin30Subtitle",
+  "text": "*GLA가 시내에 들어왔다! 전 병력 좌표 34알파알파로 집결하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen01Subtitle",
+  "text": "*잘했다, 장군! 독소 샘플 15개만 더 회수하면 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen02Subtitle",
+  "text": "*잘했다, 장군! 독소 샘플 10개만 더 회수하면 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen03Subtitle",
+  "text": "*잘했다, 장군! 독소 샘플 5개만 더 회수하면 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen04Subtitle",
+  "text": "*장군, 유럽의 미군 중부 사령부를 칠 계획이 있다. 하지만 아직 직접 공격할 힘이 없다. 새 독소 무기가 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen05Subtitle",
+  "text": "*두 부대 모두 배치됐다. 독소를 회수하려면 두 부대가 협력해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen06Subtitle",
+  "text": "*하이재커는 차량을 탈취할 수 있고 움직이지 않으면 은폐 상태다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen07Subtitle",
+  "text": "*자르멘 켈은 차량에서 조종사를 저격하고 원거리에서 보병도 처치할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen08Subtitle",
+  "text": "*파괴 공작원은 발전소 가동 중단 같은 여러 비밀 작전을 수행할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen09Subtitle",
+  "text": "*반군은 위장 상태이며 건물을 점령해 대의를 도울 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen10Subtitle",
+  "text": "*행운을 빈다, 장군. 은밀함과 교활함이 함께하길"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen11Subtitle",
+  "text": "*좋은 아침이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen12Subtitle",
+  "text": "*장군, 저 페리를 점령해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen13Subtitle",
+  "text": "*장군, 여기 지뢰가 있는데 탐지할 수가 없다! 레이더 밴이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen14Subtitle",
+  "text": "*장군, 강가의 밸브 스테이션에 누군가를 들여보내라. 냉각수 저수지를 비우면 형제들이 더 나아갈 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen15Subtitle",
+  "text": "*훌륭하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen16Subtitle",
+  "text": "*잘했다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen17Subtitle",
+  "text": "*장군! 전멸하기 전에 저 비행장을 파괴하라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen18Subtitle",
+  "text": "*장군. 놈들의 전력을 파괴해야 한다! 그러면 미국인들은 독 안에 든 쥐다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen19Subtitle",
+  "text": "*장군, 저 독소 시설을 점령해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen20Subtitle",
+  "text": "*훌륭하다, 장군. 이제 트럭이 독소를 화물기로 옮기는 동안 지켜야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen21Subtitle",
+  "text": "*트럭으로 시설에서 독소를 모으기 시작하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen22Subtitle",
+  "text": "*장군, 미국인들이 증원군을 보냈다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen23Subtitle",
+  "text": "*또 다른 하이재커 조직이 대의를 도우러 왔다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen24Subtitle",
+  "text": "*또 다른 반군 조직이 대의를 도우러 왔다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen25Subtitle",
+  "text": "*자르멘 켈을 찾았다. 대의를 도우러 돌아왔다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen26Subtitle",
+  "text": "*형제들이 돌파해 증원군을 보내 주었다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen27Subtitle",
+  "text": "*그리스에서 이긴 뒤라 미국은 자기네 땅이 공격받으리라 생각하지 못할 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen28Subtitle",
+  "text": "*카사드였다면 미국 본토를 공격할 용기가 없었을 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen29Subtitle",
+  "text": "*미국 생물 센터에서 비밀 독소를 훔치면 아무도 우리를 막을 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy104Subtitle",
+  "text": "*패트리어트 포대를 조심해라, 위험하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy108Subtitle",
+  "text": "*무덤으로 가라, 미국 쓰레기들아!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar02bSubtitle",
+  "text": "*미군 공군 기지를 파괴하면 이 지역에서 놈들의 전력 투사 능력이 크게 떨어진다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar05Subtitle",
+  "text": "*미국인들은 공군력으로 우리를 막으려 할 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Quad201Subtitle",
+  "text": "*죽어라, 미국 놈!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Rebel02Subtitle",
+  "text": "*미군 공습에 속수무책이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Scorpion105Subtitle",
+  "text": "*미국 겁쟁이들! 사내답게 땅에서 싸워라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xChat01Subtitle",
+  "text": "*이 지역은 미 공군 그레인저 장군의 통제하에 있다. 우리는 무력으로 너희를 이 지역에서 몰아낼 수 있고 그렇게 할 것이다. 즉시 철수하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin01Subtitle",
+  "text": "*우리 병력은 적지만 가진 것으로 승리할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin02Subtitle",
+  "text": "*이 지역에 기지가 없으니 하나 빼앗아야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin03Subtitle",
+  "text": "*중국 기지다... 지금 공격해야 한다! 놈들의 기지는 곧 우리 것이 된다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen01Subtitle",
+  "text": "*남쪽 미군 기지에서 동지들을 구해 주면 우리 정예 전사들이 함께 싸우겠다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen02Subtitle",
+  "text": "*형제들을 구해 줘서 고맙다! 보답으로 미군 기지 한 구역을 열어 공격을 시작할 수 있게 하겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen03Subtitle",
+  "text": "*흐흐흐흐흐 (음흉한 웃음) 이제 좀 정신 차리겠지"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen04Subtitle",
+  "text": "*우리의 죽음을 헛되이 하지 마라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen05Subtitle",
+  "text": "*함께 적을 물리쳤다! 승리는 우리의 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen06Subtitle",
+  "text": "*병사들을 구하는 걸 도와줘서 고맙다. 그 은혜를 갚아 미군 중부 사령부 기지를 쓰러뜨리는 걸 돕겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen01Subtitle",
+  "text": "*이 기지만 파괴하면 미국은 겁먹은 개처럼 집으로 도망갈 것이다. 유럽 전체가 우리 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen02Subtitle",
+  "text": "*미국인들이 기지에 형제들을 인질로 잡고 있다. 구해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen03Subtitle",
+  "text": "*미국인들 손아귀에서 포로들을 구하는 것이 우리에게 가장 이롭다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen04Subtitle",
+  "text": "*잘했다! 포로들의 안전을 위해 이 기지를 점령하거나 제거하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen05Subtitle",
+  "text": "*북쪽 기지까지 무사히 데려가야 한다. 털끝 하나 다쳐선 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen06Subtitle",
+  "text": "*보급품이 떨어져 간다. 흩어져서 새 자원을 점령해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen07Subtitle",
+  "text": "*또 공습이다! 대공 방어를 더 지어야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen08Subtitle",
+  "text": "*방어를 빨리 재건하라, 다음 공격까지 시간이 별로 없다"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi002Subtitle",
+  "text": "*النمرة متأهبة للانقضاض أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi003Subtitle",
+  "text": "*من أجل الصين! هجوم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi004Subtitle",
+  "text": "*قواتي مستعدة للاشتباك مع دفاعاتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi005Subtitle",
+  "text": "*اشعر بوقع أقدام تنيني الحديدي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi006Subtitle",
+  "text": "*دفاعاتك بلا قيمة أمام قواتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi007Subtitle",
+  "text": "*نلتقي الآن في ميدان الشرف أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi008Subtitle",
+  "text": "*نفعل هذا من أجل خير الصين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi009Subtitle",
+  "text": "*حان وقت اختبار صلابتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi010Subtitle",
+  "text": "*هاجمتني للمرة الأخيرة أيها الجنرال. هذه الموجة ستحطم دفاعاتك وتسحق جيشك البائس حتى يصير غبارًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi011Subtitle",
+  "text": "*جبروت الصين يهبط عليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi012Subtitle",
+  "text": "*قواتك الضعيفة لن تشكّل تحديًا لمحاربيّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi013Subtitle",
+  "text": "*أنت من بدأ هذا القتال أيها الجنرال. والآن سأنهيه أنا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi014Subtitle",
+  "text": "*هاجموا الأحمق! لا أسرى!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi015Subtitle",
+  "text": "*محاربان يلتقيان في ساحة المعركة. من يستطيع أن يقول من سيفوز؟ أنا أقول. نعم، أنا. ستسقط أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi016Subtitle",
+  "text": "*المعركة التي لا يمكن كسبها لا تستحق خوضها. فلماذا أنت هنا أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi017Subtitle",
+  "text": "*الغضب وحده لن يوصلك بعيدًا أيها الجنرال. أما الغضب ومعه رتل من الدبابات... فهذا سيوصلك إلى مكان ما"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi018Subtitle",
+  "text": "*وصلت إلى آخر الحبل أيها الجنرال. والآن فقط اكتشفت أن طرف الحبل مشتعل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi019Subtitle",
+  "text": "*رقصة المعركة غريبة وقصيرة... ومعركتي معك كانت قصيرة على نحو غريب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi020Subtitle",
+  "text": "*أرى أنك لم تفكر في استراتيجيتك جيدًا. يا للأسف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi021Subtitle",
+  "text": "*هذه استراتيجية خاسرة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi022Subtitle",
+  "text": "*أنت لا تعمل لخير شعبك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi023Subtitle",
+  "text": "*سأمنحك لحظة تفكر فيها في خطوتك التالية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi024Subtitle",
+  "text": "*الحكيم يعرف متى يتراجع. ومن الواضح أنك لست ذلك الرجل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi025Subtitle",
+  "text": "*في النهاية، الجميع يسقطون أمامي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi026Subtitle",
+  "text": "*لا تستطيع الصمود أمام جبروتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi027Subtitle",
+  "text": "*لا يمكن لرجل واحد أن يهزم الصين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi028Subtitle",
+  "text": "*سنتأمل ونفكر في خطوتنا التالية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi029Subtitle",
+  "text": "*لا تلتزم بتكتيك لا تستطيع دعمه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi030Subtitle",
+  "text": "*الانتحار ليس تكتيكًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi031Subtitle",
+  "text": "*نكنس مبانيك كما يكنس الإعصار أعواد الخيزران"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi032Subtitle",
+  "text": "*فرّ رجالك من الثكنات حين سوّيناها بالأرض"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi033Subtitle",
+  "text": "*المصنع لا ينتج الحرب أيها الجنرال--والآن لا ينتج مصنع حربك شيئًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi034Subtitle",
+  "text": "*مطارك العسكري لن يُقلع بعد اليوم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi035Subtitle",
+  "text": "*دفاعات قاعدتك تتساقط أمامنا كأعواد العشب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi036Subtitle",
+  "text": "*دمّرنا مركز قيادتك، فأين تختبئ الآن أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi037Subtitle",
+  "text": "*سقط كثير من مبانيك حتى ظننت أنك ستستسلم الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi038Subtitle",
+  "text": "*لا تظن أنك تستطيع تدمير ثكناتي دون أن تذوق غضبي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi039Subtitle",
+  "text": "*عليّ الآن إعادة بناء مصنع الحرب. من الحكمة أن تستغل ضعفي المؤقت... فلن يدوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi040Subtitle",
+  "text": "*أيتها الجرافات: أعيدي بناء المطار قبل عودة طائرات الميغ!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi041Subtitle",
+  "text": "*دفاعاتنا تتصدع! اصدّوا الغزاة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi042Subtitle",
+  "text": "*يكفي هذا القدر من الدمار أيها الجنرال. الآن جاء دوري"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi043Subtitle",
+  "text": "*قد تستولي على مركز قيادتي، لكن هذه المعركة لم تنتهِ أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi044Subtitle",
+  "text": "*سننتقم لكل طائرات الميغ التي دمّرتها أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi045Subtitle",
+  "text": "*ثمن هذه الحرب باهظ جدًا أيها الجنرال. والآن حان وقت الدفع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi046Subtitle",
+  "text": "*مشاة الصين كثيرون، لكن ضُحّي بالكثير منهم. الآن سأرد قسوتك عشرة أضعاف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi047Subtitle",
+  "text": "*استولِ على ما شئت من النفط--فلن يتسع وقتك لجني ثماره"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi048Subtitle",
+  "text": "*يمكن تجنب منصة المدفعية تلك بسهولة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi049Subtitle",
+  "text": "*تسعى لتحسين كفاءتك بتلك المصفاة أيها الجنرال؟ كانت استراتيجية متينة ستفيدك أكثر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi050Subtitle",
+  "text": "*شيء ما يتحرك عند أطراف قاعدتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi051Subtitle",
+  "text": "*أراك تقترب من قاعدتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi052Subtitle",
+  "text": "*لن تعيش لتندم على دخول قاعدتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi053Subtitle",
+  "text": "*قد تدخل قواتك قاعدتي، لكنها لن تخرج منها أبدًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi054Subtitle",
+  "text": "*تلك الموارد تحت حمايتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi055Subtitle",
+  "text": "*لماذا تصرّ على الهجوم من الأجناب؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi056Subtitle",
+  "text": "*هجوم مثير للاهتمام أيها الجنرال، لكنه لن ينجح ضدي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi057Subtitle",
+  "text": "*هجوم شجاع أيها الجنرال، لكن الشجاعة وحدها لن تهزمني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi058Subtitle",
+  "text": "*هذا تكتيك الحمقى أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi059Subtitle",
+  "text": "*غادر هذا المكان قبل أن تثير غضبي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi060Subtitle",
+  "text": "*أرى ما تفعله أيها الجنرال. لن أسمح به"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi061Subtitle",
+  "text": "*اهرب من هنا أيها الجنرال قبل أن أطلق عليك الحشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi062Subtitle",
+  "text": "*نقترب من قاعدتك أيها الجنرال. ما دفاعك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi063Subtitle",
+  "text": "*هل أنت مستعد لهجومنا أيها الجنرال؟ سنرى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi064Subtitle",
+  "text": "*دفاعاتك غير كافية أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi065Subtitle",
+  "text": "*الآن سنبدأ تسوية قاعدتك بالأرض أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi066Subtitle",
+  "text": "*قريبًا ستصبح مواردك لي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi067Subtitle",
+  "text": "*أطالب ببرج النفط هذا للصين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi068Subtitle",
+  "text": "*أجنابك مكشوفة أيها الجنرال. خطأ قاتل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi069Subtitle",
+  "text": "*سمحت لقواتي بالالتفاف على دفاعاتك. الآن سنقضي عليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi070Subtitle",
+  "text": "*سمحت لطاقتك بالانخفاض أيها الجنرال. ادعُ ألا يكون ذلك خطأً قاتلًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi071Subtitle",
+  "text": "*من دون طاقة لن تستطيع الدفاع عن قاعدتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi072Subtitle",
+  "text": "*استنفدت مواردك أيها الجنرال. حان وقت الاعتراف بالهزيمة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi073Subtitle",
+  "text": "*أرهقت مواردي أيها الجنرال. الآن سآتي وآخذ مواردك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi074Subtitle",
+  "text": "*عاصفة سكود سلاح جبان أيها الجنرال. ظننتك أرفع من ذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi075Subtitle",
+  "text": "*تجبرني على الرد بصومعة نووية خاصة بي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi076Subtitle",
+  "text": "*مدفع الجسيمات ذاك سلاح رهيب، لكنه لا يستطيع إيقاف الصين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi077Subtitle",
+  "text": "*كل هذه الدفاعات... أرى أنك تحترم عدوك كما ينبغي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi078Subtitle",
+  "text": "*لا تستطيع بناء دبابات أكثر من الصين أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi079Subtitle",
+  "text": "*سنجاري طائراتك في الجو أيها الجنرال. تفوّقك لن يكون إلا في خيالك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi080Subtitle",
+  "text": "*رجالك أقل عددًا أيها الجنرال. لا تحاول صنع حشد أكبر من حشد الصين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi081Subtitle",
+  "text": "*قاعدتك تكبر أيها الجنرال... وقد نضجت لضربة نووية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi082Subtitle",
+  "text": "*أيها الحرس الأحمر، تفرّقوا! صواريخ سكود قادمة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi083Subtitle",
+  "text": "*نحن محصّنون ضد صواريخك النووية أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi084Subtitle",
+  "text": "*لا! شعاع جسيماتك سيجرحنا فقط--ولن ننسى هذا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi085Subtitle",
+  "text": "*اختبئ في تلك المباني أيها الجنرال. ربما تأتي دبابة تنين لزيارتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi086Subtitle",
+  "text": "*مغامرات العقيد بيرتون أسطورية، لكنه رجل واحد فقط أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi087Subtitle",
+  "text": "*أرى أنك أفسدت إحدى عميلات اللوتس الأسود لدينا. تدريبها لن يقلب المعركة لصالحك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi088Subtitle",
+  "text": "*القنّاص كيل يدخل معركتنا. لا تعتمد على تخفيه لينقذك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi089Subtitle",
+  "text": "*من الحماقة أن تبني مطارًا عسكريًا أيها الجنرال. الدبابات وحدها تستطيع إنقاذك مني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi090Subtitle",
+  "text": "*من الحكمة أن تبني مصنع حرب أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi091Subtitle",
+  "text": "*تلك الثكنات مجرد بداية لما ستحتاجه لهزيمتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi092Subtitle",
+  "text": "*إن كنت ستبيع مبانيك، فلماذا تتعب نفسك ببنائها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi093Subtitle",
+  "text": "*لن تهزمني بهذه السهولة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi094Subtitle",
+  "text": "*أفضليتك لن تدوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi095Subtitle",
+  "text": "*لن يهزمني أمثالك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi096Subtitle",
+  "text": "*ليست هذه النهاية أيها الجنرال. سأتعافى من هذا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi097Subtitle",
+  "text": "*عليّ الإقرار بهذه الهزيمة. أظهرت تكتيكات متفوقة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi098Subtitle",
+  "text": "*تكتيكاتي المتفوقة تقودك إلى الهزيمة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi099Subtitle",
+  "text": "*أنت تخسر هذه المعركة أيها الجنرال. خير لك أن تقبل الهزيمة بشرف من أن تواصل القتال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi100Subtitle",
+  "text": "*نهايتك تقترب أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi101Subtitle",
+  "text": "*لماذا تقاوم المحتوم أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi102Subtitle",
+  "text": "*ظل التنين إيذان ببدء هزيمتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi103Subtitle",
+  "text": "*حان وقت قبول هزيمتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi104Subtitle",
+  "text": "*حان وقت نهوض التنين من جديد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi105Subtitle",
+  "text": "*لا عيب في الاعتراف بضعفك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi106Subtitle",
+  "text": "*لست مستعدًا لمواجهتي. عُد حين يكتمل تدريبك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi107Subtitle",
+  "text": "*لماذا تركض نحو هلاكك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi108Subtitle",
+  "text": "*كانت هذه منافسة مثيرة. ربما تتحداني مرة أخرى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi109Subtitle",
+  "text": "*طوّر مهاراتك ثم تحدّني مرة أخرى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi110Subtitle",
+  "text": "*مرحبًا أيها الجنرال. أرجو أنك مستعد لمواجهتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi111Subtitle",
+  "text": "*انتصاراتك تشهد بقدرتك، لكن جنرالاتي لم يملكوا دهائي ولا خبرتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi112Subtitle",
+  "text": "*قريبًا سترى معنى مواجهة التنين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA001Subtitle",
+  "text": "*معظم الأعداء كانوا سيفرّون لمجرد رؤية جيوشي. ربما يستحق هذا العناء في النهاية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA002Subtitle",
+  "text": "*قواتي تنقضّ عليك كالريح أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA003Subtitle",
+  "text": "*رجالك كالخراف أمام محاربيّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA004Subtitle",
+  "text": "*انظر إلى كل هذه الألعاب الجميلة التي أحضرتها لي. كسرت كل ألعابي وأنا طفل أيها الجنرال، والآن سأكسر ألعابك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA005Subtitle",
+  "text": "*قواتك تتساقط كالقمح أمام سيفي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA006Subtitle",
+  "text": "*أبليت حسنًا أمام جنرالاتي، لكنني أملك قوتهم مجتمعة. ماذا ستفعل أمام ذلك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA007Subtitle",
+  "text": "*لن ترى قواتي أبدًا أيها الجنرال... حتى يفوت الأوان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA008Subtitle",
+  "text": "*سنكنسك من أراضينا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA009Subtitle",
+  "text": "*الآن سترى ما جلبه عليك غزوك العقيم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA010Subtitle",
+  "text": "*تجرأت على تحديّ--والآن ستحصد الجزاء الرهيب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA011Subtitle",
+  "text": "*بماذا تشعر أيها الجنرال والفرسان يطرقون بابك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA012Subtitle",
+  "text": "*أُتيحت لك فرصة الانسحاب، والآن سنبيدك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA013Subtitle",
+  "text": "*اشهد قوة إرادتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA014Subtitle",
+  "text": "*غضبي سيمزق آلة حربك حتى تصير غبارًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA015Subtitle",
+  "text": "*السموم... المتفجرات... التخفي... هزمت كل واحد منها، لكن الثلاثة معًا؟ ضاع كل شيء أيها الجنرال. عليك الاستسلام... لأجل رجالك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA016Subtitle",
+  "text": "*عالمك جعلك ناعمًا أيها الجنرال. أما عالمي فجعلني قويًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA017Subtitle",
+  "text": "*ستتعلم احترام قوتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA018Subtitle",
+  "text": "*ستنتظر بينما أعدّ هجومي التالي، ثم تُستأنف المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA019Subtitle",
+  "text": "*هل تعبت من الموت على أسوار دفاعاتي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA020Subtitle",
+  "text": "*ساحة المعركة هادئة أيها الجنرال. هل تنتظرني لأنهي هذا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA021Subtitle",
+  "text": "*ننتظر هجومك البائس التالي بفارغ الصبر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA022Subtitle",
+  "text": "*أهذا أقصى ما لديك من قوة أيها الجنرال؟ بائس حقًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA023Subtitle",
+  "text": "*كانت هجماتك كصرخات بائسة وسط عواء عاصفة هوجاء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA024Subtitle",
+  "text": "*بدأت هذه المعركة تُضجرني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA025Subtitle",
+  "text": "*كم من الوقت بعد أدعك تعيش أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA026Subtitle",
+  "text": "*أيها الجنرال، رعيتي تحتاج إلى اهتمامي... إلى متى تنوي الرقص في مكانك كالمهرّج؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA027Subtitle",
+  "text": "*أيها الجنرال، تكتيكاتك تذكّرني بطفل يتعلم لعب الشطرنج"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA028Subtitle",
+  "text": "*هل انتهيت أيها الجنرال؟ هل استنفدت مواردك البائسة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA029Subtitle",
+  "text": "*أيها الجنرال، مللت منذ دقائق--والآن بدأت أغفو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA030Subtitle",
+  "text": "*كيف تشعر وأنت تتحدى عبقريًا عسكريًا حقيقيًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA031Subtitle",
+  "text": "*كل ما تكسبه سأدمّره"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA032Subtitle",
+  "text": "*الآن سقطت ثكناتك--وقريبًا سيسقط كل شيء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA033Subtitle",
+  "text": "*خسرت مصنع حربك--أعد بناءه وسأدمّره مجددًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA034Subtitle",
+  "text": "*أرحتك من مطارك العسكري أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA035Subtitle",
+  "text": "*دفاعات قاعدتك لا تستطيع إيقاف قواتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA036Subtitle",
+  "text": "*أيها الجنرال، إن كنت لا تستطيع حتى الاحتفاظ بمركز قيادتك، فكيف تأمل هزيمتي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA037Subtitle",
+  "text": "*سقط الكثير من منشآتك أيها الجنرال--لمَ لا تنسحب من الميدان وتوفّر على نفسك مزيدًا من الإحراج؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA038Subtitle",
+  "text": "*لا تختبر صبري أكثر بتدمير مزيد من أبراج نفطي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA039Subtitle",
+  "text": "*تتجرأ على تدمير ثكناتي أيها الجنرال؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA040Subtitle",
+  "text": "*أيها الجنرال، أحتاج إلى تاجر أسلحة لأدير أعمالي. لا تدمّر واحدًا آخر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA041Subtitle",
+  "text": "*تظن أنك ستسحق دفاعاتي أيها الجنرال؟ سينهض غيرها مكانها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA042Subtitle",
+  "text": "*هذا آخر مبنى تدمّره أيها الجنرال. لصبري حدود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA043Subtitle",
+  "text": "*مركز قيادتي! أجبرتني على التراجع إلى تحت الأرض، لكن الأمر لم ينتهِ بعد أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA044Subtitle",
+  "text": "*دمّرت كثيرًا من آلاتي أيها الجنرال. ربما استهنت بك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA045Subtitle",
+  "text": "*رجالي ليسوا أهدافًا تتدرب عليها أيها الجنرال. دماؤهم على يديك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA046Subtitle",
+  "text": "*اترك برج نفطي وإلا أحرقته"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA047Subtitle",
+  "text": "*أرى أنك استوليت على منصة المدفعية المهجورة تلك. بالتوفيق في تشغيلها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA048Subtitle",
+  "text": "*مصفاة النفط تلك لن تقلب الموازين لصالحك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA049Subtitle",
+  "text": "*أيها الأحمق الوقح! توغّلت في بيتي بما يكفي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA050Subtitle",
+  "text": "*أنت كحشرة لاسعة أيها الجنرال، وحان وقت سحق وجودك المزعج"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA051Subtitle",
+  "text": "*العدو في حضرتنا! دمّروه! دمّروهم جميعًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA052Subtitle",
+  "text": "*أيها الأحمق! تجاوزت الخط! قواتك هالكة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA053Subtitle",
+  "text": "*آه، هجوم على الجناح... بدائي، لكنه على الأقل استراتيجية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA054Subtitle",
+  "text": "*تحاول مهاجمة بابي الخلفي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA055Subtitle",
+  "text": "*هجوم أمامي؟ كان عليك إحضار قوات أكثر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA056Subtitle",
+  "text": "*أرى أنك عثرت على إمداداتي الإضافية... وأشدد: إمداداتي أنا. اتركها الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA057Subtitle",
+  "text": "*الاقتراب من قاعدتي عبر ذلك الطريق لن يقودك إلا إلى الموت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA058Subtitle",
+  "text": "*ابتعد عن تلك القرية أيها الجنرال. أنا أحمي من هم في رعايتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA059Subtitle",
+  "text": "*تلك الموارد لشعبي أيها الجنرال. ليست لك لتأخذها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA060Subtitle",
+  "text": "*لم توضع تلك المباني هنا لاستخدامك أيها الجنرال. لا تعبث ببنيتي التحتية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA061Subtitle",
+  "text": "*يبدو أن شهيتك فاقت مواردك أيها الجنرال. أرجو أن تعيد طاقتك قبل أن نصل إلى قاعدتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA062Subtitle",
+  "text": "*أرضنا بلا كهرباء... من سوء حظك أن قاعدتك لا تعمل من دونها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA063Subtitle",
+  "text": "*نفدت أموالك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA064Subtitle",
+  "text": "*أيها الجنرال، أنت ترهق مواردي. حربك الصغيرة ستُجيع شعبي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA065Subtitle",
+  "text": "*عاصفة سكود؟! سرقت تقنيتنا! ستدفع ثمن هذا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA066Subtitle",
+  "text": "*تبني أسلحة نووية أيها الجنرال؟ توقعت أن تلجأ إلى هذا الجبن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA067Subtitle",
+  "text": "*مدفع جسيمات؟ أشعتك من الفضاء لا تصل إلينا تحت الأرض"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA068Subtitle",
+  "text": "*كل هذه الدفاعات. لا بد أنك تخشى قوتي حقًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA069Subtitle",
+  "text": "*كم دبابة تحتاج أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA070Subtitle",
+  "text": "*تملأ السماء بهذا البعوض المزعج. الآن سنسحقه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA071Subtitle",
+  "text": "*درّب من شئت من الرجال أيها الجنرال، لكن الخسائر في الأرواح ستزداد كل دقيقة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA072Subtitle",
+  "text": "*قاعدتك كبرت أيها الجنرال... ربما أكثر من اللازم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA073Subtitle",
+  "text": "*أطلق سمومك علينا أيها الجنرال؛ استعددنا لما هو أسوأ بكثير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA074Subtitle",
+  "text": "*الجميع تحت الأرض! صواريخهم النووية تقترب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA075Subtitle",
+  "text": "*نعم، استخدم شعاع جسيماتك--وأرِ العالم جبنك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA076Subtitle",
+  "text": "*تحصّن في المبنى أيها الجنرال--واختبئ كالجرذان في الجدار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA077Subtitle",
+  "text": "*العقيد بيرتون لن ينقذك أيها الجنرال. عليك خوض هذه الحرب بنفسك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA078Subtitle",
+  "text": "*آه، اللوتس الأسود الجميلة. انضمي إليّ يا لوتس، وستعيشين كملكة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA079Subtitle",
+  "text": "*جارمن كيل؟ يتجرأ على الوقوف ضدي؟! انتقامي سيكون... مزعجًا للغاية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA080Subtitle",
+  "text": "*مطارك العسكري لن يصمد أمام هجومي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA081Subtitle",
+  "text": "*بنيت مصنع حرب أخيرًا أيها الجنرال؟ ما الذي أخّرك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA082Subtitle",
+  "text": "*ثكناتك البائسة لن تنفعك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA083Subtitle",
+  "text": "*تبيع مبانيك لتموّل جيشك؟ لا يبدو هذا منطقيًا، أليس كذلك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA084Subtitle",
+  "text": "*هذا مستحيل! لا يمكنك هزيمتي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA085Subtitle",
+  "text": "*قد تظن أن لك اليد العليا، لكن هذه المعركة ستتقلب كالريح"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA086Subtitle",
+  "text": "*قد يفوق جنودك جنودي عددًا الآن، لكن المعارك لا تُكسب بالأعداد وحدها أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA087Subtitle",
+  "text": "*لا أصدق أن أحمق ضعيف العقل كهذا يهزمني. سيلازمني هذا العار إلى الأبد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA088Subtitle",
+  "text": "*هزمني أحمق... الإذلال أكبر من أن يُحتمل... أرجوك دعني وعذابي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA089Subtitle",
+  "text": "*أيها الجنرال، أشم رائحة الخوف واليأس تفوح من قاعدتك"
+ }
+]

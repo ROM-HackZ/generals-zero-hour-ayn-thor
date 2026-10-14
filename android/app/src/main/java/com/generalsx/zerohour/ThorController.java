@@ -1,0 +1,418 @@
+package com.generalsx.zerohour;
+
+import android.app.Presentation;
+import android.content.Context;
+import android.hardware.display.DisplayManager;
+import android.os.Handler;
+import android.os.Looper;
+import android.view.Display;
+import android.view.InputDevice;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.FrameLayout;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import java.util.ArrayList;
+
+// GeneralsX @feature Codex 14/10/2026 Xbox RTS contexts, controller menus and display lifecycle.
+final class ThorController implements DisplayManager.DisplayListener, android.hardware.input.InputManager.InputDeviceListener {
+    final GeneralsZHActivity activity;
+    final Handler handler = new Handler(Looper.getMainLooper());
+    final DisplayManager displays;
+    final android.content.SharedPreferences preferences;
+    final android.hardware.input.InputManager inputs;
+    final ThorOverlay overlay;
+    Presentation presentation;
+    ThorDeck deck;
+    ThorDeck fallbackDeck;
+    JSONObject snapshot = new JSONObject();
+    final ArrayList<JSONObject> widgets = new ArrayList<>();
+    final ArrayList<JSONObject> commands = new ArrayList<>();
+    final ArrayList<JSONObject> deckRows = new ArrayList<>();
+    final ArrayList<JSONObject> queueRows = new ArrayList<>();
+    final ThorUi ui = new ThorUi();
+    JSONObject powers;
+    boolean scienceMenu;
+    int queuePage;
+    long lastRadarRead;
+    boolean ready, running, battle, lt, rt, lb, r3, deckFocus, mapMode, typing;
+    int focusedId, page, wedge = -1, groupPage, keyboardIndex, deckPage;
+    float lx, ly, rx, ry, mapX = .5f, mapY = .5f;
+    long aDown, lastTap, lastNavigation;
+    long lastDiagnostic;
+    boolean aHeld;
+    boolean description;
+    int descriptionScroll;
+    JSONObject confirmation;
+    boolean editingWidget;
+    boolean controllerActive;
+    boolean ltButton, rtButton, ltAxis, rtAxis;
+    long lastMotionDiagnostic;
+    int lastKeyCode, lastKeySource, lastMotionSource;
+    int lastControllerDevice = -1;
+    String entered = "";
+    final String keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 _-.";
+
+    ThorController(GeneralsZHActivity activity) {
+        this.activity = activity;
+        preferences = activity.getSharedPreferences("thor_controller", Context.MODE_PRIVATE);
+        displays = (DisplayManager)activity.getSystemService(Context.DISPLAY_SERVICE);
+        inputs = (android.hardware.input.InputManager)activity.getSystemService(Context.INPUT_SERVICE);
+        inputs.registerInputDeviceListener(this, handler);
+        overlay = new ThorOverlay(activity, this);
+        activity.addContentView(overlay, new FrameLayout.LayoutParams(-1, -1));
+        fallbackDeck = new ThorDeck(activity, this);
+        FrameLayout.LayoutParams fallbackLayout = new FrameLayout.LayoutParams(activity.getResources().getDisplayMetrics().widthPixels * 2 / 3, activity.getResources().getDisplayMetrics().heightPixels * 9 / 10, android.view.Gravity.CENTER);
+        activity.addContentView(fallbackDeck, fallbackLayout);
+        fallbackDeck.setVisibility(View.GONE);
+        displays.registerDisplayListener(this, handler);
+        attachDisplay();
+        resume();
+    }
+    void attachDisplay() {
+        Display target = null;
+        for (Display d : displays.getDisplays())
+            if (d.getDisplayId() != activity.getDisplay().getDisplayId()) { target = d; break; }
+        if (presentation != null && (target == null || presentation.getDisplay().getDisplayId() != target.getDisplayId())) {
+            presentation.dismiss(); presentation = null; deck = null;
+        }
+        if (target != null && presentation == null) {
+            presentation = new Presentation(activity, target);
+            deck = new ThorDeck(presentation.getContext(), this);
+            presentation.setContentView(deck);
+            presentation.getWindow().addFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE);
+            presentation.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+            try { presentation.show(); }
+            catch (WindowManager.InvalidDisplayException e) { presentation = null; deck = null; }
+            android.util.Log.i("Thor", "Command deck display " + target.getDisplayId());
+        }
+    }
+    final Runnable tick = new Runnable() {
+        public void run() {
+            if (!running) return;
+            try {
+                snapshot = new JSONObject(ThorBridge.nativeSnapshot());
+                ready = snapshot.optBoolean("ready");
+                if (ready) ThorBridge.nativeOptions(preferences.getBoolean("snap", true), presentation != null);
+                boolean wasBattle = battle;
+                battle = snapshot.optBoolean("battle");
+                if (wasBattle != battle) {
+                    focusedId = 0; deckFocus = mapMode = rt = lb = false; aHeld = false;
+                    if (!battle && ready) ThorBridge.intent(97, 0);
+                }
+                JSONObject oldFocus = find(focusedId);
+                String focusAction = oldFocus == null ? "" : oldFocus.optString("identity", oldFocus.optString("action"));
+                widgets.clear(); commands.clear(); deckRows.clear(); queueRows.clear(); powers = null;
+                JSONArray rows = snapshot.optJSONArray("widgets");
+                if (rows != null) for (int i = 0; i < rows.length(); i++) {
+                    JSONObject row = rows.optJSONObject(i);
+                    if (row == null) continue;
+                    widgets.add(row);
+                    if (row.optBoolean("command")) commands.add(row);
+                    if (row.optBoolean("queue")) queueRows.add(row);
+                    if (row.optString("label").equals("Generals Experience Menu")) powers = row;
+                }
+                // GeneralsX @feature Codex 14/10/2026 Stable native slot ordering and contextual/shortcut deduplication.
+                scienceMenu = false;
+                for (JSONObject row : commands) if (row.optBoolean("science")) scienceMenu = true;
+                if (scienceMenu) {
+                    for (int i = commands.size() - 1; i >= 0; --i) if (!commands.get(i).optBoolean("science")) commands.remove(i);
+                    java.util.Collections.sort(commands, (a, b) -> a.optInt("y") == b.optInt("y") ? Integer.compare(a.optInt("x"), b.optInt("x")) : Integer.compare(a.optInt("y"), b.optInt("y")));
+                } else java.util.Collections.sort(commands, (a, b) -> Integer.compare(a.optInt("slot", -1) < 0 ? 1000 : a.optInt("slot"), b.optInt("slot", -1) < 0 ? 1000 : b.optInt("slot")));
+                java.util.HashSet<String> identities = new java.util.HashSet<>();
+                for (int i = 0; i < commands.size();) {
+                    JSONObject row = commands.get(i);
+                    String identity = row.optString("identity", row.optString("action", "id:" + row.optInt("id")));
+                    if (!identities.add(identity)) commands.remove(i); else ++i;
+                }
+                if (battle) {
+                    deckRows.addAll(commands);
+                    deckRows.addAll(queueRows);
+                    if (powers != null) deckRows.add(powers);
+                } else deckRows.addAll(widgets);
+                if (battle) {
+                    JSONObject retained = null;
+                    for (JSONObject row : deckRows) if (row.optInt("id") == focusedId && (focusAction.isEmpty() || focusAction.equals(row.optString("identity", row.optString("action"))))) retained = row;
+                    if (retained == null && !focusAction.isEmpty()) for (JSONObject row : deckRows) if (focusAction.equals(row.optString("identity", row.optString("action")))) { retained = row; break; }
+                    focusedId = retained != null ? retained.optInt("id") : deckRows.isEmpty() ? 0 : deckRows.get(0).optInt("id");
+                } else if (find(focusedId) == null) focusedId = firstEnabled();
+                page = Math.min(page, Math.max(0, (commands.size() - 1) / 8));
+                deckPage = Math.min(deckPage, Math.max(0, ((battle ? commands.size() : deckRows.size()) - 1) / ThorDeckLayout.COMMANDS_PER_PAGE));
+                queuePage = Math.min(queuePage, Math.max(0, (queueRows.size() - 1) / ThorDeckLayout.QUEUE_PER_PAGE));
+                if (battle && deckFocus) {
+                    for (int i = 0; i < commands.size(); ++i) if (commands.get(i).optInt("id") == focusedId) deckPage = i / ThorDeckLayout.COMMANDS_PER_PAGE;
+                    for (int i = 0; i < queueRows.size(); ++i) if (queueRows.get(i).optInt("id") == focusedId) queuePage = i / ThorDeckLayout.QUEUE_PER_PAGE;
+                }
+                refreshArtwork();
+                long diagnosticNow = android.os.SystemClock.uptimeMillis();
+                if ((activity.getApplicationInfo().flags & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0 && diagnosticNow - lastDiagnostic > 1000) {
+                    lastDiagnostic = diagnosticNow;
+                    try {
+                        snapshot.put("focusedId", focusedId);
+                        snapshot.put("controllerActive", controllerActive);
+                        snapshot.put("lastKeyCode", lastKeyCode);
+                        snapshot.put("lastKeySource", lastKeySource);
+                        snapshot.put("lastMotionSource", lastMotionSource);
+                        snapshot.put("lx", lx); snapshot.put("ly", ly);
+                        snapshot.put("rx", rx); snapshot.put("ry", ry);
+                        snapshot.put("rt", rt); snapshot.put("lt", lt);
+                        snapshot.put("deckFocus", deckFocus); snapshot.put("mapMode", mapMode);
+                        snapshot.put("page", page); snapshot.put("wedge", wedge);
+                        snapshot.put("deckPage", deckPage); snapshot.put("queuePage", queuePage); snapshot.put("artworkCached", ui.art.snapshot().size());
+                        snapshot.put("physicalWidth", overlay.getWidth()); snapshot.put("physicalHeight", overlay.getHeight());
+                        try (java.io.FileWriter out = new java.io.FileWriter(new java.io.File(activity.getExternalFilesDir(null), "thor-state.json"))) { out.write(snapshot.toString()); }
+                    } catch (java.io.IOException e) { android.util.Log.w("Thor", "State capture unavailable", e); }
+                }
+                if (mapMode) {
+                    mapX = Math.max(0, Math.min(.999f, mapX + lx * .025f));
+                    mapY = Math.max(0, Math.min(.999f, mapY + ly * .025f));
+                }
+                sendAxes();
+                if (!battle && !typing && Math.max(Math.abs(lx), Math.abs(ly)) > .6f && android.os.SystemClock.uptimeMillis() - lastNavigation > 220) {
+                    navigate(Math.abs(lx) > Math.abs(ly) ? (lx > 0 ? 1 : -1) : 0, Math.abs(ly) >= Math.abs(lx) ? (ly > 0 ? 1 : -1) : 0);
+                }
+                overlay.invalidate();
+                if (deck != null) deck.invalidate();
+                fallbackDeck.setVisibility(presentation == null && (deckFocus || mapMode) ? View.VISIBLE : View.GONE);
+                if (fallbackDeck.getVisibility() == View.VISIBLE) fallbackDeck.invalidate();
+            } catch (UnsatisfiedLinkError e) {
+                ready = false; // SDL has not loaded the game library yet.
+            } catch (org.json.JSONException e) {
+                android.util.Log.e("Thor", "Invalid engine snapshot", e);
+            }
+            handler.postDelayed(this, 33);
+        }
+    };
+    void resume() { if (running) return; running = true; if (ready) ThorBridge.intent(98, 0); handler.post(tick); }
+    void pause() {
+        running = false; handler.removeCallbacks(tick);
+        aHeld = false; lt = rt = lb = r3 = false; lx = ly = rx = ry = 0;
+        ltButton = rtButton = ltAxis = rtAxis = false;
+        typing = deckFocus = mapMode = false; confirmation = null;
+        if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(99, 0); }
+    }
+    void destroy() {
+        pause(); displays.unregisterDisplayListener(this); inputs.unregisterInputDeviceListener(this);
+        if (presentation != null) presentation.dismiss();
+    }
+    void sendAxes() {
+        if (!ready || !controllerActive) return;
+        boolean blocked = rt || lb || deckFocus || mapMode || typing || !battle;
+        float speed = preferences.getInt("speed", 100) / 100f;
+        float vertical = preferences.getBoolean("invert_pan_y", false) ? -ly : ly;
+        // GeneralsX @feature Codex 14/10/2026 Owner preference: up zooms in, while precision aim stays natural.
+        float zoom = !r3 && preferences.getBoolean("invert_zoom", true) ? -ry : ry;
+        ThorBridge.nativeAxes(blocked ? 0 : lx * speed, blocked ? 0 : vertical * speed, blocked ? 0 : rx, blocked ? 0 : zoom, r3, lt);
+        if ((rt || lb) && Math.max(Math.abs(lx), Math.abs(ly)) > .35f) {
+            wedge = ThorControls.wedge(lx, ly);
+        }
+    }
+    float dead(float value) { return ThorControls.deadZone(value, preferences.getInt("deadzone", 15) / 100f); }
+    boolean motion(MotionEvent e) {
+        lastMotionSource = e.getSource();
+        if ((e.getSource() & InputDevice.SOURCE_JOYSTICK) != InputDevice.SOURCE_JOYSTICK || !ready) return false;
+        controllerActive = true;
+        if (e.getDeviceId() >= 0) lastControllerDevice = e.getDeviceId();
+        lx = dead(e.getAxisValue(MotionEvent.AXIS_X)); ly = dead(e.getAxisValue(MotionEvent.AXIS_Y));
+        rx = dead(e.getAxisValue(MotionEvent.AXIS_Z)); ry = dead(e.getAxisValue(MotionEvent.AXIS_RZ));
+        long diagnosticNow = android.os.SystemClock.uptimeMillis();
+        if (diagnosticNow - lastMotionDiagnostic > 500) {
+            lastMotionDiagnostic = diagnosticNow;
+            android.util.Log.d("ThorInput", "Joystick device=" + e.getDeviceId() + " axes=" + lx + "," + ly + "," + rx + "," + ry);
+        }
+        ltAxis = Math.max(e.getAxisValue(MotionEvent.AXIS_LTRIGGER), e.getAxisValue(MotionEvent.AXIS_BRAKE)) > .5f;
+        rtAxis = Math.max(e.getAxisValue(MotionEvent.AXIS_RTRIGGER), e.getAxisValue(MotionEvent.AXIS_GAS)) > .5f;
+        boolean newLt = ltButton || ltAxis, newRt = battle && (rtButton || rtAxis);
+        if (newLt != lt) lt = newLt;
+        if (newRt != rt) { rt = newRt; page = 0; wedge = -1; description = false; descriptionScroll = 0; }
+        float hx = e.getAxisValue(MotionEvent.AXIS_HAT_X), hy = e.getAxisValue(MotionEvent.AXIS_HAT_Y);
+        long now = android.os.SystemClock.uptimeMillis();
+        if ((hx != 0 || hy != 0) && now - lastNavigation > 220) direction((int)hx, (int)hy);
+        sendAxes(); return true;
+    }
+    boolean key(KeyEvent e) {
+        lastKeyCode = e.getKeyCode(); lastKeySource = e.getSource();
+        android.util.Log.d("ThorInput", "Key device=" + e.getDeviceId() + " source=" + e.getSource() + " code=" + e.getKeyCode() + " action=" + e.getAction());
+        int code = preferences.getInt("button_" + e.getKeyCode(), e.getKeyCode());
+        if (!ready) {
+            if (code == KeyEvent.KEYCODE_BUTTON_A || code == KeyEvent.KEYCODE_BUTTON_B || code == KeyEvent.KEYCODE_BUTTON_START) {
+                try { if (e.getAction() == KeyEvent.ACTION_UP) ThorBridge.intent(11, 0); return true; }
+                catch (UnsatisfiedLinkError error) { return false; }
+            }
+            return false;
+        }
+        if (!KeyEvent.isGamepadButton(code) && code != KeyEvent.KEYCODE_DPAD_UP && code != KeyEvent.KEYCODE_DPAD_DOWN && code != KeyEvent.KEYCODE_DPAD_LEFT && code != KeyEvent.KEYCODE_DPAD_RIGHT) return false;
+        controllerActive = true;
+        if (e.getDeviceId() >= 0) lastControllerDevice = e.getDeviceId();
+        boolean down = e.getAction() == KeyEvent.ACTION_DOWN;
+        if (down && e.getRepeatCount() != 0) return true;
+        switch (code) {
+        case KeyEvent.KEYCODE_BUTTON_L2: ltButton = down; lt = ltButton || ltAxis; sendAxes(); return true;
+        case KeyEvent.KEYCODE_BUTTON_R2: rtButton = down; rt = battle && (rtButton || rtAxis); page = 0; wedge = -1; description = false; descriptionScroll = 0; sendAxes(); return true;
+        case KeyEvent.KEYCODE_BUTTON_L1: lb = battle && down; wedge = -1; sendAxes(); return true;
+        case KeyEvent.KEYCODE_BUTTON_THUMBR: r3 = down; sendAxes(); return true;
+        case KeyEvent.KEYCODE_BUTTON_A:
+            if (down) { aDown = e.getEventTime(); aHeld = true; if (battle && !rt && !lb && !deckFocus && !mapMode && !typing) ThorBridge.intent(13, 0); }
+            else if (aHeld) { aHeld = false; confirm(e.getEventTime()); }
+            return true;
+        case KeyEvent.KEYCODE_BUTTON_Y:
+            if (rt) { description = down; if (down) descriptionScroll = 0; return true; }
+            if (!down) { description = false; return true; }
+            break;
+        default: if (!down) return true;
+        }
+        switch (code) {
+        case KeyEvent.KEYCODE_BUTTON_B:
+            if (confirmation != null) confirmation = null;
+            else if (typing) { typing = false; entered = ""; }
+            else if (editingWidget) editingWidget = false;
+            else if (rt || lb) { rt = lb = false; }
+            else if (scienceMenu && powers != null) activate(powers);
+            else if (deckFocus || mapMode) { deckFocus = mapMode = false; }
+            else if (!battle) {
+                JSONObject back = null;
+                for (JSONObject w : widgets) {
+                    String label = w.optString("label").replace("&", "").trim();
+                    if (w.optBoolean("enabled") && (label.equalsIgnoreCase("BACK") || label.equalsIgnoreCase("CANCEL"))) { back = w; break; }
+                }
+                if (back != null) activate(back); else ThorBridge.intent(11, 0);
+            } else ThorBridge.intent(1, 0);
+            break;
+        case KeyEvent.KEYCODE_BUTTON_X:
+            if (typing) { if (!entered.isEmpty()) entered = entered.substring(0, entered.length() - 1); }
+            else if (lb && wedge >= 0 && groupPage * 8 + wedge < 10) ThorBridge.intent(lt ? 9 : 8, groupPage * 8 + wedge);
+            else if (battle) ThorBridge.intent(2, 0);
+            break;
+        case KeyEvent.KEYCODE_BUTTON_Y:
+            if (typing) commitText();
+            else if (lb && wedge >= 0 && groupPage * 8 + wedge < 10) ThorBridge.intent(10, groupPage * 8 + wedge);
+            else if (mapMode) ThorBridge.nativeIntent(15, 0, mapX, mapY);
+            else if (battle) ThorBridge.intent(3, 0);
+            break;
+        case KeyEvent.KEYCODE_BUTTON_R1: if (battle) mapMode = !mapMode; break;
+        case KeyEvent.KEYCODE_BUTTON_SELECT:
+            if (!battle) break;
+            deckFocus = !deckFocus;
+            if (deckFocus && !deckRows.isEmpty()) { focusedId = deckRows.get(0).optInt("id"); deckPage = 0; }
+            break;
+        case KeyEvent.KEYCODE_BUTTON_START:
+            rt = lb = deckFocus = mapMode = false; aHeld = false;
+            ThorBridge.intent(97, 0); ThorBridge.intent(11, 0); break;
+        case KeyEvent.KEYCODE_BUTTON_THUMBL: ThorBridge.intent(4, 0); break;
+        case KeyEvent.KEYCODE_DPAD_UP: direction(0, -1); break;
+        case KeyEvent.KEYCODE_DPAD_DOWN: direction(0, 1); break;
+        case KeyEvent.KEYCODE_DPAD_LEFT: direction(-1, 0); break;
+        case KeyEvent.KEYCODE_DPAD_RIGHT: direction(1, 0); break;
+        }
+        sendAxes(); overlay.invalidate(); return true;
+    }
+    void confirm(long now) {
+        if (confirmation != null) { ThorBridge.nativeActivate(confirmation.optInt("id"), confirmation.optString("action")); confirmation = null; return; }
+        if (typing) { if (keyboardIndex < keys.length()) entered += keys.charAt(keyboardIndex); return; }
+        if (editingWidget) { ThorBridge.intent(12, 40); editingWidget = false; return; }
+        if (lb) { if (wedge >= 0 && groupPage * 8 + wedge < 10) ThorBridge.intent(7, groupPage * 8 + wedge); return; }
+        if (rt) {
+            int index = page * 8 + wedge;
+            if (wedge >= 0 && index < commands.size()) activate(commands.get(index));
+            return;
+        }
+        if (!battle || deckFocus) { JSONObject w = find(focusedId); if (w != null) activate(w); return; }
+        if (mapMode) { ThorBridge.nativeIntent(15, 1, mapX, mapY); return; }
+        int tap = now - lastTap < 250 ? 2 : 1; lastTap = now;
+        ThorBridge.intent(14, tap);
+    }
+    void activate(JSONObject w) {
+        if (!w.optBoolean("enabled")) return;
+        if (w.optBoolean("confirm")) { confirmation = w; return; }
+        ThorBridge.nativeActivate(w.optInt("id"), w.optString("action"));
+        if ((w.optInt("style") & 64) != 0) {
+            typing = true; entered = w.optString("label"); keyboardIndex = 0;
+        }
+        else if ((w.optInt("style") & (8 | 16 | 32 | 32768)) != 0) editingWidget = true;
+    }
+    void commitText() {
+        if (!typing) return;
+        ThorBridge.nativeText(entered); typing = false;
+    }
+    void touch() {
+        controllerActive = false;
+        aHeld = false; rt = lb = r3 = false; description = false;
+        if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(97, 0); ThorBridge.intent(96, 0); }
+    }
+    void direction(int dx, int dy) {
+        lastNavigation = android.os.SystemClock.uptimeMillis();
+        if (typing) { keyboardIndex = (keyboardIndex + dx + dy * 10 + keys.length()) % keys.length(); return; }
+        if (editingWidget) { ThorBridge.intent(12, dx < 0 ? 80 : dx > 0 ? 79 : dy < 0 ? 82 : 81); return; }
+        if (rt) {
+            if (description && dy != 0) descriptionScroll = Math.max(0, descriptionScroll + dy * 3);
+            else { page = Math.max(0, Math.min(Math.max(0, (commands.size() - 1) / 8), page + dx)); descriptionScroll = 0; }
+            return;
+        }
+        if (lb) { groupPage = dx > 0 ? 1 : 0; return; }
+        if (!battle || deckFocus) { navigate(dx, dy); return; }
+        if (mapMode) return;
+        ThorBridge.intent(5, dy < 0 ? 0 : dy > 0 ? 1 : dx < 0 ? 2 : 3);
+    }
+    JSONObject find(int id) { for (JSONObject w : widgets) if (w.optInt("id") == id) return w; return null; }
+    JSONObject highlighted() {
+        if (rt) { int index = page * 8 + wedge; return wedge >= 0 && index < commands.size() ? commands.get(index) : null; }
+        return deckFocus || !battle ? find(focusedId) : null;
+    }
+    void refreshArtwork() {
+        ui.begin(snapshot);
+        JSONObject selected = highlighted();
+        if (selected != null) ui.fetch(selected.optString("icon"));
+        ui.fetch(snapshot.optString("portrait")); ui.fetch(snapshot.optString("factionIcon"));
+        for (JSONObject row : commands) ui.fetch(row.optString("icon"));
+        for (JSONObject row : queueRows) ui.fetch(row.optString("icon"));
+        long now = android.os.SystemClock.uptimeMillis();
+        if (now - lastRadarRead >= 100) {
+            int[] pixels = battle ? ThorBridge.nativeRadar() : null;
+            if (deck != null) deck.updateRadar(pixels); fallbackDeck.updateRadar(pixels); lastRadarRead = now;
+        }
+    }
+    int firstEnabled() {
+        JSONObject first = null;
+        for (JSONObject w : widgets) {
+            if (!w.optBoolean("enabled")) continue;
+            String label = w.optString("label");
+            if (label.equalsIgnoreCase("RETURN TO GAME") || label.equalsIgnoreCase("NO")) return w.optInt("id");
+            if (first == null || w.optInt("y") < first.optInt("y") || w.optInt("y") == first.optInt("y") && w.optInt("x") < first.optInt("x")) first = w;
+        }
+        return first == null ? 0 : first.optInt("id");
+    }
+    void navigate(int dx, int dy) {
+        // GeneralsX @bugfix Codex 14/10/2026 Deck navigation follows the displayed grid.
+        if (battle && deckFocus) {
+            (deck != null ? deck : fallbackDeck).navigate(dx, dy);
+            return;
+        }
+        JSONObject current = find(focusedId);
+        if (current == null) { focusedId = firstEnabled(); return; }
+        float cx = current.optInt("x") + current.optInt("w") / 2f, cy = current.optInt("y") + current.optInt("h") / 2f;
+        double best = Double.MAX_VALUE; int id = focusedId;
+        for (JSONObject w : widgets) {
+            if (!w.optBoolean("enabled") || w == current) continue;
+            float x = w.optInt("x") + w.optInt("w") / 2f - cx, y = w.optInt("y") + w.optInt("h") / 2f - cy;
+            float forward = x * dx + y * dy;
+            if (forward < 1) continue;
+            double distance = forward + Math.abs(x * dy - y * dx) * 3;
+            if (distance < best) { best = distance; id = w.optInt("id"); }
+        }
+        focusedId = id;
+    }
+    public void onDisplayAdded(int id) { attachDisplay(); }
+    public void onDisplayRemoved(int id) { attachDisplay(); }
+    public void onDisplayChanged(int id) { attachDisplay(); }
+    public void onInputDeviceAdded(int id) { }
+    public void onInputDeviceChanged(int id) { }
+    public void onInputDeviceRemoved(int id) {
+        if (id != lastControllerDevice) return;
+        // GeneralsX @bugfix Codex 14/10/2026 Disconnects release every held controller state.
+        aHeld = false; lt = rt = lb = r3 = false; lx = ly = rx = ry = 0;
+        ltButton = rtButton = ltAxis = rtAxis = false;
+        if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(97, 0); }
+    }
+}

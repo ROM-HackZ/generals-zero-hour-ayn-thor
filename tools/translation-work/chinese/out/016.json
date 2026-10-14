@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:MD-USA04_Objective01",
+  "text": "任务目标：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:MD-USA04_Objective02_Reminder",
+  "text": "收到通讯：\n摧毁东北方的广播电台以阻止炸弹卡车"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint01",
+  "text": "任务目标：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint04",
+  "text": "提示：\n找到 3 名 CIA 特工以寻求他们的帮助"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint05",
+  "text": "收到通讯：\n夺取西边的油田以获得资金"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint06",
+  "text": "提示：\n探路者可以发现隐蔽单位和爆破陷阱"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint07",
+  "text": "提示：\n推土机可以清除诡雷"
+ },
+ {
+  "label": "MAP:MD-USA04_Reonforcements",
+  "text": "收到通讯：\n增援已抵达"
+ },
+ {
+  "label": "MAP:MD_USA06Open",
+  "text": "叙利亚，阿尔哈巴德\n‘行动代号：鹰击’"
+ },
+ {
+  "label": "MAP:MD-USA06Objective01",
+  "text": "任务目标：\n在发射前占领 4 座毒素导弹发射井"
+ },
+ {
+  "label": "MAP:MD-USA06Objective02",
+  "text": "收到通讯：\n叛变的 GLA 部队已加入你"
+ },
+ {
+  "label": "MAP:MD-USA06Objective03",
+  "text": "收到通讯：\n在发射前占领 4 座毒素导弹发射井"
+ },
+ {
+  "label": "MAP:MD-USA06Objective04",
+  "text": "已占领导弹发射井 3/4"
+ },
+ {
+  "label": "MAP:MD-USA06Objective05",
+  "text": "已占领导弹发射井 4/4"
+ },
+ {
+  "label": "MAP:MD-USA06Objective06",
+  "text": "已占领导弹发射井 1/4"
+ },
+ {
+  "label": "MAP:MD-USA06Objective07",
+  "text": "已占领导弹发射井 2/4"
+ },
+ {
+  "label": "MAP:MD-USA06Objective14",
+  "text": "提示：\n情报显示部分导弹位于此区域\n注意不要释放毒素"
+ },
+ {
+  "label": "MAP:MD-USA06Objective15",
+  "text": "警告：\n萨拉克斯博士正在使用更强效的毒素。保护我们的步兵"
+ },
+ {
+  "label": "MAP:MD-USA06Objective16",
+  "text": "收到通讯：\n长官，我们的基地遭到攻击\n他们在我们不知情的情况下建了一个地道网"
+ },
+ {
+  "label": "MAP:MD-USA06CivilianMessage01",
+  "text": "收到通讯：\n东边的 GLA 叛军可能会协助我们"
+ },
+ {
+  "label": "MAP:MD-USA06Hint01",
+  "text": "提示：\n西南方还有更多补给"
+ },
+ {
+  "label": "MAP:MD-USA06Hint02",
+  "text": "警告：\n他们正利用偷袭地道攻击我们的基地"
+ },
+ {
+  "label": "MAP:MD-USA06Hint03",
+  "text": "提示：\n可在 GLA 指挥中心使用 GLA 将军技能"
+ },
+ {
+  "label": "MAP:MD-USA06Warning01",
+  "text": "警告：\n导弹发射倒计时已开始"
+ },
+ {
+  "label": "MAP:MD-USA06Warning02",
+  "text": "警告：\n5 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning03",
+  "text": "警告：\n4 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning04",
+  "text": "警告：\n3 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning05",
+  "text": "警告：\n2 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning06",
+  "text": "警告：\n1 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning07",
+  "text": "警告：\n30 秒后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning08",
+  "text": "警告：\n10 秒后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning09",
+  "text": "警告：\n5……4……3……2……1……检测到发射"
+ },
+ {
+  "label": "MAP:MD-USA06Failure01",
+  "text": "警告：\n检测到命中。你失败了，将军"
+ },
+ {
+  "label": "MAP:MD-USA06Imperative01",
+  "text": "警告：\n不要摧毁这座建筑。用游骑兵占领它"
+ },
+ {
+  "label": "SCRIPT:MD-USA06MissileTimer",
+  "text": "毒素导弹发射倒计时："
+ },
+ {
+  "label": "MAP:MD-USA06Warning10",
+  "text": "警告：\n10 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Warning11",
+  "text": "警告：\n15 分钟后发射"
+ },
+ {
+  "label": "MAP:MD-USA06Intro1",
+  "text": "地球轨道：\n美国间谍卫星 代号：Powers"
+ },
+ {
+  "label": "MAP:MD-USA06Intro2",
+  "text": "数据上传：\n萨拉克斯博士的毒素设施"
+ },
+ {
+  "label": "MAP:MD-USA06Warning15",
+  "text": "收到通讯：\n将军，东边的 GLA 基地\n决定反抗毒素将军\n及其大规模使用毒素的行为"
+ },
+ {
+  "label": "MAP:MD-USA06Warning16",
+  "text": "收到通讯：\n他们希望协助我们攻击\n这位将军，并让我们使用他们的基地"
+ },
+ {
+  "label": "MAP:MD_GLA01Objective6",
+  "text": "提示：用战斗摩托从另一个方向进入美军基地"
+ },
+ {
+  "label": "MAP:MD_GLA01Message01",
+  "text": "警告：发现美军火力基地"
+ },
+ {
+  "label": "MAP:MD_GLA01Message02",
+  "text": "警告：发现哨兵无人机"
+ },
+ {
+  "label": "MAP:MD_GLA01Message03",
+  "text": "提示：\n将 GLA 单位移动到残骸箱上即可升级"
+ },
+ {
+  "label": "OBJECT:GLALeader",
+  "text": "GLA 领袖"
+ },
+ {
+  "label": "MAP:Intro_Title",
+  "text": "叙利亚，阿尔萨菲尔\n‘出埃及记’"
+ },
+ {
+  "label": "MAP:Intro_Title2",
+  "text": "苏丹，哈利卜\n‘大逃亡’"
+ },
+ {
+  "label": "MAP:Intro_Loc",
+  "text": "城外……"
+ },
+ {
+  "label": "MAP:Intro_MO_1",
+  "text": "任务目标 #1：\n找到被遗弃的 GLA 基地"
+ },
+ {
+  "label": "MAP:Intro_MO_2",
+  "text": "任务目标 #2：\n将我们的领袖安全送到机场"
+ },
+ {
+  "label": "MAP:Intro_MO_2b",
+  "text": "收到通讯：\n将 GLA 领袖带到西北方的机场"
+ },
+ {
+  "label": "MAP:Intro_MO_1a",
+  "text": "任务目标：\n护送 GLA 领袖前往机场\nGLA 领袖必须存活"
+ },
+ {
+  "label": "MAP:Intro_MO_2a",
+  "text": "收到通讯：\n此区域有一座被遗弃的 GLA 基地。夺回它"
+ },
+ {
+  "label": "MDGLA02:TITLE",
+  "text": "埃及开罗附近某处\n‘隐秘议程’"
+ },
+ {
+  "label": "MDGLA02:Hint1",
+  "text": "警告：\n卡萨德王子的部队处于隐蔽状态"
+ },
+ {
+  "label": "MDGLA02:Hint2",
+  "text": "提示：\n雷达车、地道网和\n毒刺导弹阵地可以发现隐蔽单位"
+ },
+ {
+  "label": "MDGLA02:Hint3",
+  "text": "提示：\n西南方还有更多补给"
+ },
+ {
+  "label": "MDGLA02:OBJ1",
+  "text": "\n任务目标 #1：\n占领城中的指挥中心"
+ },
+ {
+  "label": "MDGLA02:OBJ2",
+  "text": "\n任务目标 #2：\n占领河对岸的指挥中心"
+ },
+ {
+  "label": "MDGLA02:Expansion_2",
+  "text": "收到通讯：\n发现潜在的扩张地点"
+ },
+ {
+  "label": "MDGLA02:Oil_Well",
+  "text": "提示：\n占领油井以保持稳定收入"
+ },
+ {
+  "label": "MDGLA02:Bridge",
+  "text": "提示：\nGPS 干扰可以让你更容易通过这座桥"
+ },
+ {
+  "label": "MDGLA02:Damage_warn",
+  "text": "收到通讯：\n保护指挥中心"
+ },
+ {
+  "label": "MDGLA02:Capture_CC_scram",
+  "text": "提示：\n占领指挥中心以获得 GPS 干扰能力"
+ },
+ {
+  "label": "MDGLA02:Scram_captured",
+  "text": "收到通讯：\n已获得 GPS 干扰能力\n对你的部队使用它来隐蔽他们"
+ },
+ {
+  "label": "MDGLA02:Capture_CC_sneak",
+  "text": "提示：\n占领这座指挥中心以获得偷袭能力"
+ },
+ {
+  "label": "MDGLA02:Sneak_captured",
+  "text": "收到通讯：\n已获得偷袭能力\n用它在任何可见位置建造地道网"
+ },
+ {
+  "label": "MDGLA02:Final",
+  "text": "任务目标 #3：\n摧毁或占领卡萨德的主指挥中心"
+ },
+ {
+  "label": "MDGLA03:Title-01",
+  "text": "美国地中海舰队，克里特岛马塔拉\n‘码头风云’"
+ },
+ {
+  "label": "MDGLA03:InfoMissionObjective01",
+  "text": "任务目标 #1：\n夺取东边的美国粒子加农炮"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjectiveAccomplished-01",
+  "text": "任务目标 #1：\n已完成"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjective-02",
+  "text": "任务目标 #2：\n夺取美国发电厂"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjectiveAccomplished-02",
+  "text": "任务目标 #2：\n已完成"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjective-03",
+  "text": "任务目标 #3：\n找到东南方的航空母舰"
+ },
+ {
+  "label": "MDGLA03:Info-GotParticleCannon-01",
+  "text": "提示：\n现在我们必须控制一些发电厂\n我们可以利用地道网到达下一座岛"
+ },
+ {
+  "label": "MDGLA03:Info-SneakAttack-01",
+  "text": "收到通讯：\n使用偷袭在附近的岛上建造地道网"
+ },
+ {
+  "label": "MDGLA03:Info-GotPowerPlants-01",
+  "text": "收到通讯：\n粒子加农炮已上线\n我们必须保卫它和我们的发电厂"
+ },
+ {
+  "label": "MDGLA03:Info-Goodies-01",
+  "text": "提示：\n探索各个岛屿，寻找残骸箱和载具"
+ },
+ {
+  "label": "MDGLA03:Lose-NoUnitsOrStructures-01",
+  "text": "收到通讯：\n你的所有单位和建筑都已被摧毁\n你被击败了，将军。这一次"
+ },
+ {
+  "label": "MDGLA03:Lose-ParticleCannonDestroyed-01",
+  "text": "收到通讯：\n没有粒子加农炮，你就无法摧毁航母\n你被击败了，将军。这一次"
+ },
+ {
+  "label": "MDGLA03:Lose-PowerPlantsDestroyed-01",
+  "text": "收到通讯：\n所有发电厂都已被摧毁\n你被击败了，将军。这一次"
+ },
+ {
+  "label": "MDGLA03:Help-UseParticleCannon-01",
+  "text": "警告：\n这一区域防守严密\n粒子加农炮或许能帮我们突破"
+ },
+ {
+  "label": "MDGLA03:Help-A10Warning-01",
+  "text": "警告：\nA10 正朝我们飞来"
+ },
+ {
+  "label": "MDGLA03:Help-LeaveISLAND-01",
+  "text": "提示：\n我们可以用偷袭或地道网\n到达附近的岛屿"
+ },
+ {
+  "label": "MDGLA03:Help-LeaveISLAND-02",
+  "text": "提示：\n如果能侦察到附近岛上的某个区域，\n我们就能在那里使用偷袭"
+ },
+ {
+  "label": "MDGLA03:Info-DisabledSupplyDropZones-01",
+  "text": "收到通讯：\n我们瘫痪了敌方的空投补给区\n他们很快将无法生产新单位"
+ },
+ {
+  "label": "MDGLA03:Help-FoundSupplyPlanes-01",
+  "text": "收到通讯：\n摧毁美国空投补给区以削弱其生产"
+ },
+ {
+  "label": "MDGLA03:Help-FewPowerPlants-02",
+  "text": "警告：\n几乎所有发电厂都已被摧毁\n务必保住一座以发射粒子加农炮"
+ },
+ {
+  "label": "MDGLA03:Help-AttackingParticleCannon-01",
+  "text": "收到通讯：\n我们需要这门粒子加农炮来摧毁航母\n不要让它被摧毁"
+ },
+ {
+  "label": "MDGLA03:Help-FindParticleCannon-01",
+  "text": "提示：\n占领粒子加农炮"
+ },
+ {
+  "label": "MDGLA03:Help-LostIsland-01",
+  "text": "提示：\n他们摧毁了我们的地道网\n使用偷袭返回那座岛"
+ },
+ {
+  "label": "MDGLA03:Help-ArmsDealer-01",
+  "text": "收到通讯：\n解放这座岛西侧的军火商"
+ },
+ {
+  "label": "MDGLA03:Help-JarmenKell-01",
+  "text": "提示：\n贾曼·凯尔的狙击能力可以使敌方\n载具失效，让我们的步兵夺取它们"
+ },
+ {
+  "label": "MAP:MD_GLA03_CINELocation01",
+  "text": "里根号"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective1",
+  "text": "任务目标：\n第 1 小队：乘渡轮前往海滩"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective2",
+  "text": "任务目标：\n第 2 小队：获得一辆雷达车"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective3",
+  "text": "任务目标：\n第 2 小队：进驻阀门站"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective4",
+  "text": "任务目标：\n第 1 小队：摧毁机场"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective5",
+  "text": "任务目标：\n第 2 小队：摧毁发电厂"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective6",
+  "text": "任务目标：\n占领毒素设施"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective7",
+  "text": "任务目标：\n将毒素运到机场"
+ },
+ {
+  "label": "SCRIPT:MD_GLA04Toxin_Counter",
+  "text": "剩余毒素："
+ },
+ {
+  "label": "MAP:MD_GLA04Title",
+  "text": "美国西海岸毒素设施\n‘贾曼·凯尔与四十大盗’"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_2",
+  "text": "任务目标：\n摧毁东北方的美军欧洲中央司令部"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_3",
+  "text": "收到通讯：\n解救战俘并把他们带回这里\n恐怖小组将会觉醒，协助你对抗美军"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_4",
+  "text": "提示：\n把战俘送回北边的村庄\n他们就会协助我们"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_5",
+  "text": "收到通讯：\n消除美军威胁，\n把战俘从看守手中解救出来"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_6",
+  "text": "收到通讯：\n我们准备返回北边的村庄"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_7",
+  "text": "收到通讯：\n你已解救战俘并送他们回家\n恐怖小组将会启动并开始进攻美军"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_8",
+  "text": "提示：\n占领剩余的美军建筑\n并在这里建立第二座基地"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_9",
+  "text": "警告：\n时间所剩无几。解救战俘"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_10",
+  "text": "警告：\n我们必须在敌人南方支援基地\n变得过于强大之前将其消灭"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_11",
+  "text": "收到通讯：\n恐怖小组已被消灭\n不能让他们白白牺牲"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_12",
+  "text": "收到通讯：\n我们击败了敌人。胜利属于我们"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_13",
+  "text": "收到通讯：\n敌人关押着我们的兄弟\n解救他们，他们就会协助我们对抗美军"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_14",
+  "text": "收到通讯：\n情报显示战俘即将被转移\n潜入美军基地解救他们"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_15",
+  "text": "提示：\n为中国指挥中心升级雷达"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_16",
+  "text": "收到通讯：\n保护 GLA 恐怖小组免受美军攻击\n并控制该区域"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_17",
+  "text": "提示：\n建造 GLA 指挥中心以使用将军技能"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_18",
+  "text": "收到通讯：\n我们的基地遭到攻击"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_19",
+  "text": "警告：\n战俘遭到攻击。保护他们"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_20",
+  "text": "收到通讯：\n战俘已全部被杀\n恐怖小组加入我们为他们复仇"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_21",
+  "text": "收到通讯：\n敌人已分散开来抢占更多资源\n消灭他们，把资源据为己有"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_22",
+  "text": "提示：\n他们的基地非常庞大\n也许偷袭能帮我们渗透进去"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_23",
+  "text": "收到通讯：\n小型基地已被消灭，我们可以集中力量\n对付美军欧洲中央司令部基地"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_24",
+  "text": "\n我们有一个计划……\n我们将进军并夺取中国基地\n用它把美国赶出欧洲"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_25",
+  "text": "美军欧洲中央司令部基地必须陷落"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_26",
+  "text": "收到通讯：\n我们正遭到东边的攻击\n消灭南方的美军支援基地"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_27",
+  "text": "收到通讯：\n恐怖小组正遭到美军攻击\n协助他们击退敌人"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_28",
+  "text": "收到通讯：\n在战俘被转移到新地点之前，\n从美军支援基地解救他们"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_29",
+  "text": "任务目标：\n摧毁东北方的美军欧洲中央司令部"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_30",
+  "text": "美军中央司令部，德国斯图加特-法伊欣根\n‘偷袭’"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_31",
+  "text": "美军中央司令部，德国斯图加特-法伊欣根\n‘偷袭’"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_32",
+  "text": "提示：清除该区域的美军\n然后夺取补给"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_33",
+  "text": "提示：\n彻底摧毁中央司令部基地"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_34",
+  "text": "提示：\n占领油井获取额外补给\n占领火炮平台以控制关键区域"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_35",
+  "text": "提示：\n升级现金赏金\n将军技能以增加收入"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_36",
+  "text": "提示：\n使用偷袭能力\n对美军基地发动攻击"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_37",
+  "text": "收到通讯：\n战俘已被转移\n尽管我们失败了，恐怖小组仍承诺支持我们"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_38",
+  "text": "美军中央司令部，德国斯图加特-法伊欣根\n‘偷袭’"
+ },
+ {
+  "label": "SCRIPT:POWCOUNTDOWN",
+  "text": "战俘转移倒计时："
+ },
+ {
+  "label": "MAP:CHI01xMapName",
+  "text": "巨龙出击"
+ },
+ {
+  "label": "MAP:CHI01xOpen",
+  "text": "德国，斯图加特-法伊欣根\n‘巨龙出击’"
+ },
+ {
+  "label": "MAP:CHI01xOpenAlt",
+  "text": "德国，美军指挥基地遗址\n巨龙出击"
+ },
+ {
+  "label": "MAP:CHI01xObjective01",
+  "text": "任务目标：\n消灭该区域的所有 GLA 部队"
+ },
+ {
+  "label": "MAP:CHI01xObjective01Alt",
+  "text": "任务目标：\n消灭该区域的所有 GLA 建筑"
+ },
+ {
+  "label": "MAP:CHI01xTechBldgHint",
+  "text": "提示：\n红卫兵可以用来占领建筑"
+ },
+ {
+  "label": "MAP:CHI01xOilDerrickHint",
+  "text": "提示：\n占领油井以获得额外资金"
+ },
+ {
+  "label": "MAP:CHI01xOilRefineryHint",
+  "text": "提示：\n占领炼油厂以降低载具造价"
+ },
+ {
+  "label": "MAP:CHI01xGarrisonHint",
+  "text": "提示：\n让红卫兵和坦克猎人进驻建筑\n可提高他们的火力和射程"
+ },
+ {
+  "label": "MAP:CHI01xGarrisonClrHint01",
+  "text": "提示：\n毒素拖拉机能瞬间杀死驻守的步兵\n不要让它靠近你驻守的建筑"
+ },
+ {
+  "label": "MAP:CHI01xGarrisonClrHint02",
+  "text": "提示：\n龙坦克能杀死驻守建筑中的步兵"
+ },
+ {
+  "label": "MAP:CHI01xPerimeterWarn01",
+  "text": "警告：\nGLA 部队正在攻击我们的基地"
+ },
+ {
+  "label": "MAP:CHI01xPerimeterWarn02",
+  "text": "警告：\n敌人正准备攻击我们的基地"
+ },
+ {
+  "label": "MAP:CHI02xMapName",
+  "text": "守护火焰"
+ },
+ {
+  "label": "MAP:CHI02xOpen",
+  "text": "中国武器生产设施\n‘守护火焰’"
+ },
+ {
+  "label": "SCRIPT:CHI02xReinforcementTimer",
+  "text": "增援抵达倒计时："
+ },
+ {
+  "label": "MAP:CHI02xObjective01",
+  "text": "任务目标 #1：\n保卫反应堆和储存碉堡\n绝不能让它们被占领或摧毁"
+ },
+ {
+  "label": "MAP:CHI02xObjective02",
+  "text": "任务目标 #2：\n摧毁该区域的所有 GLA 部队"
+ },
+ {
+  "label": "MAP:CHI02xObjective02Alt",
+  "text": "任务目标 #2：\n摧毁该区域的所有 GLA 建筑"
+ },
+ {
+  "label": "MAP:CHI02xReactorKIAWarn",
+  "text": "收到通讯：\n保护核反应堆"
+ },
+ {
+  "label": "MAP:CHI02xReactorCaptureWarn",
+  "text": "警告：\n不要让敌人占领\n核反应堆和两座碉堡"
+ },
+ {
+  "label": "MAP:CHI02xBunkerKIAWarn",
+  "text": "收到通讯：\n保护储存碉堡"
+ },
+ {
+  "label": "MAP:CHI02xBadPlayerReactorWarn",
+  "text": "收到通讯：\n我们需要这座核反应堆\n不要让它被摧毁"
+ },
+ {
+  "label": "MAP:CHI02xBadPlayerBunkerWarn",
+  "text": "收到通讯：\n我们需要这些储存碉堡\n不要让它们被摧毁"
+ },
+ {
+  "label": "MAP:CHI02xSpyPostHint01",
+  "text": "提示：\n占领间谍哨所以呼叫地毯式轰炸机"
+ },
+ {
+  "label": "MAP:CHI02xPerimeterWarn",
+  "text": "警告：\n敌军正准备发动进攻"
+ },
+ {
+  "label": "MAP:CHI02xPerimeterEasyWarn",
+  "text": "警告：\n敌军正准备发动进攻"
+ },
+ {
+  "label": "MAP:CHI02xNeutronHint01",
+  "text": "提示：\n使用核弹炮的中子炮弹能力杀死\n步兵并使敌方载具失效"
+ },
+ {
+  "label": "MAP:CHI02xNeutronHint02",
+  "text": "提示：\n你的步兵可以进入并控制任何失效的载具"
+ },
+ {
+  "label": "MAP:CHI02xEMPMineHint01",
+  "text": "提示：\n为我们的建筑升级中子地雷以瘫痪载具\n然后中子炮弹就能使其失效"
+ },
+ {
+  "label": "MAP:CHI02xCarpetBombReminder",
+  "text": "收到通讯：\n地毯式轰炸机已就绪"
+ },
+ {
+  "label": "MAP:CHI02xInfo1",
+  "text": "收到通讯：\n增援将在 10 分钟后抵达"
+ },
+ {
+  "label": "MAP:CHI02xInfo2",
+  "text": "收到通讯：\n增援将在 5 分钟后抵达"
+ },
+ {
+  "label": "SCRIPT:CHI02timer",
+  "text": "增援抵达倒计时："
+ },
+ {
+  "label": "MAP:MD_CHI03-Event-AngryMob-01",
+  "text": "收到通讯：\n人民奋起为我们效力"
+ },
+ {
+  "label": "MAP:MD_CHI03-Help-IOLow-01",
+  "text": "收到通讯：\n我们的国际舆论正在下降\n摧毁更多 GLA 雕像"
+ },
+ {
+  "label": "MAP:MD_CHI03-Help-IOVeryLow-01",
+  "text": "收到通讯：\n我们的国际舆论非常低\n摧毁遍布全城的 GLA 雕像"
+ },
+ {
+  "label": "MAP:MD_CHI03-Help-IOExtremelyLow-01",
+  "text": "提示：\n我们的国际舆论已低至危急\n再摧毁一座 GLA 雕像，否则前功尽弃"
+ },
+ {
+  "label": "SCRIPT:MD_CHI03InternationalOpinion",
+  "text": "国际舆论："
+ },
+ {
+  "label": "MAP:MD_CHI04Open",
+  "text": "德国，哈尔伯施塔特\n‘燃烧的天空’"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState0",
+  "text": "任务目标：\n消灭所有波次撤退的 GLA 部队"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState1",
+  "text": "收到通讯：\n第 1 波已被击败"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState2",
+  "text": "收到通讯：\n第 2 波已被击败"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState3",
+  "text": "收到通讯：\n第 3 波已被击败"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState4",
+  "text": "收到通讯：\n第 4 波已被击败"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState5",
+  "text": "收到通讯：\n第 5 波已被击败"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState6",
+  "text": "收到通讯：\n第 6 波已被击败"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo1",
+  "text": "收到通讯：\n第 1 波已进入该区域\n其路线已显示在雷达上"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo2",
+  "text": "收到通讯：\n第 2 波已进入该区域\n其路线已显示在雷达上"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo3",
+  "text": "收到通讯：\n第 3 波已进入该区域\n其路线已显示在雷达上"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo4",
+  "text": "收到通讯：\n第 4 波已进入该区域\n其路线已显示在雷达上"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo5",
+  "text": "收到通讯：\n第 5 波已进入该区域\n其路线已显示在雷达上"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo6",
+  "text": "收到通讯：\n我们的情报被干扰了。新的波次\n正从 2 个方向逼近，但位置不明"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionFinaleText",
+  "text": "收到通讯：\n我军已从南方抵达\n你的任务完成了"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionLoseText",
+  "text": "收到通讯：\nGLA 部队已向北逃脱\n你被击败了，将军。这一次"
+ },
+ {
+  "label": "MAP:MD-CHI05_LOCALE",
+  "text": "德国汉堡附近\n‘巨龙的命运’"
+ },
+ {
+  "label": "MAP:MD-CHI05_USBaseDestroyedFirst",
+  "text": "任务目标：\n摧毁 GLA 基地以取得胜利"
+ },
+ {
+  "label": "MAP:MD-CHI05_GLABaseDestroyedFirst",
+  "text": "任务目标：\n摧毁美军基地以取得胜利"
+ }
+]

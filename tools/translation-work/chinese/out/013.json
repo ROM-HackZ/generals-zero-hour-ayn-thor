@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CREDITS:ExternalMultiplayMapCreators",
+  "text": "外部多人地图制作者"
+ },
+ {
+  "label": "CREDITS:Artists",
+  "text": "美术师"
+ },
+ {
+  "label": "CREDITS:AdditionalArt",
+  "text": "额外美术"
+ },
+ {
+  "label": "CREDITS:DirectorofAudio",
+  "text": "音频总监"
+ },
+ {
+  "label": "CREDITS:SoundDesignandVoiceDirection",
+  "text": "音效设计与配音指导"
+ },
+ {
+  "label": "CREDITS:Composers",
+  "text": "作曲"
+ },
+ {
+  "label": "CREDITS:Composer1",
+  "text": "音乐创作与制作"
+ },
+ {
+  "label": "CREDITS:Additionalsoundsanddialogueprocessing",
+  "text": "额外音效与额外对白处理"
+ },
+ {
+  "label": "CREDITS:ScriptWriters",
+  "text": "编剧"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings",
+  "text": "音效外景录音"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings1",
+  "text": "Jacques Littlefield and the Military Vehicle Technology Foundation"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings2",
+  "text": "SPEC Samuel H. Cho"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings3",
+  "text": "Staff Sergeant Scott McClane of C troop 1/18 Cav"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings4",
+  "text": "Mary Beth McFadden and Francisco Mendozo at Adam's Steel - Anaheim"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneDirector",
+  "text": "过场动画导演"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneArtists",
+  "text": "过场动画美术师"
+ },
+ {
+  "label": "CREDITS:ProductionAssistance",
+  "text": "额外制作管理"
+ },
+ {
+  "label": "CREDITS:AdditionalProductionManagement",
+  "text": "额外制作管理"
+ },
+ {
+  "label": "CREDITS:CameoProduction",
+  "text": "客串制作"
+ },
+ {
+  "label": "CREDITS:Casting",
+  "text": "选角：Deborah German Casting"
+ },
+ {
+  "label": "CREDITS:Wardrobe",
+  "text": "服装：Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:HairandMakeUp",
+  "text": "发型与化妆：Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:EngineeringInterns",
+  "text": "工程实习生"
+ },
+ {
+  "label": "CREDITS:ArtIntern",
+  "text": "美术实习生"
+ },
+ {
+  "label": "CREDITS:EAPacificQualityAssurance",
+  "text": "EA Pacific 质量保证"
+ },
+ {
+  "label": "CREDITS:EAPacificOperations",
+  "text": "EA Pacific 运营"
+ },
+ {
+  "label": "CREDITS:VoiceActors",
+  "text": "配音演员"
+ },
+ {
+  "label": "CREDITS:CameoPhotos",
+  "text": "客串及将军照片"
+ },
+ {
+  "label": "CREDITS:AdditionalModels",
+  "text": "额外模型：Mythos Studios"
+ },
+ {
+  "label": "CREDITS:CinematicIntroandFinaleMovies",
+  "text": "开场动画：Mondo Media"
+ },
+ {
+  "label": "CREDITS:MotionCapture",
+  "text": "Westwood 动作捕捉"
+ },
+ {
+  "label": "CREDITS:MilitarypropsThanx",
+  "text": "军事道具由 David Hsu & Specialized Distribution 提供"
+ },
+ {
+  "label": "CREDITS:SpecialThanx1",
+  "text": "感谢并爱 Daisy & Freeman Gushee、爸爸妈妈和 Ike！- Harvard"
+ },
+ {
+  "label": "CREDITS:SpecialThanx2",
+  "text": "爱与感谢献给 Laura、Ben、Jack、Sam 和 Sophie"
+ },
+ {
+  "label": "CREDITS:SpecialThanx3",
+  "text": "感谢 Brown 家族后援团 - Robin、Josh、Beth 和 Meeskite"
+ },
+ {
+  "label": "CREDITS:SpecialThanx4",
+  "text": "感谢我的儿子 Colin Moore 让我在他的电脑上玩游戏"
+ },
+ {
+  "label": "CREDITS:SpecialThanx5",
+  "text": "大大的拥抱献给我的新婚丈夫 Joji，感谢他的爱与支持 - Jill"
+ },
+ {
+  "label": "CREDITS:SpecialThanx7",
+  "text": "感谢 DMP、Jenny 和 Elizabeth"
+ },
+ {
+  "label": "CREDITS:SpecialThanx8",
+  "text": "感谢我的父亲。- Mark Lorenzen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx9",
+  "text": "满满的爱献给 Madison、Reece、Melissa、爸爸和我的兄弟们！- Randy Greenback"
+ },
+ {
+  "label": "CREDITS:SpecialThanx10",
+  "text": "感谢 Maha、Ramzi 和 Brooke 的支持。向 415 的孩子们致敬 - Amer"
+ },
+ {
+  "label": "CREDITS:SpecialThanx11",
+  "text": "Mom&Dad、Bry、Kev、Dan&Mel、Aaron&Kelsey、Mikki、Adam、Kev、Jay、James - SCC"
+ },
+ {
+  "label": "CREDITS:SpecialThanx12",
+  "text": "献给 Brenda 和 Nero，感谢你们的大力支持 - Eric Kearns"
+ },
+ {
+  "label": "CREDITS:SpecialThanx13",
+  "text": "感谢 Gibson、Vinge、Mieville、Bear、Hebert、LeGuin - RN Smith"
+ },
+ {
+  "label": "CREDITS:SpecialThanx14",
+  "text": "Deborah、Stephen 和 Alan - 感谢你们容忍我 - Ian Barkley-Yeung"
+ },
+ {
+  "label": "CREDITS:SpecialThanx15",
+  "text": "感谢 Cristi 的理解与支持 - John"
+ },
+ {
+  "label": "CREDITS:SpecialThanx16",
+  "text": "感谢 April Wesley Kelly 和 Chelsie - Scott Bowen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx17",
+  "text": "感谢朋友、家人、Choo Choo Bear 和勤奋的 ZH 团队！- JB"
+ },
+ {
+  "label": "CREDITS:SpecialThanx18",
+  "text": "感谢 Junko 的爱。- Robert Minsk"
+ },
+ {
+  "label": "CREDITS:SpecialThanx19",
+  "text": "感谢 Carina、Kat 和 Brandon 的理解 - David Wainstain"
+ },
+ {
+  "label": "CREDITS:SpecialThanx20",
+  "text": "感谢我的家人 Cheryl 和 Brandon Burtis 的爱与支持"
+ },
+ {
+  "label": "CREDITS:SpecialThanx21",
+  "text": "感谢我的朋友和家人，尤其是 Jeannie。我爱你们 - KDS"
+ },
+ {
+  "label": "CREDITS:SpecialThanx22",
+  "text": "感谢我出色的丈夫 Roman - Samm"
+ },
+ {
+  "label": "CREDITS:SpecialThanx23",
+  "text": "感谢 Ari 的爱、支持与理解 - Jose"
+ },
+ {
+  "label": "CREDITS:SpecialThanx24",
+  "text": "献给 Rebecca，唯一重要、唯一永恒的"
+ },
+ {
+  "label": "CREDITS:SpecialThanx25",
+  "text": "感谢我亲爱的妻子给予的灵感与支持 - Chris Rubyor"
+ },
+ {
+  "label": "CREDITS:SpecialThanx26",
+  "text": "感谢我的妻子把我们的时间留给了我。我爱你。- Jeff Stewart"
+ },
+ {
+  "label": "CREDITS:SpecialThanx27",
+  "text": "感谢妈妈、BruceLauraDasmoMikeyTedoTrevor 和我在 The OC 的所有伙伴"
+ },
+ {
+  "label": "CREDITS:SpecialThanx28",
+  "text": "我要感谢我的家人和 Amy Ritchie"
+ },
+ {
+  "label": "CREDITS:SpecialThanx29",
+  "text": "NazBoniadiArtRasoulZohreRahimiAliLeilaTabaFamilyP,T,KMLoBobWindDrFrost"
+ },
+ {
+  "label": "CREDITS:SpecialThanx31",
+  "text": "感谢 Ben Calmer 和 Laura Miele"
+ },
+ {
+  "label": "CREDITS:SpecialThanx33",
+  "text": "特别鸣谢命令与征服粉丝社区。"
+ },
+ {
+  "label": "CREDITS:SpecialThanx34",
+  "text": "向我的甜心 Joji 和我的宝贝 Sparky 致以崇高敬意"
+ },
+ {
+  "label": "CREDITS:SpecialThanx35",
+  "text": "感谢我的家人 Cheryl 和 Brandon Burtis 的爱与支持"
+ },
+ {
+  "label": "CREDITS:SpecialThanx36",
+  "text": "我要感谢我的妻子体谅我的忙碌"
+ },
+ {
+  "label": "CREDITS:SpecialThanx37",
+  "text": "Bjorn Muller 感谢：爸爸妈妈、家人和朋友"
+ },
+ {
+  "label": "CREDITS:SpecialThanx38",
+  "text": "我要感谢我的家人和 Amy 的所有支持"
+ },
+ {
+  "label": "CREDITS:SpecialThanx39",
+  "text": "特别感谢：爸爸妈妈、Bohdi、Willie，以及正在读这段话的每个人"
+ },
+ {
+  "label": "CREDITS:SpecialThanx40",
+  "text": "感谢所有朋友和家人等我到二月才过圣诞节"
+ },
+ {
+  "label": "CREDITS:SpecialThanx41",
+  "text": "感谢 Bing，你的支持无比宝贵"
+ },
+ {
+  "label": "GUI:GameSaved",
+  "text": "游戏已保存"
+ },
+ {
+  "label": "GUI:ErrorSavingGame",
+  "text": "保存游戏“%s”时出错"
+ },
+ {
+  "label": "GUI:ErrorLoadingGame",
+  "text": "载入游戏“%s”时出错"
+ },
+ {
+  "label": "CREDITS:InspiredByLine1",
+  "text": "Command & Conquer (TM) 将军：绝命时刻的灵感来自"
+ },
+ {
+  "label": "CREDITS:InspiredByLine2",
+  "text": "Westwood Studios 创作的初代 Command & Conquer (TM)"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine1",
+  "text": "感谢所有出色的多人游戏测试参与者"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine2",
+  "text": "是你们帮助我们全面检验了这款游戏。你们的帮助"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine3",
+  "text": "无比宝贵，希望你们乐在其中"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage1",
+  "text": "特别感谢我们所有的家人，让我们能够做自己"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage2",
+  "text": "热爱的事：制作游戏。我们对你们的支持感激不尽"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage3",
+  "text": "但我们会努力报答……"
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line1",
+  "text": "感谢我在加拿大不列颠哥伦比亚省奇利瓦克的家人和朋友！- Kris Morness"
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line2",
+  "text": "和支持无比宝贵。我深深地爱着你"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line1",
+  "text": "感谢 Jane、George、David、Sophia、Audrey、Shannon、Johan & agavenectar"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line2",
+  "text": "一直陪伴着我，即使我无法陪伴你们"
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line1",
+  "text": "感谢 Bing Gordon，你一直以来的支持无比宝贵。"
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line2",
+  "text": "为了一块钱几乎什么都愿意做的人"
+ },
+ {
+  "label": "GUI:ControlBarBack",
+  "text": "返回"
+ },
+ {
+  "label": "GUI:MainMenuLoadGame",
+  "text": "载入游戏"
+ },
+ {
+  "label": "GUI:MainMenuLoadReplay",
+  "text": "载入录像"
+ },
+ {
+  "label": "GUI:LastReplay",
+  "text": "上次录像"
+ },
+ {
+  "label": "GUI:ControlBarMoneyDisplay",
+  "text": "$ %d"
+ },
+ {
+  "label": "GUI:Player",
+  "text": "玩家"
+ },
+ {
+  "label": "CREDITS:UliLachelet",
+  "text": "Uli Lächelt"
+ },
+ {
+  "label": "CREDITS:JorgLindner",
+  "text": "Jörg Lindner"
+ },
+ {
+  "label": "CREDITS:LOCALIZATION",
+  "text": "本地化"
+ },
+ {
+  "label": "CREDITS:EALocalisationManager",
+  "text": "EA 欧洲本地化经理"
+ },
+ {
+  "label": "CREDITS:EALocalisationProjectManager",
+  "text": "EA 欧洲本地化项目经理"
+ },
+ {
+  "label": "CREDITS:EuropeanIntegrationTeam",
+  "text": "欧洲整合团队"
+ },
+ {
+  "label": "CREDITS:IntegrationEngineerManager",
+  "text": "整合工程经理"
+ },
+ {
+  "label": "CREDITS:IntegrationProgrammer",
+  "text": "整合程序员"
+ },
+ {
+  "label": "CREDITS:AudioPostproduction",
+  "text": "音频后期制作"
+ },
+ {
+  "label": "CREDITS:SpanishLocalizationTeam",
+  "text": "西班牙语本地化团队"
+ },
+ {
+  "label": "CREDITS:LocalizationManagerEAIberia",
+  "text": "EA Iberia 本地化经理"
+ },
+ {
+  "label": "CREDITS:QAnLTSupervisor",
+  "text": "QA & LT 主管"
+ },
+ {
+  "label": "CREDITS:QALead",
+  "text": "QA 主管"
+ },
+ {
+  "label": "CREDITS:QATesters",
+  "text": "QA 测试员"
+ },
+ {
+  "label": "CREDITS:LocalizationSupervisorEAIberia",
+  "text": "EA Iberia 本地化主管"
+ },
+ {
+  "label": "CREDITS:LocalizationCoordinator",
+  "text": "本地化协调员"
+ },
+ {
+  "label": "CREDITS:Translations",
+  "text": "翻译"
+ },
+ {
+  "label": "CREDITS:DTPSupervisor",
+  "text": "DTP 主管"
+ },
+ {
+  "label": "CREDITS:LayoutDesign",
+  "text": "版式设计"
+ },
+ {
+  "label": "CREDITS:Documentation",
+  "text": "文档"
+ },
+ {
+  "label": "CREDITS:JoseMaria",
+  "text": "José María García"
+ },
+ {
+  "label": "CREDITS:AndresGine",
+  "text": "Andrés Giné"
+ },
+ {
+  "label": "CREDITS:JoseRamon",
+  "text": "José Ramón Sagarna"
+ },
+ {
+  "label": "CREDITS:DavidSuarez",
+  "text": "David Suárez"
+ },
+ {
+  "label": "CREDITS:AlejandroGomez",
+  "text": "Alejandro Gómez"
+ },
+ {
+  "label": "CREDITS:IsmaeLDuran",
+  "text": "Ismael Durán"
+ },
+ {
+  "label": "CREDITS:JoseLuis",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:JavierMartinez",
+  "text": "Javier Martínez"
+ },
+ {
+  "label": "CREDITS:LuisPines",
+  "text": "Luis Pinés"
+ },
+ {
+  "label": "CREDITS:EAItalyLocalization",
+  "text": "EA 本地化 - 意大利"
+ },
+ {
+  "label": "CREDITS:LocalisationManager",
+  "text": "本地化经理"
+ },
+ {
+  "label": "CREDITS:TranslationSupervisor",
+  "text": "翻译主管"
+ },
+ {
+  "label": "CREDITS:LTSupervisor",
+  "text": "LT 主管"
+ },
+ {
+  "label": "CREDITS:LocalisationCoordinator",
+  "text": "本地化协调员"
+ },
+ {
+  "label": "CREDITS:LocalisationGermany",
+  "text": "EA 本地化 - 德国"
+ },
+ {
+  "label": "CREDITS:RobertBock",
+  "text": "Robert Böck"
+ },
+ {
+  "label": "CREDITS:TestCoordination",
+  "text": "测试协调"
+ },
+ {
+  "label": "CREDITS:LanguageTester",
+  "text": "本地化测试员"
+ },
+ {
+  "label": "CREDITS:LocalisationFrance",
+  "text": "EA 本地化 - 法国"
+ },
+ {
+  "label": "CREDITS:TestManager",
+  "text": "测试经理"
+ },
+ {
+  "label": "CREDITS:FrenchLanguageTestingCoordinator",
+  "text": "语言测试协调员"
+ },
+ {
+  "label": "CREDITS:StephaneTachon",
+  "text": "Stéphane Tachon"
+ },
+ {
+  "label": "CREDITS:LanguageTesters",
+  "text": "本地化测试员"
+ },
+ {
+  "label": "CREDITS:LocalisationBrazil",
+  "text": "EA 本地化 - 巴西"
+ },
+ {
+  "label": "CREDITS:TranslationAndTesting",
+  "text": "翻译与测试"
+ },
+ {
+  "label": "CREDITS:LocalisationPoland",
+  "text": "本地化 - 波兰"
+ },
+ {
+  "label": "GUI:LadderNameAndSize",
+  "text": "%ls（%dv%d）"
+ },
+ {
+  "label": "GUI:InvalidLadderPassword",
+  "text": "天梯密码无效"
+ },
+ {
+  "label": "GUI:EnterLadderPassword",
+  "text": "输入天梯密码："
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeader",
+  "text": "断线菜单"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeaderCaps",
+  "text": "断线菜单"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody1",
+  "text": "一名或多名玩家已与游戏断开连接。如果你想投票将某人踢出游戏，请点击相应玩家旁边的“投票”按钮。计时器倒数到 0 时，该玩家将被移出游戏，战斗将继续"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody2",
+  "text": "该玩家可能正在尝试重新连接，你可以选择等待其计时器结束。计时器倒数到 0 时，该玩家将被移出游戏，战斗将继续"
+ },
+ {
+  "label": "CREDITS:EAKoreaLocalisationTeam",
+  "text": "EA 韩国团队"
+ },
+ {
+  "label": "CREDITS:BusinessDevelopmentManager",
+  "text": "业务发展经理"
+ },
+ {
+  "label": "CREDITS:LocalisationProducer",
+  "text": "本地化制作人"
+ },
+ {
+  "label": "CREDITS:EAKoreaMarketingTeam",
+  "text": "EA 韩国市场团队"
+ },
+ {
+  "label": "CREDITS:MarketingManager",
+  "text": "市场经理"
+ },
+ {
+  "label": "CREDITS:ProductManager",
+  "text": "产品经理"
+ },
+ {
+  "label": "CREDITS:PublicRelations",
+  "text": "公共关系"
+ },
+ {
+  "label": "CREDITS:ProductPromotion",
+  "text": "产品推广"
+ },
+ {
+  "label": "CREDITS:EATaiwanLocalisationTeam",
+  "text": "EA 台湾本地化团队"
+ },
+ {
+  "label": "CREDITS:EAAsiaPacificLocalisationProjectManager",
+  "text": "EA 亚太区本地化项目经理"
+ },
+ {
+  "label": "CREDITS:AdditionalStoryInspiration",
+  "text": "额外故事灵感"
+ },
+ {
+  "label": "GUI:RandomSide",
+  "text": "随机"
+ },
+ {
+  "label": "GUI:Age",
+  "text": "年龄"
+ },
+ {
+  "label": "GUI:Month",
+  "text": "月（MM）"
+ },
+ {
+  "label": "GUI:Day",
+  "text": "日（DD）"
+ },
+ {
+  "label": "GUI:Year",
+  "text": "年（YYYY）"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle2",
+  "text": "由 Electronic Arts Los Angeles 开发"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam2",
+  "text": "Command & Conquer (TM) 将军：绝命时刻"
+ },
+ {
+  "label": "GUI:MustHaveAdminRights",
+  "text": "你必须拥有管理员权限才能安装补丁"
+ },
+ {
+  "label": "GUI:BuddyAddReq",
+  "text": "用户想添加好友"
+ },
+ {
+  "label": "GUI:AgeFailedTitle",
+  "text": "年龄要求提示"
+ },
+ {
+  "label": "GUI:AgeFailed",
+  "text": "你必须年满 13 岁才能在线玩这款游戏"
+ },
+ {
+  "label": "GUI:AdditionalLocalizationManagement",
+  "text": "额外本地化管理"
+ },
+ {
+  "label": "GUI:GroupRoom4",
+  "text": "4 对 4"
+ },
+ {
+  "label": "GUI:GroupRoom5",
+  "text": "亚洲"
+ },
+ {
+  "label": "GUI:GroupRoom6",
+  "text": "欧洲"
+ },
+ {
+  "label": "GUI:GroupRoom7",
+  "text": "北美"
+ },
+ {
+  "label": "GUI:GroupRoom8",
+  "text": "英国"
+ },
+ {
+  "label": "GUI:GroupRoom9",
+  "text": "德国"
+ },
+ {
+  "label": "GUI:GroupRoom10",
+  "text": "韩国"
+ },
+ {
+  "label": "GUI:GroupRoom11",
+  "text": "自由混战"
+ },
+ {
+  "label": "GUI:GroupRoom12",
+  "text": "不计统计"
+ },
+ {
+  "label": "GUI:GroupRoom13",
+  "text": "模组地图"
+ },
+ {
+  "label": "GUI:ControlOptions",
+  "text": "控制选项"
+ },
+ {
+  "label": "GUI:ClassicMouse",
+  "text": "经典"
+ },
+ {
+  "label": "GUI:AlternateMouse",
+  "text": "备选鼠标设置"
+ },
+ {
+  "label": "TOOLTIP:AlternateMouse",
+  "text": "鼠标右键在战场上执行单位动作（攻击、移动等）"
+ },
+ {
+  "label": "GUI:Generals_Challenge",
+  "text": "挑战"
+ },
+ {
+  "label": "GUI:Generals_Challenge_Title",
+  "text": "将军挑战"
+ },
+ {
+  "label": "GUI:DemoMD_USA01ButtonTitle",
+  "text": "美国 01"
+ },
+ {
+  "label": "GUI:DemoMD_USA02ButtonTitle",
+  "text": "美国 02"
+ },
+ {
+  "label": "GUI:DemoMD_GLA03ButtonTitle",
+  "text": "GLA 03"
+ },
+ {
+  "label": "GUI:DemoMD_CampEADemoTitle",
+  "text": "试玩"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildBuildingBecauseMaximumNumber",
+  "text": "建筑已存在"
+ },
+ {
+  "label": "TOOLTIP:MapMaxBrutalSuccess",
+  "text": "恭喜！你已在此地图上击败了最大数量的困难难度对手！"
+ },
+ {
+  "label": "GUI:LimitArmies",
+  "text": "限制阵营"
+ },
+ {
+  "label": "TOOLTIP:LimitArmies",
+  "text": "勾选以限制为传统的美国、GLA 和中国阵营，禁止使用叛变将军的军队"
+ },
+ {
+  "label": "GUI:UseStats",
+  "text": "记录统计"
+ },
+ {
+  "label": "TOOLTIP:UseStats",
+  "text": "选择是否在 C&C 将军：绝命时刻 官方服务器上记录本局统计数据"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOn",
+  "text": "本局统计数据将记录在 C&C 将军：绝命时刻 官方服务器上"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOff",
+  "text": "本局统计数据不会记录在 C&C 将军：绝命时刻 官方服务器上"
+ },
+ {
+  "label": "GUI:StartingMoney",
+  "text": "初始资金"
+ },
+ {
+  "label": "GUI:StartingMoneyFormat",
+  "text": "$%u"
+ },
+ {
+  "label": "TOOLTIP:StartingMoney",
+  "text": "调整所有玩家的初始资金"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:TempDescription",
+  "text": "لطف کنید و توضیحات من را که در CommandButton.ini است پر کنید! خیلی ممنون"
+ },
+ {
+  "label": "CONTROLBAR:CleanupAreaDescription",
+  "text": "سموم زیستی و تشعشع را در منطقه اطراف محل هدف خودکار پاک می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaCommandCenter",
+  "text": "مرکز فرماندهی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPowerPlant",
+  "text": "رآکتور همجوشی سرد (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaBarracks",
+  "text": "پادگان (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyCenter",
+  "text": "مرکز تدارکات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWall",
+  "text": "حصار امنیتی (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWarFactory",
+  "text": "کارخانه جنگ‌افزار (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaGuardianControlCenter",
+  "text": "مرکز\nمحافظ"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPatriotBattery",
+  "text": "سامانه موشکی پاتریوت (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaParticleCannonUplink",
+  "text": "توپ ذره‌ای (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaStrategyCenter",
+  "text": "مرکز استراتژی (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyDropZone",
+  "text": "منطقه پرتاب تدارکات (&Z)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDetentionCamp",
+  "text": "اردوگاه بازداشت (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankCrusader",
+  "text": "کروسیدر (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankPaladin",
+  "text": "پالادین (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryRanger",
+  "text": "رنجر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:Evacuate",
+  "text": "تخلیه (&V)"
+ },
+ {
+  "label": "CONTROLBAR:ExecuteRailedTransport",
+  "text": "ترابری"
+ },
+ {
+  "label": "CONTROLBAR:TransportExit",
+  "text": "خروج از وسیله ترابری"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLACommandCenter",
+  "text": "مرکز فرماندهی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLADemoTrap",
+  "text": "تله انفجاری (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABarracks",
+  "text": "پادگان (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLASupplyStash",
+  "text": "انبار تدارکات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABurningBarricade",
+  "text": "مانع شعله‌ور (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAArmsDealer",
+  "text": "دلال اسلحه (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaCommandCenter",
+  "text": "مرکز فرماندهی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPowerPlant",
+  "text": "رآکتور هسته‌ای (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBarracks",
+  "text": "پادگان (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSupplyCenter",
+  "text": "مرکز تدارکات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaConcreteWall",
+  "text": "دیوار بتنی (&L)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaWarFactory",
+  "text": "کارخانه جنگ‌افزار (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDozer",
+  "text": "بولدوزر ساختمانی (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAWorker",
+  "text": "کارگر (&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaDozer",
+  "text": "بولدوزر ساختمانی (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankScorpion",
+  "text": "اسکورپیون (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankMarauder",
+  "text": "تانک ماراودر (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRocketBuggy",
+  "text": "باگی راکت‌انداز (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRadarVan",
+  "text": "ون رادار (&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankOverlord",
+  "text": "اورلورد (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankGattling",
+  "text": "تانک گاتلینگ (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRebel",
+  "text": "شورشی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryRedguard",
+  "text": "گارد سرخ (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleChinook",
+  "text": "شینوک (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleSupplyTruck",
+  "text": "کامیون تدارکات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleSupplyTruck",
+  "text": "کامیون تدارکات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetRaptor",
+  "text": "رپتور (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetAurora",
+  "text": "بمب‌افکن آرورا (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetStealthFighter",
+  "text": "جنگنده رادارگریز (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleStarlifter",
+  "text": "استارلیفتر"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleComanche",
+  "text": "کومانچی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryMissileDefender",
+  "text": "مدافع موشکی (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryPathfinder",
+  "text": "پث‌فایندر (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryColonelBurton",
+  "text": "سرهنگ برتون (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryBiohazardTech",
+  "text": "تکنسین خطر زیستی"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleTomahawk",
+  "text": "تاماهاک (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleMedic",
+  "text": "آمبولانس (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHumvee",
+  "text": "هاموی (&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleBattleDrone",
+  "text": "پهپاد رزمی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleScoutDrone",
+  "text": "پهپاد شناسایی (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaJetMIG",
+  "text": "میگ (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryBlackLotus",
+  "text": "نیلوفر سیاه (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryTankHunter",
+  "text": "شکارچی تانک (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantrySecretPolice",
+  "text": "پلیس\nمخفی"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryHacker",
+  "text": "هکر (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBunker",
+  "text": "سنگر (&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPropagandaCenter",
+  "text": "مرکز تبلیغات (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaAirfield",
+  "text": "فرودگاه نظامی (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaAirfield",
+  "text": "فرودگاه نظامی (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaGattlingCannon",
+  "text": "توپ گاتلینگ (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaNuclearMissileLauncher",
+  "text": "موشک هسته‌ای (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSpeakerTower",
+  "text": "برج بلندگو (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleInfernoCannon",
+  "text": "توپ جهنمی (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleNukeLauncher",
+  "text": "توپ هسته‌ای (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleTroopCrawler",
+  "text": "نفربر خزنده (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankSeismic",
+  "text": "تانک\nلرزه‌ای"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankDragon",
+  "text": "تانک دراگون (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehiclePropagandaBlimp",
+  "text": "بالن\nتبلیغات"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryTerrorist",
+  "text": "تروریست (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRPGTrooper",
+  "text": "سرباز آرپی‌جی (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATunnelNetwork",
+  "text": "شبکه تونل (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPalace",
+  "text": "کاخ (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABlackMarket",
+  "text": "بازار سیاه (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAStingerSite",
+  "text": "سایت استینگر (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAScudStorm",
+  "text": "طوفان اسکاد (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPrison",
+  "text": "زندان (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleToxinTruck",
+  "text": "تراکتور سمی (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankBattleMaster",
+  "text": "بتل‌مستر (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleTechnical",
+  "text": "تکنیکال (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryHijacker",
+  "text": "هایجکر (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryJarmenKell",
+  "text": "جارمن کل (&J)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryAngryMob",
+  "text": "اوباش خشمگین (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleQuadCannon",
+  "text": "توپ چهارلول (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBombTruck",
+  "text": "کامیون بمب (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleScudLauncher",
+  "text": "پرتابگر اسکاد (&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedTraining",
+  "text": "آموزش پیشرفته (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaDroneArmor",
+  "text": "زره پهپاد (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaMines",
+  "text": "مین زمینی (&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRadar",
+  "text": "رادار (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaScoutDrones",
+  "text": "پهپادهای شناسایی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedControlRods",
+  "text": "میله‌های کنترل (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaLaserMissiles",
+  "text": "موشک‌های لیزری (&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaExtraFuel",
+  "text": "سوخت اضافی (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaFlashBangGrenade",
+  "text": "نارنجک صوتی-نوری (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCompositeArmor",
+  "text": "زره کامپوزیت (&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTomahawkRemoteControl",
+  "text": "موشک‌های کروز (&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAircraftFuel",
+  "text": "سوخت هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTOWMissile",
+  "text": "موشک TOW (&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeComancheRocketPods",
+  "text": "غلاف راکت (&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRailGun",
+  "text": "ریل\nگان"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRadar",
+  "text": "رادار (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNationalism",
+  "text": "ملی‌گرایی (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAntiTankGrenade",
+  "text": "نارنجک ضدتانک (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaVehicleHack",
+  "text": "هک خودرو (&V)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaIRGoggles",
+  "text": "عینک مادون قرمز (&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaBlackNapalm",
+  "text": "ناپالم سیاه (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaChainGuns",
+  "text": "مسلسل زنجیری (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSubliminalMessaging",
+  "text": "پیام‌رسانی ناخودآگاه (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaUraniumShells",
+  "text": "گلوله‌های اورانیومی (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNuclearTanks",
+  "text": "تانک‌های هسته‌ای (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaStunBullets",
+  "text": "گلوله‌های بیهوش‌کننده (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadar",
+  "text": "رادار (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadarVanScan",
+  "text": "اسکن رادار (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAScorpionRocket",
+  "text": "راکت اسکورپیون (&K)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABuggyAmmo",
+  "text": "مهمات باگی (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckBioBomb",
+  "text": "بمب‌های زیستی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:DisguiseAsVehicle",
+  "text": "استتار به شکل خودرو (&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb",
+  "text": "بمب انفجاری قوی (&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxBeta",
+  "text": "سیاه‌زخم بتا (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAToxinShells",
+  "text": "گلوله‌های سمی (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAJunkRepair",
+  "text": "تعمیر با قراضه (&J)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPBullets",
+  "text": "گلوله‌های زره‌شکن (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPRockets",
+  "text": "راکت‌های زره‌شکن (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamouflage",
+  "text": "استتار (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLATranqDarts",
+  "text": "دارت آرام‌بخش (&T)"
+ },
+ {
+  "label": "CONTROLBAR:SetRallyPoint",
+  "text": "نقطه تجمع (&R)"
+ },
+ {
+  "label": "CONTROLBAR:Sell",
+  "text": "فروش"
+ },
+ {
+  "label": "CONTROLBAR:Overcharge",
+  "text": "اضافه‌بار (&O)"
+ },
+ {
+  "label": "CONTROLBAR:DragonFlame",
+  "text": "شعله (&L)"
+ },
+ {
+  "label": "CONTROLBAR:PickUpPrisoner",
+  "text": "برداشتن\nاسیر (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ReturnToPrison",
+  "text": "بازگشت (&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocket",
+  "text": "شلیک راکت (&F)"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxWarhead",
+  "text": "کلاهک سیاه‌زخم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ExplosiveWarhead",
+  "text": "کلاهک انفجاری (&P)"
+ },
+ {
+  "label": "CONTROLBAR:Fire20mmCannon",
+  "text": "شلیک توپ ۲۰ میلی‌متری (&F)"
+ },
+ {
+  "label": "CONTROLBAR:FireAntiTankMissiles",
+  "text": "شلیک موشک‌ها (&M)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocketPods",
+  "text": "شلیک راکت‌ها (&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireNapalmMissile",
+  "text": "شلیک ناپالم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:DaisyCutter",
+  "text": "بمب سوخت-هوا (&B)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissile",
+  "text": "موشک هسته‌ای (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ScudStorm",
+  "text": "طوفان اسکاد (&U)"
+ },
+ {
+  "label": "CONTROLBAR:NapalmStrike",
+  "text": "حمله ناپالم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:A10ThunderboltMissileStrike",
+  "text": "حمله موشکی A10 (&A)"
+ },
+ {
+  "label": "CONTROLBAR:CashHack",
+  "text": "هک پول (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Ambush",
+  "text": "کمین (&A)"
+ },
+ {
+  "label": "CONTROLBAR:BlackMarketNuke",
+  "text": "بمب هسته‌ای\nبازار سیاه"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxBomb",
+  "text": "بمب سیاه‌زخم (&B)"
+ },
+ {
+  "label": "CONTROLBAR:Paradrop",
+  "text": "فرود چتری (&O)"
+ },
+ {
+  "label": "CONTROLBAR:CarpetBomb",
+  "text": "بمباران فرشی (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ClusterMines",
+  "text": "مین‌های خوشه‌ای (&I)"
+ },
+ {
+  "label": "CONTROLBAR:EMPPulse",
+  "text": "پالس EMP (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ArtilleryBarrage",
+  "text": "آتش توپخانه (&B)"
+ },
+ {
+  "label": "CONTROLBAR:CrateDrop",
+  "text": "پرتاب\nجعبه"
+ },
+ {
+  "label": "CONTROLBAR:SpySatellite",
+  "text": "ماهواره جاسوسی (&S)"
+ },
+ {
+  "label": "CONTROLBAR:SpyDrone",
+  "text": "پهپاد جاسوسی (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScan",
+  "text": "اسکن رادار (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Defector",
+  "text": "فراری (&D)"
+ },
+ {
+  "label": "CONTROLBAR:Bayonet",
+  "text": "سرنیزه (&B)"
+ },
+ {
+  "label": "CONTROLBAR:SniperAttack",
+  "text": "حمله تک‌تیرانداز (&N)"
+ },
+ {
+  "label": "CONTROLBAR:CaptureBuilding",
+  "text": "تصرف ساختمان (&C)"
+ },
+ {
+  "label": "CONTROLBAR:DisableVehicleHack",
+  "text": "هک خودرو (&V)"
+ },
+ {
+  "label": "CONTROLBAR:StealCashHack",
+  "text": "هک پول (&K)"
+ },
+ {
+  "label": "CONTROLBAR:InternetHack",
+  "text": "هک اینترنت (&I)"
+ },
+ {
+  "label": "CONTROLBAR:DisableBuildingHack",
+  "text": "از کار انداختن ساختمان (&D)"
+ },
+ {
+  "label": "CONTROLBAR:CarBomb",
+  "text": "خودروی بمب‌گذاری‌شده (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Hijack",
+  "text": "ربودن (&J)"
+ },
+ {
+  "label": "CONTROLBAR:TNTAttack",
+  "text": "حمله TNT (&T)"
+ },
+ {
+  "label": "CONTROLBAR:Requirements",
+  "text": "نیاز دارد: %s"
+ },
+ {
+  "label": "CONTROLBAR:LaserMissileAttack",
+  "text": "حمله موشک لیزری (&L)"
+ },
+ {
+  "label": "CONTROLBAR:KnifeAttack",
+  "text": "حمله با چاقو (&K)"
+ },
+ {
+  "label": "CONTROLBAR:ClimbCliff",
+  "text": "بالا رفتن از صخره (&C)"
+ },
+ {
+  "label": "CONTROLBAR:TimedDemoCharge",
+  "text": "خرج انفجاری زمانی (&T)"
+ },
+ {
+  "label": "CONTROLBAR:RemoteDemoCharge",
+  "text": "خرج انفجاری کنترل‌از‌راه‌دور (&R)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateCharges",
+  "text": "انفجار خرج‌ها (&D)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateNuke",
+  "text": "انفجار بمب هسته‌ای (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ManualControl",
+  "text": "کنترل دستی (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ProximityFuse",
+  "text": "چاشنی مجاورتی (&P)"
+ },
+ {
+  "label": "CONTROLBAR:Detonate",
+  "text": "منفجر کن! (&D)"
+ },
+ {
+  "label": "CONTROLBAR:EmergencyRepair",
+  "text": "تعمیر اضطراری (&E)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannon",
+  "text": "توپ ذره‌ای (&P)"
+ },
+ {
+  "label": "CONTROLBAR:Options",
+  "text": "منوی بازی"
+ },
+ {
+  "label": "CONTROLBAR:OptionsDescription",
+  "text": "منوی بازی را باز می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorker",
+  "text": "کارگر بیکار"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorkerDescription",
+  "text": "برای انتخاب کارگر بیکار بعدی کلیک کنید"
+ },
+ {
+  "label": "CONTROLBAR:Beacon",
+  "text": "نشانگر"
+ },
+ {
+  "label": "CONTROLBAR:BeaconDescription",
+  "text": "برای گذاشتن نشانگر کلیک کنید"
+ },
+ {
+  "label": "CONTROLBAR:Communicator",
+  "text": "ارتباط‌گر"
+ },
+ {
+  "label": "CONTROLBAR:CommunicatorDescription",
+  "text": "برای باز کردن ارتباط‌گر Generals کلیک کنید"
+ },
+ {
+  "label": "CONTROLBAR:AmbulanceCleanupArea",
+  "text": "پاک‌سازی سموم (&C)"
+ },
+ {
+  "label": "RADAR:UnitUnderAttack",
+  "text": "یگان زیر حمله است"
+ }
+]

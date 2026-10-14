@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen06Subtitle",
+  "text": "*我们获得了 GPS 干扰技术！现在可以用卡萨德的伎俩对付他了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen07Subtitle",
+  "text": "*太好了，将军！我们获得了偷袭能力！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen08Subtitle",
+  "text": "*占领敌方指挥中心"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen09Subtitle",
+  "text": "*如果能占领敌方指挥中心，我们就能用他们的技术对付他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen10Subtitle",
+  "text": "*将军，我们必须占领他们的指挥中心，利用他们的知识实现我们的目标：让 GLA 在同一面旗帜下团结起来"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen11Subtitle",
+  "text": "*我们的资源快不够了。必须占领一些油井"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen12Subtitle",
+  "text": "*敌人在攻击我们的石油供应！必须阻止他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen13Subtitle",
+  "text": "*使用 GPS 干扰悄悄绕过敌人的防御！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen14Subtitle",
+  "text": "*GPS 干扰在这里不管用，毒刺导弹阵地太多了。我们得换个战术"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen15Subtitle",
+  "text": "*也许我们能找到一片无人防守的区域来使用新的偷袭能力"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen16Subtitle",
+  "text": "*不要摧毁指挥中心。我们需要完整地占领这座建筑"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen17Subtitle",
+  "text": "*必须窃取他们的知识。我们要用他们的先进战术打败他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen18Subtitle",
+  "text": "*将军，小心狙击手——卡萨德很喜欢用他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen19Subtitle",
+  "text": "*这座桥防守严密。我们需要支援才能过去"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen20Subtitle",
+  "text": "*占领北边的敌方指挥中心！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen21Subtitle",
+  "text": "*占领西边的敌方指挥中心！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen22Subtitle",
+  "text": "*将军，如果我们占领这门大炮，就能用它对付卡萨德的部队！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen23Subtitle",
+  "text": "*如果我们占领指挥中心，就能利用他们的能力扭转战局"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen24Subtitle",
+  "text": "*卡萨德王子已经完了。GLA 再次团结一致，共同对敌！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen25Subtitle",
+  "text": "*有了 GPS 干扰，我们可以神不知鬼不觉地越过卡萨德的桥头防线！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen26Subtitle",
+  "text": "*叛徒在这座山顶上筑起了工事，切断了其他所有通路。偷袭是我们攻击他主基地的唯一途径"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen27Subtitle",
+  "text": "*将军，这一地区由卡萨德王子控制。他背弃了自己的兄弟，不肯在对抗异教徒的事业中援助我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen28Subtitle",
+  "text": "*卡萨德是隐形大师，能把部队藏在众目睽睽之下。他拒绝与我们分享他的知识，那我们就从他手里夺过来"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen29Subtitle",
+  "text": "*卡萨德王子指挥的一个 GLA 分裂小组控制着这一地区。卡萨德拒绝让我们为了 GLA 的利益使用他的能力"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen30Subtitle",
+  "text": "*卡萨德是隐形大师，依靠多种手段突袭敌人"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen31Subtitle",
+  "text": "*GPS 干扰让他能让任何单位在隐形状态下攻击敌人"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen32Subtitle",
+  "text": "*地道偷袭则提供了更多战术优势"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen33Subtitle",
+  "text": "*我们必须得到这些技术。如果卡萨德不肯分享，我们就从他手里夺过来。占领他的指挥中心，用他自己的能力对付他！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar03Subtitle",
+  "text": "*解救我们被囚禁的兄弟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar15Subtitle",
+  "text": "*我们发现了一座战俘营，我们的兄弟被关在里面"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf01Subtitle",
+  "text": "*欢迎，指挥官！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf02Subtitle",
+  "text": "*卡萨德太懦弱了，从来不敢对美国发动这样的攻击。将军，你真是位战略大师"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf03Subtitle",
+  "text": "*一旦美国地中海舰队被击溃，整个欧洲都将落入我们手中"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf04Subtitle",
+  "text": "*既然我们再次团结，是时候让世界感受我们的力量了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf05Subtitle",
+  "text": "*美国袭击了我们在地中海的秘密基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf06Subtitle",
+  "text": "*但在基地被摧毁之前，我们得知了他们在该地区的粒子加农炮和舰队的位置"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf07Subtitle",
+  "text": "*他们大部分舰船都停在港口，毫无还手之力。我们要偷走他们的粒子加农炮，用它摧毁他们的航空母舰！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf08Subtitle",
+  "text": "*寻找机会夺回并重建我们的秘密基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat01Subtitle",
+  "text": "*我们愿为你而死！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat02Subtitle",
+  "text": "*又干掉一个"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat03Subtitle",
+  "text": "*又有新的牺牲品了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat04Subtitle",
+  "text": "*把他们扫倒！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat05Subtitle",
+  "text": "*他们逃不过我们的怒火！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat06Subtitle",
+  "text": "*他们已经落入我们的圈套！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat07Subtitle",
+  "text": "*胜利将属于我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat08Subtitle",
+  "text": "*好大的水花！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin01Subtitle",
+  "text": "*我们要为这次卑鄙的袭击复仇！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin02Subtitle",
+  "text": "*他们的航母将变成一堆废铁！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin03Subtitle",
+  "text": "*我们证明了 GLA 的力量！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen01Subtitle",
+  "text": "*我们的劫车犯可以轻松夺下那辆坦克"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen02Subtitle",
+  "text": "*那个游骑兵在跑去求援！不能让他逃了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen03Subtitle",
+  "text": "*我们需要这门粒子加农炮来击沉敌方航母。好好保卫它！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen04Subtitle",
+  "text": "*我们的叛军可以用占领建筑能力控制粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen05Subtitle",
+  "text": "*我们可以用偷袭在附近的岛上建造地道网"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen06Subtitle",
+  "text": "*不能让飞行员跑到他的战斧那里！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen07Subtitle",
+  "text": "*他们冲着战斧去了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen08Subtitle",
+  "text": "*这座兵营现在是我们的了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen09Subtitle",
+  "text": "*我们解放了这座宫殿"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen10Subtitle",
+  "text": "*这个军火商会为我们效力"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen11Subtitle",
+  "text": "*我们夺回了指挥中心！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen12Subtitle",
+  "text": "*将军，看到那些敌方补给飞机了吗？如果我们能摧毁他们的空投区，就能削弱他们的生产！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen13Subtitle",
+  "text": "*啊，这辆毒素拖拉机会派上用场"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen14Subtitle",
+  "text": "*这些四管机炮将保护我们免受敌机攻击"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen15Subtitle",
+  "text": "*这些劫掠者坦克会增强我们的火力"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen16Subtitle",
+  "text": "*摧毁这些坦克，我们就能解放兵营！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen17Subtitle",
+  "text": "*如果清除这一区域，我们就能安全占领指挥中心"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen18Subtitle",
+  "text": "*消灭那些部队，军火商就是我们的了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen19Subtitle",
+  "text": "*他们可能要对我们发动攻击！保卫我们的建筑！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen20Subtitle",
+  "text": "*科曼奇！集结防空力量！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen21Subtitle",
+  "text": "*我们必须防御那些科曼奇！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen22Subtitle",
+  "text": "*他们想夺回粒子加农炮！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen23Subtitle",
+  "text": "*他们的飞机摧毁了我们的地道网！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen24Subtitle",
+  "text": "*这些狡猾的恶棍！他们在攻击我们的发电厂。我们需要电力才能使用粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen25Subtitle",
+  "text": "*几乎所有发电厂都被摧毁了。我们必须有电力才能使用粒子加农炮！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen26Subtitle",
+  "text": "*如果我们能占领一些发电厂，就能用粒子加农炮对付他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen27Subtitle",
+  "text": "*啊……我们发现了一些隐藏的好东西"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen28Subtitle",
+  "text": "*这个隘口防守严密。我们应该用粒子加农炮轰开一条路"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen29Subtitle",
+  "text": "*小心！这个隘口戒备森严！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen30Subtitle",
+  "text": "*他们把步兵派到了岛上！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen31Subtitle",
+  "text": "*他们的直升机正在运送增援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen32Subtitle",
+  "text": "*他们对我们发动了 A10 空袭！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen33Subtitle",
+  "text": "*他们空降到了粒子加农炮上！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen34Subtitle",
+  "text": "*我们瘫痪了他们的空投补给区！他们的生产将陷入瘫痪！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen35Subtitle",
+  "text": "*你的任务是用粒子加农炮摧毁敌方航空母舰。你必须突入他们在大陆上的基地，获得航母的目视锁定，才能将其摧毁"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen36Subtitle",
+  "text": "*干得好！现在我们必须控制一些发电厂"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen37Subtitle",
+  "text": "*地道网将把我们带到下一座岛"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen38Subtitle",
+  "text": "*粒子加农炮已上线。我们应该保卫它和发电厂"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen39Subtitle",
+  "text": "*我们所有的单位和建筑都被摧毁了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen40Subtitle",
+  "text": "*没有粒子加农炮，就不可能击沉航母"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen41Subtitle",
+  "text": "*现在美国人将尝到失败的苦涩！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen42Subtitle",
+  "text": "*他们摧毁了我们的地道网！使用偷袭夺回粒子加农炮！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen43Subtitle",
+  "text": "*我们正在接近航空母舰。它就在这里的南边"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen44Subtitle",
+  "text": "*航空母舰在那里！用粒子加农炮摧毁它！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen45Subtitle",
+  "text": "*贾曼·凯尔前来为我们效力"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen46Subtitle",
+  "text": "*他的狙击能力可以使敌方载具失效，让我们的步兵随后夺取它们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen47Subtitle",
+  "text": "*这些停泊的战列舰毫无威胁"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen48Subtitle",
+  "text": "*战列舰在炮击我们！摧毁它！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen49Subtitle",
+  "text": "*这一定是敌人的主基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen50Subtitle",
+  "text": "*这些伪建筑会骗过我们的敌人"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen51Subtitle",
+  "text": "*建造更多伪建筑来迷惑敌人！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04Dispatcher06Subtitle",
+  "text": "*美军正在赶来"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat01Subtitle",
+  "text": "*我们必须清除那些碉堡！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat02Subtitle",
+  "text": "*他们断电了！不用对付爱国者了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat03Subtitle",
+  "text": "*冲破围栏，救出我们的兄弟！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat04Subtitle",
+  "text": "*现在我们的兄弟可以自由了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat05Subtitle",
+  "text": "*一架美国支奴干能帮我们运送部队。如果可以，占领这个补给站"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat06Subtitle",
+  "text": "*派些防空力量过来，将军！他们的科曼奇要把我们撕成碎片了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat07Subtitle",
+  "text": "*将军，我们必须想办法摧毁这些桥头防御！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat08Subtitle",
+  "text": "*将军，我们正用手机呼叫一个突袭地道网！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat09Subtitle",
+  "text": "*要清除碉堡，我们需要这些拖拉机"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat10Subtitle",
+  "text": "*这艘渡轮现在归我们控制了！你要把我们送到我们想去的地方！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat11Subtitle",
+  "text": "*是，是。你们说什么我都照办！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat12Subtitle",
+  "text": "*我们的兄弟已获得自由"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat13Subtitle",
+  "text": "*这片陌生的土地上 SUV 可真多"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat14Subtitle",
+  "text": "*这一带有一位 GLA 的同情者。他和他的兄弟们同意帮助我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat15Subtitle",
+  "text": "*坦克！快撤！快，快，快！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin01Subtitle",
+  "text": "*这里是第一小队。我们已就位"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin02Subtitle",
+  "text": "*我的兄弟们，踏上敌人的土地要小心。我们的主要目标是从附近的美国毒素设施获取化学样本"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin03Subtitle",
+  "text": "*失去指挥舰队后，美国海军残部已调往地中海。这让我们得以趁虚而入"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin04Subtitle",
+  "text": "*我们在那里打败了他们，在这里也必将取胜"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin05Subtitle",
+  "text": "*兄弟们欢呼吧！一旦拿到这座设施里的毒素，我们的科学家就能打造出一种大规模传染武器"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin06Subtitle",
+  "text": "*美国人插手得太久了。有了这种新武器，我们就能让压迫者闻风丧胆！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin07Subtitle",
+  "text": "*（极其邪恶的笑声）"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin08Subtitle",
+  "text": "*第一小队，毒素是否已安全装机？"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin09Subtitle",
+  "text": "*样本已到手"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin10Subtitle",
+  "text": "*我们准备起飞"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin11Subtitle",
+  "text": "*确认。货物已安全"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin12Subtitle",
+  "text": "*可以出发了。我们会掩护你们撤离！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin13Subtitle",
+  "text": "*将军，爱国者上线了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin14Subtitle",
+  "text": "*在我们清理出跑道之前挡住他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin15Subtitle",
+  "text": "*别让他们追上来！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin16Subtitle",
+  "text": "*滚开，蠢美国佬！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin17Subtitle",
+  "text": "*我们到达毒素设施时再会合"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin18Subtitle",
+  "text": "*美国人以为他们把我们赶出去了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin19Subtitle",
+  "text": "*我们要分而治之"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin20Subtitle",
+  "text": "*面对这样的空中力量，我们毫无还手之力！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin21Subtitle",
+  "text": "*你们还会见到我们的！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin22Subtitle",
+  "text": "*我们会报仇的，肮脏的美国佬！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin23Subtitle",
+  "text": "*让我们尽一份力，干掉这些资本主义猪猡！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin24Subtitle",
+  "text": "*这些美国人要为我们兄弟的性命付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin25Subtitle",
+  "text": "*干掉这些 GLA 入侵者！狐狸一号！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin26Subtitle",
+  "text": "*发现 GLA 在近海！所有单位进入防御阵地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin27Subtitle",
+  "text": "*坐标 77BetaGamma 发现 GLA 渗透！所有可用单位立即响应！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin28Subtitle",
+  "text": "*海滩上还有更多！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin29Subtitle",
+  "text": "*在崖壁上发现 GLA 渗透者！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin30Subtitle",
+  "text": "*GLA 已进入市区！所有单位向坐标 34AlphaAlpha 集结"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen01Subtitle",
+  "text": "*干得好，将军！只剩 15 份毒素样本要取回了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen02Subtitle",
+  "text": "*干得好，将军！只剩 10 份毒素样本要取回了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen03Subtitle",
+  "text": "*干得好，将军！只剩 5 份毒素样本要取回了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen04Subtitle",
+  "text": "*将军，我们有一个进攻美国欧洲中央司令部的计划。但我们还没有直接打击他们的实力。我们需要一种新的毒素武器"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen05Subtitle",
+  "text": "*我们的两支部队都已就位。要取回毒素，两组必须协同作战"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen06Subtitle",
+  "text": "*我们的劫车犯可以夺取载具，除非移动，否则处于隐形状态"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen07Subtitle",
+  "text": "*贾曼·凯尔可以狙杀载具中的驾驶员，还能远距离消灭步兵"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen08Subtitle",
+  "text": "*我们的破坏者可以执行多种秘密行动，比如让发电厂停摆"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen09Subtitle",
+  "text": "*我们的叛军处于隐蔽状态，可以占领建筑来协助我们的事业"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen10Subtitle",
+  "text": "*祝你好运，将军。愿隐秘与智谋伴你完成使命"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen11Subtitle",
+  "text": "*早上好，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen12Subtitle",
+  "text": "*将军，我们必须占领那艘渡轮"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen13Subtitle",
+  "text": "*将军，这里有地雷，但我们探测不到！我们需要一辆雷达车！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen14Subtitle",
+  "text": "*将军，派人进入河边的阀门站。排空冷却水库就能让我们的兄弟继续前进"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen15Subtitle",
+  "text": "*太好了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen16Subtitle",
+  "text": "*干得好"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen17Subtitle",
+  "text": "*将军！在我们被消灭之前摧毁那座机场！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen18Subtitle",
+  "text": "*将军。我们必须摧毁他们的电力！这样美国人就成了活靶子！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen19Subtitle",
+  "text": "*将军，我们必须占领那座毒素设施"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen20Subtitle",
+  "text": "*干得漂亮，将军。现在我们必须保护这些卡车把毒素运到货机上"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen21Subtitle",
+  "text": "*用卡车开始从设施中收集毒素"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen22Subtitle",
+  "text": "*将军，美国人派来了增援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen23Subtitle",
+  "text": "*又一支劫车犯小组前来支援我们的事业"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen24Subtitle",
+  "text": "*又一支叛军小组前来支援我们的事业"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen25Subtitle",
+  "text": "*找到贾曼·凯尔了，他回来支援我们的事业"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen26Subtitle",
+  "text": "*我们的兄弟突破了封锁，为我们送来了增援"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen27Subtitle",
+  "text": "*在希腊取胜之后，美国人想不到我们会攻击他们的本土"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen28Subtitle",
+  "text": "*卡萨德永远不会有胆量攻击美国本土"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen29Subtitle",
+  "text": "*一旦从美国生化中心偷到秘密毒剂，我们就势不可挡"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy104Subtitle",
+  "text": "*小心爱国者导弹阵地，它们很危险"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy108Subtitle",
+  "text": "*下地狱去吧，美国杂种！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar02bSubtitle",
+  "text": "*摧毁美军空军基地，他们在这一地区投送力量的能力就会大打折扣"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar05Subtitle",
+  "text": "*美国人会用空中力量阻止我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Quad201Subtitle",
+  "text": "*去死吧，美国佬！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Rebel02Subtitle",
+  "text": "*我们对美军空袭毫无招架之力！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Scorpion105Subtitle",
+  "text": "*美国懦夫！像个男人一样在地面上打！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xChat01Subtitle",
+  "text": "*该地区由美国空军格兰杰将军控制。我们能够也必将使用武力将你们逐出该地区。现命令你们立即撤离"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin01Subtitle",
+  "text": "*我们兵力不多，但可以利用手头的一切取得胜利"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin02Subtitle",
+  "text": "*既然我们在这一地区没有基地，就必须夺取一座！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin03Subtitle",
+  "text": "*中国基地……我们必须立即出击！他们的基地很快就是我们的了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen01Subtitle",
+  "text": "*如果你从南边的美军基地救出我们的同志，我们的精锐战士将与你并肩作战！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen02Subtitle",
+  "text": "*感谢你救出了我们的兄弟！作为回报，我们将为你打开美军基地的一片区域，让你开始进攻"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen03Subtitle",
+  "text": "*嘿嘿嘿嘿嘿（阴险的笑声）这下给他们个教训"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen04Subtitle",
+  "text": "*不能让我们白白牺牲！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen05Subtitle",
+  "text": "*我们一起打败了敌人！胜利属于我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen06Subtitle",
+  "text": "*感谢你帮忙救出我的士兵。我们会报答你，帮你摧毁美军中央司令部基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen01Subtitle",
+  "text": "*一旦摧毁这座基地，美国人就会像胆小的狗一样逃回家。整个欧洲都将是我们的"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen02Subtitle",
+  "text": "*美国人把我们的兄弟扣押在他们的基地里。我们必须救出他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen03Subtitle",
+  "text": "*从美国人手中救出战俘对我们最为有利"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen04Subtitle",
+  "text": "*干得好！占领或消灭这座基地，确保战俘的安全"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen05Subtitle",
+  "text": "*我们必须把他们安全送回北边的基地。绝不能让他们受到伤害"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen06Subtitle",
+  "text": "*我们的补给快不够了。必须分散开来夺取新资源"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen07Subtitle",
+  "text": "*又有空袭！我们必须建造更多防空设施"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen08Subtitle",
+  "text": "*尽快重建防御，下一次进攻很快就会到来"
+ }
+]

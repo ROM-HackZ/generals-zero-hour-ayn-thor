@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:GameOptions",
+  "text": "خيارات اللعبة"
+ },
+ {
+  "label": "GUI:SinglePlayer",
+  "text": "اللعب الفردي"
+ },
+ {
+  "label": "GUI:Network",
+  "text": "الشبكة"
+ },
+ {
+  "label": "GUI:Options",
+  "text": "الخيارات"
+ },
+ {
+  "label": "GUI:Skirmish",
+  "text": "مناوشة"
+ },
+ {
+  "label": "GUI:Back",
+  "text": "رجوع"
+ },
+ {
+  "label": "GUI:StartGame",
+  "text": "ابدأ اللعب"
+ },
+ {
+  "label": "GUI:Color",
+  "text": "اللون"
+ },
+ {
+  "label": "GUI:Slower",
+  "text": "أبطأ"
+ },
+ {
+  "label": "GUI:Faster",
+  "text": "أسرع"
+ },
+ {
+  "label": "GUI:Low",
+  "text": "منخفض"
+ },
+ {
+  "label": "GUI:Medium",
+  "text": "متوسط"
+ },
+ {
+  "label": "GUI:High",
+  "text": "مرتفع"
+ },
+ {
+  "label": "GUI:None",
+  "text": "لا شيء"
+ },
+ {
+  "label": "GUI:Random",
+  "text": "عشوائي"
+ },
+ {
+  "label": "GUI:Cancel",
+  "text": "إلغاء"
+ },
+ {
+  "label": "GUI:Ok",
+  "text": "موافق"
+ },
+ {
+  "label": "GUI:Delete",
+  "text": "إزالة"
+ },
+ {
+  "label": "GUI:Description",
+  "text": "الوصف"
+ },
+ {
+  "label": "GUI:Load",
+  "text": "تحميل"
+ },
+ {
+  "label": "GUI:Progress",
+  "text": "التقدم"
+ },
+ {
+  "label": "GUI:Assign",
+  "text": "تعيين"
+ },
+ {
+  "label": "GUI:CustomizeKeyboard",
+  "text": "تخصيص لوحة المفاتيح"
+ },
+ {
+  "label": "GUI:Category",
+  "text": "الفئة"
+ },
+ {
+  "label": "GUI:Commands",
+  "text": "الأوامر"
+ },
+ {
+  "label": "GUI:ResetAll",
+  "text": "إعادة تعيين الكل"
+ },
+ {
+  "label": "GUI:DisplayOptions",
+  "text": "خيارات العرض"
+ },
+ {
+  "label": "GUI:KeyboardOptions",
+  "text": "خيارات لوحة المفاتيح"
+ },
+ {
+  "label": "GUI:MainMenu",
+  "text": "خروج"
+ },
+ {
+  "label": "GUI:Units",
+  "text": "الوحدات"
+ },
+ {
+  "label": "GUI:Buildings",
+  "text": "المباني"
+ },
+ {
+  "label": "GUI:Players",
+  "text": "اللاعبون"
+ },
+ {
+  "label": "GUI:Preview",
+  "text": "معاينة الخريطة"
+ },
+ {
+  "label": "GUI:Save",
+  "text": "حفظ"
+ },
+ {
+  "label": "GUI:Side",
+  "text": "الجيش"
+ },
+ {
+  "label": "GUI:Accept",
+  "text": "قبول"
+ },
+ {
+  "label": "GUI:Games",
+  "text": "الألعاب"
+ },
+ {
+  "label": "GUI:Join",
+  "text": "الانضمام إلى لعبة"
+ },
+ {
+  "label": "GUI:LoadGame",
+  "text": "تحميل لعبة"
+ },
+ {
+  "label": "GUI:SaveGame",
+  "text": "حفظ اللعبة"
+ },
+ {
+  "label": "GUI:Score",
+  "text": "النقاط"
+ },
+ {
+  "label": "GUI:Add",
+  "text": "إضافة"
+ },
+ {
+  "label": "GUI:MusicVolume",
+  "text": "مستوى الموسيقى"
+ },
+ {
+  "label": "GUI:VoiceVolume",
+  "text": "مستوى الأصوات"
+ },
+ {
+  "label": "GUI:Play",
+  "text": "ابدأ اللعب"
+ },
+ {
+  "label": "GUI:Stop",
+  "text": "إيقاف"
+ },
+ {
+  "label": "GUI:Continue",
+  "text": "متابعة"
+ },
+ {
+  "label": "GUI:MaxPing",
+  "text": "أقصى تأخير مسموح:"
+ },
+ {
+  "label": "GUI:Ladder",
+  "text": "التصنيف"
+ },
+ {
+  "label": "GUI:Close",
+  "text": "إغلاق"
+ },
+ {
+  "label": "GUI:Help",
+  "text": "مساعدة"
+ },
+ {
+  "label": "GUI:Rank",
+  "text": "الرتبة"
+ },
+ {
+  "label": "GUI:Password",
+  "text": "كلمة المرور"
+ },
+ {
+  "label": "GUI:Disconnect",
+  "text": "قطع الاتصال"
+ },
+ {
+  "label": "GUI:No",
+  "text": "لا"
+ },
+ {
+  "label": "GUI:Yes",
+  "text": "نعم"
+ },
+ {
+  "label": "GUI:Blank",
+  "text": "."
+ },
+ {
+  "label": "GUI:Open",
+  "text": "مفتوح"
+ },
+ {
+  "label": "GUI:Closed",
+  "text": "مغلق"
+ },
+ {
+  "label": "GUI:Login",
+  "text": "تسجيل الدخول"
+ },
+ {
+  "label": "GUI:WOLWelcome",
+  "text": "مرحبًا أيها الجنرال %hs"
+ },
+ {
+  "label": "GUI:QuickMatch",
+  "text": "مباراة سريعة"
+ },
+ {
+  "label": "GUI:CustomMatch",
+  "text": "مباراة مخصصة"
+ },
+ {
+  "label": "GUI:LadderRank",
+  "text": "رتبة التصنيف"
+ },
+ {
+  "label": "GUI:Disconnects",
+  "text": "مرات قطع الاتصال"
+ },
+ {
+  "label": "GUI:CreateGame",
+  "text": "إنشاء لعبة"
+ },
+ {
+  "label": "GUI:AutoLogin",
+  "text": "تسجيل الدخول تلقائيًا مستقبلًا"
+ },
+ {
+  "label": "GUI:AddBuddy",
+  "text": "إضافة صديق"
+ },
+ {
+  "label": "GUI:RemoveBuddy",
+  "text": "إزالة صديق"
+ },
+ {
+  "label": "GUI:AudioOptions",
+  "text": "خيارات الصوت"
+ },
+ {
+  "label": "GUI:LadderWins",
+  "text": "انتصارات التصنيف"
+ },
+ {
+  "label": "GUI:LadderLosses",
+  "text": "هزائم التصنيف"
+ },
+ {
+  "label": "GUI:LadderPoints",
+  "text": "نقاط التصنيف"
+ },
+ {
+  "label": "WOL:BuddyOffline",
+  "text": "%ls غير متصل"
+ },
+ {
+  "label": "WOL:Locale00",
+  "text": "غير معروف"
+ },
+ {
+  "label": "WOL:Locale01",
+  "text": "موقع آخر"
+ },
+ {
+  "label": "WOL:Locale02",
+  "text": "الولايات المتحدة"
+ },
+ {
+  "label": "WOL:Locale03",
+  "text": "كندا"
+ },
+ {
+  "label": "WOL:Locale04",
+  "text": "المملكة المتحدة"
+ },
+ {
+  "label": "WOL:Locale05",
+  "text": "ألمانيا"
+ },
+ {
+  "label": "WOL:Locale06",
+  "text": "فرنسا"
+ },
+ {
+  "label": "WOL:Locale07",
+  "text": "إسبانيا"
+ },
+ {
+  "label": "WOL:Locale08",
+  "text": "هولندا"
+ },
+ {
+  "label": "WOL:Locale09",
+  "text": "بلجيكا"
+ },
+ {
+  "label": "WOL:Locale10",
+  "text": "النمسا"
+ },
+ {
+  "label": "WOL:Locale11",
+  "text": "سويسرا"
+ },
+ {
+  "label": "WOL:Locale12",
+  "text": "إيطاليا"
+ },
+ {
+  "label": "WOL:Locale13",
+  "text": "الدنمارك"
+ },
+ {
+  "label": "WOL:Locale14",
+  "text": "السويد"
+ },
+ {
+  "label": "WOL:Locale15",
+  "text": "النرويج"
+ },
+ {
+  "label": "WOL:Locale16",
+  "text": "فنلندا"
+ },
+ {
+  "label": "WOL:Locale17",
+  "text": "إسرائيل"
+ },
+ {
+  "label": "WOL:Locale18",
+  "text": "جنوب أفريقيا"
+ },
+ {
+  "label": "WOL:Locale19",
+  "text": "اليابان"
+ },
+ {
+  "label": "WOL:Locale20",
+  "text": "كوريا"
+ },
+ {
+  "label": "WOL:Locale21",
+  "text": "الصين"
+ },
+ {
+  "label": "WOL:Locale22",
+  "text": "سنغافورة"
+ },
+ {
+  "label": "WOL:Locale23",
+  "text": "تايوان"
+ },
+ {
+  "label": "WOL:Locale24",
+  "text": "ماليزيا"
+ },
+ {
+  "label": "WOL:Locale25",
+  "text": "أستراليا"
+ },
+ {
+  "label": "WOL:Locale26",
+  "text": "نيوزيلندا"
+ },
+ {
+  "label": "WOL:Locale27",
+  "text": "البرازيل"
+ },
+ {
+  "label": "WOL:Locale28",
+  "text": "تايلاند"
+ },
+ {
+  "label": "WOL:Locale29",
+  "text": "الأرجنتين"
+ },
+ {
+  "label": "WOL:Locale30",
+  "text": "الفلبين"
+ },
+ {
+  "label": "WOL:Locale31",
+  "text": "اليونان"
+ },
+ {
+  "label": "WOL:Locale32",
+  "text": "أيرلندا"
+ },
+ {
+  "label": "WOL:Locale33",
+  "text": "بولندا"
+ },
+ {
+  "label": "WOL:Locale34",
+  "text": "البرتغال"
+ },
+ {
+  "label": "WOL:Locale35",
+  "text": "المكسيك"
+ },
+ {
+  "label": "WOL:Locale36",
+  "text": "روسيا"
+ },
+ {
+  "label": "WOL:Locale37",
+  "text": "تركيا"
+ },
+ {
+  "label": "GUI:Observer",
+  "text": "مراقب"
+ },
+ {
+  "label": "GUI:Team",
+  "text": "الفريق"
+ },
+ {
+  "label": "LETTER:G",
+  "text": "G"
+ },
+ {
+  "label": "LETTER:L",
+  "text": "L"
+ },
+ {
+  "label": "LETTER:M",
+  "text": "M"
+ },
+ {
+  "label": "LETTER:S",
+  "text": "S"
+ },
+ {
+  "label": "LETTER:O",
+  "text": "O"
+ },
+ {
+  "label": "NUMBER:1",
+  "text": "1"
+ },
+ {
+  "label": "NUMBER:2",
+  "text": "2"
+ },
+ {
+  "label": "NUMBER:3",
+  "text": "3"
+ },
+ {
+  "label": "NUMBER:4",
+  "text": "4"
+ },
+ {
+  "label": "NUMBER:5",
+  "text": "5"
+ },
+ {
+  "label": "NUMBER:6",
+  "text": "6"
+ },
+ {
+  "label": "NUMBER:7",
+  "text": "7"
+ },
+ {
+  "label": "NUMBER:8",
+  "text": "8"
+ },
+ {
+  "label": "NUMBER:9",
+  "text": "9"
+ },
+ {
+  "label": "NUMBER:0",
+  "text": "0"
+ },
+ {
+  "label": "Color:Gold",
+  "text": "ذهبي"
+ },
+ {
+  "label": "Color:Red",
+  "text": "أحمر"
+ },
+ {
+  "label": "Color:Blue",
+  "text": "أزرق"
+ },
+ {
+  "label": "Color:Green",
+  "text": "أخضر"
+ },
+ {
+  "label": "Color:Orange",
+  "text": "برتقالي"
+ },
+ {
+  "label": "Color:SkyBlue",
+  "text": "سماوي"
+ },
+ {
+  "label": "Color:Purple",
+  "text": "بنفسجي"
+ },
+ {
+  "label": "Color:Pink",
+  "text": "وردي"
+ },
+ {
+  "label": "MSG:Testing",
+  "text": "ماما زمانها جاية، جاية بعد شوية"
+ },
+ {
+  "label": "MSG:Test2",
+  "text": "جايبة معاها شنطة، فيها وزة وبطة بتقول واك واك واك"
+ },
+ {
+  "label": "GUI:ShowBehindBuildings",
+  "text": "البصمة الحرارية خلف المباني: تشغيل"
+ },
+ {
+  "label": "GUI:HideBehindBuildings",
+  "text": "البصمة الحرارية خلف المباني: إيقاف"
+ },
+ {
+  "label": "GUI:DetailsSetToLowest",
+  "text": "تفاصيل رسومية منخفضة"
+ },
+ {
+  "label": "GUI:ReturnGraphicsToPreviousSettings",
+  "text": "جارٍ إعادة التفاصيل الرسومية إلى إعداداتها السابقة"
+ },
+ {
+  "label": "GUI:BeaconLabel",
+  "text": "اكتب الرسالة:"
+ },
+ {
+  "label": "GUI:Beacon",
+  "text": "منارة"
+ },
+ {
+  "label": "GUI:EACopyright",
+  "text": "© 2003 ELECTRONIC ARTS INC. ALL RIGHTS RESERVED"
+ },
+ {
+  "label": "GUI:DeleteBeacon",
+  "text": "حذف\nالمنارة"
+ },
+ {
+  "label": "GUI:BeaconPlaced",
+  "text": "وضع %ls منارة"
+ },
+ {
+  "label": "GUI:BeaconPlacementFailed",
+  "text": "لا يمكن وضع منارة هنا"
+ },
+ {
+  "label": "GUI:TooManyBeacons",
+  "text": "عذرًا، لا يمكنك وضع المزيد من المنارات"
+ },
+ {
+  "label": "GUI:EA",
+  "text": "EA"
+ },
+ {
+  "label": "GUI:TestBrowser",
+  "text": "متصفح الاختبار"
+ },
+ {
+  "label": "GUI:Multiplayer",
+  "text": "اللعب الجماعي"
+ },
+ {
+  "label": "GUI:GameName",
+  "text": "اسم اللعبة:"
+ },
+ {
+  "label": "GUI:NoFileSelected",
+  "text": "يرجى اختيار ملف"
+ },
+ {
+  "label": "GUI:PleaseSelectAFile",
+  "text": "يرجى اختيار ملف"
+ },
+ {
+  "label": "GUI:DeleteFile",
+  "text": "حذف الملف؟"
+ },
+ {
+  "label": "GUI:AreYouSureDelete",
+  "text": "هل أنت متأكد من أنك تريد حذف الملف المحدد؟"
+ },
+ {
+  "label": "GUI:CopyFileToDesktop",
+  "text": "نسخ الإعادة إلى سطح المكتب؟"
+ },
+ {
+  "label": "GUI:AreYouSureCopy",
+  "text": "هل أنت متأكد من أنك تريد نسخ هذا الملف إلى سطح المكتب؟ سيؤدي ذلك إلى استبدال أي ملف يحمل الاسم نفسه"
+ },
+ {
+  "label": "GUI:ErrorCopyingFile",
+  "text": "حدث خطأ أثناء نسخ الملف"
+ },
+ {
+  "label": "GUI:LoadReplay",
+  "text": "تحميل إعادة"
+ },
+ {
+  "label": "GUI:DeleteReplay",
+  "text": "حذف الإعادة"
+ },
+ {
+  "label": "GUI:CopyReplay",
+  "text": "نسخ الإعادة"
+ },
+ {
+  "label": "GUI:ErrorDeletingFile",
+  "text": "حدث خطأ أثناء حذف الملف"
+ },
+ {
+  "label": "GUI:ShortDescription",
+  "text": "وصف مختصر للعبة:"
+ },
+ {
+  "label": "GUI:LadderName",
+  "text": "اسم التصنيف:"
+ },
+ {
+  "label": "GUI:LadderPassword",
+  "text": "كلمة مرور التصنيف"
+ },
+ {
+  "label": "GUI:LadderURL",
+  "text": "الصفحة الرئيسية: %hs"
+ },
+ {
+  "label": "GUI:LadderHasPassword",
+  "text": "هذا التصنيف محمي بكلمة مرور"
+ },
+ {
+  "label": "GUI:LadderMinWins",
+  "text": "الحد الأدنى للانتصارات المطلوبة: %d"
+ },
+ {
+  "label": "GUI:LadderMaxWins",
+  "text": "الحد الأقصى للانتصارات المسموحة: %d"
+ },
+ {
+  "label": "GUI:LadderFactions",
+  "text": "الجيوش المسموحة:"
+ },
+ {
+  "label": "GUI:LadderRandomFactions",
+  "text": "الجيوش العشوائية:"
+ },
+ {
+  "label": "GUI:LadderMaps",
+  "text": "الخرائط المسموحة:"
+ },
+ {
+  "label": "GUI:LadderRandomMaps",
+  "text": "الخرائط العشوائية:"
+ },
+ {
+  "label": "GUI:AllowObservers",
+  "text": "السماح بالمراقبين"
+ },
+ {
+  "label": "GUI:USA",
+  "text": "الولايات المتحدة"
+ },
+ {
+  "label": "GUI:China",
+  "text": "الصين"
+ },
+ {
+  "label": "GUI:GLA",
+  "text": "جيش التحرير العالمي"
+ },
+ {
+  "label": "GUI:AmericaAllies",
+  "text": "حلفاء الولايات المتحدة"
+ },
+ {
+  "label": "GUI:ChinaAllies",
+  "text": "حلفاء الصين"
+ },
+ {
+  "label": "GUI:GLAAllies",
+  "text": "حلفاء جيش التحرير العالمي"
+ },
+ {
+  "label": "GUI:AmericaEnemies",
+  "text": "أعداء الولايات المتحدة"
+ },
+ {
+  "label": "GUI:ChinaEnemies",
+  "text": "أعداء الصين"
+ },
+ {
+  "label": "GUI:GLAEnemies",
+  "text": "أعداء جيش التحرير العالمي"
+ },
+ {
+  "label": "GUI:EndCampaign",
+  "text": "إنهاء الحملة"
+ },
+ {
+  "label": "GUI:Retry",
+  "text": "اللعب مجددًا؟"
+ },
+ {
+  "label": "GUI:RecentSave",
+  "text": "آخر حفظ"
+ },
+ {
+  "label": "GUI:GetUpdate",
+  "text": "الحصول على التحديث"
+ },
+ {
+  "label": "GUI:DirectConnect",
+  "text": "اتصال مباشر"
+ },
+ {
+  "label": "GUI:WorldBuilder",
+  "text": "محرر الخرائط"
+ },
+ {
+  "label": "GUI:WorldBuilderLoadFailed",
+  "text": "فشل تحميل محرر الخرائط"
+ },
+ {
+  "label": "GUI:DontUseAccount",
+  "text": "عدم استخدام الحساب"
+ },
+ {
+  "label": "GUI:UseAccount",
+  "text": "استخدام الحساب"
+ },
+ {
+  "label": "GUI:ScoreScreen",
+  "text": "شاشة النقاط"
+ },
+ {
+  "label": "GUI:Rehost",
+  "text": "اللعب مجددًا؟"
+ },
+ {
+  "label": "GUI:UnitsBuilt",
+  "text": "الوحدات\nالمُنتَجة"
+ },
+ {
+  "label": "GUI:UnitsLost",
+  "text": "الوحدات\nالمفقودة"
+ },
+ {
+  "label": "GUI:UnitsKilled",
+  "text": "الوحدات\nالمدمَّرة"
+ }
+]

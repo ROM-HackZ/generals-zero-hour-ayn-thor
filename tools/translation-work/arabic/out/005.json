@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:TempDescription",
+  "text": "أرجو أن تتكرّم بملء وصفي الموجود في CommandButton.ini! ألف شكر"
+ },
+ {
+  "label": "CONTROLBAR:CleanupAreaDescription",
+  "text": "ينظّف تلقائيًا السموم البيولوجية والإشعاع في المنطقة المحيطة بالموقع المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaCommandCenter",
+  "text": "مركز القيادة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPowerPlant",
+  "text": "مفاعل الاندماج البارد (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaBarracks",
+  "text": "ثكنات (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyCenter",
+  "text": "مركز الإمدادات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWall",
+  "text": "سياج أمني (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWarFactory",
+  "text": "مصنع الحرب (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaGuardianControlCenter",
+  "text": "مركز\nالحارس"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPatriotBattery",
+  "text": "منظومة صواريخ باتريوت (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaParticleCannonUplink",
+  "text": "مدفع الجسيمات (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaStrategyCenter",
+  "text": "مركز الاستراتيجية (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyDropZone",
+  "text": "منطقة إسقاط الإمدادات (&Z)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDetentionCamp",
+  "text": "معسكر احتجاز (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankCrusader",
+  "text": "كروسيدر (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankPaladin",
+  "text": "بالادين (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryRanger",
+  "text": "رينجر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:Evacuate",
+  "text": "إخلاء (&V)"
+ },
+ {
+  "label": "CONTROLBAR:ExecuteRailedTransport",
+  "text": "النقل"
+ },
+ {
+  "label": "CONTROLBAR:TransportExit",
+  "text": "الخروج من وسيلة النقل"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLACommandCenter",
+  "text": "مركز القيادة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLADemoTrap",
+  "text": "فخ تفجير (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABarracks",
+  "text": "ثكنات (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLASupplyStash",
+  "text": "مخزن الإمدادات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABurningBarricade",
+  "text": "حاجز مشتعل (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAArmsDealer",
+  "text": "تاجر الأسلحة (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaCommandCenter",
+  "text": "مركز القيادة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPowerPlant",
+  "text": "مفاعل نووي (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBarracks",
+  "text": "ثكنات (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSupplyCenter",
+  "text": "مركز الإمدادات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaConcreteWall",
+  "text": "جدار خرساني (&L)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaWarFactory",
+  "text": "مصنع الحرب (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDozer",
+  "text": "جرافة بناء (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAWorker",
+  "text": "عامل (&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaDozer",
+  "text": "جرافة بناء (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankScorpion",
+  "text": "سكوربيون (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankMarauder",
+  "text": "دبابة ماراودر (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRocketBuggy",
+  "text": "عربة الصواريخ (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRadarVan",
+  "text": "شاحنة رادار (&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankOverlord",
+  "text": "أوفرلورد (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankGattling",
+  "text": "دبابة جاتلينج (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRebel",
+  "text": "متمرد (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryRedguard",
+  "text": "الحرس الأحمر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleChinook",
+  "text": "شينوك (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleSupplyTruck",
+  "text": "شاحنة إمدادات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleSupplyTruck",
+  "text": "شاحنة إمدادات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetRaptor",
+  "text": "رابتور (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetAurora",
+  "text": "قاذفة أورورا (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetStealthFighter",
+  "text": "مقاتلة شبحية (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleStarlifter",
+  "text": "ستارليفتر"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleComanche",
+  "text": "كومانش (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryMissileDefender",
+  "text": "المدافع الصاروخي (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryPathfinder",
+  "text": "المستكشف (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryColonelBurton",
+  "text": "العقيد بيرتون (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryBiohazardTech",
+  "text": "فني المخاطر البيولوجية"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleTomahawk",
+  "text": "توماهوك (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleMedic",
+  "text": "سيارة إسعاف (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHumvee",
+  "text": "همفي (&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleBattleDrone",
+  "text": "طائرة قتالية مسيّرة (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleScoutDrone",
+  "text": "طائرة استطلاع مسيّرة (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaJetMIG",
+  "text": "ميغ (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryBlackLotus",
+  "text": "اللوتس الأسود (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryTankHunter",
+  "text": "صائد الدبابات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantrySecretPolice",
+  "text": "الشرطة\nالسرية"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryHacker",
+  "text": "هاكر (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBunker",
+  "text": "مخبأ (&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPropagandaCenter",
+  "text": "مركز الدعاية (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaAirfield",
+  "text": "مطار عسكري (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaAirfield",
+  "text": "مطار عسكري (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaGattlingCannon",
+  "text": "مدفع جاتلينج (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaNuclearMissileLauncher",
+  "text": "صاروخ نووي (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSpeakerTower",
+  "text": "برج مكبرات صوت (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleInfernoCannon",
+  "text": "مدفع الجحيم (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleNukeLauncher",
+  "text": "مدفع نووي (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleTroopCrawler",
+  "text": "ناقلة جنود مجنزرة (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankSeismic",
+  "text": "دبابة\nزلزالية"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankDragon",
+  "text": "دبابة التنين (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehiclePropagandaBlimp",
+  "text": "منطاد\nدعاية"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryTerrorist",
+  "text": "إرهابي (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRPGTrooper",
+  "text": "جندي آر بي جي (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATunnelNetwork",
+  "text": "شبكة الأنفاق (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPalace",
+  "text": "قصر (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABlackMarket",
+  "text": "السوق السوداء (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAStingerSite",
+  "text": "موقع ستينغر (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAScudStorm",
+  "text": "عاصفة سكود (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPrison",
+  "text": "سجن (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleToxinTruck",
+  "text": "جرار السموم (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankBattleMaster",
+  "text": "باتل ماستر (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleTechnical",
+  "text": "تكنيكال (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryHijacker",
+  "text": "الخاطف (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryJarmenKell",
+  "text": "جارمن كيل (&J)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryAngryMob",
+  "text": "حشد غاضب (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleQuadCannon",
+  "text": "مدفع رباعي (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBombTruck",
+  "text": "شاحنة مفخخة (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleScudLauncher",
+  "text": "منصة سكود (&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedTraining",
+  "text": "تدريب متقدم (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaDroneArmor",
+  "text": "دروع الطائرات المسيّرة (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaMines",
+  "text": "ألغام أرضية (&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRadar",
+  "text": "رادار (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaScoutDrones",
+  "text": "طائرات استطلاع مسيّرة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedControlRods",
+  "text": "قضبان التحكم (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaLaserMissiles",
+  "text": "صواريخ ليزر (&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaExtraFuel",
+  "text": "وقود إضافي (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaFlashBangGrenade",
+  "text": "قنابل صاعقة (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCompositeArmor",
+  "text": "دروع مركّبة (&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTomahawkRemoteControl",
+  "text": "صواريخ كروز (&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAircraftFuel",
+  "text": "وقود الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTOWMissile",
+  "text": "صاروخ TOW (&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeComancheRocketPods",
+  "text": "حاويات صواريخ (&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRailGun",
+  "text": "مدفع\nكهرومغناطيسي"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRadar",
+  "text": "رادار (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNationalism",
+  "text": "القومية (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAntiTankGrenade",
+  "text": "قنابل يدوية مضادة للدبابات (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaVehicleHack",
+  "text": "اختراق المركبات (&V)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaIRGoggles",
+  "text": "نظارات الأشعة تحت الحمراء (&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaBlackNapalm",
+  "text": "النابالم الأسود (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaChainGuns",
+  "text": "رشاشات متسلسلة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSubliminalMessaging",
+  "text": "رسائل لا شعورية (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaUraniumShells",
+  "text": "قذائف اليورانيوم (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNuclearTanks",
+  "text": "دبابات نووية (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaStunBullets",
+  "text": "رصاص صاعق (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadar",
+  "text": "رادار (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadarVanScan",
+  "text": "مسح راداري (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAScorpionRocket",
+  "text": "صاروخ سكوربيون (&K)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABuggyAmmo",
+  "text": "ذخيرة عربة الصواريخ (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckBioBomb",
+  "text": "قنابل بيولوجية (&B)"
+ },
+ {
+  "label": "CONTROLBAR:DisguiseAsVehicle",
+  "text": "التنكّر في هيئة مركبة (&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb",
+  "text": "قنبلة شديدة الانفجار (&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxBeta",
+  "text": "الجمرة الخبيثة بيتا (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAToxinShells",
+  "text": "قذائف سامة (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAJunkRepair",
+  "text": "إصلاح بالخردة (&J)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPBullets",
+  "text": "رصاص خارق للدروع (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPRockets",
+  "text": "صواريخ خارقة للدروع (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamouflage",
+  "text": "تمويه (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLATranqDarts",
+  "text": "سهام مخدرة (&T)"
+ },
+ {
+  "label": "CONTROLBAR:SetRallyPoint",
+  "text": "نقطة التجمع (&R)"
+ },
+ {
+  "label": "CONTROLBAR:Sell",
+  "text": "بيع"
+ },
+ {
+  "label": "CONTROLBAR:Overcharge",
+  "text": "طاقة إضافية (&O)"
+ },
+ {
+  "label": "CONTROLBAR:DragonFlame",
+  "text": "لهب (&L)"
+ },
+ {
+  "label": "CONTROLBAR:PickUpPrisoner",
+  "text": "نقل\nالأسير (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ReturnToPrison",
+  "text": "عودة (&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocket",
+  "text": "إطلاق صاروخ (&F)"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxWarhead",
+  "text": "رأس حربي بالجمرة الخبيثة (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ExplosiveWarhead",
+  "text": "رأس حربي متفجر (&P)"
+ },
+ {
+  "label": "CONTROLBAR:Fire20mmCannon",
+  "text": "إطلاق مدفع 20 مم (&F)"
+ },
+ {
+  "label": "CONTROLBAR:FireAntiTankMissiles",
+  "text": "إطلاق الصواريخ (&M)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocketPods",
+  "text": "إطلاق الصواريخ (&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireNapalmMissile",
+  "text": "إطلاق النابالم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:DaisyCutter",
+  "text": "قنبلة الوقود الجوي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissile",
+  "text": "صاروخ نووي (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ScudStorm",
+  "text": "عاصفة سكود (&U)"
+ },
+ {
+  "label": "CONTROLBAR:NapalmStrike",
+  "text": "ضربة نابالم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:A10ThunderboltMissileStrike",
+  "text": "ضربة صواريخ A10 (&A)"
+ },
+ {
+  "label": "CONTROLBAR:CashHack",
+  "text": "اختراق مالي (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Ambush",
+  "text": "كمين (&A)"
+ },
+ {
+  "label": "CONTROLBAR:BlackMarketNuke",
+  "text": "قنبلة نووية من\nالسوق السوداء"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxBomb",
+  "text": "قنبلة الجمرة الخبيثة (&B)"
+ },
+ {
+  "label": "CONTROLBAR:Paradrop",
+  "text": "إنزال مظلي (&O)"
+ },
+ {
+  "label": "CONTROLBAR:CarpetBomb",
+  "text": "قصف سجادي (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ClusterMines",
+  "text": "ألغام عنقودية (&I)"
+ },
+ {
+  "label": "CONTROLBAR:EMPPulse",
+  "text": "نبضة كهرومغناطيسية (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ArtilleryBarrage",
+  "text": "قصف مدفعي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:CrateDrop",
+  "text": "إسقاط\nصناديق"
+ },
+ {
+  "label": "CONTROLBAR:SpySatellite",
+  "text": "قمر تجسس صناعي (&S)"
+ },
+ {
+  "label": "CONTROLBAR:SpyDrone",
+  "text": "طائرة تجسس مسيّرة (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScan",
+  "text": "مسح راداري (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Defector",
+  "text": "منشق (&D)"
+ },
+ {
+  "label": "CONTROLBAR:Bayonet",
+  "text": "حربة (&B)"
+ },
+ {
+  "label": "CONTROLBAR:SniperAttack",
+  "text": "هجوم قنص (&N)"
+ },
+ {
+  "label": "CONTROLBAR:CaptureBuilding",
+  "text": "الاستيلاء على المبنى (&C)"
+ },
+ {
+  "label": "CONTROLBAR:DisableVehicleHack",
+  "text": "اختراق المركبات (&V)"
+ },
+ {
+  "label": "CONTROLBAR:StealCashHack",
+  "text": "اختراق مالي (&K)"
+ },
+ {
+  "label": "CONTROLBAR:InternetHack",
+  "text": "اختراق الإنترنت (&I)"
+ },
+ {
+  "label": "CONTROLBAR:DisableBuildingHack",
+  "text": "تعطيل المبنى (&D)"
+ },
+ {
+  "label": "CONTROLBAR:CarBomb",
+  "text": "سيارة مفخخة (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Hijack",
+  "text": "اختطاف (&J)"
+ },
+ {
+  "label": "CONTROLBAR:TNTAttack",
+  "text": "هجوم TNT (&T)"
+ },
+ {
+  "label": "CONTROLBAR:Requirements",
+  "text": "يتطلب: %s"
+ },
+ {
+  "label": "CONTROLBAR:LaserMissileAttack",
+  "text": "هجوم بصواريخ الليزر (&L)"
+ },
+ {
+  "label": "CONTROLBAR:KnifeAttack",
+  "text": "هجوم بالسكين (&K)"
+ },
+ {
+  "label": "CONTROLBAR:ClimbCliff",
+  "text": "تسلّق المنحدر (&C)"
+ },
+ {
+  "label": "CONTROLBAR:TimedDemoCharge",
+  "text": "عبوة تفجير موقوتة (&T)"
+ },
+ {
+  "label": "CONTROLBAR:RemoteDemoCharge",
+  "text": "عبوة تفجير عن بُعد (&R)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateCharges",
+  "text": "تفجير العبوات (&D)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateNuke",
+  "text": "تفجير القنبلة النووية (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ManualControl",
+  "text": "تحكم يدوي (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ProximityFuse",
+  "text": "صمّام تقاربي (&P)"
+ },
+ {
+  "label": "CONTROLBAR:Detonate",
+  "text": "فجّر! (&D)"
+ },
+ {
+  "label": "CONTROLBAR:EmergencyRepair",
+  "text": "إصلاح طارئ (&E)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannon",
+  "text": "مدفع الجسيمات (&P)"
+ },
+ {
+  "label": "CONTROLBAR:Options",
+  "text": "قائمة اللعبة"
+ },
+ {
+  "label": "CONTROLBAR:OptionsDescription",
+  "text": "يفتح قائمة اللعبة"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorker",
+  "text": "عامل خامل"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorkerDescription",
+  "text": "انقر لتحديد العامل الخامل التالي"
+ },
+ {
+  "label": "CONTROLBAR:Beacon",
+  "text": "منارة"
+ },
+ {
+  "label": "CONTROLBAR:BeaconDescription",
+  "text": "انقر لوضع منارة"
+ },
+ {
+  "label": "CONTROLBAR:Communicator",
+  "text": "جهاز الاتصال"
+ },
+ {
+  "label": "CONTROLBAR:CommunicatorDescription",
+  "text": "انقر لفتح جهاز اتصال Generals"
+ },
+ {
+  "label": "CONTROLBAR:AmbulanceCleanupArea",
+  "text": "تنظيف السموم (&C)"
+ },
+ {
+  "label": "RADAR:UnitUnderAttack",
+  "text": "وحدة تتعرض للهجوم"
+ }
+]

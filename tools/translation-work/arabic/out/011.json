@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Any",
+  "text": "أي"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNicknamePassword",
+  "text": "يرجى إدخال اسمك المستعار وكلمة المرور. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmail",
+  "text": "يرجى إدخال بريدك الإلكتروني. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNickname",
+  "text": "يرجى إدخال اسمك المستعار. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoPassword",
+  "text": "يرجى إدخال كلمة المرور. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ },
+ {
+  "label": "Buddy:MultipleOnlineNotification",
+  "text": "لديك أصدقاء متصلون"
+ },
+ {
+  "label": "GUI:ResetHonors",
+  "text": "إعادة تعيين الأوسمة"
+ },
+ {
+  "label": "Chat:Observers",
+  "text": "عرض المراقبين"
+ },
+ {
+  "label": "TOOLTIP:buddies",
+  "text": "ترتيب قائمة الألعاب حسب الأصدقاء"
+ },
+ {
+  "label": "TOOLTIP:AddToBuddies",
+  "text": "إضافة لاعب إلى قائمة أصدقائك"
+ },
+ {
+  "label": "TOOLTIP:StagingPlayerInfo",
+  "text": "\nالمنطقة: %ls\nالتأخير: %d م.ث\n%d فوز/%d خسارة\n%d مرة قطع اتصال\nالجيش المفضل: %ls"
+ },
+ {
+  "label": "GUI:CantBuildTooCloseToSupplies",
+  "text": "لا يمكنك البناء هناك لأنه قريب جدًا من مصدر للإمدادات"
+ },
+ {
+  "label": "OBJECT:Frosty",
+  "text": "رجل الثلج"
+ },
+ {
+  "label": "OBJECT:Prop",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:BigGate",
+  "text": "بوابة"
+ },
+ {
+  "label": "OBJECT:TownHall",
+  "text": "دار البلدية"
+ },
+ {
+  "label": "OBJECT:RailroadBridge",
+  "text": "جسر سكة حديد"
+ },
+ {
+  "label": "OBJECT:TheLoo",
+  "text": "مرحاض خارجي"
+ },
+ {
+  "label": "OBJECT:TrainCar",
+  "text": "عربة قطار"
+ },
+ {
+  "label": "OBJECT:SandBagWall",
+  "text": "جدار أكياس رمل"
+ },
+ {
+  "label": "OBJECT:Structure",
+  "text": "مبنى مدني"
+ },
+ {
+  "label": "OBJECT:Airport",
+  "text": "مطار مدني"
+ },
+ {
+  "label": "OBJECT:Highrise",
+  "text": "Highrise"
+ },
+ {
+  "label": "OBJECT:BridgeTower",
+  "text": "برج الجسر"
+ },
+ {
+  "label": "OBJECT:Field",
+  "text": "ملعب"
+ },
+ {
+  "label": "OBJECT:SoccerStadiumGoal",
+  "text": "مرمى"
+ },
+ {
+  "label": "OBJECT:BigLightpost",
+  "text": "عمود إنارة"
+ },
+ {
+  "label": "MAP:BigRivers",
+  "text": "Mountain Fox"
+ },
+ {
+  "label": "MAP:CHI01Open",
+  "text": "العرض العسكري الصيني، بكين\nالتنين يستيقظ"
+ },
+ {
+  "label": "MAP:CHI03Obj1Done",
+  "text": "اكتمل هدف المهمة"
+ },
+ {
+  "label": "MAP:CHI07Obj1",
+  "text": "هدف المهمة:\nأنشئ قاعدة وحدّد مواقع الموارد"
+ },
+ {
+  "label": "MAP:CHI07Obj2",
+  "text": "هدف المهمة:\nاهزم جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt2",
+  "text": "قرى في ضواحي ألماتي، كازاخستان\nاستولوا على الإمدادات الأجنبية من أجل قضيتنا"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt1",
+  "text": "قرى في ضواحي ألماتي، كازاخستان\nعملية: نهب القرية"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt2",
+  "text": "الساحل الغربي لبحر آرال، كازاخستان\nاسرقوا سموم الغرب لنستخدمها ضده"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt1",
+  "text": "الساحل الغربي لبحر آرال، كازاخستان\nعملية: الاستيلاء على السموم"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt2",
+  "text": "في مكان ما قرب لنغر، كازاخستان\nأروا العالم مصير الخونة"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt",
+  "text": "في مكان ما قرب لنغر، كازاخستان\nعملية: حصان طروادة"
+ },
+ {
+  "label": "MAP:GLA03Open02",
+  "text": "جامبول المحتلة من الصين، كازاخستان\nعملية: النار العادلة"
+ },
+ {
+  "label": "MAP:GLA03Directive",
+  "text": "تقرير المخبر:\nدمّر مصنع الأدوية للحصول على قنبلة الجمرة الخبيثة"
+ },
+ {
+  "label": "MAP:USA02Hint1Text",
+  "text": "استخدم الطيارين لمنح مركباتك خبرة إضافية"
+ },
+ {
+  "label": "MAP:USA02Hint2Text",
+  "text": "استخدم ترقية القنابل الصاعقة لجنود الرينجر لتطهير المباني المحصنة"
+ },
+ {
+  "label": "MAP:USA03Hint1Text",
+  "text": "ابنِ منظومات صواريخ باتريوت للدفاع عن قاعدتك"
+ },
+ {
+  "label": "MAP:USA04Hint1Text",
+  "text": "استخدم منصات صواريخ توماهوك لتطهير معاقل جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:NVIDIATEXT",
+  "text": "Command & Conquer Generals\nقريبًا في فبراير 2003"
+ },
+ {
+  "label": "MAP:USA06ObjHint2",
+  "text": "تلميح:\nاستولِ على هذه المنشأة"
+ },
+ {
+  "label": "MAP:USA06ObjHint1",
+  "text": "تلميح:\nتوجد مبانٍ مدنية مهمة هنا"
+ },
+ {
+  "label": "MAP:GLA03Objective07",
+  "text": "اكتمل الهدف:\nتمت تصفية 300 خائن"
+ },
+ {
+  "label": "MAP:GLA03Objective08",
+  "text": "اكتمل الهدف:\nدُمّر مصنع الأدوية"
+ },
+ {
+  "label": "MAP:GLA05Open",
+  "text": "أضنة، تركيا\nقاعدة إنجرليك الجوية"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive03",
+  "text": "تحذير:\nالقوات الجوية الأمريكية قادمة\nابنِ مواقع ستينغر للدفاع عن قاعدتك"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive04",
+  "text": "هدف ثانوي:\nدمّر موقع التجسس الصيني"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive05",
+  "text": "تحذير:\nالقوات الجوية الأمريكية قادمة\nاستخدم مواقع ستينغر والمدافع الرباعية لإسقاط طائرات العدو"
+ },
+ {
+  "label": "MAP:GLA08Open",
+  "text": "قاعدة بايكونور الفضائية، جنوب كازاخستان\nمنشأة إطلاق صواريخ من الحقبة السوفيتية"
+ },
+ {
+  "label": "MAP:GLA08Open02",
+  "text": "جنوب كازاخستان\nقاعدة بايكونور الفضائية"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective01",
+  "text": "أهداف المهمة:\nاستولِ على مبنى التحكم الأرضي\nاستولِ على منصة إطلاق الصواريخ"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective02",
+  "text": "هدف المهمة:\nاستولِ على مبنى التحكم الأرضي"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective03",
+  "text": "هدف المهمة:\nاستولِ على منصة إطلاق الصواريخ"
+ },
+ {
+  "label": "SCRIPT:GLA08Directive04",
+  "text": "تحذير:\nسلاح خارق للعدو قادم"
+ },
+ {
+  "label": "MAP:USA07hint1",
+  "text": "تلميح:\nاستفد من مستودع الإمدادات هذا"
+ },
+ {
+  "label": "MAP:CHI05ObjInit",
+  "text": "هدف المهمة:\nدمّر معسكرات جيش التحرير العالمي الثلاثة\nوقاعدته الرئيسية"
+ },
+ {
+  "label": "MAP:CHI05Obj4",
+  "text": "بقيت 4 أهداف"
+ },
+ {
+  "label": "MAP:CHI05Obj3",
+  "text": "بقيت 3 أهداف"
+ },
+ {
+  "label": "MAP:CHI05Obj2",
+  "text": "بقي هدفان"
+ },
+ {
+  "label": "MAP:CHI05Obj1",
+  "text": "بقي هدف واحد فقط"
+ },
+ {
+  "label": "MAP:CHI05Objhint1",
+  "text": "تلميح:\nاستفد من مستودع الإمدادات هذا"
+ },
+ {
+  "label": "MAP:CHI05Objhint2",
+  "text": "تلميح:\nاستولِ على هذه المنشآت"
+ },
+ {
+  "label": "MAP:CHI05ObjCBReady",
+  "text": "تلميح:\nقاذفات القصف السجادي متاحة الآن"
+ },
+ {
+  "label": "MAP:USA08MapName",
+  "text": "النداء الأخير"
+ },
+ {
+  "label": "MAP:USA08Open",
+  "text": "عاصمة جيش التحرير العالمي، ألداستان\nعملية: النداء الأخير"
+ },
+ {
+  "label": "MAP:USA08OpenAlt",
+  "text": "أكمولا، كازاخستان\nعملية: النداء الأخير"
+ },
+ {
+  "label": "MAP:USA08Objective01",
+  "text": "هدف المهمة:\nدمّر جميع قوات جيش التحرير العالمي ومنشآته"
+ },
+ {
+  "label": "MAP:USA08WallGarWarning",
+  "text": "تحذير:\nتحصّن جيش التحرير العالمي في السور\nعلى جنود الرينجر استخدام القنابل الصاعقة لقتل قوات جيش التحرير العالمي المتحصنة"
+ },
+ {
+  "label": "MAP:USA08ChinaHint",
+  "text": "استولِ على المباني الصينية\nابنِ قوات أمريكية وصينية مشتركة لإبادة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:USA08SCUDStormWarn",
+  "text": "تحذير:\nبنى جيش التحرير العالمي عاصفة سكود"
+ },
+ {
+  "label": "MAP:USA08MineWarn",
+  "text": "تحذير:\nرُصدت فخاخ تفجير لـجيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:USA08GLABaseKIA",
+  "text": "دُمّرت قواعد جيش التحرير العالمي\nاقضِ على ما تبقى من قواته لتكسب الحرب"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCarpetBomb",
+  "text": "قصف سجادي للمنطقة المستهدفة\n\nمؤقت العد التنازلي: 2:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCrateDrop",
+  "text": "إسقاط صناديق إمدادات"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateNuke",
+  "text": "تفجير الجهاز النووي المخفي"
+ },
+ {
+  "label": "MAP:GLA01Objective",
+  "text": "هدف المهمة\nدمّر السد"
+ },
+ {
+  "label": "MAP:GLA01Objective2",
+  "text": "هدف المهمة\nدمّر القاعدة الصينية"
+ },
+ {
+  "label": "MAP:TrainingGenerals",
+  "text": "انقر بالزر الأيسر على زر الجنرالات في الزاوية السفلية اليمنى من شاشتك لتختار قدرة جديدة لجنرالك. كلما رُقّيت سيحصل جنرالك على قدرات جديدة. بعض القدرات تتيح لك إنتاج وحدات خاصة جديدة، وبعضها يمنحك قوى خاصة تُستخدم من مركز القيادة"
+ },
+ {
+  "label": "MAP:TrainingSalvage",
+  "text": "لقد خلّفت كومة من الخردة. كلما دمّرت مركبات جيش التحرير العالمي مركبات للعدو تبقى خلفها خردة. يمكن لمركبات جيش التحرير العالمي التقاط الخردة بالمرور فوقها. قد تساوي الخردة مالًا أو خبرة. يمكن للتكنيكال والمدافع الرباعية والماراودر ترقية أسلحتها بالخردة"
+ },
+ {
+  "label": "MAP:TrainingUpgrade",
+  "text": "تُشترى الترقيات من مبانٍ مختلفة في قاعدتك، وهي تحسّن وحداتك. انقر بالزر الأيسر على الثكنات ثم على أيقونة الاستيلاء على المبنى لترقية جنود الرينجر ليتمكنوا من الاستيلاء على مباني العدو"
+ },
+ {
+  "label": "GUI:SaveAndContinue",
+  "text": "متابعة"
+ },
+ {
+  "label": "TOOLTIP:PlayerSetting",
+  "text": "اختر المطابقة في مباراة 1 ضد 1 أو مباراة فرق"
+ },
+ {
+  "label": "TOOLTIP:Ping",
+  "text": "اختر مدى تقبّلك لسرعة اتصال خصمك"
+ },
+ {
+  "label": "TOOLTIP:Disconnect",
+  "text": "اختر مدى تقبّلك لمجموع مرات قطع الاتصال لدى خصمك"
+ },
+ {
+  "label": "TOOLTIP:Ladder",
+  "text": "اختر التصنيف الذي تريد اللعب فيه"
+ },
+ {
+  "label": "TOOLTIP:QuickMatchStatus",
+  "text": "ستحاول المباراة السريعة مطابقتك حسب مستوى المهارة ومواصفات الجهاز وغير ذلك"
+ },
+ {
+  "label": "TOOLTIP:OnlineIP",
+  "text": "عنوان IP المستخدم للاتصال بـ C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "TOOLTIP:LanIP",
+  "text": "عنوان IP المستخدم للاتصال باللاعبين في ألعاب الشبكة"
+ },
+ {
+  "label": "TOOLTIP:GamesBeingformed",
+  "text": "سرعة اتصالك بلاعبي هذه اللعبة"
+ },
+ {
+  "label": "TOOLTIP:EmoteText",
+  "text": "انقر بالزر الأيسر لإدخال النص"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCashHack",
+  "text": "سرقة المال من مراكز إمدادات العدو. لا يمكنك سرقة أكثر مما يملكه العدو\n\nالرتبة 1: 1000$\nالرتبة 2: 2000$\nالرتبة 3: 4000$\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "GUI:TRAINING",
+  "text": "التدريب"
+ },
+ {
+  "label": "GUI:CHINA_Caps",
+  "text": "الصين"
+ },
+ {
+  "label": "TOOLTIP:SupplyDock",
+  "text": "الإمدادات"
+ },
+ {
+  "label": "TOOLTIP:TechBuilding",
+  "text": "مبنى تقني"
+ },
+ {
+  "label": "TOOLTIP:Mission1",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:Mission2_8",
+  "text": "الحملة الأولى"
+ },
+ {
+  "label": "TOOLTIP:Mission9_16",
+  "text": "الحملة الثانية"
+ },
+ {
+  "label": "TOOLTIP:Mission17_23",
+  "text": "الحملة الثالثة"
+ },
+ {
+  "label": "TOOLTIP:ButtonClear",
+  "text": "مسح مربع اسم اللاعب"
+ },
+ {
+  "label": "GUI:Objectives:",
+  "text": "الملخص:"
+ },
+ {
+  "label": "GUI:WinStreak",
+  "text": "سلسلة الانتصارات"
+ },
+ {
+  "label": "GUI:LossStreak",
+  "text": "سلسلة الهزائم"
+ },
+ {
+  "label": "GUI:PlayerNoMapWillTransfer",
+  "text": "لا يملك %ls الخريطة %ls. ستُنقل إليه عند بدء اللعبة"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMapWillTransfer",
+  "text": "لا تملك الخريطة %ls. ستُنقل إليك عند بدء اللعبة"
+ },
+ {
+  "label": "GUI:CouldNotTransferMap",
+  "text": "تعذّر نقل الخريطة. لا يمكن بدء اللعبة"
+ },
+ {
+  "label": "GUI:Status",
+  "text": "الحالة"
+ },
+ {
+  "label": "MapTransfer:CurrentFile",
+  "text": "الملف الحالي: %ls"
+ },
+ {
+  "label": "MapTransfer:Timeout",
+  "text": "الإلغاء خلال %d:%2.2d"
+ },
+ {
+  "label": "MapTransfer:Preparing",
+  "text": "جارٍ التحضير..."
+ },
+ {
+  "label": "MapTransfer:Sending",
+  "text": "جارٍ الإرسال..."
+ },
+ {
+  "label": "MapTransfer:Recieving",
+  "text": "جارٍ الاستقبال..."
+ },
+ {
+  "label": "MapTransfer:Done",
+  "text": "تم"
+ },
+ {
+  "label": "ThingTemplate:SalvageCrate",
+  "text": "صندوق خردة"
+ },
+ {
+  "label": "ThingTemplate:IndustrialBridgeTower01",
+  "text": "جسر"
+ },
+ {
+  "label": "ThingTemplate:Crypt01",
+  "text": "مدفن"
+ },
+ {
+  "label": "ThingTemplate:AsianAartmentSingle01",
+  "text": "شقة"
+ },
+ {
+  "label": "CONTROLBAR:RadioJam",
+  "text": "تشويش لاسلكي"
+ },
+ {
+  "label": "MAP:USA01OBJOpen",
+  "text": "هدف المهمة\nدمّر جميع قوات العدو"
+ },
+ {
+  "label": "MAP:TrainingWarFactory",
+  "text": "هدف المهمة\nاستخدم جرافة البناء لبناء مصنع الحرب"
+ },
+ {
+  "label": "TOOLTIP:MapNoSuccess",
+  "text": "انتصر في هذه الخريطة ضد خصم سهل!"
+ },
+ {
+  "label": "TOOLTIP:MapEasySuccess",
+  "text": "انتصر في هذه الخريطة ضد خصم متوسط!"
+ },
+ {
+  "label": "TOOLTIP:MapMediumSuccess",
+  "text": "انتصر في هذه الخريطة ضد خصم صعب!"
+ },
+ {
+  "label": "TOOLTIP:MapHardSuccess",
+  "text": "انتصر في هذه الخريطة ضد أكبر عدد من الخصوم الصعبين!"
+ },
+ {
+  "label": "Buddy:CantTalkToIngameBuddy",
+  "text": "لا يمكنك إرسال رسائل إلى الأصدقاء في لعبتك إن كنت مراقبًا"
+ },
+ {
+  "label": "MAP:Bavarian",
+  "text": "Final Crusade"
+ },
+ {
+  "label": "MAP:CLake",
+  "text": "Tournament Lake"
+ },
+ {
+  "label": "MAP:SBlast",
+  "text": "Sand Serpent"
+ },
+ {
+  "label": "MAP:SleepingGiant",
+  "text": "Dark Mountain"
+ },
+ {
+  "label": "MAP:SwissMP",
+  "text": "Lone Eagle"
+ },
+ {
+  "label": "MAP:KandaharHighlands",
+  "text": "Twilight Flame"
+ },
+ {
+  "label": "MAP:BoraBora",
+  "text": "Tournament Island"
+ },
+ {
+  "label": "MAP:PrecipicePass",
+  "text": "Fortress Avalanche"
+ },
+ {
+  "label": "MAP:TTourney",
+  "text": "Tournament Tundra"
+ },
+ {
+  "label": "MAP:Gwall",
+  "text": "Fallen Empire"
+ },
+ {
+  "label": "GUI:HTTPProxy",
+  "text": "وكيل HTTP:"
+ },
+ {
+  "label": "GUI:WinPercent",
+  "text": "%d%%"
+ },
+ {
+  "label": "TOOLTIP:PlayerCreatedName",
+  "text": "اسم اللاعب الذي أنشأ اللعبة"
+ },
+ {
+  "label": "TOOLTIP:HTTPProxy",
+  "text": "تعيين وكيل HTTP لاستخدامه مع C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistory",
+  "text": "إحاطات المهمات"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistoryDescription",
+  "text": "انقر لمشاهدة إحاطات المهمات"
+ },
+ {
+  "label": "MAP:CHI04Objective1Text",
+  "text": "هدف المهمة\nدمّر مواقع ستينغر التابعة لـجيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:CHI04Objective2Text",
+  "text": "هدف المهمة\nاستخدم اللوتس الأسود للاستيلاء على مصنع الحرب الصيني"
+ },
+ {
+  "label": "MAP:CHI04Objective3Text",
+  "text": "هدف المهمة\nدمّر مواقع ستينغر حول المصنع الكيميائي"
+ },
+ {
+  "label": "MAP:CHI04Hint1Text",
+  "text": "تلميح: استخدم اللوتس الأسود لتعطيل مركبات العدو"
+ },
+ {
+  "label": "MAP:CHI04Hint2Text",
+  "text": "تلميح: استخدم الهاكرز لتحقيق دخل إضافي"
+ },
+ {
+  "label": "MAP:CHI04Hint3Text",
+  "text": "تلميح: استخدم اللوتس الأسود لاختراق مركز إمدادات العدو وسحب موارد إضافية"
+ },
+ {
+  "label": "GUI:GotoMainMenu",
+  "text": "القائمة الرئيسية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlay",
+  "text": "وسام اللعب النظيف\nاقطع الاتصال في أقل من 10% من ألعابك عبر الإنترنت (مع 10 ألعاب على الأقل) لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypse",
+  "text": "وسام نهاية العالم\nبنى اللاعب مدفع الجسيمات والصاروخ النووي وعاصفة سكود في لعبة فردية أو جماعية عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlayDisabled",
+  "text": "وسام اللعب النظيف\nاقطع الاتصال في أقل من 10% من ألعابك عبر الإنترنت (مع 10 ألعاب على الأقل) لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypseDisabled",
+  "text": "ميدالية نهاية العالم\nابنِ مدفع الجسيمات والصاروخ النووي وعاصفة سكود لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorder",
+  "text": "وسام نادي الضباط\nاللاعب عضو مؤسس في مجتمع Generals"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorderDisabled",
+  "text": "ميدالية نادي الضباط\nلم يحجز اللاعب Generals مسبقًا"
+ },
+ {
+  "label": "GUI:Credits",
+  "text": "فريق العمل"
+ },
+ {
+  "label": "ERROR:D3DFailurePrompt",
+  "text": "خطأ DirectX"
+ },
+ {
+  "label": "ERROR:D3DFailureMessage",
+  "text": "يرجى التأكد من تثبيت DirectX 8.1 أو أحدث، والتحقق من أن بطاقة الرسوميات تلبّي الحد الأدنى من المتطلبات"
+ },
+ {
+  "label": "GUI:AudioHardware",
+  "text": "صوت مسرَّع بالعتاد"
+ },
+ {
+  "label": "GUI:AudioSurround",
+  "text": "صوت محيطي"
+ },
+ {
+  "label": "TOOLTIP:CheckAudioHardware",
+  "text": "حدّد هذا المربع لتفعيل تسريع الصوت بالعتاد"
+ },
+ {
+  "label": "TOOLTIP:AudioSurround",
+  "text": "حدّد هذا المربع إن كانت لديك مكبرات صوت محيطي"
+ },
+ {
+  "label": "CAMPAIGN:TRAINING",
+  "text": "التدريب"
+ },
+ {
+  "label": "GUI:WinPercentLabel",
+  "text": "نسبة الفوز"
+ },
+ {
+  "label": "GUI:BestWinStreak",
+  "text": "أفضل سلسلة انتصارات"
+ },
+ {
+  "label": "Buddy:MatchingNotification",
+  "text": "%hs في مباراة سريعة"
+ },
+ {
+  "label": "Buddy:StagingNotification",
+  "text": "%hs يُعدّ لعبة"
+ },
+ {
+  "label": "Buddy:LoadingNotification",
+  "text": "%hs يبدأ لعبة"
+ },
+ {
+  "label": "Buddy:PlayingNotification",
+  "text": "%hs يلعب مباراة"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsPromotion",
+  "text": "ترقية الجنرال"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExp",
+  "text": "خبرة الجنرالات"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExpDescription",
+  "text": "يبيّن هذا المقياس مدى قربك من بلوغ مستوى الجنرال التالي"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOn",
+  "text": "الطاقة الإضافية مفعّلة حاليًا"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOff",
+  "text": "الطاقة الإضافية معطّلة حاليًا"
+ },
+ {
+  "label": "GUI:ESRB_Top",
+  "text": "إشعار ESRB:"
+ },
+ {
+  "label": "GUI:ESRB_Bottom",
+  "text": "قد تتغير تجربة اللعب\nأثناء اللعب عبر الإنترنت"
+ },
+ {
+  "label": "GUI:ReplaySaved",
+  "text": "حُفظت الإعادة"
+ },
+ {
+  "label": "OBJECT:Monument",
+  "text": "نصب تذكاري"
+ },
+ {
+  "label": "TOOLTIP:TooltipNotEnoughMoneyToBuild",
+  "text": "الأموال غير كافية"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotPurchaseBecauseQueueFull",
+  "text": "قائمة البناء ممتلئة"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseParkingFull",
+  "text": "المطار ممتلئ"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseMaximumNumber",
+  "text": "الوحدة موجودة بالفعل"
+ },
+ {
+  "label": "GUI:SocketError",
+  "text": "فشل التواصل مع الشبكة، تحقق من اتصالك"
+ },
+ {
+  "label": "GUI:NetworkError",
+  "text": "خطأ في الشبكة"
+ },
+ {
+  "label": "GUI:BuddiesTab",
+  "text": "الأصدقاء"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorOfficersClub",
+  "text": "وسام نادي الضباط\nعضو مؤسس في مجتمع Generals"
+ },
+ {
+  "label": "GUI:CreateFormationDescription",
+  "text": "إنشاء تشكيل من الوحدات المحددة لتحافظ عليه أثناء تحركها"
+ },
+ {
+  "label": "GUI:ScatterDescription",
+  "text": "تفريق العنصر (العناصر) المحددة"
+ },
+ {
+  "label": "OBJECT:TrainWreckBridge",
+  "text": "جسر حطام القطار"
+ },
+ {
+  "label": "MAP:BarrenBadlands",
+  "text": "Barren Badlands"
+ },
+ {
+  "label": "MAP:CraterCanyon",
+  "text": "Crater Canyon"
+ },
+ {
+  "label": "MAP:DustDevil",
+  "text": "Dust Devil"
+ },
+ {
+  "label": "MAP:EasternEverglades",
+  "text": "Eastern Everglades"
+ },
+ {
+  "label": "MAP:ForgottenForest",
+  "text": "Forgotten Forest"
+ },
+ {
+  "label": "MAP:InterstateInferno",
+  "text": "Interstate Inferno"
+ },
+ {
+  "label": "MAP:MountainMayhem",
+  "text": "Mountain Mayhem"
+ }
+]

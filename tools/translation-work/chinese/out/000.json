@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:GameOptions",
+  "text": "游戏选项"
+ },
+ {
+  "label": "GUI:SinglePlayer",
+  "text": "单人游戏"
+ },
+ {
+  "label": "GUI:Network",
+  "text": "网络"
+ },
+ {
+  "label": "GUI:Options",
+  "text": "选项"
+ },
+ {
+  "label": "GUI:Skirmish",
+  "text": "遭遇战"
+ },
+ {
+  "label": "GUI:Back",
+  "text": "返回"
+ },
+ {
+  "label": "GUI:StartGame",
+  "text": "开始游戏"
+ },
+ {
+  "label": "GUI:Color",
+  "text": "颜色"
+ },
+ {
+  "label": "GUI:Slower",
+  "text": "较慢"
+ },
+ {
+  "label": "GUI:Faster",
+  "text": "较快"
+ },
+ {
+  "label": "GUI:Low",
+  "text": "低"
+ },
+ {
+  "label": "GUI:Medium",
+  "text": "中"
+ },
+ {
+  "label": "GUI:High",
+  "text": "高"
+ },
+ {
+  "label": "GUI:None",
+  "text": "无"
+ },
+ {
+  "label": "GUI:Random",
+  "text": "随机"
+ },
+ {
+  "label": "GUI:Cancel",
+  "text": "取消"
+ },
+ {
+  "label": "GUI:Ok",
+  "text": "确定"
+ },
+ {
+  "label": "GUI:Delete",
+  "text": "移除"
+ },
+ {
+  "label": "GUI:Description",
+  "text": "描述"
+ },
+ {
+  "label": "GUI:Load",
+  "text": "载入"
+ },
+ {
+  "label": "GUI:Progress",
+  "text": "进度"
+ },
+ {
+  "label": "GUI:Assign",
+  "text": "分配"
+ },
+ {
+  "label": "GUI:CustomizeKeyboard",
+  "text": "自定义键盘"
+ },
+ {
+  "label": "GUI:Category",
+  "text": "类别"
+ },
+ {
+  "label": "GUI:Commands",
+  "text": "命令"
+ },
+ {
+  "label": "GUI:ResetAll",
+  "text": "全部重置"
+ },
+ {
+  "label": "GUI:DisplayOptions",
+  "text": "显示选项"
+ },
+ {
+  "label": "GUI:KeyboardOptions",
+  "text": "键盘选项"
+ },
+ {
+  "label": "GUI:MainMenu",
+  "text": "退出"
+ },
+ {
+  "label": "GUI:Units",
+  "text": "单位"
+ },
+ {
+  "label": "GUI:Buildings",
+  "text": "建筑"
+ },
+ {
+  "label": "GUI:Players",
+  "text": "玩家"
+ },
+ {
+  "label": "GUI:Preview",
+  "text": "地图预览"
+ },
+ {
+  "label": "GUI:Save",
+  "text": "保存"
+ },
+ {
+  "label": "GUI:Side",
+  "text": "阵营"
+ },
+ {
+  "label": "GUI:Accept",
+  "text": "接受"
+ },
+ {
+  "label": "GUI:Games",
+  "text": "游戏"
+ },
+ {
+  "label": "GUI:Join",
+  "text": "加入游戏"
+ },
+ {
+  "label": "GUI:LoadGame",
+  "text": "载入游戏"
+ },
+ {
+  "label": "GUI:SaveGame",
+  "text": "保存游戏"
+ },
+ {
+  "label": "GUI:Score",
+  "text": "得分"
+ },
+ {
+  "label": "GUI:Add",
+  "text": "添加"
+ },
+ {
+  "label": "GUI:MusicVolume",
+  "text": "音乐音量"
+ },
+ {
+  "label": "GUI:VoiceVolume",
+  "text": "语音音量"
+ },
+ {
+  "label": "GUI:Play",
+  "text": "开始游戏"
+ },
+ {
+  "label": "GUI:Stop",
+  "text": "停止"
+ },
+ {
+  "label": "GUI:Continue",
+  "text": "继续"
+ },
+ {
+  "label": "GUI:MaxPing",
+  "text": "最大允许延迟："
+ },
+ {
+  "label": "GUI:Ladder",
+  "text": "天梯"
+ },
+ {
+  "label": "GUI:Close",
+  "text": "关闭"
+ },
+ {
+  "label": "GUI:Help",
+  "text": "帮助"
+ },
+ {
+  "label": "GUI:Rank",
+  "text": "军衔"
+ },
+ {
+  "label": "GUI:Password",
+  "text": "密码"
+ },
+ {
+  "label": "GUI:Disconnect",
+  "text": "断开连接"
+ },
+ {
+  "label": "GUI:No",
+  "text": "否"
+ },
+ {
+  "label": "GUI:Yes",
+  "text": "是"
+ },
+ {
+  "label": "GUI:Blank",
+  "text": "."
+ },
+ {
+  "label": "GUI:Open",
+  "text": "开放"
+ },
+ {
+  "label": "GUI:Closed",
+  "text": "关闭"
+ },
+ {
+  "label": "GUI:Login",
+  "text": "登录"
+ },
+ {
+  "label": "GUI:WOLWelcome",
+  "text": "欢迎你，%hs 将军"
+ },
+ {
+  "label": "GUI:QuickMatch",
+  "text": "快速对战"
+ },
+ {
+  "label": "GUI:CustomMatch",
+  "text": "自定义对战"
+ },
+ {
+  "label": "GUI:LadderRank",
+  "text": "天梯排名"
+ },
+ {
+  "label": "GUI:Disconnects",
+  "text": "断线次数"
+ },
+ {
+  "label": "GUI:CreateGame",
+  "text": "创建游戏"
+ },
+ {
+  "label": "GUI:AutoLogin",
+  "text": "以后自动登录"
+ },
+ {
+  "label": "GUI:AddBuddy",
+  "text": "添加好友"
+ },
+ {
+  "label": "GUI:RemoveBuddy",
+  "text": "删除好友"
+ },
+ {
+  "label": "GUI:AudioOptions",
+  "text": "音频选项"
+ },
+ {
+  "label": "GUI:LadderWins",
+  "text": "天梯胜场"
+ },
+ {
+  "label": "GUI:LadderLosses",
+  "text": "天梯负场"
+ },
+ {
+  "label": "GUI:LadderPoints",
+  "text": "天梯积分"
+ },
+ {
+  "label": "WOL:BuddyOffline",
+  "text": "%ls 已离线"
+ },
+ {
+  "label": "WOL:Locale00",
+  "text": "未知"
+ },
+ {
+  "label": "WOL:Locale01",
+  "text": "其他地区"
+ },
+ {
+  "label": "WOL:Locale02",
+  "text": "美国"
+ },
+ {
+  "label": "WOL:Locale03",
+  "text": "加拿大"
+ },
+ {
+  "label": "WOL:Locale04",
+  "text": "英国"
+ },
+ {
+  "label": "WOL:Locale05",
+  "text": "德国"
+ },
+ {
+  "label": "WOL:Locale06",
+  "text": "法国"
+ },
+ {
+  "label": "WOL:Locale07",
+  "text": "西班牙"
+ },
+ {
+  "label": "WOL:Locale08",
+  "text": "荷兰"
+ },
+ {
+  "label": "WOL:Locale09",
+  "text": "比利时"
+ },
+ {
+  "label": "WOL:Locale10",
+  "text": "奥地利"
+ },
+ {
+  "label": "WOL:Locale11",
+  "text": "瑞士"
+ },
+ {
+  "label": "WOL:Locale12",
+  "text": "意大利"
+ },
+ {
+  "label": "WOL:Locale13",
+  "text": "丹麦"
+ },
+ {
+  "label": "WOL:Locale14",
+  "text": "瑞典"
+ },
+ {
+  "label": "WOL:Locale15",
+  "text": "挪威"
+ },
+ {
+  "label": "WOL:Locale16",
+  "text": "芬兰"
+ },
+ {
+  "label": "WOL:Locale17",
+  "text": "以色列"
+ },
+ {
+  "label": "WOL:Locale18",
+  "text": "南非"
+ },
+ {
+  "label": "WOL:Locale19",
+  "text": "日本"
+ },
+ {
+  "label": "WOL:Locale20",
+  "text": "韩国"
+ },
+ {
+  "label": "WOL:Locale21",
+  "text": "中国"
+ },
+ {
+  "label": "WOL:Locale22",
+  "text": "新加坡"
+ },
+ {
+  "label": "WOL:Locale23",
+  "text": "台湾"
+ },
+ {
+  "label": "WOL:Locale24",
+  "text": "马来西亚"
+ },
+ {
+  "label": "WOL:Locale25",
+  "text": "澳大利亚"
+ },
+ {
+  "label": "WOL:Locale26",
+  "text": "新西兰"
+ },
+ {
+  "label": "WOL:Locale27",
+  "text": "巴西"
+ },
+ {
+  "label": "WOL:Locale28",
+  "text": "泰国"
+ },
+ {
+  "label": "WOL:Locale29",
+  "text": "阿根廷"
+ },
+ {
+  "label": "WOL:Locale30",
+  "text": "菲律宾"
+ },
+ {
+  "label": "WOL:Locale31",
+  "text": "希腊"
+ },
+ {
+  "label": "WOL:Locale32",
+  "text": "爱尔兰"
+ },
+ {
+  "label": "WOL:Locale33",
+  "text": "波兰"
+ },
+ {
+  "label": "WOL:Locale34",
+  "text": "葡萄牙"
+ },
+ {
+  "label": "WOL:Locale35",
+  "text": "墨西哥"
+ },
+ {
+  "label": "WOL:Locale36",
+  "text": "俄罗斯"
+ },
+ {
+  "label": "WOL:Locale37",
+  "text": "土耳其"
+ },
+ {
+  "label": "GUI:Observer",
+  "text": "观察者"
+ },
+ {
+  "label": "GUI:Team",
+  "text": "队伍"
+ },
+ {
+  "label": "LETTER:G",
+  "text": "G"
+ },
+ {
+  "label": "LETTER:L",
+  "text": "L"
+ },
+ {
+  "label": "LETTER:M",
+  "text": "M"
+ },
+ {
+  "label": "LETTER:S",
+  "text": "S"
+ },
+ {
+  "label": "LETTER:O",
+  "text": "O"
+ },
+ {
+  "label": "NUMBER:1",
+  "text": "1"
+ },
+ {
+  "label": "NUMBER:2",
+  "text": "2"
+ },
+ {
+  "label": "NUMBER:3",
+  "text": "3"
+ },
+ {
+  "label": "NUMBER:4",
+  "text": "4"
+ },
+ {
+  "label": "NUMBER:5",
+  "text": "5"
+ },
+ {
+  "label": "NUMBER:6",
+  "text": "6"
+ },
+ {
+  "label": "NUMBER:7",
+  "text": "7"
+ },
+ {
+  "label": "NUMBER:8",
+  "text": "8"
+ },
+ {
+  "label": "NUMBER:9",
+  "text": "9"
+ },
+ {
+  "label": "NUMBER:0",
+  "text": "0"
+ },
+ {
+  "label": "Color:Gold",
+  "text": "金色"
+ },
+ {
+  "label": "Color:Red",
+  "text": "红色"
+ },
+ {
+  "label": "Color:Blue",
+  "text": "蓝色"
+ },
+ {
+  "label": "Color:Green",
+  "text": "绿色"
+ },
+ {
+  "label": "Color:Orange",
+  "text": "橙色"
+ },
+ {
+  "label": "Color:SkyBlue",
+  "text": "青色"
+ },
+ {
+  "label": "Color:Purple",
+  "text": "紫色"
+ },
+ {
+  "label": "Color:Pink",
+  "text": "粉色"
+ },
+ {
+  "label": "MSG:Testing",
+  "text": "小兔子乖乖，把门儿开开"
+ },
+ {
+  "label": "MSG:Test2",
+  "text": "快点儿开开，我要进来"
+ },
+ {
+  "label": "GUI:ShowBehindBuildings",
+  "text": "建筑后热成像：开"
+ },
+ {
+  "label": "GUI:HideBehindBuildings",
+  "text": "建筑后热成像：关"
+ },
+ {
+  "label": "GUI:DetailsSetToLowest",
+  "text": "低图形细节"
+ },
+ {
+  "label": "GUI:ReturnGraphicsToPreviousSettings",
+  "text": "正在将图形细节恢复为之前的设置"
+ },
+ {
+  "label": "GUI:BeaconLabel",
+  "text": "输入信息："
+ },
+ {
+  "label": "GUI:Beacon",
+  "text": "信标"
+ },
+ {
+  "label": "GUI:EACopyright",
+  "text": "© 2003 ELECTRONIC ARTS INC. 保留所有权利"
+ },
+ {
+  "label": "GUI:DeleteBeacon",
+  "text": "删除\n信标"
+ },
+ {
+  "label": "GUI:BeaconPlaced",
+  "text": "%ls 放置了一个信标"
+ },
+ {
+  "label": "GUI:BeaconPlacementFailed",
+  "text": "无法在此放置信标"
+ },
+ {
+  "label": "GUI:TooManyBeacons",
+  "text": "抱歉，你不能再放置更多信标了"
+ },
+ {
+  "label": "GUI:EA",
+  "text": "EA"
+ },
+ {
+  "label": "GUI:TestBrowser",
+  "text": "测试浏览器"
+ },
+ {
+  "label": "GUI:Multiplayer",
+  "text": "多人游戏"
+ },
+ {
+  "label": "GUI:GameName",
+  "text": "游戏名称："
+ },
+ {
+  "label": "GUI:NoFileSelected",
+  "text": "请选择一个文件"
+ },
+ {
+  "label": "GUI:PleaseSelectAFile",
+  "text": "请选择一个文件"
+ },
+ {
+  "label": "GUI:DeleteFile",
+  "text": "删除文件？"
+ },
+ {
+  "label": "GUI:AreYouSureDelete",
+  "text": "你确定要删除所选文件吗？"
+ },
+ {
+  "label": "GUI:CopyFileToDesktop",
+  "text": "将录像复制到桌面？"
+ },
+ {
+  "label": "GUI:AreYouSureCopy",
+  "text": "你确定要将此文件复制到桌面吗？同名文件将被覆盖"
+ },
+ {
+  "label": "GUI:ErrorCopyingFile",
+  "text": "复制文件时出错"
+ },
+ {
+  "label": "GUI:LoadReplay",
+  "text": "载入录像"
+ },
+ {
+  "label": "GUI:DeleteReplay",
+  "text": "删除录像"
+ },
+ {
+  "label": "GUI:CopyReplay",
+  "text": "复制录像"
+ },
+ {
+  "label": "GUI:ErrorDeletingFile",
+  "text": "删除文件时出错"
+ },
+ {
+  "label": "GUI:ShortDescription",
+  "text": "游戏简介："
+ },
+ {
+  "label": "GUI:LadderName",
+  "text": "天梯名称："
+ },
+ {
+  "label": "GUI:LadderPassword",
+  "text": "天梯密码"
+ },
+ {
+  "label": "GUI:LadderURL",
+  "text": "主页：%hs"
+ },
+ {
+  "label": "GUI:LadderHasPassword",
+  "text": "此天梯受密码保护"
+ },
+ {
+  "label": "GUI:LadderMinWins",
+  "text": "最少胜场要求：%d"
+ },
+ {
+  "label": "GUI:LadderMaxWins",
+  "text": "最多允许胜场：%d"
+ },
+ {
+  "label": "GUI:LadderFactions",
+  "text": "允许的阵营："
+ },
+ {
+  "label": "GUI:LadderRandomFactions",
+  "text": "随机阵营："
+ },
+ {
+  "label": "GUI:LadderMaps",
+  "text": "允许的地图："
+ },
+ {
+  "label": "GUI:LadderRandomMaps",
+  "text": "随机地图："
+ },
+ {
+  "label": "GUI:AllowObservers",
+  "text": "允许观察者"
+ },
+ {
+  "label": "GUI:USA",
+  "text": "美国"
+ },
+ {
+  "label": "GUI:China",
+  "text": "中国"
+ },
+ {
+  "label": "GUI:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "GUI:AmericaAllies",
+  "text": "美国盟友"
+ },
+ {
+  "label": "GUI:ChinaAllies",
+  "text": "中国盟友"
+ },
+ {
+  "label": "GUI:GLAAllies",
+  "text": "GLA 盟友"
+ },
+ {
+  "label": "GUI:AmericaEnemies",
+  "text": "美国敌人"
+ },
+ {
+  "label": "GUI:ChinaEnemies",
+  "text": "中国敌人"
+ },
+ {
+  "label": "GUI:GLAEnemies",
+  "text": "GLA 敌人"
+ },
+ {
+  "label": "GUI:EndCampaign",
+  "text": "结束战役"
+ },
+ {
+  "label": "GUI:Retry",
+  "text": "再玩一次？"
+ },
+ {
+  "label": "GUI:RecentSave",
+  "text": "最近存档"
+ },
+ {
+  "label": "GUI:GetUpdate",
+  "text": "获取更新"
+ },
+ {
+  "label": "GUI:DirectConnect",
+  "text": "直接连接"
+ },
+ {
+  "label": "GUI:WorldBuilder",
+  "text": "地图编辑器"
+ },
+ {
+  "label": "GUI:WorldBuilderLoadFailed",
+  "text": "地图编辑器载入失败"
+ },
+ {
+  "label": "GUI:DontUseAccount",
+  "text": "不使用账户"
+ },
+ {
+  "label": "GUI:UseAccount",
+  "text": "使用账户"
+ },
+ {
+  "label": "GUI:ScoreScreen",
+  "text": "得分界面"
+ },
+ {
+  "label": "GUI:Rehost",
+  "text": "再玩一次？"
+ },
+ {
+  "label": "GUI:UnitsBuilt",
+  "text": "单位\n生产"
+ },
+ {
+  "label": "GUI:UnitsLost",
+  "text": "单位\n损失"
+ },
+ {
+  "label": "GUI:UnitsKilled",
+  "text": "单位\n摧毁"
+ }
+]

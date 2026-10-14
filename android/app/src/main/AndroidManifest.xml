@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- GeneralsX @build Android port 08/09/2026 The comment that used to stand here
+         said Vulkan was "the entire render path", and the gate below said required.
+         Neither has been true since 1.2.1: OpenGL ES is now the DEFAULT backend, in
+         the launcher and in the engine alike, and the whole D3D8 -> GLES 3.0
+         translation layer (Core/Libraries/Source/d3d8gles/) runs with no DXVK and no
+         Vulkan involved at all. So the requirement was refusing installation to
+         devices that run this game perfectly well — including, pointedly, the ones
+         whose Vulkan drivers are broken enough that GLES is the only sane choice for
+         them anyway.
+
+         Vulkan stays declared, because the DXVK path is still here and still the
+         faster one where the driver is sound; declaring it lets a store or an
+         installer that cares know we can use it. It is simply no longer a condition
+         of installing. What IS a condition is GLES 3.0, which every backend on this
+         port ultimately needs, and which was never declared at all. -->
+    <uses-feature
+        android:name="android.hardware.vulkan.version"
+        android:version="0x401000"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="true" />
+
+    <!-- GeneralsX @build Android port 07/07/2026 "All files access": lets the
+         in-app folder browser (FolderPickerActivity) resolve to a real
+         filesystem path anywhere in shared storage (Downloads, an SD card,
+         wherever the user already has the game files) — no adb push, no
+         restrictive per-folder scoped-storage grants. tools:ignore silences
+         the Play-policy lint warning; this APK is sideloaded, not
+         Play-distributed, so that policy does not apply. -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <!-- GeneralsX @bugfix Android port 02/08/2026 MANAGE_EXTERNAL_STORAGE and
+         Environment.isExternalStorageManager() only exist from API 30
+         (Android 11) onward. minSdk here is 28, so on Android 9/10 devices
+         onSelectGameFolder()'s isExternalStorageManager() gate is skipped
+         entirely (SDK_INT < R) and FolderPickerActivity opens straight away,
+         but with zero storage permission ever requested, so
+         File.listFiles() on /storage/emulated/0 comes back null/empty and
+         the browser shows nothing but ".. (up)". These are the pre-R
+         runtime-permission equivalent; maxSdkVersion keeps them out of the
+         merged manifest's effective permission set on API 30+, where
+         MANAGE_EXTERNAL_STORAGE already covers everything. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+
+    <!-- GeneralsX @feature Android port 10/07/2026 GeneralsOnline account
+         login (GeneralsOnlineActivity) and, eventually, the native
+         multiplayer client both need plain outbound HTTPS/WebSocket. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- GeneralsX @bugfix Android LAN: WifiManager.MulticastLock, held only while the
+         LAN lobby/match is active, so Wi-Fi drivers don't filter LAN broadcasts. -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <!-- GeneralsX @bugfix Android port 10/07/2026 the sign-in flow backgrounds
+         this app for the whole browser round-trip (open playgenerals.online,
+         pick Steam/Discord/GameReplays, come back) — on some OEM battery
+         managers the poll timer got throttled hard enough that CheckLogin
+         never got a chance to run, so a login that visibly succeeded on the
+         website never actually completed in the app. Requesting exemption
+         from battery optimization (GeneralsOnlineActivity.onSignIn) fixes
+         that; this is the normal (non-dangerous) permission needed to even
+         show that system prompt. -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <!-- GeneralsX @bugfix Android port 24/09/2026 Issue #22 (Android 10): with targetSdk 29+
+         Android 10 applies scoped storage unless requestLegacyExternalStorage is true, so even
+         with READ_EXTERNAL_STORAGE granted, File.listFiles() cannot see the game's .big files in
+         shared storage. The flag only has an effect on Android 10; Android 11+ ignores it and
+         uses MANAGE_EXTERNAL_STORAGE ("All files access") as before. -->
+    <application
+        android:label="Thor RTS"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:isGame="true"
+        android:appCategory="game"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true">
+
+        <activity android:name="com.generalsx.zerohour.ThorLauncher"
+            android:exported="true" android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Material.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.generalsx.zerohour.ThorSettingsActivity" android:exported="false"
+            android:screenOrientation="landscape" android:theme="@android:style/Theme.Material.NoActionBar" />
+
+        <activity
+            android:name=".GeneralsZHActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:preferMinimalPostProcessing="true"
+            android:configChanges="layoutDirection|locale|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation">
+            <!-- GeneralsX @tweak Android port 20/09/2026 No LAUNCHER category any
+                 more, so the home screen shows one icon instead of two. Two were
+                 declared, and some OEM launchers collapse them while others do
+                 not, which is why the second icon appeared only on some devices.
+                 The game is started from SetupActivity.onLaunchGame(), which is
+                 the better path anyway: it forces landscape and waits for the OS
+                 to confirm the rotation before starting, so the native
+                 window-size probe in WW3D::Init() cannot run mid-rotation.
+                 Still exported with MAIN, so a shortcut someone already placed
+                 on their home screen keeps resolving instead of dying on update. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- GeneralsX @build Android port 07/07/2026 A second, always-present
+             launcher icon: configuring the game folder or reading a crash log
+             must never depend on the game itself having launched successfully.
+
+             GeneralsX @bugfix Android port 31/07/2026 Was locked to
+             "landscape" (same as GeneralsZHActivity) to sidestep a real
+             device bug: a portrait->landscape rotation triggered by
+             Setup -> Launch Game could still be settling when the game's
+             native window-size probe (WW3D::Init()) ran, and it read a
+             swapped/portrait window size. Reverted to unspecified
+             (portrait-first, matching FolderPickerActivity/
+             LogViewerActivity/every other non-game screen) since a locked
+             landscape settings menu looked wrong next to those. The race
+             this used to sidestep is now handled explicitly instead:
+             SetupActivity.onLaunchGame() forces landscape and waits for
+             onConfigurationChanged() to actually confirm the rotation
+             completed before starting GeneralsZHActivity, rather than
+             never rotating in the first place. -->
+        <!-- GeneralsX @tweak Android port 20/09/2026 The single home-screen icon
+             is this one, so it wears the game's name and artwork instead of
+             "GeneralsZH Settings" and the gear: it inherits label and icon from
+             <application>, which is why the overrides that used to sit here are
+             gone. setup_window_title is still the title shown inside the screen. -->
+        <activity
+            android:name=".SetupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GeneralsZHSettings"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FolderPickerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GeneralsZHSettings"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <activity
+            android:name=".LogViewerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GeneralsZHSettings"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- GeneralsX @feature Android port 23/09/2026 Replay check: pick a replay and
+             run it through fast (or fast-forward to a frame) with a result summary. -->
+        <activity
+            android:name=".ReplayCheckActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GeneralsZHSettings"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <activity
+            android:name=".NetworkDiagnosticsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GeneralsZHSettings"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <activity
+            android:name=".GeneralsOnlineActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GeneralsZHSettings"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- GeneralsX @bugfix Android port 11/07/2026 LogViewerActivity's
+             Share button used to hand the log over as raw Intent.EXTRA_TEXT,
+             which (a) only works with the handful of apps that accept plain
+             text (no "Save to Files/Downloads/Drive" target ever showed up),
+             and (b) risks TransactionTooLargeException for a big log,
+             silently failing to launch anything. Sharing an actual file via
+             FileProvider fixes both: any app that handles files (including
+             "Save to...") becomes a valid target, and only a small content://
+             Uri crosses the Binder, not the log text itself. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GeneralsX @feature Codex 14/10/2026 Original two-screen handheld emblem. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#17232E" android:strokeColor="#75B9E8" android:strokeWidth="2"
+        android:pathData="M26,24 L82,24 Q86,24 86,28 L86,53 Q86,57 82,57 L26,57 Q22,57 22,53 L22,28 Q22,24 26,24 Z" />
+    <path android:fillColor="#17232E" android:strokeColor="#75B9E8" android:strokeWidth="2"
+        android:pathData="M30,63 L78,63 Q82,63 82,67 L82,81 Q82,85 78,85 L30,85 Q26,85 26,81 L26,67 Q26,63 30,63 Z" />
+    <path android:fillColor="#00000000" android:strokeColor="#FFCE76" android:strokeWidth="2"
+        android:pathData="M54,31 L54,36 M54,45 L54,50 M44,41 L49,41 M59,41 L64,41 M54,36 A5,5 0,1 0,54 46 A5,5 0,1 0,54 36" />
+    <path android:fillColor="#75B9E8" android:pathData="M36,68 L40,68 L40,72 L44,72 L44,76 L40,76 L40,80 L36,80 L36,76 L32,76 L32,72 L36,72 Z" />
+    <path android:fillColor="#FFCE76" android:pathData="M68,69 A3,3 0,1 0,68 75 A3,3 0,1 0,68 69 M74,75 A3,3 0,1 0,74 81 A3,3 0,1 0,74 75" />
+</vector>

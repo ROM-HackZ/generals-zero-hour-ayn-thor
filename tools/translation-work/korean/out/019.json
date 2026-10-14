@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileReadySubtitle",
+  "text": "*핵미사일 발사 준비 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures01Subtitle",
+  "text": "*장군. 민간 건물이 파괴되지 않게 조심하라"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures02Subtitle",
+  "text": "*민간 건물을 파괴하면 국제 여론에 악영향을 준다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStatuesSubtitle",
+  "text": "*GLA 동상을 파괴해 국제 여론을 높여라"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStructuresSubtitle",
+  "text": "*적 건물을 파괴하면 우리에 대한 국제 여론이 올라간다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyTroopsSubtitle",
+  "text": "*적 병력을 더 파괴해 국제 여론을 높여라"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionFallingSubtitle",
+  "text": "*국제 여론이 떨어지고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowSubtitle",
+  "text": "*국제 여론이 낮아지고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowCriticalSubtitle",
+  "text": "*국제 여론이 위험할 정도로 낮다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowVerySubtitle",
+  "text": "*국제 여론이 매우 낮다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionProtectCivilianSubtitle",
+  "text": "*민간 재산을 피해로부터 보호하라"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionRisingSubtitle",
+  "text": "*국제 여론이 올라가고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonDetectedAllySubtitle",
+  "text": "*동맹이 입자 캐논을 지었다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*동맹이 입자 캐논을 쓰고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*입자 캐논 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonReadySubtitle",
+  "text": "*입자 캐논 준비 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*더 많은 전사들이 우리를 도우러 왔다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormDetectedAllySubtitle",
+  "text": "*동맹이 스커드 스톰을 지었다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedAllySubtitle",
+  "text": "*동맹이 스커드 스톰을 발사했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedOursSubtitle",
+  "text": "*스커드 스톰 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormReadySubtitle",
+  "text": "*이제 스커드 스톰을 쓸 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SelectTargetSubtitle",
+  "text": "*어디를 칠 것인가?"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SneakAttackLaunchedSubtitle",
+  "text": "*장군, 적이 기습을 쓰고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UnitLostSubtitle",
+  "text": "*전사 하나가 쓰러졌다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UpgradeCompleteSubtitle",
+  "text": "*업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VehicleStolenSubtitle",
+  "text": "*놈들이 차량을 훔쳤다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VictorySubtitle",
+  "text": "*우리가 승리했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_AllyUnderAttackSubtitle",
+  "text": "*동맹이 공격받고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BaseDefensesOffLineSubtitle",
+  "text": "*기지 방어 오프라인"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BeaconDetectedSubtitle",
+  "text": "*비컨 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusEnemySubtitle",
+  "text": "*적 블랙 로투스 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusOursSubtitle",
+  "text": "*아군 블랙 로투스 발각"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingBeingCapturedSubtitle",
+  "text": "*아군 건물이 점령당하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingDisabledSubtitle",
+  "text": "*건물 오프라인"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingEnabledSubtitle",
+  "text": "*건물 재가동"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingStolenSubtitle",
+  "text": "*건물 탈취됨"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_CashStolenSubtitle",
+  "text": "*장군님, 적이 우리 돈을 훔치고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonEnemySubtitle",
+  "text": "*적 버튼 대령 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonOursSubtitle",
+  "text": "*아군 버튼 대령 발각"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DefeatSubtitle",
+  "text": "*패배했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedNukeSubtitle",
+  "text": "*경고: 핵미사일 격납고 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedParticleCannonSubtitle",
+  "text": "*경고: 입자 캐논 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedScudStormSubtitle",
+  "text": "*경고: 스커드 스톰 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsReceivedSubtitle",
+  "text": "*동맹에게서 자금을 받았습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedSubtitle",
+  "text": "*동맹에게 자금을 요청했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedAllySubtitle",
+  "text": "*동맹이 자금을 요청하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsTransferredSubtitle",
+  "text": "*동맹에게 자금을 보냈습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GeneralLevelUpSubtitle",
+  "text": "*축하합니다, 장군님. 진급하셨습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GPSScramblerLaunchedSubtitle",
+  "text": "*경고. GPS 교란기 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredEnemySubtitle",
+  "text": "*적 영웅 발견"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredOursSubtitle",
+  "text": "*아군 영웅 하나가 발각되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingAnthraxSubtitle",
+  "text": "*탄저균 폭탄 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingDaisyCutterSubtitle",
+  "text": "*데이지 커터 폭탄 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingEmpPulseSubtitle",
+  "text": "*EMP 펄스 폭탄 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingFuelAirBombSubtitle",
+  "text": "*연료 기화 폭탄 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_InsufficientFundsSubtitle",
+  "text": "*자금 부족"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellEnemySubtitle",
+  "text": "*적 자르멘 켈 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellOursSubtitle",
+  "text": "*아군 자르멘 켈 발각"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaserDefenseSpeechSubtitle",
+  "text": "*장군님, 적이 도시 한가운데에 요새를 두고 있습니다. 레이저 방어 시스템은 파괴적이지만 전력을 많이 씁니다. 한 번에 방어 지점 하나에만 전력을 돌릴 수밖에 없을 겁니다. 이 점을 이용하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedNukeSubtitle",
+  "text": "*경고: 핵미사일 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedParticleCannonSubtitle",
+  "text": "*경고: 입자 캐논 가동"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedScudStormSubtitle",
+  "text": "*경고: 스커드 스톰 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LowPowerSubtitle",
+  "text": "*전력 부족"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileDetectedAllySubtitle",
+  "text": "*동맹 핵 격납고 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*동맹 핵미사일 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*핵미사일 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileReadySubtitle",
+  "text": "*핵미사일 준비 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures01Subtitle",
+  "text": "*장군님. 민간 건물이 파괴되지 않게 조심하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures02Subtitle",
+  "text": "*민간 건물을 파괴하면 국제 여론에 악영향을 줍니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStatuesSubtitle",
+  "text": "*GLA 동상을 파괴해 국제 여론을 높이십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStructuresSubtitle",
+  "text": "*적 건물을 파괴하면 우리에 대한 국제 여론이 올라갑니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyTroopsSubtitle",
+  "text": "*적 병력을 더 파괴해 국제 여론을 높이십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionFallingSubtitle",
+  "text": "*국제 여론이 떨어지고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowSubtitle",
+  "text": "*국제 여론이 낮아지고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowCriticalSubtitle",
+  "text": "*국제 여론이 위험할 정도로 낮습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowVerySubtitle",
+  "text": "*국제 여론이 매우 낮습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionProtectCivilianSubtitle",
+  "text": "*민간 재산을 피해로부터 보호하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionRisingSubtitle",
+  "text": "*국제 여론이 올라가고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonDetectedAllySubtitle",
+  "text": "*동맹 입자 캐논 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*동맹 입자 캐논 가동"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*입자 캐논 가동"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonReadySubtitle",
+  "text": "*입자 캐논 준비 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*증원군 도착"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormDetectedAllySubtitle",
+  "text": "*동맹 스커드 스톰 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedAllySubtitle",
+  "text": "*동맹 스커드 스톰 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedOursSubtitle",
+  "text": "*스커드 스톰 발사"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormReadySubtitle",
+  "text": "*스커드 스톰 준비 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SelectTargetSubtitle",
+  "text": "*목표 선택"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SneakAttackLaunchedSubtitle",
+  "text": "*경고. 기습 감지"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UnitLostSubtitle",
+  "text": "*유닛 손실"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeCompleteSubtitle",
+  "text": "*업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodSubtitle",
+  "text": "*제어봉 업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodAdvancedSubtitle",
+  "text": "*고급 제어봉 업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeMoabSubtitle",
+  "text": "*MOAB 업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeSentryDroneSubtitle",
+  "text": "*센트리 드론 업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VehicleStolenSubtitle",
+  "text": "*차량 도난"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VictorySubtitle",
+  "text": "*승리했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf01Subtitle",
+  "text": "*장군님, GLA가 이 지역의 미군을 격파했습니다. 우리가 파괴적인 반격을 가했지만 놈들은 바퀴벌레처럼 아직 살아 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf02Subtitle",
+  "text": "*지금 이 순간에도 GLA 생존자들이 재건하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf03Subtitle",
+  "text": "*GLA를 완전히 없애려면 병력을 보내 놈들이 숨어 있는 어두운 구석구석에서 뿌리 뽑아야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf04Subtitle",
+  "text": "*장군님, 새 청음 전초기지가 이 지역에 배치되어 있습니다. 마음껏 쓰십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf05Subtitle",
+  "text": "*청음 전초기지 자체는 무장이 없지만, 탑승자들이 너무 가까이 온 적에게 사격할 수 있습니다. 긴 시야와 스텔스 능력 덕분에 전장 파악이 크게 향상될 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat01Subtitle",
+  "text": "*GLA 한 놈도 우리 주둔지를 빠져나가지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat02Subtitle",
+  "text": "*독소 트랙터다! 우리를 모두 독살하려 한다... 지원이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat03Subtitle",
+  "text": "*저기... 유정이다... 점령할까?"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat04Subtitle",
+  "text": "*집에 GLA가 있다고? 불 좀 붙이면... GLA는 끝이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat05Subtitle",
+  "text": "*GLA가 저기서 재건하고 있다... 공격 준비"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat06Subtitle",
+  "text": "*오늘은 우리가 이긴다... 전원 전진"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01aSubtitle",
+  "text": "*미국이 이렇게 쉽게 무너질 줄은 몰랐다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01bSubtitle",
+  "text": "*미국이 왜 이런 일이 일어나게 내버려 뒀는지 이해할 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01cSubtitle",
+  "text": "*이대로 둘 수는 없다. 중국이 바로잡겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01dSubtitle",
+  "text": "*GLA가 우리 자원을 이용해 미국을 배신한 일로 중국은 큰 망신을 당했다. 놈들은 그 오만의 대가를 치러야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin02Subtitle",
+  "text": "*미사일 발사 준비 완료... 최종 카운트다운 시작"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin03Subtitle",
+  "text": "*3... 2... 1... 미사일 발사"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin04Subtitle",
+  "text": "*놈들은 이겼다고 믿지만 너무 일찍 축하하고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin05Subtitle",
+  "text": "*제대로 된 이유로 쓰면 아름답기도 하지"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin06Subtitle",
+  "text": "*GLA 생존자들이 몸을 숨기려 마을로 달아나고 있다... 막아야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin07Subtitle",
+  "text": "*위치 도착... 폭탄창 개방"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin08Subtitle",
+  "text": "*생존자를 발견했다. 지상 공격이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO01Subtitle",
+  "text": "*장군님, 이 지역의 기존 기지가 GLA에게 함락되었습니다. 적과 교전하기 전에 새 기지를 건설해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO02Subtitle",
+  "text": "*근처 건물 몇 곳에 병력을 주둔시켜 기지를 방어하시길 권합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO03Subtitle",
+  "text": "*장군님, GLA가 마을 곳곳의 건물에 주둔해 있습니다. 드래곤 전차로 소탕하면 될 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO04Subtitle",
+  "text": "*장군님, GLA가 독소 트랙터를 아군 주둔 건물 쪽으로 보내고 있습니다. 트랙터가 건물을 공격하면 안에 있는 전원이 전멸합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO05Subtitle",
+  "text": "*GLA가 이 유정으로 병력 자금을 대고 있습니다. 레드가드로 유정을 점령할 수 있습니다. 그 수익이 GLA 격파에 도움이 될 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO06Subtitle",
+  "text": "*장군님, 이 유정을 파괴하는 게 현명할까요? 우리에게 귀중한 자원이 될 수 있습니다. 레드가드로 점령할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO07Subtitle",
+  "text": "*놈들의 허를 찔렀습니다, 장군님. 레드가드로 놈들이 대응하기 전에 건물을 점령할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO08Subtitle",
+  "text": "*작전 기지를 재건했으니 이제 이 지역에 남은 GLA 병력을 모두 뿌리 뽑을 때입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO09Subtitle",
+  "text": "*축하합니다, 장군님. 마을에서 GLA 병력을 모두 몰아냈습니다. 놈들의 마지막 기지를 없애면 임무가 완료됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi02Lin13Subtitle",
+  "text": "*테러 위협이 제거되었습니다. 잘하셨습니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01Subtitle",
+  "text": "*장군님, GLA가 이 시설에 보관된 핵탄두를 훔치려 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01aSubtitle",
+  "text": "*장군님, GLA가 우리 주 원자력 발전소를 파괴하려 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf02Subtitle",
+  "text": "*용감한 병사들이 공격을 막아 냈지만 큰 희생을 치렀고, GLA는 아직 밖에 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03Subtitle",
+  "text": "*GLA를 막아 내고 우리 벙커를 하나도 빠짐없이 지켜야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03aSubtitle",
+  "text": "*GLA를 막아 내 시설이 파괴되지 않게 해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf04Subtitle",
+  "text": "*임무에 큰 도움이 될 신기술이 몇 가지 있습니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf05Subtitle",
+  "text": "*핵 캐논이 이제 중성자탄을 발사하도록 업그레이드되었습니다. 이 새 포탄은 병사와 차량 운전병을 효과적으로 제거합니다. 방사능이 사라지면 우리 보병이 살아남은 차량을 점령할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf06Subtitle",
+  "text": "*우리 건물은 이제 중성자 지뢰로 업그레이드할 수 있습니다. 보병에게 여전히 효과적이며 적 차량도 일시적으로 무력화합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07aSubtitle",
+  "text": "*장군님, 증원군이 15분 후 도착합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07bSubtitle",
+  "text": "*장군님, 증원군이 10분 후 도착합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07cSubtitle",
+  "text": "*장군님, 증원군이 5분 후 도착합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07dSubtitle",
+  "text": "*장군님, 증원군이 곧 도착합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat01Subtitle",
+  "text": "*적군 발견. 막아 내겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat02Subtitle",
+  "text": "*우측면에 공격을 받고 있다... 여기 지원이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat03Subtitle",
+  "text": "*놈들이 뒤에 있다... 전 화력을 남쪽으로!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat04Subtitle",
+  "text": "*GLA 기지 사정권 진입... 전 팀 공격 준비 완료, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat05Subtitle",
+  "text": "*저 능선에 적 건물이 있습니다. 명령만 내리시면 밀어 버리겠습니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat06Subtitle",
+  "text": "*RPG 병사들을 조심해라! 도움이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat07Subtitle",
+  "text": "*장군님, 목표 지역 상공에 도착해 폭격을 개시했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat08Subtitle",
+  "text": "*양탄자를 깔아 드립니다... 폭탄 양탄자를요. 헤헤"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat09Subtitle",
+  "text": "*여기 적 방공망이 촘촘하다... 피해가 심하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat10Subtitle",
+  "text": "*스팅어 기지가 우리를 조준했다... 큰일이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat11Subtitle",
+  "text": "*저 반군을 막아라, 우리 벙커를 점령하려 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat12Subtitle",
+  "text": "*배틀마스터는 아니지만 이걸로 버텨야지"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat13Subtitle",
+  "text": "*나는 개틀링 전차가 더 좋은데"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat14Subtitle",
+  "text": "*GLA가 또 몰려온다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15Subtitle",
+  "text": "*벙커를 지켜야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15aSubtitle",
+  "text": "*원자로를 지켜야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat16Subtitle",
+  "text": "*이제 기지 공격이 뭔지 보여 주마!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat17Subtitle",
+  "text": "*증원군이다! 반갑다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat18Subtitle",
+  "text": "*명령만 내리십시오, 장군님. 어디로 가면 됩니까?"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01Subtitle",
+  "text": "*경계를 늦추지 마라. 우리가 참전한 것에 대한 보복으로 GLA가 공격할 수 있다는 보고가 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01aSubtitle",
+  "text": "*이 원자력 발전소를 지키는 게 안심이 안 되는군"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01bSubtitle",
+  "text": "*그러게. 차라리 공군에 들어갈걸"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01dSubtitle",
+  "text": "*최근에 크게 이겼으니 설마 여기를 공격하진 않겠지"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01cSubtitle",
+  "text": "*거긴 밥도 훨씬 맛있다던데. 멋진 헬멧도 쓰고 말이야"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin02Subtitle",
+  "text": "*GLA 병력이다! 공격받고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin03Subtitle",
+  "text": "*사방에 있다! 밀리고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04Subtitle",
+  "text": "*또 몰려온다! 증원이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04aSubtitle",
+  "text": "*또 몰려온다! 폭탄 트럭과 테러리스트다! 증원이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04bSubtitle",
+  "text": "*또 몰려온다! 자살 전술을 쓰고 있다! 증원군은 대체 어디 있나?!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin05Subtitle",
+  "text": "*비행장을 잃었다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06Subtitle",
+  "text": "*놈들이 저장 벙커로 가려 한다! 무슨 일이 있어도 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06aSubtitle",
+  "text": "*놈들이 주 원자로로 가려 한다! 무슨 일이 있어도 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin07Subtitle",
+  "text": "*사령부가... 사령부가 넘어갔다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin08Subtitle",
+  "text": "*버텼다... 남은 병력은 보고하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin09Subtitle",
+  "text": "*남은 게 별로 없다. 증원이 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin10Subtitle",
+  "text": "*메시지는 전달됐지만 그들이 올 때까지 버텨야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO01Subtitle",
+  "text": "*장군님, 증원군이 도착했습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02Subtitle",
+  "text": "*장군님, GLA 병력이 벙커를 공격하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02aSubtitle",
+  "text": "*장군님, GLA 병력이 원자력 발전소를 공격하고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO03Subtitle",
+  "text": "*GLA가 우리 벙커 하나를 점령하려 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04Subtitle",
+  "text": "*장군님, 이 벙커가 심하게 손상되었습니다. GLA가 다시 공격하기 전에 수리하시길 권합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04aSubtitle",
+  "text": "*장군님, 원자력 발전소가 심하게 손상되었습니다. GLA가 다시 공격하기 전에 수리하시길 권합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05Subtitle",
+  "text": "*장군님, 방금 공격으로 벙커 여러 곳이 크게 약해졌습니다. 하나라도 파괴되면 GLA가 이번 교전에서 승리합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05aSubtitle",
+  "text": "*장군님, 방금 공격으로 원자력 발전소가 크게 약해졌습니다. 파괴되면 임무에 실패합니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06Subtitle",
+  "text": "*경고... GLA 병력이 벙커 쪽으로 이동 중입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06aSubtitle",
+  "text": "*경고... GLA 병력이 발전소 쪽으로 이동 중입니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO07Subtitle",
+  "text": "*장군님, 우리 감시 초소 한 곳과 연락이 닿았습니다. GLA의 공격을 받고 있습니다. 구출하면 그쪽 시스템에 접속해 융단 폭격기를 호출할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO08Subtitle",
+  "text": "*장군님, 그 감시 초소를 확보하면 GLA 병력에 융단 폭격을 지휘할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO09Subtitle",
+  "text": "*장군님, 증원군이 도착했으니 이제 이 지역에서 GLA를 제거할 때입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat12Subtitle",
+  "text": "*전투 개시!"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat19Subtitle",
+  "text": "*전차를 투입해라! 쓸어버려라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf01Subtitle",
+  "text": "*반갑습니다, 사령관님. GLA의 반격을 저지했으니 이제 우위를 몰아붙일 때입니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf02Subtitle",
+  "text": "*이 마을을 GLA의 손아귀에서 해방해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf03Subtitle",
+  "text": "*강 북쪽에 방어가 매우 삼엄한 GLA 기지가 있습니다. 파괴해야 하지만 쉽지 않을 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf04Subtitle",
+  "text": "*우리 작전이 전 세계의 주목을 받고 있어 철저히 감시당할 겁니다. 전투가 길어질수록 국제 여론은 떨어집니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf05Subtitle",
+  "text": "*민간 재산 피해는 피해야 합니다. 작전은 정확하고 신속해야 합니다. GLA 병력을 파괴하면 국제 여론이 우리에게 유리하게 올라갑니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf09Subtitle",
+  "text": "*국제 여론이 충분히 높아지면 마을 사람들이 우리 편에 설지도 모릅니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf10Subtitle",
+  "text": "*그러면 GLA의 방어를 쉽게 섬멸할 수 있을 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat01Subtitle",
+  "text": "*근처에 위장된 터널 네트워크가 있는 게 분명하다"
+ }
+]

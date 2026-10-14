@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle073Subtitle",
+  "text": "*兵力不少啊，将军。你该不会真打算用他们冲我吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle074Subtitle",
+  "text": "*你的基地搞得不错啊，将军。你记得把建筑分散开，以免遭受武器打击，对吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle075Subtitle",
+  "text": "*你知道清理这些要花多久吗？！？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle076Subtitle",
+  "text": "*把那恶心的辐射弄出我的基地！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle077Subtitle",
+  "text": "*嘿，那是我的粒子加农炮！你无权使用它！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle078Subtitle",
+  "text": "*这是战术调动，还是你只是在躲？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle079Subtitle",
+  "text": "*伯顿上校？真的吗？你觉得他能帮你？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle080Subtitle",
+  "text": "*黑莲花？看来这是一场女性力量的对决啊，是吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle081Subtitle",
+  "text": "*贾曼·凯尔！他最好离我的坦克远点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle082Subtitle",
+  "text": "*机场不错，将军——只要让那些飞机离我的粒子加农炮远点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle083Subtitle",
+  "text": "*战车工厂？你真打算进攻我了，是吧？早该如此了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle084Subtitle",
+  "text": "*真棒——你会建兵营了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle085Subtitle",
+  "text": "*卖建筑？这是你清仓大甩卖的一部分吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle086Subtitle",
+  "text": "*你何不干脆放弃？我今天还有更重要的事要做"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle087Subtitle",
+  "text": "*为什么我就找不到一个能撑过 5 分钟的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle088Subtitle",
+  "text": "*看来你在输，将军。我之前关于计划失败说了什么来着？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle089Subtitle",
+  "text": "*你挨打挨得不轻啊，将军。还想再来吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle090Subtitle",
+  "text": "*我很想说“打得好”，但显然你的心思不在这上面，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle091Subtitle",
+  "text": "*真不敢相信你会这样欺负一个女孩"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle092Subtitle",
+  "text": "*我需要时间思考。走开，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle093Subtitle",
+  "text": "*你的战术很不光彩，将军。友好点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle094Subtitle",
+  "text": "*将军，快看那边！有人在占领你的建筑！没上当，是吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle095Subtitle",
+  "text": "*你知道吗，如果你是位绅士，就会给我五分钟重建防御"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle096Subtitle",
+  "text": "*什么？！结束了？嗯，和你跳舞很愉快，将军。也许下次由我来领舞"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle097Subtitle",
+  "text": "*我的超级武器准备好了……你呢？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle098Subtitle",
+  "text": "*你永远突破不了我的防线，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle099Subtitle",
+  "text": "*你的快攻战术对我没用"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle100Subtitle",
+  "text": "*这不公平！再多一件超级武器我就赢你了，将军。有胆量就再来挑战我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle101Subtitle",
+  "text": "*我早说过你永远赢不了我的超级武器，将军。想再试一次吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle102Subtitle",
+  "text": "*欢迎，将军。准备好开始了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle103Subtitle",
+  "text": "*哦，那是什么声音？现在我看到天上有道光……嗯"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle104Subtitle",
+  "text": "*哎呀！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle106Subtitle",
+  "text": "*哦天哪……抱歉，将军，我就是喜欢这样打招呼。嗯，祝你好运，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle107Subtitle",
+  "text": "*嗯，祝你好运，将军"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina001Subtitle",
+  "text": "*美国人把哨兵无人机用作预警敌情探测系统。无人机不移动时会隐形，我们还见过一些升级了机枪的。虽然它不是坦克的对手，但会给步兵带来麻烦"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina002Subtitle",
+  "text": "*美国微波坦克是一门巨大的微波炮，能瘫痪建筑和载具。它的辐射还会伤害步兵，所以让我们的士兵保持安全距离"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina003Subtitle",
+  "text": "*复仇者是美国的激光防空载具，能击落导弹和飞机。它还能帮助其他美军单位瞄准我们的飞机，因此在战斗群中遇到时应被视为首要目标"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina004Subtitle",
+  "text": "*幽灵炮艇是一种大型喷气式飞机，机身一侧装有多套武器系统，能在目标区域上空盘旋，从天而降带来死亡。典型的美式工程——拿霰弹枪打苍蝇"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina005Subtitle",
+  "text": "*防化服升级让步兵更能抵抗毒素和辐射"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina006Subtitle",
+  "text": "*美国的反制措施升级会降低敌方火力对其空中单位的效果。导弹经常打偏，子弹造成的伤害也更小"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina007Subtitle",
+  "text": "*美国的地狱火无人机升级会生成一架遥控无人机，用自动地狱火导弹系统保护母载具"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina008Subtitle",
+  "text": "*钻地导弹是美国隐形战机和极光轰炸机的升级，专门用来攻破被驻守的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina009Subtitle",
+  "text": "*补给线升级提高美国从补给站、空投补给和油井收集资源的速度"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina010Subtitle",
+  "text": "*美国将军们已认识到宣传的威力。通过传单空投，他们能让单位停下来阅读宣传品，从而暂时瘫痪"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina011Subtitle",
+  "text": "*MOAB 是美国燃料空气炸弹的升级，带有震慑能力，能暂时瘫痪幸存的单位和建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina012Subtitle",
+  "text": "*美国火力基地是一处由沙袋围起的防御阵地，配有一门榴弹炮和 4 个射击位"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina013Subtitle",
+  "text": "*凝固汽油弹是我们赫利克斯飞艇的升级，能投下一对炸弹，形成大范围火焰风暴"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina014Subtitle",
+  "text": "*我们的监听站是一种行动缓慢的隐形载具，视野范围很大，可由 2 名步兵进驻担任警卫。除了发现隐形物体，点击射程内的单位还能判断敌人的去向"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina015Subtitle",
+  "text": "*我们的赫利克斯 2 是一种慢速运输直升机，可搭载步兵或一辆载具。虽然只配备一挺轻机枪，但可以升级加特林机炮、宣传塔或战斗碉堡，还可以升级携带一枚大型凝固汽油弹"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina016Subtitle",
+  "text": "*ECM 坦克能干扰电子追踪系统，使敌方导弹偏离目标。它的电磁脉冲可以瘫痪单辆敌方载具。它还会产生雷达干扰场，使范围内的所有无人机失效"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina017Subtitle",
+  "text": "*中子炮弹是我们核弹炮的升级，使其能发射中子炮弹。这种炮弹会杀死爆炸范围内的所有步兵和载具驾驶员"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina018Subtitle",
+  "text": "*系统入侵让你的黑客能从敌人那里窃取一项随机将军技能。1 级可窃取一星或三星技能，2 级可窃取五星技能"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina019Subtitle",
+  "text": "*我们新的地毯式轰炸机会沿目标路线投下一连串炸弹，歼灭所有敌军"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina020Subtitle",
+  "text": "*我们的中子地雷是标准爆炸地雷的替代品。中子地雷能瞬间瘫痪载具并杀死附近的步兵"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina021Subtitle",
+  "text": "*我们的黑客曾经容易受到攻击，在新的网络中心里他们将获得安全和更强的入侵能力"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina022Subtitle",
+  "text": "*卫星入侵 I 是网络中心的升级，能显示每个对手指挥中心周围的区域"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina023Subtitle",
+  "text": "*卫星入侵 II 是网络中心的升级，能暂时显示整张地图，包括隐形的敌军"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina024Subtitle",
+  "text": "*GLA 破坏者是一种隐形步兵，能攀爬悬崖，并通过进入敌方建筑来影响它们。进入发电厂会暂时切断电力，进入超级武器会重置其计时器。进入敌方指挥中心的破坏者会重置敌方所有将军技能的计时器"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina025Subtitle",
+  "text": "*战斗摩托最初配有一名 GLA 叛军驾驶员和一挺车载机枪。叛军可以换成任何其他 GLA 步兵，使摩托获得他们独特的能力"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina026Subtitle",
+  "text": "*GLA 战斗巴士最多可载 8 名步兵，他们可以从窗户向外射击。巴士被摧毁后，厚重的钢制车厢会像碉堡一样留下来"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina027Subtitle",
+  "text": "*GLA 给工人升级了鞋子，从他们的农民身上榨取更多强迫劳动"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina028Subtitle",
+  "text": "*伪装网是 GLA 基地防御建筑的升级，使其对常规探测隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina029Subtitle",
+  "text": "*GLA 开始在所有建筑中进驻配备火箭筒的精英卫队。渗透任何 GLA 基地时都要小心"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina030Subtitle",
+  "text": "*GLA 诡雷升级让叛军能在建筑和民用车辆上安装炸药，当敌人试图占领或进驻时就会爆炸。留意在你所在区域的建筑附近游荡的叛军"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina031Subtitle",
+  "text": "*GLA 的诡计又上了一个台阶。他们正在建造看起来和真实建筑一样的伪建筑，但那只是装了诡雷的空壳。从远处摧毁一切，以免遭遇 GLA 的惊喜"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina032Subtitle",
+  "text": "*GPS 干扰器以一片区域内的单位为目标，使其对常规探测隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina033Subtitle",
+  "text": "*偷袭技能让 GLA 将军能在任何已探索的地方放置一个没有防御能力的地道网。它虽然比普通地道稍弱，但与主地道网相连"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina034Subtitle",
+  "text": "*火炮平台是一门固定位置的火炮，能单独控制一片区域，抵御敌人进攻。在任何战场上都应优先占领"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina035Subtitle",
+  "text": "*增援平台可定期免费空投装甲部队。免费的战斗大师能扭转任何战斗"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina036Subtitle",
+  "text": "*占领科技维修站后，任何地面载具都能在战场上维修。在前沿阵地修复受损装甲可能决定胜负"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA001Subtitle",
+  "text": "*小心美国哨兵无人机，将军；它能看到隐形单位，而且常常装有机枪"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA002Subtitle",
+  "text": "*美国微波坦克的光束能瘫痪建筑和单位。只能以大部队攻击它"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA003Subtitle",
+  "text": "*美国术士坦克的光束能瘫痪建筑和单位。只能以大部队攻击它"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA004Subtitle",
+  "text": "*美国复仇者是一种强大的激光防空载具……但我们没有飞机，所以它的威胁很小"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA005Subtitle",
+  "text": "*美国幽灵炮艇是一种装有大口径火炮的大型飞机。不要与它交战——躲到地下，直到它离开该区域"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA006Subtitle",
+  "text": "*有了防化服升级，敌方步兵对我们的毒素更有抵抗力。但这挡不住我们的子弹，对吧？"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA007Subtitle",
+  "text": "*反制措施升级会降低敌方火力对美国空中单位的效果。导弹经常打偏，子弹造成的伤害也更小"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA008Subtitle",
+  "text": "*美国的地狱火无人机升级只是一架挂着导弹的小玩具飞机。又一个美国人懦弱战术的例子"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA009Subtitle",
+  "text": "*钻地导弹是美国隐形战机和极光轰炸机的升级。他们用它来攻击我们的碉堡"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA010Subtitle",
+  "text": "*补给线升级提高美国从补给站、空投补给和油井收集资源的速度"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA011Subtitle",
+  "text": "*美国的传单空投会让我们的单位停下来阅读宣传品，从而暂时瘫痪"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA012Subtitle",
+  "text": "*MOAB 是燃料空气炸弹的升级，带有震慑能力，能暂时瘫痪幸存的单位和建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA013Subtitle",
+  "text": "*火力基地是美国人对我们毒刺导弹阵地的回应……但要小心中间那门大炮"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA014Subtitle",
+  "text": "*中国的凝固汽油弹是赫利克斯的升级，能投下一对炸弹，形成大范围火焰风暴"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA015Subtitle",
+  "text": "*监听站是中国用来搜寻我们隐形单位的慢速隐形载具。避开它们以保持隐蔽"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA016Subtitle",
+  "text": "*中国的赫利克斯 2 是一种慢速运输直升机，可搭载步兵或一辆载具"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA017Subtitle",
+  "text": "*中国 ECM 坦克是一种能干扰电子追踪系统、使敌方导弹偏离目标的载具"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA018Subtitle",
+  "text": "*中子炮弹是中国核弹炮的升级，使其能发射中子炮弹。这种炮弹会杀死爆炸范围内的所有步兵和载具驾驶员"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA019Subtitle",
+  "text": "*中国新的系统入侵技术让黑客能从敌人那里窃取随机技能。这就是依赖电力打仗的下场"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA020Subtitle",
+  "text": "*地毯式轰炸机是一种沿目标路线投下一连串炸弹、歼灭敌人的飞机"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA021Subtitle",
+  "text": "*中子地雷是中国标准地雷的替代品，能瘫痪载具。这种地雷仍然能杀死步兵"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA022Subtitle",
+  "text": "*网络中心能提高中国黑客的效率"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA023Subtitle",
+  "text": "*卫星入侵 I 是网络中心的升级，让中国能看到每个对手的指挥中心"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA024Subtitle",
+  "text": "*卫星入侵 II 是中国网络中心的升级，能暂时显示整张地图，并显示隐形物体"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA025Subtitle",
+  "text": "*破坏者是一种隐形单位，能攀爬悬崖，并通过进入敌方建筑来影响它们"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA026Subtitle",
+  "text": "*我们新的战斗摩托装有机枪，还能借助乘坐步兵的能力获得强化"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA027Subtitle",
+  "text": "*战斗巴士是一种慢速运输载具，最多可载 8 名步兵，他们可以从车内射击。巴士被摧毁后，车身会留下来并发挥碉堡的作用"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA028Subtitle",
+  "text": "*工人鞋升级能提高我们所有忠诚工人的速度和采集效率"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA029Subtitle",
+  "text": "*伪装网是我们基地防御建筑的升级，使其能够隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA030Subtitle",
+  "text": "*精英卫队升级是一项建筑能力，会让 4 名火箭兵进驻该建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA031Subtitle",
+  "text": "*诡雷是叛军的升级，让他能在建筑和民用车辆上安装炸药，当敌人试图占领或进驻时就会爆炸。被占领的建筑会自动装上诡雷"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA032Subtitle",
+  "text": "*伪建筑造价大大降低。这些建筑起初只是装了诡雷的空壳，但可以升级为功能完整的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA033Subtitle",
+  "text": "*我们新获得的 GPS 干扰器以一片区域内的单位为目标，使其对敌人隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA034Subtitle",
+  "text": "*我们的偷袭能在任何已探索的地方放置一个没有防御能力的地道网。它虽然比普通地道稍弱，但与主地道网相连"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA035Subtitle",
+  "text": "*火炮平台的武器在射程和伤害上与美国战略中心相似。占领它或避开它致命的火炮"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA036Subtitle",
+  "text": "*增援平台会定期为我们的事业送来一队蝎子坦克"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA037Subtitle",
+  "text": "*维修站是前线载具维修设施。它像军火商一样维修载具"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA001Subtitle",
+  "text": "*哨兵无人机是一种能追踪敌人动向的机动单位，包括伪装的敌人。哨兵无人机不移动时本身也能隐形，并可在战略中心升级反步兵机枪"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA002Subtitle",
+  "text": "*微波坦克装备定向能微波面板，能瘫痪目标建筑和载具。它还会发出持续的微波场，伤害步兵"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA003Subtitle",
+  "text": "*术士坦克装备定向能微波面板，能瘫痪目标建筑和载具。它还会发出持续的微波场，伤害步兵"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA004Subtitle",
+  "text": "*复仇者是一种激光防空载具，能击落导弹和飞机。它还能为攻击其“标记”目标的单位提供加成"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA005Subtitle",
+  "text": "*幽灵炮艇是一种大型喷气式飞机，机翼上装有多套武器系统。它在目标上空盘旋时会自动搜索敌人。也可以手动指定目标，还能升级释放反制措施"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA006Subtitle",
+  "text": "*有了防化服升级，步兵对毒素和辐射更有抵抗力"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA007Subtitle",
+  "text": "*反制措施升级会降低敌方火力对美国空中单位的效果。导弹经常打偏，子弹造成的伤害也更小"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA008Subtitle",
+  "text": "*地狱火无人机升级为母载具配备一架能发射一枚导弹的无人机。无人机会自动搜索目标，并需要时间重新装弹"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA009Subtitle",
+  "text": "*钻地导弹是隐形战机和极光轰炸机的升级。除了正常效果外，这些升级后的导弹还能伤害甚至杀死建筑内驻守的单位，包括 GLA 宫殿、地道网和中国战斗碉堡"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA010Subtitle",
+  "text": "*补给线升级提高从补给站、空投补给和油井收集的资金数量"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA011Subtitle",
+  "text": "*传单空投会让单位停下来阅读宣传品，从而暂时瘫痪。飞机在目标区域上空撒下传单，效果只持续很短时间"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA012Subtitle",
+  "text": "*MOAB 是燃料空气炸弹的升级，带有震慑能力，能暂时瘫痪幸存的单位和建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA013Subtitle",
+  "text": "*火力基地由沙袋围起，配有一门榴弹炮和 4 个射击位。进入火力基地的步兵会在沙袋后占据射击位"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA014Subtitle",
+  "text": "*凝固汽油弹是赫利克斯的升级，能投下一对炸弹，形成大范围火焰风暴"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA015Subtitle",
+  "text": "*监听站是一种行动缓慢的隐形载具，视野范围很大，可由 2 名步兵进驻担任警卫。除了发现隐形物体，点击射程内的单位还能判断敌人的去向"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA016Subtitle",
+  "text": "*赫利克斯 2 是一种慢速运输直升机，可搭载步兵或一辆载具。虽然只配备一挺轻机枪，但可以升级加特林机炮、宣传塔或战斗碉堡，还可以升级携带一枚大型凝固汽油弹"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA017Subtitle",
+  "text": "*ECM 坦克是一种能干扰电子追踪系统、使敌方导弹偏离目标的载具。它的 ECM 脉冲可以瘫痪单辆敌方载具。此外，它还会产生雷达干扰场，使范围内的所有无人机失效"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA018Subtitle",
+  "text": "*中子炮弹是中国核弹炮的升级，使其能发射中子炮弹。这种炮弹会杀死爆炸范围内的所有步兵和载具驾驶员"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA019Subtitle",
+  "text": "*系统入侵让你的黑客能从敌人那里窃取一项随机技能。1 级可窃取 1 级或 3 级技能，2 级可窃取五星技能"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA020Subtitle",
+  "text": "*地毯式轰炸机是一种沿目标路线投下一连串炸弹、歼灭敌人的飞机"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA021Subtitle",
+  "text": "*中子地雷是中国标准地雷的替代品，能瘫痪载具。这种地雷仍然能杀死步兵"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA022Subtitle",
+  "text": "*网络中心能提高黑客赚钱的效率，并能使用卫星入侵 I 和 II"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA023Subtitle",
+  "text": "*卫星入侵 I 是网络中心的升级，能显示每个对手指挥中心周围的区域"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA024Subtitle",
+  "text": "*卫星入侵 II 是网络中心的升级，能暂时显示整张地图，并显示隐形物体"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA025Subtitle",
+  "text": "*破坏者是一种隐形单位，能攀爬悬崖，并通过进入敌方建筑来影响它们。进入发电厂会暂时切断电力，进入超级武器会重置其计时器。进入敌方指挥中心的破坏者会重置敌方所有将军技能的计时器"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA026Subtitle",
+  "text": "*战斗摩托最初配有一名叛军驾驶员和一挺车载机枪。换成火箭兵后摩托可以发射火箭。恐怖分子会变成自杀摩托。贾曼·凯尔、劫车犯和破坏者也能驾驶，使摩托隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA027Subtitle",
+  "text": "*战斗厢车是一种慢速运输载具，最多可载 8 名步兵，他们可以从车内射击。厢车被摧毁后，车身会留下来并发挥碉堡的作用。如果它被摧毁，车内所有人也会死亡"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA028Subtitle",
+  "text": "*工人鞋升级能提高所有 GLA 工人的速度和采集效率"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA029Subtitle",
+  "text": "*伪装网是 GLA 基地防御建筑的升级，使其能够隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA030Subtitle",
+  "text": "*精英卫队升级是一项建筑能力，会让 4 名火箭兵进驻该建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA031Subtitle",
+  "text": "*诡雷是叛军的升级，让他能在建筑和民用车辆上安装炸药，当敌人试图占领或进驻时就会爆炸。爆炸会伤害小范围内的一切。被升级后的叛军占领的建筑会自动装上诡雷"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA032Subtitle",
+  "text": "*伪建筑造价大大降低。这些建筑起初只是装了诡雷的空壳，但可以升级为功能完整的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA033Subtitle",
+  "text": "*GPS 干扰器以一片区域内的单位为目标，使其对敌人隐形"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA034Subtitle",
+  "text": "*偷袭能在任何已探索的地方放置一个没有防御能力的地道网。它虽然比普通地道稍弱，但与主地道网相连"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA035Subtitle",
+  "text": "*火炮平台装备一门大口径榴弹炮。它是出色的压制武器，也是发动进攻的良好集结点"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA036Subtitle",
+  "text": "*增援平台会定期为玩家增援一辆本阵营的主战坦克（蝎子坦克、战斗大师、十字军坦克）"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA037Subtitle",
+  "text": "*维修站是载具维修设施。载具必须像停靠战车工厂一样停靠在该建筑上"
+ },
+ {
+  "label": "TOOLTIP:Community",
+  "text": "根据所有在线游戏计算的各阵营胜率"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildHelix",
+  "text": "重型运输机\n可升级基地防御建筑和核炸弹\n\n强于：坦克、轻型载具\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "MAP:CHI01xListeningPostHint01",
+  "text": "提示：\n隐藏的爆破陷阱进入监听站的视野范围时会显形"
+ },
+ {
+  "label": "OBJECT:SupW_PatriotBattery",
+  "text": "EMP 爱国者系统"
+ },
+ {
+  "label": "CONTROLBAR:SupW_ConstructAmericaPatriotBattery",
+  "text": "EMP 爱国者系统(&M)"
+ },
+ {
+  "label": "CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery",
+  "text": "对地和对空防御。可将敌人位置传递给附近的爱国者\n\n所需电力：3"
+ },
+ {
+  "label": "MAP:USA03xBurtonSurvive",
+  "text": "收到通讯：\n伯顿上校必须存活"
+ },
+ {
+  "label": "MAP:MD_GLA04_GatherHint",
+  "text": "提示：\n选中运输卡车，命令它们从毒素设施收集资源"
+ },
+ {
+  "label": "MAP:MD_GLA04_HospitalHint",
+  "text": "提示：\n医院会让你的单位自动治疗"
+ },
+ {
+  "label": "MAP:MD_GLA04_TractorsHint",
+  "text": "提示：\n毒素拖拉机能杀死被驻守建筑内的单位"
+ },
+ {
+  "label": "OBJECT:AssaultTroopTransport",
+  "text": "突击运兵车"
+ },
+ {
+  "label": "OBJECT:AssaultListeningOutpost",
+  "text": "攻击前哨站"
+ },
+ {
+  "label": "UPGRADE:IsotopeStability",
+  "text": "同位素稳定"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "使机枪兵能够占领敌方建筑和科技建筑"
+ },
+ {
+  "label": "OBJECT:Lazr_PatriotBattery",
+  "text": "激光防御炮塔"
+ },
+ {
+  "label": "SCIENCE:Infa_ChinaRedGuardTraining",
+  "text": "机枪兵训练"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaScienceRedGuardTraining",
+  "text": "所有机枪兵出厂即为精英"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncherBoss",
+  "text": "发射核导弹。研发重要的中国升级\n\n所需电力：10\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannonBoss",
+  "text": "向地图任意位置发射粒子光束\n\n所需电力：10\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBikeTerrorist",
+  "text": "快速且用途广泛\n附带一名恐怖分子\n弱于：飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSuperHacker",
+  "text": "可用电脑病毒瘫痪敌方建筑和载具，或入侵互联网窃取资金。处于伪装状态\n\n强于：建筑\n弱于：步兵、载具"
+ },
+ {
+  "label": "UPGRADE:Demo_SuicideBomb",
+  "text": "爆破"
+ },
+ {
+  "label": "UPGRADE:AirF_StealthComanche",
+  "text": "隐形科曼奇"
+ },
+ {
+  "label": "UPGRADE:HighExplosiveTrap",
+  "text": "高爆爆破陷阱"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_0",
+  "text": "空军将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_1",
+  "text": "毒素将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_2",
+  "text": "核武将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_3",
+  "text": "超级武器将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_4",
+  "text": "坦克将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_5",
+  "text": "激光将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_6",
+  "text": "隐形将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_7",
+  "text": "步兵将军挑战"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_8",
+  "text": "爆破将军挑战"
+ },
+ {
+  "label": "OBJECT:RocketDrop",
+  "text": "火箭"
+ },
+ {
+  "label": "OBJECT:RocketBomb",
+  "text": "火箭"
+ },
+ {
+  "label": "OBJECT:PTBoat",
+  "text": "巡逻艇"
+ },
+ {
+  "label": "OBJECT:ShiekLimo",
+  "text": "豪华轿车"
+ },
+ {
+  "label": "OBJECT:Dock",
+  "text": "码头"
+ },
+ {
+  "label": "OBJECT:RailroadBridgeH",
+  "text": "铁路桥"
+ },
+ {
+  "label": "OBJECT:RepairDrone",
+  "text": "维修无人机"
+ },
+ {
+  "label": "OBJECT:CINE_Carrier",
+  "text": "航空母舰"
+ },
+ {
+  "label": "OBJECT:SpectreGunship",
+  "text": "幽灵炮艇"
+ },
+ {
+  "label": "SCIENCE:LaserCannon",
+  "text": "激光炮"
+ },
+ {
+  "label": "OBJECT:LaserCannon",
+  "text": "激光炮"
+ },
+ {
+  "label": "UPGRADE:TacticalNukeMig",
+  "text": "战术核弹米格"
+ },
+ {
+  "label": "OBJECT:FuelAirBomb",
+  "text": "燃料空气炸弹"
+ },
+ {
+  "label": "OBJECT:CruiseMissile",
+  "text": "巡航导弹"
+ },
+ {
+  "label": "OBJECT:Ox",
+  "text": "牛"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTacticalNukeMig",
+  "text": "为米格升级发射小型核弹"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTacticalNukeMig",
+  "text": "战术核弹米格(&G)"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildBarracks",
+  "text": "训练士兵"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildAirField",
+  "text": "生产飞机\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildBunker",
+  "text": "可容纳 5 名士兵"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildWarFactory",
+  "text": "生产载具\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildSupplyCenter",
+  "text": "补给采集单位的卸货点\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:Infa_TooltipParaDrop",
+  "text": "用飞机空投机枪兵\n\n冷却时间：4:00"
+ }
+]

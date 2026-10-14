@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Scatter",
+  "text": "흩어지기"
+ },
+ {
+  "label": "GUI:StopObject",
+  "text": "정지"
+ },
+ {
+  "label": "GUI:StopObjectDescription",
+  "text": "선택한 오브젝트 정지"
+ },
+ {
+  "label": "GUI:GoToRadarEvent",
+  "text": "레이더 이벤트로 이동"
+ },
+ {
+  "label": "GUI:GoToRadarEventDescription",
+  "text": "마지막 레이더 이벤트로 전술 화면 이동"
+ },
+ {
+  "label": "GUI:SaveView1",
+  "text": "북마크 1 설정"
+ },
+ {
+  "label": "GUI:SaveView1Description",
+  "text": "맵 위치 북마크 1 설정"
+ },
+ {
+  "label": "GUI:SaveView2",
+  "text": "북마크 2 설정"
+ },
+ {
+  "label": "GUI:SaveView2Description",
+  "text": "맵 위치 북마크 2 설정"
+ },
+ {
+  "label": "GUI:SaveView3",
+  "text": "북마크 3 설정"
+ },
+ {
+  "label": "GUI:SaveView3Description",
+  "text": "맵 위치 북마크 3 설정"
+ },
+ {
+  "label": "GUI:SaveView4",
+  "text": "북마크 4 설정"
+ },
+ {
+  "label": "GUI:SaveView4Description",
+  "text": "맵 위치 북마크 4 설정"
+ },
+ {
+  "label": "GUI:ViewView1",
+  "text": "북마크 1 보기"
+ },
+ {
+  "label": "GUI:ViewView1Description",
+  "text": "북마크한 맵 위치 1 보기"
+ },
+ {
+  "label": "GUI:ViewView2",
+  "text": "북마크 2 보기"
+ },
+ {
+  "label": "GUI:ViewView2Description",
+  "text": "북마크한 맵 위치 2 보기"
+ },
+ {
+  "label": "GUI:ViewView3",
+  "text": "북마크 3 보기"
+ },
+ {
+  "label": "GUI:ViewView3Description",
+  "text": "북마크한 맵 위치 3 보기"
+ },
+ {
+  "label": "GUI:ViewView4",
+  "text": "북마크 4 보기"
+ },
+ {
+  "label": "GUI:ViewView4Description",
+  "text": "북마크한 맵 위치 4 보기"
+ },
+ {
+  "label": "GUI:CenterBase",
+  "text": "기지로 이동"
+ },
+ {
+  "label": "GUI:CenterBaseDescription",
+  "text": "화면을 플레이어 기지로 이동"
+ },
+ {
+  "label": "GUI:SelectNone",
+  "text": "선택 해제"
+ },
+ {
+  "label": "GUI:SelectAll",
+  "text": "전체 선택"
+ },
+ {
+  "label": "GUI:SelectAllDescription",
+  "text": "모든 전투 유닛 선택"
+ },
+ {
+  "label": "GUI:SelectNextUnit",
+  "text": "다음 오브젝트"
+ },
+ {
+  "label": "GUI:SelectNextUnitDescription",
+  "text": "다음 오브젝트 선택"
+ },
+ {
+  "label": "GUI:SelectPrevUnit",
+  "text": "이전 오브젝트"
+ },
+ {
+  "label": "GUI:SelectPrevUnitDescription",
+  "text": "이전 유닛 선택"
+ },
+ {
+  "label": "GUI:SelectNextWorker",
+  "text": "다음 일꾼"
+ },
+ {
+  "label": "GUI:SelectNextWorkerDescription",
+  "text": "다음 일꾼 선택"
+ },
+ {
+  "label": "GUI:SelectPrevWorker",
+  "text": "이전 일꾼"
+ },
+ {
+  "label": "GUI:SelectPrevWorkerDescription",
+  "text": "이전 일꾼 선택"
+ },
+ {
+  "label": "GUI:TypeSelect",
+  "text": "같은 종류 선택"
+ },
+ {
+  "label": "GUI:TypeSelectDescription",
+  "text": "종류별로 유닛을 선택합니다. 유닛을 왼쪽 더블클릭하면 같은 종류를 모두 선택합니다"
+ },
+ {
+  "label": "GUI:CreateTeam0",
+  "text": "0번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam0Description",
+  "text": "현재 선택한 유닛으로 0번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam1",
+  "text": "1번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam1Description",
+  "text": "현재 선택한 유닛으로 1번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam2",
+  "text": "2번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam2Description",
+  "text": "현재 선택한 유닛으로 2번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam3",
+  "text": "3번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam3Description",
+  "text": "현재 선택한 유닛으로 3번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam4",
+  "text": "4번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam4Description",
+  "text": "현재 선택한 유닛으로 4번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam5",
+  "text": "5번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam5Description",
+  "text": "현재 선택한 유닛으로 5번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam6",
+  "text": "6번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam6Description",
+  "text": "현재 선택한 유닛으로 6번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam7",
+  "text": "7번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam7Description",
+  "text": "현재 선택한 유닛으로 7번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam8",
+  "text": "8번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam8Description",
+  "text": "현재 선택한 유닛으로 8번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:CreateTeam9",
+  "text": "9번 부대 지정"
+ },
+ {
+  "label": "GUI:CreateTeam9Description",
+  "text": "현재 선택한 유닛으로 9번 부대를 만듭니다"
+ },
+ {
+  "label": "GUI:SelectTeam0",
+  "text": "0번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam0Description",
+  "text": "0번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam1",
+  "text": "1번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam1Description",
+  "text": "1번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam2",
+  "text": "2번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam2Description",
+  "text": "2번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam3",
+  "text": "3번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam3Description",
+  "text": "3번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam4",
+  "text": "4번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam4Description",
+  "text": "4번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam5",
+  "text": "5번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam5Description",
+  "text": "5번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam6",
+  "text": "6번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam6Description",
+  "text": "6번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam7",
+  "text": "7번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam7Description",
+  "text": "7번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam8",
+  "text": "8번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam8Description",
+  "text": "8번 부대원 선택"
+ },
+ {
+  "label": "GUI:SelectTeam9",
+  "text": "9번 부대 선택"
+ },
+ {
+  "label": "GUI:SelectTeam9Description",
+  "text": "9번 부대원 선택"
+ },
+ {
+  "label": "GUI:ViewTeam0",
+  "text": "0번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam0Description",
+  "text": "0번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam1",
+  "text": "1번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam1Description",
+  "text": "1번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam2",
+  "text": "2번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam2Description",
+  "text": "2번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam3",
+  "text": "3번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam3Description",
+  "text": "3번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam4",
+  "text": "4번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam4Description",
+  "text": "4번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam5",
+  "text": "5번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam5Description",
+  "text": "5번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam6",
+  "text": "6번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam6Description",
+  "text": "6번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam7",
+  "text": "7번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam7Description",
+  "text": "7번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam8",
+  "text": "8번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam8Description",
+  "text": "8번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:ViewTeam9",
+  "text": "9번 부대로 이동"
+ },
+ {
+  "label": "GUI:ViewTeam9Description",
+  "text": "9번 부대를 선택하고 화면을 이동합니다"
+ },
+ {
+  "label": "GUI:LocalIPDesc",
+  "text": "로컬 IP"
+ },
+ {
+  "label": "GUI:RemoteIPDesc",
+  "text": "원격 IP"
+ },
+ {
+  "label": "GUI:SaveCamera",
+  "text": "리플레이에 카메라 저장"
+ },
+ {
+  "label": "GUI:UseCamera",
+  "text": "리플레이에서 저장된 카메라 사용"
+ },
+ {
+  "label": "Mouse:Windows",
+  "text": "Windows 커서"
+ },
+ {
+  "label": "Mouse:W3D",
+  "text": "W3D 커서"
+ },
+ {
+  "label": "Mouse:Poly",
+  "text": "폴리곤 커서"
+ },
+ {
+  "label": "Mouse:DX8",
+  "text": "DX8 커서"
+ },
+ {
+  "label": "Mouse:Heal",
+  "text": "치료받기"
+ },
+ {
+  "label": "Mouse:GetRepaired",
+  "text": "수리받기"
+ },
+ {
+  "label": "Mouse:Dock",
+  "text": "도킹"
+ },
+ {
+  "label": "Mouse:DoRepair",
+  "text": "수리"
+ },
+ {
+  "label": "Mouse:ResumeConstruction",
+  "text": "건설 재개"
+ },
+ {
+  "label": "Mouse:Enter",
+  "text": "진입"
+ },
+ {
+  "label": "Mouse:SetRallyPoint",
+  "text": "집결지 설정"
+ },
+ {
+  "label": "Mouse:DisguiseAsVehicle",
+  "text": "이것으로 위장!"
+ },
+ {
+  "label": "Mouse:Invalid",
+  "text": "잘못됨"
+ },
+ {
+  "label": "Mouse:FireFlame",
+  "text": "불태우기"
+ },
+ {
+  "label": "Mouse:FireFlashBang",
+  "text": "섬광탄"
+ },
+ {
+  "label": "Mouse:FireTranqDarts",
+  "text": "마취 다트"
+ },
+ {
+  "label": "Mouse:FireStunBullets",
+  "text": "기절탄"
+ },
+ {
+  "label": "Mouse:MakeCarBomb",
+  "text": "차량 폭탄 만들기"
+ },
+ {
+  "label": "Mouse:Hijack",
+  "text": "탈취"
+ },
+ {
+  "label": "Mouse:FireBomb",
+  "text": "화염병\n투척"
+ },
+ {
+  "label": "Mouse:Defector",
+  "text": "귀순\n유도"
+ },
+ {
+  "label": "Mouse:CaptureBuilding",
+  "text": "건물 점령"
+ },
+ {
+  "label": "Mouse:DisableVehicleHack",
+  "text": "차량 무력화"
+ },
+ {
+  "label": "Mouse:StealCashHack",
+  "text": "자금 탈취"
+ },
+ {
+  "label": "Mouse:SnipeVehicle",
+  "text": "차량 저격"
+ },
+ {
+  "label": "Mouse:DisableBuildingHack",
+  "text": "건물 무력화"
+ },
+ {
+  "label": "Mouse:LaserGuidedMissiles",
+  "text": "레이저 유도 미사일"
+ },
+ {
+  "label": "Mouse:TankHunterTNTAttack",
+  "text": "TNT 공격"
+ },
+ {
+  "label": "Mouse:A10ThunderboltStrike",
+  "text": "A10 공습 위치"
+ },
+ {
+  "label": "Mouse:StabAttack",
+  "text": "찌르기"
+ },
+ {
+  "label": "Mouse:PlaceRemoteCharge",
+  "text": "원격 폭약 설치"
+ },
+ {
+  "label": "Mouse:PlaceTimedCharge",
+  "text": "시한 폭약 설치"
+ },
+ {
+  "label": "Mouse:RepairVehicles",
+  "text": "긴급 수리(&E)"
+ },
+ {
+  "label": "Mouse:Demoralize",
+  "text": "사기 저하"
+ },
+ {
+  "label": "Mouse:PickUpPrisoner",
+  "text": "포로 태우기"
+ },
+ {
+  "label": "Mouse:Return",
+  "text": "귀환"
+ },
+ {
+  "label": "Mouse:PlaceBeacon",
+  "text": "비컨 설치"
+ },
+ {
+  "label": "SCRIPT:TestString",
+  "text": "이건 그냥 테스트 문자열이야, 친구"
+ },
+ {
+  "label": "SCRIPT:LongTestString",
+  "text": "이건 정말 긴 테스트 문자열이야, 친구. 자동 줄 바꿈과 간격이 제대로 작동하는지 확인하는 거지"
+ },
+ {
+  "label": "SCIENCE:GeneralName",
+  "text": "<이름 입력>"
+ },
+ {
+  "label": "SCIENCE:SkillPoints",
+  "text": "스킬 포인트: %d"
+ },
+ {
+  "label": "SCIENCE:Rank",
+  "text": "레벨 %d"
+ },
+ {
+  "label": "SCIENCE:TempName",
+  "text": "과학 이름 지정"
+ },
+ {
+  "label": "SCIENCE:TempDescription",
+  "text": "Science.ini에 있는 제 설명을 채워 주세요! 정말 고마워요"
+ },
+ {
+  "label": "SCIENCE:USAPaladin",
+  "text": "팔라딘 전차"
+ },
+ {
+  "label": "SCIENCE:USAPathFinder",
+  "text": "패스파인더"
+ },
+ {
+  "label": "SCIENCE:USAStealthFighter",
+  "text": "스텔스 전투기"
+ },
+ {
+  "label": "SCIENCE:USASpyDrone",
+  "text": "정찰 드론"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop1",
+  "text": "공수 강하 1"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop2",
+  "text": "공수 강하 2"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop3",
+  "text": "공수 강하 3"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike1",
+  "text": "A10 공습 1"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike2",
+  "text": "A10 공습 2"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike3",
+  "text": "A10 공습 3"
+ },
+ {
+  "label": "SCIENCE:USADaisyCutter",
+  "text": "연료 기화 폭탄"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeLauncher",
+  "text": "핵 캐논"
+ },
+ {
+  "label": "SCIENCE:ChinaRedGuardTraining",
+  "text": "레드가드 훈련"
+ },
+ {
+  "label": "SCIENCE:ChinaClusterMines",
+  "text": "집속 지뢰"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryTraining",
+  "text": "포병 훈련"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage",
+  "text": "포격 1"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage2",
+  "text": "포격 2"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage3",
+  "text": "포격 3"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack1",
+  "text": "자금 해킹 1"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack2",
+  "text": "자금 해킹 2"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack3",
+  "text": "자금 해킹 3"
+ },
+ {
+  "label": "SCIENCE:ChinaEMPPulse",
+  "text": "EMP 펄스"
+ },
+ {
+  "label": "SCIENCE:GLAHijacker",
+  "text": "하이재커"
+ },
+ {
+  "label": "SCIENCE:GLASCUDLauncher",
+  "text": "스커드 런처"
+ },
+ {
+  "label": "SCIENCE:GLAMaruaderTank",
+  "text": "마라우더 전차"
+ },
+ {
+  "label": "SCIENCE:GLATechnicalTraining",
+  "text": "테크니컬 훈련"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush1",
+  "text": "반군 매복 1"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush2",
+  "text": "반군 매복 2"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush3",
+  "text": "반군 매복 3"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty1",
+  "text": "현상금 1"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty2",
+  "text": "현상금 2"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty3",
+  "text": "현상금 3"
+ },
+ {
+  "label": "SCIENCE:GLAAnthraxBomb",
+  "text": "탄저균 폭탄"
+ },
+ {
+  "label": "CONTROLBAR:Demoralize",
+  "text": "사기 저하"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligence",
+  "text": "정보(&C)"
+ },
+ {
+  "label": "CONTROLBAR:CombatDrop",
+  "text": "강습 투입(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Guard",
+  "text": "경계(&G)"
+ },
+ {
+  "label": "CONTROLBAR:GuardWithoutPursuit",
+  "text": "근접 경계(&C)"
+ },
+ {
+  "label": "CONTROLBAR:GuardFlyingUnitsOnly",
+  "text": "대공 경계(&R)"
+ },
+ {
+  "label": "CONTROLBAR:AttackMove",
+  "text": "공격 이동(&A)"
+ },
+ {
+  "label": "CONTROLBAR:Stop",
+  "text": "정지(&S)"
+ },
+ {
+  "label": "CONTROLBAR:Waypoints",
+  "text": "경유지(&T)"
+ },
+ {
+  "label": "CONTROLBAR:CancelBuild",
+  "text": "건설 취소(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Contaminate",
+  "text": "오염(&C)"
+ },
+ {
+  "label": "CONTROLBAR:FireWall",
+  "text": "화염벽(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAArmTheMob",
+  "text": "폭도 무장(&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordGattlingCannon",
+  "text": "개틀링 캐논(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordPropagandaTower",
+  "text": "선전탑(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordBattleBunker",
+  "text": "전투 벙커(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireBomb",
+  "text": "화염 폭탄(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UnderConstructionDesc",
+  "text": "건설 중: %.0f%%"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDesc",
+  "text": "다음 투하까지: %d:%d"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDescWithPadding",
+  "text": "다음 투하까지: %d:0%d"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanBombardment",
+  "text": "포격 작전(&B)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanHoldTheLine",
+  "text": "전선 사수 작전(&O)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanSearchAndDestroy",
+  "text": "수색 섬멸 작전(&D)"
+ }
+]

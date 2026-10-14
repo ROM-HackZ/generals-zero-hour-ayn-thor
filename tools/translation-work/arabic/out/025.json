@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA090Subtitle",
+  "text": "*أشعر أن ساعة هلاكك تقترب أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA091Subtitle",
+  "text": "*قواتك بدأت تُجتاح أيها الجنرال. قريبًا ستصبح أسيرة لديّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA092Subtitle",
+  "text": "*نركلك كما تُركل عنزة جريحة أيها الجنرال. اعترف بالهزيمة لتريح نفسك من العذاب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA093Subtitle",
+  "text": "*لقد هُزمت. هذا مصير كل من يقف ضدي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA094Subtitle",
+  "text": "*أنت أحمق لأنك تحديتني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA095Subtitle",
+  "text": "*كل قوى جيش التحرير العالمي تحت تصرفي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA096Subtitle",
+  "text": "*أنا أخطر من جنرالاتي الثلاثة مجتمعين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA097Subtitle",
+  "text": "*لقد فزت أيها الجنرال. لماذا تواصل تعذيبي بتفحّص هذه الإحصاءات؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA098Subtitle",
+  "text": "*نعم، الآن ترى لماذا خسرت... الأرقام تتحدث عن نفسها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA099Subtitle",
+  "text": "*قطعت طريقًا طويلًا وواجهت خصومًا كثيرين لتصل إليّ أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA100Subtitle",
+  "text": "*أثني على جهودك، لكنها لم تعدّك إطلاقًا لما أنت مقبل عليه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA101Subtitle",
+  "text": "*واجهت محاربي الدكتور ثراكس السامّين، وجحافل قصّاد المتخفية، ومتفجرات جوزيز، لكنني أنا من علّمهم جميعًا فن الحرب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA102Subtitle",
+  "text": "*ستكون هذه معركتك الأخيرة أيها الجنرال. عسى أن ترحمك الآلهة التي تدعوها... لأنني لن أرحمك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA103Subtitle",
+  "text": "*ستكون هذه معركتك الأخيرة أيها الجنرال. تصالح مع نفسك واستعد للنهاية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA001Subtitle",
+  "text": "*ها أنت ذا. فات أوان الهرب يا ولد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA002Subtitle",
+  "text": "*أرجو أنك مستعد، لأننا قادمون إليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA003Subtitle",
+  "text": "*جهّز المائدة يا صغير، لأننا قادمون على العشاء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA004Subtitle",
+  "text": "*عندي ثلاثة أشياء أعلّمك إياها يا صغير: كيف تخسر، وكيف تبكي، وكيف تموت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA005Subtitle",
+  "text": "*سنهاجم قريبًا، فأخرج كل راياتك البيضاء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA006Subtitle",
+  "text": "*ها نحن قادمون يا صغير... حاول ألا تبلل نفسك، اتفقنا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA007Subtitle",
+  "text": "*أي جزء من كلمة \"مُت\" لم تفهمه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA008Subtitle",
+  "text": "*أوه، الآن ستنال جزاءك يا صغير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA009Subtitle",
+  "text": "*مستعد؟ لأن هذا تكتيك ربما تعلمته في المدرسة. مستعد للعودة إلى المدرسة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA010Subtitle",
+  "text": "*حان الوقت لأعلّمك شيئًا أو اثنين عن ظهر يدي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA011Subtitle",
+  "text": "*كان عليك الهرب حين سنحت لك الفرصة. الآن سأعلّمك معنى الاحترام"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA012Subtitle",
+  "text": "*إذن، بخصوص جنازتك... تابوت مفتوح أم مغلق؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA013Subtitle",
+  "text": "*سأزحف إلى قاعدتك وأزرع قدمي في مؤخرتك يا <بسخرية> \"جنرال\"."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA014Subtitle",
+  "text": "*ها نحن قادمون يا صعلوك--تنحَّ جانبًا أو تُداس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA015Subtitle",
+  "text": "*تسمّي نفسك \"جنرالًا\"؟ أنا أسمّيك وجع رأس، هذا ما أسمّيك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA016Subtitle",
+  "text": "*هذه فكرتك عن الاستراتيجية؟ عن التكتيك؟ \"كتلة دبابات\" أفضل ما لديك؟ مثير للشفقة... مثير للشفقة فعلًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA017Subtitle",
+  "text": "*نعم، قرأت صن تزو أنا أيضًا يا بطل: \"العدو أكبر--انسحب. العدو أصغر--هاجم.\" أهذا كل ما عندك لي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA018Subtitle",
+  "text": "*إذن أين جيشك يا ولد؟ أم أنك تريدها بالقبضات العارية؟ لأنني سأصفعك بيديّ إن أردت. تريد شيئًا من هذا يا ولد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA019Subtitle",
+  "text": "*أيقظتني من النوم من أجل هذا؟ يجب أن أمدّك على ركبتي الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA020Subtitle",
+  "text": "*عندي أوسمة أكثر من أسنانك يا ولد... ولن يكون هذا كثيرًا بعد أن أنتهي من خلعها لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA021Subtitle",
+  "text": "*تضع كل دفاعاتك في مقدمة قاعدتك؟ ألا تظن أننا نستطيع الالتفاف حولها؟ هاه، تظن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA022Subtitle",
+  "text": "*يا ولد، أتظنني ألعب معك؟ الأفضل أن تعيد التفكير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA023Subtitle",
+  "text": "*الأفضل أن تتفقد أجنابك يا صاحبي؛ أظن أن بعض جنودي تسللوا للتو إلى قاعدتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA024Subtitle",
+  "text": "*أتظن أن هذه لعبة؟ هاه، تظن؟ انتظر، لا تجب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA025Subtitle",
+  "text": "*يا صغير، من علّمك التكتيكات العسكرية؟ هاه؟ لأن عليك أن تذهب وتصفعه على فمه، أقول لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA026Subtitle",
+  "text": "*خلفي الجيش الأمريكي بأكمله يا ابني، وقد قررت للتو أننا لا نحبك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA027Subtitle",
+  "text": "*هل تكتيكك هذا نكتة ما لا أعرفها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA028Subtitle",
+  "text": "*إذن أنت لست جنرالًا حقيقيًا، صح؟ أنت مثل أمين عام نادٍ رياضي أو شيء من هذا القبيل، صح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA029Subtitle",
+  "text": "*هل تعرف ماما أنك خرجت وحدك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA030Subtitle",
+  "text": "*يمكنك أن تخبرني... كلنا جنرالات هنا... هل يعرف رجالك أنك فاشل؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA031Subtitle",
+  "text": "*هل تعلم أنك خسرت للتو مبنى تقنيًا يا بطل؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA032Subtitle",
+  "text": "*فجّرت ثكناتك للتو يا شاطر. ماذا ستفعل حيال ذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA033Subtitle",
+  "text": "*ها قد ذهب مصنع حربك. هل غضبت بعد يا ولد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA034Subtitle",
+  "text": "*لا أعرف لماذا تعبت ببناء ذلك المطار إن لم تكن ستحميه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA035Subtitle",
+  "text": "*من وضع دفاعات القاعدة هكذا؟ لا يمكنها الدفاع عن شيء بهذا الشكل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA036Subtitle",
+  "text": "*يجب أن أدعك تبني مركز قيادة آخر فقط لأهدمه مجددًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA037Subtitle",
+  "text": "*أشعر أنني أركل قلاعًا من الرمل. كم مبنى من مبانيك ستدعني أدمّر يا بطل؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA038Subtitle",
+  "text": "*تركت لك ذلك المبنى التقني يا ولد. لا أحتاجه لأهزمك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA039Subtitle",
+  "text": "*يا صغير، تلك الثكنات لم تكن هدفًا عسكريًا. افعلها مرة أخرى وستسوء الأمور"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA040Subtitle",
+  "text": "*الأفضل أن تتراجع يا ابني--لن أسكت على تفجيرك مصانع حربي، أسمعت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA041Subtitle",
+  "text": "*هل تعرف كم تكلّف تلك الطائرات؟ كان بإمكاني إطعام العالم كله بما دمّرته للتو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA042Subtitle",
+  "text": "*تكسر دفاعاتي، هاه؟ حسنًا، استمر--هذا سيمنحني ما يكفي من الوقت لاجتياح قاعدتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA043Subtitle",
+  "text": "*يكفي مبانٍ يا ابني. لماذا لا تجرب مهاجمة قواتي الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA044Subtitle",
+  "text": "*مركز قيادتي؟! أتظن أنني سأجلس هنا وأتقبّل ذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA045Subtitle",
+  "text": "*الأفضل أن تترك طياريّ وشأنهم يا ولد. الطائرات شيء، أما طياريّ فدعهم يعودون سالمين، أسمعت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA046Subtitle",
+  "text": "*أنت ماكر صغير، أليس كذلك؟ لكن أظن أن ما دمّرته من مركباتي يكفي، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA047Subtitle",
+  "text": "*لنرسل المدرعات والدعم الجوي إلى هناك--جنودنا يُمزَّقون!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA048Subtitle",
+  "text": "*اترك برج النفط ذاك يا ولد. هذه الحرب ليست من أجل سعر البنزين، تعرف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA049Subtitle",
+  "text": "*تظن أنك تعرف كيف تستخدم منصة المدفعية تلك يا ابني؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA050Subtitle",
+  "text": "*مصفاة النفط تلك ليست هدفًا مشروعًا يا ابني. وهي ليست لك، لذا نحن قادمون لاستعادتها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA051Subtitle",
+  "text": "*إذن تمكّنت من الوصول إلى جهتي من الخريطة. لم أظن أنك تقدر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA052Subtitle",
+  "text": "*تنوي الهجوم، أم ستقف هناك طوال اليوم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA053Subtitle",
+  "text": "*ستخرج من قاعدتي إن كنت تعرف مصلحتك يا ولد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA054Subtitle",
+  "text": "*العدو داخل محيطنا--جميع القوات تصدّ الغزاة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA055Subtitle",
+  "text": "*تلك ليست إمداداتك يا بطل. الأفضل أن تبتعد الآن قبل أن تتأذى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA056Subtitle",
+  "text": "*هجوم على الجناح؟! لا تضحكني يا ولد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA057Subtitle",
+  "text": "*تحاول الهجوم من بابي الخلفي؟ بالتوفيق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA058Subtitle",
+  "text": "*قادم لمهاجمتي يا ولد؟ جميل أن أرى أن عندك بعض الجرأة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA059Subtitle",
+  "text": "*ابتعد عن مبانيّ التقنية إن كنت تعرف مصلحتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA060Subtitle",
+  "text": "*قواتي ترى قاعدتك يا صغير. ماذا ستفعل الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA061Subtitle",
+  "text": "*ها هي المطرقة قادمة يا صعلوك، ولن تريد أن تكون المسمار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA062Subtitle",
+  "text": "*طق طق، نحن داخلون!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA063Subtitle",
+  "text": "*الأمور على وشك أن تسوء جدًا بالنسبة إليك يا بطل. لا تقل إنني لم أحذرك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA064Subtitle",
+  "text": "*إذن هنا تخبئ مواردك. تمانع لو أخذت بعضها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA065Subtitle",
+  "text": "*جناحك مكشوف تمامًا يا بطل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA066Subtitle",
+  "text": "*ربما ندخل من بابك الخلفي. ما رأيك في هذا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA067Subtitle",
+  "text": "*انتبه، نحن داخلون من الباب الأمامي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA068Subtitle",
+  "text": "*ماذا لدينا هنا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA069Subtitle",
+  "text": "*حسنًا، انظر إلى هذا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA070Subtitle",
+  "text": "*ماذا كنت تنوي أن تفعل من دون طاقة؟ لا أطيق صبرًا لأرى هذه الاستراتيجية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA071Subtitle",
+  "text": "*الأفضل أن تدفع فاتورة الكهرباء وإلا اضطررنا لتأجيل هذه المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA072Subtitle",
+  "text": "*نفدت مواردك؟ يا ولد، على قد لحافك مدّ رجليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA073Subtitle",
+  "text": "*أوه أوه، يبدو أننا سنضطر إلى الاستدانة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA074Subtitle",
+  "text": "*بنيت لنفسك عاصفة سكود هناك؟ صواريخ سكود لا تصيب حائطًا من مسافة متر، ألا تعرف ذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA075Subtitle",
+  "text": "*تُخرج أسلحتك النووية، هاه؟ لو لم تقيّد واشنطن يديّ لأريتك أسلحة نووية، أقول لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA076Subtitle",
+  "text": "*كيف حصلت على مدفع جسيمات يا ابني؟ يُفترض أنه سري للغاية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA077Subtitle",
+  "text": "*كل هذه الدفاعات. أكاد أشم رائحة الخوف تفوح منك يا ولد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA078Subtitle",
+  "text": "*أوه، انظر إلى هذا... ها هي كتلة الدبابات قادمة. لن تنفع معي يا ابني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA079Subtitle",
+  "text": "*هذه طائرات باهظة كثيرة ترسلها إلى الجو يا صغير. متأكد أنك تريد إنفاق هذا المال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA080Subtitle",
+  "text": "*أرجو أن يعرف كل هؤلاء الجنود في أي ورطة تزجّهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA081Subtitle",
+  "text": "*هذه مبانٍ كثيرة يا ابني. تعرف أن المباني لا تستطيع القتال عنك، صح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA082Subtitle",
+  "text": "*أحضر صواريخ سكود يا صعلوك--وسأريك العاصفة الحقيقية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA083Subtitle",
+  "text": "*ستندم على قصفي نوويًا يا صغير. لا أتقبّل هذا بسهولة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA084Subtitle",
+  "text": "*تستخدم شعاع جسيمات، هاه؟ الأفضل أن تقضي عليّ به، لأن هجومي المضاد لن يعجبك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA085Subtitle",
+  "text": "*تعرف، الجبان وحده يقاتل من داخل المباني. تعرف ذلك، صح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA086Subtitle",
+  "text": "*مرحبًا أيها العقيد بيرتون. آسف لأنك تورطت في هذا الأمر. لا ضغينة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA087Subtitle",
+  "text": "*اللوتس الأسود ليست خلاصك يا ولد. لن تقترب من قاعدتي حتى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA088Subtitle",
+  "text": "*جارمن كيل مجرد قنّاص آخر يا صعلوك. عندي عشرات القنّاصة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA089Subtitle",
+  "text": "*نعم، ابنِ مطارك--أطلق بعض الطيور في الجو. قد تكون فرصتك الوحيدة لإيقافي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA090Subtitle",
+  "text": "*مصنع حرب واحد فقط؟ ستحتاج إلى نصف دزينة على الأقل لإيقافي يا صغير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA091Subtitle",
+  "text": "*أليست تلك الثكنات قريبة قليلًا من خط الجبهة يا صغير؟ صعب أن تنام والرصاص في ثكناتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA092Subtitle",
+  "text": "*لا تبع مبنى واحدًا فقط يا ولد--بعها كلها وادعُ ألا آتي إليك على أي حال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA093Subtitle",
+  "text": "*لا تغترّ يا ولد--الأمر لم ينتهِ بعد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA094Subtitle",
+  "text": "*قد تظن أن لك اليد العليا، لكن ما زال عندي بعض الحيل. سترى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA095Subtitle",
+  "text": "*حفرت طريقي للخروج من حفر أسوأ من هذه يا صعلوك. لن تفوز بهذه السهولة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA096Subtitle",
+  "text": "*أتظن أنك تهزمني؟ الأفضل أن تعيد التفكير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA097Subtitle",
+  "text": "*هه... أظن أن الأمر انتهى. عمل جميل يا صغير. أظن أنك أنزلتني درجة أو اثنتين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA098Subtitle",
+  "text": "*هل تشعر بقبضتي تبدأ بالانغلاق حول عنقك يا صعلوك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA099Subtitle",
+  "text": "*لا تحزن كثيرًا على خسارتك أمامي--الجميع يخسرون أمامي يا صغير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA100Subtitle",
+  "text": "*أمهلني ثانية لأجمع بعض الدبابات وسأنهي هذه المناوشة الصغيرة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA101Subtitle",
+  "text": "*لماذا لا تستسلم الآن يا <بسخرية> \"جنرال\"."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA102Subtitle",
+  "text": "*يا ولد، ضربتك ضرب الطبل القديم. من أعطاك قيادة؟ لأن عندي كلامًا أقوله له"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA103Subtitle",
+  "text": "*لا تضغط ذلك الزر إلا إن كنت جادًا يا ولد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA104Subtitle",
+  "text": "*تريد أن تتعارك معي؟ أظن أن الأفضل أن تعيد التفكير يا صغير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA105Subtitle",
+  "text": "*لا تُحضر هذا الموقف إلى هنا إلا إن كنت قادرًا على إثباته يا صعلوك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA106Subtitle",
+  "text": "*أرني ما عندك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA107Subtitle",
+  "text": "*ربما تكسب بضعة دولارات إضافية بتلميع حذائي، لأنك بالتأكيد لست جنرالًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA108Subtitle",
+  "text": "*عمل جيد أيها الجنرال. أحييك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA109Subtitle",
+  "text": "*لن ألقي خطبًا، لذا لنبدأ فورًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo001Subtitle",
+  "text": "*عندي بعض المفاجآت لك أيها الجنرال. لماذا لا تخرج لتلعب؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo002Subtitle",
+  "text": "*الآن وقد غُطّي الميدان بالمتفجرات، أظن أننا سنهاجم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo003Subtitle",
+  "text": "*أيها الجنرال، عندي شحنة لك... وقّع على الاستلام، من فضلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo004Subtitle",
+  "text": "*احذر، من يدري متى يتسلل جارمن كيل إلى قاعدتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo005Subtitle",
+  "text": "*هل انفجر مبناك للتو؟ همم... ترى كيف حدث ذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo006Subtitle",
+  "text": "*كل قواتي محشوة بالمتفجرات أيها الجنرال. لو كنت مكانك لما أطلقت النار عليها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo007Subtitle",
+  "text": "*تعلّم إرهابيّي التنكر في هيئة... أوبس، هل قلت أكثر من اللازم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo008Subtitle",
+  "text": "*قد تلاحظ أن متفجراتي أقوى قليلًا... أرجو أن تقدّر اهتمامنا بالجودة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo009Subtitle",
+  "text": "*انظر كم أصبحت منصة سكود تدمّر المباني بسرعة... انتظر فقط، إنه مذهل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo010Subtitle",
+  "text": "*أولًا، صمت تام... ثم \"بووم!\"... آه... ألا تعشق هذا أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo011Subtitle",
+  "text": "*نادرًا ما أهاجم، يجب أن تشعر بالشرف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo012Subtitle",
+  "text": "*ها هو هجوم آخر قادم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo013Subtitle",
+  "text": "*جنودي قادمون لاقتحام قاعدتك... أحسن ضيافتهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo014Subtitle",
+  "text": "*أرجو أن تتجاهل عمالي أيها الجنرال؛ إنهم فقط يدفنون بعض... إمم... القمامة من أجلي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo015Subtitle",
+  "text": "*أوه أيها الجنرال، يجب أن ترى هذا... إنه قنبلة الموسم. <ضحكة طفولية>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo016Subtitle",
+  "text": "*سنخرج لجلب مزيد من المتفجرات أيها الجنرال. سنعود حالًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo017Subtitle",
+  "text": "*الهدوء يعمّ المكان أيها الجنرال. تعرف ماذا يعني الهدوء، صح؟ بووووم!!!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo018Subtitle",
+  "text": "*أنا سيد المتفجرات أيها الجنرال. لا دفاع لك أمامي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo019Subtitle",
+  "text": "*قاعدتك مدرجة على قائمة الهدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo020Subtitle",
+  "text": "*هل تخشى هجومي التالي أيها الجنرال؟ ينبغي أن تخشاه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo021Subtitle",
+  "text": "*بينما نتحدث، يتسلل عملائي إلى قاعدتك ويزرعون المتفجرات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo022Subtitle",
+  "text": "*قد يكون مبناك موصولًا بمتفجرات الآن. لن تعرف حتى يفوت الأوان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo023Subtitle",
+  "text": "*قليلة هي الوحدات التي ترصد متفجراتي... هل تعرف ما هي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo024Subtitle",
+  "text": "*فخاخ التفجير صعبة الصنع أيها الجنرال. لتقدّر جمالها عليك أن تراها عن قرب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo025Subtitle",
+  "text": "*كيف تستمتع بحيلي وفخاخي حتى الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo026Subtitle",
+  "text": "*أوه... مبناك التقني صار بووم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo027Subtitle",
+  "text": "*دمّرنا ثكناتك... أرجو ألا يكون أحد بداخلها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo028Subtitle",
+  "text": "*سقط مصنع حربك أيها الجنرال. ابنِ غيره لنهدمه مجددًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo029Subtitle",
+  "text": "*المطارات هشّة جدًا--تدميرها بالكاد ممتع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo030Subtitle",
+  "text": "*دفاعات قاعدتك لا تحتمل متفجراتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo031Subtitle",
+  "text": "*آه، لا شيء يضاهي تدمير مركز قيادة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo032Subtitle",
+  "text": "*دمّرنا كثيرًا من مبانيك أيها الجنرال... أقدّر أنك تبني المزيد لتسليتنا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo033Subtitle",
+  "text": "*دمّرت برج نفطنا. الآن بدأت تفهم روح اللعبة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo034Subtitle",
+  "text": "*ثكناتي! كان فيها كثير من خبراء التفجير لديّ أيها الجنرال. سأجعلك تدفع الثمن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo035Subtitle",
+  "text": "*ليس مصنع حربي! أيها الجنرال، عادتك المزعجة هذه لا يمكن أن تستمر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo036Subtitle",
+  "text": "*لا تقلق، دفاعات قاعدتي مجرد إنذار مبكر. الآن عليك المرور عبر دفاعاتي الحقيقية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo037Subtitle",
+  "text": "*أكثر من اللازم! دمّرت الكثير من منشآتي أيها الجنرال. الآن يصبح القتال قذرًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo038Subtitle",
+  "text": "*سنعيد بناء مركز القيادة أيها الجنرال، وستدفع ثمن هذا التجاوز"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo039Subtitle",
+  "text": "*أيها الجنرال، كيف تتوقع أن أهزمك إن واصلت تدمير مركباتي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo040Subtitle",
+  "text": "*تحصد رجالي قبل أن يزرعوا متفجراتهم... لا يبدو هذا عدلًا، أليس كذلك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo041Subtitle",
+  "text": "*آه نعم، استولِ على برج النفط ذاك أيها الجنرال. عندها سيكون لدينا المزيد لندمّره"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo042Subtitle",
+  "text": "*أيها الجنرال، لماذا تريد منصة المدفعية تلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo043Subtitle",
+  "text": "*جيد أيها الجنرال، استولِ على مصفاة النفط... انفجارها مذهل جدًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo044Subtitle",
+  "text": "*احذر أيها الجنرال--دخل رجالك للتو منطقة الخطر حول قاعدتي. حتى أنا لا أتذكر أين وُضعت كل الفخاخ هناك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo045Subtitle",
+  "text": "*أيها الجنرال، رجالك يقتربون بشكل خطير من قاعدتي. لو كنت مكانك لعدت أدراجي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo046Subtitle",
+  "text": "*اخرج من قاعدتي أيها الجنرال. المنطقة كلها ملغّمة بالمتفجرات، ولا أخشى استخدامها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo047Subtitle",
+  "text": "*أيها الأحمق! هل تعرف كم من المتفجرات يحيط برجالك الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo048Subtitle",
+  "text": "*تهاجم من الجناح أيها الجنرال؟ قد تكون الدفاعات هناك قليلة، لكن ماذا عن الفخاخ؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo049Subtitle",
+  "text": "*مؤخرة قاعدتي مقيتة بشكل خاص أيها الجنرال. لا أنصح بالهجوم من هناك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo050Subtitle",
+  "text": "*هجوم أمامي؟! أنت أحمق مما ظننت أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo051Subtitle",
+  "text": "*لا شيء لك في هذا الوادي سوى الموت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo052Subtitle",
+  "text": "*احذر أيها الجنرال؛ يبدو هذا مكانًا جيدًا لكمين... أوبس، فات الأوان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo053Subtitle",
+  "text": "*أتظن أنني لم أستعد لمجيئك إلى هنا أيها الجنرال؟ أحمق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo054Subtitle",
+  "text": "*تلك مواردي أيها الجنرال. اذهب وابحث عن مواردك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo055Subtitle",
+  "text": "*أيها الجنرال، دخلت مستودع متفجراتي. حركة خاطئة واحدة ونموت جميعًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo056Subtitle",
+  "text": "*آه، أرى أننا أصبنا أحد خطوط الكهرباء لديك. أرجو ألا تطول فترة انقطاع الكهرباء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo057Subtitle",
+  "text": "*اعتمادك على الكهرباء سيكون سبب هلاكك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo058Subtitle",
+  "text": "*استُنفدت مواردك أيها الجنرال. قواتي تحوم للإجهاز عليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo059Subtitle",
+  "text": "*مواردي قليلة أيها الجنرال. تمانع لو جئنا وأخذنا بعض مواردك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo060Subtitle",
+  "text": "*عاصفة سكود... فهمت... حسنًا، ربما حان الوقت لأبني واحدة خاصة بي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo061Subtitle",
+  "text": "*ترى كم من المتفجرات يلزم لتدمير تلك الصومعة النووية؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo062Subtitle",
+  "text": "*لماذا تريد بناء مدفع جسيمات الآن؟ كنا بدأنا نستمتع للتو أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo063Subtitle",
+  "text": "*كل هذه الدفاعات أيها الجنرال. كيف تتوقع أن يدخل مفجّريّ قاعدتك الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo064Subtitle",
+  "text": "*دبابات... كل هذه الدبابات. سأستمتع بمشاهدة دباباتك تصطدم بفخاخي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo065Subtitle",
+  "text": "*توقف عن بناء الطائرات أيها الجنرال... ستفوتك عبقرية فخاخي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo066Subtitle",
+  "text": "*مع كل هذا العدد من المشاة ستفجّر حتمًا فخاخي. لو كنت مكانك لأمرتهم بالانتشار عند عبور الحقل أيها الجنرال... أو لا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo067Subtitle",
+  "text": "*كل هذه المباني... قاعدتك هدف مثالي لمتفجراتي أيها الجنرال. شكرًا لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo068Subtitle",
+  "text": "*خطوة حمقاء أيها الجنرال. عاصفة سكود لن توقفني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo069Subtitle",
+  "text": "*صاروخ نووي! ستدفع ثمن هذا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo070Subtitle",
+  "text": "*لا! شعاع الجسيمات ذاك سيفجّر متفجراتي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo071Subtitle",
+  "text": "*نعم، تحصّن في ذلك المبنى أيها الجنرال--على الأرجح ليست فيه متفجرات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo072Subtitle",
+  "text": "*مرحبًا أيها العقيد بيرتون. حاول ألا تدوس على أي فخ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo073Subtitle",
+  "text": "*اللوتس الأسود... لمجرد أنك ترصدين فخاخي لا تظني أنني أصبحت ضعيفًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo074Subtitle",
+  "text": "*لماذا ترسل جارمن كيل ضدي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo075Subtitle",
+  "text": "*لا تبنِ مزيدًا من المطارات أيها الجنرال... لا أحبها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo076Subtitle",
+  "text": "*مصنع الحرب يبني المركبات... مركبات ستفجّر فخاخي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo077Subtitle",
+  "text": "*هل تظن أنه من الحكمة بناء الثكنات أيها الجنرال؟"
+ }
+]

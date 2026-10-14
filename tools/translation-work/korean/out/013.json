@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CREDITS:ExternalMultiplayMapCreators",
+  "text": "외부 멀티플레이 맵 제작자"
+ },
+ {
+  "label": "CREDITS:Artists",
+  "text": "아티스트"
+ },
+ {
+  "label": "CREDITS:AdditionalArt",
+  "text": "추가 아트"
+ },
+ {
+  "label": "CREDITS:DirectorofAudio",
+  "text": "오디오 감독"
+ },
+ {
+  "label": "CREDITS:SoundDesignandVoiceDirection",
+  "text": "사운드 디자인 및 음성 연출"
+ },
+ {
+  "label": "CREDITS:Composers",
+  "text": "작곡"
+ },
+ {
+  "label": "CREDITS:Composer1",
+  "text": "음악 작곡 및 프로듀싱"
+ },
+ {
+  "label": "CREDITS:Additionalsoundsanddialogueprocessing",
+  "text": "추가 사운드 및 추가 대사 처리"
+ },
+ {
+  "label": "CREDITS:ScriptWriters",
+  "text": "시나리오 작가"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings",
+  "text": "음향 효과 현장 녹음"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings1",
+  "text": "Jacques Littlefield and the Military Vehicle Technology Foundation"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings2",
+  "text": "SPEC Samuel H. Cho"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings3",
+  "text": "Staff Sergeant Scott McClane of C troop 1/18 Cav"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings4",
+  "text": "Mary Beth McFadden and Francisco Mendozo at Adam's Steel - Anaheim"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneDirector",
+  "text": "시네마틱 컷신 감독"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneArtists",
+  "text": "시네마틱 컷신 아티스트"
+ },
+ {
+  "label": "CREDITS:ProductionAssistance",
+  "text": "추가 제작 관리"
+ },
+ {
+  "label": "CREDITS:AdditionalProductionManagement",
+  "text": "추가 제작 관리"
+ },
+ {
+  "label": "CREDITS:CameoProduction",
+  "text": "카메오 제작"
+ },
+ {
+  "label": "CREDITS:Casting",
+  "text": "캐스팅: Deborah German Casting"
+ },
+ {
+  "label": "CREDITS:Wardrobe",
+  "text": "의상: Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:HairandMakeUp",
+  "text": "헤어 및 메이크업: Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:EngineeringInterns",
+  "text": "엔지니어링 인턴"
+ },
+ {
+  "label": "CREDITS:ArtIntern",
+  "text": "아트 인턴"
+ },
+ {
+  "label": "CREDITS:EAPacificQualityAssurance",
+  "text": "EA Pacific 품질 보증"
+ },
+ {
+  "label": "CREDITS:EAPacificOperations",
+  "text": "EA Pacific 운영"
+ },
+ {
+  "label": "CREDITS:VoiceActors",
+  "text": "성우"
+ },
+ {
+  "label": "CREDITS:CameoPhotos",
+  "text": "카메오 및 장군 사진"
+ },
+ {
+  "label": "CREDITS:AdditionalModels",
+  "text": "추가 모델: Mythos Studios"
+ },
+ {
+  "label": "CREDITS:CinematicIntroandFinaleMovies",
+  "text": "인트로 영상: Mondo Media"
+ },
+ {
+  "label": "CREDITS:MotionCapture",
+  "text": "Westwood 모션 캡처"
+ },
+ {
+  "label": "CREDITS:MilitarypropsThanx",
+  "text": "군사 소품 제공: David Hsu & Specialized Distribution"
+ },
+ {
+  "label": "CREDITS:SpecialThanx1",
+  "text": "Daisy & Freeman Gushee, 엄마 아빠, 그리고 Ike에게 감사와 사랑을! - Harvard"
+ },
+ {
+  "label": "CREDITS:SpecialThanx2",
+  "text": "Laura, Ben, Jack, Sam, Sophie에게 사랑과 감사를"
+ },
+ {
+  "label": "CREDITS:SpecialThanx3",
+  "text": "Brown 가족 응원단 Robin, Josh, Beth, Meeskite에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx4",
+  "text": "자기 컴퓨터로 게임하게 해 준 아들 Colin Moore에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx5",
+  "text": "사랑과 응원을 보내 준 새 남편 Joji에게 큰 포옹을 -Jill"
+ },
+ {
+  "label": "CREDITS:SpecialThanx7",
+  "text": "DMP, Jenny, Elizabeth에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx8",
+  "text": "아버지께 감사드립니다. - Mark Lorenzen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx9",
+  "text": "Madison, Reece, Melissa, 아빠, 그리고 형제들에게 사랑을! - Randy Greenback"
+ },
+ {
+  "label": "CREDITS:SpecialThanx10",
+  "text": "응원해 준 Maha, Ramzi, Brooke에게 감사합니다. 415 친구들에게 경의를 - Amer"
+ },
+ {
+  "label": "CREDITS:SpecialThanx11",
+  "text": "Mom&Dad, Bry,Kev,Dan&Mel,Aaron&Kelsey,Mikki,Adam,Kev,Jay,James - SCC"
+ },
+ {
+  "label": "CREDITS:SpecialThanx12",
+  "text": "멋진 응원을 보내 준 Brenda와 Nero에게 - Eric Kearns"
+ },
+ {
+  "label": "CREDITS:SpecialThanx13",
+  "text": "Gibson, Vinge, Mieville, Bear, Hebert, LeGuin에게 감사합니다 - RN Smith"
+ },
+ {
+  "label": "CREDITS:SpecialThanx14",
+  "text": "Deborah, Stephen, Alan - 날 참아 줘서 고마워 - Ian Barkley-Yeung"
+ },
+ {
+  "label": "CREDITS:SpecialThanx15",
+  "text": "이해하고 응원해 준 Cristi에게 감사합니다 - John"
+ },
+ {
+  "label": "CREDITS:SpecialThanx16",
+  "text": "April Wesley Kelly와 Chelsie에게 감사합니다 - Scott Bowen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx17",
+  "text": "친구들, 가족, Choo Choo Bear, 그리고 열심히 일한 ZH 팀에게 감사합니다! -JB"
+ },
+ {
+  "label": "CREDITS:SpecialThanx18",
+  "text": "사랑을 준 Junko에게 감사합니다. -Robert Minsk"
+ },
+ {
+  "label": "CREDITS:SpecialThanx19",
+  "text": "이해해 준 Carina, Kat, Brandon에게 고마워요 - David Wainstain"
+ },
+ {
+  "label": "CREDITS:SpecialThanx20",
+  "text": "사랑과 응원을 보내 준 가족 Cheryl과 Brandon Burtis에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx21",
+  "text": "친구들과 가족, 특히 Jeannie에게 감사합니다. 모두 사랑해요 - KDS"
+ },
+ {
+  "label": "CREDITS:SpecialThanx22",
+  "text": "멋진 남편 Roman에게 감사합니다 - Samm"
+ },
+ {
+  "label": "CREDITS:SpecialThanx23",
+  "text": "사랑과 응원과 이해를 보내 준 Ari에게 감사합니다 - Jose"
+ },
+ {
+  "label": "CREDITS:SpecialThanx24",
+  "text": "Rebecca에게, 유일하게 중요하고 유일하게 영원한 것"
+ },
+ {
+  "label": "CREDITS:SpecialThanx25",
+  "text": "영감과 응원을 준 사랑하는 아내에게 감사합니다 - Chris Rubyor"
+ },
+ {
+  "label": "CREDITS:SpecialThanx26",
+  "text": "우리의 시간을 내게 내어 준 아내에게 감사합니다. 사랑해요. - Jeff Stewart"
+ },
+ {
+  "label": "CREDITS:SpecialThanx27",
+  "text": "엄마, BruceLauraDasmoMikeyTedoTrevor, 그리고 The OC의 모든 친구들에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx28",
+  "text": "가족과 Amy Ritchie에게 감사드립니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx29",
+  "text": "NazBoniadiArtRasoulZohreRahimiAliLeilaTabaFamilyP,T,KMLoBobWindDrFrost"
+ },
+ {
+  "label": "CREDITS:SpecialThanx31",
+  "text": "Ben Calmer와 Laura Miele에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx33",
+  "text": "커맨드 앤 컨커 팬 커뮤니티에 특별히 감사드립니다."
+ },
+ {
+  "label": "CREDITS:SpecialThanx34",
+  "text": "내 사랑 Joji와 우리 아기 Sparky에게 경의를"
+ },
+ {
+  "label": "CREDITS:SpecialThanx35",
+  "text": "사랑과 응원을 보내 준 가족 Cheryl과 Brandon Burtis에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx36",
+  "text": "바쁜 나를 이해해 준 아내에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx37",
+  "text": "Bjorn Muller 감사 인사: 엄마, 아빠, 가족과 친구들"
+ },
+ {
+  "label": "CREDITS:SpecialThanx38",
+  "text": "모든 응원을 보내 준 가족과 Amy에게 감사드립니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx39",
+  "text": "특별히 감사합니다: 엄마, 아빠, Bohdi, Willie, 그리고 이 글을 읽는 모든 분"
+ },
+ {
+  "label": "CREDITS:SpecialThanx40",
+  "text": "크리스마스를 2월까지 미뤄 준 모든 친구와 가족에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx41",
+  "text": "Bing에게 감사합니다. 당신의 지원은 정말 소중했습니다"
+ },
+ {
+  "label": "GUI:GameSaved",
+  "text": "게임 저장됨"
+ },
+ {
+  "label": "GUI:ErrorSavingGame",
+  "text": "게임 '%s' 저장 오류"
+ },
+ {
+  "label": "GUI:ErrorLoadingGame",
+  "text": "게임 '%s' 불러오기 오류"
+ },
+ {
+  "label": "CREDITS:InspiredByLine1",
+  "text": "Command & Conquer (TM) 제너럴: 제로아워는 Westwood Studios가 만든"
+ },
+ {
+  "label": "CREDITS:InspiredByLine2",
+  "text": "오리지널 Command & Conquer (TM)에서 영감을 받았습니다"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine1",
+  "text": "게임을 철저히 시험해 준 멋진 멀티플레이"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine2",
+  "text": "테스트 참가자 모든 분께 감사드립니다. 여러분의 도움은"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine3",
+  "text": "정말 소중했으며, 즐거운 경험이었기를 바랍니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage1",
+  "text": "우리가 좋아하는 일, 즉 게임 만들기를"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage2",
+  "text": "할 수 있게 해 준 모든 가족에게 특별히 감사드립니다. 여러분의 응원에 아무리 감사해도 부족합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage3",
+  "text": "그래도 노력해 보겠습니다..."
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line1",
+  "text": "캐나다 BC주 칠리왁의 가족과 친구들에게 감사합니다! - Kris Morness"
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line2",
+  "text": "& 응원은 정말 소중했습니다. 진심으로 사랑합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line1",
+  "text": "Jane, George, David, Sophia, Audrey, Shannon, Johan & agavenectar에게 감사합니다"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line2",
+  "text": "내가 곁에 있지 못할 때도 곁에 있어 주어서"
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line1",
+  "text": "Bing Gordon에게 감사합니다. 변함없는 지원은 정말 소중했습니다."
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line2",
+  "text": "1달러를 위해서라면 무엇이든 할 사람"
+ },
+ {
+  "label": "GUI:ControlBarBack",
+  "text": "뒤로"
+ },
+ {
+  "label": "GUI:MainMenuLoadGame",
+  "text": "게임 불러오기"
+ },
+ {
+  "label": "GUI:MainMenuLoadReplay",
+  "text": "리플레이 불러오기"
+ },
+ {
+  "label": "GUI:LastReplay",
+  "text": "마지막 리플레이"
+ },
+ {
+  "label": "GUI:ControlBarMoneyDisplay",
+  "text": "$ %d"
+ },
+ {
+  "label": "GUI:Player",
+  "text": "플레이어"
+ },
+ {
+  "label": "CREDITS:UliLachelet",
+  "text": "Uli Lächelt"
+ },
+ {
+  "label": "CREDITS:JorgLindner",
+  "text": "Jörg Lindner"
+ },
+ {
+  "label": "CREDITS:LOCALIZATION",
+  "text": "현지화"
+ },
+ {
+  "label": "CREDITS:EALocalisationManager",
+  "text": "EA 유럽 현지화 매니저"
+ },
+ {
+  "label": "CREDITS:EALocalisationProjectManager",
+  "text": "EA 유럽 현지화 프로젝트 매니저"
+ },
+ {
+  "label": "CREDITS:EuropeanIntegrationTeam",
+  "text": "유럽 통합 팀"
+ },
+ {
+  "label": "CREDITS:IntegrationEngineerManager",
+  "text": "통합 엔지니어 매니저"
+ },
+ {
+  "label": "CREDITS:IntegrationProgrammer",
+  "text": "통합 프로그래머"
+ },
+ {
+  "label": "CREDITS:AudioPostproduction",
+  "text": "오디오 후반 작업"
+ },
+ {
+  "label": "CREDITS:SpanishLocalizationTeam",
+  "text": "스페인어 현지화 팀"
+ },
+ {
+  "label": "CREDITS:LocalizationManagerEAIberia",
+  "text": "EA Iberia 현지화 매니저"
+ },
+ {
+  "label": "CREDITS:QAnLTSupervisor",
+  "text": "QA & LT 감독"
+ },
+ {
+  "label": "CREDITS:QALead",
+  "text": "QA 리드"
+ },
+ {
+  "label": "CREDITS:QATesters",
+  "text": "QA 테스터"
+ },
+ {
+  "label": "CREDITS:LocalizationSupervisorEAIberia",
+  "text": "EA Iberia 현지화 감독"
+ },
+ {
+  "label": "CREDITS:LocalizationCoordinator",
+  "text": "현지화 코디네이터"
+ },
+ {
+  "label": "CREDITS:Translations",
+  "text": "번역"
+ },
+ {
+  "label": "CREDITS:DTPSupervisor",
+  "text": "DTP 감독"
+ },
+ {
+  "label": "CREDITS:LayoutDesign",
+  "text": "레이아웃 디자인"
+ },
+ {
+  "label": "CREDITS:Documentation",
+  "text": "문서"
+ },
+ {
+  "label": "CREDITS:JoseMaria",
+  "text": "José María García"
+ },
+ {
+  "label": "CREDITS:AndresGine",
+  "text": "Andrés Giné"
+ },
+ {
+  "label": "CREDITS:JoseRamon",
+  "text": "José Ramón Sagarna"
+ },
+ {
+  "label": "CREDITS:DavidSuarez",
+  "text": "David Suárez"
+ },
+ {
+  "label": "CREDITS:AlejandroGomez",
+  "text": "Alejandro Gómez"
+ },
+ {
+  "label": "CREDITS:IsmaeLDuran",
+  "text": "Ismael Durán"
+ },
+ {
+  "label": "CREDITS:JoseLuis",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:JavierMartinez",
+  "text": "Javier Martínez"
+ },
+ {
+  "label": "CREDITS:LuisPines",
+  "text": "Luis Pinés"
+ },
+ {
+  "label": "CREDITS:EAItalyLocalization",
+  "text": "EA 현지화 - 이탈리아"
+ },
+ {
+  "label": "CREDITS:LocalisationManager",
+  "text": "현지화 매니저"
+ },
+ {
+  "label": "CREDITS:TranslationSupervisor",
+  "text": "번역 감독"
+ },
+ {
+  "label": "CREDITS:LTSupervisor",
+  "text": "LT 감독"
+ },
+ {
+  "label": "CREDITS:LocalisationCoordinator",
+  "text": "현지화 코디네이터"
+ },
+ {
+  "label": "CREDITS:LocalisationGermany",
+  "text": "EA 현지화 - 독일"
+ },
+ {
+  "label": "CREDITS:RobertBock",
+  "text": "Robert Böck"
+ },
+ {
+  "label": "CREDITS:TestCoordination",
+  "text": "테스트 조정"
+ },
+ {
+  "label": "CREDITS:LanguageTester",
+  "text": "현지화 테스터"
+ },
+ {
+  "label": "CREDITS:LocalisationFrance",
+  "text": "EA 현지화 - 프랑스"
+ },
+ {
+  "label": "CREDITS:TestManager",
+  "text": "테스트 매니저"
+ },
+ {
+  "label": "CREDITS:FrenchLanguageTestingCoordinator",
+  "text": "언어 테스트 코디네이터"
+ },
+ {
+  "label": "CREDITS:StephaneTachon",
+  "text": "Stéphane Tachon"
+ },
+ {
+  "label": "CREDITS:LanguageTesters",
+  "text": "현지화 테스터"
+ },
+ {
+  "label": "CREDITS:LocalisationBrazil",
+  "text": "EA 현지화 - 브라질"
+ },
+ {
+  "label": "CREDITS:TranslationAndTesting",
+  "text": "번역 및 테스트"
+ },
+ {
+  "label": "CREDITS:LocalisationPoland",
+  "text": "현지화 - 폴란드"
+ },
+ {
+  "label": "GUI:LadderNameAndSize",
+  "text": "%ls (%dv%d)"
+ },
+ {
+  "label": "GUI:InvalidLadderPassword",
+  "text": "잘못된 래더 비밀번호"
+ },
+ {
+  "label": "GUI:EnterLadderPassword",
+  "text": "래더 비밀번호 입력:"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeader",
+  "text": "연결 끊김 메뉴"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeaderCaps",
+  "text": "연결 끊김 메뉴"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody1",
+  "text": "한 명 이상의 플레이어가 게임에서 연결이 끊어졌습니다. 누군가를 게임에서 투표로 추방하려면 해당 플레이어 옆의 투표 버튼을 클릭하십시오. 타이머가 0이 되면 그 플레이어는 게임에서 제거되고 전투가 계속됩니다"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody2",
+  "text": "그 플레이어가 다시 연결을 시도하고 있을 수 있으니 타이머가 끝날 때까지 기다릴 수도 있습니다. 타이머가 0이 되면 그 플레이어는 게임에서 제거되고 전투가 계속됩니다"
+ },
+ {
+  "label": "CREDITS:EAKoreaLocalisationTeam",
+  "text": "EA 코리아 팀"
+ },
+ {
+  "label": "CREDITS:BusinessDevelopmentManager",
+  "text": "사업 개발 매니저"
+ },
+ {
+  "label": "CREDITS:LocalisationProducer",
+  "text": "현지화 프로듀서"
+ },
+ {
+  "label": "CREDITS:EAKoreaMarketingTeam",
+  "text": "EA 코리아 마케팅 팀"
+ },
+ {
+  "label": "CREDITS:MarketingManager",
+  "text": "마케팅 매니저"
+ },
+ {
+  "label": "CREDITS:ProductManager",
+  "text": "프로덕트 매니저"
+ },
+ {
+  "label": "CREDITS:PublicRelations",
+  "text": "홍보"
+ },
+ {
+  "label": "CREDITS:ProductPromotion",
+  "text": "제품 판촉"
+ },
+ {
+  "label": "CREDITS:EATaiwanLocalisationTeam",
+  "text": "EA 타이완 현지화 팀"
+ },
+ {
+  "label": "CREDITS:EAAsiaPacificLocalisationProjectManager",
+  "text": "EA 아시아 태평양 현지화 프로젝트 매니저"
+ },
+ {
+  "label": "CREDITS:AdditionalStoryInspiration",
+  "text": "추가 스토리 영감"
+ },
+ {
+  "label": "GUI:RandomSide",
+  "text": "무작위"
+ },
+ {
+  "label": "GUI:Age",
+  "text": "나이"
+ },
+ {
+  "label": "GUI:Month",
+  "text": "월 (MM)"
+ },
+ {
+  "label": "GUI:Day",
+  "text": "일 (DD)"
+ },
+ {
+  "label": "GUI:Year",
+  "text": "연도 (YYYY)"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle2",
+  "text": "Electronic Arts Los Angeles 개발"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam2",
+  "text": "Command & Conquer (TM) 제너럴: 제로아워"
+ },
+ {
+  "label": "GUI:MustHaveAdminRights",
+  "text": "패치를 설치하려면 관리자 권한이 필요합니다"
+ },
+ {
+  "label": "GUI:BuddyAddReq",
+  "text": "사용자가 친구 추가를 원합니다"
+ },
+ {
+  "label": "GUI:AgeFailedTitle",
+  "text": "연령 제한 안내"
+ },
+ {
+  "label": "GUI:AgeFailed",
+  "text": "이 게임을 온라인으로 플레이하려면 13세 이상이어야 합니다"
+ },
+ {
+  "label": "GUI:AdditionalLocalizationManagement",
+  "text": "추가 현지화 관리"
+ },
+ {
+  "label": "GUI:GroupRoom4",
+  "text": "4 대 4"
+ },
+ {
+  "label": "GUI:GroupRoom5",
+  "text": "아시아"
+ },
+ {
+  "label": "GUI:GroupRoom6",
+  "text": "유럽"
+ },
+ {
+  "label": "GUI:GroupRoom7",
+  "text": "북미"
+ },
+ {
+  "label": "GUI:GroupRoom8",
+  "text": "영국"
+ },
+ {
+  "label": "GUI:GroupRoom9",
+  "text": "독일"
+ },
+ {
+  "label": "GUI:GroupRoom10",
+  "text": "한국"
+ },
+ {
+  "label": "GUI:GroupRoom11",
+  "text": "자유 대전"
+ },
+ {
+  "label": "GUI:GroupRoom12",
+  "text": "통계 없음"
+ },
+ {
+  "label": "GUI:GroupRoom13",
+  "text": "모드 맵"
+ },
+ {
+  "label": "GUI:ControlOptions",
+  "text": "조작 옵션"
+ },
+ {
+  "label": "GUI:ClassicMouse",
+  "text": "클래식"
+ },
+ {
+  "label": "GUI:AlternateMouse",
+  "text": "대체 마우스 설정"
+ },
+ {
+  "label": "TOOLTIP:AlternateMouse",
+  "text": "마우스 오른쪽 버튼으로 전장에서 유닛 행동(공격, 이동 등)을 실행합니다"
+ },
+ {
+  "label": "GUI:Generals_Challenge",
+  "text": "도전"
+ },
+ {
+  "label": "GUI:Generals_Challenge_Title",
+  "text": "장군 도전"
+ },
+ {
+  "label": "GUI:DemoMD_USA01ButtonTitle",
+  "text": "미국 01"
+ },
+ {
+  "label": "GUI:DemoMD_USA02ButtonTitle",
+  "text": "미국 02"
+ },
+ {
+  "label": "GUI:DemoMD_GLA03ButtonTitle",
+  "text": "GLA 03"
+ },
+ {
+  "label": "GUI:DemoMD_CampEADemoTitle",
+  "text": "데모"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildBuildingBecauseMaximumNumber",
+  "text": "이미 건설된 건물"
+ },
+ {
+  "label": "TOOLTIP:MapMaxBrutalSuccess",
+  "text": "축하합니다! 이 맵에서 최대 수의 어려움 상대를 물리쳤습니다!"
+ },
+ {
+  "label": "GUI:LimitArmies",
+  "text": "진영 제한"
+ },
+ {
+  "label": "TOOLTIP:LimitArmies",
+  "text": "선택하면 전통적인 미국, GLA, 중국 진영으로 제한하고 변절 장군 진영은 허용하지 않습니다"
+ },
+ {
+  "label": "GUI:UseStats",
+  "text": "통계 기록"
+ },
+ {
+  "label": "TOOLTIP:UseStats",
+  "text": "이 게임의 통계를 공식 C&C 제너럴: 제로아워 서버에 기록할지 선택합니다"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOn",
+  "text": "이 게임의 통계가 공식 C&C 제너럴: 제로아워 서버에 기록됩니다"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOff",
+  "text": "이 게임의 통계가 공식 C&C 제너럴: 제로아워 서버에 기록되지 않습니다"
+ },
+ {
+  "label": "GUI:StartingMoney",
+  "text": "시작 자금"
+ },
+ {
+  "label": "GUI:StartingMoneyFormat",
+  "text": "$%u"
+ },
+ {
+  "label": "TOOLTIP:StartingMoney",
+  "text": "모든 플레이어의 시작 자금을 조정합니다"
+ }
+]

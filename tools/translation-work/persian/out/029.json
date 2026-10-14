@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Tank091Subtitle",
+  "text": "*آآآآخ! ممکن نیست! چطور تانک‌هایم را شکست دادی؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank092Subtitle",
+  "text": "*وقت رها کردن ماشین جنگ است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank093Subtitle",
+  "text": "*هجوم تانکی تو در برابر مال من هیچ است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank094Subtitle",
+  "text": "*تانک‌هایم را به چالش نکش، ژنرال... می‌بازی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank095Subtitle",
+  "text": "*زره‌پوش‌هایم نیروهای رقت‌انگیزت را له می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank096Subtitle",
+  "text": "*شاید تانک‌هایم را شکست داده باشی، ژنرال، ولی ماده‌ببر مثل حشره له‌ات می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank097Subtitle",
+  "text": "*تانک کلید هر پیروزی است، خودت خوب می‌دانی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank098Subtitle",
+  "text": "*می‌بینم پیشقراولانم را شکست دادی، ژنرال. گمانم حمله بعدی برایت این‌قدر خوب پیش نرود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank099Subtitle",
+  "text": "*آمدیم، ژنرال، امیدوارم دفاع‌هایت برپا باشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank100Subtitle",
+  "text": "*و این‌ها فقط بتل‌مسترهای من‌اند، ژنرال... صبر کن تا اورلورد وارد نبرد شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank101Subtitle",
+  "text": "*اگر جای تو بودم مراقب بودم، ژنرال، گاهی گارد سرخ دوست دارد وقتی سرت با تانک‌هایم گرم است ساختمان‌ها را تصرف کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin001Subtitle",
+  "text": "*می‌بینمت!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin002Subtitle",
+  "text": "*یک بار بچشی، دیگر برنمی‌گردی... حتی اگر بخواهی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin003Subtitle",
+  "text": "*کمی از داروی خودم بچش!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin004Subtitle",
+  "text": "*چقدر می‌توانی نفست را حبس کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin005Subtitle",
+  "text": "*آماده یک درس شیمی دیگری؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin006Subtitle",
+  "text": "*آن‌قدرها هم بد نیست. بعدش فقط یک سوزش طولانی و دردناک حس می‌کنی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin007Subtitle",
+  "text": "*سربازان سمی، حمله!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin008Subtitle",
+  "text": "*آمدیم، ژنرال، مثل نشت مواد شیمیایی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin009Subtitle",
+  "text": "*پیدا کردن دکتری که به خانه بیاید خیلی سخت است، ولی دکتر تراکس می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin010Subtitle",
+  "text": "*ریختگی در راهروی یک!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin011Subtitle",
+  "text": "*مثل باران اسیدی بر پایگاهت فرود می‌آییم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin012Subtitle",
+  "text": "*پیش بروید، جنگجویان سمی من! پیام ما را به توده‌ها برسانید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin013Subtitle",
+  "text": "*اوه، از این خوشت می‌آید، ژنرال. نه، صبر کن... خوشت نمی‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin014Subtitle",
+  "text": "*خودت این بلا را سر خودت آوردی، ژنرال. حالا ببین مردانت چطور تاوان اشتباهت را می‌دهند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin015Subtitle",
+  "text": "*بی‌صدا ولی بودار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin016Subtitle",
+  "text": "*درست است... لم بده و استراحت کن! به سم‌هایم وقت بیشتری بده تا اثر کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin017Subtitle",
+  "text": "*این انتظار... دارد تو را می‌کشد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin018Subtitle",
+  "text": "*وقت دم کردن یک قابلمه دیگر است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin019Subtitle",
+  "text": "*هر لحظه که دست‌دست کنی، کمی بیشتر می‌میری!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin020Subtitle",
+  "text": "*وقتی گوشت از استخوان جدا می‌شود می‌فهمی درست جا افتاده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin021Subtitle",
+  "text": "*سیاه‌زخم... دشمن شماره یک سلامتی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin022Subtitle",
+  "text": "*این بو را حس می‌کنی؟ نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin023Subtitle",
+  "text": "*و دم... بازدم... و دوباره... بهتر شدی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin024Subtitle",
+  "text": "*تا آخرین قطره!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin025Subtitle",
+  "text": "*پیش از حمله بعدی‌مان فرصتی برای «نفس تازه کردن» به تو می‌دهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin026Subtitle",
+  "text": "*نازل سممان گرفته، ژنرال... یک لحظه صبر کن درستش کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin027Subtitle",
+  "text": "*برای سم می‌آیی، ولی می‌مانی... چون مرده‌ای!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin028Subtitle",
+  "text": "*از سرک کشیدن در آزمایش‌هایم پشیمان می‌شوی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin029Subtitle",
+  "text": "*می‌خواهی به من حمله کنی، یا از چیزی که ممکن است در پایگاهم پیدا کنی می‌ترسی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin030Subtitle",
+  "text": "*هیچ موجودی زیر ابر سمی من زنده نمی‌ماند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin031Subtitle",
+  "text": "*به‌هرحال واقعاً لازمش نداشتی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin032Subtitle",
+  "text": "*نیروهایت انگار مسموم... ببخشید، مست شده‌اند، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin033Subtitle",
+  "text": "*اوه ژنرال، انگار نیروهایت ظرفیت سم ندارند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin034Subtitle",
+  "text": "*فرودگاهت نابود شد، ژنرال. حالا باید پیاده از میان ابرهای مرگ من بگذری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin035Subtitle",
+  "text": "*دیدی سم‌ها چطور همه‌چیز را از هم می‌درند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin036Subtitle",
+  "text": "*آخ! کلکسیون شرابم آن‌جا بود!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin037Subtitle",
+  "text": "*سم‌های من و نیروهای تو حسابی با هم جورند... شیمی‌شان حرف ندارد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin038Subtitle",
+  "text": "*به‌هرحال لازمش نداشتم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin039Subtitle",
+  "text": "*حالا سربازان شیمیایی‌ام از کجا بیایند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin040Subtitle",
+  "text": "*کامیون‌های سمی‌ام دوباره به راه می‌افتند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin041Subtitle",
+  "text": "*دیدی، جای آدم توی آسمان نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin042Subtitle",
+  "text": "*برایم دردسر درست می‌کنی، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin043Subtitle",
+  "text": "*دست از نابود کردن ساختمان‌هایم بردار، ژنرال، وگرنه اوضاع را برایت... ناخوشایند می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin044Subtitle",
+  "text": "*مرکز فرماندهی‌ام را نابود کردی! آه، خب، به‌هرحال همیشه از فرماندهانم متنفر بودم... حالا فقط من و توییم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin045Subtitle",
+  "text": "*ژنرال، اگر مدام خودروهایم را نابود کنی، چطور داروهایت را برایت بیاورم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin046Subtitle",
+  "text": "*جنگجویان شجاعم! چطور می‌توانی با آن‌ها چنین کنی؟ آن‌ها مگر چه کرده‌اند... اوه صبر کن، بی‌خیال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin047Subtitle",
+  "text": "*آن دکل نفت را پس بده! نمی‌دانی نفت ماده اصلی سم‌های من است؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin048Subtitle",
+  "text": "*آن سکوی توپخانه جلوی مرا نمی‌گیرد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin049Subtitle",
+  "text": "*ژنرال، آن پالایشگاه را برای تصفیه سم‌هایم لازم دارم. تو اصلاً برای چه لازمش داری؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin050Subtitle",
+  "text": "*من به تو اجازه ورود دادم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin051Subtitle",
+  "text": "*این‌جا چه می‌کنی؟ دستورپخت‌ها مال من است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin052Subtitle",
+  "text": "*احمقی که وارد پایگاهم شدی، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin053Subtitle",
+  "text": "*زیادی به سم‌های عزیزم نزدیکی، ژنرال. حالا باید بمیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin054Subtitle",
+  "text": "*از موشک‌های اسکادم دور بمان! هر وقت آماده شدم تقدیمت می‌کنم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin055Subtitle",
+  "text": "*فکر نمی‌کنم آن تدارکات را بخواهی، هنوز جا نیفتاده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin056Subtitle",
+  "text": "*می‌بینم پایگاه دیگری می‌سازی. به‌زودی متروکه می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin057Subtitle",
+  "text": "*از روستایم برو بیرون، ژنرال. چیز زیادی از آن نمانده، ولی مال من است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin058Subtitle",
+  "text": "*موقع رد شدن از آن پل مراقب باش، ژنرال... آب زیرش برای شنا امن نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin059Subtitle",
+  "text": "*مراقب باش، ژنرال، شاید آن پل امن نباشد... ولی خب، این اطراف چه چیزی امن است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin060Subtitle",
+  "text": "*فکر می‌کنی زرنگی که یواشکی از در پشتی‌ام وارد می‌شوی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin061Subtitle",
+  "text": "*خب، از رودخانه رد شدی. حالا نبرد جالب می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin062Subtitle",
+  "text": "*به نظر برقت تمام شده، ژنرال. شاید باید همین حالا حمله کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin063Subtitle",
+  "text": "*برقت رفته، ژنرال. وقت آن است که بیایم و بازی کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin064Subtitle",
+  "text": "*کپه منابعت کوچک شده، ژنرال. فکر نمی‌کنم آن‌قدر برایت مانده باشد که جلوی حمله بعدی‌ام را بگیری... عالی است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin065Subtitle",
+  "text": "*بودجه؟! نمی‌خواهم درباره بودجه چیزی بشنوم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin066Subtitle",
+  "text": "*جرئت می‌کنی جلوی من طوفان اسکاد بسازی! البته می‌دانی که همه ما در برابر سم‌هایش مصون‌ایم، نه، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin067Subtitle",
+  "text": "*سیلوی هسته‌ای؟ انتظار نداشتم از تشعشع سمی استفاده کنی... شاید روزی بتوانیم با هم همکاری کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin068Subtitle",
+  "text": "*پس توپ ذره‌ای برای مقابله با سم‌هایم، ها؟ فناوری تو حریف سم‌های من نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin069Subtitle",
+  "text": "*این همه دفاع، ژنرال. همه بی‌فایده!!!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin070Subtitle",
+  "text": "*فلز فقط مانعی موقت برای سم‌های من است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin071Subtitle",
+  "text": "*آه... ترسو! خلبان‌هایت هم هنوز باید نفس بکشند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin072Subtitle",
+  "text": "*از دیدن مردانت که در تاریکی می‌درخشند لذت می‌بری؟ پس بیشتر بساز!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin073Subtitle",
+  "text": "*پایگاهت بزرگ شده، ژنرال... هدف بی‌نقصی برای طوفان اسکاد من"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin074Subtitle",
+  "text": "*بله، طوفان اسکادت را شلیک کن... سم‌های بی‌فایده‌ات را بر پایگاهم ببار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin075Subtitle",
+  "text": "*موشک هسته‌ای‌ات فقط ما را جهش‌یافته و قوی‌تر می‌کند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin076Subtitle",
+  "text": "*نمی‌توانی امید داشته باشی سم‌هایم را با آن پرتو ذره‌ای پاک کنی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin077Subtitle",
+  "text": "*بله، در آن ساختمان سنگر بگیر... مطمئنم تراکتورهای سمی‌ام عاشقش می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin078Subtitle",
+  "text": "*اگر سرهنگ برتون را وارد این ماجرا کنی، مجبورم جارمن کل را رها کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin079Subtitle",
+  "text": "*نیلوفر سیاه؟ البته می‌دانی که نیلوفر سیاه گلی سمی است... فکر کنم در یکی از سم‌هایم هست... ولی از بحث دور شدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin080Subtitle",
+  "text": "*می‌بینم جارمن کل به جنگ کوچک ما پیوسته. شاید مال من از یک دوئل تک‌تیراندازی لذت ببرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin081Subtitle",
+  "text": "*حالا آن فرودگاه را برای چه می‌خواهی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin082Subtitle",
+  "text": "*پس ژنرال ما کارخانه جنگ می‌سازد. چقدر قابل پیش‌بینی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin083Subtitle",
+  "text": "*بلههه، سربازخانه بساز... مردانت را پیش من بفرست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin084Subtitle",
+  "text": "*همه... ساختمان‌هایت را بفروش، ژنرال... و مردانت را پیش من بفرست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin085Subtitle",
+  "text": "*همین حالا تسلیم شو، تضمین می‌کنم نفس راحتی بکشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin086Subtitle",
+  "text": "*نیروهایت نفس کم آورده‌اند، ژنرال. تسلیم شو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin087Subtitle",
+  "text": "*نفس دوباره من یعنی نابودی تو، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin088Subtitle",
+  "text": "*بگذار غم‌هایت را با یک سم خوشمزه بشویم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin089Subtitle",
+  "text": "*مرگ سمی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin090Subtitle",
+  "text": "*شکست خوردی، ژنرال. شاید این به تو یاد بدهد از دکتر تراکس سرپیچی نکنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin091Subtitle",
+  "text": "*پیشکش صلح را قبول می‌کنی؟ مثلاً یک پادزهر؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin092Subtitle",
+  "text": "*شاید زیادی از سم‌های خودم استنشاق کرده‌ام... ممکن نیست تو داری شکستم می‌دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin093Subtitle",
+  "text": "*از من دور شو! شکستم نمی‌دهی، ژنرال. می‌شنوی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin094Subtitle",
+  "text": "*چه مشکلی با سم داری؟ دیده‌ای این روزها توی غذا چه می‌ریزند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin095Subtitle",
+  "text": "*حتی اگر شکستم بدهی، سم‌هایم بالاخره به تو می‌رسند... دیر یا زود!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin096Subtitle",
+  "text": "*نه! نه. شکست خوردم. حالا آن کپسول سیانور کجاست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin097Subtitle",
+  "text": "*آن دکمه آغشته به سم بود... تو همین حالا مرده‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin098Subtitle",
+  "text": "*جرئت می‌کنی دکتر تراکس را انتخاب کنی؟ بهتر است تجدیدنظر کنی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin099Subtitle",
+  "text": "*نمی‌توانی سم‌هایم را شکست بدهی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin100Subtitle",
+  "text": "*شاید نباید مدرکم را از جلوی دانشگاه، میدان انقلاب، می‌خریدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin101Subtitle",
+  "text": "*فکر می‌کردی سم‌هایم بی‌اثرند و حالا ببین چه بلایی سرت آمده، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin102Subtitle",
+  "text": "*سلام، ژنرال. فکر نکن جاسوس‌هایت را که بالای پایگاهم پرواز می‌کنند نمی‌بینم. خواهش می‌کنم، هر قدر می‌خواهی نگاه کن، چون شاید این آخرین باری باشد که دژم را می‌بینی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin103Subtitle",
+  "text": "*همان‌طور که می‌بینی، دفاع‌هایم نفوذناپذیرند... و سامانه‌های تسلیحات سمی‌ام مدت‌ها پیش از رسیدن نیروهایت به من مسمومشان می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin104Subtitle",
+  "text": "*و نگران آسیب زدن به مردم غیرنظامی نباش، ژنرال؛ آن‌ها مدت‌هاست از این دره مرگ سمی گریخته‌اند. جنگ کوچک ما بی‌وقفه پیش می‌رود... و احساسات لطیفت آزرده نمی‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin105Subtitle",
+  "text": "*آه بله، و این‌جا هم پایگاه رقت‌انگیزت را گذاشته‌ای. حالا در برابر من... دکتر تراکس... بایست، و وقتی نیروهایت آخرین نفسشان را از هوای سمی من کشیدند، می‌توانم به آزمایش‌هایم برگردم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin106Subtitle",
+  "text": "*به حواست اعتماد داری، ژنرال؟ با درگیر شدن با من خودت را به مرگی طولانی و دردناک محکوم کردی، چون من دکتر تراکسم و سلاح‌هایم نادیده ضربه می‌زنند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin107Subtitle",
+  "text": "*نفس راحت بکش، ژنرال، چون من دکتر تراکسم و با هر نفسی که می‌کشی به شکست نزدیک‌تر می‌شوی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin108Subtitle",
+  "text": "*نمونه اول مجانی است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin109Subtitle",
+  "text": "*سبز می‌خواهی یا آبی؟ هر دو به یک اندازه دلچسب‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin110Subtitle",
+  "text": "*آماده شو شکست امروزت را برای نوه‌های سه‌چشمت تعریف کنی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin111Subtitle",
+  "text": "*مواد شیمیایی عزیزم! می‌دانی مخلوط کردنشان چقدر طول می‌کشد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin112Subtitle",
+  "text": "*قربانی... اِ... داوطلب‌های بیشتر برای آزمایش‌هایم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin113Subtitle",
+  "text": "*حالا خودروهای بیشتری برای جابه‌جایی سم‌هایم دارم! چقدر سخاوتمندی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin114Subtitle",
+  "text": "*اوه، یادم رفت درباره این‌ها بگویم؟ مراقب مین‌ها باش، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin115Subtitle",
+  "text": "*حالا آن سربازان شیمیایی را کجا گذاشتم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin117Subtitle",
+  "text": "*پاه! تو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin118Subtitle",
+  "text": "*آه بله، و این‌جا هم پایگاه رقت‌انگیزت را گذاشته‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle001Subtitle",
+  "text": "*اوه، هنوز این‌جایی، ژنرال. از پشتکارت تحت تأثیر قرار گرفتم. بیا برقصیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle002Subtitle",
+  "text": "*آن‌قدرها هم درد نداشت، داشت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle003Subtitle",
+  "text": "*میدان نبرد جای خشنی است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle004Subtitle",
+  "text": "*یک ضربه بی‌نقص دیگر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle005Subtitle",
+  "text": "*همه‌چیز طبق نقشه پیش می‌رود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle006Subtitle",
+  "text": "*انگار همه‌چیز به کام من است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle007Subtitle",
+  "text": "*چه حسی دارد، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle008Subtitle",
+  "text": "*برتری تاکتیکی کلید کار است، ژنرال. بیا، نشانت می‌دهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle009Subtitle",
+  "text": "*واقعاً فکر نمی‌کنم بتوانی جلوی این حمله بعدی را بگیری... تو فکر می‌کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle010Subtitle",
+  "text": "*یک حمله دیگر در راه است... آه، و تقریباً همه قدرت‌های ژنرالم آماده‌اند... اول کدام را می‌خواهی ببینی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle011Subtitle",
+  "text": "*این ابرسلاحم بود که آماده شد؟ اوه نه، حمله‌هایم همین حس را دارند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle012Subtitle",
+  "text": "*همه یگان‌ها: الگوی حمله آلفا! شوخی کردم... کی اسم چیزی را «آلفا» می‌گذارد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle013Subtitle",
+  "text": "*چند تا از یگان‌هایم دارند می‌آیند، ژنرال. زحمتی نیست کمکشان کنی کمی کهنه‌کار شوند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle014Subtitle",
+  "text": "*من به‌ندرت نیرو می‌فرستم، ولی تو شایسته توجه ویژه‌ای، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle015Subtitle",
+  "text": "*هشدار می‌دهم دست‌کمم نگیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle016Subtitle",
+  "text": "*شاید فکر کنی قایم شده‌ام، ولی در واقع دارم برنامه‌ریزی می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle017Subtitle",
+  "text": "*احمق‌ها عجله می‌کنند، ژنرال. من سر حوصله کار می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle018Subtitle",
+  "text": "*نمی‌دانی از من چه انتظاری داشته باشی، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle019Subtitle",
+  "text": "*اگر برای برنامه‌ریزی شکست بخوری، برای شکست برنامه‌ریزی کرده‌ای، ژنرال. به آن فکر کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle020Subtitle",
+  "text": "*بزرگ‌ترین «ابرسلاح» من مغزم است... موافق نیستی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle021Subtitle",
+  "text": "*بیا دیگر، ژنرال، بهترین ضربه‌ات را بزن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle022Subtitle",
+  "text": "*منتظرت هستیم، ژنرال. چه چیزی معطلت کرده؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle023Subtitle",
+  "text": "*تاکتیک‌هایت را تحلیل می‌کردم و واقعاً حیرت‌زده‌ام... اصلاً تاکتیکی داری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle024Subtitle",
+  "text": "*اگر جای تو بودم حمله می‌کردم، ژنرال. اگر صبر کنی فقط یک ابرسلاح دیگر برای شلیک به تو خواهم داشت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle025Subtitle",
+  "text": "*پس استراتژی کلی‌ات این است که آن‌قدر حوصله‌ام را سر ببری تا از میدان بروم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle026Subtitle",
+  "text": "*داری در عاقلانه بودن حمله به من تجدیدنظر می‌کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle027Subtitle",
+  "text": "*سعی کردم با تو مدارا کنم، ژنرال، ولی کم‌کم داری اعصابم را خرد می‌کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle028Subtitle",
+  "text": "*خوش گذشت، ژنرال، ولی فکر کنم وقت تمام کردنش رسیده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle029Subtitle",
+  "text": "*شاید بهتر است این را بگذاریم برای وقت دیگری... وقتی حواست این‌قدر پرت نیست... دست‌کم امیدوارم مشکل همین باشد. گفتی «ژنرال» هستی، درست است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle030Subtitle",
+  "text": "*که از آن استفاده نمی‌کردی، می‌کردی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle031Subtitle",
+  "text": "*از ظاهر آن سربازخانه اصلاً خوشم نمی‌آمد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle032Subtitle",
+  "text": "*خودروهایت دارند روی اعصابم می‌روند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle033Subtitle",
+  "text": "*از آسمان دور بمان، ژنرال... روی زمین امن‌تری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle034Subtitle",
+  "text": "*قرار بود آن مرا از پایگاهت دور نگه دارد، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle035Subtitle",
+  "text": "*وای، مرکز فرماندهی‌ات را از دست دادی. این خیلی خوب نیست، هست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle036Subtitle",
+  "text": "*پایگاهت قبلاً زیادی شلوغ بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle037Subtitle",
+  "text": "*هیچ احترامی برای مال دیگران قائل نیستی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle038Subtitle",
+  "text": "*بچه‌ها، کی قرار بود از سربازخانه نگهبانی کند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle039Subtitle",
+  "text": "*داشتم از آن کارخانه جنگ استفاده می‌کردم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle040Subtitle",
+  "text": "*نگه داشتن فرودگاهم توقع زیادی است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle041Subtitle",
+  "text": "*آن را بی‌دلیل آن‌جا نگذاشته بودم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle042Subtitle",
+  "text": "*تازه همه آن ساختمان‌ها را همان‌جایی گذاشته بودم که می‌خواستم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle043Subtitle",
+  "text": "*از این بی‌احترامی خوشم نمی‌آید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle044Subtitle",
+  "text": "*همه آن هواپیماها را بی‌دلیل نساخته بودم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle045Subtitle",
+  "text": "*هر قدر خودرو می‌خواهی نابود کن. به من چه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle046Subtitle",
+  "text": "*چطور جرئت می‌کنی به سربازانم آسیب بزنی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle047Subtitle",
+  "text": "*آن یکی را خودم گذاشتم مال تو باشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle048Subtitle",
+  "text": "*به‌هرحال لازمش نداشتم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle049Subtitle",
+  "text": "*پالایشگاه را تصرف می‌کنی؟ عجب، ژنرال، نمی‌دانستم این‌قدر به فکر بهره‌وری هستی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle050Subtitle",
+  "text": "*کی تو را به این‌جا دعوت کرد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle051Subtitle",
+  "text": "*فکر نمی‌کنم مجوز امنیتی لازم برای حضور در این‌جا را داشته باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle052Subtitle",
+  "text": "*چه کسی به تو حق داده در پایگاه من باشی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle053Subtitle",
+  "text": "*این پایگاه من است، همین حالا برو بیرون!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle054Subtitle",
+  "text": "*انتظار نداشته باش میزبان خوبی باشم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle055Subtitle",
+  "text": "*از مهمان سرزده خوشم نمی‌آید، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle056Subtitle",
+  "text": "*فکر می‌کنی این‌جا داری چه‌کار می‌کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle057Subtitle",
+  "text": "*متجاوزان!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle058Subtitle",
+  "text": "*حضورت دارد آزارم می‌دهد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle059Subtitle",
+  "text": "*کی قرار بود از آن منطقه نگهبانی کند؟!؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle060Subtitle",
+  "text": "*پس توانستی دفاع‌هایم را بشکافی... دیگر تکرار نمی‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle061Subtitle",
+  "text": "*از پایگاهم برو بیرون، ژنرال. فکر نکن ابایی دارم که توپ ذره‌ای را همین‌جا فرود بیاورم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle062Subtitle",
+  "text": "*پایگاهت کمی تاریک به نظر می‌رسد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle063Subtitle",
+  "text": "*کسی یادش رفته قبض برق را بدهد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle064Subtitle",
+  "text": "*منابعت را خیلی عاقلانه مدیریت نکردی، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle065Subtitle",
+  "text": "*داری مرا از بودجه‌ام بیرون می‌زنی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle066Subtitle",
+  "text": "*چطور ممکن است این اتفاق افتاده باشد! همه‌چیز را آن‌قدر بی‌نقص برنامه‌ریزی کرده بودم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle067Subtitle",
+  "text": "*فکر می‌کنی از طوفان اسکاد کوچولویت می‌ترسم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle068Subtitle",
+  "text": "*آن سیلوی هسته‌ای مرا نمی‌ترساند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle069Subtitle",
+  "text": "*سلیقه‌ات در انتخاب سلاح را تحسین می‌کنم، ولی در این میدان نبرد فقط من اجازه دارم توپ ذره‌ای داشته باشم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle070Subtitle",
+  "text": "*امن‌ترین حالت پایگاهت همین است؟ همین؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle071Subtitle",
+  "text": "*این همه تانک، ژنرال. دیده‌ای یک توپ ذره‌ای با این همه تانک چه می‌کند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle072Subtitle",
+  "text": "*این همه هواپیما برای من فقط آلودگی هواست"
+ }
+]

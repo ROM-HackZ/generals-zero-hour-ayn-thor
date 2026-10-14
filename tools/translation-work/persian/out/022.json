@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen09Subtitle",
+  "text": "*عامل سمی تازه‌ای که از آمریکا \"قرض گرفتیم\" به‌ویژه علیه نیروهای خودشان کارآمد است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen10Subtitle",
+  "text": "*اول ناوگان مدیترانه، بعد حمله به خاک آمریکا... و حالا سلطه ما بر اروپا آغاز می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen11Subtitle",
+  "text": "*از شرق زیر حمله‌ایم. حمله‌ها را همین حالا تمام کن، باید نابودشان کنیم تا روی پایگاه اصلی در شمال تمرکز کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen12Subtitle",
+  "text": "*تقریباً رسیدیم... آمریکا بهای سنگینی برای تجاوزش به مردم ما می‌پردازد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen13Subtitle",
+  "text": "*پولمان کم است. منطقه را برای منابع بگرد، نباید متوقف شویم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen14Subtitle",
+  "text": "*با ایمن شدن این منطقه باید نیرو بسازیم و به پایگاه فرماندهی مرکزی آمریکا در اروپا حمله کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen15Subtitle",
+  "text": "*آمریکایی‌ها به‌شدت به یگان‌های هوایی تکیه دارند. سایت استینگر و توپ چهارلول بیشتری بساز"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen16Subtitle",
+  "text": "*دفاعمان را هدف گرفته‌اند، باید سایت‌های استینگر را استتار کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen17Subtitle",
+  "text": "*ژنرالم، باید یک طوفان اسکاد بسازیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen18Subtitle",
+  "text": "*ژنرال آمریکایی از توپ ذره‌ای علیه ما استفاده می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen19Subtitle",
+  "text": "*باید تاکتیک دیگری امتحان کنیم. با حمله غافلگیرانه یگان‌ها را وارد پایگاه کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen20Subtitle",
+  "text": "*پایگاه آمریکا را تصرف و تقویت کن. می‌توانیم سلاح‌هایشان را علیه خودشان به کار ببریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen21Subtitle",
+  "text": "*باید توپ ذره‌ای را نابود کنی!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen22Subtitle",
+  "text": "*حالا از زمین حمله می‌کنند. از پایگاهمان دفاع کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen23Subtitle",
+  "text": "*پایگاه را سریع بازسازی کن... باید برای حمله‌های بیشتر آماده شویم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen24Subtitle",
+  "text": "*آفرین، ژنرال. به لطف تاکتیک‌های برترت اکنون هر سه سلاح ویژه در اختیار ماست. آمریکایی‌ها هرگز نمی‌فهمند از کجا خوردند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen25Subtitle",
+  "text": "*کار آمریکایی‌ها را تمام کن، ژنرال. دیگر مدت زیادی دوام نمی‌آورند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen26Subtitle",
+  "text": "*ژنرال، می‌توانیم سنگرهای شیمیایی‌شان را هدف بگیریم و در پایگاه خودشان آشوب به پا کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen27Subtitle",
+  "text": "*توپ ذره‌ای‌شان دیگر وجود ندارد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen28Subtitle",
+  "text": "*آمریکایی‌ها یک توپ ذره‌ای دیگر ساخته‌اند. نباید بگذاریم علیه ما به کارش ببرند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen29Subtitle",
+  "text": "*باید همین حالا پایگاه پشتیبانی جنوبی دشمن را از میان برداریم! هرچه صبر کنیم حمله‌هایشان قوی‌تر می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen30Subtitle",
+  "text": "*گزارش‌ها نشان می‌دهد اسرای پایگاه آمریکا به‌زودی جابه‌جا می‌شوند. باید سریع نجاتشان دهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen31Subtitle",
+  "text": "*برای آزادی اسرا باید منطقه پایگاه آمریکا را کاملاً پاک کنی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen32Subtitle",
+  "text": "*عجله کن، اسرا باید همین حالا نجات یابند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen33Subtitle",
+  "text": "*باید با ارتقای مرکز فرماندهی چین رادار را راه بیندازیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen34Subtitle",
+  "text": "*ساختن یک مرکز فرماندهی GLA ضروری است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen35Subtitle",
+  "text": "*با رفتن پایگاه کوچک جنوبی می‌توانیم روی پایگاه فرماندهی مرکزی آمریکا در اروپا تمرکز کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen36Subtitle",
+  "text": "*پایگاه فرماندهی مرکزی آمریکا عظیم است، باید راهی به داخل پیدا کنیم! شاید حمله‌های غافلگیرانه جواب بدهد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen37Subtitle",
+  "text": "*باید اسرا را به روستایشان برسانیم تا هسته تروریستی‌شان را دوباره بیدار کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen38Subtitle",
+  "text": "*برادرانمان زیر حمله‌اند! باید کمکشان کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen39Subtitle",
+  "text": "*اسرا را به روستایشان برگردان، رودخانه را به سمت شمال دنبال کن تا برسی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen40Subtitle",
+  "text": "*اسرا در امان‌اند! باید کمکشان کنیم به روستایشان برگردند تا در جنگ علیه آمریکا یاری‌مان کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen41Subtitle",
+  "text": "*این تانک‌ها را بگیر و مثل مال خودمان به کارشان می‌بریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen42Subtitle",
+  "text": "*تدارکات را ایمن کن تا بهترین منطقه برای حمله به آمریکایی‌ها را داشته باشیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen43Subtitle",
+  "text": "*سربازان در امان‌اند و خانواده‌هایشان غرق شادی! با ما می‌جنگند و تدارکات بیشتری هم به ما داده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen44Subtitle",
+  "text": "*برادرانمان را ناامید کردیم اما باز هم در کنارمان می‌جنگند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen45Subtitle",
+  "text": "*برادرانمان برای انتقام مرگ اسرا در کنارمان می‌جنگند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen46Subtitle",
+  "text": "*آمریکایی‌ها اسرا را بردند، اما برادرانمان باز هم در کنارمان علیه دشمن می‌جنگند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen47Subtitle",
+  "text": "*اروپا به‌زودی مال ما می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW01Subtitle",
+  "text": "*ما را از اسیرکنندگانمان آزاد کن. از ما در برابر همه حمله‌های آمریکا محافظت کن و کمکت می‌کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW02Subtitle",
+  "text": "*هر وقت آماده بودی ما هم برای بازگشت به خانه آماده‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW03Subtitle",
+  "text": "*عجله کن، وقت کم است!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW04Subtitle",
+  "text": "*وقتمان دارد تمام می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW05Subtitle",
+  "text": "*خواهش می‌کنیم نجاتمان بده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW06Subtitle",
+  "text": "*به کمکت نیاز داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter01Subtitle",
+  "text": "*جلوتر یک پل است. به نظر به‌شدت از آن دفاع می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter02Subtitle",
+  "text": "*به یک پل نزدیک می‌شویم. خبری از آمریکایی‌ها نیست"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter07Subtitle",
+  "text": "*بمیرید آمریکایی‌ها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Cin01Subtitle",
+  "text": "*بمیرید آمریکایی‌ها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General05Subtitle",
+  "text": "*دیده‌بان‌های آمریکایی ما را پیدا کرده‌اند. آماده جنگ باشید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General20Subtitle",
+  "text": "*باید عقبشان برانی تا کنترل سنگرها را بگیری"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA07Convoy13Subtitle",
+  "text": "*چند تدارکات پیدا کردیم، شاید به کار بیاید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Buggy101Subtitle",
+  "text": "*به سوی افتخار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar10Subtitle",
+  "text": "*باید با هرچه داریم بکوبیمشان"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar39Subtitle",
+  "text": "*نیروهایمان برای آغاز حمله آماده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander03Subtitle",
+  "text": "*پرنده‌های سریع در راه‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander09Subtitle",
+  "text": "*گروهان اکو، بمب‌افکن در راه است، خیلی نزدیکید، عقب بکشید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo108Subtitle",
+  "text": "*تماس‌های بیشتر، فاصله ۳۰۰"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo201Subtitle",
+  "text": "*خوردم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Eva02Subtitle",
+  "text": "*ژنرال، دکل‌های نفت دشمن را تصرف کن تا تدارکات بیشتری برای جنگ به دست آوریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Raptor201Subtitle",
+  "text": "*روشنشان کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf01Subtitle",
+  "text": "*خوش برگشتی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf02Subtitle",
+  "text": "*GLA صبح زود امروز موشکش را از تأسیسات بایکونور پرتاب کرد. اطلاعات گزارش می‌دهد برای پرتاب دوم آماده می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf03Subtitle",
+  "text": "*استفاده از این موشک جای پای ما را در اروپا به‌شدت ضعیف می‌کند. برداشتن این تهدید حیاتی است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf04Subtitle",
+  "text": "*منابع ما می‌گویند موشک بعدی با قطار به تأسیسات پرتاب منتقل می‌شود. این ریل تنها راه ورود به تأسیسات است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf05Subtitle",
+  "text": "*اگر به‌موقع آن قطار را رهگیری کنیم، می‌توانیم با پوشش آن به پایگاه نفوذ کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf06Subtitle",
+  "text": "*اولین گام تکمیل مأموریت، ایمن کردن و نگه داشتن این ایستگاه قطار است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf07Subtitle",
+  "text": "*موفق باشی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xC+A39hat11Subtitle",
+  "text": "*سازه‌های GLA بیشتری در شرق!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat01Subtitle",
+  "text": "*اسکورپیون‌ها ساعت ۹!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat02Subtitle",
+  "text": "*همه سوار شوید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat03Subtitle",
+  "text": "*همه بلیتشان را دارند؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat04Subtitle",
+  "text": "*خانم، من اومدم! هاهاها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat05Subtitle",
+  "text": "*چند پیاده‌نظام را سوار این خودروها کنید! می‌توانیم با آن‌ها GLA را شکست دهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat06Subtitle",
+  "text": "*یکی در آن ایستگاه رادیو سنگر بگیرد! همین حالا پشتیبانی هوایی لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat07Subtitle",
+  "text": "*آن بشکه‌ها را هدف بگیرید! منفجر می‌شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat08Subtitle",
+  "text": "*خب بچه‌ها. بارشان کنید و حرکت!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat09Subtitle",
+  "text": "*سایت‌های استینگر از کار افتادند! تکرار می‌کنم استینگرها از کار افتادند! همه یگان‌ها روی سازه‌های GLA جمع شوید! این‌جا را زیرورو کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat10Subtitle",
+  "text": "*سازه‌های GLA بیشتری در غرب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat12Subtitle",
+  "text": "*حتماً، قرارگاه! در تیررسم هستند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat13Subtitle",
+  "text": "*تحویل محموله"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat14Subtitle",
+  "text": "*چه کیفی دارد بوی مادر همه بمب‌ها صبح زود"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin01Subtitle",
+  "text": "*همه یگان‌ها منطقه پرتاب را تخلیه کنند. پرتاب در شمارش معکوس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin02Subtitle",
+  "text": "*۵"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin03Subtitle",
+  "text": "*۴"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin04Subtitle",
+  "text": "*۳"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin05Subtitle",
+  "text": "*۲"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin06Subtitle",
+  "text": "*۱"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin07Subtitle",
+  "text": "*۰"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin08Subtitle",
+  "text": "*پرتاب انجام شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin09Subtitle",
+  "text": "*پرتاب ادامه دارد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin10Subtitle",
+  "text": "*آمریکایی‌های کثیف. حضورتان اینجا را به آتش می‌کشیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin11Subtitle",
+  "text": "*کابوی‌های احمق آمریکایی!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva01Subtitle",
+  "text": "*آفرین، ژنرال. ایستگاه ایمن شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva02Subtitle",
+  "text": "*حالا باید نیروی حمله‌ای بسازیم که برای نابودی پایگاه GLA کافی باشد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva03Subtitle",
+  "text": "*بهترین یگان‌هایت را سوار قطار کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva04Subtitle",
+  "text": "*قطار وقتی کاملاً پر شود حرکت می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva05Subtitle",
+  "text": "*آفرین، ژنرال... قطار پر است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva06Subtitle",
+  "text": "*آن تانک دراگون را بالا بفرست تا آن ساختمان‌ها را پاک کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva07Subtitle",
+  "text": "*یگان بیشتری بساز. نمی‌خواهیم حمله غافلگیرانه‌مان شکست بخورد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva08Subtitle",
+  "text": "*ژنرال! افرادت را از گودال بیرون بیاور! مادر همه بمب‌ها در راه است و این‌جا را تکه‌تکه می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva09Subtitle",
+  "text": "*باید نابودی این پایگاه را تمام کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva10Subtitle",
+  "text": "*مادر همه بمب‌ها هر لحظه می‌رسد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva11Subtitle",
+  "text": "*بال آلفا! منطقه پاک است. می‌توانید ادامه دهید"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva12Subtitle",
+  "text": "*آفرین، ژنرال. به نظر می‌رسد تهدید GLA بالاخره برطرف شد. وقتش است همه این‌ها را پشت سر بگذاریم و دنبال آن سلاح‌های کشتار جمعی بگردیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche101Subtitle",
+  "text": "*ممنون که بیرونم آوردی، قربان! اوضاع داشت برایم کمی خطرناک می‌شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche204Subtitle",
+  "text": "*دارند دورمان جمع می‌شوند، قربان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf01Subtitle",
+  "text": "*اسکله‌ها پاک شد، ژنرال. اولین کارمان نگه داشتن آن‌ها تا رسیدن کامیون‌های تدارکات است. تا رسیدن بولدوزرها باید با نیروهایی که کم‌کم می‌رسند از این موقعیت دفاع کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf02Subtitle",
+  "text": "*بیشتر ناوگان ما از حمله بایکونور GLA جان سالم به در برد. ناو هواپیمابر و ناوهای جنگی اسکورت ما برای کمک در این عملیات در اختیار شما هستند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat01Subtitle",
+  "text": "*حمله هوایی آغاز شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat02Subtitle",
+  "text": "*ناو جنگی بمباران را آغاز می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat03Subtitle",
+  "text": "*اسکله‌ها کاملاً پاک‌اند. هیچ GLA‌ای دیده نمی‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat04Subtitle",
+  "text": "*دریافت شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat05Subtitle",
+  "text": "*آغاز حمله"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat06Subtitle",
+  "text": "*آغاز حمله هوایی"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat07Subtitle",
+  "text": "*توپ‌ها شعله‌ورند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat08Subtitle",
+  "text": "*درخشش سرخ موشک‌ها را نشانشان می‌دهیم، خیالت راحت"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin01Subtitle",
+  "text": "*فرماندهی ناو به ناوگان. به آتش ادامه دهید، بچه‌ها. GLA نیروی کمکی می‌آورد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin02Subtitle",
+  "text": "*دریافت شد، فرماندهی ناو. آتش سرکوب روی اسکله‌ها ادامه دارد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin03Subtitle",
+  "text": "*مراقب باشید به چه شلیک می‌کنید. فقط می‌خواهیم پاکش کنیم، نه نابودش"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva01Subtitle",
+  "text": "*کار خوبی بود، قربان! هدف بعدی ما تأمین عبور امن کامیون‌های تدارکات از شهر است. کامیون‌ها باید به انبار تدارکات شهر برسند. کنترل اسکله‌ها را هم باید حفظ کنیم. موفق باشید، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva02Subtitle",
+  "text": "*کامیون‌های تدارکات حرکت کرده‌اند، ژنرال. باید در مسیرشان تا محل تحویل از آن‌ها محافظت کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva03Subtitle",
+  "text": "*چند پهپاد نگهبان نمونه اولیه تازه برایت می‌فرستم. اگر بی‌حرکت بمانند دشمن نمی‌تواند شناسایی‌شان کند. می‌توانند یگان‌های پنهان و تله‌های انفجاری GLA را هم ببینند. باید بسیار سودمند باشند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva04Subtitle",
+  "text": "*بولدوزرمان رسید، قربان! ساخت پایگاه را شروع کنید. GLA موج تازه‌ای از حمله علیه ما آماده می‌کند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva05Subtitle",
+  "text": "*کار عالی، قربان! مردم این شهر از تدارکات امدادی قدردانی کرده‌اند. هدف نهایی ما بیرون راندن GLA از منطقه است. پایگاه اصلی‌شان مشرف بر شهر را نابود کنید تا منطقه ایمن شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva06Subtitle",
+  "text": "*نیروی کمکی در راه است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva07Subtitle",
+  "text": "*ژنرال، پهپادهای نگهبان ما می‌توانند در یافتن تله‌های انفجاری GLA کمک کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva08Subtitle",
+  "text": "*قربان، هنوز GLA نزدیک انبار هست. باید فوراً پاکشان کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva09Subtitle",
+  "text": "*کامیون‌های تدارکات زیر حمله‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva10Subtitle",
+  "text": "*آفرین، همه کامیون‌ها سالم به اسکله رسیدند، حالا به شهر برسانیمشان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva11Subtitle",
+  "text": "*سعی کن تلفات غیرنظامیان را کم کنی"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva12Subtitle",
+  "text": "*یک اردوگاه آموزشی GLA کشف کردید، قربان. اطلاعات معتقد است اعضای این اردوگاه تا حدی مسئول پرتاب بایکونور بوده‌اند. دستور داریم نابودش کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva13Subtitle",
+  "text": "*انبار را ایمن کن تا کامیون‌های تدارکات با امنیت ادامه دهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva14Subtitle",
+  "text": "*وقتی انبار ایمن شد کامیون‌های تدارکات ادامه می‌دهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva15Subtitle",
+  "text": "*بولدوزرها رسیدند ژنرال. هر طور صلاح می‌دانی GLA را از میان بردار"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva16Subtitle",
+  "text": "*پیش از آنکه GLA بدزدد یا نابودش کند، غذا را به شهر برسان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva17Subtitle",
+  "text": "*ژنرال، موفق شدیم. شهر از ستم GLA آزاد شد. به نظر می‌رسد اطلاعاتی دارند که ما را مستقیم به آن سلاح‌های کشتار جمعی پنهان می‌رساند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva18Subtitle",
+  "text": "*پشتیبانی کامل دریایی برای این عملیات در دسترس است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva19Subtitle",
+  "text": "*هر طور صلاح می‌دانی از ناوهای جنگی و ناو هواپیمابر استفاده کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva20Subtitle",
+  "text": "*ناوهای جنگی در بردند و منتظر هدف‌اند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva21Subtitle",
+  "text": "*ناو دیدالوس با هواپیماهای آماده در حالت آماده‌باش است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva22Subtitle",
+  "text": "*انبار باید ایمن شود، اما امنیت اسکله‌ها نباید به خطر بیفتد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva23Subtitle",
+  "text": "*نیروهای ما در این منطقه محدودند. هر وقت نیروی کمکی در دسترس باشد به تو می‌رسد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva24Subtitle",
+  "text": "*انبار را بدون به خطر انداختن امنیت اسکله‌ها ایمن کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva25Subtitle",
+  "text": "*کاروان انبار را دوباره پر کرد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva26Subtitle",
+  "text": "*پایگاه GLA هدف بعدی است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply01Subtitle",
+  "text": "*به محض اینکه انبار امن شود راه می‌افتیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply02Subtitle",
+  "text": "*ممنون بابت آتش پوششی، ژنرال! همه کامیون‌ها بار زده و آماده حرکت‌اند. فقط آن شهر را برایمان پاک کن، قربان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply03Subtitle",
+  "text": "*خیابان‌ها پر از تله انفجاری است، قربان! باید پاکسازی شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply04Subtitle",
+  "text": "*به انبار رسیدیم، ژنرال. ممنون بابت همراهی!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply05Subtitle",
+  "text": "*کاروان سالم رسید، قربان. ممنون بابت پوشش"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager01Subtitle",
+  "text": "*اوه ممنونم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager02Subtitle",
+  "text": "*خدا خیرتان بدهد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager03Subtitle",
+  "text": "*خیلی وقت است چیزی نخورده‌ام"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager04Subtitle",
+  "text": "*باز هم هست؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Comanche102Subtitle",
+  "text": "*توپ‌های چهارلول دارند تکه‌تکه‌مان می‌کنند، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader105Subtitle",
+  "text": "*پشتیبانی بیشتری لازم داریم! دارند خردمان می‌کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader108Subtitle",
+  "text": "*یکی آن باگی‌ها را از سرمان دور کند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader304Subtitle",
+  "text": "*تماس با دشمن تأیید شد! سریع نزدیک می‌شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader307Subtitle",
+  "text": "*همه یگان‌ها! به آتش ادامه دهید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf01Subtitle",
+  "text": "*ژنرال، سرهنگ برتون و نیلوفر سیاه در موقعیت و آماده فرمان شما هستند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf02Subtitle",
+  "text": "*هدف اصلی‌شان این آزمایشگاه مخفی است. موقعیتش از اسنادی که در مأموریت قبلی‌تان به دست آمد فاش شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf03Subtitle",
+  "text": "*GLA روی یک سلاح کشتار جمعی تازه کار می‌کند. نیلوفر سیاه باید این داده‌ها را دانلود کند تا بدانیم پژوهششان تا کجا پیش رفته"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf04Subtitle",
+  "text": "*وقتی دانلودش تمام شد، سرهنگ برتون باید دامنه کوه را روی آزمایشگاه فرو بریزد و برای همیشه دفنش کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton01Subtitle",
+  "text": "*کنار پل هستیم. لوتوس، ترتیب آن اسکورپیون را بده، من به بقیه نگهبان‌ها می‌رسم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton02Subtitle",
+  "text": "*این جزو نقشه نبود، لوتوس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton03Subtitle",
+  "text": "*منتظرم می‌مانی؟ باشد لوتوس، مسابقه بدهیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton04Subtitle",
+  "text": "*در راهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton05Subtitle",
+  "text": "*خب، اردوگاه اسرا را می‌بینم... به نظر شبکه تونلی دارند که از زیر رودخانه می‌گذرد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton06Subtitle",
+  "text": "*کارت خوب بود لوتوس... تونل‌ها اینجا از کار افتاده‌اند... فقط ترتیب دو سه نگهبان را بدهم و همه را آزاد می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton07Subtitle",
+  "text": "*اگر اطلاعات درباره دفاع اطراف کوه‌ها درست باشد آن خودروها به کار می‌آیند. ژنرال، باید آن‌ها را هم نجات دهیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton08Subtitle",
+  "text": "*ژنرال، نزدیک اردوگاه دوم اسرا در موقعیتم... یک شبکه تونل و نگهبان‌هایی جلویش هست. اگر از صخره‌های انتهای جنوبی اردوگاه پایین بروم می‌توانم دزدکی وارد محوطه شوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton09Subtitle",
+  "text": "*مغرور نشو لوتوس، هنوز مسابقه را نبرده‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton10Subtitle",
+  "text": "*این آخری‌شان بود... اردوگاه دوم اسرا ایمن شد... یکی به لوتوس بگوید عجله کند... نمی‌خواهم کنار آزمایشگاه منتظر بمانم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton11Subtitle",
+  "text": "*عجب اسباب‌بازی تازه‌ای. ژنرال، اگر آن را روی شبکه‌های تونل و سایت‌های استینگر نگهبان کوه متمرکز کنی، راحت از کنارشان رد می‌شوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton12Subtitle",
+  "text": "*انگار یک پایگاه کامل GLA است. اطلاعات هیچ‌وقت نگفته بود اینجا چنین چیزی هست"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton13Subtitle",
+  "text": "*به نظر انتظار مرا نداشتند... کمی C4 اینجا و آنجا و کار این‌جا را سریع تمام می‌کنم... فقط فرمان بده، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton14Subtitle",
+  "text": "*باید بتوانم با خیال راحت از روستا رد شوم... فقط باید مراقب ون‌های رادار که منطقه را زیر نظر دارند باشم. کاش چند نارنجک صوتی-نوری داشتم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton15Subtitle",
+  "text": "*همین است! بالای آزمایشگاه در موقعیت قرار می‌گیرم... منتظرم نگذار لوتوس، اینجا سرد است"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton16Subtitle",
+  "text": "*خرج‌ها کار گذاشته شد... هر وقت گفتی، لوتوس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton17Subtitle",
+  "text": "*خب لوتوس، سریعی... قبول دارم. هرچه زودتر می‌رسم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton18Subtitle",
+  "text": "*خب... کنار کوهم... وقتی دانلودت تمام شد بگو لوتوس، تا آن آزمایشگاه را جایی دفن کنم که دیگر کسی پیدایش نکند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat01Subtitle",
+  "text": "*سنگر گرفتید؟... بخورید نارنجک صوتی"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat02Subtitle",
+  "text": "*آنجایند... یادتان باشد، رگبارهای کوتاه و کنترل‌شده"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat03Subtitle",
+  "text": "*پیاده‌نظام؟ مشکلی نیست"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat04Subtitle",
+  "text": "*زیر آتشیم... اینجا پشتیبانی لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin01Subtitle",
+  "text": "*اینجا اسپیریت، بالای منطقه هدف می‌روم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin02Subtitle",
+  "text": "*دریافت شد اسپیریت، مأموریت انجام شود. آماده‌ای؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin03Subtitle",
+  "text": "*بله سرهنگ، شروع کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin04Subtitle",
+  "text": "*اینجا اسپیریت، درهای محفظه بمب باز است... بمب‌ها رها شدند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin05Subtitle",
+  "text": "*اسپیریت به نفوذی، منطقه فرودت پاک است... موفق باشی"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin06Subtitle",
+  "text": "*دریافت شد اسپیریت، خوب زدی"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin07Subtitle",
+  "text": "*رسیدیم... هرکس می‌ماند پیاده شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin08Subtitle",
+  "text": "*ممنون بابت رساندن بچه‌ها... به‌زودی می‌بینمتان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin09Subtitle",
+  "text": "*شینوک‌های کوچک شما کارآمدند... اما من قدرت هلیکس‌های خودمان را ترجیح می‌دهم..."
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr01Subtitle",
+  "text": "*آزاد شدیم! همه سوار خودروها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr02Subtitle",
+  "text": "*ممنون، ژنرال. گوش به فرمانیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva01Subtitle",
+  "text": "*ژنرال، هدف اول شما نابودی این پل است. نابودی‌اش نیروهای کمکی GLA از آن سوی رودخانه را قطع می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva02Subtitle",
+  "text": "*ژنرال، نیروهای کمکی GLA در حال عبور از پل دیده شدند"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva03Subtitle",
+  "text": "*دسته دیگری از GLA وارد منطقه شد، ژنرال. شاید باید همین حالا کار آن پل را تمام کنیم؟"
+ }
+]

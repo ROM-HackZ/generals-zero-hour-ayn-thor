@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi002Subtitle",
+  "text": "*猛虎已蓄势待发，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi003Subtitle",
+  "text": "*为了中国！冲锋！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi004Subtitle",
+  "text": "*我的部队已准备好进攻你的防线，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi005Subtitle",
+  "text": "*感受我钢铁巨龙沉重的脚步吧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi006Subtitle",
+  "text": "*你的防御在我的部队面前一文不值"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi007Subtitle",
+  "text": "*现在我们在荣誉的战场上相遇了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi008Subtitle",
+  "text": "*我们这样做是为了中国的利益"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi009Subtitle",
+  "text": "*是时候考验一下你的成色了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi010Subtitle",
+  "text": "*你攻击我这是最后一次了，将军。这一波攻势将冲破你的防线，把你那可怜的军队碾成齑粉！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi011Subtitle",
+  "text": "*中国的力量降临到你头上"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi012Subtitle",
+  "text": "*你那低劣的部队对我的战士构不成任何挑战"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi013Subtitle",
+  "text": "*这场战斗是你挑起的，将军。我来结束它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi014Subtitle",
+  "text": "*攻击那个蠢货！不留俘虏！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi015Subtitle",
+  "text": "*两名战士在战场上相遇。谁会赢？我说了算，就是我。你会倒下的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi016Subtitle",
+  "text": "*一场赢不了的仗不值得打。那你为什么在这里，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi017Subtitle",
+  "text": "*愤怒只能让你走这么远，将军。但愤怒加上一列坦克……那就能成事了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi018Subtitle",
+  "text": "*你已经走投无路了，将军。而你现在才发现，连这条路的尽头都着了火"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi019Subtitle",
+  "text": "*战斗之舞奇特而短暂……而与你的这场战斗短暂得出奇"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi020Subtitle",
+  "text": "*看来你没有把战略想清楚。可惜"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi021Subtitle",
+  "text": "*那是一个必败的战略，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi022Subtitle",
+  "text": "*你的所作所为并不是为了你人民的利益，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi023Subtitle",
+  "text": "*我给你一点时间考虑下一步"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi024Subtitle",
+  "text": "*智者知进退。显然你不是这样的人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi025Subtitle",
+  "text": "*最终，所有人都会倒在我面前"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi026Subtitle",
+  "text": "*你无法抵挡我的力量"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi027Subtitle",
+  "text": "*一个人无法打败中国"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi028Subtitle",
+  "text": "*我们将深思熟虑下一步行动"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi029Subtitle",
+  "text": "*不要采用你无法支撑的战术"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi030Subtitle",
+  "text": "*自杀可不是战术，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi031Subtitle",
+  "text": "*我们像飓风卷竹子一样扫平你的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi032Subtitle",
+  "text": "*我们推倒兵营时，你的士兵都逃了出来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi033Subtitle",
+  "text": "*工厂不会制造战争，将军——而现在你的战车工厂什么都造不出来了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi034Subtitle",
+  "text": "*你的机场被迫停飞了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi035Subtitle",
+  "text": "*你的基地防御像草叶一样在我们面前倒下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi036Subtitle",
+  "text": "*我们摧毁了你的指挥中心，你现在藏在哪儿，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi037Subtitle",
+  "text": "*你那么多建筑都倒了，我还以为你早就投降了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi038Subtitle",
+  "text": "*别以为你摧毁了我的兵营却感受不到我的怒火，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi039Subtitle",
+  "text": "*现在我得重建那座战车工厂了。你最好利用我这短暂的弱点……它不会持续太久"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi040Subtitle",
+  "text": "*推土机：在我们的米格回来之前重建机场！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi041Subtitle",
+  "text": "*我们的防线在崩溃！击退入侵者！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi042Subtitle",
+  "text": "*破坏得够多了，将军。现在轮到我了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi043Subtitle",
+  "text": "*你可以夺走我的指挥中心，但这场战斗还没结束，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi044Subtitle",
+  "text": "*我们会为你摧毁的所有米格报仇，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi045Subtitle",
+  "text": "*这场战争的代价太高了，将军。现在该你付出代价了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi046Subtitle",
+  "text": "*中国步兵众多，但牺牲的已经太多了。现在我要十倍奉还你的残忍"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi047Subtitle",
+  "text": "*想占多少石油就占吧——你没时间享受收获了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi048Subtitle",
+  "text": "*那座火炮平台很容易避开，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi049Subtitle",
+  "text": "*想用那座炼油厂提高效率吗，将军？一个扎实的战略对你更有用"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi050Subtitle",
+  "text": "*我基地的边缘有动静"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi051Subtitle",
+  "text": "*我看到你正在接近我的基地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi052Subtitle",
+  "text": "*你不会活着后悔进入我的基地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi053Subtitle",
+  "text": "*你的部队可以进入我的基地，但他们再也出不去了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi054Subtitle",
+  "text": "*那些资源在我的保护之下，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi055Subtitle",
+  "text": "*你为什么总是从侧翼进攻？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi056Subtitle",
+  "text": "*有意思的进攻，将军，但对我不会成功"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi057Subtitle",
+  "text": "*勇敢的进攻，将军，但光有勇气打不败我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi058Subtitle",
+  "text": "*那是蠢人的战术，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi059Subtitle",
+  "text": "*在惹怒我之前离开这里"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi060Subtitle",
+  "text": "*我看得出你在做什么，将军。我不会允许的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi061Subtitle",
+  "text": "*快逃吧，将军，趁我还没放出大军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi062Subtitle",
+  "text": "*我们正在接近你的基地，将军。你怎么防守？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi063Subtitle",
+  "text": "*你准备好迎接我们的进攻了吗，将军？我们拭目以待"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi064Subtitle",
+  "text": "*你的防御不堪一击，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi065Subtitle",
+  "text": "*现在我们开始把你的基地夷为平地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi066Subtitle",
+  "text": "*你的资源很快就是我的了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi067Subtitle",
+  "text": "*我为中国占领这座油井"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi068Subtitle",
+  "text": "*你的侧翼暴露了，将军。致命的错误"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi069Subtitle",
+  "text": "*你让我的部队绕过了你的防线。现在我们要解决你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi070Subtitle",
+  "text": "*你让自己的电力下降了，将军。祈祷这不是致命的错误吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi071Subtitle",
+  "text": "*没有电力你就守不住基地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi072Subtitle",
+  "text": "*你已经耗尽资源了，将军。是时候认输了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi073Subtitle",
+  "text": "*你消耗了我的资源，将军。现在我要来拿走你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi074Subtitle",
+  "text": "*飞毛腿风暴是懦夫的武器，将军。我本以为你更有骨气"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi075Subtitle",
+  "text": "*你逼我用自己的核导弹发射井来回应了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi076Subtitle",
+  "text": "*那门粒子加农炮是可怕的武器，但它挡不住中国"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi077Subtitle",
+  "text": "*这么多防御……看来你对敌人很是尊重"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi078Subtitle",
+  "text": "*你造的坦克不可能比中国多，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi079Subtitle",
+  "text": "*我们会在空中与你的飞机一较高下，将军。你的优势只存在于你的想象中"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi080Subtitle",
+  "text": "*你的士兵寡不敌众，将军。别想组建比中国更庞大的大军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi081Subtitle",
+  "text": "*你的基地变得很大了，将军……正适合核打击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi082Subtitle",
+  "text": "*红卫兵，散开！飞毛腿导弹来袭！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi083Subtitle",
+  "text": "*我们不怕你的核导弹，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi084Subtitle",
+  "text": "*不！你的粒子光束只会伤到我们——我们不会忘记这笔账的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi085Subtitle",
+  "text": "*躲进那些建筑吧，将军。也许龙坦克会去拜访你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi086Subtitle",
+  "text": "*伯顿上校的事迹是传奇，但他终究只是一个人，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi087Subtitle",
+  "text": "*看来你策反了我们的一名黑莲花特工。她的训练扭转不了战局，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi088Subtitle",
+  "text": "*狙击手凯尔加入了战斗。别指望他的隐身能救你，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi089Subtitle",
+  "text": "*你建机场真蠢，将军。只有坦克才能让你免遭我手"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi090Subtitle",
+  "text": "*你建战车工厂是明智的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi091Subtitle",
+  "text": "*要打败我，那座兵营只是开始，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi092Subtitle",
+  "text": "*既然要卖掉建筑，为什么还费劲去建？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi093Subtitle",
+  "text": "*你不会这么轻易打败我的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi094Subtitle",
+  "text": "*你的优势保持不了多久"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi095Subtitle",
+  "text": "*我不会被你这种人打败，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi096Subtitle",
+  "text": "*这还没完，将军。我会东山再起"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi097Subtitle",
+  "text": "*我必须承认这次失败。你展现了更高明的战术，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi098Subtitle",
+  "text": "*我高明的战术正引你走向失败，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi099Subtitle",
+  "text": "*你正在输掉这场战斗，将军。与其继续打下去，不如体面地接受失败"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi100Subtitle",
+  "text": "*你的末日快到了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi101Subtitle",
+  "text": "*你为什么要抗拒必然的结局，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi102Subtitle",
+  "text": "*巨龙的阴影预示着你失败的开始，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi103Subtitle",
+  "text": "*是时候接受失败了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi104Subtitle",
+  "text": "*是时候让巨龙再次腾飞了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi105Subtitle",
+  "text": "*承认自己的弱点并不可耻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi106Subtitle",
+  "text": "*你还没准备好面对我。训练完成后再来吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi107Subtitle",
+  "text": "*你为什么要奔向自己的末日？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi108Subtitle",
+  "text": "*这是一场有趣的较量。也许你会再来挑战我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi109Subtitle",
+  "text": "*提高你的本领，再来挑战我吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi110Subtitle",
+  "text": "*欢迎，将军。希望你已经准备好面对我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi111Subtitle",
+  "text": "*你的胜利证明了你的能力，但我的将军们没有我的狡诈和经验"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi112Subtitle",
+  "text": "*很快你就会知道面对巨龙是什么滋味"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA001Subtitle",
+  "text": "*大多数敌人看到我的大军就会逃跑。也许这场仗终究值得一打"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA002Subtitle",
+  "text": "*我的部队像风一样向你扑来，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA003Subtitle",
+  "text": "*你的士兵在我的战士面前就像羔羊"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA004Subtitle",
+  "text": "*看看你给我带来的这些好玩具。我小时候把所有玩具都弄坏了，将军，现在我要弄坏你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA005Subtitle",
+  "text": "*你的部队像麦子一样倒在我的刀下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA006Subtitle",
+  "text": "*你对付我的将军们表现不错，但我拥有他们全部的力量。面对这个你要怎么办，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA007Subtitle",
+  "text": "*你根本看不到我的部队，将军……直到为时已晚"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA008Subtitle",
+  "text": "*我们要把你从我们的土地上扫除出去，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA009Subtitle",
+  "text": "*现在你会看到你那无用的入侵给你带来了什么，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA010Subtitle",
+  "text": "*你竟敢挑战我——现在你将收获可怕的回报"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA011Subtitle",
+  "text": "*将军，当骑兵踏上你家门口时，你感觉如何？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA012Subtitle",
+  "text": "*你本有机会撤退，现在我们要歼灭你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA013Subtitle",
+  "text": "*见证我意志的力量吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA014Subtitle",
+  "text": "*我的怒火将把你的战争机器撕成碎片"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA015Subtitle",
+  "text": "*毒素……炸药……隐形……其中任何一样你都击败过，但三样一起呢？一切都完了，将军。你应该投降……为了你士兵的性命"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA016Subtitle",
+  "text": "*你的世界让你变得软弱，将军。我的世界让我变得强大"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA017Subtitle",
+  "text": "*你会学会尊重我的力量，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA018Subtitle",
+  "text": "*我准备下一次进攻时你就歇着吧，然后战斗继续"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA019Subtitle",
+  "text": "*死在我的防线前，你累了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA020Subtitle",
+  "text": "*战场上一片寂静，将军。你在等我来结束这一切吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA021Subtitle",
+  "text": "*我们满怀期待，等着你下一次可悲的进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA022Subtitle",
+  "text": "*这就是你全部的力量吗，将军？真是可悲"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA023Subtitle",
+  "text": "*你的进攻就像狂风暴雨中可怜的尖叫"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA024Subtitle",
+  "text": "*这场战斗开始让我厌烦了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA025Subtitle",
+  "text": "*我还要让你活多久，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA026Subtitle",
+  "text": "*将军，我的臣民需要我去关照……你还打算像小丑一样上蹿下跳多久？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA027Subtitle",
+  "text": "*将军，你的战术让我想起一个在学下棋的孩子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA028Subtitle",
+  "text": "*你打完了吗，将军？你那可怜的资源用光了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA029Subtitle",
+  "text": "*将军，我几分钟前就已经无聊了——现在我都快睡着了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA030Subtitle",
+  "text": "*挑战一位真正的军事天才是什么感觉？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA031Subtitle",
+  "text": "*你得到的一切我都会摧毁"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA032Subtitle",
+  "text": "*现在你的兵营倒了——很快一切都会倒下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA033Subtitle",
+  "text": "*你的战车工厂没了——重建吧，我会再摧毁一次"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA034Subtitle",
+  "text": "*我替你卸下了机场这个负担，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA035Subtitle",
+  "text": "*你的基地防御挡不住我的部队，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA036Subtitle",
+  "text": "* 将军，如果你连指挥中心都守不住，还怎么指望打败我？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA037Subtitle",
+  "text": "*你那么多建筑都倒了，将军——为什么不撤出战场，免得再丢人现眼？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA038Subtitle",
+  "text": "*别再摧毁我的油井来考验我的耐心，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA039Subtitle",
+  "text": "*你竟敢摧毁我的兵营，将军？！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA040Subtitle",
+  "text": "*将军，我需要军火商替我做生意。别再摧毁了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA041Subtitle",
+  "text": "*你以为能摧毁我的防线吗，将军？会有更多的拔地而起"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA042Subtitle",
+  "text": "*这是你摧毁的最后一栋建筑，将军。我的耐心是有限的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA043Subtitle",
+  "text": "*我的指挥中心！你逼得我退入地下，但这还没完，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA044Subtitle",
+  "text": "*你摧毁了我很多机器，将军。也许我低估了你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA045Subtitle",
+  "text": "*我的士兵不是你的练习靶子，将军。他们的血沾在你手上"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA046Subtitle",
+  "text": "*放开我的油井，否则我就把它烧掉"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA047Subtitle",
+  "text": "*看来你占领了那座废弃的火炮平台。祝你能让它运转起来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA048Subtitle",
+  "text": "*那座炼油厂扭转不了战局，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA049Subtitle",
+  "text": "*放肆的蠢货！你已经深入我的家园太远了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA050Subtitle",
+  "text": "*你就像一只蜇人的虫子，将军，是时候把你这烦人的存在碾死了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA051Subtitle",
+  "text": "*敌人就在眼前！消灭他！把他们全部消灭！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA052Subtitle",
+  "text": "*蠢货！你越界了！你的部队必死无疑！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA053Subtitle",
+  "text": "*啊，侧翼进攻……很粗糙，但至少算是个战略"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA054Subtitle",
+  "text": "*想从后门攻击我吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA055Subtitle",
+  "text": "*正面进攻？你应该多带点兵"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA056Subtitle",
+  "text": "*看来你找到了我的额外补给……我强调，是我的额外补给。马上离开"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA057Subtitle",
+  "text": "*从那条路接近我的基地只会让你送死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA058Subtitle",
+  "text": "*别靠近那个村庄，将军。我保护着受我照顾的人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA059Subtitle",
+  "text": "*那些资源是给我的人民的，将军。不是你可以拿走的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA060Subtitle",
+  "text": "*那些建筑不是给你用的，将军。别破坏我的基础设施"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA061Subtitle",
+  "text": "*看来你的胃口超出了你的资源，将军。希望你在我们到达你的基地之前恢复电力"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA062Subtitle",
+  "text": "*我们的土地没有电力……可惜你的基地离不开它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA063Subtitle",
+  "text": "*没钱了，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA064Subtitle",
+  "text": "*将军，你在消耗我的资源。你的小战争会让我的人民挨饿"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA065Subtitle",
+  "text": "*飞毛腿风暴？！你偷了我们的技术！你会为此付出代价，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA066Subtitle",
+  "text": "*在造核武器吗，将军？我就料到你会使出这种懦夫手段"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA067Subtitle",
+  "text": "*粒子加农炮？你来自太空的光束够不着地下的我们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA068Subtitle",
+  "text": "*这么多基地防御。你一定很怕我的力量，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA069Subtitle",
+  "text": "*你到底需要多少坦克，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA070Subtitle",
+  "text": "*你让那些烦人的小虫飞满了天空。现在我们要把它们拍下来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA071Subtitle",
+  "text": "*你想训练多少士兵都行，将军，但伤亡只会每分钟都在增加"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA072Subtitle",
+  "text": "*你的基地变得很大了，将军……也许太大了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA073Subtitle",
+  "text": "*把你的毒素朝我们放吧，将军；我们准备好迎接更糟的了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA074Subtitle",
+  "text": "*所有人，进地下！他们的核导弹来了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA075Subtitle",
+  "text": "*好啊，用你的粒子光束吧——让全世界看看你的懦弱"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA076Subtitle",
+  "text": "*进驻建筑吧，将军——像墙里的老鼠一样躲着"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA077Subtitle",
+  "text": "*伯顿上校救不了你，将军。这场仗你得自己打"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA078Subtitle",
+  "text": "*啊，美丽的黑莲花。加入我吧，莲花，你可以像女王一样生活"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA079Subtitle",
+  "text": "*贾曼·凯尔？他竟敢与我作对？！我的复仇将会非常……不愉快"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA080Subtitle",
+  "text": "*你的机场挡不住我的进攻，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA081Subtitle",
+  "text": "*终于建了战车工厂，是吧，将军？怎么花了这么久？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA082Subtitle",
+  "text": "*你那可怜的兵营对你毫无用处，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA083Subtitle",
+  "text": "*卖掉建筑来供养军队？这似乎不太合逻辑吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA084Subtitle",
+  "text": "*这不可能！你不可能打败我！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA085Subtitle",
+  "text": "*你也许以为自己占了上风，但这场战斗会像风一样转向"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA086Subtitle",
+  "text": "*你的士兵现在也许比我多，但赢得战斗靠的不只是数量，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA087Subtitle",
+  "text": "*我不敢相信自己竟被这样一个愚蠢的傻瓜打败。这份耻辱将永远烙在我身上"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA088Subtitle",
+  "text": "*被一个蠢货打败……这屈辱难以承受……请让我独自承受折磨吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA089Subtitle",
+  "text": "*将军，我闻到你的基地里散发出恐惧和绝望的恶臭"
+ }
+]

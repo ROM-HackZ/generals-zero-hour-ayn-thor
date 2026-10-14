@@ -1,0 +1,802 @@
+[
+ {
+  "label": "WOL:NoMatchbot",
+  "text": "جفت‌یاب پیدا نشد"
+ },
+ {
+  "label": "WOL:BadMatchParams",
+  "text": "پارامترهای جفت‌یابی نامعتبر"
+ },
+ {
+  "label": "WOL:ChatErrorNickInUse",
+  "text": "این نام مستعار در حال استفاده است"
+ },
+ {
+  "label": "WOL:ChatErrorBadPass",
+  "text": "گذرواژه این نام نادرست است"
+ },
+ {
+  "label": "WOL:ChatErrorNoneSuch",
+  "text": "چنین کاربر یا کانالی وجود ندارد"
+ },
+ {
+  "label": "WOL:ChatErrorConNetDown",
+  "text": "اتصال شبکه قطع است"
+ },
+ {
+  "label": "WOL:ChatErrorConLookupFailed",
+  "text": "جستجوی DNS ناموفق بود"
+ },
+ {
+  "label": "WOL:ChatErrorConError",
+  "text": "خطای مهلک شبکه رخ داد"
+ },
+ {
+  "label": "WOL:ChatErrorTimeout",
+  "text": "زمان به پایان رسید"
+ },
+ {
+  "label": "WOL:ChatErrorMustPatch",
+  "text": "پیش از پیوستن به C&C Generals Zero Hour Online باید آخرین به‌روزرسانی را بگیرید"
+ },
+ {
+  "label": "WOL:ChatErrorStatusError",
+  "text": "خطای داخلی وضعیت"
+ },
+ {
+  "label": "WOL:ChatErrorUnknownResponse",
+  "text": "پاسخ نامشخص"
+ },
+ {
+  "label": "WOL:ChatErrorChannelFull",
+  "text": "کانال پر است"
+ },
+ {
+  "label": "WOL:ChatErrorChannelExists",
+  "text": "کانال از قبل وجود دارد"
+ },
+ {
+  "label": "WOL:ChatErrorChannelDoesNotExist",
+  "text": "کانال وجود ندارد"
+ },
+ {
+  "label": "WOL:ChatErrorBadChannelPassword",
+  "text": "گذرواژه کانال نادرست است"
+ },
+ {
+  "label": "WOL:ChatErrorBanned",
+  "text": "متأسفیم، شما از C&C Generals Zero Hour Online محروم شده‌اید. لطفاً شرایط خدمات را مرور کنید"
+ },
+ {
+  "label": "WOL:ChatErrorNotOper",
+  "text": "انجام این عملیات ممکن نیست"
+ },
+ {
+  "label": "WOL:ChatErrorAccountDisabled",
+  "text": "حساب شما غیرفعال شده است"
+ },
+ {
+  "label": "WOL:ChatErrorSerialBanned",
+  "text": "شماره سریال شما مسدود شده است. لطفاً شرایط خدمات را مرور کنید"
+ },
+ {
+  "label": "WOL:ChatErrorSerialDup",
+  "text": "شماره سریال شما در حال استفاده است"
+ },
+ {
+  "label": "WOL:ChatErrorSerialUnknown",
+  "text": "شماره سریال شما نامعتبر است"
+ },
+ {
+  "label": "WOL:NetUtilErrorGeneric",
+  "text": "خطای عمومی NetUtil"
+ },
+ {
+  "label": "WOL:NetUtilErrorBusy",
+  "text": "مشغول"
+ },
+ {
+  "label": "WOL:NetUtilErrorTimeout",
+  "text": "پایان زمان"
+ },
+ {
+  "label": "WOL:NetUtilErrorInvalidField",
+  "text": "فیلد نامعتبر"
+ },
+ {
+  "label": "WOL:NetUtilErrorCantVerify",
+  "text": "تأیید ممکن نیست"
+ },
+ {
+  "label": "WOL:NetUtilFinished",
+  "text": "تمام شد"
+ },
+ {
+  "label": "WOL:UnknownError",
+  "text": "خطای نامشخص"
+ },
+ {
+  "label": "WOL:CouldNotCreateChannel",
+  "text": "ساخت کانال ممکن نشد"
+ },
+ {
+  "label": "WOL:ErrorTitle",
+  "text": "خطای C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:LoginErrorTitle",
+  "text": "خطای ورود"
+ },
+ {
+  "label": "WOL:CreatingChannel",
+  "text": "در حال ساخت کانال"
+ },
+ {
+  "label": "WOL:ChannelClosed",
+  "text": "کانال بسته شد"
+ },
+ {
+  "label": "WOL:BadChannelPassword",
+  "text": "گذرواژه کانال نادرست است"
+ },
+ {
+  "label": "WOL:ChannelFull",
+  "text": "کانال پر است"
+ },
+ {
+  "label": "WOL:BannedFromChannel",
+  "text": "شما از کانال محروم شده‌اید"
+ },
+ {
+  "label": "WOL:CannotJoinChannel",
+  "text": "پیوستن به کانال ممکن نیست"
+ },
+ {
+  "label": "WOL:NoWOLAPI",
+  "text": "اجزای مشترک اینترنت نصب نشده‌اند"
+ },
+ {
+  "label": "WOL:OldWOLAPI",
+  "text": "اجزای مشترک اینترنت باید به‌روز شوند. لطفاً از دیسک C&C Generals Zero Hour نصب کنید"
+ },
+ {
+  "label": "WOL:BadRegistry",
+  "text": "رجیستری C&C Generals Zero Hour خراب است"
+ },
+ {
+  "label": "WOL:GotPing",
+  "text": "پینگ %d میلی‌ثانیه دریافت شد. هرچه پینگ کمتر، اتصال بهتر"
+ },
+ {
+  "label": "WOL:ServerListAndVersion",
+  "text": "در حال دریافت فهرست سرورها"
+ },
+ {
+  "label": "WOL:GettingPings",
+  "text": "در حال سنجش پینگ. هرچه پینگ کمتر، اتصال بهتر"
+ },
+ {
+  "label": "WOL:Connecting",
+  "text": "در حال اتصال"
+ },
+ {
+  "label": "WOL:JoinedChannel",
+  "text": "به %ls پیوستید"
+ },
+ {
+  "label": "WOL:LeftChannel",
+  "text": "%ls را ترک کردید"
+ },
+ {
+  "label": "WOL:UserKicked",
+  "text": "%ls بازیکن %ls را از %ls اخراج کرد"
+ },
+ {
+  "label": "WOL:BeginIgnoreList",
+  "text": "آغاز فهرست نادیده‌گرفته‌ها"
+ },
+ {
+  "label": "WOL:IgnoredUser",
+  "text": "%ls"
+ },
+ {
+  "label": "WOL:EndIgnoreList",
+  "text": "پایان فهرست نادیده‌گرفته‌ها"
+ },
+ {
+  "label": "WOL:DownloadPatchNow",
+  "text": "می‌خواهید اکنون به‌روزرسانی را دانلود کنید؟"
+ },
+ {
+  "label": "WOL:FindInChannel",
+  "text": "%ls در %s است"
+ },
+ {
+  "label": "WOL:FindInChannelOtherServer",
+  "text": "%ls در %s روی %s است"
+ },
+ {
+  "label": "WOL:FindOffline",
+  "text": "%ls وارد نشده است"
+ },
+ {
+  "label": "WOL:FindHiding",
+  "text": "%ls به جستجو پاسخ نمی‌دهد"
+ },
+ {
+  "label": "WOL:FindNotInChannel",
+  "text": "%ls در هیچ کانالی نیست"
+ },
+ {
+  "label": "WOL:FindNotInChannelOtherServer",
+  "text": "%ls روی %s است"
+ },
+ {
+  "label": "WOL:Lob_49_0",
+  "text": "لابی اصلی"
+ },
+ {
+  "label": "WOL:Lob_49_1",
+  "text": "جایگزین"
+ },
+ {
+  "label": "WOL:Lob_49_2",
+  "text": "واقعیت"
+ },
+ {
+  "label": "WOL:Lob_41_0",
+  "text": "مسابقه سریع"
+ },
+ {
+  "label": "WOL:UnknownServer",
+  "text": "سرور نامشخص"
+ },
+ {
+  "label": "WOL:UnknownChannel",
+  "text": "کانال نامشخص"
+ },
+ {
+  "label": "WOL:BuddyMatching",
+  "text": "%ls در مسابقه سریع است"
+ },
+ {
+  "label": "WOL:BuddyNotInChan",
+  "text": "%ls آنلاین است"
+ },
+ {
+  "label": "WOL:BuddyInGame",
+  "text": "%ls در حال بازی است"
+ },
+ {
+  "label": "WOL:BuddyInChat",
+  "text": "%ls در %ls گفتگو می‌کند"
+ },
+ {
+  "label": "WOL:BuddyGameSetup",
+  "text": "%ls در %ls است"
+ },
+ {
+  "label": "WOL:BuddyMatchingOtherServer",
+  "text": "%ls روی %ls در مسابقه سریع است"
+ },
+ {
+  "label": "WOL:BuddyNotInChanOtherServer",
+  "text": "%ls روی %ls آنلاین است"
+ },
+ {
+  "label": "WOL:BuddyInGameOtherServer",
+  "text": "%ls روی %ls در حال بازی است"
+ },
+ {
+  "label": "WOL:BuddyInChatOtherServer",
+  "text": "%ls در %ls روی %ls گفتگو می‌کند"
+ },
+ {
+  "label": "WOL:BuddyGameSetupOtherServer",
+  "text": "%ls در %ls روی %ls است"
+ },
+ {
+  "label": "WOL:BuddyHiding",
+  "text": "%ls پنهان است"
+ },
+ {
+  "label": "Chat:Everyone",
+  "text": "همه می‌بینند"
+ },
+ {
+  "label": "Chat:Allies",
+  "text": "فقط متحدان می‌بینند"
+ },
+ {
+  "label": "GUI:Clear",
+  "text": "پاک کردن"
+ },
+ {
+  "label": "LAN:GameStartTimerPlural",
+  "text": "بازی تا %d ثانیه دیگر شروع می‌شود"
+ },
+ {
+  "label": "LAN:GameStartTimerSingular",
+  "text": "بازی تا %d ثانیه دیگر شروع می‌شود"
+ },
+ {
+  "label": "LAN:HostNotResponding",
+  "text": "بازی بسته شد؛ میزبان پاسخ نمی‌داد"
+ },
+ {
+  "label": "LAN:PlayerDropped",
+  "text": "%ls خارج شد؛ بازیکن پاسخ نمی‌داد"
+ },
+ {
+  "label": "LAN:NeedMorePlayers",
+  "text": "برای شروع بازی به بیش از %d بازیکن نیاز دارید"
+ },
+ {
+  "label": "LAN:NeedMoreTeams",
+  "text": "برای شروع بازی به بیش از ۱ تیم نیاز دارید"
+ },
+ {
+  "label": "LAN:TooManyPlayers",
+  "text": "این نقشه حداکثر %d بازیکن را پشتیبانی می‌کند"
+ },
+ {
+  "label": "LAN:OK",
+  "text": "تأیید"
+ },
+ {
+  "label": "LAN:ErrorNoGameSelected",
+  "text": "لطفاً ابتدا یک بازی انتخاب کنید"
+ },
+ {
+  "label": "LAN:ErrorTimeout",
+  "text": "زمان اتصال به پایان رسید"
+ },
+ {
+  "label": "LAN:ErrorGameFull",
+  "text": "این بازی پر است"
+ },
+ {
+  "label": "LAN:ErrorDuplicateName",
+  "text": "نام تکراری در بازی وجود دارد"
+ },
+ {
+  "label": "LAN:ErrorCRCMismatch",
+  "text": "بازی عدم تطابق تشخیص داده است. یعنی بازی چندنفره داده‌های همگام‌سازی میان بازیکنان را از دست داده است. ممکن است حریفتان نسخه خود را تغییر داده باشد و شاید بخواهید او را به فهرست نادیده‌گرفته‌ها اضافه کنید"
+ },
+ {
+  "label": "LAN:ErrorGameStarted",
+  "text": "متأسفیم، این بازی شروع شده است"
+ },
+ {
+  "label": "LAN:ErrorGameExists",
+  "text": "بازی‌ای با همین نام وجود دارد"
+ },
+ {
+  "label": "LAN:ErrorGameGone",
+  "text": "بازی ناپدید شد"
+ },
+ {
+  "label": "LAN:ErrorBusy",
+  "text": "عملیات دیگری در انتظار است"
+ },
+ {
+  "label": "LAN:ErrorUnknown",
+  "text": "خطای نامشخص"
+ },
+ {
+  "label": "LAN:JoinFailed",
+  "text": "پیوستن ناموفق"
+ },
+ {
+  "label": "Network:PlayerLeft",
+  "text": "%ls بازی را ترک کرد"
+ },
+ {
+  "label": "INI:MissingDisplayName",
+  "text": "MISSING DisplayName for Object '%S'"
+ },
+ {
+  "label": "INI:FactionDefault",
+  "text": "ارتش پیش‌فرض"
+ },
+ {
+  "label": "INI:FactionObserver",
+  "text": "ناظر"
+ },
+ {
+  "label": "INI:FactionCivilian",
+  "text": "غیرنظامی"
+ },
+ {
+  "label": "INI:FactionAmerica",
+  "text": "آمریکا"
+ },
+ {
+  "label": "INI:FactionChina",
+  "text": "چین"
+ },
+ {
+  "label": "INI:FactionGLA",
+  "text": "GLA"
+ },
+ {
+  "label": "INI:FactionChinaHacker",
+  "text": "هکر چینی"
+ },
+ {
+  "label": "SIDE:America",
+  "text": "آمریکا"
+ },
+ {
+  "label": "SIDE:China",
+  "text": "چین"
+ },
+ {
+  "label": "SIDE:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "INI:RankLevel1",
+  "text": "ژنرال یک‌ستاره"
+ },
+ {
+  "label": "INI:RankLevel2",
+  "text": "ژنرال دوستاره"
+ },
+ {
+  "label": "INI:RankLevel3",
+  "text": "ژنرال سه‌ستاره"
+ },
+ {
+  "label": "INI:RankLevel4",
+  "text": "ژنرال چهارستاره"
+ },
+ {
+  "label": "INI:RankLevel5",
+  "text": "ژنرال پنج‌ستاره"
+ },
+ {
+  "label": "INI:RankLevel6",
+  "text": "آقای بدجنس (درجه ۶)"
+ },
+ {
+  "label": "INI:RankLevel7",
+  "text": "دکتر مرگ (درجه ۷)"
+ },
+ {
+  "label": "INI:RankLevel8",
+  "text": "خطرناک‌ترین آدم روی زمین (درجه ۸)"
+ },
+ {
+  "label": "TOOLTIP:MyInfo",
+  "text": "برای مشاهده اطلاعات هویت خود کلیک کنید. می‌توانید درجه، امتیاز، بردها، باخت‌ها، نشان‌های نبرد و غیره را ببینید"
+ },
+ {
+  "label": "TOOLTIP:CustomMatch",
+  "text": "برای پیوستن به لابی مسابقه سفارشی و آشنایی و گفتگو با بازیکنان دیگر کلیک کنید"
+ },
+ {
+  "label": "TOOLTIP:SelectAll",
+  "text": "مسابقه سریع روی همه نقشه‌های موجود"
+ },
+ {
+  "label": "TOOLTIP:SelectNone",
+  "text": "مسابقه سریع بدون هیچ نقشه‌ای"
+ },
+ {
+  "label": "TOOLTIP:EnterPassword",
+  "text": "لطفاً یک گذرواژه وارد کنید"
+ },
+ {
+  "label": "TOOLTIP:Quickmatch",
+  "text": "برای شروع مسابقه سریع کلیک کنید. مسابقه سریع تلاش می‌کند شما را خودکار با نزدیک‌ترین سطح مهارت و ترجیحات جفت کند"
+ },
+ {
+  "label": "TOOLTIP:GameLobbys",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:ClearButton",
+  "text": "پاک کردن پنجره متن گفتگو"
+ },
+ {
+  "label": "TOOLTIP:Disconnectbutton",
+  "text": "برای قطع اتصال از بازی فعلی کلیک کنید. قطع اتصال در آمار کلی شما شمرده می‌شود"
+ },
+ {
+  "label": "TOOLTIP:playersonline",
+  "text": "فهرست بازیکنانی که اکنون در C&C Generals Zero Hour Online هستند"
+ },
+ {
+  "label": "TOOLTIP:WidenSearch",
+  "text": "برای گسترش معیارهای جستجوی حریف کلیک کنید. هرچه معیارها دقیق‌تر باشند، یافتن حریف سخت‌تر است"
+ },
+ {
+  "label": "TOOLTIP:Emote",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:JoinGame",
+  "text": "برای پیوستن به بازی انتخاب‌شده کلیک کنید"
+ },
+ {
+  "label": "TOOLTIP:BuddyButton",
+  "text": "مرتب‌سازی فهرست بازی‌ها بر اساس دوستان"
+ },
+ {
+  "label": "TOOLTIP:matchingprogress",
+  "text": "می‌توانید جستجوی مسابقه سریع برای بهترین حریف را تماشا کنید. برایمان دعا کنید!"
+ },
+ {
+  "label": "TOOLTIP:CancelButton",
+  "text": "برای لغو عملیات فعلی کلیک کنید"
+ },
+ {
+  "label": "TOOLTIP:resizewindows",
+  "text": "برای تغییر اندازه پنجره فهرست بازی‌ها نسبت به پنجره گفتگو، کلیک کنید و عمودی بکشید"
+ },
+ {
+  "label": "TOOLTIP:CreateGame",
+  "text": "ساخت بازی جدید. بازی در پنجره فهرست بازی‌ها نمایش داده می‌شود تا دیگران بپیوندند"
+ },
+ {
+  "label": "TOOLTIP:ChatWindow",
+  "text": "در کادر ورود متن پایین بنویسید و Enter بزنید تا پیام در این پنجره گفتگو ارسال شود. بازیکنان دیگر می‌توانند بخوانند و پاسخ دهند"
+ },
+ {
+  "label": "TOOLTIP:StopSearch",
+  "text": "لغو جستجوی فعلی"
+ },
+ {
+  "label": "TOOLTIP:StartSearch",
+  "text": "شروع جستجو"
+ },
+ {
+  "label": "TOOLTIP:UnknownGame",
+  "text": "بازی نامشخص"
+ },
+ {
+  "label": "TOOLTIP:textentrybox",
+  "text": "در این کادر ورود متن بنویسید و Enter بزنید تا پیام در پنجره گفتگوی بالا ارسال شود"
+ },
+ {
+  "label": "TOOLTIP:PlayersInLobby",
+  "text": "بازیکنان کنونی لابی شما"
+ },
+ {
+  "label": "TOOLTIP:LocalPlayer",
+  "text": "بازیکن فعلی %s"
+ },
+ {
+  "label": "TOOLTIP:BuddyPlayer",
+  "text": "دوست شما %s"
+ },
+ {
+  "label": "TOOLTIP:ProfiledPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:GenericPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:IgnoredModifier",
+  "text": "(نادیده‌گرفته)"
+ },
+ {
+  "label": "TOOLTIP:PlayerInfo",
+  "text": "\nمنطقه: %s\n%d برد/%d باخت"
+ },
+ {
+  "label": "TOOLTIP:GameInfoGameName",
+  "text": "نام بازی: %s"
+ },
+ {
+  "label": "TOOLTIP:GameInfoLadderName",
+  "text": "\nرده‌بندی: %s"
+ },
+ {
+  "label": "TOOLTIP:LadderName",
+  "text": "رده‌بندی: %s"
+ },
+ {
+  "label": "TOOLTIP:UnknownLadder",
+  "text": "\nرده‌بندی نامشخص"
+ },
+ {
+  "label": "TOOLTIP:NoLadder",
+  "text": "\nبدون رده‌بندی"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersionSingleLine",
+  "text": "نسخه این بازی متفاوت است"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersion",
+  "text": ""
+ },
+ {
+  "label": "TOOLTIP:GameInfoMap",
+  "text": "\nنقشه: %s\nبازیکنان:"
+ },
+ {
+  "label": "TOOLTIP:GameInfoPlayer",
+  "text": "\n%s (%d/%d)"
+ },
+ {
+  "label": "TOOLTIP:FreeForAll",
+  "text": "همه علیه همه. تیم و اتحاد مجاز نیست"
+ },
+ {
+  "label": "TOOLTIP:ListOfPlayers",
+  "text": "بازیکنان بازی فعلی"
+ },
+ {
+  "label": "TOOLTIP:MapName",
+  "text": "نقشه انتخاب‌شده فعلی"
+ },
+ {
+  "label": "TOOLTIP:GameName",
+  "text": "نام بازی"
+ },
+ {
+  "label": "TOOLTIP:StartGame",
+  "text": "شروع بازی چندنفره"
+ },
+ {
+  "label": "TOOLTIP:IgnoreButton",
+  "text": "نادیده گرفتن بازیکن"
+ },
+ {
+  "label": "TOOLTIP:closeButton",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:GameOptions",
+  "text": "گزینه‌های فعال در بازی"
+ },
+ {
+  "label": "TOOLTIP:Crates",
+  "text": "جعبه‌های پاداش"
+ },
+ {
+  "label": "TOOLTIP:SuperWeapons",
+  "text": "سلاح‌های ویژه: توپ ذره‌ای، موشک هسته‌ای و غیره"
+ },
+ {
+  "label": "DOZER:ConstructionComplete",
+  "text": "ساخت کامل شد: %s"
+ },
+ {
+  "label": "DOZER:RepairComplete",
+  "text": "عملیات تعمیر کامل شد"
+ },
+ {
+  "label": "UPGRADE:UpgradeComplete",
+  "text": "ارتقا کامل شد: %s"
+ },
+ {
+  "label": "GUI:CantBuildRestrictedTerrain",
+  "text": "زمین اجازه ساخت در اینجا را نمی‌دهد"
+ },
+ {
+  "label": "GUI:CantBuildNotFlatEnough",
+  "text": "زمین برای ساخت در اینجا به اندازه کافی صاف نیست"
+ },
+ {
+  "label": "GUI:CantBuildObjectsInTheWay",
+  "text": "به دلیل وجود موانع نمی‌توانید آنجا بسازید"
+ },
+ {
+  "label": "GUI:CantBuildNoClearPath",
+  "text": "یگان نمی‌تواند به محل ساخت برسد"
+ },
+ {
+  "label": "GUI:CantBuildShroud",
+  "text": "پیش از ساخت باید آنجا را کاوش کنید"
+ },
+ {
+  "label": "GUI:CantBuildThere",
+  "text": "اینجا نمی‌توانید بسازید"
+ },
+ {
+  "label": "GUI:RallyPointObjectsInTheWay",
+  "text": "تنظیم نقطه تجمع ممکن نیست، موانعی سر راه مقصد است"
+ },
+ {
+  "label": "GUI:RallyPointNoPath",
+  "text": "تنظیم نقطه تجمع ممکن نیست"
+ },
+ {
+  "label": "GUI:RallyPointSet",
+  "text": "نقطه تجمع %s تنظیم شد"
+ },
+ {
+  "label": "GUI:MouseType",
+  "text": "نوع ماوس"
+ },
+ {
+  "label": "GUI:Com",
+  "text": "EAPIM"
+ },
+ {
+  "label": "GUI:CONTROL",
+  "text": "کنترل"
+ },
+ {
+  "label": "GUI:INFORMATION",
+  "text": "اطلاعات"
+ },
+ {
+  "label": "GUI:INTERFACE",
+  "text": "رابط"
+ },
+ {
+  "label": "GUI:SELECTION",
+  "text": "انتخاب"
+ },
+ {
+  "label": "GUI:TAUNT",
+  "text": "کُری‌خوانی"
+ },
+ {
+  "label": "GUI:MISC",
+  "text": "متفرقه"
+ },
+ {
+  "label": "GUI:DEBUG",
+  "text": "اشکال‌زدایی"
+ },
+ {
+  "label": "GUI:Cheer",
+  "text": "هورا"
+ },
+ {
+  "label": "GUI:CheerDescription",
+  "text": "به نیروهایتان دستور می‌دهد به خاطر کارهای بزرگتان شادی کنند"
+ },
+ {
+  "label": "GUI:Deploy",
+  "text": "مستقر کردن"
+ },
+ {
+  "label": "GUI:DeployDescription",
+  "text": "مستقر کردن شیء (اشیای) انتخاب‌شده"
+ },
+ {
+  "label": "GUI:Guard",
+  "text": "نگهبانی"
+ },
+ {
+  "label": "GUI:GuardDescription",
+  "text": "قرار دادن شیء (اشیای) انتخاب‌شده در حالت نگهبانی از منطقه"
+ },
+ {
+  "label": "GUI:CreateFormation",
+  "text": "ساخت آرایش"
+ },
+ {
+  "label": "GUI:Follow",
+  "text": "دنبال کردن"
+ },
+ {
+  "label": "GUI:FollowDescription",
+  "text": "تغییر حالت دنبال کردن شیء (اشیای) انتخاب‌شده"
+ },
+ {
+  "label": "GUI:ToggleControlBar",
+  "text": "نمایش/پنهان کردن نوار کنترل"
+ },
+ {
+  "label": "GUI:ToggleControlBarDescription",
+  "text": "نوار کنترل درون بازی را روشن یا خاموش می‌کند"
+ },
+ {
+  "label": "GUI:ToggleLetterbox",
+  "text": "نمایش/پنهان کردن نوار سینمایی"
+ },
+ {
+  "label": "GUI:ToggleLetterboxDescription",
+  "text": "حالت نوار سینمایی را روشن یا خاموش می‌کند"
+ }
+]

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeneralsZH</string>
+    <string name="common_cancel">Отмена</string>
+
+    <!-- SetupActivity: title / fallback -->
+    <string name="setup_window_title">Настройки GeneralsZH</string>
+    <string name="setup_title">Command &amp; Conquer Generals: Zero Hour</string>
+    <string name="setup_subtitle">Настройки Android</string>
+    <string name="setup_fallback_warning">Обычный интерфейс настроек не загрузился (%1$s). Показан упрощённый вариант, чтобы вы всё равно могли открыть логи или папку с игрой.</string>
+
+    <!-- SetupActivity: Game Folder card -->
+    <string name="setup_card_game_folder">Папка с игрой</string>
+    <string name="setup_button_select_game_folder">Выбрать папку с игрой</string>
+    <string name="setup_button_launch_game">Запустить игру</string>
+    <string name="setup_button_view_logs">Просмотреть логи</string>
+    <string name="setup_button_clear_game_folder">Сбросить папку с игрой</string>
+
+    <!-- SetupActivity: status text -->
+    <string name="setup_status_folder_not_set">Папка с игрой: не задана.\n</string>
+    <string name="setup_status_folder_line">Папка с игрой: %1$s\n</string>
+    <string name="setup_status_folder_valid">Статус: похоже на верную папку (найдены файлы архивов игры).\n</string>
+    <string name="setup_status_folder_invalid">Статус: в этой папке НЕТ ожидаемых INIZH.big / INI.big — проверьте, ту ли папку вы выбрали.\n</string>
+    <string name="setup_status_folder_incomplete">Статус: архивы игры найдены, но набор неполный:\n%1$s\n</string>
+    <string name="setup_dialog_folder_problem_title">Проблема с папкой игры</string>
+    <string name="setup_folder_issue_empty_file">%1$s пустой (0 байт)</string>
+    <string name="setup_folder_issue_bad_header">%1$s не похож на корректный архив игры</string>
+    <string name="setup_folder_issue_missing_data">В %1$s не хватает ожидаемых данных игры — вероятно, неполная копия</string>
+    <string name="setup_folder_issue_no_base_game">Отсутствуют данные базовой игры Generals:%1$s\n\nЛибо укажите папку, где они уже есть — кнопка «Папка базовой Generals…» ниже (обычно ZH_Generals или Command and Conquer Generals).</string>
+    <string name="setup_status_logs_note">Логи краша/движка хранятся в приватном хранилище приложения и доступны только через кнопку «Просмотреть логи» выше — Android намеренно скрывает их от обычных файловых менеджеров (это стандартная песочница Android, не особенность этого приложения).</string>
+
+    <!-- SetupActivity: Language card -->
+    <string name="setup_card_language">Язык</string>
+    <string name="setup_language_help">Меняет язык этого приложения настроек, просмотра логов и выбора папки. Текст самой игры — отдельная настройка ниже: выбирается из языков, которые действительно есть в папке игры, либо скачивается. «Как в системе» следует языку телефона, а если его нет в списке — используется английский.</string>
+    <string name="setup_language_status">Язык: %1$s</string>
+    <string name="setup_button_change_language">Изменить язык</string>
+    <string name="setup_language_dialog_title">Выберите язык</string>
+    <string name="setup_language_system_default">Как в системе</string>
+    <string name="setup_language_game_status_default">Текст игры: не затронут этой настройкой (используется собственный язык игры из registry.ini, либо английский по умолчанию).</string>
+    <string name="setup_language_game_status_override">Текст игры: тоже переключён (найден data/%1$s/generals.csf в папке игры).</string>
+    <string name="setup_language_game_status_missing">Текст игры: НЕ переключён — в папке игры нет data/%1$s/generals.csf, поэтому игра сохраняет свой язык.</string>
+
+    <!-- SetupActivity: Menu Text Size card -->
+    <string name="setup_card_text_size">Размер текста меню</string>
+    <string name="setup_text_size_label">Масштаб: %1$d%%</string>
+    <string name="setup_button_apply_text_size">Применить размер текста</string>
+    <string name="setup_text_size_help">Масштабирует текст большинства кнопок и подписей меню под разрешение экрана. 70 — значение по умолчанию в игре; большие значения увеличивают текст меню. Применяется при следующем запуске игры, не сразу.</string>
+    <string name="setup_toast_text_size_saved">Сохранено. Применится при следующем запуске игры.</string>
+
+    <!-- SetupActivity: Render Backend card -->
+    <string name="setup_card_render_backend">Графический бэкенд</string>
+    <string name="setup_card_sim_rate">Частота симуляции</string>
+    <string name="setup_sim_rate_30_short">30 Hz</string>
+    <string name="setup_sim_rate_60_short">60 Hz</string>
+    <string name="setup_sim_rate_30_desc">30 Гц — то же, что во всех прежних сборках порта. Игра Android с Android на ней работает, но матч против игрока на Windows разойдётся.</string>
+    <string name="setup_sim_rate_60_desc">60 Гц — столько считает клиент GeneralsOnline на Windows, и только на этой частоте возможна игра с ПК. Работы у симуляции вдвое больше, поэтому на слабом устройстве игра может идти медленнее нормы.</string>
+    <string name="setup_sim_rate_help">Частота тика задаётся при сборке движка, поэтому приложение несёт обе версии и загружает выбранную здесь. Изменение вступит в силу при следующем запуске игры. У обоих игроков в матче частота должна совпадать.</string>
+    <string name="setup_toast_sim_rate_saved">Частота симуляции сохранена. Применится при следующем запуске игры.</string>
+    <string name="online_crossplay_hz_title">Частота симуляции переключена на 60 Гц</string>
+    <string name="online_crossplay_hz_message">Клиент Windows считает на 60 Гц, а клиент на 30 Гц не может держаться с ним в такт, поэтому кросс-плей переключил это устройство на 60 Гц. Применится при следующем запуске игры.\n\nРаботы у симуляции станет вдвое больше. Если игра пойдёт медленно, выключите кросс-плей или верните 30 Гц в разделе «Графика» — но тогда играть можно будет только с другими игроками на Android с частотой 30 Гц.</string>
+    <string name="online_crossplay_hz_30">Частота симуляции: 30 Гц — синхронизация с ПК невозможна</string>
+    <string name="online_crossplay_hz_60">Частота симуляции: 60 Гц — совпадает с клиентом на ПК</string>
+    <string name="setup_render_backend_help">Какой графический API использует игра. Действует со следующего запуска игры, не сразу.\n\nOpenGL ES (по умолчанию): нативный рендерер, написанный для этого порта. Выбран по умолчанию, потому что работает на всех проверенных устройствах, включая те, где Vulkan рисует испорченную картинку. Начинайте отсюда и меняйте только при наличии причины.\n\nOpenGL ES + ANGLE: тот же рендерер, но через ANGLE от Google, который переводит его в Vulkan, вместо собственного GLES-драйвера телефона. ANGLE вшит в приложение, поэтому не требует ни минимальной версии Android, ни системной настройки. Часто быстрее в работе, но меню с большим числом элементов (настройки схватки) может подтормозить при первом открытии, пока ANGLE компилирует нужное; повторно это не повторится, пока вы не выйдете и не откроете это меню заново.\n\nVulkan: изначальный бэкенд, через трансляцию Direct3D 8 в Vulkan средствами DXVK. Быстрее остальных на телефонах, чей драйвер с ним справляется, — обычно свежие Snapdragon. Но всё зависит именно от драйвера, и на некоторых GPU появляются пурпурные пятна, искажённая геометрия или испорченные меню, чего никакой настройкой отсюда не исправить \u2014 сообщали про PowerVR BXM и Samsung Xclipse. Если Vulkan выглядит неправильно на вашем устройстве, вариант по умолчанию существует ровно для этого.\n\nРазделы «Свой драйвер Vulkan» и «Конфигурация DXVK» показываются только при выбранном Vulkan.</string>
+    <string name="setup_render_backend_gpu">Ваш GPU: %1$s</string>
+    <string name="setup_render_backend_status">Сейчас: %1$s</string>
+    <string name="setup_button_change_render_backend">Изменить графический бэкенд</string>
+    <string name="setup_render_backend_dialog_title">Выберите графический бэкенд</string>
+    <string name="setup_render_backend_vulkan">Vulkan</string>
+    <string name="setup_render_backend_gles">OpenGL ES (по умолчанию)</string>
+    <string name="setup_render_backend_gles_angle">OpenGL ES + ANGLE</string>
+    <string name="setup_toast_render_backend_saved">Сохранено. Применится при следующем запуске игры.</string>
+    <string name="setup_toast_render_backend_failed">Не удалось сохранить выбор графического бэкенда: %1$s</string>
+
+    <!-- SetupActivity: Custom Vulkan Driver card -->
+    <string name="setup_card_vulkan_driver">Свой Vulkan-драйвер (для опытных, только Adreno)</string>
+    <string name="setup_button_import_driver">Импортировать драйвер (.zip)</string>
+    <string name="setup_button_reset_driver">Сбросить на рекомендуемый</string>
+    <string name="setup_driver_help">Загружает Vulkan-драйвер (сборку Mesa Turnip) вместо встроенного в телефон — тот же приём, что используют Winlator и AetherSX2. Самому DXVK теперь нужен только Vulkan 1.1, но некоторые старые штатные драйверы Qualcomm Adreno сообщают и того меньше (или содержат другие баги) — эта сборка Turnip всё равно может позволить таким телефонам запустить игру. На подходящем телефоне Adreno это применяется автоматически — «Сбросить на рекомендуемый» возвращает этот автоматический выбор после того, как вы импортировали что-то своё.\n\nЭТО НЕ поможет Mali, PowerVR и другим не-Adreno GPU — но им это и не нужно: большинство GPU Mali (Mali-G76, Mali-G57 и подобные) уже нативно соответствуют требованию DXVK по Vulkan 1.1, замена драйвера не требуется. Эта опция ограничена Adreno потому, что Turnip работает только с железом Adreno, а не потому, что остальные GPU не поддерживаются.\n\n«Импортировать драйвер» позволяет заменить автоматический выбор своим .zip в формате adrenotools (например, с K11MCH1/AdrenoToolsDrivers или The412Banner/Banners-Turnip на GitHub). Применяется при следующем запуске, не сразу.</string>
+    <string name="setup_driver_status_none">Свой драйвер не используется — работает встроенный Vulkan-драйвер телефона.</string>
+    <string name="setup_driver_status_auto">Рекомендуемый драйвер (выбран автоматически для этого устройства): %1$s</string>
+    <string name="setup_driver_status_manual">Свой драйвер (импортирован вручную): %1$s</string>
+    <string name="setup_driver_unknown">(неизвестно)</string>
+    <string name="setup_toast_no_file_picker">Нет доступного файлового менеджера: %1$s</string>
+    <string name="setup_toast_reset_auto">Сброс выполнен. Рекомендуемый для этого устройства драйвер применён снова.</string>
+    <string name="setup_toast_reset_stock">Сброс выполнен. Будет использоваться встроенный Vulkan-драйвер телефона.</string>
+    <string name="setup_toast_driver_import_no_tmp">Не удалось создать временную папку для импорта драйвера</string>
+    <string name="setup_toast_driver_import_failed">Ошибка импорта: %1$s</string>
+    <string name="setup_toast_driver_import_no_meta">Ошибка импорта: meta.json не найден в .zip (это не пакет драйвера в формате adrenotools)</string>
+    <string name="setup_toast_driver_import_bad_meta">Ошибка импорта: некорректный meta.json (%1$s)</string>
+    <string name="setup_toast_driver_import_no_finalize">Ошибка импорта: не удалось завершить создание папки драйвера</string>
+    <string name="setup_toast_driver_config_failed">Не удалось сохранить конфигурацию драйвера: %1$s</string>
+    <string name="setup_toast_driver_imported">Драйвер импортирован: %1$s. Применится при следующем запуске.</string>
+
+    <!-- SetupActivity: DXVK Config card -->
+    <string name="setup_card_dxvk_config">Настройки DXVK (dxvk.conf, для опытных)</string>
+    <string name="setup_dxvk_config_help">Редактирует dxvk.conf напрямую — тот же файл, который движок читает при запуске. Пересборка не нужна, изменения применяются при следующем запуске игры. Полезные параметры, если игра тормозит на вашем устройстве:\n\nd3d9.samplerAnisotropy = 2 (или 0, чтобы отключить) — меньше значения по умолчанию (16), снижает нагрузку на слабый GPU.\ndxvk.hud = fps,drawcalls,submissions,pipelines — небольшой оверлей с показателями производительности прямо на экране.\ndxvk.logLevel = none — лучше не трогать без необходимости; более подробные уровни замедляют игру.\n\nПо одной паре «ключ = значение» на строку. Некорректную строку DXVK просто игнорирует, так что опечатка не сломает игру — в худшем случае изменение просто не подействует.</string>
+    <string name="setup_button_dxvk_config_save">Сохранить</string>
+    <string name="setup_button_dxvk_config_reset">Сбросить на стандартные</string>
+    <string name="setup_dxvk_config_no_folder">Сначала выберите папку с игрой (выше)</string>
+    <string name="setup_toast_dxvk_config_saved">Сохранено. Применится при следующем запуске игры.</string>
+    <string name="setup_toast_dxvk_config_reset">Сброшено на стандартный dxvk.conf.</string>
+    <string name="setup_toast_dxvk_config_no_default">В этой сборке нет встроенного dxvk.conf по умолчанию.</string>
+
+    <!-- SetupActivity: Diagnostics card -->
+    <string name="setup_card_diagnostics">Диагностика</string>
+    <string name="setup_diagnostics_help">Эти переключатели включают дополнительное логирование для отчётов об ошибках — в обычной игре держите их все выключенными, они могут замедлить игру или создать очень большой лог. Если автор issue попросил включить конкретный пункт — включите его, воспроизведите проблему, затем отправьте результат через «Просмотр логов» выше.</string>
+    <string name="setup_diagnostics_no_folder">Чтобы включить эти переключатели, сначала выберите папку с игрой (выше)</string>
+    <string name="setup_switch_gx_trace">Подробный трейс</string>
+    <string name="setup_switch_gx_trace_desc">Очень подробное внутреннее логирование (интерфейс, шрифты, INI-файлы) для поиска конкретного зависания или бага. За долгую сессию лог может разрастись до 50–100+ МБ — если нужны только цифры FPS, включите вместо этого «Сводку производительности». (gx_trace.txt)</string>
+    <string name="setup_switch_touch_debug">Отладка сенсорного управления</string>
+    <string name="setup_switch_touch_debug_desc">Рисует поверх игры состояние сенсорного слоя: текущий жест, где палец, где движок считает указатель, и якорь прокрутки камеры. Включайте, когда сообщаете о проблемах управления — карта уезжает сама, призрак здания не на том месте, способность целится туда, куда вы не нажимали. (gx_touch_debug.txt)</string>
+    <string name="setup_switch_gx_perf">Сводка производительности</string>
+    <string name="setup_switch_gx_perf_desc">Добавляет одну короткую строку в секунду о том, куда уходит время кадра (радар, звук, сеть, игровая логика, рендер). Можно оставить включённым на всю сессию — включайте для отчётов о низком FPS/подтормаживаниях. (gx_perf.txt)</string>
+    <string name="setup_switch_gx_audio_trace">Журнал звука</string>
+    <string name="setup_switch_gx_audio_trace_desc">Записывает, что делает звуковая система: заполнение буферов музыки и речи, звук роликов и каждый запуск и остановку источника. Включите, если после жалобы на пропавший, прерывистый или тихий звук у вас попросят журнал звука. (gx_audio_trace.txt)</string>
+    <string name="setup_button_download_langpack">Скачать языковой пакет</string>
+    <string name="setup_langpack_downloading">Загружаю языковой пакет…</string>
+    <string name="setup_langpack_done">Языковой пакет установлен. Игра подхватит его при следующем запуске.</string>
+    <string name="setup_langpack_done_n">Установлено языковых пакетов: %1$d (%2$s). Выберите ниже.</string>
+    <string name="setup_langpack_failed">Не удалось скачать языковой пакет: %1$s</string>
+    <string name="setup_langpack_not_available">Для этого языка лаунчера нет пакета игрового текста.</string>
+    <string name="setup_langpack_no_folder">Сначала выберите папку с игрой.</string>
+    <string name="setup_langpack_err_none_yet">Пакета для этого языка пока нет. Переводы приветствуются — см. languages/README.md в репозитории проекта.</string>
+    <string name="setup_langpack_err_mkdir">не удалось создать языковую папку в папке игры</string>
+    <string name="setup_langpack_err_empty">скачанный файл оказался пустым</string>
+    <string name="setup_langpack_err_replace">не удалось заменить существующий файл</string>
+    <string name="setup_button_game_text_language">Язык текста игры</string>
+    <string name="setup_game_text_dialog_title">Язык текста игры</string>
+    <string name="setup_game_text_default">По умолчанию (.big в приоритете)</string>
+    <string name="setup_game_text_status">Текст игры: %1$s</string>
+    <string name="setup_game_text_status_default">Текст игры: английский — если только его не заменяет .big в папке игры</string>
+    <string name="setup_game_text_none_found">В папке игры пока нет языковых пакетов. Сначала скачайте.</string>
+    <string name="setup_langpack_dialog_title">Какой язык?</string>
+    <string name="setup_switch_dxvk_hud">Оверлей производительности на экране</string>
+    <string name="setup_switch_dxvk_hud_desc">Показывает FPS, число draw call\'ов, отправок команд GPU и пайплайнов прямо на экране и в логе. Включайте для отчётов о производительности GPU. (dxvk_hud.txt)</string>
+    <string name="setup_switch_dxvk_validation">Слой валидации Vulkan</string>
+    <string name="setup_switch_dxvk_validation_desc">Проверяет каждый вызов Vulkan на корректность — находит реальные баги рендера, но заметно замедляет игру. Включайте только когда попросили воспроизвести конкретный краш или графический глюк, не для обычной игры. (dxvk_validation.txt)</string>
+    <string name="setup_switch_dxvk_verbose_log">Подробный лог рендерера</string>
+    <string name="setup_switch_dxvk_verbose_log_desc">Добавляет в лог дополнительные детали о том, как игра общается с драйвером вашего GPU (точный формат экрана и согласованные настройки). Включайте, когда попросили разобраться в графическом глюке именно на вашем устройстве. (dxvk_verbose_log.txt)</string>
+
+    <!-- SetupActivity: Online Multiplayer card -->
+    <string name="setup_card_online">Онлайн-мультиплеер</string>
+    <string name="setup_button_online_account">Аккаунт GeneralsOnline</string>
+    <string name="setup_online_signed_in">Вы вошли как %1$s.</string>
+    <string name="setup_online_signed_out">Вход не выполнен — требуется для онлайн-матчей.</string>
+
+    <!-- SetupActivity: How this works card -->
+    <string name="setup_card_how_it_works">Как это работает</string>
+    <string name="setup_how_it_works_body">1. «Выбрать папку с игрой» открывает браузер папок в памяти телефона. Перейдите туда, куда вы скопировали свою установку Command &amp; Conquer Generals Zero Hour (папку с INIZH.big, Data\\, ZH_Generals\\ и т. д.) и нажмите «Использовать эту папку».\n\n2. Если список папок выглядит пустым, значит Android сначала запрашивает разрешение «Доступ ко всем файлам» — предоставьте его на открывшемся экране (это обычное разрешение Android, root не требуется).\n\n3. «Просмотреть логи» показывает лог движка и, если игра упала, лог краша — без компьютера и adb. Кнопка «Поделиться» там же отправит лог себе.\n\n4. «Запустить игру» запускает игру с выбранной папкой.</string>
+
+    <!-- SetupActivity: folder selection / misc toasts -->
+    <string name="setup_toast_grant_all_files">Предоставьте разрешение «Доступ ко всем файлам» на следующем экране, затем вернитесь и снова нажмите «Выбрать папку с игрой».</string>
+    <string name="setup_toast_storage_permission_denied">Для выбора папки с игрой требуется разрешение на доступ к хранилищу. Нажмите «Выбрать папку с игрой» ещё раз, чтобы повторить попытку.</string>
+    <string name="setup_toast_folder_saved">Папка с игрой сохранена.</string>
+    <string name="setup_toast_folder_saved_invalid">Сохранено, но INIZH.big/INI.big там не найдены — проверьте папку.</string>
+    <string name="setup_toast_folder_saved_incomplete">Сохранено, но некоторые файлы игры выглядят неполными или повреждёнными — смотрите детали на главном экране перед запуском.</string>
+    <string name="setup_toast_marker_save_failed">Не удалось сохранить метку папки: %1$s</string>
+    <string name="setup_toast_folder_cleared">Сброшено. Игра будет использовать папку по умолчанию.</string>
+    <string name="setup_toast_options_dir_failed">Не удалось создать папку для Options.ini</string>
+    <string name="setup_toast_options_save_failed">Не удалось сохранить Options.ini: %1$s</string>
+
+    <!-- FolderPickerActivity -->
+    <string name="folderpicker_title">Выбор папки с игрой</string>
+    <string name="folderpicker_up_entry">⬆️  .. (вверх)</string>
+    <string name="folderpicker_button_use">Использовать эту папку</string>
+    <string name="folderpicker_hint_valid">✓ В этой папке есть INIZH.big/INI.big — похоже на верную.</string>
+    <string name="folderpicker_hint_invalid">Перейдите в папку с игрой и нажмите «Использовать эту папку».</string>
+    <string name="folderpicker_toast_cant_read">Не удаётся прочитать эту папку. Если списки везде пустые, сначала предоставьте «Доступ ко всем файлам» на экране настроек.</string>
+    <string name="folderpicker_toast_cant_read_legacy">Не удаётся прочитать эту папку. На Android 9–10 разрешите приложению доступ к хранилищу (Настройки → Приложения → GeneralsZH → Разрешения → Хранилище) и попробуйте снова.</string>
+
+    <!-- LogViewerActivity -->
+    <string name="logviewer_title">Логи</string>
+    <string name="logviewer_button_clear">Очистить логи</string>
+    <string name="logviewer_button_copy">Копировать</string>
+    <string name="logviewer_button_share">Поделиться</string>
+    <string name="logviewer_toast_copied">Скопировано в буфер обмена.</string>
+    <string name="logviewer_section_crash_log">=== crash.log (обработчик краша, внутреннее хранилище) ===\n</string>
+    <string name="logviewer_crash_log_absent">(отсутствует — крашей движка с момента установки не было, либо приложение ни разу не запускалось дальше загрузки библиотеки)</string>
+    <string name="logviewer_section_stderr_log">=== generals-stderr.log (лог движка, внешнее хранилище) ===\n</string>
+    <string name="logviewer_stderr_log_absent">(отсутствует — main() движка ещё не запускался, либо внешнее хранилище недоступно)</string>
+    <string name="logviewer_section_prev_log">=== generals-stderr-prev.log (предыдущая сессия) ===\n</string>
+    <string name="logviewer_prev_log_absent">(отсутствует)</string>
+    <string name="logviewer_dialog_clear_title">Очистить логи</string>
+    <string name="logviewer_dialog_clear_message">Удалить файлы лога краша и лога движка? Это необратимо.</string>
+    <string name="logviewer_dialog_clear_confirm">Очистить</string>
+    <string name="logviewer_dialog_clear_cancel">Отмена</string>
+    <string name="logviewer_toast_cleared">Логи очищены.</string>
+    <string name="logviewer_share_subject">Лог GeneralsZH Android</string>
+    <string name="logviewer_share_chooser_title">Поделиться логом</string>
+    <string name="logviewer_toast_share_failed">Не удалось подготовить файл лога для отправки: %1$s</string>
+    <string name="logviewer_toast_share_none">Файлы логов пока не найдены.</string>
+    <string name="logviewer_read_failed">(не удалось прочитать %1$s: %2$s)</string>
+
+    <!-- GeneralsOnlineActivity -->
+    <string name="online_window_title">Аккаунт GeneralsOnline</string>
+    <string name="online_subtitle">Войдите для онлайн-мультиплеера (playgenerals.online)</string>
+    <string name="online_button_sign_out">Выйти</string>
+    <string name="online_card_sign_in">Вход</string>
+    <string name="online_signin_help">Нажмите «Войти». При первом нажатии может появиться запрос исключить приложение из оптимизации батареи — разрешите это, затем вернитесь и снова нажмите «Войти». После этого откроется браузер на playgenerals.online уже с одноразовым кодом для этого устройства. Выберите там Steam, Discord или GameReplays, затем просто вернитесь в приложение — вход завершится сам.</string>
+    <string name="online_button_sign_in">Войти</string>
+    <string name="online_status_signing_in">Выполняется вход...</string>
+    <string name="online_status_battery_opt">Разрешите GeneralsZH работать в фоне на следующем экране, затем вернитесь и снова нажмите «Войти» — иначе Android может прервать проверку входа, пока вы находитесь в браузере.</string>
+    <string name="online_toast_no_browser">Нет доступного браузера: %1$s</string>
+    <string name="online_status_continue_browser">Продолжите в браузере — вернитесь сюда после входа.</string>
+    <string name="online_status_network_error">Ошибка сети — проверьте соединение и попробуйте снова.</string>
+    <string name="online_toast_signed_in_as">Вход выполнен как %1$s</string>
+    <string name="online_status_signin_failed">Вход не удался или был отменён — нажмите «Войти», чтобы попробовать снова.</string>
+    <string name="online_status_timed_out">Истекло время ожидания — нажмите «Войти», чтобы попробовать снова.</string>
+    <string name="online_status_unexpected">Неожиданный ответ — нажмите «Войти», чтобы попробовать снова.</string>
+    <string name="online_toast_signed_out">Выход выполнен.</string>
+    <string name="online_status_signed_in_as">Вход выполнен как %1$s.</string>
+    <string name="online_status_not_signed_in">Вход не выполнен.</string>
+    <string name="setup_button_select_base_generals">Папка базовой Generals…</string>
+    <string name="setup_button_clear_base_generals">Сбросить папку базовой Generals</string>
+    <string name="setup_toast_base_generals_saved">Папка базовой Generals: %1$s</string>
+    <string name="setup_toast_base_generals_cleared">Папка базовой Generals сброшена</string>
+    <string name="setup_base_generals_not_here">В %1$s нет архивов базовой Generals — выберите папку, где лежат Terrain.big, Textures.big и W3D.big.</string>
+    <string name="setup_status_base_generals_line">Базовая Generals: %1$s\n</string>
+    <string name="logviewer_crash_prev_log_absent">(отсутствует)</string>
+    <string name="logviewer_elided_notice">\n...(здесь пропущено символов: %1$d; начало сессии выше и самый свежий вывод ниже сохранены)...\n\n</string>
+    <string name="logviewer_section_crash_prev_log">=== crash-prev.log (нативный обработчик падений, предыдущая сессия) ===\n</string>
+
+    <!-- Launcher bottom navigation + short render-backend names -->
+    <string name="nav_tab_home">Главная</string>
+    <string name="nav_tab_graphics">Графика</string>
+    <string name="nav_tab_interface">Интерфейс</string>
+    <string name="nav_tab_tools">Инструменты</string>
+    <string name="nav_tab_help">Справка</string>
+    <string name="setup_render_backend_gles_short">GLES</string>
+    <string name="setup_render_backend_gles_angle_short">ANGLE</string>
+    <string name="setup_render_backend_vulkan_short">Vulkan</string>
+    <string name="setup_switch_gx_net_trace">Сетевой лог онлайна</string>
+    <string name="setup_switch_gx_net_trace_desc">Записывает каждый запрос игры к серверам GeneralsOnline и полученный ответ. Включите, если вход, лобби или подбор игры не работают уже внутри игры. Запросы самого лаунчера записываются всегда; этот переключатель добавляет запросы игры. Также включает диагностику рассинхрона в кроссплатформенной игре: контрольные суммы симуляции, которые сравниваются на каждом интервале, а в реплее — контрольную сумму каждого отдельного объекта. (gx_net_trace.txt)</string>
+    <string name="netdiag_title">Диагностика сети</string>
+    <string name="netdiag_row_note">Проверить, доходит ли устройство до серверов GeneralsOnline, и собрать отчёт для сообщения об ошибке.</string>
+    <string name="netdiag_intro">Проверка идёт по порядку: есть ли рабочая сеть, разрешаются ли имена серверов GeneralsOnline, отвечают ли серверы и что они говорят про вход.\n\nНикуда ничего не отправляется. Нажмите «Запустить».</string>
+    <string name="netdiag_running">Выполняется…</string>
+    <string name="netdiag_running_step">Выполняется… (%1$s)</string>
+    <string name="netdiag_button_run">Запустить диагностику</string>
+    <string name="netdiag_button_share">Отправить отчёт</string>
+    <string name="netdiag_button_copy">Копировать</string>
+    <string name="netdiag_toast_copied">Отчёт скопирован в буфер обмена.</string>
+    <string name="netdiag_toast_share_failed">Не удалось отправить отчёт: %1$s</string>
+    <string name="netdiag_share_subject">Сетевой лог GeneralsZH</string>
+    <string name="online_status_banned">Этот аккаунт заблокирован на GeneralsOnline. Подать апелляцию можно в их Discord.</string>
+    <string name="online_status_banned_reason">Этот аккаунт заблокирован на GeneralsOnline: %1$s</string>
+    <string name="online_status_requesting_code">Запрашиваем код входа у сервера…</string>
+    <string name="online_status_no_login_code">Сервер не выдал код входа. Проверьте соединение и попробуйте снова или запустите «Диагностику сети» в Инструментах.</string>
+    <string name="online_card_datapacks">Сетевые данные игры</string>
+    <string name="online_datapacks_help">Для игры по сети нужны две вещи, которых нет в обычной игре: патч данных сообщества, от которого зависит, примет ли вас игра с ПК, и карты сообщества, на которых эти игры идут. Здесь и то и другое качается прямо с GeneralsOnline — ПК не нужен.</string>
+    <string name="online_button_datapacks_update">Обновить</string>
+    <string name="online_datapacks_checking">Проверка обновлений…</string>
+    <string name="online_datapacks_downloading">Загрузка… %1$d%%</string>
+    <string name="online_datapacks_installing">Установка…</string>
+    <string name="online_datapacks_done">Обновлено до %1$s. Установлено файлов: %2$d.</string>
+    <string name="online_datapacks_failed">Не удалось обновить: %1$s</string>
+    <string name="online_datapacks_installed">Установлено: версия %1$s</string>
+    <string name="online_datapacks_not_installed">Ещё не установлено.</string>
+    <string name="online_button_datapacks_delete">Удалить</string>
+    <string name="online_switch_datapacks">Использовать патч данных сообщества</string>
+    <string name="online_switch_datapacks_desc">Выключение не удаляет загрузку, но игра снова читает ретейл-данные, и игры с ПК откажут этому устройству. Вступает в силу при следующем запуске игры.</string>
+    <string name="online_switch_datapacks_mods">Использовать патч и с модами</string>
+    <string name="online_switch_datapacks_mods_desc">По умолчанию патч не подключается, если в папке игры есть мод, меняющий данные игры (например, «Контра»): их файлы смешались бы. Включайте, только если мод сделан под патч GeneralsOnline.</string>
+    <string name="online_datapacks_mod_found_skipped">Найден мод: %1$s. Патч сообщества с ним не используется.</string>
+    <string name="online_datapacks_mod_found_forced">Найден мод: %1$s. Патч сообщества используется вместе с ним.</string>
+    <string name="online_datapacks_mod_none">Модов, меняющих данные игры, в папке игры нет.</string>
+    <string name="online_datapacks_chip_sign_in_first">Сначала войдите</string>
+    <string name="online_datapacks_chip_required">Нужно для игры по сети — нажмите «Обновить»</string>
+    <string name="online_datapacks_chip_off">Загружено, но выключено</string>
+    <string name="online_datapacks_chip_ready">Готово к игре по сети</string>
+    <string name="online_datapacks_prompt">Игры с ПК будут отказывать этому устройству, пока не установлен патч данных сообщества, и играют на них на картах сообщества. Загрузить и то и другое? Около 30 МБ.</string>
+    <string name="online_datapacks_prompt_later">Позже</string>
+    <string name="online_datapacks_delete_confirm">Удаляются только файлы, установленные этой загрузкой. Ваши карты и сохранения не трогаются.</string>
+    <string name="online_datapacks_deleted">Удалено файлов: %1$d.</string>
+    <string name="online_datapacks_delete_no_record">Удалять нечего: записи об установке из лаунчера нет.</string>
+    <string name="online_datapacks_switch_failed">Не удалось изменить настройку. Проверьте, доступна ли папка данных для записи.</string>
+    <string name="online_card_crossplay">Кроссплатформенная игра</string>
+    <string name="online_crossplay_help">Игры, созданные Windows-клиентом, обычно отказывают этому устройству: это разные программы, и их контрольные суммы EXE совпасть не могут.</string>
+    <string name="online_crossplay_patch_found">Патч данных сообщества установлен</string>
+    <string name="online_crossplay_patch_missing">Нет патча данных сообщества — нажмите «Обновить»</string>
+    <string name="online_switch_crossplay">Играть с игроками на ПК</string>
+    <string name="online_switch_crossplay_desc">Сообщает контрольную сумму EXE Windows-клиента, чтобы его игры вас пускали. Эта сумма не античит — она не даёт играть вместе машинам, которые посчитали бы матч по-разному, поэтому так можно развалить игру всем в лобби. Включайте для своего же ПК и только скопировав с него INI-данные в папку с игрой, чтобы они действительно совпали.</string>
+    <string name="replaycheck_title">Проверка реплея</string>
+    <string name="replaycheck_row_note">Прогнать реплей с ПК на этой сборке без просмотра или перемотать к нужному кадру и увидеть, где расходятся контрольные суммы.</string>
+    <string name="replaycheck_refresh">Обновить</string>
+    <string name="replaycheck_last_result">Последний результат</string>
+    <string name="replaycheck_no_result">Проверка ещё не запускалась.</string>
+    <string name="replaycheck_result_match">%1$s: совпадает с записью на всех %2$s из %3$s контрольных точках (%4$s кадров, %5$s с).</string>
+    <string name="replaycheck_result_mismatch">%1$s: первый рассинхрон на кадре %2$s, последнее совпадение на %3$s. Совпало %4$s из %5$s контрольных точек (%6$s кадров, %7$s с). Пришлите логи.</string>
+    <string name="replaycheck_mode">Режим</string>
+    <string name="replaycheck_mode_run">Прогнать целиком</string>
+    <string name="replaycheck_mode_watch">Смотреть с кадра</string>
+    <string name="replaycheck_mode_help">Прогнать целиком: реплей считается так быстро, как может телефон, останавливается чуть после первого рассинхрона или в конце и возвращает сюда с итогом. Смотреть с кадра: перемотка до кадра, дальше обычный просмотр.</string>
+    <string name="replaycheck_frame_label">Кадр</string>
+    <string name="replaycheck_pick">Реплеи (нажмите, чтобы запустить)</string>
+    <string name="replaycheck_none">В %1$s нет файлов .rep</string>
+    <string name="replaycheck_no_game_folder">Сначала выберите папку с игрой в лаунчере.</string>
+    <string name="replaycheck_need_frame">Введите кадр, до которого перемотать.</string>
+    <string name="replaycheck_trace_enabled">Для проверки включена сетевая трассировка.</string>
+    <string name="replaycheck_trace_failed">Не удалось включить сетевую трассировку; в логе не будет подробностей по контрольным суммам.</string>
+    <string name="replaycheck_crc_every_frame">Контрольная сумма каждого кадра</string>
+    <string name="replaycheck_crc_every_frame_help">Дополнительно пишет в лог контрольную сумму логики на каждом кадре. Нужна, чтобы собрать копию реплея, которую клиент ПК проверит покадрово. Медленнее.</string>
+    <string name="setup_online_anticheat_note">В мобильном клиенте нет античита. Чтобы играть вместе, игрок на ПК должен выключить античит (GeneralsOnline AntiCheat или Easy Anti-Cheat) в лаунчере GeneralsOnline: в лобби с другим античитом с телефона не зайти, и в лобби с телефона не зайти с ним.</string>
+    <string name="setup_switch_logging">Собирать логи</string>
+    <string name="setup_switch_logging_desc">Записывать на устройство логи игры, сбоев и сети. Выключите, чтобы в фоне ничего не сохранялось; логи не пишутся, пока вы снова не включите. Нужно для отчётов об ошибках.</string>
+    <string name="setup_card_updates">Обновления</string>
+    <string name="setup_updates_help">Новые сборки движка приходят прямо с GitHub проекта, без переустановки APK. Каждое обновление подписано; всё без верной подписи игнорируется. Сетевые настройки и сетевые данные игры — в «Аккаунт GeneralsOnline».</string>
+    <string name="setup_updates_status">Движок: %1$s · Последняя проверка: %2$s</string>
+    <string name="setup_updates_engine_bundled">встроенный, сборка %1$d</string>
+    <string name="setup_updates_engine_updated">обновлённый, сборка %1$d</string>
+    <string name="setup_updates_never">ещё не было</string>
+    <string name="setup_button_check_updates">Проверить обновления</string>
+    <string name="setup_switch_auto_updates">Проверять автоматически</string>
+    <string name="setup_switch_auto_updates_desc">При открытии лаунчера.</string>
+    <string name="setup_updates_checking">Проверяю обновления…</string>
+    <string name="setup_updates_none">Всё актуально.</string>
+    <string name="setup_updates_engine_ready">Загружен новый движок (сборка %1$d). Он будет использован при следующем запуске игры.</string>
+    <string name="setup_updates_engine_needs_apk">Новому движку (сборка %1$d) нужен новый APK. Скачайте его со страницы проекта.</string>
+    <string name="setup_updates_failed">Не удалось проверить обновления: %1$s</string>
+    <string name="setup_updates_not_published">Обновления ещё не публиковались.</string>
+    <string name="setup_updates_offline">Нет подключения к интернету. Лаунчер и игра работают и без него; обновления проверятся в следующий раз.</string>
+    <string name="setup_updates_datapack_installed">Патч данных сообщества обновлён до версии %1$s.</string>
+    <string name="setup_updates_datapack_available">Вышла новая версия сетевых данных игры (%1$s). Обновите её в «Аккаунт GeneralsOnline» → «Сетевые данные игры».</string>
+    <string name="setup_updates_datapack_line_new">Вышла новая версия сетевых данных игры: %1$s.</string>
+    <string name="setup_button_open_online_data">Обновить сетевые данные</string>
+    <string name="online_datapacks_update_available">Установлена версия %1$s. Вышла новая версия %2$s.</string>
+    <string name="online_datapacks_update_for_crc">Установлена версия %1$s. Обновите один раз, чтобы телефон посчитал по нему контрольную сумму ПК-клиента.</string>
+    <string name="online_datapacks_up_to_date">Установлена версия %1$s, она последняя.</string>
+    <string name="online_network_settings">Сетевые настройки (серверы, совместимость с ПК): от %1$s, обновляются автоматически с GitHub проекта и подписаны.</string>
+    <string name="online_network_settings_builtin">Сетевые настройки (серверы, совместимость с ПК): встроенные в эту версию; новые придут автоматически с GitHub проекта.</string>
+    <string name="online_datapacks_chip_update">Есть обновление</string>
+    <string name="setup_card_upscale">Апскейл (Snapdragon GSR)</string>
+    <string name="setup_upscale_off_short">Выкл</string>
+    <string name="setup_upscale_ultra_short">Ультра</string>
+    <string name="setup_upscale_quality_short">Качество</string>
+    <string name="setup_upscale_balanced_short">Баланс</string>
+    <string name="setup_upscale_performance_short">Произв.</string>
+    <string name="setup_upscale_ultra">Ультра-качество</string>
+    <string name="setup_upscale_quality">Качество</string>
+    <string name="setup_upscale_balanced">Баланс</string>
+    <string name="setup_upscale_performance">Производительность</string>
+    <string name="setup_upscale_status_off">Выключен: рендер в полном %1$d×%2$d</string>
+    <string name="setup_upscale_status">%1$s: 3D рендерится в %2$d×%3$d, апскейл до %4$d×%5$d</string>
+    <string name="setup_upscale_help">Поле боя рисуется в меньшем разрешении и чётко растягивается до полного экрана через Snapdragon GSR: больше кадров, интерфейс остаётся чётким. Только для GLES и ANGLE. Применится при следующем запуске.</string>
+    <string name="setup_toast_render_scale_saved">Сохранено. Применится при следующем запуске игры.</string>
+    <string name="setup_card_interface_scale">Размер интерфейса</string>
+    <string name="setup_interface_scale_label">%1$d%%</string>
+    <string name="setup_button_apply_interface_scale">Применить размер интерфейса</string>
+    <string name="setup_interface_scale_help">Увеличивает интерфейс игры без правки её файлов: нижняя панель с картой растёт вверх от края экрана, а панель способностей генерала, чат, сообщения о событиях, список игроков, игровое меню с сохранением и настройками и кнопки главного меню растут от того места, где находятся. За экран ничего не уходит: каждая часть увеличивается только насколько помещается, поэтому на широком телефоне нижняя панель становится выше, а не шире, и поле боя над ней — ниже. Работает вместе с «Размером текста меню». Вступает в силу при следующем запуске игры.</string>
+</resources>

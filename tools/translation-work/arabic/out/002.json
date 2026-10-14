@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:ChooseLadder",
+  "text": "اختر تصنيفًا"
+ },
+ {
+  "label": "GUI:UnknownLadder",
+  "text": "تصنيف غير معروف"
+ },
+ {
+  "label": "GUI:WOLLogin",
+  "text": "تسجيل الدخول إلى GENERALS ONLINE"
+ },
+ {
+  "label": "GUI:PleaseEnterWOLInfo",
+  "text": "يرجى إدخال البيانات"
+ },
+ {
+  "label": "GUI:Username",
+  "text": "الاسم المستعار"
+ },
+ {
+  "label": "GUI:Server",
+  "text": "الخادم"
+ },
+ {
+  "label": "GUI:RememberPassword",
+  "text": "تذكّر كلمة المرور"
+ },
+ {
+  "label": "GUI:CreateAccount",
+  "text": "إنشاء حساب"
+ },
+ {
+  "label": "GUI:TryAgain",
+  "text": "أعد المحاولة"
+ },
+ {
+  "label": "GUI:NetworkOptions",
+  "text": "خيارات الشبكة"
+ },
+ {
+  "label": "GUI:GammaAdjustment",
+  "text": "السطوع"
+ },
+ {
+  "label": "GUI:HelpDescription",
+  "text": "عرض نافذة المساعدة"
+ },
+ {
+  "label": "GUI:ReturnToGame",
+  "text": "العودة إلى اللعبة"
+ },
+ {
+  "label": "GUI:NewGame",
+  "text": "لعبة جديدة"
+ },
+ {
+  "label": "GUI:RestartGame",
+  "text": "إعادة بدء اللعبة"
+ },
+ {
+  "label": "GUI:MatchingProgress",
+  "text": "تقدّم المباراة السريعة"
+ },
+ {
+  "label": "GUI:Player'sName",
+  "text": "اسم الخصم"
+ },
+ {
+  "label": "GUI:AllTimeWins",
+  "text": "مجموع الانتصارات"
+ },
+ {
+  "label": "GUI:AllTimeLosses",
+  "text": "مجموع الهزائم"
+ },
+ {
+  "label": "GUI:AllTimePoints",
+  "text": "مجموع نقاط الرتبة"
+ },
+ {
+  "label": "GUI:AllTimeDisconnects",
+  "text": "مجموع مرات قطع الاتصال"
+ },
+ {
+  "label": "GUI:HighestRank",
+  "text": "أعلى رتبة على الإطلاق"
+ },
+ {
+  "label": "GUI:Honor",
+  "text": "أوسمة المعارك"
+ },
+ {
+  "label": "GUI:LastUpdated",
+  "text": "آخر تحديث لملف اللاعب"
+ },
+ {
+  "label": "GUI:WOLIconKey",
+  "text": "دليل الرموز"
+ },
+ {
+  "label": "GUI:MyInfo",
+  "text": "هويتي"
+ },
+ {
+  "label": "GUI:Buddies",
+  "text": "جهاز الاتصال"
+ },
+ {
+  "label": "GUI:Community",
+  "text": "نسب فوز الجيوش اليومية"
+ },
+ {
+  "label": "GUI:SortAlpha",
+  "text": "الاسم"
+ },
+ {
+  "label": "GUI:SortPing",
+  "text": "الاتصال"
+ },
+ {
+  "label": "GUI:SortBuddies",
+  "text": "الأصدقاء"
+ },
+ {
+  "label": "GUI:GSRank0",
+  "text": "جندي"
+ },
+ {
+  "label": "GUI:GSRank1",
+  "text": "عريف"
+ },
+ {
+  "label": "GUI:GSRank2",
+  "text": "رقيب"
+ },
+ {
+  "label": "GUI:GSRank3",
+  "text": "ملازم"
+ },
+ {
+  "label": "GUI:GSRank4",
+  "text": "نقيب"
+ },
+ {
+  "label": "GUI:GSRank5",
+  "text": "رائد"
+ },
+ {
+  "label": "GUI:GSRank6",
+  "text": "عقيد"
+ },
+ {
+  "label": "GUI:GSRank7",
+  "text": "عميد"
+ },
+ {
+  "label": "GUI:GSRank8",
+  "text": "لواء"
+ },
+ {
+  "label": "GUI:GSRank9",
+  "text": "القائد الأعلى"
+ },
+ {
+  "label": "GUI:GSErrorTitle",
+  "text": "إشعار"
+ },
+ {
+  "label": "GUI:GSDisconnected",
+  "text": "انقطع اتصالك بخادم الدردشة"
+ },
+ {
+  "label": "GUI:GSDisconReason1",
+  "text": "هذا الاسم المستعار مأخوذ بالفعل. يرجى اختيار اسم آخر"
+ },
+ {
+  "label": "GUI:GSDisconReason2",
+  "text": "هذا الاسم المستعار غير صالح. يرجى اختيار اسم آخر"
+ },
+ {
+  "label": "GUI:GSDisconReason3",
+  "text": "انقطع الاتصال بـ C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "GUI:GSDisconReason4",
+  "text": "تعذّر الاتصال بـ C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "GUI:GSDisconReason5",
+  "text": "انتهت مهلة تسجيل الدخول. يرجى التحقق من اتصالك بالإنترنت"
+ },
+ {
+  "label": "GUI:GSDisconReason6",
+  "text": "لا يوجد حساب بهذا الاسم المستعار وهذا البريد الإلكتروني. إذا أردت إنشاء حساب، فانقر على إنشاء حساب"
+ },
+ {
+  "label": "GUI:GSDisconReason7",
+  "text": "هذا البريد الإلكتروني غير صالح"
+ },
+ {
+  "label": "GUI:GSDisconReason8",
+  "text": "كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى"
+ },
+ {
+  "label": "GUI:GSDisconReason9",
+  "text": "ملف غير صالح"
+ },
+ {
+  "label": "GUI:GSDisconReason10",
+  "text": "حُذف الملف الشخصي"
+ },
+ {
+  "label": "GUI:GSDisconReason11",
+  "text": "رُفض الاتصال بخادم الأصدقاء"
+ },
+ {
+  "label": "GUI:GSDisconReason12",
+  "text": "فشلت المصادقة مع خادم الأصدقاء"
+ },
+ {
+  "label": "GUI:GSDisconReason13",
+  "text": "الرقم التسلسلي غير صالح. يرجى تجربة رقم آخر"
+ },
+ {
+  "label": "GUI:GSDisconReason14",
+  "text": "السجل تالف وقد عُدّل"
+ },
+ {
+  "label": "GUI:GSDisconReason15",
+  "text": "الرقم التسلسلي محظور"
+ },
+ {
+  "label": "GUI:GSGroupRoomJoinFail",
+  "text": "فشل الانضمام إلى غرفة الدردشة"
+ },
+ {
+  "label": "GUI:JoinFailedRoomFull",
+  "text": "فشل الانضمام - الغرفة ممتلئة"
+ },
+ {
+  "label": "GUI:JoinFailedInviteOnly",
+  "text": "فشل الانضمام - الغرفة بالدعوة فقط"
+ },
+ {
+  "label": "GUI:JoinFailedBannedFromRoom",
+  "text": "فشل الانضمام - أنت محظور من الغرفة"
+ },
+ {
+  "label": "GUI:JoinFailedBadPassword",
+  "text": "فشل الانضمام - كلمة المرور غير صحيحة"
+ },
+ {
+  "label": "GUI:JoinFailedAlreadyInRoom",
+  "text": "فشل الانضمام - أنت موجود في غرفة بالفعل"
+ },
+ {
+  "label": "GUI:JoinFailedNoConnection",
+  "text": "فشل الانضمام - لا يوجد اتصال بخادم الدردشة"
+ },
+ {
+  "label": "GUI:JoinFailedCRCMismatch",
+  "text": "فشل الانضمام - اللعبة بإصدار مختلف"
+ },
+ {
+  "label": "GUI:JoinFailedUnknownLadder",
+  "text": "فشل الانضمام - اللعبة تستخدم تصنيفًا غير معروف"
+ },
+ {
+  "label": "GUI:JoinFailedDefault",
+  "text": "فشل الانضمام إلى الغرفة"
+ },
+ {
+  "label": "GUI:GSKicked",
+  "text": "طُردت من الغرفة"
+ },
+ {
+  "label": "GUI:NATNegotiationFailed",
+  "text": "تعذّر الاتصال باللاعب (اللاعبين) الآخرين"
+ },
+ {
+  "label": "GUI:GPErrorTitle",
+  "text": "خطأ في الأصدقاء"
+ },
+ {
+  "label": "GUI:GPDisconnected",
+  "text": "انقطع اتصالك بخادم الأصدقاء. هل تريد إعادة الاتصال؟"
+ },
+ {
+  "label": "GUI:GPNoProfile",
+  "text": "لم تسجّل الدخول باستخدام ملف شخصي. لا تتوفر معلومات عن الأصدقاء"
+ },
+ {
+  "label": "GUI:PSErrorTitle",
+  "text": "خطأ في التخزين الدائم"
+ },
+ {
+  "label": "GUI:PSCannotConnect",
+  "text": "تعذّر الاتصال بخادم التخزين الدائم"
+ },
+ {
+  "label": "Buddy:Offline",
+  "text": "غير متصل"
+ },
+ {
+  "label": "Buddy:Online",
+  "text": "متصل"
+ },
+ {
+  "label": "Buddy:Chatting",
+  "text": "يدردش في %ls"
+ },
+ {
+  "label": "Buddy:Staging",
+  "text": "يستعد في %ls"
+ },
+ {
+  "label": "Buddy:Loading",
+  "text": "يحمّل في %ls"
+ },
+ {
+  "label": "Buddy:Playing",
+  "text": "يلعب في %ls"
+ },
+ {
+  "label": "Buddy:Matching",
+  "text": "في مباراة سريعة"
+ },
+ {
+  "label": "Buddy:OnlineNotification",
+  "text": "%hs متصل الآن"
+ },
+ {
+  "label": "Buddy:OfflineNotification",
+  "text": "%hs غير متصل الآن"
+ },
+ {
+  "label": "Buddy:AddNotification",
+  "text": "طلب صداقة من %hs"
+ },
+ {
+  "label": "Buddy:MessageNotification",
+  "text": "يقول %hs:\n'%s...'"
+ },
+ {
+  "label": "GUI:Com/Tac",
+  "text": "Com/Tac"
+ },
+ {
+  "label": "GUI:MoneySymbol",
+  "text": "$"
+ },
+ {
+  "label": "GUI:$$$",
+  "text": "$$$"
+ },
+ {
+  "label": "GUI:OverchargeExhausted",
+  "text": "نفدت الطاقة الإضافية"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToBuild",
+  "text": "لا تملك ما يكفي من المال لبناء ذلك"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToUpgrade",
+  "text": "لا تملك ما يكفي من المال لإجراء الترقية"
+ },
+ {
+  "label": "GUI:Level",
+  "text": "المستوى"
+ },
+ {
+  "label": "GUI:Tac",
+  "text": "تكتيكي"
+ },
+ {
+  "label": "GUI:Strat",
+  "text": "استراتيجي"
+ },
+ {
+  "label": "GUI:Struct",
+  "text": "مبنى"
+ },
+ {
+  "label": "GUI:Waypt",
+  "text": "نقطة"
+ },
+ {
+  "label": "GUI:WOLStatus",
+  "text": "حالة C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "GUI:AIDifficulty",
+  "text": "صعوبة الحاسوب"
+ },
+ {
+  "label": "GUI:EasyAI",
+  "text": "جيش سهل"
+ },
+ {
+  "label": "GUI:MediumAI",
+  "text": "جيش متوسط"
+ },
+ {
+  "label": "GUI:HardAI",
+  "text": "جيش صعب"
+ },
+ {
+  "label": "GUI:Hide",
+  "text": "رجوع"
+ },
+ {
+  "label": "GUI:Pause",
+  "text": "إيقاف مؤقت"
+ },
+ {
+  "label": "GUI:NextFrame",
+  "text": "الإطار التالي"
+ },
+ {
+  "label": "GUI:ReplayMenu",
+  "text": "تحميل"
+ },
+ {
+  "label": "GUI:AntiAliasing",
+  "text": "تنعيم الحواف"
+ },
+ {
+  "label": "GUI:ScreenCapture",
+  "text": "حُفظت لقطة الشاشة في '%s'"
+ },
+ {
+  "label": "GUI:ScreenshotCapture",
+  "text": "لقطة الشاشة"
+ },
+ {
+  "label": "GUI:ScreenshotCaptureDescription",
+  "text": "التقاط صورة لشاشة اللعبة"
+ },
+ {
+  "label": "GUI:Null",
+  "text": "."
+ },
+ {
+  "label": "GUI:CRCMismatch",
+  "text": "اكتشفت اللعبة عدم تطابق. هذا يعني أن اللعبة الجماعية فقدت بيانات التزامن بين اللاعبين"
+ },
+ {
+  "label": "GUI:CurrentHotkey",
+  "text": "مفتاح الاختصار الحالي"
+ },
+ {
+  "label": "GUI:AssignNewHotkey",
+  "text": "تعيين مفتاح اختصار جديد"
+ },
+ {
+  "label": "GUI:CurrentlyAssignedTo",
+  "text": "معيَّن حاليًا لـ"
+ },
+ {
+  "label": "GUI:Reset",
+  "text": "إعادة تعيين"
+ },
+ {
+  "label": "QM:JOININGQMCHANNEL",
+  "text": "جارٍ الانضمام إلى المباراة السريعة..."
+ },
+ {
+  "label": "QM:WORKING",
+  "text": "يحاول %d لاعبًا المطابقة حاليًا..."
+ },
+ {
+  "label": "QM:POOLSIZE",
+  "text": "يحاول %d لاعبًا المطابقة حاليًا..."
+ },
+ {
+  "label": "QM:LOOKINGFORBOT",
+  "text": "جارٍ البحث عن منظِّم المباريات في C&C Generals Zero Hour Online..."
+ },
+ {
+  "label": "QM:SENTINFO",
+  "text": "أُرسلت معلومات اللعبة..."
+ },
+ {
+  "label": "QM:WIDENINGSEARCH",
+  "text": "جارٍ توسيع البحث عن الخصوم الأقرب إلى تفضيلاتك..."
+ },
+ {
+  "label": "QM:MATCHED",
+  "text": "ممتاز، عُثر على مباراة..."
+ },
+ {
+  "label": "QM:INCHANNEL",
+  "text": "في القناة..."
+ },
+ {
+  "label": "QM:NEGOTIATINGFIREWALLS",
+  "text": "جارٍ التفاوض مع الجدران النارية..."
+ },
+ {
+  "label": "QM:STARTINGGAME",
+  "text": "جارٍ بدء اللعبة..."
+ },
+ {
+  "label": "QM:COULDNOTFINDBOT",
+  "text": "تعذّر العثور على منظِّم المباريات"
+ },
+ {
+  "label": "QM:COULDNOTFINDCHANNEL",
+  "text": "تعذّر العثور على قناة المباراة السريعة"
+ },
+ {
+  "label": "QM:COULDNOTNEGOTIATEFIREWALLS",
+  "text": "تعذّر التفاوض مع الجدران النارية"
+ },
+ {
+  "label": "QM:STOPPED",
+  "text": "أُلغيت المباراة السريعة"
+ },
+ {
+  "label": "QM:WaitingForPlayerToJoin",
+  "text": "في انتظار انضمام الخصم"
+ },
+ {
+  "label": "QM:FindingGameChannel",
+  "text": "جارٍ البحث عن لعبة الخصم"
+ },
+ {
+  "label": "QM:JoinedGameChannel",
+  "text": "انضممت إلى لعبة الخصم"
+ },
+ {
+  "label": "QM:PlayerJoined",
+  "text": "انضم الخصم"
+ },
+ {
+  "label": "QM:LookingForMatchChannel",
+  "text": "جارٍ البحث عن قناة المباراة السريعة"
+ },
+ {
+  "label": "QM:NoMatchChannel",
+  "text": "لم يُعثر على قناة للمباراة السريعة"
+ },
+ {
+  "label": "QM:JoinedMatchChannel",
+  "text": "تم الانضمام إلى قناة المباراة السريعة"
+ },
+ {
+  "label": "QM:NoMatchingBot",
+  "text": "لم يُعثر على منظِّم المباريات"
+ },
+ {
+  "label": "QM:GameNotFound",
+  "text": "لم تعثر المباراة السريعة على لعبة خصمك"
+ },
+ {
+  "label": "QM:TimeoutOtherPlayer",
+  "text": "انتهت مهلة المباراة السريعة في انتظار انضمام الخصم إلى اللعبة"
+ },
+ {
+  "label": "Version:Format4",
+  "text": "%d.%02d.%d Build %d %c%c"
+ },
+ {
+  "label": "Version:Format3",
+  "text": "الإصدار %d.%02d.%d"
+ },
+ {
+  "label": "Version:Format2",
+  "text": "الإصدار %d.%02d"
+ },
+ {
+  "label": "Version:BuildTime",
+  "text": "%ls %ls"
+ },
+ {
+  "label": "Version:BuildMachine",
+  "text": "جهاز البناء: %ls"
+ },
+ {
+  "label": "Version:BuildUser",
+  "text": "بواسطة %ls"
+ },
+ {
+  "label": "GUI:SuperweaponDaisyCutter",
+  "text": "قنبلة الوقود الجوي"
+ },
+ {
+  "label": "GUI:SuperweaponParadropAmerica",
+  "text": "إنزال مظلي"
+ },
+ {
+  "label": "GUI:SuperweaponClusterMines",
+  "text": "ألغام عنقودية"
+ },
+ {
+  "label": "GUI:SuperweaponEMPPulse",
+  "text": "نبضة كهرومغناطيسية"
+ },
+ {
+  "label": "GUI:SuperweaponA10ThunderboltMissileStrike",
+  "text": "ضربة صواريخ A10"
+ },
+ {
+  "label": "GUI:SuperweaponCrateDrop",
+  "text": "إسقاط صناديق"
+ },
+ {
+  "label": "GUI:SuperweaponCarpetBomb",
+  "text": "قصف سجادي"
+ },
+ {
+  "label": "GUI:SuperweaponNapalmStrike",
+  "text": "ضربة نابالم"
+ },
+ {
+  "label": "GUI:SuperweaponCashHack",
+  "text": "اختراق مالي"
+ },
+ {
+  "label": "GUI:SuperweaponNeutronMissile",
+  "text": "صاروخ نووي"
+ },
+ {
+  "label": "GUI:SuperweaponScudStorm",
+  "text": "عاصفة سكود"
+ },
+ {
+  "label": "GUI:SuperweaponTerrorCell",
+  "text": "خلية إرهابية"
+ },
+ {
+  "label": "GUI:SuperweaponRebelAmbush",
+  "text": "كمين"
+ },
+ {
+  "label": "GUI:SuperweaponBlackMarketNuke",
+  "text": "قنبلة نووية من السوق السوداء"
+ },
+ {
+  "label": "GUI:SuperweaponAnthraxBomb",
+  "text": "قنبلة الجمرة الخبيثة"
+ },
+ {
+  "label": "GUI:SuperweaponDemoralize",
+  "text": "إضعاف المعنويات"
+ },
+ {
+  "label": "GUI:SpecialAbilityGuidedMissiles",
+  "text": "صاروخ موجَّه بالليزر"
+ },
+ {
+  "label": "GUI:SpecialAbilityDetonateCharges",
+  "text": "تفجير العبوات"
+ },
+ {
+  "label": "GUI:SuperweaponParticleUplinkCannon",
+  "text": "مدفع الجسيمات"
+ },
+ {
+  "label": "GUI:PatchAvailable",
+  "text": "يتوفر تحديث"
+ },
+ {
+  "label": "GUI:MustPatchForOnline",
+  "text": "يجب تنزيل التحديث للعب C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "GUI:CanPatchForOnline",
+  "text": "هل تريد تنزيل التحديث؟"
+ },
+ {
+  "label": "GUI:CheckingForPatches",
+  "text": "جارٍ البحث عن تحديثات"
+ },
+ {
+  "label": "GUI:DownloadErrorTitle",
+  "text": "خطأ في التنزيل"
+ },
+ {
+  "label": "GUI:DownloadSuccessTitle",
+  "text": "نجح التنزيل"
+ },
+ {
+  "label": "GUI:DownloadSuccess",
+  "text": "اكتمل التنزيل دون أخطاء"
+ },
+ {
+  "label": "GUI:DownloadSuccessMustQuit",
+  "text": "انقر موافق للخروج من Command & Conquer Generals Zero Hour وتطبيق التحديث"
+ },
+ {
+  "label": "GUI:DownloadBytesRatio",
+  "text": "%d / %d بايت"
+ },
+ {
+  "label": "GUI:DownloadTimeLeft",
+  "text": "متبقٍّ %d:%02d:%02d"
+ },
+ {
+  "label": "GUI:DownloadUnknownTime",
+  "text": "???"
+ },
+ {
+  "label": "FTP:StatusIdle",
+  "text": "خامل"
+ },
+ {
+  "label": "FTP:UnknownError",
+  "text": "خطأ غير معروف"
+ },
+ {
+  "label": "FTP:NoSuchServer",
+  "text": "لا يوجد خادم كهذا"
+ },
+ {
+  "label": "FTP:CouldNotConnect",
+  "text": "تعذّر الاتصال"
+ },
+ {
+  "label": "FTP:LoginFailed",
+  "text": "فشل تسجيل الدخول"
+ },
+ {
+  "label": "FTP:NoSuchFile",
+  "text": "لا يوجد ملف كهذا"
+ },
+ {
+  "label": "FTP:LocalFileOpenFailed",
+  "text": "فشل فتح الملف المحلي"
+ },
+ {
+  "label": "FTP:TCPError",
+  "text": "خطأ TCP"
+ },
+ {
+  "label": "FTP:DisconnectError",
+  "text": "خطأ في قطع الاتصال"
+ },
+ {
+  "label": "FTP:StatusConnecting",
+  "text": "جارٍ الاتصال"
+ },
+ {
+  "label": "FTP:StatusLoggingIn",
+  "text": "جارٍ تسجيل الدخول"
+ },
+ {
+  "label": "FTP:StatusFindingFile",
+  "text": "جارٍ البحث عن الملف"
+ },
+ {
+  "label": "FTP:StatusQueryingResume",
+  "text": "جارٍ الاستعلام عن استئناف التنزيل"
+ },
+ {
+  "label": "FTP:StatusDownloading",
+  "text": "جارٍ التنزيل"
+ },
+ {
+  "label": "FTP:StatusDisconnecting",
+  "text": "جارٍ قطع الاتصال"
+ },
+ {
+  "label": "FTP:StatusFinishing",
+  "text": "جارٍ الإنهاء"
+ },
+ {
+  "label": "FTP:StatusDone",
+  "text": "تم"
+ },
+ {
+  "label": "FTP:StatusNone",
+  "text": "لا شيء"
+ },
+ {
+  "label": "WOL:InternalError",
+  "text": "خطأ داخلي في C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:ServerBan",
+  "text": "عذرًا، لقد حُظرت من C&C Generals Zero Hour Online. يرجى مراجعة شروط الخدمة"
+ },
+ {
+  "label": "WOL:DisconnectedError",
+  "text": "عذرًا، لقد حُظرت من C&C Generals Zero Hour Online. يرجى مراجعة شروط الخدمة"
+ },
+ {
+  "label": "WOL:NoServers",
+  "text": "لم يُعثر على C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:LoginTimeout",
+  "text": "انتهت المهلة في انتظار الانضمام إلى C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:NoMatchChannel",
+  "text": "لم يُعثر على قناة مطابقة"
+ }
+]

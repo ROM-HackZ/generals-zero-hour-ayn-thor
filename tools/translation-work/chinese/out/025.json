@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA090Subtitle",
+  "text": "* 我感觉到你的末日越来越近了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA091Subtitle",
+  "text": "*你的部队开始被击溃了，将军。他们很快就会成为我的俘虏"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA092Subtitle",
+  "text": "*我们像踢一只受伤的山羊一样踢你，将军。认输吧，免受痛苦"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA093Subtitle",
+  "text": "*你被打败了。所有与我作对的人都是这个下场，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA094Subtitle",
+  "text": "*挑战我真是愚蠢，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA095Subtitle",
+  "text": "*GLA 的全部力量都任我调遣"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA096Subtitle",
+  "text": "*我比我的三位将军加起来还要危险"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA097Subtitle",
+  "text": "*你赢了，将军。为什么还要看这些统计数据来折磨我？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA098Subtitle",
+  "text": "*是的，现在你明白自己为什么输了……数字说明了一切"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA099Subtitle",
+  "text": "*你长途跋涉，面对了许多对手才来到我面前，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA100Subtitle",
+  "text": "*我赞赏你的努力，但它们完全没有让你为即将面对的一切做好准备"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA101Subtitle",
+  "text": "*你面对过萨拉克斯博士的毒素战士、卡萨德的隐形军团和尤齐兹的爆破手，但他们的兵法都是我教的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA102Subtitle",
+  "text": "*这将是你的最后一战，将军。愿你祈祷的神明怜悯你……因为我不会"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA103Subtitle",
+  "text": "*这将是你的最后一战，将军。安顿好你的心，准备迎接末日吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA001Subtitle",
+  "text": "*哟，你在这儿啊。现在想跑也来不及了，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA002Subtitle",
+  "text": "*希望你准备好了，因为我们要来找你了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA003Subtitle",
+  "text": "*摆好餐桌吧，小子，我们要来吃晚饭了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA004Subtitle",
+  "text": "*我要教你三件事，小子：怎么输，怎么哭，怎么死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA005Subtitle",
+  "text": "*我们马上就要进攻了，把你所有的白旗都拿出来吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA006Subtitle",
+  "text": "*我们来了，小子……尽量别尿裤子，好吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA007Subtitle",
+  "text": "*“去死”这两个字你哪个没听懂？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA008Subtitle",
+  "text": "*哦，你这下要倒霉了，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA009Subtitle",
+  "text": "*准备好了吗？因为接下来这招你可能在学校学过。准备好回学校了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA010Subtitle",
+  "text": "*是时候让你尝尝我巴掌的滋味了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA011Subtitle",
+  "text": "*你早该趁机逃跑的。现在我要教你什么叫尊重"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA012Subtitle",
+  "text": "*那么，你的葬礼……开棺还是闭棺？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA013Subtitle",
+  "text": "*我要冲进你的基地，一脚踹在你屁股上，<sarcastic>“将军”。"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA014Subtitle",
+  "text": "*我们来了，臭小子——让开，不然就把你踩扁"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA015Subtitle",
+  "text": "*你管自己叫“将军”？我管你叫讨厌鬼，就这么叫"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA016Subtitle",
+  "text": "*这就是你所谓的战略？战术？“一坨坦克”就是你能想到的最好办法？可悲……真可悲"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA017Subtitle",
+  "text": "*是啊，我也读过孙子，伙计：“敌众我寡则退，敌寡我众则攻。”你就这点本事？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA018Subtitle",
+  "text": "*那么，你的军队在哪儿，小子？还是你想赤手空拳来？我可以光用手就把你揍趴下。想试试吗，小子？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA019Subtitle",
+  "text": "*你把我从床上叫起来就为了这个？我现在就该把你按在腿上打屁股"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA020Subtitle",
+  "text": "*我的勋章比你的牙齿还多，小子……等我把你的牙打掉，那就更不值一提了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA021Subtitle",
+  "text": "*你把所有防御都放在基地正面？你以为我们绕不过去？你以为呢？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA022Subtitle",
+  "text": "*小子，你以为我在跟你闹着玩？再想想吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA023Subtitle",
+  "text": "*最好检查一下你的侧翼，伙计；我看我的几个兵刚溜进了你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA024Subtitle",
+  "text": "*你以为这是游戏吗？你以为呢？等等，别回答"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA025Subtitle",
+  "text": "*小子，谁教你军事战术的？嗯？我告诉你，你该去当面扇他一巴掌"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA026Subtitle",
+  "text": "*我身后是整个美国军队，孩子，而我刚刚决定我们不喜欢你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA027Subtitle",
+  "text": "*你这战术是某种我没听懂的笑话吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA028Subtitle",
+  "text": "*你不是真正的将军，对吧？你是卫生部长之类的吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA029Subtitle",
+  "text": "*你妈妈知道你一个人跑出来了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA030Subtitle",
+  "text": "*你可以跟我说实话……这里都是将军。你的手下知道你无能吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA031Subtitle",
+  "text": "*你知道你刚失去了一座科技建筑吗，伙计？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA032Subtitle",
+  "text": "*刚炸了你的兵营，小鬼。你打算怎么办？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA033Subtitle",
+  "text": "*你的战车工厂没了。你生气了吗，小子？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA034Subtitle",
+  "text": "*既然不打算保护，我真不知道你干嘛费劲建那座机场"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA035Subtitle",
+  "text": "*谁把这些基地防御这样摆的？这样根本什么都守不住"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA036Subtitle",
+  "text": "*我该让你再建一座指挥中心，好让我再推倒一次"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA037Subtitle",
+  "text": "*我感觉自己在踢沙堡。你打算让我摧毁你多少建筑啊，伙计？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA038Subtitle",
+  "text": "*那座科技建筑是我让给你的，小子。打败你我用不着它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA039Subtitle",
+  "text": "*小子，那座兵营不是军事目标。再这么干就不好看了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA040Subtitle",
+  "text": "*你最好收手，孩子——我可不会任由你炸我的战车工厂，听见没？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA041Subtitle",
+  "text": "*你知道那些喷气机多少钱吗？你刚毁掉的东西够养活全世界了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA042Subtitle",
+  "text": "*在突破我的防线，是吧？好啊，继续——这正好给我足够的时间攻占你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA043Subtitle",
+  "text": "*建筑已经够多了，孩子。你何不试试进攻我的部队"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA044Subtitle",
+  "text": "*我的指挥中心？！你以为我会坐在这里忍气吞声吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA045Subtitle",
+  "text": "*你最好别动我的飞行员，小子。飞机是一回事，但你要让我的飞行员平安回来，听见没？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA046Subtitle",
+  "text": "*你是个狡猾的小滑头，对吧？不过我的载具已经被你毁得够多了，你说呢？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA047Subtitle",
+  "text": "*派装甲和空中支援上去——我们的步兵正被撕成碎片！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA048Subtitle",
+  "text": "*放开那座油井，小子。你要知道，这场战争可不是为了油价"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA049Subtitle",
+  "text": "*你以为你会用那座火炮平台吗，孩子？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA050Subtitle",
+  "text": "*那座炼油厂不是合适的目标，孩子。而且它不属于你，所以我们要把它夺回来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA051Subtitle",
+  "text": "*嗯，你竟然打到我这半边地图来了。没想到你有这本事"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA052Subtitle",
+  "text": "*你打算进攻，还是就在那儿站一整天？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA053Subtitle",
+  "text": "*识相的话就滚出我的基地，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA054Subtitle",
+  "text": "*敌人进入我们的防区——所有部队击退入侵者"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA055Subtitle",
+  "text": "*那些不是你的补给，伙计。趁还没受伤赶紧走开"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA056Subtitle",
+  "text": "*侧翼进攻？！别逗我笑了，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA057Subtitle",
+  "text": "*想从我的后门进攻？祝你好运"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA058Subtitle",
+  "text": "*你要来进攻我吗，小子？很高兴看到你还有点胆量"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA059Subtitle",
+  "text": "*识相的话就离我的科技建筑远点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA060Subtitle",
+  "text": "*我的部队已经看到你的基地了，小子。你现在打算怎么办？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA061Subtitle",
+  "text": "*铁锤来了，臭小子，你可不会想当那颗钉子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA062Subtitle",
+  "text": "*咚咚，我们进来啦！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA063Subtitle",
+  "text": "*你要大难临头了，伙计。别说我没警告过你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA064Subtitle",
+  "text": "*原来你把资源藏在这儿。介意我拿一点吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA065Subtitle",
+  "text": "*你的侧翼大开，伙计"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA066Subtitle",
+  "text": "*也许我们会从你的后门进来。你觉得怎么样？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA067Subtitle",
+  "text": "*小心，我们要从前门冲进来了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA068Subtitle",
+  "text": "*我们看看这是什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA069Subtitle",
+  "text": "*哟，看看这个"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA070Subtitle",
+  "text": "*没有电力你打算怎么办？我等不及看这个战略了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA071Subtitle",
+  "text": "*你最好交电费，不然这场仗就得延期了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA072Subtitle",
+  "text": "*资源用光了？小子，付不起账单就别来跳舞"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA073Subtitle",
+  "text": "*哎呀，看来我们得搞点赤字开支了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA074Subtitle",
+  "text": "*给自己建了个飞毛腿风暴？用飞毛腿连谷仓都打不中，你不知道吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA075Subtitle",
+  "text": "*把核弹拿出来了，是吧？要不是华盛顿绑住了我的手，我早让你见识什么叫核弹了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA076Subtitle",
+  "text": "*你怎么会有粒子加农炮，孩子？那应该是绝密的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA077Subtitle",
+  "text": "*这么多基地防御。我都能闻到你身上散发的恐惧，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA078Subtitle",
+  "text": "*哦，看看这个……“一坨坦克”来了。对我没用的，孩子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA079Subtitle",
+  "text": "*你往天上放了好多昂贵的飞机啊，小子。确定要花这笔钱吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA080Subtitle",
+  "text": "*希望那些大头兵知道你要把他们带进什么火坑"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA081Subtitle",
+  "text": "*建筑可真多啊，孩子。你知道建筑不会替你打仗吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA082Subtitle",
+  "text": "*把飞毛腿拿来吧，臭小子——我让你见识什么叫风暴"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA083Subtitle",
+  "text": "*你会后悔用核弹打我的，小子。我可不吃这一套"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA084Subtitle",
+  "text": "*用粒子光束，是吧？你最好一次把我解决掉，因为你不会喜欢我的反击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA085Subtitle",
+  "text": "*你知道吗，只有懦夫才躲在建筑里打仗。你知道这点吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA086Subtitle",
+  "text": "*欢迎你，伯顿上校。很抱歉把你卷进来了。别往心里去"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA087Subtitle",
+  "text": "*黑莲花救不了你，小子。她根本靠近不了我的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA088Subtitle",
+  "text": "*贾曼·凯尔只不过是又一个狙击手，臭小子。我有几十个狙击手"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA089Subtitle",
+  "text": "*好啊，建你的机场——让鸟儿飞上天。这也许是你阻止我的唯一机会"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA090Subtitle",
+  "text": "*只有一座战车工厂？至少要六座才能挡住我，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA091Subtitle",
+  "text": "*那座兵营是不是离前线太近了点，小子？子弹在营房里飞，可不好睡觉"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA092Subtitle",
+  "text": "*别只卖一栋建筑，小子——全都卖掉，然后祈祷我还是别来找你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA093Subtitle",
+  "text": "*别太得意，小子——这还没完"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA094Subtitle",
+  "text": "*你也许以为占了上风，但我还留着几招。等着瞧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA095Subtitle",
+  "text": "*我从比这更深的坑里爬出来过，臭小子。你没那么容易赢"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA096Subtitle",
+  "text": "*你以为你在打败我？最好再想想"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA097Subtitle",
+  "text": "*嗯……看来结束了。干得不错，小子。看来你挫了挫我的锐气"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA098Subtitle",
+  "text": "*感觉到我的拳头开始掐住你的脖子了吗，臭小子？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA099Subtitle",
+  "text": "*输给我别太难过——谁都会输给我，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA100Subtitle",
+  "text": "*给我点时间凑几辆坦克，我就结束这场小冲突"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA101Subtitle",
+  "text": "*你干脆现在就放弃吧，<sarcastic>“将军”。"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA102Subtitle",
+  "text": "*小子，我把你当破鼓一样敲。是谁让你当指挥的？我有几句话要对他们说"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA103Subtitle",
+  "text": "*除非你是认真的，否则别点那个按钮，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA104Subtitle",
+  "text": "*你想跟我较量？我看你最好再想想，小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA105Subtitle",
+  "text": "*没本事撑腰就别摆那副臭架子，臭小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA106Subtitle",
+  "text": "*让我看看你有什么本事"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA107Subtitle",
+  "text": "*也许你可以靠给我擦靴子多挣几个钱，因为你肯定不是当将军的料"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA108Subtitle",
+  "text": "*干得好，将军。我向你致敬"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA109Subtitle",
+  "text": "*我不打算发表什么演说，所以直接开打吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo001Subtitle",
+  "text": "*我给你准备了几个惊喜，将军。何不出来玩玩？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo002Subtitle",
+  "text": "*既然战场上已经布满了炸药，我想我们该进攻了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo003Subtitle",
+  "text": "*将军，有你一个包裹……签收一下，好吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo004Subtitle",
+  "text": "*小心，谁知道贾曼·凯尔什么时候会溜进你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo005Subtitle",
+  "text": "*你的建筑刚刚爆炸了吗？嗯……真好奇是怎么回事？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo006Subtitle",
+  "text": "*我所有部队都装满了炸药，将军。我要是你，就不会朝他们开枪"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo007Subtitle",
+  "text": "*我的恐怖分子学会了伪装成……哎呀，我是不是说多了？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo008Subtitle",
+  "text": "*你可能注意到我的炸药威力大了点……希望你欣赏我们对品质的追求"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo009Subtitle",
+  "text": "*看飞毛腿发射车现在摧毁建筑多快……等着瞧，太神奇了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo010Subtitle",
+  "text": "*先是一片寂静……然后“轰！”……啊……你难道不喜欢吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo011Subtitle",
+  "text": "*我很少进攻，你应该感到荣幸"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo012Subtitle",
+  "text": "*又一次进攻来了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo013Subtitle",
+  "text": "*我的部队要来突袭你的基地了……好好招待他们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo014Subtitle",
+  "text": "*请别理会我的工人，将军；他们只是在帮我埋点……呃……垃圾"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo015Subtitle",
+  "text": "*哦，将军，你一定得看看这个……简直是颗炸弹。<childish laugh>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo016Subtitle",
+  "text": "*我们出去再弄点炸药，将军。马上回来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo017Subtitle",
+  "text": "*外面很安静，将军。你知道安静意味着什么，对吧？轰！！！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo018Subtitle",
+  "text": "*我是爆破大师，将军。你对我毫无防备"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo019Subtitle",
+  "text": "*你的基地已被列为拆除目标"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo020Subtitle",
+  "text": "*你害怕我的下一次进攻吗，将军？你应该害怕"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo021Subtitle",
+  "text": "*就在我们说话的时候，我的特工正潜入你的基地安放炸药"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo022Subtitle",
+  "text": "*你的建筑此刻可能已经被装上了炸药。等你发现就太晚了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo023Subtitle",
+  "text": "*能探测到我炸药的单位很少……你知道是哪些吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo024Subtitle",
+  "text": "*爆破陷阱很难造，将军。要欣赏它的美，你得凑近了看"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo025Subtitle",
+  "text": "*到目前为止，你觉得我的把戏和陷阱怎么样？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo026Subtitle",
+  "text": "*哎呀……你的科技建筑“轰”了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo027Subtitle",
+  "text": "*我们摧毁了你的兵营……希望里面没人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo028Subtitle",
+  "text": "*你的战车工厂倒了，将军。再建一座，好让我们再推倒它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo029Subtitle",
+  "text": "*机场太脆弱了——摧毁它们几乎没什么乐趣"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo030Subtitle",
+  "text": "*你的基地防御扛不住我的炸药，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo031Subtitle",
+  "text": "*啊，没有什么比摧毁指挥中心更痛快的了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo032Subtitle",
+  "text": "*我们摧毁了你那么多建筑，将军……感谢你为了让我们开心又建了新的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo033Subtitle",
+  "text": "*你摧毁了我们的油井。现在你开始进入状态了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo034Subtitle",
+  "text": "*我的兵营！我的很多爆破手都在里面，将军。我会让你为此付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo035Subtitle",
+  "text": "*别动我的战车工厂！将军，你养成的这个烦人习惯不能再继续了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo036Subtitle",
+  "text": "*别担心，我的基地防御只是预警信号。现在你得穿过我真正的防线"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo037Subtitle",
+  "text": "*太多了！你摧毁了我太多建筑，将军。现在要打得脏一点了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo038Subtitle",
+  "text": "*我们会重建那座指挥中心，将军，而你将为这次冒犯付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo039Subtitle",
+  "text": "*将军，你老是摧毁我的载具，我还怎么打败你？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo040Subtitle",
+  "text": "*我的人还没来得及安放炸药就被你干掉了……这不太对吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo041Subtitle",
+  "text": "*啊，对，占领那座油井吧，将军。这样我们就有更多东西可以炸了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo042Subtitle",
+  "text": "*将军，你要那座火炮平台干什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo043Subtitle",
+  "text": "*很好，将军，占领炼油厂吧……它们爆炸起来可壮观了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo044Subtitle",
+  "text": "*小心，将军——你的人刚进入我基地周围的危险区。连我都不记得外面所有陷阱都设在哪儿了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo045Subtitle",
+  "text": "*将军，你的人离我的基地近得危险了。我要是你就掉头"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo046Subtitle",
+  "text": "*滚出我的基地，将军。这整片区域都布满了炸药，我可不怕用"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo047Subtitle",
+  "text": "*蠢货！你知道现在你的人周围有多少炸药吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo048Subtitle",
+  "text": "*从侧翼进攻，将军？那里防御也许不多，但陷阱呢？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo049Subtitle",
+  "text": "*我基地的后方特别凶险，将军。我不建议从那里进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo050Subtitle",
+  "text": "*正面进攻？！你比我想的还蠢，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo051Subtitle",
+  "text": "*这山谷里除了死亡，没有什么在等你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo052Subtitle",
+  "text": "*小心，将军；这里看起来是个打伏击的好地方……哎呀，太晚了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo053Subtitle",
+  "text": "*你以为我没料到你会来这儿吗，将军？蠢货"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo054Subtitle",
+  "text": "*那些是我的资源，将军。自己去找"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo055Subtitle",
+  "text": "*将军，你闯进了我的炸药仓库。走错一步我们全都得死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo056Subtitle",
+  "text": "*啊，看来我们打中了你的一条电线。希望你别停电太久"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo057Subtitle",
+  "text": "*你对电力的依赖将是你的败笔，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo058Subtitle",
+  "text": "*你的资源耗尽了，将军。我的部队正在盘旋，准备致命一击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo059Subtitle",
+  "text": "*我的资源不多了，将军。介意我们来拿点你的吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo060Subtitle",
+  "text": "*飞毛腿风暴……我明白了……好吧，也许是时候建一座我自己的了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo061Subtitle",
+  "text": "*不知道要多少炸药才能摧毁那座核导弹发射井？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo062Subtitle",
+  "text": "*你干嘛要建粒子加农炮？我们才刚开始玩得开心呢，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo063Subtitle",
+  "text": "*这么多基地防御，将军。你叫我的炸弹手现在怎么进你的基地？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo064Subtitle",
+  "text": "*坦克……好多坦克。我会很乐意看着你的坦克撞上我的陷阱，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo065Subtitle",
+  "text": "*别再造飞机了，将军……你会错过我陷阱的精妙之处"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo066Subtitle",
+  "text": "*步兵这么多，你肯定会触发我的爆破陷阱。我会让他们穿过战场时散开，将军……或者不说也罢"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo067Subtitle",
+  "text": "*这么多建筑……你的基地是我炸药的完美目标，将军。谢谢"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo068Subtitle",
+  "text": "*愚蠢的举动，将军。你的飞毛腿风暴阻止不了我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo069Subtitle",
+  "text": "*核导弹！你会为此付出代价，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo070Subtitle",
+  "text": "*不！那道粒子光束会引爆我的炸药！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo071Subtitle",
+  "text": "*好啊，进驻那栋建筑吧，将军——它大概没绑炸药"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo072Subtitle",
+  "text": "*你好，伯顿上校。尽量别踩到陷阱"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo073Subtitle",
+  "text": "*黑莲花……别以为你能探测到我的陷阱，我就无懈可击了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo074Subtitle",
+  "text": "*你为什么要派贾曼·凯尔来对付我，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo075Subtitle",
+  "text": "*别再建机场了，将军……我不喜欢它们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo076Subtitle",
+  "text": "*战车工厂生产载具……会触发我爆破陷阱的载具"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo077Subtitle",
+  "text": "*你觉得建兵营明智吗，将军？"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BioClassNumber_Pos8",
+  "text": "不适用"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos8",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos8",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos9",
+  "text": "梁将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos9",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos9",
+  "text": "中国兰州，龙营基地"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos9",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos9",
+  "text": "龙之将军，AAAA 级"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos9",
+  "text": "解放军精锐部队"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos9",
+  "text": "“母老虎”梁莉昂将军要求动用其他所有科技来击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos9",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos9",
+  "text": "这场较量很有意思。也许你会再来挑战我。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos9",
+  "text": "提高你的本领，再来挑战我吧。"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos10",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos10",
+  "text": "33"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos10",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos10",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos10",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos10",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos11",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos11",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos11",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos11",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos11",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos11",
+  "text": "待定"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_GLA",
+  "text": "全球解放军喜欢使用卑鄙狡诈的战术击败敌人"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_China",
+  "text": "中国利用火焰和压倒性的人数击败敌人"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_USA",
+  "text": "美国利用高科技武器和精湛技术击败敌人"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Random",
+  "text": "此选项将随机选择一个阵营"
+ },
+ {
+  "label": "GUI:ChallengeWinText",
+  "text": "恭喜，你击败了 %s"
+ },
+ {
+  "label": "GUI:ChallengeLossText",
+  "text": "你被 %s 击败了"
+ },
+ {
+  "label": "CREDITS:DevelopmentDirector",
+  "text": "开发总监"
+ },
+ {
+  "label": "CREDITS:GeneralManager",
+  "text": "EALA 总经理"
+ },
+ {
+  "label": "CREDITS:LeadArtist",
+  "text": "首席美术师"
+ },
+ {
+  "label": "CREDITS:QADirector",
+  "text": "QA 总监"
+ },
+ {
+  "label": "CREDITS:SrTestLead",
+  "text": "高级测试主管"
+ },
+ {
+  "label": "CREDITS:AssistantMultiplayerTestLead",
+  "text": "多人游戏测试助理主管"
+ },
+ {
+  "label": "CREDITS:TestAnalyst",
+  "text": "测试分析员"
+ },
+ {
+  "label": "CREDITS:AssistantProducer",
+  "text": "助理制作人"
+ },
+ {
+  "label": "CREDITS:CameoPhotoshootStudio",
+  "text": "照片摄于 Out West Studio"
+ },
+ {
+  "label": "CREDITS:Models",
+  "text": "模特"
+ },
+ {
+  "label": "CREDITS:Actors",
+  "text": "演员"
+ },
+ {
+  "label": "CREDITS:VisualEffectsAndEditing",
+  "text": "视觉特效与剪辑"
+ },
+ {
+  "label": "CREDITS:NewsReporterVideos",
+  "text": "新闻记者视频"
+ },
+ {
+  "label": "CREDITS:DirectorOfProductLocalization",
+  "text": "EALA 产品本地化总监"
+ },
+ {
+  "label": "CREDITS:LocalizationAssistance",
+  "text": "本地化协助"
+ },
+ {
+  "label": "ACADEMY:Eva",
+  "text": "战术分析"
+ },
+ {
+  "label": "ACADEMY:BuildAllStructures",
+  "text": "将军，在战场上，充分利用手头的一切工具非常重要。一定要建造所有建筑。你必须保持一支强大的军队"
+ },
+ {
+  "label": "ACADEMY:BuildSupplyCenterEarlier",
+  "text": "将军，一名强大领袖最重要的职责之一，就是确保士兵有充足的补给。我们建议你在每个任务开始时都建造补给中心或补给储藏站。补给带来资金，资金带来胜利"
+ },
+ {
+  "label": "ACADEMY:TryBuildingRadar",
+  "text": "战争迷雾笼罩着所有人。雷达是看穿这片浓雾的好帮手。每个阵营获得“空中之眼”的方式各不相同。美国指挥中心自带雷达，中国指挥中心需要升级，而 GLA 必须在军火商处建造雷达车"
+ },
+ {
+  "label": "ACADEMY:BuildMorePeons",
+  "text": "随便问问其他将军，他们都会认同一条简单的规则：大头兵才是军队的根本。要建设基地，你需要让推土机或工人干活。这些家伙是你未来成功的关键，千万别忘了他们！"
+ },
+ {
+  "label": "ACADEMY:TryCapturingStructures",
+  "text": "将军，有时候直接拿走想要的东西比辛苦争取更容易。在兵营中购买“占领”升级，就能夺取敌方建筑。战场上还散布着各种科技建筑，可以进一步增强你的军队"
+ },
+ {
+  "label": "ACADEMY:SpendGeneralsPoints",
+  "text": "战争总有战利品。每消灭一个敌人，你都会向更多将军点数迈进一步。点击命令栏右侧的“星形”按钮即可使用它们。只需打开将军点数菜单，把辛苦挣来的点数花在新的战争玩具上"
+ },
+ {
+  "label": "ACADEMY:TryUsingSuperweapons",
+  "text": "攒了将军点数却不用有什么意义？如果你用点数购买了将军技能，屏幕右侧就会弹出一个图标。只需按下它，看烟花表演开始。花的点数越多，技能威力越大"
+ },
+ {
+  "label": "ACADEMY:TryGarrisoningAStructure",
+  "text": "士兵在开阔地作战也很有效，但驻守在民用建筑中时更加致命。选中士兵，派他们进入空建筑。墙壁会保护他们——除非遇上闪光震撼弹、毒素拖拉机或龙坦克"
+ },
+ {
+  "label": "ACADEMY:IdleBuildingUnits",
+  "text": "将军，组建并指挥一支强大的军队应是你的最高目标。点击兵营、战车工厂、机场等建筑，再点击下方命令栏中相应的图片，确保你在生产作战单位。这笔钱花得值，会帮助你取得胜利"
+ },
+ {
+  "label": "ACADEMY:TryDragSelectingUnits",
+  "text": "指挥军队是将军必须掌握的最棘手技能之一。虽然你可以逐个点击单位，但“框选”一群单位通常更快。只需点击并拖出一个方框圈住单位，它们就归你指挥了。点击其他区域，单位就会移动过去"
+ },
+ {
+  "label": "ACADEMY:ResearchUpgrades",
+  "text": "伟大的将军能造出大量坦克，更伟大的将军能造出大量更好的坦克。几乎每个单位都有某种升级。把钱花在强化现有单位上往往是最佳选择"
+ },
+ {
+  "label": "ACADEMY:RanOutOfPower",
+  "text": "GLA 不需要电力，但中国和美国对电力的消耗就像吃爆米花一样。要让基地保持强劲运转，将军需要花钱建设充足的电力来支撑战争机器。一定要建造冷核聚变反应堆或核反应堆以获得最大输出。电力不足可能意味着成功率不足"
+ },
+ {
+  "label": "ACADEMY:BuildMoreGatherers",
+  "text": "将军，一定要生产足够的工人、补给卡车或支奴干，保持收入源源不断。在补给中心或补给储藏站中点击资源采集单位的图片，即可生产额外的采集单位。不要吝于最大化你的资源潜力"
+ },
+ {
+  "label": "ACADEMY:BuildAHero",
+  "text": "贾曼·凯尔、伯顿上校和黑莲花对你的战略极为宝贵。这些英雄能扭转战局，而且对敌人不可见。要在雷达上找到你的英雄，请寻找十字准星图标。虽然一次只能拥有一名，但千万不要低估他们的重要性"
+ },
+ {
+  "label": "ACADEMY:PickStrategyCenterPlan",
+  "text": "美国战略中心是非常有用的建筑。记得选择最适合你作战计划的战略。搜索与摧毁、轰炸和坚守阵线都是让你取得优势的绝佳方式。除了这些整体战略，你还可以在这座建筑中购买许多升级"
+ },
+ {
+  "label": "ACADEMY:UseTunnelNetwork",
+  "text": "说到 GLA，在战场上神出鬼没就是他们的招牌。地道网既有防御能力，又能让玩家快速转移。只需建造几个地道网并派单位进去，然后点击建筑，就可以让单位从地图上任意其他地道网出来。它们是 GLA 整体战略的关键"
+ },
+ {
+  "label": "ACADEMY:UseControlGroups",
+  "text": "管理一支庞大的军队有时会有些混乱。创建“编队”是轻松管理大量单位的方法之一。只需选中相关单位，同时按下“Ctrl”和一个数字键。之后每当你按下该数字键，这组单位就会被选中。快速连按两次数字键，镜头就会移到该编队上方"
+ },
+ {
+  "label": "ACADEMY:UseSecondaryIncomeMethods",
+  "text": "将军，任务后期获取补给可能会很困难。在漫长的战斗中，每个阵营都有独特的筹款方式。中国可以建造黑客和网络中心。你可以让黑客在任何地方入侵互联网获取资金，或者让他们进入网络中心更快地赚钱。GLA 依靠黑市，美国依靠空投补给。如果不提前计划，你可能会面临短缺"
+ },
+ {
+  "label": "ACADEMY:ClearBuildings",
+  "text": "被驻守的建筑很难对付——除非你懂得一些窍门。为美国游骑兵升级闪光震撼弹，或者建造 GLA 毒素拖拉机或中国龙坦克，就能迅速清除这些据点。美国还可以升级钻地导弹，甚至能清除地道网！"
+ },
+ {
+  "label": "ACADEMY:PickUpSalvage",
+  "text": "GLA 狡猾，但也足智多谋。每当 GLA 单位摧毁敌方载具，都会留下残骸奖励。驶过残骸零件即可升级单位、获得经验或额外资金。在持久战中，残骸能带来很大差别，别让它们白白躺在地上"
+ },
+ {
+  "label": "ACADEMY:UseGuardAbility",
+  "text": "有时候，让单位原地不动守卫特定区域很重要。只需选中单位，按下“盾牌”按钮或“G”键，然后选择要守卫的区域。单位会攻击任何进入其警戒范围的敌人"
+ },
+ {
+  "label": "ACADEMY:MultipleSupplyCenters",
+  "text": "将军，补给是这场游戏的核心。补给可以从散布在战场各处的补给站收集。早期一个补给站或许够用，但在任务中通常最好向外扩张，多找几个。你需要在补给站附近建造补给中心或补给储藏站，以确保高效收集"
+ },
+ {
+  "label": "ACADEMY:GarrionVehicle",
+  "text": "有些单位可以进入或偷取其他载具。用劫车犯或恐怖分子偷取载具，可以让你悄悄潜入敌方领地"
+ },
+ {
+  "label": "ACADEMY:UseSelectionHotkeys",
+  "text": "将军，快捷键是加强部队控制的好方法。“E”会选中屏幕上所有同类单位。快速连按两次“E”会选中整个战场上的所有同类单位。“Q”会选中地图上所有作战单位。“W”会选中地图上所有空中单位。试试看，它们会帮到你"
+ },
+ {
+  "label": "ACADEMY:AlternateMouseInterface",
+  "text": "新增的一项功能是选项菜单中的“备选鼠标界面”。如果你习惯用右键作为行动按钮来指挥军队，这个选项可能会帮你更好地掌控你的军队"
+ },
+ {
+  "label": "ACADEMY:DoubleClickAttackMoveGuard",
+  "text": "将军，我们创造了一种指挥军队的新方法。只需选中单位并双击目的地区域，单位就会一路攻击移动到该地点并守卫它。你可以在选项菜单中启用此功能"
+ },
+ {
+  "label": "ACADEMY:BuildBarracksSooner",
+  "text": "要组建一支均衡的部队，你必须在任务早期建造兵营。步兵可能决定你作战计划的成败，所以最好不要忘了他们"
+ },
+ {
+  "label": "ACADEMY:BuildWarFactorySooner",
+  "text": "虽然步兵和空中力量都是宝贵的资产，但什么都比不上一辆好坦克。一定要在任务早期建造战车工厂或军火商"
+ },
+ {
+  "label": "ACADEMY:BuildTechStructureSooner",
+  "text": "要获得先进武器，战略中心、宣传中心或宫殿是无可替代的。别忘了在任务中早一点建造它们，以确保成功"
+ },
+ {
+  "label": "ACADEMY:NoIncome",
+  "text": "将军，在整个任务中保持收入不断对你的成功至关重要。断档太多会让你失去优势。确保补给持续不断地流入"
+ },
+ {
+  "label": "ACADEMY:ClearMines",
+  "text": "爆破陷阱和地雷真的会让你倒大霉。可以用推土机或工人清理这些危险区域来对付这种阴招"
+ },
+ {
+  "label": "ACADEMY:UnmannedVehicles",
+  "text": "将军，有些单位可以狙杀或清除敌方载具的驾驶员。发生这种情况时，载具会变为中立，可以从敌人那里“借”来用。尽管拿敌人的东西去兜兜风吧"
+ },
+ {
+  "label": "ACADEMY:DisguisedUnits",
+  "text": "有些单位可以伪装成其他单位。没有什么比开着 GLA 炸弹卡车悄无声息地驶入敌方基地、大闹一场更让人痛快的了。一定要运用这一关键战术推进你的作战计划"
+ },
+ {
+  "label": "ACADEMY:StealthUpgrade",
+  "text": "有些建筑可以升级伪装，例如 GLA 地道网或毒刺导弹阵地。敌人在为时已晚之前都看不见它们。惊喜吧！"
+ },
+ {
+  "label": "ACADEMY:Firestorm",
+  "text": "中国拥有独特的能力：当多架米格或多门地狱火炮攻击同一个敌人或区域时，可以制造火焰风暴。一定要协调你的攻击以获得最大效果"
+ },
+ {
+  "label": "GUI:HeatEffects",
+  "text": "热浪效果"
+ },
+ {
+  "label": "TOOLTIP:HeatEffects",
+  "text": "切换热浪扭曲效果的显示。关闭以提高性能"
+ },
+ {
+  "label": "GUI:WeatherEffects",
+  "text": "天气效果"
+ },
+ {
+  "label": "TOOLTIP:WeatherEffects",
+  "text": "切换雪等天气效果的显示。关闭以提高性能"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_AllyUnderAttackSubtitle",
+  "text": "*我们的盟友遭到攻击"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BaseDefensesOffLineSubtitle",
+  "text": "*我们的基地防御已瘫痪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BeaconDetectedSubtitle",
+  "text": "*已放置一个信标"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusEnemySubtitle",
+  "text": "*我们发现了一名敌方黑莲花"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusOursSubtitle",
+  "text": "*黑莲花已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingBeingCapturedSubtitle",
+  "text": "*我们的建筑正在被占领"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingDisabledSubtitle",
+  "text": "*一座建筑已被瘫痪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingEnabledSubtitle",
+  "text": "*一座建筑已恢复运作"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingStolenSubtitle",
+  "text": "*敌人占领了我们的一座建筑"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_CashStolenSubtitle",
+  "text": "*将军，他们在偷我们的钱"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonEnemySubtitle",
+  "text": "*我们发现了一名敌方伯顿上校"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonOursSubtitle",
+  "text": "*伯顿上校已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DefeatSubtitle",
+  "text": "*我们被击败了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedNukeSubtitle",
+  "text": "*警告：发现核导弹发射井"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedParticleCannonSubtitle",
+  "text": "*警告：发现粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedScudStormSubtitle",
+  "text": "*警告：发现飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsReceivedSubtitle",
+  "text": "*我们收到了盟友的资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedSubtitle",
+  "text": "*你已向盟友请求资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedAllySubtitle",
+  "text": "*你的盟友正在请求资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsTransferredSubtitle",
+  "text": "*我们已向盟友转移资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GeneralLevelUpSubtitle",
+  "text": "*恭喜你，将军。你晋升了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GPSScramblerLaunchedSubtitle",
+  "text": "*警告。GPS 干扰器已启动"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingAnthraxSubtitle",
+  "text": "*警告：一枚炭疽炸弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingDaisyCutterSubtitle",
+  "text": "*警告：一枚雏菊剪炸弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingEmpPulseSubtitle",
+  "text": "*警告：一枚 EMP 电磁脉冲炸弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingFuelAirBombSubtitle",
+  "text": "*警告：一枚燃料空气炸弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_InsufficientFundsSubtitle",
+  "text": "*我们需要更多资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellEnemySubtitle",
+  "text": "*我们发现了一名敌方贾曼·凯尔"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellOursSubtitle",
+  "text": "*贾曼·凯尔已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaserDefenseSpeechSubtitle",
+  "text": "*将军，敌人在城市中央有一座要塞。他的激光防御系统威力巨大，但需要大量电力。他只能一次把电力集中到一个防御点上。好好利用这一点"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedNukeSubtitle",
+  "text": "*警告：一枚核导弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedParticleCannonSubtitle",
+  "text": "*警告：发现粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedScudStormSubtitle",
+  "text": "*警告：飞毛腿风暴已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LowPowerSubtitle",
+  "text": "*我们电力不足"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileDetectedAllySubtitle",
+  "text": "*我们的盟友建造了核导弹发射井"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedAllySubtitle",
+  "text": "*我们的盟友发射了核导弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedOursSubtitle",
+  "text": "*我们已发射核导弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileReadySubtitle",
+  "text": "*将军，我们的核导弹已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures01Subtitle",
+  "text": "*将军。注意不要摧毁民用建筑"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures02Subtitle",
+  "text": "*摧毁民用建筑会损害我们的国际舆论！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStatuesSubtitle",
+  "text": "*长官，摧毁 GLA 雕像可以提高国际舆论"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStructuresSubtitle",
+  "text": "*长官。摧毁敌方建筑会提高国际社会对我们的评价"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyTroopsSubtitle",
+  "text": "*消灭更多敌军以提高国际舆论"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionFallingSubtitle",
+  "text": "*我们的国际舆论正在下降！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowSubtitle",
+  "text": "*我们的国际舆论正在变低"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowCriticalSubtitle",
+  "text": "*我们的国际舆论低至危急！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowVerySubtitle",
+  "text": "*我们的国际舆论非常低"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionProtectCivilianSubtitle",
+  "text": "*保护平民财产免受伤害"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionRisingSubtitle",
+  "text": "*我们的国际舆论正在上升！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonDetectedAllySubtitle",
+  "text": "*我们的盟友建造了粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedAllySubtitle",
+  "text": "*我们的盟友启动了粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedOursSubtitle",
+  "text": "*我们的粒子加农炮已启动"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonReadySubtitle",
+  "text": "*将军，我们的粒子加农炮已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ReinforcementsHaveArrivedSubtitle",
+  "text": "*增援已抵达"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormDetectedAllySubtitle",
+  "text": "*我们的盟友建造了飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedAllySubtitle",
+  "text": "*我们的盟友发射了飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedOursSubtitle",
+  "text": "*我们的飞毛腿风暴已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormReadySubtitle",
+  "text": "*将军，我们的飞毛腿风暴已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SelectTargetSubtitle",
+  "text": "*选择目标"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SneakAttackLaunchedSubtitle",
+  "text": "*警告。发现偷袭"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UnitLostSubtitle",
+  "text": "*单位损失"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeCompleteSubtitle",
+  "text": "*升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeEMPminesSubtitle",
+  "text": "*中子地雷升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeNeutronShellSubtitle",
+  "text": "*中子炮弹升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VehicleStolenSubtitle",
+  "text": "*一辆载具被偷了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VictorySubtitle",
+  "text": "*我们胜利了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_AllyUnderAttackSubtitle",
+  "text": "*我们的盟友遭到攻击"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BaseDefensesOffLineSubtitle",
+  "text": "*我们的基地防御失灵了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BeaconDetectedSubtitle",
+  "text": "*已放置一个信标"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusEnemySubtitle",
+  "text": "*我们发现了一名敌方黑莲花"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusOursSubtitle",
+  "text": "*我们的黑莲花被敌人发现了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingBeingCapturedSubtitle",
+  "text": "*我们的建筑正在被占领"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingDisabledSubtitle",
+  "text": "*一座建筑停止运作了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingEnabledSubtitle",
+  "text": "*我们的建筑恢复运作了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingStolenSubtitle",
+  "text": "*他们控制了我们的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_CashStolenSubtitle",
+  "text": "*将军，他们在偷我们的钱"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonEnemySubtitle",
+  "text": "*我们发现了一名敌方伯顿上校"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonOursSubtitle",
+  "text": "*我们的伯顿上校被敌人发现了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DefeatSubtitle",
+  "text": "*我们被击败了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedNukeSubtitle",
+  "text": "*小心，我们发现了一座核导弹发射井"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedParticleCannonSubtitle",
+  "text": "*提高警惕，我们发现了一门敌方粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedScudStormSubtitle",
+  "text": "*小心，敌人建造了飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade01Subtitle",
+  "text": "*我们的建筑现在有人守卫了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade02Subtitle",
+  "text": "*我们正在升级精英卫队"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade03Subtitle",
+  "text": "*精英卫队正在保护我们的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsReceivedSubtitle",
+  "text": "*我们收到了盟友的资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedSubtitle",
+  "text": "*你已向盟友请求资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedAllySubtitle",
+  "text": "*你的盟友正在请求资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsTransferredSubtitle",
+  "text": "*我们已向盟友转移资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GeneralLevelUpSubtitle",
+  "text": "*干得好，将军。你的军衔提升了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GPSScramblerLaunchedSubtitle",
+  "text": "*将军，敌人正在使用 GPS 干扰器"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingAnthraxSubtitle",
+  "text": "*提高警惕，一枚炭疽炸弹可能正在逼近"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingDaisyCutterSubtitle",
+  "text": "*提高警惕。一枚雏菊剪炸弹可能正在逼近"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingEmpPulseSubtitle",
+  "text": "*提高警惕。一枚 EMP 电磁脉冲炸弹可能正在逼近"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingFuelAirBombSubtitle",
+  "text": "*提高警惕。一枚燃料空气炸弹可能正在逼近"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_InsufficientFundsSubtitle",
+  "text": "*将军，我们需要更多资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellEnemySubtitle",
+  "text": "*我们发现了一名敌方贾曼·凯尔"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellOursSubtitle",
+  "text": "*我们的贾曼·凯尔被敌人发现了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaserDefenseSpeechSubtitle",
+  "text": "*将军，敌人在城市中央有一座要塞。他的激光防御系统威力巨大，但需要大量电力。他只能一次把电力集中到一个防御点上。好好利用这一点"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedNukeSubtitle",
+  "text": "*将军，一枚核导弹已经发射！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedParticleCannonSubtitle",
+  "text": "*将军，敌人正在使用粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedScudStormSubtitle",
+  "text": "*将军，一轮飞毛腿风暴已经发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LowPowerSubtitle",
+  "text": "*我们电力不足"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileDetectedAllySubtitle",
+  "text": "*我们的盟友建造了核导弹发射井"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*我们的盟友发射了核导弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*正在发射核导弹"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "SCRIPT:CHI02AudioHolder03",
+  "text": "<‘EVA’发言>\n‘将军，你还活着！？我们以为大桥坍塌时你已经牺牲了。不过你还没脱离危险，我们开始吧’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder04",
+  "text": "<‘EVA’发言>\n‘首先，你需要完成基地建设。兵营、反应堆和补给中心都是生存的关键，请立即完成建造。基地完成后我会再联系你’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder05",
+  "text": "<‘EVA’发言>\n‘很好，你的基地已经完成，只差一座战车工厂。我们现在就得给你弄一座。这里应该有一座带战车工厂的闲置基地’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder06",
+  "text": "<‘EVA’发言>\n‘我不清楚那座基地的状况，但它应该能让你生产装甲单位来协助作战。尽快赶到那里，将军。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder07",
+  "text": "<‘EVA’发言>\n‘现在我们知道 GLA 来香港的目的了：他们的目标是全城的关键建筑。我们的主要目标是消灭所有 GLA 部队，但如果还能阻止他们摧毁那些建筑，领导们会非常感激。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder08",
+  "text": "<‘EVA’发言>\n‘只要你的雷达保持运转，我就能为你追踪恐怖分子，并告诉你他们可能的目标。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder09",
+  "text": "<‘EVA’发言>\n‘将军，一名恐怖分子正离开会展中心，他身上绑的炸药足以炸塌一栋楼！我会在雷达上用红色标出这名恐怖分子，用黄色标出他可能的目标。在他到达目标之前拦住他！’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder10",
+  "text": "<‘EVA’发言>\n‘又一名恐怖分子离开了会展中心！我会用红色标出他的位置，他可能的目标用黄色标出。拦住他，将军。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder11",
+  "text": "<‘EVA’发言>\n‘将军，这栋建筑是恐怖分子的目标——我们必须保护它！’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder12",
+  "text": "<‘EVA’发言>\n‘将军，恐怖分子占领了会展中心！你必须摧毁会展中心及其附属停车楼，才能消除恐怖威胁。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder13",
+  "text": "<‘EVA’发言>\n‘很好，你已到达闲置基地。嗯，虽然看起来不怎么样，但如果需要，你可以在这里生产坦克和更多的战车工厂。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder14",
+  "text": "<‘EVA’发言>\n‘恐怖威胁已经解除。干得好，将军。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder15",
+  "text": "<‘EVA’发言>\n‘将军，我发现 GLA 装甲部队正在移动。他们不是从会展中心出来的，所以 GLA 一定在香港某处还有一座基地。找到并摧毁它！’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder16",
+  "text": "<‘EVA’发言>\n‘将军，GLA 带来了毒素拖拉机。看到喷出绿色黏液的就是它们。让步兵远离它们，用坦克来对付这个新威胁。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder17",
+  "text": "<‘EVA’发言>\n‘干得好，将军，你摧毁了毒素基地。现在他们应该无法再生产毒素拖拉机了。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder18",
+  "text": "<‘EVA’发言>\n‘等等，将军，前方有一支大部队。我会呼叫 EMP 打击来清理该区域，请待命。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder19",
+  "text": "<‘EVA’发言>\n‘这应该为你打开了通往他们基地的道路。我们来结束这一切吧，将军。’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder20",
+  "text": "<汽车渡轮船长发言>\n‘军队终于来了！那些恐怖分子把我的生意都毁了！让你的部队上船，我就送你们去会展中心。你们可以从后门溜进去，打他们个措手不及。准备好了就按运输按钮。’"
+ },
+ {
+  "label": "SCRIPT:CHI02Box01",
+  "text": "用推土机建造指挥中心\n指挥中心完成后，\n选中它并开始雷达升级\n升级完成后，雷达屏幕将出现在\n指挥界面的左下角"
+ },
+ {
+  "label": "SCRIPT:CHI02Box02",
+  "text": "新单位：龙坦克\n龙坦克喷出的火焰可以迅速消灭敌方步兵，\n即使他们驻守在建筑物内"
+ },
+ {
+  "label": "MAP:CHI02Obj01",
+  "text": "任务目标：\n摧毁会展中心\n及其附属停车楼\n以消除恐怖威胁"
+ },
+ {
+  "label": "MAP:CHI02Obj02",
+  "text": "任务目标：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:CHI02SecondaryObj01",
+  "text": "次要目标：\n阻止 GLA 恐怖分子摧毁\n香港市中心的目标建筑"
+ },
+ {
+  "label": "MAP:CHI02SecondaryObj02",
+  "text": "次要目标：\n摧毁毒素拖拉机生产设施"
+ },
+ {
+  "label": "MAP:CHI03Open",
+  "text": "中国湖北省……三峡大坝\n暴力洪流"
+ },
+ {
+  "label": "MAP:CHI03Obj1",
+  "text": "任务目标：\n摧毁大坝"
+ },
+ {
+  "label": "MAP:CHI03Obj2",
+  "text": "任务目标：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "MAP:CHI03Obj3",
+  "text": "任务目标：\n击败所有残余 GLA 部队"
+ },
+ {
+  "label": "MAP:CHI03AudioHolder01",
+  "text": "<红卫兵发言> ‘将军，水位下降了！GLA 部队正在渡河！’"
+ },
+ {
+  "label": "MAP:CHI06Open",
+  "text": "阿尔达斯坦副首都，比什凯克\n原地伏诛"
+ },
+ {
+  "label": "MAP:CHI06Obj1",
+  "text": "任务目标：\n护送黑莲花到铁路桥中央"
+ },
+ {
+  "label": "MAP:CHI07Open",
+  "text": "阿尔达斯坦首都，杜尚别\n核冬天"
+ },
+ {
+  "label": "MAP:Demo58Open",
+  "text": "哈萨克斯坦非军事区\n行动代号：蓝鹰"
+ },
+ {
+  "label": "MAP:Demo58End1",
+  "text": "战斗控制已离线……"
+ },
+ {
+  "label": "MAP:Demo58End2",
+  "text": "命令与征服：将军\n即将推出：2002 年圣诞节"
+ },
+ {
+  "label": "MAP:Demo48Open",
+  "text": "马扎尔自由交火区\n行动代号：白骑士"
+ },
+ {
+  "label": "MAP:GLA02MapName",
+  "text": "洗劫村庄"
+ },
+ {
+  "label": "MAP:GLA02Open",
+  "text": "哈萨克斯坦阿拉木图郊外村庄\n援助物资空投区"
+ },
+ {
+  "label": "MAP:GLA02ObjectiveText01",
+  "text": "任务目标\n收集价值 $40,000 的被盗物资"
+ },
+ {
+  "label": "MAP:GLA021stThirdObjective",
+  "text": "第一目标：\n夺取联合国车队的补给箱，收集 $20,000"
+ },
+ {
+  "label": "MAP:GLA022ndThirdObjective",
+  "text": "第二目标：\n夺取美国飞机空投的补给箱，收集 $30,000"
+ },
+ {
+  "label": "MAP:GLA023rdThirdObjective",
+  "text": "最终目标：袭击美军基地，收集价值 $40,000 的物资"
+ },
+ {
+  "label": "MAP:GLA02CivBuildingHint",
+  "text": "村民们把物资藏在家里\n摧毁他们的房屋，夺走藏在那里的物资"
+ },
+ {
+  "label": "MAP:GLA02CivKillHint",
+  "text": "村民们在拿走我们的物资。阻止他们"
+ },
+ {
+  "label": "MAP:GLA02QuadsArrival",
+  "text": "增援已抵达：\n用四管机炮击落敌方飞机"
+ },
+ {
+  "label": "MAP:GLA02CrateReminder",
+  "text": "收集补给箱以达成目标"
+ },
+ {
+  "label": "MAP:GLA02MonkeyReminder",
+  "text": "如果你花光所有资金，就无法达成目标"
+ },
+ {
+  "label": "MAP:GLA06MapName",
+  "text": "对症下毒"
+ },
+ {
+  "label": "MAP:GLA06Open",
+  "text": "哈萨克斯坦咸海西岸\n有毒废料封存与处理设施"
+ },
+ {
+  "label": "MAP:GLA06MissionObjective",
+  "text": "任务目标：\n占领 4 座碉堡并消灭所有美军守军"
+ },
+ {
+  "label": "MAP:GLA06BunkerWarning",
+  "text": "警告：\n碉堡十分脆弱，被摧毁时会猛烈爆炸"
+ },
+ {
+  "label": "MAP:GLA06BunkerDestroyed",
+  "text": "警告：\n愚蠢的美国人试图通过摧毁碉堡来阻止我们"
+ },
+ {
+  "label": "MAP:GLA06BunkerRetaken",
+  "text": "美国人夺回了我们的碉堡。立即夺回来"
+ },
+ {
+  "label": "MAP:GLA06BunkerObjective",
+  "text": "你必须拥有 4 座碉堡才能完成任务"
+ },
+ {
+  "label": "MAP:GLA06KillEnemies",
+  "text": "你已拥有所需数量的碉堡\n现在消灭美国人以确保胜利"
+ },
+ {
+  "label": "MAP:GLA06ScoutsInBase",
+  "text": "美国侦察兵发现了我们\n准备与美国人作战"
+ },
+ {
+  "label": "MAP:GLA06Only8Bunkers",
+  "text": "你必须更加小心对待碉堡\n你必须拥有 4 座才能完成任务"
+ },
+ {
+  "label": "MAP:GLA06Only6Bunkers",
+  "text": "只剩 6 座碉堡了\n如果再有 3 座被摧毁，任务将失败"
+ },
+ {
+  "label": "MAP:GLA06Only4Bunkers",
+  "text": "警告：\n如果再有一座碉堡被摧毁，任务将失败"
+ },
+ {
+  "label": "MAP:GLA07MapName",
+  "text": "特洛伊木马"
+ },
+ {
+  "label": "MAP:GLA07Open",
+  "text": "哈萨克斯坦楞格尔附近某处\n分裂小组控制区"
+ },
+ {
+  "label": "SCRIPT:GLA07ChnTmr",
+  "text": "中国部队抵达倒计时："
+ },
+ {
+  "label": "MAP:GLA07ChineseArrival",
+  "text": "警告：中国部队已进入该区域"
+ },
+ {
+  "label": "MAP:GLA07MissionObjective",
+  "text": "任务目标\n消灭所有叛徒"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint01",
+  "text": "将偷来的卡车秘密开进叛徒基地\n进入后引爆卡车以消灭叛徒"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint02",
+  "text": "警告：\n如果你的部队被发现与偷来的卡车在一起，叛徒们\n就会知道卡车是你的"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint03",
+  "text": "警告：偷来的卡车禁止进入该区域\n如果叛徒在这里发现它们，就会发动攻击"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint04",
+  "text": "命令卡车在叛徒建筑附近引爆\n以获得最大效果"
+ },
+ {
+  "label": "MAP:GLA07BaseKIACleanUp",
+  "text": "叛徒基地已被摧毁\n消灭其残余部队以完成胜利"
+ },
+ {
+  "label": "MAP:GLA07ConvoyDetected",
+  "text": "警报：\n叛徒们知道车队在我们手中了\n车队将遭到叛徒攻击"
+ },
+ {
+  "label": "MAP:GLA03Open",
+  "text": "哈萨克斯坦江布尔\n中国控制的平民聚居中心"
+ },
+ {
+  "label": "MAP:USA01Open",
+  "text": "马扎尔自由交火区\n行动代号：寂静黎明"
+ },
+ {
+  "label": "SCRIPT:TrainingMove",
+  "text": "左键点击单位即可选中。可以向选中的单位下达命令。选中单位后，左键点击地面即可命令其移动。左键点击敌方士兵即可命令所选单位发起攻击"
+ },
+ {
+  "label": "SCRIPT:TrainingCommand",
+  "text": "你解放了一座美国指挥中心。在这里你可以使用许多特殊能力。要选择科技和特殊武器，请点击闪烁的将军按钮"
+ },
+ {
+  "label": "SCRIPT:TrainingExplor",
+  "text": "移动到尚未探索的新区域，可以驱散单位周围的战争迷雾。迷雾会显示你已探索和未探索的区域。探索新区域，寻找敌军和扩充军队所需的资源"
+ },
+ {
+  "label": "SCRIPT:TrainingBarracks",
+  "text": "你解放了一座美国兵营。这类建筑可以训练新单位。兵营负责训练士兵。左键点击你的新兵营，查看可训练的士兵。左键点击兵营中的单位，即可花费物资训练该单位"
+ },
+ {
+  "label": "SCRIPT:TrainingPilots",
+  "text": "你解救了几名飞行员。美国飞行员通常身经百战，他们可以进入你的载具，为载具乘员提供技能和经验。旁边带有金色军衔标志的载具拥有经验丰富的乘员，作战更加高效"
+ },
+ {
+  "label": "SCRIPT:TrainingSupply",
+  "text": "你解放了一座美国补给中心。补给中心负责收集物资，为你建造新建筑和单位提供资源。每座补给中心会自动生成一架支奴干直升机为你收集物资"
+ },
+ {
+  "label": "SCRIPT:TrainingDozer",
+  "text": "你解放了一辆美国推土机。左键点击你的新推土机，查看它能建造哪些建筑。选择战车工厂并选定建造位置。战车工厂建成后，推土机即可用于其他建造项目"
+ },
+ {
+  "label": "SCRIPT:TrainingUnits",
+  "text": "你的新战车工厂可以生产十字军坦克等载具。左键点击十字军坦克即可下令生产。你可以多次左键点击，下令生产多辆坦克"
+ },
+ {
+  "label": "SCRIPT:TrainingPower",
+  "text": "你解放了一座美国冷核聚变反应堆。美国和中国部队使用反应堆为基地供电。电力条显示你的基地有多少电力。如果基地电力不足，基地防御可能离线，雷达也会失灵"
+ },
+ {
+  "label": "SCRIPT:TrainingAbilities",
+  "text": "部分单位拥有特殊能力。选中单位即可查看其特殊能力。左键点击能力即可启动。以美国十字军坦克为例，每辆坦克可以制造一架战斗无人机。战斗无人机是小型机器人助手，会自动攻击敌人，并在十字军坦克被敌方火力击伤时进行维修"
+ },
+ {
+  "label": "SCRIPT:TrainingObjective",
+  "text": "你已解放整座美国基地，现在可以向敌人发起反击了。每个任务都有必须完成的任务目标，才能赢得任务并在对敌战争中取得进展。按照任务目标行动以赢得任务"
+ },
+ {
+  "label": "SCRIPT:TrainingUrban",
+  "text": "士兵可以占据民用建筑。命令士兵进入民用建筑可以获得防御加成。以这种方式占据的民用建筑是部队强大的据点，可用于守卫进出基地的重要通道"
+ },
+ {
+  "label": "SCRIPT:TrainingTech",
+  "text": "你的游骑兵可以占领民用目标建筑。控制这些建筑能让你获得对敌优势。选中一名游骑兵，左键点击占领按钮，再左键点击油井本身，即可占领油井。油井抽油时会为你提供额外资源"
+ },
+ {
+  "label": "SCRIPT:TrainingCrate",
+  "text": "补给箱内有能增强士兵能力的奖励物品，例如额外弹药、装甲等。命令士兵或载具移动到补给箱上即可打开并收集其中的物品"
+ },
+ {
+  "label": "SCRIPT:TrainingMissionObjective",
+  "text": "任务目标\n摧毁 GLA 生化武器工厂"
+ },
+ {
+  "label": "SCRIPT:TrainingOpeningObjective",
+  "text": "任务目标\n解放美国基地"
+ },
+ {
+  "label": "MAP:USA01Opening",
+  "text": "伊拉克战区\n行动代号：最终审判"
+ },
+ {
+  "label": "MAP:USA01BahdadText",
+  "text": "巴格达之围\n第 3 天"
+ },
+ {
+  "label": "MAP:USA01ObjectiveText",
+  "text": "任务目标\n摧毁飞毛腿风暴"
+ },
+ {
+  "label": "MAP:USA02Open",
+  "text": "也门，阿尔哈纳德\n行动代号：寻宝"
+ },
+ {
+  "label": "MAP:USA02Objective1Text",
+  "text": "任务目标\n营救被俘飞行员"
+ },
+ {
+  "label": "MAP:USA02Objective2Text",
+  "text": "任务目标\n将最后一名飞行员送回基地汇报"
+ },
+ {
+  "label": "MAP:USA03Objective1Text",
+  "text": "任务目标\n确保 100 名美军成功撤离"
+ },
+ {
+  "label": "SCRIPT:USA03RescueCounter",
+  "text": "已撤离美军："
+ },
+ {
+  "label": "MAP:USA04Open",
+  "text": "哈萨克斯坦海岸，14:00\n行动代号：风暴使者"
+ },
+ {
+  "label": "SCRIPT:USA04BomberTimer",
+  "text": "轰炸机抵达倒计时："
+ },
+ {
+  "label": "MAP:USA06Objective1Text",
+  "text": "任务目标：\n阻止 GLA 建造其河畔基地"
+ },
+ {
+  "label": "MAP:USA06Objective2Text",
+  "text": "任务目标：\n摧毁 GLA 主基地"
+ },
+ {
+  "label": "SCRIPT:GLA03CivCounter",
+  "text": "已消灭叛徒："
+ },
+ {
+  "label": "SCRIPT:GLA03Objective01",
+  "text": "任务目标：\n占领东边的指挥中心以开始生产\n消灭 300 名叛徒"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective02",
+  "text": "任务目标：\n用毒素拖拉机消灭 300 名叛徒"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective03",
+  "text": "摧毁北边的制药厂"
+ },
+ {
+  "label": "MAP:GLA03Objective04",
+  "text": "解救囚犯"
+ },
+ {
+  "label": "MAP:GLA03Objective05",
+  "text": "消灭 300 名叛徒"
+ },
+ {
+  "label": "MAP:GLA03Objective06",
+  "text": "摧毁制药厂"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective01",
+  "text": "任务目标：\n摧毁民用建筑并收集 $40,000"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective02",
+  "text": "警告：\n花钱生产单位会让你离 $40,000 的目标更远\n注意不要超支"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective03",
+  "text": "警告：\n美军正以机场作为集结基地\n渡河并摧毁它"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective04",
+  "text": "警告：\n美军已派出飞机消灭重型载具\n建议只使用愤怒暴民和技术车"
+ },
+ {
+  "label": "SCRIPT:GLA05Objective01",
+  "text": "任务目标：\n摧毁美军空军基地"
+ },
+ {
+  "label": "SCRIPT:GLA05Objective02",
+  "text": "任务目标：\n摧毁西边的美军空军基地"
+ },
+ {
+  "label": "MAP:GLA01Open",
+  "text": "奇姆肯特非军事区\n行动代号：黑雨"
+ },
+ {
+  "label": "MAP:GLA01ObjectiveText",
+  "text": "任务目标：摧毁大坝"
+ },
+ {
+  "label": "MAP:USA07Open",
+  "text": "哈萨克斯坦东南部\n行动代号：绝望联盟"
+ },
+ {
+  "label": "MAP:USA07Objective1",
+  "text": "任务目标：\n消灭东北方的 GLA"
+ },
+ {
+  "label": "MAP:USA07General",
+  "text": "将军抵达"
+ },
+ {
+  "label": "MAP:USA07Objective2",
+  "text": "任务目标：\n摧毁中国指挥中心\n和核导弹发射井"
+ },
+ {
+  "label": "MAP:GLA08Temp",
+  "text": "GLA 任务 8 - 哈萨克斯坦南部\n拜科努尔航天发射场"
+ },
+ {
+  "label": "MAP:CHI08Temp",
+  "text": "中国任务 8 - 最后一个中国任务\n状态：未完成"
+ },
+ {
+  "label": "MAP:CHI07Temp",
+  "text": "中国任务 7 - 核弹狂欢\n状态：未完成"
+ },
+ {
+  "label": "MAP:CHI05Temp",
+  "text": "中国任务 5 - 火攻 GLA\n状态：未完成"
+ },
+ {
+  "label": "MAP:USA08Temp",
+  "text": "美国任务 8 - 重创 GLA\n状态：未完成"
+ },
+ {
+  "label": "MAP:USA06Temp",
+  "text": "美国任务 6 - E3 改版\n状态：未完成"
+ },
+ {
+  "label": "MAP:USA05Temp",
+  "text": "美国任务 5 - 突袭河流\n状态：未完成"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDaisyCutter",
+  "text": "强于：建筑\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireParticleUplinkCannon",
+  "text": "强于：建筑\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipParaDrop",
+  "text": "用飞机空投游骑兵\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipClusterMines",
+  "text": "用飞机空投地雷\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipEMPPulse",
+  "text": "强于：载具\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipA10Strike",
+  "text": "强于：建筑\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireNukeMissile",
+  "text": "强于：一切目标\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSCUDStorm",
+  "text": "强于：一切目标\n\n冷却时间：5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireArtilleryBarrage",
+  "text": "强于：建筑、大批单位\n\n冷却时间：5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSuperWeaponCashHack",
+  "text": "从敌方补给中心窃取资金\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSpySatScan",
+  "text": "显示目标区域。发现隐藏单位\n\n冷却时间：1:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSpyDrone",
+  "text": "在目标上空生成间谍无人机\n\n冷却时间：1:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRadarVanScan",
+  "text": "显示目标区域。发现隐藏敌人\n\n冷却时间：0:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRadioJam",
+  "text": "切断敌方通讯\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireEmergencyRepair",
+  "text": "紧急维修\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRebelAmbush",
+  "text": "生成叛军\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireAnthraxBomb",
+  "text": "强于：步兵\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCIAIntelligence",
+  "text": "侦察敌军\n\n冷却时间：5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapProxy",
+  "text": "敌人靠近时爆炸"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapManual",
+  "text": "按你的命令爆炸"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapDetonate",
+  "text": "引爆爆破陷阱"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMissileDefenderLaser",
+  "text": "激光锁定可提高导弹射速"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansBombardment",
+  "text": "部署火炮\n所有单位：火力 +20%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansHoldTheLine",
+  "text": "部署城墙\n所有单位：装甲 +10%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansSearchAndDestroy",
+  "text": "部署扫描器\n所有单位：武器射程 +20%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSetRallyPoint",
+  "text": "设置此建筑的集结点"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSell",
+  "text": "以 50% 的价值出售此建筑"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeReactorOverCharge",
+  "text": "损伤反应堆以多产生 50% 的电力"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCancelUpgrade",
+  "text": "取消此升级"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeAdvancedTraining",
+  "text": "单位获得经验的速度加倍"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeDroneARmor",
+  "text": "所有无人机获得强化装甲"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods",
+  "text": "反应堆电力提高 100%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades",
+  "text": "游骑兵向民用建筑投掷闪光震撼弹，清除其中的敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCompositeArmor",
+  "text": "坦克装甲 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCruiseMissile",
+  "text": "可以为战斧导弹指定飞行路线"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeTOW",
+  "text": "为悍马装备导弹。可攻击地面或空中目标"
+ },
+ {
+  "label": "CONTROLBAR:USAUpgradeRocketPods",
+  "text": "科曼奇发射火箭弹幕"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeLaserMissiles",
+  "text": "猛禽战机和隐形战机的导弹伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeMines",
+  "text": "在建筑周围布设地雷"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordGattlingCannon",
+  "text": "在这辆霸王坦克上建造加特林机炮"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordPropagandaTower",
+  "text": "在这辆霸王坦克上建造宣传塔"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordBattleBunker",
+  "text": "在这辆霸王坦克上建造碉堡。你的士兵可以进驻碉堡"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeRadar",
+  "text": "为这座指挥中心建造雷达"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeNationalism",
+  "text": "红卫兵、坦克猎人和战斗大师的集群加成 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeBlackNapalm",
+  "text": "所有火焰武器伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeChainGuns",
+  "text": "所有加特林武器伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaSubliminal",
+  "text": "喇叭塔加成 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaUraniumShells",
+  "text": "战斗大师和霸王坦克的炮弹伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNuclearTanks",
+  "text": "提高霸王坦克和战斗大师的速度"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaStunBullets",
+  "text": "红卫兵可能会尝试俘虏敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDisguiseAsVehicle",
+  "text": "将炸弹卡车伪装成目标载具"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeBioBomb",
+  "text": "炸弹卡车变成生化武器"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeHEBomb",
+  "text": "这辆炸弹卡车伤害提高 100%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRadarVanScan",
+  "text": "雷达车可以扫描地图搜索敌军"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeScorpionRocket",
+  "text": "蝎子坦克获得火箭攻击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAPRockets",
+  "text": "所有火箭攻击伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeToxinShells",
+  "text": "蝎子坦克和劫掠者坦克的炮弹携带少量炭疽"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxBeta",
+  "text": "所有毒素单位伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAPBullets",
+  "text": "叛军、技术车、四管机炮和贾曼·凯尔伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeJunkRepair",
+  "text": "所有载具自动修复"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeCamouflage",
+  "text": "叛军不开火时可对敌人隐形"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeTranqDarts",
+  "text": "叛军可能会尝试俘虏敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeArmTheMob",
+  "text": "为所有愤怒暴民配备 AK-47"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipStructureExit",
+  "text": "命令此单位离开"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipTransportExit",
+  "text": "命令此单位离开"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipEvacuate",
+  "text": "命令所有单位离开"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipRailedTransport",
+  "text": "出发"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSACombatDrop",
+  "text": "命令游骑兵索降到敌方目标上。对驻守的建筑使用可消灭其中所有敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuard",
+  "text": "命令单位移动并警戒特定位置，必要时追击目标"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuardWithoutPursuit",
+  "text": "命令单位移动并警戒特定位置，但不追击区域外的目标"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuardFlyingUnitsOnly",
+  "text": "命令单位移动并攻击靠近指定位置的空中单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAttackMove",
+  "text": "命令单位移动到目标区域，途中停下攻击遇到的敌人"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCommandStop",
+  "text": "命令单位停止当前行动"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipWayPoints",
+  "text": "点击地面设置路径点"
+ }
+]

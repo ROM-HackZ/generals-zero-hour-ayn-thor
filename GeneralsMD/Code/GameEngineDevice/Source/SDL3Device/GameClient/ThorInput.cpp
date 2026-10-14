@@ -1,0 +1,718 @@
+// GeneralsX @feature Codex 14/10/2026 Native controller intentions and immutable deck snapshots.
+#include "SDL3Device/GameClient/ThorInput.h"
+#include "SDL3Device/GameClient/ThorArtwork.h"
+#if defined(__ANDROID__)
+#include <jni.h>
+#include <android/log.h>
+#include <SDL3/SDL.h>
+#include <mutex>
+#include <deque>
+#include <sstream>
+#include <string>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <map>
+#include <set>
+#include "GameClient/Image.h"
+#include "Common/PlayerTemplate.h"
+#include "Common/SpecialPower.h"
+#include "WW3D2/assetmgr.h"
+#include "WW3D2/texture.h"
+#include "WW3D2/surfaceclass.h"
+#include "SDL3Device/GameClient/TouchInput.h"
+#include "Common/MessageStream.h"
+#include "Common/Player.h"
+#include "Common/PlayerList.h"
+#include "Common/Money.h"
+#include "Common/Energy.h"
+#include "GameClient/GameText.h"
+#include "Common/ThingTemplate.h"
+#include "GameClient/ControlBar.h"
+#include "GameClient/GameClient.h"
+#include "GameClient/Drawable.h"
+#include "GameClient/GameWindow.h"
+#include "GameClient/GameWindowManager.h"
+#include "GameClient/Gadget.h"
+#include "GameClient/GadgetPushButton.h"
+#include "GameClient/GadgetComboBox.h"
+#include "GameClient/GadgetTextEntry.h"
+#include "GameClient/KeyDefs.h"
+#include "GameLogic/Squad.h"
+#include "GameLogic/Module/ProductionUpdate.h"
+#include "GameLogic/Module/SpecialPowerModule.h"
+#include "Common/Upgrade.h"
+#include "GameClient/InGameUI.h"
+#include "GameClient/View.h"
+#include "GameClient/Display.h"
+#include "GameLogic/GameLogic.h"
+#include "GameLogic/Object.h"
+#include "GameLogic/Module/BodyModule.h"
+#include "Common/Radar.h"
+#include "Common/GameCommon.h"
+#include "Common/GameUtility.h"
+#include "Common/GlobalData.h"
+#include "Common/NameKeyGenerator.h"
+#include "GameClient/SelectionXlat.h"
+#include "GameClient/CommandXlat.h"
+#include "W3DDevice/Common/W3DRadar.h"
+
+namespace {
+struct Intent { int type, value; float x, y; std::string action; };
+std::mutex bridgeMutex;
+std::deque<Intent> pending;
+std::string published = "{\"ready\":false}";
+float stick[4] = {};
+float smoothPan[2] = {};
+bool precision = false, waypoint = false, enabled = false, suspended = false;
+float aimX = .5f, aimY = .5f;
+Uint64 lastPump = 0, lastSnapshot = 0, lastRadar = 0;
+int editorId = 0;
+std::vector<unsigned int> radarPixels;
+std::vector<WideChar> pendingText;
+bool textReady = false;
+bool boxHeld = false;
+bool snapSetting = true;
+bool externalDeckSetting = false;
+bool viewportExpanded = false;
+Uint64 boxDown = 0;
+Coord3D boxAnchor{};
+
+// GeneralsX @feature Codex 14/10/2026 Bounded, engine-thread artwork extraction for both displays.
+struct IconCopy { std::vector<unsigned int> pixels; Uint64 used = 0; };
+struct PageCopy { int width, height; std::vector<unsigned int> pixels; Uint64 used; };
+std::map<std::string, IconCopy> iconCopies;
+std::map<std::string, PageCopy> pageCopies;
+std::deque<std::string> iconRequests;
+std::set<std::string> requestedIcons;
+unsigned iconGeneration = 1;
+constexpr size_t pageBudget = 8 * 1024 * 1024;
+constexpr size_t iconLimit = 128;
+
+std::string imageKey(const Image *image) { return image ? image->getName().str() : ""; }
+unsigned pixelAlpha(WW3DFormat format, const unsigned char *p) {
+    switch (format) {
+    case WW3D_FORMAT_A8R8G8B8: return p[3];
+    case WW3D_FORMAT_A4R4G4B4: return (p[1] >> 4) * 17;
+    case WW3D_FORMAT_A1R5G5B5: return p[1] & 128 ? 255 : 0;
+    case WW3D_FORMAT_A8: return p[0];
+    case WW3D_FORMAT_A8L8: return p[1];
+    default: return 255;
+    }
+}
+PageCopy *copyImagePage(const Image *image) {
+    if (!image || !WW3DAssetManager::Get_Instance()) return nullptr;
+    const bool raw = image->getStatus() & IMAGE_STATUS_RAW_TEXTURE;
+    std::string key = raw ? "raw:" + imageKey(image) : image->getFilename().str();
+    auto cached = pageCopies.find(key);
+    if (cached != pageCopies.end()) { cached->second.used = SDL_GetTicks(); return &cached->second; }
+    TextureClass *texture = raw ? (TextureClass *)image->getRawTextureData() :
+        WW3DAssetManager::Get_Instance()->Get_Texture(image->getFilename().str(), MIP_LEVELS_1);
+    if (!texture) return nullptr;
+    SurfaceClass *surface = texture->Get_Surface_Level();
+    if (!raw) texture->Release_Ref();
+    if (!surface) return nullptr;
+    SurfaceClass::SurfaceDescription desc;
+    surface->Get_Description(desc);
+    if (desc.Width <= 0 || desc.Height <= 0 || size_t(desc.Width) * desc.Height * 4 > pageBudget) {
+        surface->Release_Ref(); return nullptr;
+    }
+    if (desc.Format >= WW3D_FORMAT_DXT1 && desc.Format <= WW3D_FORMAT_DXT5) {
+        SurfaceClass *converted = new SurfaceClass(desc.Width, desc.Height, WW3D_FORMAT_A8R8G8B8);
+        converted->Copy(0, 0, 0, 0, desc.Width, desc.Height, surface);
+        surface->Release_Ref(); surface = converted; surface->Get_Description(desc);
+    }
+    const unsigned bytes = Get_Bytes_Per_Pixel(desc.Format);
+    int pitch = 0;
+    void *bits = bytes ? surface->Lock(&pitch) : nullptr;
+    if (!bits) { surface->Release_Ref(); return nullptr; }
+    PageCopy page{int(desc.Width), int(desc.Height), {}, SDL_GetTicks()};
+    page.pixels.resize(size_t(desc.Width) * desc.Height);
+    for (int y = 0; y < page.height; ++y) for (int x = 0; x < page.width; ++x) {
+        Vector3 rgb; surface->Get_Pixel(rgb, x, y, bits, pitch);
+        const auto *pixel = static_cast<const unsigned char *>(bits) + y * pitch + x * bytes;
+        unsigned r = std::max(0, std::min(255, int(rgb.X * 255 + .5f)));
+        unsigned g = std::max(0, std::min(255, int(rgb.Y * 255 + .5f)));
+        unsigned b = std::max(0, std::min(255, int(rgb.Z * 255 + .5f)));
+        page.pixels[y * page.width + x] = (pixelAlpha(desc.Format, pixel) << 24) | (r << 16) | (g << 8) | b;
+    }
+    surface->Unlock(); surface->Release_Ref();
+    size_t total = page.pixels.size() * 4;
+    for (const auto &entry : pageCopies) total += entry.second.pixels.size() * 4;
+    while (total > pageBudget && !pageCopies.empty()) {
+        auto oldest = std::min_element(pageCopies.begin(), pageCopies.end(), [](const auto &a, const auto &b) { return a.second.used < b.second.used; });
+        total -= oldest->second.pixels.size() * 4; pageCopies.erase(oldest);
+    }
+    return &pageCopies.emplace(key, std::move(page)).first->second;
+}
+std::vector<unsigned int> copyIcon(const std::string &key) {
+    const Image *image = TheMappedImageCollection ? TheMappedImageCollection->findImageByName(key.c_str()) : nullptr;
+    PageCopy *page = copyImagePage(image);
+    if (!page || !image || image->getImageWidth() <= 0 || image->getImageHeight() <= 0) return {};
+    const Region2D *uv = image->getUV();
+    const bool rotated = image->getStatus() & IMAGE_STATUS_ROTATED_90_CLOCKWISE;
+    return ThorArtwork::crop(page->pixels, page->width, page->height, image->getImageWidth(), image->getImageHeight(),
+        uv->lo.x, uv->lo.y, uv->hi.x, uv->hi.y, rotated);
+}
+void pumpIcons() {
+    for (int i = 0; i < 2; ++i) {
+        std::string key;
+        { std::lock_guard<std::mutex> guard(bridgeMutex); if (iconRequests.empty()) return; key = iconRequests.front(); iconRequests.pop_front(); }
+        auto pixels = copyIcon(key);
+        std::lock_guard<std::mutex> guard(bridgeMutex);
+        requestedIcons.erase(key);
+        if (iconCopies.size() >= iconLimit) {
+            auto oldest = std::min_element(iconCopies.begin(), iconCopies.end(), [](const auto &a, const auto &b) { return a.second.used < b.second.used; });
+            iconCopies.erase(oldest);
+        }
+        iconCopies[key] = {std::move(pixels), SDL_GetTicks()};
+    }
+}
+
+std::string utf8(const UnicodeString &text) {
+    std::string result;
+    const auto *p = text.str();
+    for (; p && *p; ++p) {
+        unsigned c = static_cast<unsigned>(*p);
+        if (c >= 0xd800 && c <= 0xdbff && p[1] >= 0xdc00 && p[1] <= 0xdfff)
+            c = 0x10000 + ((c - 0xd800) << 10) + (static_cast<unsigned>(*++p) - 0xdc00);
+        if (c < 128) result += char(c);
+        else if (c < 2048) { result += char(0xc0 | (c >> 6)); result += char(0x80 | (c & 63)); }
+        else if (c < 65536) { result += char(0xe0 | (c >> 12)); result += char(0x80 | ((c >> 6) & 63)); result += char(0x80 | (c & 63)); }
+        else { result += char(0xf0 | (c >> 18)); result += char(0x80 | ((c >> 12) & 63)); result += char(0x80 | ((c >> 6) & 63)); result += char(0x80 | (c & 63)); }
+    }
+    return result;
+}
+std::string quoted(const std::string &s) {
+    std::ostringstream out;
+    out << '"';
+    for (unsigned char c : s) {
+        if (c == '"' || c == '\\') out << '\\' << c;
+        else if (c == '\n') out << "\\n";
+        else if (c == '\r') out << "\\r";
+        else if (c == '\t') out << "\\t";
+        else if (c >= 32) out << c;
+    }
+    out << '"';
+    return out.str();
+}
+bool visible(GameWindow *w) {
+    for (auto *p = w; p; p = p->winGetParent()) if (p->winIsHidden()) return false;
+    return w != nullptr;
+}
+bool available(GameWindow *w) {
+    for (auto *p = w; p; p = p->winGetParent()) if (!p->winGetEnabled()) return false;
+    return w != nullptr;
+}
+bool inMatch() {
+    return TheGameLogic && TheGameLogic->getGameMode() != GAME_NONE &&
+        TheGameLogic->getGameMode() != GAME_SHELL;
+}
+bool battlefield() { return inMatch() && !TheGameLogic->isGamePaused(); }
+GameWindow *menuRoot(const char *buttonName) {
+    if (!TheWindowManager || !TheNameKeyGenerator) return nullptr;
+    auto *w = TheWindowManager->winGetWindowFromId(nullptr, TheNameKeyGenerator->nameToKey(buttonName));
+    if (!visible(w)) return nullptr;
+    while (w->winGetParent()) w = w->winGetParent();
+    return w;
+}
+void key(SDL_Scancode code) {
+    if (!TheWindowManager) return;
+    auto *field = editorId ? TheWindowManager->winGetWindowFromId(nullptr, editorId) : TheWindowManager->winGetFocus();
+    if (!field || !visible(field)) return;
+    const unsigned keyCode = code == SDL_SCANCODE_UP ? KEY_UP : code == SDL_SCANCODE_DOWN ? KEY_DOWN :
+        code == SDL_SCANCODE_LEFT ? KEY_LEFT : code == SDL_SCANCODE_RIGHT ? KEY_RIGHT :
+        code == SDL_SCANCODE_RETURN ? KEY_ENTER : KEY_ESC;
+    TheWindowManager->winSendInputMsg(field, GWM_CHAR, keyCode, KEY_STATE_DOWN);
+    TheWindowManager->winSendInputMsg(field, GWM_CHAR, keyCode, KEY_STATE_UP);
+}
+void message(GameMessage::Type type) {
+    if (TheMessageStream) TheMessageStream->appendMessage(type);
+}
+void click(int x, int y) {
+    if (!TheMessageStream) return;
+    IRegion2D pos{{x, y}, {x, y}};
+    GameMessage *m = TheMessageStream->appendMessage(GameMessage::MSG_MOUSE_LEFT_CLICK);
+    m->appendPixelRegionArgument(pos);
+    m->appendIntegerArgument(0);
+}
+void activate(int id, const std::string &expectedAction = {}) {
+    if (!TheWindowManager) return;
+    auto *w = TheWindowManager->winGetWindowFromId(nullptr, id);
+    if (!visible(w) || !available(w)) return;
+    __android_log_print(ANDROID_LOG_DEBUG, "ThorInput", "Activate window id=%d style=%u", id, w->winGetStyle());
+    // GeneralsX @bugfix Codex 14/10/2026 Only registered command data belongs to ControlBar.
+    if (TheControlBar && (w->winGetStyle() & GWS_PUSH_BUTTON)) {
+        const void *data = GadgetButtonGetData(w);
+        for (auto *candidate = TheControlBar->getCommandButtons(); candidate; candidate = candidate->getNext()) {
+            if (data == candidate) {
+                if (!expectedAction.empty() && expectedAction != candidate->getName().str()) return;
+                if (TheControlBar->processContextSensitiveButtonClick(w, GBM_SELECTED) == CBC_COMMAND_USED) return;
+                break;
+            }
+        }
+    }
+    if (!expectedAction.empty()) {
+        bool registered = false;
+        if (TheControlBar && (w->winGetStyle() & GWS_PUSH_BUTTON))
+            for (auto *candidate = TheControlBar->getCommandButtons(); candidate; candidate = candidate->getNext())
+                if (GadgetButtonGetData(w) == candidate && expectedAction == candidate->getName().str()) registered = true;
+        if (!registered) return;
+    }
+    if ((w->winGetStyle() & GWS_PUSH_BUTTON) && !(w->winGetStatus() & WIN_STATUS_CHECK_LIKE)) {
+        TheWindowManager->winSendSystemMsg(w->winGetOwner(), GBM_SELECTED, reinterpret_cast<WindowMsgData>(w), 0);
+        return;
+    }
+    int x, y, width, height;
+    editorId = id;
+    w->winGetScreenPosition(&x, &y); w->winGetSize(&width, &height);
+    TheWindowManager->winSetFocus(w);
+    // GeneralsX @bugfix Codex 14/10/2026 Entering an editor must preserve its current value.
+    if (w->winGetStyle() & (GWS_COMBO_BOX | GWS_ENTRY_FIELD | GWS_SCROLL_LISTBOX | GWS_ALL_SLIDER)) return;
+    const auto packed = static_cast<WindowMsgData>(((y + height / 2) << 16) | ((x + width / 2) & 65535));
+    TheWindowManager->winSendInputMsg(w, GWM_LEFT_DOWN, packed, 0);
+    TheWindowManager->winSendInputMsg(w, GWM_LEFT_UP, packed, 0);
+}
+void center() {
+    if (!TheInGameUI || !TheTacticalView) return;
+    auto *draw = TheInGameUI->getFirstSelectedDrawable();
+    if (draw) TheTacticalView->userLookAt(draw->getPosition());
+}
+void cycle(int category) {
+    if (category == 0) { message(GameMessage::MSG_META_SELECT_NEXT_IDLE_WORKER); return; }
+    if (!TheGameClient || !TheInGameUI) return;
+    auto *current = TheInGameUI->getFirstSelectedDrawable();
+    std::vector<Drawable *> choices;
+    for (auto *d = TheGameClient->getDrawableList(); d; d = d->getNextDrawable()) {
+        auto *o = d->getObject();
+        if (!o || !o->isLocallyControlled() || o->isEffectivelyDead() || !CanSelectDrawable(d, FALSE)) continue;
+        bool match = category == 1 ? o->isKindOf(KINDOF_COMMANDCENTER) :
+            category == 2 ? (!o->isKindOf(KINDOF_STRUCTURE) && !o->isKindOf(KINDOF_DOZER) && !o->isKindOf(KINDOF_HARVESTER)) :
+            o->isKindOf(KINDOF_FS_FACTORY);
+        if (match) choices.push_back(d);
+    }
+    if (choices.empty()) return;
+    auto found = std::find(choices.begin(), choices.end(), current);
+    auto *d = found == choices.end() || ++found == choices.end() ? choices.front() : *found;
+    TheInGameUI->deselectAllDrawables(false);
+    TheInGameUI->selectDrawable(d);
+    auto *m = TheMessageStream->appendMessage(GameMessage::MSG_CREATE_SELECTED_GROUP);
+    m->appendBooleanArgument(TRUE); m->appendObjectIDArgument(d->getObject()->getID());
+    center();
+}
+void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth = 0, bool siblings = true) {
+    if (depth > 32) return;
+    for (auto *w = head; w; w = siblings ? w->winGetNext() : nullptr) {
+        if (!visible(w)) continue;
+        if (!battlefield() && !w->winIsPresentedHere()) continue;
+        const unsigned style = w->winGetStyle();
+        // GeneralsX @bugfix Codex 14/10/2026 Composite children are not independent controller targets.
+        if (w->winGetWindowId() != 0 && (style & (GWS_PUSH_BUTTON | GWS_RADIO_BUTTON | GWS_CHECK_BOX | GWS_COMBO_BOX | GWS_ENTRY_FIELD | GWS_SCROLL_LISTBOX | GWS_ALL_SLIDER))) {
+            int x, y, width, height;
+            w->winGetScreenPosition(&x, &y); w->winGetSize(&width, &height);
+            if (width > 0 && height > 0) {
+                if (!first) out << ','; first = false;
+                std::string label = utf8(w->winGetText());
+                if (style & GWS_COMBO_BOX) label = utf8(GadgetComboBoxGetText(w));
+                else if (style & GWS_ENTRY_FIELD) label = utf8(GadgetTextEntryGetText(w));
+                const CommandButton *cmd = nullptr;
+                if (TheControlBar && (style & GWS_PUSH_BUTTON)) {
+                    const void *data = GadgetButtonGetData(w);
+                    for (auto *candidate = TheControlBar->getCommandButtons(); candidate; candidate = candidate->getNext())
+                        if (data == candidate) { cmd = candidate; break; }
+                }
+                if (cmd && TheGameText && !cmd->getTextLabel().isEmpty()) label = utf8(TheGameText->fetch(cmd->getTextLabel()));
+                UnicodeString scienceName, scienceDescription;
+                ScienceType science = SCIENCE_INVALID;
+                if (cmd && cmd->getCommandType() == GUI_COMMAND_PURCHASE_SCIENCE && TheScienceStore && !cmd->getScienceVec().empty()) {
+                    science = cmd->getScienceVec().front();
+                    Player *local = ThePlayerList ? ThePlayerList->getLocalPlayer() : nullptr;
+                    for (ScienceType candidate : cmd->getScienceVec()) if (!local || !local->hasScience(candidate)) { science = candidate; break; }
+                    if (TheScienceStore->getNameAndDescription(science, scienceName, scienceDescription)) label = utf8(scienceName);
+                }
+                if (label.empty() && cmd) label = cmd->getName().str();
+                label.erase(std::remove(label.begin(), label.end(), '&'), label.end());
+                bool contextCommand = false;
+                int commandSlot = -1;
+                int queueIndex = -1;
+                if (cmd && TheControlBar) {
+                    for (int index = 0; index < MAX_COMMANDS_PER_SET; ++index)
+                        if (TheControlBar->getCommandWindow(index) == w) { contextCommand = true; commandSlot = index; }
+                    if (cmd->getCommandType() == GUI_COMMAND_SPECIAL_POWER_FROM_SHORTCUT ||
+                        cmd->getCommandType() == GUI_COMMAND_SPECIAL_POWER_CONSTRUCT_FROM_SHORTCUT ||
+                        cmd->getCommandType() == GUI_COMMAND_PURCHASE_SCIENCE) contextCommand = true;
+                    for (int index = 0; index < MAX_BUILD_QUEUE_BUTTONS; ++index)
+                        if (TheControlBar->getQueueWindow(index) == w && available(w)) queueIndex = index;
+                }
+                const ProductionEntry *entry = nullptr;
+                if (queueIndex >= 0 && TheInGameUI) {
+                    auto *selected = TheInGameUI->getFirstSelectedDrawable();
+                    auto *production = selected && selected->getObject() ? ProductionUpdate::getProductionUpdateInterfaceFromObject(selected->getObject()) : nullptr;
+                    if (production) {
+                        entry = production->firstProduction();
+                        for (int index = 0; entry && index < queueIndex; ++index) entry = production->nextProduction(entry);
+                    }
+                    if (entry && entry->getProductionType() == PRODUCTION_UNIT && entry->getProductionObject()) label = "Cancel " + utf8(entry->getProductionObject()->getDisplayName());
+                    else if (entry && entry->getProductionType() == PRODUCTION_UPGRADE && entry->getProductionUpgrade() && TheGameText) label = "Cancel " + utf8(TheGameText->fetch(entry->getProductionUpgrade()->getDisplayNameLabel()));
+                }
+                out << "{\"id\":" << w->winGetWindowId() << ",\"label\":" << quoted(label)
+                    << ",\"enabled\":" << (available(w) ? "true" : "false")
+                    << ",\"command\":" << (contextCommand ? "true" : "false") << ",\"style\":" << style
+                    << ",\"queue\":" << (entry ? "true" : "false")
+                    << ",\"x\":" << x << ",\"y\":" << y << ",\"w\":" << width << ",\"h\":" << height;
+                const Image *icon = cmd ? cmd->getButtonImage() : w->winGetEnabledImage(0);
+                if (entry && entry->getProductionType() == PRODUCTION_UNIT && entry->getProductionObject()) icon = entry->getProductionObject()->getButtonImage();
+                if (entry && entry->getProductionType() == PRODUCTION_UPGRADE && entry->getProductionUpgrade()) icon = entry->getProductionUpgrade()->getButtonImage();
+                out << ",\"icon\":" << quoted(imageKey(icon)) << ",\"slot\":" << commandSlot;
+                if (cmd) out << ",\"action\":" << quoted(cmd->getName().str());
+                if (cmd) out << ",\"identity\":" << quoted(cmd->getSpecialPowerTemplate() ? "power:" + std::string(cmd->getSpecialPowerTemplate()->getName().str()) : cmd->getName().str());
+                if (entry) out << ",\"progress\":" << entry->getPercentComplete() / 100.f;
+                if (cmd && TheGameText) {
+                    out << ",\"description\":" << quoted(science != SCIENCE_INVALID ? utf8(scienceDescription) :
+                        cmd->getDescriptionLabel().isEmpty() ? "" : utf8(TheGameText->fetch(cmd->getDescriptionLabel())));
+                    Player *local = ThePlayerList ? ThePlayerList->getLocalPlayer() : nullptr;
+                    if (science != SCIENCE_INVALID) out << ",\"science\":true,\"scienceCost\":" << TheScienceStore->getSciencePurchaseCost(science)
+                        << ",\"learned\":" << (local && local->hasScience(science) ? "true" : "false");
+                    const ThingTemplate *thing = cmd->getThingTemplate();
+                    if (thing && local) out << ",\"cost\":" << thing->calcCostToBuild(local);
+                    else if (cmd->getUpgradeTemplate() && local) out << ",\"cost\":" << cmd->getUpgradeTemplate()->calcCostToBuild(local);
+                    const auto *power = cmd->getSpecialPowerTemplate();
+                    auto *selected = TheInGameUI ? TheInGameUI->getFirstSelectedDrawable() : nullptr;
+                    auto *object = selected ? selected->getObject() : nullptr;
+                    if (power && local && (cmd->getCommandType() == GUI_COMMAND_SPECIAL_POWER_FROM_SHORTCUT ||
+                        cmd->getCommandType() == GUI_COMMAND_SPECIAL_POWER_CONSTRUCT_FROM_SHORTCUT))
+                        object = local->findMostReadyShortcutSpecialPowerOfType(power->getSpecialPowerType());
+                    auto *module = power && object ? object->getSpecialPowerModule(power) : nullptr;
+                    if (module) out << ",\"recharge\":" << module->getPercentReady();
+                    out << ",\"confirm\":" << (cmd->getCommandType() == GUI_COMMAND_SELL ? "true" : "false");
+                }
+                out << '}';
+            }
+        }
+        if (!(style & GWS_COMBO_BOX)) widgets(w->winGetChild(), out, first, depth + 1);
+    }
+}
+void publish() {
+    std::ostringstream out;
+    bool battle = battlefield();
+    out << "{\"ready\":true,\"battle\":" << (battle ? "true" : "false")
+        << ",\"iconGeneration\":" << iconGeneration
+        << ",\"aimX\":" << aimX << ",\"aimY\":" << aimY
+        << ",\"width\":" << (TheDisplay ? TheDisplay->getWidth() : 1280)
+        << ",\"height\":" << (TheDisplay ? TheDisplay->getHeight() : 720)
+        << ",\"selected\":" << (TheInGameUI ? TheInGameUI->getSelectCount() : 0);
+    Player *p = ThePlayerList ? ThePlayerList->getLocalPlayer() : nullptr;
+    if (p) out << ",\"money\":" << p->getMoney()->countMoney() << ",\"power\":"
+        << p->getEnergy()->getProduction() - p->getEnergy()->getConsumption() << ",\"rank\":" << p->getRankLevel()
+        << ",\"sciencePoints\":" << p->getSciencePurchasePoints()
+        << ",\"faction\":" << quoted(p->getSide().str())
+        << ",\"factionName\":" << quoted(p->getPlayerTemplate() ? utf8(p->getPlayerTemplate()->getDisplayName()) : p->getSide().str())
+        << ",\"factionIcon\":" << quoted(imageKey(p->getPlayerTemplate() ? p->getPlayerTemplate()->getSideIconImage() : nullptr))
+        << ",\"powerProduced\":" << p->getEnergy()->getProduction()
+        << ",\"powerConsumed\":" << p->getEnergy()->getConsumption();
+    auto *d = TheInGameUI ? TheInGameUI->getFirstSelectedDrawable() : nullptr;
+    if (d && d->getObject()) {
+        out << ",\"selection\":" << quoted(utf8(d->getObject()->getTemplate()->getDisplayName()));
+        const auto *thing = d->getObject()->getTemplate();
+        out << ",\"portrait\":" << quoted(imageKey(thing->getSelectedPortraitImage() ? thing->getSelectedPortraitImage() : thing->getButtonImage()));
+        auto *body = d->getObject()->getBodyModule();
+        if (body) out << ",\"health\":" << body->getHealth() << ",\"maxHealth\":" << body->getMaxHealth();
+    }
+    out << ",\"groups\":[";
+    for (int index = 0; index < 10; ++index) {
+        if (index) out << ',';
+        auto *group = p ? p->getHotkeySquad(index) : nullptr;
+        out << (group ? group->getLiveObjects().size() : 0);
+    }
+    out << ']';
+    auto *deckRadar = dynamic_cast<W3DRadar *>(TheRadar);
+    std::vector<float> corners;
+    if (inMatch() && deckRadar && deckRadar->copyDeckViewBox(corners)) {
+        out << ",\"radarView\":[";
+        for (size_t i = 0; i < corners.size(); ++i) { if (i) out << ','; out << corners[i]; }
+        out << ']';
+    }
+    ICoord2D boxStart;
+    if (boxHeld && TheTacticalView && TheTacticalView->worldToScreen(&boxAnchor, &boxStart))
+        out << ",\"boxX\":" << boxStart.x << ",\"boxY\":" << boxStart.y;
+    out << ",\"targeting\":" << (TouchInput::hasArmedCommand() ? "true" : "false")
+        << ",\"placing\":" << (TheInGameUI && TheInGameUI->getPendingPlaceType() ? "true" : "false");
+    if (TheTacticalView) {
+        Coord2D position = TheTacticalView->getPosition2D();
+        out << ",\"cameraX\":" << position.x << ",\"cameraY\":" << position.y
+            << ",\"cameraAngle\":" << TheTacticalView->getAngle() << ",\"cameraHeight\":" << TheTacticalView->getHeightAboveGround();
+    }
+    out << ",\"widgets\":[";
+    bool first = true;
+    if (TheWindowManager) {
+        auto *modal = TheWindowManager->winGetModalWindow();
+        // GeneralsX @bugfix Codex 14/10/2026 The original quit/options layouts are not on the modal stack.
+        if (!modal && inMatch() && TheInGameUI && TheInGameUI->isQuitMenuVisible()) {
+            modal = menuRoot("PopupSaveLoad.wnd:ButtonBack");
+            if (!modal) modal = menuRoot("OptionsMenu.wnd:ButtonBack");
+            if (!modal) modal = menuRoot("QuitMenu.wnd:ButtonReturn");
+        }
+        widgets(modal ? modal : TheWindowManager->winGetWindowList(), out, first, 0, modal == nullptr);
+    }
+    out << "]}";
+    std::vector<unsigned int> nextRadar;
+    auto *radar = dynamic_cast<W3DRadar *>(TheRadar);
+    const Uint64 now = SDL_GetTicks();
+    const bool updateRadar = now - lastRadar >= 100 || !inMatch() || !rts::localPlayerHasRadar();
+    if (updateRadar) {
+        if (inMatch() && radar) radar->copyDeckRadar(nextRadar);
+        lastRadar = now;
+    }
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    published = out.str();
+    if (updateRadar) radarPixels.swap(nextRadar);
+}
+}
+
+extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeAxes(JNIEnv *, jclass, jfloat lx, jfloat ly, jfloat rx, jfloat ry, jboolean precise, jboolean queue) {
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    stick[0] = lx; stick[1] = ly; stick[2] = rx; stick[3] = ry;
+    precision = precise; waypoint = queue; enabled = true;
+    suspended = false;
+}
+extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeIntent(JNIEnv *, jclass, jint type, jint value, jfloat x, jfloat y) {
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    enabled = true;
+    if (type == 96) { enabled = false; std::fill(stick, stick + 4, 0); return; }
+    if (type == 99) { pending.clear(); pending.push_back({97, 0, 0, 0}); std::fill(stick, stick + 4, 0); pendingText.clear(); textReady = false; suspended = true; return; }
+    suspended = false;
+    if (pending.size() < 128) pending.push_back({type, value, x, y});
+}
+// GeneralsX @bugfix Codex 14/10/2026 A stale snapshot cannot activate a different command in a reused slot.
+extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeActivate(JNIEnv *env, jclass, jint id, jstring action) {
+    const char *chars = action ? env->GetStringUTFChars(action, nullptr) : nullptr;
+    std::string expected = chars ? chars : "";
+    if (chars) env->ReleaseStringUTFChars(action, chars);
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    enabled = true;
+    suspended = false;
+    if (pending.size() < 128) pending.push_back({6, id, -1, -1, expected});
+}
+extern "C" JNIEXPORT jstring JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeSnapshot(JNIEnv *env, jclass) {
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    return env->NewStringUTF(published.c_str());
+}
+extern "C" JNIEXPORT jintArray JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeRadar(JNIEnv *env, jclass) {
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    if (radarPixels.empty()) return nullptr;
+    jintArray result = env->NewIntArray(static_cast<jsize>(radarPixels.size()));
+    if (result) env->SetIntArrayRegion(result, 0, static_cast<jsize>(radarPixels.size()), reinterpret_cast<const jint *>(radarPixels.data()));
+    return result;
+}
+// GeneralsX @feature Codex 14/10/2026 JNI only copies completed artwork or queues a bounded request.
+extern "C" JNIEXPORT jintArray JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeIcon(JNIEnv *env, jclass, jstring name) {
+    if (!name) return nullptr;
+    const char *chars = env->GetStringUTFChars(name, nullptr);
+    if (!chars) return nullptr;
+    std::string key(chars); env->ReleaseStringUTFChars(name, chars);
+    if (key.empty() || key.size() > 256) return nullptr;
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    auto found = iconCopies.find(key);
+    if (found == iconCopies.end()) {
+        if (iconRequests.size() < 128 && requestedIcons.insert(key).second) iconRequests.push_back(key);
+        return nullptr;
+    }
+    found->second.used = SDL_GetTicks();
+    jintArray result = env->NewIntArray(static_cast<jsize>(found->second.pixels.size()));
+    if (result && !found->second.pixels.empty()) env->SetIntArrayRegion(result, 0, static_cast<jsize>(found->second.pixels.size()), reinterpret_cast<const jint *>(found->second.pixels.data()));
+    return result;
+}
+extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeText(JNIEnv *env, jclass, jstring value) {
+    if (!value) return;
+    const jchar *chars = env->GetStringChars(value, nullptr);
+    if (!chars) return;
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    pendingText.assign(chars, chars + env->GetStringLength(value)); pendingText.push_back(0); textReady = true;
+    env->ReleaseStringChars(value, chars);
+}
+extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeOptions(JNIEnv *, jclass, jboolean snap, jboolean deck) {
+    std::lock_guard<std::mutex> guard(bridgeMutex); snapSetting = snap; externalDeckSetting = deck;
+}
+namespace ThorInput {
+void reset() {
+    std::lock_guard<std::mutex> guard(bridgeMutex);
+    pending.clear(); std::fill(stick, stick + 4, 0); precision = waypoint = false;
+    aimX = aimY = .5f; lastPump = 0; boxHeld = false; textReady = false; radarPixels.clear(); editorId = 0;
+    smoothPan[0] = smoothPan[1] = 0;
+    iconCopies.clear(); pageCopies.clear(); iconRequests.clear(); requestedIcons.clear(); ++iconGeneration;
+    published = "{\"ready\":false}";
+}
+void pump() {
+    pumpIcons();
+    std::deque<Intent> work; float axes[4]; bool precise, queue, active, snap, externalDeck;
+    std::vector<WideChar> text;
+    { std::lock_guard<std::mutex> guard(bridgeMutex); work.swap(pending); std::copy(stick, stick + 4, axes); precise = precision; queue = waypoint; active = enabled && !suspended; snap = snapSetting; externalDeck = externalDeckSetting; if (textReady) { text.swap(pendingText); textReady = false; } }
+    if (TheControlBar && TheTacticalView && TheDisplay) {
+        const bool expand = externalDeck && inMatch();
+        TheControlBar->presentOnExternalDeck(expand);
+        if (expand) TheControlBar->setFullViewportHeight();
+        else if (viewportExpanded) TheControlBar->setScaledViewportHeight();
+        viewportExpanded = expand;
+    }
+    if (!active) { smoothPan[0] = smoothPan[1] = 0; }
+    for (const auto &i : work) if (i.type == 97) { boxHeld = false; if (TheInGameUI) TheInGameUI->clearTouchAimPoint(); }
+    if (active && !text.empty() && TheWindowManager) {
+        auto *field = editorId ? TheWindowManager->winGetWindowFromId(nullptr, editorId) : TheWindowManager->winGetFocus();
+        if (field && (field->winGetStyle() & GWS_ENTRY_FIELD)) {
+            UnicodeString value; value.set(text.data()); GadgetTextEntrySetText(field, value);
+            TheWindowManager->winSendSystemMsg(field->winGetOwner(), GEM_EDIT_DONE, reinterpret_cast<WindowMsgData>(field), 0);
+        }
+    }
+    Uint64 now = SDL_GetTicks();
+    float dt = lastPump ? std::min(.05f, float(now - lastPump) / 1000.f) : 0.f;
+    lastPump = now;
+    const int width = TheDisplay ? TheDisplay->getWidth() : 1280;
+    const int height = TheDisplay ? TheDisplay->getHeight() : 720;
+    if (active && battlefield() && TheTacticalView && TheInGameUI) {
+        if (precise) { aimX = std::clamp(aimX + axes[2] * dt * .35f, .05f, .95f); aimY = std::clamp(aimY + axes[3] * dt * .35f, .05f, externalDeck ? .95f : .72f); }
+        else {
+            aimX = .5f; aimY = externalDeck ? .5f : .4f;
+            TheTacticalView->userZoom(-axes[3] * dt * 250.f);
+            TheTacticalView->userSetAngle(TheTacticalView->getAngle() + axes[2] * dt * 1.25f);
+        }
+        // GeneralsX @bugfix Codex 14/10/2026 scrollBy already converts screen axes to world space.
+        // Use the original keyboard scroll scale once, with a short analog response ramp.
+        const float blend = 1.f - std::exp(-dt / .055f);
+        for (int index = 0; index < 2; ++index) {
+            smoothPan[index] += (axes[index] - smoothPan[index]) * blend;
+            if (axes[index] == 0 && std::abs(smoothPan[index]) < .015f) smoothPan[index] = 0;
+        }
+        const float speed = 200.f * 30.f * dt * (TheGlobalData ? TheGlobalData->m_keyboardScrollFactor : .5f);
+        Coord2D delta{smoothPan[0] * speed, smoothPan[1] * speed};
+        TheTacticalView->userScrollBy(&delta);
+        if (snap && !precise && !boxHeld && !TouchInput::hasArmedCommand() && !TheInGameUI->getPendingPlaceType() && TheGameClient) {
+            int targetX = int(aimX * width), targetY = int(aimY * height);
+            int best = int(width * .022f) * int(width * .022f);
+            Drawable *hover = nullptr;
+            for (auto *d = TheGameClient->getDrawableList(); d; d = d->getNextDrawable()) {
+                auto *o = d->getObject(); ICoord2D point;
+                if (!o || !CanSelectDrawable(d, FALSE) || !TheTacticalView->worldToScreen(d->getPosition(), &point)) continue;
+                int dx = point.x - targetX, dy = point.y - targetY, distance = dx * dx + dy * dy;
+                if (distance < best) { best = distance; hover = d; aimX = float(point.x) / width; aimY = float(point.y) / height; }
+            }
+            if (hover) TheInGameUI->setTouchHoverDrawable(hover->getID());
+        }
+        if (TouchInput::hasArmedCommand()) { TouchInput::beginAiming(int(aimX * width), int(aimY * height)); TheInGameUI->setTouchAimPoint(int(aimX * width), int(aimY * height), TouchInput::armedTargetValid(int(aimX * width), int(aimY * height))); }
+        else if (TheInGameUI->getPendingPlaceType()) TheInGameUI->setTouchAimPoint(int(aimX * width), int(aimY * height), TRUE);
+    }
+    if (active) for (const auto &i : work) {
+        if (i.type == 97) { boxHeld = false; if (TheInGameUI) TheInGameUI->clearTouchAimPoint(); continue; }
+        const int x = int((i.x < 0 ? aimX : i.x) * width), y = int((i.y < 0 ? aimY : i.y) * height);
+        if (i.type == 6) { activate(i.value, i.action); continue; }
+        if (i.type == 11) {
+            if (TheDisplay && TheDisplay->isMoviePlaying()) TouchInput::tap(0, 0);
+            else if (inMatch()) message(GameMessage::MSG_META_OPTIONS);
+            continue;
+        }
+        if (i.type == 12) {
+            auto *field = TheWindowManager ? (editorId ? TheWindowManager->winGetWindowFromId(nullptr, editorId) : TheWindowManager->winGetFocus()) : nullptr;
+            if (field && (field->winGetStyle() & GWS_COMBO_BOX)) {
+                if (i.value == SDL_SCANCODE_RETURN) GadgetComboBoxHideList(field);
+                else {
+                    Int pos = 0; GadgetComboBoxGetSelectedPos(field, &pos);
+                    const Int length = GadgetComboBoxGetLength(field);
+                    if (length > 0) GadgetComboBoxSetSelectedPos(field, std::clamp(pos + (i.value == SDL_SCANCODE_UP || i.value == SDL_SCANCODE_LEFT ? -1 : 1), 0, length - 1));
+                }
+            } else key(static_cast<SDL_Scancode>(i.value));
+            if (i.value == SDL_SCANCODE_RETURN) editorId = 0;
+            continue;
+        }
+        if (!battlefield() || !TheInGameUI) continue;
+        TheInGameUI->setWaypointMode(queue);
+        switch (i.type) {
+        case 0:
+            if (TouchInput::hasArmedCommand() || TheInGameUI->getPendingPlaceType()) click(x, y);
+            else if (i.value == 2) TouchInput::doubleTap(x, y); else TouchInput::tap(x, y);
+            break;
+        case 1: TouchInput::cancelOrDeselect(); break;
+        case 2: {
+            ICoord2D point{x, y}; Coord3D world;
+            if (TouchInput::hasControllableSelection() && TheTacticalView->screenToTerrain(&point, &world)) {
+                TheInGameUI->clearAttackMoveToMode(); TheInGameUI->toggleAttackMoveToMode();
+                TheGameClient->evaluateContextCommand(nullptr, &world, CommandTranslator::DO_COMMAND);
+                TheInGameUI->clearAttackMoveToMode();
+            }
+            break;
+        }
+        case 3: message(GameMessage::MSG_DO_STOP); break;
+        case 4: center(); break;
+        case 5: cycle(i.value); break;
+        case 7: if (i.value >= 0 && i.value < 10) message(static_cast<GameMessage::Type>(GameMessage::MSG_META_SELECT_TEAM0 + i.value)); break;
+        case 8: if (i.value >= 0 && i.value < 10) message(static_cast<GameMessage::Type>(GameMessage::MSG_META_CREATE_TEAM0 + i.value)); break;
+        case 9: {
+            // GeneralsX @bugfix Codex 14/10/2026 Merge selection into the saved group through the original command.
+            if (i.value < 0 || i.value >= 10 || !ThePlayerList) break;
+            auto *player = ThePlayerList->getLocalPlayer();
+            auto *squad = player ? player->getHotkeySquad(i.value) : nullptr;
+            auto *m = TheMessageStream->appendMessage(static_cast<GameMessage::Type>(GameMessage::MSG_CREATE_TEAM0 + i.value));
+            std::vector<ObjectID> ids;
+            if (squad) for (auto *o : squad->getLiveObjects()) if (o->isLocallyControlled()) ids.push_back(o->getID());
+            for (auto *d = TheGameClient->getDrawableList(); d; d = d->getNextDrawable())
+                if (d->isSelected() && d->getObject() && d->getObject()->isLocallyControlled()) ids.push_back(d->getObject()->getID());
+            std::sort(ids.begin(), ids.end()); ids.erase(std::unique(ids.begin(), ids.end()), ids.end());
+            for (auto id : ids) m->appendObjectIDArgument(id);
+            break;
+        }
+        case 10: if (i.value >= 0 && i.value < 10) message(static_cast<GameMessage::Type>(GameMessage::MSG_META_VIEW_TEAM0 + i.value)); break;
+        case 13: {
+            ICoord2D pixel{x, y}; boxHeld = TheTacticalView && TheTacticalView->screenToTerrain(&pixel, &boxAnchor);
+            if (TheInGameUI->getPendingPlaceType()) TheInGameUI->setPlacementStart(&pixel);
+            boxDown = now; break;
+        }
+        case 14: {
+            if (!boxHeld) break;
+            boxHeld = false;
+            ICoord2D start;
+            if (now - boxDown >= 250 && !TouchInput::hasArmedCommand() && !TheInGameUI->getPendingPlaceType() && !TheTacticalView->worldToScreen(&boxAnchor, &start)) break;
+            if (TouchInput::hasArmedCommand() || TheInGameUI->getPendingPlaceType() || now - boxDown < 250 || !TheTacticalView->worldToScreen(&boxAnchor, &start) || (std::abs(start.x - x) + std::abs(start.y - y) < 6)) {
+                if (TheInGameUI->getPendingPlaceType()) {
+                    ICoord2D point{x, y};
+                    if (!TheInGameUI->isPlacementAnchored()) TheInGameUI->setPlacementStart(&point);
+                    TheInGameUI->setPlacementEnd(&point); click(x, y);
+                } else if (TouchInput::hasArmedCommand()) click(x, y);
+                else if (queue) {
+                    ICoord2D point{x, y}; auto *d = TheTacticalView->pickDrawable(&point, FALSE, PICK_TYPE_SELECTABLE);
+                    auto *o = d ? d->getObject() : nullptr;
+                    if (o && o->isLocallyControlled() && CanSelectDrawable(d, FALSE)) {
+                        TheInGameUI->selectDrawable(d);
+                        auto *m = TheMessageStream->appendMessage(GameMessage::MSG_CREATE_SELECTED_GROUP);
+                        m->appendBooleanArgument(FALSE); m->appendObjectIDArgument(o->getID());
+                    } else TouchInput::tap(x, y);
+                } else if (i.value == 2) TouchInput::doubleTap(x, y); else TouchInput::tap(x, y);
+                break;
+            }
+            if (!queue) TheInGameUI->deselectAllDrawables(false);
+            auto *m = TheMessageStream->appendMessage(GameMessage::MSG_CREATE_SELECTED_GROUP);
+            m->appendBooleanArgument(queue ? FALSE : TRUE);
+            for (auto *d = TheGameClient->getDrawableList(); d; d = d->getNextDrawable()) {
+                auto *o = d->getObject(); ICoord2D point;
+                if (!o || !o->isLocallyControlled() || !CanSelectDrawable(d, FALSE) || !d->isMassSelectable() || !TheTacticalView->worldToScreen(d->getPosition(), &point)) continue;
+                if (point.x >= std::min(x, start.x) && point.x <= std::max(x, start.x) && point.y >= std::min(y, start.y) && point.y <= std::max(y, start.y)) {
+                    TheInGameUI->selectDrawable(d); m->appendObjectIDArgument(o->getID());
+                }
+            }
+            break;
+        }
+        case 15: {
+            if (!TheRadar || !rts::localPlayerHasRadar()) break;
+            ICoord2D point{int(std::clamp(i.x, 0.f, .999f) * RADAR_CELL_WIDTH), int(std::clamp(i.y, 0.f, .999f) * RADAR_CELL_HEIGHT)};
+            Coord3D world;
+            if (!TheRadar->radarToWorld(&point, &world)) break;
+            if (i.value == 0) TheTacticalView->userLookAt(&world);
+            else if (TouchInput::hasControllableSelection()) TheGameClient->evaluateContextCommand(nullptr, &world, CommandTranslator::DO_COMMAND);
+            break;
+        }
+        }
+        TheInGameUI->setWaypointMode(FALSE);
+    }
+    if (now - lastSnapshot >= 33) { publish(); lastSnapshot = now; }
+}
+}
+#else
+namespace ThorInput { void pump() {} void reset() {} }
+#endif

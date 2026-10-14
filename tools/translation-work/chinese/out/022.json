@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen09Subtitle",
+  "text": "*我们从美国人那里‘借’来的新毒剂对他们自己的部队会格外有效"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen10Subtitle",
+  "text": "*先是地中海舰队，然后是进攻美国本土……现在，我们称霸欧洲的时刻开始了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen11Subtitle",
+  "text": "*我们正遭到东边的攻击。立即终结这些攻击，我们必须消灭他们，才能集中力量对付北边的主基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen12Subtitle",
+  "text": "*就快到了……美国人将为他们对我们人民犯下的罪行付出惨重代价"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen13Subtitle",
+  "text": "*我们的资金快不够了。侦察该区域寻找资源，我们绝不能停下脚步"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen14Subtitle",
+  "text": "*这一区域已被控制，现在我们必须壮大实力，对美军欧洲中央司令部基地发动进攻"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen15Subtitle",
+  "text": "*美国人严重依赖空中单位。多建毒刺导弹阵地和四管机炮"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen16Subtitle",
+  "text": "*他们在攻击我们的防御，我们必须伪装毒刺导弹阵地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen17Subtitle",
+  "text": "*我的将军，我们需要建造飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen18Subtitle",
+  "text": "*美国将军在用粒子加农炮对付我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen19Subtitle",
+  "text": "*我们必须换个战术。用偷袭把单位送进基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen20Subtitle",
+  "text": "*占领美军基地并扩建它。我们可以用他们的武器对付他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen21Subtitle",
+  "text": "*你必须摧毁粒子加农炮！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen22Subtitle",
+  "text": "*他们现在从地面进攻。保卫我们的基地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen23Subtitle",
+  "text": "*尽快重建基地……我们必须为更多攻击做好准备！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen24Subtitle",
+  "text": "*干得好，将军。多亏你高超的战术，我们现在控制了全部三种超级武器。美国人永远不会知道是什么击中了他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen25Subtitle",
+  "text": "*解决美国人，将军。他们撑不了多久了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen26Subtitle",
+  "text": "*将军，我们可以攻击他们的化学碉堡，在他们自己的基地里制造混乱"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen27Subtitle",
+  "text": "*他们的粒子加农炮已经完了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen28Subtitle",
+  "text": "*美国人又建了一门粒子加农炮。绝不能让他们用它对付我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen29Subtitle",
+  "text": "*我们必须立即消灭敌人南方的支援基地！拖得越久，他们的攻击就越强"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen30Subtitle",
+  "text": "*报告显示，关押在美军基地的战俘即将被转移。我们必须尽快救出他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen31Subtitle",
+  "text": "*你需要彻底清除美军基地区域才能解救战俘"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen32Subtitle",
+  "text": "*快，必须立即解救战俘！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen33Subtitle",
+  "text": "*我们需要在中国指挥中心升级雷达，让雷达上线"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen34Subtitle",
+  "text": "*你必须建造一座 GLA 指挥中心"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen35Subtitle",
+  "text": "*南边的小基地已被消灭，我们可以集中力量对付美军欧洲中央司令部基地了"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen36Subtitle",
+  "text": "*美军中央司令部基地非常庞大，我们必须找到办法攻进去！也许偷袭会奏效"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen37Subtitle",
+  "text": "*我们需要把战俘送回他们的村庄，让他们重新唤醒恐怖小组"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen38Subtitle",
+  "text": "*我们的兄弟遭到攻击！我们必须帮助他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen39Subtitle",
+  "text": "*把战俘送回他们的村庄，沿河向北走就能到达"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen40Subtitle",
+  "text": "*战俘安全了！我们必须帮助他们返回村庄，这样他们就能在对抗美国的战斗中协助我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen41Subtitle",
+  "text": "*夺取这些坦克，我们会把它们据为己有！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen42Subtitle",
+  "text": "*控制补给，我们就能占据对美军发动进攻的绝佳位置！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen43Subtitle",
+  "text": "*士兵们安全了，他们的家人欣喜万分！他们会与我们并肩作战，我们还得到了更多补给"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen44Subtitle",
+  "text": "*我们辜负了兄弟们，但他们仍会与我们并肩作战"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen45Subtitle",
+  "text": "*我们的兄弟将站在我们这边，为死去的战俘报仇！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen46Subtitle",
+  "text": "*美国人转移了战俘，但我们的兄弟仍会与我们一起对抗敌人！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen47Subtitle",
+  "text": "*欧洲很快就是我们的了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW01Subtitle",
+  "text": "*把我们从看守手中解救出来。保护我们免受美军的一切攻击，我们就会协助你！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW02Subtitle",
+  "text": "*只要你准备好，我们随时可以回家"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW03Subtitle",
+  "text": "*快，没时间了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW04Subtitle",
+  "text": "*我们的时间不多了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW05Subtitle",
+  "text": "*请救救我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW06Subtitle",
+  "text": "*我们需要你的帮助！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter01Subtitle",
+  "text": "*前面有座桥。看起来防守严密"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter02Subtitle",
+  "text": "*我们快到一座桥了。没有美国人"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter07Subtitle",
+  "text": "*去死吧，美国佬！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Cin01Subtitle",
+  "text": "*去死吧，美国佬！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General05Subtitle",
+  "text": "*我们被美国侦察兵发现了。准备战斗"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General20Subtitle",
+  "text": "*你必须把他们击退，才能控制碉堡"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA07Convoy13Subtitle",
+  "text": "*我们找到了一些补给，也许有用"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Buggy101Subtitle",
+  "text": "*为了荣耀！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar10Subtitle",
+  "text": "*我们必须用尽全力打击他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar39Subtitle",
+  "text": "*我们的部队已准备好发动进攻"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander03Subtitle",
+  "text": "*快速目标来袭"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander09Subtitle",
+  "text": "*E 连，轰炸机来袭，你们太近了，后撤！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo108Subtitle",
+  "text": "*更多目标，距离 300"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo201Subtitle",
+  "text": "*我中弹了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Eva02Subtitle",
+  "text": "*将军，占领敌方油井，为战争争取更多补给"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Raptor201Subtitle",
+  "text": "*照亮他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf01Subtitle",
+  "text": "*欢迎回来，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf02Subtitle",
+  "text": "*GLA 今天凌晨从拜科努尔设施发射了导弹。情报显示他们正在准备第二次发射"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf03Subtitle",
+  "text": "*这枚导弹一旦使用，将严重削弱我们在欧洲的立足点。消除这一威胁至关重要"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf04Subtitle",
+  "text": "*我们的消息来源表明，下一枚导弹正由火车运往发射设施。这条铁轨是进入设施的唯一通道"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf05Subtitle",
+  "text": "*如果能及时截住那列火车，我们就能以它为掩护渗透进基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf06Subtitle",
+  "text": "*完成任务的第一步是夺取并守住这座火车站"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf07Subtitle",
+  "text": "*祝你好运，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xC+A39hat11Subtitle",
+  "text": "*东边还有更多 GLA 建筑！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat01Subtitle",
+  "text": "*九点钟方向有蝎子坦克！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat02Subtitle",
+  "text": "*全体上车！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat03Subtitle",
+  "text": "*大家都拿到车票了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat04Subtitle",
+  "text": "*亲爱的，我回来啦！哈哈哈"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat05Subtitle",
+  "text": "*让步兵进入这些载具！我们可以用它们来打败 GLA！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat06Subtitle",
+  "text": "*谁去进驻那座广播电台！我们现在就需要空中支援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat07Subtitle",
+  "text": "*瞄准那些油桶！它们会爆炸！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat08Subtitle",
+  "text": "*好了伙计们。装——车——喽，出——发——喽！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat09Subtitle",
+  "text": "*毒刺导弹阵地被摧毁了！重复，毒刺已摧毁！所有单位向 GLA 建筑集结！把这里掀个底朝天！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat10Subtitle",
+  "text": "*西边还有更多 GLA 建筑！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat12Subtitle",
+  "text": "*收到，总部！已锁定目标"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat13Subtitle",
+  "text": "*投放弹药"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat14Subtitle",
+  "text": "*我爱清晨 MOAB 的清新气味"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin01Subtitle",
+  "text": "*所有单位撤离发射区。发射倒计时"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin02Subtitle",
+  "text": "*5"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin03Subtitle",
+  "text": "*4"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin04Subtitle",
+  "text": "*3"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin05Subtitle",
+  "text": "*2"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin06Subtitle",
+  "text": "*1"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin07Subtitle",
+  "text": "*0"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin08Subtitle",
+  "text": "*已经发射"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin09Subtitle",
+  "text": "*发射成功"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin10Subtitle",
+  "text": "*肮脏的美国佬。我们会把你们在这里的一切烧成灰烬"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin11Subtitle",
+  "text": "*愚蠢的美国牛仔！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva01Subtitle",
+  "text": "*干得好，将军。火车站已被控制"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva02Subtitle",
+  "text": "*现在我们需要组建一支足以摧毁 GLA 基地的攻击部队"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva03Subtitle",
+  "text": "*把你最好的单位装上火车"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva04Subtitle",
+  "text": "*火车装满后就会出发"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva05Subtitle",
+  "text": "*干得好，将军，火车已经装满"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva06Subtitle",
+  "text": "*让那辆龙坦克上去清除那些建筑"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva07Subtitle",
+  "text": "*多生产些单位。我们可不想让突袭失败"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva08Subtitle",
+  "text": "*将军！让你的人离开那个坑！MOAB 正在路上，会把这里炸成碎片"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva09Subtitle",
+  "text": "*我们需要彻底摧毁这座基地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva10Subtitle",
+  "text": "*MOAB 随时都会到！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva11Subtitle",
+  "text": "*阿尔法编队！区域已清空。可以继续"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva12Subtitle",
+  "text": "*干得好，将军。看来 GLA 的威胁终于解除了。是时候把这一切抛在脑后，去寻找那些大规模杀伤性武器了"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche101Subtitle",
+  "text": "*谢谢你把我救出来，长官！我这边有点悬了"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche204Subtitle",
+  "text": "*他们蜂拥而上，长官！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf01Subtitle",
+  "text": "*码头已经清理完毕，将军。我们的第一项任务是在补给卡车进场时守住码头。在推土机到达之前，我们只能用陆续抵达的部队守住这个阵地"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf02Subtitle",
+  "text": "*我们的大部分舰队在 GLA 拜科努尔袭击中幸存了下来。我们的航空母舰和战列舰护航群听候你的调遣，协助这次行动"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat01Subtitle",
+  "text": "*空袭已发动"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat02Subtitle",
+  "text": "*战列舰开始炮击"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat03Subtitle",
+  "text": "*码头已全部清空。没有发现 GLA"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat04Subtitle",
+  "text": "*收到"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat05Subtitle",
+  "text": "*开始攻击"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat06Subtitle",
+  "text": "*发动空袭"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat07Subtitle",
+  "text": "*火力全开"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat08Subtitle",
+  "text": "*我们会让他们见识一下红色的火光"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin01Subtitle",
+  "text": "*航母指挥部呼叫舰队。继续开火，伙计们。GLA 正在调来增援"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin02Subtitle",
+  "text": "*收到，航母指挥部。保持对码头的压制火力"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin03Subtitle",
+  "text": "*注意射击目标。我们只是要清理，不是要摧毁"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva01Subtitle",
+  "text": "*干得好，长官！我们的下一个目标是保护补给卡车安全穿过城市。卡车必须到达城市的补给仓库。我们还必须保持对码头的控制。祝你好运，长官"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva02Subtitle",
+  "text": "*补给卡车开始移动了，将军。我们必须在它们前往卸货点的途中提供保护"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva03Subtitle",
+  "text": "*我给你送来了一些新型哨兵无人机原型。只要保持静止，敌人就探测不到它们。这些无人机还能发现隐形单位和 GLA 爆破陷阱。它们应该会非常有用"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva04Subtitle",
+  "text": "*我们的推土机到了，长官！开始建设你的基地吧。GLA 正准备对我们发动新一轮攻击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva05Subtitle",
+  "text": "*干得漂亮，长官！城里的人们对救援物资表达了感激。我们的最终目标是把 GLA 赶出这一地区。摧毁他们俯瞰城市的主基地，这一地区就安全了"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva06Subtitle",
+  "text": "*增援即将到达，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva07Subtitle",
+  "text": "*将军，我们的哨兵无人机可以帮助发现 GLA 爆破陷阱"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva08Subtitle",
+  "text": "*长官，仓库附近还有 GLA。我们需要立即把他们清除出去"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva09Subtitle",
+  "text": "*补给卡车遭到攻击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva10Subtitle",
+  "text": "*干得好，所有卡车都安全到达码头了，现在把它们送进城"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva11Subtitle",
+  "text": "*尽量减少平民伤亡"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva12Subtitle",
+  "text": "*你发现了一个 GLA 训练营，长官。情报认为，该营地的成员对拜科努尔发射负有部分责任。我们奉命摧毁它"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva13Subtitle",
+  "text": "*控制仓库，让补给卡车可以安全前进"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva14Subtitle",
+  "text": "*仓库一旦安全，补给卡车就会前进"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva15Subtitle",
+  "text": "*推土机已到达，将军。你可以自行决定何时消灭 GLA"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva16Subtitle",
+  "text": "*在 GLA 偷走或摧毁食物之前把它送进城"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva17Subtitle",
+  "text": "*将军，我们做到了。这座城市摆脱了 GLA 的暴政。看来他们留下的一些情报能直接带我们找到那些隐藏的大规模杀伤性武器"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva18Subtitle",
+  "text": "*这次行动可获得全部海军支援"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva19Subtitle",
+  "text": "*可自行决定使用战列舰和航空母舰"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva20Subtitle",
+  "text": "*战列舰已进入射程，等待目标，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva21Subtitle",
+  "text": "*代达罗斯号航母已待命，飞机随时可以出动"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva22Subtitle",
+  "text": "*必须控制仓库，但也不能危及码头的安全"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva23Subtitle",
+  "text": "*我们在这一地区的兵力有限。增援一旦到位就会派给你"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva24Subtitle",
+  "text": "*在不危及码头安全的前提下控制仓库"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva25Subtitle",
+  "text": "*车队已为仓库补充了物资"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva26Subtitle",
+  "text": "*下一个目标是 GLA 基地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply01Subtitle",
+  "text": "*仓库一安全，我们就出发"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply02Subtitle",
+  "text": "*谢谢你的掩护火力，将军！所有卡车都已装好，准备出发。只要帮我们把城里清理干净就行，长官！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply03Subtitle",
+  "text": "*街道上布满了爆破陷阱，长官！我们需要把它们清除掉！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply04Subtitle",
+  "text": "*我们到达仓库了，将军。谢谢你的护送！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply05Subtitle",
+  "text": "*车队已安全抵达，长官。谢谢你的掩护"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager01Subtitle",
+  "text": "*哦，谢谢你"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager02Subtitle",
+  "text": "*愿神保佑你"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager03Subtitle",
+  "text": "*我已经好久没吃东西了"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager04Subtitle",
+  "text": "*还会有更多吗？"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Comanche102Subtitle",
+  "text": "*四管机炮在把我们一架架打下来，长官"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader105Subtitle",
+  "text": "*我们需要更多支援！他们在把我们撕碎！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader108Subtitle",
+  "text": "*谁来把那些火箭车从我们身边赶走！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader304Subtitle",
+  "text": "*确认发现敌人！他们正快速逼近！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader307Subtitle",
+  "text": "*所有单位！保持火力！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf01Subtitle",
+  "text": "*将军，伯顿上校和黑莲花已就位，听候你的命令"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf02Subtitle",
+  "text": "*他们的主要目标是这座秘密实验室。它的位置是由你上次任务中缴获的文件透露的"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf03Subtitle",
+  "text": "*GLA 正在研制一种新的大规模杀伤性武器。黑莲花必须下载这些数据，让我们知道他们的研究进展到了什么程度"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf04Subtitle",
+  "text": "*她一完成下载，伯顿上校就必须让山体崩塌，把实验室永远埋葬"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton01Subtitle",
+  "text": "*我们到桥边了。莲花，你对付那辆蝎子坦克，其他守卫交给我"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton02Subtitle",
+  "text": "*这可不在计划之内，莲花"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton03Subtitle",
+  "text": "*你会等我？好吧，莲花，那就比比谁快"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton04Subtitle",
+  "text": "*我在路上了"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton05Subtitle",
+  "text": "*好，我看到战俘营了……看来他们有一个从河底穿过的地道网"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton06Subtitle",
+  "text": "*干得好，莲花……地道在这下面……我只要解决几个守卫，就能把大家都救出来"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton07Subtitle",
+  "text": "*如果山区防御的情报没错，那些载具会派上大用场。将军，我们也应该把它们救出来"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton08Subtitle",
+  "text": "*将军，我已在第二座战俘营附近就位……前面有地道网和守卫。如果我从营地南端的悬崖爬下去，就能溜过他们进入营区"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton09Subtitle",
+  "text": "*别得意，莲花，你还没赢呢"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton10Subtitle",
+  "text": "*最后一个解决了……第二座战俘营已控制……谁去告诉莲花快点……我可不想在实验室干等"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton11Subtitle",
+  "text": "*真是个新玩具。将军，如果你把它对准守卫山区的那些地道网和毒刺导弹阵地，我就能直接溜过去"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton12Subtitle",
+  "text": "*看起来是一整座 GLA 基地。情报可从来没提过这里有这东西"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton13Subtitle",
+  "text": "*看来他们没料到我会来……这里放点 C4，那里放点 C4，我很快就能把这地方收拾干净……一声令下就行，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton14Subtitle",
+  "text": "*穿过村庄应该是安全的……只要小心监视这一带的雷达车就行。真希望我有几枚闪光震撼弹"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton15Subtitle",
+  "text": "*就是这里！我正移动到实验室上方的位置……别让我等太久，莲花，这上面很冷"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton16Subtitle",
+  "text": "*炸药已安装好……你说什么时候就什么时候，莲花"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton17Subtitle",
+  "text": "*好吧，莲花，你确实够快……这点我承认。我会尽快赶到"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton18Subtitle",
+  "text": "*好了……我到山上了……下载完成后告诉我，莲花，我会把那座实验室埋到永远没人能找到的地方"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat01Subtitle",
+  "text": "*驻守的敌人……尝尝闪光震撼弹"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat02Subtitle",
+  "text": "*他们在那儿……记住，短点射"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat03Subtitle",
+  "text": "*步兵？小菜一碟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat04Subtitle",
+  "text": "*我们遭到射击……这里需要支援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin01Subtitle",
+  "text": "*这里是幽灵，我正飞越目标区域"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin02Subtitle",
+  "text": "*收到，幽灵，任务开始。准备好了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin03Subtitle",
+  "text": "*是的，上校，我们开始吧"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin04Subtitle",
+  "text": "*这里是幽灵，弹舱门已打开……炸弹已投下"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin05Subtitle",
+  "text": "*幽灵呼叫渗透者，你们的着陆区已清空……祝你们好运"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin06Subtitle",
+  "text": "*收到，幽灵，打得漂亮"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin07Subtitle",
+  "text": "*已到达位置……要留下的人都下去"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin08Subtitle",
+  "text": "*谢谢捎我一程，伙计们……回头见"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin09Subtitle",
+  "text": "*你们的小支奴干很高效……但我更喜欢我们赫利克斯的力量……"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr01Subtitle",
+  "text": "*我们自由了！所有人上车！"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr02Subtitle",
+  "text": "*谢谢你，将军。我们听候你的指挥"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva01Subtitle",
+  "text": "*将军，你的第一个目标是摧毁这座桥。摧毁它就能切断河对岸 GLA 的增援"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva02Subtitle",
+  "text": "*将军，发现 GLA 增援正在过桥"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva03Subtitle",
+  "text": "*又一支 GLA 小队进入了该区域，将军。也许我们现在该解决那座桥了？"
+ }
+]

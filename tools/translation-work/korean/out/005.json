@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:TempDescription",
+  "text": "CommandButton.ini에 있는 제 설명을 채워 주세요! 정말 고마워요"
+ },
+ {
+  "label": "CONTROLBAR:CleanupAreaDescription",
+  "text": "목표 지점 주변 지역의 생물 독소와 방사능을 자동으로 제거합니다"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaCommandCenter",
+  "text": "사령부(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPowerPlant",
+  "text": "상온 핵융합로(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaBarracks",
+  "text": "병영(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyCenter",
+  "text": "보급 센터(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWall",
+  "text": "보안 울타리(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWarFactory",
+  "text": "군수 공장(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaGuardianControlCenter",
+  "text": "가디언\n센터"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPatriotBattery",
+  "text": "패트리어트 미사일 시스템(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaParticleCannonUplink",
+  "text": "입자 캐논(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaStrategyCenter",
+  "text": "전략 센터(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyDropZone",
+  "text": "보급품 투하 지점(&Z)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDetentionCamp",
+  "text": "수용소(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankCrusader",
+  "text": "크루세이더(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankPaladin",
+  "text": "팔라딘(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryRanger",
+  "text": "레인저(&G)"
+ },
+ {
+  "label": "CONTROLBAR:Evacuate",
+  "text": "철수(&V)"
+ },
+ {
+  "label": "CONTROLBAR:ExecuteRailedTransport",
+  "text": "수송"
+ },
+ {
+  "label": "CONTROLBAR:TransportExit",
+  "text": "수송 수단에서 내리기"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLACommandCenter",
+  "text": "사령부(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLADemoTrap",
+  "text": "폭파 함정(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABarracks",
+  "text": "병영(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLASupplyStash",
+  "text": "보급 은닉처(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABurningBarricade",
+  "text": "불타는 바리케이드(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAArmsDealer",
+  "text": "무기상(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaCommandCenter",
+  "text": "사령부(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPowerPlant",
+  "text": "원자로(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBarracks",
+  "text": "병영(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSupplyCenter",
+  "text": "보급 센터(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaConcreteWall",
+  "text": "콘크리트 벽(&L)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaWarFactory",
+  "text": "군수 공장(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDozer",
+  "text": "건설 도저(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAWorker",
+  "text": "일꾼(&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaDozer",
+  "text": "건설 도저(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankScorpion",
+  "text": "스콜피온(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankMarauder",
+  "text": "마라우더 전차(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRocketBuggy",
+  "text": "로켓 버기(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRadarVan",
+  "text": "레이더 밴(&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankOverlord",
+  "text": "오버로드(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankGattling",
+  "text": "개틀링 전차(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRebel",
+  "text": "반군(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryRedguard",
+  "text": "레드가드(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleChinook",
+  "text": "치누크(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleSupplyTruck",
+  "text": "보급 트럭(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleSupplyTruck",
+  "text": "보급 트럭(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetRaptor",
+  "text": "랩터(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetAurora",
+  "text": "오로라 폭격기(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetStealthFighter",
+  "text": "스텔스 전투기(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleStarlifter",
+  "text": "스타리프터"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleComanche",
+  "text": "코만치(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryMissileDefender",
+  "text": "미사일 디펜더(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryPathfinder",
+  "text": "패스파인더(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryColonelBurton",
+  "text": "버튼 대령(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryBiohazardTech",
+  "text": "생화학 기술자"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleTomahawk",
+  "text": "토마호크(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleMedic",
+  "text": "구급차(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHumvee",
+  "text": "험비(&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleBattleDrone",
+  "text": "전투 드론(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleScoutDrone",
+  "text": "정찰 드론(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaJetMIG",
+  "text": "MiG(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryBlackLotus",
+  "text": "블랙 로투스(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryTankHunter",
+  "text": "탱크 헌터(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantrySecretPolice",
+  "text": "비밀\n경찰"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryHacker",
+  "text": "해커(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBunker",
+  "text": "벙커(&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPropagandaCenter",
+  "text": "선전 센터(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaAirfield",
+  "text": "비행장(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaAirfield",
+  "text": "비행장(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaGattlingCannon",
+  "text": "개틀링 캐논(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaNuclearMissileLauncher",
+  "text": "핵미사일(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSpeakerTower",
+  "text": "확성기 탑(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleInfernoCannon",
+  "text": "인페르노 캐논(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleNukeLauncher",
+  "text": "핵 캐논(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleTroopCrawler",
+  "text": "병력 수송차(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankSeismic",
+  "text": "지진\n전차"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankDragon",
+  "text": "드래곤 전차(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehiclePropagandaBlimp",
+  "text": "선전\n비행선"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryTerrorist",
+  "text": "테러리스트(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRPGTrooper",
+  "text": "RPG 병사(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATunnelNetwork",
+  "text": "터널 네트워크(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPalace",
+  "text": "궁전(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABlackMarket",
+  "text": "암시장(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAStingerSite",
+  "text": "스팅어 기지(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAScudStorm",
+  "text": "스커드 스톰(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPrison",
+  "text": "교도소(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleToxinTruck",
+  "text": "독소 트랙터(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankBattleMaster",
+  "text": "배틀마스터(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleTechnical",
+  "text": "테크니컬(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryHijacker",
+  "text": "하이재커(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryJarmenKell",
+  "text": "자르멘 켈(&J)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryAngryMob",
+  "text": "성난 폭도(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleQuadCannon",
+  "text": "쿼드 캐논(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBombTruck",
+  "text": "폭탄 트럭(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleScudLauncher",
+  "text": "스커드 런처(&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedTraining",
+  "text": "고급 훈련(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaDroneArmor",
+  "text": "드론 장갑(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaMines",
+  "text": "지뢰(&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRadar",
+  "text": "레이더(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaScoutDrones",
+  "text": "정찰 드론(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedControlRods",
+  "text": "제어봉(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaLaserMissiles",
+  "text": "레이저 미사일(&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaExtraFuel",
+  "text": "추가 연료(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaFlashBangGrenade",
+  "text": "섬광탄(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCompositeArmor",
+  "text": "복합 장갑(&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTomahawkRemoteControl",
+  "text": "순항 미사일(&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAircraftFuel",
+  "text": "항공 연료"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTOWMissile",
+  "text": "TOW 미사일(&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeComancheRocketPods",
+  "text": "로켓 포드(&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRailGun",
+  "text": "레일\n건"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRadar",
+  "text": "레이더(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNationalism",
+  "text": "민족주의(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAntiTankGrenade",
+  "text": "대전차 수류탄(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaVehicleHack",
+  "text": "차량 해킹(&V)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaIRGoggles",
+  "text": "적외선 고글(&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaBlackNapalm",
+  "text": "블랙 네이팜(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaChainGuns",
+  "text": "체인건(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSubliminalMessaging",
+  "text": "잠재의식 메시지(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaUraniumShells",
+  "text": "우라늄탄(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNuclearTanks",
+  "text": "핵 전차(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaStunBullets",
+  "text": "기절탄(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadar",
+  "text": "레이더(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadarVanScan",
+  "text": "레이더 스캔(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAScorpionRocket",
+  "text": "스콜피온 로켓(&K)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABuggyAmmo",
+  "text": "버기 탄약(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckBioBomb",
+  "text": "생물 폭탄(&B)"
+ },
+ {
+  "label": "CONTROLBAR:DisguiseAsVehicle",
+  "text": "차량으로 위장(&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb",
+  "text": "고폭 폭탄(&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxBeta",
+  "text": "탄저균 베타(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAToxinShells",
+  "text": "독소탄(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAJunkRepair",
+  "text": "고철 수리(&J)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPBullets",
+  "text": "철갑탄(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPRockets",
+  "text": "철갑 로켓(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamouflage",
+  "text": "위장(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLATranqDarts",
+  "text": "마취 다트(&T)"
+ },
+ {
+  "label": "CONTROLBAR:SetRallyPoint",
+  "text": "집결지(&R)"
+ },
+ {
+  "label": "CONTROLBAR:Sell",
+  "text": "판매"
+ },
+ {
+  "label": "CONTROLBAR:Overcharge",
+  "text": "과부하(&O)"
+ },
+ {
+  "label": "CONTROLBAR:DragonFlame",
+  "text": "화염(&L)"
+ },
+ {
+  "label": "CONTROLBAR:PickUpPrisoner",
+  "text": "포로\n태우기(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ReturnToPrison",
+  "text": "귀환(&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocket",
+  "text": "로켓 발사(&F)"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxWarhead",
+  "text": "탄저균 탄두(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ExplosiveWarhead",
+  "text": "폭발 탄두(&P)"
+ },
+ {
+  "label": "CONTROLBAR:Fire20mmCannon",
+  "text": "20mm 기관포 발사(&F)"
+ },
+ {
+  "label": "CONTROLBAR:FireAntiTankMissiles",
+  "text": "미사일 발사(&M)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocketPods",
+  "text": "로켓 발사(&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireNapalmMissile",
+  "text": "네이팜 발사(&N)"
+ },
+ {
+  "label": "CONTROLBAR:DaisyCutter",
+  "text": "연료 기화 폭탄(&B)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissile",
+  "text": "핵미사일(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ScudStorm",
+  "text": "스커드 스톰(&U)"
+ },
+ {
+  "label": "CONTROLBAR:NapalmStrike",
+  "text": "네이팜 공습(&N)"
+ },
+ {
+  "label": "CONTROLBAR:A10ThunderboltMissileStrike",
+  "text": "A10 미사일 공습(&A)"
+ },
+ {
+  "label": "CONTROLBAR:CashHack",
+  "text": "자금 해킹(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Ambush",
+  "text": "매복(&A)"
+ },
+ {
+  "label": "CONTROLBAR:BlackMarketNuke",
+  "text": "암시장\n핵폭탄"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxBomb",
+  "text": "탄저균 폭탄(&B)"
+ },
+ {
+  "label": "CONTROLBAR:Paradrop",
+  "text": "공수 강하(&O)"
+ },
+ {
+  "label": "CONTROLBAR:CarpetBomb",
+  "text": "융단 폭격(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ClusterMines",
+  "text": "집속 지뢰(&I)"
+ },
+ {
+  "label": "CONTROLBAR:EMPPulse",
+  "text": "EMP 펄스(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ArtilleryBarrage",
+  "text": "포격(&B)"
+ },
+ {
+  "label": "CONTROLBAR:CrateDrop",
+  "text": "보급 상자\n투하"
+ },
+ {
+  "label": "CONTROLBAR:SpySatellite",
+  "text": "첩보 위성(&S)"
+ },
+ {
+  "label": "CONTROLBAR:SpyDrone",
+  "text": "정찰 드론(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScan",
+  "text": "레이더 스캔(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Defector",
+  "text": "귀순 유도(&D)"
+ },
+ {
+  "label": "CONTROLBAR:Bayonet",
+  "text": "총검(&B)"
+ },
+ {
+  "label": "CONTROLBAR:SniperAttack",
+  "text": "저격(&N)"
+ },
+ {
+  "label": "CONTROLBAR:CaptureBuilding",
+  "text": "건물 점령(&C)"
+ },
+ {
+  "label": "CONTROLBAR:DisableVehicleHack",
+  "text": "차량 해킹(&V)"
+ },
+ {
+  "label": "CONTROLBAR:StealCashHack",
+  "text": "자금 해킹(&K)"
+ },
+ {
+  "label": "CONTROLBAR:InternetHack",
+  "text": "인터넷 해킹(&I)"
+ },
+ {
+  "label": "CONTROLBAR:DisableBuildingHack",
+  "text": "건물 무력화(&D)"
+ },
+ {
+  "label": "CONTROLBAR:CarBomb",
+  "text": "차량 폭탄(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Hijack",
+  "text": "탈취(&J)"
+ },
+ {
+  "label": "CONTROLBAR:TNTAttack",
+  "text": "TNT 공격(&T)"
+ },
+ {
+  "label": "CONTROLBAR:Requirements",
+  "text": "필요: %s"
+ },
+ {
+  "label": "CONTROLBAR:LaserMissileAttack",
+  "text": "레이저 미사일 공격(&L)"
+ },
+ {
+  "label": "CONTROLBAR:KnifeAttack",
+  "text": "칼 공격(&K)"
+ },
+ {
+  "label": "CONTROLBAR:ClimbCliff",
+  "text": "절벽 오르기(&C)"
+ },
+ {
+  "label": "CONTROLBAR:TimedDemoCharge",
+  "text": "시한 폭약(&T)"
+ },
+ {
+  "label": "CONTROLBAR:RemoteDemoCharge",
+  "text": "원격 폭약(&R)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateCharges",
+  "text": "폭약 폭파(&D)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateNuke",
+  "text": "핵 폭파(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ManualControl",
+  "text": "수동 조종(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ProximityFuse",
+  "text": "근접 신관(&P)"
+ },
+ {
+  "label": "CONTROLBAR:Detonate",
+  "text": "폭파!(&D)"
+ },
+ {
+  "label": "CONTROLBAR:EmergencyRepair",
+  "text": "긴급 수리(&E)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannon",
+  "text": "입자 캐논(&P)"
+ },
+ {
+  "label": "CONTROLBAR:Options",
+  "text": "게임 메뉴"
+ },
+ {
+  "label": "CONTROLBAR:OptionsDescription",
+  "text": "게임 메뉴를 엽니다"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorker",
+  "text": "노는 일꾼"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorkerDescription",
+  "text": "다음 노는 일꾼을 선택하려면 클릭"
+ },
+ {
+  "label": "CONTROLBAR:Beacon",
+  "text": "비컨"
+ },
+ {
+  "label": "CONTROLBAR:BeaconDescription",
+  "text": "비컨을 설치하려면 클릭"
+ },
+ {
+  "label": "CONTROLBAR:Communicator",
+  "text": "커뮤니케이터"
+ },
+ {
+  "label": "CONTROLBAR:CommunicatorDescription",
+  "text": "제너럴 커뮤니케이터를 열려면 클릭"
+ },
+ {
+  "label": "CONTROLBAR:AmbulanceCleanupArea",
+  "text": "독소 제거(&C)"
+ },
+ {
+  "label": "RADAR:UnitUnderAttack",
+  "text": "유닛이 공격받고 있습니다"
+ }
+]

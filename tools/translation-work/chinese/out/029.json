@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Tank091Subtitle",
+  "text": "*啊啊啊啊！这不可能！你怎么打败了我的坦克？！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank092Subtitle",
+  "text": "*是时候放出战争机器了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank093Subtitle",
+  "text": "*你的坦克冲锋跟我的比起来不值一提"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank094Subtitle",
+  "text": "*别挑战我的坦克，将军——你会输的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank095Subtitle",
+  "text": "*我的装甲会碾碎你那可怜的部队"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank096Subtitle",
+  "text": "*你也许打败了我的坦克，将军，但母老虎会像碾死虫子一样碾碎你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank097Subtitle",
+  "text": "*坦克是一切胜利的关键，这你很清楚"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank098Subtitle",
+  "text": "*看来你打败了我的侦察兵，将军。我想下一次进攻你就没这么好过了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank099Subtitle",
+  "text": "*我们来了，将军，希望你的防御已经准备好"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank100Subtitle",
+  "text": "*这些只是我的战斗大师，将军……等霸王坦克加入战斗再说"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank101Subtitle",
+  "text": "*我要是你就小心点，将军，有时红卫兵喜欢趁你忙着对付我的坦克时占领建筑"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin001Subtitle",
+  "text": "*我看见你了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin002Subtitle",
+  "text": "*尝一口，你就再也回不去了——就算你想回去也不行！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin003Subtitle",
+  "text": "*尝尝我的独门药方！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin004Subtitle",
+  "text": "*你能憋气多久？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin005Subtitle",
+  "text": "*准备好再上一堂化学课了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin006Subtitle",
+  "text": "*没那么糟。之后你只会感到一阵漫长而痛苦的灼烧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin007Subtitle",
+  "text": "*毒素部队，进攻！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin008Subtitle",
+  "text": "*我们来了，将军，就像一场化学品泄漏"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin009Subtitle",
+  "text": "*现在很难找到上门出诊的医生了，但萨拉克斯博士会来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin010Subtitle",
+  "text": "*一号货架有东西洒了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin011Subtitle",
+  "text": "*我们像酸雨一样降临到你的基地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin012Subtitle",
+  "text": "*前进吧，我的毒素战士！把我们的讯息带给大众！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin013Subtitle",
+  "text": "*哦，你会喜欢这个的，将军。不，等等……你不会"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin014Subtitle",
+  "text": "*这是你自找的，将军。现在看着你的士兵为你的错误买单吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin015Subtitle",
+  "text": "*无声无息，却能要命"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin016Subtitle",
+  "text": "*没错——坐下来放松！让我的毒素有更多时间发挥作用！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin017Subtitle",
+  "text": "*这悬念……简直要了你的命！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin018Subtitle",
+  "text": "*是时候再酿一批了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin019Subtitle",
+  "text": "*你每拖延一刻，就多死一点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin020Subtitle",
+  "text": "*肉从骨头上掉下来的时候，就说明火候正好！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin021Subtitle",
+  "text": "*炭疽……对身体有害"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin022Subtitle",
+  "text": "*闻到了吗？没有？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin023Subtitle",
+  "text": "*吸气……呼气……再来一次……感觉好点了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin024Subtitle",
+  "text": "*滴滴香浓，意犹未尽！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin025Subtitle",
+  "text": "*在下次进攻前，我给你个“喘息”的机会"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin026Subtitle",
+  "text": "*我们的毒素喷嘴堵了，将军……给我一秒钟修好它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin027Subtitle",
+  "text": "*你为毒素而来，却会永远留下……因为你死了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin028Subtitle",
+  "text": "*你会后悔打扰我的实验，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin029Subtitle",
+  "text": "*你要进攻我，还是害怕在我的基地里发现什么，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin030Subtitle",
+  "text": "*在我的毒云之下，什么都活不了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin031Subtitle",
+  "text": "*反正你也不需要那个"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin032Subtitle",
+  "text": "*你的部队看起来中毒了，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin033Subtitle",
+  "text": "*哦，将军，看来你的部队对毒素的酒量不行啊"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin034Subtitle",
+  "text": "*你的机场被摧毁了，将军。现在你只能徒步穿过我的死亡之云了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin035Subtitle",
+  "text": "*看到毒素是怎么把一切撕碎的吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin036Subtitle",
+  "text": "*啊！我的酒窖藏品还在里面！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin037Subtitle",
+  "text": "*我的毒素和你的部队之间真是起了化学反应！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin038Subtitle",
+  "text": "*反正我也不需要那个！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin039Subtitle",
+  "text": "*现在我的化学兵要从哪儿来？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin040Subtitle",
+  "text": "*我的毒素卡车会再次出动的！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin041Subtitle",
+  "text": "*看吧，人就不该待在天上"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin042Subtitle",
+  "text": "*你给我添麻烦了，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin043Subtitle",
+  "text": "*别再摧毁我的建筑了，将军，否则我会让事情变得……不愉快"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin044Subtitle",
+  "text": "*你摧毁了我的指挥中心！唉，反正我一直讨厌我的指挥官……现在只剩你和我了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin045Subtitle",
+  "text": "*将军，你一直摧毁我的载具，我还怎么给你送药？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin046Subtitle",
+  "text": "*我勇敢的战士！你怎么能这样对他们？他们对你做过什么——哦等等，算了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin047Subtitle",
+  "text": "*把那座油井还回来！你不知道石油是我毒素的关键成分吗？！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin048Subtitle",
+  "text": "*那座火炮平台阻止不了我，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin049Subtitle",
+  "text": "*将军，我需要那座炼油厂来提纯我的毒素。你要它能干什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin050Subtitle",
+  "text": "*我允许你进来了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin051Subtitle",
+  "text": "*你在这里干什么？配方是我的！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin052Subtitle",
+  "text": "*你来我的基地真是愚蠢，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin053Subtitle",
+  "text": "*你离我宝贵的毒素太近了，将军。现在你必须死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin054Subtitle",
+  "text": "*离我的飞毛腿导弹远点！等我准备好了自然会给你！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin055Subtitle",
+  "text": "*我看你不会想要那些补给，它们还没准备好"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin056Subtitle",
+  "text": "*我看到你在建另一座基地。很快它就会被遗弃"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin057Subtitle",
+  "text": "*滚出我的村庄，将军。虽然已经没剩多少了，但它是我的！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin058Subtitle",
+  "text": "*过那座桥时小心点，将军——下面的水可不适合游泳"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin059Subtitle",
+  "text": "*小心，将军，那座桥可能不安全……不过话说回来，这附近有什么是安全的？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin060Subtitle",
+  "text": "*你以为从我的后门溜进来很聪明吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin061Subtitle",
+  "text": "*所以，你过了河。现在战斗变得有意思了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin062Subtitle",
+  "text": "*看来你没电了，将军。也许我现在就该进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin063Subtitle",
+  "text": "*你没电了，将军。是时候让我来玩玩了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin064Subtitle",
+  "text": "*你的资源堆变少了，将军。我看你剩下的不够阻止我的下一次进攻了……好极了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin065Subtitle",
+  "text": "*预算？！我不想听什么预算！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin066Subtitle",
+  "text": "*你竟敢在我面前建飞毛腿风暴！你当然知道我们都对它的毒素免疫，对吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin067Subtitle",
+  "text": "*核弹发射井？没想到你会用有毒的辐射……也许哪天我们可以合作"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin068Subtitle",
+  "text": "*所以，用粒子加农炮来对付我的毒素，是吧？你的科技不是我毒素的对手，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin069Subtitle",
+  "text": "*这么多防御，将军。全都没用！！！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin070Subtitle",
+  "text": "*金属只能暂时挡住我的毒素！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin071Subtitle",
+  "text": "*啊——懦夫！你的飞行员也得呼吸！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin072Subtitle",
+  "text": "*你喜欢看你的士兵在黑暗中发光吗？那就多造点！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin073Subtitle",
+  "text": "*你的基地变大了，将军……正好是我飞毛腿风暴的完美目标"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin074Subtitle",
+  "text": "*好啊，发射你的飞毛腿风暴……把你那没用的毒素撒到我的基地上吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin075Subtitle",
+  "text": "*你的核导弹只会让我们变异，变得更强，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin076Subtitle",
+  "text": "*你别指望用那道粒子光束清除我的毒素，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin077Subtitle",
+  "text": "*好啊，进驻那栋建筑……我相信我的毒素拖拉机会很喜欢"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin078Subtitle",
+  "text": "*如果你把伯顿上校扯进来，我就只好放出贾曼·凯尔了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin079Subtitle",
+  "text": "*黑莲花？你当然知道黑莲花是一种有毒的花……我想我的某种毒素里就有它……扯远了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin080Subtitle",
+  "text": "*看来贾曼·凯尔加入了我们的小战争。也许我这边的那位会想来一场狙击对决"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin081Subtitle",
+  "text": "*你现在要那座机场干什么，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin082Subtitle",
+  "text": "*所以我们的将军建了战车工厂。真是毫无新意"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin083Subtitle",
+  "text": "*好——好——建兵营吧……把你的士兵送到我这里来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin084Subtitle",
+  "text": "*卖掉……你所有的建筑吧，将军……然后把你的士兵送到我这里来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin085Subtitle",
+  "text": "*现在放弃，我保证你能松一口气"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin086Subtitle",
+  "text": "*你的部队喘不过气了，将军。放弃吧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin087Subtitle",
+  "text": "*我缓过劲来了，这预示着你的末日，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin088Subtitle",
+  "text": "*让我用一杯好毒素来浇灭你的忧愁吧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin089Subtitle",
+  "text": "*毒性终结"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin090Subtitle",
+  "text": "*你被打败了，将军。也许这能教会你不要违抗萨拉克斯博士"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin091Subtitle",
+  "text": "*你愿意考虑和解吗？比如说，一剂解药？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin092Subtitle",
+  "text": "*也许我吸了太多自己的毒素——你不可能在打败我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin093Subtitle",
+  "text": "*离我远点！你打不败我，将军。听见没有！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin094Subtitle",
+  "text": "*你对毒素有什么意见？你看过现在食物里都加了些什么吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin095Subtitle",
+  "text": "*就算你打败了我，我的毒素也会找上你——迟早的事！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin096Subtitle",
+  "text": "*不！不。我被打败了。那颗氰化物胶囊放哪儿了……"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin097Subtitle",
+  "text": "*那个按钮上涂了毒……你已经死了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin098Subtitle",
+  "text": "*你竟敢选择萨拉克斯博士？你该重新考虑一下，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin099Subtitle",
+  "text": "*你打不败我的毒素，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin100Subtitle",
+  "text": "*也许我当初不该在函授大学拿学位"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin101Subtitle",
+  "text": "*你以为我的毒素没用，现在看看你成什么样了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin102Subtitle",
+  "text": "*你好，将军。别以为我看不到你的间谍在我的基地上空飞来飞去。请尽情看吧，因为这可能是你最后一次看到我的要塞"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin103Subtitle",
+  "text": "*如你所见，我的防御坚不可摧……我的毒素武器系统会在你的部队接近我之前就毒死他们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin104Subtitle",
+  "text": "*也别担心伤及平民，将军；他们早就逃离了这片毒素死亡之谷。我们的小战争将不受打扰地进行……你那脆弱的良心也不会受到煎熬"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin105Subtitle",
+  "text": "*啊，是的，你那可悲的基地原来建在这里。现在来与我——萨拉克斯博士——一决高下吧，等你的部队吸完我毒素空气的最后一口气，我就可以回去做实验了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin106Subtitle",
+  "text": "*你相信自己的感官吗，将军？与我交战，你就注定要漫长而痛苦地死去，因为我是萨拉克斯博士，我的武器无影无形！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin107Subtitle",
+  "text": "*放轻松呼吸吧，将军，因为我是萨拉克斯博士，你每呼吸一口，都在走向失败！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin108Subtitle",
+  "text": "*第一份试用装免费！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin109Subtitle",
+  "text": "*要绿的还是蓝的？两种都一样爽！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin110Subtitle",
+  "text": "*准备好把你今天的失败讲给你三只眼的孙子听吧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin111Subtitle",
+  "text": "*我宝贵的化学品！你知道调配它们要多久吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin112Subtitle",
+  "text": "*更多受害——啊——志愿者来参加我的实验了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin113Subtitle",
+  "text": "*现在我有更多载具来运送毒素了！你真是太慷慨了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin114Subtitle",
+  "text": "*哦，我忘了告诉你那些东西吗？小心地雷，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin115Subtitle",
+  "text": "*我把那些化学兵放哪儿了？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin117Subtitle",
+  "text": "*呸！是你！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin118Subtitle",
+  "text": "*啊，是的，你那可悲的基地原来建在这里"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle001Subtitle",
+  "text": "*哦，你还在啊，将军。你的决心让我印象深刻。我们来跳支舞吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle002Subtitle",
+  "text": "*没那么疼吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle003Subtitle",
+  "text": "*战场是个残酷的地方，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle004Subtitle",
+  "text": "*又一次完美的打击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle005Subtitle",
+  "text": "*一切都在按计划进行"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle006Subtitle",
+  "text": "*一切似乎都很顺利"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle007Subtitle",
+  "text": "*感觉如何，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle008Subtitle",
+  "text": "*战术优势是关键，将军。来，让我演示给你看"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle009Subtitle",
+  "text": "*我真不觉得你能挡住下一次进攻……你觉得呢？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle010Subtitle",
+  "text": "*又一次进攻来了……哦，我几乎所有的将军技能都准备好了……你想先看哪个？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle011Subtitle",
+  "text": "*是我的超级武器准备好了吗？哦不，我的进攻本来就是这种感觉"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle012Subtitle",
+  "text": "*所有单位：阿尔法攻击模式！开玩笑的……谁会给东西起名叫“阿尔法”？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle013Subtitle",
+  "text": "*我的一些单位来了，将军。你介意帮他们积累点经验吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle014Subtitle",
+  "text": "*我很少派兵出击，但你值得特别关照，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle015Subtitle",
+  "text": "*我警告你，别低估我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle016Subtitle",
+  "text": "*你也许以为我在躲，其实我只是在筹划"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle017Subtitle",
+  "text": "*傻瓜才会贸然冲锋，将军。我不慌不忙"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle018Subtitle",
+  "text": "*你不知道我接下来会做什么，对吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle019Subtitle",
+  "text": "*不做计划，就是计划失败，将军。想想吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle020Subtitle",
+  "text": "*我最强的“超级武器”是我的大脑……你不同意吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle021Subtitle",
+  "text": "*来吧，将军，使出你的看家本领"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle022Subtitle",
+  "text": "*我们在等你，将军。你还在磨蹭什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle023Subtitle",
+  "text": "*我一直在分析你的战术，简直让我惊叹……你到底有没有战术，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle024Subtitle",
+  "text": "*我要是你就进攻了，将军。你再等下去，我就又多一件超级武器向你开火了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle025Subtitle",
+  "text": "*所以，你的整体战略就是把我无聊死在战场上？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle026Subtitle",
+  "text": "*你在重新考虑进攻我是否明智吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle027Subtitle",
+  "text": "*我一直想对你手下留情，将军，但你开始惹我烦了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle028Subtitle",
+  "text": "*这很有趣，将军，但我想是时候结束了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle029Subtitle",
+  "text": "*也许我们该改天再战……等你不这么心不在焉的时候……至少我希望你的问题是这个。你确实说过自己是“将军”，对吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle030Subtitle",
+  "text": "*你没在用那个吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle031Subtitle",
+  "text": "*我一点也不喜欢那座兵营的样子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle032Subtitle",
+  "text": "*你的载具让我心烦"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle033Subtitle",
+  "text": "*别往天上飞，将军——你在地面上会更安全"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle034Subtitle",
+  "text": "*那是想把我挡在你的基地外面吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle035Subtitle",
+  "text": "*哇，你刚失去了指挥中心。这可不太妙，是吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle036Subtitle",
+  "text": "*你的基地之前太乱了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle037Subtitle",
+  "text": "*你一点都不尊重别人的财产！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle038Subtitle",
+  "text": "*各位，谁负责守卫兵营的！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle039Subtitle",
+  "text": "*那座战车工厂我正用着呢！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle040Subtitle",
+  "text": "*让我保住机场是不是要求太高了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle041Subtitle",
+  "text": "*我把它放在那里是有原因的！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle042Subtitle",
+  "text": "*我才刚把所有建筑摆到我想要的位置"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle043Subtitle",
+  "text": "*我可不欣赏这种不尊重！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle044Subtitle",
+  "text": "*我造那些飞机是有原因的！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle045Subtitle",
+  "text": "*想摧毁多少载具随你。我才不在乎"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle046Subtitle",
+  "text": "*你竟敢伤害我的士兵！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle047Subtitle",
+  "text": "*那个是我让给你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle048Subtitle",
+  "text": "*反正我也不需要那个"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle049Subtitle",
+  "text": "*占领炼油厂？哎呀，将军，没想到你这么注重效率"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle050Subtitle",
+  "text": "*谁邀请你来的？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle051Subtitle",
+  "text": "*我看你没有进入这里的安全许可"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle052Subtitle",
+  "text": "*你凭什么进我的基地？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle053Subtitle",
+  "text": "*这是我的基地，马上出去！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle054Subtitle",
+  "text": "*别指望我当个好女主人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle055Subtitle",
+  "text": "*我不喜欢不速之客，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle056Subtitle",
+  "text": "*你以为你在这里干什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle057Subtitle",
+  "text": "*入侵者！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle058Subtitle",
+  "text": "*你的存在开始让我心烦了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle059Subtitle",
+  "text": "*谁负责守卫那片区域的？！？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle060Subtitle",
+  "text": "*所以你设法突破了我的防线……这种事不会再发生了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle061Subtitle",
+  "text": "*滚出我的基地，将军。别以为我不会把粒子加农炮直接轰在这里"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle062Subtitle",
+  "text": "*你的基地看起来有点暗啊，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle063Subtitle",
+  "text": "*有人忘了交电费吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle064Subtitle",
+  "text": "*你的资源管理得不太明智，是吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle065Subtitle",
+  "text": "*你让我的预算超支了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle066Subtitle",
+  "text": "*这怎么可能发生！我把一切都计划得那么完美！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle067Subtitle",
+  "text": "*你以为我会怕你那小小的飞毛腿风暴吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle068Subtitle",
+  "text": "*那座核弹发射井吓不倒我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle069Subtitle",
+  "text": "*我欣赏你对武器的品味，但这片战场上只有我才能拥有粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle070Subtitle",
+  "text": "*这就是你的基地能达到的最高安全级别？是吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle071Subtitle",
+  "text": "*好多坦克啊，将军。你见过粒子加农炮对一大群坦克能干什么吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle072Subtitle",
+  "text": "*这些飞机对我来说只是空气污染"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke092Subtitle",
+  "text": "*哦，看——我给你准备了一颗核弹"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke093Subtitle",
+  "text": "*哇，两颗核弹！我很满意"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke094Subtitle",
+  "text": "*三颗核弹？！？乐趣翻三倍！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke095Subtitle",
+  "text": "*四颗核弹？难以置信！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke096Subtitle",
+  "text": "*五颗核弹？也许你想让我现在就给你送条干净的内裤？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke097Subtitle",
+  "text": "*（玩家出售建筑）将军，你再卖建筑，我就不战而胜了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth001Subtitle",
+  "text": "*看看我发现了什么"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth002Subtitle",
+  "text": "*我的下一次进攻来了……这次尽量准备好，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth003Subtitle",
+  "text": "*你杀不死你看不见的东西"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth004Subtitle",
+  "text": "*反正你也不需要那些兵"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth005Subtitle",
+  "text": "*又在上班时间睡觉？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth006Subtitle",
+  "text": "*谢谢送来的新单位。用它们来消灭你正合适"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth007Subtitle",
+  "text": "*看好了！哦等等，你看不见"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth008Subtitle",
+  "text": "*带热成像护目镜了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth009Subtitle",
+  "text": "*我看是时候换个新基地了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth010Subtitle",
+  "text": "*有缘无分啊，将军。再见！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth011Subtitle",
+  "text": "*闭上眼睛也不会让失败的痛苦好受一点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth012Subtitle",
+  "text": "*我的隐形刺客会迅速解决你的部队，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth013Subtitle",
+  "text": "*我们会像蛇一样出击——迅速而隐秘"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth014Subtitle",
+  "text": "*你挡不住这次进攻，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth015Subtitle",
+  "text": "*英俊的将军总能打赢战斗"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth016Subtitle",
+  "text": "*在为时已晚之前你永远看不到我，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth017Subtitle",
+  "text": "*将军，也许你可以把我介绍给黑莲花。我很仰慕她的……呃，工作"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth018Subtitle",
+  "text": "*越是安静的时候，你越该怕我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth019Subtitle",
+  "text": "*我等不及你的下一次进攻了，将军。今天能等到吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth020Subtitle",
+  "text": "*别让你的感官变迟钝，将军——我随时都可能发动进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth021Subtitle",
+  "text": "*你打不败我，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth022Subtitle",
+  "text": "*我会在你最意想不到的时候进攻，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth023Subtitle",
+  "text": "*我的士兵遍布战场，将军……隐藏在视线之外……随时准备出击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth024Subtitle",
+  "text": "*隐形是我的盟友……也是你的敌人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth025Subtitle",
+  "text": "*你失去了科技建筑，将军。接下来你会失去什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth026Subtitle",
+  "text": "*你没能阻止我摧毁你的兵营，将军。如果不是你的士兵，你还珍惜什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth027Subtitle",
+  "text": "*摧毁你的战车工厂就像儿戏。你的指挥中心也快了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth028Subtitle",
+  "text": "*你的飞机失去了机场，你也失去了优势，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth029Subtitle",
+  "text": "*现在你的防线上有个缺口，将军。谁知道我有多少士兵已经进了你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth030Subtitle",
+  "text": "*你的指挥中心没了，将军。我的胜利基本已经确定"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth031Subtitle",
+  "text": "*我并不乐意摧毁你的建筑，将军，但你让我别无选择"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth032Subtitle",
+  "text": "*你攻击我的科技建筑，是因为你根本没希望打到我的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth033Subtitle",
+  "text": "*你摧毁了我的兵营，但我们会重建，那些士兵的仇一定会报"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth034Subtitle",
+  "text": "*我的军火商不会高兴你摧毁了他的仓库，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth035Subtitle",
+  "text": "*你摧毁了那座基地防御，将军，但这可能正好给了我的士兵包抄你的时间"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth036Subtitle",
+  "text": "*你摧毁了我很多建筑，但只要还剩一座工厂，我就是个危险的对手，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth037Subtitle",
+  "text": "*打得漂亮，将军；你摧毁了我的指挥中心。现在我只能耍点手段了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth038Subtitle",
+  "text": "*你很擅长发现我伪装的载具，将军。我会考虑换个战术"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth039Subtitle",
+  "text": "*你粗暴的战术让我损失了士兵，将军。既然知道你毫无战术可言，我会重新考虑我的战术"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth040Subtitle",
+  "text": "*既然我占领了这座油井，我的部队会壮大得更快"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth041Subtitle",
+  "text": "*火炮平台太粗野了，但我总不能让你拿去吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth042Subtitle",
+  "text": "*这座炼油厂现在是我的了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth043Subtitle",
+  "text": "*将军，你离我的基地近得危险了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth044Subtitle",
+  "text": "*我看到有部队在接近我的基地，将军。你该不会是要入侵吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth045Subtitle",
+  "text": "*你在考验我的耐心，将军。把你的部队撤出我的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth046Subtitle",
+  "text": "*如果你不把部队撤出我的基地，我就让他们永远消失"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth047Subtitle",
+  "text": "*所以你想从侧翼进入我的基地。我们会阻止的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth048Subtitle",
+  "text": "*从后门进攻？没想到你这么狡猾，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth049Subtitle",
+  "text": "*正面进攻？这将是个致命的错误，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth050Subtitle",
+  "text": "*那些是我的资源，将军——自己去找"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth051Subtitle",
+  "text": "*你为什么总要从那条路接近我的基地，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth052Subtitle",
+  "text": "*那条路并不像看上去那样无人把守，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth053Subtitle",
+  "text": "*你在这里唯一能找到的就是自己的毁灭，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth054Subtitle",
+  "text": "*你为什么对这片区域这么着迷，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth055Subtitle",
+  "text": "*我们正在接近你的基地，将军。你的脑袋可能已经在十字准星里了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth056Subtitle",
+  "text": "*你的外围防御很弱，将军。希望你的基地保护得好一点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth057Subtitle",
+  "text": "*我们已经进入你的基地，将军。无视我们，后果自负"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth058Subtitle",
+  "text": "*你的防线被打破了，将军。你现在要怎么击退我们？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth059Subtitle",
+  "text": "*你真该守好这些资源，将军，否则这场战斗会非常短暂"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth060Subtitle",
+  "text": "*我找到了你的科技建筑，将军。我该拿它们怎么办？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth061Subtitle",
+  "text": "*我找到了你基地的后门，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth062Subtitle",
+  "text": "*你能抵挡我的侧翼进攻吗，将军？我们来看看"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth063Subtitle",
+  "text": "*只有粗心的将军才会让电力中断"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth064Subtitle",
+  "text": "*你停电了，将军。你没规划好基础设施。希望这不是致命的错误"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth065Subtitle",
+  "text": "*将军，没有资源你没法打仗。你现在怎么办？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth066Subtitle",
+  "text": "*你抢走了我的资源，将军。现在我来礼尚往来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth067Subtitle",
+  "text": "*这么说，你建了飞毛腿风暴。我们得应对这个新威胁了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth068Subtitle",
+  "text": "*核武器在这场战斗中没有立足之地，将军。你为什么执意要建？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth069Subtitle",
+  "text": "*你要用懦弱的粒子加农炮从太空攻击我？我很失望，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth070Subtitle",
+  "text": "*这么多基地防御，将军。你在怕什么？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth071Subtitle",
+  "text": "*你在造坦克，是吧。好吧，多几个狙击手就能搞定"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth072Subtitle",
+  "text": "*更多飞机？为什么这么多，将军？怕下来跟我正面交锋吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth073Subtitle",
+  "text": "*给你个建议，将军。那一大群步兵不是我狙击手的对手"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth074Subtitle",
+  "text": "*你的基地变得这么大，将军。你觉得你能守住所有建筑不被占领吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth075Subtitle",
+  "text": "*你发射了！你会后悔用那座飞毛腿风暴的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth076Subtitle",
+  "text": "*核导弹！我还以为你在虚张声势，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth077Subtitle",
+  "text": "*好啊，看看那懦弱的粒子光束。享受吧，将军——我的回应将迅速而残酷"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth078Subtitle",
+  "text": "*尽管进驻那栋建筑吧，将军……我的狙击手可能打得进去"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth079Subtitle",
+  "text": "*伯顿上校，将军？也许你该让他当将军；你只会把他早早送进坟墓"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth080Subtitle",
+  "text": "*啊，美丽的黑莲花。也许等你被打败后，将军，她会同意加入我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth081Subtitle",
+  "text": "*贾曼·凯尔？！所有狙击手注意：贾曼·凯尔已进入战场"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth082Subtitle",
+  "text": "*建机场是明智的选择，但光靠飞机不足以打败我，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth083Subtitle",
+  "text": "*我的间谍说你终于建了战车工厂，将军。现在准备好打仗了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth084Subtitle",
+  "text": "*从那座兵营训练多少人都行，将军；他们不是我狙击手的对手"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth085Subtitle",
+  "text": "*你卖掉了一栋建筑。这种战术只会导致失败，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth086Subtitle",
+  "text": "*你怎么能打败我的部队？！这不可能！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth087Subtitle",
+  "text": "*你现在也许占了上风，但你孤注一掷的战术不会持久，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth088Subtitle",
+  "text": "*我的部队会奋起反抗你的压迫，我们会打败你，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth089Subtitle",
+  "text": "*暂时享受你的优势吧，将军……你很快就会犯错，到时我将扭转这场战斗"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth090Subtitle",
+  "text": "*就这样结束了……你打败了我，将军，但总有一天我会报仇。小心你的背后，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth091Subtitle",
+  "text": "*你的部队正在削弱，将军。认输吧，我会对你手下留情"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth092Subtitle",
+  "text": "*你的进攻对我毫无效果，将军。很快我们就会杀进去消灭你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth093Subtitle",
+  "text": "*我很享受这个小游戏，将军，但你那可悲的进攻开始让我厌烦了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth094Subtitle",
+  "text": "*我本以为你会更有挑战性，将军。看来我高估你了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth095Subtitle",
+  "text": "*你倒在了卡萨德面前，就像之前所有人一样"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth096Subtitle",
+  "text": "*我们会像蛇一样出击——无影无形，致命无比"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth097Subtitle",
+  "text": "*现在你看见我了——现在你已经死了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth098Subtitle",
+  "text": "*我是卡萨德"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth099Subtitle",
+  "text": "*这对你来说不会有好结果，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth100Subtitle",
+  "text": "*我的手下不会接受首领的这次失败，将军。你用高超的战术给我签下了死刑令"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth101Subtitle",
+  "text": "*接受你苦涩的失败，从我眼前消失吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth102Subtitle",
+  "text": "*又一个与我作对的人倒下了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth103Subtitle",
+  "text": "*你也会是这样，将军——没有警告，没有怜悯"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth104Subtitle",
+  "text": "*你还有时间逃命，将军。<evil laughter trailing off to silence>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank001Subtitle",
+  "text": "*看来你没被吓跑，将军。很快你就会后悔没跑"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank002Subtitle",
+  "text": "*我的部队已经到你门口了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank003Subtitle",
+  "text": "*钢铁巨龙踏过你那微不足道的防线"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank004Subtitle",
+  "text": "*恐怕这将是你的末日，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank005Subtitle",
+  "text": "*嗯……你能感受到装甲逼近时那雷鸣般的歌声吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank006Subtitle",
+  "text": "*你保护好侧翼了吗，将军？我们何不去看看"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank007Subtitle",
+  "text": "*我对坦克的改装让你印象深刻吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank008Subtitle",
+  "text": "*装甲部队……碾碎他们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank009Subtitle",
+  "text": "*很快，战场上将布满坦克……我的坦克"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank010Subtitle",
+  "text": "*所有单位……进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank011Subtitle",
+  "text": "*基地不错，将军……愿意交出来吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank012Subtitle",
+  "text": "*这预示着你的末日，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank013Subtitle",
+  "text": "*我们进入你的基地了，将军；你的防御不堪一击"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank014Subtitle",
+  "text": "*你竟敢攻击我的战车工厂！所有部队，清除这个害虫！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank015Subtitle",
+  "text": "*坦克……多造坦克"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank016Subtitle",
+  "text": "*又一个营正在路上，将军，请好好招待他们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank017Subtitle",
+  "text": "*啊，这是战斗中我最享受的部分……就在我解决敌人之前"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank018Subtitle",
+  "text": "*坦克：快点……趁对手还没想到真正发动进攻"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank019Subtitle",
+  "text": "*外面很安静，将军。一定有很多坦克正开向你的基地，你说呢？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank020Subtitle",
+  "text": "*我要利用这段时间建更多防御……不，等等，我还是多造坦克吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank021Subtitle",
+  "text": "*这里曾是肥沃的农田。很快你的鲜血会让它再次肥沃"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank022Subtitle",
+  "text": "*你的战术让我觉得好笑，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank023Subtitle",
+  "text": "*好好休息吧，将军——进攻很快会再次开始"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank024Subtitle",
+  "text": "*我们在等你的进攻，将军，但我开始怀疑它还会不会来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank025Subtitle",
+  "text": "*我们的战车工厂正在加班加点造更多坦克，专门为你，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank026Subtitle",
+  "text": "*你还能承受这样的损失多久，将军？也许是时候考虑投降了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank027Subtitle",
+  "text": "*坦克正在我们的基地集结，准备最后的进攻。这次你的防线能守住吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank028Subtitle",
+  "text": "*很快我们就会把你赶出我们的土地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank029Subtitle",
+  "text": "*这将是你证明自己的最后机会，将军。很快我的坦克就会终结你那可怜的军队"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank030Subtitle",
+  "text": "*你不会相信你的好运还能持续多久吧……是吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank031Subtitle",
+  "text": "*你不需要那座科技建筑吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank032Subtitle",
+  "text": "*你的兵营倒在了我的坦克面前，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank033Subtitle",
+  "text": "*你的工厂没了，将军。你现在怎么对抗我的装甲？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank034Subtitle",
+  "text": "*没有机场，你就失去了对付我的唯一机会，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank035Subtitle",
+  "text": "*你的防御在我的装甲面前像玩具一样倒下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank036Subtitle",
+  "text": "*你失去了指挥中心，也失去了战胜我的一切希望，将军。我等着你投降"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank037Subtitle",
+  "text": "*你损失了好多建筑，将军……是不是该投降了？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank038Subtitle",
+  "text": "*那座科技建筑是我的，将军；你会后悔摧毁它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank039Subtitle",
+  "text": "*所以你摧毁了我的兵营——那就这样吧。现在我要摧毁你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank040Subtitle",
+  "text": "*我们会重建那座战车工厂。很快坦克又会像潮水一样涌向你的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank041Subtitle",
+  "text": "*摧毁我的机场阻止不了我，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank042Subtitle",
+  "text": "*摧毁我的防御只会让我知道你在哪儿，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank043Subtitle",
+  "text": "*将军，你摧毁我的建筑数量已经到了不可接受的地步。必须停止"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank044Subtitle",
+  "text": "*你摧毁了我的指挥中心……我很佩服，将军……很少有人能撑这么久"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank045Subtitle",
+  "text": "*你在打我的飞机？！你觉得这是对付我的最佳战术吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank046Subtitle",
+  "text": "*够了！别再摧毁我的坦克了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank047Subtitle",
+  "text": "*别再瞄准我的步兵了，你这个懦夫！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank048Subtitle",
+  "text": "*将军，我的坦克需要那座油井。交给我，否则你要付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank049Subtitle",
+  "text": "*那座火炮平台不是我装甲的对手，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank050Subtitle",
+  "text": "*啊，看来你占领了一座炼油厂。也许我该从你手里夺过来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank051Subtitle",
+  "text": "*我们正在接近你的基地，将军。做好准备"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank052Subtitle",
+  "text": "*啊，我的坦克快进入你基地的射程了。这很快就会结束"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank053Subtitle",
+  "text": "*我们突破了你的防线，将军。现在你的工厂要开始倒下了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank054Subtitle",
+  "text": "*谢谢你邀请我们进入你的基地，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank055Subtitle",
+  "text": "*我看到你的侧翼暴露了，将军。这在我意料之中"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank056Subtitle",
+  "text": "*你的后门无人把守——这是你的致命错误，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank057Subtitle",
+  "text": "*我看到你建了第二座基地，将军。它很快就会被清除"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank058Subtitle",
+  "text": "*啊，我找到了你的科技建筑。现在，我该摧毁它还是占领它？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank059Subtitle",
+  "text": "*你停电了……你的部队完了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank060Subtitle",
+  "text": "*我建议你恢复电力，将军……趁我们还没把它永久关掉"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank061Subtitle",
+  "text": "*你的补给堆看起来不多了……现在没有什么能阻止我们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank062Subtitle",
+  "text": "*补给！我需要更多补给！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank063Subtitle",
+  "text": "*你打算拿那座飞毛腿风暴做什么，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank064Subtitle",
+  "text": "*现在这场战争升级为核战争了……好极了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank065Subtitle",
+  "text": "*那门粒子加农炮活不到向我开火的那一天"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank066Subtitle",
+  "text": "*这么多基地防御，将军……全都毫无用处"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank067Subtitle",
+  "text": "*所以你想在战场上跟我的坦克较量。我怀疑你的战术，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank068Subtitle",
+  "text": "*我看到好多飞机，将军——就像等着被拍下天空的小虫"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank069Subtitle",
+  "text": "*你训练的士兵太多了，将军；他们都会被碾在我的履带下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank070Subtitle",
+  "text": "*你的基地太大了，将军——我的坦克会很享受这次打靶练习"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank071Subtitle",
+  "text": "*你的飞毛腿风暴会伤到我们，但现在你惹怒我了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank072Subtitle",
+  "text": "*只有失败的将军才会诉诸核导弹"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank073Subtitle",
+  "text": "*这道粒子光束打不败我们，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank074Subtitle",
+  "text": "*对，进驻你的建筑吧——你只是在拖延不可避免的结局"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank075Subtitle",
+  "text": "*没有哪个士兵能扭转战局，就连伯顿上校也不行"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank076Subtitle",
+  "text": "*啊，黑莲花，你大驾光临。也许你会考虑为我而战"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank077Subtitle",
+  "text": "*所有坦克注意：贾曼·凯尔已进入战场"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank078Subtitle",
+  "text": "*建机场是对付我的明智选择，但它救不了你的失败，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank079Subtitle",
+  "text": "*建你的战车工厂吧，将军；它们还是造不出能挡住我的坦克"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank080Subtitle",
+  "text": "*我看到你建了兵营，将军。请尽量让你的士兵别跑到我的坦克底下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank081Subtitle",
+  "text": "*对，卖掉你所有的建筑，逃离战场吧，将军。这场战斗你已经输了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank082Subtitle",
+  "text": "*你在输，将军。这场战斗是我的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank083Subtitle",
+  "text": "*一切希望都破灭了，将军。投降或者死"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank084Subtitle",
+  "text": "*将军，我的部队比你多……现在只是时间问题"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank085Subtitle",
+  "text": "*你低劣的战略把你带到了这一步，将军。你现在赢不了了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank086Subtitle",
+  "text": "*我的胜利从一开始就是注定的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank087Subtitle",
+  "text": "*你的战术给了你一时的优势，将军，但你保持不住"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank088Subtitle",
+  "text": "*不！你不会赢的，将军。我们会造更多坦克打败你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank089Subtitle",
+  "text": "*你懦弱的战术也许让你走到了这一步，但这场闹剧现在结束了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank090Subtitle",
+  "text": "*我想我让你赢得够久了，将军。准备迎接末日吧"
+ }
+]

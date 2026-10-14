@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat02Subtitle",
+  "text": "*他们伏击了我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat03Subtitle",
+  "text": "*他们伏击了我们的基地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat04Subtitle",
+  "text": "*我们找到了他们的秘密基地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat05Subtitle",
+  "text": "*他们从湖的另一边过来了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat06Subtitle",
+  "text": "*他们的部队一定藏在森林里"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat07Subtitle",
+  "text": "*不知道河对岸有什么"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat08Subtitle",
+  "text": "*他们打了就跑的袭击真让人头疼"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat09Subtitle",
+  "text": "*那些火箭车又回来了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat10Subtitle",
+  "text": "*偷袭！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat11Subtitle",
+  "text": "*摧毁那门地狱火炮！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat12Subtitle",
+  "text": "*人们吓得不敢走出家门"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat13Subtitle",
+  "text": "*我们必须把他们从压迫中解放出来！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO01Subtitle",
+  "text": "*人民奋起支持我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO10Subtitle",
+  "text": "*将军。摧毁 GLA 雕像对提高我们的国际舆论至关重要，还会增强民众对我们行动的支持"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO11Subtitle",
+  "text": "*他们派出了毒素拖拉机来清除我们驻守的建筑！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO12Subtitle",
+  "text": "*我们的龙坦克会成为敌人的首要目标……保护好它们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO13Subtitle",
+  "text": "*干得好，长官。摧毁雕像让国际舆论上升了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO16Subtitle",
+  "text": "*不要让他们摧毁建筑！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO17Subtitle",
+  "text": "*使用中子炮弹可以在不损坏建筑的情况下清除其中的敌人"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO18Subtitle",
+  "text": "*小心！他们的防御建筑用伪装网隐藏起来了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO19Subtitle",
+  "text": "*将军，GLA 把城市防守得很严密。我们需要把他们清除出去"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO20Subtitle",
+  "text": "*你进展顺利，指挥官。城市的大部分地区已摆脱 GLA 的控制"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO21Subtitle",
+  "text": "*长官！全城都在奋起反抗我们的敌人！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO22Subtitle",
+  "text": "*将军，我们必须把 GLA 从这一地区清除出去！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO23Subtitle",
+  "text": "*我们的国际舆论很高。干得漂亮！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat01Subtitle",
+  "text": "*他们快逃掉了！我们必须拦住他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat010Subtitle",
+  "text": "*他们正绕着湖走。拦截他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat011Subtitle",
+  "text": "*他们冲着我们的基地来了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat012Subtitle",
+  "text": "*我们挡住了第一波 GLA！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat013Subtitle",
+  "text": "*我们又一次让他们知道了厉害！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat014Subtitle",
+  "text": "*没有人能抵挡中国的力量！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat015Subtitle",
+  "text": "*孙子也会为此骄傲"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat016Subtitle",
+  "text": "*胜利属于我们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat017Subtitle",
+  "text": "*此路不通"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat018Subtitle",
+  "text": "*我们要把他们从天空中驱逐出去！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat019Subtitle",
+  "text": "*我们的力量无可匹敌！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat02Subtitle",
+  "text": "*在村庄截断他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat020Subtitle",
+  "text": "*赫利克斯可不是唯一的猛将"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat03Subtitle",
+  "text": "*不能让他们越过那座山丘"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat04Subtitle",
+  "text": "*他们肯定会经过这里。我们应该守住这片区域"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat05Subtitle",
+  "text": "*这里是另一个咽喉要道"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat06Subtitle",
+  "text": "*我们应该控制这些建筑"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat07Subtitle",
+  "text": "*他们在干什么？"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat08Subtitle",
+  "text": "*小心毒素！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat09Subtitle",
+  "text": "*我们被伏击了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat15Subtitle",
+  "text": "*我们的部队已就位。我们准备好应对一切"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat16Subtitle",
+  "text": "*他们比我们想象的更强。我们需要空中支援。立刻派赫利克斯来！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO01Subtitle",
+  "text": "*GLA 又派出了一波部队！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO02Subtitle",
+  "text": "*这一波正向北撤退"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO03Subtitle",
+  "text": "*他们正向东北撤退"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO04Subtitle",
+  "text": "*这一波正向东撤退"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO05Subtitle",
+  "text": "*欧盟对我们的表现极为满意，将军。我们要保持攻势，消灭 GLA"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO06Subtitle",
+  "text": "*这支部队只是佯攻！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO07Subtitle",
+  "text": "*将军，他们有飞毛腿风暴！我们必须分散部队，不给他们目标！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO08Subtitle",
+  "text": "*等等……他们的目标不是我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO09Subtitle",
+  "text": "*GLA 毫无荣誉可言！他们为了开路把村庄夷为平地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO10Subtitle",
+  "text": "*我们应该建一座基地来控制这一地区"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO11Subtitle",
+  "text": "*我们的赫利克斯是天空中的霸王。多造一些来帮助我们控制该区域"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO12Subtitle",
+  "text": "*长官，我建议在关键位置部署监听站"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO13Subtitle",
+  "text": "*最新情报显示，GLA 正向这个位置撤退。我们将在这里坚守。不要让任何 GLA 单位离开这一区域。我们新的赫利克斯直升机定能确保你成功。我军从南方出现，就意味着你的主要目标已经完成"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO14Subtitle",
+  "text": "*最新情报显示，GLA 正向这个位置撤退。我们将在这里坚守。不要让任何 GLA 单位离开这一区域。如果逃走的敌人太多，我们的任务就会失败。我们新的赫利克斯直升机定能确保你成功。我军从南方出现，就意味着你的主要目标已经完成"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO15Subtitle",
+  "text": "*一波 GLA 正从西边逼近"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO16Subtitle",
+  "text": "*一波 GLA 正从南边逼近"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO17Subtitle",
+  "text": "*发现 GLA 部队从西南方逼近"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO18Subtitle",
+  "text": "*GLA 部队从东南方来袭"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO19Subtitle",
+  "text": "*一波 GLA 部队正从西南方逼近"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO20Subtitle",
+  "text": "*又一波 GLA 正在逼近"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO21Subtitle",
+  "text": "*干得漂亮，长官。情报确认你已消灭了整波敌人"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO22Subtitle",
+  "text": "*敌人即将突破我们的防线"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO23Subtitle",
+  "text": "*发现多次飞毛腿风暴发射"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO24Subtitle",
+  "text": "*我们的防线被突破了，指挥官，任务失败了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO25Subtitle",
+  "text": "*指挥官，我们的南方部队已经抵达。我们的任务成功了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO26Subtitle",
+  "text": "*将军，敌军就快逃脱了。我们必须尽快解决他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO27Subtitle",
+  "text": "*发现 GLA 部队正经过这个位置逃窜。进入防御阵地，等待与敌接触"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO28Subtitle",
+  "text": "*将军，发现敌人撤退的第 1 波已进入该区域，情报显示他们正沿着雷达上显示的路线移动"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO29Subtitle",
+  "text": "*将军，发现敌人撤退的第 2 波已进入该区域，情报显示他们正沿着雷达上显示的路线移动"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO30Subtitle",
+  "text": "*将军，发现敌人撤退的第 3 波已进入该区域，情报显示他们正沿着雷达上显示的路线移动"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO31Subtitle",
+  "text": "*将军，发现敌人撤退的第 4 波已进入该区域，情报显示他们正沿着雷达上显示的路线移动"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO32Subtitle",
+  "text": "*将军，发现敌人撤退的第 5 波已进入该区域，情报显示他们正沿着雷达上显示的路线移动"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO33Subtitle",
+  "text": "*我们的部队已从南方抵达。你成功阻止了敌人撤退。干得好，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO34Subtitle",
+  "text": "*将军，敌军已向北逃脱。我们的任务失败了"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi05OfficerC01Subtitle",
+  "text": "*是时候纠正我们的错误了。杀光他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi05OfficerC02Subtitle",
+  "text": "*把这些老鼠从洞里赶出来。懦夫都得死！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf01Subtitle",
+  "text": "*多亏你在哈尔伯施塔特的卓越表现，GLA 已所剩无几。美国情报在汉堡郊外找到了 GLA 最后的据点。遗憾的是，我们没能及时援助这一地区的美军，GLA 占领了他们的基地。组建你的部队，摧毁 GLA 和美军两座基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf02Subtitle",
+  "text": "*GLA 占领了该地区一座旧美军基地，正在扩充实力。你的最终目标是摧毁美军和 GLA 两座基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf03Subtitle",
+  "text": "*GLA 的隐形能力增强了，将军。他们现在几乎能让任何东西隐形。我们需要保持警惕"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf04Subtitle",
+  "text": "*使用监听站探测隐形单位"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf05Subtitle",
+  "text": "*将军，我建议你先集中力量攻击美军基地。我们需要摧毁他们的粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xChat01Subtitle",
+  "text": "*感觉就像在找复活节彩蛋，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin01Subtitle",
+  "text": "*下士！中国人有消息了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin02Subtitle",
+  "text": "*没有，长官，最后一条消息是 02:00 收到的……之后再也没有了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin03Subtitle",
+  "text": "*好吧，希望他们快点到。我们的情报显示 GLA 将发动全面进攻"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin04Subtitle",
+  "text": "*是，长官"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin06Subtitle",
+  "text": "*搞什么……！？发现敌人！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin07Subtitle",
+  "text": "*我们的基地被突破了……所有单位各就各位！答应给我们的中国人到底在哪儿！？"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin08Subtitle",
+  "text": "*手榴弹！手榴弹！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin09Subtitle",
+  "text": "*他们是从哪儿冒出来的？！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin10Subtitle",
+  "text": "*他们在占领我们的建筑！我们守不住了！所有单位，撤退！重复，撤退！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO01Subtitle",
+  "text": "*成了！美军基地断电了！在他们重建之前迅速解决他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO02Subtitle",
+  "text": "*干得好，将军。敌人再也无法生产美国单位了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO03Subtitle",
+  "text": "*干得好，将军。敌人再也无法生产 GLA 单位了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO04Subtitle",
+  "text": "*干得好，将军。美军基地已被消灭。摧毁 GLA 基地来结束这场战斗"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO05Subtitle",
+  "text": "*干得好，将军。GLA 基地已被消灭。摧毁美军基地来结束这场战斗"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO06Subtitle",
+  "text": "*我们必须完成美国没能完成的事。GLA 必须灭亡，世界才会和平"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO07Subtitle",
+  "text": "*如果我们能击败 GLA，把欧洲从它的魔爪中拯救出来，就会得到丰厚的回报"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO08Subtitle",
+  "text": "*将军，你将跻身中国最杰出的英雄之列。GLA 已经覆灭，中国是新世界中闪耀的灯塔。接受你的荣誉，沐浴在中国的荣光之中吧"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO09Subtitle",
+  "text": "*将军，敌人的隐形能力有所提升，但他们似乎没有使用坦克"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO10Subtitle",
+  "text": "*将军，GLA 指挥官缺少坦克。也许我们可以用兵力压倒他"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO11Subtitle",
+  "text": "*将军，我们的载具正在被贾曼·凯尔一辆辆干掉。要想有胜算，你必须找到他"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO12Subtitle",
+  "text": "*将军，敌人在使用劫车犯！我们必须阻止他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO13Subtitle",
+  "text": "*将军，敌人在附近的村庄里部署了狙击手。我们必须把他们清除出去"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO14Subtitle",
+  "text": "*将军，我们的部队正被敌人的四管机炮消灭，这里需要重型装甲"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO15Subtitle",
+  "text": "*将军，最新情报显示贾曼·凯尔可能藏在这个小村庄里"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO16Subtitle",
+  "text": "*将军，敌人的基地似乎在河对岸。也许我们可以在桥附近部署部队，把他困在里面"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO17Subtitle",
+  "text": "*将军，战场上有许多无人驾驶的载具……派单位去夺回它们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO18Subtitle",
+  "text": "*长官！我们在 C 区发现了战斗巴士。应该在它们到达我们基地之前解决它们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO19Subtitle",
+  "text": "*将军，敌人把单位偷偷送进了我们的基地！我们应该加强防御！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO20Subtitle",
+  "text": "*将军，敌人渗透进了我们的基地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO21Subtitle",
+  "text": "*将军！摧毁美军指挥中心就能阻止他的重型空中支援"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO22Subtitle",
+  "text": "*将军，我们需要尽快建成网络中心。它能帮我们找到敌人的位置"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO23Subtitle",
+  "text": "*将军，敌人的侧翼无人防守！这是我们反击的好机会！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO24Subtitle",
+  "text": "*将军，美国人拥有更先进的隐形探测技术。也许你应该占领这座基地而不是摧毁它"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi07RedGuard108Subtitle",
+  "text": "*伏击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion105Subtitle",
+  "text": "*中国人就在附近"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion108Subtitle",
+  "text": "*我们找到了一条秘密通道。那里防守薄弱"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion109Subtitle",
+  "text": "*我们遭到攻击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat01Subtitle",
+  "text": "*发现敌方防御建筑，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat02Subtitle",
+  "text": "*发现敌方阵地！我们必须找到绕过他们的路！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat03Subtitle",
+  "text": "*敌方巡逻队！所有单位，开火！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat04Subtitle",
+  "text": "*美国哨兵无人机！必须在它们拉响警报前迅速摧毁！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat05Subtitle",
+  "text": "*看他们手忙脚乱的样子！我们的进攻完全出其不意！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat06Subtitle",
+  "text": "*美国进攻部队正在逼近！我们必须守住阵地，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat07Subtitle",
+  "text": "*我们完全出其不意！所有单位，集中攻击他们的发电厂！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat08Subtitle",
+  "text": "*将军！我们伤亡惨重！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin01Subtitle",
+  "text": "*巡逻队呼叫基地：已找到目标，正在追击"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin02Subtitle",
+  "text": "*请注意，轰炸行动已经开始。小心，巡逻队"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin03Subtitle",
+  "text": "*收到，基地。我在右边"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin04Subtitle",
+  "text": "*我负责左边"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin05Subtitle",
+  "text": "*我遭到射击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin06Subtitle",
+  "text": "*咬住他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin07Subtitle",
+  "text": "*小心！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin08Subtitle",
+  "text": "*基地！查理三号被击落！重复：查理三号被击落！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin09Subtitle",
+  "text": "*继续追击，查理二号！这是我们抓住他的最好机会！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin10Subtitle",
+  "text": "*护卫已被消灭！我逮到他了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin11Subtitle",
+  "text": "*不——！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin12Subtitle",
+  "text": "*嘿嘿。将军，我们已经逃脱了……正前往会合点。GLA 必将东山再起"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin13Subtitle",
+  "text": "*收到。侦察小队出发"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin14Subtitle",
+  "text": "*侦察小队报告。没有发现敌人。等等……"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin15Subtitle",
+  "text": "*美军伏击！我们被包围了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin16Subtitle",
+  "text": "*哨兵无人机！这些美国人真狡猾。他们的无人机静止时会隐形。你必须小心行事，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen01Subtitle",
+  "text": "*美国人用军事检查站包围了我们的据点。你必须打开一条路"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen02Subtitle",
+  "text": "*将军，你必须帮助我们真正的领袖逃脱，这样 GLA 才能延续下去"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen03Subtitle",
+  "text": "*萨拉克斯博士也许为事业献出了生命，但他无足轻重。只要我们的兄弟逃出去，美国人就还没见识到 GLA 的全部"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen04Subtitle",
+  "text": "*将军。这处美军阵地周围的火力基地防御太强了。我们应该避免正面冲突，另找一条进入基地的路"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen05Subtitle",
+  "text": "*先按兵不动，将军。我们正派一支小队去侦察桥的另一边。他们会回报敌人的位置"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen06Subtitle",
+  "text": "*我的将军。我们的一支快速打击小队甩掉了美国追兵，并同意协助我们的任务。他们的火箭巢对付敌方装甲应该非常有用"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen07Subtitle",
+  "text": "*我们找到了一支爆破小队。他们将帮助我们摧毁外围的美军支援基地，打开一条通路"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen08Subtitle",
+  "text": "*将军。我们必须在运输机到达前控制机场。GLA 的存亡取决于你的成败"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen09Subtitle",
+  "text": "*我们的战斗摩托用途广泛。它们能增强忠诚步兵的能力，还能穿越崎岖地形，甚至从悬崖跳下也能幸存。用它们绕过美军据点，攻击他们薄弱的侧翼"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen10Subtitle",
+  "text": "*将军！美国人派出了第二批追兵来抓捕我们的领袖。不惜一切代价保护他！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen11Subtitle",
+  "text": "*将军，这座隐藏基地能为我们提供突破美军包围、抵达机场所需的资源"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen12Subtitle",
+  "text": "*将军，我们的领袖遭到攻击！绝不能让他落入美国人手中！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen13Subtitle",
+  "text": "*将军，你的部队离我们的领袖太远了。记住，他必须抵达机场，我们的事业才能延续"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen14Subtitle",
+  "text": "*又一座美军基地。必须消灭它。小心他们的火力基地，长官"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen15Subtitle",
+  "text": "*我们离机场很近了，将军。消灭美军，控制该区域，好让我们把领袖安全送走"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen16Subtitle",
+  "text": "*干得好，将军。有你指挥，我们不会失败"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen17Subtitle",
+  "text": "*我们到达机场了，长官。确保我们的领袖在飞机抵达时已在跑道上做好准备"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen18Subtitle",
+  "text": "*我们的飞机正在进场，将军！再坚持一会儿。我们的领袖必须活着登上那架飞机！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen19Subtitle",
+  "text": "*飞机到了。让我们的领袖登机，好把他送到安全的地方重整旗鼓"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen20Subtitle",
+  "text": "*飞机正在等我们的领袖登机。快把他带过来，将军。我们的部队无法永远抵挡美国人"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen21Subtitle",
+  "text": "*我们的特工贾曼·凯尔一直在袭扰美军补给线。他将为我们的任务提供很大帮助，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen22Subtitle",
+  "text": "*干得漂亮，将军。我们要让美国人看看，我们仍然有力量反抗他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen23Subtitle",
+  "text": "*我们发现了一支先遣侦察部队，将军。他们愿意协助我们完成任务"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen24Subtitle",
+  "text": "*将军！摧毁美军发电厂以关闭他们的基地防御！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen25Subtitle",
+  "text": "*我们的部队被削弱了，将军。我们必须更明智地选择战斗"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02Chatter04Subtitle",
+  "text": "*我们到了，听候你的命令"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02Chatter18Subtitle",
+  "text": "*所谓的美国优势也不过如此"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02General07Subtitle",
+  "text": "*美军来了。准备好！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat01Subtitle",
+  "text": "*敌人，他们在进攻！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat02Subtitle",
+  "text": "*抵抗太强了，一定有别的路"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat03Subtitle",
+  "text": "*必须阻止王子。绝不能让 GLA 落入他手中！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat04Subtitle",
+  "text": "*我们的基地遭到攻击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat05Subtitle",
+  "text": "*我们的宫殿被摧毁了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat06Subtitle",
+  "text": "*我们失去了兵营"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat07Subtitle",
+  "text": "*我们必须尽快重建军火商"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin01Subtitle",
+  "text": "*侦察一号呼叫基地。我即将结束巡逻。该区域安全"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin02Subtitle",
+  "text": "*这里是基地。你确定吗，侦察一号？我们收到报告，有与卡萨德王子有关的部队调动"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin03Subtitle",
+  "text": "*我非常确定。几个小时以来我除了沙尘和灌木什么都没看见。巡逻完就返回基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin04Subtitle",
+  "text": "*搞什么？"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin05Subtitle",
+  "text": "*侦察一号呼叫基地！与敌接触！重复，与敌接触！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin06Subtitle",
+  "text": "*侦察一号！你的位置在哪里？"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin07Subtitle",
+  "text": "*他要开火了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin08Subtitle",
+  "text": "*侦察一号，你的状况如何？侦察一号！报告！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin09Subtitle",
+  "text": "*一旦除掉卡萨德王子，GLA 就会在我们的控制之下。到时复仇将属于我们，美国异教徒将在烈火中焚烧"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin10Subtitle",
+  "text": "*卡萨德王子正在尽其所能夺取控制权。我们必须终结他的权力争夺"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen01Subtitle",
+  "text": "*将军，我们的资源快耗尽了——必须找到新的补给来源！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen02Subtitle",
+  "text": "*卡萨德企图夺取附近的资源！绝不能让他拿走本该属于我们的东西！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen03Subtitle",
+  "text": "*我们必须让 GLA 在一位领袖下重新团结起来！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen04Subtitle",
+  "text": "*小心！卡萨德对我们发动了偷袭！"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen05Subtitle",
+  "text": "*我们的计划比卡萨德那只老鼠宏大得多。当我们释放 GLA 的怒火时，整个世界都将颤抖"
+ }
+]

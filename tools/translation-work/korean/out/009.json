@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:ToolTipUSARangerCaptureBuilding",
+  "text": "목표 적 건물을 점령합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFire20mmCannon",
+  "text": "목표에 20mm 기관포를 발사합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireAntiTankMissiles",
+  "text": "목표에 대전차 미사일을 발사합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireRocketPods",
+  "text": "목표 지역에 로켓을 일제 사격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireScorpionRocket",
+  "text": "목표에 중로켓 한 발을 발사합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDHEWarhead",
+  "text": "스커드 미사일에 폭약을 장전합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDAnthraxWarhead",
+  "text": "스커드 미사일에 탄저균을 장전합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireToxinTractorSlime",
+  "text": "지역에 독소를 살포합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLARebelCaptureBuilding",
+  "text": "목표 적 건물을 점령합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLATerroristMakeCarBomb",
+  "text": "민간 차량에 들어가 폭약을 채웁니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireFireBomb",
+  "text": "목표에 화염 폭탄을 사용합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAHijackerHijack",
+  "text": "목표 적 차량을 탈취합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireJarmenKellVehicleSnipe",
+  "text": "차량 승무원을 사살합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireMIG",
+  "text": "발사"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardCaptureBuilding",
+  "text": "목표 적 건물을 점령합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireStunBullets",
+  "text": "목표 적 병사를 생포합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireBayonet",
+  "text": "목표 적 병사를 총검으로 공격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCaptureHack",
+  "text": "적 건물을 점령합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusVehicleHack",
+  "text": "적 차량을 무력화합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCashHack",
+  "text": "목표 적 보급 센터에서 돈을 훔칩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireHackerInternetHack",
+  "text": "인터넷을 해킹해 돈을 훔칩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaHackerBuildingHack",
+  "text": "강력한 컴퓨터 바이러스로 적 건물을 무력화합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaDragonTankFire",
+  "text": "발사"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireWall",
+  "text": "목표 지역에 호 모양의 불길을 깝니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipPickUpPrisoner",
+  "text": "적 포로를 태워 기지로 데려갑니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipReturnToPrison",
+  "text": "포로 수용 시설로 돌아갑니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireTankHunterTNTAttack",
+  "text": "TNT 폭약을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack",
+  "text": "칼로 목표 적 병사를 소리 없이 공격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonTimedDemo",
+  "text": "시한 폭약을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonPlaceRemoteCharge",
+  "text": "언제든 폭파할 수 있는 원격 폭약을 설치합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonDetonateCharges",
+  "text": "모든 원격 폭약을 폭파합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCancelConstruction",
+  "text": "건설 취소"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCommandCenter",
+  "text": "특수 무기를 지휘합니다. 건설 도저를 생산합니다. 레이더를 제공합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPowerPlant",
+  "text": "미군 기지에 전력을 공급합니다\n\n공급 전력: 5"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBarracks",
+  "text": "전투에 투입할 미군 병사를 훈련합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyCenter",
+  "text": "미군 치누크 보급 수집 기지\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWall",
+  "text": "미군 울타리 시스템. 레이저 센서가 울타리를 지나는 적 병력을 알립니다. 울타리는 적 차량의 이동을 막습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWarFactory",
+  "text": "모든 미군 지상 차량을 생산합니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPatriotBattery",
+  "text": "대지 및 대공 방어. 근처 패트리어트에 적 위치를 전달할 수 있습니다\n\n필요 전력: 3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAirField",
+  "text": "미군 항공기를 생산합니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannon",
+  "text": "맵 어디에나 입자 광선을 발사합니다\n\n필요 전력: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStrategyCenter",
+  "text": "모든 미군이 전투 계획 하나를 사용할 수 있습니다\n\n포격\n수색 섬멸\n전선 사수\n\n필요 전력: 2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDetentionCamp",
+  "text": "적을 정찰하는 능력을 부여합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyDropZone",
+  "text": "2분마다 보급품 공수 투하를 요청합니다\n\n필요 전력: 4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCommandCenter",
+  "text": "특수 무기를 지휘합니다. 일꾼을 훈련합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABUildDemoTrap",
+  "text": "은밀한 폭발 장치"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBarracks",
+  "text": "GLA 병사를 훈련합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSupplyStash",
+  "text": "보급품을 모읍니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildArmsDealer",
+  "text": "차량을 생산합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildCommandCenter",
+  "text": "특수 무기를 지휘합니다. 건설 도저를 생산합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPowerPlant",
+  "text": "중국 발전소. 과부하로 전력을 +50% 더 공급할 수 있습니다\n\n공급 전력: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBarracks",
+  "text": "중국 병사를 훈련합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyCenter",
+  "text": "중국 보급 수집 기지\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildWarFactory",
+  "text": "중국 차량을 생산합니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBunker",
+  "text": "중국 병사 5명을 수용할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaCenter",
+  "text": "중요한 중국 기술을 개발합니다\n\n필요 전력: 2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildAirField",
+  "text": "중국 항공기를 생산합니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingCannon",
+  "text": "강력한 대공 기지 방어\n\n필요 전력: 3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher",
+  "text": "핵미사일을 발사합니다. 중요한 중국 업그레이드를 개발합니다\n\n필요 전력: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSpeakerTower",
+  "text": "아군을 치료하고 사격 속도를 높입니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTunnelNetwork",
+  "text": "기지 방어 및 지하 터널. 유닛은 터널 네트워크에 들어가 다른 터널 네트워크로 나올 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPalace",
+  "text": "중요한 GLA 기술을 보유합니다. GLA 병력이 주둔할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBlackMarket",
+  "text": "중요한 GLA 기술을 보유합니다. GLA 플레이어에게 무료 보급품을 제공합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildStingerSite",
+  "text": "대공 및 대전차 기지 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScudStorm",
+  "text": "스커드 미사일을 일제 발사합니다\n\n재사용 대기시간: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPrison",
+  "text": "사로잡은 적 병사를 수용합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRanger",
+  "text": "강함: 보병\n약함: 경차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDozer",
+  "text": "모든 미군 건물을 짓고 건물을 수리합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildWorker",
+  "text": "모든 GLA 건물을 짓습니다. 건물을 수리하고 보급품을 모읍니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDozer",
+  "text": "모든 중국 건물을 짓고 건물을 수리합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScorpion",
+  "text": "강함: 경차량\n약함: 로켓병, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRocketBuggy",
+  "text": "강함: 건물\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRadarVan",
+  "text": "레이더를 제공합니다. 숨은 적 유닛을 발견할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildOverlord",
+  "text": "강함: 차량, 건물\n약함: 로켓 보병, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingTank",
+  "text": "강함: 보병, 항공기\n약함: 전차"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRebel",
+  "text": "강함: 보병\n약함: 전차, 경차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildRedguard",
+  "text": "5명 이상 모이면 무리 보너스를 받습니다\n\n강함: 보병\n약함: 차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHacker",
+  "text": "컴퓨터 바이러스로 적 건물을 무력화하거나 인터넷을 해킹해 돈을 훔칠 수 있습니다\n\n강함: 건물\n약함: 보병, 차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABUildChinook",
+  "text": "수송 헬기. 보급품을 모읍니다. 레인저와 함께 강습 투입 공격을 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyTruck",
+  "text": "보급품을 모읍니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPaladin",
+  "text": "레이저로 미사일과 적 보병을 파괴합니다\n\n강함: 전차, 건물, 로켓\n약함: 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRaptor",
+  "text": "지상 또는 공중 목표를 공격할 수 있습니다\n\n강함: 항공기, 전차, 경차량\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAurora",
+  "text": "초음속 공격 중에는 적 공격에 면역입니다. 초음속 공격 후 속도가 50%로 줄어듭니다\n\n강함: 건물\n약함: 전투기, 대공 유닛"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStealthFighter",
+  "text": "이동 중 스텔스\n\n강함: 적 기지 방어\n약함: 적 전투기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildComanche",
+  "text": "미사일과 기관포를 발사합니다. 공중에서 재무장합니다\n\n강함: 전차, 경차량, 보병\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMissileDefender",
+  "text": "특수 레이저 유도 공격으로 미사일을 빠르게 발사합니다\n\n강함: 전차, 항공기\n약함: 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPathFinder",
+  "text": "이동하거나 사격하지 않을 때 위장합니다. 숨은 적을 발견합니다\n\n강함: 보병\n약함: 경차량, 정찰병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildColonelBurton",
+  "text": "위장 상태. 사격하거나 폭탄을 설치하면 드러납니다\n\n생산 제한: 1\n강함: 보병\n약함: 정찰병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildTomahawk",
+  "text": "강함: 기지 방어\n약함: 전차, 항공기, 경차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHumvee",
+  "text": "수송 차량. 탑승한 보병이 사격구로 적과 교전할 수 있습니다\n\n강함: 보병\n약함: 전차"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMedic",
+  "text": "차량과 병사를 치료합니다. 방사능과 독소를 제거합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildScoutDrone",
+  "text": "시야를 넓히고 숨은 적을 드러냅니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBattleDrone",
+  "text": "소형 기관총을 쏘고 모체 차량을 수리합니다\n\n강함: 보병\n약함: 미사일 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMIG",
+  "text": "무리 지어 공격하면 화염 폭풍을 일으킵니다\n\n강함: 전차, 경차량\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBlackLotus",
+  "text": "적 건물을 점령하고, 적 보급 센터에서 돈을 훔치고, 적 차량을 무력화합니다. 능력을 쓰지 않을 때는 위장 상태입니다\n\n강함: 건물, 차량\n약함: 정찰 유닛"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTankHunter",
+  "text": "특수 TNT 공격\n5명 이상 모이면 무리 보너스를 받습니다\n\n강함: 전차\n약함: 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInfernoCannon",
+  "text": "무리 지어 공격하면 화염 폭풍을 일으킵니다\n\n강함: 기지 방어, 보병\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNukeLauncher",
+  "text": "강함: 건물, 보병\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTroopCrawler",
+  "text": "수송 차량. 레드가드 8명이 함께 나옵니다. 스텔스 유닛을 탐지합니다\n\n강함: 보병, 건물\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDragonTank",
+  "text": "건물 안의 병사를 불태워 몰아낼 수 있습니다. 화염벽을 만들 수 있습니다\n\n강함: 보병, 건물\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTerrorist",
+  "text": "자폭병\n\n강함: 전차, 건물\n약함: 보병, 경차량"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRPGTrooper",
+  "text": "강함: 전차\n약함: 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildAngryMob",
+  "text": "강함: 보병, 차량\n약함: 화염, 독소, 섬광탄"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildHijacker",
+  "text": "적 차량을 무엇이든 탈취할 수 있습니다. 위장 상태\n\n강함: 전차, 차량\n약함: 보병, 정찰병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildJarmenKell",
+  "text": "위장 상태. 민간 건물에 숨어 적 병사를 저격할 수 있습니다. 적 차량 승무원을 사살해 탈취할 수 있게 만듭니다\n\n강함: 보병, 차량\n약함: 정찰병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildToxinTruck",
+  "text": "건물 안의 적 병사를 제거합니다. 지형을 오염시킵니다\n적을 처치해 얻은 부품으로 무기를 업그레이드할 수 있습니다\n강함: 보병\n약함: 전차, 항공기, 기지 방어"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBattlemaster",
+  "text": "5대 이상 모이면 무리 보너스를 받습니다\n\n강함: 전차, 건물\n약함: 보병, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildMarauder",
+  "text": "적을 처치해 얻은 부품으로 무기를 업그레이드할 수 있습니다\n\n강함: 건물, 경차량\n약함: 로켓병, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTechnical",
+  "text": "적을 처치해 얻은 부품으로 무기를 업그레이드할 수 있습니다\n\n강함: 보병\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildQuadCannon",
+  "text": "적을 처치해 얻은 부품으로 무기를 업그레이드할 수 있습니다\n\n강함: 보병, 항공기\n약함: 전차"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBombTruck",
+  "text": "아군이든 적이든 어떤 차량으로도 위장할 수 있습니다\n\n강함: 보병, 건물\n약함: 정찰병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSCUDLauncher",
+  "text": "폭발 탄두나 생물 탄두를 장착할 수 있습니다\n\n강함: 건물, 보병\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCrusader",
+  "text": "강함: 차량, 건물\n약함: 항공기, 미사일 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePaladin",
+  "text": "팔라딘은 첨단 방어 레이저로 적 미사일을 격추할 수 있습니다\n\n생산 위치: 군수 공장"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePathFinder",
+  "text": "패스파인더는 위장한 정예 저격수입니다\n\n생산 위치: 병영"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceStealthFighter",
+  "text": "이동 중 스텔스\n\n생산 위치: 비행장"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpyDrone",
+  "text": "정찰 드론은 적의 시야와 레이더를 피하며 적 위치를 드러냅니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceParaDrop",
+  "text": "공중에서 레인저를 투하합니다\n\n등급 1: 5명 레인저\n등급 2: 10명 레인저\n등급 3: 20명 레인저\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceA10Strike",
+  "text": "A10 썬더볼트가 건물, 차량, 보병을 파괴합니다\n\n등급 1: A10 썬더볼트 1대\n등급 2: A10 썬더볼트 2대\n등급 3: A10 썬더볼트 3대\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceDaisyCutter",
+  "text": "연료 기화 폭탄이 건물과 적 병력 밀집 지역을 파괴합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeCannon",
+  "text": "핵 캐논은 소형 전술 핵탄을 멀리 날려 보냅니다\n\n생산 위치: 군수 공장\n필요: 선전 센터"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceRedGuardTraining",
+  "text": "모든 레드가드가 베테랑으로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceClusterMines",
+  "text": "집속 지뢰를 공중에서 살포합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceARtilleryTraining",
+  "text": "핵 캐논과 인페르노 캐논이 베테랑으로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceArtilleryBarrage",
+  "text": "맵 밖의 포병으로 목표를 타격합니다\n\n등급 1: 포탄 12발\n등급 2: 포탄 24발\n등급 3: 포탄 36발\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceEMPPulse",
+  "text": "중폭격기를 불러 EMP 펄스 폭탄을 투하합니다. EMP 펄스는 적 차량과 건물을 무력화합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceHijacker",
+  "text": "하이재커는 위장 상태이며 적 차량을 훔칠 수 있습니다\n\n생산 위치: 병영"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSCUDLauncher",
+  "text": "폭약이나 치명적인 탄저균을 장착할 수 있는 장거리 로켓을 발사합니다\n\n생산 위치: 무기상"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLaScienceMarauderTank",
+  "text": "마라우더 전차는 처치한 적의 잔해로 주포를 업그레이드할 수 있습니다\n\n생산 위치: 무기상"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceTechnicalTraining",
+  "text": "모든 테크니컬이 베테랑으로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceRebelAmbush",
+  "text": "어디서든 반군 기습 매복을 일으킵니다\n\n등급 1: 4명 반군\n등급 2: 8명 반군\n등급 3: 16명 반군\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceCashBounty",
+  "text": "적 유닛이나 건물을 처치할 때마다 현상금을 받습니다\n\n등급 1: 적 가치의 5%\n등급 2: 적 가치의 10%\n등급 3: 적 가치의 20%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceAnthraxBomb",
+  "text": "탄저균은 적 병력 밀집 지역에 치명적입니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSecurityFence",
+  "text": "차량의 통행을 막고 지나가는 적 보병을 알리는 보안 울타리를 짓습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildConcreteWall",
+  "text": "모든 지상 유닛의 통행을 막는 콘크리트 벽을 짓습니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBurningBarricade",
+  "text": "넘어가려는 유닛을 불태우는 불타는 바리케이드를 짓습니다"
+ },
+ {
+  "label": "GUI:QuitToDesktop",
+  "text": "바탕 화면으로 나가기"
+ },
+ {
+  "label": "GUI:QuitToDesktopConf",
+  "text": "정말 바탕 화면으로 나가시겠습니까?"
+ },
+ {
+  "label": "GUI:NewSaveGame",
+  "text": "***** 새 게임 *****"
+ },
+ {
+  "label": "GUI:TimeAM",
+  "text": "오전"
+ },
+ {
+  "label": "GUI:TimePM",
+  "text": "오후"
+ },
+ {
+  "label": "GUI:OverwriteSaveConfirmation",
+  "text": "기존 파일을 덮어쓰시겠습니까?"
+ },
+ {
+  "label": "GUI:LoadGameConfirmation",
+  "text": "현재 게임 데이터를 잃게 됩니다. 저장한 게임을 불러오시겠습니까?"
+ },
+ {
+  "label": "GUI:Rank1Required",
+  "text": "필요 계급 - 1성 장군"
+ },
+ {
+  "label": "GUI:Rank3Required",
+  "text": "필요 계급 - 3성 장군"
+ },
+ {
+  "label": "GUI:Rank8Required",
+  "text": "필요 계급 - 5성 장군"
+ },
+ {
+  "label": "GUI:Experience",
+  "text": "경험치"
+ },
+ {
+  "label": "GUI:RemainingSkillPoints",
+  "text": "포인트"
+ },
+ {
+  "label": "TOOLTIP:ExperienceToLevel",
+  "text": "다음 레벨까지 경험치"
+ },
+ {
+  "label": "GUI:SaveAndLoad",
+  "text": "저장/불러오기"
+ },
+ {
+  "label": "GUI:SaveTime",
+  "text": "시간"
+ },
+ {
+  "label": "GUI:SaveDate",
+  "text": "날짜"
+ },
+ {
+  "label": "SCIENCE:Rank1",
+  "text": "1성 장군"
+ },
+ {
+  "label": "SCIENCE:Rank2",
+  "text": "2성 장군"
+ },
+ {
+  "label": "SCIENCE:Rank3",
+  "text": "3성 장군"
+ },
+ {
+  "label": "SCIENCE:Rank4",
+  "text": "4성 장군"
+ },
+ {
+  "label": "SCIENCE:Rank5",
+  "text": "5성 장군"
+ },
+ {
+  "label": "SCIENCE:Rank6",
+  "text": "소장"
+ },
+ {
+  "label": "SCIENCE:Rank7",
+  "text": "중장"
+ },
+ {
+  "label": "SCIENCE:Rank8",
+  "text": "대장"
+ },
+ {
+  "label": "CONTROLBAR:StructureExit",
+  "text": "건물에서 나가기"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAircraftArmor",
+  "text": "MiG 장갑(&A)"
+ },
+ {
+  "label": "CONTROLBAR:RangerMachineGun",
+  "text": "기관총(&M)"
+ },
+ {
+  "label": "CONTROLBAR:RedguardMachineGun",
+  "text": "기관총(&M)"
+ },
+ {
+  "label": "CONTROLBAR:RebelMachineGun",
+  "text": "기관총(&M)"
+ },
+ {
+  "label": "CONTROLBAR:FlashBangGrenadeMode",
+  "text": "섬광탄(&F)"
+ },
+ {
+  "label": "CONTROLBAR:TranqDartsMode",
+  "text": "마취 다트 모드(&T)"
+ },
+ {
+  "label": "CONTROLBAR:StunBulletsMode",
+  "text": "생포 모드(&P)"
+ },
+ {
+  "label": "UPGRADE:AircraftArmor",
+  "text": "항공기 장갑"
+ },
+ {
+  "label": "MAP:USA03Open",
+  "text": "카자흐스탄 북부. 미군 전면 후퇴\n작전명: 가디언 엔젤"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeAircraftArmor",
+  "text": "MiG 체력 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRangerMachineGun",
+  "text": "다목적 공격용 기관총 모드로 전환합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRedguardMachineGun",
+  "text": "다목적 공격용 기관총 모드로 전환합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRebelMachineGun",
+  "text": "다목적 공격용 기관총 모드로 전환합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToUSAFlashBang",
+  "text": "섬광탄 사용"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToChinaStunBullets",
+  "text": "기절탄 사격 모드로 전환해 개활지의 적 병사를 생포합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToGLATranqDarts",
+  "text": "마취 다트 무기로 전환해 개활지의 적 병사를 생포합니다"
+ },
+ {
+  "label": "GUI:ProductionQueueFull",
+  "text": "유닛 생산 대기열이 가득 찼습니다"
+ },
+ {
+  "label": "GUI:ParkingPlacesFull",
+  "text": "모든 주기장이 차 있습니다"
+ },
+ {
+  "label": "GUI:UnitMaxedOut",
+  "text": "이 유닛은 이미 최대 수입니다"
+ },
+ {
+  "label": "CONTROLBAR:FireTomahawkAtPosition",
+  "text": "토마호크 폭격(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireTomahawkAtPosition",
+  "text": "지정 위치에 토마호크를 발사합니다"
+ },
+ {
+  "label": "GUI:SurrenderConfirmation",
+  "text": "정말 항복하시겠습니까?"
+ },
+ {
+  "label": "GUI:GameOver",
+  "text": "게임 종료"
+ },
+ {
+  "label": "TOOLTIP:RefreshNat",
+  "text": "방화벽 설정이나 ISP를 바꾼 뒤 클릭하십시오"
+ },
+ {
+  "label": "GUI:Surrender",
+  "text": "항복"
+ },
+ {
+  "label": "GUI:SuperweaponEmergencyRepair",
+  "text": "긴급 수리"
+ },
+ {
+  "label": "CONTROLBAR:FireNukeCannonAtPosition",
+  "text": "핵 포격(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireInfernoCannonAtPosition",
+  "text": "인페르노 포격(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudExplosiveAtPosition",
+  "text": "폭발 포격(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudAnthraxAtPosition",
+  "text": "탄저균 포격(&O)"
+ },
+ {
+  "label": "MAP:USA04Objective1Text",
+  "text": "임무 목표:\n해변의 GLA 병력 소탕"
+ },
+ {
+  "label": "MAP:USA04Objective2Text",
+  "text": "임무 목표:\n스팅어 기지 파괴"
+ },
+ {
+  "label": "MAP:USA04Objective3Text",
+  "text": "임무 목표:\nGLA 기지 파괴"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireNukeCannonAtPosition",
+  "text": "핵 캐논 포탄으로 지정 위치를 포격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireInfernoCannonAtPosition",
+  "text": "인페르노 캐논 포탄으로 지정 위치를 포격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudExplosiveAtPosition",
+  "text": "폭발 탄두로 지정 위치를 포격합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudAnthraxAtPosition",
+  "text": "탄저균 탄두로 지정 위치를 포격합니다"
+ },
+ {
+  "label": "TOOLTIP:Brightness",
+  "text": "게임 밝기를 조절합니다"
+ },
+ {
+  "label": "TOOLTIP:ScrollSpeed",
+  "text": "맵 스크롤 속도를 조절합니다"
+ }
+]

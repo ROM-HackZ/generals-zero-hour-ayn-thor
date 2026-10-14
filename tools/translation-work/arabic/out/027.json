@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry088Subtitle",
+  "text": "*إن لم تنسحب الآن فسأطلق الحشد ليكشطك عن أرضنا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry089Subtitle",
+  "text": "*هل تشعر باقتراب النهاية أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry090Subtitle",
+  "text": "*هاها! هزمتك. والآن عليك أن تختار: الانضمام إلى حشدي أو الموت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry091Subtitle",
+  "text": "*حان وقت إطلاق الحشد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry092Subtitle",
+  "text": "*واجهني واسقط كالبقية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry093Subtitle",
+  "text": "*رجالي سيسحقونك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry094Subtitle",
+  "text": "*سنخترقك كالجراد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry095Subtitle",
+  "text": "*رجال؟ أين رجالي؟ لن تفكر في إطلاق سراحي، صحيح؟ أرجوك لا تؤذني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry096Subtitle",
+  "text": "*عندنا زيّ جميل في الحشد... لن يكون الأمر سيئًا... قد يعجبك حتى. لكنني أشك في ذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry097Subtitle",
+  "text": "*هل أنت مستعد لمواجهة حشدي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry098Subtitle",
+  "text": "*وتذكّر، هذه مجرد الموجة الأولى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser001Subtitle",
+  "text": "*أنت في مرمى تصويبي الآن أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser002Subtitle",
+  "text": "*بدء الهجوم الدقيق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser003Subtitle",
+  "text": "*(تُدمَّر وحدات اللاعب) اختيار مثير للاهتمام للتكتيكات، لم يساعد خصمي السابق أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser004Subtitle",
+  "text": "*أنا على وشك الهجوم، ظننت أن التحذير سيفيدك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser005Subtitle",
+  "text": "*ربما عليك إعادة تقييم استراتيجياتك، فمن الواضح أنها لا تنجح"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser006Subtitle",
+  "text": "*كيف تجد ألعابي الجديدة أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser007Subtitle",
+  "text": "*استعد أيها الجنرال، أنت على وشك تلقّي درس في الحرب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser008Subtitle",
+  "text": "*ما يأتي بسهولة يذهب بسهولة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser009Subtitle",
+  "text": "*ربما لم تُخلق لهذا، جرّب الرسم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser010Subtitle",
+  "text": "*جميلة، أليس كذلك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser011Subtitle",
+  "text": "*ستخترق أشعة الليزر لديّ دفاعاتك كسكين ساخنة في الزبدة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser012Subtitle",
+  "text": "*كش مات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser013Subtitle",
+  "text": "*إنه عصر جديد تمامًا من الحروب أيها الجنرال، وهو قادم إلى عتبة بابك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser014Subtitle",
+  "text": "*عُلّم الهدف--جميع القوات تبدأ الهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser015Subtitle",
+  "text": "*في الأصل كانت كل أسلحتي مزودة بالتصويب بالليزر، لكن أعدائي اختلطت عليهم الأمور"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser016Subtitle",
+  "text": "*لا تنظر إلى الليزر مباشرة--قد يحرق مؤخرة رأسك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser017Subtitle",
+  "text": "*شحن الليزر... انتظر من فضلك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser018Subtitle",
+  "text": "*يجب معايرة الليزر بدقة لتحقيق أقصى تأثير"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser019Subtitle",
+  "text": "*أيتها الجرافات، ابني مزيدًا من المفاعلات--الليزر يستهلك طاقة كثيرة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser020Subtitle",
+  "text": "*هل تستطيع مجاراة خمسين مليون ميغاجول من طاقة الليزر أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser021Subtitle",
+  "text": "*تبدو كمعركة فضائية كبيرة، أليس كذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser022Subtitle",
+  "text": "*أشعة الليزر لديّ ستحوّل دروعك إلى بخار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser023Subtitle",
+  "text": "*أيها الجنرال، عليك حقًا أن تحاول تنسيق هجماتك--كان هذا سهلًا جدًا عليّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser024Subtitle",
+  "text": "*لا تشتت انتباهك الأضواء الجميلة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser025Subtitle",
+  "text": "*هل تريد أن أنقلك بالشعاع إلى المركبة أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser026Subtitle",
+  "text": "*أسلحتك لا تضاهي دقتي المتناهية أيها الجنرال. لمَ لا تستسلم وحسب؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser027Subtitle",
+  "text": "*لماذا لا تبني ثكنات أخرى أيها الجنرال؟ سأستمتع بتدميرها أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser028Subtitle",
+  "text": "*إن لم تستطع حماية مصنع حربك، فما مدى أمان مركز قيادتك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser029Subtitle",
+  "text": "*طائراتك ليست بمأمن من الليزر لديّ، خصوصًا من دون مطارك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser030Subtitle",
+  "text": "*دفاعات قاعدتك بلا قيمة أمامي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser031Subtitle",
+  "text": "*آه، مركز القيادة--ملكة رقعة الشطرنج هذه. هذه المباراة شبه منتهية الآن أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser032Subtitle",
+  "text": "*دمّر الليزر لديّ الكثير من مبانيك... كيف تواصل القتال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser033Subtitle",
+  "text": "*أيها الجنرال، لا تدمّر مبانيّ التقنية، أحتاجها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser034Subtitle",
+  "text": "*ابتعد عن ثكناتي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser035Subtitle",
+  "text": "*مصنع حربي! لااا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser036Subtitle",
+  "text": "*كيف تجرؤ على تدمير مطاري!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser037Subtitle",
+  "text": "*يدمّرون دفاعاتنا! جميع القوات: دافعوا عن القاعدة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser038Subtitle",
+  "text": "*أيها الجنرال، هذه الخسائر غير مقبولة. سأرد لك تدمير مبانيّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser039Subtitle",
+  "text": "*لا! بسرعة، أيتها الجرافات أعيدي بناء مركز القيادة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser040Subtitle",
+  "text": "*أيها الجنرال، إن أسقطت مزيدًا من طائراتي فسأستخدم كل أسلحتي الخارقة لتدميرك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser041Subtitle",
+  "text": "*اترك مركباتي وشأنها أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser042Subtitle",
+  "text": "*أنت تطارد رجالي عمدًا، أليس كذلك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser043Subtitle",
+  "text": "*اجنِ مكاسب برج النفط ذاك ما دمت تستطيع؛ سنأتي لأخذه قريبًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser044Subtitle",
+  "text": "*منصة المدفعية تلك ليست ندًا لليزر المحمول جوًا لديّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser045Subtitle",
+  "text": "*هل تعلم أن مصفاة النفط تلك تتيح لك بناء المركبات أسرع وبكفاءة أكبر؟ أوبس، ما كان يجب أن أخبرك بذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser046Subtitle",
+  "text": "*فعّلت أشعة الإنذار الليزرية على محيطنا الخارجي أيها الجنرال. نعرف الآن أنك هناك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser047Subtitle",
+  "text": "*أراك تقترب من قاعدتي أيها الجنرال. لا أنصحك بالاقتراب أكثر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser048Subtitle",
+  "text": "*العدو في قاعدتنا! جميع القوات تعود وتنشر الليزر!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser049Subtitle",
+  "text": "*ابتعد عن مفاعلاتي أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser050Subtitle",
+  "text": "*أيها الجنرال، تلك الموارد لي--ابتعد عنها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser051Subtitle",
+  "text": "*هجوم من الأجناب، هاه؟ ستحتاج إلى أكثر من حيل تكتيكية لهزيمتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser052Subtitle",
+  "text": "*هجمات على الأجناب؟! أنت مخادع أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser053Subtitle",
+  "text": "*نعم، ادخل من بابي الأمامي مباشرة أيها الجنرال... إن كنت تجرؤ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser054Subtitle",
+  "text": "*احذر أيها الجنرال--الباب الخلفي لقاعدتي ليس بلا دفاع كما يبدو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser055Subtitle",
+  "text": "*أنت أحمق لمجيئك إلى هنا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser056Subtitle",
+  "text": "*هذه الموارد لا تكفي لإنقاذ استراتيجيتك الفاشلة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser057Subtitle",
+  "text": "*لا! ابتعد! أحتاج إلى تلك المفاعلات لتشغيل الليزر!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser058Subtitle",
+  "text": "*نفدت الطاقة؟! كيف تركت قاعدتك تنفد طاقتها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser059Subtitle",
+  "text": "*نفاد الطاقة خطأ قاتل أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser060Subtitle",
+  "text": "*نفدت مواردك أيها الجنرال. لن تتعافى قبل أن نجتاحك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser061Subtitle",
+  "text": "*نفدت الموارد؟! هذا غير مقبول! أيتها الشينوك، اجمعي أسرع!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser062Subtitle",
+  "text": "*بع عاصفة سكود تلك أيها الجنرال، وإلا دمّرتها لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser063Subtitle",
+  "text": "*تلك الصومعة النووية لن توقفني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser064Subtitle",
+  "text": "*إن بنيت مدفع جسيمات ودمّرته أنا بشعاع جسيمات... أهذه مفارقة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser065Subtitle",
+  "text": "*هذا العدد المفرط من دفاعات القاعدة سيبطئ الليزر لديّ فقط أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser066Subtitle",
+  "text": "*دباباتك التقليدية ليست ندًا لمنصات أسلحتي الليزرية أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser067Subtitle",
+  "text": "*هذه طائرات كثيرة أيها الجنرال. هل تقدّم عرضًا جويًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser068Subtitle",
+  "text": "*درّبت عددًا لا بأس به من المشاة هناك أيها الجنرال. لا أطيق صبرًا لأرى هذه الخطة المجنونة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser069Subtitle",
+  "text": "*بدأت قاعدتك تبدو كحيّ سكني أيها الجنرال. ربما عليّ أن ألعب لعبة وصل النقاط بمدفع الجسيمات لأخفف أعدادك قليلًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser070Subtitle",
+  "text": "*سأسقط صواريخ سكود تلك أيها الجنرال. ثم ستدفع الثمن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser071Subtitle",
+  "text": "*سيُسقط الليزر لديّ تلك القنبلة النووية أيها الجنرال. والغبار المشع سيكون على يديك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser072Subtitle",
+  "text": "*مدفع جسيمات؟! ترى ماذا سيحدث لو قاطعنا الأشعة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser073Subtitle",
+  "text": "*أيها الجنرال، لا تتحصن في ذلك المبنى؛ اخرج لتلعب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser074Subtitle",
+  "text": "*أيها الجنرال، العقيد بيرتون أحمق أخرق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser075Subtitle",
+  "text": "*اللوتس الأسود ليست غير مرئية لليزر لديّ أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser076Subtitle",
+  "text": "*أرجو ألا يستخدم جارمن كيل منظار ليزر على بندقيته... فلن ينفع ضدي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser077Subtitle",
+  "text": "*بناء مطار لا يوفر إلا أهدافًا جوية لليزر لديّ أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser078Subtitle",
+  "text": "*ستحتاج إلى دبابات كثيرة لتصل إليّ أيها الجنرال. بالتوفيق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser079Subtitle",
+  "text": "*بناء الثكنات لن يجلب لرجالك إلا الأذى أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser080Subtitle",
+  "text": "*تبيع منشآتك، هاه؟ هذا أول خطأ يرتكبه جنرال يائس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser081Subtitle",
+  "text": "*ماذا؟! لا يمكن أن تكون تهزمني! قلة دقتك وحدها يجب أن تضمن انتصاري"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser082Subtitle",
+  "text": "*لا يمكن أن أخسر أمامك--أنت مهرّج أخرق!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser083Subtitle",
+  "text": "*كيف تفوز؟ لم تجرِ الأمور هكذا في المحاكاة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser084Subtitle",
+  "text": "*حسبت كل المتغيرات، ومع ذلك أنت تفوز... كيف يمكن هذا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser085Subtitle",
+  "text": "*لا! لا يمكن أن تكون هذه النهاية! أي خدعة استخدمت لهزيمتي؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser086Subtitle",
+  "text": "*تخطيطي واستعدادي يقودانني إلى نصر واضح"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser087Subtitle",
+  "text": "*الدقة تهزم القوة الغاشمة دائمًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser088Subtitle",
+  "text": "*لا بد أن هذا كالكابوس بالنسبة إليك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser089Subtitle",
+  "text": "*هل قررت كيف ستتقبّل هذه الهزيمة أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser090Subtitle",
+  "text": "*لقد هُزمت أيها الجنرال. لكن هذا لم يكن موضع شك أصلًا، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser091Subtitle",
+  "text": "*الليزر مشحون--تتبّع الأهداف الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser092Subtitle",
+  "text": "*لست من مستواي أيها الجنرال--جرّب خصمًا أسهل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser093Subtitle",
+  "text": "*أحسب أنك ستخسر هذه المعركة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser094Subtitle",
+  "text": "*الليزر يصنع أسلحة متفوقة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser095Subtitle",
+  "text": "*هزمتني أيها الجنرال، لكنني سأمسح تكتيكاتك وأضع استراتيجية أفضل منها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser096Subtitle",
+  "text": "*ظهرت نقاط ضعفك بوضوح حين مسحت تكتيكاتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser097Subtitle",
+  "text": "*ها أنت ذا أيها الجنرال--رسمت الخط على الرمل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser098Subtitle",
+  "text": "*والآن أتحداك أن تعبره. تعال وخذني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke001Subtitle",
+  "text": "*على الأقل حرّها ناشف، مش رطب أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke002Subtitle",
+  "text": "*قريبًا ستتوهج قاعدتك كالشمس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke003Subtitle",
+  "text": "*كيف تتوقع أن تقاتل هذا أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke004Subtitle",
+  "text": "*أسلحتك لا تضاهي قوتي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke005Subtitle",
+  "text": "*انصهر! كل شيء يجب أن ينصهر!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke006Subtitle",
+  "text": "*التوهج! التوهج الرائع! ألا تراه أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke007Subtitle",
+  "text": "*يبدو أن شتاء هذا العام نووي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke008Subtitle",
+  "text": "*النهاية قريبة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke009Subtitle",
+  "text": "*هذه مجرد البداية أيها الجنرال. بداية النهاية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke010Subtitle",
+  "text": "*لا تقلق أيها الجنرال، الرؤوس الحربية في طريقها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke011Subtitle",
+  "text": "*آسف على التأخير أيها الجنرال؛ أجمع قواتي فقط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke012Subtitle",
+  "text": "*هل بدأ الحر يؤثر فيك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke013Subtitle",
+  "text": "*بدأت أعصابك تنصهر أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke014Subtitle",
+  "text": "*جميع القوات، استعدوا للهجوم التالي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke015Subtitle",
+  "text": "*أين وضعت رموز الإطلاق تلك يا ترى؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke016Subtitle",
+  "text": "*هل أنت مستعد للمزيد أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke017Subtitle",
+  "text": "*أظن أن هذا عمر النصف لديك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke018Subtitle",
+  "text": "*أرجو ألا يكون رادارك معطلًا أيها الجنرال؛ سيؤسفني أن يفوتك ما هو قادم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke019Subtitle",
+  "text": "*أعرف نقاط ضعفك الآن أيها الجنرال. الهجوم التالي لن يُوقف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke020Subtitle",
+  "text": "*قريبًا ستعرف مجد ترسانتي النووية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke021Subtitle",
+  "text": "*لو كنت مكانك لخزّنت الكثير من واقي الشمس أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke022Subtitle",
+  "text": "*\"    Ne"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke023Subtitle",
+  "text": "*في النهاية يجب أن يفوز أحد بسباق التسلح، وإلا فما جدوى السباق؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke024Subtitle",
+  "text": "*حان وقت ارتداء الملابس الداخلية المصنوعة من الرصاص"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke025Subtitle",
+  "text": "*تذكّر: لا تنظر إلى الانفجار مباشرة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke026Subtitle",
+  "text": "*يبدو أنك درّبت رجالك على الموت فقط أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke027Subtitle",
+  "text": "*أصبح مصنع حربك الآن حفرة متوهجة. رائع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke028Subtitle",
+  "text": "*دفاعاتك تتكسر كقشور البيض أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke029Subtitle",
+  "text": "*أوه، لم تكن في مركز القيادة ذاك، صحيح أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke030Subtitle",
+  "text": "*لماذا تدمّر ثكناتي أيها الجنرال؟ ليس رجالي من يجب أن تخشاهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke031Subtitle",
+  "text": "*مصنع حربي! ماذا فعلت؟! دباباتي الغالية... ذهبت..."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke032Subtitle",
+  "text": "*اتركني وشأني! ماذا فعلت لك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke033Subtitle",
+  "text": "*مركز قيادتي! لا!!! لن أفقد القيادة! لن أفقدها!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke034Subtitle",
+  "text": "*لا أصدق أنك تهزمني! هل تمنحني لحظة لأعيد البناء؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke035Subtitle",
+  "text": "*تكبّدنا خسائر فادحة على يديك أيها الجنرال، لكن الأمر لم ينتهِ بعد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke036Subtitle",
+  "text": "*أيها الجنرال، يمكنك أخذ برج النفط ذاك، لكنه لن يساعدك على إيقافي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke037Subtitle",
+  "text": "*اخرج من قاعدتي أيها الجنرال! لن أطلب مرتين"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke038Subtitle",
+  "text": "*كم كنت تنوي البقاء في قاعدتي أيها الجنرال؟ هل أجهّز لك سريرًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke039Subtitle",
+  "text": "*غادر قاعدتي أيها الجنرال، وإلا اضطررت لتفجير رؤوسي الحربية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke040Subtitle",
+  "text": "*هل تعجبك قريتي أيها الجنرال؟ تفضّل، البيت بيتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke041Subtitle",
+  "text": "*جئت لتفقّد القنابل النووية أيها الجنرال؟ يمكنك النظر، لكن لا تلمس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke042Subtitle",
+  "text": "*لو كنت مكانك لحذرت أيها الجنرال؛ هذه المستودعات النووية تميل إلى التسرب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke043Subtitle",
+  "text": "*ابتعد عن إمداداتي أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke044Subtitle",
+  "text": "*أيها الجنرال، لو كنت مكانك لما استوليت على برج النفط ذاك--سأدمّره فقط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke045Subtitle",
+  "text": "*ابتعد عن صوامعي أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke046Subtitle",
+  "text": "*أرى أن طاقتك منقطعة أيها الجنرال. هل أرسل لك بعض الطاقة النووية؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke047Subtitle",
+  "text": "*نفدت أموالك بالفعل؟ ألا تعرف أن الحرب مكلفة أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke048Subtitle",
+  "text": "*أرجوك، ابنِ مزيدًا من الدبابات أيها الجنرال؛ حتى هي ستنصهر... في النهاية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke049Subtitle",
+  "text": "*أبعدوا تلك الطائرات عن صوامعي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke050Subtitle",
+  "text": "*كل هؤلاء الجنود أيها الجنرال. هل يرتدون بدلات الإشعاع؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke051Subtitle",
+  "text": "*كم قنبلة نووية تظن أنني سأحتاج لتدمير ذلك السلاح الجديد أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke052Subtitle",
+  "text": "*كم قنبلة نووية تظن أنني سأحتاج لتدمير ذلك السلاح الجديد أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke053Subtitle",
+  "text": "*تبيع المباني؟ أيها الجنرال، لو أردت إخلاء تلك المنطقة لفعلت ذلك من أجلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke054Subtitle",
+  "text": "*لا تستطيع الصمود أمام جبروتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke055Subtitle",
+  "text": "*استسلم! أم تريد أن يستمر القصف؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke056Subtitle",
+  "text": "*أنت تخسر هذه الحرب أيها الجنرال. بضع قنابل أخرى وستسقط قاعدتك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke057Subtitle",
+  "text": "*القوة تصنع الحق. ألا توافقني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke058Subtitle",
+  "text": "*والآن هجومي الأخير. انتظر أيها الجنرال، سيعجبك هذا... مهلًا، لا، لن يعجبك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke059Subtitle",
+  "text": "*لن يصمد أحد أمام ترسانتنا النووية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke060Subtitle",
+  "text": "*تحدّني وستتوهج قاعدتك كالشمس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke061Subtitle",
+  "text": "*قريبًا لن تكون أكثر من نفايات نووية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke062Subtitle",
+  "text": "*لحظة أخرى فقط وكنت سأحوّلك إلى غبار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke063Subtitle",
+  "text": "*أنت محظوظ لأنك نجوت من هذه المعركة سالمًا. تحدّني مرة أخرى إن كنت تجرؤ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke064Subtitle",
+  "text": "*مرحبًا بك في الحفلة أيها الجنرال. اعذر الفوضى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke065Subtitle",
+  "text": "*الآن أيها الجنرال، أظنك فهمت لماذا يسمّونني ماو النووي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke066Subtitle",
+  "text": "*كنا ننتظرك أيها الجنرال. تفضّل بقبول هدايانا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke067Subtitle",
+  "text": "*مزيد من الهدايا أيها الجنرال. كرمنا لا حدود له"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke068Subtitle",
+  "text": "*الآن تبدأ المعركة بجدية. استعد أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke069Subtitle",
+  "text": "*الاندماج البارد ليس طريقة لإنتاج الطاقة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke070Subtitle",
+  "text": "*يؤلمني أن أدمّر مفاعلاتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke071Subtitle",
+  "text": "*تسمّي هذا \"سلاحًا خارقًا\" أيها الجنرال؟ إنه ينكسر كاللعبة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke072Subtitle",
+  "text": "*لا! رؤوسي الحربية! رؤوسي الحربية الجميلة! ستدفع الثمن أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke073Subtitle",
+  "text": "*لا بأس أيها الجنرال، عندي مزيد من القنابل النووية لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke074Subtitle",
+  "text": "*هيه، هل تعرف كم تكلّف تلك الصومعة النووية؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke075Subtitle",
+  "text": "*حسنًا أيها الجنرال، يكفي--بدأت قنابلي النووية تنفد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke076Subtitle",
+  "text": "*لماذا تريد تفجير قنابلي النووية أصلًا أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke077Subtitle",
+  "text": "*لا! كانت تلك آخر صومعة نووية لديّ! لماذا أيها الجنرال... لماذا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke078Subtitle",
+  "text": "*(خسر العدو كل الصوامع) دمّرت كل صوامعي... لماذا أيها الجنرال؟ لماذا؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke079Subtitle",
+  "text": "*(العدو يستولي على ثكنات اللاعب) استوليت على ثكناتك أيها الجنرال. ربما أبيعها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke080Subtitle",
+  "text": "*(العدو يستولي على مصنع حرب اللاعب) استولى رجالي على مصنع حربك. كان يجب أن تحرسه أفضل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke081Subtitle",
+  "text": "*(قاعدة اللاعب) دفاعاتك ضعيفة أيها الجنرال؛ دخلنا قاعدتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke082Subtitle",
+  "text": "*(منطقة القتال) قواتي في الميدان أيها الجنرال. قريبًا ستزحف إلى قاعدتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke083Subtitle",
+  "text": "*(منطقة مستودع الإمدادات) آه، وجدنا بعض الإمدادات. قريبًا سنسيطر على كل الموارد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke084Subtitle",
+  "text": "*(منطقة مستودع الإمدادات الثانية) مزيد من الإمدادات لنا. كيف تموّل جنودك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke085Subtitle",
+  "text": "*(منطقة برج النفط) أيها الحرس الأحمر--استولوا على برج النفط ذاك!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke086Subtitle",
+  "text": "*يبدو أننا استهلكنا كل الإمدادات في المنطقة. أرجو أنك دبّرت أمورك بطريقة أخرى أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke087Subtitle",
+  "text": "*(نفدت طاقة العدو) ماذا؟! نفدت طاقتي؟ كيف تنفد طاقتي؟ فليحضر لي أحدكم مزيدًا من الطاقة! الآن!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke088Subtitle",
+  "text": "*(سيارة إسعاف) سيارة الإسعاف تلك لن تنقذ رجالك من الإشعاع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke089Subtitle",
+  "text": "*(مركز الاستراتيجية) مركز استراتيجية؟ أي استراتيجية يمكن أن تبتكرها لقتالي؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke090Subtitle",
+  "text": "*(السوق السوداء) السوق السوداء لن تبيعك شيئًا قويًا بما يكفي لإيقافي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke091Subtitle",
+  "text": "*(مركز الدعاية) دعايتك لن تقلب أحدًا ضد قوتي النووية أيها الجنرال"
+ }
+]

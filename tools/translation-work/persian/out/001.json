@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BuildingsBuilt",
+  "text": "ساختمان‌های\nساخته‌شده"
+ },
+ {
+  "label": "GUI:BuildingsLost",
+  "text": "ساختمان‌های\nازدست‌رفته"
+ },
+ {
+  "label": "GUI:BuildingsKilled",
+  "text": "ساختمان‌های\nنابودشده"
+ },
+ {
+  "label": "GUI:ResourcesCollected",
+  "text": "تدارکات\nجمع‌آوری‌شده"
+ },
+ {
+  "label": "GUI:QuitPopupTitle",
+  "text": "خروج؟"
+ },
+ {
+  "label": "GUI:QuitPopupMessage",
+  "text": "آیا مطمئنید که می‌خواهید خارج شوید؟"
+ },
+ {
+  "label": "GUI:MaxSelectionSize",
+  "text": "در هر لحظه فقط می‌توانید %d یگان انتخاب کنید"
+ },
+ {
+  "label": "GUI:MessagesOn",
+  "text": "پیام‌ها فعال شد"
+ },
+ {
+  "label": "GUI:MissionDescription",
+  "text": "شرح مأموریت"
+ },
+ {
+  "label": "GUI:MOTD",
+  "text": "پیام روز"
+ },
+ {
+  "label": "GUI:DesyncTitle",
+  "text": "ناهمگام"
+ },
+ {
+  "label": "GUI:DesyncText",
+  "text": "C&C Generals Zero Hour با دیگر شرکت‌کنندگان بازی ناهمگام شده است. ممکن است دیگر شرکت‌کنندگان نسخه خود را تغییر داده باشند. C&C Generals Zero Hour نمی‌تواند ادامه دهد، اما اگر نمی‌خواهید در آینده با آن‌ها بازی کنید، می‌توانید از طریق ارتباط‌گر آن‌ها را به فهرست نادیده‌گرفته‌ها اضافه کنید"
+ },
+ {
+  "label": "GUI:LadderDetails",
+  "text": "اطلاعات رده‌بندی"
+ },
+ {
+  "label": "GUI:SystemMaps",
+  "text": "نقشه‌های رسمی"
+ },
+ {
+  "label": "GUI:UserMaps",
+  "text": "نقشه‌های غیررسمی"
+ },
+ {
+  "label": "GUI:WaitingToBeginConnection",
+  "text": "در انتظار شروع"
+ },
+ {
+  "label": "GUI:NetgearDelay",
+  "text": "تأخیر ارسال"
+ },
+ {
+  "label": "GUI:WaitingForManglerResponse",
+  "text": "در انتظار پاسخ ارائه‌دهنده اینترنت خارجی"
+ },
+ {
+  "label": "GUI:WaitingForMangledPort",
+  "text": "در انتظار شماره پورت"
+ },
+ {
+  "label": "GUI:WaitingForResponse",
+  "text": "در انتظار پاسخ کاوش"
+ },
+ {
+  "label": "GUI:ConnectionDone",
+  "text": "اتصال برقرار شد"
+ },
+ {
+  "label": "GUI:ConnectionFailed",
+  "text": "اتصال ناموفق بود"
+ },
+ {
+  "label": "GUI:UnknownConnectionState",
+  "text": "وضعیت NAT/دیوار آتش نامشخص است"
+ },
+ {
+  "label": "GUI:Logout",
+  "text": "منوی اصلی"
+ },
+ {
+  "label": "GUI:CancelMapSelect",
+  "text": "لغو"
+ },
+ {
+  "label": "GUI:Deny",
+  "text": "رد کردن"
+ },
+ {
+  "label": "GUI:Victory",
+  "text": "پیروزی"
+ },
+ {
+  "label": "GUI:Ignore",
+  "text": "نادیده گرفتن"
+ },
+ {
+  "label": "GUI:Unignore",
+  "text": "لغو نادیده گرفتن"
+ },
+ {
+  "label": "GUI:Stats",
+  "text": "هویت"
+ },
+ {
+  "label": "GUI:GetMapPack",
+  "text": "دانلود بسته نقشه"
+ },
+ {
+  "label": "GUI:Defeat",
+  "text": "شکست"
+ },
+ {
+  "label": "GUI:YouAreVictorious",
+  "text": "پیروز شدی!"
+ },
+ {
+  "label": "GUI:YouHaveBeenDefeated",
+  "text": "شکست خوردی"
+ },
+ {
+  "label": "GUI:PlayerAlive",
+  "text": "در حال بازی"
+ },
+ {
+  "label": "GUI:PlayerDead",
+  "text": "شکست‌خورده"
+ },
+ {
+  "label": "GUI:PlayerObserver",
+  "text": "در حال تماشا"
+ },
+ {
+  "label": "GUI:PlayerObserverGone",
+  "text": "غایب"
+ },
+ {
+  "label": "GUI:PlayerGone",
+  "text": "غایب"
+ },
+ {
+  "label": "GUI:PlayerName",
+  "text": "نام بازیکن"
+ },
+ {
+  "label": "GUI:Info",
+  "text": "اطلاعات بازیکن"
+ },
+ {
+  "label": "GUI:Players:",
+  "text": "بازیکنان:"
+ },
+ {
+  "label": "GUI:GameOptions:",
+  "text": "گزینه‌های بازی:"
+ },
+ {
+  "label": "GUI:GameName:",
+  "text": "بازی:"
+ },
+ {
+  "label": "GUI:MapName:",
+  "text": "نقشه:"
+ },
+ {
+  "label": "GUI:SelectMap",
+  "text": "انتخاب نقشه"
+ },
+ {
+  "label": "GUI:SelectAMap",
+  "text": "انتخاب نقشه"
+ },
+ {
+  "label": "GUI:SelectAGame",
+  "text": "انتخاب بازی"
+ },
+ {
+  "label": "GUI:Start",
+  "text": "شروع بازی"
+ },
+ {
+  "label": "GUI:Host",
+  "text": "ساخت بازی"
+ },
+ {
+  "label": "GUI:LocaleSelect",
+  "text": "منطقه خود را انتخاب کنید"
+ },
+ {
+  "label": "GUI:Command&ConquerGenerals",
+  "text": "Command & Conquer (TM) Generals Zero Hour"
+ },
+ {
+  "label": "GUI:Command&Conquer",
+  "text": "Command & Conquer (TM)"
+ },
+ {
+  "label": "GUI:Generals",
+  "text": "Generals Zero Hour"
+ },
+ {
+  "label": "GUI:GeneralsOnline",
+  "text": "آنلاین"
+ },
+ {
+  "label": "GUI:SendDelay",
+  "text": "تأخیر ارسال"
+ },
+ {
+  "label": "GUI:FirewallRefresh",
+  "text": "تازه‌سازی NAT"
+ },
+ {
+  "label": "GUI:Exit",
+  "text": "خروج از بازی"
+ },
+ {
+  "label": "GUI:X",
+  "text": "X"
+ },
+ {
+  "label": "GUI:Campaign",
+  "text": "کارزار"
+ },
+ {
+  "label": "GUI:WestwoodPacific",
+  "text": "EA Pacific"
+ },
+ {
+  "label": "GUI:ClickToDisplayGameInfo",
+  "text": "برای دیدن اطلاعات بازی کلیک کنید"
+ },
+ {
+  "label": "GUI:GameInfo",
+  "text": "اطلاعات بازی"
+ },
+ {
+  "label": "GUI:OptionsDescription",
+  "text": "نمایش پنجره گزینه‌های بازی"
+ },
+ {
+  "label": "GUI:SFXVolume",
+  "text": "صدای جلوه‌ها"
+ },
+ {
+  "label": "GUI:3DSound",
+  "text": "صدای سه‌بعدی"
+ },
+ {
+  "label": "GUI:ScrollSpeed",
+  "text": "سرعت پیمایش"
+ },
+ {
+  "label": "GUI:Resolution",
+  "text": "وضوح تصویر"
+ },
+ {
+  "label": "GUI:Resolution0",
+  "text": "1024x768"
+ },
+ {
+  "label": "GUI:Resolution1",
+  "text": "800x600"
+ },
+ {
+  "label": "GUI:Resolution2",
+  "text": "640x480"
+ },
+ {
+  "label": "GUI:Detail",
+  "text": "جزئیات"
+ },
+ {
+  "label": "GUI:???",
+  "text": "???"
+ },
+ {
+  "label": "GUI:Faction",
+  "text": "ارتش"
+ },
+ {
+  "label": "GUI:AntiAliasing0",
+  "text": "خاموش"
+ },
+ {
+  "label": "GUI:AntiAliasing1",
+  "text": "کم"
+ },
+ {
+  "label": "GUI:AntiAliasing2",
+  "text": "زیاد"
+ },
+ {
+  "label": "GUI:IPAddresses",
+  "text": "IP شبکه محلی:"
+ },
+ {
+  "label": "GUI:MinPointPercent",
+  "text": "حداقل درصد برد لازم:"
+ },
+ {
+  "label": "GUI:MaxPointPercent",
+  "text": "حداکثر درصد برد مجاز:"
+ },
+ {
+  "label": "GUI:NumPlayers",
+  "text": "بازیکنان:"
+ },
+ {
+  "label": "GUI:PlayersVersusPlayers",
+  "text": "%d در برابر %d"
+ },
+ {
+  "label": "GUI:TimeInMilliseconds",
+  "text": "%d میلی‌ثانیه"
+ },
+ {
+  "label": "GUI:MaxDisconnects",
+  "text": "حداکثر قطع اتصال مجاز:"
+ },
+ {
+  "label": "GUI:Confirm",
+  "text": "مطمئنید؟"
+ },
+ {
+  "label": "GUI:NothingSelected",
+  "text": "چیزی انتخاب نشده"
+ },
+ {
+  "label": "GUI:SelectedAcrossScreen",
+  "text": "انتخاب در کل صفحه"
+ },
+ {
+  "label": "GUI:SelectedAcrossMap",
+  "text": "انتخاب در کل نقشه"
+ },
+ {
+  "label": "KEYBOARD:Shift+",
+  "text": "Shift+"
+ },
+ {
+  "label": "KEYBOARD:Alt+",
+  "text": "Alt+"
+ },
+ {
+  "label": "KEYBOARD:Ctrl+",
+  "text": "Ctrl+"
+ },
+ {
+  "label": "TOOLTIP:ScienceCost",
+  "text": "هزینه: %d"
+ },
+ {
+  "label": "TOOLTIP:Cost",
+  "text": "هزینه: %d"
+ },
+ {
+  "label": "TOOLTIP:SupplyWarehouse",
+  "text": "\n$%d باقی مانده"
+ },
+ {
+  "label": "TOOLTIP:LobbyPlayers",
+  "text": "بازیکنانی که اکنون در لابی بازی هستند"
+ },
+ {
+  "label": "TOOLTIP:StartWorldBuilder",
+  "text": "اجرای ویرایشگر نقشه"
+ },
+ {
+  "label": "TOOLTIP:GetUpdate",
+  "text": "دانلود به‌روزرسانی بازی"
+ },
+ {
+  "label": "TOOLTIP:GetMapPack",
+  "text": "دانلود بسته نقشه جدید"
+ },
+ {
+  "label": "TOOLTIP:Skirmish",
+  "text": "ورود به منوی تنظیم نبرد آزاد"
+ },
+ {
+  "label": "TOOLTIP:Online",
+  "text": "برای پیوستن به C&C Generals Zero Hour Online کلیک کنید. مهارت‌هایتان را در برابر حریفانی از سراسر جهان بسنجید!"
+ },
+ {
+  "label": "TOOLTIP:Network",
+  "text": "برای پیوستن به لابی شبکه کلیک کنید. توانتان را در برابر دوستانتان در شبکه محلی بیازمایید"
+ },
+ {
+  "label": "TOOLTIP:Options",
+  "text": "برای تغییر گزینه‌های بازی کلیک کنید. می‌توانید تنظیمات تصویر، صدا و بازی را تغییر دهید"
+ },
+ {
+  "label": "TOOLTIP:Exit",
+  "text": "خروج از C&C Generals Zero Hour. در میدان موفق باشی، فرمانده"
+ },
+ {
+  "label": "TOOLTIP:ExitGame",
+  "text": "خروج از C&C Generals Zero Hour. در میدان موفق باشی، فرمانده"
+ },
+ {
+  "label": "TOOLTIP:LoadGame",
+  "text": "برای بارگذاری بازی انتخاب‌شده کلیک کنید"
+ },
+ {
+  "label": "TOOLTIP:MapPreviewWindow",
+  "text": "پیش‌نمایش نقشه به شما در نبرد پیش رو برتری می‌دهد. دنبال اسکله‌های تدارکات و ساختمان‌های فنی بگردید. همچنین می‌توانید نقطه شروع خود را انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:SaveGame",
+  "text": "برای ذخیره بازی در جریان کلیک کنید"
+ },
+ {
+  "label": "TOOLTIP:AcceptButton",
+  "text": "انتخاب فعلی خود را بپذیرید"
+ },
+ {
+  "label": "TOOLTIP:CopyReplayToDesktop",
+  "text": "کپی فایل بازپخش انتخاب‌شده روی دسکتاپ"
+ },
+ {
+  "label": "TOOLTIP:ProviderType",
+  "text": "ارائه‌دهنده صدای خود را انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:SpeakerType",
+  "text": "پیکربندی بلندگوهای خود را انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:LANPlayer",
+  "text": "%ls@%ls"
+ },
+ {
+  "label": "TOOLTIP:Resolution",
+  "text": "وضوح تصویر بازی را انتخاب کنید. هرچه وضوح بیشتر باشد، احتمالاً بازی کندتر اجرا می‌شود"
+ },
+ {
+  "label": "TOOLTIP:CommandCategory",
+  "text": "یک دسته از فرمان‌های صفحه‌کلید انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:CommandDescription",
+  "text": "توضیح فرمان انتخاب‌شده"
+ },
+ {
+  "label": "TOOLTIP:StartPosition",
+  "text": "موقعیت شروع"
+ },
+ {
+  "label": "TOOLTIP:SelectMap",
+  "text": "میدان نبردی را که می‌خواهید انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:Vote",
+  "text": "برای رأی به اخراج بازیکن از بازی کلیک کنید تا بتوانید ادامه دهید"
+ },
+ {
+  "label": "TOOLTIP:NumberOfVotes",
+  "text": "رأی‌های داده‌شده برای اخراج بازیکن"
+ },
+ {
+  "label": "TOOLTIP:QuitMultiplayerGame",
+  "text": "خروج به منوهای بازی"
+ },
+ {
+  "label": "TOOLTIP:RestartGame",
+  "text": "شروع دوباره بازی با همان تنظیمات"
+ },
+ {
+  "label": "TOOLTIP:Help",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:StartLocation",
+  "text": "موقعیت شروع"
+ },
+ {
+  "label": "TOOLTIP:ReturnToGame",
+  "text": "بازگشت به بازی"
+ },
+ {
+  "label": "TOOLTIP:CommandList",
+  "text": "فرمان‌های موجود برای دسته فعلی"
+ },
+ {
+  "label": "TOOLTIP:CurrentHotkey",
+  "text": "کلید میانبر فعلی این فرمان را نشان می‌دهد"
+ },
+ {
+  "label": "TOOLTIP:AssignHotkey",
+  "text": "کلید میانبر جدید فرمان را اینجا وارد کنید"
+ },
+ {
+  "label": "TOOLTIP:AssignHotkeyCurrent",
+  "text": "فرمانی که این کلید میانبر اکنون به آن اختصاص دارد"
+ },
+ {
+  "label": "TOOLTIP:AssignButton",
+  "text": "کلید میانبر انتخاب‌شده را تخصیص می‌دهد"
+ },
+ {
+  "label": "TOOLTIP:ResetAll",
+  "text": "همه کلیدهای میانبر را به حالت پیش‌فرض برمی‌گرداند"
+ },
+ {
+  "label": "TOOLTIP:BackButton",
+  "text": "بازگشت به منوی قبلی"
+ },
+ {
+  "label": "TOOLTIP:ProviderSelect",
+  "text": "ارائه‌دهنده صدای سه‌بعدی را انتخاب کنید. بازی بهترین تنظیمات را از پیش برایتان انتخاب کرده، اما اگر بخواهید می‌توانید دستی تغییرش دهید"
+ },
+ {
+  "label": "TOOLTIP:SpeakerSelect",
+  "text": "پیکربندی بلندگوها را انتخاب کنید. بازی بهترین تنظیمات را از پیش برایتان انتخاب کرده، اما اگر بخواهید می‌توانید دستی تغییرش دهید"
+ },
+ {
+  "label": "TOOLTIP:DontUseAccount",
+  "text": "ورود بدون استفاده از حساب C&C Generals Zero Hour Online. به هویت بازیکن و ارتباط‌گر دسترسی نخواهید داشت"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorButton",
+  "text": "با دوستانتان تماس بگیرید"
+ },
+ {
+  "label": "TOOLTIP:NameButton",
+  "text": "مرتب‌سازی بر اساس نام بازی"
+ },
+ {
+  "label": "TOOLTIP:PingButton",
+  "text": "مرتب‌سازی بر اساس پینگ"
+ },
+ {
+  "label": "TOOLTIP:UseAccount",
+  "text": "پیوستن به C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "TOOLTIP:Login",
+  "text": "پیوستن به C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "TOOLTIP:CreateAccount",
+  "text": "ساخت حساب جدید C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "TOOLTIP:TOS",
+  "text": "مشاهده توافق‌نامه شرایط خدمات"
+ },
+ {
+  "label": "TOOLTIP:RememberInfo",
+  "text": "به خاطر سپردن اطلاعات ورود. برای رایانه‌های چندکاربره توصیه نمی‌شود"
+ },
+ {
+  "label": "TOOLTIP:Back",
+  "text": "بازگشت به صفحه قبلی"
+ },
+ {
+  "label": "TOOLTIP:BattleHonors",
+  "text": "نشان‌های نبردی که بازیکن گرفته است\nنشان‌های نبرد با رسیدن به اهداف خاص در بازی تک‌نفره یا چندنفره به دست می‌آیند"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3",
+  "text": "نشان پیاپی\nبازیکن ۳ نبرد آزاد پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10",
+  "text": "نشان پیاپی\nبازیکن ۱۰ نبرد آزاد پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSA",
+  "text": "نشان وفاداری به آمریکا\nبازیکن بیش از ۲۰ بازی پیاپی با آمریکا بازی کرده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChina",
+  "text": "نشان وفاداری به چین\nبازیکن بیش از ۲۰ بازی پیاپی با چین بازی کرده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLA",
+  "text": "نشان وفاداری به GLA\nبازیکن بیش از ۲۰ بازی پیاپی با GLA بازی کرده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTank",
+  "text": "نشان تانک نبرد\nبازیکن در یک بازی تک‌نفره یا چندنفره آنلاین بیش از ۵۰ تانک ساخته است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWing",
+  "text": "نشان بال هوایی\nبازیکن در یک بازی تک‌نفره یا چندنفره آنلاین بیش از ۲۰ هواپیما ساخته است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEndurance",
+  "text": "نشان استقامت\nدر همه نقشه‌ها پیروز شوید تا مدال برنز، نقره یا طلا بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSA",
+  "text": "نشان کارزار آمریکا\nکارزار آمریکا را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChina",
+  "text": "نشان کارزار چین\nکارزار چین را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLA",
+  "text": "نشان کارزار GLA\nکارزار GLA را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallenge",
+  "text": "نشان چالش\nبازیکن یک حریف رایانه‌ای سخت را شکست داده است"
+ },
+ {
+  "label": "TOOLTIP:ProgressToNextRank",
+  "text": "پیشرفت تا رسیدن به درجه بعدی"
+ },
+ {
+  "label": "TOOLTIP:SetLocale",
+  "text": "تغییر منطقه انتخاب‌شده فعلی"
+ },
+ {
+  "label": "TOOLTIP:DeleteAccount",
+  "text": "حذف حساب فعلی"
+ },
+ {
+  "label": "TOOLTIP:AsianText",
+  "text": "برای تغییر گفتگوی آسیایی و غیره کلیک کنید"
+ },
+ {
+  "label": "TOOLTIP:NonAsianText",
+  "text": "برای تغییر گفتگوی غیرآسیایی و غیره کلیک کنید"
+ },
+ {
+  "label": "GUI:AreYouSureDeleteAccount",
+  "text": "آیا مطمئنید که می‌خواهید حساب خود و همه آمارهای ذخیره‌شده را برای همیشه حذف کنید؟"
+ },
+ {
+  "label": "GUI:NonAsianText",
+  "text": "متن غیرآسیایی"
+ },
+ {
+  "label": "GUI:AsianText",
+  "text": "متن آسیایی"
+ },
+ {
+  "label": "GUI:DeleteAccount",
+  "text": "حذف حساب"
+ },
+ {
+  "label": "GUI:SetLocale",
+  "text": "تنظیم منطقه"
+ },
+ {
+  "label": "GUI:WinLoss",
+  "text": "برد/باخت"
+ },
+ {
+  "label": "GUI:FavSide",
+  "text": "ارتش محبوب"
+ },
+ {
+  "label": "GUI:Discons",
+  "text": "قطع اتصال‌ها"
+ },
+ {
+  "label": "GUI:BattleHonors",
+  "text": "نشان‌های نبرد"
+ },
+ {
+  "label": "GUI:TotalBuddys",
+  "text": "مجموع دوستان"
+ },
+ {
+  "label": "GUI:PlayerStatistics",
+  "text": "%hs، از %ls"
+ },
+ {
+  "label": "GUI:TotalBuilt",
+  "text": "مجموع ساخته‌ها"
+ },
+ {
+  "label": "GUI:TotalDeaths",
+  "text": "مجموع تلفات"
+ },
+ {
+  "label": "GUI:TotalKills",
+  "text": "مجموع نابودی‌ها"
+ },
+ {
+  "label": "GUI:FavoriteUnit",
+  "text": "یگان محبوب"
+ },
+ {
+  "label": "GUI:FavoriteSide",
+  "text": "ارتش محبوب"
+ },
+ {
+  "label": "GUI:Loses",
+  "text": "باخت‌ها"
+ },
+ {
+  "label": "GUI:Wins",
+  "text": "بردها"
+ },
+ {
+  "label": "GUI:TotalDesyncs",
+  "text": "ناهمگامی‌ها"
+ },
+ {
+  "label": "GUI:TotalDisconnects",
+  "text": "قطع اتصال‌ها"
+ },
+ {
+  "label": "GUI:GamesPlayed",
+  "text": "بازی‌های انجام‌شده"
+ },
+ {
+  "label": "GUI:TOS",
+  "text": "شرایط خدمات"
+ },
+ {
+  "label": "GUI:RememberInfo",
+  "text": "اطلاعاتم را به خاطر بسپار"
+ },
+ {
+  "label": "GUI:HostWantsToStart",
+  "text": "میزبان می‌خواهد شروع کند. دکمه پذیرفتن را بزنید"
+ },
+ {
+  "label": "GUI:PlayerNoMap",
+  "text": "%ls نقشه %ls را ندارد"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMap",
+  "text": "شما نقشه %ls را ندارید"
+ },
+ {
+  "label": "GUI:NeedMorePlayers",
+  "text": "برای شروع بازی به بازیکن(های) بیشتری نیاز دارید"
+ },
+ {
+  "label": "GUI:NotifiedStartIntent",
+  "text": "به بازیکنان دیگر اطلاع داده شد که می‌خواهید بازی را شروع کنید"
+ },
+ {
+  "label": "GUI:HostLeft",
+  "text": "میزبان بازی را ترک کرد اما C&C Generals Zero Hour ادامه خواهد داشت"
+ },
+ {
+  "label": "GUI:HostLeftTitle",
+  "text": "میزبان رفت"
+ },
+ {
+  "label": "GUI:WidenSearch",
+  "text": "گسترش جستجو"
+ },
+ {
+  "label": "GUI:QMAborted",
+  "text": "جفت‌یابی لغو شد"
+ },
+ {
+  "label": "GUI:DrawScrollAnchor",
+  "text": "رسم لنگر پیمایش"
+ },
+ {
+  "label": "GUI:MoveScrollAnchor",
+  "text": "جابه‌جایی لنگر پیمایش"
+ },
+ {
+  "label": "GUI:GroupRoom1",
+  "text": "۱ در برابر ۱"
+ },
+ {
+  "label": "GUI:GroupRoom2",
+  "text": "۲ در برابر ۲"
+ },
+ {
+  "label": "GUI:GroupRoom3",
+  "text": "۳ در برابر ۳"
+ },
+ {
+  "label": "GUI:Email",
+  "text": "ایمیل"
+ },
+ {
+  "label": "GUI:NoLadder",
+  "text": "بدون رده‌بندی"
+ }
+]
