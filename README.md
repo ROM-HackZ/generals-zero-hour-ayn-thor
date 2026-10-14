@@ -16,7 +16,7 @@ natively on Android and uses your PC installation's game data and the original
 <a href="https://buymeacoffee.com/romhackz"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="48"></a>
 
 **[Desktop installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)**
-· [APK only](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.4)
+· [APK only](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.5)
 · [Install it](docs/HOWTO/THOR_INSTALL.md)
 · [Controls](docs/HOWTO/THOR_CONTROLS.md)
 · [Build from source](docs/BUILD/THOR.md)
@@ -34,16 +34,19 @@ natively on Android and uses your PC installation's game data and the original
 | Menus | Controller focus, value editing and an on-screen text keyboard. |
 | Settings | Button remapping, dead zone, camera speed, pan/zoom direction and snapping. |
 
-Game preview **0.1.0-alpha.4** fills more gaps in the original UI: timer-panel
+Game preview **0.1.0-alpha.5** adds **LT + L3**: select one unit, hold LT and click
+the left stick to select matching units on screen. No double-press or cursor
+aiming needed. Pressing it again stays limited to the screen; plain L3 still
+centres the camera. It includes alpha.4's additions to the original UI: timer-panel
 commands, separate passenger exits, active toggles, construction/countdown
 information, radar alerts and a **Tactical Tools** panel for keyboard shortcuts.
 It includes alpha.3's **Cancel Construction** in the RT wheel and bottom screen.
 It includes alpha.2's two-step building placement (A chooses the
 site, left stick chooses facing, A builds; B cancels), one-finger touch selection,
 and corrected bottom-screen minimap taps plus drag-to-pan. Pinch/twist camera
-controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.4).
+controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.5).
 The desktop installer 0.1.0 still installs the first preview; use **Advanced →
-Local APK** to select this newer APK for an update. The source build uses alpha.4.
+Local APK** to select this newer APK for an update. The source build uses alpha.5.
 
 ### A few pictures
 <img width="3024" height="4032" alt="25ac9213-2050-4954-a8a9-e98970b71f84" src="https://github.com/user-attachments/assets/f0dc584c-aa11-4383-a2ac-47787b40e724" />

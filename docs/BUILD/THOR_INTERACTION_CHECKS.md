@@ -58,6 +58,12 @@ that is separate from the game and its saves.
 
 ## Fresh and extended fixtures
 
+`-e fresh true -e matching true` runs the focused LT+L3 check after training a
+second USA dozer. It dispatches controller keys through the activity, moves the
+cursor away, selects both visible dozers, repeats the shortcut, pans away and
+checks that it cannot recruit an off-screen match. It also checks an empty
+selection and that unmodified L3 still centres the camera.
+
 Use `-e fresh true` with `am instrument` to start a new skirmish using your saved
 skirmish setup instead of loading a save. The normal/extended checks need USA,
 radar, sufficient money and clear ground around the command center. With
