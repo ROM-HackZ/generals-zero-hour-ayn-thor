@@ -924,6 +924,10 @@ void pump() {
             if (i.value >= 0 && i.value < int(sizeof(commands) / sizeof(commands[0]))) message(commands[i.value]);
             break;
         }
+        // GeneralsX @feature Codex 14/10/2026 LT+L3 matches the current selection on screen only; repeated use cannot expand across the map.
+        case 19:
+            if (!TheInGameUI->getPendingPlaceType() && !TouchInput::hasArmedCommand()) TheInGameUI->selectMatchingAcrossScreen();
+            break;
         }
         TheInGameUI->setWaypointMode(FALSE);
     }

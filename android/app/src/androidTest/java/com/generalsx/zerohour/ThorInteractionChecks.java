@@ -18,6 +18,7 @@ public final class ThorInteractionChecks extends Instrumentation {
     boolean extended;
     String faction="";
     boolean inventoryOnly;
+    boolean matchingOnly;
     long touchDown;
     JSONObject state() throws Exception { return new JSONObject(ThorBridge.nativeSnapshot()); }
     interface Condition { boolean matches(JSONObject s) throws Exception; }
@@ -45,7 +46,7 @@ public final class ThorInteractionChecks extends Instrumentation {
         float x=(row.optInt("x")+row.optInt("w")*.5f)/s.optInt("width"),y=(row.optInt("y")+row.optInt("h")*.5f)/s.optInt("height");
         finger(MotionEvent.ACTION_DOWN,x,y); finger(MotionEvent.ACTION_UP,x,y); SystemClock.sleep(2000);
     }
-    @Override public void onCreate(Bundle arguments) { super.onCreate(arguments); fresh=arguments!=null && "true".equals(arguments.getString("fresh")); extended=arguments!=null && "true".equals(arguments.getString("extended")); inventoryOnly=arguments!=null && "true".equals(arguments.getString("inventory")); faction=arguments==null?"":arguments.getString("faction",""); start(); }
+    @Override public void onCreate(Bundle arguments) { super.onCreate(arguments); fresh=arguments!=null && "true".equals(arguments.getString("fresh")); extended=arguments!=null && "true".equals(arguments.getString("extended")); inventoryOnly=arguments!=null && "true".equals(arguments.getString("inventory")); matchingOnly=arguments!=null && "true".equals(arguments.getString("matching")); faction=arguments==null?"":arguments.getString("faction",""); start(); }
     @Override public void onStart() {
         Bundle result=new Bundle();
         try {
@@ -69,6 +70,9 @@ public final class ThorInteractionChecks extends Instrumentation {
             }
             await(s->s.optBoolean("battle"),"Saved match did not load");
             report(fresh?"Fresh skirmish loaded.":"Saved skirmish loaded.");
+            if(matchingOnly) {
+                matchingShortcut(); result.putString("stream","Matching shortcut checks passed. Reload your saved match.\n"); finish(0,result); return;
+            }
             if("China".equals(faction)) {
                 chinaToggle(); result.putString("stream","China toggle checks passed. Reload your saved match.\n"); finish(0,result); return;
             }
@@ -302,6 +306,68 @@ public final class ThorInteractionChecks extends Instrumentation {
         JSONArray rows=s.optJSONArray("widgets"); if(rows==null) return null;
         for(int i=0;i<rows.length();++i) if(rows.optJSONObject(i).optString("action").equals(name)) return rows.optJSONObject(i);
         return null;
+    }
+    // GeneralsX @test Codex 14/10/2026 Use activity key dispatch to verify snap-independent matching and repeat/offscreen boundaries.
+    void key(int action,int code) {
+        android.view.KeyEvent event=new android.view.KeyEvent(SystemClock.uptimeMillis(),SystemClock.uptimeMillis(),action,code,0,0,-1,0,0,InputDevice.SOURCE_GAMEPAD);
+        runOnMainSync(()->activity.dispatchKeyEvent(event));
+        SystemClock.sleep(100);
+    }
+    void press(int code) { key(android.view.KeyEvent.ACTION_DOWN,code); key(android.view.KeyEvent.ACTION_UP,code); }
+    void joystick(float lx,float ly,float rx,float ry) {
+        MotionEvent.PointerProperties p=new MotionEvent.PointerProperties(); p.id=0;
+        MotionEvent.PointerCoords c=new MotionEvent.PointerCoords(); c.setAxisValue(MotionEvent.AXIS_X,lx); c.setAxisValue(MotionEvent.AXIS_Y,ly); c.setAxisValue(MotionEvent.AXIS_Z,rx); c.setAxisValue(MotionEvent.AXIS_RZ,ry);
+        long now=SystemClock.uptimeMillis();
+        MotionEvent event=MotionEvent.obtain(now,now,MotionEvent.ACTION_MOVE,1,new MotionEvent.PointerProperties[]{p},new MotionEvent.PointerCoords[]{c},0,0,1,1,-1,0,InputDevice.SOURCE_JOYSTICK,0);
+        runOnMainSync(()->activity.dispatchGenericMotionEvent(event)); event.recycle(); SystemClock.sleep(100);
+    }
+    boolean selectionOnScreen(JSONObject s) {
+        double x=s.optDouble("selectionScreenX",-1),y=s.optDouble("selectionScreenY",-1);
+        return x>=0 && x<=1 && y>=0 && y<=1;
+    }
+    void matchingPress() {
+        key(android.view.KeyEvent.ACTION_DOWN,android.view.KeyEvent.KEYCODE_BUTTON_L2);
+        press(android.view.KeyEvent.KEYCODE_BUTTON_THUMBL);
+        key(android.view.KeyEvent.ACTION_UP,android.view.KeyEvent.KEYCODE_BUTTON_L2);
+        SystemClock.sleep(300);
+    }
+    void matchingShortcut() throws Exception {
+        check(state().optString("faction").equals("America"),"Matching fixture needs USA dozers");
+        ThorBridge.intent(5,1);
+        JSONObject cc=await(s->action(s,"Command_ConstructAmericaDozer")!=null,"No command center selected");
+        JSONObject production=action(cc,"Command_ConstructAmericaDozer");
+        ThorBridge.nativeActivateChecked(production.getInt("id"),production.optString("action"),production.optString("activation"));
+        await(s->{ JSONArray rows=s.getJSONArray("widgets"); for(int i=0;i<rows.length();++i) if(rows.getJSONObject(i).optBoolean("queue")) return true; return false; },"Second dozer did not enter production");
+        await(s->{ JSONArray rows=s.getJSONArray("widgets"); for(int i=0;i<rows.length();++i) if(rows.getJSONObject(i).optBoolean("queue")) return false; return true; },"Second dozer did not finish production");
+        ThorBridge.intent(5,0);
+        JSONObject seed=await(s->s.optInt("selected")==1 && s.optString("selection").equals("Construction Dozer"),"No starting dozer selected");
+        int seedId=seed.getJSONArray("selectionMembers").getJSONObject(0).getInt("id");
+        SystemClock.sleep(400); ThorBridge.intent(8,0);
+        await(s->s.getJSONArray("groups").optInt(0)==1,"Seed dozer group did not commit");
+        // Aim away from both units: the chord must use selection rather than the snapped cursor.
+        key(android.view.KeyEvent.ACTION_DOWN,android.view.KeyEvent.KEYCODE_BUTTON_THUMBR);
+        joystick(0,0,1,1); SystemClock.sleep(400); joystick(0,0,0,0);
+        SystemClock.sleep(100); JSONObject before=state();
+        check(Math.hypot(before.optDouble("aimX")-before.optDouble("selectionScreenX"),before.optDouble("aimY")-before.optDouble("selectionScreenY"))>.05,"Fixture cursor did not move away from the seed");
+        matchingPress();
+        JSONObject matched=await(s->s.optInt("selected")==2,"LT+L3 did not select both on-screen dozers");
+        check(distance(before,matched)<2,"Matching shortcut moved the camera");
+        JSONArray members=matched.getJSONArray("selectionMembers"); int otherId=-1;
+        for(int i=0;i<members.length();++i) { JSONObject member=members.getJSONObject(i); check(member.optString("name").equals("Construction Dozer"),"Matching included another unit type"); if(member.optInt("id")!=seedId) otherId=member.getInt("id"); }
+        check(otherId>=0,"Matching duplicated the seed instead of selecting the second dozer");
+        matchingPress(); check(state().optInt("selected")==2,"Repeating matching changed the on-screen selection");
+        key(android.view.KeyEvent.ACTION_UP,android.view.KeyEvent.KEYCODE_BUTTON_THUMBR);
+        ThorBridge.intent(7,0); await(s->s.optInt("selected")==1,"Seed group did not restore");
+        joystick(1,1,0,0); SystemClock.sleep(4000); joystick(0,0,0,0); SystemClock.sleep(200);
+        JSONObject away=state(); check(!selectionOnScreen(away),"Fixture did not pan away from the seed");
+        matchingPress(); matchingPress();
+        JSONObject limited=state(); check(limited.optInt("selected")==1 && limited.getJSONArray("selectionMembers").getJSONObject(0).getInt("id")==seedId,"Repeat matching recruited an off-screen dozer");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_THUMBL);
+        JSONObject centred=await(s->selectionOnScreen(s),"Unmodified L3 stopped centring the selection");
+        check(distance(away,centred)>100 && centred.optInt("selected")==1,"L3 changed selection instead of centring");
+        ThorBridge.intent(1,0); await(s->s.optInt("selected")==0,"Deselect did not clear the seed"); matchingPress();
+        check(state().optInt("selected")==0,"Matching with no selection chose an arbitrary unit");
+        report("LT+L3 selected both on-screen dozers with the cursor elsewhere; repeat/off-screen/empty boundaries and normal L3 centring passed.");
     }
     void chooseFaction() throws Exception {
         JSONObject s=state(),combo=null; JSONArray rows=s.getJSONArray("widgets");

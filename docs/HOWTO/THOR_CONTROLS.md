@@ -19,6 +19,7 @@ commands, production and General's Powers. Buttons and touch use the same comman
 | Y | Stop |
 | LT | Add to the selection; queue orders as waypoints |
 | L3 | Center the camera on the selection |
+| LT + L3 | Select matching unit types on screen from your current selection |
 | D-pad Up | Next idle builder |
 | D-pad Down | Command center |
 | D-pad Left | Cycle army units |
@@ -27,6 +28,12 @@ commands, production and General's Powers. Buttons and touch use the same comman
 
 Dead zone, speed, pan/zoom direction, snapping and button mappings are in
 **Controller settings** on the launcher.
+
+To select more of the same unit without double-pressing A, select one, then hold
+**LT and click the left stick (L3)**. The cursor can be anywhere. This shortcut
+stays limited to the screen even if pressed again; it does not move the camera.
+With a mixed selection it adds on-screen matches for each selected type. It is
+available in alpha.5 and leaves building/ability targeting and menus alone.
 
 ## Command wheel: hold RT
 

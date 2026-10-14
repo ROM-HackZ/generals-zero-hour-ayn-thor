@@ -323,7 +323,12 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         case KeyEvent.KEYCODE_BUTTON_START:
             rt = lb = deckFocus = mapMode = false; aHeld = false;
             ThorBridge.intent(97, 0); ThorBridge.intent(11, 0); break;
-        case KeyEvent.KEYCODE_BUTTON_THUMBL: ThorBridge.intent(4, 0); break;
+        case KeyEvent.KEYCODE_BUTTON_THUMBL:
+            // GeneralsX @feature Codex 14/10/2026 Select matching on-screen units without aiming through cursor snap twice.
+            if (lt) {
+                if (battle && !rt && !lb && !deckFocus && !mapMode && !typing && !editingWidget && confirmation == null) ThorBridge.intent(19, 0);
+            } else ThorBridge.intent(4, 0);
+            break;
         case KeyEvent.KEYCODE_DPAD_UP: direction(0, -1); break;
         case KeyEvent.KEYCODE_DPAD_DOWN: direction(0, 1); break;
         case KeyEvent.KEYCODE_DPAD_LEFT: direction(-1, 0); break;
