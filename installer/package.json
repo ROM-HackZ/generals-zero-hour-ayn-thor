@@ -1,0 +1,19 @@
+{
+  "name": "thor-rts-installer",
+  "productName": "Thor RTS Installer",
+  "version": "0.1.0",
+  "description": "Copy your own Zero Hour installation to an AYN Thor",
+  "author": { "name": "ROM-HackZ", "email": "24526564+intrudir@users.noreply.github.com" },
+  "homepage": "https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor",
+  "desktopName": "thor-rts-installer.desktop",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.js",
+    "package": "node package-app.js"
+  },
+  "dependencies": { "fflate": "0.8.3" },
+  "devDependencies": { "electron": "44.7.2", "@electron/packager": "20.3.0", "electron-builder": "26.15.3" }
+}

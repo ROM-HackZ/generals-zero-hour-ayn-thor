@@ -1,69 +1,166 @@
-# Installing Thor RTS
+# Install Thor RTS on your AYN Thor
 
-You need an AYN Thor and your own Windows installation of Command & Conquer:
-Generals Zero Hour. The Steam edition is the one this port has been tested with.
-The APK contains the engine. Your installation supplies the maps, units, art,
-sound and movies.
+The desktop installer does the fiddly part: it gets the app, copies your own
+game files over USB, and checks that they arrived intact. You pick a folder and
+a device, then press **Install on Thor**.
 
-## From your PC
+**[Download the installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)**
 
-1. Download `Thor-RTS-0.1.0-alpha.1.apk` from
-   [Releases](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.1).
-   Download this repository too (Code -> Download ZIP), and unzip it.
-2. Get Google's [Android platform tools](https://developer.android.com/tools/releases/platform-tools).
-   On the Thor, enable Developer options and USB debugging. Connect it to your PC
-   and accept the debugging prompt on the Thor. `adb devices` should list it as
-   `device`, rather than `unauthorized`.
-3. Open PowerShell in the unzipped repository and run:
+![Thor RTS desktop installer](../images/thor-installer.png)
 
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File scripts\thor\install-thor.ps1 `
-     -SteamRoot "C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour" `
-     -Apk "C:\Downloads\Thor-RTS-0.1.0-alpha.1.apk" `
-     -Adb "C:\platform-tools\adb.exe"
-   ```
+## What you need
 
-   Change those three paths to match your PC. If more than one Android device is
-   connected, add `-Serial` followed by your Thor's serial from `adb devices`.
-4. Open **Thor RTS**, then **Play**. Use the D-pad and A in menus. A skirmish is a
-   good place to start; [the controls](THOR_CONTROLS.md) explain the wheels and deck.
+- An AYN Thor and a USB **data** cable.
+- Your own PC installation of Zero Hour. The Steam edition is the one tested.
+- Windows 10/11 x64, macOS 13 or newer (Intel or Apple Silicon), or a Linux x64
+  desktop. No Python, Node, Android Studio or command-line setup is needed on
+  Windows or macOS. Linux may need USB permissions set up once.
+- Internet for the first app/USB-tools download. Offline installation is available
+  under **Advanced** if you already have the APK and ADB.
 
-The first transfer takes a while. The script checks each archive's header and
-SHA-256, skips matching files already on the Thor, and copies the loose `Data`
-folders too. It reads your PC installation without changing it. The tested Steam
-installation has 36 BIG archives, about 2.25 GB, plus its loose data.
+The game stays on Android. These downloads are desktop tools for transferring it
+to the handheld, not PC or Mac versions of the game. No retail data is included.
 
-The right game folder contains `INIZH.big`, `TexturesZH.big`, `MapsZH.big`, and a
-`ZH_Generals` folder with `INI.big` inside. Copy the whole set, not just the
-expansion's archives.
+## 1. Open the installer
+
+| Computer | Download | Open it |
+|---|---|---|
+| Windows | `Thor-RTS-Installer-0.1.0-Windows-x64.exe` | Double-click the file. It opens the installer without a separate setup. |
+| Apple Silicon Mac | `Thor-RTS-Installer-0.1.0-macOS-arm64.zip` | Unzip it, move **Thor RTS Installer.app** to Applications, and open it. |
+| Intel Mac | `Thor-RTS-Installer-0.1.0-macOS-x64.zip` | Same steps, using the Intel download. |
+| Ubuntu/Debian x64 | `Thor-RTS-Installer-0.1.0-Linux-x64.deb` | Open it in your package installer, then launch **Thor RTS Installer**. |
+| Other Linux x64 | `Thor-RTS-Installer-0.1.0-Linux-x64.tar.gz` | Extract the folder and run `thor-rts-installer` inside it. A normal desktop with GTK 3, NSS, GBM and ALSA libraries is needed. |
+
+These are community builds without trusted publisher certificates. The Mac
+bundles have ad-hoc signatures, not an Apple Developer ID or notarization.
+Windows may show an unknown-publisher
+prompt. On macOS, try opening the app once; if macOS blocks it, go to **System
+Settings → Privacy & Security → Open Anyway** for this app. Do this only for the
+download from this repository. See [Apple’s instructions](https://support.apple.com/en-us/102445).
+The Mac packages are built, but haven't been run on a physical Mac yet. If macOS
+reports a damaged app rather than an unknown developer, report the exact message.
+Do not disable Gatekeeper globally.
+
+Windows has been checked against the actual Thor. The Linux UI and transfer tests
+have been checked in Ubuntu 22.04 under WSL; physical Linux USB access and other
+distributions still need testing.
+
+## 2. Choose the game folder
+
+The installer looks for common Steam libraries and suggests a folder if it finds
+one. **Browse…** lets you choose it yourself.
+
+In Steam, right-click Zero Hour → **Manage → Browse local files**. Choose that
+folder. It should contain:
+
+```text
+Command & Conquer Generals - Zero Hour/
+    INIZH.big
+    ...other .big archives...
+    Data/
+    ZH_Generals/
+        INI.big
+        ...other .big archives...
+        Data/
+```
+
+On macOS, copy this entire folder from your owned PC installation to the Mac
+first. On Linux, use that copy or the equivalent Steam/Proton installation.
+Keep the original folder names and capitalization. A folder containing just the
+Zero Hour archives is not enough: it needs the nested base-game files too.
+Other store layouts and modded installations have not been checked.
+
+Your PC files are read only. The installer does not patch the PC game or upload
+your game files anywhere.
+
+## 3. Connect the Thor
+
+1. On the Thor, open **Settings → About device** and tap **Build number** seven
+   times to enable Developer options.
+2. Open **Developer options** and enable **USB debugging**.
+3. Connect it to the computer, unlock the handheld, and accept the **Allow USB
+   debugging?** prompt on it.
+4. Press **Refresh** in the desktop installer. Choose the Thor if more than one
+   Android device is connected.
+
+If USB tools are missing, the installer offers to download Android Platform-Tools
+from Google. Read [Google’s SDK terms](https://developer.android.com/studio/terms),
+tick the agreement box, then press **Refresh**. The tools stay in the installer's
+own cache. You can instead choose an existing `adb.exe`/`adb` under **Advanced**.
+
+Linux users whose device shows **no permissions** need USB access rules. On
+Ubuntu/Debian, the usual setup is:
+
+```sh
+sudo apt install android-sdk-platform-tools-common
+sudo usermod -aG plugdev "$USER"
+```
+
+Log out and back in after changing groups, reconnect the cable, then refresh.
+Other distributions use their own Android udev-rules package.
+[Google’s device setup guide](https://developer.android.com/studio/run/device)
+explains the USB and permission requirements. WSL does not automatically get
+access to a USB device connected to Windows; use the Windows installer there.
+
+## 4. Install and play
+
+Press **Install on Thor**. The installer:
+
+1. Validates the game folder and checks device compatibility/free space.
+2. Downloads the published APK and verifies its SHA-256 checksum, or uses the
+   local APK you selected under Advanced.
+3. Installs or updates Thor RTS, keeping existing app data.
+4. Copies the archives and loose `Data` files. Every copied file is staged,
+   checksum-verified and then moved into place. Already matching files are skipped.
+
+The tested Steam installation is about **2.7 GB**, so the first transfer can take
+a while. Keep the cable connected. The progress bar shows the current step.
+If you cancel or disconnect, completed files are kept; reconnect and run the
+installer again to resume. A partial file is not used by the game.
+
+When it says **Ready to play**, open **Thor RTS** on the handheld and press
+**Play**. Try a skirmish first. [The controls guide](THOR_CONTROLS.md) explains the
+wheels and bottom screen.
 
 ## Updates and saves
 
-Install newer releases over the existing app. With the script, add `-SkipAssets`
-if your game data is already there. Android accepts updates signed with the same
-key; the published Thor builds use their own key.
+Save a running match before installing an update or replacing game files.
+**App update only** skips the game folder and data transfer. It still checks the
+USB connection and downloads/verifies the published app. If the same APK is
+already installed, the installer skips reinstalling it.
 
-The app keeps its files here:
+The current installer installs game preview **0.1.0-alpha.1**. Future game
+previews will come with an updated installer; it doesn't silently choose an
+unreviewed APK. **Advanced → Local APK** lets you use a downloaded Thor update
+or your own build. Local APKs do not have the automatic download's pinned checksum.
+
+Local saves live on the Thor at:
 
 ```text
-/sdcard/Android/data/com.generalsthor.zerohour/files/
-  GameData/                         your PC game data
-  UserData/Command and Conquer Generals Zero Hour Data/Save/
+/sdcard/Android/data/com.generalsthor.zerohour/files/UserData/Command and Conquer Generals Zero Hour Data/Save/
 ```
 
-Updating in place keeps these files. Uninstalling removes them, so back up your
-saves before uninstalling or switching to a build you signed yourself.
+Updating the same signed app keeps them. **Uninstalling removes app data**, so
+back up that folder first if you plan to uninstall. The installer never
+automatically uninstalls the app to fix a signature mismatch.
 
-## If it won't start
+## If something goes wrong
 
-- **ADB says unauthorized:** accept the USB debugging prompt on the Thor.
-- **The launcher says files are missing:** check the PC folder you passed to the
-  script, particularly `ZH_Generals\INI.big`, and run the transfer again.
-- **The lower screen is blank:** report it with your Android version and whether
-  both screens were enabled when the app started. This build was tested on Android 13.
-- **An update reports a signature mismatch:** it was signed with a different key.
-  Back up your saves before changing installations; don't uninstall just to see
-  whether it helps.
+| Message / symptom | What to try |
+|---|---|
+| No device | Unlock the Thor, check USB debugging and try another data cable/port. Refresh after accepting the handheld's prompt. Windows may also need the device's OEM USB driver. |
+| Unauthorized | Accept **Allow USB debugging?** on the Thor, then refresh. |
+| No permissions on Linux | Install your distribution's Android USB rules and check group membership, as above. |
+| Wrong game folder | Choose the folder with both `INIZH.big` and `ZH_Generals/INI.big`. |
+| Invalid archive | Verify the PC game through Steam, then try again. |
+| Checksum mismatch / disconnected | Reconnect and run Install again. Finished files are skipped. |
+| Not enough storage | Free space on the handheld and retry. The check accounts for files already transferred. |
+| Different signing key | The existing app was kept. Back up saves before deciding to replace it; a local build may use a different key. |
+| Blank screen after Play | Wait for startup. If it stays blank, rerun the full transfer check and confirm both games' data is present. |
+| Linux tar build won't launch | Check the desktop runtime libraries and your distribution's Electron sandbox policy. The Debian package sets up its sandbox helper. Do not run the app as root or disable its sandbox. |
 
-Bug reports: [Issues](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/issues).
-Say what you did, what happened, and whether you were using buttons or touch.
+Open **Install log → Save log…** to keep the result for a bug report. Logs can
+contain your local file paths and device serial; review them before sharing.
+
+The older Windows command-line helper remains in `scripts/thor/install-thor.ps1`
+for advanced use. The GUI is the recommended route.

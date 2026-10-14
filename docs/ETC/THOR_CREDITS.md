@@ -24,6 +24,13 @@ The Thor changes were developed for ROM-HackZ with Codex assistance, and checked
 on a real AYN Thor. Controller direction, speed, wheel spacing and the new deck
 were adjusted from hands-on feedback.
 
+The desktop installer uses [Electron](https://www.electronjs.org/) and
+[fflate](https://github.com/101arrowz/fflate). Their license notices ship with
+the app. Local packaging uses Electron Packager and electron-builder. Mac
+ad-hoc bundle signing on Linux uses [Apple Codesign/rcodesign](https://github.com/indygreg/apple-platform-rs).
+Google's Android Platform-Tools are downloaded separately after the player
+accepts the SDK terms, or the installer uses tools already on their computer.
+
 This project does not claim to have written the engine or those earlier ports.
 The inherited engine is under GPL v3 with EA's additional terms, preserved in
 [LICENSE.md](../../LICENSE.md). Retail game data is supplied by each player.

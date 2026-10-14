@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- GeneralsX @feature Codex 14/10/2026 Player-facing, keyboard-accessible installer. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-src 'none'">
+  <title>Thor RTS Installer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="renderer.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="icon.png" width="62" height="62" alt="">
+      <div><p class="eyebrow">ROM-HackZ · AYN Thor</p><h1>Thor RTS Installer</h1></div>
+      <span class="badge">Development preview</span>
+    </header>
+    <p class="intro">Your copy of Zero Hour. Your Thor. Let’s get it running.</p>
+    <section aria-labelledby="game-heading">
+      <div class="section-title"><span class="step">1</span><h2 id="game-heading">Choose your game folder</h2></div>
+      <p>Use your installed Steam PC copy, or a copy of that entire folder on this computer.</p>
+      <label class="sr-only" for="game">Zero Hour game folder</label>
+      <div class="path-row"><input id="game" type="text" placeholder="Folder containing INIZH.big and ZH_Generals" spellcheck="false"><button data-browse="game">Browse…</button></div>
+      <label class="check"><input id="update-only" type="checkbox"> App update only — game files are already on my Thor</label>
+    </section>
+    <section aria-labelledby="device-heading">
+      <div class="section-title"><span class="step">2</span><h2 id="device-heading">Connect your Thor</h2></div>
+      <p>Plug it in with a USB data cable. Enable <strong>USB debugging</strong>, unlock it and accept the permission prompt on the handheld.</p>
+      <label class="sr-only" for="device">Connected device</label>
+      <div class="path-row"><select id="device"><option value="">Checking for a device…</option></select><button id="refresh">Refresh</button></div>
+      <p id="device-hint" class="hint" role="status"></p>
+      <div id="tools-note" hidden>
+        <p>The USB tools aren’t installed yet. We can download them from Google.</p>
+        <label class="check"><input id="accept-tools" type="checkbox"> I have read and agree to <button class="link" data-link="terms">Google’s Android SDK terms</button></label>
+      </div>
+    </section>
+    <details id="advanced">
+      <summary>Advanced / offline install</summary>
+      <p>These are optional. Leave the APK blank to download the published preview. Use a local APK and existing USB tools to install offline.</p>
+      <label for="apk">Local APK</label><div class="path-row"><input id="apk" type="text" placeholder="Automatic download" spellcheck="false"><button data-browse="apk">Browse…</button></div>
+      <label for="adb">USB tools (adb)</label><div class="path-row"><input id="adb" type="text" placeholder="Find automatically, or download from Google" spellcheck="false"><button data-browse="adb">Browse…</button></div>
+    </details>
+    <section class="finish" aria-labelledby="install-heading">
+      <div class="section-title"><span class="step">3</span><h2 id="install-heading">Install and play</h2></div>
+      <p id="version">Getting preview information…</p>
+      <p class="hint">Your PC files are read only. Updates keep existing saves. Save any running match before updating the app.</p>
+      <div class="actions"><button id="install" class="primary">Install on Thor</button><button id="cancel" hidden>Cancel</button><button class="link" data-link="help">Setup help</button></div>
+      <div id="status" class="status" aria-live="polite"><strong id="stage">Ready when you are</strong><p id="detail">Choose a folder and connect the handheld.</p></div>
+      <progress id="progress" max="1" value="0" aria-label="Current step progress" hidden></progress>
+    </section>
+    <details class="log"><summary>Install log</summary><pre id="log" tabindex="0"></pre><button id="save-log">Save log…</button></details>
+    <footer><span>No game data included. You need your own copy.</span><button class="link" data-link="releases">Releases</button><button class="link" data-link="issues">Report a problem</button></footer>
+  </main>
+</body>
+</html>
