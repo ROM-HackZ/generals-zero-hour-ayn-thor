@@ -32,6 +32,13 @@ natively on Android and uses your PC installation's game data and the original
 | Menus | Controller focus, value editing and an on-screen text keyboard. |
 | Settings | Button remapping, dead zone, camera speed, pan/zoom direction and snapping. |
 
+Game preview **0.1.0-alpha.2** adds two-step building placement (A chooses the
+site, left stick chooses facing, A builds; B cancels), one-finger touch selection,
+and corrected bottom-screen minimap taps plus drag-to-pan. Pinch/twist camera
+controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.2).
+The desktop installer 0.1.0 still installs the first preview; use **Advanced →
+Local APK** to select this newer APK for an update. The source build uses alpha.2.
+
 ### A few pictures
 
 | Command wheel | Bottom screen |
@@ -72,6 +79,10 @@ This is a **development preview**, tested on a real Thor running Android 13.
 - Radar availability, China's radar upgrade, fog and the camera outline.
 - General's Powers names/points/back navigation and a learned power purchase.
 - Local saves kept through APK updates and loaded again.
+- Alpha.2 device checks: minimap taps/drags match their world coordinates,
+  quick touch rectangle selection, second-finger cancellation, two-finger pan,
+  pinch/twist, a fixed building site during camera changes, B cancellation without
+  spending, and final-A construction through the original validator.
 - Native/APK builds and small host tests for controller input, deck focus and artwork.
 
 The observed game rate is around 30 fps. That is a device check, not a long-run

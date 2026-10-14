@@ -14,8 +14,13 @@ final class ThorDeck extends View {
     final ArrayList<RectF> commandRects=new ArrayList<>();
     final ArrayList<JSONObject> shown=new ArrayList<>();
     final RectF radarRect=new RectF(36,128,396,488),powersRect=new RectF(1020,120,1204,174);
+    final RectF radarImageRect=new RectF();
+    final float[] radarBounds={0,0,1,1};
+    boolean radarTouchCaptured;
+    int radarPointer=-1;
     final RectF previousRect=new RectF(1016,514,1072,546),nextRect=new RectF(1156,514,1212,546);
     final RectF queuePrevious=new RectF(1080,323,1132,353),queueNext=new RectF(1152,323,1204,353);
+    final RectF placementConfirm=new RectF(852,874,1012,958),placementCancel=new RectF(1028,874,1192,958);
     float scale=1,offsetX,offsetY;
     Bitmap radar;
     ThorDeck(Context context,ThorController control) { super(context); this.control=control; setFocusable(false); }
@@ -26,6 +31,10 @@ final class ThorDeck extends View {
     }
     void geometry() {
         scale=Math.min(getWidth()/1240f,getHeight()/1080f); offsetX=(getWidth()-1240*scale)/2; offsetY=(getHeight()-1080*scale)/2;
+        JSONArray bounds=control.snapshot.optJSONArray("radarBounds");
+        for(int i=0;i<4;i++) radarBounds[i]=bounds!=null?(float)bounds.optDouble(i,i<2?0:1):i<2?0:1;
+        radarImageRect.set(radarRect.left+radarBounds[0]*radarRect.width(),radarRect.top+radarBounds[1]*radarRect.height(),
+            radarRect.left+radarBounds[2]*radarRect.width(),radarRect.top+radarBounds[3]*radarRect.height());
         shown.clear(); commandRects.clear();
         ArrayList<JSONObject> rows=control.battle?control.commands:control.deckRows;
         int start=control.deckPage*ThorDeckLayout.COMMANDS_PER_PAGE;
@@ -69,7 +78,7 @@ final class ThorDeck extends View {
         paint.setColor(ui.accent); c.drawRect(24,99,1216,102,paint);
         ui.panel(c,paint,new RectF(24,116,408,500),control.mapMode);
         if(control.battle && radar!=null) {
-            paint.setFilterBitmap(false); c.drawBitmap(radar,null,radarRect,paint);
+            paint.setFilterBitmap(false); c.drawBitmap(radar,null,radarImageRect,paint);
             JSONArray view=control.snapshot.optJSONArray("radarView");
             if(view!=null && view.length()==8) {
                 c.save(); c.clipRect(radarRect); Path path=new Path();
@@ -124,7 +133,15 @@ final class ThorDeck extends View {
         if(count==0) ThorUi.text(c,paint,control.battle?"Select a unit or building to see its commands":"Waiting for the game menu…",48,620,22,ThorUi.MUTED,false);
         ui.panel(c,paint,new RectF(24,844,1216,986),false);
         JSONObject detail=control.highlighted();
-        if(detail!=null) {
+        if(control.snapshot.optBoolean("placing")) {
+            boolean rotating=control.snapshot.optInt("placementStage")==2;
+            ThorUi.text(c,paint,control.snapshot.optString("placementName","BUILDING"),44,878,23,ThorUi.TEXT,true);
+            int angle=(Math.round((float)control.snapshot.optDouble("placementAngle")*180/(float)Math.PI)%360+360)%360;
+            ThorUi.wrap(c,paint,rotating?"Facing "+angle+"° · Left stick / finger chooses direction. A or Build confirms; B or Cancel discards.":"Move the preview to your site. A or Choose spot locks the position. Construction starts after facing is confirmed.",new RectF(44,900,824,977),19,ThorUi.MUTED,false,3,false);
+            ui.panel(c,paint,placementConfirm,true); ui.panel(c,paint,placementCancel,false);
+            ThorUi.center(c,paint,rotating?"BUILD":"CHOOSE SPOT",placementConfirm.centerX(),923,19,ui.accent,true);
+            ThorUi.center(c,paint,"CANCEL",placementCancel.centerX(),923,19,ThorUi.TEXT,true);
+        } else if(detail!=null) {
             ThorUi.text(c,paint,ThorUi.name(detail),44,875,23,ThorUi.TEXT,true);
             ThorUi.text(c,paint,ThorUi.cost(detail)+(ThorUi.cost(detail).isEmpty()?"":"  ·  ")+ThorUi.status(detail,control.snapshot),44,904,18,ui.accent,false);
             ThorUi.wrap(c,paint,detail.optString("description",detail.optBoolean("queue")?"Cancel this item through the original production queue.":""),new RectF(44,918,1192,978),18,ThorUi.MUTED,false,2,false);
@@ -146,13 +163,43 @@ final class ThorDeck extends View {
         ThorUi.center(c,paint,(page+1)+"/"+((count+size-1)/size),(prev.right+next.left)/2,prev.bottom-7,17,ThorUi.MUTED,false);
     }
     public boolean onTouchEvent(MotionEvent event) {
-        if(event.getAction()==MotionEvent.ACTION_DOWN) { control.touch(); return true; }
-        if(event.getAction()!=MotionEvent.ACTION_UP) return true;
+        // GeneralsX @bugfix Codex 14/10/2026 Capture the minimap finger and pan on down/move/up.
+        int action=event.getActionMasked();
+        if(action==MotionEvent.ACTION_DOWN) {
+            control.touch(); geometry(); radarTouchCaptured=false; radarPointer=-1;
+            if(control.battle && radar!=null) {
+                float[] point=radarPoint(event.getX(),event.getY(),false);
+                if(point!=null) { radarTouchCaptured=true; radarPointer=event.getPointerId(0); lookAtRadar(point); }
+            }
+            return true;
+        }
+        if(action==MotionEvent.ACTION_CANCEL) { radarTouchCaptured=false; radarPointer=-1; return true; }
+        if(radarTouchCaptured) {
+            int index=event.findPointerIndex(radarPointer);
+            if(index>=0 && (action==MotionEvent.ACTION_MOVE || action==MotionEvent.ACTION_UP)) {
+                geometry(); lookAtRadar(radarPoint(event.getX(index),event.getY(index),true));
+            }
+            if(action==MotionEvent.ACTION_UP) { radarTouchCaptured=false; radarPointer=-1; }
+            else if(action==MotionEvent.ACTION_POINTER_UP && event.getPointerId(event.getActionIndex())==radarPointer) radarPointer=-1;
+            return true;
+        }
+        if(action!=MotionEvent.ACTION_UP) return true;
         geometry(); float x=(event.getX()-offsetX)/scale,y=(event.getY()-offsetY)/scale;
-        if(control.battle && radar!=null && radarRect.contains(x,y)) { ThorBridge.nativeIntent(15,0,(x-radarRect.left)/radarRect.width(),(y-radarRect.top)/radarRect.height()); return true; }
+        if(control.snapshot.optBoolean("placing")) {
+            if(placementCancel.contains(x,y)) { ThorBridge.intent(16,0); return true; }
+            if(placementConfirm.contains(x,y)) { ThorBridge.intent(17,0); return true; }
+        }
         if(previousRect.contains(x,y)) { changePage(false,-1); return true; } if(nextRect.contains(x,y)) { changePage(false,1); return true; }
         if(queuePrevious.contains(x,y)) { changePage(true,-1); return true; } if(queueNext.contains(x,y)) { changePage(true,1); return true; }
         for(int i=0;i<commandRects.size();++i) if(commandRects.get(i).contains(x,y)) { control.focusedId=shown.get(i).optInt("id"); control.activate(shown.get(i)); break; }
         return true;
+    }
+    float[] radarPoint(float x,float y,boolean clamp) {
+        return ThorRadarTouch.point(x,y,scale,offsetX,offsetY,radarRect.left,radarRect.top,radarRect.right,radarRect.bottom,radarBounds,clamp);
+    }
+    void lookAtRadar(float[] point) {
+        if(point==null || !control.ready || !control.battle || radar==null) return;
+        control.mapX=point[0]; control.mapY=point[1];
+        ThorBridge.nativeIntent(15,0,point[0],point[1]); invalidate();
     }
 }

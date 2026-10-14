@@ -74,6 +74,15 @@ class Drawable;
 
 namespace TouchInput
 {
+	// GeneralsX @feature Codex 14/10/2026 Two-step placement and cancellable touch selection, engine thread only.
+	Bool placementRotating();
+	void placementAim(Int x, Int y);
+	void placementStep(Int x, Int y);
+	void placementPump();
+	void placementDirection(Real x, Real y);
+	void placementCancel();
+	void placementReset();
+	void boxSelection(Int startX, Int startY, Int endX, Int endY, Bool commit, Bool cancel);
 
 	/// TRUE while a GUI command (ability, special power) is armed and waiting for a target.
 	Bool hasArmedCommand();

@@ -54,6 +54,11 @@ public:
 	// GeneralsX @feature Codex 14/10/2026 Export only the already filtered radar layers.
 	Bool copyDeckRadar(std::vector<unsigned int> &pixels);
 	Bool copyDeckViewBox(std::vector<float> &corners);
+	// GeneralsX @bugfix Codex 14/10/2026 Drawing and input use the same fitted map rectangle.
+	Bool copyDeckBounds(std::vector<float> &bounds);
+	Bool deckPointToWorld(Real x, Real y, Coord3D *world);
+	Real getDeckWorldWidth() const { return m_mapExtent.width(); }
+	Real getDeckWorldHeight() const { return m_mapExtent.height(); }
 
 	W3DRadar();
 	virtual ~W3DRadar() override;

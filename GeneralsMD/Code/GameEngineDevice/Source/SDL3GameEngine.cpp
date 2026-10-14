@@ -256,12 +256,11 @@ static bool SDLCALL mobileLifecycleWatcher(void *userdata, SDL_Event *event)
 //   1 finger tap                       -> select / issue command (LMB click)
 //   1 finger double-tap                -> select all of that unit's type on
 //                                          screen (existing double-click handling)
-//   1 finger drag, at ANY point, however long the finger sat still first ->
-//                                          direct camera pan, immediately
-//   1 finger drag released while still moving fast -> pan keeps coasting,
-//                                          decelerating (momentum/inertia),
-//                                          until it dies down or another
-//                                          finger touches down
+// GeneralsX @feature Codex 14/10/2026 Thor battlefield gestures:
+//   1 finger drag                      -> selection rectangle, committed on lift
+//   2 fingers                          -> pan/pinch/twist camera control
+//   1 remaining camera finger          -> consumed until lift, no selection or pan
+//   pending building: 1 finger         -> move/face preview, then A/Build confirms
 //   1 finger held still the whole time, released without ever moving ->
 //                                          right-click (issue command)
 //   2 fingers                          -> direct camera pan (centroid delta)
@@ -334,10 +333,9 @@ struct TouchState {
 		PANNING,     // finger1 dragged past the dead zone -- direct camera pan, no mouse involved
 		TWOFINGER,   // two fingers down -- direct camera pan (centroid) + zoom (spread), once per frame
 		MOMENTUM,    // finger lifted after a fast pan -- coasting with decaying velocity, no finger involved
-		PLACING,     // finger1 dragged past the dead zone while a building placement is pending --
-		             // anchor already sent, drag now sets rotation angle (see PlaceEventTranslator.cpp)
-		SELECTING,   // finger1 held past SELECT_HOLD_MS, THEN dragged past the dead zone -- area
-		             // selection box, anchor already sent (see SelectionXlat.cpp)
+		PLACING,     // one finger adjusts a pending building; a lift locks position or ends facing
+		SELECTING,   // single-finger battlefield drag draws an uncommitted selection box
+		CAMERA_END,  // one finger remains after camera control; consume it until lift
 		TARGETING,   // finger1 landed on the battlefield while a GUI command (ability,
 		             // special power) was armed -- the finger IS the aiming reticle: every
 		             // motion publishes a position so the radius decal, the validity hint and
@@ -362,6 +360,7 @@ struct TouchState {
 	Uint64 downTicks = 0;
 	GameWindow *listBox = nullptr;      // list box under finger1 at touch-down, see LIST_SCROLL
 	Bool deferredPress = FALSE;         // UI_PRESS on a fire-on-down button: press sent at release
+	Bool twoTapCanCancel = TRUE;
 
 	// GeneralsX @feature Android port 01/08/2026 Native touch camera control:
 	// pan/zoom go straight to TheTacticalView (userScrollBy/userZoom), driven
@@ -419,14 +418,6 @@ struct TouchState {
 TouchState s_touch;
 
 const Uint64 LONG_PRESS_MS = 600;
-
-// GeneralsX @feature Android port 02/08/2026 Area-selection's hold-then-drag
-// threshold is deliberately its own (shorter) constant, not LONG_PRESS_MS --
-// tester feedback found reusing the full long-press delay felt too laggy
-// before a selection box would even start responding to the drag. Kept
-// separate from LONG_PRESS_MS so the right-click-issues-a-command timing
-// (a released tap, not a drag) is untouched.
-const Uint64 SELECT_HOLD_MS = 250;
 
 // GeneralsX @feature Android port 01/08/2026 Single dead-zone distance is the
 // ONLY thing deciding tap vs. drag -- no settle timer (see the file-header
@@ -1024,7 +1015,11 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 	// be fed by every real battlefield finger position, not only while an ability is armed.
 	// Validity only means something with a command armed; when none is, it is unread.
 	if (TheInGameUI && !touchIsOnUi) {
-		TheInGameUI->setTouchAimPoint((Int)px, (Int)py,
+		if (TheInGameUI->getPendingPlaceType()) {
+			if (s_touch.phase != TouchState::TWOFINGER && s_touch.phase != TouchState::CAMERA_END &&
+				(s_touch.phase == TouchState::IDLE || s_touch.phase == TouchState::MOMENTUM || event.tfinger.fingerID == s_touch.finger1))
+				TouchInput::placementAim((Int)px, (Int)py);
+		} else TheInGameUI->setTouchAimPoint((Int)px, (Int)py,
 		                              TouchInput::hasArmedCommand()
 		                                ? TouchInput::armedTargetValid((Int)px, (Int)py)
 		                                : FALSE);
@@ -1155,6 +1150,16 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 				break;
 			}
 
+			// GeneralsX @feature Codex 14/10/2026 A building finger adjusts the preview; lift never constructs it.
+			if (TheInGameUI && TheInGameUI->getPendingPlaceType() && !touchPointBelongsToUi(px,py)) {
+				s_touch.finger1 = event.tfinger.fingerID;
+				s_touch.phase = TouchState::PLACING;
+				s_touch.downX = s_touch.lastX = px; s_touch.downY = s_touch.lastY = py;
+				s_touch.downTicks = SDL_GetTicks();
+				TouchInput::placementAim((Int)px,(Int)py);
+				break;
+			}
+
 			// A finger touching down during MOMENTUM grabs the map and stops
 			// the coast immediately -- same as tapping a map mid-fling on any
 			// touch device.
@@ -1200,7 +1205,13 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 			}
 		}
 		else if (s_touch.phase == TouchState::PENDING || s_touch.phase == TouchState::PANNING ||
-		         s_touch.phase == TouchState::TARGETING) {
+		         s_touch.phase == TouchState::TARGETING || s_touch.phase == TouchState::SELECTING ||
+		         s_touch.phase == TouchState::PLACING || s_touch.phase == TouchState::CAMERA_END) {
+			// GeneralsX @feature Codex 14/10/2026 Adding a finger cancels a box and starts camera control.
+			s_touch.twoTapCanCancel = s_touch.phase != TouchState::SELECTING &&
+				!(TheInGameUI && TheInGameUI->getPendingPlaceType());
+			if (s_touch.phase == TouchState::SELECTING)
+				TouchInput::boxSelection((Int)s_touch.downX,(Int)s_touch.downY,(Int)s_touch.lastX,(Int)s_touch.lastY,FALSE,TRUE);
 			// Second finger: always becomes direct two-finger pan+zoom
 			// immediately, no classification -- see the file-header comment
 			// for why. A finger landing mid-PANNING (drag-then-pinch without
@@ -1224,36 +1235,6 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 				s_touch.twoRotateArmed = FALSE;
 			}
 			s_touch.phase = TouchState::TWOFINGER;
-		}
-		else if (s_touch.phase == TouchState::PLACING) {
-			// GeneralsX @feature Android port 02/08/2026 A second finger
-			// landing while already rotating a pending building has no other
-			// meaning here (PLACING deliberately doesn't support two-finger
-			// pan/zoom -- see the file-header design note), so treat it as an
-			// immediate cancel instead of ignoring it: the only way to back
-			// out mid-rotation would otherwise be dragging to an illegal spot,
-			// releasing, and THEN doing a separate two-finger tap. This also
-			// clears the anchor/ghost icon (setPlacementStart(nullptr) +
-			// destroyPlacementIcons() inside placeBuildAvailable()), so
-			// finger1's subsequent motion/up events land as harmless no-ops.
-			if (TheInGameUI) {
-				TheInGameUI->placeBuildAvailable(nullptr, nullptr);
-			}
-			s_touch.phase = TouchState::IDLE;
-		}
-		else if (s_touch.phase == TouchState::SELECTING) {
-			// GeneralsX @feature Android port 02/08/2026 A second finger during
-			// an in-progress selection box has no other meaning here either,
-			// but unlike PLACING there's no clean "abort" to call into --
-			// SelectionTranslator only clears its internal drag-lock state
-			// (TheTacticalView->setMouseLock, TheInGameUI->setSelecting) from
-			// its MSG_RAW_MOUSE_LEFT_BUTTON_UP handler, so leaving that message
-			// unsent would leave the camera/selection state stuck. Finalize
-			// with whatever box has been drawn so far instead of leaving it
-			// hanging -- selecting the "wrong" units this way is trivially
-			// undone by tapping again, unlike a half-placed building.
-			pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_UP, s_touch.lastX, s_touch.lastY);
-			s_touch.phase = TouchState::IDLE;
 		}
 		// TWOFINGER with a third finger: ignored
 		break;
@@ -1289,62 +1270,16 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 					s_touch.phase = TouchState::LIST_SCROLL;
 				} else
 				if (TheInGameUI && TheInGameUI->getPendingPlaceType()) {
-					// GeneralsX @feature Android port 02/08/2026 Building
-					// placement: a drag past the dead zone while a build is
-					// pending is the rotate gesture, not a camera pan. Send the
-					// button-down NOW, at the ORIGINAL press point (downX/downY)
-					// -- exactly like a real mouse press, which fires before any
-					// drag -- so PlaceEventTranslator anchors the building where
-					// the finger first touched, not where it dragged to.
-					// PlaceEventTranslator.cpp's MSG_RAW_MOUSE_LEFT_BUTTON_DOWN
-					// case calls TheInGameUI->setPlacementStart() and consumes
-					// the message (DESTROY_MESSAGE), so this can't also register
-					// as an ordinary click/select.
+					// A command armed during this touch turns it into preview adjustment.
 					GX_TRACE("handleTouchEvent: PENDING->PLACING moved=%.2f anchor(%.2f,%.2f)\n",
 					         moved, s_touch.downX, s_touch.downY);
-					pushMousePosition(s_touch.downX, s_touch.downY);
-					pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_DOWN, s_touch.downX, s_touch.downY);
-					// Feed the current position immediately too, so the
-					// rotation angle starts responding without waiting for the
-					// next motion event.
-					pushMousePosition(px, py);
+					TouchInput::placementAim((Int)px,(Int)py);
 					s_touch.phase = TouchState::PLACING;
-				} else if ((SDL_GetTicks() - s_touch.downTicks) >= SELECT_HOLD_MS) {
-					// GeneralsX @feature Android port 02/08/2026 Area selection:
-					// held past SELECT_HOLD_MS WITHOUT crossing the dead zone,
-					// then dragged -- draw a selection box instead of panning.
-					// Quick drags (the vastly more common case) are unaffected:
-					// this branch is only reachable once SELECT_HOLD_MS has
-					// already elapsed. Deliberately shorter than LONG_PRESS_MS
-					// (the release-without-moving command threshold below) --
-					// they're different gestures (drag vs. release) so there's
-					// no ambiguity in letting SELECT_HOLD_MS elapse first: a
-					// held-still finger still has exactly two possible
-					// eventual outcomes depending on what happens next
-					// (release after LONG_PRESS_MS -> command, drag after
-					// SELECT_HOLD_MS -> select), never both.
-					//
-					// Unlike the long-press-cancels-nothing lesson learned
-					// earlier in this file (see the FINGER_UP PENDING case's
-					// @bugfix comment): that bug was caused by dispatching an
-					// action PREMATURELY, mid-hold, before knowing whether a
-					// drag would follow -- corrupting whatever the drag was
-					// later interpreted as. This is different: nothing at all
-					// is sent until this exact moment, when the drag has
-					// genuinely already started, so there's no premature
-					// dispatch to corrupt anything.
-					//
-					// SelectionXlat.cpp's MSG_RAW_MOUSE_LEFT_BUTTON_DOWN handler
-					// just records the anchor; its MSG_RAW_MOUSE_POSITION
-					// handler is what actually starts drawing the box once past
-					// TheMouse->m_dragTolerance -- both already exist and are
-					// shared with the desktop mouse path, same as
-					// PlaceEventTranslator above.
+				} else if (TheGameLogic && TheGameLogic->isInGame() && !TheGameLogic->isInShellGame() && !touchPointBelongsToUi(s_touch.downX,s_touch.downY)) {
 					GX_TRACE("handleTouchEvent: PENDING->SELECTING moved=%.2f anchor(%.2f,%.2f)\n",
 					         moved, s_touch.downX, s_touch.downY);
-					pushMousePosition(s_touch.downX, s_touch.downY);
-					pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_DOWN, s_touch.downX, s_touch.downY);
-					pushMousePosition(px, py);
+					// GeneralsX @feature Codex 14/10/2026 No dwell delay; selection commits only on a single-finger lift.
+					TouchInput::boxSelection((Int)s_touch.downX,(Int)s_touch.downY,(Int)px,(Int)py,FALSE,FALSE);
 					s_touch.phase = TouchState::SELECTING;
 				} else {
 					// Movement always wins, however long the finger sat still
@@ -1368,11 +1303,8 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 			}
 		}
 		else if (s_touch.phase == TouchState::SELECTING && event.tfinger.fingerID == s_touch.finger1) {
-			// Every motion event feeds SelectionXlat's MSG_RAW_MOUSE_POSITION
-			// case (grows the selection-box hint rectangle) directly -- message
-			// traffic, not a direct camera call, so no per-frame staleness
-			// concern, same reasoning as the PLACING case below.
-			pushMousePosition(px, py);
+			// Hint only: selected units change at release, never on motion.
+			TouchInput::boxSelection((Int)s_touch.downX,(Int)s_touch.downY,(Int)px,(Int)py,FALSE,FALSE);
 		}
 		else if (s_touch.phase == TouchState::TARGETING && event.tfinger.fingerID == s_touch.finger1) {
 			// GeneralsX @refactor Android port 06/09/2026 Aiming asks the engine a question
@@ -1386,13 +1318,8 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 			}
 		}
 		else if (s_touch.phase == TouchState::PLACING && event.tfinger.fingerID == s_touch.finger1) {
-			// Every motion event feeds PlaceEventTranslator's
-			// MSG_RAW_MOUSE_POSITION case (setPlacementEnd -> rotation angle)
-			// directly -- this is message-stream traffic, not a direct camera
-			// call, so there's no per-frame screenToTerrain staleness concern
-			// (see applyPendingCameraMotion()'s header comment, which is about
-			// a completely different code path).
-			pushMousePosition(px, py);
+			// Aiming the preview carries no button press or construction order.
+			TouchInput::placementAim((Int)px,(Int)py);
 		}
 		// PANNING and TWOFINGER don't apply the camera effect here -- see
 		// applyPendingCameraMotion() below for why (screenToTerrain-based
@@ -1411,7 +1338,7 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 			// pan with the remaining finger, instead of resetting to IDLE --
 			// matches any standard two-finger touch UI (lifting one finger
 			// mid-pinch keeps panning with the other).
-			bool continueAsSinglePan = false;
+			bool consumeRemainingFinger = false;
 			// Set when a fast PANNING release should coast into MOMENTUM
 			// instead of stopping dead -- unlike continueAsSinglePan, this
 			// still needs the edge-scroll guard below (no real finger
@@ -1602,9 +1529,8 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 						// that same translator, so placement stays whole on one mechanism
 						// rather than being half reimplemented.
 						if (TheInGameUI && TheInGameUI->getPendingPlaceType()) {
-							pushMousePosition(s_touch.downX, s_touch.downY);
-							pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_DOWN, s_touch.downX, s_touch.downY);
-							pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_UP, s_touch.downX, s_touch.downY);
+							if (!TouchInput::placementRotating()) TouchInput::placementStep((Int)s_touch.downX,(Int)s_touch.downY);
+							else TouchInput::placementAim((Int)s_touch.downX,(Int)s_touch.downY);
 						} else if (isDoubleTap) {
 							TouchInput::doubleTap((Int)s_touch.downX, (Int)s_touch.downY);
 						} else {
@@ -1657,61 +1583,29 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 						if (move1 < TWO_FINGER_TAP_MAX_PX && move2 < TWO_FINGER_TAP_MAX_PX) {
 							// GeneralsX @refactor Android port 06/09/2026 Also a cancel, not a
 							// right-click. Same reason as the long press above.
-							TouchInput::cancelOrDeselect();
-						} else {
-							if (event.tfinger.fingerID == s_touch.finger1) {
-								s_touch.finger1 = s_touch.finger2;
-								s_touch.lastX = s_touch.panLastPxX = s_touch.f2px;
-								s_touch.lastY = s_touch.panLastPxY = s_touch.f2py;
-							} else {
-								s_touch.panLastPxX = s_touch.lastX;
-								s_touch.panLastPxY = s_touch.lastY;
-							}
-							s_touch.finger2 = 0;
-							s_touch.phase = TouchState::PANNING;
-							resetPanSamples();
-							recordPanSample(s_touch.lastX, s_touch.lastY, event.tfinger.timestamp);
-							continueAsSinglePan = true;
+							if (s_touch.twoTapCanCancel) TouchInput::cancelOrDeselect();
 						}
+						// GeneralsX @feature Codex 14/10/2026 One remaining camera finger cannot pan or select.
+						if (event.tfinger.fingerID == s_touch.finger1) {
+							s_touch.finger1 = s_touch.finger2;
+							s_touch.lastX = s_touch.f2px; s_touch.lastY = s_touch.f2py;
+						}
+						s_touch.finger2 = 0;
+						s_touch.phase = TouchState::CAMERA_END;
+						consumeRemainingFinger = true;
 					}
 					break;
 				case TouchState::PLACING:
-					// GeneralsX @feature Android port 02/08/2026 Building
-					// placement release. A normal lift sends the button-up,
-					// which MetaEventTranslator (MetaEvent.cpp) turns into the
-					// semantic MSG_MOUSE_LEFT_CLICK that PlaceEventTranslator's
-					// click case actually commits (MSG_DOZER_CONSTRUCT) or, if
-					// the spot turned out illegal, resets the anchor to try
-					// again WITHOUT leaving placement mode -- exactly the same
-					// as a real mouse press-drag-release.
-					//
-					// A CANCELED touch (incoming call, notification shade, palm
-					// rejection) never sends a matching up, so there is no
-					// later event to resolve the anchor this file already
-					// committed on the dead-zone crossing -- back out of
-					// placement mode entirely instead, same conservative
-					// no-phantom-action rule as the PENDING case above.
-					if (event.type == SDL_EVENT_FINGER_CANCELED) {
-						if (TheInGameUI) {
-							TheInGameUI->placeBuildAvailable(nullptr, nullptr);
-						}
-					} else {
-						pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_UP, px, py);
+					// Lift chooses a site or ends aiming. Construction needs a separate A/Build.
+					if (event.type != SDL_EVENT_FINGER_CANCELED) {
+						if (!TouchInput::placementRotating()) TouchInput::placementStep((Int)px,(Int)py);
+						else TouchInput::placementAim((Int)px,(Int)py);
 					}
 					break;
 				case TouchState::SELECTING:
-					// GeneralsX @feature Android port 02/08/2026 Area-selection
-					// release. Unlike PLACING, a CANCELED touch here also sends
-					// the button-up rather than backing out of anything --
-					// SelectionTranslator has no equivalent to
-					// placeBuildAvailable(nullptr, nullptr) to cleanly release
-					// its internal drag-lock state (TheTacticalView->
-					// setMouseLock(TRUE) only gets cleared from its own
-					// MSG_RAW_MOUSE_LEFT_BUTTON_UP handler), so never sending it
-					// would leave the camera/selection state stuck rather than
-					// just under- or over-selecting -- a strictly worse outcome
-					// than finalizing with whatever box was drawn so far.
-					pushMouseButton(GameMessage::MSG_RAW_MOUSE_LEFT_BUTTON_UP, px, py);
+					// OS cancellation dismisses the hint without committing a selection.
+					TouchInput::boxSelection((Int)s_touch.downX,(Int)s_touch.downY,(Int)px,(Int)py,
+						event.type!=SDL_EVENT_FINGER_CANCELED,event.type==SDL_EVENT_FINGER_CANCELED);
 					break;
 				case TouchState::TARGETING:
 					// GeneralsX @feature Android port 06/09/2026 Release fires the ability
@@ -1826,7 +1720,7 @@ void handleTouchEvent(SDL_Window *window, const SDL_Event &event)
 					break;
 			}
 
-			if (!continueAsSinglePan) {
+			if (!consumeRemainingFinger) {
 				// GeneralsX @refactor Android port 06/09/2026 The edge-scroll guard that used
 				// to live here is gone, along with the mode it was guarding: screen-edge
 				// scrolling is now off on touch platforms outright (canScrollAtScreenEdge).
@@ -1879,6 +1773,7 @@ const char *touchPhaseName(TouchState::Phase phase)
 		case TouchState::MOMENTUM:  return "MOMENTUM";
 		case TouchState::PLACING:   return "PLACING";
 		case TouchState::SELECTING: return "SELECTING";
+		case TouchState::CAMERA_END: return "CAMERA_END";
 		case TouchState::TARGETING: return "TARGETING";
 		case TouchState::LIST_SCROLL: return "LIST_SCROLL";
 		case TouchState::UI_PRESS:  return "UI_PRESS";

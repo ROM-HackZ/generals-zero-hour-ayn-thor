@@ -15,7 +15,7 @@ final class ThorOverlay extends View {
     protected void onDraw(Canvas canvas) {
         if(!control.ready) return;
         float s=Math.min(getWidth()/1280f,getHeight()/720f),ox=(getWidth()-1280*s)/2,oy=(getHeight()-720*s)/2;
-        if(control.battle && !control.rt && !control.lb) drawAim(canvas,s);
+        if(control.battle && control.controllerActive && !control.rt && !control.lb) drawAim(canvas,s);
         if(!control.battle) drawNativeFocus(canvas,s);
         boolean visible=control.rt || control.lb;
         long now=android.os.SystemClock.uptimeMillis();
@@ -24,9 +24,17 @@ final class ThorOverlay extends View {
         if(control.wedge!=lastWedge) { focusedAt=now; lastWedge=control.wedge; }
         canvas.save(); canvas.translate(ox,oy); canvas.scale(s,s);
         if(visible) drawWheel(canvas,now);
+        else if(control.battle && control.snapshot.optBoolean("placing")) drawPlacement(canvas);
         if(control.typing) drawKeyboard(canvas);
         if(control.confirmation!=null) drawConfirmation(canvas);
         canvas.restore();
+    }
+    // GeneralsX @feature Codex 14/10/2026 The two placement steps keep their confirmation/cancel prompts visible.
+    void drawPlacement(Canvas c) {
+        boolean rotating=control.snapshot.optInt("placementStage")==2;
+        control.ui.panel(c,paint,new RectF(258,633,1022,711),true);
+        ThorUi.center(c,paint,control.snapshot.optString("placementName","BUILDING")+" · "+(rotating?"CHOOSE FACING":"CHOOSE POSITION"),640,662,21,ThorUi.TEXT,true);
+        ThorUi.center(c,paint,rotating?"Left stick Rotate · A Build · B Cancel":"Left stick Move · A Lock position · B Cancel",640,693,19,ThorUi.MUTED,false);
     }
     void drawAim(Canvas c,float s) {
         float x=getWidth()*(float)control.snapshot.optDouble("aimX",.5),y=getHeight()*(float)control.snapshot.optDouble("aimY",.5);

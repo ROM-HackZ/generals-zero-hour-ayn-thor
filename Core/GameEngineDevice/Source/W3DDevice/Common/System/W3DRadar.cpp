@@ -50,6 +50,7 @@
 #include "GameClient/TerrainVisual.h"
 #include "GameClient/Water.h"
 #include "W3DDevice/Common/W3DRadar.h"
+#include "W3DDevice/Common/DeckRadarGeometry.h"
 #include "W3DDevice/GameClient/HeightMap.h"
 #include "W3DDevice/GameClient/W3DShroud.h"
 #include "WW3D2/texture.h"
@@ -1552,6 +1553,27 @@ void W3DRadar::draw( Int pixelX, Int pixelY, Int width, Int height )
 
 }
 
+// GeneralsX @bugfix Codex 14/10/2026 Share the original aspect fit for radar artwork, outline and touch.
+Bool W3DRadar::copyDeckBounds(std::vector<float> &bounds)
+{
+	bounds.clear();
+	if (!rts::localPlayerHasRadar() || m_mapExtent.width() <= 0 || m_mapExtent.height() <= 0) return FALSE;
+	ICoord2D ul, lr;
+	findDrawPositions(0, 0, 10000, 10000, &ul, &lr);
+	bounds = {ul.x / 10000.f, ul.y / 10000.f, lr.x / 10000.f, lr.y / 10000.f};
+	return TRUE;
+}
+
+Bool W3DRadar::deckPointToWorld(Real x, Real y, Coord3D *world)
+{
+	std::vector<float> bounds;
+	if (!world || !copyDeckBounds(bounds)) return FALSE;
+	ICoord2D point;
+	if (!DeckRadarGeometry::toCells(x, y, bounds[0], bounds[1], bounds[2], bounds[3],
+		RADAR_CELL_WIDTH, RADAR_CELL_HEIGHT, point.x, point.y)) return FALSE;
+	return radarToWorld(&point, world);
+}
+
 // GeneralsX @feature Codex 14/10/2026 Reuse the original camera footprint on the external radar.
 Bool W3DRadar::copyDeckViewBox(std::vector<float> &corners)
 {
@@ -1590,7 +1612,8 @@ Bool W3DRadar::copyDeckRadar(std::vector<unsigned int> &pixels)
 		if (!bits) { surface->Release_Ref(); pixels.clear(); return FALSE; }
 		unsigned bytes = Get_Bytes_Per_Pixel(desc.Format);
 		for (int y = 0; y < 128; ++y) for (int x = 0; x < 128; ++x) {
-			int sx = x * m_textureWidth / 128, sy = y * m_textureHeight / 128;
+			// GeneralsX @bugfix Codex 14/10/2026 Match the radar Image's flipped V coordinates.
+			int sx = x * m_textureWidth / 128, sy = (127 - y) * m_textureHeight / 128;
 			Vector3 rgb;
 			surface->Get_Pixel(rgb, sx, sy, bits, pitch);
 			const unsigned char *p = static_cast<const unsigned char *>(bits) + sy * pitch + sx * bytes;

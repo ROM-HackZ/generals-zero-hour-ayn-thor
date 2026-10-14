@@ -166,8 +166,9 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                     } catch (java.io.IOException e) { android.util.Log.w("Thor", "State capture unavailable", e); }
                 }
                 if (mapMode) {
-                    mapX = Math.max(0, Math.min(.999f, mapX + lx * .025f));
-                    mapY = Math.max(0, Math.min(.999f, mapY + ly * .025f));
+                    JSONArray bounds=snapshot.optJSONArray("radarBounds");
+                    mapX = Math.max(bounds==null?0:(float)bounds.optDouble(0), Math.min(bounds==null?.999f:(float)bounds.optDouble(2), mapX + lx * .025f));
+                    mapY = Math.max(bounds==null?0:(float)bounds.optDouble(1), Math.min(bounds==null?.999f:(float)bounds.optDouble(3), mapY + ly * .025f));
                 }
                 sendAxes();
                 if (!battle && !typing && Math.max(Math.abs(lx), Math.abs(ly)) > .6f && android.os.SystemClock.uptimeMillis() - lastNavigation > 220) {
@@ -201,9 +202,10 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         if (!ready || !controllerActive) return;
         boolean blocked = rt || lb || deckFocus || mapMode || typing || !battle;
         float speed = preferences.getInt("speed", 100) / 100f;
-        float vertical = preferences.getBoolean("invert_pan_y", false) ? -ly : ly;
+        boolean rotating = snapshot.optInt("placementStage") == 2;
+        float vertical = !rotating && preferences.getBoolean("invert_pan_y", false) ? -ly : ly;
         // GeneralsX @feature Codex 14/10/2026 Owner preference: up zooms in, while precision aim stays natural.
-        float zoom = !r3 && preferences.getBoolean("invert_zoom", true) ? -ry : ry;
+        float zoom = (!r3 || rotating) && preferences.getBoolean("invert_zoom", true) ? -ry : ry;
         ThorBridge.nativeAxes(blocked ? 0 : lx * speed, blocked ? 0 : vertical * speed, blocked ? 0 : rx, blocked ? 0 : zoom, r3, lt);
         if ((rt || lb) && Math.max(Math.abs(lx), Math.abs(ly)) > .35f) {
             wedge = ThorControls.wedge(lx, ly);
