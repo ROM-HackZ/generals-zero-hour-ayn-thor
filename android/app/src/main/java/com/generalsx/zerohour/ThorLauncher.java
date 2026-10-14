@@ -22,7 +22,7 @@ public final class ThorLauncher extends Activity {
         Button play = new Button(this); play.setText("Play"); play.setOnClickListener(v -> launch()); root.addView(play);
         Button settings = new Button(this); settings.setText("Engine settings"); settings.setOnClickListener(v -> startActivity(new Intent(this, SetupActivity.class))); root.addView(settings);
         Button controls = new Button(this); controls.setText("Controller settings / button check"); controls.setOnClickListener(v -> startActivity(new Intent(this, ThorSettingsActivity.class))); root.addView(controls);
-        TextView help = new TextView(this); help.setText("Left stick: camera · Right stick: zoom\nA: select/order · B: cancel · RT: commands · LB: groups\nRB: minimap · View: command deck · Start: pause"); help.setTextColor(Color.LTGRAY); help.setTextSize(16); root.addView(help);
+        TextView help = new TextView(this); help.setText("Left stick: camera · Right stick: rotate / zoom\nA: select/order · B: cancel · RT: commands · LB: groups\nBuilding: A locks position · Left stick chooses facing · A builds · B cancels\nTouch: one finger selects · two fingers pan / zoom / rotate\nMinimap: tap to look · drag to pan\nRB: minimap · View: command deck · Start: pause"); help.setTextColor(Color.LTGRAY); help.setTextSize(16); root.addView(help);
         setContentView(root); play.requestFocus();
     }
     protected void onResume() { super.onResume(); check(); }
@@ -33,7 +33,7 @@ public final class ThorLauncher extends Activity {
         StringBuilder missing = new StringBuilder();
         for (String name : needed) if (!new File(game, name).isFile()) missing.append(name).append(" ");
         if (!new File(base, "INI.big").isFile()) missing.append("ZH_Generals/INI.big");
-        if (missing.length() != 0) { status.setText("Game data needed: " + missing + "\nRun the PC deployment script, then reopen this screen."); return false; }
+        if (missing.length() != 0) { status.setText("Game data needed: " + missing + "\nUse the desktop installer, then reopen this screen."); return false; }
         status.setText("Zero Hour data ready. Use the D-pad and A to start."); return true;
     }
     void launch() {

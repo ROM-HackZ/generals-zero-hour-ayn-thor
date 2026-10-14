@@ -444,6 +444,10 @@ public:  // ********************************************************************
 	virtual Bool isPlacementAnchored();													///< is placement arrow anchor set
 	virtual void getPlacementPoints( ICoord2D *start, ICoord2D *end );///< get the placemnt arrow points
 	virtual Real getPlacementAngle();														///< placement angle of drawable at cursor when placing down structures
+	// GeneralsX @feature Codex 14/10/2026 Input can pin a build preview in world space while the view moves.
+	void setInputPlacement(const Coord3D *world, Real angle);
+	Bool getInputPlacementPosition(Coord3D *world) const;
+	UnsignedInt getPlacementGeneration() const { return m_placementGeneration; }
 
 	// Drawable selection mechanisms
 	virtual void selectDrawable( Drawable *draw );					///< Mark given Drawable as "selected"
@@ -797,6 +801,10 @@ protected:
 	const CommandButton *				m_pendingGUICommand;										///< GUI command that needs additional interaction from the user
 	BuildProgress								m_buildProgress[ MAX_BUILD_PROGRESS ];	///< progress for building units
 	const ThingTemplate *				m_pendingPlaceType;											///< type of built thing we're trying to place
+	Bool m_inputPlacementKnown = FALSE;
+	Coord3D m_inputPlacementWorld;
+	Real m_inputPlacementAngle = 0;
+	UnsignedInt m_placementGeneration = 0;
 	ObjectID										m_pendingPlaceSourceObjectID;						///< source object of the thing constructing the item
 	Bool										m_preventLeftClickDeselectionInAlternateMouseModeForOneClick;
 	Drawable **									m_placeIcon;														///< array for drawables to appear at the cursor when building in the world

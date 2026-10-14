@@ -21,6 +21,8 @@
 */
 
 #include "SDL3Device/GameClient/TouchInput.h"
+#include <cmath>
+#include <algorithm>
 
 #include "Common/GameType.h"
 #include "Common/MessageStream.h"
@@ -46,6 +48,22 @@
 
 namespace
 {
+	// GeneralsX @feature Codex 14/10/2026 Unconfirmed previews carry no construction order or expenditure.
+	struct PlacementPreview {
+		UnsignedInt generation = 0;
+		Bool rotating = FALSE, stickReady = FALSE;
+		Bool aimKnown = FALSE;
+		ICoord2D aim{};
+		Coord3D site{};
+		Real angle = 0;
+	} placementPreview;
+	void syncPlacementPreview() {
+		if (!TheInGameUI || !TheInGameUI->getPendingPlaceType()) { placementPreview = {}; return; }
+		if (placementPreview.generation != TheInGameUI->getPlacementGeneration()) {
+			placementPreview = {};
+			placementPreview.generation = TheInGameUI->getPlacementGeneration();
+		}
+	}
 
 	/**
 		The object under a screen point, as the ORDER path sees it.
@@ -212,6 +230,97 @@ namespace
 
 namespace TouchInput
 {
+	Bool placementRotating() { syncPlacementPreview(); return placementPreview.rotating; }
+	void placementReset() { placementPreview = {}; }
+	void placementCancel() {
+		if (TheInGameUI && TheInGameUI->getPendingPlaceType()) TheInGameUI->placeBuildAvailable(nullptr, nullptr);
+		placementReset();
+	}
+	void placementPump() {
+		if (!placementRotating() || !TheTacticalView) return;
+		ICoord2D pixel;
+		if (TheTacticalView->worldToScreen(&placementPreview.site, &pixel)) {
+			// The world position is authoritative; pixel anchors are only the facing-arrow UI.
+			TheInGameUI->setPlacementStart(&pixel);
+			Coord3D facing = placementPreview.site;
+			facing.x += std::cos(placementPreview.angle)*100;
+			facing.y += std::sin(placementPreview.angle)*100;
+			ICoord2D end = pixel;
+			TheTacticalView->worldToScreen(&facing,&end);
+			TheInGameUI->setPlacementEnd(&end);
+		}
+		TheInGameUI->setInputPlacement(&placementPreview.site, placementPreview.angle);
+	}
+	void placementAim(Int x, Int y) {
+		if (!TheInGameUI || !TheInGameUI->getPendingPlaceType() || !TheTacticalView) return;
+		if (!placementRotating()) {
+			placementPreview.aimKnown = TRUE; placementPreview.aim = {x,y};
+			TheInGameUI->setTouchAimPoint(x, y, TRUE); return;
+		}
+		Coord3D target; ICoord2D pixel{x, y};
+		if (TheTacticalView->screenToTerrain(&pixel, &target)) {
+			Real dx = target.x - placementPreview.site.x, dy = target.y - placementPreview.site.y;
+			if (dx * dx + dy * dy > 25) placementPreview.angle = std::atan2(dy, dx);
+		}
+		placementPump();
+	}
+	void placementDirection(Real x, Real y) {
+		if (!placementRotating() || !TheDisplay || !TheTacticalView) return;
+		if (x*x + y*y < .04f) { placementPreview.stickReady = TRUE; return; }
+		// Enter rotation with the stick centered, so the last pan cannot change facing.
+		if (!placementPreview.stickReady) return;
+		ICoord2D center{Int(TheDisplay->getWidth()/2), Int(TheDisplay->getHeight()/2)};
+		ICoord2D end{center.x + int(x * 180), center.y + int(y * 180)};
+		Coord3D startWorld, endWorld;
+		if (TheTacticalView->screenToTerrain(&center, &startWorld) && TheTacticalView->screenToTerrain(&end, &endWorld)) {
+			Real dx = endWorld.x-startWorld.x, dy = endWorld.y-startWorld.y;
+			if (dx*dx+dy*dy > 1) placementPreview.angle = std::atan2(dy,dx);
+			placementPump();
+		}
+	}
+	void placementStep(Int x, Int y) {
+		if (!TheInGameUI || !TheInGameUI->getPendingPlaceType() || !TheTacticalView ||
+			!TheInGameUI->getInputEnabled() || TheInGameUI->isQuitMenuVisible()) return;
+		Bool rotating = placementRotating();
+		if (x < 0 || y < 0) {
+			if (!rotating && placementPreview.aimKnown) { x = placementPreview.aim.x; y = placementPreview.aim.y; }
+			else if (TheDisplay) { x = TheDisplay->getWidth()/2; y = TheDisplay->getHeight()/2; }
+			else return;
+		}
+		if (!rotating) {
+			ICoord2D pixel{x,y};
+			if (!TheTacticalView->screenToTerrain(&pixel,&placementPreview.site)) return;
+			placementPreview.angle = TheInGameUI->getPlacementAngle();
+			placementPreview.rotating = TRUE;
+			placementPreview.stickReady = FALSE;
+			TheInGameUI->setPlacementStart(&pixel);
+			placementPump();
+			return;
+		}
+		placementPump();
+		if (!TheMessageStream) return;
+		// Existing PlaceEventTranslator checks the world site, angle, money and builder.
+		// An invalid click leaves this rotation stage available for correction/cancellation.
+		GameMessage *msg = TheMessageStream->appendMessage(GameMessage::MSG_MOUSE_LEFT_CLICK);
+		IRegion2D region{{x,y},{x,y}};
+		msg->appendPixelRegionArgument(region); msg->appendIntegerArgument(0);
+	}
+	void boxSelection(Int startX, Int startY, Int endX, Int endY, Bool commit, Bool cancel) {
+		if (!TheInGameUI || !TheMessageStream) return;
+		IRegion2D region{{std::min(startX,endX),std::min(startY,endY)}, {std::max(startX,endX),std::max(startY,endY)}};
+		TheInGameUI->setSelecting(!commit && !cancel);
+		if (commit || cancel) {
+			TheInGameUI->endAreaSelectHint(nullptr);
+			TheMessageStream->appendMessage(GameMessage::MSG_END_AREA_SELECTION_HINT)->appendPixelRegionArgument(region);
+			if (commit && !cancel) {
+				// The original region-selection path retains ownership, selection limits and context rules.
+				GameMessage *msg = TheMessageStream->appendMessage(GameMessage::MSG_MOUSE_LEFT_CLICK);
+				msg->appendPixelRegionArgument(region); msg->appendIntegerArgument(0);
+			}
+		} else {
+			TheMessageStream->appendMessage(GameMessage::MSG_BEGIN_AREA_SELECTION_HINT)->appendPixelRegionArgument(region);
+		}
+	}
 
 	Bool hasArmedCommand()
 	{

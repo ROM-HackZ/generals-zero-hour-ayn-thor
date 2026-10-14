@@ -179,7 +179,8 @@ GameMessageDisposition PlaceEventTranslator::translateGameMessage(const GameMess
 				TheInGameUI->getPlacementPoints( &anchorStart, &anchorEnd );
 
 				// translate the screen position of start to world target location
-				if( !TheTacticalView->screenToTerrain( &anchorStart, &worldStart ) )
+				// GeneralsX @feature Codex 14/10/2026 A pinned preview supplies its world site; all construction checks below remain authoritative.
+				if( !TheInGameUI->getInputPlacementPosition(&worldStart) && !TheTacticalView->screenToTerrain( &anchorStart, &worldStart ) )
 					break;
 
 				if( isLineBuild && !TheTacticalView->screenToTerrain( &anchorEnd, &worldEnd ) )

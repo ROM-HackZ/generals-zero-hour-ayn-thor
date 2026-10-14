@@ -129,10 +129,13 @@ Save a running match before installing an update or replacing game files.
 USB connection and downloads/verifies the published app. If the same APK is
 already installed, the installer skips reinstalling it.
 
-The current installer installs game preview **0.1.0-alpha.1**. Future game
-previews will come with an updated installer; it doesn't silently choose an
-unreviewed APK. **Advanced → Local APK** lets you use a downloaded Thor update
-or your own build. Local APKs do not have the automatic download's pinned checksum.
+The current installer automatically downloads game preview **0.1.0-alpha.1**.
+For the newer [input fixes preview, 0.1.0-alpha.2](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.2),
+download its APK and choose it under **Advanced → Local APK**. Tick **App update
+only** if your game files are already installed. Local APKs do not have the
+automatic download's pinned checksum; the release provides `SHA256SUMS.txt`.
+The same field supports your own builds. Later desktop installer releases can
+advance the automatic download without silently selecting arbitrary APKs.
 
 Local saves live on the Thor at:
 

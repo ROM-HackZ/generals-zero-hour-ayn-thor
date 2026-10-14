@@ -430,6 +430,8 @@ public:  // ********************************************************************
 	virtual Bool isPlacementAnchored();													///< is placement arrow anchor set
 	virtual void getPlacementPoints( ICoord2D *start, ICoord2D *end );///< get the placemnt arrow points
 	virtual Real getPlacementAngle();														///< placement angle of drawable at cursor when placing down structures
+	// GeneralsX @feature Codex 14/10/2026 Shared translator compatibility; base Generals keeps pixel placement.
+	Bool getInputPlacementPosition(Coord3D *) const { return FALSE; }
 
 	// Drawable selection mechanisms
 	virtual void selectDrawable( Drawable *draw );					///< Mark given Drawable as "selected"

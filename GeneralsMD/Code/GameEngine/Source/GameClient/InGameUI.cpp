@@ -2002,7 +2002,14 @@ void InGameUI::handleBuildPlacements()
 
 		// update the angle of the icon to match any placement angle and pick the
 		// location the icon will be at (anchored is the start, otherwise it's the mouse)
-		if( isPlacementAnchored() )
+		// GeneralsX @feature Codex 14/10/2026 A controller's locked site stays fixed during camera gestures.
+		if (m_inputPlacementKnown)
+		{
+			world = m_inputPlacementWorld;
+			angle = m_inputPlacementAngle;
+			loc = m_placeAnchorStart;
+		}
+		else if( isPlacementAnchored() )
 		{
 			ICoord2D start, end;
 
@@ -2064,7 +2071,7 @@ void InGameUI::handleBuildPlacements()
 		// set the location and angle of the place icon
 		/**@todo this whole orientation vector thing is LAME! Must replace, all I want to
 		to do is set a simple angle and have it automatically change, ug! */
-		if( TheTacticalView->screenToTerrain( &loc, &world ) )
+		if( m_inputPlacementKnown || TheTacticalView->screenToTerrain( &loc, &world ) )
 		{
 			m_placeIcon[ 0 ]->setPosition( &world );
 			m_placeIcon[ 0 ]->setOrientation( angle );
@@ -3726,6 +3733,9 @@ void InGameUI::destroyPlacementIcons()
 //-------------------------------------------------------------------------------------------------
 void InGameUI::placeBuildAvailable( const ThingTemplate *build, Drawable *buildDrawable )
 {
+	// GeneralsX @feature Codex 14/10/2026 A fresh command invalidates its old two-step input state.
+	m_inputPlacementKnown = FALSE;
+	++m_placementGeneration;
 
 	if (build != nullptr)
 	{
@@ -3921,6 +3931,23 @@ void InGameUI::getPlacementPoints( ICoord2D *start, ICoord2D *end )
 }
 
 //-------------------------------------------------------------------------------------------------
+// GeneralsX @feature Codex 14/10/2026 Share a precise world-space preview with the original placement validator.
+void InGameUI::setInputPlacement(const Coord3D *world, Real angle)
+{
+	m_inputPlacementKnown = world != nullptr && m_pendingPlaceType != nullptr;
+	if (!m_inputPlacementKnown) return;
+	m_inputPlacementWorld = *world;
+	m_inputPlacementAngle = angle;
+	if (m_placeIcon[0]) { m_placeIcon[0]->setPosition(world); m_placeIcon[0]->setOrientation(angle); }
+}
+
+Bool InGameUI::getInputPlacementPosition(Coord3D *world) const
+{
+	if (!m_inputPlacementKnown || !world) return FALSE;
+	*world = m_inputPlacementWorld;
+	return TRUE;
+}
+
 /** Return the angle of the drawable at the cursor if any */
 //-------------------------------------------------------------------------------------------------
 Real InGameUI::getPlacementAngle()

@@ -64,7 +64,7 @@ std::deque<Intent> pending;
 std::string published = "{\"ready\":false}";
 float stick[4] = {};
 float smoothPan[2] = {};
-bool precision = false, waypoint = false, enabled = false, suspended = false;
+bool precision = false, waypoint = false, enabled = false, suspended = false, axesEnabled = false;
 float aimX = .5f, aimY = .5f;
 Uint64 lastPump = 0, lastSnapshot = 0, lastRadar = 0;
 int editorId = 0;
@@ -400,7 +400,8 @@ void publish() {
         << ",\"aimX\":" << aimX << ",\"aimY\":" << aimY
         << ",\"width\":" << (TheDisplay ? TheDisplay->getWidth() : 1280)
         << ",\"height\":" << (TheDisplay ? TheDisplay->getHeight() : 720)
-        << ",\"selected\":" << (TheInGameUI ? TheInGameUI->getSelectCount() : 0);
+        << ",\"selected\":" << (TheInGameUI ? TheInGameUI->getSelectCount() : 0)
+        << ",\"selecting\":" << (TheInGameUI && TheInGameUI->isSelecting() ? "true" : "false");
     Player *p = ThePlayerList ? ThePlayerList->getLocalPlayer() : nullptr;
     if (p) out << ",\"money\":" << p->getMoney()->countMoney() << ",\"power\":"
         << p->getEnergy()->getProduction() - p->getEnergy()->getConsumption() << ",\"rank\":" << p->getRankLevel()
@@ -432,11 +433,26 @@ void publish() {
         for (size_t i = 0; i < corners.size(); ++i) { if (i) out << ','; out << corners[i]; }
         out << ']';
     }
+    std::vector<float> radarBounds;
+    if (inMatch() && deckRadar && deckRadar->copyDeckBounds(radarBounds)) {
+        out << ",\"radarBounds\":[";
+        for (size_t i = 0; i < radarBounds.size(); ++i) { if (i) out << ','; out << radarBounds[i]; }
+        out << ']';
+        out << ",\"radarWorldWidth\":" << deckRadar->getDeckWorldWidth()
+            << ",\"radarWorldHeight\":" << deckRadar->getDeckWorldHeight();
+    }
     ICoord2D boxStart;
     if (boxHeld && TheTacticalView && TheTacticalView->worldToScreen(&boxAnchor, &boxStart))
         out << ",\"boxX\":" << boxStart.x << ",\"boxY\":" << boxStart.y;
     out << ",\"targeting\":" << (TouchInput::hasArmedCommand() ? "true" : "false")
         << ",\"placing\":" << (TheInGameUI && TheInGameUI->getPendingPlaceType() ? "true" : "false");
+    const auto *placing = TheInGameUI ? TheInGameUI->getPendingPlaceType() : nullptr;
+    out << ",\"placementStage\":" << (placing ? TouchInput::placementRotating() ? 2 : 1 : 0);
+    if (placing) out << ",\"placementName\":" << quoted(utf8(placing->getDisplayName()))
+        << ",\"placementAngle\":" << TheInGameUI->getPlacementAngle();
+    Coord3D placementSite;
+    if (placing && TheInGameUI->getInputPlacementPosition(&placementSite))
+        out << ",\"placementX\":" << placementSite.x << ",\"placementY\":" << placementSite.y;
     if (TheTacticalView) {
         Coord2D position = TheTacticalView->getPosition2D();
         out << ",\"cameraX\":" << position.x << ",\"cameraY\":" << position.y
@@ -472,15 +488,19 @@ void publish() {
 extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeAxes(JNIEnv *, jclass, jfloat lx, jfloat ly, jfloat rx, jfloat ry, jboolean precise, jboolean queue) {
     std::lock_guard<std::mutex> guard(bridgeMutex);
     stick[0] = lx; stick[1] = ly; stick[2] = rx; stick[3] = ry;
-    precision = precise; waypoint = queue; enabled = true;
+    precision = precise; waypoint = queue; enabled = axesEnabled = true;
     suspended = false;
 }
 extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeIntent(JNIEnv *, jclass, jint type, jint value, jfloat x, jfloat y) {
     std::lock_guard<std::mutex> guard(bridgeMutex);
     enabled = true;
-    if (type == 96) { enabled = false; std::fill(stick, stick + 4, 0); return; }
-    if (type == 99) { pending.clear(); pending.push_back({97, 0, 0, 0}); std::fill(stick, stick + 4, 0); pendingText.clear(); textReady = false; suspended = true; return; }
+    if (type == 96) { enabled = axesEnabled = false; std::fill(stick, stick + 4, 0); return; }
+    if (type == 99) { pending.clear(); pending.push_back({97, 0, 0, 0}); std::fill(stick, stick + 4, 0); axesEnabled = false; pendingText.clear(); textReady = false; suspended = true; return; }
     suspended = false;
+    // GeneralsX @bugfix Codex 14/10/2026 Coalesce drag samples without dropping orders between them.
+    if (type == 15 && value == 0 && !pending.empty() && pending.back().type == 15 && pending.back().value == 0) {
+        pending.back().x = x; pending.back().y = y; return;
+    }
     if (pending.size() < 128) pending.push_back({type, value, x, y});
 }
 // GeneralsX @bugfix Codex 14/10/2026 A stale snapshot cannot activate a different command in a reused slot.
@@ -536,17 +556,18 @@ extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeO
 namespace ThorInput {
 void reset() {
     std::lock_guard<std::mutex> guard(bridgeMutex);
-    pending.clear(); std::fill(stick, stick + 4, 0); precision = waypoint = false;
+    pending.clear(); std::fill(stick, stick + 4, 0); precision = waypoint = axesEnabled = false;
     aimX = aimY = .5f; lastPump = 0; boxHeld = false; textReady = false; radarPixels.clear(); editorId = 0;
     smoothPan[0] = smoothPan[1] = 0;
+    TouchInput::placementReset();
     iconCopies.clear(); pageCopies.clear(); iconRequests.clear(); requestedIcons.clear(); ++iconGeneration;
     published = "{\"ready\":false}";
 }
 void pump() {
     pumpIcons();
-    std::deque<Intent> work; float axes[4]; bool precise, queue, active, snap, externalDeck;
+    std::deque<Intent> work; float axes[4]; bool precise, queue, active, snap, externalDeck, useAxes;
     std::vector<WideChar> text;
-    { std::lock_guard<std::mutex> guard(bridgeMutex); work.swap(pending); std::copy(stick, stick + 4, axes); precise = precision; queue = waypoint; active = enabled && !suspended; snap = snapSetting; externalDeck = externalDeckSetting; if (textReady) { text.swap(pendingText); textReady = false; } }
+    { std::lock_guard<std::mutex> guard(bridgeMutex); work.swap(pending); std::copy(stick, stick + 4, axes); precise = precision; queue = waypoint; active = enabled && !suspended; useAxes = axesEnabled; snap = snapSetting; externalDeck = externalDeckSetting; if (textReady) { text.swap(pendingText); textReady = false; } }
     if (TheControlBar && TheTacticalView && TheDisplay) {
         const bool expand = externalDeck && inMatch();
         TheControlBar->presentOnExternalDeck(expand);
@@ -568,8 +589,9 @@ void pump() {
     lastPump = now;
     const int width = TheDisplay ? TheDisplay->getWidth() : 1280;
     const int height = TheDisplay ? TheDisplay->getHeight() : 720;
-    if (active && battlefield() && TheTacticalView && TheInGameUI) {
-        if (precise) { aimX = std::clamp(aimX + axes[2] * dt * .35f, .05f, .95f); aimY = std::clamp(aimY + axes[3] * dt * .35f, .05f, externalDeck ? .95f : .72f); }
+    if (active && useAxes && battlefield() && TheTacticalView && TheInGameUI) {
+        const bool rotating = TouchInput::placementRotating();
+        if (precise && !rotating) { aimX = std::clamp(aimX + axes[2] * dt * .35f, .05f, .95f); aimY = std::clamp(aimY + axes[3] * dt * .35f, .05f, externalDeck ? .95f : .72f); }
         else {
             aimX = .5f; aimY = externalDeck ? .5f : .4f;
             TheTacticalView->userZoom(-axes[3] * dt * 250.f);
@@ -577,14 +599,19 @@ void pump() {
         }
         // GeneralsX @bugfix Codex 14/10/2026 scrollBy already converts screen axes to world space.
         // Use the original keyboard scroll scale once, with a short analog response ramp.
-        const float blend = 1.f - std::exp(-dt / .055f);
-        for (int index = 0; index < 2; ++index) {
-            smoothPan[index] += (axes[index] - smoothPan[index]) * blend;
-            if (axes[index] == 0 && std::abs(smoothPan[index]) < .015f) smoothPan[index] = 0;
+        if (rotating) {
+            smoothPan[0] = smoothPan[1] = 0;
+            TouchInput::placementDirection(axes[0], axes[1]);
+        } else {
+            const float blend = 1.f - std::exp(-dt / .055f);
+            for (int index = 0; index < 2; ++index) {
+                smoothPan[index] += (axes[index] - smoothPan[index]) * blend;
+                if (axes[index] == 0 && std::abs(smoothPan[index]) < .015f) smoothPan[index] = 0;
+            }
+            const float speed = 200.f * 30.f * dt * (TheGlobalData ? TheGlobalData->m_keyboardScrollFactor : .5f);
+            Coord2D delta{smoothPan[0] * speed, smoothPan[1] * speed};
+            TheTacticalView->userScrollBy(&delta);
         }
-        const float speed = 200.f * 30.f * dt * (TheGlobalData ? TheGlobalData->m_keyboardScrollFactor : .5f);
-        Coord2D delta{smoothPan[0] * speed, smoothPan[1] * speed};
-        TheTacticalView->userScrollBy(&delta);
         if (snap && !precise && !boxHeld && !TouchInput::hasArmedCommand() && !TheInGameUI->getPendingPlaceType() && TheGameClient) {
             int targetX = int(aimX * width), targetY = int(aimY * height);
             int best = int(width * .022f) * int(width * .022f);
@@ -626,10 +653,14 @@ void pump() {
         TheInGameUI->setWaypointMode(queue);
         switch (i.type) {
         case 0:
-            if (TouchInput::hasArmedCommand() || TheInGameUI->getPendingPlaceType()) click(x, y);
+            if (TheInGameUI->getPendingPlaceType()) TouchInput::placementStep(x,y);
+            else if (TouchInput::hasArmedCommand()) click(x, y);
             else if (i.value == 2) TouchInput::doubleTap(x, y); else TouchInput::tap(x, y);
             break;
-        case 1: TouchInput::cancelOrDeselect(); break;
+        case 1:
+            if (TheInGameUI->getPendingPlaceType()) TouchInput::placementCancel();
+            else TouchInput::cancelOrDeselect();
+            break;
         case 2: {
             ICoord2D point{x, y}; Coord3D world;
             if (TouchInput::hasControllableSelection() && TheTacticalView->screenToTerrain(&point, &world)) {
@@ -660,11 +691,12 @@ void pump() {
         }
         case 10: if (i.value >= 0 && i.value < 10) message(static_cast<GameMessage::Type>(GameMessage::MSG_META_VIEW_TEAM0 + i.value)); break;
         case 13: {
+            if (TheInGameUI->getPendingPlaceType()) { boxHeld = false; break; }
             ICoord2D pixel{x, y}; boxHeld = TheTacticalView && TheTacticalView->screenToTerrain(&pixel, &boxAnchor);
-            if (TheInGameUI->getPendingPlaceType()) TheInGameUI->setPlacementStart(&pixel);
             boxDown = now; break;
         }
         case 14: {
+            if (TheInGameUI->getPendingPlaceType()) { boxHeld = false; TouchInput::placementStep(x,y); break; }
             if (!boxHeld) break;
             boxHeld = false;
             ICoord2D start;
@@ -699,17 +731,20 @@ void pump() {
             break;
         }
         case 15: {
-            if (!TheRadar || !rts::localPlayerHasRadar()) break;
-            ICoord2D point{int(std::clamp(i.x, 0.f, .999f) * RADAR_CELL_WIDTH), int(std::clamp(i.y, 0.f, .999f) * RADAR_CELL_HEIGHT)};
+            auto *radar = dynamic_cast<W3DRadar *>(TheRadar);
+            if (!radar || !rts::localPlayerHasRadar()) break;
             Coord3D world;
-            if (!TheRadar->radarToWorld(&point, &world)) break;
+            if (!radar->deckPointToWorld(i.x, i.y, &world)) break;
             if (i.value == 0) TheTacticalView->userLookAt(&world);
             else if (TouchInput::hasControllableSelection()) TheGameClient->evaluateContextCommand(nullptr, &world, CommandTranslator::DO_COMMAND);
             break;
         }
+        case 16: if (TheInGameUI->getPendingPlaceType()) TouchInput::placementCancel(); break;
+        case 17: if (TheInGameUI->getPendingPlaceType()) TouchInput::placementStep(i.x < 0 ? -1 : x,i.y < 0 ? -1 : y); break;
         }
         TheInGameUI->setWaypointMode(FALSE);
     }
+    TouchInput::placementPump();
     if (now - lastSnapshot >= 33) { publish(); lastSnapshot = now; }
 }
 }
