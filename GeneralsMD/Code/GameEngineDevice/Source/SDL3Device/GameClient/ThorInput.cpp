@@ -338,6 +338,8 @@ void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth =
                 if (cmd && TheControlBar) {
                     for (int index = 0; index < MAX_COMMANDS_PER_SET; ++index)
                         if (TheControlBar->getCommandWindow(index) == w) { contextCommand = true; commandSlot = index; }
+                    // GeneralsX @bugfix Codex 14/10/2026 Unfinished buildings use a dedicated cancel window outside command slots.
+                    if (cmd->getCommandType() == GUI_COMMAND_DOZER_CONSTRUCT_CANCEL) { contextCommand = true; commandSlot = 0; }
                     if (cmd->getCommandType() == GUI_COMMAND_SPECIAL_POWER_FROM_SHORTCUT ||
                         cmd->getCommandType() == GUI_COMMAND_SPECIAL_POWER_CONSTRUCT_FROM_SHORTCUT ||
                         cmd->getCommandType() == GUI_COMMAND_PURCHASE_SCIENCE) contextCommand = true;

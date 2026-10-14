@@ -58,6 +58,14 @@ one-finger touch/drag chooses facing. **Build** on the bottom screen (or A)
 confirms; **Cancel** (or B) discards. Two-finger camera gestures remain available.
 The bottom screen also has **Choose spot** for locking the current preview.
 
+### Cancel a building already under construction (alpha.3)
+
+Select the unfinished building itself. **Cancel Construction** appears in the
+RT command wheel and bottom-screen command grid. Choose it to remove the site
+and get the game's construction refund. Once the building finishes, its normal
+commands replace this button. B still cancels an unconfirmed placement preview;
+it does not demolish a building you have already ordered.
+
 ## Touch controls (game preview 0.1.0-alpha.2)
 
 | Gesture on the battlefield | Action |
