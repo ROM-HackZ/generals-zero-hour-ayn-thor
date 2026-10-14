@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:NoMansLand",
+  "text": "No Man's Land"
+ },
+ {
+  "label": "MAP:OverlandOffensive",
+  "text": "Overland Offensive"
+ },
+ {
+  "label": "MAP:RockyRampage",
+  "text": "Rocky Rampage"
+ },
+ {
+  "label": "MAP:SnowblindStrike",
+  "text": "Snowblind Strike"
+ },
+ {
+  "label": "MAP:UrbanUnderground",
+  "text": "Urban Underground"
+ },
+ {
+  "label": "MAP:VictoryValley",
+  "text": "Victory Valley"
+ },
+ {
+  "label": "MAP:WastelandWarfare",
+  "text": "Wasteland Warfare"
+ },
+ {
+  "label": "MAP:RogueAgent",
+  "text": "Rogue Agent"
+ },
+ {
+  "label": "MAP:DesertEagle",
+  "text": "Desert Eagle"
+ },
+ {
+  "label": "MAP:FlashFire",
+  "text": "Flash Fire"
+ },
+ {
+  "label": "MAP:MountainGuns",
+  "text": "Mountain Guns"
+ },
+ {
+  "label": "MAP:FlashEffect",
+  "text": "Flash Effect"
+ },
+ {
+  "label": "MAP:LightsOut",
+  "text": "Lights Out"
+ },
+ {
+  "label": "MAP:SteelTrap",
+  "text": "Steel Trap"
+ },
+ {
+  "label": "MAP:ArmoredFury",
+  "text": "Armored Fury"
+ },
+ {
+  "label": "MAP:InfiniteJustice",
+  "text": "Cairo Commandos"
+ },
+ {
+  "label": "MAP:Whiteout",
+  "text": "Whiteout"
+ },
+ {
+  "label": "MAP:FalloutEffect",
+  "text": "Fallout Effect"
+ },
+ {
+  "label": "MAP:FloodedPlains",
+  "text": "Flooded Plains"
+ },
+ {
+  "label": "MAP:TournamentContinent",
+  "text": "Tournament Continent"
+ },
+ {
+  "label": "MAP:TournamentCity",
+  "text": "Tournament City"
+ },
+ {
+  "label": "MAP:TournamentLadder01",
+  "text": "Tournament Ladder 01"
+ },
+ {
+  "label": "MAP:TournamentLadder02",
+  "text": "Tournament Ladder 02"
+ },
+ {
+  "label": "MAP:TournamentLadder03",
+  "text": "Tournament Ladder 03"
+ },
+ {
+  "label": "MAP:TournamentLadder04",
+  "text": "Tournament Ladder 04"
+ },
+ {
+  "label": "MAP:TrainingGLAHole",
+  "text": "ساختمان‌های GLA بخش‌های زیرزمینی عمیقی دارند که کارگرانشان را محافظت می‌کند. پس از نابودی یک ساختمان GLA گودالی به جا می‌ماند. کارگران پنهان در این گودال سرانجام سازه را دوباره می‌سازند. به گودال حمله کنید تا تهدید GLA از میان برود"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25",
+  "text": "نشان پیاپی\nبازیکن ۲۵ نبرد آزاد پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "GUI:InsertCDPrompt",
+  "text": "دیسک موجود نیست"
+ },
+ {
+  "label": "GUI:InsertCDMessage",
+  "text": "لطفاً اولین دیسک بازی را وارد کنید"
+ },
+ {
+  "label": "CONTROLBAR:OrRequirement",
+  "text": "یا"
+ },
+ {
+  "label": "SCRIPT:USA02RescueCounter",
+  "text": "خلبانان باقی‌مانده:"
+ },
+ {
+  "label": "GUI:AddCash",
+  "text": "$%d"
+ },
+ {
+  "label": "GUI:LoseCash",
+  "text": "-$%d"
+ },
+ {
+  "label": "RADAR:HarvesterUnderAttack",
+  "text": "جمع‌کننده منابع زیر حمله است"
+ },
+ {
+  "label": "OBJECT:PharmaceuticalFactory",
+  "text": "کارخانه داروسازی"
+ },
+ {
+  "label": "GUI:CareerWins",
+  "text": "بردهای دوران"
+ },
+ {
+  "label": "GUI:CareerLosses",
+  "text": "باخت‌های دوران"
+ },
+ {
+  "label": "GUI:CurrentWinStreak",
+  "text": "برد پیاپی فعلی"
+ },
+ {
+  "label": "GUI:CarrerWinPercent",
+  "text": "درصد برد دوران"
+ },
+ {
+  "label": "TOOLTIP:NumberOfPlayers",
+  "text": "تعداد بازیکنان کنونی این بازی"
+ },
+ {
+  "label": "TOOTIP:Password",
+  "text": "گذرواژه لازم برای پیوستن به بازی"
+ },
+ {
+  "label": "TOOLTIP:PingInfo",
+  "text": "کیفیت سرعت اتصال به میزبان"
+ },
+ {
+  "label": "TOOLTIP:LobbyOfficersClub",
+  "text": "باشگاه افسران: عضو بنیان‌گذار جامعه Generals"
+ },
+ {
+  "label": "GUI:Display",
+  "text": "گزینه‌ها"
+ },
+ {
+  "label": "GUI:Audio",
+  "text": "صدا"
+ },
+ {
+  "label": "GUI:LANLobby",
+  "text": "لابی شبکه محلی"
+ },
+ {
+  "label": "GUI:Mute",
+  "text": "بی‌صدا"
+ },
+ {
+  "label": "GUI:NeedHumanPlayers",
+  "text": "برای شروع بازی به یک بازیکن انسانی غیرناظر نیاز دارید"
+ },
+ {
+  "label": "GUI:MediumDifficulty",
+  "text": "متوسط"
+ },
+ {
+  "label": "CONTROLBAR:ObsPlayerLabel",
+  "text": "%ls (تیم %ls)"
+ },
+ {
+  "label": "GUI:LowTextureDetail",
+  "text": "جزئیات بافت کم"
+ },
+ {
+  "label": "TOOLTIP:LowTextureDetail",
+  "text": "استفاده از بافت‌های کم‌وضوح"
+ },
+ {
+  "label": "GUI:QuickMatch800x600",
+  "text": "برای بازی مسابقه سریع لطفاً وضوح تصویر را به 800 x 600 تغییر دهید"
+ },
+ {
+  "label": "OBJECT:CargoPlane",
+  "text": "هواپیمای باری"
+ },
+ {
+  "label": "OBJECT:HuNanProvince",
+  "text": "پکن"
+ },
+ {
+  "label": "OBJECT:HongKong",
+  "text": "هنگ کنگ"
+ },
+ {
+  "label": "OBJECT:HubeiProvince",
+  "text": "سد سه دره"
+ },
+ {
+  "label": "OBJECT:Tangula",
+  "text": "کوه‌های تانگولا"
+ },
+ {
+  "label": "OBJECT:Balykchy",
+  "text": "بالیکچی"
+ },
+ {
+  "label": "OBJECT:Bishkek",
+  "text": "بیشکک"
+ },
+ {
+  "label": "OBJECT:Dushanbe",
+  "text": "دوشنبه"
+ },
+ {
+  "label": "OBJECT:Shymkent",
+  "text": "شیمکنت"
+ },
+ {
+  "label": "OBJECT:Almaty",
+  "text": "آلماتی"
+ },
+ {
+  "label": "OBJECT:Zambul",
+  "text": "ژامبیل"
+ },
+ {
+  "label": "OBJECT:Astana",
+  "text": "آستانه"
+ },
+ {
+  "label": "OBJECT:Incirlik",
+  "text": "اینجرلیک"
+ },
+ {
+  "label": "OBJECT:AralSea",
+  "text": "دریاچه آرال"
+ },
+ {
+  "label": "OBJECT:Lenger",
+  "text": "لنگر"
+ },
+ {
+  "label": "OBJECT:Baikonur",
+  "text": "بایکونور"
+ },
+ {
+  "label": "OBJECT:Mazar",
+  "text": "مزار"
+ },
+ {
+  "label": "OBJECT:Baghdad",
+  "text": "بغداد"
+ },
+ {
+  "label": "OBJECT:AlHanad",
+  "text": "الهناد"
+ },
+ {
+  "label": "OBJECT:NorthKazakhstan",
+  "text": "شمال قزاقستان"
+ },
+ {
+  "label": "OBJECT:KazakhstanCoast",
+  "text": "ساحل قزاقستان"
+ },
+ {
+  "label": "OBJECT:KazakhstanDMZ",
+  "text": "منطقه غیرنظامی قزاقستان"
+ },
+ {
+  "label": "OBJECT:SouthKazkahstan",
+  "text": "جنوب شرقی قزاقستان"
+ },
+ {
+  "label": "OBJECT:Akmola",
+  "text": "آکمولا"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective01a",
+  "text": "اهداف مأموریت:\nمرکز فرماندهی در شرق را برای شروع تولید تصرف کنید\n۲۰۰ خائن را بکشید"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective02a",
+  "text": "هدف مأموریت:\nبا تراکتورهای سمی ۲۰۰ خائن را بکشید"
+ },
+ {
+  "label": "TOOLTIP:Campaign1",
+  "text": "کارزار ۳"
+ },
+ {
+  "label": "TOOLTIP:Campaign2",
+  "text": "کارزار ۲"
+ },
+ {
+  "label": "TOOLTIP:Campaign3",
+  "text": "کارزار ۱"
+ },
+ {
+  "label": "GUI:Setup",
+  "text": "تنظیمات"
+ },
+ {
+  "label": "GUI:PlayerInfo",
+  "text": "اطلاعات بازیکن"
+ },
+ {
+  "label": "GUI:Persona",
+  "text": "هویت"
+ },
+ {
+  "label": "GUI:TextureHigh",
+  "text": "کیفیت بالا (کندتر)"
+ },
+ {
+  "label": "GUI:TextureMedium",
+  "text": "کیفیت متوسط"
+ },
+ {
+  "label": "GUI:TextureLow",
+  "text": "کیفیت پایین (سریع‌تر)"
+ },
+ {
+  "label": "GUI:GameSpeed",
+  "text": "سرعت بازی"
+ },
+ {
+  "label": "GUI:SlowGameSpeed",
+  "text": "کند"
+ },
+ {
+  "label": "GUI:MediumGameSpeed",
+  "text": "متوسط"
+ },
+ {
+  "label": "GUI:FastGameSpeed",
+  "text": "سریع"
+ },
+ {
+  "label": "GUI:RestartConfirmationTitle",
+  "text": "از نو شروع شود؟"
+ },
+ {
+  "label": "GUI:SurrenderConfirmationTitle",
+  "text": "تسلیم؟"
+ },
+ {
+  "label": "TOOLTIP:StartPositionN",
+  "text": "موقعیت شروع بازیکن %d"
+ },
+ {
+  "label": "LABEL:FORMATION",
+  "text": "F"
+ },
+ {
+  "label": "GUI:IgnoreSm",
+  "text": "نادیده گرفتن"
+ },
+ {
+  "label": "GUI:AcceptSm",
+  "text": "پذیرفتن"
+ },
+ {
+  "label": "GUI:EasyCaps",
+  "text": "آسان"
+ },
+ {
+  "label": "GUI:MediumDifficultyCaps",
+  "text": "متوسط"
+ },
+ {
+  "label": "GUI:HardCaps",
+  "text": "سخت"
+ },
+ {
+  "label": "TOOLTIP:AdvanceOptionsAccept",
+  "text": "پذیرفتن تغییرات گزینه‌های نمایش پیشرفته"
+ },
+ {
+  "label": "TOOLTIP:AdvanceOptionsCancel",
+  "text": "خروج از منوی گزینه‌های نمایش پیشرفته بدون اعمال تغییرات"
+ },
+ {
+  "label": "GUI:AdvanceDisplayOptions",
+  "text": "گزینه‌های نمایش پیشرفته"
+ },
+ {
+  "label": "GUI:Shadows",
+  "text": "سایه‌ها"
+ },
+ {
+  "label": "TOOLTIP:Shadows",
+  "text": "نمایش سایه‌ها در بازی را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:BehindBuilding",
+  "text": "پشت ساختمان‌ها"
+ },
+ {
+  "label": "TOOLTIP:BehindBuilding",
+  "text": "نمایش یگان‌های پشت ساختمان‌ها را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:ShowProps",
+  "text": "نمایش اشیای تزئینی"
+ },
+ {
+  "label": "TOOLTIP:ShowProps",
+  "text": "نمایش اشیای تزئینی بازی را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:LowResSlider",
+  "text": "وضوح بافت"
+ },
+ {
+  "label": "GUI:HighResSlower",
+  "text": "وضوح بالا (کندتر)"
+ },
+ {
+  "label": "GUI:LowResFaster",
+  "text": "وضوح پایین (سریع‌تر)"
+ },
+ {
+  "label": "TOOLTIP:LowResSlider",
+  "text": "بافت‌های با وضوح بیشتر ممکن است بازی را کند کنند"
+ },
+ {
+  "label": "GUI:ParticleCap",
+  "text": "سقف ذرات"
+ },
+ {
+  "label": "GUI:MoreParticlesSlower",
+  "text": "بیشترین ذرات (کندتر)"
+ },
+ {
+  "label": "GUI:LessParticlesFaster",
+  "text": "کمترین ذرات (سریع‌تر)"
+ },
+ {
+  "label": "TOOLTIP:ParticleCapSlider",
+  "text": "ذرات بیشتر ممکن است بازی را کند کنند"
+ },
+ {
+  "label": "GUI:CurrentLossStreak",
+  "text": "باخت پیاپی فعلی"
+ },
+ {
+  "label": "GUI:Custom",
+  "text": "سفارشی"
+ },
+ {
+  "label": "GUI:ToggleOnOff",
+  "text": "جلوه‌های تصویری"
+ },
+ {
+  "label": "GUI:RestartMission",
+  "text": "شروع دوباره مأموریت"
+ },
+ {
+  "label": "GUI:ExitMission",
+  "text": "خروج از مأموریت"
+ },
+ {
+  "label": "GUI:OlderReplayVersionTitle",
+  "text": "نسخه قدیمی‌تر بازپخش"
+ },
+ {
+  "label": "GUI:OlderReplayVersion",
+  "text": "ممکن است بازپخش درست نمایش داده نشود، بارگذاری ادامه یابد؟"
+ },
+ {
+  "label": "GUI:Shadows2D",
+  "text": "سایه‌های دوبعدی"
+ },
+ {
+  "label": "TOOLTIP:Shadows2D",
+  "text": "نمایش سایه‌های دوبعدی در بازی را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:Shadows3D",
+  "text": "سایه‌های سه‌بعدی"
+ },
+ {
+  "label": "TOOLTIP:Shadows3D",
+  "text": "نمایش سایه‌های سه‌بعدی در بازی را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:CloudShadows",
+  "text": "سایه ابرها"
+ },
+ {
+  "label": "TOOLTIP:CloudShadows",
+  "text": "نمایش سایه ابرها روی زمین را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:GroundLighting",
+  "text": "نورپردازی اضافی زمین"
+ },
+ {
+  "label": "TOOLTIP:GroundLighting",
+  "text": "نمایش نورپردازی دقیق روی زمین را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:SmoothWater",
+  "text": "لبه‌های نرم آب"
+ },
+ {
+  "label": "TOOLTIP:SmoothWater",
+  "text": "نرم‌کردن لبه‌های آب را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:ExtraAnimations",
+  "text": "پویانمایی‌های اضافی"
+ },
+ {
+  "label": "TOOLTIP:ExtraAnimations",
+  "text": "نمایش پویانمایی‌های اختیاری مثل تاب خوردن درختان را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:NoDynamicLOD",
+  "text": "غیرفعال کردن سطح جزئیات پویا"
+ },
+ {
+  "label": "TOOLTIP:NoDynamicLOD",
+  "text": "غیرفعال کردن تنظیم خودکار جزئیات. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:UnlockMaxFPS",
+  "text": "FPS بدون سقف"
+ },
+ {
+  "label": "TOOLTIP:UnlockMaxFPS",
+  "text": "نرخ فریم بالای ۳۰ را مجاز می‌کند. روی سرعت بازی اثر دارد، پس فقط برای سنجش کارایی توصیه می‌شود"
+ },
+ {
+  "label": "GUI:TreeSway",
+  "text": "پویانمایی درختان"
+ },
+ {
+  "label": "TOOLTIP:TreeSway",
+  "text": "پویانمایی درختان را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:TankTreads",
+  "text": "رد خودروها"
+ },
+ {
+  "label": "TOOLTIP:TankTreads",
+  "text": "نمایش ردی که خودروها به جا می‌گذارند را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:WaterWaves",
+  "text": "موج‌های آب"
+ },
+ {
+  "label": "TOOLTIP:WaterWaves",
+  "text": "پویانمایی موج روی ساحل‌ها را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:BuildupAnimations",
+  "text": "پویانمایی ساخت"
+ },
+ {
+  "label": "TOOLTIP:BuildupAnimations",
+  "text": "نمایش پویانمایی‌های اضافی هنگام ساخت سازه‌ها. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:AdvancedOptionsToggleOnOff",
+  "text": "روشن/خاموش - برای عملکرد بهتر خاموش کنید"
+ },
+ {
+  "label": "GUI:PerformanceTestingMessage",
+  "text": "لطفاً صبر کنید تا کارایی سیستم شما برای تعیین بهترین تنظیمات آزمایش شود"
+ },
+ {
+  "label": "GUI:PerformanceTestingTitle",
+  "text": "آزمایش کارایی سیستم"
+ },
+ {
+  "label": "GUI:ReducedColor",
+  "text": "رنگ ۱۶ بیتی"
+ },
+ {
+  "label": "TOOLTIP:ReducedColor",
+  "text": "کارایی را بهتر ولی کیفیت تصویر را کمتر می‌کند"
+ },
+ {
+  "label": "GUI:SelectAMapLowerCase",
+  "text": "انتخاب نقشه"
+ },
+ {
+  "label": "GUI:SaveAndExit",
+  "text": "ذخیره و خروج"
+ },
+ {
+  "label": "GUI:PerSideWinPercentage",
+  "text": "%d%% %ls"
+ },
+ {
+  "label": "GUI:WinnersToday",
+  "text": "برندگان امروز"
+ },
+ {
+  "label": "GUI:WinnersLastWeek",
+  "text": "برندگان هفته گذشته"
+ },
+ {
+  "label": "MOTD:NumPlayersHeading",
+  "text": "به Generals Zero Hour Online خوش آمدید."
+ },
+ {
+  "label": "TOOLTIP:GameAcceptance",
+  "text": "پذیرش بازی"
+ },
+ {
+  "label": "TOOLTIP:ConnectionSpeed",
+  "text": "سرعت اتصال"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyArtilleryBarrage",
+  "text": "آتش توپخانه"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeySpySatellite",
+  "text": "ماهواره جاسوسی"
+ },
+ {
+  "label": "GUI:FetchingPlayerInfo",
+  "text": "در حال به‌روزرسانی..."
+ },
+ {
+  "label": "CREDITS:EALosAngelesFieldRecordingsTeam",
+  "text": "تیم ضبط میدانی EA Los Angeles"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceSeniorLead",
+  "text": "سرپرست ارشد تضمین کیفیت EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceProjectLead",
+  "text": "سرپرست پروژه تضمین کیفیت EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonAssociateQualityAssuranceLeads",
+  "text": "دستیاران سرپرست تضمین کیفیت EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceSeniorTesters",
+  "text": "آزمایشگران ارشد تضمین کیفیت EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceTesters",
+  "text": "آزمایشگران تضمین کیفیت EA Tiburon"
+ },
+ {
+  "label": "CREDITS:EAUKAdditionalQualityAssurance",
+  "text": "تضمین کیفیت تکمیلی EAUK"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipants",
+  "text": "شرکت‌کنندگان آزمون چندنفره"
+ },
+ {
+  "label": "CREDITS:FocusTesters",
+  "text": "آزمایشگران گروه متمرکز"
+ },
+ {
+  "label": "CREDITS:NorthAmericaMarketingPartners",
+  "text": "شرکای بازاریابی آمریکای شمالی"
+ },
+ {
+  "label": "CREDITS:ManagingDirectorEurope",
+  "text": "مدیرعامل، اروپا"
+ },
+ {
+  "label": "CREDITS:EuropeanMarketingPartners",
+  "text": "شرکای بازاریابی اروپا"
+ },
+ {
+  "label": "CREDITS:AsiaPacificPresidentandCoach",
+  "text": "EA آسیا و اقیانوسیه، رئیس و مربی"
+ },
+ {
+  "label": "CREDITS:AsiaPacificMarketingPartners",
+  "text": "شرکای بازاریابی EA آسیا و اقیانوسیه"
+ },
+ {
+  "label": "CREDITS:GamingCommunityPartners",
+  "text": "شرکای جامعه بازیکنان"
+ },
+ {
+  "label": "CREDITS:EADevelopmentExecutives",
+  "text": "مدیران توسعه EA"
+ },
+ {
+  "label": "CREDITS:SpecialThankstotheMaxiscrew",
+  "text": "سپاس ویژه از گروه Maxis"
+ },
+ {
+  "label": "CREDITS:VerySpecialThanks",
+  "text": "سپاس بسیار ویژه"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle",
+  "text": "Command & Conquer (TM) Generals Zero Hour ساخته شد"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam",
+  "text": "Electronic Arts Los Angeles"
+ },
+ {
+  "label": "CREDITS:ExecutiveInCharge",
+  "text": "مدیر اجرایی تولید"
+ },
+ {
+  "label": "CREDITS:Producer",
+  "text": "تهیه‌کننده"
+ },
+ {
+  "label": "CREDITS:LeadDesigner",
+  "text": "طراح ارشد"
+ },
+ {
+  "label": "CREDITS:TechnicalDirector",
+  "text": "مدیر فنی"
+ },
+ {
+  "label": "CREDITS:ArtDirector",
+  "text": "مدیر هنری"
+ },
+ {
+  "label": "CREDITS:ArtProducer",
+  "text": "تهیه‌کننده هنری"
+ },
+ {
+  "label": "CREDITS:SeniorProducer",
+  "text": "تهیه‌کننده ارشد"
+ },
+ {
+  "label": "CREDITS:AssociateProducers",
+  "text": "دستیار تهیه‌کننده"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestProducer",
+  "text": "تهیه‌کننده آزمون چندنفره"
+ },
+ {
+  "label": "CREDITS:SeniorEngineers",
+  "text": "مهندسان ارشد"
+ },
+ {
+  "label": "CREDITS:Engineers",
+  "text": "مهندسان"
+ },
+ {
+  "label": "CREDITS:AdditionalEngineering",
+  "text": "مهندسی تکمیلی"
+ },
+ {
+  "label": "CREDITS:Designers",
+  "text": "طراحان"
+ },
+ {
+  "label": "CREDITS:AdditionalDesignInspirationandSupport",
+  "text": "طراحی، الهام و پشتیبانی تکمیلی"
+ },
+ {
+  "label": "CREDITS:AdditionalDesign",
+  "text": "طراحی تکمیلی"
+ }
+]

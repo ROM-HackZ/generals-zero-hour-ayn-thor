@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:ToolTipUSARangerCaptureBuilding",
+  "text": "تصرف ساختمان دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFire20mmCannon",
+  "text": "شلیک توپ ۲۰ میلی‌متری به هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireAntiTankMissiles",
+  "text": "شلیک موشک‌های ضدتانک به هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireRocketPods",
+  "text": "شلیک رگبار راکت به منطقه هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireScorpionRocket",
+  "text": "شلیک یک راکت سنگین به هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDHEWarhead",
+  "text": "بارگیری موشک اسکاد با مواد منفجره"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDAnthraxWarhead",
+  "text": "بارگیری موشک اسکاد با سیاه‌زخم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireToxinTractorSlime",
+  "text": "سم‌پاشی منطقه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLARebelCaptureBuilding",
+  "text": "تصرف ساختمان دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLATerroristMakeCarBomb",
+  "text": "ورود به خودروی غیرنظامی و پر کردنش از مواد منفجره"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireFireBomb",
+  "text": "استفاده از بمب آتش‌زا روی هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAHijackerHijack",
+  "text": "ربودن خودروی دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireJarmenKellVehicleSnipe",
+  "text": "کشتن خدمه خودرو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireMIG",
+  "text": "شلیک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardCaptureBuilding",
+  "text": "تصرف ساختمان دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireStunBullets",
+  "text": "اسیر کردن سرباز دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireBayonet",
+  "text": "استفاده از سرنیزه روی سرباز دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCaptureHack",
+  "text": "تصرف ساختمان دشمن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusVehicleHack",
+  "text": "از کار انداختن خودروی دشمن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCashHack",
+  "text": "دزدیدن پول از مرکز تدارکات دشمن هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireHackerInternetHack",
+  "text": "هک اینترنت برای دزدیدن پول"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaHackerBuildingHack",
+  "text": "از کار انداختن ساختمان دشمن با یک ویروس رایانه‌ای قدرتمند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaDragonTankFire",
+  "text": "شلیک"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireWall",
+  "text": "ایجاد کمانی از آتش روی منطقه هدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipPickUpPrisoner",
+  "text": "برداشتن اسیر دشمن برای بازگرداندنش به پایگاه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipReturnToPrison",
+  "text": "بازگشت به بازداشتگاه اسرا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireTankHunterTNTAttack",
+  "text": "کار گذاشتن خرج انفجاری TNT"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack",
+  "text": "استفاده از چاقو روی سرباز دشمن هدف برای حمله بی‌صدا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonTimedDemo",
+  "text": "کار گذاشتن خرج تخریب زمانی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonPlaceRemoteCharge",
+  "text": "کار گذاشتن خرج تخریب کنترل‌از‌راه‌دور که هر زمان بخواهید منفجرش می‌کنید"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonDetonateCharges",
+  "text": "انفجار همه خرج‌های کنترل‌از‌راه‌دور"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCancelConstruction",
+  "text": "لغو ساخت"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCommandCenter",
+  "text": "فرمان سلاح‌های ویژه. بولدوزر ساختمانی می‌سازد. رادار فراهم می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPowerPlant",
+  "text": "برق پایگاه‌های آمریکا را تأمین می‌کند\n\nبرق تولیدی: 5"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBarracks",
+  "text": "سربازان آمریکایی را برای نبرد آموزش می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyCenter",
+  "text": "محل تحویل شینوک‌های جمع‌آوری تدارکات آمریکا\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWall",
+  "text": "سامانه حصار آمریکا. حسگرهای لیزری عبور نیروهای دشمن از حصار را اعلام می‌کنند. حصار جلوی حرکت خودروهای دشمن را می‌گیرد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWarFactory",
+  "text": "همه خودروهای زمینی آمریکا را می‌سازد\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPatriotBattery",
+  "text": "پدافند زمینی و هوایی. می‌تواند موقعیت دشمن را به پاتریوت‌های نزدیک اطلاع دهد\n\nبرق مورد نیاز: 3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAirField",
+  "text": "هواپیماهای آمریکا را می‌سازد\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannon",
+  "text": "پرتو ذره‌ای را به هر جای نقشه شلیک می‌کند\n\nبرق مورد نیاز: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStrategyCenter",
+  "text": "همه نیروهای آمریکا می‌توانند از یک طرح نبرد استفاده کنند\n\nبمباران\nجستجو و نابودی\nایستادگی\n\nبرق مورد نیاز: 2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDetentionCamp",
+  "text": "توانایی جاسوسی از دشمنان را می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyDropZone",
+  "text": "هر ۲ دقیقه یک فرود چتری تدارکات درخواست می‌کند\n\nبرق مورد نیاز: 4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCommandCenter",
+  "text": "فرمان سلاح‌های ویژه. کارگر آموزش می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABUildDemoTrap",
+  "text": "وسیله انفجاری پنهان"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBarracks",
+  "text": "سربازان GLA را آموزش می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSupplyStash",
+  "text": "تدارکات جمع می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildArmsDealer",
+  "text": "خودرو می‌سازد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildCommandCenter",
+  "text": "فرمان سلاح‌های ویژه. بولدوزر ساختمانی می‌سازد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPowerPlant",
+  "text": "نیروگاه چینی. برای ۵۰٪ برق بیشتر می‌توان اضافه‌بارش کرد\n\nبرق تولیدی: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBarracks",
+  "text": "سربازان چینی را آموزش می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyCenter",
+  "text": "محل تحویل جمع‌کنندگان تدارکات چین\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildWarFactory",
+  "text": "خودروهای چینی را می‌سازد\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBunker",
+  "text": "گنجایش ۵ سرباز چینی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaCenter",
+  "text": "فناوری‌های مهم چین را می‌سازد\n\nبرق مورد نیاز: 2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildAirField",
+  "text": "هواپیماهای چینی را می‌سازد\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingCannon",
+  "text": "پدافند هوایی قدرتمند پایگاه\n\nبرق مورد نیاز: 3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher",
+  "text": "موشک هسته‌ای شلیک می‌کند. ارتقاهای مهم چین را می‌سازد\n\nبرق مورد نیاز: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSpeakerTower",
+  "text": "نیروهایتان را درمان می‌کند و سرعت شلیکشان را بالا می‌برد\n\nبرق مورد نیاز: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTunnelNetwork",
+  "text": "دفاع پایگاه و تونل زیرزمینی. یگان‌ها می‌توانند وارد شبکه تونل شوند و از هر شبکه تونل دیگری بیرون بیایند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPalace",
+  "text": "فناوری‌های مهم GLA را در خود دارد. نیروهای GLA می‌توانند در آن سنگر بگیرند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBlackMarket",
+  "text": "فناوری‌های مهم GLA را در خود دارد. به بازیکن GLA تدارکات رایگان می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildStingerSite",
+  "text": "دفاع ضدهوایی و ضدتانک پایگاه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScudStorm",
+  "text": "رگباری از موشک‌های اسکاد شلیک می‌کند\n\nزمان شمارش معکوس: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPrison",
+  "text": "برای نگهداری سربازان اسیر دشمن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRanger",
+  "text": "قوی در برابر: پیاده‌نظام\nضعیف در برابر: خودروهای سبک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDozer",
+  "text": "همه سازه‌های آمریکا را می‌سازد و ساختمان‌ها را تعمیر می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildWorker",
+  "text": "همه سازه‌های GLA را می‌سازد. ساختمان‌ها را تعمیر و تدارکات جمع می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDozer",
+  "text": "همه سازه‌های چین را می‌سازد و ساختمان‌ها را تعمیر می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScorpion",
+  "text": "قوی در برابر: خودروهای سبک\nضعیف در برابر: سربازان راکت‌انداز، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRocketBuggy",
+  "text": "قوی در برابر: ساختمان‌ها\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRadarVan",
+  "text": "رادار فراهم می‌کند. می‌تواند یگان‌های پنهان دشمن را ببیند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildOverlord",
+  "text": "قوی در برابر: خودروها، ساختمان‌ها\nضعیف در برابر: پیاده‌نظام راکت‌انداز، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingTank",
+  "text": "قوی در برابر: پیاده‌نظام، هواپیما\nضعیف در برابر: تانک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRebel",
+  "text": "قوی در برابر: پیاده‌نظام\nضعیف در برابر: تانک، خودروهای سبک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildRedguard",
+  "text": "در گروه‌های ۵ نفره یا بیشتر پاداش گروهی می‌گیرد\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: خودروها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHacker",
+  "text": "می‌تواند ساختمان‌های دشمن را با ویروس رایانه‌ای از کار بیندازد یا برای دزدیدن پول اینترنت را هک کند\n\nقوی در برابر: ساختمان‌ها\nضعیف در برابر: پیاده‌نظام، خودروها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABUildChinook",
+  "text": "هلیکوپتر ترابری. تدارکات جمع می‌کند. با رنجرها حمله فرود رزمی انجام می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyTruck",
+  "text": "تدارکات جمع می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPaladin",
+  "text": "با لیزر موشک‌ها و پیاده‌نظام دشمن را نابود می‌کند\n\nقوی در برابر: تانک، ساختمان‌ها، راکت‌ها\nضعیف در برابر: هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRaptor",
+  "text": "می‌تواند با اهداف زمینی و هوایی درگیر شود\n\nقوی در برابر: هواپیما، تانک، خودروهای سبک\nضعیف در برابر: پیاده‌نظام موشک‌انداز، پدافند هوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAurora",
+  "text": "حمله مافوق صوت آرورا را در برابر آتش دشمن مصون می‌کند. پس از حمله سرعت آرورا به ۵۰٪ کاهش می‌یابد\n\nقوی در برابر: ساختمان‌ها\nضعیف در برابر: جنگنده‌ها، یگان‌های ضدهوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStealthFighter",
+  "text": "هنگام حرکت پنهان است\n\nقوی در برابر: دفاع پایگاه دشمن\nضعیف در برابر: جنگنده‌های دشمن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildComanche",
+  "text": "موشک و توپ شلیک می‌کند. در هوا دوباره مسلح می‌شود\n\nقوی در برابر: تانک، خودروهای سبک، پیاده‌نظام\nضعیف در برابر: پیاده‌نظام موشک‌انداز، پدافند هوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMissileDefender",
+  "text": "با حمله ویژه هدایت لیزری موشک‌ها را پشت سر هم شلیک می‌کند\n\nقوی در برابر: تانک، هواپیما\nضعیف در برابر: پیاده‌نظام"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPathFinder",
+  "text": "وقتی حرکت یا شلیک نمی‌کند استتار شده است. دشمنان پنهان را می‌بیند\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: خودروهای سبک، دیده‌بان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildColonelBurton",
+  "text": "استتارشده. وقتی شلیک کند یا بمب بگذارد دیده می‌شود\n\nسقف ساخت: ۱\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: دیده‌بان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildTomahawk",
+  "text": "قوی در برابر: دفاع پایگاه\nضعیف در برابر: تانک، هواپیما، خودروهای سبک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHumvee",
+  "text": "وسیله ترابری. پیاده‌نظام داخلش می‌توانند از روزنه‌های شلیک با دشمن درگیر شوند\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: تانک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMedic",
+  "text": "خودروها و سربازان را درمان می‌کند. تشعشع و سموم را پاک می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildScoutDrone",
+  "text": "برد دید را افزایش می‌دهد و دشمنان پنهان را آشکار می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBattleDrone",
+  "text": "با یک مسلسل کوچک شلیک می‌کند و خودروی مادرش را تعمیر می‌کند\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: پیاده‌نظام موشک‌انداز"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMIG",
+  "text": "در گروه‌های بزرگ طوفان آتش می‌سازد\n\nقوی در برابر: تانک، خودروهای سبک\nضعیف در برابر: پیاده‌نظام موشک‌انداز، پدافند هوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBlackLotus",
+  "text": "ساختمان‌های دشمن را تصرف می‌کند، از مراکز تدارکات دشمن پول می‌دزدد و خودروهای دشمن را از کار می‌اندازد. جز هنگام استفاده از توانایی، استتارشده است\n\nقوی در برابر: ساختمان‌ها، خودروها\nضعیف در برابر: یگان‌های دیده‌بان"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTankHunter",
+  "text": "حمله ویژه TNT\nدر گروه‌های ۵ نفره یا بیشتر پاداش گروهی می‌گیرد\n\nقوی در برابر: تانک\nضعیف در برابر: پیاده‌نظام"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInfernoCannon",
+  "text": "در گروه‌های بزرگ طوفان آتش می‌سازد\n\nقوی در برابر: دفاع پایگاه، پیاده‌نظام\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNukeLauncher",
+  "text": "قوی در برابر: ساختمان‌ها، پیاده‌نظام\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTroopCrawler",
+  "text": "وسیله ترابری. با ۸ گارد سرخ می‌آید. یگان‌های پنهان را شناسایی می‌کند\n\nقوی در برابر: پیاده‌نظام، ساختمان‌ها\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDragonTank",
+  "text": "می‌تواند سربازان را با آتش از ساختمان بیرون بکشد. می‌تواند دیوار آتش بسازد\n\nقوی در برابر: پیاده‌نظام، ساختمان‌ها\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTerrorist",
+  "text": "سرباز انتحاری\n\nقوی در برابر: تانک، ساختمان‌ها\nضعیف در برابر: پیاده‌نظام، خودروهای سبک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRPGTrooper",
+  "text": "قوی در برابر: تانک\nضعیف در برابر: پیاده‌نظام"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildAngryMob",
+  "text": "قوی در برابر: پیاده‌نظام، خودروها\nضعیف در برابر: شعله، سموم، نارنجک صوتی-نوری"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildHijacker",
+  "text": "می‌تواند هر خودروی دشمن را تصرف کند. استتارشده\n\nقوی در برابر: تانک، خودروها\nضعیف در برابر: پیاده‌نظام، دیده‌بان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildJarmenKell",
+  "text": "استتارشده. می‌تواند در ساختمان‌های غیرنظامی پنهان شود و سربازان دشمن را هدف بگیرد. می‌تواند خدمه خودروهای دشمن را بکشد تا قابل تصرف شوند\n\nقوی در برابر: پیاده‌نظام، خودروها\nضعیف در برابر: دیده‌بان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildToxinTruck",
+  "text": "ساختمان‌ها را از سربازان دشمن پاک می‌کند. زمین را آلوده می‌کند\nمی‌تواند سلاحش را با قطعات غنیمتی از دشمنان نابودشده ارتقا دهد\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: تانک، هواپیما، دفاع پایگاه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBattlemaster",
+  "text": "در گروه‌های ۵ تایی یا بیشتر پاداش گروهی می‌گیرد\n\nقوی در برابر: تانک، ساختمان‌ها\nضعیف در برابر: پیاده‌نظام، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildMarauder",
+  "text": "می‌تواند سلاحش را با قطعات غنیمتی از دشمنان نابودشده ارتقا دهد\n\nقوی در برابر: ساختمان‌ها، خودروهای سبک\nضعیف در برابر: سربازان راکت‌انداز، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTechnical",
+  "text": "می‌تواند سلاحش را با قطعات غنیمتی از دشمنان نابودشده ارتقا دهد\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildQuadCannon",
+  "text": "می‌تواند سلاحش را با قطعات غنیمتی از دشمنان نابودشده ارتقا دهد\n\nقوی در برابر: پیاده‌نظام، هواپیما\nضعیف در برابر: تانک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBombTruck",
+  "text": "می‌تواند خود را به شکل هر خودرویی، خودی یا دشمن، درآورد\n\nقوی در برابر: پیاده‌نظام، ساختمان‌ها\nضعیف در برابر: دیده‌بان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSCUDLauncher",
+  "text": "می‌تواند کلاهک انفجاری یا زیستی داشته باشد\n\nقوی در برابر: ساختمان‌ها، پیاده‌نظام\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCrusader",
+  "text": "قوی در برابر: خودروها، ساختمان‌ها\nضعیف در برابر: هواپیما، پیاده‌نظام موشک‌انداز"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePaladin",
+  "text": "پالادین‌ها با سامانه لیزر دفاعی پیشرفته موشک‌های دشمن را سرنگون می‌کنند\n\nساخت در: کارخانه جنگ‌افزار"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePathFinder",
+  "text": "پث‌فایندرها تک‌تیراندازهای نخبه استتارشده‌اند\n\nساخت در: پادگان"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceStealthFighter",
+  "text": "هنگام حرکت پنهان است\n\nساخت در: فرودگاه نظامی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpyDrone",
+  "text": "پهپادهای جاسوسی از دید و رادار دشمن استتارشده‌اند و مواضع دشمن را آشکار می‌کنند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceParaDrop",
+  "text": "رنجرها را از هوا پیاده کنید\n\nدرجه ۱: ۵ رنجر\nدرجه ۲: ۱۰ رنجر\nدرجه ۳: ۲۰ رنجر\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceA10Strike",
+  "text": "A10 تاندربولت‌ها ساختمان‌ها، خودروها و پیاده‌نظام را نابود می‌کنند\n\nدرجه ۱: ۱ A10 تاندربولت\nدرجه ۲: ۲ A10 تاندربولت\nدرجه ۳: ۳ A10 تاندربولت\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceDaisyCutter",
+  "text": "بمب‌های سوخت-هوا ساختمان‌ها و تجمع نیروهای دشمن را نابود می‌کنند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeCannon",
+  "text": "توپ‌های هسته‌ای بمب‌های هسته‌ای تاکتیکی کوچکی را به فاصله‌های دور پرتاب می‌کنند\n\nساخت در: کارخانه جنگ‌افزار\nنیاز دارد: مرکز تبلیغات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceRedGuardTraining",
+  "text": "همه گاردهای سرخ کهنه‌سرباز ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceClusterMines",
+  "text": "مین‌های خوشه‌ای از هوا ریخته می‌شوند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceARtilleryTraining",
+  "text": "توپ‌های هسته‌ای و توپ‌های جهنمی کهنه‌کار ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceArtilleryBarrage",
+  "text": "فراخوان توپخانه بیرون از نقشه برای کوبیدن هدفتان\n\nدرجه ۱: ۱۲ گلوله\nدرجه ۲: ۲۴ گلوله\nدرجه ۳: ۳۶ گلوله\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceEMPPulse",
+  "text": "امکان فراخواندن یک بمب‌افکن سنگین برای انداختن بمب پالس EMP. پالس EMP خودروها و ساختمان‌های دشمن را از کار می‌اندازد\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceHijacker",
+  "text": "هایجکرها استتارشده‌اند و می‌توانند خودروهای دشمن را بدزدند\n\nساخت در: پادگان"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSCUDLauncher",
+  "text": "موشکی دوربرد شلیک می‌کند که می‌تواند مواد منفجره یا سیاه‌زخم کشنده حمل کند\n\nساخت در: دلال اسلحه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLaScienceMarauderTank",
+  "text": "تانک‌های ماراودر می‌توانند از دشمنان نابودشده غنیمت بگیرند و توپ اصلی‌شان را ارتقا دهند\n\nساخت در: دلال اسلحه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceTechnicalTraining",
+  "text": "همه تکنیکال‌ها کهنه‌کار ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceRebelAmbush",
+  "text": "امکان کمین غافلگیرانه شورشیان در هر جا\n\nدرجه ۱: ۴ شورشی\nدرجه ۲: ۸ شورشی\nدرجه ۳: ۱۶ شورشی\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceCashBounty",
+  "text": "برای هر یگان یا ساختمان دشمن که نابود کنید جایزه نقدی بگیرید\n\nدرجه ۱: ۵٪ ارزش دشمن\nدرجه ۲: ۱۰٪ ارزش دشمن\nدرجه ۳: ۲۰٪ ارزش دشمن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceAnthraxBomb",
+  "text": "سیاه‌زخم برای تجمع نیروهای دشمن کشنده است\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSecurityFence",
+  "text": "ساخت حصار امنیتی که جلوی عبور خودروها را می‌گیرد و عبور هر پیاده‌نظام دشمن را اعلام می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildConcreteWall",
+  "text": "ساخت دیوار بتنی که جلوی عبور هر یگان زمینی را می‌گیرد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBurningBarricade",
+  "text": "ساخت مانع شعله‌ور که یگان‌هایی را که از رویش بگذرند می‌سوزاند"
+ },
+ {
+  "label": "GUI:QuitToDesktop",
+  "text": "خروج به دسکتاپ"
+ },
+ {
+  "label": "GUI:QuitToDesktopConf",
+  "text": "آیا مطمئنید که می‌خواهید به دسکتاپ بازگردید؟"
+ },
+ {
+  "label": "GUI:NewSaveGame",
+  "text": "***** بازی جدید *****"
+ },
+ {
+  "label": "GUI:TimeAM",
+  "text": "ق.ظ"
+ },
+ {
+  "label": "GUI:TimePM",
+  "text": "ب.ظ"
+ },
+ {
+  "label": "GUI:OverwriteSaveConfirmation",
+  "text": "فایل موجود بازنویسی شود؟"
+ },
+ {
+  "label": "GUI:LoadGameConfirmation",
+  "text": "داده‌های بازی فعلی از دست می‌رود. بازی ذخیره‌شده بارگذاری شود؟"
+ },
+ {
+  "label": "GUI:Rank1Required",
+  "text": "درجه لازم - ژنرال یک‌ستاره"
+ },
+ {
+  "label": "GUI:Rank3Required",
+  "text": "درجه لازم - ژنرال سه‌ستاره"
+ },
+ {
+  "label": "GUI:Rank8Required",
+  "text": "درجه لازم - ژنرال پنج‌ستاره"
+ },
+ {
+  "label": "GUI:Experience",
+  "text": "تجربه"
+ },
+ {
+  "label": "GUI:RemainingSkillPoints",
+  "text": "امتیاز"
+ },
+ {
+  "label": "TOOLTIP:ExperienceToLevel",
+  "text": "تجربه تا سطح بعد"
+ },
+ {
+  "label": "GUI:SaveAndLoad",
+  "text": "ذخیره/بارگذاری"
+ },
+ {
+  "label": "GUI:SaveTime",
+  "text": "زمان"
+ },
+ {
+  "label": "GUI:SaveDate",
+  "text": "تاریخ"
+ },
+ {
+  "label": "SCIENCE:Rank1",
+  "text": "ژنرال ۱ ستاره"
+ },
+ {
+  "label": "SCIENCE:Rank2",
+  "text": "ژنرال ۲ ستاره"
+ },
+ {
+  "label": "SCIENCE:Rank3",
+  "text": "ژنرال ۳ ستاره"
+ },
+ {
+  "label": "SCIENCE:Rank4",
+  "text": "ژنرال ۴ ستاره"
+ },
+ {
+  "label": "SCIENCE:Rank5",
+  "text": "ژنرال ۵ ستاره"
+ },
+ {
+  "label": "SCIENCE:Rank6",
+  "text": "سرلشکر"
+ },
+ {
+  "label": "SCIENCE:Rank7",
+  "text": "سپهبد"
+ },
+ {
+  "label": "SCIENCE:Rank8",
+  "text": "ارتشبد"
+ },
+ {
+  "label": "CONTROLBAR:StructureExit",
+  "text": "خروج از سازه"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAircraftArmor",
+  "text": "زره میگ (&A)"
+ },
+ {
+  "label": "CONTROLBAR:RangerMachineGun",
+  "text": "مسلسل (&M)"
+ },
+ {
+  "label": "CONTROLBAR:RedguardMachineGun",
+  "text": "مسلسل (&M)"
+ },
+ {
+  "label": "CONTROLBAR:RebelMachineGun",
+  "text": "مسلسل (&M)"
+ },
+ {
+  "label": "CONTROLBAR:FlashBangGrenadeMode",
+  "text": "نارنجک صوتی-نوری (&F)"
+ },
+ {
+  "label": "CONTROLBAR:TranqDartsMode",
+  "text": "حالت دارت آرام‌بخش (&T)"
+ },
+ {
+  "label": "CONTROLBAR:StunBulletsMode",
+  "text": "حالت اسیرگیری (&P)"
+ },
+ {
+  "label": "UPGRADE:AircraftArmor",
+  "text": "زره هواپیما"
+ },
+ {
+  "label": "MAP:USA03Open",
+  "text": "شمال قزاقستان. نیروهای آمریکا در عقب‌نشینی کامل\nعملیات: فرشته نگهبان"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeAircraftArmor",
+  "text": "۲۵٪ استحکام بیشتر برای میگ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRangerMachineGun",
+  "text": "تغییر به حالت مسلسل برای حمله همه‌منظوره"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRedguardMachineGun",
+  "text": "تغییر به حالت مسلسل برای حمله همه‌منظوره"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRebelMachineGun",
+  "text": "تغییر به حالت مسلسل برای حمله همه‌منظوره"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToUSAFlashBang",
+  "text": "استفاده از نارنجک صوتی-نوری"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToChinaStunBullets",
+  "text": "تغییر به حالت گلوله بیهوش‌کننده برای اسیر کردن سربازان دشمن در فضای باز"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToGLATranqDarts",
+  "text": "تغییر به سلاح دارت آرام‌بخش برای اسیر کردن سربازان دشمن در فضای باز"
+ },
+ {
+  "label": "GUI:ProductionQueueFull",
+  "text": "صف تولید یگان پر است"
+ },
+ {
+  "label": "GUI:ParkingPlacesFull",
+  "text": "همه جاهای پارک پر است"
+ },
+ {
+  "label": "GUI:UnitMaxedOut",
+  "text": "از این یگان حداکثر تعداد را دارید"
+ },
+ {
+  "label": "CONTROLBAR:FireTomahawkAtPosition",
+  "text": "بمباران تاماهاک (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireTomahawkAtPosition",
+  "text": "شلیک تاماهاک به یک موقعیت"
+ },
+ {
+  "label": "GUI:SurrenderConfirmation",
+  "text": "آیا مطمئنید که می‌خواهید تسلیم شوید؟"
+ },
+ {
+  "label": "GUI:GameOver",
+  "text": "پایان بازی"
+ },
+ {
+  "label": "TOOLTIP:RefreshNat",
+  "text": "پس از تغییر تنظیمات دیوار آتش یا ارائه‌دهنده اینترنت کلیک کنید"
+ },
+ {
+  "label": "GUI:Surrender",
+  "text": "تسلیم"
+ },
+ {
+  "label": "GUI:SuperweaponEmergencyRepair",
+  "text": "تعمیر اضطراری"
+ },
+ {
+  "label": "CONTROLBAR:FireNukeCannonAtPosition",
+  "text": "بمباران هسته‌ای (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireInfernoCannonAtPosition",
+  "text": "بمباران جهنمی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudExplosiveAtPosition",
+  "text": "بمباران انفجاری (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudAnthraxAtPosition",
+  "text": "بمباران سیاه‌زخم (&O)"
+ },
+ {
+  "label": "MAP:USA04Objective1Text",
+  "text": "هدف مأموریت:\nساحل را از نیروهای GLA پاک کنید"
+ },
+ {
+  "label": "MAP:USA04Objective2Text",
+  "text": "هدف مأموریت:\nسایت‌های استینگر را نابود کنید"
+ },
+ {
+  "label": "MAP:USA04Objective3Text",
+  "text": "هدف مأموریت:\nپایگاه GLA را نابود کنید"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireNukeCannonAtPosition",
+  "text": "بمباران یک موقعیت با گلوله‌های توپ هسته‌ای"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireInfernoCannonAtPosition",
+  "text": "بمباران یک موقعیت با گلوله‌های توپ جهنمی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudExplosiveAtPosition",
+  "text": "بمباران یک موقعیت با کلاهک‌های انفجاری"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudAnthraxAtPosition",
+  "text": "بمباران موقعیت مشخص با کلاهک‌های سیاه‌زخم"
+ },
+ {
+  "label": "TOOLTIP:Brightness",
+  "text": "تنظیم روشنایی بازی"
+ },
+ {
+  "label": "TOOLTIP:ScrollSpeed",
+  "text": "تنظیم سرعت پیمایش نقشه"
+ }
+]

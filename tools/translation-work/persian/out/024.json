@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi002Subtitle",
+  "text": "*ببر آماده جهیدن است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi003Subtitle",
+  "text": "*برای چین! حمله!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi004Subtitle",
+  "text": "*نیروهایم آماده درگیری با دفاع‌های تو هستند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi005Subtitle",
+  "text": "*صدای گام‌های اژدهای آهنینم را حس کن!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi006Subtitle",
+  "text": "*دفاع‌هایت در برابر نیروهای من بی‌ارزش است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi007Subtitle",
+  "text": "*حالا در میدان شرف روبه‌رو می‌شویم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi008Subtitle",
+  "text": "*این کار را به خاطر خیر چین می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi009Subtitle",
+  "text": "*وقت آن است که فولادت را بیازماییم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi010Subtitle",
+  "text": "*این آخرین باری بود که به من حمله کردی، ژنرال. این موج دفاع‌هایت را می‌شکند و ارتش حقیرت را به خاک بدل می‌کند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi011Subtitle",
+  "text": "*قدرت چین بر سرت فرود می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi012Subtitle",
+  "text": "*نیروهای فرومایه‌ات هیچ چالشی برای جنگجویان من نخواهند بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi013Subtitle",
+  "text": "*تو این نبرد را شروع کردی، ژنرال. حالا من تمامش می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi014Subtitle",
+  "text": "*به آن احمق حمله کنید! اسیر نگیرید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi015Subtitle",
+  "text": "*دو جنگجو در میدان نبرد روبه‌رو می‌شوند. چه کسی می‌تواند بگوید چه کسی می‌برد؟ من، همین من. تو شکست می‌خوری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi016Subtitle",
+  "text": "*نبردی که نمی‌شود برد ارزش جنگیدن ندارد. پس تو اینجا چه می‌کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi017Subtitle",
+  "text": "*خشم فقط تا یک جایی تو را می‌برد، ژنرال. اما خشم به‌علاوه یک ستون تانک... آن تو را به جایی می‌رساند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi018Subtitle",
+  "text": "*به ته طنابت رسیده‌ای، ژنرال. و تازه حالا فهمیده‌ای که ته آن طناب آتش گرفته"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi019Subtitle",
+  "text": "*رقص نبرد عجیب و کوتاه است... و این نبرد با تو به طرز عجیبی کوتاه بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi020Subtitle",
+  "text": "*می‌بینم به استراتژی‌ات درست فکر نکرده‌ای. حیف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi021Subtitle",
+  "text": "*این استراتژی بازنده است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi022Subtitle",
+  "text": "*تو به خیر مردمت عمل نمی‌کنی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi023Subtitle",
+  "text": "*لحظه‌ای مهلتت می‌دهم تا به حرکت بعدی‌ات فکر کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi024Subtitle",
+  "text": "*مرد خردمند می‌داند کی عقب بنشیند. پیداست که تو چنین مردی نیستی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi025Subtitle",
+  "text": "*در پایان، همه در برابر من فرو می‌افتند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi026Subtitle",
+  "text": "*نمی‌توانی در برابر قدرت من بایستی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi027Subtitle",
+  "text": "*چین را یک نفر شکست نمی‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi028Subtitle",
+  "text": "*تأمل می‌کنیم و به حرکت بعدی‌مان می‌اندیشیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi029Subtitle",
+  "text": "*به تاکتیکی که نمی‌توانی پشتیبانی‌اش کنی دل نبند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi030Subtitle",
+  "text": "*خودکشی تاکتیک نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi031Subtitle",
+  "text": "*ساختمان‌هایت را مثل خیزران در برابر تندباد جارو می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi032Subtitle",
+  "text": "*وقتی سربازخانه‌ات را با خاک یکسان کردیم مردانت از آن فرار کردند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi033Subtitle",
+  "text": "*کارخانه نمی‌تواند جنگ تولید کند، ژنرال... و حالا کارخانه جنگ تو هیچ تولید نمی‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi034Subtitle",
+  "text": "*فرودگاهت زمین‌گیر شد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi035Subtitle",
+  "text": "*دفاع‌های پایگاهت مثل ساقه‌های علف جلوی ما می‌افتند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi036Subtitle",
+  "text": "*مرکز فرماندهی‌ات را نابود کردیم، حالا کجا قایم شده‌ای، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi037Subtitle",
+  "text": "*آن‌قدر از ساختمان‌هایت فرو ریخته که انتظار داشتم تا حالا تسلیم شده باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi038Subtitle",
+  "text": "*فکر نکن می‌توانی سربازخانه‌ام را نابود کنی و خشمم را نچشی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi039Subtitle",
+  "text": "*حالا باید آن کارخانه جنگ را دوباره بسازم. عاقلانه است از ضعف لحظه‌ای‌ام استفاده کنی... دوام نمی‌آورد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi040Subtitle",
+  "text": "*بولدوزرها: پیش از بازگشت میگ‌ها فرودگاه را دوباره بسازید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi041Subtitle",
+  "text": "*دفاع‌هایمان ترک برمی‌دارد! مهاجمان را عقب برانید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi042Subtitle",
+  "text": "*این همه ویرانی بس است، ژنرال. حالا نوبت من است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi043Subtitle",
+  "text": "*می‌توانی مرکز فرماندهی‌ام را بگیری، ولی این نبرد تمام نشده، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi044Subtitle",
+  "text": "*انتقام همه میگ‌هایی را که نابود کردی می‌گیریم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi045Subtitle",
+  "text": "*بهای این جنگ بسیار سنگین است، ژنرال. حالا نوبت توست که بپردازی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi046Subtitle",
+  "text": "*پیاده‌نظام چین فراوان است، ولی بیش از حد قربانی داده‌ایم. حالا بی‌رحمی‌ات را ده برابر پس می‌دهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi047Subtitle",
+  "text": "*هر قدر نفت می‌خواهی تصرف کن... فرصت نمی‌کنی ثمره‌اش را بچینی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi048Subtitle",
+  "text": "*از آن سکوی توپخانه به‌راحتی می‌شود دوری کرد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi049Subtitle",
+  "text": "*با آن پالایشگاه نفت دنبال بهره‌وری بیشتری، ژنرال؟ یک استراتژی محکم بیشتر به کارت می‌آمد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi050Subtitle",
+  "text": "*چیزی در لبه پایگاهم تکان می‌خورد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi051Subtitle",
+  "text": "*می‌بینم به پایگاهم نزدیک می‌شوی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi052Subtitle",
+  "text": "*زنده نمی‌مانی که از ورود به پایگاهم پشیمان شوی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi053Subtitle",
+  "text": "*نیروهایت شاید وارد پایگاهم شوند، ولی دیگر هرگز بیرون نمی‌روند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi054Subtitle",
+  "text": "*آن منابع زیر حمایت من است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi055Subtitle",
+  "text": "*چرا اصرار داری از جناحین حمله کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi056Subtitle",
+  "text": "*حمله جالبی است، ژنرال، ولی در برابر من موفق نمی‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi057Subtitle",
+  "text": "*حمله شجاعانه‌ای است، ژنرال، ولی شجاعت به‌تنهایی مرا شکست نمی‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi058Subtitle",
+  "text": "*این تاکتیک احمق‌هاست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi059Subtitle",
+  "text": "*پیش از آنکه خشمگینم کنی این‌جا را ترک کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi060Subtitle",
+  "text": "*می‌بینم چه می‌کنی، ژنرال. اجازه نمی‌دهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi061Subtitle",
+  "text": "*از این‌جا فرار کن، ژنرال، پیش از آنکه لشکر را به جانت بیندازم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi062Subtitle",
+  "text": "*به پایگاهت نزدیک می‌شویم، ژنرال. دفاعت چیست؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi063Subtitle",
+  "text": "*برای حمله ما آماده‌ای، ژنرال؟ خواهیم دید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi064Subtitle",
+  "text": "*دفاع‌هایت ناکافی است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi065Subtitle",
+  "text": "*حالا صاف کردن پایگاهت را شروع می‌کنیم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi066Subtitle",
+  "text": "*منابعت به‌زودی مال من می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi067Subtitle",
+  "text": "*این دکل نفت را برای چین مصادره می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi068Subtitle",
+  "text": "*جناحینت بی‌دفاع است، ژنرال. اشتباهی مرگبار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi069Subtitle",
+  "text": "*گذاشتی نیروهایم دفاع‌هایت را دور بزنند. حالا کارت را تمام می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi070Subtitle",
+  "text": "*گذاشتی برقت افت کند، ژنرال. دعا کن اشتباه مرگباری نباشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi071Subtitle",
+  "text": "*بدون برق نمی‌توانی از پایگاهت دفاع کنی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi072Subtitle",
+  "text": "*منابعت ته کشیده، ژنرال. وقت اعتراف به شکست است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi073Subtitle",
+  "text": "*منابعم را به زحمت انداختی، ژنرال. حالا می‌آیم و مال تو را می‌گیرم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi074Subtitle",
+  "text": "*طوفان اسکاد سلاح بزدلان است، ژنرال. از تو انتظار بیشتری داشتم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi075Subtitle",
+  "text": "*مجبورم می‌کنی با سیلوی هسته‌ای خودم پاسخ بدهم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi076Subtitle",
+  "text": "*آن توپ ذره‌ای سلاح هولناکی است، ولی نمی‌تواند چین را متوقف کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi077Subtitle",
+  "text": "*این همه دفاع... می‌بینم احترام شایسته دشمنت را نگه می‌داری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi078Subtitle",
+  "text": "*نمی‌توانی بیشتر از چین تانک بسازی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi079Subtitle",
+  "text": "*در آسمان هواپیما به هواپیما جوابت را می‌دهیم، ژنرال. برتری‌ات فقط در خیالت خواهد بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi080Subtitle",
+  "text": "*مردانت در اقلیت‌اند، ژنرال. سعی نکن لشکری بزرگ‌تر از چین بسازی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi081Subtitle",
+  "text": "*پایگاهت بزرگ شده، ژنرال... آماده یک حمله هسته‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi082Subtitle",
+  "text": "*گارد سرخ، پراکنده شوید! موشک‌های اسکاد در راه‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi083Subtitle",
+  "text": "*ما در برابر موشک‌های هسته‌ای تو مصون‌ایم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi084Subtitle",
+  "text": "*نه! پرتو ذره‌ای‌ات فقط زخمی‌مان می‌کند... این را فراموش نمی‌کنیم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi085Subtitle",
+  "text": "*در آن ساختمان‌ها قایم شو، ژنرال. شاید یک تانک اژدها به دیدنت بیاید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi086Subtitle",
+  "text": "*کارهای سرهنگ برتون افسانه‌ای است، ولی او فقط یک نفر است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi087Subtitle",
+  "text": "*می‌بینم یکی از مأموران نیلوفر سیاه ما را فاسد کرده‌ای. آموزش او ورق نبرد را به نفع تو برنمی‌گرداند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi088Subtitle",
+  "text": "*تک‌تیرانداز، کل، وارد نبرد ما می‌شود. روی پنهان‌کاری‌اش برای نجاتت حساب نکن، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi089Subtitle",
+  "text": "*ساختن فرودگاه حماقت است، ژنرال. فقط تانک‌ها می‌توانند تو را از من نجات دهند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi090Subtitle",
+  "text": "*ساختن کارخانه جنگ عاقلانه است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi091Subtitle",
+  "text": "*آن سربازخانه فقط آغاز چیزی است که برای شکست دادن من لازم داری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi092Subtitle",
+  "text": "*اگر قرار است ساختمان‌هایت را بفروشی، چرا زحمت ساختنشان را می‌کشی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi093Subtitle",
+  "text": "*به این آسانی شکستم نمی‌دهی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi094Subtitle",
+  "text": "*برتری‌ات دوام نمی‌آورد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi095Subtitle",
+  "text": "*از امثال تو شکست نمی‌خورم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi096Subtitle",
+  "text": "*این پایان نیست، ژنرال. از این یکی کمر راست می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi097Subtitle",
+  "text": "*باید این شکست را بپذیرم. تاکتیک برتری نشان دادی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi098Subtitle",
+  "text": "*تاکتیک برتر من تو را به شکست می‌کشاند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi099Subtitle",
+  "text": "*این نبرد را می‌بازی، ژنرال. بهتر است شکست را با شرافت بپذیری تا اینکه ادامه دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi100Subtitle",
+  "text": "*پایانت نزدیک می‌شود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi101Subtitle",
+  "text": "*چرا در برابر گریزناپذیر مقاومت می‌کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi102Subtitle",
+  "text": "*سایه اژدها نشانه آغاز شکست توست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi103Subtitle",
+  "text": "*وقت پذیرفتن شکستت رسیده، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi104Subtitle",
+  "text": "*وقت آن است که اژدها دوباره برخیزد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi105Subtitle",
+  "text": "*پذیرفتن ضعف شرم ندارد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi106Subtitle",
+  "text": "*آماده رویارویی با من نیستی. وقتی آموزشت کامل شد برگرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi107Subtitle",
+  "text": "*چرا به سوی نابودی خودت می‌دوی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi108Subtitle",
+  "text": "*رقابت جالبی بود. شاید دوباره به چالشم بکشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi109Subtitle",
+  "text": "*مهارتت را بهتر کن و دوباره به چالشم بکش"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi110Subtitle",
+  "text": "*خوش آمدی، ژنرال. امیدوارم آماده رویارویی با من باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi111Subtitle",
+  "text": "*پیروزی‌هایت از توانایی‌ات خبر می‌دهد، ولی ژنرال‌های من زیرکی و تجربه مرا نداشتند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi112Subtitle",
+  "text": "*به‌زودی می‌بینی رویارویی با اژدها یعنی چه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA001Subtitle",
+  "text": "*بیشتر دشمنان با دیدن ارتش‌هایم می‌گریختند. شاید این یکی بالاخره ارزشش را داشته باشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA002Subtitle",
+  "text": "*نیروهایم مثل باد بر سرت فرود می‌آیند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA003Subtitle",
+  "text": "*مردانت در برابر جنگجویانم مثل گوسفندند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA004Subtitle",
+  "text": "*ببین چه اسباب‌بازی‌های قشنگی برایم آورده‌ای. بچه که بودم همه اسباب‌بازی‌هایم را می‌شکستم، ژنرال، و حالا مال تو را می‌شکنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA005Subtitle",
+  "text": "*نیروهایت مثل گندم زیر شمشیرم درو می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA006Subtitle",
+  "text": "*در برابر ژنرال‌هایم خوب عمل کردی، ولی من قدرت همه‌شان را یکجا دارم. در برابر این چه می‌کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA007Subtitle",
+  "text": "*اصلاً نیروهایم را نمی‌بینی، ژنرال... تا وقتی که دیر شده باشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA008Subtitle",
+  "text": "*از سرزمین‌هایمان جارویت می‌کنیم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA009Subtitle",
+  "text": "*حالا می‌بینی تهاجم بیهوده‌ات برایت چه آورده، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA010Subtitle",
+  "text": "*جرئت کردی به چالشم بکشی... حالا پاداش هولناکش را درو می‌کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA011Subtitle",
+  "text": "*چه حسی داری، ژنرال، وقتی سواران تا دم در خانه‌ات می‌تازند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA012Subtitle",
+  "text": "*فرصت عقب‌نشینی داشتی، حالا نابودت می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA013Subtitle",
+  "text": "*شاهد قدرت اراده من باش، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA014Subtitle",
+  "text": "*خشمم ماشین جنگی‌ات را به غبار بدل می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA015Subtitle",
+  "text": "*سم... مواد منفجره... پنهان‌کاری... هر کدام را جداگانه شکست دادی، ولی هر سه را با هم؟ همه‌چیز از دست رفته، ژنرال. باید تسلیم شوی... به خاطر مردانت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA016Subtitle",
+  "text": "*دنیای تو نرمت کرده، ژنرال. دنیای من سرسختم کرده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA017Subtitle",
+  "text": "*یاد می‌گیری به قدرتم احترام بگذاری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA018Subtitle",
+  "text": "*صبر می‌کنی تا حمله بعدی‌ام را بسازم، بعد نبرد ادامه پیدا می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA019Subtitle",
+  "text": "*از مردن پشت دفاع‌هایم خسته شدی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA020Subtitle",
+  "text": "*میدان نبرد ساکت است، ژنرال. منتظری من تمامش کنم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA021Subtitle",
+  "text": "*با اشتیاق فراوان منتظر حمله رقت‌انگیز بعدی‌ات هستیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA022Subtitle",
+  "text": "*نهایت قدرتت همین بود، ژنرال؟ واقعاً رقت‌انگیز"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA023Subtitle",
+  "text": "*حمله‌هایت مثل جیغ‌های رقت‌انگیزی در میان زوزه طوفانی خروشان بوده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA024Subtitle",
+  "text": "*این نبرد دارد حوصله‌ام را سر می‌برد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA025Subtitle",
+  "text": "*تا کی باید بگذارم زنده بمانی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA026Subtitle",
+  "text": "*ژنرال، رعایایم به توجه من نیاز دارند... تا کی می‌خواهی مثل دلقک این طرف و آن طرف برقصی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA027Subtitle",
+  "text": "*ژنرال، تاکتیک‌هایت مرا یاد بچه‌ای می‌اندازد که تازه شطرنج یاد می‌گیرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA028Subtitle",
+  "text": "*تمام شد، ژنرال؟ منابع رقت‌انگیزت ته کشید؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA029Subtitle",
+  "text": "*ژنرال، چند دقیقه پیش حوصله‌ام سر رفته بود... حالا دارد خوابم می‌برد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA030Subtitle",
+  "text": "*چه حسی دارد به چالش کشیدن یک نابغه واقعی نظامی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA031Subtitle",
+  "text": "*هر چه به دست آوری نابود می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA032Subtitle",
+  "text": "*حالا سربازخانه‌ات فرو ریخت... به‌زودی همه‌چیز فرو می‌ریزد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA033Subtitle",
+  "text": "*کارخانه جنگت از دست رفت... دوباره بسازش تا دوباره نابودش کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA034Subtitle",
+  "text": "*زحمت فرودگاهت را از دوشت برداشتم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA035Subtitle",
+  "text": "*دفاع‌های پایگاهت نمی‌توانند نیروهایم را متوقف کنند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA036Subtitle",
+  "text": "*ژنرال، وقتی حتی نمی‌توانی مرکز فرماندهی‌ات را نگه داری، چطور امید داری مرا شکست دهی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA037Subtitle",
+  "text": "*این همه از سازه‌هایت فرو ریخته، ژنرال... چرا میدان را ترک نمی‌کنی تا بیش از این آبرویت نرود؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA038Subtitle",
+  "text": "*با نابود کردن دکل‌های نفت بیشتر صبرم را بیش از این نیازما، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA039Subtitle",
+  "text": "*جرئت می‌کنی سربازخانه‌ام را نابود کنی، ژنرال؟!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA040Subtitle",
+  "text": "*ژنرال، برای کسب‌وکارم به یک دلال اسلحه نیاز دارم. یکی دیگر را نابود نکن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA041Subtitle",
+  "text": "*فکر می‌کنی دفاع‌هایم را خرد می‌کنی، ژنرال؟ به جایشان بیشتر برمی‌خیزند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA042Subtitle",
+  "text": "*این آخرین ساختمانی است که نابود می‌کنی، ژنرال. صبرم حدی دارد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA043Subtitle",
+  "text": "*مرکز فرماندهی‌ام! مجبورم کردی به زیر زمین عقب بنشینم، ولی هنوز تمام نشده، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA044Subtitle",
+  "text": "*بسیاری از ماشین‌هایم را نابود کردی، ژنرال. شاید دست‌کمت گرفته بودم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA045Subtitle",
+  "text": "*مردانم سیبل تمرین تو نیستند، ژنرال. خونشان به گردن توست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA046Subtitle",
+  "text": "*دکل نفتم را رها کن وگرنه آتشش می‌زنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA047Subtitle",
+  "text": "*می‌بینم آن سکوی توپخانه متروک را تصرف کرده‌ای. امیدوارم بتوانی راهش بیندازی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA048Subtitle",
+  "text": "*آن پالایشگاه نفت ورق را به نفع تو برنمی‌گرداند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA049Subtitle",
+  "text": "*احمق گستاخ! به اندازه کافی به خانه‌ام تجاوز کرده‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA050Subtitle",
+  "text": "*مثل حشره‌ای نیش‌زن هستی، ژنرال، و وقت آن است که حضور مزاحمت را له کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA051Subtitle",
+  "text": "*دشمن در میان ماست! نابودش کنید! همه‌شان را نابود کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA052Subtitle",
+  "text": "*احمق! از خط قرمز رد شدی! نیروهایت از دست رفته‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA053Subtitle",
+  "text": "*آه، حمله از جناح... ناشیانه، ولی دست‌کم یک استراتژی است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA054Subtitle",
+  "text": "*می‌خواهی از در پشتی حمله کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA055Subtitle",
+  "text": "*حمله از روبه‌رو؟ باید نیروی بیشتری می‌آوردی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA056Subtitle",
+  "text": "*می‌بینم تدارکات اضافه‌ام را پیدا کرده‌ای... و تأکید می‌کنم، تدارکات اضافه «من». همین حالا رهایشان کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA057Subtitle",
+  "text": "*نزدیک شدن به پایگاهم از آن مسیر فقط به مرگ می‌رسد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA058Subtitle",
+  "text": "*از آن روستا دور بمان، ژنرال. من از کسانی که زیر سایه‌ام هستند محافظت می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA059Subtitle",
+  "text": "*آن منابع مال مردم من است، ژنرال. مال تو نیست که برداری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA060Subtitle",
+  "text": "*آن ساختمان‌ها برای استفاده تو این‌جا گذاشته نشده‌اند، ژنرال. زیرساختم را مختل نکن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA061Subtitle",
+  "text": "*انگار اشتهایت از منابعت بیشتر شده، ژنرال. امیدوارم پیش از رسیدن ما به پایگاهت برقت را برگردانی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA062Subtitle",
+  "text": "*سرزمین ما بی‌برق است... حیف که پایگاه تو بدون وابستگی‌اش کار نمی‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA063Subtitle",
+  "text": "*پولت ته کشید، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA064Subtitle",
+  "text": "*ژنرال، منابعم را به زحمت انداختی. جنگ کوچکت مردمم را گرسنه می‌گذارد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA065Subtitle",
+  "text": "*طوفان اسکاد؟! فناوری ما را دزدیدی! تاوانش را می‌دهی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA066Subtitle",
+  "text": "*سلاح هسته‌ای می‌سازی، ژنرال؟ حدس می‌زدم به چنین بزدلی‌ای پناه ببری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA067Subtitle",
+  "text": "*توپ ذره‌ای؟ پرتوهای فضایی‌ات به ما زیر زمین نمی‌رسد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA068Subtitle",
+  "text": "*این همه دفاع برای پایگاه. حتماً واقعاً از قدرتم می‌ترسی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA069Subtitle",
+  "text": "*چند تانک لازم داری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA070Subtitle",
+  "text": "*آسمان را از این پشه‌های مزاحم پر کرده‌ای. حالا با پشه‌کش پایینشان می‌آوریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA071Subtitle",
+  "text": "*هر قدر مرد می‌خواهی آموزش بده، ژنرال، ولی تلفات هر دقیقه بیشتر می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA072Subtitle",
+  "text": "*پایگاهت بزرگ شده، ژنرال... شاید زیادی بزرگ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA073Subtitle",
+  "text": "*سمومت را به سوی ما پرتاب کن، ژنرال؛ ما برای خیلی بدتر از این آماده‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA074Subtitle",
+  "text": "*همه به زیر زمین! موشک‌های هسته‌ای‌شان نزدیک می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA075Subtitle",
+  "text": "*آره، از پرتو ذره‌ای‌ات استفاده کن... بزدلی‌ات را به دنیا نشان بده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA076Subtitle",
+  "text": "*در ساختمان سنگر بگیر، ژنرال... مثل موش در سوراخ دیوار قایم شو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA077Subtitle",
+  "text": "*سرهنگ برتون نجاتت نمی‌دهد، ژنرال. این جنگ را خودت باید بجنگی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA078Subtitle",
+  "text": "*آه، نیلوفر سیاه زیبا. به من بپیوند، لوتوس، و می‌توانی مثل ملکه زندگی کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA079Subtitle",
+  "text": "*جارمن کل؟ جرئت می‌کند در برابرم بایستد؟! انتقامم... بسیار ناخوشایند خواهد بود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA080Subtitle",
+  "text": "*فرودگاهت در برابر یورشم دوام نمی‌آورد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA081Subtitle",
+  "text": "*بالاخره کارخانه جنگ ساختی، ها ژنرال؟ چرا این‌قدر طول کشید؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA082Subtitle",
+  "text": "*سربازخانه رقت‌انگیزت هیچ فایده‌ای برایت ندارد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA083Subtitle",
+  "text": "*ساختمان‌هایت را می‌فروشی تا خرج ارتشت را بدهی؟ چندان منطقی به نظر نمی‌رسد، نه، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA084Subtitle",
+  "text": "*غیرممکن است! نمی‌توانی مرا شکست دهی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA085Subtitle",
+  "text": "*شاید فکر کنی دستت بالاست، ولی این نبرد مثل باد می‌چرخد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA086Subtitle",
+  "text": "*شاید سربازانت حالا از من بیشتر باشند، ولی نبردها را فقط با شمار نمی‌برند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA087Subtitle",
+  "text": "*باورم نمی‌شود از چنین احمق کم‌عقلی شکست می‌خورم. این ننگ تا ابد بر پیشانی‌ام می‌ماند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA088Subtitle",
+  "text": "*شکست از یک احمق... این خفت تحمل‌ناپذیر است... لطفاً مرا با عذابم تنها بگذار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA089Subtitle",
+  "text": "*ژنرال، بوی ترس و استیصال را از پایگاهت حس می‌کنم"
+ }
+]

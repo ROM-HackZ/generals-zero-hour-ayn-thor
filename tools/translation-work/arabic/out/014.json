@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:LimitSuperweapons",
+  "text": "تقييد الأسلحة الخارقة"
+ },
+ {
+  "label": "TOOLTIP:LimitSuperweapons",
+  "text": "حدّد هذا المربع لتقييد مدافع الجسيمات وعواصف سكود وغيرها بواحد لكل لاعب"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100",
+  "text": "وسام السلسلة\nفاز اللاعب في 100 مناوشة متتالية\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500",
+  "text": "وسام السلسلة\nفاز اللاعب في 500 مناوشة متتالية\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000",
+  "text": "وسام السلسلة\nفاز اللاعب في 1000 مناوشة متتالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3Online",
+  "text": "وسام السلسلة\nفاز اللاعب في 3 ألعاب متتالية عبر الإنترنت\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10Online",
+  "text": "وسام السلسلة\nفاز اللاعب في 10 ألعاب متتالية عبر الإنترنت\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25Online",
+  "text": "وسام السلسلة\nفاز اللاعب في 25 لعبة متتالية عبر الإنترنت\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100Online",
+  "text": "وسام السلسلة\nفاز اللاعب في 100 لعبة متتالية عبر الإنترنت\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500Online",
+  "text": "وسام السلسلة\nفاز اللاعب في 500 لعبة متتالية عبر الإنترنت\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000Online",
+  "text": "وسام السلسلة\nفاز اللاعب في 1000 لعبة متتالية عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 100 مناوشة\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 500 مناوشة\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 1,000 مناوشة\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 10,000 مناوشة"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100Online",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 100 لعبة عبر الإنترنت\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500Online",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 500 لعبة عبر الإنترنت\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000Online",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 1,000 لعبة عبر الإنترنت\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000Online",
+  "text": "وسام الهيمنة\nفاز اللاعب في أكثر من 10,000 لعبة عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallenge",
+  "text": "وسام حملة التحدي\nأكمل حملة تحدي الجنرالات لتنال هذا الوسام\nأكمل الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimate",
+  "text": "الوسام الأسمى\nانتصر في كل خرائط المناوشة ضد أكبر عدد من الخصوم الصعبين لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneral",
+  "text": "وسام الجنرال العالمي\nانتصر في لعبة واحدة على الأقل عبر الإنترنت بكل جنرال لتنال ميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakDisabled",
+  "text": "وسام السلسلة\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakOnlineDisabled",
+  "text": "وسام السلسلة\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallengeDisabled",
+  "text": "وسام حملة التحدي\nأكمل حملة تحدي الجنرالات لتنال هذا الوسام\nأكمل الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimateDisabled",
+  "text": "الوسام الأسمى\nانتصر في كل خرائط المناوشة ضد أكبر عدد من الخصوم الصعبين لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationDisabled",
+  "text": "وسام الهيمنة\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationOnlineDisabled",
+  "text": "وسام الهيمنة\nاحصل على ميدالية جديدة عند 100 و500 و1000 و10000 انتصار إجمالي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneralDisabled",
+  "text": "وسام الجنرال العالمي\nانتصر في لعبة واحدة على الأقل عبر الإنترنت بكل جنرال لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitzDisabled",
+  "text": "وسام الحرب الخاطفة\nاهزم خصمك (خصومك) في 10 دقائق أو أقل لتنال هذه الميدالية"
+ },
+ {
+  "label": "GUI:SuperweaponSpectreGunship",
+  "text": "الحربية سبكتر"
+ },
+ {
+  "label": "GUI:Nuke_SuperweaponNeutronMissile",
+  "text": "صاروخ نووي"
+ },
+ {
+  "label": "GUI:SuperweaponGPSScrambler",
+  "text": "مشوّش GPS"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponParticleUplinkCannon",
+  "text": "مدفع الجسيمات"
+ },
+ {
+  "label": "GUI:SuperweaponTankParadrop",
+  "text": "إنزال دبابات"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponTomahawkStorm",
+  "text": "عاصفة توماهوك"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponNeutronMissile",
+  "text": "صاروخ باليستي عابر للقارات"
+ },
+ {
+  "label": "INI:FactionAmericaSuperWeaponGeneral",
+  "text": "جنرال الأسلحة الخارقة الأمريكي"
+ },
+ {
+  "label": "INI:FactionAmericaLaserGeneral",
+  "text": "جنرال الليزر الأمريكي"
+ },
+ {
+  "label": "INI:FactionAmericaAirForceGeneral",
+  "text": "جنرال القوات الجوية الأمريكي"
+ },
+ {
+  "label": "INI:FactionAmericaCommanderInChief",
+  "text": "القائد الأعلى الأمريكي"
+ },
+ {
+  "label": "INI:FactionChinaTankGeneral",
+  "text": "جنرال الدبابات الصيني"
+ },
+ {
+  "label": "INI:FactionChinaInfantryGeneral",
+  "text": "جنرال المشاة الصيني"
+ },
+ {
+  "label": "INI:FactionChinaNukeGeneral",
+  "text": "الجنرال النووي الصيني"
+ },
+ {
+  "label": "INI:FactionChinaCommanderInChief",
+  "text": "القائد الأعلى الصيني"
+ },
+ {
+  "label": "INI:FactionGLAToxinGeneral",
+  "text": "جنرال السموم في جيش التحرير العالمي"
+ },
+ {
+  "label": "INI:FactionGLADemolitionGeneral",
+  "text": "جنرال التفجير في جيش التحرير العالمي"
+ },
+ {
+  "label": "INI:FactionGLAStealthGeneral",
+  "text": "جنرال التخفي في جيش التحرير العالمي"
+ },
+ {
+  "label": "INI:FactionGLACommanderInChief",
+  "text": "القائد الأعلى في جيش التحرير العالمي"
+ },
+ {
+  "label": "INI:FactionBossGeneral",
+  "text": "الجنرال الزعيم"
+ },
+ {
+  "label": "SIDE:AmericaSuperWeaponGeneral",
+  "text": "جنرال الأسلحة الخارقة الأمريكي"
+ },
+ {
+  "label": "SIDE:AmericaLaserGeneral",
+  "text": "جنرال الليزر الأمريكي"
+ },
+ {
+  "label": "SIDE:AmericaAirForceGeneral",
+  "text": "جنرال القوات الجوية الأمريكي"
+ },
+ {
+  "label": "SIDE:ChinaTankGeneral",
+  "text": "جنرال الدبابات الصيني"
+ },
+ {
+  "label": "SIDE:ChinaInfantryGeneral",
+  "text": "جنرال المشاة الصيني"
+ },
+ {
+  "label": "SIDE:ChinaNukeGeneral",
+  "text": "الجنرال النووي الصيني"
+ },
+ {
+  "label": "SIDE:GLAToxinGeneral",
+  "text": "جنرال السموم في جيش التحرير العالمي"
+ },
+ {
+  "label": "SIDE:GLADemolitionGeneral",
+  "text": "جنرال التفجير في جيش التحرير العالمي"
+ },
+ {
+  "label": "SIDE:GLAStealthGeneral",
+  "text": "جنرال التخفي في جيش التحرير العالمي"
+ },
+ {
+  "label": "SIDE:Boss",
+  "text": "الجنرال الزعيم"
+ },
+ {
+  "label": "GUI:SelectAllAircraft",
+  "text": "تحديد كل الطائرات"
+ },
+ {
+  "label": "GUI:SelectAllAircraftDescription",
+  "text": "يحدد جميع الطائرات"
+ },
+ {
+  "label": "SCIENCE:USASpectreGunship1",
+  "text": "الحربية سبكتر"
+ },
+ {
+  "label": "SCIENCE:USALeafletDrop",
+  "text": "إلقاء المنشورات"
+ },
+ {
+  "label": "SCIENCE:ChinaTankHunterTraining",
+  "text": "تدريب صائدي الدبابات"
+ },
+ {
+  "label": "SCIENCE:ChinaBattleMasterTraining",
+  "text": "تدريب الباتل ماستر"
+ },
+ {
+  "label": "SCIENCE:ChinaOverlordTraining",
+  "text": "تدريب الأوفرلورد"
+ },
+ {
+  "label": "SCIENCE:ChinaGattlingTankTraining",
+  "text": "تدريب دبابة الجاتلينج"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeDrop",
+  "text": "إسقاط قنبلة نووية"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy",
+  "text": "هيجان 1"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy2",
+  "text": "هيجان 2"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy3",
+  "text": "هيجان 3"
+ },
+ {
+  "label": "SCIENCE:ChinaCarpetBomb",
+  "text": "قصف سجادي"
+ },
+ {
+  "label": "SCIENCE:GPSScrambler",
+  "text": "مشوّش GPS"
+ },
+ {
+  "label": "SCIENCE:GLASneakAttack",
+  "text": "هجوم مباغت"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop1",
+  "text": "إنزال دبابات 1"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop2",
+  "text": "إنزال دبابات 2"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop3",
+  "text": "إنزال دبابات 3"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop1",
+  "text": "إنزال مظلي للمشاة 1"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop2",
+  "text": "إنزال مظلي للمشاة 2"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop3",
+  "text": "إنزال مظلي للمشاة 3"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyFrenzy",
+  "text": "هيجان"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligenceShortcut",
+  "text": "الاستخبارات"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownload",
+  "text": "الاتصالات والتنزيل (&D)"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownloadShortcut",
+  "text": "الاتصالات والتنزيل (&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixPropagandaTower",
+  "text": "برج الدعاية (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixBattleBunker",
+  "text": "مخبأ قتالي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixGattlingCannon",
+  "text": "مدفع جاتلينج (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNukeBomb",
+  "text": "قنبلة نووية (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaFireBase",
+  "text": "قاعدة نيران (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaArtilleryPlatform",
+  "text": "منصة مدفعية (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankAvenger",
+  "text": "أفنجر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankMicrowave",
+  "text": "دبابة الميكروويف (&M)"
+ },
+ {
+  "label": "CONTROLBAR:BunkerExit",
+  "text": "الخروج من المخبأ"
+ },
+ {
+  "label": "CONTROLBAR:FireBaseExit",
+  "text": "الخروج من قاعدة النيران"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLACommandCenter",
+  "text": "مركز قيادة وهمي (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABarracks",
+  "text": "ثكنات وهمية (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLASupplyStash",
+  "text": "مخزن إمدادات وهمي (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLAArmsDealer",
+  "text": "تاجر أسلحة وهمي (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInternetCenter",
+  "text": "مركز الإنترنت (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleCombatBike",
+  "text": "دراجة قتالية (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankEmperor",
+  "text": "الإمبراطور (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySaboteur",
+  "text": "مخرّب (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryPropagandaTrooper",
+  "text": "جندي الدعاية (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryMiniGunner",
+  "text": "رامي الرشاش الدوّار (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetKingRaptor",
+  "text": "الرابتور الملك (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetFuelAirAurora",
+  "text": "قاذفة أورورا ألفا (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetHypersonicAurora",
+  "text": "أورورا ألفا (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySniper",
+  "text": "قنّاص (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleSentryDrone",
+  "text": "طائرة حراسة مسيّرة (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHellfireDrone",
+  "text": "طائرة هيلفاير مسيّرة (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehiclePointDefenseDrone",
+  "text": "طائرة دفاع نقطي مسيّرة (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleHelix",
+  "text": "هيليكس (&X)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryNukeHunter",
+  "text": "صائد نووي (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaICBMLauncher",
+  "text": "صاروخ باليستي عابر للقارات (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleListeningOutpost",
+  "text": "موقع تنصت (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABlackMarket",
+  "text": "سوق سوداء وهمية (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTomahawkStorm",
+  "text": "عاصفة توماهوك (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankECM",
+  "text": "دبابة التشويش الإلكتروني (&E)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBattleBus",
+  "text": "حافلة القتال (&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSentryDroneGun",
+  "text": "رشاش طائرة الحراسة المسيّرة (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAQuadCannonSnipe",
+  "text": "قنص المدفع الرباعي (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSupplyLines",
+  "text": "خطوط الإمداد (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaMOAB",
+  "text": "أم القنابل (&M)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLACommandCenter",
+  "text": "التحول إلى مركز قيادة حقيقي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABarracks",
+  "text": "التحول إلى ثكنات حقيقية (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLAArmsDealer",
+  "text": "التحول إلى تاجر أسلحة حقيقي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLASupplyStash",
+  "text": "التحول إلى مخزن إمدادات حقيقي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABlackMarket",
+  "text": "التحول إلى سوق سوداء حقيقية (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaBunkerBusters",
+  "text": "مدمرات المخابئ (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCountermeasures",
+  "text": "التدابير المضادة (&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaChemicalSuits",
+  "text": "بدلات كيميائية (&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackOne",
+  "text": "اختراق الأقمار الصناعية I (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackTwo",
+  "text": "اختراق الأقمار الصناعية II (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFanaticism",
+  "text": "الوطنية (&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaWGUraniumShells",
+  "text": "قذائف يورانيوم عسكري (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTankAutoLoader",
+  "text": "التلقيم الآلي (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNeutronShells",
+  "text": "قذائف نيوترونية (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFusionReactors",
+  "text": "مفاعلات الاندماج (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNapalmBomb",
+  "text": "يمكّن هذه الهيليكس من إلقاء قنابل النابالم"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNukeBomb",
+  "text": "يمكّن هذه الهيليكس من إلقاء القنابل النووية"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNapalmBomb",
+  "text": "قنبلة نابالم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAFortifiedStructure",
+  "text": "مبنى محصّن (&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABoobyTrap",
+  "text": "فخ مفخخ (&O)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateFakeBuilding",
+  "text": "فجّر الآن! (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerFakeCommandSet",
+  "text": "التبديل إلى المباني الوهمية (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerRealCommandSet",
+  "text": "التبديل إلى المباني الحقيقية (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAHighExplosiveDemoTraps",
+  "text": "فخاخ تفجير شديدة الانفجار (&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamoNetting",
+  "text": "شباك التمويه (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxGamma",
+  "text": "الجمرة الخبيثة غاما (&X)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerShoes",
+  "text": "أحذية العمال (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeEMPMines",
+  "text": "ألغام نيوترونية (&M)"
+ },
+ {
+  "label": "CONTROLBAR:NukeWarhead",
+  "text": "قذيفة نووية (&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronWarhead",
+  "text": "قذائف نيوترونية (&E)"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDrop",
+  "text": "إلقاء المنشورات (&L)"
+ },
+ {
+  "label": "CONTROLBAR:SuitcaseNuke",
+  "text": "قنبلة نووية حقيبة (&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissileShortcut",
+  "text": "صاروخ نووي"
+ },
+ {
+  "label": "CONTROLBAR:ICBM",
+  "text": "صاروخ باليستي عابر للقارات (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ICBMShortcut",
+  "text": "صاروخ باليستي عابر للقارات"
+ },
+ {
+  "label": "CONTROLBAR:ScudStormShortcut",
+  "text": "عاصفة سكود"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStorm",
+  "text": "عاصفة توماهوك (&T)"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStormShortcut",
+  "text": "عاصفة توماهوك"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunship",
+  "text": "الحربية سبكتر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunshipFromShortcut",
+  "text": "الحربية سبكتر"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttack",
+  "text": "هجوم مباغت (&T)"
+ },
+ {
+  "label": "CONTROLBAR:TankParadrop",
+  "text": "إنزال دبابات (&P)"
+ },
+ {
+  "label": "CONTROLBAR:NukeDrop",
+  "text": "إنزال نووي (&U)"
+ },
+ {
+  "label": "CONTROLBAR:Frenzy",
+  "text": "هيجان (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScanShortcut",
+  "text": "مسح راداري"
+ },
+ {
+  "label": "CONTROLBAR:SelectAircraftCarriersFromShortcut",
+  "text": "تحديد حاملات الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:SelectBattleshipsFromShortcut",
+  "text": "قصف السفينة الحربية"
+ },
+ {
+  "label": "CONTROLBAR:BattleshipFire",
+  "text": "قصف السفينة الحربية"
+ },
+ {
+  "label": "CONTROLBAR:AircraftCarrierFire",
+  "text": "هجوم رابتور من حاملة الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ECMDisableVehicle",
+  "text": "تعطيل المركبة (&D)"
+ },
+ {
+  "label": "CONTROLBAR:BoobyTrapAttack",
+  "text": "هجوم بالفخ المفخخ (&B)"
+ },
+ {
+  "label": "CONTROLBAR:GPSScrambler",
+  "text": "مشوّش GPS (&G)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannonShortcut",
+  "text": "مدفع الجسيمات"
+ },
+ {
+  "label": "UPGRADE:AmericaSentryDroneGun",
+  "text": "رشاش طائرة الحراسة المسيّرة"
+ },
+ {
+  "label": "UPGRADE:AmericaMOAB",
+  "text": "MOAB: أم القنابل"
+ },
+ {
+  "label": "UPGRADE:AmericaBunkerBusters",
+  "text": "صواريخ خارقة للتحصينات"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackOne",
+  "text": "اختراق الأقمار الصناعية I"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackTwo",
+  "text": "اختراق الأقمار الصناعية II"
+ },
+ {
+  "label": "UPGRADE:HelixGattlingCannon",
+  "text": "مدفع جاتلينج للهيليكس"
+ },
+ {
+  "label": "UPGRADE:HelixPropagandaTower",
+  "text": "برج دعاية للهيليكس"
+ },
+ {
+  "label": "UPGRADE:HelixBattleBunker",
+  "text": "مخبأ قتالي للهيليكس"
+ },
+ {
+  "label": "UPGRADE:SupplyLines",
+  "text": "خطوط الإمداد"
+ },
+ {
+  "label": "UPGRADE:PointDefenseDrone",
+  "text": "طائرة دفاع نقطي مسيّرة"
+ },
+ {
+  "label": "UPGRADE:QuadCannonSnipe",
+  "text": "طلقات قنص للمدفع الرباعي"
+ },
+ {
+  "label": "UPGRADE:HellfireDrone",
+  "text": "طائرة هيلفاير مسيّرة"
+ },
+ {
+  "label": "UPGRADE:Fanaticism",
+  "text": "الوطنية"
+ },
+ {
+  "label": "UPGRADE:EMPMine",
+  "text": "ألغام نيوترونية"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNapalmBomb",
+  "text": "قنبلة نابالم"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNukeBomb",
+  "text": "قنبلة نووية"
+ },
+ {
+  "label": "UPGRADE:WGUraniumShells",
+  "text": "قذائف يورانيوم عالي التخصيب"
+ },
+ {
+  "label": "UPGRADE:TankAutoLoader",
+  "text": "ملقّم آلي"
+ },
+ {
+  "label": "UPGRADE:NeutronShells",
+  "text": "قذائف نيوترونية"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLACommandCenter",
+  "text": "مركز قيادة حقيقي"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLABarracks",
+  "text": "ثكنات حقيقية"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLAArmsDealer",
+  "text": "تاجر أسلحة حقيقي"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLASupplyStash",
+  "text": "مخزن إمدادات حقيقي"
+ }
+]

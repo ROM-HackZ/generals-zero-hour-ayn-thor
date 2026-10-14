@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BuildingsBuilt",
+  "text": "المباني\nالمشيَّدة"
+ },
+ {
+  "label": "GUI:BuildingsLost",
+  "text": "المباني\nالمفقودة"
+ },
+ {
+  "label": "GUI:BuildingsKilled",
+  "text": "المباني\nالمدمَّرة"
+ },
+ {
+  "label": "GUI:ResourcesCollected",
+  "text": "الإمدادات\nالمجموعة"
+ },
+ {
+  "label": "GUI:QuitPopupTitle",
+  "text": "خروج؟"
+ },
+ {
+  "label": "GUI:QuitPopupMessage",
+  "text": "هل أنت متأكد من أنك تريد الخروج؟"
+ },
+ {
+  "label": "GUI:MaxSelectionSize",
+  "text": "لا يمكنك تحديد أكثر من %d وحدة في وقت واحد"
+ },
+ {
+  "label": "GUI:MessagesOn",
+  "text": "الرسائل مفعّلة"
+ },
+ {
+  "label": "GUI:MissionDescription",
+  "text": "وصف المهمة"
+ },
+ {
+  "label": "GUI:MOTD",
+  "text": "رسالة اليوم"
+ },
+ {
+  "label": "GUI:DesyncTitle",
+  "text": "فقدان التزامن"
+ },
+ {
+  "label": "GUI:DesyncText",
+  "text": "فقدت C&C Generals Zero Hour التزامن مع بقية المشاركين في اللعبة. من المحتمل أن يكون المشاركون الآخرون قد عدّلوا نسخهم. لا يمكن لـ C&C Generals Zero Hour المتابعة، ولكن يمكنك إضافة اللاعبين إلى قائمة التجاهل من جهاز الاتصال إذا كنت لا ترغب في اللعب معهم مستقبلًا"
+ },
+ {
+  "label": "GUI:LadderDetails",
+  "text": "معلومات التصنيف"
+ },
+ {
+  "label": "GUI:SystemMaps",
+  "text": "الخرائط الرسمية"
+ },
+ {
+  "label": "GUI:UserMaps",
+  "text": "الخرائط غير الرسمية"
+ },
+ {
+  "label": "GUI:WaitingToBeginConnection",
+  "text": "في انتظار البدء"
+ },
+ {
+  "label": "GUI:NetgearDelay",
+  "text": "تأخير الإرسال"
+ },
+ {
+  "label": "GUI:WaitingForManglerResponse",
+  "text": "في انتظار رد مزوّد الإنترنت الخارجي"
+ },
+ {
+  "label": "GUI:WaitingForMangledPort",
+  "text": "في انتظار رقم المنفذ"
+ },
+ {
+  "label": "GUI:WaitingForResponse",
+  "text": "في انتظار رد الفحص"
+ },
+ {
+  "label": "GUI:ConnectionDone",
+  "text": "اكتمل الاتصال"
+ },
+ {
+  "label": "GUI:ConnectionFailed",
+  "text": "فشل الاتصال"
+ },
+ {
+  "label": "GUI:UnknownConnectionState",
+  "text": "حالة NAT/الجدار الناري غير معروفة"
+ },
+ {
+  "label": "GUI:Logout",
+  "text": "القائمة الرئيسية"
+ },
+ {
+  "label": "GUI:CancelMapSelect",
+  "text": "إلغاء"
+ },
+ {
+  "label": "GUI:Deny",
+  "text": "رفض"
+ },
+ {
+  "label": "GUI:Victory",
+  "text": "النصر"
+ },
+ {
+  "label": "GUI:Ignore",
+  "text": "تجاهل"
+ },
+ {
+  "label": "GUI:Unignore",
+  "text": "إلغاء التجاهل"
+ },
+ {
+  "label": "GUI:Stats",
+  "text": "الهوية"
+ },
+ {
+  "label": "GUI:GetMapPack",
+  "text": "تنزيل حزمة الخرائط"
+ },
+ {
+  "label": "GUI:Defeat",
+  "text": "الهزيمة"
+ },
+ {
+  "label": "GUI:YouAreVictorious",
+  "text": "لقد انتصرت!"
+ },
+ {
+  "label": "GUI:YouHaveBeenDefeated",
+  "text": "لقد هُزمت"
+ },
+ {
+  "label": "GUI:PlayerAlive",
+  "text": "يلعب"
+ },
+ {
+  "label": "GUI:PlayerDead",
+  "text": "مهزوم"
+ },
+ {
+  "label": "GUI:PlayerObserver",
+  "text": "يراقب"
+ },
+ {
+  "label": "GUI:PlayerObserverGone",
+  "text": "غائب"
+ },
+ {
+  "label": "GUI:PlayerGone",
+  "text": "غائب"
+ },
+ {
+  "label": "GUI:PlayerName",
+  "text": "اسم اللاعب"
+ },
+ {
+  "label": "GUI:Info",
+  "text": "معلومات اللاعب"
+ },
+ {
+  "label": "GUI:Players:",
+  "text": "اللاعبون:"
+ },
+ {
+  "label": "GUI:GameOptions:",
+  "text": "خيارات اللعبة:"
+ },
+ {
+  "label": "GUI:GameName:",
+  "text": "اللعبة:"
+ },
+ {
+  "label": "GUI:MapName:",
+  "text": "الخريطة:"
+ },
+ {
+  "label": "GUI:SelectMap",
+  "text": "اختر الخريطة"
+ },
+ {
+  "label": "GUI:SelectAMap",
+  "text": "اختر الخريطة"
+ },
+ {
+  "label": "GUI:SelectAGame",
+  "text": "اختر اللعبة"
+ },
+ {
+  "label": "GUI:Start",
+  "text": "ابدأ اللعب"
+ },
+ {
+  "label": "GUI:Host",
+  "text": "إنشاء لعبة"
+ },
+ {
+  "label": "GUI:LocaleSelect",
+  "text": "اختر منطقتك"
+ },
+ {
+  "label": "GUI:Command&ConquerGenerals",
+  "text": "Command & Conquer (TM) Generals Zero Hour"
+ },
+ {
+  "label": "GUI:Command&Conquer",
+  "text": "Command & Conquer (TM)"
+ },
+ {
+  "label": "GUI:Generals",
+  "text": "Generals Zero Hour"
+ },
+ {
+  "label": "GUI:GeneralsOnline",
+  "text": "عبر الإنترنت"
+ },
+ {
+  "label": "GUI:SendDelay",
+  "text": "تأخير الإرسال"
+ },
+ {
+  "label": "GUI:FirewallRefresh",
+  "text": "تحديث NAT"
+ },
+ {
+  "label": "GUI:Exit",
+  "text": "الخروج من اللعبة"
+ },
+ {
+  "label": "GUI:X",
+  "text": "X"
+ },
+ {
+  "label": "GUI:Campaign",
+  "text": "الحملة"
+ },
+ {
+  "label": "GUI:WestwoodPacific",
+  "text": "EA Pacific"
+ },
+ {
+  "label": "GUI:ClickToDisplayGameInfo",
+  "text": "انقر لعرض معلومات اللعبة"
+ },
+ {
+  "label": "GUI:GameInfo",
+  "text": "معلومات اللعبة"
+ },
+ {
+  "label": "GUI:OptionsDescription",
+  "text": "عرض نافذة خيارات اللعبة"
+ },
+ {
+  "label": "GUI:SFXVolume",
+  "text": "مستوى المؤثرات الصوتية"
+ },
+ {
+  "label": "GUI:3DSound",
+  "text": "صوت ثلاثي الأبعاد"
+ },
+ {
+  "label": "GUI:ScrollSpeed",
+  "text": "سرعة التمرير"
+ },
+ {
+  "label": "GUI:Resolution",
+  "text": "الدقة"
+ },
+ {
+  "label": "GUI:Resolution0",
+  "text": "1024x768"
+ },
+ {
+  "label": "GUI:Resolution1",
+  "text": "800x600"
+ },
+ {
+  "label": "GUI:Resolution2",
+  "text": "640x480"
+ },
+ {
+  "label": "GUI:Detail",
+  "text": "التفاصيل"
+ },
+ {
+  "label": "GUI:???",
+  "text": "???"
+ },
+ {
+  "label": "GUI:Faction",
+  "text": "الجيش"
+ },
+ {
+  "label": "GUI:AntiAliasing0",
+  "text": "إيقاف"
+ },
+ {
+  "label": "GUI:AntiAliasing1",
+  "text": "منخفض"
+ },
+ {
+  "label": "GUI:AntiAliasing2",
+  "text": "مرتفع"
+ },
+ {
+  "label": "GUI:IPAddresses",
+  "text": "عنوان IP المحلي:"
+ },
+ {
+  "label": "GUI:MinPointPercent",
+  "text": "الحد الأدنى لنسبة الفوز:"
+ },
+ {
+  "label": "GUI:MaxPointPercent",
+  "text": "الحد الأقصى لنسبة الفوز:"
+ },
+ {
+  "label": "GUI:NumPlayers",
+  "text": "اللاعبون:"
+ },
+ {
+  "label": "GUI:PlayersVersusPlayers",
+  "text": "%d ضد %d"
+ },
+ {
+  "label": "GUI:TimeInMilliseconds",
+  "text": "%d م.ث"
+ },
+ {
+  "label": "GUI:MaxDisconnects",
+  "text": "أقصى عدد مسموح لقطع الاتصال:"
+ },
+ {
+  "label": "GUI:Confirm",
+  "text": "هل أنت متأكد؟"
+ },
+ {
+  "label": "GUI:NothingSelected",
+  "text": "لم يُحدَّد شيء"
+ },
+ {
+  "label": "GUI:SelectedAcrossScreen",
+  "text": "تحديد على مستوى الشاشة"
+ },
+ {
+  "label": "GUI:SelectedAcrossMap",
+  "text": "تحديد على مستوى الخريطة"
+ },
+ {
+  "label": "KEYBOARD:Shift+",
+  "text": "Shift+"
+ },
+ {
+  "label": "KEYBOARD:Alt+",
+  "text": "Alt+"
+ },
+ {
+  "label": "KEYBOARD:Ctrl+",
+  "text": "Ctrl+"
+ },
+ {
+  "label": "TOOLTIP:ScienceCost",
+  "text": "التكلفة: %d"
+ },
+ {
+  "label": "TOOLTIP:Cost",
+  "text": "التكلفة: %d"
+ },
+ {
+  "label": "TOOLTIP:SupplyWarehouse",
+  "text": "\nالمتبقي $%d"
+ },
+ {
+  "label": "TOOLTIP:LobbyPlayers",
+  "text": "اللاعبون الموجودون حاليًا في ردهة الألعاب"
+ },
+ {
+  "label": "TOOLTIP:StartWorldBuilder",
+  "text": "تشغيل محرر الخرائط"
+ },
+ {
+  "label": "TOOLTIP:GetUpdate",
+  "text": "تنزيل تحديث اللعبة"
+ },
+ {
+  "label": "TOOLTIP:GetMapPack",
+  "text": "تنزيل حزمة خرائط جديدة"
+ },
+ {
+  "label": "TOOLTIP:Skirmish",
+  "text": "الدخول إلى قائمة إعداد المناوشة"
+ },
+ {
+  "label": "TOOLTIP:Online",
+  "text": "انقر للانضمام إلى C&C Generals Zero Hour عبر الإنترنت. اختبر مهاراتك أمام خصوم من جميع أنحاء العالم!"
+ },
+ {
+  "label": "TOOLTIP:Network",
+  "text": "انقر للانضمام إلى ردهة الشبكة. اختبر عزيمتك أمام أصدقائك عبر شبكة محلية"
+ },
+ {
+  "label": "TOOLTIP:Options",
+  "text": "انقر لتعديل خيارات اللعبة. يمكنك ضبط تفضيلات الصورة والصوت واللعب"
+ },
+ {
+  "label": "TOOLTIP:Exit",
+  "text": "الخروج من C&C Generals Zero Hour. حظًا موفقًا في الميدان أيها القائد"
+ },
+ {
+  "label": "TOOLTIP:ExitGame",
+  "text": "الخروج من C&C Generals Zero Hour. حظًا موفقًا في الميدان أيها القائد"
+ },
+ {
+  "label": "TOOLTIP:LoadGame",
+  "text": "انقر لتحميل اللعبة المحددة"
+ },
+ {
+  "label": "TOOLTIP:MapPreviewWindow",
+  "text": "تمنحك معاينة الخريطة أفضلية في المعركة القادمة. ابحث عن مستودعات الإمدادات والمباني التقنية. يمكنك أيضًا اختيار نقطة انطلاقك"
+ },
+ {
+  "label": "TOOLTIP:SaveGame",
+  "text": "انقر لحفظ اللعبة الجارية"
+ },
+ {
+  "label": "TOOLTIP:AcceptButton",
+  "text": "اعتماد اختيارك الحالي"
+ },
+ {
+  "label": "TOOLTIP:CopyReplayToDesktop",
+  "text": "نسخ ملف الإعادة المحدد إلى سطح المكتب"
+ },
+ {
+  "label": "TOOLTIP:ProviderType",
+  "text": "اختر مزوّد الصوت"
+ },
+ {
+  "label": "TOOLTIP:SpeakerType",
+  "text": "اختر إعداد مكبرات الصوت"
+ },
+ {
+  "label": "TOOLTIP:LANPlayer",
+  "text": "%ls@%ls"
+ },
+ {
+  "label": "TOOLTIP:Resolution",
+  "text": "اختر دقة الشاشة للعبتك. كلما ارتفعت الدقة، زاد احتمال بطء اللعبة"
+ },
+ {
+  "label": "TOOLTIP:CommandCategory",
+  "text": "اختر فئة أوامر لوحة المفاتيح"
+ },
+ {
+  "label": "TOOLTIP:CommandDescription",
+  "text": "وصف الأمر المحدد"
+ },
+ {
+  "label": "TOOLTIP:StartPosition",
+  "text": "موقع البداية"
+ },
+ {
+  "label": "TOOLTIP:SelectMap",
+  "text": "اختر ساحة المعركة التي تريدها"
+ },
+ {
+  "label": "TOOLTIP:Vote",
+  "text": "انقر للتصويت على إخراج اللاعب من اللعبة كي تتمكن من المتابعة"
+ },
+ {
+  "label": "TOOLTIP:NumberOfVotes",
+  "text": "الأصوات المدلى بها لإخراج اللاعب"
+ },
+ {
+  "label": "TOOLTIP:QuitMultiplayerGame",
+  "text": "الخروج إلى قوائم اللعبة"
+ },
+ {
+  "label": "TOOLTIP:RestartGame",
+  "text": "إعادة بدء اللعبة بالتفضيلات نفسها"
+ },
+ {
+  "label": "TOOLTIP:Help",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:StartLocation",
+  "text": "موقع البداية"
+ },
+ {
+  "label": "TOOLTIP:ReturnToGame",
+  "text": "العودة إلى اللعبة"
+ },
+ {
+  "label": "TOOLTIP:CommandList",
+  "text": "الأوامر المتاحة للفئة الحالية"
+ },
+ {
+  "label": "TOOLTIP:CurrentHotkey",
+  "text": "يعرض مفتاح الاختصار الحالي لهذا الأمر"
+ },
+ {
+  "label": "TOOLTIP:AssignHotkey",
+  "text": "أدخل مفتاح الاختصار الجديد للأمر هنا"
+ },
+ {
+  "label": "TOOLTIP:AssignHotkeyCurrent",
+  "text": "الأمر المعيَّن له مفتاح الاختصار هذا حاليًا"
+ },
+ {
+  "label": "TOOLTIP:AssignButton",
+  "text": "يعيّن مفتاح الاختصار الذي اخترته"
+ },
+ {
+  "label": "TOOLTIP:ResetAll",
+  "text": "يعيد جميع مفاتيح الاختصار إلى الوضع الافتراضي"
+ },
+ {
+  "label": "TOOLTIP:BackButton",
+  "text": "العودة إلى القائمة السابقة"
+ },
+ {
+  "label": "TOOLTIP:ProviderSelect",
+  "text": "اختر مزوّد الصوت ثلاثي الأبعاد. اختارت اللعبة الإعداد الأمثل لك مسبقًا، لكن يمكنك تغييره يدويًا إن شئت"
+ },
+ {
+  "label": "TOOLTIP:SpeakerSelect",
+  "text": "اختر إعداد مكبرات الصوت. اختارت اللعبة الإعداد الأمثل لك مسبقًا، لكن يمكنك تغييره يدويًا إن شئت"
+ },
+ {
+  "label": "TOOLTIP:DontUseAccount",
+  "text": "تسجيل الدخول دون استخدام حسابك في C&C Generals Zero Hour عبر الإنترنت. لن تتمكن من الوصول إلى هوية اللاعب أو جهاز الاتصال"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorButton",
+  "text": "تواصل مع أصدقائك"
+ },
+ {
+  "label": "TOOLTIP:NameButton",
+  "text": "الترتيب حسب اسم اللعبة"
+ },
+ {
+  "label": "TOOLTIP:PingButton",
+  "text": "الترتيب حسب التأخير"
+ },
+ {
+  "label": "TOOLTIP:UseAccount",
+  "text": "الانضمام إلى C&C Generals Zero Hour عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:Login",
+  "text": "الانضمام إلى C&C Generals Zero Hour عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:CreateAccount",
+  "text": "إنشاء حساب جديد في C&C Generals Zero Hour عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:TOS",
+  "text": "عرض اتفاقية شروط الخدمة"
+ },
+ {
+  "label": "TOOLTIP:RememberInfo",
+  "text": "تذكّر بيانات الدخول. لا يُنصح به على أجهزة الكمبيوتر متعددة المستخدمين"
+ },
+ {
+  "label": "TOOLTIP:Back",
+  "text": "العودة إلى الشاشة السابقة"
+ },
+ {
+  "label": "TOOLTIP:BattleHonors",
+  "text": "أوسمة المعارك التي حصل عليها اللاعب\nتُنال أوسمة المعارك بتحقيق أهداف معينة في اللعب الفردي أو الجماعي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3",
+  "text": "وسام السلسلة\nفاز اللاعب في 3 مناوشات متتالية\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10",
+  "text": "وسام السلسلة\nفاز اللاعب في 10 مناوشات متتالية\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSA",
+  "text": "وسام الولاء للولايات المتحدة\nلعب اللاعب أكثر من 20 لعبة متتالية بجيش الولايات المتحدة"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChina",
+  "text": "وسام الولاء للصين\nلعب اللاعب أكثر من 20 لعبة متتالية بجيش الصين"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLA",
+  "text": "وسام الولاء لـجيش التحرير العالمي\nلعب اللاعب أكثر من 20 لعبة متتالية بجيش جيش التحرير العالمي"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTank",
+  "text": "وسام دبابة المعركة\nصنع اللاعب أكثر من 50 دبابة في لعبة فردية أو جماعية عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWing",
+  "text": "وسام الجناح الجوي\nصنع اللاعب أكثر من 20 طائرة في لعبة فردية أو جماعية عبر الإنترنت"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEndurance",
+  "text": "وسام التحمّل\nانتصر في كل خريطة لتنال ميدالية برونزية أو فضية أو ذهبية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSA",
+  "text": "وسام حملة الولايات المتحدة\nأكمل حملة الولايات المتحدة لتنال هذا الوسام\nأنهِ الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChina",
+  "text": "وسام حملة الصين\nأكمل حملة الصين لتنال هذا الوسام\nأنهِ الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLA",
+  "text": "وسام حملة جيش التحرير العالمي\nأكمل حملة جيش التحرير العالمي لتنال هذا الوسام\nأنهِ الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallenge",
+  "text": "وسام التحدي\nهزم اللاعب خصمًا حاسوبيًا صعبًا"
+ },
+ {
+  "label": "TOOLTIP:ProgressToNextRank",
+  "text": "التقدم حتى بلوغ الرتبة التالية"
+ },
+ {
+  "label": "TOOLTIP:SetLocale",
+  "text": "تغيير المنطقة المختارة حاليًا"
+ },
+ {
+  "label": "TOOLTIP:DeleteAccount",
+  "text": "حذف حسابك الحالي"
+ },
+ {
+  "label": "TOOLTIP:AsianText",
+  "text": "انقر لتبديل الدردشة الآسيوية وغيرها"
+ },
+ {
+  "label": "TOOLTIP:NonAsianText",
+  "text": "انقر لتبديل الدردشة غير الآسيوية وغيرها"
+ },
+ {
+  "label": "GUI:AreYouSureDeleteAccount",
+  "text": "هل أنت متأكد من أنك تريد حذف حسابك وجميع إحصاءاتك المحفوظة نهائيًا؟"
+ },
+ {
+  "label": "GUI:NonAsianText",
+  "text": "نص غير آسيوي"
+ },
+ {
+  "label": "GUI:AsianText",
+  "text": "نص آسيوي"
+ },
+ {
+  "label": "GUI:DeleteAccount",
+  "text": "حذف الحساب"
+ },
+ {
+  "label": "GUI:SetLocale",
+  "text": "تعيين المنطقة"
+ },
+ {
+  "label": "GUI:WinLoss",
+  "text": "فوز/خسارة"
+ },
+ {
+  "label": "GUI:FavSide",
+  "text": "الجيش المفضل"
+ },
+ {
+  "label": "GUI:Discons",
+  "text": "مرات قطع الاتصال"
+ },
+ {
+  "label": "GUI:BattleHonors",
+  "text": "أوسمة المعارك"
+ },
+ {
+  "label": "GUI:TotalBuddys",
+  "text": "مجموع الأصدقاء"
+ },
+ {
+  "label": "GUI:PlayerStatistics",
+  "text": "%hs، من %ls"
+ },
+ {
+  "label": "GUI:TotalBuilt",
+  "text": "مجموع ما صُنع"
+ },
+ {
+  "label": "GUI:TotalDeaths",
+  "text": "مجموع الخسائر"
+ },
+ {
+  "label": "GUI:TotalKills",
+  "text": "مجموع ما دُمّر"
+ },
+ {
+  "label": "GUI:FavoriteUnit",
+  "text": "الوحدة المفضلة"
+ },
+ {
+  "label": "GUI:FavoriteSide",
+  "text": "الجيش المفضل"
+ },
+ {
+  "label": "GUI:Loses",
+  "text": "الهزائم"
+ },
+ {
+  "label": "GUI:Wins",
+  "text": "الانتصارات"
+ },
+ {
+  "label": "GUI:TotalDesyncs",
+  "text": "فقدان التزامن"
+ },
+ {
+  "label": "GUI:TotalDisconnects",
+  "text": "مرات قطع الاتصال"
+ },
+ {
+  "label": "GUI:GamesPlayed",
+  "text": "الألعاب الملعوبة"
+ },
+ {
+  "label": "GUI:TOS",
+  "text": "شروط الخدمة"
+ },
+ {
+  "label": "GUI:RememberInfo",
+  "text": "تذكّر بياناتي"
+ },
+ {
+  "label": "GUI:HostWantsToStart",
+  "text": "المضيف يريد البدء. اضغط زر القبول"
+ },
+ {
+  "label": "GUI:PlayerNoMap",
+  "text": "لا يملك %ls الخريطة %ls"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMap",
+  "text": "لا تملك الخريطة %ls"
+ },
+ {
+  "label": "GUI:NeedMorePlayers",
+  "text": "تحتاج إلى لاعب أو أكثر لبدء اللعبة"
+ },
+ {
+  "label": "GUI:NotifiedStartIntent",
+  "text": "أُبلغ اللاعبون الآخرون بأنك تريد بدء اللعبة"
+ },
+ {
+  "label": "GUI:HostLeft",
+  "text": "غادر المضيف اللعبة لكن C&C Generals Zero Hour ستستمر"
+ },
+ {
+  "label": "GUI:HostLeftTitle",
+  "text": "غادر المضيف"
+ },
+ {
+  "label": "GUI:WidenSearch",
+  "text": "توسيع البحث"
+ },
+ {
+  "label": "GUI:QMAborted",
+  "text": "أُلغيت المطابقة"
+ },
+ {
+  "label": "GUI:DrawScrollAnchor",
+  "text": "رسم مرساة التمرير"
+ },
+ {
+  "label": "GUI:MoveScrollAnchor",
+  "text": "تحريك مرساة التمرير"
+ },
+ {
+  "label": "GUI:GroupRoom1",
+  "text": "1 ضد 1"
+ },
+ {
+  "label": "GUI:GroupRoom2",
+  "text": "2 ضد 2"
+ },
+ {
+  "label": "GUI:GroupRoom3",
+  "text": "3 ضد 3"
+ },
+ {
+  "label": "GUI:Email",
+  "text": "البريد الإلكتروني"
+ },
+ {
+  "label": "GUI:NoLadder",
+  "text": "بلا تصنيف"
+ }
+]

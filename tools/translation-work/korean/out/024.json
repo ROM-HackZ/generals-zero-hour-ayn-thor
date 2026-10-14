@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi002Subtitle",
+  "text": "*호랑이가 덮칠 준비를 마쳤다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi003Subtitle",
+  "text": "*중국을 위하여! 돌격!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi004Subtitle",
+  "text": "*내 병력은 네 방어선을 칠 준비가 됐다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi005Subtitle",
+  "text": "*내 강철 용의 쿵쿵거리는 발소리를 느껴 봐라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi006Subtitle",
+  "text": "*네 방어는 내 병력 앞에선 쓸모없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi007Subtitle",
+  "text": "*이제 명예의 전장에서 만났구나, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi008Subtitle",
+  "text": "*이것은 중국의 이익을 위해서다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi009Subtitle",
+  "text": "*네 강철이 얼마나 단단한지 시험해 볼 때다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi010Subtitle",
+  "text": "*날 공격한 건 이번이 마지막이다, 장군. 이번 공세가 네 방어선을 부수고 한심한 군대를 가루로 만들 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi011Subtitle",
+  "text": "*중국의 힘이 너에게 쏟아진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi012Subtitle",
+  "text": "*네 열등한 병력은 내 전사들에게 아무 상대도 되지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi013Subtitle",
+  "text": "*이 싸움은 네가 시작했다, 장군. 끝은 내가 낸다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi014Subtitle",
+  "text": "*저 바보를 공격해라! 포로는 필요 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi015Subtitle",
+  "text": "*두 전사가 전장에서 만났다. 누가 이길지 누가 말하겠나? 내가 말한다. 바로 나다. 넌 쓰러질 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi016Subtitle",
+  "text": "*이길 수 없는 싸움은 싸울 가치가 없다. 그런데 왜 여기 있지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi017Subtitle",
+  "text": "*분노만으로는 멀리 못 간다, 장군. 하지만 분노에 전차 대열이 더해지면... 그땐 뭔가 되지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi018Subtitle",
+  "text": "*넌 막다른 길에 몰렸다, 장군. 그리고 이제야 그 길 끝에 불이 붙었다는 걸 알았군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi019Subtitle",
+  "text": "*전투의 춤은 기이하고 짧다... 그리고 너와의 이 전투는 기이할 만큼 짧았다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi020Subtitle",
+  "text": "*전략을 제대로 생각해 보지 않은 모양이군. 안됐구나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi021Subtitle",
+  "text": "*그건 지는 전략이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi022Subtitle",
+  "text": "*넌 네 백성의 이익을 위해 움직이고 있지 않다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi023Subtitle",
+  "text": "*다음 수를 생각할 시간을 잠시 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi024Subtitle",
+  "text": "*현명한 자는 물러설 때를 안다. 넌 분명 그런 자가 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi025Subtitle",
+  "text": "*결국 모두 내 앞에 무릎 꿇는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi026Subtitle",
+  "text": "*넌 내 힘에 맞설 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi027Subtitle",
+  "text": "*한 사람이 중국을 이길 수는 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi028Subtitle",
+  "text": "*우리는 숙고해 다음 수를 정할 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi029Subtitle",
+  "text": "*감당할 수 없는 전술에 매달리지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi030Subtitle",
+  "text": "*자살은 전술이 아니다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi031Subtitle",
+  "text": "*폭풍 앞의 대나무처럼 네 건물을 쓸어버린다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi032Subtitle",
+  "text": "*병영을 무너뜨리자 네 병사들이 도망쳐 나오더군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi033Subtitle",
+  "text": "*공장이 전쟁을 만들 수는 없다, 장군 -- 그리고 이제 네 군수 공장은 아무것도 만들지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi034Subtitle",
+  "text": "*네 비행장은 발이 묶였다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi035Subtitle",
+  "text": "*네 기지 방어가 풀잎처럼 우리 앞에 쓰러진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi036Subtitle",
+  "text": "*네 사령부를 파괴했다. 이제 어디 숨어 있나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi037Subtitle",
+  "text": "*그렇게 많은 건물이 무너졌으니 벌써 항복했을 줄 알았다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi038Subtitle",
+  "text": "*내 병영을 부수고도 내 분노를 느끼지 않을 거라 생각하지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi039Subtitle",
+  "text": "*이제 저 군수 공장을 다시 지어야겠군. 내 일시적인 약점을 이용하는 게 현명할 거다... 오래가지 않을 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi040Subtitle",
+  "text": "*도저들: MiG가 돌아오기 전에 비행장을 재건하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi041Subtitle",
+  "text": "*방어선이 무너지고 있다! 침략자를 격퇴하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi042Subtitle",
+  "text": "*파괴는 이 정도면 충분하다, 장군. 이제 내 차례다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi043Subtitle",
+  "text": "*내 사령부를 차지할 수는 있어도 이 전투는 끝나지 않았다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi044Subtitle",
+  "text": "*네가 격추한 MiG들의 복수를 하겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi045Subtitle",
+  "text": "*이 전쟁의 대가가 너무 크다, 장군. 이제 네가 치를 차례다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi046Subtitle",
+  "text": "*중국 보병은 많지만 너무 많이 희생됐다. 이제 네 잔혹함을 열 배로 갚아 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi047Subtitle",
+  "text": "*석유를 마음껏 차지해라 -- 그 보상을 거둘 시간은 없을 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi048Subtitle",
+  "text": "*저 포병 플랫폼은 쉽게 피할 수 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi049Subtitle",
+  "text": "*저 정유 공장으로 효율을 높이려는 건가, 장군? 탄탄한 전략이 더 도움이 됐을 텐데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi050Subtitle",
+  "text": "*내 기지 가장자리에서 뭔가 움직인다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi051Subtitle",
+  "text": "*내 기지로 다가오는 게 보인다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi052Subtitle",
+  "text": "*내 기지에 들어온 걸 후회할 만큼 오래 살지 못할 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi053Subtitle",
+  "text": "*네 병력이 내 기지에 들어올 수는 있어도 다시는 나가지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi054Subtitle",
+  "text": "*그 자원은 내 보호 아래 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi055Subtitle",
+  "text": "*왜 자꾸 측면에서 공격하는 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi056Subtitle",
+  "text": "*흥미로운 공격이군, 장군. 하지만 나에겐 통하지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi057Subtitle",
+  "text": "*용감한 공격이군, 장군. 하지만 용기만으로는 날 이길 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi058Subtitle",
+  "text": "*그건 바보의 전술이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi059Subtitle",
+  "text": "*날 화나게 하기 전에 이곳을 떠나라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi060Subtitle",
+  "text": "*네가 뭘 하는지 다 보인다, 장군. 허락하지 않겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi061Subtitle",
+  "text": "*여기서 도망쳐라, 장군. 내가 대군을 풀기 전에"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi062Subtitle",
+  "text": "*네 기지에 접근 중이다, 장군. 어떻게 방어할 텐가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi063Subtitle",
+  "text": "*우리 공격에 대비는 됐나, 장군? 두고 보지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi064Subtitle",
+  "text": "*네 방어는 불충분하다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi065Subtitle",
+  "text": "*이제 네 기지를 초토화하기 시작하겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi066Subtitle",
+  "text": "*네 자원은 곧 내 것이 된다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi067Subtitle",
+  "text": "*중국을 위해 이 유정을 차지한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi068Subtitle",
+  "text": "*네 측면이 드러났다, 장군. 치명적인 실수다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi069Subtitle",
+  "text": "*내 병력이 네 방어를 무너뜨리게 내버려 뒀군. 이제 끝장내 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi070Subtitle",
+  "text": "*전력이 떨어지게 내버려 뒀군, 장군. 치명적인 실수가 아니길 빌어라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi071Subtitle",
+  "text": "*전력 없이는 기지를 지킬 수 없을 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi072Subtitle",
+  "text": "*자원을 다 써 버렸군, 장군. 패배를 인정할 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi073Subtitle",
+  "text": "*내 자원을 축냈군, 장군. 이제 네 것을 가지러 가겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi074Subtitle",
+  "text": "*스커드 스톰은 비겁한 무기다, 장군. 널 더 높이 봤는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi075Subtitle",
+  "text": "*네가 날 핵미사일 격납고로 맞서게 만드는군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi076Subtitle",
+  "text": "*저 입자 캐논은 무서운 무기지만 중국을 막을 수는 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi077Subtitle",
+  "text": "*방어 시설이 이렇게 많다니... 적을 제대로 존중하는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi078Subtitle",
+  "text": "*중국보다 전차를 많이 만들 수는 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi079Subtitle",
+  "text": "*하늘에서 네 비행기와 맞서 주마, 장군. 네 우위는 네 머릿속에만 있을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi080Subtitle",
+  "text": "*네 병사들은 수적으로 열세다, 장군. 중국보다 큰 대군을 만들려고 하지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi081Subtitle",
+  "text": "*네 기지가 커졌군, 장군... 핵 공격 하기 딱 좋게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi082Subtitle",
+  "text": "*레드가드, 흩어져라! 스커드 미사일이 날아온다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi083Subtitle",
+  "text": "*우리는 네 핵미사일에 끄떡없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi084Subtitle",
+  "text": "*안 돼! 네 입자 광선은 우리를 다치게 할 뿐이다 -- 이 일은 잊지 않겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi085Subtitle",
+  "text": "*저 건물 안에 숨어라, 장군. 드래곤 전차가 찾아갈지도 모르니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi086Subtitle",
+  "text": "*버튼 대령의 활약은 전설적이지만 그도 한 사람일 뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi087Subtitle",
+  "text": "*우리 블랙 로투스 요원 하나를 매수했군. 하지만 그녀의 훈련으로 전세가 뒤집히지는 않는다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi088Subtitle",
+  "text": "*저격수 켈이 전투에 끼어들었군. 그의 은밀함이 널 구해 줄 거라 믿지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi089Subtitle",
+  "text": "*비행장을 짓다니 어리석군, 장군. 날 막을 수 있는 건 전차뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi090Subtitle",
+  "text": "*군수 공장을 짓는 건 현명한 판단이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi091Subtitle",
+  "text": "*저 병영은 날 이기는 데 필요한 것의 시작에 불과하다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi092Subtitle",
+  "text": "*건물을 팔아 치울 거면 왜 애써 짓는 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi093Subtitle",
+  "text": "*이렇게 쉽게 날 이기진 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi094Subtitle",
+  "text": "*네 우위는 오래가지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi095Subtitle",
+  "text": "*너 같은 자에게 질 수는 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi096Subtitle",
+  "text": "*이게 끝이 아니다, 장군. 다시 일어서겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi097Subtitle",
+  "text": "*이 패배를 인정해야겠군. 네가 더 뛰어난 전술을 보였다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi098Subtitle",
+  "text": "*내 뛰어난 전술이 널 패배로 이끌고 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi099Subtitle",
+  "text": "*넌 이 전투에서 지고 있다, 장군. 계속 싸우느니 명예롭게 패배를 받아들여라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi100Subtitle",
+  "text": "*네 최후가 다가오고 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi101Subtitle",
+  "text": "*왜 피할 수 없는 운명에 저항하지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi102Subtitle",
+  "text": "*용의 그림자가 네 패배의 시작을 알린다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi103Subtitle",
+  "text": "*패배를 받아들일 때다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi104Subtitle",
+  "text": "*용이 다시 일어설 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi105Subtitle",
+  "text": "*약함을 인정하는 건 부끄러운 일이 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi106Subtitle",
+  "text": "*넌 아직 나와 맞설 준비가 안 됐다. 훈련을 마치고 다시 와라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi107Subtitle",
+  "text": "*왜 스스로 파멸을 향해 달려가지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi108Subtitle",
+  "text": "*흥미로운 대결이었다. 언젠가 다시 도전해 오겠지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi109Subtitle",
+  "text": "*실력을 갈고닦아 다시 도전해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi110Subtitle",
+  "text": "*어서 와라, 장군. 나와 맞설 준비가 됐길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi111Subtitle",
+  "text": "*네 승리들은 네 능력을 잘 보여 주지만, 내 장군들에겐 나 같은 교활함과 경험이 없었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi112Subtitle",
+  "text": "*곧 용과 맞선다는 게 어떤 건지 알게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA001Subtitle",
+  "text": "*대부분의 적은 내 군대를 보기만 해도 도망쳤을 거다. 결국 이 싸움도 해 볼 만하겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA002Subtitle",
+  "text": "*내 병력이 바람처럼 너를 덮친다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA003Subtitle",
+  "text": "*네 병사들은 내 전사들 앞에서 양 떼와 같다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA004Subtitle",
+  "text": "*네가 가져온 이 멋진 장난감들 좀 봐라. 어릴 때 내 장난감은 전부 부쉈지, 장군. 이제 네 것을 부술 차례다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA005Subtitle",
+  "text": "*네 병력이 내 칼 앞의 밀처럼 쓰러진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA006Subtitle",
+  "text": "*내 장군들을 상대로는 잘했지만, 나는 그들의 힘을 전부 합쳐 가졌다. 그걸 상대로 어쩔 텐가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA007Subtitle",
+  "text": "*내 병력을 보지도 못할 거다, 장군... 너무 늦을 때까지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA008Subtitle",
+  "text": "*우리 땅에서 널 쓸어버리겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA009Subtitle",
+  "text": "*이제 네 쓸모없는 침공이 가져온 결과를 보게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA010Subtitle",
+  "text": "*감히 나에게 도전했으니 -- 이제 끔찍한 대가를 거두게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA011Subtitle",
+  "text": "*기병들이 문 앞까지 달려오는데 기분이 어떤가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA012Subtitle",
+  "text": "*후퇴할 기회는 있었다. 이제 널 섬멸하겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA013Subtitle",
+  "text": "*내 의지의 힘을 똑똑히 봐라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA014Subtitle",
+  "text": "*내 분노가 네 전쟁 기계를 가루로 찢어 버릴 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA015Subtitle",
+  "text": "*독소... 폭약... 은폐... 그중 하나는 이겼겠지만 셋 모두를? 다 끝났다, 장군. 항복해라... 네 부하들을 위해서"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA016Subtitle",
+  "text": "*네 세상은 널 나약하게 만들었다, 장군. 내 세상은 날 강하게 만들었지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA017Subtitle",
+  "text": "*내 힘을 존중하는 법을 배우게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA018Subtitle",
+  "text": "*다음 공격을 준비하는 동안 쉬어라. 그다음 전투는 다시 시작된다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA019Subtitle",
+  "text": "*내 방어선 앞에서 죽는 것도 지겹지 않나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA020Subtitle",
+  "text": "*전장이 조용하군, 장군. 내가 끝내 주길 기다리는 건가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA021Subtitle",
+  "text": "*너의 다음 한심한 공격을 무척 기대하며 기다리지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA022Subtitle",
+  "text": "*이게 네 힘의 전부인가, 장군? 정말 한심하군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA023Subtitle",
+  "text": "*네 공격은 휘몰아치는 폭풍 속 한심한 비명 같았다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA024Subtitle",
+  "text": "*이 전투가 지루해지기 시작하는군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA025Subtitle",
+  "text": "*얼마나 더 살려 둬야 하나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA026Subtitle",
+  "text": "*장군, 내 백성들이 날 기다린다... 언제까지 광대처럼 촐랑대며 돌아다닐 셈이지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA027Subtitle",
+  "text": "*장군, 네 전술을 보니 체스를 배우는 아이가 떠오르는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA028Subtitle",
+  "text": "*다 끝났나, 장군? 한심한 자원은 다 써 버렸나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA029Subtitle",
+  "text": "*장군, 몇 분 전부터 지루했는데 -- 이젠 졸리기 시작한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA030Subtitle",
+  "text": "*진정한 군사 천재에게 도전하는 기분이 어떤가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA031Subtitle",
+  "text": "*네가 얻는 건 전부 내가 파괴하겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA032Subtitle",
+  "text": "*이제 네 병영이 무너졌다 -- 곧 모든 것이 무너질 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA033Subtitle",
+  "text": "*네 군수 공장은 끝났다 -- 다시 지어라, 또 부숴 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA034Subtitle",
+  "text": "*네 비행장은 내가 치워 줬다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA035Subtitle",
+  "text": "*네 기지 방어로는 내 병력을 막을 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA036Subtitle",
+  "text": "* 장군, 사령부 하나도 지키지 못하면서 어떻게 날 이기겠다는 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA037Subtitle",
+  "text": "*그렇게 많은 건물이 무너졌는데, 장군 -- 전장에서 물러나 더 이상의 망신은 피하는 게 어떤가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA038Subtitle",
+  "text": "*내 유정을 더 부숴서 내 인내심을 시험하지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA039Subtitle",
+  "text": "*감히 내 병영을 부숴, 장군?!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA040Subtitle",
+  "text": "*장군, 내 사업에는 무기상이 필요하다. 더는 부수지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA041Subtitle",
+  "text": "*내 방어를 짓밟을 수 있다고 생각하나, 장군? 그 자리에 더 많은 것이 솟아날 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA042Subtitle",
+  "text": "*이게 네가 부수는 마지막 건물이다, 장군. 내 인내심에도 한계가 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA043Subtitle",
+  "text": "*내 사령부! 날 지하로 몰아넣었지만 아직 끝나지 않았다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA044Subtitle",
+  "text": "*내 기계를 많이도 부쉈군, 장군. 내가 널 과소평가했나 보군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA045Subtitle",
+  "text": "*내 병사들은 네 연습용 과녁이 아니다, 장군. 그들의 피가 네 손에 묻어 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA046Subtitle",
+  "text": "*내 유정을 놓아라. 아니면 불태워 버리겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA047Subtitle",
+  "text": "*저 버려진 포병 플랫폼을 차지했군. 작동시키는 데 행운을 빈다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA048Subtitle",
+  "text": "*저 정유 공장으로 전세가 네게 유리해지진 않는다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA049Subtitle",
+  "text": "*건방진 바보! 내 집 깊숙이 너무 멀리 들어왔다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA050Subtitle",
+  "text": "*넌 쏘아 대는 벌레 같다, 장군. 이제 그 성가신 존재를 짓뭉갤 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA051Subtitle",
+  "text": "*적이 우리 앞에 있다! 놈을 파괴하라! 모조리 파괴하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA052Subtitle",
+  "text": "*바보! 선을 넘었다! 네 병력은 끝장이다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA053Subtitle",
+  "text": "*아, 측면 공격이라... 조잡하지만 적어도 전략이긴 하군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA054Subtitle",
+  "text": "*내 뒷문을 노리는 건가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA055Subtitle",
+  "text": "*정면 공격? 병력을 더 데려왔어야지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA056Subtitle",
+  "text": "*내 여분의 보급품을 찾았군... 강조하지만, 내 여분이다. 당장 두고 떠나라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA057Subtitle",
+  "text": "*그 길로 내 기지에 접근하면 죽음뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA058Subtitle",
+  "text": "*저 마을에서 떨어져라, 장군. 나는 내 보살핌 아래 있는 자들을 지킨다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA059Subtitle",
+  "text": "*그 자원은 내 백성을 위한 것이다, 장군. 네가 가져갈 것이 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA060Subtitle",
+  "text": "*그 건물들은 네가 쓰라고 있는 게 아니다, 장군. 내 기반 시설을 흔들지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA061Subtitle",
+  "text": "*식욕이 자원을 넘어섰군, 장군. 우리가 네 기지에 닿기 전에 전력을 되살리길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA062Subtitle",
+  "text": "*우리 땅은 전력 없이도 산다... 네 기지가 그것 없이 못 돌아가서 안됐군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA063Subtitle",
+  "text": "*돈이 떨어졌나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA064Subtitle",
+  "text": "*장군, 넌 내 자원을 축내고 있다. 네 작은 전쟁 때문에 내 백성이 굶게 생겼다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA065Subtitle",
+  "text": "*스커드 스톰?! 우리 기술을 훔쳤구나! 대가를 치르게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA066Subtitle",
+  "text": "*핵무기를 만드는 건가, 장군? 그런 비겁한 짓을 할 줄 알았다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA067Subtitle",
+  "text": "*입자 캐논? 우주에서 쏘는 광선은 땅속의 우리에게 닿지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA068Subtitle",
+  "text": "*기지 방어가 이렇게나 많다니. 정말 내 힘이 두려운 모양이군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA069Subtitle",
+  "text": "*전차가 대체 몇 대나 필요한가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA070Subtitle",
+  "text": "*하늘을 성가신 날벌레로 채우는군. 이제 우리가 탁탁 쳐서 떨어뜨리겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA071Subtitle",
+  "text": "*원하는 만큼 병사를 훈련시켜라, 장군. 하지만 목숨은 매분 더 많이 잃게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA072Subtitle",
+  "text": "*네 기지가 커졌군, 장군... 너무 커졌는지도"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA073Subtitle",
+  "text": "*독소를 퍼부어 봐라, 장군. 우리는 훨씬 나쁜 것에도 대비했다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA074Subtitle",
+  "text": "*모두 지하로! 놈들의 핵미사일이 온다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA075Subtitle",
+  "text": "*그래, 입자 광선을 써 봐라 -- 세상에 네 비겁함을 보여 줘라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA076Subtitle",
+  "text": "*건물에 주둔해라, 장군 -- 벽 속의 쥐처럼 숨어 있어라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA077Subtitle",
+  "text": "*버튼 대령은 널 구하지 못한다, 장군. 이 전쟁은 네가 직접 싸워야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA078Subtitle",
+  "text": "*아, 아름다운 블랙 로투스. 나와 함께하자, 로투스. 여왕처럼 살 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA079Subtitle",
+  "text": "*자르멘 켈? 감히 나에게 맞서? 내 복수는 무척... 불쾌할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA080Subtitle",
+  "text": "*네 비행장은 내 공격을 버티지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA081Subtitle",
+  "text": "*드디어 군수 공장을 지었군, 장군? 왜 이리 오래 걸렸나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA082Subtitle",
+  "text": "*네 한심한 병영은 아무 쓸모도 없을 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA083Subtitle",
+  "text": "*군대 자금을 대려고 건물을 팔아 치우나? 별로 논리적이지 않군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA084Subtitle",
+  "text": "*말도 안 돼! 네가 날 이길 수는 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA085Subtitle",
+  "text": "*네가 우위에 섰다고 생각할지 몰라도, 이 전투는 바람처럼 뒤바뀔 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA086Subtitle",
+  "text": "*지금은 네 병사가 더 많을지 몰라도, 전투는 숫자만으로 이기는 게 아니다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA087Subtitle",
+  "text": "*이런 멍청한 바보에게 지다니 믿을 수 없다. 이 수치는 영원히 날 따라다닐 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA088Subtitle",
+  "text": "*바보에게 패하다니... 이 굴욕은 견딜 수 없다... 제발 고통 속에 혼자 있게 해 다오"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA089Subtitle",
+  "text": "*장군, 네 기지에서 풍기는 두려움과 절망의 악취가 여기까지 난다"
+ }
+]

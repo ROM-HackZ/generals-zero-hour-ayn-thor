@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeneralsZH</string>
+    <string name="common_cancel">إلغاء</string>
+
+    <!-- SetupActivity: title / fallback -->
+    <string name="setup_window_title">إعدادات GeneralsZH</string>
+    <string name="setup_title">Command &amp; Conquer Generals: Zero Hour</string>
+    <string name="setup_subtitle">إعدادات أندرويد</string>
+    <string name="setup_fallback_warning">فشل تحميل واجهة الإعدادات العادية (%1$s). يتم عرض واجهة بديلة بسيطة حتى تتمكن من الوصول إلى السجلات/مجلد اللعبة.</string>
+
+    <!-- SetupActivity: Game Folder card -->
+    <string name="setup_card_game_folder">مجلد اللعبة</string>
+    <string name="setup_button_select_game_folder">اختيار مجلد اللعبة</string>
+    <string name="setup_button_launch_game">تشغيل اللعبة</string>
+    <string name="setup_button_view_logs">عرض السجلات</string>
+    <string name="setup_button_clear_game_folder">إعادة تعيين مجلد اللعبة</string>
+
+    <!-- SetupActivity: status text -->
+    <string name="setup_status_folder_not_set">مجلد اللعبة: غير محدد.\n</string>
+    <string name="setup_status_folder_line">مجلد اللعبة: %1$s\n</string>
+    <string name="setup_status_folder_valid">الحالة: يبدو صحيحًا (تم العثور على ملفات أرشيف اللعبة).\n</string>
+    <string name="setup_status_folder_invalid">الحالة: هذا المجلد لا يحتوي على INIZH.big / INI.big المتوقعة — تحقق من أنك اخترت المجلد الصحيح.\n</string>
+    <string name="setup_status_folder_incomplete">الحالة: تم العثور على أرشيفات اللعبة، لكن المجموعة غير مكتملة:\n%1$s\n</string>
+    <string name="setup_dialog_folder_problem_title">مشكلة في مجلد اللعبة</string>
+    <string name="setup_folder_issue_empty_file">%1$s فارغ (0 بايت)</string>
+    <string name="setup_folder_issue_bad_header">%1$s لا يبدو أرشيف لعبة صالحًا</string>
+    <string name="setup_folder_issue_missing_data">%1$s ينقصه بيانات لعبة متوقعة — على الأرجح نسخة غير مكتملة</string>
+    <string name="setup_folder_issue_no_base_game">بيانات لعبة Generals الأساسية مفقودة:%1$s\n\nأو حدّد المجلد الذي يحتوي عليها بالفعل — زر «مجلد لعبة Generals الأساسية…» بالأسفل (عادةً ZH_Generals أو Command and Conquer Generals).</string>
+    <string name="setup_status_logs_note">سجلات الأعطال/المحرك مخزنة في التخزين الخاص بالتطبيق ولا يمكن الوصول إليها إلا عبر \"عرض السجلات\" أعلاه — يقوم أندرويد بإخفائها عمدًا عن مديري الملفات العاديين (هذا هو العزل المعتاد في أندرويد، وليس خاصية مميزة لهذا التطبيق).</string>
+
+    <!-- SetupActivity: Language card -->
+    <string name="setup_card_language">اللغة</string>
+    <string name="setup_language_help">يغيّر لغة تطبيق الإعدادات هذا وعارض السجلات ومتصفّح المجلدات. نصوص اللعبة نفسها إعداد منفصل بالأسفل — اخترها من اللغات الموجودة فعلاً في مجلد اللعبة، أو نزّل واحدة. «افتراضي النظام» يتبع لغة الهاتف، ويعود إلى الإنجليزية إن لم تكن ضمن القائمة.</string>
+    <string name="setup_language_status">اللغة: %1$s</string>
+    <string name="setup_button_change_language">تغيير اللغة</string>
+    <string name="setup_language_dialog_title">اختر لغة</string>
+    <string name="setup_language_system_default">افتراضي النظام</string>
+    <string name="setup_language_game_status_default">نص اللعبة: لا يتأثر بهذا الإعداد (يُستخدم لغة اللعبة الخاصة بها من registry.ini، أو الإنجليزية افتراضيًا).</string>
+    <string name="setup_language_game_status_override">نص اللعبة: تم تبديله أيضًا (تم العثور على data/%1$s/generals.csf في مجلد اللعبة).</string>
+    <string name="setup_language_game_status_missing">نص اللعبة: لم يتم تبديله — لا يوجد data/%1$s/generals.csf في مجلد اللعبة، لذا تحتفظ اللعبة بلغتها الخاصة.</string>
+
+    <!-- SetupActivity: Menu Text Size card -->
+    <string name="setup_card_text_size">حجم نص القائمة</string>
+    <string name="setup_text_size_label">المقياس: %1$d%%</string>
+    <string name="setup_button_apply_text_size">تطبيق حجم نص القائمة</string>
+    <string name="setup_text_size_help">يُكبّر أو يُصغّر نص معظم أزرار/تسميات القائمة حسب دقة الشاشة. القيمة الافتراضية للعبة هي 70؛ القيم الأعلى تجعل نص القائمة أكبر. يسري المفعول عند تشغيل اللعبة في المرة القادمة، وليس فورًا.</string>
+    <string name="setup_toast_text_size_saved">تم الحفظ. سيسري المفعول في المرة القادمة التي تشغّل فيها اللعبة.</string>
+
+    <!-- SetupActivity: Render Backend card -->
+    <string name="setup_card_render_backend">خلفية الرسومات</string>
+    <string name="setup_card_sim_rate">معدل المحاكاة</string>
+    <string name="setup_sim_rate_30_short">30 Hz</string>
+    <string name="setup_sim_rate_60_short">60 Hz</string>
+    <string name="setup_sim_rate_30_desc">‏30 هرتز هو ما استخدمته كل الإصدارات السابقة من هذا النقل. مباريات أندرويد ضد أندرويد تعمل به، لكن مباراة ضد لاعب على ويندوز ستفقد التزامن.</string>
+    <string name="setup_sim_rate_60_desc">‏60 هرتز هو ما يستخدمه عميل GeneralsOnline على ويندوز، وهو ما يجعل اللعب المشترك ممكنًا. يضاعف ذلك عمل المحاكاة في الثانية، لذا قد لا يبلغ جهاز أبطأ السرعة الكاملة.</string>
+    <string name="setup_sim_rate_help">يُثبَّت المعدل عند بناء المحرك، لذا يحمل التطبيق النسختين معًا ويحمّل ما تختاره هنا. يسري التغيير عند تشغيل اللعبة في المرة القادمة. يجب أن يستخدم اللاعبان في المباراة المعدل نفسه.</string>
+    <string name="setup_toast_sim_rate_saved">تم حفظ معدل المحاكاة. سيسري عند تشغيل اللعبة في المرة القادمة.</string>
+    <string name="online_crossplay_hz_title">تم تبديل معدل المحاكاة إلى 60 هرتز</string>
+    <string name="online_crossplay_hz_message">يحاكي عميل ويندوز بمعدل 60 هرتز، ولا يستطيع عميل بمعدل 30 هرتز مجاراته، لذا بدّل اللعب المشترك هذا الجهاز إلى 60 هرتز. يسري ذلك عند تشغيل اللعبة في المرة القادمة.\n\nهذا يضاعف عمل المحاكاة في الثانية. إن صارت اللعبة بطيئة، أوقف اللعب المشترك أو أعد المعدل إلى 30 هرتز من «الرسوميات» — لكنك عندها لن تلعب إلا مع لاعبي أندرويد الآخرين على 30 هرتز.</string>
+    <string name="online_crossplay_hz_30">معدل المحاكاة: 30 هرتز — لا يمكنه الحفاظ على التزامن مع حاسوب</string>
+    <string name="online_crossplay_hz_60">معدل المحاكاة: 60 هرتز — مطابق لعميل الحاسوب</string>
+    <string name="setup_render_backend_help">واجهة الرسوميات التي تستخدمها اللعبة. تسري عند التشغيل التالي للعبة، لا فورًا.\n\nOpenGL ES (الافتراضي): مُصيِّر أصلي كُتب لهذا النقل. هو الافتراضي لأنه يعمل على كل جهاز جُرّب حتى الآن، بما في ذلك الأجهزة التي يرسم فيها Vulkan رسوميات تالفة. ابدأ من هنا ولا تغيّره إلا لسبب.\n\nOpenGL ES + ANGLE: المُصيِّر نفسه، لكن عبر ANGLE من Google الذي يترجمه إلى Vulkan بدلًا من مشغّل GLES الخاص بهاتفك. ANGLE مضمّن داخل هذا التطبيق، فلا يحتاج إصدار أندرويد أدنى ولا أي إعداد في النظام. غالبًا أسرع بعد التشغيل، غير أن قائمة تحتوي عناصر كثيرة (خيارات المناوشة) قد تتلعثم عند فتحها أول مرة بينما يترجم ANGLE ما يحتاجه؛ ولا يتكرر ذلك حتى تخرج وتفتح تلك القائمة من جديد.\n\nVulkan: الواجهة الخلفية الأصلية، عبر ترجمة DXVK من Direct3D 8 إلى Vulkan. أسرع من غيرها على الهواتف التي يتعامل مشغّلها معها جيدًا، وغالبًا Snapdragon الحديثة. لكنها تعتمد كليًا على ذلك المشغّل، وعلى بعض المعالجات الرسومية تنتج بقعًا أرجوانية وهندسة مشوّهة وقوائم تالفة لا يصلحها أي إعداد هنا \u2014 وقد أُبلغ عن PowerVR BXM وSamsung Xclipse. إن بدا Vulkan خاطئًا على جهازك، فالخيار الافتراضي موجود لهذا بالضبط.\n\nقسما «مشغّل Vulkan مخصص» و«إعدادات DXVK» يظهران فقط عند اختيار Vulkan.</string>
+    <string name="setup_render_backend_gpu">معالجك الرسومي: %1$s</string>
+    <string name="setup_render_backend_status">الحالي: %1$s</string>
+    <string name="setup_button_change_render_backend">تغيير خلفية الرسومات</string>
+    <string name="setup_render_backend_dialog_title">اختر خلفية الرسومات</string>
+    <string name="setup_render_backend_vulkan">Vulkan</string>
+    <string name="setup_render_backend_gles">OpenGL ES (الافتراضي)</string>
+    <string name="setup_render_backend_gles_angle">OpenGL ES + ANGLE</string>
+    <string name="setup_toast_render_backend_saved">تم الحفظ. سيسري المفعول في المرة القادمة التي تشغّل فيها اللعبة.</string>
+    <string name="setup_toast_render_backend_failed">تعذّر حفظ اختيار خلفية الرسومات: %1$s</string>
+
+    <!-- SetupActivity: Custom Vulkan Driver card -->
+    <string name="setup_card_vulkan_driver">برنامج تشغيل Vulkan مخصص (متقدم، لمعالجات Adreno فقط)</string>
+    <string name="setup_button_import_driver">استيراد برنامج التشغيل (.zip)</string>
+    <string name="setup_button_reset_driver">إعادة التعيين إلى الموصى به</string>
+    <string name="setup_driver_help">يقوم بتحميل برنامج تشغيل Vulkan (نسخة مبنية من Mesa Turnip) بدلاً من برنامج التشغيل المدمج في هاتفك، وهي نفس التقنية التي يستخدمها Winlator و AetherSX2. أصبح DXVK نفسه يحتاج الآن فقط إلى Vulkan 1.1، لكن بعض برامج التشغيل الأصلية القديمة لهواتف Qualcomm Adreno تُبلّغ عن إصدار أقل من ذلك (أو بها أخطاء أخرى) — قد تتيح نسخة Turnip هذه لتلك الهواتف تشغيل اللعبة رغم ذلك. على هاتف Adreno مناسب، يتم تطبيق هذا تلقائيًا — يعيد \"إعادة التعيين إلى الموصى به\" هذا الاختيار التلقائي بعد أن تكون قد استوردت شيئًا آخر.\n\nهذا لا يساعد معالجات Mali أو PowerVR أو أي معالج آخر غير Adreno — لكنها لا تحتاج إلى ذلك أصلاً: معظم معالجات Mali (مثل Mali-G76 وMali-G57 وما شابهها) تلبي بالفعل متطلب Vulkan 1.1 الخاص بـ DXVK بشكل أصلي، دون الحاجة لاستبدال برنامج التشغيل. هذا الخيار مقتصر على Adreno لأن Turnip يستهدف فقط عتاد Adreno، وليس لأن المعالجات الأخرى غير مدعومة.\n\nيتيح لك \"استيراد برنامج التشغيل\" استبدال الاختيار التلقائي بملف .zip خاص بك بتنسيق adrenotools (على سبيل المثال من K11MCH1/AdrenoToolsDrivers أو The412Banner/Banners-Turnip على GitHub). يسري المفعول عند التشغيل القادم، وليس فورًا.</string>
+    <string name="setup_driver_status_none">لا يوجد برنامج تشغيل مخصص نشط — يتم استخدام برنامج تشغيل Vulkan المدمج في الهاتف.</string>
+    <string name="setup_driver_status_auto">برنامج التشغيل الموصى به (اختير تلقائيًا لهذا الجهاز): %1$s</string>
+    <string name="setup_driver_status_manual">برنامج تشغيل مخصص (مستورد يدويًا): %1$s</string>
+    <string name="setup_driver_unknown">(غير معروف)</string>
+    <string name="setup_toast_no_file_picker">لا يوجد أداة اختيار ملفات متاحة: %1$s</string>
+    <string name="setup_toast_reset_auto">تمت إعادة التعيين. تم تطبيق برنامج التشغيل الموصى به لهذا الجهاز مرة أخرى.</string>
+    <string name="setup_toast_reset_stock">تمت إعادة التعيين. سيتم استخدام برنامج تشغيل Vulkan المدمج في الهاتف.</string>
+    <string name="setup_toast_driver_import_no_tmp">تعذر إنشاء مجلد العمل لاستيراد برنامج التشغيل</string>
+    <string name="setup_toast_driver_import_failed">فشل الاستيراد: %1$s</string>
+    <string name="setup_toast_driver_import_no_meta">فشل الاستيراد: لم يتم العثور على meta.json داخل ملف .zip (ليست حزمة برنامج تشغيل adrenotools صالحة)</string>
+    <string name="setup_toast_driver_import_bad_meta">فشل الاستيراد: ملف meta.json غير صالح (%1$s)</string>
+    <string name="setup_toast_driver_import_no_finalize">فشل الاستيراد: تعذر إنهاء مجلد برنامج التشغيل</string>
+    <string name="setup_toast_driver_config_failed">تعذر حفظ إعدادات برنامج التشغيل: %1$s</string>
+    <string name="setup_toast_driver_imported">تم استيراد برنامج التشغيل: %1$s. سيسري المفعول عند التشغيل القادم.</string>
+
+    <!-- SetupActivity: Diagnostics card -->
+    <string name="setup_card_diagnostics">التشخيص</string>
+    <string name="setup_diagnostics_help">تعمل هذه المفاتيح على تفعيل تسجيل إضافي لتقارير الأخطاء — اتركها كلها مغلقة أثناء اللعب العادي، فقد تبطئ اللعبة أو تنتج سجلات كبيرة جدًا. إذا طلب منك المُبلّغ عن مشكلة تفعيل أحدها، فعّله، أعد إنتاج المشكلة، ثم استخدم "عرض السجلات" أعلاه لإرسال النتيجة.</string>
+    <string name="setup_diagnostics_no_folder">اختر مجلد اللعبة أولاً (أعلاه) لاستخدام هذه المفاتيح</string>
+    <string name="setup_switch_gx_trace">سجل تتبع مفصّل</string>
+    <string name="setup_switch_gx_trace_desc">تسجيل داخلي مفصّل جدًا (الواجهة، الخطوط، ملفات INI) لتتبع تجمّد أو خلل معيّن. قد ينمو السجل إلى حجم كبير جدًا (50-100+ ميجابايت) خلال جلسة طويلة — استخدم "ملخص الأداء" بدلاً من ذلك إذا كنت تحتاج فقط إلى أرقام معدل الإطارات. (gx_trace.txt)</string>
+    <string name="setup_switch_touch_debug">عرض تشخيص اللمس</string>
+    <string name="setup_switch_touch_debug_desc">يرسم حالة طبقة اللمس فوق اللعبة: الإيماءة الحالية، وموضع إصبعك، والموضع الذي يعتقد المحرك أن المؤشر فيه، ونقطة ارتكاز تمرير الكاميرا. فعّل هذا للإبلاغ عن مشكلات التحكم — خريطة تتحرك من تلقاء نفسها، أو مبنى شبحي في المكان الخطأ، أو قدرة تستهدف مكانًا لم تلمسه. (gx_touch_debug.txt)</string>
+    <string name="setup_switch_gx_perf">ملخص الأداء</string>
+    <string name="setup_switch_gx_perf_desc">يضيف سطرًا قصيرًا كل ثانية يوضح أين يُصرف وقت الإطار (الرادار، الصوت، الشبكة، منطق اللعبة، العرض). آمن تركه مفعّلاً طوال جلسة اللعب — فعّله لتقارير معدل الإطارات/التباطؤ. (gx_perf.txt)</string>
+    <string name="setup_switch_gx_audio_trace">سجل الصوت</string>
+    <string name="setup_switch_gx_audio_trace_desc">يسجل ما يقوم به نظام الصوت: مستوى مخازن الموسيقى والحوار، وصوت المقاطع السينمائية، وكل مصدر يبدأ أو يتوقف. فعّل هذا إذا طُلب منك سجل صوت بعد الإبلاغ عن صوت مفقود أو متقطع أو صامت. ‎(gx_audio_trace.txt)</string>
+    <string name="setup_button_download_langpack">تنزيل حزمة اللغة</string>
+    <string name="setup_langpack_downloading">جارٍ تنزيل حزمة اللغة…</string>
+    <string name="setup_langpack_done">تم تثبيت حزمة اللغة. ستستخدمها اللعبة عند التشغيل التالي.</string>
+    <string name="setup_langpack_done_n">تم تثبيت %1$d حزمة لغة: %2$s. اختر واحدة بالأسفل.</string>
+    <string name="setup_langpack_failed">تعذّر تنزيل حزمة اللغة: %1$s</string>
+    <string name="setup_langpack_not_available">لا توجد حزمة نصوص للعبة بلغة المشغّل هذه.</string>
+    <string name="setup_langpack_no_folder">اختر مجلد اللعبة أولاً.</string>
+    <string name="setup_langpack_err_none_yet">لا توجد حزمة لهذه اللغة بعد. الترجمات مرحّب بها — راجع languages/README.md في مستودع المشروع.</string>
+    <string name="setup_langpack_err_mkdir">تعذّر إنشاء مجلد اللغة داخل مجلد اللعبة</string>
+    <string name="setup_langpack_err_empty">الملف الذي تم تنزيله فارغ</string>
+    <string name="setup_langpack_err_replace">تعذّر استبدال الملف الموجود</string>
+    <string name="setup_button_game_text_language">لغة نصوص اللعبة</string>
+    <string name="setup_game_text_dialog_title">لغة نصوص اللعبة</string>
+    <string name="setup_game_text_default">افتراضي (الأولوية لملف ‎.big)</string>
+    <string name="setup_game_text_status">نصوص اللعبة: %1$s</string>
+    <string name="setup_game_text_status_default">نصوص اللعبة: الإنجليزية — ما لم يستبدلها ملف ‎.big في مجلد اللعبة</string>
+    <string name="setup_game_text_none_found">لا توجد حزم لغة في مجلد اللعبة بعد. نزّل واحدة أولاً.</string>
+    <string name="setup_langpack_dialog_title">أي لغة؟</string>
+    <string name="setup_switch_dxvk_hud">طبقة أداء على الشاشة</string>
+    <string name="setup_switch_dxvk_hud_desc">يعرض معدل الإطارات وعدد أوامر الرسم والإرسالات وعدد خطوط الأنابيب مباشرة على الشاشة وفي السجل. فعّله لتقارير أداء وحدة معالجة الرسومات. (dxvk_hud.txt)</string>
+    <string name="setup_switch_dxvk_validation">طبقة التحقق من Vulkan</string>
+    <string name="setup_switch_dxvk_validation_desc">يتحقق من صحة كل استدعاء رسومي — يكتشف أخطاء رسم حقيقية لكنه يبطئ اللعبة بشكل ملحوظ. فعّله فقط عند الطلب لإعادة إنتاج عطل أو خلل معيّن، وليس للعب العادي. (dxvk_validation.txt)</string>
+    <string name="setup_switch_dxvk_verbose_log">سجل تفصيلي لمحرك الرسوميات</string>
+    <string name="setup_switch_dxvk_verbose_log_desc">يضيف تفاصيل إضافية عند بدء التشغيل حول كيفية تواصل اللعبة مع تعريف وحدة معالجة الرسومات لديك (تنسيق العرض الدقيق والإعدادات المتفاوض عليها). فعّله عند الطلب لتتبع خلل رسومي خاص بجهازك. (dxvk_verbose_log.txt)</string>
+
+    <!-- SetupActivity: Online Multiplayer card -->
+    <string name="setup_card_online">اللعب الجماعي عبر الإنترنت</string>
+    <string name="setup_button_online_account">حساب GeneralsOnline</string>
+    <string name="setup_online_signed_in">تم تسجيل الدخول باسم %1$s.</string>
+    <string name="setup_online_signed_out">لم يتم تسجيل الدخول — مطلوب لمباريات الإنترنت.</string>
+
+    <!-- SetupActivity: How this works card -->
+    <string name="setup_card_how_it_works">كيف يعمل هذا</string>
+    <string name="setup_how_it_works_body">1. يفتح \"اختيار مجلد اللعبة\" متصفح مجلدات في تخزين هاتفك. انتقل إلى المكان الذي نسخت فيه تثبيت Command &amp; Conquer Generals Zero Hour الخاص بك (المجلد الذي يحتوي على INIZH.big وData\\ وZH_Generals\\ وغيرها) واضغط على \"استخدام هذا المجلد\".\n\n2. إذا بدت القائمة فارغة، فإن أندرويد يطلب أولًا إذن \"الوصول إلى إدارة جميع الملفات\" — امنحه في الشاشة التي تفتح (هذا إذن عادي في أندرويد، لا يتطلب صلاحيات الروت).\n\n3. يعرض \"عرض السجلات\" سجل المحرك، وإذا تعطلت اللعبة، سجل عطل أصلي — دون الحاجة إلى حاسوب أو adb. استخدم زر المشاركة هناك لإرسال السجل إلى نفسك.\n\n4. يبدأ \"تشغيل اللعبة\" اللعبة باستخدام المجلد الذي اخترته.</string>
+
+    <!-- SetupActivity: folder selection / misc toasts -->
+    <string name="setup_toast_grant_all_files">امنح إذن \"السماح بالوصول لإدارة جميع الملفات\" في الشاشة التالية، ثم عد واضغط على اختيار مجلد اللعبة مرة أخرى.</string>
+    <string name="setup_toast_folder_saved">تم حفظ مجلد اللعبة.</string>
+    <string name="setup_toast_folder_saved_invalid">تم الحفظ، لكن لم يتم العثور على INIZH.big/INI.big هناك — تحقق من المجلد.</string>
+    <string name="setup_toast_folder_saved_incomplete">تم الحفظ، لكن بعض ملفات اللعبة تبدو غير مكتملة أو تالفة — راجع التفاصيل في الشاشة الرئيسية قبل التشغيل.</string>
+    <string name="setup_toast_marker_save_failed">تعذر حفظ علامة المجلد: %1$s</string>
+    <string name="setup_toast_folder_cleared">تمت إعادة التعيين. ستستخدم اللعبة مجلدها الافتراضي.</string>
+    <string name="setup_toast_options_dir_failed">تعذر إنشاء مجلد لملف Options.ini</string>
+    <string name="setup_toast_options_save_failed">تعذر حفظ Options.ini: %1$s</string>
+
+    <!-- FolderPickerActivity -->
+    <string name="folderpicker_title">اختيار مجلد اللعبة</string>
+    <string name="folderpicker_up_entry">⬆️  .. (للأعلى)</string>
+    <string name="folderpicker_button_use">استخدام هذا المجلد</string>
+    <string name="folderpicker_hint_valid">✓ يحتوي هذا المجلد على INIZH.big/INI.big — يبدو صحيحًا.</string>
+    <string name="folderpicker_hint_invalid">انتقل إلى مجلد اللعبة، ثم اضغط على \"استخدام هذا المجلد\".</string>
+    <string name="folderpicker_toast_cant_read">تعذر قراءة هذا المجلد. إذا بدت القوائم فارغة في كل مكان، امنح أولًا إذن \"الوصول إلى جميع الملفات\" من شاشة الإعدادات.</string>
+    <string name="folderpicker_toast_cant_read_legacy">تعذّرت قراءة هذا المجلد. على Android 9–10، امنح التطبيق إذن التخزين (الإعدادات ← التطبيقات ← GeneralsZH ← الأذونات ← التخزين) ثم حاول مرة أخرى.</string>
+
+    <!-- LogViewerActivity -->
+    <string name="logviewer_title">السجلات</string>
+    <string name="logviewer_button_clear">مسح السجلات</string>
+    <string name="logviewer_button_copy">نسخ</string>
+    <string name="logviewer_button_share">مشاركة</string>
+    <string name="logviewer_toast_copied">تم النسخ إلى الحافظة.</string>
+    <string name="logviewer_section_crash_log">=== crash.log (معالج الأعطال الأصلي، التخزين الداخلي) ===\n</string>
+    <string name="logviewer_crash_log_absent">(غير موجود — لم يُسجَّل أي عطل أصلي منذ التثبيت، أو أن التطبيق لم يُشغَّل قط بعد تحميل المكتبة)</string>
+    <string name="logviewer_section_stderr_log">=== generals-stderr.log (سجل المحرك، التخزين الخارجي) ===\n</string>
+    <string name="logviewer_stderr_log_absent">(غير موجود — لم يبدأ main() الخاص بالمحرك بعد، أو أن التخزين الخارجي غير متاح)</string>
+    <string name="logviewer_section_prev_log">=== generals-stderr-prev.log (الجلسة السابقة) ===\n</string>
+    <string name="logviewer_prev_log_absent">(غير موجود)</string>
+    <string name="logviewer_dialog_clear_title">مسح السجلات</string>
+    <string name="logviewer_dialog_clear_message">هل تريد حذف ملف سجل الأعطال وملفات سجل المحرك؟ لا يمكن التراجع عن هذا.</string>
+    <string name="logviewer_dialog_clear_confirm">مسح</string>
+    <string name="logviewer_dialog_clear_cancel">إلغاء</string>
+    <string name="logviewer_toast_cleared">تم مسح السجلات.</string>
+    <string name="logviewer_share_subject">سجل GeneralsZH Android</string>
+    <string name="logviewer_share_chooser_title">مشاركة السجل</string>
+    <string name="logviewer_toast_share_failed">تعذر تجهيز ملف السجل للمشاركة: %1$s</string>
+    <string name="logviewer_read_failed">(تعذرت قراءة %1$s: %2$s)</string>
+
+    <!-- GeneralsOnlineActivity -->
+    <string name="online_window_title">حساب GeneralsOnline</string>
+    <string name="online_subtitle">سجّل الدخول للعب الجماعي عبر الإنترنت (playgenerals.online)</string>
+    <string name="online_button_sign_out">تسجيل الخروج</string>
+    <string name="online_card_sign_in">تسجيل الدخول</string>
+    <string name="online_signin_help">اضغط على "تسجيل الدخول". قد تطلب منك الضغطة الأولى استثناء هذا التطبيق من تحسين البطارية — اسمح بذلك، ثم عد واضغط على "تسجيل الدخول" مرة أخرى. سيفتح بعد ذلك متصفح على playgenerals.online يحمل بالفعل رمزًا لمرة واحدة لهذا الجهاز. اختر هناك Steam أو Discord أو GameReplays، ثم عد فقط إلى هذا التطبيق؛ ستنتهي العملية من تلقاء نفسها.</string>
+    <string name="online_button_sign_in">تسجيل الدخول</string>
+    <string name="online_status_signing_in">جارٍ تسجيل الدخول...</string>
+    <string name="online_status_battery_opt">اسمح لتطبيق GeneralsZH بالعمل في الخلفية في الشاشة التالية، ثم عد واضغط على "تسجيل الدخول" مرة أخرى — وإلا فقد يوقف أندرويد عملية التحقق من تسجيل الدخول أثناء وجودك في المتصفح.</string>
+    <string name="online_toast_no_browser">لا يوجد متصفح متاح: %1$s</string>
+    <string name="online_status_continue_browser">تابع في متصفحك — عد إلى هنا بمجرد تسجيل الدخول.</string>
+    <string name="online_status_network_error">خطأ في الشبكة — تحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="online_toast_signed_in_as">تم تسجيل الدخول باسم %1$s</string>
+    <string name="online_status_signin_failed">فشل تسجيل الدخول أو تم إلغاؤه — اضغط على "تسجيل الدخول" للمحاولة مرة أخرى.</string>
+    <string name="online_status_timed_out">انتهت مهلة الانتظار — اضغط على "تسجيل الدخول" للمحاولة مرة أخرى.</string>
+    <string name="online_status_unexpected">استجابة غير متوقعة — اضغط على "تسجيل الدخول" للمحاولة مرة أخرى.</string>
+    <string name="online_toast_signed_out">تم تسجيل الخروج.</string>
+    <string name="online_status_signed_in_as">تم تسجيل الدخول باسم %1$s.</string>
+    <string name="online_status_not_signed_in">لم يتم تسجيل الدخول.</string>
+    <string name="setup_button_select_base_generals">مجلد لعبة Generals الأساسية…</string>
+    <string name="setup_button_clear_base_generals">مسح مجلد اللعبة الأساسية</string>
+    <string name="setup_toast_base_generals_saved">مجلد لعبة Generals الأساسية: %1$s</string>
+    <string name="setup_toast_base_generals_cleared">تم مسح مجلد اللعبة الأساسية</string>
+    <string name="setup_base_generals_not_here">لا توجد أرشيفات لعبة Generals الأساسية في %1$s — اختر المجلد الذي يحتوي على Terrain.big وTextures.big وW3D.big.</string>
+    <string name="setup_status_base_generals_line">Generals الأساسية: %1$s\n</string>
+    <string name="logviewer_crash_prev_log_absent">(غير موجود)</string>
+    <string name="logviewer_elided_notice">\n...(تم حذف %1$d حرفًا هنا؛ بداية الجلسة أعلاه وأحدث المخرجات أدناه محفوظة)...\n\n</string>
+    <string name="logviewer_section_crash_prev_log">=== crash-prev.log (معالج الأعطال الأصلي، الجلسة السابقة) ===\n</string>
+    <string name="logviewer_toast_share_none">لا توجد ملفات سجل لمشاركتها بعد.</string>
+    <string name="setup_button_dxvk_config_reset">إعادة للافتراضي</string>
+    <string name="setup_button_dxvk_config_save">حفظ</string>
+    <string name="setup_card_dxvk_config">إعدادات DXVK (dxvk.conf، متقدم)</string>
+    <string name="setup_dxvk_config_help">يحرّر dxvk.conf مباشرة، وهو الملف نفسه الذي يقرأه المحرك عند الإقلاع — لا حاجة لإعادة بناء، ويسري مفعوله في التشغيل التالي. إعدادات مفيدة إذا كانت اللعبة بطيئة على جهازك:\n\nd3d9.samplerAnisotropy = 2 (أو 0 للتعطيل) — أقل من الافتراضي 16 لتقليل حمل المعالج الرسومي على الأجهزة الأضعف.\ndxvk.hud = fps,drawcalls,submissions,pipelines — يعرض طبقة أداء صغيرة على الشاشة.\ndxvk.logLevel = none — أبقِ هذا كما هو ما لم يُطلب منك تغييره؛ المستويات الأكثر تفصيلاً تبطئ اللعبة.\n\nسطر واحد بصيغة «key = value». يتجاهل DXVK أي سطر غير صالح، لذا لن يعطّل الخطأ المطبعي اللعبة — في أسوأ الحالات لن يكون لتغييرك أي أثر.</string>
+    <string name="setup_dxvk_config_no_folder">اختر مجلد اللعبة أولاً (بالأعلى)</string>
+    <string name="setup_toast_dxvk_config_no_default">لم يُعثر على ملف dxvk.conf افتراضي مضمّن في هذه النسخة.</string>
+    <string name="setup_toast_dxvk_config_reset">تمت الإعادة إلى dxvk.conf الافتراضي.</string>
+    <string name="setup_toast_dxvk_config_saved">تم الحفظ. سيسري المفعول عند تشغيل اللعبة في المرة القادمة.</string>
+    <string name="setup_toast_storage_permission_denied">يلزم إذن التخزين لتصفح مجلد اللعبة. اضغط «اختيار مجلد اللعبة» مرة أخرى للمحاولة.</string>
+
+    <!-- Launcher bottom navigation + short render-backend names -->
+    <string name="nav_tab_home">الرئيسية</string>
+    <string name="nav_tab_graphics">الرسوميات</string>
+    <string name="nav_tab_interface">الواجهة</string>
+    <string name="nav_tab_tools">الأدوات</string>
+    <string name="nav_tab_help">المساعدة</string>
+    <string name="setup_render_backend_gles_short">GLES</string>
+    <string name="setup_render_backend_gles_angle_short">ANGLE</string>
+    <string name="setup_render_backend_vulkan_short">Vulkan</string>
+    <string name="setup_switch_gx_net_trace">سجل شبكة اللعب عبر الإنترنت</string>
+    <string name="setup_switch_gx_net_trace_desc">يسجّل كل طلب ترسله اللعبة إلى خوادم GeneralsOnline والرد الذي يصلها. فعّل هذا إذا كان تسجيل الدخول أو الردهة أو المطابقة يفشل داخل اللعبة نفسها. طلبات المشغّل تُسجَّل دائمًا، وهذا يضيف طلبات اللعبة. كما يُفعّل تشخيص عدم التزامن في اللعب عبر المنصات: مجاميع التحقّق للمحاكاة التي تُقارن في كل فترة، وفي إعادة العرض مجموع التحقّق لكل كائن على حدة. (gx_net_trace.txt)</string>
+    <string name="netdiag_title">تشخيص الشبكة</string>
+    <string name="netdiag_row_note">تحقّق مما إذا كان هذا الجهاز يصل إلى خوادم GeneralsOnline، واجمع تقريرًا لإرفاقه ببلاغ عن خلل.</string>
+    <string name="netdiag_intro">يفحص بالترتيب: هل توجد شبكة تعمل، وهل تُترجَم أسماء خوادم GeneralsOnline، وهل تستجيب الخوادم، وماذا تقول عن تسجيل الدخول.\n\nلا يُرسَل أي شيء إلى أي جهة. اضغط «تشغيل» للبدء.</string>
+    <string name="netdiag_running">جارٍ التشغيل…</string>
+    <string name="netdiag_running_step">جارٍ التشغيل… (%1$s)</string>
+    <string name="netdiag_button_run">تشغيل التشخيص</string>
+    <string name="netdiag_button_share">مشاركة التقرير</string>
+    <string name="netdiag_button_copy">نسخ</string>
+    <string name="netdiag_toast_copied">تم نسخ التقرير إلى الحافظة.</string>
+    <string name="netdiag_toast_share_failed">تعذّرت مشاركة التقرير: %1$s</string>
+    <string name="netdiag_share_subject">سجل شبكة GeneralsZH</string>
+    <string name="online_status_banned">هذا الحساب محظور على GeneralsOnline. يمكنك تقديم اعتراض عبر Discord الخاص بهم.</string>
+    <string name="online_status_banned_reason">هذا الحساب محظور على GeneralsOnline: %1$s</string>
+    <string name="online_status_requesting_code">جارٍ طلب رمز تسجيل الدخول من الخادم…</string>
+    <string name="online_status_no_login_code">لم يُصدر الخادم رمز تسجيل دخول. تحقّق من الاتصال وحاول مجددًا، أو شغّل تشخيص الشبكة من الأدوات.</string>
+    <string name="online_card_datapacks">بيانات اللعب عبر الإنترنت</string>
+    <string name="online_datapacks_help">يحتاج اللعب عبر الإنترنت إلى شيئين لا تتضمنهما اللعبة: حزمة بيانات المجتمع التي يتوقف عليها قبول مباراة الحاسوب لهذا الجهاز، وخرائط المجتمع التي تُلعب عليها تلك المباريات. يجري تنزيلهما هنا مباشرةً من GeneralsOnline، دون الحاجة إلى حاسوب.</string>
+    <string name="online_button_datapacks_update">تحديث</string>
+    <string name="online_datapacks_checking">جارٍ البحث عن تحديثات…</string>
+    <string name="online_datapacks_downloading">جارٍ التنزيل… %1$d%%</string>
+    <string name="online_datapacks_installing">جارٍ التثبيت…</string>
+    <string name="online_datapacks_done">تم التحديث إلى %1$s. تم تثبيت %2$d ملفاً.</string>
+    <string name="online_datapacks_failed">فشل التحديث: %1$s</string>
+    <string name="online_datapacks_installed">مثبّت: الإصدار %1$s</string>
+    <string name="online_datapacks_not_installed">غير مثبّت بعد.</string>
+    <string name="online_button_datapacks_delete">حذف</string>
+    <string name="online_switch_datapacks">استخدام حزمة بيانات المجتمع</string>
+    <string name="online_switch_datapacks_desc">الإيقاف يُبقي الملفات المنزَّلة لكن اللعبة تعود إلى قراءة بيانات النسخة الأصلية، فترفض مباريات الحاسوب هذا الجهاز. يسري عند تشغيل اللعبة في المرة القادمة.</string>
+    <string name="online_switch_datapacks_mods">استخدام الرقعة مع التعديلات أيضًا</string>
+    <string name="online_switch_datapacks_mods_desc">افتراضيًا لا تُحمَّل الرقعة إذا كان في مجلد اللعبة تعديل يغيّر بيانات اللعبة (مثل Contra): ستختلط ملفاتهما. فعّله فقط لتعديل مصنوع لرقعة GeneralsOnline.</string>
+    <string name="online_datapacks_mod_found_skipped">عُثر على تعديل: %1$s. لا تُستخدم رقعة المجتمع معه.</string>
+    <string name="online_datapacks_mod_found_forced">عُثر على تعديل: %1$s. تُستخدم رقعة المجتمع معه.</string>
+    <string name="online_datapacks_mod_none">لا يوجد في مجلد اللعبة تعديل يغيّر بيانات اللعبة.</string>
+    <string name="online_datapacks_chip_sign_in_first">سجّل الدخول أولاً</string>
+    <string name="online_datapacks_chip_required">مطلوب للعب عبر الإنترنت — اضغط «تحديث»</string>
+    <string name="online_datapacks_chip_off">منزَّل لكنه متوقف</string>
+    <string name="online_datapacks_chip_ready">جاهز للعب عبر الإنترنت</string>
+    <string name="online_datapacks_prompt">سترفض المباريات المستضافة من حاسوب هذا الجهاز ما دامت حزمة بيانات المجتمع غير مثبّتة، وهي تُلعب على خرائط المجتمع. أتريد تنزيلهما الآن؟ نحو 30 ميغابايت.</string>
+    <string name="online_datapacks_prompt_later">لاحقاً</string>
+    <string name="online_datapacks_delete_confirm">يحذف ملفات هذا التنزيل فقط. خرائطك وملفات حفظك لا تُمَس.</string>
+    <string name="online_datapacks_deleted">تم حذف %1$d ملفاً.</string>
+    <string name="online_datapacks_delete_no_record">لا شيء لحذفه: لا يوجد سجل تثبيت من هذا المشغّل.</string>
+    <string name="online_datapacks_switch_failed">تعذّر تغيير الإعداد. تحقق من إمكانية الكتابة في مجلد البيانات.</string>
+    <string name="online_card_crossplay">اللعب عبر المنصات</string>
+    <string name="online_crossplay_help">المباريات التي يستضيفها عميل ويندوز ترفض هذا الجهاز عادةً: فهما برنامجان مختلفان ولا يمكن لمجموعَي تحقّق EXE أن يتطابقا أبدًا.</string>
+    <string name="online_crossplay_patch_found">حزمة بيانات المجتمع مثبّتة</string>
+    <string name="online_crossplay_patch_missing">حزمة بيانات المجتمع مفقودة — اضغط «تحديث»</string>
+    <string name="online_switch_crossplay">اللعب مع لاعبي الحاسوب</string>
+    <string name="online_switch_crossplay_desc">يُبلغ عن مجموع تحقّق EXE الخاص بعميل ويندوز كي تقبلك مبارياته. هذا المجموع ليس مضادًا للغش: وظيفته منع جهازين يحسبان المباراة بطريقتين مختلفتين من اللعب معًا، لذا قد يُفسد ذلك المباراة على الجميع في الردهة. فعّله لحاسوب تملكه، وبعد نسخ بيانات INI منه إلى مجلد اللعبة هذا فقط.</string>
+    <string name="replaycheck_title">فحص الإعادة</string>
+    <string name="replaycheck_row_note">شغّل إعادة من الحاسوب على هذا الإصدار دون مشاهدتها، أو انتقل إلى إطار معيّن، واعرف أين تفترق مجاميع التحقق.</string>
+    <string name="replaycheck_refresh">تحديث</string>
+    <string name="replaycheck_last_result">آخر نتيجة</string>
+    <string name="replaycheck_no_result">لم يتم تشغيل أي فحص بعد.</string>
+    <string name="replaycheck_result_match">%1$s: مطابقة للتسجيل في جميع نقاط التحقق الـ %2$s من %3$s (%4$s إطار، %5$s ث).</string>
+    <string name="replaycheck_result_mismatch">%1$s: أول عدم تطابق عند الإطار %2$s، وآخر تطابق عند %3$s. تطابقت %4$s من %5$s نقاط تحقق (%6$s إطار، %7$s ث). أرسل السجلات.</string>
+    <string name="replaycheck_mode">الوضع</string>
+    <string name="replaycheck_mode_run">تشغيل كامل</string>
+    <string name="replaycheck_mode_watch">المشاهدة من إطار</string>
+    <string name="replaycheck_mode_help">تشغيل كامل: تُحاكى الإعادة بأسرع ما يسمح به الهاتف، وتتوقف بعد أول عدم تطابق بقليل أو عند النهاية، وتعود إلى هنا مع النتيجة. المشاهدة من إطار: تقديم سريع حتى الإطار ثم تشغيل عادي.</string>
+    <string name="replaycheck_frame_label">الإطار</string>
+    <string name="replaycheck_pick">الإعادات (المس للبدء)</string>
+    <string name="replaycheck_none">لا توجد ملفات ‎.rep في %1$s</string>
+    <string name="replaycheck_no_game_folder">اختر مجلد اللعبة في المشغّل أولاً.</string>
+    <string name="replaycheck_need_frame">أدخل الإطار المراد التقديم إليه.</string>
+    <string name="replaycheck_trace_enabled">تم تشغيل تتبّع الشبكة للفحص.</string>
+    <string name="replaycheck_trace_failed">تعذّر تشغيل تتبّع الشبكة؛ لن يتضمن السجل تفاصيل مجاميع التحقق.</string>
+    <string name="replaycheck_crc_every_frame">مجموع التحقق لكل إطار</string>
+    <string name="replaycheck_crc_every_frame_help">يكتب أيضاً في السجل مجموع تحقق المنطق لكل إطار. يُستخدم لبناء نسخة من الإعادة يفحصها عميل الحاسوب إطاراً بإطار. أبطأ.</string>
+    <string name="setup_online_anticheat_note">لا يحتوي العميل على الهاتف على مانع غش. للعب معًا يجب على لاعب الحاسوب إيقاف مانع الغش (GeneralsOnline AntiCheat أو Easy Anti-Cheat) في مشغّل GeneralsOnline: لا يمكن الانضمام من الهاتف إلى ردهة بمانع غش مختلف، والعكس كذلك.</string>
+    <string name="setup_switch_logging">جمع السجلات</string>
+    <string name="setup_switch_logging_desc">تسجيل سجلات اللعبة والأعطال والشبكة على الجهاز. أوقفه كي لا يُحفظ شيء في الخلفية حتى تعيد تشغيله. مطلوب للإبلاغ عن الأخطاء.</string>
+    <string name="setup_card_updates">التحديثات</string>
+    <string name="setup_updates_help">تصل إصدارات المحرك الأحدث مباشرةً من GitHub المشروع دون إعادة تثبيت APK. كل تحديث موقّع، ويُتجاهل كل ما ليس له توقيع صحيح. إعدادات الشبكة وبيانات اللعب عبر الإنترنت موجودة في حساب GeneralsOnline.</string>
+    <string name="setup_updates_status">المحرك: %1$s · آخر فحص: %2$s</string>
+    <string name="setup_updates_engine_bundled">مدمج، إصدار %1$d</string>
+    <string name="setup_updates_engine_updated">محدَّث، إصدار %1$d</string>
+    <string name="setup_updates_never">لم يحدث بعد</string>
+    <string name="setup_button_check_updates">البحث عن تحديثات</string>
+    <string name="setup_switch_auto_updates">التحقق تلقائيًا</string>
+    <string name="setup_switch_auto_updates_desc">عند فتح المشغّل.</string>
+    <string name="setup_updates_checking">جارٍ البحث عن تحديثات…</string>
+    <string name="setup_updates_none">كل شيء محدَّث.</string>
+    <string name="setup_updates_engine_ready">تم تنزيل محرك أحدث (إصدار %1$d). سيُستخدم عند تشغيل اللعبة في المرة القادمة.</string>
+    <string name="setup_updates_engine_needs_apk">المحرك الأحدث (إصدار %1$d) يحتاج إلى APK جديد. نزّله من صفحة المشروع.</string>
+    <string name="setup_updates_failed">تعذّر البحث عن تحديثات: %1$s</string>
+    <string name="setup_updates_not_published">لم يُنشر أي تحديث بعد.</string>
+    <string name="setup_updates_offline">لا يوجد اتصال بالإنترنت. يعمل المشغّل واللعبة دون اتصال، وسيتم البحث عن التحديثات في المرة القادمة.</string>
+    <string name="setup_updates_datapack_installed">تم تحديث رقعة بيانات المجتمع إلى الإصدار %1$s.</string>
+    <string name="setup_updates_datapack_available">صدر إصدار جديد من بيانات اللعب عبر الشبكة (%1$s). حدّثه من حساب GeneralsOnline ← بيانات اللعب عبر الإنترنت.</string>
+    <string name="setup_updates_datapack_line_new">صدر إصدار جديد من بيانات اللعب عبر الشبكة: %1$s.</string>
+    <string name="setup_button_open_online_data">تحديث بيانات الشبكة</string>
+    <string name="online_datapacks_update_available">المثبت: الإصدار %1$s. صدر إصدار جديد: %2$s.</string>
+    <string name="online_datapacks_update_for_crc">المثبت: الإصدار %1$s. حدّث مرة واحدة ليحسب هذا الجهاز منه المجموع الاختباري لعميل الحاسوب.</string>
+    <string name="online_datapacks_up_to_date">المثبت: الإصدار %1$s، وهو الأحدث.</string>
+    <string name="online_network_settings">إعدادات الشبكة (الخوادم، التوافق مع الحاسوب): بتاريخ %1$s، تُحدَّث تلقائيًا من GitHub المشروع وموقّعة.</string>
+    <string name="online_network_settings_builtin">إعدادات الشبكة (الخوادم، التوافق مع الحاسوب): مدمجة في هذا الإصدار؛ ستصل الأحدث تلقائيًا من GitHub المشروع.</string>
+    <string name="online_datapacks_chip_update">يتوفر تحديث</string>
+    <string name="setup_card_upscale">رفع الدقة (Snapdragon GSR)</string>
+    <string name="setup_upscale_off_short">إيقاف</string>
+    <string name="setup_upscale_ultra_short">فائق</string>
+    <string name="setup_upscale_quality_short">الجودة</string>
+    <string name="setup_upscale_balanced_short">متوازن</string>
+    <string name="setup_upscale_performance_short">الأداء</string>
+    <string name="setup_upscale_ultra">جودة فائقة</string>
+    <string name="setup_upscale_quality">الجودة</string>
+    <string name="setup_upscale_balanced">متوازن</string>
+    <string name="setup_upscale_performance">الأداء</string>
+    <string name="setup_upscale_status_off">متوقف: العرض بالدقة الكاملة %1$d×%2$d</string>
+    <string name="setup_upscale_status">%1$s: يُعرض الـ3D بدقة %2$d×%3$d ويُرفع إلى %4$d×%5$d</string>
+    <string name="setup_upscale_help">تُرسم ساحة المعركة بدقة أقل ثم تكبّرها Snapdragon GSR بوضوح إلى ملء الشاشة: إطارات أكثر وتبقى الواجهة واضحة. لـ GLES و ANGLE فقط. يسري عند التشغيل التالي.</string>
+    <string name="setup_toast_render_scale_saved">تم الحفظ. يسري عند تشغيل اللعبة في المرة القادمة.</string>
+    <string name="setup_card_interface_scale">حجم الواجهة</string>
+    <string name="setup_interface_scale_label">%1$d%%</string>
+    <string name="setup_button_apply_interface_scale">تطبيق حجم الواجهة</string>
+    <string name="setup_interface_scale_help">يكبّر واجهة اللعبة دون تعديل ملفاتها: يكبر شريط التحكم مع الرادار صعودًا من الحافة السفلية، وتكبر قدرات الجنرال والدردشة ورسائل الأحداث وقائمة اللاعبين وقائمة اللعب مع الحفظ/التحميل والخيارات وأزرار القائمة الرئيسية من أماكنها. لا يخرج شيء من الشاشة: يكبر كل جزء بقدر ما يتسع فقط، لذا على الهاتف العريض يصبح شريط التحكم أطول بدلًا من أعرض، وتصبح ساحة المعركة فوقه أقصر. يعمل مع حجم نص القائمة. يسري عند تشغيل اللعبة في المرة القادمة.</string>
+</resources>

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA090Subtitle",
+  "text": "* 네 최후의 시간이 다가오는 게 느껴진다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA091Subtitle",
+  "text": "*네 병력이 무너지기 시작했다, 장군. 곧 내 포로가 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA092Subtitle",
+  "text": "*우리는 다친 염소를 차듯 널 걷어차고 있다, 장군. 패배를 인정하고 고통을 면해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA093Subtitle",
+  "text": "*넌 졌다. 나에게 맞서는 자는 모두 이렇게 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA094Subtitle",
+  "text": "*나에게 도전하다니 어리석군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA095Subtitle",
+  "text": "*GLA의 모든 힘이 내 뜻대로 움직인다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA096Subtitle",
+  "text": "*나는 내 세 장군을 합친 것보다 위험하다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA097Subtitle",
+  "text": "*네가 이겼다, 장군. 왜 이 통계를 들여다보며 날 계속 괴롭히지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA098Subtitle",
+  "text": "*그래, 이제 네가 왜 졌는지 알겠지... 숫자가 모든 걸 말해 준다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA099Subtitle",
+  "text": "*넌 먼 길을 오며 수많은 적과 싸워 나에게 이르렀다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA100Subtitle",
+  "text": "*네 노력은 칭찬하지만, 그 노력은 네가 곧 맞설 상대에 대해 전혀 대비시켜 주지 못했다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA101Subtitle",
+  "text": "*스랙스 박사의 독소 전사들, 카사드의 스텔스 군단, 주지즈의 폭파병을 상대했겠지만, 그들에게 전쟁을 가르친 건 나다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA102Subtitle",
+  "text": "*이게 네 마지막 전투다, 장군. 네가 기도하는 신이 누구든 자비를 베풀길... 난 베풀지 않을 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA103Subtitle",
+  "text": "*이게 네 마지막 전투다, 장군. 마음을 정리하고 최후를 준비해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA001Subtitle",
+  "text": "*어, 거기 있었군. 이제 도망치기엔 늦었다, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA002Subtitle",
+  "text": "*준비됐길 바란다, 우리가 잡으러 가니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA003Subtitle",
+  "text": "*식탁 차려라, 꼬마. 저녁 먹으러 간다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA004Subtitle",
+  "text": "*세 가지를 가르쳐 주마, 꼬마. 지는 법, 우는 법, 그리고 죽는 법"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA005Subtitle",
+  "text": "*곧 공격하러 간다. 백기나 전부 꺼내 둬라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA006Subtitle",
+  "text": "*간다, 꼬마... 바지에 지리지 않게 조심하고, 알았지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA007Subtitle",
+  "text": "*\"죽어\"라는 말의 어느 부분을 못 알아들었나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA008Subtitle",
+  "text": "*오, 이제 제대로 혼나겠군, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA009Subtitle",
+  "text": "*준비됐나? 학교에서 배웠을지도 모르는 전술이 간다. 학교로 돌아갈 준비됐나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA010Subtitle",
+  "text": "*이제 내 손등 맛을 좀 가르쳐 줄 때가 됐군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA011Subtitle",
+  "text": "*기회 있을 때 도망쳤어야지. 이제 존경이 뭔지 가르쳐 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA012Subtitle",
+  "text": "*그래서, 네 장례식은... 관을 열어 둘까 닫을까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA013Subtitle",
+  "text": "*네 기지로 쳐들어가서 엉덩이를 걷어차 주마, <sarcastic> \"장군\"."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA014Subtitle",
+  "text": "*간다, 애송이 -- 비켜라, 안 그러면 밟힌다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA015Subtitle",
+  "text": "*자칭 \"장군\"이라고? 난 널 골칫거리라고 부르지, 딱 그거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA016Subtitle",
+  "text": "*이게 네 전략이라고? 전술이라고? \"전차 떼거리\"가 네 최선이야? 한심하다... 정말 한심해"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA017Subtitle",
+  "text": "*그래, 나도 손자병법 읽었다, 이 친구야. \"적이 많으면 물러나고, 적이 적으면 공격하라.\" 그게 다야?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA018Subtitle",
+  "text": "*그래서 네 군대는 어디 있나, 꼬마? 아니면 맨주먹으로 붙자는 건가? 원하면 맨손으로 때려눕혀 주지. 한번 해 볼래, 꼬마?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA019Subtitle",
+  "text": "*이것 때문에 날 침대에서 끌어냈나? 당장 무릎에 엎어 놓고 볼기를 쳐야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA020Subtitle",
+  "text": "*내 훈장이 네 이빨보다 많다, 꼬마... 내가 네 이빨을 다 뽑아 주고 나면 더 볼품없겠지만"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA021Subtitle",
+  "text": "*기지 방어를 전부 정면에 뒀나? 우리가 그걸 못 돌아갈 것 같아? 그래?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA022Subtitle",
+  "text": "*꼬마, 내가 장난하는 것 같나? 다시 생각해 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA023Subtitle",
+  "text": "*측면 좀 확인해 봐라, 친구. 내 병사 몇이 방금 네 기지로 몰래 들어간 것 같은데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA024Subtitle",
+  "text": "*이게 게임인 줄 아나? 그래? 잠깐, 대답하지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA025Subtitle",
+  "text": "*꼬마, 누가 군사 전술을 가르쳤나? 응? 가서 그놈 입을 한 대 갈겨 줘야겠다, 진짜로"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA026Subtitle",
+  "text": "*내 뒤엔 미군 전체가 있다, 얘야. 그리고 방금 우린 널 싫어하기로 했지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA027Subtitle",
+  "text": "*네 전술은 내가 모르는 무슨 농담이라도 되나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA028Subtitle",
+  "text": "*너 진짜 장군은 아니지? 보건복지부 장관 같은 거지, 맞지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA029Subtitle",
+  "text": "*엄마는 너 혼자 나온 거 아시니?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA030Subtitle",
+  "text": "*말해 봐... 여긴 장군들끼리니까. 네 부하들은 네가 무능한 거 알고 있나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA031Subtitle",
+  "text": "*방금 기술 건물 하나 잃은 거 알고 있나, 친구?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA032Subtitle",
+  "text": "*방금 네 병영을 날려 버렸다, 꼬맹아. 어쩔 건데?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA033Subtitle",
+  "text": "*네 군수 공장이 날아갔군. 이제 좀 화났냐, 꼬마?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA034Subtitle",
+  "text": "*지키지도 않을 거면서 그 비행장은 왜 지었는지 모르겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA035Subtitle",
+  "text": "*누가 기지 방어를 이렇게 배치했지? 이래서는 아무것도 못 지킨다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA036Subtitle",
+  "text": "*사령부를 하나 더 짓게 해 줘야겠군. 다시 부술 수 있게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA037Subtitle",
+  "text": "*모래성을 걷어차는 기분이군. 건물을 몇 개나 더 부수게 해 줄 거냐, 친구?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA038Subtitle",
+  "text": "*그 기술 건물은 내가 준 거다, 꼬마. 널 이기는 데 필요 없거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA039Subtitle",
+  "text": "*꼬마, 그 병영은 군사 목표가 아니었다. 또 그러면 험한 꼴 볼 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA040Subtitle",
+  "text": "*물러서는 게 좋을 거다, 얘야 -- 내 군수 공장을 날리는 꼴은 못 본다, 알겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA041Subtitle",
+  "text": "*그 제트기들이 얼마짜린지 아나? 방금 네가 부순 걸로 온 세상을 먹여 살릴 수 있었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA042Subtitle",
+  "text": "*내 방어를 뚫는다, 이거지? 그래, 계속해 봐 -- 그 사이 네 기지를 짓밟을 시간을 벌 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA043Subtitle",
+  "text": "*건물은 그만하면 됐다, 얘야. 이제 내 병력이나 공격해 보지 그래"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA044Subtitle",
+  "text": "*내 사령부?! 내가 가만히 앉아서 당할 줄 알았나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA045Subtitle",
+  "text": "*내 조종사들은 건드리지 마라, 꼬마. 비행기는 그렇다 쳐도 조종사는 무사히 돌려보내라, 알겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA046Subtitle",
+  "text": "*교활한 녀석이군, 그렇지? 하지만 내 차량은 이 정도면 충분히 부쉈다고 생각하지 않나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA047Subtitle",
+  "text": "*장갑과 항공 지원을 보내라 -- 보병들이 찢기고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA048Subtitle",
+  "text": "*그 유정 놔둬라, 꼬마. 이 전쟁은 기름값 때문에 하는 게 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA049Subtitle",
+  "text": "*그 포병 플랫폼 쓸 줄은 아나, 얘야?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA050Subtitle",
+  "text": "*그 정유 공장은 적절한 목표가 아니다, 얘야. 게다가 네 것도 아니니 되찾으러 간다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA051Subtitle",
+  "text": "*호오, 맵 내 쪽까지 왔군. 그럴 배짱이 있는 줄 몰랐다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA052Subtitle",
+  "text": "*공격할 거냐, 아니면 종일 거기 서 있을 거냐?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA053Subtitle",
+  "text": "*몸조심하고 싶으면 내 기지에서 나가라, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA054Subtitle",
+  "text": "*적이 방어선 안에 들어왔다 -- 전 병력 침입자를 격퇴하라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA055Subtitle",
+  "text": "*그건 네 보급품이 아니다, 친구. 다치기 전에 물러서라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA056Subtitle",
+  "text": "*측면 공격?! 웃기지 마라, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA057Subtitle",
+  "text": "*내 뒷문으로 공격하겠다고? 행운을 빈다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA058Subtitle",
+  "text": "*날 공격하러 오는 거냐, 꼬마? 배짱은 있어서 보기 좋군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA059Subtitle",
+  "text": "*몸조심하고 싶으면 내 기술 건물에서 떨어져라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA060Subtitle",
+  "text": "*내 병력이 네 기지를 시야에 넣었다, 꼬마. 이제 어쩔 거냐?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA061Subtitle",
+  "text": "*망치가 간다, 애송이. 못이 되고 싶진 않겠지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA062Subtitle",
+  "text": "*똑똑, 들어간다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA063Subtitle",
+  "text": "*이제 상황이 아주 나빠질 거다, 친구. 경고 안 했다고 하지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA064Subtitle",
+  "text": "*여기에 자원을 숨겨 뒀군. 좀 가져가도 되겠지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA065Subtitle",
+  "text": "*네 측면이 활짝 열렸다, 친구"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA066Subtitle",
+  "text": "*뒷문으로 들어가 볼까. 어떻게 생각하냐?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA067Subtitle",
+  "text": "*조심해라, 정문으로 들이닥친다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA068Subtitle",
+  "text": "*이게 뭔가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA069Subtitle",
+  "text": "*이것 좀 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA070Subtitle",
+  "text": "*전력도 없이 뭘 하려고 했지? 그 전략 정말 궁금하군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA071Subtitle",
+  "text": "*전기세 좀 내라, 안 그러면 이 싸움을 연기해야겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA072Subtitle",
+  "text": "*자원이 떨어졌다고? 꼬마, 계산도 못 하면서 춤판에 끼지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA073Subtitle",
+  "text": "*어이쿠, 적자 지출 좀 해야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA074Subtitle",
+  "text": "*스커드 스톰을 지었냐? 스커드로는 헛간 벽도 못 맞힌다, 몰랐냐?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA075Subtitle",
+  "text": "*핵을 꺼내 드는군? 워싱턴이 내 손을 묶지만 않았어도 진짜 핵이 뭔지 보여 줬을 텐데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA076Subtitle",
+  "text": "*입자 캐논은 어디서 났냐, 얘야? 그건 일급비밀이어야 하는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA077Subtitle",
+  "text": "*기지 방어가 이렇게 많다니. 네 두려움이 여기까지 풍긴다, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA078Subtitle",
+  "text": "*오, 이것 봐라... \"전차 떼거리\" 납신다. 나한텐 안 통해, 얘야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA079Subtitle",
+  "text": "*비싼 비행기를 잔뜩 띄우는군, 꼬마. 정말 그 돈을 쓰고 싶냐?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA080Subtitle",
+  "text": "*저 보병들이 네가 어디로 끌고 가는지 알고 있길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA081Subtitle",
+  "text": "*건물이 많구나, 얘야. 건물이 대신 싸워 주지 않는다는 건 알지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA082Subtitle",
+  "text": "*스커드나 가져와라, 애송이 -- 폭풍이 뭔지 보여 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA083Subtitle",
+  "text": "*날 핵으로 친 걸 후회하게 될 거다, 꼬마. 난 그런 거 곱게 안 넘긴다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA084Subtitle",
+  "text": "*입자 광선을 쓰는군? 그걸로 날 끝장내는 게 좋을 거다. 내 반격은 마음에 안 들 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA085Subtitle",
+  "text": "*알잖아, 건물 안에서 싸우는 건 겁쟁이뿐이다. 알고 있지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA086Subtitle",
+  "text": "*어서 오게, 버튼 대령. 이런 일에 휘말리게 해서 미안하네. 악감정은 없어"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA087Subtitle",
+  "text": "*블랙 로투스가 널 구해 주진 않는다, 꼬마. 내 기지 근처에도 못 온다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA088Subtitle",
+  "text": "*자르멘 켈은 그냥 저격수 하나일 뿐이다, 애송이. 나한텐 저격수가 수십 명 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA089Subtitle",
+  "text": "*그래, 비행장 지어라 -- 새들 좀 띄워 봐라. 날 막을 유일한 방법일지도 모르니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA090Subtitle",
+  "text": "*군수 공장 하나뿐이냐? 날 막으려면 적어도 여섯 개는 있어야 한다, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA091Subtitle",
+  "text": "*그 병영 전선에 좀 가깝지 않냐, 꼬마? 총알이 날아다니는 막사에선 잠이 안 올 텐데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA092Subtitle",
+  "text": "*건물 하나만 팔지 말고, 꼬마 -- 전부 팔아라. 그래도 내가 안 찾아가길 빌어라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA093Subtitle",
+  "text": "*건방 떨지 마라, 꼬마 -- 아직 안 끝났다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA094Subtitle",
+  "text": "*네가 우위에 섰다고 생각하겠지만 나한테 아직 수가 몇 개 남았다. 두고 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA095Subtitle",
+  "text": "*이보다 깊은 구덩이에서도 기어 나왔다, 애송이. 그렇게 쉽게 못 이긴다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA096Subtitle",
+  "text": "*네가 날 이기고 있다고? 다시 생각해 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA097Subtitle",
+  "text": "*흠... 끝났군. 잘했다, 꼬마. 콧대를 좀 꺾어 놨군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA098Subtitle",
+  "text": "*내 주먹이 네 목을 조여 오는 게 느껴지냐, 애송이?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA099Subtitle",
+  "text": "*나한테 졌다고 너무 상심하지 마라 -- 다들 나한테 지니까, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA100Subtitle",
+  "text": "*전차 좀 모으게 잠깐만 기다려라. 이 작은 소동을 끝내 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA101Subtitle",
+  "text": "*그냥 지금 포기하지 그래, <sarcastic> \"장군\"."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA102Subtitle",
+  "text": "*꼬마, 헌 북 치듯 두들겨 줬다. 누가 너한테 지휘권을 줬냐? 그놈들한테 할 말이 좀 있는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA103Subtitle",
+  "text": "*진심 아니면 그 버튼 누르지 마라, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA104Subtitle",
+  "text": "*나랑 붙어 보겠다고? 다시 생각해 보는 게 좋을 거다, 꼬마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA105Subtitle",
+  "text": "*감당도 못 할 거면서 여기서 그런 태도 보이지 마라, 애송이"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA106Subtitle",
+  "text": "*실력 좀 보여 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA107Subtitle",
+  "text": "*내 군화나 닦아서 푼돈 좀 벌지 그래. 장군감은 절대 아니니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA108Subtitle",
+  "text": "*잘했다, 장군. 경례를 보낸다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA109Subtitle",
+  "text": "*연설은 안 한다. 그냥 붙어 보자"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo001Subtitle",
+  "text": "*너한테 줄 깜짝 선물이 몇 개 있다, 장군. 나와서 놀지 않겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo002Subtitle",
+  "text": "*이제 들판이 폭약으로 뒤덮였으니 공격해야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo003Subtitle",
+  "text": "*장군, 택배 왔다... 서명해 주겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo004Subtitle",
+  "text": "*조심해라, 자르멘 켈이 언제 네 기지에 숨어들지 누가 알겠나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo005Subtitle",
+  "text": "*방금 네 건물이 터졌나? 흠... 어쩌다 그랬을까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo006Subtitle",
+  "text": "*내 병력은 전부 폭약으로 가득하다, 장군. 나라면 쏘지 않겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo007Subtitle",
+  "text": "*내 테러리스트들이 변장하는 법을 배웠다... 앗, 말이 너무 많았나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo008Subtitle",
+  "text": "*내 폭약이 좀 더 세졌다는 걸 눈치챘을 거다... 품질에 대한 우리의 신경을 알아주길"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo009Subtitle",
+  "text": "*스커드 런처가 이제 건물을 얼마나 빨리 부수는지 봐라... 기다려 봐, 끝내준다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo010Subtitle",
+  "text": "*처음엔 모든 게 조용하다... 그러다 \"쾅!\"... 아... 좋지 않나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo011Subtitle",
+  "text": "*나는 좀처럼 공격하지 않는다. 영광으로 알아라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo012Subtitle",
+  "text": "*또 공격이 간다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo013Subtitle",
+  "text": "*내 병력이 네 기지를 습격하러 간다... 환영해 줘라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo014Subtitle",
+  "text": "*내 일꾼들은 신경 쓰지 마라, 장군. 그냥 날 위해 음... 쓰레기 좀 묻는 중이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo015Subtitle",
+  "text": "*오, 장군, 이것 좀 봐라... 완전 폭탄이다. <childish laugh>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo016Subtitle",
+  "text": "*폭약 더 구하러 나간다, 장군. 금방 돌아오겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo017Subtitle",
+  "text": "*밖이 조용하군, 장군. 조용하면 뭐가 오는지 알지? 쾅!!!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo018Subtitle",
+  "text": "*나는 폭약의 달인이다, 장군. 넌 나를 막을 방법이 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo019Subtitle",
+  "text": "*네 기지는 철거 대상으로 지정됐다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo020Subtitle",
+  "text": "*내 다음 공격이 두렵나, 장군? 두려워해야 할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo021Subtitle",
+  "text": "*지금 이 순간에도 내 요원들이 네 기지에 숨어들어 폭약을 설치하고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo022Subtitle",
+  "text": "*네 건물은 지금 폭발하도록 연결돼 있을지도 모른다. 너무 늦을 때까지 절대 모를 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo023Subtitle",
+  "text": "*내 폭약을 탐지할 수 있는 유닛은 거의 없다... 어떤 건지 아나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo024Subtitle",
+  "text": "*폭파 함정은 만들기 어렵다, 장군. 그 아름다움을 알려면 가까이서 봐야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo025Subtitle",
+  "text": "*지금까지 내 속임수와 함정은 마음에 드나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo026Subtitle",
+  "text": "*아이고... 네 기술 건물이 쾅 했군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo027Subtitle",
+  "text": "*네 병영을 파괴했다... 안에 아무도 없었길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo028Subtitle",
+  "text": "*네 군수 공장이 무너졌다, 장군. 하나 더 지어라, 또 무너뜨리게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo029Subtitle",
+  "text": "*비행장은 너무 약하다 -- 부수는 재미도 거의 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo030Subtitle",
+  "text": "*네 기지 방어는 내 폭약을 견디지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo031Subtitle",
+  "text": "*아, 사령부를 부수는 것만큼 좋은 건 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo032Subtitle",
+  "text": "*우리가 네 건물을 그렇게 많이 부쉈는데, 장군... 우리 재미를 위해 더 지어 줘서 고맙다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo033Subtitle",
+  "text": "*우리 유정을 부쉈군. 이제 좀 분위기를 타는구나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo034Subtitle",
+  "text": "*내 병영! 내 폭파병이 많이 있었다, 장군. 대가를 치르게 해 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo035Subtitle",
+  "text": "*내 군수 공장은 안 돼! 장군, 네가 들인 그 짜증 나는 버릇은 더는 봐줄 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo036Subtitle",
+  "text": "*걱정 마라, 내 기지 방어는 조기 경보일 뿐이다. 이제 진짜 방어를 지나가야 할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo037Subtitle",
+  "text": "*너무 많아! 내 건물을 너무 많이 부쉈다, 장군. 이제 싸움이 지저분해진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo038Subtitle",
+  "text": "*그 사령부는 다시 지을 거다, 장군. 그리고 넌 이 무례의 대가를 치를 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo039Subtitle",
+  "text": "*장군, 내 차량을 자꾸 부수면 내가 어떻게 널 이기지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo040Subtitle",
+  "text": "*폭약을 설치하기도 전에 내 부하들을 쓰러뜨리다니... 그건 좀 아니지 않나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo041Subtitle",
+  "text": "*아, 그래, 그 유정을 차지해라, 장군. 그럼 부술 게 더 늘어나지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo042Subtitle",
+  "text": "*장군, 그 포병 플랫폼은 왜 원하지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo043Subtitle",
+  "text": "*좋다, 장군, 정유 공장을 차지해라... 아주 극적으로 터지거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo044Subtitle",
+  "text": "*조심해라, 장군 -- 네 병사들이 방금 내 기지 주변 위험 지대에 들어왔다. 나도 함정을 어디 다 깔았는지 기억 안 난다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo045Subtitle",
+  "text": "*장군, 네 병사들이 내 기지에 위험할 만큼 가까이 왔다. 나라면 돌아가겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo046Subtitle",
+  "text": "*내 기지에서 나가라, 장군. 이 일대가 전부 폭약으로 연결돼 있고, 난 쓰는 걸 겁내지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo047Subtitle",
+  "text": "*바보! 지금 네 병사들 주변에 폭약이 얼마나 많은지 아나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo048Subtitle",
+  "text": "*측면 공격인가, 장군? 방어는 적을지 몰라도 함정은 어떨까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo049Subtitle",
+  "text": "*내 기지 뒤쪽은 특히 고약하다, 장군. 거기서 공격하는 건 권하지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo050Subtitle",
+  "text": "*정면 공격?! 생각보다 더 바보로군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo051Subtitle",
+  "text": "*이 계곡에서 널 기다리는 건 죽음뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo052Subtitle",
+  "text": "*조심해라, 장군. 매복하기 좋은 곳 같군... 앗, 늦었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo053Subtitle",
+  "text": "*내가 네가 올 줄 몰랐다고 생각하나, 장군? 바보"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo054Subtitle",
+  "text": "*그건 내 자원이다, 장군. 네 것이나 찾아라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo055Subtitle",
+  "text": "*장군, 넌 내 폭약 저장고에 들어왔다. 한 발만 잘못 디뎌도 다 같이 죽는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo056Subtitle",
+  "text": "*아, 네 전선 하나를 맞혔군. 정전이 너무 오래가지 않길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo057Subtitle",
+  "text": "*전기에 의존하는 게 네 파멸이 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo058Subtitle",
+  "text": "*네 자원이 바닥났다, 장군. 내 병력이 사냥감을 노리며 맴돌고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo059Subtitle",
+  "text": "*내 자원이 부족하다, 장군. 네 것 좀 가지러 가도 되겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo060Subtitle",
+  "text": "*스커드 스톰이라... 알겠다... 그럼 나도 하나 지을 때가 됐군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo061Subtitle",
+  "text": "*저 핵미사일 격납고를 부수려면 폭약이 얼마나 필요할까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo062Subtitle",
+  "text": "*왜 입자 캐논을 지으려는 거지? 이제 막 재밌어지려던 참인데, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo063Subtitle",
+  "text": "*기지 방어가 이렇게 많다니, 장군. 내 폭탄병들은 이제 어떻게 네 기지에 들어가라고?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo064Subtitle",
+  "text": "*전차... 전차가 이렇게나. 네 전차들이 내 함정에 걸리는 걸 즐겁게 구경하겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo065Subtitle",
+  "text": "*비행기 그만 만들어라, 장군... 내 함정의 천재성을 놓치게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo066Subtitle",
+  "text": "*보병이 그렇게 많으니 내 폭파 함정을 분명히 건드리겠군. 들판을 건널 때 흩어지라고 해 주고 싶지만, 장군... 아니, 관두지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo067Subtitle",
+  "text": "*건물이 이렇게 많다니... 네 기지는 내 폭약의 완벽한 목표다, 장군. 고맙다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo068Subtitle",
+  "text": "*어리석은 수다, 장군. 네 스커드 스톰으로는 날 못 막는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo069Subtitle",
+  "text": "*핵미사일! 대가를 치르게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo070Subtitle",
+  "text": "*안 돼! 저 입자 광선이 내 폭약을 터뜨린다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo071Subtitle",
+  "text": "*그래, 그 건물에 주둔해라, 장군 -- 아마 폭약은 안 붙어 있을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo072Subtitle",
+  "text": "*안녕하신가, 버튼 대령. 함정 밟지 않게 조심하게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo073Subtitle",
+  "text": "*블랙 로투스... 내 함정을 탐지할 수 있다고 내가 약해진 건 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo074Subtitle",
+  "text": "*왜 나에게 자르멘 켈을 보내는 거지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo075Subtitle",
+  "text": "*비행장 그만 지어라, 장군... 난 그게 싫다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo076Subtitle",
+  "text": "*군수 공장은 차량을 만든다... 내 폭파 함정을 건드릴 차량을"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo077Subtitle",
+  "text": "*병영을 짓는 게 현명하다고 생각하나, 장군?"
+ }
+]

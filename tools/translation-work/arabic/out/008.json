@@ -1,0 +1,802 @@
+[
+ {
+  "label": "SCRIPT:CHI02AudioHolder03",
+  "text": "<تتحدث 'إيفا'>\n'أيها الجنرال، أنت حي؟! ظننا أننا فقدناك حين انهار الجسر. لكنك لم تخرج من دائرة الخطر بعد، فلنبدأ'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder04",
+  "text": "<تتحدث 'إيفا'>\n'أولًا، عليك إكمال قاعدتك. الثكنات والمفاعل ومركز الإمدادات كلها ضرورية لبقائك، فأكمل بناءها فورًا. سأتصل بك مجددًا حين تكتمل قاعدتك'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder05",
+  "text": "<تتحدث 'إيفا'>\n'ممتاز، اكتملت قاعدتك باستثناء مصنع الحرب. يجب أن نؤمّن لك واحدًا الآن. من المفترض أن توجد قاعدة احتياطية فيها مصنع حرب هنا'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder06",
+  "text": "<تتحدث 'إيفا'>\n'لا أعرف حالة تلك القاعدة، لكنها ستتيح لك بناء وحدات مدرعة تساعدك في القتال. اذهب إليها بأسرع ما يمكن أيها الجنرال.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder07",
+  "text": "<تتحدث 'إيفا'>\n'عرفنا الآن سبب قدوم جيش التحرير العالمي إلى هونغ كونغ: إنهم يستهدفون مباني رئيسية في أنحاء المدينة. هدفنا الرئيسي تدمير جميع قواتهم، لكن إن استطعنا أيضًا منعهم من تدمير تلك المباني فسيكون قادتنا ممتنين جدًا.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder08",
+  "text": "<تتحدث 'إيفا'>\n'إن أبقيت الرادار يعمل، يمكنني تعقّب الإرهابيين وتحديد أهدافهم المحتملة لك.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder09",
+  "text": "<تتحدث 'إيفا'>\n'أيها الجنرال، إرهابي يغادر مركز المؤتمرات، ويحمل من المتفجرات ما يكفي لهدم مبنى! سأحدد الإرهابي باللون الأحمر على الرادار، وأهدافه المحتملة باللون الأصفر. أوقفه قبل أن يصل إلى أحدها!'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder10",
+  "text": "<تتحدث 'إيفا'>\n'إرهابي آخر غادر مركز المؤتمرات! سأحدد موقعه باللون الأحمر، وأهدافه المحتملة باللون الأصفر. أوقفه أيها الجنرال.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder11",
+  "text": "<تتحدث 'إيفا'>\n'أيها الجنرال، هذا المبنى هدف للإرهابيين، يجب أن نحميه!'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder12",
+  "text": "<تتحدث 'إيفا'>\n'أيها الجنرال، استولى الإرهابيون على مركز المؤتمرات! عليك تدمير مركز المؤتمرات ومرائب السيارات الملحقة به لإنهاء التهديد الإرهابي.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder13",
+  "text": "<تتحدث 'إيفا'>\n'ممتاز، وصلت إلى القاعدة الاحتياطية. همم، ليست بالمنظر البديع، لكنها ستتيح لك بناء الدبابات ومزيدًا من مصانع الحرب إن احتجت.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder14",
+  "text": "<تتحدث 'إيفا'>\n'انتهى التهديد الإرهابي. أحسنت أيها الجنرال.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder15",
+  "text": "<تتحدث 'إيفا'>\n'أيها الجنرال، رصدت وحدات مدرعة لـجيش التحرير العالمي تتحرك. لم تأتِ من مركز المؤتمرات، إذن لديهم قاعدة أخرى في مكان ما في هونغ كونغ. اعثر على تلك القاعدة ودمّرها!'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder16",
+  "text": "<تتحدث 'إيفا'>\n'أيها الجنرال، أحضر جيش التحرير العالمي معهم جرارات السموم. ستعرفها من السائل الأخضر الذي ترشّه. أبعد مشاتك عنها واستخدم دباباتك للتعامل مع هذا التهديد الجديد.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder17",
+  "text": "<تتحدث 'إيفا'>\n'أحسنت أيها الجنرال، دمّرت قاعدة السموم. لن يتمكنوا الآن من بناء المزيد من جرارات السموم.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder18",
+  "text": "<تتحدث 'إيفا'>\n'انتظر أيها الجنرال، توجد قوة كبيرة أمامك. سأطلب ضربة نبضة كهرومغناطيسية لتطهير المنطقة، استعد.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder19",
+  "text": "<تتحدث 'إيفا'>\n'هذا سيفتح لك طريقًا نحو قاعدتهم. لننهِ الأمر أيها الجنرال.'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder20",
+  "text": "<يتحدث قبطان العبّارة>\n'أخيرًا وصل الجيش! هؤلاء الإرهابيون يخربون تجارتي! إن صعدت قواتك على متن العبّارة فسأوصلكم إلى مركز المؤتمرات. يمكنكم التسلل من الباب الخلفي ومباغتتهم. فقط اضغط زر النقل حين تكون جاهزًا.'"
+ },
+ {
+  "label": "SCRIPT:CHI02Box01",
+  "text": "استخدم جرافة البناء لبناء مركز القيادة\nحين يكتمل مركز القيادة،\nحدّده وابدأ ترقية الرادار\nحين تكتمل الترقية، ستظهر شاشة رادار\nفي الزاوية السفلية اليسرى من واجهة القيادة"
+ },
+ {
+  "label": "SCRIPT:CHI02Box02",
+  "text": "وحدة جديدة: دبابة التنين\nتنفث دبابة التنين نارًا تقضي بسرعة على مشاة العدو،\nحتى لو كانوا متحصنين داخل مبنى أو منشأة"
+ },
+ {
+  "label": "MAP:CHI02Obj01",
+  "text": "هدف المهمة:\nدمّر مركز المؤتمرات\nومرائب السيارات الملحقة به\nلإنهاء التهديد الإرهابي"
+ },
+ {
+  "label": "MAP:CHI02Obj02",
+  "text": "هدف المهمة:\nدمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:CHI02SecondaryObj01",
+  "text": "هدف ثانوي:\nامنع إرهابيي جيش التحرير العالمي من تدمير\nالمباني المستهدفة في وسط هونغ كونغ"
+ },
+ {
+  "label": "MAP:CHI02SecondaryObj02",
+  "text": "هدف ثانوي:\nدمّر منشأة إنتاج جرارات السموم"
+ },
+ {
+  "label": "MAP:CHI03Open",
+  "text": "سد الخوانق الثلاثة... مقاطعة هوبي، الصين\nطوفان من العنف"
+ },
+ {
+  "label": "MAP:CHI03Obj1",
+  "text": "هدف المهمة:\nدمّر السد"
+ },
+ {
+  "label": "MAP:CHI03Obj2",
+  "text": "هدف المهمة:\nدمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:CHI03Obj3",
+  "text": "هدف المهمة:\nاهزم كل ما تبقى من قوات جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:CHI03AudioHolder01",
+  "text": "<يتحدث الحرس الأحمر> 'أيها الجنرال، انخفض منسوب المياه! قوات جيش التحرير العالمي تعبر النهر!'"
+ },
+ {
+  "label": "MAP:CHI06Open",
+  "text": "بيشكيك، العاصمة الفرعية لألداستان\nتوقّف في مكانه"
+ },
+ {
+  "label": "MAP:CHI06Obj1",
+  "text": "هدف المهمة:\nأوصل اللوتس الأسود إلى منتصف جسر القطار"
+ },
+ {
+  "label": "MAP:CHI07Open",
+  "text": "دوشنبه، عاصمة ألداستان\nشتاء نووي"
+ },
+ {
+  "label": "MAP:Demo58Open",
+  "text": "المنطقة منزوعة السلاح في كازاخستان\nعملية: النسر الأزرق"
+ },
+ {
+  "label": "MAP:Demo58End1",
+  "text": "التحكم بالمعركة غير متصل..."
+ },
+ {
+  "label": "MAP:Demo58End2",
+  "text": "COMMAND AND CONQUER GENERALS\nقريبًا: عيد الميلاد 2002"
+ },
+ {
+  "label": "MAP:Demo48Open",
+  "text": "منطقة مزار للنيران الحرة\nعملية: الفارس الأبيض"
+ },
+ {
+  "label": "MAP:GLA02MapName",
+  "text": "نهب القرية"
+ },
+ {
+  "label": "MAP:GLA02Open",
+  "text": "قرى في ضواحي ألماتي، كازاخستان\nمنطقة إسقاط المساعدات"
+ },
+ {
+  "label": "MAP:GLA02ObjectiveText01",
+  "text": "هدف المهمة\nاجمع ما قيمته 40,000$ من الإمدادات المسروقة"
+ },
+ {
+  "label": "MAP:GLA021stThirdObjective",
+  "text": "الهدف الأول:\nاجمع 20,000$ بالاستيلاء على صناديق قوافل الأمم المتحدة"
+ },
+ {
+  "label": "MAP:GLA022ndThirdObjective",
+  "text": "الهدف الثاني:\nاجمع 30,000$ بالاستيلاء على الصناديق التي تلقيها الطائرات الأمريكية"
+ },
+ {
+  "label": "MAP:GLA023rdThirdObjective",
+  "text": "الهدف الأخير: اجمع ما قيمته 40,000$ من الإمدادات بمداهمة القاعدة الأمريكية"
+ },
+ {
+  "label": "MAP:GLA02CivBuildingHint",
+  "text": "يخزّن القرويون الإمدادات في بيوتهم\nدمّر بيوتهم واسرق الإمدادات المخبأة فيها"
+ },
+ {
+  "label": "MAP:GLA02CivKillHint",
+  "text": "القرويون يأخذون إمداداتنا. أوقفوهم"
+ },
+ {
+  "label": "MAP:GLA02QuadsArrival",
+  "text": "وصلت التعزيزات:\nاستخدم المدافع الرباعية لإسقاط طائرات العدو"
+ },
+ {
+  "label": "MAP:GLA02CrateReminder",
+  "text": "اجمع الصناديق لتبلغ هدفك"
+ },
+ {
+  "label": "MAP:GLA02MonkeyReminder",
+  "text": "لن تبلغ هدفنا إن أنفقت كل أموالك"
+ },
+ {
+  "label": "MAP:GLA06MapName",
+  "text": "الاستيلاء على السموم"
+ },
+ {
+  "label": "MAP:GLA06Open",
+  "text": "الساحل الغربي لبحر آرال، كازاخستان\nمنشآت احتواء النفايات السامة والتخلص منها"
+ },
+ {
+  "label": "MAP:GLA06MissionObjective",
+  "text": "هدف المهمة:\nاستولِ على 4 مخابئ وأبِد جميع المدافعين الأمريكيين"
+ },
+ {
+  "label": "MAP:GLA06BunkerWarning",
+  "text": "تحذير:\nالمخابئ هشّة وستنفجر بعنف عند تدميرها"
+ },
+ {
+  "label": "MAP:GLA06BunkerDestroyed",
+  "text": "تحذير:\nالأمريكيون الحمقى يحاولون إيقافنا بتدمير المخابئ"
+ },
+ {
+  "label": "MAP:GLA06BunkerRetaken",
+  "text": "استعاد الأمريكيون مخبأنا. استرجعه الآن"
+ },
+ {
+  "label": "MAP:GLA06BunkerObjective",
+  "text": "يجب أن تمتلك 4 مخابئ لإكمال مهمتك"
+ },
+ {
+  "label": "MAP:GLA06KillEnemies",
+  "text": "أنت تمتلك العدد المطلوب من المخابئ\nأبِد الأمريكيين الآن لتضمن نصرك"
+ },
+ {
+  "label": "MAP:GLA06ScoutsInBase",
+  "text": "عثر علينا الكشافة الأمريكيون\nاستعد لقتال الأمريكيين"
+ },
+ {
+  "label": "MAP:GLA06Only8Bunkers",
+  "text": "يجب أن تكون أكثر حذرًا مع المخابئ\nيجب أن تمتلك 4 منها لإكمال مهمتك"
+ },
+ {
+  "label": "MAP:GLA06Only6Bunkers",
+  "text": "بقي 6 مخابئ فقط\nإن دُمّر 3 أخرى فستفشل مهمتك"
+ },
+ {
+  "label": "MAP:GLA06Only4Bunkers",
+  "text": "تحذير:\nإن دُمّر مخبأ آخر فستفشل مهمتك"
+ },
+ {
+  "label": "MAP:GLA07MapName",
+  "text": "حصان طروادة"
+ },
+ {
+  "label": "MAP:GLA07Open",
+  "text": "في مكان ما قرب لنغر، كازاخستان\nمنطقة تسيطر عليها خلية منشقة"
+ },
+ {
+  "label": "SCRIPT:GLA07ChnTmr",
+  "text": "تصل القوات الصينية خلال:"
+ },
+ {
+  "label": "MAP:GLA07ChineseArrival",
+  "text": "تحذير: دخلت القوات الصينية المنطقة"
+ },
+ {
+  "label": "MAP:GLA07MissionObjective",
+  "text": "هدف المهمة\nاقضِ على جميع الخونة"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint01",
+  "text": "أدخل الشاحنات المسروقة خلسة إلى قاعدة الخونة\nوحين تصبح في الداخل فجّر الشاحنات للقضاء على الخونة"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint02",
+  "text": "تحذير:\nإن شوهدت قواتك مع الشاحنات المسروقة فسيعرف الخونة\nأنها لك"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint03",
+  "text": "تحذير: هذه المنطقة محظورة على الشاحنات المسروقة\nإن اكتشفها الخونة هنا فسيهاجمونها"
+ },
+ {
+  "label": "MAP:GLA07ConvoyHint04",
+  "text": "أمر الشاحنات بالانفجار قرب مباني الخونة\nلتحقيق أقصى فاعلية"
+ },
+ {
+  "label": "MAP:GLA07BaseKIACleanUp",
+  "text": "دُمّرت قاعدة الخونة\nأبِد ما تبقى من قواتهم لإتمام نصرك"
+ },
+ {
+  "label": "MAP:GLA07ConvoyDetected",
+  "text": "إنذار:\nيعرف الخونة أننا نسيطر على القافلة\nسيهاجم الخونة القافلة الآن"
+ },
+ {
+  "label": "MAP:GLA03Open",
+  "text": "جامبول، كازاخستان\nمركز سكاني مدني تسيطر عليه الصين"
+ },
+ {
+  "label": "MAP:USA01Open",
+  "text": "منطقة مزار للنيران الحرة\nعملية: الفجر الصامت"
+ },
+ {
+  "label": "SCRIPT:TrainingMove",
+  "text": "انقر بالزر الأيسر على الوحدات لتحديدها. يمكن إعطاء الوحدات المحددة أوامر. حين تكون وحدة محددة، انقر بالزر الأيسر على الأرض لتأمرها بالتحرك. انقر بالزر الأيسر على جنود العدو لتأمر وحدتك المحددة بمهاجمتهم"
+ },
+ {
+  "label": "SCRIPT:TrainingCommand",
+  "text": "لقد حرّرت مركز قيادة أمريكيًا. هنا يمكنك استخدام كثير من قدراتك الخاصة. لاختيار التقنيات والأسلحة الخاصة انقر على زر الجنرال الوامض"
+ },
+ {
+  "label": "SCRIPT:TrainingExplor",
+  "text": "يمكن إزاحة ضباب الحرب حول وحداتك بالتحرك إلى مناطق جديدة غير مستكشفة. يبيّن لك الضباب ما استكشفته وما لم تستكشفه. استكشف مناطق جديدة لتعثر على قوات العدو وعلى موارد توسّع بها جيشك"
+ },
+ {
+  "label": "SCRIPT:TrainingBarracks",
+  "text": "لقد حرّرت ثكنات أمريكية. مبانٍ كهذه تتيح لك تدريب وحدات جديدة. تدرّب الثكنات الجنود. انقر بالزر الأيسر على ثكناتك الجديدة لترى الجنود الذين يمكنك تدريبهم. انقر بالزر الأيسر على وحدة في الثكنات لتنفق الإمدادات على إنتاجها"
+ },
+ {
+  "label": "SCRIPT:TrainingPilots",
+  "text": "لقد حرّرت عدة طيارين. غالبًا ما يكون الطيارون الأمريكيون من قدامى المحاربين، ويمكنهم دخول مركباتك ليمنحوا طاقمها مهاراتهم وخبرتهم. المركبات التي تظهر بجانبها شارات ذهبية لها طواقم متمرسة وهي أكثر فاعلية في القتال"
+ },
+ {
+  "label": "SCRIPT:TrainingSupply",
+  "text": "لقد حرّرت مركز إمدادات أمريكيًا. تجمع مراكز الإمدادات الإمدادات وتوفر لك الموارد لبناء مبانٍ ووحدات جديدة. ينتج كل مركز إمدادات تلقائيًا مروحية شينوك واحدة تجمع لك الإمدادات"
+ },
+ {
+  "label": "SCRIPT:TrainingDozer",
+  "text": "لقد حرّرت جرافة بناء أمريكية. انقر بالزر الأيسر على جرافة البناء الجديدة لترى المباني التي يمكنها إنشاؤها. اختر مصنع الحرب وحدّد موقعًا لبنائه. حين تنتهي من إنشاء مصنع الحرب، ستصبح الجرافة متاحة لمشاريع بناء أخرى"
+ },
+ {
+  "label": "SCRIPT:TrainingUnits",
+  "text": "يمكن استخدام مصنع الحرب الجديد لبناء مركبات مثل دبابات كروسيدر. انقر بالزر الأيسر على دبابة كروسيدر لتأمر ببنائها. يمكنك النقر عدة مرات لتأمر ببناء عدة دبابات"
+ },
+ {
+  "label": "SCRIPT:TrainingPower",
+  "text": "لقد حرّرت مفاعل اندماج بارد أمريكيًا. تستخدم القوات الأمريكية والصينية المفاعلات لتزويد قواعدها بالطاقة. يبيّن شريط الطاقة مقدار الطاقة المتوفرة لقاعدتك. إن انخفضت طاقة قاعدتك فقد تتوقف دفاعاتها ويتعطل الرادار"
+ },
+ {
+  "label": "SCRIPT:TrainingAbilities",
+  "text": "لبعض الوحدات قدرات خاصة. حدّد وحدة لترى قدراتها الخاصة. انقر بالزر الأيسر على القدرة لتفعيلها. في حالة دبابة كروسيدر الأمريكية، يمكن لكل دبابة بناء طائرة قتالية مسيّرة واحدة. الطائرات القتالية المسيّرة مساعدات آلية صغيرة تشتبك مع الأعداء تلقائيًا وتصلح دبابة كروسيدر إن تضررت بنيران العدو"
+ },
+ {
+  "label": "SCRIPT:TrainingObjective",
+  "text": "لقد حرّرت قاعدة أمريكية كاملة وأصبحت جاهزًا لنقل القتال إلى العدو. لكل مهمة أهداف يجب أن تتبعها لتفوز بالمهمة وتتقدم في حربك ضد أعدائك. اتبع هدف المهمة لتفوز بها"
+ },
+ {
+  "label": "SCRIPT:TrainingUrban",
+  "text": "يمكن للجنود احتلال المباني المدنية. أمر جنودك بدخول المباني المدنية للحصول على ميزة دفاعية. المباني المدنية المحتلة بهذه الطريقة نقاط حصينة قوية لقواتك، ويمكن استخدامها للدفاع عن الطرق المهمة المؤدية إلى قاعدتك ومنها"
+ },
+ {
+  "label": "SCRIPT:TrainingTech",
+  "text": "يمكن لجنود الرينجر الاستيلاء على المباني المدنية ذات الأهمية. امتلاك هذه المباني يمنحك مزايا على أعدائك. استولِ على أبراج النفط بتحديد جندي رينجر، ثم النقر بالزر الأيسر على زر الاستيلاء، ثم على برج النفط نفسه. تمنحك أبراج النفط موارد إضافية وهي تضخ النفط"
+ },
+ {
+  "label": "SCRIPT:TrainingCrate",
+  "text": "تحتوي الصناديق على مكافآت لجنودك تزيد من قدراتهم. يمكن العثور في الصناديق على ذخيرة إضافية ودروع وأغراض أخرى. أمر جنودك أو مركباتك بالتحرك فوق صندوق لفتحه وجمع محتوياته"
+ },
+ {
+  "label": "SCRIPT:TrainingMissionObjective",
+  "text": "هدف المهمة\nدمّر مصنع الأسلحة البيولوجية التابع لـجيش التحرير العالمي"
+ },
+ {
+  "label": "SCRIPT:TrainingOpeningObjective",
+  "text": "هدف المهمة\nحرّر القاعدة الأمريكية"
+ },
+ {
+  "label": "MAP:USA01Opening",
+  "text": "منطقة الحرب العراقية\nعملية: العدالة الأخيرة"
+ },
+ {
+  "label": "MAP:USA01BahdadText",
+  "text": "حصار بغداد\nاليوم الثالث"
+ },
+ {
+  "label": "MAP:USA01ObjectiveText",
+  "text": "هدف المهمة\nدمّر عاصفة سكود"
+ },
+ {
+  "label": "MAP:USA02Open",
+  "text": "الحناد، اليمن\nعملية: البحث عن الكنز"
+ },
+ {
+  "label": "MAP:USA02Objective1Text",
+  "text": "هدف المهمة\nأنقذ الطيارين الأسرى"
+ },
+ {
+  "label": "MAP:USA02Objective2Text",
+  "text": "هدف المهمة\nأعد آخر طيار إلى القاعدة لاستجوابه"
+ },
+ {
+  "label": "MAP:USA03Objective1Text",
+  "text": "هدف المهمة\nاضمن هروب 100 من القوات الأمريكية"
+ },
+ {
+  "label": "SCRIPT:USA03RescueCounter",
+  "text": "القوات الأمريكية الهاربة:"
+ },
+ {
+  "label": "MAP:USA04Open",
+  "text": "ساحل كازاخستان، الساعة 1400\nعملية: جالب العاصفة"
+ },
+ {
+  "label": "SCRIPT:USA04BomberTimer",
+  "text": "تصل القاذفات خلال:"
+ },
+ {
+  "label": "MAP:USA06Objective1Text",
+  "text": "هدف المهمة:\nامنع جيش التحرير العالمي من بناء قاعدته النهرية"
+ },
+ {
+  "label": "MAP:USA06Objective2Text",
+  "text": "هدف المهمة:\nدمّر القاعدة الرئيسية لـجيش التحرير العالمي"
+ },
+ {
+  "label": "SCRIPT:GLA03CivCounter",
+  "text": "الخونة القتلى:"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective01",
+  "text": "أهداف المهمة:\nاستولِ على مركز القيادة في الشرق لبدء الإنتاج\nاقتل 300 خائن"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective02",
+  "text": "هدف المهمة:\nاستخدم جرارات السموم لقتل 300 خائن"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective03",
+  "text": "دمّر مصنع الأدوية في الشمال"
+ },
+ {
+  "label": "MAP:GLA03Objective04",
+  "text": "حرّر الأسرى"
+ },
+ {
+  "label": "MAP:GLA03Objective05",
+  "text": "اقتل 300 خائن"
+ },
+ {
+  "label": "MAP:GLA03Objective06",
+  "text": "دمّر مصنع الأدوية"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective01",
+  "text": "هدف المهمة:\nدمّر المباني المدنية واجمع 40,000$"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective02",
+  "text": "تحذير:\nإنفاق المال على الوحدات سيبعدك عن هدفك البالغ 40,000$\nاحرص على ألا تسرف في الإنفاق"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective03",
+  "text": "تحذير:\nتستخدم القوات الأمريكية المطار قاعدةً للتجمع\nاعبر النهر ودمّره"
+ },
+ {
+  "label": "SCRIPT:GLA04Objective04",
+  "text": "تحذير:\nأُرسلت طائرات أمريكية للقضاء على المركبات الثقيلة\nيُنصح باستخدام الحشود الغاضبة والتكنيكال فقط"
+ },
+ {
+  "label": "SCRIPT:GLA05Objective01",
+  "text": "هدف المهمة:\nدمّر القاعدة الجوية الأمريكية"
+ },
+ {
+  "label": "SCRIPT:GLA05Objective02",
+  "text": "هدف المهمة:\nدمّر القاعدة الجوية الأمريكية في الغرب"
+ },
+ {
+  "label": "MAP:GLA01Open",
+  "text": "المنطقة منزوعة السلاح في شيمكنت\nعملية: المطر الأسود"
+ },
+ {
+  "label": "MAP:GLA01ObjectiveText",
+  "text": "هدف المهمة: دمّر السد"
+ },
+ {
+  "label": "MAP:USA07Open",
+  "text": "جنوب شرق كازاخستان\nعملية: اتحاد اليائسين"
+ },
+ {
+  "label": "MAP:USA07Objective1",
+  "text": "هدف المهمة:\nدمّر جيش التحرير العالمي في الشمال الشرقي"
+ },
+ {
+  "label": "MAP:USA07General",
+  "text": "وصول الجنرال"
+ },
+ {
+  "label": "MAP:USA07Objective2",
+  "text": "هدف المهمة:\nدمّر مركز القيادة الصيني\nوصومعة الصاروخ النووي"
+ },
+ {
+  "label": "MAP:GLA08Temp",
+  "text": "مهمة جيش التحرير العالمي 8 - جنوب كازاخستان\nقاعدة بايكونور الفضائية"
+ },
+ {
+  "label": "MAP:CHI08Temp",
+  "text": "مهمة الصين 8 - آخر مهمة صينية\nالحالة: غير مكتملة"
+ },
+ {
+  "label": "MAP:CHI07Temp",
+  "text": "مهمة الصين 7 - مهرجان النووي\nالحالة: غير مكتملة"
+ },
+ {
+  "label": "MAP:CHI05Temp",
+  "text": "مهمة الصين 5 - إحراق جيش التحرير العالمي\nالحالة: غير مكتملة"
+ },
+ {
+  "label": "MAP:USA08Temp",
+  "text": "مهمة الولايات المتحدة 8 - سحق جيش التحرير العالمي\nالحالة: غير مكتملة"
+ },
+ {
+  "label": "MAP:USA06Temp",
+  "text": "مهمة الولايات المتحدة 6 - تجديد E3\nالحالة: غير مكتملة"
+ },
+ {
+  "label": "MAP:USA05Temp",
+  "text": "مهمة الولايات المتحدة 5 - غارة النهر\nالحالة: غير مكتملة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDaisyCutter",
+  "text": "قوي ضد: المباني\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireParticleUplinkCannon",
+  "text": "قوي ضد المباني\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipParaDrop",
+  "text": "يُسقط جنود الرينجر بالطائرة\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipClusterMines",
+  "text": "يُسقط الألغام بالطائرة\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipEMPPulse",
+  "text": "قوي ضد: المركبات\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipA10Strike",
+  "text": "قوي ضد المباني\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireNukeMissile",
+  "text": "قوي ضد كل شيء\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSCUDStorm",
+  "text": "قوي ضد كل شيء\n\nمؤقت العد التنازلي: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireArtilleryBarrage",
+  "text": "قوي ضد: المباني، مجموعات الوحدات الكبيرة\n\nمؤقت العد التنازلي: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSuperWeaponCashHack",
+  "text": "يسرق المال من مراكز إمدادات العدو\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSpySatScan",
+  "text": "يكشف المنطقة المستهدفة. يرصد الوحدات المخفية\n\nمؤقت العد التنازلي: 1:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireSpyDrone",
+  "text": "ينشئ طائرة تجسس مسيّرة فوق الهدف\n\nمؤقت العد التنازلي: 1:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRadarVanScan",
+  "text": "يكشف المنطقة المستهدفة. يرصد الأعداء المخفيين\n\nمؤقت العد التنازلي: 0:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRadioJam",
+  "text": "يقطع اتصالات العدو\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireEmergencyRepair",
+  "text": "إصلاح طارئ\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireRebelAmbush",
+  "text": "يستدعي متمردين\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireAnthraxBomb",
+  "text": "قوي ضد: المشاة\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCIAIntelligence",
+  "text": "يتجسس على قوات العدو\n\nمؤقت العد التنازلي: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapProxy",
+  "text": "ينفجر حين يقترب العدو"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapManual",
+  "text": "ينفجر بأمرك"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDemoTrapDetonate",
+  "text": "تفجير فخ التفجير"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMissileDefenderLaser",
+  "text": "التثبيت بالليزر يزيد معدل إطلاق الصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansBombardment",
+  "text": "نشر المدافع\nجميع الوحدات: زيادة 20% في القوة النارية"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansHoldTheLine",
+  "text": "نشر الجدران\nجميع الوحدات: زيادة 10% في الدروع"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBattlePlansSearchAndDestroy",
+  "text": "نشر الماسحات\nجميع الوحدات: زيادة 20% في مدى الأسلحة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSetRallyPoint",
+  "text": "تعيين نقطة التجمع لهذا المبنى"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSell",
+  "text": "بيع المبنى مقابل 50% من قيمته"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeReactorOverCharge",
+  "text": "إتلاف المفاعل لإنتاج طاقة أكثر بنسبة 50%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCancelUpgrade",
+  "text": "إلغاء هذه الترقية"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeAdvancedTraining",
+  "text": "تكتسب الوحدات الخبرة بضعف السرعة المعتادة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeDroneARmor",
+  "text": "تحصل جميع الطائرات المسيّرة على دروع محسّنة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods",
+  "text": "يوفر المفاعل طاقة أكثر بنسبة 100%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades",
+  "text": "يرمي جنود الرينجر قنابل صاعقة على المباني المدنية لإخراج جنود العدو منها"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCompositeArmor",
+  "text": "تحصل الدبابات على دروع إضافية بنسبة 25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCruiseMissile",
+  "text": "يمكن تحديد مسار طيران لصواريخ توماهوك"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeTOW",
+  "text": "تسليح الهمفي بصاروخ يمكنه إصابة الأهداف الأرضية والجوية"
+ },
+ {
+  "label": "CONTROLBAR:USAUpgradeRocketPods",
+  "text": "تطلق الكومانش وابلًا من الصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeLaserMissiles",
+  "text": "تُحدث صواريخ الرابتور والمقاتلة الشبحية ضررًا أكبر بنسبة 25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeMines",
+  "text": "زرع ألغام حول المبنى"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordGattlingCannon",
+  "text": "بناء مدفع جاتلينج على هذه الأوفرلورد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordPropagandaTower",
+  "text": "بناء برج دعاية على هذه الأوفرلورد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaOverlordBattleBunker",
+  "text": "بناء مخبأ على هذه الأوفرلورد. يمكن لجنودك التحصن في المخبأ"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeRadar",
+  "text": "بناء رادار لمركز القيادة هذا"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeNationalism",
+  "text": "زيادة 25% في مكافأة الحشد للحرس الأحمر وصائد الدبابات وباتل ماستر"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeBlackNapalm",
+  "text": "زيادة 25% في ضرر جميع أسلحة اللهب"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeChainGuns",
+  "text": "زيادة 25% في ضرر جميع أسلحة الجاتلينج"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaSubliminal",
+  "text": "زيادة 25% في مكافآت برج مكبرات الصوت"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaUraniumShells",
+  "text": "زيادة 25% في ضرر قذائف باتل ماستر والأوفرلورد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNuclearTanks",
+  "text": "يحسّن سرعة الأوفرلورد وباتل ماستر"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaStunBullets",
+  "text": "قد يحاول الحرس الأحمر أسر جنود العدو"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDisguiseAsVehicle",
+  "text": "تمويه الشاحنة المفخخة في هيئة المركبة المستهدفة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeBioBomb",
+  "text": "تصبح الشاحنة المفخخة سلاحًا بيولوجيًا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeHEBomb",
+  "text": "زيادة 100% في ضرر هذه الشاحنة المفخخة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRadarVanScan",
+  "text": "يمكن لشاحنة الرادار مسح الخريطة بحثًا عن قوات العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeScorpionRocket",
+  "text": "يكتسب السكوربيون هجومًا صاروخيًا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAPRockets",
+  "text": "زيادة 25% في ضرر جميع الهجمات الصاروخية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeToxinShells",
+  "text": "تحمل قذائف السكوربيون والماراودر كمية صغيرة من الجمرة الخبيثة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxBeta",
+  "text": "زيادة 25% في ضرر جميع وحدات السموم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAPBullets",
+  "text": "زيادة 25% في ضرر المتمرد والتكنيكال والمدفع الرباعي وجارمن كيل"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeJunkRepair",
+  "text": "تصلح جميع المركبات نفسها تلقائيًا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeCamouflage",
+  "text": "يختفي المتمردون عن أنظار العدو حين لا يطلقون النار"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeTranqDarts",
+  "text": "قد يحاول المتمردون أسر جنود العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeArmTheMob",
+  "text": "تسليح جميع الحشود الغاضبة ببنادق AK-47"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipStructureExit",
+  "text": "أمر هذه الوحدة بالخروج"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipTransportExit",
+  "text": "أمر هذه الوحدة بالخروج"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipEvacuate",
+  "text": "أمر جميع الوحدات بالخروج"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipRailedTransport",
+  "text": "انطلق"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSACombatDrop",
+  "text": "أمر جنود الرينجر بالهبوط بالحبال على هدف العدو. استخدمه على المباني المحصنة لقتل جميع جنود العدو في داخلها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuard",
+  "text": "أمر الوحدة بالتحرك لحراسة موقع محدد وملاحقة الأهداف عند الحاجة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuardWithoutPursuit",
+  "text": "أمر الوحدة بالتحرك لحراسة موقع محدد، دون ملاحقة الأهداف خارج المنطقة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGuardFlyingUnitsOnly",
+  "text": "أمر الوحدة بالتحرك لمهاجمة الوحدات الجوية التي تقترب من موقع محدد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAttackMove",
+  "text": "أمر الوحدة بالتحرك إلى المنطقة المستهدفة والتوقف للاشتباك مع الأعداء في الطريق"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCommandStop",
+  "text": "أمر الوحدة بإيقاف ما تفعله"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipWayPoints",
+  "text": "انقر على الأرض لتعيين نقاط المسار"
+ }
+]

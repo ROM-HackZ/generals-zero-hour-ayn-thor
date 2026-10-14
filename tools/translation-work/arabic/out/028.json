@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke092Subtitle",
+  "text": "*أوه، انظر--عندي قنبلة نووية جاهزة لك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke093Subtitle",
+  "text": "*واو، قنبلتان نوويتان! أنا مسرور"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke094Subtitle",
+  "text": "*ثلاث قنابل نووية؟!؟ هذا ثلاثة أضعاف المتعة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke095Subtitle",
+  "text": "*أربع قنابل نووية؟ مذهل!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke096Subtitle",
+  "text": "*خمس قنابل نووية؟ ربما تريدني أن أرسل لك سروالًا نظيفًا الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke097Subtitle",
+  "text": "*(اللاعب يبيع مبنى) أيها الجنرال، إن بعت مزيدًا من المباني فسأفوز دون قتال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth001Subtitle",
+  "text": "*انظر ماذا وجدت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth002Subtitle",
+  "text": "*ها هو هجومي التالي... حاول أن تكون مستعدًا هذه المرة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth003Subtitle",
+  "text": "*لا يمكنك قتل ما لا تراه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth004Subtitle",
+  "text": "*لم تكن تحتاج إلى أولئك الجنود على أي حال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth005Subtitle",
+  "text": "*نائم أثناء العمل مرة أخرى؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth006Subtitle",
+  "text": "*شكرًا على الوحدات الجديدة. ستكون مفيدة في تدميرك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth007Subtitle",
+  "text": "*شاهد هذا! أوه انتظر، لا تستطيع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth008Subtitle",
+  "text": "*هل أحضرت نظاراتك الحرارية؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth009Subtitle",
+  "text": "*أظن أن الوقت حان لأستحوذ على قاعدة جديدة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth010Subtitle",
+  "text": "*لم يكن مقدّرًا لك أيها الجنرال. وداعًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth011Subtitle",
+  "text": "*إغماض عينيك لن يخفف ألم الهزيمة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth012Subtitle",
+  "text": "*قتلتي المتخفون سيقضون على قواتك بسرعة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth013Subtitle",
+  "text": "*سنضرب كالأفعى--بسرعة ودون أن نُرى"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth014Subtitle",
+  "text": "*لن تصمد أمام هذا الهجوم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth015Subtitle",
+  "text": "*الجنرالات الوسيمون يفوزون بالمعارك دائمًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth016Subtitle",
+  "text": "*لن تراني حتى يفوت الأوان أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth017Subtitle",
+  "text": "*أيها الجنرال، ربما تعرّفني على اللوتس الأسود. أنا معجب كبير بـ... إمم، عملها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth018Subtitle",
+  "text": "*حين يعمّ الهدوء يجب أن تخشاني أكثر من أي وقت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth019Subtitle",
+  "text": "*لا أطيق صبرًا لهجومك التالي أيها الجنرال. هل نتوقعه اليوم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth020Subtitle",
+  "text": "*لا تدع حواسك تخمد أيها الجنرال--يمكنك توقع هجومي في أي لحظة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth021Subtitle",
+  "text": "*لا يمكنك هزيمتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth022Subtitle",
+  "text": "*سأهاجم حين لا تتوقع أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth023Subtitle",
+  "text": "*رجالي في كل أنحاء ساحة المعركة أيها الجنرال... مخفيون عن الأنظار... جاهزون للانقضاض"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth024Subtitle",
+  "text": "*التخفي حليفي... وعدوك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth025Subtitle",
+  "text": "*خسرت مبناك التقني أيها الجنرال. ماذا ستخسر بعده؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth026Subtitle",
+  "text": "*لم تستطع منعي من تدمير ثكناتك أيها الجنرال. ماذا تقدّر إن لم يكن رجالك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth027Subtitle",
+  "text": "*تدمير مصنع حربك كان لعب أطفال. ولن يتأخر مركز قيادتك كثيرًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth028Subtitle",
+  "text": "*فقدت طائراتك مطارها، وفقدت أنت أفضليتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth029Subtitle",
+  "text": "*صار في دفاعاتك ثغرة الآن أيها الجنرال. من يدري كم من رجالي في قاعدتك الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth030Subtitle",
+  "text": "*ذهب مركز قيادتك أيها الجنرال. انتصاري شبه مضمون"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth031Subtitle",
+  "text": "*لا أستمتع بتدمير مبانيك أيها الجنرال، لكنك لا تترك لي خيارًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth032Subtitle",
+  "text": "*تستهدف مبانيّ التقنية لأنه لا أمل لك في الوصول إلى قاعدتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth033Subtitle",
+  "text": "*دمّرت ثكناتي، لكننا سنعيد البناء وسننتقم لأولئك الرجال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth034Subtitle",
+  "text": "*لن يسرّ تاجر أسلحتي أنك دمّرت مستودعه أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth035Subtitle",
+  "text": "*دمّرت ذلك الدفاع أيها الجنرال، لكن ربما منحت رجالي وقتًا للالتفاف عليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth036Subtitle",
+  "text": "*دمّرت كثيرًا من مبانيّ، لكن حتى بمصنع واحد متبقٍّ أنا خصم خطير أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth037Subtitle",
+  "text": "*لعبة جميلة أيها الجنرال؛ دمّرت مركز قيادتي. الآن سأضطر للقتال بقذارة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth038Subtitle",
+  "text": "*أنت بارع في اكتشاف مركباتي المموّهة أيها الجنرال. سأفكر في تكتيك جديد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth039Subtitle",
+  "text": "*تكتيكاتك الفظّة تكلّفني رجالًا أيها الجنرال. سأعيد النظر في تكتيكاتي بعد أن عرفت أنه لا تكتيكات لديك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth040Subtitle",
+  "text": "*الآن وقد استوليت على برج النفط هذا، ستنمو قواتي أسرع"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth041Subtitle",
+  "text": "*منصات المدفعية فظّة جدًا، لكن لا يمكنني أن أدعك تحتفظ بها، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth042Subtitle",
+  "text": "*مصفاة النفط هذه أصبحت لي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth043Subtitle",
+  "text": "*أيها الجنرال، تقترب بشكل خطير من قاعدتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth044Subtitle",
+  "text": "*أرى قوات تقترب من قاعدتي أيها الجنرال. لا تنوي الغزو، صحيح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth045Subtitle",
+  "text": "*أنت تختبر صبري أيها الجنرال. أخرج قواتك من قاعدتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth046Subtitle",
+  "text": "*إن لم تُخرج قواتك من قاعدتي، فسأُخرجها إلى الأبد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth047Subtitle",
+  "text": "*إذن تحاول دخول قاعدتي من الجناح. سنضع حدًا لذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth048Subtitle",
+  "text": "*هجوم من الباب الخلفي؟ لم أدرك أنك ماكر إلى هذا الحد أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth049Subtitle",
+  "text": "*هجوم أمامي؟ سيكون ذلك خطأً قاتلًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth050Subtitle",
+  "text": "*تلك مواردي أيها الجنرال--اذهب وابحث عن مواردك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth051Subtitle",
+  "text": "*لماذا تصرّ على الاقتراب من قاعدتي من ذلك الطريق أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth052Subtitle",
+  "text": "*ذلك الطريق ليس بلا حراسة كما يبدو أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth053Subtitle",
+  "text": "*الشيء الوحيد الذي ستجده هنا هو هلاكك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth054Subtitle",
+  "text": "*ما سرّ افتتانك بهذه المنطقة أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth055Subtitle",
+  "text": "*نقترب من قاعدتك أيها الجنرال. ربما هناك منظار تصويب على رأسك الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth056Subtitle",
+  "text": "*دفاعاتك الخارجية ضعيفة أيها الجنرال. لنأمل أن تكون قاعدتك محمية أفضل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth057Subtitle",
+  "text": "*دخلنا قاعدتك أيها الجنرال. تجاهلنا على مسؤوليتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth058Subtitle",
+  "text": "*دفاعاتك محطمة أيها الجنرال. كيف ستصدّنا الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth059Subtitle",
+  "text": "*يجب حقًا أن تدافع عن هذه الموارد أيها الجنرال، وإلا ستكون هذه المعركة قصيرة جدًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth060Subtitle",
+  "text": "*وجدت مبانيك التقنية أيها الجنرال. ماذا أفعل بها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth061Subtitle",
+  "text": "*وجدت الباب الخلفي لقاعدتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth062Subtitle",
+  "text": "*هل تستطيع صد هجومي على الجناح أيها الجنرال؟ لنرَ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth063Subtitle",
+  "text": "*الجنرال المهمل وحده يسمح بانقطاع الطاقة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth064Subtitle",
+  "text": "*طاقتك منقطعة أيها الجنرال. لم تخطط لبنيتك التحتية كما ينبغي. لنأمل ألا يكون خطأً قاتلًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth065Subtitle",
+  "text": "*أيها الجنرال، لا يمكنك القتال من دون موارد. ماذا ستفعل الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth066Subtitle",
+  "text": "*سلبتني مواردي أيها الجنرال. الآن سأرد لك الجميل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth067Subtitle",
+  "text": "*إذن بنيت عاصفة سكود. علينا التعامل مع هذا التهديد الجديد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth068Subtitle",
+  "text": "*لا مكان للأسلحة النووية في هذه المعركة أيها الجنرال. لماذا تصرّ على بنائها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth069Subtitle",
+  "text": "*ستضربني من الفضاء بمدفع جسيماتك الجبان؟ خيّبت ظني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth070Subtitle",
+  "text": "*كل هذه الدفاعات أيها الجنرال. مِمَّ تخاف؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth071Subtitle",
+  "text": "*تبني دبابات إذن. حسنًا، بضعة قنّاصة إضافيين سيتكفلون بذلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth072Subtitle",
+  "text": "*مزيد من الطائرات؟ لماذا كل هذا أيها الجنرال؟ تخاف أن تنزل وتواجهني؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth073Subtitle",
+  "text": "*دعني أنصحك أيها الجنرال. تلك المجموعة الكبيرة من المشاة ليست ندًا لقنّاصتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth074Subtitle",
+  "text": "*كبرت قاعدتك كثيرًا أيها الجنرال. أتظن أنك تستطيع حماية كل مبانيك من الاستيلاء؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth075Subtitle",
+  "text": "*أطلقت! ستندم على استخدام عاصفة سكود تلك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth076Subtitle",
+  "text": "*صواريخ نووية! ظننتك تخادع أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth077Subtitle",
+  "text": "*نعم، انظروا إلى شعاع الجسيمات الجبان. استمتع بهذا أيها الجنرال--ردّي سيكون سريعًا ووحشيًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth078Subtitle",
+  "text": "*تفضّل أيها الجنرال، تحصّن في ذلك المبنى... قد يستطيع قنّاصتي إصابتكم هناك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth079Subtitle",
+  "text": "*العقيد بيرتون أيها الجنرال؟ ربما يجب أن تجعله هو الجنرال؛ فأنت لن تقوده إلا إلى قبر مبكر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth080Subtitle",
+  "text": "*آه، اللوتس الأسود الجميلة. ربما بعد هزيمتك أيها الجنرال توافق على الانضمام إليّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth081Subtitle",
+  "text": "*جارمن كيل؟! ليحذر كل القنّاصة: دخل جارمن كيل الميدان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth082Subtitle",
+  "text": "*خيار حكيم بناء مطار، لكن الطائرات وحدها لن تكفي لهزيمتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth083Subtitle",
+  "text": "*يخبرني جواسيسي أنك بنيت مصنع حربك أخيرًا أيها الجنرال. هل أنت مستعد للقتال الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth084Subtitle",
+  "text": "*درّب ما شئت من الرجال في تلك الثكنات أيها الجنرال؛ ليسوا ندًا لقنّاصتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth085Subtitle",
+  "text": "*بعت أحد مبانيك. هذه التكتيكات تقود إلى الهزيمة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth086Subtitle",
+  "text": "*كيف تهزم قواتي؟! هذا غير ممكن!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth087Subtitle",
+  "text": "*ربما لك اليد العليا الآن، لكن تكتيكاتك اليائسة لن تدوم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth088Subtitle",
+  "text": "*ستنتفض قواتي ضد ظلمك وسنهزمك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth089Subtitle",
+  "text": "*استمتع بأفضليتك الآن أيها الجنرال... سترتكب خطأً قريبًا وسأقلب موازين هذه المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth090Subtitle",
+  "text": "*هكذا تنتهي... هزمتني أيها الجنرال، لكنني سأنتقم يومًا ما. احذر من خلفك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth091Subtitle",
+  "text": "*قواتك تضعف أيها الجنرال. اقبل الهزيمة وسأرفق بك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth092Subtitle",
+  "text": "*هجماتك غير فعّالة ضدي أيها الجنرال. قريبًا سنكتسحك ونبيدك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth093Subtitle",
+  "text": "*أستمتع بهذه اللعبة الصغيرة أيها الجنرال، لكن هجماتك البائسة بدأت تُضجرني"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth094Subtitle",
+  "text": "*ظننت أنك ستقدّم تحديًا أكبر أيها الجنرال. أظنني بالغت في تقديرك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth095Subtitle",
+  "text": "*سقطت أمام قصّاد، كما سقط كل من سبقك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth096Subtitle",
+  "text": "*سنضرب كالأفعى--خفية وقاتلة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth097Subtitle",
+  "text": "*الآن تراني--الآن أنت ميت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth098Subtitle",
+  "text": "*أنا قصّاد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth099Subtitle",
+  "text": "*لن يسير هذا على ما يرام بالنسبة إليك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth100Subtitle",
+  "text": "*لن يقبل رجالي هذه الهزيمة من قائدهم أيها الجنرال. لقد وقّعت على حكم إعدامي بتكتيكاتك المتفوقة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth101Subtitle",
+  "text": "*تقبّل هزيمتك المرة واغرب عن وجهي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth102Subtitle",
+  "text": "*وها هو آخر ممن وقفوا ضدي يسقط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth103Subtitle",
+  "text": "*وهكذا سيكون مصيرك أيها الجنرال--بلا إنذار، بلا رحمة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth104Subtitle",
+  "text": "*ما زال لديك وقت لتنجو بحياتك أيها الجنرال. <ضحكة شريرة تتلاشى في الصمت>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank001Subtitle",
+  "text": "*أرى أنك لم تهرب خوفًا أيها الجنرال. قريبًا ستتمنى لو فعلت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank002Subtitle",
+  "text": "*قواتي على بابك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank003Subtitle",
+  "text": "*التنين الحديدي يزحف عبر دفاعاتك الهزيلة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank004Subtitle",
+  "text": "*أخشى أن هذا سينهيك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank005Subtitle",
+  "text": "*ممم... هل تشعر بالنشيد المدوّي للمدرعات القادمة أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank006Subtitle",
+  "text": "*هل تحمي أجنابك أيها الجنرال؟ لمَ لا نلقي نظرة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank007Subtitle",
+  "text": "*هل أعجبتك التعديلات على دباباتي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank008Subtitle",
+  "text": "*أيتها المدرعات... اسحقوهم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank009Subtitle",
+  "text": "*قريبًا سيمتلئ الميدان بالدبابات... دباباتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank010Subtitle",
+  "text": "*جميع الوحدات... هجوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank011Subtitle",
+  "text": "*قاعدة جميلة أيها الجنرال... أتودّ تسليمها؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank012Subtitle",
+  "text": "*هذا يعني هلاكك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank013Subtitle",
+  "text": "*نحن في قاعدتك أيها الجنرال؛ دفاعاتك لم تكن كافية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank014Subtitle",
+  "text": "*تتجرأ على مهاجمة مصنع حربي! جميع القوات، أزيلوا هذه الآفة!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank015Subtitle",
+  "text": "*دبابات... ابنوا مزيدًا من الدبابات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank016Subtitle",
+  "text": "*كتيبة أخرى في الطريق أيها الجنرال، أحسن ضيافتها من فضلك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank017Subtitle",
+  "text": "*آه، هذا الجزء من المعركة الذي أستمتع به أكثر... الجزء الذي يسبق إجهازي على عدوي مباشرة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank018Subtitle",
+  "text": "*أيتها الدبابات: تحركي أسرع... قبل أن يفكر خصمنا في هجوم حقيقي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank019Subtitle",
+  "text": "*الهدوء يعمّ هناك أيها الجنرال. لا بد أن كثيرًا من الدبابات تزحف نحو قاعدتك، ألا تظن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank020Subtitle",
+  "text": "*سأستغل هذا الوقت لبناء مزيد من الدفاعات... لا، انتظر، سأبني مزيدًا من الدبابات بدلًا منها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank021Subtitle",
+  "text": "*كانت هذه المنطقة أرضًا زراعية خصبة. قريبًا سيجعلها دمك خصبة من جديد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank022Subtitle",
+  "text": "*تكتيكاتك تسلّيني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank023Subtitle",
+  "text": "*استمتع بالاستراحة أيها الجنرال--قريبًا ستبدأ الهجمات من جديد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank024Subtitle",
+  "text": "*ننتظر هجومك أيها الجنرال، لكنني بدأت أتساءل إن كان سيأتي أصلًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank025Subtitle",
+  "text": "*مصانع حربنا تعمل بجد لصنع مزيد من الدبابات، خصيصًا لك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank026Subtitle",
+  "text": "*كم بعد تستطيع النجاة من هذه الخسائر أيها الجنرال؟ ربما حان وقت التفكير في الاستسلام"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank027Subtitle",
+  "text": "*الدبابات تحتشد في قاعدتنا استعدادًا للهجوم الأخير. هل ستصمد دفاعاتك هذه المرة؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank028Subtitle",
+  "text": "*قريبًا سنطردك من أراضينا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank029Subtitle",
+  "text": "*ستكون هذه آخر فرصة لتثبت نفسك أيها الجنرال. قريبًا ستنهي دباباتي جيشك البائس"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank030Subtitle",
+  "text": "*لا يمكنك أن تصدّق أن حظك سيصمد طويلًا... أليس كذلك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank031Subtitle",
+  "text": "*لم تكن تريد ذلك المبنى التقني، صحيح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank032Subtitle",
+  "text": "*سقطت ثكناتك أمام دباباتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank033Subtitle",
+  "text": "*ها قد ذهب مصنعك أيها الجنرال. كيف ستجاري مدرعاتي الآن؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank034Subtitle",
+  "text": "*من دون مطارك خسرت فرصتك الوحيدة ضدي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank035Subtitle",
+  "text": "*دفاعاتك تتساقط كالألعاب أمام مدرعاتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank036Subtitle",
+  "text": "*خسرت مركز قيادتك وكل أمل في الفوز عليّ أيها الجنرال. أنتظر استسلامك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank037Subtitle",
+  "text": "*خسرت الكثير من المباني أيها الجنرال... أليس الوقت مناسبًا للاستسلام؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank038Subtitle",
+  "text": "*ذلك المبنى التقني كان لي أيها الجنرال؛ ستندم على تدميره"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank039Subtitle",
+  "text": "*إذن دمّرت ثكناتي--فليكن. الآن سأدمّر ثكناتك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank040Subtitle",
+  "text": "*سنعيد بناء مصنع الحرب. قريبًا ستتدفق الدبابات إلى قاعدتك من جديد كالماء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank041Subtitle",
+  "text": "*تدمير مطاري لن يوقفني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank042Subtitle",
+  "text": "*تدمير دفاعاتي لا يفيد إلا في إخباري بمكانك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank043Subtitle",
+  "text": "*أيها الجنرال، أنت تدمّر عددًا غير مقبول من مبانيّ. يجب أن يتوقف هذا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank044Subtitle",
+  "text": "*دمّرت مركز قيادتي... أنا معجب أيها الجنرال... قليلون من صمدوا حتى الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank045Subtitle",
+  "text": "*تطلق النار على طائراتي؟! أتظن هذا أفضل تكتيك ضدي أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank046Subtitle",
+  "text": "*يكفي! لا تدمّر مزيدًا من دباباتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank047Subtitle",
+  "text": "*توقف عن استهداف مشاتي أيها الجبان!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank048Subtitle",
+  "text": "*أيها الجنرال، أحتاج إلى برج النفط ذاك لدباباتي. سلّمه لي أو ادفع الثمن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank049Subtitle",
+  "text": "*منصة المدفعية تلك ليست ندًا لمدرعاتي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank050Subtitle",
+  "text": "*آه، أرى أنك استوليت على مصفاة نفط. ربما عليّ أن آخذها منك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank051Subtitle",
+  "text": "*نقترب من قاعدتك أيها الجنرال. استعد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank052Subtitle",
+  "text": "*آه، دباباتي على وشك أن تصبح في مدى قاعدتك. يجب أن ينتهي هذا قريبًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank053Subtitle",
+  "text": "*اخترقنا دفاعاتك أيها الجنرال. الآن ستبدأ مصانعك بالسقوط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank054Subtitle",
+  "text": "*شكرًا على دعوتنا إلى قاعدتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank055Subtitle",
+  "text": "*أرى أن جناحك مكشوف أيها الجنرال. هذا ما توقعته"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank056Subtitle",
+  "text": "*لا حراس على بابك الخلفي--خطأ قاتل من جهتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank057Subtitle",
+  "text": "*أرى أنك بنيت قاعدة ثانية أيها الجنرال. ستُزال قريبًا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank058Subtitle",
+  "text": "*آه، وجدت مبناك التقني. والآن، هل أدمّره أم أستولي عليه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank059Subtitle",
+  "text": "*طاقتك منقطعة--قواتك انتهت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank060Subtitle",
+  "text": "*أقترح أن تعيد طاقتك أيها الجنرال... قبل أن نطفئها إلى الأبد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank061Subtitle",
+  "text": "*كومة إمداداتك تبدو قليلة... الآن لا شيء يستطيع إيقافنا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank062Subtitle",
+  "text": "*إمدادات! أحتاج إلى مزيد من الإمدادات!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank063Subtitle",
+  "text": "*وماذا تنوي أن تفعل بعاصفة سكود تلك أيها الجنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank064Subtitle",
+  "text": "*والآن أصبحت هذه الحرب نووية... ممتاز"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank065Subtitle",
+  "text": "*مدفع الجسيمات ذاك لن يعيش ليطلق النار عليّ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank066Subtitle",
+  "text": "*كل هذه الدفاعات أيها الجنرال... وكلها بلا فائدة"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank067Subtitle",
+  "text": "*إذن تحاول مجاراة دباباتي في الميدان. أشكك في تكتيكاتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank068Subtitle",
+  "text": "*أرى طائرات كثيرة أيها الجنرال--كالبعوض ينتظر أن يُصفع من السماء"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank069Subtitle",
+  "text": "*درّبت رجالًا أكثر من اللازم أيها الجنرال؛ سيُسحقون جميعًا تحت جنازيري"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank070Subtitle",
+  "text": "*كبرت قاعدتك أكثر من اللازم أيها الجنرال--ستستمتع دباباتي بالتدرب على الأهداف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank071Subtitle",
+  "text": "*عاصفة سكود ستؤذينا، لكنك الآن أغضبتني أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank072Subtitle",
+  "text": "*الجنرال الفاشل وحده يلجأ إلى الصواريخ النووية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank073Subtitle",
+  "text": "*شعاع الجسيمات هذا لن يهزمنا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank074Subtitle",
+  "text": "*نعم، تحصّن في مبانيك--أنت تؤجل المحتوم فقط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank075Subtitle",
+  "text": "*لا يستطيع جندي واحد قلب الموازين، ولا حتى العقيد بيرتون"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank076Subtitle",
+  "text": "*آه، اللوتس الأسود، تشرّفيننا بحضورك. ربما تفكرين في القتال من أجلي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank077Subtitle",
+  "text": "*لتحذر كل الدبابات: دخل جارمن كيل الميدان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank078Subtitle",
+  "text": "*المطار خيار حكيم ضدي، لكنه لن ينقذك من الهزيمة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank079Subtitle",
+  "text": "*ابنِ مصانع حربك أيها الجنرال؛ لن تنتج دبابات قادرة على إيقاف دباباتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank080Subtitle",
+  "text": "*أرى أنك بنيت ثكنات أيها الجنرال. أرجو أن تبقي رجالك بعيدًا عن طريق دباباتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank081Subtitle",
+  "text": "*نعم، بع كل مبانيك واهرب من الميدان أيها الجنرال. هذه المعركة خاسرة بالنسبة إليك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank082Subtitle",
+  "text": "*أنت تخسر أيها الجنرال. هذه المعركة لي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank083Subtitle",
+  "text": "*ضاع كل أمل الآن أيها الجنرال. استسلم أو مت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank084Subtitle",
+  "text": "*أيها الجنرال، قواتي تفوق قواتك عددًا... إنها مسألة وقت فقط"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank085Subtitle",
+  "text": "*استراتيجيتك الضعيفة أوصلتك إلى هنا أيها الجنرال. لا يمكنك الفوز الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank086Subtitle",
+  "text": "*كان انتصاري مضمونًا منذ البداية"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank087Subtitle",
+  "text": "*منحتك تكتيكاتك أفضلية مؤقتة أيها الجنرال، لكنك لن تحافظ عليها"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank088Subtitle",
+  "text": "*لا! لن تفوز أيها الجنرال. سنبني مزيدًا من الدبابات ونهزمك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank089Subtitle",
+  "text": "*ربما أوصلتك تكتيكاتك الجبانة إلى هنا، لكن هذه الحماقة تنتهي الآن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank090Subtitle",
+  "text": "*أظنني تركتك تفوز بما يكفي أيها الجنرال. استعد للنهاية"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "TOOLTIP:SendDelay",
+  "text": "방화벽 사용자 전용. (설명서를 참조하십시오)"
+ },
+ {
+  "label": "GUI:GSFailedToHost",
+  "text": "게임을 호스트할 수 없습니다"
+ },
+ {
+  "label": "Buddy:SelectBuddyToChat",
+  "text": "채팅할 친구를 선택하십시오"
+ },
+ {
+  "label": "GUI:CannotConnectToServservTitle",
+  "text": "연결할 수 없음"
+ },
+ {
+  "label": "GUI:CannotConnectToServserv",
+  "text": "Command and Conquer 제너럴: 제로아워 서버와 연결할 수 없습니다. 인터넷 연결을 확인하십시오"
+ },
+ {
+  "label": "MESSAGE:BattlePlanBombardmentInitiated",
+  "text": "포격 전략이 시작되었습니다"
+ },
+ {
+  "label": "MESSAGE:BattlePlanHoldTheLineInitiated",
+  "text": "전선 사수 전략이 시작되었습니다"
+ },
+ {
+  "label": "MESSAGE:BattlePlanSearchAndDestroyInitiated",
+  "text": "수색 섬멸 전략이 시작되었습니다"
+ },
+ {
+  "label": "OBJECT:TechOilRefinery",
+  "text": "정유 공장 -- 점령하면 차량 비용이 줄어듭니다"
+ },
+ {
+  "label": "OBJECT:SupplyDock",
+  "text": "보급 창고"
+ },
+ {
+  "label": "GUI:InGameDiplomacy",
+  "text": "외교"
+ },
+ {
+  "label": "GUI:MapPreview",
+  "text": "맵 미리보기"
+ },
+ {
+  "label": "GUI:Error",
+  "text": "오류"
+ },
+ {
+  "label": "Buddy:Disconnected",
+  "text": "친구 목록과의\n연결이 끊어졌습니다"
+ },
+ {
+  "label": "GUI:SandboxMode",
+  "text": "샌드박스 모드로 들어가는 중..."
+ },
+ {
+  "label": "GUI:BookmarkXSet",
+  "text": "북마크 #%d 설정됨"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair1",
+  "text": "긴급 수리 1"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair2",
+  "text": "긴급 수리 2"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair3",
+  "text": "긴급 수리 3"
+ },
+ {
+  "label": "MAP:CHI05Open",
+  "text": "키르기스스탄, 바리크치\n초토화"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceEmergencyRepair",
+  "text": "지역 내 차량을 수리합니다\n\n등급 1: 경수리\n등급 2: 중수리\n등급 3: 대수리\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "GUI:MinSpecFailedTitle",
+  "text": "경고"
+ },
+ {
+  "label": "GUI:MinSpecFailedMessage",
+  "text": "시스템이 최소 하드웨어 사양을 충족하지 않습니다. 멀티플레이 게임에서 프레임 속도가 평소보다 느릴 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:AlreadyUpgradedDefault",
+  "text": "이미 구입한 업그레이드입니다"
+ },
+ {
+  "label": "TOOLTIP:HasConflictingUpgradeDefault",
+  "text": "충돌하는 업그레이드는 구입할 수 없습니다"
+ },
+ {
+  "label": "GUI:NoGameSelected",
+  "text": "먼저 참가할 게임을 선택하십시오"
+ },
+ {
+  "label": "GUI:CloseExpScreen",
+  "text": "완료"
+ },
+ {
+  "label": "TOOLTIP:CloseExpScreen",
+  "text": "게임으로 돌아가기"
+ },
+ {
+  "label": "GUI:GPNoCommunicator",
+  "text": "멀티플레이 테스트에서는 커뮤니케이터를 사용할 수 없습니다"
+ },
+ {
+  "label": "GUI:GSKickedGameStarted",
+  "text": "게임이 시작되었습니다"
+ },
+ {
+  "label": "GUI:GSKickedGameFull",
+  "text": "게임이 가득 찼습니다"
+ },
+ {
+  "label": "Network:PacketRouterTimeout",
+  "text": "패킷 라우터 시간 초과"
+ },
+ {
+  "label": "GUI:EstablishingConnectionPaths",
+  "text": "연결 경로 설정 중"
+ },
+ {
+  "label": "UPGRADE:RadarVanScan",
+  "text": "레이더 밴 스캔"
+ },
+ {
+  "label": "MAP:CHI04Open",
+  "text": "중국, 탕구라 산맥\n깨진 동맹"
+ },
+ {
+  "label": "MAP:GLA04Open",
+  "text": "아스타나\n중국에 점령된 카자흐스탄 수도"
+ },
+ {
+  "label": "MAP:USA07NewObjective2",
+  "text": "새 임무 목표:\n중국 사령부와\n핵미사일 격납고 파괴"
+ },
+ {
+  "label": "MAP:USA07GotObjective1",
+  "text": "목표 완료:\n북동쪽 GLA 파괴"
+ },
+ {
+  "label": "MAP:USA07GotObjective2",
+  "text": "목표 완료:\n중국 사령부와\n핵미사일 격납고 파괴"
+ },
+ {
+  "label": "GUI:Defaults",
+  "text": "기본값"
+ },
+ {
+  "label": "TOOLTIP:OptionsAccept",
+  "text": "변경 사항을 적용하고 옵션 메뉴를 나갑니다"
+ },
+ {
+  "label": "TOOLTIP:OptionsCancel",
+  "text": "변경 사항을 적용하지 않고 옵션 메뉴를 나갑니다"
+ },
+ {
+  "label": "TOOLTIP:OptionsDefaults",
+  "text": "옵션을 기본 설정으로 초기화합니다"
+ },
+ {
+  "label": "MESSAGE:StealthDiscovered",
+  "text": "적 스텔스 유닛 발견"
+ },
+ {
+  "label": "MESSAGE:StealthNeutralized",
+  "text": "스텔스 능력 무력화"
+ },
+ {
+  "label": "TOOLTIP:SortBuddies",
+  "text": "친구를 게임 목록 맨 위로 정렬"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenu",
+  "text": "장군 경험치 메뉴"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenuDescription",
+  "text": "전투에서 얻은 경험치로 각종 장군 능력을 구입하는 경험치 메뉴를 표시합니다"
+ },
+ {
+  "label": "CONTROLBAR:UpDown",
+  "text": "표시/숨기기 전환"
+ },
+ {
+  "label": "CONTROLBAR:UpDownDescription",
+  "text": "컨트롤 바 표시 여부를 전환합니다"
+ },
+ {
+  "label": "CONTROLBAR:DisarmMinesAtPosition",
+  "text": "지뢰 제거(&L)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDisarmMinesAtPosition",
+  "text": "지정 지역의 지뢰와 소형 폭약을 제거합니다"
+ },
+ {
+  "label": "TOOLTIP:ScienceCostUnavailable",
+  "text": "비용: 사용 불가"
+ },
+ {
+  "label": "GUI:OnlineIPAddresses",
+  "text": "온라인 IP:"
+ },
+ {
+  "label": "GUI:GSDisconReason16",
+  "text": "그 닉네임의 프로필이 이미 있습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason17",
+  "text": "비밀번호가 틀렸습니다. 다시 시도하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason18",
+  "text": "그 닉네임의 프로필이 이미 있습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason19",
+  "text": "서버 오류 - 계정을 만들 수 없습니다"
+ },
+ {
+  "label": "Buddy:MessageDisconnected",
+  "text": "친구 목록과의\n연결이 끊어졌습니다"
+ },
+ {
+  "label": "GUI:PlayerHasBeenDefeated",
+  "text": "%ls 님이 패배했습니다"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRangerCaptureBuilding",
+  "text": "건물 점령(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRedguardCaptureBuilding",
+  "text": "건물 점령(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARebelCaptureBuilding",
+  "text": "건물 점령(&C)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateBombTruck",
+  "text": "즉시 폭파!(&N)"
+ },
+ {
+  "label": "UPGRADE:RangerCaptureBuilding",
+  "text": "건물 점령"
+ },
+ {
+  "label": "UPGRADE:RedguardCaptureBuilding",
+  "text": "건물 점령"
+ },
+ {
+  "label": "UPGRADE:RebelCaptureBuilding",
+  "text": "건물 점령"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateBombTruck",
+  "text": "폭탄 트럭이 현재 위치에서 즉시 폭파하도록 명령합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAUpgradeRangerCaptureBuilding",
+  "text": "레인저가 적 건물과 기술 건물을 점령할 수 있게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "레드가드가 적 건물과 기술 건물을 점령할 수 있게 합니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRebelCaptureBuilding",
+  "text": "반군이 적 건물과 기술 건물을 점령할 수 있게 합니다"
+ },
+ {
+  "label": "GUI:Loading",
+  "text": "로딩 중"
+ },
+ {
+  "label": "TOOLTIP:EmoteButton",
+  "text": "감정 표현"
+ },
+ {
+  "label": "CONTROLBAR:Power",
+  "text": "전력"
+ },
+ {
+  "label": "CONTROLBAR:PowerDescription",
+  "text": "현재 전력: %d\n필요 전력: %d"
+ },
+ {
+  "label": "CONTROLBAR:Money",
+  "text": "자금"
+ },
+ {
+  "label": "CONTROLBAR:MoneyDescription",
+  "text": "보유한 자금입니다"
+ },
+ {
+  "label": "MAP:TourneyArena",
+  "text": "Tournament Desert"
+ },
+ {
+  "label": "UPGRADE:AmericaDroneARmor",
+  "text": "드론 장갑"
+ },
+ {
+  "label": "UPGRADE:APRockets",
+  "text": "철갑 로켓"
+ },
+ {
+  "label": "ThingTemplate:EuropeanTowerBridge01",
+  "text": "다리"
+ },
+ {
+  "label": "ThingTemplate:BridgeTowerConcreteRight02",
+  "text": "다리"
+ },
+ {
+  "label": "Team:0",
+  "text": "없음"
+ },
+ {
+  "label": "Team:1",
+  "text": "1"
+ },
+ {
+  "label": "Team:2",
+  "text": "2"
+ },
+ {
+  "label": "Team:3",
+  "text": "3"
+ },
+ {
+  "label": "Team:4",
+  "text": "4"
+ },
+ {
+  "label": "Team:AI",
+  "text": "CPU"
+ },
+ {
+  "label": "GUI:RestartConfirmation",
+  "text": "정말 다시 시작하시겠습니까?"
+ },
+ {
+  "label": "GUI:ErrorStartingGame",
+  "text": "게임 시작 오류"
+ },
+ {
+  "label": "GUI:TooManyPlayers",
+  "text": "이 맵은 %d명까지만 지원합니다"
+ },
+ {
+  "label": "GUI:SandboxWarning",
+  "text": "다시 시작을 누르면 샌드박스 게임이 시작됩니다"
+ },
+ {
+  "label": "GUI:CantFindMap",
+  "text": "맵을 찾을 수 없습니다. 손상되었습니까?"
+ },
+ {
+  "label": "GUI:EnterSaveDesc",
+  "text": "게임 설명 입력"
+ },
+ {
+  "label": "GUI:MissionSave",
+  "text": "임무 시작 - %s %d"
+ },
+ {
+  "label": "GUI:SaveReplay",
+  "text": "리플레이 저장"
+ },
+ {
+  "label": "GUI:OverwriteReplayTitle",
+  "text": "리플레이 덮어쓰기"
+ },
+ {
+  "label": "GUI:OverwriteReplay",
+  "text": "리플레이를 덮어쓰시겠습니까?"
+ },
+ {
+  "label": "GUI:ConfirmDelete",
+  "text": "이 게임을 삭제하시겠습니까?"
+ },
+ {
+  "label": "GUI:DeleteGame",
+  "text": "삭제"
+ },
+ {
+  "label": "GUI:GameSaveComplete",
+  "text": "*** 게임 저장됨 ***"
+ },
+ {
+  "label": "CAMPAIGN:USA",
+  "text": "미국"
+ },
+ {
+  "label": "CAMPAIGN:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "CAMPAIGN:China",
+  "text": "중국"
+ },
+ {
+  "label": "GUI:Easy",
+  "text": "쉬움"
+ },
+ {
+  "label": "GUI:Hard",
+  "text": "어려움"
+ },
+ {
+  "label": "GUI:SelectDifficulty",
+  "text": "난이도 선택"
+ },
+ {
+  "label": "GUI:NumPlayersOnline",
+  "text": "접속 중인 플레이어 수: %d"
+ },
+ {
+  "label": "GUI:AllowableMaps",
+  "text": "허용 맵"
+ },
+ {
+  "label": "GUI:QuickMatchTitle",
+  "text": "빠른 대전"
+ },
+ {
+  "label": "LOAD:TRAINING_1",
+  "text": "- GLA가 화학 무기 공장을 장악하고 있다"
+ },
+ {
+  "label": "LOAD:TRAINING_2",
+  "text": "- 화학 무기 공장을 파괴하라"
+ },
+ {
+  "label": "LOAD:TRAINING_3",
+  "text": "- 위협을 제거하라"
+ },
+ {
+  "label": "LOAD:USA01_1",
+  "text": "- GLA가 스커드 스톰을 보유하고 있다"
+ },
+ {
+  "label": "LOAD:USA01_2",
+  "text": "- 그들의 근거지는 바그다드다"
+ },
+ {
+  "label": "LOAD:USA01_3",
+  "text": "- 이 위협을 제거하라"
+ },
+ {
+  "label": "LOAD:USA02_1",
+  "text": "- GLA 지도부의 행방이 예멘으로 추적되었다"
+ },
+ {
+  "label": "LOAD:USA02_2",
+  "text": "- 코만치가 범죄자들을 수색 중이다"
+ },
+ {
+  "label": "LOAD:USA02_3",
+  "text": "- 포로가 된 조종사들을 구출하라"
+ },
+ {
+  "label": "LOAD:USA03_1",
+  "text": "- 미군이 전면 후퇴 중이다"
+ },
+ {
+  "label": "LOAD:USA03_2",
+  "text": "- GLA가 바짝 추격하고 있다"
+ },
+ {
+  "label": "LOAD:USA03_3",
+  "text": "- 후퇴하는 부대를 엄호하라"
+ },
+ {
+  "label": "LOAD:USA04_1",
+  "text": "- GLA 훈련소가 발견되었다"
+ },
+ {
+  "label": "LOAD:USA04_2",
+  "text": "- 이 위협을 제거하라"
+ },
+ {
+  "label": "LOAD:USA06_1",
+  "text": "- 카바라 시에서 평화 회담이 열린다"
+ },
+ {
+  "label": "LOAD:USA06_2",
+  "text": "- GLA는 믿을 수 없다"
+ },
+ {
+  "label": "LOAD:USA06_3",
+  "text": "- 경계를 늦추지 마라"
+ },
+ {
+  "label": "LOAD:USA07_1",
+  "text": "- 변절한 중국 장군이 GLA와 손잡았다"
+ },
+ {
+  "label": "LOAD:USA07_2",
+  "text": "- 적은 터널 네트워크에 의존한다"
+ },
+ {
+  "label": "LOAD:USA07_3",
+  "text": "- 즉시 공격을 개시해야 한다"
+ },
+ {
+  "label": "LOAD:USA08_1",
+  "text": "- 미군이 GLA 수도를 포위했다"
+ },
+ {
+  "label": "LOAD:USA08_2",
+  "text": "- GLA는 생물 무기를 보유하고 있다"
+ },
+ {
+  "label": "LOAD:USA08_3",
+  "text": "- 중국이 미국 지원을 약속했다"
+ },
+ {
+  "label": "LOAD:USA08_4",
+  "text": "- GLA를 반드시 제거해야 한다"
+ },
+ {
+  "label": "LOAD:China01_1",
+  "text": "- 중국의 힘을 과시하는 열병식이 열린다"
+ },
+ {
+  "label": "LOAD:China01_2",
+  "text": "- 중국의 군사 퍼레이드를 보호하라"
+ },
+ {
+  "label": "LOAD:China01_3",
+  "text": "- 베이징 지역의 모든 위협을 제거하라"
+ },
+ {
+  "label": "LOAD:China02_1",
+  "text": "- 홍콩에서 GLA 조직이 발견되었다"
+ },
+ {
+  "label": "LOAD:China02_2",
+  "text": "- 테러리스트들이 컨벤션 센터를 거점으로 쓰고 있다"
+ },
+ {
+  "label": "LOAD:China02_3",
+  "text": "- 조직을 뿌리 뽑아야 한다"
+ },
+ {
+  "label": "LOAD:China03_1",
+  "text": "- GLA가 싼샤 댐 지역에 들끓고 있다"
+ },
+ {
+  "label": "LOAD:China03_2",
+  "text": "- 적 증원군이 아군을 위협하고 있다"
+ },
+ {
+  "label": "LOAD:China03_3",
+  "text": "- 중국군으로 GLA를 쓸어버려라"
+ },
+ {
+  "label": "LOAD:China04_1",
+  "text": "- GLA가 생물 독소 공장을 세웠다"
+ },
+ {
+  "label": "LOAD:China04_2",
+  "text": "- 공작원 블랙 로투스의 도움으로 공장을 찾아라"
+ },
+ {
+  "label": "LOAD:China04_3",
+  "text": "- 공습으로 파괴를 지원할 것이다"
+ },
+ {
+  "label": "LOAD:China05_1",
+  "text": "- GLA가 바리크치를 점령했다"
+ },
+ {
+  "label": "LOAD:China05_2",
+  "text": "- 미군이 항공 지원을 제공할 것이다"
+ },
+ {
+  "label": "LOAD:China05_3",
+  "text": "- 융단 폭격을 요청해 GLA를 섬멸하라"
+ },
+ {
+  "label": "LOAD:China06_1",
+  "text": "- GLA가 중국 철도 하나를 장악했다"
+ },
+ {
+  "label": "LOAD:China06_2",
+  "text": "- GLA가 알다스탄 비슈케크에 집결 중이다"
+ },
+ {
+  "label": "LOAD:China06_3",
+  "text": "- 블랙 로투스로 철교를 파괴하라"
+ },
+ {
+  "label": "LOAD:China07_1",
+  "text": "- 타지키스탄에서 GLA 아시아 테러 조직이 확인되었다"
+ },
+ {
+  "label": "LOAD:China07_2",
+  "text": "- 핵무기 사용이 승인되었다"
+ },
+ {
+  "label": "LOAD:GLA01_1",
+  "text": "- 많은 형제들을 잃었다"
+ },
+ {
+  "label": "LOAD:GLA01_2",
+  "text": "- 중국의 방어선이 얇게 퍼져 있다"
+ },
+ {
+  "label": "LOAD:GLA01_3",
+  "text": "- 중국군을 섬멸하라"
+ },
+ {
+  "label": "LOAD:GLA02_1",
+  "text": "- UN 보급품이 알마티 지역으로 향하고 있다"
+ },
+ {
+  "label": "LOAD:GLA02_2",
+  "text": "- 우리 대의를 위해 이 보급품을 가로채라"
+ },
+ {
+  "label": "LOAD:GLA02_3",
+  "text": "- 보급품을 모아 GLA에 자금을 불어넣어라"
+ },
+ {
+  "label": "LOAD:GLA03_1",
+  "text": "- 압제자들이 잠불 주민들을 타락시켰다"
+ },
+ {
+  "label": "LOAD:GLA03_2",
+  "text": "- 그들의 유일한 진정한 자유는 죽음뿐이다"
+ },
+ {
+  "label": "LOAD:GLA03_3",
+  "text": "- 독소 트랙터로 그들을 제거하라"
+ },
+ {
+  "label": "LOAD:GLA04_1",
+  "text": "- 아스타나에서 새 동맹을 찾았다"
+ },
+ {
+  "label": "LOAD:GLA04_2",
+  "text": "- 그들을 이용해 적을 괴롭힐 수 있다"
+ },
+ {
+  "label": "LOAD:GLA04_3",
+  "text": "- 아스타나가 불타는 동안 도시를 약탈해 보급품을 챙겨라"
+ },
+ {
+  "label": "LOAD:GLA05_1",
+  "text": "- 미국의 오만에 반드시 응징해야 한다"
+ },
+ {
+  "label": "LOAD:GLA05_2",
+  "text": "- 이 지역을 제국주의의 손아귀에서 지켜라"
+ },
+ {
+  "label": "LOAD:GLA05_3",
+  "text": "- 그들의 '우월한' 공군을 파괴하라"
+ },
+ {
+  "label": "LOAD:GLA06_1",
+  "text": "- 아랄해에서 온 소식이 좋지 않다"
+ },
+ {
+  "label": "LOAD:GLA06_2",
+  "text": "- 미군이 우리의 독소 저장 시설을 장악했다"
+ },
+ {
+  "label": "LOAD:GLA06_3",
+  "text": "- 저장 벙커를 되찾아라"
+ },
+ {
+  "label": "LOAD:GLA07_1",
+  "text": "- GLA 변절자들이 중국과 손잡았다"
+ },
+ {
+  "label": "LOAD:GLA07_2",
+  "text": "- 호송대를 습격해 그들의 보급선을 끊어라"
+ },
+ {
+  "label": "LOAD:GLA07_3",
+  "text": "- 배신자들과 그 중국 동맹을 제거하라"
+ },
+ {
+  "label": "LOAD:GLA08_1",
+  "text": "- 우주 기지를 장악하라"
+ },
+ {
+  "label": "LOAD:GLA08_2",
+  "text": "- 그곳의 미사일이 적에게 치명적인 독소를 퍼부을 것이다"
+ },
+ {
+  "label": "LOAD:GLA08_3",
+  "text": "- 우리의 운명이 눈앞에 있다"
+ },
+ {
+  "label": "TOOLTIP:DownloadProgress",
+  "text": "다운로드 진행률"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz10",
+  "text": "전격 훈장\n10분 안에 상대를 물리치면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz5",
+  "text": "전격 훈장\n5분 안에 상대를 물리치면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSADisabled",
+  "text": "미국 충성 훈장\n미국으로 20게임 이상 연속 플레이하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChinaDisabled",
+  "text": "중국 충성 훈장\n중국으로 20게임 이상 연속 플레이하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLADisabled",
+  "text": "GLA 충성 훈장\nGLA로 20게임 이상 연속 플레이하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTankDisabled",
+  "text": "전차 훈장\n컴퓨터 상대와의 게임에서 전차를 50대 이상 생산하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWingDisabled",
+  "text": "항공단 훈장\n컴퓨터 상대와의 게임에서 항공기를 20대 이상 생산하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEnduranceDisabled",
+  "text": "인내 훈장\n모든 맵을 클리어하면 동, 은, 금메달을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSADisabled",
+  "text": "미국 캠페인 훈장\n미국 캠페인을 완료하면 받을 수 있습니다\n어려움 난이도로 완료하면 최고 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChinaDisabled",
+  "text": "중국 캠페인 훈장\n중국 캠페인을 완료하면 받을 수 있습니다\n어려움 난이도로 완료하면 최고 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLADisabled",
+  "text": "GLA 캠페인 훈장\nGLA 캠페인을 완료하면 받을 수 있습니다\n어려움 난이도로 완료하면 최고 훈장을 받습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallengeDisabled",
+  "text": "도전 훈장\n어려움 난이도의 컴퓨터 상대 1~7명을 물리치면 받을 수 있습니다"
+ },
+ {
+  "label": "GUI:BuildingsKilledStat",
+  "text": "파괴한 건물"
+ },
+ {
+  "label": "GUI:BuildingsBuiltStat",
+  "text": "건설한 건물"
+ },
+ {
+  "label": "GUI:BuildingsLostStat",
+  "text": "잃은 건물"
+ },
+ {
+  "label": "GUI:QMWinStreak",
+  "text": "빠른 대전 연승"
+ },
+ {
+  "label": "GUI:LastLadder",
+  "text": "마지막 래더"
+ },
+ {
+  "label": "GUI:LobbyJoined",
+  "text": "%ls에 참가했습니다"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoAll",
+  "text": "이메일, 닉네임, 비밀번호를 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailNickname",
+  "text": "이메일과 닉네임을 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailPassword",
+  "text": "이메일과 비밀번호를 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ }
+]

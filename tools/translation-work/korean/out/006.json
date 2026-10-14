@@ -1,0 +1,802 @@
+[
+ {
+  "label": "RADAR:StructureUnderAttack",
+  "text": "건물이 공격받고 있습니다"
+ },
+ {
+  "label": "RADAR:UnderAttack",
+  "text": "공격받고 있습니다"
+ },
+ {
+  "label": "RADAR:Infiltration",
+  "text": "적 침투 감지"
+ },
+ {
+  "label": "UPGRADE:AdvancedTraining",
+  "text": "고급 훈련"
+ },
+ {
+  "label": "UPGRADE:AmericaLaserMissiles",
+  "text": "미국 레이저 미사일"
+ },
+ {
+  "label": "UPGRADE:Mines",
+  "text": "지뢰"
+ },
+ {
+  "label": "UPGRADE:Radar",
+  "text": "레이더"
+ },
+ {
+  "label": "UPGRADE:OverlordGattlingCannon",
+  "text": "오버로드 개틀링 캐논"
+ },
+ {
+  "label": "UPGRADE:OverlordPropagandaTower",
+  "text": "오버로드 선전탑"
+ },
+ {
+  "label": "UPGRADE:OverlordBattleBunker",
+  "text": "오버로드 전투 벙커"
+ },
+ {
+  "label": "UPGRADE:ControlRods",
+  "text": "제어봉"
+ },
+ {
+  "label": "UPGRADE:ScoutDrone",
+  "text": "정찰 드론"
+ },
+ {
+  "label": "UPGRADE:BattleDrone",
+  "text": "전투 드론"
+ },
+ {
+  "label": "UPGRADE:RangerFlashBangGrenade",
+  "text": "레인저 섬광탄"
+ },
+ {
+  "label": "UPGRADE:HoverTank",
+  "text": "호버 전차"
+ },
+ {
+  "label": "UPGRADE:TomahawkRemoteControl",
+  "text": "순항 미사일"
+ },
+ {
+  "label": "UPGRADE:AircraftFuel",
+  "text": "항공기 연료"
+ },
+ {
+  "label": "UPGRADE:LaserMissiles",
+  "text": "레이저 미사일"
+ },
+ {
+  "label": "UPGRADE:TOWMissile",
+  "text": "TOW 미사일"
+ },
+ {
+  "label": "UPGRADE:ComancheRocketPods",
+  "text": "코만치 로켓 포드"
+ },
+ {
+  "label": "UPGRADE:RailGun",
+  "text": "레일건"
+ },
+ {
+  "label": "UPGRADE:Nationalism",
+  "text": "민족주의"
+ },
+ {
+  "label": "UPGRADE:AntiTankGrenade",
+  "text": "대전차 수류탄"
+ },
+ {
+  "label": "UPGRADE:VehicleHack",
+  "text": "차량 해킹"
+ },
+ {
+  "label": "UPGRADE:IRGoggles",
+  "text": "적외선 고글"
+ },
+ {
+  "label": "UPGRADE:BlackNapalm",
+  "text": "블랙 네이팜"
+ },
+ {
+  "label": "UPGRADE:ChainGuns",
+  "text": "체인건"
+ },
+ {
+  "label": "UPGRADE:SubliminalMessaging",
+  "text": "잠재의식 메시지"
+ },
+ {
+  "label": "UPGRADE:UraniumShells",
+  "text": "우라늄탄"
+ },
+ {
+  "label": "UPGRADE:NuclearTanks",
+  "text": "핵 전차"
+ },
+ {
+  "label": "UPGRADE:StunBullets",
+  "text": "기절탄"
+ },
+ {
+  "label": "UPGRADE:TranqDarts",
+  "text": "마취 다트"
+ },
+ {
+  "label": "UPGRADE:APBullets",
+  "text": "철갑탄"
+ },
+ {
+  "label": "UPGRADE:BioBomb",
+  "text": "생물 폭탄"
+ },
+ {
+  "label": "UPGRADE:HighExplosiveBomb",
+  "text": "고폭 폭탄"
+ },
+ {
+  "label": "UPGRADE:ArmTheMob",
+  "text": "폭도 무장"
+ },
+ {
+  "label": "UPGRADE:ScorpionRocket",
+  "text": "스콜피온 로켓"
+ },
+ {
+  "label": "UPGRADE:SCUDLauncherExplosiveWarhead",
+  "text": "폭발 탄두"
+ },
+ {
+  "label": "UPGRADE:SCUDLauncherAnthraxWarhead",
+  "text": "탄저균 탄두"
+ },
+ {
+  "label": "UPGRADE:BuggyAmmo",
+  "text": "로켓 버기 탄약"
+ },
+ {
+  "label": "UPGRADE:AnthraxBeta",
+  "text": "탄저균 베타"
+ },
+ {
+  "label": "UPGRADE:ToxinShells",
+  "text": "독소탄"
+ },
+ {
+  "label": "UPGRADE:JunkRepair",
+  "text": "고철 수리"
+ },
+ {
+  "label": "UPGRADE:Camouflage",
+  "text": "위장"
+ },
+ {
+  "label": "UPGRADE:CompositeArmor",
+  "text": "복합 장갑"
+ },
+ {
+  "label": "OBJECT:Beacon",
+  "text": "비컨"
+ },
+ {
+  "label": "OBJECT:Dam",
+  "text": "댐"
+ },
+ {
+  "label": "OBJECT:CommandCenter",
+  "text": "사령부"
+ },
+ {
+  "label": "OBJECT:ColdFusionReactor",
+  "text": "상온 핵융합로"
+ },
+ {
+  "label": "OBJECT:NuclearReactor",
+  "text": "원자로"
+ },
+ {
+  "label": "OBJECT:DemoTrap",
+  "text": "폭파 함정"
+ },
+ {
+  "label": "OBJECT:PowerPlant",
+  "text": "발전소"
+ },
+ {
+  "label": "OBJECT:DetentionCamp",
+  "text": "수용소"
+ },
+ {
+  "label": "OBJECT:StrategyCenter",
+  "text": "전략 센터"
+ },
+ {
+  "label": "OBJECT:Airfield",
+  "text": "비행장"
+ },
+ {
+  "label": "OBJECT:SupplyCenter",
+  "text": "보급 센터"
+ },
+ {
+  "label": "OBJECT:AmericaSupplyDropZone",
+  "text": "보급품 투하 지점"
+ },
+ {
+  "label": "OBJECT:SupplyStash",
+  "text": "보급 은닉처"
+ },
+ {
+  "label": "OBJECT:Barracks",
+  "text": "병영"
+ },
+ {
+  "label": "OBJECT:BlackMarket",
+  "text": "암시장"
+ },
+ {
+  "label": "OBJECT:WarFactory",
+  "text": "군수 공장"
+ },
+ {
+  "label": "OBJECT:ArmsDealer",
+  "text": "무기상"
+ },
+ {
+  "label": "OBJECT:AmmoCache",
+  "text": "탄약 은닉처"
+ },
+ {
+  "label": "OBJECT:AmphibiousTransport",
+  "text": "상륙 수송선"
+ },
+ {
+  "label": "OBJECT:AutoFerry",
+  "text": "자동차 페리"
+ },
+ {
+  "label": "OBJECT:TrainGuide",
+  "text": "열차 가이드"
+ },
+ {
+  "label": "OBJECT:AngryMob",
+  "text": "성난 폭도"
+ },
+ {
+  "label": "OBJECT:TankHunter",
+  "text": "탱크 헌터"
+ },
+ {
+  "label": "OBJECT:Apartment",
+  "text": "아파트"
+ },
+ {
+  "label": "OBJECT:ChemicalFactory",
+  "text": "화학 공장"
+ },
+ {
+  "label": "OBJECT:GovBuilding",
+  "text": "정부 건물"
+ },
+ {
+  "label": "OBJECT:TechHospital",
+  "text": "병원 -- 점령하면 모든 보병이 자동으로 치료됩니다"
+ },
+ {
+  "label": "OBJECT:ApartmentComplex",
+  "text": "아파트 단지"
+ },
+ {
+  "label": "OBJECT:SpyPost",
+  "text": "감시 초소"
+ },
+ {
+  "label": "OBJECT:SupplyPile",
+  "text": "보급품 더미"
+ },
+ {
+  "label": "OBJECT:TrainStation",
+  "text": "기차역"
+ },
+ {
+  "label": "OBJECT:TechRadioStation",
+  "text": "라디오 방송국"
+ },
+ {
+  "label": "OBJECT:TechOilDerrick",
+  "text": "유정 -- 점령하면 추가 자금을 받습니다"
+ },
+ {
+  "label": "OBJECT:Arcade",
+  "text": "오락실"
+ },
+ {
+  "label": "OBJECT:Aurora",
+  "text": "오로라 폭격기"
+ },
+ {
+  "label": "OBJECT:A10Thunderbolt",
+  "text": "A10 썬더볼트"
+ },
+ {
+  "label": "OBJECT:AVPOWTRUCK",
+  "text": "포로 호송 트럭"
+ },
+ {
+  "label": "OBJECT:B52",
+  "text": "B52"
+ },
+ {
+  "label": "OBJECT:BMW",
+  "text": "자동차"
+ },
+ {
+  "label": "OBJECT:Bank",
+  "text": "은행"
+ },
+ {
+  "label": "OBJECT:BarnCoop",
+  "text": "헛간 우리"
+ },
+ {
+  "label": "OBJECT:BarnShed",
+  "text": "헛간 창고"
+ },
+ {
+  "label": "OBJECT:Barrel",
+  "text": "통"
+ },
+ {
+  "label": "OBJECT:BattleDrone",
+  "text": "전투 드론"
+ },
+ {
+  "label": "OBJECT:BattleMaster",
+  "text": "배틀마스터"
+ },
+ {
+  "label": "OBJECT:Battleship",
+  "text": "전함"
+ },
+ {
+  "label": "OBJECT:BigRig",
+  "text": "대형 트럭"
+ },
+ {
+  "label": "OBJECT:BikeRack",
+  "text": "자전거 거치대"
+ },
+ {
+  "label": "OBJECT:Billboard",
+  "text": "광고판"
+ },
+ {
+  "label": "OBJECT:Bird",
+  "text": "새"
+ },
+ {
+  "label": "OBJECT:BombTruck",
+  "text": "폭탄 트럭"
+ },
+ {
+  "label": "OBJECT:Boulders",
+  "text": "바위"
+ },
+ {
+  "label": "OBJECT:Boxes",
+  "text": "상자"
+ },
+ {
+  "label": "OBJECT:BrickWall",
+  "text": "벽돌 벽"
+ },
+ {
+  "label": "OBJECT:BrokenWall",
+  "text": "무너진 벽"
+ },
+ {
+  "label": "OBJECT:Bunker",
+  "text": "벙커"
+ },
+ {
+  "label": "OBJECT:BurningBarricade",
+  "text": "불타는 바리케이드"
+ },
+ {
+  "label": "OBJECT:Checkpoint",
+  "text": "검문소"
+ },
+ {
+  "label": "OBJECT:BusStop",
+  "text": "버스 정류장"
+ },
+ {
+  "label": "OBJECT:Bush",
+  "text": "덤불"
+ },
+ {
+  "label": "OBJECT:Camaro",
+  "text": "자동차"
+ },
+ {
+  "label": "OBJECT:CarBug",
+  "text": "자동차"
+ },
+ {
+  "label": "OBJECT:CarSwatchEuro",
+  "text": "자동차"
+ },
+ {
+  "label": "OBJECT:CargoLoadingCranes",
+  "text": "화물 크레인"
+ },
+ {
+  "label": "OBJECT:CargoNet",
+  "text": "화물망"
+ },
+ {
+  "label": "OBJECT:Cart",
+  "text": "수레"
+ },
+ {
+  "label": "OBJECT:ChainLinkFence",
+  "text": "철망 울타리"
+ },
+ {
+  "label": "OBJECT:Chalet",
+  "text": "샬레"
+ },
+ {
+  "label": "OBJECT:CheckPointCrossingGuard",
+  "text": "검문소"
+ },
+ {
+  "label": "OBJECT:Chinook",
+  "text": "치누크"
+ },
+ {
+  "label": "OBJECT:Church",
+  "text": "교회"
+ },
+ {
+  "label": "OBJECT:Clete",
+  "text": "계선주"
+ },
+ {
+  "label": "OBJECT:ClothesLine",
+  "text": "빨랫줄"
+ },
+ {
+  "label": "OBJECT:Comanche",
+  "text": "코만치"
+ },
+ {
+  "label": "OBJECT:ComancheHull",
+  "text": "코만치 동체"
+ },
+ {
+  "label": "OBJECT:CompactCar",
+  "text": "소형차"
+ },
+ {
+  "label": "OBJECT:Ambassador",
+  "text": "대사"
+ },
+ {
+  "label": "OBJECT:Redguard",
+  "text": "레드가드"
+ },
+ {
+  "label": "OBJECT:ConstructionBarricade",
+  "text": "공사용 바리케이드"
+ },
+ {
+  "label": "OBJECT:ConvenienceStore",
+  "text": "편의점"
+ },
+ {
+  "label": "OBJECT:ConvoyTruck",
+  "text": "호송 트럭"
+ },
+ {
+  "label": "OBJECT:Cottage",
+  "text": "오두막"
+ },
+ {
+  "label": "OBJECT:Crate",
+  "text": "보급 상자"
+ },
+ {
+  "label": "OBJECT:CrossingGuard",
+  "text": "교통 안내원"
+ },
+ {
+  "label": "OBJECT:Crusader",
+  "text": "크루세이더"
+ },
+ {
+  "label": "OBJECT:Paladin",
+  "text": "팔라딘"
+ },
+ {
+  "label": "OBJECT:DaisyCutterBomb",
+  "text": "연료 기화 폭탄"
+ },
+ {
+  "label": "OBJECT:BlackMarketNuke",
+  "text": "암시장 핵폭탄"
+ },
+ {
+  "label": "OBJECT:ToxinTank",
+  "text": "독소 전차"
+ },
+ {
+  "label": "OBJECT:AnthraxBomb",
+  "text": "탄저균 폭탄"
+ },
+ {
+  "label": "OBJECT:CarpetBomb",
+  "text": "융단 폭격"
+ },
+ {
+  "label": "OBJECT:ClusterMinesBomb",
+  "text": "집속 지뢰"
+ },
+ {
+  "label": "OBJECT:EMPPulseBomb",
+  "text": "EMP 펄스"
+ },
+ {
+  "label": "OBJECT:NeutronMissile",
+  "text": "핵미사일"
+ },
+ {
+  "label": "OBJECT:Dealership",
+  "text": "자동차 대리점"
+ },
+ {
+  "label": "OBJECT:Dirt",
+  "text": "흙"
+ },
+ {
+  "label": "OBJECT:Docks",
+  "text": "부두"
+ },
+ {
+  "label": "OBJECT:DogwoodTree",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:Dozer",
+  "text": "건설 도저"
+ },
+ {
+  "label": "OBJECT:Dragon",
+  "text": "드래곤 전차"
+ },
+ {
+  "label": "OBJECT:ElectricRetail",
+  "text": "전자제품 매장"
+ },
+ {
+  "label": "OBJECT:ElectricalTransformer",
+  "text": "변압기"
+ },
+ {
+  "label": "OBJECT:FireHydrant",
+  "text": "소화전"
+ },
+ {
+  "label": "OBJECT:StructureMine",
+  "text": "지뢰"
+ },
+ {
+  "label": "OBJECT:ClusterMine",
+  "text": "지뢰"
+ },
+ {
+  "label": "OBJECT:FireStorm",
+  "text": "화염 폭풍"
+ },
+ {
+  "label": "OBJECT:FlamingInfantry",
+  "text": "불타는 보병"
+ },
+ {
+  "label": "OBJECT:ToxicInfantry",
+  "text": "독성 보병"
+ },
+ {
+  "label": "OBJECT:FoodCart",
+  "text": "음식 수레"
+ },
+ {
+  "label": "OBJECT:Fountain",
+  "text": "분수"
+ },
+ {
+  "label": "OBJECT:FruitStand",
+  "text": "과일 가판대"
+ },
+ {
+  "label": "OBJECT:Gargoyle",
+  "text": "가고일"
+ },
+ {
+  "label": "OBJECT:GasStation",
+  "text": "주유소"
+ },
+ {
+  "label": "OBJECT:GasStorageFacility",
+  "text": "가스 저장 시설"
+ },
+ {
+  "label": "OBJECT:GattlingTank",
+  "text": "개틀링 전차"
+ },
+ {
+  "label": "OBJECT:GrassHut",
+  "text": "초가집"
+ },
+ {
+  "label": "OBJECT:Gravel",
+  "text": "자갈"
+ },
+ {
+  "label": "OBJECT:FlashBangGrenade",
+  "text": "섬광탄"
+ },
+ {
+  "label": "OBJECT:TankShell",
+  "text": "전차 포탄"
+ },
+ {
+  "label": "OBJECT:Rebel",
+  "text": "반군"
+ },
+ {
+  "label": "OBJECT:JarmenKell",
+  "text": "자르멘 켈"
+ },
+ {
+  "label": "OBJECT:GuardTower",
+  "text": "경비탑"
+ },
+ {
+  "label": "OBJECT:GuardianControlCenter",
+  "text": "가디언 관제 센터"
+ },
+ {
+  "label": "OBJECT:GuardianDrone",
+  "text": "가디언 드론"
+ },
+ {
+  "label": "OBJECT:BlackLotus",
+  "text": "블랙 로투스"
+ },
+ {
+  "label": "OBJECT:Hanger",
+  "text": "격납고"
+ },
+ {
+  "label": "OBJECT:HarvardsOffice",
+  "text": "쓰레기통"
+ },
+ {
+  "label": "OBJECT:Hedge",
+  "text": "산울타리"
+ },
+ {
+  "label": "OBJECT:HighwaySign",
+  "text": "고속도로 표지판"
+ },
+ {
+  "label": "OBJECT:Hijacker",
+  "text": "하이재커"
+ },
+ {
+  "label": "OBJECT:AngryMobNexus",
+  "text": "<<성난 폭도>>"
+ },
+ {
+  "label": "OBJECT:Hotel",
+  "text": "호텔"
+ },
+ {
+  "label": "OBJECT:Humvee",
+  "text": "험비"
+ },
+ {
+  "label": "OBJECT:POWTruck",
+  "text": "포로 호송 트럭"
+ },
+ {
+  "label": "OBJECT:IndustrialBuilding",
+  "text": "산업 건물"
+ },
+ {
+  "label": "OBJECT:InfernoCannon",
+  "text": "인페르노 캐논"
+ },
+ {
+  "label": "OBJECT:JapaneseLantern",
+  "text": "일본식 등롱"
+ },
+ {
+  "label": "OBJECT:JunkCar",
+  "text": "폐차"
+ },
+ {
+  "label": "OBJECT:Limo",
+  "text": "리무진"
+ },
+ {
+  "label": "OBJECT:Lumber",
+  "text": "목재"
+ },
+ {
+  "label": "OBJECT:MIG",
+  "text": "MiG"
+ },
+ {
+  "label": "OBJECT:MailBox",
+  "text": "우체통"
+ },
+ {
+  "label": "OBJECT:ManHoleCover",
+  "text": "맨홀 뚜껑"
+ },
+ {
+  "label": "OBJECT:MapleTree",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:MarketVendor",
+  "text": "시장 상인"
+ },
+ {
+  "label": "OBJECT:Medic",
+  "text": "구급차"
+ },
+ {
+  "label": "OBJECT:MegaMall",
+  "text": "대형 쇼핑몰"
+ },
+ {
+  "label": "OBJECT:Missile",
+  "text": "미사일"
+ },
+ {
+  "label": "OBJECT:MissileTeam",
+  "text": "미사일 디펜더"
+ },
+ {
+  "label": "OBJECT:Moat",
+  "text": "해자"
+ },
+ {
+  "label": "OBJECT:MogadishuHighrise",
+  "text": "고층 건물"
+ },
+ {
+  "label": "OBJECT:NewsStand",
+  "text": "신문 가판대"
+ },
+ {
+  "label": "OBJECT:NightClub",
+  "text": "나이트클럽"
+ },
+ {
+  "label": "OBJECT:NotAMosque",
+  "text": "돔"
+ },
+ {
+  "label": "OBJECT:NuclearMissile",
+  "text": "핵미사일"
+ }
+]

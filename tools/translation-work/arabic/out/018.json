@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BioClassNumber_Pos8",
+  "text": "لا ينطبق"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos8",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos8",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos9",
+  "text": "الجنرالة ليانغ"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos9",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos9",
+  "text": "قاعدة التنين، لانتشو، الصين"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos9",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos9",
+  "text": "جنرالة التنين، فئة AAAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos9",
+  "text": "جيش التحرير الشعبي - قوات النخبة"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos9",
+  "text": "تطالب الجنرالة ليونغ \"النمرة\" ليانغ باستخدام كل التقنيات الأخرى لهزيمة أعدائها"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos9",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos9",
+  "text": "كانت هذه منافسة مثيرة. ربما تتحداني مرة أخرى."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos9",
+  "text": "طوّر مهاراتك ثم تحدّني مرة أخرى."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos10",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos10",
+  "text": "33"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos10",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos10",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos10",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos10",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos11",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos11",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos11",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos11",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos11",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos11",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_GLA",
+  "text": "يفضّل جيش التحرير العالمي التكتيكات الملتوية والماكرة لهزيمة أعدائه"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_China",
+  "text": "تستخدم الصين النار والأعداد الساحقة لهزيمة أعدائها"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_USA",
+  "text": "تستخدم الولايات المتحدة الأسلحة المتطورة والمهارة لهزيمة أعدائها"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Random",
+  "text": "هذا الخيار يختار فصيلًا عشوائيًا"
+ },
+ {
+  "label": "GUI:ChallengeWinText",
+  "text": "تهانينا، لقد هزمت %s"
+ },
+ {
+  "label": "GUI:ChallengeLossText",
+  "text": "لقد هزمك %s"
+ },
+ {
+  "label": "CREDITS:DevelopmentDirector",
+  "text": "مدير التطوير"
+ },
+ {
+  "label": "CREDITS:GeneralManager",
+  "text": "المدير العام لـ EALA"
+ },
+ {
+  "label": "CREDITS:LeadArtist",
+  "text": "كبير الفنانين"
+ },
+ {
+  "label": "CREDITS:QADirector",
+  "text": "مدير ضمان الجودة"
+ },
+ {
+  "label": "CREDITS:SrTestLead",
+  "text": "كبير قادة الاختبار"
+ },
+ {
+  "label": "CREDITS:AssistantMultiplayerTestLead",
+  "text": "مساعد قائد اختبار اللعب الجماعي"
+ },
+ {
+  "label": "CREDITS:TestAnalyst",
+  "text": "محلل الاختبار"
+ },
+ {
+  "label": "CREDITS:AssistantProducer",
+  "text": "منتج مساعد"
+ },
+ {
+  "label": "CREDITS:CameoPhotoshootStudio",
+  "text": "الصور مُلتقطة في Out West Studio"
+ },
+ {
+  "label": "CREDITS:Models",
+  "text": "العارضون"
+ },
+ {
+  "label": "CREDITS:Actors",
+  "text": "الممثلون"
+ },
+ {
+  "label": "CREDITS:VisualEffectsAndEditing",
+  "text": "المؤثرات المرئية والمونتاج"
+ },
+ {
+  "label": "CREDITS:NewsReporterVideos",
+  "text": "فيديوهات المراسلين الإخباريين"
+ },
+ {
+  "label": "CREDITS:DirectorOfProductLocalization",
+  "text": "مدير تعريب المنتجات، EALA"
+ },
+ {
+  "label": "CREDITS:LocalizationAssistance",
+  "text": "المساعدة في التعريب"
+ },
+ {
+  "label": "ACADEMY:Eva",
+  "text": "التحليل التكتيكي"
+ },
+ {
+  "label": "ACADEMY:BuildAllStructures",
+  "text": "أيها الجنرال، حين تكون في ساحة المعركة من المهم أن تستفيد من كل الأدوات المتاحة لك. احرص على بناء جميع المنشآت، وعليك الحفاظ على قوة عسكرية متينة"
+ },
+ {
+  "label": "ACADEMY:BuildSupplyCenterEarlier",
+  "text": "أيها الجنرال، من أهم مهام القائد القوي أن يضمن وفرة الإمدادات لجنوده. ننصحك ببناء مركز إمدادات أو مخزن إمدادات كلما بدأت مهمة. الإمدادات تجلب المال، والمال يجلب النصر"
+ },
+ {
+  "label": "ACADEMY:TryBuildingRadar",
+  "text": "ضباب الحرب يحيط بنا جميعًا، ومن أفضل الطرق لرؤية ما وراء هذا الضباب الكثيف الرادار. لكل فصيل طريقته الخاصة في امتلاك عين في السماء: مركز القيادة الأمريكي يأتي مزوّدًا بالرادار، ومركز القيادة الصيني يجب ترقيته، أما جيش التحرير العالمي فعليه بناء شاحنة رادار من تاجر الأسلحة"
+ },
+ {
+  "label": "ACADEMY:BuildMorePeons",
+  "text": "اسأل أي جنرال وسيؤكد لك قاعدة بسيطة: الجنود البسطاء هم من يصنعون الجيش. لبناء قاعدتك عليك تشغيل جرافاتك أو عمالك، فهؤلاء مفتاح نجاحك المستقبلي، فلا تنسهم!"
+ },
+ {
+  "label": "ACADEMY:TryCapturingStructures",
+  "text": "أيها الجنرال، أحيانًا يكون أخذ ما تريده أسهل من العمل من أجله. إن اشتريت ترقية \"الاستيلاء\" من الثكنات فستتمكن من سرقة منشآت العدو. وتنتشر في ساحة المعركة أيضًا مبانٍ تقنية يمكنها تعزيز جيشك أكثر"
+ },
+ {
+  "label": "ACADEMY:SpendGeneralsPoints",
+  "text": "مع الحرب تأتي الغنائم. في كل مرة تدمّر فيها عدوًا تقترب من نقاط جنرالات إضافية. يمكنك إنفاقها بالضغط على زر \"النجمة\" في الجانب الأيمن من شريط القيادة. افتح قائمة نقاط الجنرالات وأنفق نقاطك التي تعبت عليها على ألعاب حرب جديدة"
+ },
+ {
+  "label": "ACADEMY:TryUsingSuperweapons",
+  "text": "ما فائدة جمع نقاط الجنرالات إن لم تستخدمها؟ إن اشتريت قدرات جنرالات بنقاطك فستظهر أيقونة في الجانب الأيمن من الشاشة. اضغطها فقط وشاهد بدء الألعاب النارية. كلما أنفقت نقاطًا أكثر، كانت القدرة أقوى"
+ },
+ {
+  "label": "ACADEMY:TryGarrisoningAStructure",
+  "text": "يمكن للجنود أن يكونوا فعّالين في العراء، لكنهم أشد فتكًا حين يتحصنون داخل المباني المدنية. حدّد جنودك وأرسلهم إلى مبنى فارغ، وستحميهم الجدران - إلا إن جاءتهم قنبلة صاعقة أو جرار سموم أو دبابة تنين"
+ },
+ {
+  "label": "ACADEMY:IdleBuildingUnits",
+  "text": "أيها الجنرال، يجب أن يكون تجهيز جيش عظيم وقيادته هدفك الأسمى. احرص على بناء وحداتك القتالية بالنقر على الثكنات أو مصنع الحرب أو المطار العسكري وغيرها، ثم النقر على الصورة المناسبة في شريط القيادة السفلي. سيكون مالًا في محله وسيساعدك على تحقيق النصر"
+ },
+ {
+  "label": "ACADEMY:TryDragSelectingUnits",
+  "text": "التحكم في الجيش من أصعب ما يتعلمه الجنرال. يمكنك النقر على كل وحدة على حدة، لكن \"احتواء\" مجموعة من الوحدات بالتحديد أسرع عادة. انقر واسحب مربعًا حول الوحدات لتصبح تحت سيطرتك. إن نقرت على مكان آخر فستتحرك الوحدات إليه"
+ },
+ {
+  "label": "ACADEMY:ResearchUpgrades",
+  "text": "الجنرال العظيم يصنع دبابات كثيرة، أما الأعظم فيصنع دبابات كثيرة أفضل. لكل وحدة تقريبًا نوع من الترقيات، وغالبًا ما يكون الأفضل إنفاق مالك على تحسين ما لديك بالفعل"
+ },
+ {
+  "label": "ACADEMY:RanOutOfPower",
+  "text": "جيش التحرير العالمي لا يحتاج إلى الطاقة، أما الصين والولايات المتحدة فتلتهمانها التهامًا. لتبقى القاعدة قوية يجب على الجنرال إنفاق المال على طاقة وافرة تغذي آلة الحرب. احرص على بناء مفاعل اندماج بارد أو مفاعل نووي لأقصى إنتاج. طاقة منخفضة قد تعني نجاحًا منخفضًا"
+ },
+ {
+  "label": "ACADEMY:BuildMoreGatherers",
+  "text": "أيها الجنرال، احرص على بناء ما يكفي من العمال أو شاحنات الإمداد أو مروحيات الشينوك ليبقى دخلك متدفقًا. يمكنك صنع جامعين إضافيين بالنقر على صورة جامع الموارد في مركز الإمدادات أو المخزن. لا تتردد في استغلال مواردك إلى أقصى حد"
+ },
+ {
+  "label": "ACADEMY:BuildAHero",
+  "text": "يمكن أن يكون لجارمن كيل والعقيد بيرتون واللوتس الأسود قيمة لا تقدّر في استراتيجيتك. هؤلاء الأبطال قادرون على قلب موازين المعركة وهم غير مرئيين للعدو. لتحديد موقع بطلك على الرادار ابحث عن أيقونة التصويب. ومع أنك لا تستطيع بناء أكثر من واحد في كل مرة، فلا تستهن بأهميتهم"
+ },
+ {
+  "label": "ACADEMY:PickStrategyCenterPlan",
+  "text": "مركز الاستراتيجية الأمريكي منشأة مفيدة جدًا، فتذكّر أن تختار الاستراتيجية الأنسب لخطة لعبك. البحث والتدمير والقصف والصمود كلها طرق ممتازة تمنحك الأفضلية التي تحتاجها. وإلى جانب هذه الاستراتيجيات العامة يمكنك شراء ترقيات كثيرة من هذا المبنى"
+ },
+ {
+  "label": "ACADEMY:UseTunnelNetwork",
+  "text": "التسلل في ساحة المعركة هو السمة المميزة لجيش التحرير العالمي. توفر شبكات الأنفاق قدرات دفاعية، لكنها تتيح للاعب أيضًا التنقل بسرعة. ابنِ بضع شبكات أنفاق وأرسل وحداتك إلى داخلها، ثم انقر على المنشأة لتخرجها من أي شبكة أنفاق أخرى في أي مكان من الخريطة. إنها مفتاح استراتيجية جيش التحرير العالمي كلها"
+ },
+ {
+  "label": "ACADEMY:UseControlGroups",
+  "text": "إدارة جيش كبير قد تكون فوضوية أحيانًا. من طرق إدارة وحدات كثيرة بسهولة إنشاء \"مجموعة تحكم\": حدّد مجموعة الوحدات واضغط \"Ctrl\" ورقمًا في الوقت نفسه. بعدها كلما ضغطت هذا الرقم ستُحدَّد المجموعة. اضغط الرقم مرتين بسرعة وستتوسط الكاميرا فوق المجموعة"
+ },
+ {
+  "label": "ACADEMY:UseSecondaryIncomeMethods",
+  "text": "أيها الجنرال، قد يصعب الحصول على الإمدادات في المراحل المتأخرة من المهمة. لكل فصيل طريقة فريدة للحصول على الأموال في المعارك الطويلة: تستطيع الصين بناء الهاكرز ومركز الإنترنت، ويمكنك توجيه الهاكرز لاختراق الإنترنت بحثًا عن المال في أي مكان أو إرسالهم إلى مركز الإنترنت لجني المال أسرع. يعتمد جيش التحرير العالمي على السوق السوداء، والولايات المتحدة على إسقاط الإمدادات. إن لم تخطط مسبقًا فقد تعاني نقصًا"
+ },
+ {
+  "label": "ACADEMY:ClearBuildings",
+  "text": "قد يصعب التعامل مع المباني المحصنة - إلا إن كنت تعرف بعض الحيل. رقِّ جنود الرينجر الأمريكيين بالقنابل الصاعقة، أو ابنِ جرارات السموم لجيش التحرير العالمي أو دبابات التنين الصينية لتطهير هذه المعاقل بسرعة. ويمكن للولايات المتحدة أيضًا الترقية إلى مدمرات المخابئ لتطهير حتى شبكات الأنفاق!"
+ },
+ {
+  "label": "ACADEMY:PickUpSalvage",
+  "text": "جيش التحرير العالمي جماعة ماكرة، لكنها أيضًا واسعة الحيلة. كلما دمّرت وحداته مركبة أخرى تُترك خلفها مكافأة من الخردة. مرّ فوق قطع الخردة لترقية وحداتك أو اكتساب الخبرة أو الحصول على مال إضافي. قد تُحدث الخردة فرقًا كبيرًا في المعارك الطويلة، فلا تتركها ملقاة هكذا"
+ },
+ {
+  "label": "ACADEMY:UseGuardAbility",
+  "text": "من المهم أحيانًا أن تبقى الوحدات في مكانها وتحرس منطقة معينة. حدّد الوحدة واضغط زر \"الدرع\" أو المفتاح \"G\"، ثم حدّد المنطقة المراد حراستها. ستهاجم الوحدة أي أعداء يدخلون نطاق حراستها"
+ },
+ {
+  "label": "ACADEMY:MultipleSupplyCenters",
+  "text": "الإمدادات هي بيت القصيد أيها الجنرال. تُجمع من مستودعات الإمدادات المنتشرة في ساحة المعركة. قد يكفي مستودع واحد في البداية، لكن الأفضل عادة أن تتوسع وتجد بضعة مستودعات أخرى أثناء المهمة. عليك بناء مركز إمدادات أو مخزن قرب مستودع الإمدادات لضمان جمع فعّال"
+ },
+ {
+  "label": "ACADEMY:GarrionVehicle",
+  "text": "يمكن لبعض الوحدات دخول مركبات أخرى أو سرقتها. سرقة المركبات بالخاطفين أو الإرهابيين تتيح لك التسلل إلى أراضي العدو"
+ },
+ {
+  "label": "ACADEMY:UseSelectionHotkeys",
+  "text": "أيها الجنرال، مفاتيح الاختصار طريقة رائعة لتعزيز سيطرتك على قواتك. \"E\" يحدد كل الوحدات من النوع نفسه على الشاشة، وإن ضغطته مرتين بسرعة فسيحدد كل الوحدات من النوع نفسه في ساحة المعركة كلها. \"Q\" يحدد كل وحداتك القتالية على الخريطة، و\"W\" يحدد كل وحداتك الجوية. جرّبها، فستفيدك"
+ },
+ {
+  "label": "ACADEMY:AlternateMouseInterface",
+  "text": "من الإضافات الجديدة خيار \"واجهة الفأرة البديلة\" في قائمة الخيارات. إن كنت معتادًا على قيادة الجيوش بالزر الأيمن كزر للأوامر، فقد يساعدك هذا على التحكم بجيشك بشكل أفضل"
+ },
+ {
+  "label": "ACADEMY:DoubleClickAttackMoveGuard",
+  "text": "أيها الجنرال، ابتكرنا طريقة جديدة لتوجيه جيشك: حدّد وحداتك وانقر نقرًا مزدوجًا على منطقة الوجهة، فتتحرك وحداتك إليها مع الهجوم ثم تحرسها. يمكنك تفعيل ذلك من قائمة الخيارات"
+ },
+ {
+  "label": "ACADEMY:BuildBarracksSooner",
+  "text": "لتكوين قوة متوازنة يجب أن تبني الثكنات مبكرًا في المهمة. قد يصنع المشاة خطتك أو يهدمونها، فلا تنسهم"
+ },
+ {
+  "label": "ACADEMY:BuildWarFactorySooner",
+  "text": "مع أن المشاة والقوة الجوية أصول عظيمة، فلا شيء يضاهي دبابة جيدة. احرص على بناء مصنع الحرب أو تاجر الأسلحة مبكرًا في المهمة"
+ },
+ {
+  "label": "ACADEMY:BuildTechStructureSooner",
+  "text": "لا بديل عن مركز الاستراتيجية أو مركز الدعاية أو القصر للحصول على الأسلحة المتطورة. لا تنسَ بناء أحدها مبكرًا قليلًا في المهمات لضمان النجاح"
+ },
+ {
+  "label": "ACADEMY:NoIncome",
+  "text": "أيها الجنرال، من الضروري لنجاحك أن يستمر تدفق دخلك طوال المهمة، فكثرة الانقطاعات تُفقدك الأفضلية. احرص على أن تبقى الإمدادات متدفقة بانتظام"
+ },
+ {
+  "label": "ACADEMY:ClearMines",
+  "text": "فخاخ التفجير والألغام قد تكون بداية يوم سيئ فعلًا. يمكن مواجهة هذه التكتيكات الماكرة باستخدام الجرافات أو العمال لتطهير هذه المناطق الخطرة"
+ },
+ {
+  "label": "ACADEMY:UnmannedVehicles",
+  "text": "أيها الجنرال، تستطيع بعض الوحدات قنص سائقي مركبات العدو أو إخراجهم منها. حين يحدث ذلك تصبح المركبات محايدة ويمكن \"استعارتها\" من العدو. لا تتردد في جولة على حساب عدوك"
+ },
+ {
+  "label": "ACADEMY:DisguisedUnits",
+  "text": "يمكن لبعض الوحدات التنكر في هيئة وحدات أخرى. لا شيء يضاهي متعة إدخال شاحنة مفخخة لجيش التحرير العالمي إلى قاعدة العدو دون أن يُكشف أمرها وإحداث فوضى عارمة. احرص على استخدام هذا التكتيك المهم لتعزيز خطتك القتالية"
+ },
+ {
+  "label": "ACADEMY:StealthUpgrade",
+  "text": "يمكن ترقية بعض المنشآت بالتمويه، مثل شبكات الأنفاق ومواقع ستينغر لجيش التحرير العالمي، فتبقى غير مرئية للعدو إلى أن يفوت الأوان. مفاجأة!"
+ },
+ {
+  "label": "ACADEMY:Firestorm",
+  "text": "تمتلك الصين قدرة فريدة على إحداث عاصفة نارية حين تستهدف عدة طائرات ميغ أو مدافع جحيم عدوًا أو منطقة واحدة. احرص على تنسيق هجماتك لتحقيق أقصى تأثير"
+ },
+ {
+  "label": "GUI:HeatEffects",
+  "text": "مؤثرات الحرارة"
+ },
+ {
+  "label": "TOOLTIP:HeatEffects",
+  "text": "إظهار مؤثرات التشوه الحراري أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:WeatherEffects",
+  "text": "مؤثرات الطقس"
+ },
+ {
+  "label": "TOOLTIP:WeatherEffects",
+  "text": "إظهار مؤثرات الطقس مثل الثلج أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_AllyUnderAttackSubtitle",
+  "text": "*حليفنا يتعرض للهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BaseDefensesOffLineSubtitle",
+  "text": "*دفاعات قاعدتنا معطلة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BeaconDetectedSubtitle",
+  "text": "*وُضعت منارة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusEnemySubtitle",
+  "text": "*اكتشفنا اللوتس الأسود التابعة للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusOursSubtitle",
+  "text": "*اكتُشفت اللوتس الأسود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingBeingCapturedSubtitle",
+  "text": "*يجري الاستيلاء على مبنى لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingDisabledSubtitle",
+  "text": "*عُطّل أحد المباني"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingEnabledSubtitle",
+  "text": "*أُعيد تشغيل أحد المباني"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingStolenSubtitle",
+  "text": "*استولى العدو على أحد مبانينا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_CashStolenSubtitle",
+  "text": "*أيها الجنرال، إنهم يسرقون أموالنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonEnemySubtitle",
+  "text": "*اكتشفنا العقيد بيرتون التابع للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonOursSubtitle",
+  "text": "*اكتُشف العقيد بيرتون"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DefeatSubtitle",
+  "text": "*لقد هُزمنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedNukeSubtitle",
+  "text": "*تحذير: رُصدت صومعة صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedParticleCannonSubtitle",
+  "text": "*تحذير: رُصد مدفع جسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedScudStormSubtitle",
+  "text": "*تحذير: رُصدت عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsReceivedSubtitle",
+  "text": "*تلقينا أموالًا من حليفنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedSubtitle",
+  "text": "*طلبت أموالًا من حليفك"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedAllySubtitle",
+  "text": "*حليفك يطلب أموالًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsTransferredSubtitle",
+  "text": "*حوّلنا أموالًا إلى حليفنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GeneralLevelUpSubtitle",
+  "text": "*تهانينا أيها الجنرال. لقد رُقّيت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GPSScramblerLaunchedSubtitle",
+  "text": "*تحذير. فُعّل مشوّش GPS"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingAnthraxSubtitle",
+  "text": "*تحذير: أُطلقت قنبلة جمرة خبيثة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingDaisyCutterSubtitle",
+  "text": "*تحذير: أُطلقت قنبلة ديزي كتر"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingEmpPulseSubtitle",
+  "text": "*تحذير: أُطلقت قنبلة نبضة كهرومغناطيسية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingFuelAirBombSubtitle",
+  "text": "*تحذير: أُطلقت قنبلة وقود جوي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_InsufficientFundsSubtitle",
+  "text": "*نحتاج إلى مزيد من الأموال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellEnemySubtitle",
+  "text": "*اكتشفنا جارمن كيل التابع للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellOursSubtitle",
+  "text": "*اكتُشف جارمن كيل"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaserDefenseSpeechSubtitle",
+  "text": "*أيها الجنرال، لدى خصمنا معقل في وسط المدينة. نظامه الدفاعي الليزري مدمّر، لكنه يتطلب كثيرًا من الطاقة، وسيضطر إلى تحويل طاقته إلى نقطة دفاع واحدة في كل مرة. استغل ذلك لصالحك"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedNukeSubtitle",
+  "text": "*تحذير: أُطلق صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedParticleCannonSubtitle",
+  "text": "*تحذير: رُصد مدفع جسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedScudStormSubtitle",
+  "text": "*تحذير: أُطلقت عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LowPowerSubtitle",
+  "text": "*طاقتنا منخفضة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileDetectedAllySubtitle",
+  "text": "*بنى حليفنا صومعة صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedAllySubtitle",
+  "text": "*أطلق حليفنا صاروخًا نوويًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedOursSubtitle",
+  "text": "*أطلقنا صاروخنا النووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileReadySubtitle",
+  "text": "*صاروخنا النووي جاهز أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures01Subtitle",
+  "text": "*أيها الجنرال، احذر أن تُدمَّر المنشآت المدنية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures02Subtitle",
+  "text": "*تدمير المنشآت المدنية سيضر برأي العالم فينا!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStatuesSubtitle",
+  "text": "*دمّر تماثيل جيش التحرير العالمي لتحسين الرأي العام الدولي يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStructuresSubtitle",
+  "text": "*سيدي، تدمير منشآت العدو سيحسّن رأي العالم فينا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyTroopsSubtitle",
+  "text": "*دمّر المزيد من قوات العدو لتحسين الرأي العام الدولي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionFallingSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا يتراجع!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا ينخفض"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowCriticalSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا في مستوى حرج!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowVerySubtitle",
+  "text": "*الرأي العام الدولي تجاهنا منخفض جدًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionProtectCivilianSubtitle",
+  "text": "*احمِ الممتلكات المدنية من الأذى"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionRisingSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا يتحسن!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonDetectedAllySubtitle",
+  "text": "*بنى حليفنا مدفع جسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedAllySubtitle",
+  "text": "*فعّل حليفنا مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedOursSubtitle",
+  "text": "*فُعّل مدفع الجسيمات التابع لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonReadySubtitle",
+  "text": "*مدفع الجسيمات التابع لنا جاهز أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ReinforcementsHaveArrivedSubtitle",
+  "text": "*وصلت التعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormDetectedAllySubtitle",
+  "text": "*بنى حليفنا عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedAllySubtitle",
+  "text": "*أطلق حليفنا عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedOursSubtitle",
+  "text": "*أُطلقت عاصفة سكود التابعة لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormReadySubtitle",
+  "text": "*عاصفة سكود التابعة لنا جاهزة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SelectTargetSubtitle",
+  "text": "*اختر الهدف"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SneakAttackLaunchedSubtitle",
+  "text": "*تحذير. رُصد هجوم مباغت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UnitLostSubtitle",
+  "text": "*فُقدت وحدة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeCompleteSubtitle",
+  "text": "*اكتملت الترقية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeEMPminesSubtitle",
+  "text": "*اكتملت ترقية الألغام النيوترونية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeNeutronShellSubtitle",
+  "text": "*اكتملت ترقية القذائف النيوترونية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VehicleStolenSubtitle",
+  "text": "*سُرقت مركبة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VictorySubtitle",
+  "text": "*لقد انتصرنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_AllyUnderAttackSubtitle",
+  "text": "*حليفنا يتعرض للهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BaseDefensesOffLineSubtitle",
+  "text": "*دفاعات قاعدتنا لا تعمل"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BeaconDetectedSubtitle",
+  "text": "*وُضعت منارة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusEnemySubtitle",
+  "text": "*اكتشفنا اللوتس الأسود التابعة للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusOursSubtitle",
+  "text": "*رأى العدو اللوتس الأسود التابعة لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingBeingCapturedSubtitle",
+  "text": "*العدو يستولي على أحد مبانينا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingDisabledSubtitle",
+  "text": "*توقف أحد المباني عن العمل"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingEnabledSubtitle",
+  "text": "*عاد مبنانا إلى العمل"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingStolenSubtitle",
+  "text": "*سيطروا على أحد مبانينا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_CashStolenSubtitle",
+  "text": "*أيها الجنرال، إنهم يسرقون أموالنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonEnemySubtitle",
+  "text": "*اكتشفنا العقيد بيرتون التابع للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonOursSubtitle",
+  "text": "*رأى العدو العقيد بيرتون التابع لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DefeatSubtitle",
+  "text": "*لقد هُزمنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedNukeSubtitle",
+  "text": "*احذر، رصدنا صومعة صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedParticleCannonSubtitle",
+  "text": "*كن على حذر، كشفنا مدفع جسيمات للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedScudStormSubtitle",
+  "text": "*احذر، بنى العدو عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade01Subtitle",
+  "text": "*ستُحرس منشآتنا الآن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade02Subtitle",
+  "text": "*نجري الترقية إلى حرس النخبة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade03Subtitle",
+  "text": "*حرس النخبة يحمي مبانينا الآن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsReceivedSubtitle",
+  "text": "*تلقينا أموالًا من حليفنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedSubtitle",
+  "text": "*طلبت أموالًا من حليفك"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedAllySubtitle",
+  "text": "*حليفك يطلب أموالًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsTransferredSubtitle",
+  "text": "*حوّلنا أموالًا إلى حليفنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GeneralLevelUpSubtitle",
+  "text": "*أحسنت أيها الجنرال. لقد بلغت رتبة أعلى"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GPSScramblerLaunchedSubtitle",
+  "text": "*أيها الجنرال، عدونا يستخدم مشوّش GPS"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingAnthraxSubtitle",
+  "text": "*كن على أهبة، قد تقترب قنبلة جمرة خبيثة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingDaisyCutterSubtitle",
+  "text": "*كن على أهبة. قد تقترب قنبلة ديزي كتر"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingEmpPulseSubtitle",
+  "text": "*كن على أهبة. قد تقترب قنبلة نبضة كهرومغناطيسية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingFuelAirBombSubtitle",
+  "text": "*كن على أهبة. قد تقترب قنبلة وقود جوي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_InsufficientFundsSubtitle",
+  "text": "*سنحتاج إلى مزيد من الأموال أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellEnemySubtitle",
+  "text": "*اكتشفنا جارمن كيل التابع للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellOursSubtitle",
+  "text": "*رأى العدو جارمن كيل التابع لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaserDefenseSpeechSubtitle",
+  "text": "*أيها الجنرال، لدى خصمنا معقل في وسط المدينة. نظامه الدفاعي الليزري مدمّر، لكنه يتطلب كثيرًا من الطاقة، وسيضطر إلى تحويل طاقته إلى نقطة دفاع واحدة في كل مرة. استغل ذلك لصالحك"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedNukeSubtitle",
+  "text": "*أيها الجنرال، أُطلق صاروخ نووي!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedParticleCannonSubtitle",
+  "text": "*أيها الجنرال، عدونا يستخدم مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedScudStormSubtitle",
+  "text": "*أيها الجنرال، أُطلقت عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LowPowerSubtitle",
+  "text": "*طاقتنا منخفضة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileDetectedAllySubtitle",
+  "text": "*بنى حليفنا صومعة صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*أطلق حليفنا صاروخًا نوويًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*جارٍ إطلاق الصاروخ النووي"
+ }
+]

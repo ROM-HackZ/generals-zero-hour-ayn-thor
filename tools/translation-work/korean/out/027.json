@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry088Subtitle",
+  "text": "*당장 후퇴하지 않으면 대군을 풀어 우리 땅에서 널 긁어내겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry089Subtitle",
+  "text": "*최후가 다가오는 게 느껴지나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry090Subtitle",
+  "text": "*하하! 널 이겼다. 이제 내 대군에 합류하든지 죽든지 골라라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry091Subtitle",
+  "text": "*대군을 풀 때다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry092Subtitle",
+  "text": "*나와 맞서라, 그리고 다른 놈들처럼 쓰러져라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry093Subtitle",
+  "text": "*내 병사들이 널 짓밟을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry094Subtitle",
+  "text": "*메뚜기 떼처럼 널 뚫고 지나가겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry095Subtitle",
+  "text": "*병사들? 내 병사들은 어디 있지? 날 좀 보내 줄 생각은 없나? 제발 해치지 마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry096Subtitle",
+  "text": "*우리 대군 제복은 멋지다... 그렇게 나쁘지 않을 거다... 좋아할지도 모르지. 그럴 리 없겠지만"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry097Subtitle",
+  "text": "*내 대군과 맞설 준비가 됐나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry098Subtitle",
+  "text": "*생각해 봐라, 이건 첫 물결에 불과하다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser001Subtitle",
+  "text": "*이제 널 조준경에 잡았다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser002Subtitle",
+  "text": "*정밀 공격 개시"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser003Subtitle",
+  "text": "* (플레이어 유닛 파괴) 흥미로운 전술 선택이군. 내 지난 상대에게도 도움이 안 됐지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser004Subtitle",
+  "text": "*곧 공격한다. 경고 정도는 필요할 것 같아서"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser005Subtitle",
+  "text": "*전략을 다시 생각해 보는 게 좋겠군. 분명 안 통하니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser006Subtitle",
+  "text": "*내 새 장난감 어떤가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser007Subtitle",
+  "text": "*각오해라, 장군. 이제 전쟁 수업을 받게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser008Subtitle",
+  "text": "*쉽게 얻은 건 쉽게 잃는 법"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser009Subtitle",
+  "text": "*이 일이 안 맞는 것 같군. 그림이나 그려 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser010Subtitle",
+  "text": "*아름답지 않나, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser011Subtitle",
+  "text": "*내 레이저가 뜨거운 칼로 버터 자르듯 네 방어를 가를 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser012Subtitle",
+  "text": "*체크메이트"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser013Subtitle",
+  "text": "*완전히 새로운 전쟁의 시대다, 장군. 그리고 그게 네 문 앞에 와 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser014Subtitle",
+  "text": "*목표 표시 완료 -- 전 병력 공격 개시"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser015Subtitle",
+  "text": "*원래는 내 무기 전부에 레이저 조준을 달았는데, 적들이 헷갈려 하더군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser016Subtitle",
+  "text": "*레이저를 직접 보지 마라 -- 뒤통수가 타 버릴 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser017Subtitle",
+  "text": "*레이저 충전 중... 잠시 기다려라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser018Subtitle",
+  "text": "*레이저는 최대 효과를 위해 정밀하게 보정해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser019Subtitle",
+  "text": "*도저들, 원자로를 더 지어라 -- 레이저는 전력을 많이 먹는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser020Subtitle",
+  "text": "*오천만 메가줄의 레이저 출력을 감당할 수 있나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser021Subtitle",
+  "text": "*거대한 우주 전쟁 같지 않나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser022Subtitle",
+  "text": "*내 레이저가 네 장갑을 증기로 만들 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser023Subtitle",
+  "text": "*장군, 공격을 좀 조율해 보는 게 어때 -- 너무 쉬웠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser024Subtitle",
+  "text": "*예쁜 불빛에 정신 팔리지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser025Subtitle",
+  "text": "*\"전송\"해 줄까, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser026Subtitle",
+  "text": "*네 무기는 내 핀포인트 정밀도를 따라올 수 없다, 장군. 그냥 항복하지 그래?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser027Subtitle",
+  "text": "*병영을 하나 더 지어 보지 그래, 장군? 그것도 즐겁게 부숴 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser028Subtitle",
+  "text": "*군수 공장도 못 지키면서 사령부는 얼마나 안전하겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser029Subtitle",
+  "text": "*네 비행기는 내 레이저로부터 안전하지 않다. 비행장이 없으니 더더욱"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser030Subtitle",
+  "text": "*네 기지 방어는 나에게 쓸모없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser031Subtitle",
+  "text": "*아, 사령부 -- 이 체스판의 퀸이지. 이 게임은 사실상 끝났다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser032Subtitle",
+  "text": "*내 레이저가 네 건물을 이렇게나 부쉈는데... 어떻게 계속 싸우지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser033Subtitle",
+  "text": "*장군, 내 기술 건물은 부수지 마라. 필요하단 말이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser034Subtitle",
+  "text": "*내 병영에서 떨어져라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser035Subtitle",
+  "text": "*내 군수 공장! 안 돼--!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser036Subtitle",
+  "text": "*감히 내 비행장을 부숴!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser037Subtitle",
+  "text": "*놈들이 방어를 부수고 있다! 전 병력: 기지를 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser038Subtitle",
+  "text": "*장군, 이 손실은 용납할 수 없다. 내 건물을 부순 대가를 갚아 주겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser039Subtitle",
+  "text": "*안 돼! 빨리, 도저들 사령부를 재건해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser040Subtitle",
+  "text": "*장군, 내 비행기를 하나라도 더 떨어뜨리면 초강력 무기를 전부 써서 널 파괴하겠다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser041Subtitle",
+  "text": "*내 차량은 건드리지 마라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser042Subtitle",
+  "text": "*일부러 내 병사들만 노리는군, 그렇지, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser043Subtitle",
+  "text": "*그 유정에서 누릴 수 있을 때 실컷 누려라. 곧 가져가러 갈 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser044Subtitle",
+  "text": "*그 포병 플랫폼은 내 공중 레이저의 상대가 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser045Subtitle",
+  "text": "*그 정유 공장이 차량을 더 빠르고 효율적으로 만들게 해 준다는 거 알았나? 앗, 말하지 말걸 그랬군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser046Subtitle",
+  "text": "*외곽 경계 레이저를 건드렸군, 장군. 이제 네가 거기 있는 걸 안다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser047Subtitle",
+  "text": "*내 기지로 다가오는 게 보인다, 장군. 더 다가오는 건 권하지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser048Subtitle",
+  "text": "*적이 기지 안에 있다! 전 병력 귀환해 레이저를 배치하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser049Subtitle",
+  "text": "*내 원자로에서 떨어져라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser050Subtitle",
+  "text": "*장군, 그 자원은 내 것이다 -- 떨어져라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser051Subtitle",
+  "text": "*측면에서 공격하는군? 날 이기려면 전술 속임수 이상이 필요할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser052Subtitle",
+  "text": "*측면 공격?! 교활하군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser053Subtitle",
+  "text": "*그래, 정문으로 곧장 들어와라, 장군... 감히 그럴 수 있다면"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser054Subtitle",
+  "text": "*조심해라, 장군 -- 내 기지 뒷문은 보기만큼 무방비가 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser055Subtitle",
+  "text": "*여기 오다니 어리석군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser056Subtitle",
+  "text": "*이 자원으로는 네 실패한 전략을 구할 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser057Subtitle",
+  "text": "*안 돼! 물러나! 레이저에 전력을 대려면 그 원자로가 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser058Subtitle",
+  "text": "*전력이 바닥났다고?! 어떻게 기지 전력을 바닥나게 둘 수 있지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser059Subtitle",
+  "text": "*전력이 바닥나는 건 치명적인 실수다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser060Subtitle",
+  "text": "*자원이 바닥났군, 장군. 우리가 짓밟기 전에 절대 회복하지 못할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser061Subtitle",
+  "text": "*자원이 바닥났다고?! 용납할 수 없다! 치누크, 더 빨리 모아라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser062Subtitle",
+  "text": "*그 스커드 스톰을 팔아라, 장군. 아니면 내가 대신 부숴 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser063Subtitle",
+  "text": "*그 핵 격납고로는 날 막지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser064Subtitle",
+  "text": "*네가 입자 캐논을 짓고 내가 입자 광선으로 그걸 부수면... 그게 아이러니인가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser065Subtitle",
+  "text": "*그 과도한 기지 방어는 내 레이저를 늦출 뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser066Subtitle",
+  "text": "*네 재래식 전차는 내 레이저 무기 플랫폼의 상대가 안 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser067Subtitle",
+  "text": "*비행기가 꽤 많군, 장군. 에어쇼라도 하나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser068Subtitle",
+  "text": "*보병을 꽤 훈련시켰군, 장군. 그 미친 계획이 기대되는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser069Subtitle",
+  "text": "*네 기지가 주택 단지처럼 보이기 시작하는군, 장군. 입자 캐논으로 점 잇기 놀이를 해서 좀 솎아 줘야겠어"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser070Subtitle",
+  "text": "*그 스커드 미사일은 내가 격추하겠다, 장군. 그다음 대가를 치르게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser071Subtitle",
+  "text": "*내 레이저가 그 핵을 떨어뜨릴 거다, 장군. 낙진은 네 책임이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser072Subtitle",
+  "text": "*입자 캐논?! 광선을 교차시키면 어떻게 될까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser073Subtitle",
+  "text": "*장군, 그 건물에 주둔하지 마라. 나와서 놀자"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser074Subtitle",
+  "text": "*장군, 버튼 대령은 덜렁대는 바보다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser075Subtitle",
+  "text": "*블랙 로투스는 내 레이저에겐 보인다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser076Subtitle",
+  "text": "*자르멘 켈이 소총에 레이저 조준경을 달지 않았길 바란다... 나한텐 안 통할 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser077Subtitle",
+  "text": "*비행장을 지으면 내 레이저에게 공중 표적만 제공할 뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser078Subtitle",
+  "text": "*나한테 오려면 전차가 많이 필요할 거다, 장군. 행운을 빈다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser079Subtitle",
+  "text": "*병영을 지으면 네 병사들만 다칠 뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser080Subtitle",
+  "text": "*건물을 팔아 치우나? 그건 궁지에 몰린 장군의 첫 번째 실수다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser081Subtitle",
+  "text": "*뭐?! 네가 날 이기고 있을 리 없다! 네 정밀도 부족만으로도 내 승리는 보장돼야 하는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser082Subtitle",
+  "text": "*너 같은 덜렁이 광대에게 질 순 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser083Subtitle",
+  "text": "*어떻게 네가 이기고 있지? 시뮬레이션에선 이렇지 않았는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser084Subtitle",
+  "text": "*모든 변수를 계산했는데 네가 이기고 있다... 어떻게 이럴 수 있지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser085Subtitle",
+  "text": "*안 돼! 이렇게 끝날 수는 없다! 무슨 속임수로 날 이긴 거지?!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser086Subtitle",
+  "text": "*내 계획과 준비가 확실한 승리로 이끌고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser087Subtitle",
+  "text": "*정밀함은 언제나 무식한 힘을 이긴다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser088Subtitle",
+  "text": "*너에겐 악몽 같겠군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser089Subtitle",
+  "text": "*이 패배를 어떻게 받아들일지 정했나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser090Subtitle",
+  "text": "*넌 졌다, 장군. 하지만 애초에 의문의 여지가 없었지, 안 그런가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser091Subtitle",
+  "text": "*레이저 충전 완료 -- 목표 추적 중"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser092Subtitle",
+  "text": "*넌 내 급이 아니다, 장군 -- 더 쉬운 상대를 찾아봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser093Subtitle",
+  "text": "*내 계산으로는 네가 이 전투에서 질 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser094Subtitle",
+  "text": "*레이저가 더 뛰어난 무기다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser095Subtitle",
+  "text": "*날 이겼군, 장군. 하지만 네 전술을 분석해서 더 뛰어난 전략을 세우겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser096Subtitle",
+  "text": "*네 전술을 분석하니 약점이 뻔히 보이더군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser097Subtitle",
+  "text": "*자, 장군 -- 모래 위에 선을 그었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Laser098Subtitle",
+  "text": "*이제 넘어와 봐라. 잡으러 와라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke001Subtitle",
+  "text": "*그래도 건조한 열기라 다행이지, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke002Subtitle",
+  "text": "*곧 네 기지는 태양처럼 빛날 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke003Subtitle",
+  "text": "*이걸 어떻게 막을 생각이지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke004Subtitle",
+  "text": "*네 무기는 내 힘의 상대가 안 된다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke005Subtitle",
+  "text": "*녹아라! 모든 게 녹아야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke006Subtitle",
+  "text": "* 저 빛! 저 멋진 빛! 안 보이나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke007Subtitle",
+  "text": "*올해는 핵겨울이 될 것 같군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke008Subtitle",
+  "text": "*최후가 가깝다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke009Subtitle",
+  "text": "*이건 시작일 뿐이다, 장군. 끝의 시작"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke010Subtitle",
+  "text": "*걱정 마라, 장군. 탄두가 가는 중이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke011Subtitle",
+  "text": "*늦어서 미안하다, 장군. 병력을 모으는 중이라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke012Subtitle",
+  "text": "*더위 먹었나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke013Subtitle",
+  "text": "*멘탈이 녹아내리나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke014Subtitle",
+  "text": "*전 병력, 다음 공격을 준비하라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke015Subtitle",
+  "text": "*발사 코드를 어디 뒀더라?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke016Subtitle",
+  "text": "*더 받을 준비 됐나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke017Subtitle",
+  "text": "*이게 네 반감기인 것 같군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke018Subtitle",
+  "text": "*레이더가 꺼지지 않았길 바란다, 장군. 다음에 올 걸 놓치면 아쉬우니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke019Subtitle",
+  "text": "*이제 네 약점을 안다, 장군. 다음 공격은 막을 수 없을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke020Subtitle",
+  "text": "*곧 내 핵무기고의 영광을 알게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke021Subtitle",
+  "text": "*나라면 선크림을 사 두겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke022Subtitle",
+  "text": "*\"    Ne"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke023Subtitle",
+  "text": "*군비 경쟁도 결국 누군가는 이겨야지. 아니면 경쟁은 왜 하나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke024Subtitle",
+  "text": "*납 속옷을 입을 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke025Subtitle",
+  "text": "*기억해라: 폭발을 직접 보지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke026Subtitle",
+  "text": "*넌 병사들을 죽으라고만 훈련시킨 것 같군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke027Subtitle",
+  "text": "*이제 네 군수 공장은 빛나는 분화구다. 멋지군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke028Subtitle",
+  "text": "*네 방어가 달걀 껍데기처럼 깨진다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke029Subtitle",
+  "text": "*오, 그 사령부 안에 있지는 않았겠지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke030Subtitle",
+  "text": "*왜 내 병영을 부수지, 장군? 네가 두려워해야 할 건 내 병사들이 아닌데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke031Subtitle",
+  "text": "*내 군수 공장! 무슨 짓을 한 거냐?! 내 소중한 전차들이... 사라졌어..."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke032Subtitle",
+  "text": "*날 내버려 둬! 내가 너한테 뭘 했다고?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke033Subtitle",
+  "text": "*내 사령부! 안 돼!!! 지휘권을 잃을 순 없어! 절대!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke034Subtitle",
+  "text": "*네가 날 이기고 있다니 믿을 수 없다! 재건할 시간 좀 줄 수 있나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke035Subtitle",
+  "text": "*네 손에 큰 손실을 입었지만, 장군, 아직 끝나지 않았다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke036Subtitle",
+  "text": "*장군, 그 유정은 가져가도 좋지만 날 막는 데는 도움이 안 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke037Subtitle",
+  "text": "*내 기지에서 나가라, 장군! 두 번 말하지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke038Subtitle",
+  "text": "*내 기지에 얼마나 머물 생각이지, 장군? 침상이라도 마련해 줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke039Subtitle",
+  "text": "*내 기지를 떠나라, 장군. 아니면 탄두를 터뜨릴 수밖에 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke040Subtitle",
+  "text": "*내 마을이 마음에 드나, 장군? 편히 쉬어라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke041Subtitle",
+  "text": "*핵 구경 왔나, 장군? 눈으로만 봐라, 만지지 말고"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke042Subtitle",
+  "text": "*나라면 조심하겠다, 장군. 이 핵 저장고는 새기 일쑤거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke043Subtitle",
+  "text": "*내 보급품에서 떨어져라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke044Subtitle",
+  "text": "*장군, 나라면 그 유정을 차지하지 않겠다 -- 어차피 내가 부술 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke045Subtitle",
+  "text": "*내 격납고에서 떨어져라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke046Subtitle",
+  "text": "*전력이 나갔군, 장군. 핵에너지라도 좀 보내 줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke047Subtitle",
+  "text": "*벌써 돈이 떨어졌나? 전쟁은 돈이 많이 든다는 것도 모르나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke048Subtitle",
+  "text": "*전차를 더 만들어라, 장군. 그것들도 녹을 테니... 결국엔"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke049Subtitle",
+  "text": "*그 비행기들을 내 격납고에서 떨어뜨려 놔라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke050Subtitle",
+  "text": "*병사가 이렇게 많군, 장군. 방사능 방호복은 입혔나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke051Subtitle",
+  "text": "*그 새 무기를 부수려면 핵이 몇 개나 필요할 것 같나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke052Subtitle",
+  "text": "*그 새 무기를 부수려면 핵이 몇 개나 필요할 것 같나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke053Subtitle",
+  "text": "*건물을 판다고? 장군, 그 지역을 비우고 싶었으면 내가 대신 해 줄 수도 있었는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke054Subtitle",
+  "text": "*넌 내 힘에 맞설 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke055Subtitle",
+  "text": "*항복해라! 아니면 폭격이 계속되길 원하나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke056Subtitle",
+  "text": "*넌 이 전쟁에서 지고 있다, 장군. 폭탄 몇 개만 더 떨어지면 네 기지는 무너진다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke057Subtitle",
+  "text": "*힘이 곧 정의다. 동의하지 않나, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke058Subtitle",
+  "text": "*이제 내 마지막 공격이다. 기다려라, 장군. 마음에 들 거다... 잠깐, 아니다, 안 들 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke059Subtitle",
+  "text": "*아무도 우리 핵무기고에 맞설 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke060Subtitle",
+  "text": "*나에게 도전하면 네 기지는 태양처럼 빛날 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke061Subtitle",
+  "text": "*곧 넌 핵폐기물에 불과해질 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke062Subtitle",
+  "text": "*조금만 더 있었으면 너를 먼지로 만들었을 텐데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke063Subtitle",
+  "text": "*이 전투에서 무사히 살아남은 걸 행운으로 알아라. 자신 있으면 다시 도전해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke064Subtitle",
+  "text": "*파티에 온 걸 환영한다, 장군. 어질러진 건 이해해 다오"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke065Subtitle",
+  "text": "*이제, 장군, 왜 날 핵폭탄 마오라고 부르는지 알겠지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke066Subtitle",
+  "text": "*기다리고 있었다, 장군. 우리 선물을 받아 다오"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke067Subtitle",
+  "text": "*선물이 더 있다, 장군. 우리의 관대함은 끝이 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke068Subtitle",
+  "text": "*이제 전투가 본격적으로 시작된다. 각오해라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke069Subtitle",
+  "text": "*상온 핵융합으로 전력을 만드는 건 말도 안 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke070Subtitle",
+  "text": "*네 원자로를 부수는 건 가슴 아프다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke071Subtitle",
+  "text": "*그걸 \"초강력 무기\"라고 부르나, 장군? 장난감처럼 부서지는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke072Subtitle",
+  "text": "*안 돼! 내 탄두! 내 아름다운 탄두! 대가를 치르게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke073Subtitle",
+  "text": "*괜찮다, 장군. 너한테 줄 핵은 더 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke074Subtitle",
+  "text": "*이봐, 그 핵 격납고가 얼마짜린지 아나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke075Subtitle",
+  "text": "*좋아, 장군, 그만해 -- 핵이 떨어져 간다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke076Subtitle",
+  "text": "*대체 왜 내 핵을 터뜨리려는 거지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke077Subtitle",
+  "text": "*안 돼! 그게 내 마지막 핵미사일 격납고였다! 왜, 장군... 왜?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke078Subtitle",
+  "text": "*(적 격납고 전멸) 내 격납고를 전부 부쉈군... 왜, 장군? 왜?!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke079Subtitle",
+  "text": "*(적이 플레이어 병영 점령) 네 병영을 점령했다, 장군. 팔아 버릴까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke080Subtitle",
+  "text": "*(적이 플레이어 군수 공장 점령) 내 병사들이 네 군수 공장을 점령했다. 좀 더 잘 지켰어야지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke081Subtitle",
+  "text": "*(플레이어 기지) 네 방어가 약하군, 장군. 우리는 네 기지에 들어왔다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke082Subtitle",
+  "text": "*(교전 지역) 내 병력이 전장에 나섰다, 장군. 곧 네 기지로 밀고 들어갈 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke083Subtitle",
+  "text": "*(보급 창고 지역) 아, 보급품을 좀 찾았다. 곧 모든 자원이 우리 손에 들어온다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke084Subtitle",
+  "text": "*(두 번째 보급 창고 지역) 보급품이 더 있군. 넌 뭘로 병력을 먹여 살리지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke085Subtitle",
+  "text": "*(유정 지역) 레드가드 -- 저 유정을 점령해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke086Subtitle",
+  "text": "*이 지역의 보급품을 다 쓴 것 같군. 다른 방도를 마련했길 바란다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke087Subtitle",
+  "text": "*(적 전력 부족) 뭐?! 전력이 없다고? 어떻게 전력이 없을 수 있지? 누가 전력 좀 가져와! 당장!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke088Subtitle",
+  "text": "*(구급차) 그 구급차로는 네 병사들을 방사능에서 구하지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke089Subtitle",
+  "text": "*(전략 센터) 전략 센터? 나와 싸울 전략을 대체 뭘 짜낼 수 있지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke090Subtitle",
+  "text": "*(암시장) 암시장은 날 막을 만큼 강력한 걸 팔지 않는다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke091Subtitle",
+  "text": "*(선전 센터) 네 선전으로는 누구도 내 핵의 힘에 등을 돌리게 할 수 없다, 장군"
+ }
+]

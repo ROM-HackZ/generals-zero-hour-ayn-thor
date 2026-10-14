@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BioClassNumber_Pos8",
+  "text": "해당 없음"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos8",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos8",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos9",
+  "text": "량 장군"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos9",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos9",
+  "text": "중국 란저우, 용 기지"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos9",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos9",
+  "text": "용 장군, AAAA급"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos9",
+  "text": "인민해방군 정예군"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos9",
+  "text": "'암호랑이' 리옹 량 장군은 다른 모든 기술을 동원해 적을 격파할 것을 요구합니다"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos9",
+  "text": "알 수 없음"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos9",
+  "text": "흥미로운 대결이었다. 언젠가 다시 도전해 오겠지."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos9",
+  "text": "실력을 갈고닦아 다시 도전해라."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos10",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos10",
+  "text": "33"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos10",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos10",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos10",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos10",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos11",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos11",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos11",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos11",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos11",
+  "text": "미정"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos11",
+  "text": "미정"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_GLA",
+  "text": "세계 해방군은 비열하고 교활한 전술로 적을 격파하는 것을 선호합니다"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_China",
+  "text": "중국은 화염과 압도적인 물량으로 적을 격파합니다"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_USA",
+  "text": "미국은 첨단 무기와 기술로 적을 격파합니다"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Random",
+  "text": "진영을 무작위로 선택합니다"
+ },
+ {
+  "label": "GUI:ChallengeWinText",
+  "text": "축하합니다. %s을(를) 물리쳤습니다"
+ },
+ {
+  "label": "GUI:ChallengeLossText",
+  "text": "%s에게 패배했습니다"
+ },
+ {
+  "label": "CREDITS:DevelopmentDirector",
+  "text": "개발 감독"
+ },
+ {
+  "label": "CREDITS:GeneralManager",
+  "text": "EALA 총괄 매니저"
+ },
+ {
+  "label": "CREDITS:LeadArtist",
+  "text": "수석 아티스트"
+ },
+ {
+  "label": "CREDITS:QADirector",
+  "text": "QA 감독"
+ },
+ {
+  "label": "CREDITS:SrTestLead",
+  "text": "수석 테스트 리드"
+ },
+ {
+  "label": "CREDITS:AssistantMultiplayerTestLead",
+  "text": "멀티플레이 테스트 부리드"
+ },
+ {
+  "label": "CREDITS:TestAnalyst",
+  "text": "테스트 분석가"
+ },
+ {
+  "label": "CREDITS:AssistantProducer",
+  "text": "어시스턴트 프로듀서"
+ },
+ {
+  "label": "CREDITS:CameoPhotoshootStudio",
+  "text": "사진 촬영: Out West Studio"
+ },
+ {
+  "label": "CREDITS:Models",
+  "text": "모델"
+ },
+ {
+  "label": "CREDITS:Actors",
+  "text": "배우"
+ },
+ {
+  "label": "CREDITS:VisualEffectsAndEditing",
+  "text": "시각 효과 및 편집"
+ },
+ {
+  "label": "CREDITS:NewsReporterVideos",
+  "text": "뉴스 리포터 영상"
+ },
+ {
+  "label": "CREDITS:DirectorOfProductLocalization",
+  "text": "EALA 제품 현지화 감독"
+ },
+ {
+  "label": "CREDITS:LocalizationAssistance",
+  "text": "현지화 지원"
+ },
+ {
+  "label": "ACADEMY:Eva",
+  "text": "전술 분석"
+ },
+ {
+  "label": "ACADEMY:BuildAllStructures",
+  "text": "장군님, 전장에서는 가용한 모든 수단을 활용하는 것이 중요합니다. 모든 건물을 꼭 지으십시오. 강력한 군사력을 유지해야 합니다"
+ },
+ {
+  "label": "ACADEMY:BuildSupplyCenterEarlier",
+  "text": "장군님, 강한 지도자의 가장 중요한 역할 중 하나는 병사들에게 보급품을 넉넉히 대 주는 것입니다. 임무를 시작할 때마다 보급 센터나 은닉처를 꼭 지으십시오. 보급품은 돈이 되고, 돈은 승리가 됩니다"
+ },
+ {
+  "label": "ACADEMY:TryBuildingRadar",
+  "text": "전장의 안개는 모두를 덮고 있습니다. 이 짙은 안개를 꿰뚫어 보는 좋은 방법이 레이더입니다. 진영마다 하늘의 눈을 얻는 방법이 다릅니다. 미군 사령부는 레이더가 기본으로 딸려 있고, 중국 사령부는 업그레이드해야 하며, GLA는 무기상에서 레이더 밴을 생산해야 합니다"
+ },
+ {
+  "label": "ACADEMY:BuildMorePeons",
+  "text": "다른 장군들에게 물어봐도 간단한 규칙에 동의할 겁니다. 군대는 졸병이 만든다. 기지를 지으려면 건설 도저나 일꾼을 부려야 합니다. 이들은 앞으로의 성공에 핵심이니 잊지 마십시오!"
+ },
+ {
+  "label": "ACADEMY:TryCapturingStructures",
+  "text": "장군님, 때로는 애써 얻기보다 원하는 걸 빼앗는 게 더 쉽습니다. 병영에서 '점령' 업그레이드를 구입하면 적 건물을 빼앗을 수 있습니다. 전장 곳곳에 흩어진 기술 건물로 군대를 더욱 강화할 수도 있습니다"
+ },
+ {
+  "label": "ACADEMY:SpendGeneralsPoints",
+  "text": "전쟁에는 전리품이 따릅니다. 적을 파괴할 때마다 장군 포인트에 한 걸음 가까워집니다. 명령 바 오른쪽의 '별' 버튼을 누르면 사용할 수 있습니다. 장군 포인트 메뉴를 열고 힘들게 모은 포인트를 새 전쟁 장난감에 쓰십시오"
+ },
+ {
+  "label": "ACADEMY:TryUsingSuperweapons",
+  "text": "장군 포인트를 모아서 쓰지 않으면 무슨 소용입니까? 포인트로 장군 능력을 구입하면 화면 오른쪽에 아이콘이 나타납니다. 누르기만 하면 불꽃놀이가 시작됩니다. 포인트를 많이 쓸수록 능력이 강해집니다"
+ },
+ {
+  "label": "ACADEMY:TryGarrisoningAStructure",
+  "text": "병사는 개활지에서도 쓸모 있지만 민간 건물에 주둔하면 더 치명적입니다. 병사를 선택해 빈 건물로 보내십시오. 벽이 그들을 지켜 줍니다. 섬광탄, 독소 트랙터, 드래곤 전차가 오지 않는 한 말입니다"
+ },
+ {
+  "label": "ACADEMY:IdleBuildingUnits",
+  "text": "장군님, 강한 군대를 전장에 세우고 이끄는 것이 최우선 목표여야 합니다. 병영, 군수 공장, 비행장 등을 클릭한 다음 아래 명령 바의 그림을 클릭해 전투 유닛을 꼭 생산하십시오. 값지게 쓰인 돈이 승리를 가져다줄 겁니다"
+ },
+ {
+  "label": "ACADEMY:TryDragSelectingUnits",
+  "text": "군대를 다루는 것은 장군이 배워야 할 가장 까다로운 일 중 하나입니다. 유닛을 하나하나 클릭할 수도 있지만 무리를 '올가미'로 묶는 편이 보통 더 빠릅니다. 클릭한 채로 유닛 주위에 상자를 끌어 그리기만 하면 됩니다. 다른 곳을 클릭하면 유닛들이 그곳으로 이동합니다"
+ },
+ {
+  "label": "ACADEMY:ResearchUpgrades",
+  "text": "훌륭한 장군은 전차를 많이 만들지만, 더 훌륭한 장군은 더 좋은 전차를 많이 만듭니다. 거의 모든 유닛에 업그레이드가 있습니다. 가진 것을 강화하는 데 돈을 쓰는 게 최선일 때가 많습니다"
+ },
+ {
+  "label": "ACADEMY:RanOutOfPower",
+  "text": "GLA는 전력이 필요 없지만 중국과 미국은 팝콘 먹듯 전력을 먹어 치웁니다. 기지를 튼튼하게 돌리려면 전쟁 기계에 공급할 전력에 충분히 투자해야 합니다. 상온 핵융합로나 원자로를 지어 출력을 최대로 높이십시오. 전력이 낮으면 성공률도 낮아집니다"
+ },
+ {
+  "label": "ACADEMY:BuildMoreGatherers",
+  "text": "장군님, 일꾼, 보급 트럭, 치누크를 넉넉히 생산해 수입이 끊이지 않게 하십시오. 보급 센터나 은닉처에서 자원 수집 유닛 그림을 클릭하면 추가로 만들 수 있습니다. 자원 잠재력을 최대한 끌어내는 데 주저하지 마십시오"
+ },
+ {
+  "label": "ACADEMY:BuildAHero",
+  "text": "자르멘 켈, 버튼 대령, 블랙 로투스는 전략에 매우 귀중합니다. 이 영웅들은 전세를 뒤집을 수 있고 적에게 보이지 않습니다. 레이더에서 영웅을 찾으려면 조준선 아이콘을 찾으십시오. 한 번에 하나만 만들 수 있지만 그 중요성을 과소평가하지 마십시오"
+ },
+ {
+  "label": "ACADEMY:PickStrategyCenterPlan",
+  "text": "미군 전략 센터는 매우 유용한 건물입니다. 작전 계획에 가장 잘 맞는 전략을 고르는 것을 잊지 마십시오. 수색 섬멸, 포격, 전선 사수는 모두 우위를 점하는 훌륭한 방법입니다. 이런 전략 외에도 이 건물에서 여러 업그레이드를 구입할 수 있습니다"
+ },
+ {
+  "label": "ACADEMY:UseTunnelNetwork",
+  "text": "GLA 하면 전장을 몰래 돌아다니는 것이 트레이드마크입니다. 터널 네트워크는 방어 능력도 있고 빠르게 이동할 수도 있게 해 줍니다. 터널 네트워크 몇 개를 짓고 유닛을 들여보내십시오. 건물을 클릭하면 맵 어디에 있는 다른 터널 네트워크로든 내보낼 수 있습니다. GLA 전략 전체의 핵심입니다"
+ },
+ {
+  "label": "ACADEMY:UseControlGroups",
+  "text": "대군을 다루다 보면 때로 감당하기 어렵습니다. 많은 유닛을 쉽게 관리하는 방법 하나가 '부대 지정'입니다. 유닛 무리를 선택하고 'Ctrl'과 숫자를 동시에 누르십시오. 이제 그 숫자를 누를 때마다 그 유닛들이 선택됩니다. 숫자를 빠르게 두 번 누르면 화면이 그 부대로 이동합니다"
+ },
+ {
+  "label": "ACADEMY:UseSecondaryIncomeMethods",
+  "text": "장군님, 임무 후반에는 보급품을 얻기 어려울 수 있습니다. 진영마다 긴 전투에서 자금을 얻는 고유한 방법이 있습니다. 중국은 해커와 인터넷 센터를 지을 수 있습니다. 해커가 어디서든 인터넷을 해킹해 돈을 벌게 하거나 인터넷 센터에 들여보내 더 빨리 벌게 할 수 있습니다. GLA는 암시장에, 미국은 보급품 투하에 의존합니다. 미리 계획하지 않으면 부족해질 수 있습니다"
+ },
+ {
+  "label": "ACADEMY:ClearBuildings",
+  "text": "주둔한 건물은 다루기 까다롭습니다. 요령을 모른다면 말입니다. 미군 레인저에 섬광탄을 업그레이드하거나, GLA 독소 트랙터나 중국 드래곤 전차를 만들어 이런 거점을 빠르게 소탕하십시오. 미국은 벙커 버스터 업그레이드로 터널 네트워크까지 소탕할 수 있습니다!"
+ },
+ {
+  "label": "ACADEMY:PickUpSalvage",
+  "text": "GLA는 교활하지만 수완도 좋습니다. GLA 유닛이 적 차량을 파괴할 때마다 잔해 보너스가 남습니다. 잔해 위를 지나가면 유닛을 업그레이드하거나, 경험치를 얻거나, 추가 자금을 받습니다. 긴 전투에서는 잔해가 큰 차이를 만드니 그냥 두지 마십시오"
+ },
+ {
+  "label": "ACADEMY:UseGuardAbility",
+  "text": "때로는 유닛이 제자리에서 특정 지역을 지키는 게 중요합니다. 유닛을 선택하고 '방패' 버튼이나 'G' 키를 누른 다음 지킬 지역을 선택하십시오. 유닛은 경계 범위에 들어오는 적을 공격합니다"
+ },
+ {
+  "label": "ACADEMY:MultipleSupplyCenters",
+  "text": "장군님, 이 게임의 핵심은 보급품입니다. 보급품은 전장 곳곳의 보급 창고에서 모을 수 있습니다. 초반에는 창고 하나로 충분할 수 있지만 임무 중에는 대개 더 찾아 확장하는 게 좋습니다. 효율적으로 모으려면 보급 창고 가까이에 보급 센터나 은닉처를 지어야 합니다"
+ },
+ {
+  "label": "ACADEMY:GarrionVehicle",
+  "text": "일부 유닛은 다른 차량에 탑승하거나 차량을 훔칠 수 있습니다. 하이재커나 테러리스트로 차량을 훔치면 적진에 몰래 잠입할 수 있습니다"
+ },
+ {
+  "label": "ACADEMY:UseSelectionHotkeys",
+  "text": "장군님, 단축키는 부대 통제력을 높이는 좋은 방법입니다. 'E'는 화면의 같은 종류 유닛을 모두 선택합니다. 'E'를 빠르게 두 번 누르면 전장 전체의 같은 종류를 모두 선택합니다. 'Q'는 맵의 모든 전투 유닛을, 'W'는 맵의 모든 공중 유닛을 선택합니다. 한번 써 보십시오. 도움이 될 겁니다"
+ },
+ {
+  "label": "ACADEMY:AlternateMouseInterface",
+  "text": "새로 추가된 기능 중 하나가 옵션 메뉴의 '대체 마우스 인터페이스'입니다. 오른쪽 클릭을 행동 버튼으로 쓰는 데 익숙하다면 군대를 더 잘 다루는 데 도움이 될 겁니다"
+ },
+ {
+  "label": "ACADEMY:DoubleClickAttackMoveGuard",
+  "text": "장군님, 군대를 지휘하는 새 방법을 만들었습니다. 유닛을 선택하고 목적지를 더블클릭하기만 하면 됩니다. 유닛들이 그곳까지 공격 이동한 다음 경계합니다. 옵션 메뉴에서 켤 수 있습니다"
+ },
+ {
+  "label": "ACADEMY:BuildBarracksSooner",
+  "text": "균형 잡힌 병력을 갖추려면 임무 초반에 병영을 지어야 합니다. 보병은 작전의 성패를 가를 수 있으니 잊지 않는 게 좋습니다"
+ },
+ {
+  "label": "ACADEMY:BuildWarFactorySooner",
+  "text": "보병과 공군도 훌륭한 자산이지만 좋은 전차만 한 것은 없습니다. 임무 초반에 군수 공장이나 무기상을 꼭 지으십시오"
+ },
+ {
+  "label": "ACADEMY:BuildTechStructureSooner",
+  "text": "첨단 무기를 얻는 데는 전략 센터, 선전 센터, 궁전을 대신할 것이 없습니다. 성공하려면 임무에서 조금 더 일찍 지으십시오"
+ },
+ {
+  "label": "ACADEMY:NoIncome",
+  "text": "장군님, 임무 내내 수입이 끊이지 않는 것이 성공에 필수입니다. 공백이 많으면 우위를 잃습니다. 보급품이 꾸준히 들어오게 하십시오"
+ },
+ {
+  "label": "ACADEMY:ClearMines",
+  "text": "폭파 함정과 지뢰는 정말 재수 없는 하루의 시작일 수 있습니다. 건설 도저나 일꾼으로 위험 지역을 정리해 이런 교활한 전술에 맞서십시오"
+ },
+ {
+  "label": "ACADEMY:UnmannedVehicles",
+  "text": "장군님, 일부 유닛은 적 차량의 운전병을 저격하거나 제거할 수 있습니다. 그러면 차량은 중립이 되어 적에게서 '빌려' 올 수 있습니다. 적의 비용으로 마음껏 드라이브를 즐기십시오"
+ },
+ {
+  "label": "ACADEMY:DisguisedUnits",
+  "text": "일부 유닛은 다른 유닛으로 위장할 수 있습니다. 들키지 않고 GLA 폭탄 트럭을 적 기지로 몰고 들어가 난장판을 만드는 것만큼 통쾌한 일은 없습니다. 이 핵심 전술로 작전을 진척시키십시오"
+ },
+ {
+  "label": "ACADEMY:StealthUpgrade",
+  "text": "GLA 터널 네트워크나 스팅어 기지 같은 일부 건물은 위장 업그레이드가 가능합니다. 적은 너무 늦을 때까지 보지 못합니다. 서프라이즈!"
+ },
+ {
+  "label": "ACADEMY:Firestorm",
+  "text": "중국은 여러 대의 MiG나 인페르노 캐논이 한 적이나 지역을 노리면 화염 폭풍을 일으키는 고유 능력이 있습니다. 공격을 조율해 효과를 극대화하십시오"
+ },
+ {
+  "label": "GUI:HeatEffects",
+  "text": "열 효과"
+ },
+ {
+  "label": "TOOLTIP:HeatEffects",
+  "text": "열 왜곡 효과 표시를 전환합니다. 성능을 높이려면 끄십시오"
+ },
+ {
+  "label": "GUI:WeatherEffects",
+  "text": "날씨 효과"
+ },
+ {
+  "label": "TOOLTIP:WeatherEffects",
+  "text": "눈 같은 날씨 효과 표시를 전환합니다. 성능을 높이려면 끄십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_AllyUnderAttackSubtitle",
+  "text": "*동맹이 공격받고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BaseDefensesOffLineSubtitle",
+  "text": "*기지 방어가 멈췄습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BeaconDetectedSubtitle",
+  "text": "*비컨이 설치되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusEnemySubtitle",
+  "text": "*적 블랙 로투스를 발견했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusOursSubtitle",
+  "text": "*블랙 로투스가 발각되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingBeingCapturedSubtitle",
+  "text": "*우리 건물이 점령당하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingDisabledSubtitle",
+  "text": "*건물이 무력화되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingEnabledSubtitle",
+  "text": "*건물이 다시 가동됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingStolenSubtitle",
+  "text": "*적이 우리 건물 하나를 점령했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_CashStolenSubtitle",
+  "text": "*장군님, 놈들이 우리 돈을 훔치고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonEnemySubtitle",
+  "text": "*적 버튼 대령을 발견했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonOursSubtitle",
+  "text": "*버튼 대령이 발각되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DefeatSubtitle",
+  "text": "*패배했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedNukeSubtitle",
+  "text": "*경고: 핵미사일 격납고 발견"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedParticleCannonSubtitle",
+  "text": "*경고: 입자 캐논 발견"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedScudStormSubtitle",
+  "text": "*경고: 스커드 스톰 발견"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsReceivedSubtitle",
+  "text": "*동맹에게서 자금을 받았습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedSubtitle",
+  "text": "*동맹에게 자금을 요청했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedAllySubtitle",
+  "text": "*동맹이 자금을 요청하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsTransferredSubtitle",
+  "text": "*동맹에게 자금을 보냈습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GeneralLevelUpSubtitle",
+  "text": "*축하합니다, 장군님. 진급하셨습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GPSScramblerLaunchedSubtitle",
+  "text": "*경고. GPS 교란기가 작동했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingAnthraxSubtitle",
+  "text": "*경고: 탄저균 폭탄이 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingDaisyCutterSubtitle",
+  "text": "*경고: 데이지 커터가 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingEmpPulseSubtitle",
+  "text": "*경고: EMP 펄스 폭탄이 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingFuelAirBombSubtitle",
+  "text": "*경고: 연료 기화 폭탄이 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_InsufficientFundsSubtitle",
+  "text": "*자금이 더 필요합니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellEnemySubtitle",
+  "text": "*적 자르멘 켈을 발견했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellOursSubtitle",
+  "text": "*자르멘 켈이 발각되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaserDefenseSpeechSubtitle",
+  "text": "*장군님, 적이 도시 한가운데에 요새를 두고 있습니다. 레이저 방어 시스템은 파괴적이지만 전력을 많이 씁니다. 한 번에 방어 지점 하나에만 전력을 돌릴 수밖에 없을 겁니다. 이 점을 이용하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedNukeSubtitle",
+  "text": "*경고: 핵미사일이 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedParticleCannonSubtitle",
+  "text": "*경고: 입자 캐논 발견"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedScudStormSubtitle",
+  "text": "*경고: 스커드 스톰이 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LowPowerSubtitle",
+  "text": "*전력이 부족합니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileDetectedAllySubtitle",
+  "text": "*동맹이 핵미사일 격납고를 지었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedAllySubtitle",
+  "text": "*동맹이 핵미사일을 발사했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedOursSubtitle",
+  "text": "*핵미사일을 발사했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileReadySubtitle",
+  "text": "*장군님, 핵미사일이 준비되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures01Subtitle",
+  "text": "*장군님. 민간 건물이 파괴되지 않게 조심하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures02Subtitle",
+  "text": "*민간 건물을 파괴하면 국제 여론에 악영향을 줍니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStatuesSubtitle",
+  "text": "*GLA 동상을 파괴해 국제 여론을 높이십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStructuresSubtitle",
+  "text": "*적 건물을 파괴하면 우리에 대한 국제 여론이 올라갑니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyTroopsSubtitle",
+  "text": "*적 병력을 더 파괴해 국제 여론을 높이십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionFallingSubtitle",
+  "text": "*국제 여론이 떨어지고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowSubtitle",
+  "text": "*국제 여론이 낮아지고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowCriticalSubtitle",
+  "text": "*국제 여론이 위험할 정도로 낮습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowVerySubtitle",
+  "text": "*국제 여론이 매우 낮습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionProtectCivilianSubtitle",
+  "text": "*민간 재산을 피해로부터 보호하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionRisingSubtitle",
+  "text": "*국제 여론이 올라가고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonDetectedAllySubtitle",
+  "text": "*동맹이 입자 캐논을 지었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedAllySubtitle",
+  "text": "*동맹이 입자 캐논을 가동했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedOursSubtitle",
+  "text": "*입자 캐논이 가동되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonReadySubtitle",
+  "text": "*장군님, 입자 캐논이 준비되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ReinforcementsHaveArrivedSubtitle",
+  "text": "*증원군이 도착했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormDetectedAllySubtitle",
+  "text": "*동맹이 스커드 스톰을 지었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedAllySubtitle",
+  "text": "*동맹이 스커드 스톰을 발사했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedOursSubtitle",
+  "text": "*스커드 스톰이 발사되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormReadySubtitle",
+  "text": "*장군님, 스커드 스톰이 준비되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SelectTargetSubtitle",
+  "text": "*목표를 선택하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SneakAttackLaunchedSubtitle",
+  "text": "*경고. 기습이 감지되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UnitLostSubtitle",
+  "text": "*유닛 손실"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeCompleteSubtitle",
+  "text": "*업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeEMPminesSubtitle",
+  "text": "*중성자 지뢰 업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeNeutronShellSubtitle",
+  "text": "*중성자탄 업그레이드 완료"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VehicleStolenSubtitle",
+  "text": "*차량을 도난당했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VictorySubtitle",
+  "text": "*승리했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_AllyUnderAttackSubtitle",
+  "text": "*동맹이 공격받고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BaseDefensesOffLineSubtitle",
+  "text": "*기지 방어가 작동하지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BeaconDetectedSubtitle",
+  "text": "*비컨이 설치되었다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusEnemySubtitle",
+  "text": "*적 블랙 로투스를 발견했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusOursSubtitle",
+  "text": "*우리 블랙 로투스가 적에게 들켰다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingBeingCapturedSubtitle",
+  "text": "*우리 건물이 점령당하고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingDisabledSubtitle",
+  "text": "*건물이 작동을 멈췄다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingEnabledSubtitle",
+  "text": "*건물이 다시 작동한다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingStolenSubtitle",
+  "text": "*놈들이 우리 건물을 장악했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_CashStolenSubtitle",
+  "text": "*장군, 놈들이 우리 돈을 훔치고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonEnemySubtitle",
+  "text": "*적 버튼 대령을 발견했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonOursSubtitle",
+  "text": "*우리 버튼 대령이 적에게 들켰다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DefeatSubtitle",
+  "text": "*패배했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedNukeSubtitle",
+  "text": "*조심하라, 핵미사일 격납고를 발견했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedParticleCannonSubtitle",
+  "text": "*경계하라, 적 입자 캐논을 찾아냈다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedScudStormSubtitle",
+  "text": "*조심하라, 적이 스커드 스톰을 지었다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade01Subtitle",
+  "text": "*이제 우리 건물이 경비된다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade02Subtitle",
+  "text": "*정예 경비대로 업그레이드 중이다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade03Subtitle",
+  "text": "*정예 경비대가 우리 건물을 지키고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsReceivedSubtitle",
+  "text": "*동맹에게서 자금을 받았다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedSubtitle",
+  "text": "*동맹에게 자금을 요청했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedAllySubtitle",
+  "text": "*동맹이 자금을 요청하고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsTransferredSubtitle",
+  "text": "*동맹에게 자금을 보냈다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GeneralLevelUpSubtitle",
+  "text": "*잘했다, 장군. 더 높은 계급에 올랐다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GPSScramblerLaunchedSubtitle",
+  "text": "*장군, 적이 GPS 교란기를 쓰고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingAnthraxSubtitle",
+  "text": "*경계하라, 탄저균 폭탄이 날아올지 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingDaisyCutterSubtitle",
+  "text": "*경계하라. 데이지 커터 폭탄이 날아올지 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingEmpPulseSubtitle",
+  "text": "*경계하라. EMP 펄스 폭탄이 날아올지 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingFuelAirBombSubtitle",
+  "text": "*경계하라. 연료 기화 폭탄이 날아올지 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_InsufficientFundsSubtitle",
+  "text": "*장군, 자금이 더 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellEnemySubtitle",
+  "text": "*적 자르멘 켈을 발견했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellOursSubtitle",
+  "text": "*우리 자르멘 켈이 적에게 들켰다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaserDefenseSpeechSubtitle",
+  "text": "*장군님, 적이 도시 한가운데에 요새를 두고 있습니다. 레이저 방어 시스템은 파괴적이지만 전력을 많이 씁니다. 한 번에 방어 지점 하나에만 전력을 돌릴 수밖에 없을 겁니다. 이 점을 이용하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedNukeSubtitle",
+  "text": "*장군, 핵미사일이 발사되었다!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedParticleCannonSubtitle",
+  "text": "*장군, 적이 입자 캐논을 쓰고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedScudStormSubtitle",
+  "text": "*장군, 스커드 스톰이 발사되었다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LowPowerSubtitle",
+  "text": "*전력이 부족하다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileDetectedAllySubtitle",
+  "text": "*동맹이 핵미사일 격납고를 지었다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*동맹이 핵미사일을 발사했다"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*핵미사일 발사"
+ }
+]

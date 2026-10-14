@@ -1,0 +1,90 @@
+[
+ {
+  "label": "GUI:LoadReplayLong",
+  "text": "载入录像"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak5",
+  "text": "连胜荣誉\n玩家已连续赢得 5 场在线游戏"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak20",
+  "text": "连胜荣誉\n玩家已连续赢得 20 场在线游戏"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBuggyAmmor",
+  "text": "火箭车弹药 +25%"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3Disabled",
+  "text": "连胜荣誉\n连续赢得 3 场或以上游戏即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz10Disabled",
+  "text": "闪电荣誉\n在 10 分钟内击败电脑对手即可获得此勋章"
+ },
+ {
+  "label": "GUI:CÀontrolBarBack",
+  "text": "返回"
+ },
+ {
+  "label": "GUI:BuddyAddReqMessageSent",
+  "text": "好友请求已发送"
+ },
+ {
+  "label": "GUI:BuddyAddReqMessageRejected",
+  "text": "好友请求被拒绝"
+ },
+ {
+  "label": "GUI:BuddyAddReqMessageAccepted",
+  "text": "好友请求已接受"
+ },
+ {
+  "label": "TOOLTIP:RefreshGamePlayerList",
+  "text": "刷新游戏和玩家列表"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorBuddyRadioButton",
+  "text": "在玩家列表中右键点击名字即可发送好友请求"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorIgnoreRadioButton",
+  "text": "在玩家列表中右键点击名字即可忽略该玩家"
+ },
+ {
+  "label": "GUI:GroupRoom15",
+  "text": "3 对 3"
+ },
+ {
+  "label": "GUI:GroupRoom16",
+  "text": "4 对 4"
+ },
+ {
+  "label": "GUI:GroupRoom17",
+  "text": "新手"
+ },
+ {
+  "label": "GUI:GroupRoom18",
+  "text": "模组"
+ },
+ {
+  "label": "GUI:GroupRoom19",
+  "text": "天梯"
+ },
+ {
+  "label": "GUI:GroupRoom20",
+  "text": "德国"
+ },
+ {
+  "label": "GUI:GroupRoom21",
+  "text": "美国"
+ },
+ {
+  "label": "GUI:GroupRoom22",
+  "text": "韩国"
+ },
+ {
+  "label": "GUI:BeaconClear",
+  "text": "清除"
+ }
+]

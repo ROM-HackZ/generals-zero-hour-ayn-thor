@@ -1,0 +1,102 @@
+[
+ {
+  "label": "MAP:SniperDuel",
+  "text": "Sniper Duel"
+ },
+ {
+  "label": "MAP:TheFrontline",
+  "text": "The Frontline"
+ },
+ {
+  "label": "MAP:TournamentBeach",
+  "text": "Tournament Beach"
+ },
+ {
+  "label": "MAP:TournamentCanyon",
+  "text": "Tournament canyon"
+ },
+ {
+  "label": "MAP:TournamentDesolate",
+  "text": "Tournament Desolate"
+ },
+ {
+  "label": "MAP:TournamentForest",
+  "text": "Tournament Forest"
+ },
+ {
+  "label": "MAP:TournamentIceStorm",
+  "text": "Tournament Ice Storm"
+ },
+ {
+  "label": "MAP:TournamentTactics",
+  "text": "Tournament Tactics"
+ },
+ {
+  "label": "MAP:TournamentTown",
+  "text": "Tournament Town"
+ },
+ {
+  "label": "MAP:TournamentValley",
+  "text": "Tournament Valley"
+ },
+ {
+  "label": "MAP:UnholyWar",
+  "text": "Unholy War"
+ },
+ {
+  "label": "MAP:Unstable",
+  "text": "Unstable"
+ },
+ {
+  "label": "MAP:UrbanUprising",
+  "text": "Urban Uprising"
+ },
+ {
+  "label": "MAP:VictoryOutlook",
+  "text": "Victory Outlook"
+ },
+ {
+  "label": "MAP:VictoryRoad",
+  "text": "Victory Road"
+ },
+ {
+  "label": "MAP:NorthAmerica",
+  "text": "North America"
+ },
+ {
+  "label": "MAP:Floodplains",
+  "text": "Floodplains"
+ },
+ {
+  "label": "MAP:TournamentA",
+  "text": "Tournament A"
+ },
+ {
+  "label": "MAP:TournamentB",
+  "text": "Tournament B"
+ },
+ {
+  "label": "MAP:Defcon6",
+  "text": "Defcon 6"
+ },
+ {
+  "label": "CONTROLBAR:AirF_TooltipUSAUpgradeLaserMissiles",
+  "text": "猛禽战机和隐形战机的导弹伤害 +12%"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSAScienceCarpetBomb",
+  "text": "可呼叫一架 B2 隐形轰炸机对区域进行地毯式轰炸\n\n召唤地点：战略中心"
+ },
+ {
+  "label": "GUI:CustomMission",
+  "text": "自定义任务"
+ },
+ {
+  "label": "GX:ForceAttack",
+  "text": "强制攻击"
+ },
+ {
+  "label": "GX:ToolTipForceAttack",
+  "text": "攻击你点击的下一个目标，即使是你自己的单位或空地"
+ }
+]

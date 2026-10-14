@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke092Subtitle",
+  "text": "*오, 봐라 -- 너를 위한 핵이 준비됐다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke093Subtitle",
+  "text": "*와, 핵이 두 개! 기쁘군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke094Subtitle",
+  "text": "*핵이 세 개?!? 재미가 세 배다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke095Subtitle",
+  "text": "*핵이 네 개? 믿을 수 없군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke096Subtitle",
+  "text": "*핵이 다섯 개? 깨끗한 속옷이라도 보내 줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Nuke097Subtitle",
+  "text": "*(플레이어가 건물 판매) 장군, 건물을 더 팔면 내가 부전승으로 이기겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth001Subtitle",
+  "text": "*내가 뭘 찾았는지 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth002Subtitle",
+  "text": "*다음 공격이 간다... 이번엔 좀 준비해 둬라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth003Subtitle",
+  "text": "*보이지 않는 건 죽일 수 없지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth004Subtitle",
+  "text": "*어차피 그 병력은 필요 없었잖아"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth005Subtitle",
+  "text": "*또 근무 중에 졸고 있나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth006Subtitle",
+  "text": "*새 유닛 고맙다. 널 파괴하는 데 유용하게 쓰겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth007Subtitle",
+  "text": "*이것 좀 봐! 아, 참, 넌 못 보지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth008Subtitle",
+  "text": "*열화상 고글은 챙겨 왔나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth009Subtitle",
+  "text": "*새 기지를 하나 장만할 때가 된 것 같군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth010Subtitle",
+  "text": "*인연이 아니었다, 장군. 잘 가라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth011Subtitle",
+  "text": "*눈을 감는다고 패배의 고통이 덜해지진 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth012Subtitle",
+  "text": "*내 스텔스 암살자들이 네 병력을 금세 처리할 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth013Subtitle",
+  "text": "*우리는 뱀처럼 공격한다 -- 빠르고 보이지 않게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth014Subtitle",
+  "text": "*넌 이 공격을 버티지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth015Subtitle",
+  "text": "*잘생긴 장군은 언제나 전투에서 이기지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth016Subtitle",
+  "text": "*너무 늦을 때까지 날 보지 못할 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth017Subtitle",
+  "text": "*장군, 블랙 로투스를 소개해 줄 수 있겠나. 그녀의... 음, 일을 무척 흠모하거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth018Subtitle",
+  "text": "*조용할 때야말로 날 가장 두려워해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth019Subtitle",
+  "text": "*다음 공격이 기다려지는군, 장군. 오늘 기대해도 되나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth020Subtitle",
+  "text": "*감각이 무뎌지지 않게 해라, 장군 -- 언제든 공격이 올 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth021Subtitle",
+  "text": "*넌 날 이길 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth022Subtitle",
+  "text": "*네가 가장 방심할 때 공격하겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth023Subtitle",
+  "text": "*내 병사들은 전장 곳곳에 있다, 장군... 보이지 않는 곳에서... 공격할 준비를 마치고"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth024Subtitle",
+  "text": "*은폐는 내 동맹... 그리고 네 적이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth025Subtitle",
+  "text": "*기술 건물을 잃었군, 장군. 다음엔 뭘 잃을까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth026Subtitle",
+  "text": "*네 병영을 파괴하는 걸 막지 못했군, 장군. 병사가 아니면 대체 뭘 소중히 여기지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth027Subtitle",
+  "text": "*네 군수 공장을 부수는 건 애들 장난이었다. 사령부도 머지않았다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth028Subtitle",
+  "text": "*네 비행기들은 비행장을 잃었고, 넌 우위를 잃었다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth029Subtitle",
+  "text": "*이제 네 방어에 구멍이 났다, 장군. 지금 네 기지에 내 병사가 몇이나 있을지 누가 알겠나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth030Subtitle",
+  "text": "*네 사령부는 사라졌다, 장군. 내 승리는 거의 확실하다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth031Subtitle",
+  "text": "*네 건물을 부수는 게 즐겁진 않다, 장군. 하지만 네가 선택의 여지를 주지 않는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth032Subtitle",
+  "text": "*넌 내 기지에 닿을 희망이 없으니 기술 건물을 노리는 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth033Subtitle",
+  "text": "*내 병영을 부쉈지만, 다시 지어 그 병사들의 원수를 갚을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth034Subtitle",
+  "text": "*네가 창고를 부순 걸 내 무기상이 좋아하지 않을 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth035Subtitle",
+  "text": "*그 기지 방어를 부쉈군, 장군. 하지만 그 덕분에 내 병사들이 널 우회할 시간을 벌었을지도 모르지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth036Subtitle",
+  "text": "*내 건물을 많이 부쉈지만, 공장 하나만 남아도 난 위험한 적이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth037Subtitle",
+  "text": "*잘 했다, 장군. 내 사령부를 부쉈군. 이제 더러운 수를 쓸 수밖에 없겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth038Subtitle",
+  "text": "*위장한 내 차량을 꽤 잘 찾아내는군, 장군. 새 전술을 고려해 보지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth039Subtitle",
+  "text": "*네 무식한 전술 때문에 병사를 잃고 있다, 장군. 넌 전술이 없다는 걸 알았으니 내 전술을 다시 생각해 보지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth040Subtitle",
+  "text": "*이 유정을 차지했으니 내 병력은 더 빨리 늘어날 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth041Subtitle",
+  "text": "*포병 플랫폼은 너무 투박하지만, 너한테 줄 순 없지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth042Subtitle",
+  "text": "*이 정유 공장은 이제 내 것이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth043Subtitle",
+  "text": "*장군, 내 기지에 위험할 만큼 가까이 오고 있군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth044Subtitle",
+  "text": "*내 기지로 다가오는 병력이 보인다, 장군. 설마 침공하려는 건 아니겠지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth045Subtitle",
+  "text": "*내 인내심을 시험하는군, 장군. 병력을 내 기지에서 빼라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth046Subtitle",
+  "text": "*병력을 내 기지에서 빼지 않으면 영원히 빼 주겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth047Subtitle",
+  "text": "*측면으로 내 기지에 들어오려는군. 막아 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth048Subtitle",
+  "text": "*뒷문 공격? 이렇게 교활한 줄은 몰랐군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth049Subtitle",
+  "text": "*정면 공격? 치명적인 실수가 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth050Subtitle",
+  "text": "*그건 내 자원이다, 장군 -- 네 것이나 찾아라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth051Subtitle",
+  "text": "*왜 꼭 그 길로 내 기지에 접근하려는 거지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth052Subtitle",
+  "text": "*그 길은 보기만큼 무방비가 아니다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth053Subtitle",
+  "text": "*여기서 찾을 수 있는 건 네 파멸뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth054Subtitle",
+  "text": "*이 지역에 왜 그렇게 집착하지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth055Subtitle",
+  "text": "*네 기지에 다가가고 있다, 장군. 지금쯤 네 머리에 조준선이 겨눠져 있을지도 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth056Subtitle",
+  "text": "*외곽 방어가 약하군, 장군. 기지는 더 잘 지켜지길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth057Subtitle",
+  "text": "*네 기지에 들어왔다, 장군. 우릴 무시하면 대가를 치를 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth058Subtitle",
+  "text": "*네 방어가 무너졌다, 장군. 이제 어떻게 우릴 막을 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth059Subtitle",
+  "text": "*이 자원을 정말 지켜야 할 거다, 장군. 안 그러면 이 전투는 아주 짧아질 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth060Subtitle",
+  "text": "*네 기술 건물을 찾았다, 장군. 이걸 어떻게 할까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth061Subtitle",
+  "text": "*네 기지의 뒷문을 찾았다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth062Subtitle",
+  "text": "*내 측면 공격을 막을 수 있겠나, 장군? 알아보지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth063Subtitle",
+  "text": "*부주의한 장군만이 전력이 끊기게 둔다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth064Subtitle",
+  "text": "*전력이 나갔군, 장군. 기반 시설을 제대로 계획하지 않았어. 치명적인 실수가 아니길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth065Subtitle",
+  "text": "*장군, 자원 없이는 싸울 수 없다. 이제 어쩔 건가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth066Subtitle",
+  "text": "*내 자원을 빼앗았군, 장군. 이제 그대로 갚아 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth067Subtitle",
+  "text": "*그래, 스커드 스톰을 지었군. 이 새 위협에 대처해야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth068Subtitle",
+  "text": "*핵무기는 이 전투에 어울리지 않는다, 장군. 왜 굳이 만드는 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth069Subtitle",
+  "text": "*비겁한 입자 캐논으로 우주에서 날 치겠다고? 실망이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth070Subtitle",
+  "text": "*기지 방어가 이렇게나 많다니, 장군. 뭐가 그렇게 두렵나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth071Subtitle",
+  "text": "*전차를 만드는군. 뭐, 저격수 몇 명만 더 있으면 해결되지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth072Subtitle",
+  "text": "*비행기를 더? 왜 그렇게 많지, 장군? 내려와서 나랑 맞서는 게 두렵나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth073Subtitle",
+  "text": "*조언 하나 하지, 장군. 그 대규모 보병은 내 저격수들의 상대가 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth074Subtitle",
+  "text": "*네 기지가 이렇게 커졌군, 장군. 건물을 전부 점령당하지 않게 지킬 수 있을 것 같나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth075Subtitle",
+  "text": "*발사했군! 스커드 스톰을 쓴 걸 후회하게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth076Subtitle",
+  "text": "*핵미사일! 허세인 줄 알았는데, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth077Subtitle",
+  "text": "*그래, 비겁한 입자 광선이나 봐라. 즐겨라, 장군 -- 내 응답은 빠르고 잔혹할 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth078Subtitle",
+  "text": "*얼마든지, 장군, 그 건물에 주둔해라... 내 저격수들이 그 안까지 맞힐 수도 있으니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth079Subtitle",
+  "text": "*버튼 대령, 장군? 차라리 그를 장군으로 삼아라. 넌 그를 일찍 무덤으로 보낼 뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth080Subtitle",
+  "text": "*아, 아름다운 블랙 로투스. 네가 패배하고 나면, 장군, 그녀가 내 편이 되어 줄지도 모르지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth081Subtitle",
+  "text": "*자르멘 켈?! 전 저격수 주의: 자르멘 켈이 전장에 들어왔다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth082Subtitle",
+  "text": "*비행장을 짓는 건 현명한 선택이지만 비행기만으로는 날 이길 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth083Subtitle",
+  "text": "*내 첩자들이 드디어 네가 군수 공장을 지었다고 하더군, 장군. 이제 싸울 준비가 됐나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth084Subtitle",
+  "text": "*그 병영에서 원하는 만큼 훈련시켜라, 장군. 내 저격수들의 상대는 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth085Subtitle",
+  "text": "*건물 하나를 팔았군. 그런 전술은 패배로 이어진다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth086Subtitle",
+  "text": "*어떻게 내 병력을 이기고 있는 거지?! 불가능하다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth087Subtitle",
+  "text": "*지금은 우위에 있을지 몰라도, 네 필사적인 전술은 오래가지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth088Subtitle",
+  "text": "*내 병력이 네 압제에 맞서 일어나 널 물리칠 것이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth089Subtitle",
+  "text": "*지금은 우위를 즐겨라, 장군... 곧 실수할 테고, 그때 내가 전세를 뒤집겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth090Subtitle",
+  "text": "*이렇게 끝나는군... 날 이겼지만, 장군, 언젠가 복수하겠다. 뒤를 조심해라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth091Subtitle",
+  "text": "*네 병력이 약해지고 있다, 장군. 패배를 인정하면 봐주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth092Subtitle",
+  "text": "*네 공격은 나에게 통하지 않는다, 장군. 곧 쳐들어가 널 파괴하겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth093Subtitle",
+  "text": "*이 작은 게임이 즐겁긴 하지만, 장군, 네 한심한 공격엔 슬슬 지루해진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth094Subtitle",
+  "text": "*더 큰 도전이 될 줄 알았다, 장군. 내가 널 과대평가했나 보군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth095Subtitle",
+  "text": "*너도 이전의 모두처럼 카사드 앞에 쓰러졌다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth096Subtitle",
+  "text": "*우리는 뱀처럼 공격한다 -- 보이지 않고 치명적으로"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth097Subtitle",
+  "text": "*이제 날 봤군 -- 그리고 넌 죽었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth098Subtitle",
+  "text": "*나는 카사드다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth099Subtitle",
+  "text": "*이건 너에게 좋게 끝나지 않을 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth100Subtitle",
+  "text": "*부하들은 지도자의 이번 패배를 용납하지 않을 거다, 장군. 네 뛰어난 전술이 내 사형 집행 영장에 서명한 셈이지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth101Subtitle",
+  "text": "*쓰디쓴 패배를 받아들이고 내 눈앞에서 사라져라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth102Subtitle",
+  "text": "*나에게 맞선 또 한 명이 쓰러진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth103Subtitle",
+  "text": "*너도 그렇게 될 거다, 장군 -- 경고도, 자비도 없이"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth104Subtitle",
+  "text": "*아직 목숨을 건져 도망칠 시간은 있다, 장군. <evil laughter trailing off to silence>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank001Subtitle",
+  "text": "*겁먹고 도망치지 않았군, 장군. 곧 도망쳤어야 했다고 후회할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank002Subtitle",
+  "text": "*내 병력이 네 문 앞에 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank003Subtitle",
+  "text": "*강철 용이 네 보잘것없는 방어를 짓밟고 나아간다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank004Subtitle",
+  "text": "*이게 네 끝이 될 것 같군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank005Subtitle",
+  "text": "*음... 다가오는 장갑의 천둥 같은 노래가 느껴지나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank006Subtitle",
+  "text": "*측면은 지키고 있나, 장군? 한번 볼까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank007Subtitle",
+  "text": "*내 전차 개조가 인상적인가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank008Subtitle",
+  "text": "*기갑... 짓밟아라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank009Subtitle",
+  "text": "*곧 전장은 전차로 가득 찰 거다... 내 전차로"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank010Subtitle",
+  "text": "*전 유닛... 공격"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank011Subtitle",
+  "text": "*좋은 기지군, 장군... 넘겨줄 생각 없나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank012Subtitle",
+  "text": "*이건 네 파멸을 뜻한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank013Subtitle",
+  "text": "*네 기지에 들어왔다, 장군. 네 방어는 불충분했다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank014Subtitle",
+  "text": "*감히 내 군수 공장을 공격해! 전 병력, 이 해충을 제거하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank015Subtitle",
+  "text": "*전차... 전차를 더 만들어라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank016Subtitle",
+  "text": "*또 한 대대가 가는 중이다, 장군. 환영해 줘라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank017Subtitle",
+  "text": "*아, 전투에서 내가 가장 즐기는 순간이다... 적을 끝장내기 직전이지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank018Subtitle",
+  "text": "*전차: 더 빨리... 적이 진짜 공격을 생각하기 전에"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank019Subtitle",
+  "text": "*밖이 조용하군, 장군. 전차가 잔뜩 네 기지로 굴러가고 있을 거다, 안 그런가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank020Subtitle",
+  "text": "*이 틈에 방어를 더 지어야겠군... 아니, 잠깐, 전차를 더 만들겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank021Subtitle",
+  "text": "*이곳은 한때 비옥한 농지였다. 곧 네 피가 다시 비옥하게 만들 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank022Subtitle",
+  "text": "*네 전술이 재미있군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank023Subtitle",
+  "text": "*쉬는 동안 즐겨라, 장군 -- 곧 공격이 다시 시작된다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank024Subtitle",
+  "text": "*네 공격을 기다리고 있다, 장군. 하지만 오기는 할지 슬슬 궁금해지는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank025Subtitle",
+  "text": "*우리 군수 공장이 너만을 위해 열심히 전차를 만들고 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank026Subtitle",
+  "text": "*이런 손실을 얼마나 더 견딜 수 있나, 장군? 항복을 고려할 때인지도 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank027Subtitle",
+  "text": "*전차들이 우리 기지에 모여 최후의 공격을 준비하고 있다. 이번엔 네 방어가 버틸까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank028Subtitle",
+  "text": "*곧 우리 땅에서 널 몰아낼 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank029Subtitle",
+  "text": "*이게 너 자신을 증명할 마지막 기회다, 장군. 곧 내 전차들이 네 한심한 군대를 끝장낼 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank030Subtitle",
+  "text": "*네 운이 오래갈 거라고 믿진 않겠지... 그렇지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank031Subtitle",
+  "text": "*그 기술 건물 필요 없었지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank032Subtitle",
+  "text": "*네 병영이 내 전차 앞에 무너졌다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank033Subtitle",
+  "text": "*네 공장이 날아갔군, 장군. 이제 내 장갑을 어떻게 상대할 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank034Subtitle",
+  "text": "*비행장이 없으니 날 상대할 유일한 기회를 잃었군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank035Subtitle",
+  "text": "*네 방어가 내 장갑 앞에 장난감처럼 쓰러진다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank036Subtitle",
+  "text": "*사령부를 잃었으니 날 이길 희망도 모두 잃었다, 장군. 항복을 기다리겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank037Subtitle",
+  "text": "*건물을 많이 잃었군, 장군... 항복할 때가 되지 않았나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank038Subtitle",
+  "text": "*그 기술 건물은 내 것이었다, 장군. 부순 걸 후회하게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank039Subtitle",
+  "text": "*그래, 내 병영을 부쉈군 -- 좋다. 이제 네 것을 부숴 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank040Subtitle",
+  "text": "*그 군수 공장은 다시 지을 거다. 곧 전차가 다시 물처럼 네 기지로 흘러갈 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank041Subtitle",
+  "text": "*내 비행장을 부순다고 날 막을 순 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank042Subtitle",
+  "text": "*내 방어를 부수면 네 위치를 알려 줄 뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank043Subtitle",
+  "text": "*장군, 넌 용납할 수 없을 만큼 많은 내 건물을 부수고 있다. 이건 멈춰야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank044Subtitle",
+  "text": "*내 사령부를 부쉈군... 인상적이다, 장군... 이렇게 오래 버틴 자는 드물다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank045Subtitle",
+  "text": "*내 비행기를 쏘고 있나?! 그게 날 상대할 최선의 전술이라고 생각하나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank046Subtitle",
+  "text": "*그만! 내 전차를 더는 부수지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank047Subtitle",
+  "text": "*내 보병을 노리지 마라, 이 겁쟁이!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank048Subtitle",
+  "text": "*장군, 내 전차에겐 그 유정이 필요하다. 넘겨라, 아니면 대가를 치러라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank049Subtitle",
+  "text": "*그 포병 플랫폼은 내 장갑의 상대가 안 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank050Subtitle",
+  "text": "*아, 정유 공장을 차지했군. 내가 빼앗아야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank051Subtitle",
+  "text": "*네 기지에 접근 중이다, 장군. 각오해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank052Subtitle",
+  "text": "*아, 내 전차가 거의 네 기지 사정권에 들어왔다. 곧 끝나겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank053Subtitle",
+  "text": "*네 방어를 뚫었다, 장군. 이제 네 공장들이 무너지기 시작할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank054Subtitle",
+  "text": "*기지에 초대해 줘서 고맙다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank055Subtitle",
+  "text": "*네 측면이 드러났군, 장군. 예상했던 대로다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank056Subtitle",
+  "text": "*네 뒷문엔 경비가 없다 -- 치명적인 실수다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank057Subtitle",
+  "text": "*두 번째 기지를 지었군, 장군. 곧 제거될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank058Subtitle",
+  "text": "*아, 네 기술 건물을 찾았다. 자, 부술까 점령할까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank059Subtitle",
+  "text": "*전력이 나갔다... 네 병력은 끝났다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank060Subtitle",
+  "text": "*전력을 복구하는 게 좋을 거다, 장군... 우리가 영원히 꺼 버리기 전에"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank061Subtitle",
+  "text": "*네 보급품 더미가 얼마 안 남았군... 이제 아무것도 우릴 막을 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank062Subtitle",
+  "text": "*보급품! 보급품이 더 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank063Subtitle",
+  "text": "*그 스커드 스톰으로 뭘 하려는 거지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank064Subtitle",
+  "text": "*이제 이 전쟁이 핵전쟁이 됐군... 훌륭하다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank065Subtitle",
+  "text": "*그 입자 캐논은 나를 쏠 때까지 살아남지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank066Subtitle",
+  "text": "*기지 방어가 이렇게나 많다니, 장군... 전부 쓸모없는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank067Subtitle",
+  "text": "*그래서 전장에서 내 전차와 맞서 보겠다고. 네 전술이 의심스럽군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank068Subtitle",
+  "text": "*비행기가 많이 보이는군, 장군 -- 하늘에서 탁탁 쳐서 떨어뜨리길 기다리는 날벌레 같군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank069Subtitle",
+  "text": "*병사를 너무 많이 훈련시켰다, 장군. 전부 내 궤도 아래 짓밟힐 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank070Subtitle",
+  "text": "*네 기지가 너무 커졌다, 장군 -- 내 전차들이 사격 연습을 즐기겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank071Subtitle",
+  "text": "*네 스커드 스톰이 우리에게 피해를 주겠지만, 이제 날 화나게 했다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank072Subtitle",
+  "text": "*실패한 장군만이 핵미사일에 의존한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank073Subtitle",
+  "text": "*이 입자 광선으로는 우릴 이기지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank074Subtitle",
+  "text": "*그래, 건물에 주둔해라 -- 피할 수 없는 걸 미룰 뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank075Subtitle",
+  "text": "*병사 한 명으로 전세를 뒤집을 순 없다. 버튼 대령이라도"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank076Subtitle",
+  "text": "*아, 블랙 로투스, 영광이군. 나를 위해 싸울 생각은 없나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank077Subtitle",
+  "text": "*전 전차 주의: 자르멘 켈이 전장에 들어왔다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank078Subtitle",
+  "text": "*비행장은 나에게 맞서는 현명한 선택이지만 패배에서 널 구하진 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank079Subtitle",
+  "text": "*군수 공장을 지어라, 장군. 그래도 내 전차를 막을 전차는 못 만들 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank080Subtitle",
+  "text": "*병영을 지었군, 장군. 부디 네 병사들이 내 전차 밑에 깔리지 않게 해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank081Subtitle",
+  "text": "*그래, 건물을 전부 팔고 전장에서 도망쳐라, 장군. 이 전투는 네가 졌다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank082Subtitle",
+  "text": "*넌 지고 있다, 장군. 이 전투는 내 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank083Subtitle",
+  "text": "*모든 희망이 사라졌다, 장군. 항복하든지 죽어라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank084Subtitle",
+  "text": "*장군, 내 병력이 너보다 많다... 이제 시간문제다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank085Subtitle",
+  "text": "*네 열등한 전략이 널 여기까지 끌고 왔다, 장군. 이제 넌 이길 수 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank086Subtitle",
+  "text": "*내 승리는 처음부터 정해져 있었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank087Subtitle",
+  "text": "*네 전술이 잠시 우위를 줬을지 몰라도, 장군, 유지하지는 못할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank088Subtitle",
+  "text": "*안 돼! 넌 이기지 못한다, 장군. 전차를 더 만들어 널 이기겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank089Subtitle",
+  "text": "*네 비겁한 전술로 여기까지 왔을지 몰라도, 이 어리석은 짓은 이제 끝이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank090Subtitle",
+  "text": "*꽤 오래 이기게 해 줬군, 장군. 최후를 준비해라"
+ }
+]

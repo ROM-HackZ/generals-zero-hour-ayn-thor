@@ -1,0 +1,802 @@
+[
+ {
+  "label": "TOOLTIP:SendDelay",
+  "text": "لمستخدمي الجدار الناري فقط. (يرجى مراجعة الدليل)"
+ },
+ {
+  "label": "GUI:GSFailedToHost",
+  "text": "تعذّرت استضافة اللعبة"
+ },
+ {
+  "label": "Buddy:SelectBuddyToChat",
+  "text": "اختر صديقًا للدردشة"
+ },
+ {
+  "label": "GUI:CannotConnectToServservTitle",
+  "text": "تعذّر الاتصال"
+ },
+ {
+  "label": "GUI:CannotConnectToServserv",
+  "text": "تعذّر إنشاء اتصال بخوادم Command and Conquer Generals Zero Hour. يرجى التحقق من اتصالك بالإنترنت"
+ },
+ {
+  "label": "MESSAGE:BattlePlanBombardmentInitiated",
+  "text": "بدأ تنفيذ استراتيجية القصف"
+ },
+ {
+  "label": "MESSAGE:BattlePlanHoldTheLineInitiated",
+  "text": "بدأ تنفيذ استراتيجية الصمود"
+ },
+ {
+  "label": "MESSAGE:BattlePlanSearchAndDestroyInitiated",
+  "text": "بدأ تنفيذ استراتيجية البحث والتدمير"
+ },
+ {
+  "label": "OBJECT:TechOilRefinery",
+  "text": "مصفاة نفط -- استولِ عليها لتخفيض تكلفة المركبات"
+ },
+ {
+  "label": "OBJECT:SupplyDock",
+  "text": "مستودع الإمدادات"
+ },
+ {
+  "label": "GUI:InGameDiplomacy",
+  "text": "الدبلوماسية"
+ },
+ {
+  "label": "GUI:MapPreview",
+  "text": "معاينة الخريطة"
+ },
+ {
+  "label": "GUI:Error",
+  "text": "خطأ"
+ },
+ {
+  "label": "Buddy:Disconnected",
+  "text": "انقطع اتصالك\nبقائمة الأصدقاء"
+ },
+ {
+  "label": "GUI:SandboxMode",
+  "text": "جارٍ الدخول إلى وضع التجريب الحر..."
+ },
+ {
+  "label": "GUI:BookmarkXSet",
+  "text": "عُيّنت الإشارة المرجعية رقم %d"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair1",
+  "text": "إصلاح طارئ 1"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair2",
+  "text": "إصلاح طارئ 2"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair3",
+  "text": "إصلاح طارئ 3"
+ },
+ {
+  "label": "MAP:CHI05Open",
+  "text": "باليكشي، قيرغيزستان\nالأرض المحروقة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceEmergencyRepair",
+  "text": "يصلح المركبات في منطقة ما\n\nالرتبة 1: إصلاح خفيف\nالرتبة 2: إصلاح متوسط\nالرتبة 3: إصلاح شامل\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "GUI:MinSpecFailedTitle",
+  "text": "تحذير"
+ },
+ {
+  "label": "GUI:MinSpecFailedMessage",
+  "text": "لا يلبّي نظامك الحد الأدنى من متطلبات العتاد. قد تلاحظ معدل إطارات أبطأ من المعتاد في ألعابك الجماعية"
+ },
+ {
+  "label": "TOOLTIP:AlreadyUpgradedDefault",
+  "text": "اشتُريت هذه الترقية بالفعل"
+ },
+ {
+  "label": "TOOLTIP:HasConflictingUpgradeDefault",
+  "text": "لا يمكن شراء ترقية متعارضة"
+ },
+ {
+  "label": "GUI:NoGameSelected",
+  "text": "اختر لعبة للانضمام إليها أولًا"
+ },
+ {
+  "label": "GUI:CloseExpScreen",
+  "text": "تم"
+ },
+ {
+  "label": "TOOLTIP:CloseExpScreen",
+  "text": "العودة إلى اللعبة"
+ },
+ {
+  "label": "GUI:GPNoCommunicator",
+  "text": "جهاز الاتصال غير متاح في الاختبار التجريبي للعب الجماعي"
+ },
+ {
+  "label": "GUI:GSKickedGameStarted",
+  "text": "بدأت اللعبة"
+ },
+ {
+  "label": "GUI:GSKickedGameFull",
+  "text": "اللعبة ممتلئة"
+ },
+ {
+  "label": "Network:PacketRouterTimeout",
+  "text": "انتهت مهلة موجّه الحزم"
+ },
+ {
+  "label": "GUI:EstablishingConnectionPaths",
+  "text": "جارٍ إنشاء مسارات الاتصال"
+ },
+ {
+  "label": "UPGRADE:RadarVanScan",
+  "text": "مسح شاحنة الرادار"
+ },
+ {
+  "label": "MAP:CHI04Open",
+  "text": "جبال تانغولا، الصين\nتحالفات مكسورة"
+ },
+ {
+  "label": "MAP:GLA04Open",
+  "text": "مدينة أستانا\nعاصمة كازاخستان المحتلة من الصين"
+ },
+ {
+  "label": "MAP:USA07NewObjective2",
+  "text": "هدف جديد للمهمة:\nدمّر مركز القيادة الصيني\nوصومعة الصاروخ النووي"
+ },
+ {
+  "label": "MAP:USA07GotObjective1",
+  "text": "اكتمل الهدف:\nدمّر جيش التحرير العالمي في الشمال الشرقي"
+ },
+ {
+  "label": "MAP:USA07GotObjective2",
+  "text": "اكتمل الهدف:\nدمّر مركز القيادة الصيني\nوصومعة الصاروخ النووي"
+ },
+ {
+  "label": "GUI:Defaults",
+  "text": "الافتراضي"
+ },
+ {
+  "label": "TOOLTIP:OptionsAccept",
+  "text": "اعتماد التغييرات والخروج من قائمة الخيارات"
+ },
+ {
+  "label": "TOOLTIP:OptionsCancel",
+  "text": "الخروج من قائمة الخيارات دون حفظ التغييرات"
+ },
+ {
+  "label": "TOOLTIP:OptionsDefaults",
+  "text": "إعادة الخيارات إلى الإعدادات الافتراضية"
+ },
+ {
+  "label": "MESSAGE:StealthDiscovered",
+  "text": "رُصدت وحدة معادية متخفية"
+ },
+ {
+  "label": "MESSAGE:StealthNeutralized",
+  "text": "أُبطلت قدرة التخفي"
+ },
+ {
+  "label": "TOOLTIP:SortBuddies",
+  "text": "وضع الأصدقاء في أعلى قائمة الألعاب"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenu",
+  "text": "قائمة خبرة الجنرالات"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenuDescription",
+  "text": "عرض قائمة الخبرة حيث يمكنك إنفاق نقاط الخبرة المكتسبة في المعارك على قدرات الجنرال المختلفة"
+ },
+ {
+  "label": "CONTROLBAR:UpDown",
+  "text": "إظهار/إخفاء"
+ },
+ {
+  "label": "CONTROLBAR:UpDownDescription",
+  "text": "يحدد ما إذا كان شريط التحكم ظاهرًا أم مخفيًا"
+ },
+ {
+  "label": "CONTROLBAR:DisarmMinesAtPosition",
+  "text": "إزالة الألغام (&L)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDisarmMinesAtPosition",
+  "text": "إزالة الألغام والمتفجرات الصغيرة في المنطقة المحددة"
+ },
+ {
+  "label": "TOOLTIP:ScienceCostUnavailable",
+  "text": "التكلفة: غير متاح"
+ },
+ {
+  "label": "GUI:OnlineIPAddresses",
+  "text": "عنوان IP عبر الإنترنت:"
+ },
+ {
+  "label": "GUI:GSDisconReason16",
+  "text": "يوجد ملف شخصي بهذا الاسم المستعار بالفعل"
+ },
+ {
+  "label": "GUI:GSDisconReason17",
+  "text": "كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى"
+ },
+ {
+  "label": "GUI:GSDisconReason18",
+  "text": "يوجد ملف شخصي بهذا الاسم المستعار بالفعل"
+ },
+ {
+  "label": "GUI:GSDisconReason19",
+  "text": "خطأ في الخادم - تعذّر إنشاء الحساب"
+ },
+ {
+  "label": "Buddy:MessageDisconnected",
+  "text": "انقطع اتصالك\nبقائمة الأصدقاء"
+ },
+ {
+  "label": "GUI:PlayerHasBeenDefeated",
+  "text": "هُزم %ls"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRangerCaptureBuilding",
+  "text": "الاستيلاء على المبنى (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRedguardCaptureBuilding",
+  "text": "الاستيلاء على المبنى (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARebelCaptureBuilding",
+  "text": "الاستيلاء على المبنى (&C)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateBombTruck",
+  "text": "فجّر الآن! (&N)"
+ },
+ {
+  "label": "UPGRADE:RangerCaptureBuilding",
+  "text": "الاستيلاء على المباني"
+ },
+ {
+  "label": "UPGRADE:RedguardCaptureBuilding",
+  "text": "الاستيلاء على المبنى"
+ },
+ {
+  "label": "UPGRADE:RebelCaptureBuilding",
+  "text": "الاستيلاء على المبنى"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateBombTruck",
+  "text": "يأمر الشاحنة المفخخة بالانفجار فورًا في موقعها الحالي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAUpgradeRangerCaptureBuilding",
+  "text": "يمكّن جنود الرينجر من الاستيلاء على مباني العدو والمباني التقنية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "يمكّن الحرس الأحمر من الاستيلاء على مباني العدو والمباني التقنية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRebelCaptureBuilding",
+  "text": "يمكّن المتمردين من الاستيلاء على مباني العدو والمباني التقنية"
+ },
+ {
+  "label": "GUI:Loading",
+  "text": "جارٍ التحميل"
+ },
+ {
+  "label": "TOOLTIP:EmoteButton",
+  "text": "تعبير"
+ },
+ {
+  "label": "CONTROLBAR:Power",
+  "text": "الطاقة"
+ },
+ {
+  "label": "CONTROLBAR:PowerDescription",
+  "text": "الطاقة الحالية: %d\nالطاقة المطلوبة: %d"
+ },
+ {
+  "label": "CONTROLBAR:Money",
+  "text": "المال"
+ },
+ {
+  "label": "CONTROLBAR:MoneyDescription",
+  "text": "هذا مقدار المال الذي تملكه"
+ },
+ {
+  "label": "MAP:TourneyArena",
+  "text": "Tournament Desert"
+ },
+ {
+  "label": "UPGRADE:AmericaDroneARmor",
+  "text": "دروع الطائرات المسيّرة"
+ },
+ {
+  "label": "UPGRADE:APRockets",
+  "text": "صواريخ خارقة للدروع"
+ },
+ {
+  "label": "ThingTemplate:EuropeanTowerBridge01",
+  "text": "جسر"
+ },
+ {
+  "label": "ThingTemplate:BridgeTowerConcreteRight02",
+  "text": "جسر"
+ },
+ {
+  "label": "Team:0",
+  "text": "لا شيء"
+ },
+ {
+  "label": "Team:1",
+  "text": "1"
+ },
+ {
+  "label": "Team:2",
+  "text": "2"
+ },
+ {
+  "label": "Team:3",
+  "text": "3"
+ },
+ {
+  "label": "Team:4",
+  "text": "4"
+ },
+ {
+  "label": "Team:AI",
+  "text": "الحاسوب"
+ },
+ {
+  "label": "GUI:RestartConfirmation",
+  "text": "هل أنت متأكد من أنك تريد إعادة البدء؟"
+ },
+ {
+  "label": "GUI:ErrorStartingGame",
+  "text": "خطأ في بدء اللعبة"
+ },
+ {
+  "label": "GUI:TooManyPlayers",
+  "text": "هذه الخريطة تدعم %d لاعبين فقط"
+ },
+ {
+  "label": "GUI:SandboxWarning",
+  "text": "النقر على البدء مرة أخرى سيبدأ لعبة في وضع التجريب الحر"
+ },
+ {
+  "label": "GUI:CantFindMap",
+  "text": "تعذّر العثور على الخريطة. هل هي تالفة؟"
+ },
+ {
+  "label": "GUI:EnterSaveDesc",
+  "text": "أدخل وصف اللعبة"
+ },
+ {
+  "label": "GUI:MissionSave",
+  "text": "بداية المهمة - %s %d"
+ },
+ {
+  "label": "GUI:SaveReplay",
+  "text": "حفظ الإعادة"
+ },
+ {
+  "label": "GUI:OverwriteReplayTitle",
+  "text": "استبدال الإعادة"
+ },
+ {
+  "label": "GUI:OverwriteReplay",
+  "text": "استبدال الإعادة؟"
+ },
+ {
+  "label": "GUI:ConfirmDelete",
+  "text": "هل أنت متأكد من أنك تريد حذف هذه اللعبة؟"
+ },
+ {
+  "label": "GUI:DeleteGame",
+  "text": "حذف"
+ },
+ {
+  "label": "GUI:GameSaveComplete",
+  "text": "*** حُفظت اللعبة ***"
+ },
+ {
+  "label": "CAMPAIGN:USA",
+  "text": "الولايات المتحدة"
+ },
+ {
+  "label": "CAMPAIGN:GLA",
+  "text": "جيش التحرير العالمي"
+ },
+ {
+  "label": "CAMPAIGN:China",
+  "text": "الصين"
+ },
+ {
+  "label": "GUI:Easy",
+  "text": "سهل"
+ },
+ {
+  "label": "GUI:Hard",
+  "text": "صعب"
+ },
+ {
+  "label": "GUI:SelectDifficulty",
+  "text": "اختر مستوى الصعوبة"
+ },
+ {
+  "label": "GUI:NumPlayersOnline",
+  "text": "مجموع اللاعبين المتصلين: %d"
+ },
+ {
+  "label": "GUI:AllowableMaps",
+  "text": "الخرائط المسموحة"
+ },
+ {
+  "label": "GUI:QuickMatchTitle",
+  "text": "مباراة سريعة"
+ },
+ {
+  "label": "LOAD:TRAINING_1",
+  "text": "- يسيطر جيش التحرير العالمي على مصنع أسلحة كيميائية"
+ },
+ {
+  "label": "LOAD:TRAINING_2",
+  "text": "- دمّر مصنع الأسلحة الكيميائية"
+ },
+ {
+  "label": "LOAD:TRAINING_3",
+  "text": "- أزِل التهديد"
+ },
+ {
+  "label": "LOAD:USA01_1",
+  "text": "- يمتلك جيش التحرير العالمي عاصفة سكود"
+ },
+ {
+  "label": "LOAD:USA01_2",
+  "text": "- قاعدتهم في بغداد"
+ },
+ {
+  "label": "LOAD:USA01_3",
+  "text": "- أزِل هذا التهديد"
+ },
+ {
+  "label": "LOAD:USA02_1",
+  "text": "- تتبّعنا قادة جيش التحرير العالمي إلى اليمن"
+ },
+ {
+  "label": "LOAD:USA02_2",
+  "text": "- مروحيات الكومانش تبحث عن المجرمين"
+ },
+ {
+  "label": "LOAD:USA02_3",
+  "text": "- أنقذ الطيارين الأسرى"
+ },
+ {
+  "label": "LOAD:USA03_1",
+  "text": "- القوات الأمريكية في انسحاب شامل"
+ },
+ {
+  "label": "LOAD:USA03_2",
+  "text": "- جيش التحرير العالمي يطاردها عن قرب"
+ },
+ {
+  "label": "LOAD:USA03_3",
+  "text": "- وفّر الغطاء للقوات المنسحبة"
+ },
+ {
+  "label": "LOAD:USA04_1",
+  "text": "- اكتُشف معسكر تدريب لـجيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:USA04_2",
+  "text": "- أزِل هذا التهديد"
+ },
+ {
+  "label": "LOAD:USA06_1",
+  "text": "- مؤتمر سلام في مدينة كبارا"
+ },
+ {
+  "label": "LOAD:USA06_2",
+  "text": "- لا يمكن الوثوق بـجيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:USA06_3",
+  "text": "- كن على أهبة الاستعداد"
+ },
+ {
+  "label": "LOAD:USA07_1",
+  "text": "- جنرال صيني متمرد انضم إلى جيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:USA07_2",
+  "text": "- العدو يعتمد على شبكات الأنفاق"
+ },
+ {
+  "label": "LOAD:USA07_3",
+  "text": "- يجب شن الهجوم فورًا"
+ },
+ {
+  "label": "LOAD:USA08_1",
+  "text": "- حاصرت القوات الأمريكية عاصمة جيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:USA08_2",
+  "text": "- يمتلك جيش التحرير العالمي أسلحة بيولوجية"
+ },
+ {
+  "label": "LOAD:USA08_3",
+  "text": "- تعهّد الصينيون بدعم الولايات المتحدة"
+ },
+ {
+  "label": "LOAD:USA08_4",
+  "text": "- يجب القضاء على جيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:China01_1",
+  "text": "- قوة الصين في عرض عسكري"
+ },
+ {
+  "label": "LOAD:China01_2",
+  "text": "- احمِ العرض العسكري الصيني"
+ },
+ {
+  "label": "LOAD:China01_3",
+  "text": "- أزِل أي تهديد في منطقة بكين"
+ },
+ {
+  "label": "LOAD:China02_1",
+  "text": "- اكتُشفت خلية لـجيش التحرير العالمي في هونغ كونغ"
+ },
+ {
+  "label": "LOAD:China02_2",
+  "text": "- يتخذ الإرهابيون مركز المؤتمرات قاعدة لهم"
+ },
+ {
+  "label": "LOAD:China02_3",
+  "text": "- يجب استئصال الخلية"
+ },
+ {
+  "label": "LOAD:China03_1",
+  "text": "- انتشر جيش التحرير العالمي في منطقة سد الخوانق الثلاثة"
+ },
+ {
+  "label": "LOAD:China03_2",
+  "text": "- تعزيزات العدو تهدد قواتنا الآن"
+ },
+ {
+  "label": "LOAD:China03_3",
+  "text": "- أغرِق جيش التحرير العالمي بالقوات الصينية"
+ },
+ {
+  "label": "LOAD:China04_1",
+  "text": "- بنى جيش التحرير العالمي مصنعًا للسموم البيولوجية"
+ },
+ {
+  "label": "LOAD:China04_2",
+  "text": "- حدّد موقع المصنع بمساعدة العميلة اللوتس الأسود"
+ },
+ {
+  "label": "LOAD:China04_3",
+  "text": "- ستساعد غارة جوية في تدميره"
+ },
+ {
+  "label": "LOAD:China05_1",
+  "text": "- استولى جيش التحرير العالمي على باليكشي"
+ },
+ {
+  "label": "LOAD:China05_2",
+  "text": "- ستوفر القوات الأمريكية الدعم الجوي"
+ },
+ {
+  "label": "LOAD:China05_3",
+  "text": "- استدعِ القصف السجادي ودمّر جيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:China06_1",
+  "text": "- استولى جيش التحرير العالمي على أحد خطوط السكك الحديدية الصينية"
+ },
+ {
+  "label": "LOAD:China06_2",
+  "text": "- يحتشد جيش التحرير العالمي في بيشكيك، ألداستان"
+ },
+ {
+  "label": "LOAD:China06_3",
+  "text": "- استخدم اللوتس الأسود لتدمير جسر القطار"
+ },
+ {
+  "label": "LOAD:China07_1",
+  "text": "- رُصدت خلية إرهابية آسيوية لـجيش التحرير العالمي في طاجيكستان"
+ },
+ {
+  "label": "LOAD:China07_2",
+  "text": "- مصرّح لك باستخدام ترسانتك النووية"
+ },
+ {
+  "label": "LOAD:GLA01_1",
+  "text": "- فقدنا كثيرًا من الإخوة"
+ },
+ {
+  "label": "LOAD:GLA01_2",
+  "text": "- دفاعات الصين مشتتة"
+ },
+ {
+  "label": "LOAD:GLA01_3",
+  "text": "- دمّر القوات الصينية"
+ },
+ {
+  "label": "LOAD:GLA02_1",
+  "text": "- إمدادات الأمم المتحدة في طريقها إلى منطقة ألماتي"
+ },
+ {
+  "label": "LOAD:GLA02_2",
+  "text": "- اعترضوا هذه الشحنات من أجل قضيتنا"
+ },
+ {
+  "label": "LOAD:GLA02_3",
+  "text": "- اجمعوا الإمدادات لتمويل جيش التحرير العالمي"
+ },
+ {
+  "label": "LOAD:GLA03_1",
+  "text": "- أفسد الطغاة أهل جامبول"
+ },
+ {
+  "label": "LOAD:GLA03_2",
+  "text": "- لا حرية حقيقية لهم إلا في الموت"
+ },
+ {
+  "label": "LOAD:GLA03_3",
+  "text": "- استخدموا جرارات السموم للقضاء عليهم"
+ },
+ {
+  "label": "LOAD:GLA04_1",
+  "text": "- وجدنا حلفاء جددًا في أستانا"
+ },
+ {
+  "label": "LOAD:GLA04_2",
+  "text": "- يمكننا استخدامهم لإزعاج العدو"
+ },
+ {
+  "label": "LOAD:GLA04_3",
+  "text": "- وبينما تحترق أستانا، انهبوا المدينة بحثًا عن الإمدادات"
+ },
+ {
+  "label": "LOAD:GLA05_1",
+  "text": "- لن تمر غطرسة أمريكا دون رد"
+ },
+ {
+  "label": "LOAD:GLA05_2",
+  "text": "- أبقوا المنطقة بعيدة عن قبضتهم الإمبريالية"
+ },
+ {
+  "label": "LOAD:GLA05_3",
+  "text": "- دمّروا قوتهم الجوية 'المتفوقة'"
+ },
+ {
+  "label": "LOAD:GLA06_1",
+  "text": "- الأخبار الواردة من بحر آرال ليست جيدة"
+ },
+ {
+  "label": "LOAD:GLA06_2",
+  "text": "- تسيطر القوات الأمريكية على منشأة تخزين السموم التابعة لنا"
+ },
+ {
+  "label": "LOAD:GLA06_3",
+  "text": "- استعيدوا مخابئ التخزين"
+ },
+ {
+  "label": "LOAD:GLA07_1",
+  "text": "- انضم منشقون من جيش التحرير العالمي إلى الصين"
+ },
+ {
+  "label": "LOAD:GLA07_2",
+  "text": "- هاجموا القوافل واقطعوا خطوط إمدادهم"
+ },
+ {
+  "label": "LOAD:GLA07_3",
+  "text": "- اقضوا على الخونة وحلفائهم الصينيين"
+ },
+ {
+  "label": "LOAD:GLA08_1",
+  "text": "- سيطروا على قاعدة بايكونور الفضائية"
+ },
+ {
+  "label": "LOAD:GLA08_2",
+  "text": "- ستحمل الصواريخ هناك السموم القاتلة إلى أعدائنا"
+ },
+ {
+  "label": "LOAD:GLA08_3",
+  "text": "- قدرنا بين أيدينا"
+ },
+ {
+  "label": "TOOLTIP:DownloadProgress",
+  "text": "تقدّم التنزيل"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz10",
+  "text": "وسام الحرب الخاطفة\nاهزم خصمك (خصومك) في 10 دقائق أو أقل لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz5",
+  "text": "وسام الحرب الخاطفة\nاهزم خصمك (خصومك) في 5 دقائق أو أقل لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSADisabled",
+  "text": "وسام الولاء للولايات المتحدة\nالعب أكثر من 20 لعبة متتالية بجيش الولايات المتحدة لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChinaDisabled",
+  "text": "وسام الولاء للصين\nالعب أكثر من 20 لعبة متتالية بجيش الصين لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLADisabled",
+  "text": "وسام الولاء لـجيش التحرير العالمي\nالعب أكثر من 20 لعبة متتالية بجيش جيش التحرير العالمي لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTankDisabled",
+  "text": "وسام دبابة المعركة\nاصنع أكثر من 50 دبابة ضد خصم (خصوم) الحاسوب لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWingDisabled",
+  "text": "وسام الجناح الجوي\nاصنع أكثر من 20 طائرة ضد خصم (خصوم) الحاسوب لتنال هذه الميدالية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEnduranceDisabled",
+  "text": "وسام التحمّل\nانتصر في كل خريطة لتنال ميدالية برونزية أو فضية أو ذهبية"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSADisabled",
+  "text": "وسام حملة الولايات المتحدة\nأكمل حملة الولايات المتحدة لتنال هذا الوسام\nأكمل الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChinaDisabled",
+  "text": "وسام حملة الصين\nأكمل حملة الصين لتنال هذا الوسام\nأكمل الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLADisabled",
+  "text": "وسام حملة جيش التحرير العالمي\nأكمل حملة جيش التحرير العالمي لتنال هذا الوسام\nأكمل الحملة على المستوى الصعب لتنال أعلى وسام"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallengeDisabled",
+  "text": "وسام التحدي\nاهزم من 1 إلى 7 خصوم حاسوبيين صعبين لتنال هذه الميدالية"
+ },
+ {
+  "label": "GUI:BuildingsKilledStat",
+  "text": "المباني المدمَّرة"
+ },
+ {
+  "label": "GUI:BuildingsBuiltStat",
+  "text": "المباني المشيَّدة"
+ },
+ {
+  "label": "GUI:BuildingsLostStat",
+  "text": "المباني المفقودة"
+ },
+ {
+  "label": "GUI:QMWinStreak",
+  "text": "سلسلة انتصارات المباراة السريعة"
+ },
+ {
+  "label": "GUI:LastLadder",
+  "text": "آخر تصنيف"
+ },
+ {
+  "label": "GUI:LobbyJoined",
+  "text": "انضممت إلى %ls"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoAll",
+  "text": "يرجى إدخال بريدك الإلكتروني واسمك المستعار وكلمة المرور. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailNickname",
+  "text": "يرجى إدخال بريدك الإلكتروني واسمك المستعار. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailPassword",
+  "text": "يرجى إدخال بريدك الإلكتروني وكلمة المرور. ثم انقر على تسجيل الدخول أو إنشاء حساب"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:TempDescription",
+  "text": "请抽空填写我在 CommandButton.ini 中的描述！万分感谢"
+ },
+ {
+  "label": "CONTROLBAR:CleanupAreaDescription",
+  "text": "自动清除目标位置周围区域内的生化毒素和辐射"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaCommandCenter",
+  "text": "指挥中心(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPowerPlant",
+  "text": "冷核聚变反应堆(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaBarracks",
+  "text": "兵营(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyCenter",
+  "text": "补给中心(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWall",
+  "text": "安全围栏(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaWarFactory",
+  "text": "战车工厂(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaGuardianControlCenter",
+  "text": "守护者\n中心"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaPatriotBattery",
+  "text": "爱国者导弹系统(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaParticleCannonUplink",
+  "text": "粒子加农炮(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaStrategyCenter",
+  "text": "战略中心(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaSupplyDropZone",
+  "text": "空投补给区(&Z)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDetentionCamp",
+  "text": "拘留营(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankCrusader",
+  "text": "十字军坦克(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankPaladin",
+  "text": "帕拉丁坦克(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryRanger",
+  "text": "游骑兵(&G)"
+ },
+ {
+  "label": "CONTROLBAR:Evacuate",
+  "text": "撤离(&V)"
+ },
+ {
+  "label": "CONTROLBAR:ExecuteRailedTransport",
+  "text": "运输"
+ },
+ {
+  "label": "CONTROLBAR:TransportExit",
+  "text": "离开运输载具"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLACommandCenter",
+  "text": "指挥中心(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLADemoTrap",
+  "text": "爆破陷阱(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABarracks",
+  "text": "兵营(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLASupplyStash",
+  "text": "补给储藏站(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABurningBarricade",
+  "text": "燃烧路障(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAArmsDealer",
+  "text": "军火商(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaCommandCenter",
+  "text": "指挥中心(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPowerPlant",
+  "text": "核反应堆(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBarracks",
+  "text": "兵营(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSupplyCenter",
+  "text": "补给中心(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaConcreteWall",
+  "text": "混凝土墙(&L)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaWarFactory",
+  "text": "战车工厂(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaDozer",
+  "text": "推土机(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAWorker",
+  "text": "工人(&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaDozer",
+  "text": "推土机(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankScorpion",
+  "text": "蝎子坦克(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankMarauder",
+  "text": "劫掠者坦克(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRocketBuggy",
+  "text": "火箭车(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleRadarVan",
+  "text": "雷达车(&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankOverlord",
+  "text": "霸王坦克(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankGattling",
+  "text": "加特林坦克(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRebel",
+  "text": "叛军(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryRedguard",
+  "text": "红卫兵(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleChinook",
+  "text": "支奴干(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleSupplyTruck",
+  "text": "补给卡车(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleSupplyTruck",
+  "text": "补给卡车(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetRaptor",
+  "text": "猛禽战机(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetAurora",
+  "text": "极光轰炸机(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetStealthFighter",
+  "text": "隐形战机(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleStarlifter",
+  "text": "运输机"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleComanche",
+  "text": "科曼奇(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryMissileDefender",
+  "text": "导弹兵(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryPathfinder",
+  "text": "探路者(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryColonelBurton",
+  "text": "伯顿上校(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaInfantryBiohazardTech",
+  "text": "生化防护技术员"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleTomahawk",
+  "text": "战斧(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleMedic",
+  "text": "救护车(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHumvee",
+  "text": "悍马(&V)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleBattleDrone",
+  "text": "战斗无人机(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleScoutDrone",
+  "text": "侦察无人机(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaJetMIG",
+  "text": "米格(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryBlackLotus",
+  "text": "黑莲花(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryTankHunter",
+  "text": "坦克猎人(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantrySecretPolice",
+  "text": "秘密\n警察"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryHacker",
+  "text": "黑客(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaBunker",
+  "text": "碉堡(&K)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaPropagandaCenter",
+  "text": "宣传中心(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaAirfield",
+  "text": "机场(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaAirfield",
+  "text": "机场(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaGattlingCannon",
+  "text": "加特林机炮(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaNuclearMissileLauncher",
+  "text": "核导弹(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaSpeakerTower",
+  "text": "喇叭塔(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleInfernoCannon",
+  "text": "地狱火炮(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleNukeLauncher",
+  "text": "核弹炮(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleTroopCrawler",
+  "text": "运兵车(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankSeismic",
+  "text": "地震\n坦克"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankDragon",
+  "text": "龙坦克(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehiclePropagandaBlimp",
+  "text": "宣传\n飞艇"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryTerrorist",
+  "text": "恐怖分子(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryRPGTrooper",
+  "text": "火箭兵(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATunnelNetwork",
+  "text": "地道网(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPalace",
+  "text": "宫殿(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLABlackMarket",
+  "text": "黑市(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAStingerSite",
+  "text": "毒刺导弹阵地(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAScudStorm",
+  "text": "飞毛腿风暴(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAPrison",
+  "text": "监狱(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleToxinTruck",
+  "text": "毒素拖拉机(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLATankBattleMaster",
+  "text": "战斗大师(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleTechnical",
+  "text": "技术车(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryHijacker",
+  "text": "劫车犯(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryJarmenKell",
+  "text": "贾曼·凯尔(&J)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantryAngryMob",
+  "text": "愤怒暴民(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleQuadCannon",
+  "text": "四管机炮(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBombTruck",
+  "text": "炸弹卡车(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleScudLauncher",
+  "text": "飞毛腿发射车(&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedTraining",
+  "text": "高级训练(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaDroneArmor",
+  "text": "无人机装甲(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaMines",
+  "text": "地雷(&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRadar",
+  "text": "雷达(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaScoutDrones",
+  "text": "侦察无人机(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAdvancedControlRods",
+  "text": "控制棒(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaLaserMissiles",
+  "text": "激光导弹(&L)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaExtraFuel",
+  "text": "额外燃料(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaFlashBangGrenade",
+  "text": "闪光震撼弹(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCompositeArmor",
+  "text": "复合装甲(&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTomahawkRemoteControl",
+  "text": "巡航导弹(&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaAircraftFuel",
+  "text": "飞机燃料"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaTOWMissile",
+  "text": "TOW 导弹(&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeComancheRocketPods",
+  "text": "火箭巢(&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRailGun",
+  "text": "轨道\n炮"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRadar",
+  "text": "雷达(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNationalism",
+  "text": "民族主义(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAntiTankGrenade",
+  "text": "反坦克手雷(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaVehicleHack",
+  "text": "车辆入侵(&V)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaIRGoggles",
+  "text": "红外线护目镜(&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaBlackNapalm",
+  "text": "黑色凝固汽油(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaChainGuns",
+  "text": "链式机枪(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSubliminalMessaging",
+  "text": "潜意识宣传(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaUraniumShells",
+  "text": "铀弹(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNuclearTanks",
+  "text": "核动力坦克(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaStunBullets",
+  "text": "眩晕子弹(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadar",
+  "text": "雷达(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARadarVanScan",
+  "text": "雷达扫描(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAScorpionRocket",
+  "text": "蝎子火箭(&K)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABuggyAmmo",
+  "text": "火箭车弹药(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckBioBomb",
+  "text": "生化炸弹(&B)"
+ },
+ {
+  "label": "CONTROLBAR:DisguiseAsVehicle",
+  "text": "伪装成车辆(&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb",
+  "text": "高爆炸弹(&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxBeta",
+  "text": "炭疽 Beta(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAToxinShells",
+  "text": "毒素炮弹(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAJunkRepair",
+  "text": "废料修复(&J)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPBullets",
+  "text": "穿甲子弹(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAPRockets",
+  "text": "穿甲火箭(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamouflage",
+  "text": "伪装(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLATranqDarts",
+  "text": "麻醉飞镖(&T)"
+ },
+ {
+  "label": "CONTROLBAR:SetRallyPoint",
+  "text": "集结点(&R)"
+ },
+ {
+  "label": "CONTROLBAR:Sell",
+  "text": "出售"
+ },
+ {
+  "label": "CONTROLBAR:Overcharge",
+  "text": "超载(&O)"
+ },
+ {
+  "label": "CONTROLBAR:DragonFlame",
+  "text": "火焰(&L)"
+ },
+ {
+  "label": "CONTROLBAR:PickUpPrisoner",
+  "text": "押送\n俘虏(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ReturnToPrison",
+  "text": "返回(&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocket",
+  "text": "发射火箭(&F)"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxWarhead",
+  "text": "炭疽弹头(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ExplosiveWarhead",
+  "text": "高爆弹头(&P)"
+ },
+ {
+  "label": "CONTROLBAR:Fire20mmCannon",
+  "text": "发射 20mm 机炮(&F)"
+ },
+ {
+  "label": "CONTROLBAR:FireAntiTankMissiles",
+  "text": "发射导弹(&M)"
+ },
+ {
+  "label": "CONTROLBAR:FireRocketPods",
+  "text": "发射火箭(&R)"
+ },
+ {
+  "label": "CONTROLBAR:FireNapalmMissile",
+  "text": "发射凝固汽油弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:DaisyCutter",
+  "text": "燃料空气炸弹(&B)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissile",
+  "text": "核导弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ScudStorm",
+  "text": "飞毛腿风暴(&U)"
+ },
+ {
+  "label": "CONTROLBAR:NapalmStrike",
+  "text": "凝固汽油弹打击(&N)"
+ },
+ {
+  "label": "CONTROLBAR:A10ThunderboltMissileStrike",
+  "text": "A10 导弹打击(&A)"
+ },
+ {
+  "label": "CONTROLBAR:CashHack",
+  "text": "资金入侵(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Ambush",
+  "text": "伏击(&A)"
+ },
+ {
+  "label": "CONTROLBAR:BlackMarketNuke",
+  "text": "黑市\n核弹"
+ },
+ {
+  "label": "CONTROLBAR:AnthraxBomb",
+  "text": "炭疽炸弹(&B)"
+ },
+ {
+  "label": "CONTROLBAR:Paradrop",
+  "text": "伞兵空降(&O)"
+ },
+ {
+  "label": "CONTROLBAR:CarpetBomb",
+  "text": "地毯式轰炸(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ClusterMines",
+  "text": "集束地雷(&I)"
+ },
+ {
+  "label": "CONTROLBAR:EMPPulse",
+  "text": "EMP 电磁脉冲(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ArtilleryBarrage",
+  "text": "炮火覆盖(&B)"
+ },
+ {
+  "label": "CONTROLBAR:CrateDrop",
+  "text": "补给箱\n空投"
+ },
+ {
+  "label": "CONTROLBAR:SpySatellite",
+  "text": "间谍卫星(&S)"
+ },
+ {
+  "label": "CONTROLBAR:SpyDrone",
+  "text": "间谍无人机(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScan",
+  "text": "雷达扫描(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Defector",
+  "text": "策反(&D)"
+ },
+ {
+  "label": "CONTROLBAR:Bayonet",
+  "text": "刺刀(&B)"
+ },
+ {
+  "label": "CONTROLBAR:SniperAttack",
+  "text": "狙击攻击(&N)"
+ },
+ {
+  "label": "CONTROLBAR:CaptureBuilding",
+  "text": "占领建筑(&C)"
+ },
+ {
+  "label": "CONTROLBAR:DisableVehicleHack",
+  "text": "车辆入侵(&V)"
+ },
+ {
+  "label": "CONTROLBAR:StealCashHack",
+  "text": "资金入侵(&K)"
+ },
+ {
+  "label": "CONTROLBAR:InternetHack",
+  "text": "入侵互联网(&I)"
+ },
+ {
+  "label": "CONTROLBAR:DisableBuildingHack",
+  "text": "瘫痪建筑(&D)"
+ },
+ {
+  "label": "CONTROLBAR:CarBomb",
+  "text": "汽车炸弹(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Hijack",
+  "text": "劫持(&J)"
+ },
+ {
+  "label": "CONTROLBAR:TNTAttack",
+  "text": "TNT 攻击(&T)"
+ },
+ {
+  "label": "CONTROLBAR:Requirements",
+  "text": "需要：%s"
+ },
+ {
+  "label": "CONTROLBAR:LaserMissileAttack",
+  "text": "激光导弹攻击(&L)"
+ },
+ {
+  "label": "CONTROLBAR:KnifeAttack",
+  "text": "刀刺攻击(&K)"
+ },
+ {
+  "label": "CONTROLBAR:ClimbCliff",
+  "text": "攀爬悬崖(&C)"
+ },
+ {
+  "label": "CONTROLBAR:TimedDemoCharge",
+  "text": "定时爆破炸药(&T)"
+ },
+ {
+  "label": "CONTROLBAR:RemoteDemoCharge",
+  "text": "遥控爆破炸药(&R)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateCharges",
+  "text": "引爆炸药(&D)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateNuke",
+  "text": "引爆核弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ManualControl",
+  "text": "手动控制(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ProximityFuse",
+  "text": "近炸引信(&P)"
+ },
+ {
+  "label": "CONTROLBAR:Detonate",
+  "text": "引爆！(&D)"
+ },
+ {
+  "label": "CONTROLBAR:EmergencyRepair",
+  "text": "紧急维修(&E)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannon",
+  "text": "粒子加农炮(&P)"
+ },
+ {
+  "label": "CONTROLBAR:Options",
+  "text": "游戏菜单"
+ },
+ {
+  "label": "CONTROLBAR:OptionsDescription",
+  "text": "打开游戏菜单"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorker",
+  "text": "闲置工人"
+ },
+ {
+  "label": "CONTROLBAR:IdleWorkerDescription",
+  "text": "点击选择下一个闲置工人"
+ },
+ {
+  "label": "CONTROLBAR:Beacon",
+  "text": "信标"
+ },
+ {
+  "label": "CONTROLBAR:BeaconDescription",
+  "text": "点击放置信标"
+ },
+ {
+  "label": "CONTROLBAR:Communicator",
+  "text": "通讯器"
+ },
+ {
+  "label": "CONTROLBAR:CommunicatorDescription",
+  "text": "点击打开将军通讯器"
+ },
+ {
+  "label": "CONTROLBAR:AmbulanceCleanupArea",
+  "text": "清除毒素(&C)"
+ },
+ {
+  "label": "RADAR:UnitUnderAttack",
+  "text": "单位遭到攻击"
+ }
+]

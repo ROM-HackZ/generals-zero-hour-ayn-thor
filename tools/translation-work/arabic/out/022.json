@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen09Subtitle",
+  "text": "*العامل السام الجديد الذي \"استعرناه\" من الأمريكيين سيكون فعّالًا بشكل خاص ضد قواتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen10Subtitle",
+  "text": "*أولًا أسطول المتوسط، ثم هجوم على الأرض الأمريكية... والآن تبدأ هيمنتنا على أوروبا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen11Subtitle",
+  "text": "*نتعرض للهجوم من الشرق. أنهِ هذه الهجمات الآن، يجب أن نقضي عليهم لنتفرغ للقاعدة الرئيسية في الشمال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen12Subtitle",
+  "text": "*اقتربنا... ستدفع الولايات المتحدة ثمنًا باهظًا لتجاوزاتها ضد شعبنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen13Subtitle",
+  "text": "*أموالنا تنفد. استطلع المنطقة بحثًا عن الموارد، يجب ألا يوقفنا شيء"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen14Subtitle",
+  "text": "*بعد تأمين هذه المنطقة يجب أن نحشد قواتنا ونشن هجومًا على قاعدة القيادة المركزية الأمريكية الأوروبية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen15Subtitle",
+  "text": "*يعتمد الأمريكيون كثيرًا على الوحدات الجوية. ابنِ مزيدًا من مواقع ستينغر والمدافع الرباعية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen16Subtitle",
+  "text": "*يستهدفون دفاعاتنا، يجب أن نموّه مواقع ستينغر"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen17Subtitle",
+  "text": "*يا جنرالي، نحتاج إلى بناء عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen18Subtitle",
+  "text": "*الجنرال الأمريكي يستخدم مدفع جسيمات ضدنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen19Subtitle",
+  "text": "*علينا تجربة تكتيك مختلف. استخدم هجومًا مباغتًا لإدخال وحدات إلى القاعدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen20Subtitle",
+  "text": "*استولِ على القاعدة الأمريكية وعزّزها. يمكننا استخدام أسلحتهم ضدهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen21Subtitle",
+  "text": "*يجب أن تدمّر مدفع الجسيمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen22Subtitle",
+  "text": "*يهاجمون الآن برًا. دافع عن قاعدتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen23Subtitle",
+  "text": "*أعد بناء القاعدة بسرعة... يجب أن نستعد لمزيد من الهجمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen24Subtitle",
+  "text": "*أحسنت أيها الجنرال. بفضل تكتيكاتك المتفوقة نسيطر الآن على الأسلحة الخارقة الثلاثة. لن يعرف الأمريكيون ما الذي أصابهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen25Subtitle",
+  "text": "*أجهز على الأمريكيين أيها الجنرال. لن يصمدوا طويلًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen26Subtitle",
+  "text": "*أيها الجنرال، يمكننا استهداف مخابئهم الكيميائية وإحداث فوضى في قاعدتهم نفسها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen27Subtitle",
+  "text": "*انتهى أمر مدفع الجسيمات لديهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen28Subtitle",
+  "text": "*بنى الأمريكيون مدفع جسيمات آخر. يجب ألا نسمح لهم باستخدامه ضدنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen29Subtitle",
+  "text": "*يجب أن نقضي على قاعدة الدعم الجنوبية للعدو الآن! كلما انتظرنا ازدادت هجماتهم قوة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen30Subtitle",
+  "text": "*تشير التقارير إلى أن الأسرى المحتجزين في القاعدة الأمريكية سيُنقلون قريبًا. يجب أن ننقذهم بسرعة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen31Subtitle",
+  "text": "*عليك تطهير منطقة القاعدة الأمريكية بالكامل لتحرير الأسرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen32Subtitle",
+  "text": "*أسرع، يجب إنقاذ الأسرى الآن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen33Subtitle",
+  "text": "*نحتاج إلى تشغيل الرادار بترقيته من مركز القيادة الصيني"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen34Subtitle",
+  "text": "*من الضروري أن تبني مركز قيادة لجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen35Subtitle",
+  "text": "*بعد زوال القاعدة الجنوبية الصغيرة يمكننا التركيز على قاعدة القيادة المركزية الأمريكية الأوروبية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen36Subtitle",
+  "text": "*قاعدة القيادة المركزية الأمريكية ضخمة، علينا إيجاد طريق للدخول! ربما تنجح الهجمات المباغتة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen37Subtitle",
+  "text": "*يجب أن نوصل الأسرى إلى قريتهم ليوقظوا خليتهم الإرهابية من جديد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen38Subtitle",
+  "text": "*إخوتنا يتعرضون للهجوم! يجب أن نساعدهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen39Subtitle",
+  "text": "*أعد الأسرى إلى قريتهم، اتبع النهر شمالًا حتى تصل إليها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen40Subtitle",
+  "text": "*الأسرى في أمان! يجب أن نساعدهم على العودة إلى قريتهم ليعينونا في قتالنا ضد الأمريكيين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen41Subtitle",
+  "text": "*خذ هذه الدبابات وسنستخدمها كأنها لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen42Subtitle",
+  "text": "*أمّن الإمدادات وسنمتلك المنطقة المثالية لشن هجماتنا على الأمريكيين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen43Subtitle",
+  "text": "*الجنود في أمان وعائلاتهم تغمرها الفرحة! سيقاتلون معنا، ومُنحنا مزيدًا من الإمدادات أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen44Subtitle",
+  "text": "*خذلنا إخوتنا، لكنهم سيقاتلون إلى جانبنا رغم ذلك"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen45Subtitle",
+  "text": "*سيقاتل إخوتنا إلى جانبنا للثأر لموت الأسرى!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen46Subtitle",
+  "text": "*نقل الأمريكيون الأسرى، لكن إخوتنا سيقاتلون معنا ضد عدونا رغم ذلك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen47Subtitle",
+  "text": "*قريبًا ستصبح أوروبا لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW01Subtitle",
+  "text": "*حرّرنا من آسرينا. احمِنا من كل الهجمات الأمريكية وسنساعدك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW02Subtitle",
+  "text": "*نحن جاهزون للعودة إلى الديار حين تكون جاهزًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW03Subtitle",
+  "text": "*أسرع، الوقت قليل!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW04Subtitle",
+  "text": "*وقتنا ينفد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW05Subtitle",
+  "text": "*أرجوكم أنقذونا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW06Subtitle",
+  "text": "*نحتاج إلى مساعدتك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter01Subtitle",
+  "text": "*جسر أمامنا. يبدو شديد التحصين"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter02Subtitle",
+  "text": "*نقترب من جسر. لا أمريكيين"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter07Subtitle",
+  "text": "*موتوا أيها الأمريكيون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Cin01Subtitle",
+  "text": "*موتوا أيها الأمريكيون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General05Subtitle",
+  "text": "*اكتشفنا الكشافة الأمريكيون. استعدوا للقتال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General20Subtitle",
+  "text": "*يجب أن تصدّهم لتسيطر على المخابئ"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA07Convoy13Subtitle",
+  "text": "*وجدنا بعض الإمدادات، قد تكون مفيدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Buggy101Subtitle",
+  "text": "*إلى المجد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar10Subtitle",
+  "text": "*سنضربهم بكل ما لدينا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar39Subtitle",
+  "text": "*قواتنا مستعدة لبدء الهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander03Subtitle",
+  "text": "*طائرات سريعة قادمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander09Subtitle",
+  "text": "*سرية إيكو، قاذفة قادمة، أنتم قريبون جدًا، تراجعوا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo108Subtitle",
+  "text": "*أهداف إضافية، المسافة 300"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo201Subtitle",
+  "text": "*أُصبت!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Eva02Subtitle",
+  "text": "*أيها الجنرال، استولِ على أبراج نفط العدو لتأمين مزيد من الإمدادات للمجهود الحربي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Raptor201Subtitle",
+  "text": "*أشعلوهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf01Subtitle",
+  "text": "*مرحبًا بعودتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf02Subtitle",
+  "text": "*أطلق جيش التحرير العالمي صاروخه من منشأة بايكونور صباح اليوم الباكر. تفيد الاستخبارات بأنهم يستعدون لإطلاق ثانٍ"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf03Subtitle",
+  "text": "*استخدام هذا الصاروخ سيضعف موطئ قدمنا في أوروبا بشدة. من الضروري إزالة هذا التهديد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf04Subtitle",
+  "text": "*تشير مصادرنا إلى أن الصاروخ التالي يُنقل إلى منشأة الإطلاق بالقطار. هذه السكة هي الطريق الوحيد إلى المنشأة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf05Subtitle",
+  "text": "*إن استطعنا اعتراض ذلك القطار في الوقت المناسب فسنستخدمه غطاءً للتسلل إلى القاعدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf06Subtitle",
+  "text": "*الخطوة الأولى لإتمام مهمتنا تأمين محطة القطارات هذه والاحتفاظ بها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf07Subtitle",
+  "text": "*حظًا موفقًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xC+A39hat11Subtitle",
+  "text": "*مزيد من منشآت جيش التحرير العالمي في الشرق!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat01Subtitle",
+  "text": "*عقارب عند الساعة 9!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat02Subtitle",
+  "text": "*الكل يركب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat03Subtitle",
+  "text": "*الكل معه تذكرته؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat04Subtitle",
+  "text": "*حبيبتي، رجعت البيت! ها ها ها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat05Subtitle",
+  "text": "*أدخلوا بعض المشاة إلى هذه المركبات! يمكننا استخدامها للمساعدة على هزيمة جيش التحرير العالمي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat06Subtitle",
+  "text": "*فليتحصن أحدكم في محطة الإذاعة تلك! نحتاج إلى دعم جوي الآن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat07Subtitle",
+  "text": "*صوّبوا على تلك البراميل! إنها متفجرة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat08Subtitle",
+  "text": "*حسنًا يا شباب. حمّلوهم ويلّا نطلع!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat09Subtitle",
+  "text": "*سقطت مواقع ستينغر! أكرر، سقطت مواقع ستينغر! جميع الوحدات تتجمع على منشآت جيش التحرير العالمي! لنمزّق هذا المكان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat10Subtitle",
+  "text": "*مزيد من منشآت جيش التحرير العالمي في الغرب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat12Subtitle",
+  "text": "*حاضر يا قيادة! إنهم في مرمى تصويبي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat13Subtitle",
+  "text": "*تسليم الحمولة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat14Subtitle",
+  "text": "*ما أطيب رائحة أم القنابل في الصباح الباكر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin01Subtitle",
+  "text": "*على جميع الوحدات إخلاء منطقة الإطلاق. الإطلاق مجدول بعد العد التنازلي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin02Subtitle",
+  "text": "*5"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin03Subtitle",
+  "text": "*4"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin04Subtitle",
+  "text": "*3"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin05Subtitle",
+  "text": "*2"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin06Subtitle",
+  "text": "*1"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin07Subtitle",
+  "text": "*0"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin08Subtitle",
+  "text": "*تم الإطلاق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin09Subtitle",
+  "text": "*الإطلاق ماضٍ"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin10Subtitle",
+  "text": "*أيها الأمريكيون القذرون. سنحرق وجودكم هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin11Subtitle",
+  "text": "*رعاة البقر الأمريكيون الأغبياء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva01Subtitle",
+  "text": "*عمل جيد أيها الجنرال. أُمّنت المحطة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva02Subtitle",
+  "text": "*نحتاج الآن إلى بناء قوة هجومية كبيرة بما يكفي لتدمير قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva03Subtitle",
+  "text": "*حمّل أفضل وحداتك على القطار"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva04Subtitle",
+  "text": "*سينطلق القطار حين يمتلئ تمامًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva05Subtitle",
+  "text": "*عمل جيد أيها الجنرال... القطار ممتلئ"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva06Subtitle",
+  "text": "*أرسل دبابة التنين تلك إلى هناك لتطهير تلك المباني"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva07Subtitle",
+  "text": "*ابنِ مزيدًا من الوحدات. لا نريد أن يفشل هجومنا المفاجئ"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva08Subtitle",
+  "text": "*أيها الجنرال! أخرج رجالك من الحفرة! قنابل أم القنابل في طريقها وستنسف هذا المكان نسفًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva09Subtitle",
+  "text": "*يجب أن نكمل تدمير هذه القاعدة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva10Subtitle",
+  "text": "*ستصل أم القنابل في أي لحظة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva11Subtitle",
+  "text": "*سرب ألفا! المنطقة خالية. يمكنكم المتابعة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva12Subtitle",
+  "text": "*عمل جيد أيها الجنرال. يبدو أن تهديد جيش التحرير العالمي أُزيل أخيرًا. حان الوقت لطيّ هذه الصفحة والبحث عن أسلحة الدمار الشامل تلك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche101Subtitle",
+  "text": "*شكرًا لإخراجي يا سيدي! كانت الأمور قد بدأت تسوء قليلًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche204Subtitle",
+  "text": "*يحتشدون حولنا يا سيدي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf01Subtitle",
+  "text": "*طُهّرت الأرصفة أيها الجنرال. مهمتنا الأولى الاحتفاظ بها ريثما تصل شاحنات الإمداد. وحتى تصل الجرافات علينا الدفاع عن هذا الموقع بقواتنا وهي تتوافد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf02Subtitle",
+  "text": "*نجا معظم أسطولنا من هجوم بايكونور. حاملة طائراتنا والسفن الحربية المرافقة تحت تصرفك للمساعدة في هذه العملية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat01Subtitle",
+  "text": "*انطلقت الغارة الجوية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat02Subtitle",
+  "text": "*السفينة الحربية تبدأ القصف"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat03Subtitle",
+  "text": "*الأرصفة خالية تمامًا. لا أثر لجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat04Subtitle",
+  "text": "*علم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat05Subtitle",
+  "text": "*بدء الهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat06Subtitle",
+  "text": "*إطلاق الغارة الجوية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat07Subtitle",
+  "text": "*المدافع تشتعل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat08Subtitle",
+  "text": "*سنريهم وهج الصواريخ الأحمر، لا تقلق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin01Subtitle",
+  "text": "*من قيادة الحاملة إلى الأسطول. واصلوا إطلاق النار يا شباب. جيش التحرير العالمي يجلب تعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin02Subtitle",
+  "text": "*علم يا قيادة الحاملة. نواصل نيران الإخماد على الأرصفة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin03Subtitle",
+  "text": "*انتبهوا لما تصيبون. نريد تطهيرها لا تدميرها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva01Subtitle",
+  "text": "*عمل جيد يا سيدي! هدفنا التالي تأمين مرور شاحنات الإمداد عبر المدينة. يجب أن تصل الشاحنات إلى مستودع إمدادات المدينة، ويجب أيضًا أن نحتفظ بالسيطرة على الأرصفة. حظًا موفقًا يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva02Subtitle",
+  "text": "*شاحنات الإمداد بدأت التحرك أيها الجنرال. يجب أن نحميها وهي في طريقها إلى نقطة التسليم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva03Subtitle",
+  "text": "*أرسل إليك نماذج أولية جديدة من طائرات الحراسة المسيّرة. لا يستطيع العدو رصدها إن بقيت ساكنة، وتستطيع أيضًا رصد الوحدات المتخفية وفخاخ التفجير. ستكون مفيدة جدًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva04Subtitle",
+  "text": "*وصلت جرافتنا يا سيدي! ابدأ بناء قاعدتك. جيش التحرير العالمي يعدّ موجة جديدة من الهجمات علينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva05Subtitle",
+  "text": "*عمل رائع يا سيدي! عبّر أهل هذه المدينة عن امتنانهم لإمدادات الإغاثة. هدفنا الأخير طرد جيش التحرير العالمي من المنطقة. دمّر قاعدتهم الرئيسية المطلة على المدينة وستُؤمَّن المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva06Subtitle",
+  "text": "*تعزيزات قادمة أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva07Subtitle",
+  "text": "*أيها الجنرال، يمكن لطائرات الحراسة المسيّرة المساعدة في رصد فخاخ التفجير"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva08Subtitle",
+  "text": "*سيدي، لا يزال هناك عناصر من جيش التحرير العالمي قرب المستودع. يجب أن نطهّر المكان منهم فورًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva09Subtitle",
+  "text": "*شاحنات الإمداد تتعرض للهجوم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva10Subtitle",
+  "text": "*عمل جيد، وصلت جميع الشاحنات بأمان إلى الأرصفة، لننقلها الآن إلى المدينة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva11Subtitle",
+  "text": "*حاول تقليل الإصابات بين المدنيين"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva12Subtitle",
+  "text": "*اكتشفت معسكر تدريب لجيش التحرير العالمي يا سيدي. تعتقد الاستخبارات أن أفرادًا من هذا المعسكر مسؤولون جزئيًا عن إطلاق بايكونور. تلقينا أوامر بتدميره"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva13Subtitle",
+  "text": "*أمّن المستودع لتتمكن شاحنات الإمداد من المتابعة بأمان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva14Subtitle",
+  "text": "*حين يُؤمَّن المستودع ستتابع شاحنات الإمداد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva15Subtitle",
+  "text": "*وصلت الجرافات أيها الجنرال. لك أن تقضي على جيش التحرير العالمي كما تراه مناسبًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva16Subtitle",
+  "text": "*أوصل الطعام إلى المدينة قبل أن يسرقه جيش التحرير العالمي أو يدمّره"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva17Subtitle",
+  "text": "*أيها الجنرال، لقد نجحنا. تحررت المدينة من طغيان جيش التحرير العالمي. يبدو أن لديهم معلومات استخباراتية ستقودنا مباشرة إلى أسلحة الدمار الشامل المخبأة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva18Subtitle",
+  "text": "*الدعم البحري الكامل متاح لهذه العملية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva19Subtitle",
+  "text": "*استخدم السفن الحربية وحاملة الطائرات كما تراه مناسبًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva20Subtitle",
+  "text": "*السفن الحربية في المدى وتنتظر الأهداف أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva21Subtitle",
+  "text": "*الحاملة دايدالوس على أهبة الاستعداد وطائراتها جاهزة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva22Subtitle",
+  "text": "*يجب تأمين المستودع، لكن دون المساس بأمن الأرصفة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva23Subtitle",
+  "text": "*قواتنا محدودة في هذه المنطقة. ستصلك التعزيزات حين تتوفر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva24Subtitle",
+  "text": "*أمّن المستودع دون المساس بأمن الأرصفة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva25Subtitle",
+  "text": "*أعادت القافلة تزويد المستودع"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva26Subtitle",
+  "text": "*قاعدة جيش التحرير العالمي هي الهدف التالي أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply01Subtitle",
+  "text": "*حين يصبح المستودع آمنًا سننطلق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply02Subtitle",
+  "text": "*شكرًا على النيران الساترة أيها الجنرال! كل الشاحنات محمّلة وجاهزة للانطلاق. فقط طهّر لنا تلك المدينة يا سيدي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply03Subtitle",
+  "text": "*الشوارع مليئة بفخاخ التفجير يا سيدي! نحتاج إلى تطهيرها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply04Subtitle",
+  "text": "*وصلنا إلى المستودع أيها الجنرال. شكرًا على المرافقة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply05Subtitle",
+  "text": "*وصلت القافلة بأمان يا سيدي. شكرًا على الحماية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager01Subtitle",
+  "text": "*أوه، شكرًا لكم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager02Subtitle",
+  "text": "*بارك الله فيكم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager03Subtitle",
+  "text": "*لم آكل منذ زمن طويل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager04Subtitle",
+  "text": "*هل سيكون هناك المزيد؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Comanche102Subtitle",
+  "text": "*المدافع الرباعية تمزقنا يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader105Subtitle",
+  "text": "*نحتاج إلى مزيد من الدعم! إنهم يطحنوننا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader108Subtitle",
+  "text": "*فليُبعد أحدكم تلك العربات عنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader304Subtitle",
+  "text": "*تأكّد وجود أهداف معادية! إنهم يتقدمون بسرعة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader307Subtitle",
+  "text": "*جميع الوحدات! واصلوا إطلاق النار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf01Subtitle",
+  "text": "*أيها الجنرال، العقيد بيرتون واللوتس الأسود في موقعيهما وجاهزان لأوامرك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf02Subtitle",
+  "text": "*هدفهما الرئيسي هذا المختبر السري. كُشف موقعه من الوثائق التي استُولي عليها في مهمتك الأخيرة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf03Subtitle",
+  "text": "*يعمل جيش التحرير العالمي على سلاح دمار شامل جديد. يجب أن تنزّل اللوتس الأسود هذه البيانات لنعرف إلى أين وصلت أبحاثهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf04Subtitle",
+  "text": "*حين تنهي التنزيل، على العقيد بيرتون إسقاط سفح الجبل على المختبر ودفنه إلى الأبد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton01Subtitle",
+  "text": "*نحن عند الجسر. لوتس، تولّي أمر ذلك السكوربيون، وسأتعامل مع باقي الحراس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton02Subtitle",
+  "text": "*لم يكن هذا جزءًا من الخطة يا لوتس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton03Subtitle",
+  "text": "*ستنتظرينني؟ حسنًا يا لوتس، لنتسابق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton04Subtitle",
+  "text": "*أنا في طريقي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton05Subtitle",
+  "text": "*حسنًا، أرى معسكر الأسرى... يبدو أن لديهم شبكة أنفاق تمر تحت النهر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton06Subtitle",
+  "text": "*عمل جميل يا لوتس... الأنفاق معطلة هنا... سأتخلص من بضعة حراس فقط وأحرر الجميع"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton07Subtitle",
+  "text": "*ستفيدنا تلك المركبات إن صحت المعلومات عن الدفاعات حول الجبال. أيها الجنرال، يجدر بنا إنقاذها أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton08Subtitle",
+  "text": "*أيها الجنرال، أنا في موقعي قرب معسكر الأسرى الثاني... هناك شبكة أنفاق وحراس في المقدمة. يمكنني التسلل إلى المجمّع إن نزلت من المنحدرات في الطرف الجنوبي من المعسكر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton09Subtitle",
+  "text": "*لا تغترّي يا لوتس، لم تفوزي بالسباق بعد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton10Subtitle",
+  "text": "*هذا آخرهم... أُمّن معسكر الأسرى الثاني... فليخبر أحدكم لوتس أن تسرع... لا أريد أن أنتظر عند المختبر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton11Subtitle",
+  "text": "*يا لها من لعبة جديدة. أيها الجنرال، إن ركّزتها على شبكات الأنفاق ومواقع ستينغر التي تحرس الجبل فسأتسلل من أمامها بسهولة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton12Subtitle",
+  "text": "*يبدو أنها قاعدة كاملة لجيش التحرير العالمي. لم تذكر الاستخبارات شيئًا عن وجودها هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton13Subtitle",
+  "text": "*لا يبدو أنهم كانوا يتوقعونني... قليل من C4 هنا وهناك وسأنهي أمر هذا المكان بسرعة... فقط أعطني الأمر أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton14Subtitle",
+  "text": "*يفترض أن أكون آمنًا وأنا أعبر القرية... فقط يجب أن أحذر شاحنات الرادار التي تراقب المنطقة. ليت معي بضع قنابل صاعقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton15Subtitle",
+  "text": "*هذا هو! أتخذ موقعي فوق المختبر... لا تتأخري عليّ يا لوتس، الجو بارد هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton16Subtitle",
+  "text": "*العبوات جاهزة... أعطيني الإشارة يا لوتس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton17Subtitle",
+  "text": "*حسنًا يا لوتس، أنتِ سريعة... أعترف بذلك. سأصل بأسرع ما يمكن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton18Subtitle",
+  "text": "*حسنًا... أنا عند الجبل... أخبريني حين ينتهي التنزيل يا لوتس، وسأدفن ذلك المختبر حيث لن يجده أحد أبدًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat01Subtitle",
+  "text": "*متحصنون؟... كُلوا قنبلة صاعقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat02Subtitle",
+  "text": "*ها هم... تذكروا، رشقات قصيرة ومضبوطة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat03Subtitle",
+  "text": "*مشاة؟ لا مشكلة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat04Subtitle",
+  "text": "*نتعرض لإطلاق نار... نحتاج إلى دعم هنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin01Subtitle",
+  "text": "*هنا سبيريت، أدخل فوق منطقة الهدف"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin02Subtitle",
+  "text": "*علم يا سبيريت، المهمة ماضية. جاهز لتنفيذها؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin03Subtitle",
+  "text": "*نعم أيها العقيد، لنبدأ"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin04Subtitle",
+  "text": "*هنا سبيريت، أبواب مخزن القنابل مفتوحة... أُلقيت القنابل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin05Subtitle",
+  "text": "*من سبيريت إلى المتسلل، منطقة هبوطك خالية... حظًا موفقًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin06Subtitle",
+  "text": "*علم يا سبيريت، إصابة جميلة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin07Subtitle",
+  "text": "*وصلنا... لينزل كل من سيبقى هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin08Subtitle",
+  "text": "*شكرًا على التوصيلة يا شباب... أراكم قريبًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin09Subtitle",
+  "text": "*مروحيات الشينوك الصغيرة لديكم فعّالة... لكنني أفضّل قوة الهيليكس لدينا..."
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr01Subtitle",
+  "text": "*تحررنا! الجميع إلى مركباتكم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr02Subtitle",
+  "text": "*شكرًا أيها الجنرال. نحن تحت أمرك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva01Subtitle",
+  "text": "*أيها الجنرال، هدفك الأول تدمير هذا الجسر. تدميره سيقطع تعزيزات جيش التحرير العالمي القادمة من الجانب الآخر للنهر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva02Subtitle",
+  "text": "*أيها الجنرال، رُصدت تعزيزات لجيش التحرير العالمي تعبر الجسر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva03Subtitle",
+  "text": "*دخلت فرقة أخرى من جيش التحرير العالمي المنطقة أيها الجنرال. ربما علينا التعامل مع ذلك الجسر الآن؟"
+ }
+]

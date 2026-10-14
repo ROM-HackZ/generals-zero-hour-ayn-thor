@@ -1,0 +1,802 @@
+[
+ {
+  "label": "OBJECT:NukeLauncher",
+  "text": "핵 캐논"
+ },
+ {
+  "label": "OBJECT:ParticleCannon",
+  "text": "입자 캐논"
+ },
+ {
+  "label": "OBJECT:OakTree",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:Office",
+  "text": "사무실"
+ },
+ {
+  "label": "OBJECT:OilDepot",
+  "text": "석유 저장소"
+ },
+ {
+  "label": "OBJECT:OilRefinery",
+  "text": "정유 공장"
+ },
+ {
+  "label": "OBJECT:OilTank",
+  "text": "석유 탱크"
+ },
+ {
+  "label": "OBJECT:OldWoodenTelephonePole",
+  "text": "전신주"
+ },
+ {
+  "label": "OBJECT:Outpost",
+  "text": "전초기지"
+ },
+ {
+  "label": "OBJECT:Overlord",
+  "text": "오버로드"
+ },
+ {
+  "label": "OBJECT:Palace",
+  "text": "궁전"
+ },
+ {
+  "label": "OBJECT:PalmTree",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:ParkBench",
+  "text": "공원 벤치"
+ },
+ {
+  "label": "OBJECT:ParkGazebo",
+  "text": "공원 정자"
+ },
+ {
+  "label": "OBJECT:ParkPavillion",
+  "text": "공원 파빌리온"
+ },
+ {
+  "label": "OBJECT:ParkingGarage",
+  "text": "주차 빌딩"
+ },
+ {
+  "label": "OBJECT:ParkingMeter",
+  "text": "주차 미터기"
+ },
+ {
+  "label": "OBJECT:Pathfinder",
+  "text": "패스파인더"
+ },
+ {
+  "label": "OBJECT:PatriotBattery",
+  "text": "패트리어트 미사일 시스템"
+ },
+ {
+  "label": "OBJECT:GattlingCannon",
+  "text": "개틀링 캐논"
+ },
+ {
+  "label": "OBJECT:PatriotMissile",
+  "text": "패트리어트 미사일 시스템"
+ },
+ {
+  "label": "OBJECT:PhoneBooth",
+  "text": "공중전화 부스"
+ },
+ {
+  "label": "OBJECT:PineTree",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:PoliceCar",
+  "text": "경찰차"
+ },
+ {
+  "label": "OBJECT:Prison",
+  "text": "교도소"
+ },
+ {
+  "label": "OBJECT:PropagandaBlimp",
+  "text": "선전 비행선"
+ },
+ {
+  "label": "OBJECT:PropagandaCenter",
+  "text": "선전 센터"
+ },
+ {
+  "label": "OBJECT:Pub",
+  "text": "선술집"
+ },
+ {
+  "label": "OBJECT:QuadCannon",
+  "text": "쿼드 캐논"
+ },
+ {
+  "label": "OBJECT:QuonsetHut",
+  "text": "퀀셋 막사"
+ },
+ {
+  "label": "OBJECT:RailTie",
+  "text": "철도 침목"
+ },
+ {
+  "label": "OBJECT:Ranger",
+  "text": "레인저"
+ },
+ {
+  "label": "OBJECT:Raptor",
+  "text": "랩터"
+ },
+ {
+  "label": "OBJECT:RaptorPilot",
+  "text": "조종사"
+ },
+ {
+  "label": "OBJECT:Restaurant",
+  "text": "레스토랑"
+ },
+ {
+  "label": "OBJECT:RetailStore",
+  "text": "소매점"
+ },
+ {
+  "label": "OBJECT:RiverHouse",
+  "text": "강가 주택"
+ },
+ {
+  "label": "OBJECT:RoadCone",
+  "text": "도로 원뿔"
+ },
+ {
+  "label": "OBJECT:RocketBuggy",
+  "text": "로켓 버기"
+ },
+ {
+  "label": "OBJECT:RadarVan",
+  "text": "레이더 밴"
+ },
+ {
+  "label": "OBJECT:RocketBuggyDebris",
+  "text": "로켓 버기 잔해"
+ },
+ {
+  "label": "OBJECT:RocketBuggyMissile",
+  "text": "로켓 버기 미사일"
+ },
+ {
+  "label": "OBJECT:TomahawkMissile",
+  "text": "토마호크 미사일"
+ },
+ {
+  "label": "OBJECT:SCUDMissile",
+  "text": "스커드 미사일"
+ },
+ {
+  "label": "OBJECT:RangerTeamMissile",
+  "text": "레인저 팀 미사일"
+ },
+ {
+  "label": "OBJECT:Rocks",
+  "text": "바위"
+ },
+ {
+  "label": "OBJECT:RopeCoil",
+  "text": "밧줄 뭉치"
+ },
+ {
+  "label": "OBJECT:Rubble",
+  "text": "잔해"
+ },
+ {
+  "label": "OBJECT:ColonelBurton",
+  "text": "버튼 대령"
+ },
+ {
+  "label": "OBJECT:SUV",
+  "text": "SUV"
+ },
+ {
+  "label": "OBJECT:Schoolhouse",
+  "text": "학교"
+ },
+ {
+  "label": "OBJECT:Scorpion",
+  "text": "스콜피온"
+ },
+ {
+  "label": "OBJECT:Marauder",
+  "text": "마라우더 전차"
+ },
+ {
+  "label": "OBJECT:ScoutDrone",
+  "text": "정찰 드론"
+ },
+ {
+  "label": "OBJECT:SpyDrone",
+  "text": "정찰 드론"
+ },
+ {
+  "label": "OBJECT:ScrapCar",
+  "text": "고철 차량"
+ },
+ {
+  "label": "OBJECT:ScudLauncher",
+  "text": "스커드 런처"
+ },
+ {
+  "label": "OBJECT:ScudStorm",
+  "text": "스커드 스톰"
+ },
+ {
+  "label": "OBJECT:SecretLab",
+  "text": "비밀 연구소"
+ },
+ {
+  "label": "OBJECT:SecretPolice",
+  "text": "비밀경찰"
+ },
+ {
+  "label": "OBJECT:SecurityFence",
+  "text": "보안 울타리"
+ },
+ {
+  "label": "OBJECT:Hacker",
+  "text": "해커"
+ },
+ {
+  "label": "OBJECT:Officer",
+  "text": "장교"
+ },
+ {
+  "label": "OBJECT:Agent",
+  "text": "요원"
+ },
+ {
+  "label": "OBJECT:Sedan",
+  "text": "세단"
+ },
+ {
+  "label": "OBJECT:SeismicTank",
+  "text": "지진 전차"
+ },
+ {
+  "label": "OBJECT:Shack",
+  "text": "판잣집"
+ },
+ {
+  "label": "OBJECT:ShippingContainer",
+  "text": "선적 컨테이너"
+ },
+ {
+  "label": "OBJECT:ShippingCrate",
+  "text": "선적 상자"
+ },
+ {
+  "label": "OBJECT:SignalLights",
+  "text": "신호등"
+ },
+ {
+  "label": "OBJECT:Slide",
+  "text": "미끄럼틀"
+ },
+ {
+  "label": "OBJECT:SovietBuilding",
+  "text": "구 사무실 건물"
+ },
+ {
+  "label": "OBJECT:SovietGovtBuildingSmall",
+  "text": "구 정부 건물"
+ },
+ {
+  "label": "OBJECT:SovietRadioBuilding",
+  "text": "구 라디오 건물"
+ },
+ {
+  "label": "OBJECT:SpeakerTower",
+  "text": "확성기 탑"
+ },
+ {
+  "label": "OBJECT:SportCar",
+  "text": "스포츠카"
+ },
+ {
+  "label": "OBJECT:Sprinkler",
+  "text": "스프링클러"
+ },
+ {
+  "label": "OBJECT:SpruceTree",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:StanTallTower",
+  "text": "높은 탑"
+ },
+ {
+  "label": "OBJECT:Starlifter",
+  "text": "스타리프터2"
+ },
+ {
+  "label": "OBJECT:StatueAngel",
+  "text": "천사상"
+ },
+ {
+  "label": "OBJECT:StatueLenin",
+  "text": "동상"
+ },
+ {
+  "label": "OBJECT:StatueRoman",
+  "text": "로마 조각상"
+ },
+ {
+  "label": "OBJECT:StealthFighter",
+  "text": "스텔스 전투기"
+ },
+ {
+  "label": "OBJECT:StingerSite",
+  "text": "스팅어 기지"
+ },
+ {
+  "label": "OBJECT:StoneArch",
+  "text": "석조 아치"
+ },
+ {
+  "label": "OBJECT:StoneWall",
+  "text": "석벽"
+ },
+ {
+  "label": "OBJECT:PicketFence",
+  "text": "말뚝 울타리"
+ },
+ {
+  "label": "OBJECT:StopLight",
+  "text": "정지 신호등"
+ },
+ {
+  "label": "OBJECT:StreetLamp",
+  "text": "가로등"
+ },
+ {
+  "label": "OBJECT:StreetLight",
+  "text": "가로등"
+ },
+ {
+  "label": "OBJECT:StreetSign",
+  "text": "도로 표지판"
+ },
+ {
+  "label": "OBJECT:SupplyTruck",
+  "text": "보급 트럭"
+ },
+ {
+  "label": "OBJECT:SupplyWarehouse",
+  "text": "보급 창고"
+ },
+ {
+  "label": "OBJECT:Swing",
+  "text": "그네"
+ },
+ {
+  "label": "OBJECT:TVStation",
+  "text": "TV 방송국"
+ },
+ {
+  "label": "OBJECT:TankTrap",
+  "text": "전차 장애물"
+ },
+ {
+  "label": "OBJECT:TankerTruck",
+  "text": "유조 트럭"
+ },
+ {
+  "label": "OBJECT:TaxiCab",
+  "text": "택시"
+ },
+ {
+  "label": "OBJECT:Technical",
+  "text": "테크니컬"
+ },
+ {
+  "label": "OBJECT:Tent",
+  "text": "텐트"
+ },
+ {
+  "label": "OBJECT:Terrorist",
+  "text": "테러리스트"
+ },
+ {
+  "label": "OBJECT:Tire",
+  "text": "타이어"
+ },
+ {
+  "label": "OBJECT:TireObstacle",
+  "text": "타이어 장애물"
+ },
+ {
+  "label": "OBJECT:Tollbooth",
+  "text": "요금소"
+ },
+ {
+  "label": "OBJECT:Tomahawk",
+  "text": "토마호크"
+ },
+ {
+  "label": "OBJECT:TownHouse",
+  "text": "타운하우스"
+ },
+ {
+  "label": "OBJECT:ToxinTruck",
+  "text": "독소 트랙터"
+ },
+ {
+  "label": "OBJECT:TrashCan",
+  "text": "쓰레기통"
+ },
+ {
+  "label": "OBJECT:TrashDumpster",
+  "text": "쓰레기통"
+ },
+ {
+  "label": "OBJECT:TrashPaper",
+  "text": "휴지"
+ },
+ {
+  "label": "OBJECT:TrashPile",
+  "text": "쓰레기 더미"
+ },
+ {
+  "label": "OBJECT:TreeStump",
+  "text": "나무 그루터기"
+ },
+ {
+  "label": "OBJECT:TroopCrawler",
+  "text": "병력 수송차"
+ },
+ {
+  "label": "OBJECT:TunnelDefender",
+  "text": "RPG 병사"
+ },
+ {
+  "label": "OBJECT:TunnelNetwork",
+  "text": "터널 네트워크"
+ },
+ {
+  "label": "OBJECT:Cave",
+  "text": "동굴"
+ },
+ {
+  "label": "OBJECT:GLAHole",
+  "text": "GLA 구멍"
+ },
+ {
+  "label": "OBJECT:GLARock",
+  "text": "GLA 바위"
+ },
+ {
+  "label": "OBJECT:UNHumvee",
+  "text": "UN 험비"
+ },
+ {
+  "label": "OBJECT:UNSoldier",
+  "text": "UN 병사"
+ },
+ {
+  "label": "OBJECT:VendingMachine",
+  "text": "자판기"
+ },
+ {
+  "label": "OBJECT:Wall",
+  "text": "벽"
+ },
+ {
+  "label": "OBJECT:ConcreteWall",
+  "text": "콘크리트 벽"
+ },
+ {
+  "label": "OBJECT:WatchTower",
+  "text": "망루"
+ },
+ {
+  "label": "OBJECT:WaterPlant",
+  "text": "정수장"
+ },
+ {
+  "label": "OBJECT:WindMill",
+  "text": "풍차"
+ },
+ {
+  "label": "OBJECT:WoodBeams",
+  "text": "목재 들보"
+ },
+ {
+  "label": "OBJECT:WoodTower",
+  "text": "목조 탑"
+ },
+ {
+  "label": "OBJECT:WoodWall",
+  "text": "나무 벽"
+ },
+ {
+  "label": "OBJECT:WoodenBarrels",
+  "text": "나무 통"
+ },
+ {
+  "label": "OBJECT:Worker",
+  "text": "노동자"
+ },
+ {
+  "label": "OBJECT:Birch",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:Building",
+  "text": "건물"
+ },
+ {
+  "label": "OBJECT:Cathedral",
+  "text": "대성당"
+ },
+ {
+  "label": "OBJECT:FarmHouse",
+  "text": "농가"
+ },
+ {
+  "label": "OBJECT:Fir",
+  "text": "나무"
+ },
+ {
+  "label": "OBJECT:Garage",
+  "text": "차고"
+ },
+ {
+  "label": "OBJECT:OscarTheGrouch",
+  "text": "고물상"
+ },
+ {
+  "label": "OBJECT:Pilot",
+  "text": "조종사"
+ },
+ {
+  "label": "OBJECT:Pump",
+  "text": "펌프"
+ },
+ {
+  "label": "OBJECT:Shop",
+  "text": "상점"
+ },
+ {
+  "label": "OBJECT:StingerMissile",
+  "text": "스팅어 미사일"
+ },
+ {
+  "label": "OBJECT:StingerSoldier",
+  "text": "스팅어 병사"
+ },
+ {
+  "label": "OBJECT:StorageTank",
+  "text": "저장 탱크"
+ },
+ {
+  "label": "OBJECT:Well",
+  "text": "우물"
+ },
+ {
+  "label": "OBJECT:WineVat",
+  "text": "통"
+ },
+ {
+  "label": "OBJECT:GenericMale",
+  "text": "민간인"
+ },
+ {
+  "label": "OBJECT:GenericFemale",
+  "text": "민간인"
+ },
+ {
+  "label": "OBJECT:MogadishuFemaleCivilian",
+  "text": "민간인"
+ },
+ {
+  "label": "OBJECT:MogadishuMaleCivilian",
+  "text": "민간인"
+ },
+ {
+  "label": "OBJECT:Crane",
+  "text": "크레인"
+ },
+ {
+  "label": "OBJECT:OceanCenter",
+  "text": "컨벤션 센터"
+ },
+ {
+  "label": "OBJECT:SoccerStadium",
+  "text": "축구 경기장"
+ },
+ {
+  "label": "OBJECT:Ambulance",
+  "text": "구급차"
+ },
+ {
+  "label": "OBJECT:AsianCar",
+  "text": "자동차"
+ },
+ {
+  "label": "OBJECT:Backhoe",
+  "text": "굴착기"
+ },
+ {
+  "label": "OBJECT:LargeForklift",
+  "text": "대형 지게차"
+ },
+ {
+  "label": "OBJECT:SmallForklift",
+  "text": "지게차"
+ },
+ {
+  "label": "OBJECT:CropDuster",
+  "text": "농약 살포기"
+ },
+ {
+  "label": "OBJECT:Cessna",
+  "text": "경비행기"
+ },
+ {
+  "label": "OBJECT:ChickenTruck",
+  "text": "닭 운송 트럭"
+ },
+ {
+  "label": "OBJECT:Combine",
+  "text": "콤바인"
+ },
+ {
+  "label": "OBJECT:Eurovan",
+  "text": "밴"
+ },
+ {
+  "label": "OBJECT:EuroPoliceVan",
+  "text": "경찰 밴"
+ },
+ {
+  "label": "OBJECT:Firetruck",
+  "text": "소방차"
+ },
+ {
+  "label": "OBJECT:FarmerTruck",
+  "text": "농장 트럭"
+ },
+ {
+  "label": "OBJECT:AsianFishingBoat",
+  "text": "어선"
+ },
+ {
+  "label": "OBJECT:TourBus",
+  "text": "관광버스"
+ },
+ {
+  "label": "OBJECT:FishingTrowler",
+  "text": "트롤 어선"
+ },
+ {
+  "label": "OBJECT:WorkTruck",
+  "text": "작업 트럭"
+ },
+ {
+  "label": "OBJECT:TugBoat",
+  "text": "예인선"
+ },
+ {
+  "label": "OBJECT:BioHazardTech",
+  "text": "생화학 방호 요원"
+ },
+ {
+  "label": "OBJECT:MilitiaTank",
+  "text": "민병대 전차"
+ },
+ {
+  "label": "Network:PlayerDisconnected",
+  "text": "%s 님의 연결이 끊어졌습니다"
+ },
+ {
+  "label": "Network:PlayerLeftGame",
+  "text": "%s 님이 게임을 나갔습니다"
+ },
+ {
+  "label": "Network:Vote",
+  "text": "투표"
+ },
+ {
+  "label": "Network:QuitGame",
+  "text": "게임 종료"
+ },
+ {
+  "label": "MAP:AlpineAssault",
+  "text": "Alpine Assault"
+ },
+ {
+  "label": "MAP:AustrianAmbush",
+  "text": "Market Garden"
+ },
+ {
+  "label": "MAP:Badlands",
+  "text": "Desert Fury"
+ },
+ {
+  "label": "MAP:BridgeBusters",
+  "text": "Iron Dragon"
+ },
+ {
+  "label": "MAP:KashmarKlash",
+  "text": "Wasteland Warlords"
+ },
+ {
+  "label": "MAP:Oasis",
+  "text": "Golden Oasis"
+ },
+ {
+  "label": "MAP:ScorchedEarth",
+  "text": "Scorched Earth"
+ },
+ {
+  "label": "MAP:SleepyHollow",
+  "text": "Heartland Shield"
+ },
+ {
+  "label": "MAP:SmalltownUSA",
+  "text": "Homeland Alliance"
+ },
+ {
+  "label": "MAP:TampicoTrauma",
+  "text": "Silent River"
+ },
+ {
+  "label": "MAP:WoodcrestCircle",
+  "text": "Final Crusader"
+ },
+ {
+  "label": "MAP:XinjiangBang",
+  "text": "Winter Wolf"
+ },
+ {
+  "label": "Audio:Speakers0",
+  "text": "스피커 2개"
+ },
+ {
+  "label": "Audio:Speakers1",
+  "text": "헤드폰"
+ },
+ {
+  "label": "Audio:Speakers2",
+  "text": "서라운드 사운드"
+ },
+ {
+  "label": "Audio:Speakers3",
+  "text": "스피커 4개"
+ },
+ {
+  "label": "Audio:Speakers4",
+  "text": "5.1 서라운드"
+ },
+ {
+  "label": "Audio:Speakers5",
+  "text": "7.1 서라운드"
+ },
+ {
+  "label": "MAP:CHI01ObjectiveText",
+  "text": "임무 목표\n핵탄두 저장 시설 파괴"
+ },
+ {
+  "label": "MAP:CHI02Open",
+  "text": "중국, 홍콩\n홍콩 위기"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder01",
+  "text": "<레드가드 발언>\n'장군님, 우리가 돌격대의 마지막 생존자입니다! 사령부를 짓고 레이더를 가동해야 새 명령을 받을 수 있습니다'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder02",
+  "text": "<레드가드 발언>\n'장군님, 레이더를 가동하지 않으면 적의 위치 정보를 받을 수 없습니다. 레이더가 필요합니다'"
+ }
+]

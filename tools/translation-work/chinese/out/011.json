@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Any",
+  "text": "任意"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNicknamePassword",
+  "text": "请输入昵称和密码，然后点击“登录”或“创建账户”"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmail",
+  "text": "请输入邮箱，然后点击“登录”或“创建账户”"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNickname",
+  "text": "请输入昵称，然后点击“登录”或“创建账户”"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoPassword",
+  "text": "请输入密码，然后点击“登录”或“创建账户”"
+ },
+ {
+  "label": "Buddy:MultipleOnlineNotification",
+  "text": "你有好友在线"
+ },
+ {
+  "label": "GUI:ResetHonors",
+  "text": "重置荣誉"
+ },
+ {
+  "label": "Chat:Observers",
+  "text": "观察者可见"
+ },
+ {
+  "label": "TOOLTIP:buddies",
+  "text": "按好友排序游戏列表"
+ },
+ {
+  "label": "TOOLTIP:AddToBuddies",
+  "text": "将玩家添加到好友列表"
+ },
+ {
+  "label": "TOOLTIP:StagingPlayerInfo",
+  "text": "\n地区：%ls\n延迟：%d 毫秒\n%d 胜/%d 负\n断线 %d 次\n最喜爱的阵营：%ls"
+ },
+ {
+  "label": "GUI:CantBuildTooCloseToSupplies",
+  "text": "此处离补给来源太近，无法建造"
+ },
+ {
+  "label": "OBJECT:Frosty",
+  "text": "雪人"
+ },
+ {
+  "label": "OBJECT:Prop",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:BigGate",
+  "text": "大门"
+ },
+ {
+  "label": "OBJECT:TownHall",
+  "text": "市政厅"
+ },
+ {
+  "label": "OBJECT:RailroadBridge",
+  "text": "铁路桥"
+ },
+ {
+  "label": "OBJECT:TheLoo",
+  "text": "户外厕所"
+ },
+ {
+  "label": "OBJECT:TrainCar",
+  "text": "火车车厢"
+ },
+ {
+  "label": "OBJECT:SandBagWall",
+  "text": "沙袋墙"
+ },
+ {
+  "label": "OBJECT:Structure",
+  "text": "民用建筑"
+ },
+ {
+  "label": "OBJECT:Airport",
+  "text": "民用机场"
+ },
+ {
+  "label": "OBJECT:Highrise",
+  "text": "高楼"
+ },
+ {
+  "label": "OBJECT:BridgeTower",
+  "text": "桥塔"
+ },
+ {
+  "label": "OBJECT:Field",
+  "text": "球场"
+ },
+ {
+  "label": "OBJECT:SoccerStadiumGoal",
+  "text": "球门"
+ },
+ {
+  "label": "OBJECT:BigLightpost",
+  "text": "灯柱"
+ },
+ {
+  "label": "MAP:BigRivers",
+  "text": "Mountain Fox"
+ },
+ {
+  "label": "MAP:CHI01Open",
+  "text": "北京，中国阅兵式\n巨龙觉醒"
+ },
+ {
+  "label": "MAP:CHI03Obj1Done",
+  "text": "任务目标已完成"
+ },
+ {
+  "label": "MAP:CHI07Obj1",
+  "text": "任务目标：\n建立基地并寻找资源"
+ },
+ {
+  "label": "MAP:CHI07Obj2",
+  "text": "任务目标：\n击败 GLA"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt2",
+  "text": "哈萨克斯坦阿拉木图郊外村庄\n为我们的事业夺取外国物资"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt1",
+  "text": "哈萨克斯坦阿拉木图郊外村庄\n行动代号：洗劫村庄"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt2",
+  "text": "哈萨克斯坦咸海西岸\n盗取西方的毒药，用来对付他们"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt1",
+  "text": "哈萨克斯坦咸海西岸\n行动代号：对症下毒"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt2",
+  "text": "哈萨克斯坦楞格尔附近某处\n让世界看看叛徒的下场"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt",
+  "text": "哈萨克斯坦楞格尔附近某处\n行动代号：特洛伊木马"
+ },
+ {
+  "label": "MAP:GLA03Open02",
+  "text": "被中国占领的哈萨克斯坦江布尔\n行动代号：正义之火"
+ },
+ {
+  "label": "MAP:GLA03Directive",
+  "text": "线人报告：\n摧毁制药厂以获得炭疽炸弹"
+ },
+ {
+  "label": "MAP:USA02Hint1Text",
+  "text": "利用飞行员为你的载具提供额外经验"
+ },
+ {
+  "label": "MAP:USA02Hint2Text",
+  "text": "使用游骑兵的闪光震撼弹升级清除被驻守的建筑"
+ },
+ {
+  "label": "MAP:USA03Hint1Text",
+  "text": "建造爱国者导弹系统保卫基地"
+ },
+ {
+  "label": "MAP:USA04Hint1Text",
+  "text": "使用战斧导弹发射车清除 GLA 据点"
+ },
+ {
+  "label": "MAP:NVIDIATEXT",
+  "text": "命令与征服：将军\n2003 年 2 月上市"
+ },
+ {
+  "label": "MAP:USA06ObjHint2",
+  "text": "提示：\n占领此设施"
+ },
+ {
+  "label": "MAP:USA06ObjHint1",
+  "text": "提示：\n这里有重要的民用建筑"
+ },
+ {
+  "label": "MAP:GLA03Objective07",
+  "text": "目标已完成：\n已消灭 300 名叛徒"
+ },
+ {
+  "label": "MAP:GLA03Objective08",
+  "text": "目标已完成：\n制药厂已被摧毁"
+ },
+ {
+  "label": "MAP:GLA05Open",
+  "text": "土耳其，阿达纳\n因吉尔利克空军基地"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive03",
+  "text": "警告：\n美国空军正在逼近\n建造毒刺导弹阵地保卫基地"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive04",
+  "text": "次要目标：\n摧毁中国间谍前哨站"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive05",
+  "text": "警告：\n美国空军正在逼近\n使用毒刺导弹阵地和四管机炮击落敌机"
+ },
+ {
+  "label": "MAP:GLA08Open",
+  "text": "哈萨克斯坦南部，拜科努尔航天发射场\n苏联时期的火箭发射设施"
+ },
+ {
+  "label": "MAP:GLA08Open02",
+  "text": "哈萨克斯坦南部\n拜科努尔航天发射场"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective01",
+  "text": "任务目标：\n占领地面控制大楼\n占领火箭发射塔架"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective02",
+  "text": "任务目标：\n占领地面控制大楼"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective03",
+  "text": "任务目标：\n占领火箭发射塔架"
+ },
+ {
+  "label": "SCRIPT:GLA08Directive04",
+  "text": "警告：\n敌方超级武器来袭"
+ },
+ {
+  "label": "MAP:USA07hint1",
+  "text": "提示：\n利用这个补给站"
+ },
+ {
+  "label": "MAP:CHI05ObjInit",
+  "text": "任务目标：\n摧毁 3 座 GLA 营地\n和 GLA 主基地"
+ },
+ {
+  "label": "MAP:CHI05Obj4",
+  "text": "还剩 4 个目标"
+ },
+ {
+  "label": "MAP:CHI05Obj3",
+  "text": "还剩 3 个目标"
+ },
+ {
+  "label": "MAP:CHI05Obj2",
+  "text": "还剩 2 个目标"
+ },
+ {
+  "label": "MAP:CHI05Obj1",
+  "text": "只剩 1 个目标"
+ },
+ {
+  "label": "MAP:CHI05Objhint1",
+  "text": "提示：\n利用这个补给站"
+ },
+ {
+  "label": "MAP:CHI05Objhint2",
+  "text": "提示：\n占领这些设施"
+ },
+ {
+  "label": "MAP:CHI05ObjCBReady",
+  "text": "提示：\n地毯式轰炸机现已可用"
+ },
+ {
+  "label": "MAP:USA08MapName",
+  "text": "最后召唤"
+ },
+ {
+  "label": "MAP:USA08Open",
+  "text": "阿尔达斯坦，GLA 首都\n行动代号：最后召唤"
+ },
+ {
+  "label": "MAP:USA08OpenAlt",
+  "text": "哈萨克斯坦，阿克莫拉\n行动代号：最后召唤"
+ },
+ {
+  "label": "MAP:USA08Objective01",
+  "text": "任务目标：\n摧毁所有 GLA 部队和建筑"
+ },
+ {
+  "label": "MAP:USA08WallGarWarning",
+  "text": "警告：\nGLA 已进驻城墙\n游骑兵必须使用闪光震撼弹消灭驻守的 GLA 部队"
+ },
+ {
+  "label": "MAP:USA08ChinaHint",
+  "text": "占领中国建筑\n组建美中联军消灭 GLA"
+ },
+ {
+  "label": "MAP:USA08SCUDStormWarn",
+  "text": "警告：\nGLA 建造了一座飞毛腿风暴"
+ },
+ {
+  "label": "MAP:USA08MineWarn",
+  "text": "警告：\n检测到 GLA 爆破陷阱"
+ },
+ {
+  "label": "MAP:USA08GLABaseKIA",
+  "text": "GLA 基地已被摧毁\n消灭剩余的 GLA 部队以赢得战争"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCarpetBomb",
+  "text": "对目标区域进行地毯式轰炸\n\n冷却时间：2:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCrateDrop",
+  "text": "空投补给箱"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateNuke",
+  "text": "引爆隐藏的核装置"
+ },
+ {
+  "label": "MAP:GLA01Objective",
+  "text": "任务目标\n摧毁大坝"
+ },
+ {
+  "label": "MAP:GLA01Objective2",
+  "text": "任务目标\n摧毁中国基地"
+ },
+ {
+  "label": "MAP:TrainingGenerals",
+  "text": "左键点击屏幕右下角的将军按钮，为你的将军选择新能力。随着晋升，你的将军将获得新能力。有些能力可以让你生产新的特殊单位，另一些则提供可从指挥中心使用的特殊技能"
+ },
+ {
+  "label": "MAP:TrainingSalvage",
+  "text": "你制造了一堆残骸。每当 GLA 载具摧毁敌方载具时，都会留下残骸。GLA 载具驶过残骸即可拾取。残骸可能带来资金或经验。技术车、四管机炮和劫掠者坦克可以用残骸升级武器"
+ },
+ {
+  "label": "MAP:TrainingUpgrade",
+  "text": "升级在基地的不同建筑中购买，可以强化你的单位。左键点击兵营，再左键点击“占领建筑”图标，即可让游骑兵获得占领敌方建筑的能力"
+ },
+ {
+  "label": "GUI:SaveAndContinue",
+  "text": "继续"
+ },
+ {
+  "label": "TOOLTIP:PlayerSetting",
+  "text": "选择匹配 1 对 1 或团队游戏"
+ },
+ {
+  "label": "TOOLTIP:Ping",
+  "text": "选择你对对手连接速度的容忍度"
+ },
+ {
+  "label": "TOOLTIP:Disconnect",
+  "text": "选择你对对手总断线次数的容忍度"
+ },
+ {
+  "label": "TOOLTIP:Ladder",
+  "text": "选择你想参加的天梯"
+ },
+ {
+  "label": "TOOLTIP:QuickMatchStatus",
+  "text": "快速对战会根据水平、电脑配置等为你匹配对手"
+ },
+ {
+  "label": "TOOLTIP:OnlineIP",
+  "text": "用于连接 C&C 将军：绝命时刻 在线对战的 IP 地址"
+ },
+ {
+  "label": "TOOLTIP:LanIP",
+  "text": "用于在网络游戏中与玩家连接的 IP 地址"
+ },
+ {
+  "label": "TOOLTIP:GamesBeingformed",
+  "text": "你与该游戏中玩家的连接速度"
+ },
+ {
+  "label": "TOOLTIP:EmoteText",
+  "text": "左键点击输入文字"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCashHack",
+  "text": "从敌方补给中心窃取资金。窃取金额不能超过敌方拥有的资金\n\n等级 1：$1000\n等级 2：$2000\n等级 3：$4000\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "GUI:TRAINING",
+  "text": "训练"
+ },
+ {
+  "label": "GUI:CHINA_Caps",
+  "text": "中国"
+ },
+ {
+  "label": "TOOLTIP:SupplyDock",
+  "text": "补给"
+ },
+ {
+  "label": "TOOLTIP:TechBuilding",
+  "text": "科技建筑"
+ },
+ {
+  "label": "TOOLTIP:Mission1",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:Mission2_8",
+  "text": "第一战役"
+ },
+ {
+  "label": "TOOLTIP:Mission9_16",
+  "text": "第二战役"
+ },
+ {
+  "label": "TOOLTIP:Mission17_23",
+  "text": "第三战役"
+ },
+ {
+  "label": "TOOLTIP:ButtonClear",
+  "text": "清空玩家名称输入框"
+ },
+ {
+  "label": "GUI:Objectives:",
+  "text": "摘要："
+ },
+ {
+  "label": "GUI:WinStreak",
+  "text": "连胜"
+ },
+ {
+  "label": "GUI:LossStreak",
+  "text": "连败"
+ },
+ {
+  "label": "GUI:PlayerNoMapWillTransfer",
+  "text": "%ls 没有地图 %ls。游戏开始时将会传输该地图"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMapWillTransfer",
+  "text": "你没有地图 %ls。游戏开始时将会传输给你"
+ },
+ {
+  "label": "GUI:CouldNotTransferMap",
+  "text": "无法传输地图。游戏无法开始"
+ },
+ {
+  "label": "GUI:Status",
+  "text": "状态"
+ },
+ {
+  "label": "MapTransfer:CurrentFile",
+  "text": "当前文件：%ls"
+ },
+ {
+  "label": "MapTransfer:Timeout",
+  "text": "%d:%2.2d 后中止"
+ },
+ {
+  "label": "MapTransfer:Preparing",
+  "text": "准备中……"
+ },
+ {
+  "label": "MapTransfer:Sending",
+  "text": "发送中……"
+ },
+ {
+  "label": "MapTransfer:Recieving",
+  "text": "接收中……"
+ },
+ {
+  "label": "MapTransfer:Done",
+  "text": "完成"
+ },
+ {
+  "label": "ThingTemplate:SalvageCrate",
+  "text": "残骸箱"
+ },
+ {
+  "label": "ThingTemplate:IndustrialBridgeTower01",
+  "text": "桥"
+ },
+ {
+  "label": "ThingTemplate:Crypt01",
+  "text": "墓穴"
+ },
+ {
+  "label": "ThingTemplate:AsianAartmentSingle01",
+  "text": "公寓"
+ },
+ {
+  "label": "CONTROLBAR:RadioJam",
+  "text": "无线电干扰"
+ },
+ {
+  "label": "MAP:USA01OBJOpen",
+  "text": "任务目标\n消灭所有敌军"
+ },
+ {
+  "label": "MAP:TrainingWarFactory",
+  "text": "任务目标\n用推土机建造战车工厂"
+ },
+ {
+  "label": "TOOLTIP:MapNoSuccess",
+  "text": "在此地图上击败简单难度的对手！"
+ },
+ {
+  "label": "TOOLTIP:MapEasySuccess",
+  "text": "在此地图上击败中等难度的对手！"
+ },
+ {
+  "label": "TOOLTIP:MapMediumSuccess",
+  "text": "在此地图上击败困难难度的对手！"
+ },
+ {
+  "label": "TOOLTIP:MapHardSuccess",
+  "text": "在此地图上击败最大数量的困难难度对手！"
+ },
+ {
+  "label": "Buddy:CantTalkToIngameBuddy",
+  "text": "观战时无法向游戏中的好友发送消息"
+ },
+ {
+  "label": "MAP:Bavarian",
+  "text": "Final Crusade"
+ },
+ {
+  "label": "MAP:CLake",
+  "text": "Tournament Lake"
+ },
+ {
+  "label": "MAP:SBlast",
+  "text": "Sand Serpent"
+ },
+ {
+  "label": "MAP:SleepingGiant",
+  "text": "Dark Mountain"
+ },
+ {
+  "label": "MAP:SwissMP",
+  "text": "Lone Eagle"
+ },
+ {
+  "label": "MAP:KandaharHighlands",
+  "text": "Twilight Flame"
+ },
+ {
+  "label": "MAP:BoraBora",
+  "text": "Tournament Island"
+ },
+ {
+  "label": "MAP:PrecipicePass",
+  "text": "Fortress Avalanche"
+ },
+ {
+  "label": "MAP:TTourney",
+  "text": "Tournament Tundra"
+ },
+ {
+  "label": "MAP:Gwall",
+  "text": "Fallen Empire"
+ },
+ {
+  "label": "GUI:HTTPProxy",
+  "text": "HTTP 代理："
+ },
+ {
+  "label": "GUI:WinPercent",
+  "text": "%d%%"
+ },
+ {
+  "label": "TOOLTIP:PlayerCreatedName",
+  "text": "创建此游戏的玩家名称"
+ },
+ {
+  "label": "TOOLTIP:HTTPProxy",
+  "text": "设置用于 C&C 将军：绝命时刻 在线对战的 HTTP 代理"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistory",
+  "text": "任务简报"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistoryDescription",
+  "text": "点击查看任务简报"
+ },
+ {
+  "label": "MAP:CHI04Objective1Text",
+  "text": "任务目标\n摧毁 GLA 的毒刺导弹阵地"
+ },
+ {
+  "label": "MAP:CHI04Objective2Text",
+  "text": "任务目标\n用黑莲花夺取中国战车工厂"
+ },
+ {
+  "label": "MAP:CHI04Objective3Text",
+  "text": "任务目标\n摧毁化工厂周围的毒刺导弹阵地"
+ },
+ {
+  "label": "MAP:CHI04Hint1Text",
+  "text": "提示：用黑莲花瘫痪敌方载具"
+ },
+ {
+  "label": "MAP:CHI04Hint2Text",
+  "text": "提示：用黑客获取额外收入"
+ },
+ {
+  "label": "MAP:CHI04Hint3Text",
+  "text": "提示：用黑莲花入侵敌方补给中心，截取额外资源"
+ },
+ {
+  "label": "GUI:GotoMainMenu",
+  "text": "主菜单"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlay",
+  "text": "公平竞技荣誉\n在线游戏断线率低于 10%（至少进行 10 场游戏）即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypse",
+  "text": "末日荣誉\n玩家在单人或多人在线游戏中建造了粒子加农炮、核导弹和飞毛腿风暴"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlayDisabled",
+  "text": "公平竞技荣誉\n在线游戏断线率低于 10%（至少进行 10 场游戏）即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypseDisabled",
+  "text": "末日勋章\n建造粒子加农炮、核导弹和飞毛腿风暴即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorder",
+  "text": "军官俱乐部荣誉\n玩家是将军社区的创始会员"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorderDisabled",
+  "text": "军官俱乐部勋章\n玩家未预购将军"
+ },
+ {
+  "label": "GUI:Credits",
+  "text": "制作人员"
+ },
+ {
+  "label": "ERROR:D3DFailurePrompt",
+  "text": "DirectX 错误"
+ },
+ {
+  "label": "ERROR:D3DFailureMessage",
+  "text": "请确认已安装 DirectX 8.1 或更高版本，并确认你的显卡满足最低要求"
+ },
+ {
+  "label": "GUI:AudioHardware",
+  "text": "硬件加速音频"
+ },
+ {
+  "label": "GUI:AudioSurround",
+  "text": "环绕声"
+ },
+ {
+  "label": "TOOLTIP:CheckAudioHardware",
+  "text": "勾选此项以启用音频硬件加速"
+ },
+ {
+  "label": "TOOLTIP:AudioSurround",
+  "text": "如果你有环绕声扬声器，请勾选此项"
+ },
+ {
+  "label": "CAMPAIGN:TRAINING",
+  "text": "训练"
+ },
+ {
+  "label": "GUI:WinPercentLabel",
+  "text": "胜率"
+ },
+ {
+  "label": "GUI:BestWinStreak",
+  "text": "最佳连胜"
+ },
+ {
+  "label": "Buddy:MatchingNotification",
+  "text": "%hs 正在快速匹配"
+ },
+ {
+  "label": "Buddy:StagingNotification",
+  "text": "%hs 正在设置游戏"
+ },
+ {
+  "label": "Buddy:LoadingNotification",
+  "text": "%hs 正在开始游戏"
+ },
+ {
+  "label": "Buddy:PlayingNotification",
+  "text": "%hs 正在游戏中"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsPromotion",
+  "text": "将军晋升"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExp",
+  "text": "将军经验"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExpDescription",
+  "text": "此进度条显示你距离下一将军等级还有多远"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOn",
+  "text": "超载当前为开启状态"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOff",
+  "text": "超载当前为关闭状态"
+ },
+ {
+  "label": "GUI:ESRB_Top",
+  "text": "ESRB 声明："
+ },
+ {
+  "label": "GUI:ESRB_Bottom",
+  "text": "在线游戏时\n游戏体验可能有所不同"
+ },
+ {
+  "label": "GUI:ReplaySaved",
+  "text": "录像已保存"
+ },
+ {
+  "label": "OBJECT:Monument",
+  "text": "纪念碑"
+ },
+ {
+  "label": "TOOLTIP:TooltipNotEnoughMoneyToBuild",
+  "text": "资金不足"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotPurchaseBecauseQueueFull",
+  "text": "生产队列已满"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseParkingFull",
+  "text": "机场已满"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseMaximumNumber",
+  "text": "单位已存在"
+ },
+ {
+  "label": "GUI:SocketError",
+  "text": "网络通信失败，请检查你的连接"
+ },
+ {
+  "label": "GUI:NetworkError",
+  "text": "网络错误"
+ },
+ {
+  "label": "GUI:BuddiesTab",
+  "text": "好友"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorOfficersClub",
+  "text": "军官俱乐部荣誉\n将军社区创始会员"
+ },
+ {
+  "label": "GUI:CreateFormationDescription",
+  "text": "将所选单位组成编队，移动时保持队形"
+ },
+ {
+  "label": "GUI:ScatterDescription",
+  "text": "散开所选对象"
+ },
+ {
+  "label": "OBJECT:TrainWreckBridge",
+  "text": "火车残骸桥"
+ },
+ {
+  "label": "MAP:BarrenBadlands",
+  "text": "Barren Badlands"
+ },
+ {
+  "label": "MAP:CraterCanyon",
+  "text": "Crater Canyon"
+ },
+ {
+  "label": "MAP:DustDevil",
+  "text": "Dust Devil"
+ },
+ {
+  "label": "MAP:EasternEverglades",
+  "text": "Eastern Everglades"
+ },
+ {
+  "label": "MAP:ForgottenForest",
+  "text": "Forgotten Forest"
+ },
+ {
+  "label": "MAP:InterstateInferno",
+  "text": "Interstate Inferno"
+ },
+ {
+  "label": "MAP:MountainMayhem",
+  "text": "Mountain Mayhem"
+ }
+]

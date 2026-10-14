@@ -1,0 +1,802 @@
+[
+ {
+  "label": "UPGRADE:BecomeRealGLABlackMarket",
+  "text": "진짜 암시장"
+ },
+ {
+  "label": "UPGRADE:FusionReactors",
+  "text": "핵융합로"
+ },
+ {
+  "label": "UPGRADE:CamoNetting",
+  "text": "위장망"
+ },
+ {
+  "label": "UPGRADE:FortifiedStructure",
+  "text": "요새화 구조물"
+ },
+ {
+  "label": "UPGRADE:BoobyTrap",
+  "text": "부비 트랩"
+ },
+ {
+  "label": "UPGRADE:AnthraxGamma",
+  "text": "탄저균 감마"
+ },
+ {
+  "label": "UPGRADE:WorkerShoes",
+  "text": "작업화"
+ },
+ {
+  "label": "UPGRADE:ChemicalSuits",
+  "text": "화학 방호복"
+ },
+ {
+  "label": "UPGRADE:AmericaCountermeasures",
+  "text": "대응책"
+ },
+ {
+  "label": "UPGRADE:UpgradeChinaIsotopeStability",
+  "text": "동위원소 안정화(&I)"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaIsotopeStability",
+  "text": "차량이 파괴될 때 방사능 부수 피해가 아군 유닛에 미치는 것을 대부분 막아 줍니다"
+ },
+ {
+  "label": "OBJECT:SecretResearchLab",
+  "text": "비밀 연구소"
+ },
+ {
+  "label": "OBJECT:InternetCenter",
+  "text": "인터넷 센터"
+ },
+ {
+  "label": "OBJECT:AircraftCarrier",
+  "text": "항공모함"
+ },
+ {
+  "label": "OBJECT:TechArtilleryPlatform",
+  "text": "포병 플랫폼 -- 점령하면 지상의 적을 포격합니다"
+ },
+ {
+  "label": "OBJECT:NukeHunter",
+  "text": "핵 헌터"
+ },
+ {
+  "label": "OBJECT:TechRepairPad",
+  "text": "수리 패드 -- 점령하면 차량이 이 시설에서 수리할 수 있습니다"
+ },
+ {
+  "label": "OBJECT:AirF_Aurora",
+  "text": "연료 기화 오로라 폭격기"
+ },
+ {
+  "label": "OBJECT:SupW_Aurora",
+  "text": "오로라 알파 폭격기"
+ },
+ {
+  "label": "OBJECT:BattleBus",
+  "text": "배틀 버스"
+ },
+ {
+  "label": "OBJECT:Helix",
+  "text": "헬릭스"
+ },
+ {
+  "label": "OBJECT:PropagandaTrooper",
+  "text": "선전 병사"
+ },
+ {
+  "label": "OBJECT:HellfireDrone",
+  "text": "헬파이어 드론"
+ },
+ {
+  "label": "OBJECT:Avenger",
+  "text": "어벤저"
+ },
+ {
+  "label": "OBJECT:Microwave",
+  "text": "마이크로웨이브 전차"
+ },
+ {
+  "label": "OBJECT:MOAB",
+  "text": "초대형 폭탄"
+ },
+ {
+  "label": "OBJECT:NukeDrop",
+  "text": "핵 투하"
+ },
+ {
+  "label": "OBJECT:SuitcaseNuke",
+  "text": "가방 핵폭탄"
+ },
+ {
+  "label": "OBJECT:StructureEMPMine",
+  "text": "중성자 지뢰"
+ },
+ {
+  "label": "OBJECT:ECMTank",
+  "text": "ECM 전차"
+ },
+ {
+  "label": "OBJECT:Saboteur",
+  "text": "파괴 공작원"
+ },
+ {
+  "label": "OBJECT:TechRepairBay",
+  "text": "기술 수리소 -- 점령하면 전장 어디서든 차량을 수리합니다"
+ },
+ {
+  "label": "OBJECT:TechReinforcementPad",
+  "text": "증원 패드 -- 점령하면 추가 차량을 받습니다"
+ },
+ {
+  "label": "OBJECT:Sniper",
+  "text": "저격수"
+ },
+ {
+  "label": "OBJECT:FireBase",
+  "text": "화력 기지"
+ },
+ {
+  "label": "OBJECT:KingRaptor",
+  "text": "킹 랩터"
+ },
+ {
+  "label": "OBJECT:CombatBike",
+  "text": "전투 오토바이"
+ },
+ {
+  "label": "OBJECT:SentryDrone",
+  "text": "센트리 드론"
+ },
+ {
+  "label": "OBJECT:TomahawkStorm",
+  "text": "토마호크 스톰"
+ },
+ {
+  "label": "OBJECT:ListeningOutpost",
+  "text": "청음 전초기지"
+ },
+ {
+  "label": "Map:LeipzigLowlands",
+  "text": "Leipzig Lowlands"
+ },
+ {
+  "label": "Map:BombardmentBeach",
+  "text": "Bombardment Beach"
+ },
+ {
+  "label": "Map:BearTownBeatdown",
+  "text": "Bear Town Beatdown"
+ },
+ {
+  "label": "MAP:RiverSnakes",
+  "text": "Winding River"
+ },
+ {
+  "label": "MAP:KillingFields",
+  "text": "Killing Fields"
+ },
+ {
+  "label": "MAP:ThinIce",
+  "text": "Thin Ice"
+ },
+ {
+  "label": "MAP:ElScorcho",
+  "text": "El Scorcho"
+ },
+ {
+  "label": "MAP:GreenPastures",
+  "text": "Green Pastures"
+ },
+ {
+  "label": "MAP:FreeFireZone",
+  "text": "Free Fire Zone"
+ },
+ {
+  "label": "MAP:DestructionStation",
+  "text": "Destruction Station"
+ },
+ {
+  "label": "MAP:PolarStorm",
+  "text": "Polar Storm"
+ },
+ {
+  "label": "MAP:BitterWinter",
+  "text": "Bitter Winter"
+ },
+ {
+  "label": "MAP:CitySweep",
+  "text": "City Sweep"
+ },
+ {
+  "label": "MAP:FrozenPlains",
+  "text": "Frozen Plains"
+ },
+ {
+  "label": "MAP:RoadRage",
+  "text": "Road Rage"
+ },
+ {
+  "label": "HELP:SentryDrone-01",
+  "text": "힌트:\n센트리 드론은 위장한 적 유닛을 탐지할 수 있습니다"
+ },
+ {
+  "label": "HELP:SentryDrone-02",
+  "text": "힌트:\n전략 센터에서 센트리 드론 기관총을 구입하십시오"
+ },
+ {
+  "label": "HELP:MicrowaveTank-01",
+  "text": "힌트:\n마이크로웨이브 전차는 건물을 무력화할 수 있습니다"
+ },
+ {
+  "label": "HELP:MicrowaveTank-02",
+  "text": "힌트:\n마이크로웨이브 전차의 전자파는 근처 보병에게 피해를 줍니다"
+ },
+ {
+  "label": "HELP:Avenger-01",
+  "text": "힌트:\n어벤저의 레이저는 적 목표를 '표시'할 수 있습니다\n표시된 목표를 공격하면 더 큰 피해를 줍니다"
+ },
+ {
+  "label": "HELP:Avenger-02",
+  "text": "힌트:\n어벤저는 항공기도 공격할 수 있는 지원 유닛입니다"
+ },
+ {
+  "label": "HELP:FireBase-01",
+  "text": "힌트:\n화력 기지에 미사일 디펜더를 배치하면\n대공과 대지 방어를 모두 할 수 있습니다"
+ },
+ {
+  "label": "HELP:SpectreGunship-01",
+  "text": "힌트:\n스펙터 건쉽이 공격할 지역을 선택한 다음\n수동으로 적을 조준하십시오"
+ },
+ {
+  "label": "HELP:LeafletDrop-01",
+  "text": "힌트:\n전단 살포로 적 보병을 무력화하십시오"
+ },
+ {
+  "label": "HELP:MOAB-01",
+  "text": "힌트:\nMOAB는 차량에 효과적이며\n살아남은 적을 기절시킵니다"
+ },
+ {
+  "label": "HELP:Countermeasures-01",
+  "text": "힌트:\n대응 장비를 업그레이드하면 항공 유닛이 공격을 피하는 데 도움이 됩니다"
+ },
+ {
+  "label": "HELP:HellfireDrone-01",
+  "text": "힌트:\n차량에 헬파이어 드론을 업그레이드해\n기갑 부대에 대한 효과를 높이십시오"
+ },
+ {
+  "label": "HELP:ChemicalSuit-01",
+  "text": "힌트:\n화학 방호복 업그레이드로 보병을\n치명적인 독소와 방사능으로부터 보호하십시오"
+ },
+ {
+  "label": "HELP:BunkerBuster-01",
+  "text": "힌트:\n스텔스 폭격기의 벙커 버스터 업그레이드는\n주둔한 적에게 피해를 줍니다"
+ },
+ {
+  "label": "HELP:BunkerBuster-02",
+  "text": "힌트:\n벙커 버스터는 벙커 안의 유닛을 처치할 수 있습니다"
+ },
+ {
+  "label": "HELP:SupplyLines-01",
+  "text": "힌트:\n보급선 업그레이드로 수입이 늘어납니다"
+ },
+ {
+  "label": "HELP:SupplyLines-02",
+  "text": "힌트:\n보급선을 업그레이드하면\n치누크의 효율이 높아집니다"
+ },
+ {
+  "label": "HELP:ListeningOutpost-01",
+  "text": "힌트:\n청음 전초기지는 스텔스 상태이며\n위장한 유닛을 탐지합니다"
+ },
+ {
+  "label": "HELP:ListeningOutpost-02",
+  "text": "힌트:\n청음 전초기지는 시야가 매우 넓습니다"
+ },
+ {
+  "label": "HELP:Helix-01",
+  "text": "힌트:\n헬릭스에 선전탑을 업그레이드하면\n근처 유닛을 수리하고 치료합니다"
+ },
+ {
+  "label": "HELP:Helix-02",
+  "text": "힌트:\n헬릭스는 네이팜 폭탄을 투하하도록 업그레이드할 수 있습니다\n헬릭스 바로 아래의 목표에 투하할 수 있습니다"
+ },
+ {
+  "label": "HELP:Helix-03",
+  "text": "힌트:\n헬릭스에 전투 벙커,\n선전탑, 개틀링 캐논을 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "HELP:ECMTank-01",
+  "text": "힌트:\nECM 전차로 적 미사일과 로켓 공격을 교란하십시오"
+ },
+ {
+  "label": "HELP:Frenzy-01",
+  "text": "힌트:\n광란 장군 능력을 사용해\n유닛의 화력과 장갑을 높이십시오"
+ },
+ {
+  "label": "HELP:InternetCenter-01",
+  "text": "힌트:\n인터넷 센터에 해커를 배치하면\n자금 수집 속도가 빨라집니다"
+ },
+ {
+  "label": "HELP:InternetCenter-02",
+  "text": "힌트:\n인터넷 센터를 짓고\n위성 해킹 1과 2로 업그레이드하십시오"
+ },
+ {
+  "label": "HELP:SatelliteHack1-01",
+  "text": "힌트:\n위성 해킹 1은 모든 적 사령부를 드러냅니다"
+ },
+ {
+  "label": "HELP:SatelliteHack2-01",
+  "text": "힌트:\n위성 해킹 2는 적 유닛이 보는 모든 것을 드러냅니다"
+ },
+ {
+  "label": "HELP:EMPMines-01",
+  "text": "힌트:\n지뢰를 중성자 지뢰로 업그레이드하면\n적 차량을 교란합니다"
+ },
+ {
+  "label": "HELP:NeutronShell-01",
+  "text": "힌트:\n핵 캐논의 중성자탄 공격은 차량을 무력화해\n보병이 탈취할 수 있게 합니다"
+ },
+ {
+  "label": "HELP:CombatCycle-01",
+  "text": "힌트:\n전투 오토바이는 절벽에서 뛰어내릴 수 있습니다"
+ },
+ {
+  "label": "HELP:CombatCycle-02",
+  "text": "힌트:\n전투 오토바이에 RPG 병사를 태우면\n로켓을 발사할 수 있습니다"
+ },
+ {
+  "label": "HELP:CombatCycle-03",
+  "text": "힌트:\n전투 오토바이에 테러리스트를 태우면\n자폭 오토바이가 됩니다"
+ },
+ {
+  "label": "HELP:CombatCycle-04",
+  "text": "힌트:\n자르멘 켈은 전투 오토바이 위에서 저격할 수 있습니다"
+ },
+ {
+  "label": "HELP:CombatCycle-05",
+  "text": "힌트:\n일꾼은 전투 오토바이로 빠르게 이동할 수 있습니다"
+ },
+ {
+  "label": "HELP:Saboteur-01",
+  "text": "힌트:\n파괴 공작원은 적 건물의 능력을 방해합니다"
+ },
+ {
+  "label": "HELP:Saboteur-02",
+  "text": "힌트:\n파괴 공작원을 적 사령부에 들여보내면\n적의 장군 능력 타이머가 초기화됩니다"
+ },
+ {
+  "label": "HELP:FakeStructures-01",
+  "text": "힌트:\n가짜 건물을 지어 적을 속이십시오"
+ },
+ {
+  "label": "HELP:SneakAttack-01",
+  "text": "힌트:\n기습을 사용하면 보이는 곳 어디든\n터널 네트워크를 즉시 건설합니다"
+ },
+ {
+  "label": "HELP:GPSScramble-01",
+  "text": "힌트:\nGPS 교란기 장군 능력으로\n아군 유닛을 위장하십시오"
+ },
+ {
+  "label": "HELP:WorkerShoes-01",
+  "text": "힌트:\n일꾼 신발을 구입하면 일꾼의\n이동 속도와 자원 수집 속도가 빨라집니다"
+ },
+ {
+  "label": "HELP:CamoNetting-01",
+  "text": "힌트:\n위장망은 스팅어 기지와\n터널 네트워크를 위장합니다"
+ },
+ {
+  "label": "HELP:FortifiedStructures-01",
+  "text": "힌트:\n강화 건물은 파괴하기 더 어렵습니다"
+ },
+ {
+  "label": "HELP:BoobyTrap-01",
+  "text": "힌트:\n적이 함정이 설치된 건물에 주둔하거나\n점령하려 하면 부비 트랩이 폭발합니다"
+ },
+ {
+  "label": "HELP:KingRaptor-01",
+  "text": "힌트:\n킹 랩터는 탄약을 더 많이 싣고 장갑도 더 두껍습니다"
+ },
+ {
+  "label": "HELP:CombatChinooks-01",
+  "text": "힌트:\n전투 치누크 안의 보병은 비행 중 사격할 수 있습니다"
+ },
+ {
+  "label": "HELP:AuroraAlpha-01",
+  "text": "힌트:\n오로라 알파는 작지만\n파괴적인 연료 기화 폭탄을 장착했습니다"
+ },
+ {
+  "label": "HELP:MicrowavePatriot-01",
+  "text": "힌트:\nEMP 패트리어트의 로켓은\n차량과 보병 모두에 효과적입니다"
+ },
+ {
+  "label": "HELP:AdvancedRods-01",
+  "text": "힌트:\n고급 제어봉은 일반 제어봉보다 전력을 더 많이 공급합니다"
+ },
+ {
+  "label": "HELP:LaserTank-01",
+  "text": "힌트:\n레이저 전차를 쓸 때는 발전소를 더 지으십시오\n전력이 부족하면 이동하거나 사격할 수 없습니다"
+ },
+ {
+  "label": "HELP:LaserDefenseTurret-01",
+  "text": "힌트:\n레이저 방어 포탑은 강력하지만 추가 전력이 필요합니다"
+ },
+ {
+  "label": "HELP:AssaultTroopTransport-01",
+  "text": "힌트:\n유닛은 돌격 병력 수송차 안에서 사격할 수 있습니다"
+ },
+ {
+  "label": "HELP:AttackOutpost-01",
+  "text": "힌트:\n공격 전초기지는 보병을 더 많이 태울 수 있고\n스텔스 유닛을 탐지할 수 있습니다"
+ },
+ {
+  "label": "HELP:FortifiedBunkers-01",
+  "text": "힌트:\n강화 벙커는 지뢰와\n더 강한 장갑을 갖추고 보병을 더 많이 수용합니다"
+ },
+ {
+  "label": "HELP:Mini-Gunner-01",
+  "text": "힌트:\n미니거너는 개인용 개틀링 건을 들고 다닙니다"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-01",
+  "text": "힌트:\n블랙 로투스 유닛의 능력이 향상되었습니다"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-02",
+  "text": "힌트:\n블랙 로투스를 여러 명 생산할 수 있습니다"
+ },
+ {
+  "label": "HELP:InfantryHacker-01",
+  "text": "힌트:\n보병 장군의 해커는 돈을 더 빨리 해킹합니다"
+ },
+ {
+  "label": "HELP:ChineseParadrop-01",
+  "text": "힌트:\n중국 공수 강하는 레드가드를 어디든 낙하시킵니다"
+ },
+ {
+  "label": "HELP:EmperorTank-01",
+  "text": "힌트:\n황제 전차는 궁극의 전차로,\n차량과 보병 모두에 효과적입니다"
+ },
+ {
+  "label": "HELP:EmperorTank-02",
+  "text": "힌트:\n황제 전차는 개틀링 캐논을 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "HELP:EmperorTank-03",
+  "text": "힌트:\n황제 전차에는 선전탑이 기본 장착되어 있습니다"
+ },
+ {
+  "label": "HELP:TankDrop-01",
+  "text": "힌트:\n전차 투하로 배틀마스터를 낙하산으로 투입할 수 있습니다"
+ },
+ {
+  "label": "HELP:TacticalNuke-01",
+  "text": "힌트:\n비행장에서 MiG가 전술 핵을 탑재하도록 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "HELP:IsotopeStability-01",
+  "text": "힌트:\n동위원소 안정화는 핵 전차가 파괴될 때\n아군 유닛이 입는 피해를 줄여 줍니다"
+ },
+ {
+  "label": "HELP:AdvancedNuclearPower-01",
+  "text": "힌트:\n고급 원자력 발전소는 일반 원자력 발전소보다 전력을 더 많이 생산합니다"
+ },
+ {
+  "label": "HELP:ToxinRebels-01",
+  "text": "힌트:\n독소 반군은 강력한 독소 물줄기를 발사합니다"
+ },
+ {
+  "label": "HELP:ToxinRebels-02",
+  "text": "힌트:\n독소 반군은 독소 공격에 저항력이 있습니다"
+ },
+ {
+  "label": "HELP:ToxinRebels-03",
+  "text": "힌트:\n독소 반군으로 주둔 중인 건물을 빠르게 소탕하십시오"
+ },
+ {
+  "label": "HELP:ToxinNetworks-01",
+  "text": "힌트:\n독소 네트워크는 포구에서 독소 물줄기를 발사합니다"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-01",
+  "text": "힌트:\n독소 테러리스트는 독소 구름 속에서 폭발합니다"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-02",
+  "text": "힌트:\n독소 테러리스트로 대규모 보병 집단을 공격하십시오"
+ },
+ {
+  "label": "HELP:AnthraxGamma-01",
+  "text": "힌트:\n탄저균 감마는 모든 독소 공격의 피해를 높입니다"
+ },
+ {
+  "label": "HELP:AnthraxGamma-02",
+  "text": "힌트:\n탄저균 감마는 탄저균 베타보다 더 강력합니다"
+ },
+ {
+  "label": "HELP:AdvancedTrap-01",
+  "text": "힌트:\n고급 함정은 일반 폭파 함정보다 강력합니다"
+ },
+ {
+  "label": "HELP:Demolitions-01",
+  "text": "힌트:\n폭파 업그레이드로 유닛이 자폭할 수 있게 됩니다"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-01",
+  "text": "임무 목표 #1:\n완료"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-02",
+  "text": "임무 목표 #2:\n완료"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-03",
+  "text": "임무 목표 #3:\n완료"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-04",
+  "text": "임무 목표 #4:\n완료"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-05",
+  "text": "임무 목표 #5:\n완료"
+ },
+ {
+  "label": "LOSE:AllUnits",
+  "text": "수신 통신:\n아군 유닛이 모두 파괴되었습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "LOSE:AllBuildings",
+  "text": "수신 통신:\n아군 건물이 모두 파괴되었습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "LOSE:AllUnitsAndBuildings",
+  "text": "수신 통신:\n아군 유닛과 건물이 모두 파괴되었습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "HELP:OilRefinery-01",
+  "text": "힌트:\n정유 공장을 점령하면 차량 비용이 줄어듭니다"
+ },
+ {
+  "label": "HELP:ReinforcementPad-01",
+  "text": "힌트:\n증원 패드를 점령하면 전차 증원을 받습니다"
+ },
+ {
+  "label": "HELP:OilDerrick-01",
+  "text": "힌트:\n유정을 점령하면 추가 자금을 얻습니다"
+ },
+ {
+  "label": "HELP:RepairBay-01",
+  "text": "힌트:\n수리소를 점령하면 어디서든 차량을 수리할 수 있습니다"
+ },
+ {
+  "label": "HELP:ArtilleryPlatform-01",
+  "text": "힌트:\n포병 플랫폼을 점령해 핵심 지역을 장악하십시오"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1",
+  "text": "임무 목표:\n기차역을 확보하고 주변 GLA 기지를 파괴하십시오"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1a",
+  "text": "임무 목표 #1:\n기차역을 확보하고 주변 GLA 기지를 파괴하십시오"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplished",
+  "text": "임무 목표 완료"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplisheda",
+  "text": "임무 목표 #1 완료"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2",
+  "text": "수신 통신:\n유닛을 열차 객차에 태우십시오"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2a",
+  "text": "수신 통신:\n유닛을 열차 객차에 태우십시오"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3",
+  "text": "임무 목표:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3a",
+  "text": "임무 목표 #2:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1",
+  "text": "힌트:\n보병은 북동쪽에 버려진 차량에 탈 수 있습니다"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1a",
+  "text": "힌트:\n보병은 북동쪽에 버려진 차량에 탈 수 있습니다"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2",
+  "text": "힌트:\n라디오 방송국에 보병을 주둔시켜 A-10을 호출하십시오"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2a",
+  "text": "힌트:\n라디오 방송국에 보병을 주둔시켜 A-10을 호출하십시오"
+ },
+ {
+  "label": "OBJECT:TrainDepot",
+  "text": "열차 차량기지"
+ },
+ {
+  "label": "OBJECT:TrainLoading",
+  "text": "승강장"
+ },
+ {
+  "label": "MAP:MD_USA01Title",
+  "text": "카자흐스탄 남부 바이코누르 우주 기지\n'글로벌 시큐리티 작전'"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation02",
+  "text": "미 해군 기지\n북유럽"
+ },
+ {
+  "label": "MAP:Intro_Breifing_01",
+  "text": "바이코누르 외곽 미군 정찰 기지\n카자흐스탄 남부"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation01",
+  "text": "카자흐스탄 남부 어딘가\n바이코누르로 가는 길"
+ },
+ {
+  "label": "MAP:USAX02MissionINtro",
+  "text": "소말리아 앞바다"
+ },
+ {
+  "label": "MAP:USAX02MissionStart",
+  "text": "소말리아, 베르베라\n'작전명: 헬핑 핸드'"
+ },
+ {
+  "label": "MAP:USAX02NavyHint",
+  "text": "수신 통신:\n해군 함대가 저항을 약화시킬 수 있습니다"
+ },
+ {
+  "label": "MAP:USAX02ConvoyHint",
+  "text": "수신 통신:\n보급 트럭 10대가 도착하면 호송대가 출발합니다"
+ },
+ {
+  "label": "MAP:USAX02ConvoyArrived",
+  "text": "임무 목표 #1:\n완료"
+ },
+ {
+  "label": "MAP:USAX02objectives3a",
+  "text": "임무 목표 #2:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:USAX02Objectives1",
+  "text": "임무 목표 #1:\n도착하는 보급 트럭을 보호하고 보급 창고를 확보하십시오"
+ },
+ {
+  "label": "MAP:USAX02Objectives2",
+  "text": "임무 목표:\n부두 방어\n도착하는 보급 트럭 보호\n창고 확보"
+ },
+ {
+  "label": "MAP:USAX02Objectives3",
+  "text": "임무 목표:\n산속의 GLA 건물을 찾아 파괴하십시오"
+ },
+ {
+  "label": "MAP:USAX02Ships",
+  "text": "지원 가능 전력:\n항공모함 CVN-88 다이달로스\n전함 호위 전단 드레드노트"
+ },
+ {
+  "label": "MAP:USAX02Truck1Arrived",
+  "text": "보급 트럭 1/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck2Arrived",
+  "text": "보급 트럭 2/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck3Arrived",
+  "text": "보급 트럭 3/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck4Arrived",
+  "text": "보급 트럭 4/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck5Arrived",
+  "text": "보급 트럭 5/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck6Arrived",
+  "text": "보급 트럭 6/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck7Arrived",
+  "text": "보급 트럭 7/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck8Arrived",
+  "text": "보급 트럭 8/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck9Arrived",
+  "text": "보급 트럭 9/10 도착"
+ },
+ {
+  "label": "MAP:USAX02Truck10Arrived",
+  "text": "보급 트럭 10대가 모두 도착했습니다\n호송대가 창고로 출발할 준비를 하고 있습니다"
+ },
+ {
+  "label": "MAP:USAX02ConvoyToWarehouse",
+  "text": "호송대를 창고까지 호위하십시오"
+ },
+ {
+  "label": "MAP:USAX02Dozer",
+  "text": "건설 도저가 부두에 도착했습니다\n기지 건설을 시작하십시오"
+ },
+ {
+  "label": "MAP:USAX02Dozerb",
+  "text": "건설 도저 도착"
+ },
+ {
+  "label": "MAP:USAX02Dozer2",
+  "text": "새 건설 도저가 부두에 도착했습니다"
+ },
+ {
+  "label": "MAP:USA03xMapName",
+  "text": "라스트 콜"
+ },
+ {
+  "label": "MAP:USA03xOpen",
+  "text": "조지아, 엘브루스산\n'작전명: 스노 폴'"
+ },
+ {
+  "label": "MAP:USA03xOpenAlt",
+  "text": "러시아, 엘브루스산\n'작전명: 스노 폴'"
+ },
+ {
+  "label": "MAP:USA03xObjective02",
+  "text": "임무 목표 #1:\nGLA 포로수용소를 파괴하고 포로를 구출하십시오\n버튼 대령은 반드시 살아남아야 합니다"
+ },
+ {
+  "label": "MAP:USA03xObjective03",
+  "text": "임무 목표 #2:\n버튼 대령을 집결지로 이동시키십시오"
+ },
+ {
+  "label": "MAP:USA03xObjectiveCompleted",
+  "text": "임무 목표 #1:\n완료"
+ },
+ {
+  "label": "MAP:USA03xTownHallHint",
+  "text": "수신 통신:\n마을에서 실종된 병사들을 찾으십시오"
+ },
+ {
+  "label": "MAP:USA03xToxinNetworksWarning",
+  "text": "경고:\n독소 네트워크와 스팅어 기지를 조심하십시오"
+ },
+ {
+  "label": "MAP:USA03xPOWCamp02Hint",
+  "text": "힌트:\n이 수용소를 지키는 GLA 건물을 제거해\n갇힌 포로들을 해방하십시오"
+ },
+ {
+  "label": "MAP:USA03xBurtonWarning",
+  "text": "경고:\n버튼 대령이 중상을 입었습니다\n이번 임무에서 반드시 살아남아야 합니다"
+ },
+ {
+  "label": "MAP:USA03xChemWarning02",
+  "text": "경고:\n이 방어 시설은 화학 물질을 발사하도록 개조되었습니다\n너무 가까이 가는 보병은 모두 죽습니다"
+ },
+ {
+  "label": "MAP:USA03xLoseReason01",
+  "text": "수신 통신:\n버튼 대령이 전사했습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "MAP:MD-USA04_LOCALE",
+  "text": "이란, 아미스바드 유전\n'작전명: 블랙 골드'"
+ },
+ {
+  "label": "MAP:MD-USA04_Start02",
+  "text": "수신 통신:\n증원군이 도착했습니다"
+ }
+]

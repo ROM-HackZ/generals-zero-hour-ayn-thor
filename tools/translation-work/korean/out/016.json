@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:MD-USA04_Objective01",
+  "text": "임무 목표:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:MD-USA04_Objective02_Reminder",
+  "text": "수신 통신:\n북동쪽 라디오 방송국을 파괴해 폭탄 트럭을 막으십시오"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint01",
+  "text": "임무 목표:\nGLA 기지 파괴"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint04",
+  "text": "힌트:\nCIA 요원 3명을 찾아 도움을 요청하십시오"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint05",
+  "text": "수신 통신:\n서쪽 유전을 확보해 자금을 얻으십시오"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint06",
+  "text": "힌트:\n패스파인더는 위장한 유닛과 폭파 함정을 드러낼 수 있습니다"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint07",
+  "text": "힌트:\n건설 도저는 부비 트랩을 제거할 수 있습니다"
+ },
+ {
+  "label": "MAP:MD-USA04_Reonforcements",
+  "text": "수신 통신:\n증원군이 도착했습니다"
+ },
+ {
+  "label": "MAP:MD_USA06Open",
+  "text": "시리아, 알 하바드\n'작전명: 이글스 스트라이크'"
+ },
+ {
+  "label": "MAP:MD-USA06Objective01",
+  "text": "임무 목표:\n발사되기 전에 독소 미사일 격납고 4개를 점령하십시오"
+ },
+ {
+  "label": "MAP:MD-USA06Objective02",
+  "text": "수신 통신:\n반란을 일으킨 GLA 병력이 합류했습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Objective03",
+  "text": "수신 통신:\n발사되기 전에 독소 미사일 격납고 4개를 점령하십시오"
+ },
+ {
+  "label": "MAP:MD-USA06Objective04",
+  "text": "미사일 격납고 3/4 점령"
+ },
+ {
+  "label": "MAP:MD-USA06Objective05",
+  "text": "미사일 격납고 4/4 점령"
+ },
+ {
+  "label": "MAP:MD-USA06Objective06",
+  "text": "미사일 격납고 1/4 점령"
+ },
+ {
+  "label": "MAP:MD-USA06Objective07",
+  "text": "미사일 격납고 2/4 점령"
+ },
+ {
+  "label": "MAP:MD-USA06Objective14",
+  "text": "힌트:\n정보에 따르면 이 지역에 미사일 일부가 있습니다\n독소가 누출되지 않게 조심하십시오"
+ },
+ {
+  "label": "MAP:MD-USA06Objective15",
+  "text": "경고:\n스랙스 박사가 더 강력한 독소를 쓰고 있습니다. 보병을 보호하십시오"
+ },
+ {
+  "label": "MAP:MD-USA06Objective16",
+  "text": "수신 통신:\n기지가 공격받고 있습니다\n우리도 모르게 터널 네트워크를 지었습니다"
+ },
+ {
+  "label": "MAP:MD-USA06CivilianMessage01",
+  "text": "수신 통신:\n동쪽의 GLA 반군이 우리를 도울지도 모릅니다"
+ },
+ {
+  "label": "MAP:MD-USA06Hint01",
+  "text": "힌트:\n남서쪽에 보급품이 더 있습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Hint02",
+  "text": "경고:\n적이 기습 터널로 우리 기지를 공격하고 있습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Hint03",
+  "text": "힌트:\nGLA 장군 능력은 GLA 사령부에서 사용할 수 있습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Warning01",
+  "text": "경고:\n미사일 발사 카운트다운이 시작되었습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Warning02",
+  "text": "경고:\n5분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning03",
+  "text": "경고:\n4분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning04",
+  "text": "경고:\n3분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning05",
+  "text": "경고:\n2분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning06",
+  "text": "경고:\n1분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning07",
+  "text": "경고:\n30초 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning08",
+  "text": "경고:\n10초 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning09",
+  "text": "경고:\n5... 4... 3... 2... 1... 발사 감지"
+ },
+ {
+  "label": "MAP:MD-USA06Failure01",
+  "text": "경고:\n착탄 감지. 실패했습니다, 장군님"
+ },
+ {
+  "label": "MAP:MD-USA06Imperative01",
+  "text": "경고:\n이 건물을 파괴하지 마십시오. 레인저로 점령하십시오"
+ },
+ {
+  "label": "SCRIPT:MD-USA06MissileTimer",
+  "text": "독소 미사일 발사까지:"
+ },
+ {
+  "label": "MAP:MD-USA06Warning10",
+  "text": "경고:\n10분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Warning11",
+  "text": "경고:\n15분 후 발사"
+ },
+ {
+  "label": "MAP:MD-USA06Intro1",
+  "text": "지구 궤도:\n미국 정찰 위성 코드명: 파워스"
+ },
+ {
+  "label": "MAP:MD-USA06Intro2",
+  "text": "데이터 업링크:\n스랙스 박사의 독소 시설"
+ },
+ {
+  "label": "MAP:MD-USA06Warning15",
+  "text": "수신 통신:\n장군님, 동쪽의 GLA 기지가\n독소 장군과 그의 무분별한 독소 사용에\n반기를 들기로 했습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Warning16",
+  "text": "수신 통신:\n그들은 기지를 빌려주며\n장군 공격을 돕고 싶어 합니다"
+ },
+ {
+  "label": "MAP:MD_GLA01Objective6",
+  "text": "힌트: 전투 오토바이로 다른 방향에서 미군 기지에 진입하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA01Message01",
+  "text": "경고: 미군 화력 기지 발견"
+ },
+ {
+  "label": "MAP:MD_GLA01Message02",
+  "text": "경고: 센트리 드론 발견"
+ },
+ {
+  "label": "MAP:MD_GLA01Message03",
+  "text": "힌트:\nGLA 유닛을 잔해 상자 위로 이동시켜 업그레이드하십시오"
+ },
+ {
+  "label": "OBJECT:GLALeader",
+  "text": "GLA 지도자"
+ },
+ {
+  "label": "MAP:Intro_Title",
+  "text": "시리아, 알 사피르\n'대탈출'"
+ },
+ {
+  "label": "MAP:Intro_Title2",
+  "text": "수단, 할리브\n'위대한 탈출'"
+ },
+ {
+  "label": "MAP:Intro_Loc",
+  "text": "도시 외곽..."
+ },
+ {
+  "label": "MAP:Intro_MO_1",
+  "text": "임무 목표 #1:\n버려진 GLA 기지를 찾으십시오"
+ },
+ {
+  "label": "MAP:Intro_MO_2",
+  "text": "임무 목표 #2:\n지도자를 활주로까지 안전하게 수송하십시오"
+ },
+ {
+  "label": "MAP:Intro_MO_2b",
+  "text": "수신 통신:\nGLA 지도자를 북서쪽 활주로로 데려가십시오"
+ },
+ {
+  "label": "MAP:Intro_MO_1a",
+  "text": "임무 목표:\nGLA 지도자를 활주로까지 호위하십시오\nGLA 지도자는 반드시 살아남아야 합니다"
+ },
+ {
+  "label": "MAP:Intro_MO_2a",
+  "text": "수신 통신:\n이 지역에 버려진 GLA 기지가 있습니다. 되찾으십시오"
+ },
+ {
+  "label": "MDGLA02:TITLE",
+  "text": "이집트 카이로 근처 어딘가\n'숨은 의도'"
+ },
+ {
+  "label": "MDGLA02:Hint1",
+  "text": "경고:\n카사드 왕자의 병력은 위장 상태입니다"
+ },
+ {
+  "label": "MDGLA02:Hint2",
+  "text": "힌트:\n레이더 밴, 터널 네트워크,\n스팅어 기지는 위장한 유닛을 드러냅니다"
+ },
+ {
+  "label": "MDGLA02:Hint3",
+  "text": "힌트:\n남서쪽에 보급품이 더 있습니다"
+ },
+ {
+  "label": "MDGLA02:OBJ1",
+  "text": "\n임무 목표 #1:\n도시의 사령부를 점령하십시오"
+ },
+ {
+  "label": "MDGLA02:OBJ2",
+  "text": "\n임무 목표 #2:\n강 건너 사령부를 점령하십시오"
+ },
+ {
+  "label": "MDGLA02:Expansion_2",
+  "text": "수신 통신:\n확장 가능한 위치를 발견했습니다"
+ },
+ {
+  "label": "MDGLA02:Oil_Well",
+  "text": "힌트:\n유정을 점령해 꾸준한 수입을 유지하십시오"
+ },
+ {
+  "label": "MDGLA02:Bridge",
+  "text": "힌트:\nGPS 교란을 쓰면 이 다리를 더 쉽게 건널 수 있습니다"
+ },
+ {
+  "label": "MDGLA02:Damage_warn",
+  "text": "수신 통신:\n사령부를 보호하십시오"
+ },
+ {
+  "label": "MDGLA02:Capture_CC_scram",
+  "text": "힌트:\n사령부를 점령하면 GPS 교란 능력을 얻습니다"
+ },
+ {
+  "label": "MDGLA02:Scram_captured",
+  "text": "수신 통신:\nGPS 교란 능력 획득\n아군 부대에 사용해 은폐하십시오"
+ },
+ {
+  "label": "MDGLA02:Capture_CC_sneak",
+  "text": "힌트:\n이 사령부를 점령하면 기습 능력을 얻습니다"
+ },
+ {
+  "label": "MDGLA02:Sneak_captured",
+  "text": "수신 통신:\n기습 능력 획득\n보이는 곳 어디든 터널 네트워크를 만들 수 있습니다"
+ },
+ {
+  "label": "MDGLA02:Final",
+  "text": "임무 목표 #3:\n카사드의 주 사령부를 파괴하거나 점령하십시오"
+ },
+ {
+  "label": "MDGLA03:Title-01",
+  "text": "미 지중해 함대, 크레타 마탈라\n'워터프런트'"
+ },
+ {
+  "label": "MDGLA03:InfoMissionObjective01",
+  "text": "임무 목표 #1:\n동쪽의 미군 입자 캐논을 점령하십시오"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjectiveAccomplished-01",
+  "text": "임무 목표 #1:\n완료"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjective-02",
+  "text": "임무 목표 #2:\n미군 발전소를 점령하십시오"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjectiveAccomplished-02",
+  "text": "임무 목표 #2:\n완료"
+ },
+ {
+  "label": "MDGLA03:Info-MissionObjective-03",
+  "text": "임무 목표 #3:\n남동쪽의 항공모함을 찾으십시오"
+ },
+ {
+  "label": "MDGLA03:Info-GotParticleCannon-01",
+  "text": "힌트:\n이제 발전소를 확보해야 합니다\n터널 네트워크로 다음 섬에 갈 수 있습니다"
+ },
+ {
+  "label": "MDGLA03:Info-SneakAttack-01",
+  "text": "수신 통신:\n기습으로 근처 섬에 터널 네트워크를 만드십시오"
+ },
+ {
+  "label": "MDGLA03:Info-GotPowerPlants-01",
+  "text": "수신 통신:\n입자 캐논이 가동되었습니다\n입자 캐논과 발전소를 지켜야 합니다"
+ },
+ {
+  "label": "MDGLA03:Info-Goodies-01",
+  "text": "힌트:\n섬들을 탐험해 잔해 상자와 차량을 찾으십시오"
+ },
+ {
+  "label": "MDGLA03:Lose-NoUnitsOrStructures-01",
+  "text": "수신 통신:\n모든 유닛과 건물이 파괴되었습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "MDGLA03:Lose-ParticleCannonDestroyed-01",
+  "text": "수신 통신:\n입자 캐논 없이는 항공모함을 파괴할 수 없습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "MDGLA03:Lose-PowerPlantsDestroyed-01",
+  "text": "수신 통신:\n발전소가 모두 파괴되었습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "MDGLA03:Help-UseParticleCannon-01",
+  "text": "경고:\n이 지역은 방어가 삼엄합니다\n입자 캐논이 돌파에 도움이 될 겁니다"
+ },
+ {
+  "label": "MDGLA03:Help-A10Warning-01",
+  "text": "경고:\nA10이 우리를 향해 오고 있습니다"
+ },
+ {
+  "label": "MDGLA03:Help-LeaveISLAND-01",
+  "text": "힌트:\n기습이나 터널 네트워크로\n근처 섬에 갈 수 있습니다"
+ },
+ {
+  "label": "MDGLA03:Help-LeaveISLAND-02",
+  "text": "힌트:\n근처 섬의 한 지역을 정찰하면\n그곳에 기습을 쓸 수 있습니다"
+ },
+ {
+  "label": "MDGLA03:Info-DisabledSupplyDropZones-01",
+  "text": "수신 통신:\n적 보급품 투하 지점을 무력화했습니다\n곧 새 유닛을 생산할 수 없게 될 겁니다"
+ },
+ {
+  "label": "MDGLA03:Help-FoundSupplyPlanes-01",
+  "text": "수신 통신:\n미군 보급품 투하 지점을 파괴해 생산을 마비시키십시오"
+ },
+ {
+  "label": "MDGLA03:Help-FewPowerPlants-02",
+  "text": "경고:\n발전소가 거의 다 파괴되었습니다\n입자 캐논을 쏘려면 하나는 꼭 지키십시오"
+ },
+ {
+  "label": "MDGLA03:Help-AttackingParticleCannon-01",
+  "text": "수신 통신:\n항공모함을 파괴하려면 이 입자 캐논이 필요합니다\n파괴되지 않게 하십시오"
+ },
+ {
+  "label": "MDGLA03:Help-FindParticleCannon-01",
+  "text": "힌트:\n입자 캐논을 점령하십시오"
+ },
+ {
+  "label": "MDGLA03:Help-LostIsland-01",
+  "text": "힌트:\n적이 터널 네트워크를 파괴했습니다\n기습으로 그 섬에 돌아가십시오"
+ },
+ {
+  "label": "MDGLA03:Help-ArmsDealer-01",
+  "text": "수신 통신:\n이 섬 서쪽의 무기상을 해방하십시오"
+ },
+ {
+  "label": "MDGLA03:Help-JarmenKell-01",
+  "text": "힌트:\n자르멘 켈의 저격 능력은 적 차량을\n무력화해 보병이 탈취할 수 있게 합니다"
+ },
+ {
+  "label": "MAP:MD_GLA03_CINELocation01",
+  "text": "USS 레이건"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective1",
+  "text": "임무 목표:\n1팀: 페리를 타고 해변으로 가십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective2",
+  "text": "임무 목표:\n2팀: 레이더 밴을 확보하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective3",
+  "text": "임무 목표:\n2팀: 밸브 스테이션에 주둔하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective4",
+  "text": "임무 목표:\n1팀: 비행장을 파괴하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective5",
+  "text": "임무 목표:\n2팀: 발전소를 파괴하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective6",
+  "text": "임무 목표:\n독소 시설을 점령하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04Objective7",
+  "text": "임무 목표:\n독소를 공항으로 수송하십시오"
+ },
+ {
+  "label": "SCRIPT:MD_GLA04Toxin_Counter",
+  "text": "남은 독소:"
+ },
+ {
+  "label": "MAP:MD_GLA04Title",
+  "text": "미국 서해안 독소 시설\n'자르멘 켈과 40인의 도적'"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_2",
+  "text": "임무 목표:\n북동쪽의 미군 유럽 중부 사령부를 파괴하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_3",
+  "text": "수신 통신:\n포로를 구출해 이곳으로 데려오십시오\n테러 조직이 깨어나 미군과의 싸움을 도울 겁니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_4",
+  "text": "힌트:\n포로를 북쪽 마을로 데려가면\n우리를 도울 겁니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_5",
+  "text": "수신 통신:\n미군의 위협을 제거해\n포로들을 풀어 주십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_6",
+  "text": "수신 통신:\n북쪽 마을로 돌아갈 준비가 됐습니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_7",
+  "text": "수신 통신:\n포로들을 구출해 집으로 돌려보냈습니다\n테러 조직이 활동을 시작해 미군을 공격할 겁니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_8",
+  "text": "힌트:\n남은 미군 건물을 점령하고\n여기에 두 번째 기지를 세우십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_9",
+  "text": "경고:\n시간이 얼마 남지 않았습니다. 포로를 구출하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_10",
+  "text": "경고:\n적의 남쪽 지원 기지가\n너무 강해지기 전에 제거해야 합니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_11",
+  "text": "수신 통신:\n테러 조직이 전멸했습니다\n그들의 죽음을 헛되이 하지 마십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_12",
+  "text": "수신 통신:\n적을 물리쳤습니다. 승리는 우리의 것입니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_13",
+  "text": "수신 통신:\n적이 우리 형제들을 붙잡고 있습니다\n그들을 풀어 주면 미군과의 싸움을 도울 겁니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_14",
+  "text": "수신 통신:\n정보에 따르면 포로들이 곧 이송됩니다\n미군 기지에 잠입해 구출하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_15",
+  "text": "힌트:\n중국 사령부에 레이더를 업그레이드하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_16",
+  "text": "수신 통신:\nGLA 테러 조직을 미군 공격에서 보호하고\n지역을 확보하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_17",
+  "text": "힌트:\nGLA 사령부를 지어 장군 능력을 사용하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_18",
+  "text": "수신 통신:\n기지가 공격받고 있습니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_19",
+  "text": "경고:\n포로들이 공격받고 있습니다. 보호하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_20",
+  "text": "수신 통신:\n포로들이 모두 살해되었습니다\n테러 조직이 복수를 위해 합류합니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_21",
+  "text": "수신 통신:\n적이 자원을 더 확보하려고 흩어졌습니다\n그들을 제거하고 자원을 차지하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_22",
+  "text": "힌트:\n적 기지는 거대합니다\n기습으로 잠입할 수 있을지도 모릅니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_23",
+  "text": "수신 통신:\n작은 기지를 무력화했으니\n미군 유럽 중부 사령부 기지에 집중할 수 있습니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_24",
+  "text": "\n우리에게 계획이 있다...\n중국 기지로 진격해 점령한 다음\n그것으로 미국을 유럽에서 몰아낼 것이다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_25",
+  "text": "미군 유럽 중부 사령부 기지를 함락시켜야 합니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_26",
+  "text": "수신 통신:\n동쪽에서 공격받고 있습니다\n남쪽의 미군 지원 기지를 제거하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_27",
+  "text": "수신 통신:\n테러 조직이 미군에게 공격받고 있습니다\n적을 물리치도록 도우십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_28",
+  "text": "수신 통신:\n포로들이 새 장소로 이송되기 전에\n미군 지원 기지에서 구출하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_29",
+  "text": "임무 목표:\n북동쪽의 미군 유럽 중부 사령부를 파괴하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_30",
+  "text": "미 중부 사령부, 독일 슈투트가르트-파이잉겐\n'기습'"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_31",
+  "text": "미 중부 사령부, 독일 슈투트가르트-파이잉겐\n'기습'"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_32",
+  "text": "힌트: 이 지역의 미군을 제거한 다음\n보급품을 확보하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_33",
+  "text": "힌트:\n중부 사령부 기지를 끝장내십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_34",
+  "text": "힌트:\n유정을 점령해 추가 보급품을 확보하고\n포병 플랫폼을 점령해 핵심 지역을 장악하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_35",
+  "text": "힌트:\n현상금 장군 능력을\n업그레이드해 수입을 늘리십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_36",
+  "text": "힌트:\n기습 능력으로\n미군 기지를 공격하십시오"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_37",
+  "text": "수신 통신:\n포로들이 이송되었습니다\n실패했지만 테러 조직은 우리를 지원하기로 했습니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_38",
+  "text": "미 중부 사령부, 독일 슈투트가르트-파이잉겐\n'기습'"
+ },
+ {
+  "label": "SCRIPT:POWCOUNTDOWN",
+  "text": "포로 이송까지:"
+ },
+ {
+  "label": "MAP:CHI01xMapName",
+  "text": "풀려난 용"
+ },
+ {
+  "label": "MAP:CHI01xOpen",
+  "text": "독일, 슈투트가르트-파이잉겐\n'풀려난 용'"
+ },
+ {
+  "label": "MAP:CHI01xOpenAlt",
+  "text": "독일, 미군 지휘 기지 잔해\n풀려난 용"
+ },
+ {
+  "label": "MAP:CHI01xObjective01",
+  "text": "임무 목표:\n이 지역의 모든 GLA 병력을 제거하십시오"
+ },
+ {
+  "label": "MAP:CHI01xObjective01Alt",
+  "text": "임무 목표:\n이 지역의 모든 GLA 건물을 제거하십시오"
+ },
+ {
+  "label": "MAP:CHI01xTechBldgHint",
+  "text": "힌트:\n레드가드로 건물을 점령할 수 있습니다"
+ },
+ {
+  "label": "MAP:CHI01xOilDerrickHint",
+  "text": "힌트:\n유정을 점령하면 추가 자금을 얻습니다"
+ },
+ {
+  "label": "MAP:CHI01xOilRefineryHint",
+  "text": "힌트:\n정유 공장을 점령하면 차량 비용이 줄어듭니다"
+ },
+ {
+  "label": "MAP:CHI01xGarrisonHint",
+  "text": "힌트:\n레드가드와 탱크 헌터를 건물에 주둔시키면\n화력과 사거리가 늘어납니다"
+ },
+ {
+  "label": "MAP:CHI01xGarrisonClrHint01",
+  "text": "힌트:\n독소 트랙터는 주둔한 보병을 즉사시킵니다\n주둔 중인 건물에 접근하지 못하게 하십시오"
+ },
+ {
+  "label": "MAP:CHI01xGarrisonClrHint02",
+  "text": "힌트:\n드래곤 전차는 주둔 중인 건물의 보병을 처치합니다"
+ },
+ {
+  "label": "MAP:CHI01xPerimeterWarn01",
+  "text": "경고:\nGLA 병력이 우리 기지를 공격하고 있습니다"
+ },
+ {
+  "label": "MAP:CHI01xPerimeterWarn02",
+  "text": "경고:\n적이 우리 기지를 공격할 준비를 하고 있습니다"
+ },
+ {
+  "label": "MAP:CHI02xMapName",
+  "text": "불꽃 수호"
+ },
+ {
+  "label": "MAP:CHI02xOpen",
+  "text": "중국 무기 생산 시설\n'불꽃 수호'"
+ },
+ {
+  "label": "SCRIPT:CHI02xReinforcementTimer",
+  "text": "증원 도착까지:"
+ },
+ {
+  "label": "MAP:CHI02xObjective01",
+  "text": "임무 목표 #1:\n원자로와 저장 벙커를 방어하십시오\n점령되거나 파괴되어서는 안 됩니다"
+ },
+ {
+  "label": "MAP:CHI02xObjective02",
+  "text": "임무 목표 #2:\n이 지역의 모든 GLA 병력을 파괴하십시오"
+ },
+ {
+  "label": "MAP:CHI02xObjective02Alt",
+  "text": "임무 목표 #2:\n이 지역의 모든 GLA 건물을 파괴하십시오"
+ },
+ {
+  "label": "MAP:CHI02xReactorKIAWarn",
+  "text": "수신 통신:\n원자로를 보호하십시오"
+ },
+ {
+  "label": "MAP:CHI02xReactorCaptureWarn",
+  "text": "경고:\n적이 원자로와 벙커 두 곳을\n점령하지 못하게 하십시오"
+ },
+ {
+  "label": "MAP:CHI02xBunkerKIAWarn",
+  "text": "수신 통신:\n저장 벙커를 보호하십시오"
+ },
+ {
+  "label": "MAP:CHI02xBadPlayerReactorWarn",
+  "text": "수신 통신:\n이 원자로가 필요합니다\n파괴되지 않게 하십시오"
+ },
+ {
+  "label": "MAP:CHI02xBadPlayerBunkerWarn",
+  "text": "수신 통신:\n이 저장 벙커들이 필요합니다\n파괴되지 않게 하십시오"
+ },
+ {
+  "label": "MAP:CHI02xSpyPostHint01",
+  "text": "힌트:\n감시 초소를 점령해 융단 폭격기를 호출하십시오"
+ },
+ {
+  "label": "MAP:CHI02xPerimeterWarn",
+  "text": "경고:\n적군이 공격을 준비하고 있습니다"
+ },
+ {
+  "label": "MAP:CHI02xPerimeterEasyWarn",
+  "text": "경고:\n적군이 공격을 준비하고 있습니다"
+ },
+ {
+  "label": "MAP:CHI02xNeutronHint01",
+  "text": "힌트:\n핵 캐논의 중성자탄 능력으로\n보병을 처치하고 적 차량을 무력화하십시오"
+ },
+ {
+  "label": "MAP:CHI02xNeutronHint02",
+  "text": "힌트:\n보병은 무력화된 차량에 들어가 조종할 수 있습니다"
+ },
+ {
+  "label": "MAP:CHI02xEMPMineHint01",
+  "text": "힌트:\n건물에 중성자 지뢰를 업그레이드해 차량을 무력화하십시오\n그다음 중성자탄으로 무력화할 수 있습니다"
+ },
+ {
+  "label": "MAP:CHI02xCarpetBombReminder",
+  "text": "수신 통신:\n융단 폭격기 준비 완료"
+ },
+ {
+  "label": "MAP:CHI02xInfo1",
+  "text": "수신 통신:\n증원군이 10분 후 도착합니다"
+ },
+ {
+  "label": "MAP:CHI02xInfo2",
+  "text": "수신 통신:\n증원군이 5분 후 도착합니다"
+ },
+ {
+  "label": "SCRIPT:CHI02timer",
+  "text": "증원 도착까지:"
+ },
+ {
+  "label": "MAP:MD_CHI03-Event-AngryMob-01",
+  "text": "수신 통신:\n민중이 일어나 우리를 돕습니다"
+ },
+ {
+  "label": "MAP:MD_CHI03-Help-IOLow-01",
+  "text": "수신 통신:\n국제 여론이 낮아지고 있습니다\nGLA 동상을 더 파괴하십시오"
+ },
+ {
+  "label": "MAP:MD_CHI03-Help-IOVeryLow-01",
+  "text": "수신 통신:\n국제 여론이 매우 낮습니다\n도시 곳곳의 GLA 동상을 파괴하십시오"
+ },
+ {
+  "label": "MAP:MD_CHI03-Help-IOExtremelyLow-01",
+  "text": "힌트:\n국제 여론이 위험할 정도로 낮습니다\nGLA 동상을 하나 더 파괴하지 않으면 모든 것을 잃습니다"
+ },
+ {
+  "label": "SCRIPT:MD_CHI03InternationalOpinion",
+  "text": "국제 여론:"
+ },
+ {
+  "label": "MAP:MD_CHI04Open",
+  "text": "독일, 할버슈타트\n'불타는 하늘'"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState0",
+  "text": "임무 목표:\n후퇴하는 GLA 병력을 모든 공격파에서 제거하십시오"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState1",
+  "text": "수신 통신:\n1차 공격파 격파"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState2",
+  "text": "수신 통신:\n2차 공격파 격파"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState3",
+  "text": "수신 통신:\n3차 공격파 격파"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState4",
+  "text": "수신 통신:\n4차 공격파 격파"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState5",
+  "text": "수신 통신:\n5차 공격파 격파"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionState6",
+  "text": "수신 통신:\n6차 공격파 격파"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo1",
+  "text": "수신 통신:\n1차 공격파가 지역에 진입했습니다\n경로가 레이더에 표시됩니다"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo2",
+  "text": "수신 통신:\n2차 공격파가 지역에 진입했습니다\n경로가 레이더에 표시됩니다"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo3",
+  "text": "수신 통신:\n3차 공격파가 지역에 진입했습니다\n경로가 레이더에 표시됩니다"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo4",
+  "text": "수신 통신:\n4차 공격파가 지역에 진입했습니다\n경로가 레이더에 표시됩니다"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo5",
+  "text": "수신 통신:\n5차 공격파가 지역에 진입했습니다\n경로가 레이더에 표시됩니다"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionInfo6",
+  "text": "수신 통신:\n정보가 교란되었습니다. 새 공격파가\n두 방향에서 오지만 위치는 알 수 없습니다"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionFinaleText",
+  "text": "수신 통신:\n남쪽에서 아군이 도착했습니다\n임무 완료"
+ },
+ {
+  "label": "MAP:MD_CHI04MissionLoseText",
+  "text": "수신 통신:\nGLA 병력이 북쪽으로 탈출했습니다\n패배했습니다, 장군님. 이번에는"
+ },
+ {
+  "label": "MAP:MD-CHI05_LOCALE",
+  "text": "독일 함부르크 근처\n'용의 운명'"
+ },
+ {
+  "label": "MAP:MD-CHI05_USBaseDestroyedFirst",
+  "text": "임무 목표:\nGLA 기지를 파괴해 승리하십시오"
+ },
+ {
+  "label": "MAP:MD-CHI05_GLABaseDestroyedFirst",
+  "text": "임무 목표:\n미군 기지를 파괴해 승리하십시오"
+ }
+]

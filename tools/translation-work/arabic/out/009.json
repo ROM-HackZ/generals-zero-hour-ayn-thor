@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:ToolTipUSARangerCaptureBuilding",
+  "text": "الاستيلاء على مبنى العدو المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFire20mmCannon",
+  "text": "إطلاق مدفع 20 مم على الهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireAntiTankMissiles",
+  "text": "إطلاق صواريخ مضادة للدبابات على الهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireRocketPods",
+  "text": "إطلاق وابل من الصواريخ على المنطقة المستهدفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireScorpionRocket",
+  "text": "إطلاق صاروخ ثقيل واحد على الهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDHEWarhead",
+  "text": "تحميل صاروخ سكود بالمتفجرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDAnthraxWarhead",
+  "text": "تحميل صاروخ سكود بالجمرة الخبيثة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireToxinTractorSlime",
+  "text": "رشّ المنطقة بالسموم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLARebelCaptureBuilding",
+  "text": "الاستيلاء على مبنى العدو المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLATerroristMakeCarBomb",
+  "text": "دخول سيارة مدنية وملؤها بالمتفجرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireFireBomb",
+  "text": "استخدام القنابل الحارقة على الهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAHijackerHijack",
+  "text": "اختطاف مركبة العدو المستهدفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireJarmenKellVehicleSnipe",
+  "text": "قتل طاقم المركبة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireMIG",
+  "text": "إطلاق النار"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardCaptureBuilding",
+  "text": "الاستيلاء على مبنى العدو المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireStunBullets",
+  "text": "أسر جندي العدو المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireBayonet",
+  "text": "استخدام الحربة على جندي العدو المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCaptureHack",
+  "text": "الاستيلاء على مبنى العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusVehicleHack",
+  "text": "تعطيل مركبة العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCashHack",
+  "text": "سرقة المال من مركز إمدادات العدو المستهدف"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireHackerInternetHack",
+  "text": "اختراق الإنترنت لسرقة المال"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaHackerBuildingHack",
+  "text": "تعطيل مبنى العدو بفيروس حاسوبي قوي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaDragonTankFire",
+  "text": "إطلاق النار"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireWall",
+  "text": "إطلاق قوس من النار على المنطقة المستهدفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipPickUpPrisoner",
+  "text": "نقل أسير العدو لإعادته إلى قاعدتك"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipReturnToPrison",
+  "text": "العودة إلى منشأة احتجاز الأسرى"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireTankHunterTNTAttack",
+  "text": "زرع عبوة TNT متفجرة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack",
+  "text": "استخدام السكين على جندي العدو المستهدف لتنفيذ هجوم صامت"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonTimedDemo",
+  "text": "زرع عبوة تفجير موقوتة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonPlaceRemoteCharge",
+  "text": "زرع عبوة تفجير يُتحكم بها عن بُعد ويمكنك تفجيرها في أي وقت"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonDetonateCharges",
+  "text": "تفجير جميع العبوات عن بُعد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCancelConstruction",
+  "text": "إلغاء البناء"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCommandCenter",
+  "text": "يتحكم بالأسلحة الخاصة. ينتج جرافات البناء. يوفر الرادار"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPowerPlant",
+  "text": "يوفر الطاقة لقواعد الولايات المتحدة\n\nالطاقة المُنتَجة: 5"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBarracks",
+  "text": "يدرّب جنود الولايات المتحدة للمعركة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyCenter",
+  "text": "نقطة تسليم لمروحيات شينوك الأمريكية الجامعة للإمدادات\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWall",
+  "text": "نظام السياج الأمريكي. تنبّه مستشعرات الليزر عند مرور قوات العدو عبر السياج. يمنع السياج مرور مركبات العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWarFactory",
+  "text": "يبني جميع المركبات البرية الأمريكية\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPatriotBattery",
+  "text": "دفاع أرضي وجوي. يمكنه نقل موقع العدو إلى منظومات باتريوت القريبة\n\nالطاقة المطلوبة: 3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAirField",
+  "text": "يبني الطائرات الأمريكية\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannon",
+  "text": "يطلق شعاع جسيمات إلى أي مكان في الخريطة\n\nالطاقة المطلوبة: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStrategyCenter",
+  "text": "يمكن لجميع القوات الأمريكية استخدام خطة معركة واحدة\n\nالقصف\nالبحث والتدمير\nالصمود\n\nالطاقة المطلوبة: 2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDetentionCamp",
+  "text": "يمنح القدرة على التجسس على الأعداء"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyDropZone",
+  "text": "يستدعي إنزالًا مظليًا للإمدادات كل دقيقتين\n\nالطاقة المطلوبة: 4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCommandCenter",
+  "text": "يتحكم بالأسلحة الخاصة. يدرّب العمال"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABUildDemoTrap",
+  "text": "عبوة متفجرة متخفية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBarracks",
+  "text": "يدرّب جنود جيش التحرير العالمي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSupplyStash",
+  "text": "يجمع الإمدادات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildArmsDealer",
+  "text": "يبني المركبات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildCommandCenter",
+  "text": "يتحكم بالأسلحة الخاصة. ينتج جرافات البناء"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPowerPlant",
+  "text": "محطة الطاقة الصينية. يمكن تحميلها فوق طاقتها لتوفير طاقة إضافية بنسبة 50%\n\nالطاقة المُنتَجة: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBarracks",
+  "text": "يدرّب الجنود الصينيين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyCenter",
+  "text": "نقطة تسليم لجامعي الإمدادات الصينيين\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildWarFactory",
+  "text": "يبني المركبات الصينية\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBunker",
+  "text": "يتسع لـ 5 جنود صينيين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaCenter",
+  "text": "يبني التقنيات الصينية المهمة\n\nالطاقة المطلوبة: 2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildAirField",
+  "text": "يبني الطائرات الصينية\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingCannon",
+  "text": "دفاع قوي مضاد للطائرات للقاعدة\n\nالطاقة المطلوبة: 3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher",
+  "text": "يطلق صاروخًا نوويًا. يبني ترقيات صينية مهمة\n\nالطاقة المطلوبة: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSpeakerTower",
+  "text": "يعالج قواتك ويزيد سرعة إطلاقها النار\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTunnelNetwork",
+  "text": "دفاع للقاعدة ونفق تحت الأرض. يمكن للوحدات دخول شبكة الأنفاق والخروج من أي شبكة أنفاق أخرى"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPalace",
+  "text": "يحوي تقنيات جيش التحرير العالمي المهمة. يمكن لقوات جيش التحرير العالمي التحصن فيه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBlackMarket",
+  "text": "يحوي تقنيات جيش التحرير العالمي المهمة. يوفر إمدادات مجانية للاعب جيش التحرير العالمي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildStingerSite",
+  "text": "دفاع للقاعدة مضاد للطائرات والدبابات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScudStorm",
+  "text": "يطلق رشقة من صواريخ سكود\n\nمؤقت العد التنازلي: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPrison",
+  "text": "يُستخدم لاحتجاز جنود العدو الأسرى"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRanger",
+  "text": "قوي ضد: المشاة\nضعيف ضد: المركبات الخفيفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDozer",
+  "text": "يبني جميع المنشآت الأمريكية ويصلح المباني"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildWorker",
+  "text": "يبني جميع منشآت جيش التحرير العالمي. يصلح المباني ويجمع الإمدادات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDozer",
+  "text": "يبني جميع المنشآت الصينية ويصلح المباني"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScorpion",
+  "text": "قوي ضد: المركبات الخفيفة\nضعيف ضد: جنود الصواريخ، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRocketBuggy",
+  "text": "قوي ضد: المباني\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRadarVan",
+  "text": "يوفر الرادار. يمكنه رصد وحدات العدو المخفية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildOverlord",
+  "text": "قوي ضد: المركبات، المباني\nضعيف ضد: المشاة المسلحين بالصواريخ، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingTank",
+  "text": "قوي ضد: المشاة، الطائرات\nضعيف ضد: الدبابات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRebel",
+  "text": "قوي ضد: المشاة\nضعيف ضد: الدبابات، المركبات الخفيفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildRedguard",
+  "text": "يكتسب مكافأة الحشد في مجموعات من 5 أو أكثر\n\nقوي ضد: المشاة\nضعيف ضد: المركبات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHacker",
+  "text": "يمكنه تعطيل مباني العدو بفيروس حاسوبي أو اختراق الإنترنت لسرقة المال\n\nقوي ضد: المباني\nضعيف ضد: المشاة، المركبات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABUildChinook",
+  "text": "مروحية نقل. تجمع الإمدادات. تعمل مع جنود الرينجر لتنفيذ هجوم الإنزال القتالي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyTruck",
+  "text": "تجمع الإمدادات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPaladin",
+  "text": "يستخدم الليزر لتدمير الصواريخ ومشاة العدو\n\nقوي ضد: الدبابات، المباني، الصواريخ\nضعيف ضد: الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRaptor",
+  "text": "يمكنها الاشتباك مع الأهداف الأرضية والجوية\n\nقوي ضد: الطائرات، الدبابات، المركبات الخفيفة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAurora",
+  "text": "هجومها الأسرع من الصوت يجعل الأورورا محصّنة من نيران العدو. بعد الهجوم تنخفض سرعتها إلى 50%\n\nقوي ضد: المباني\nضعيف ضد: المقاتلات، الوحدات المضادة للطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStealthFighter",
+  "text": "متخفية أثناء الحركة\n\nقوي ضد: دفاعات قاعدة العدو\nضعيف ضد: مقاتلات العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildComanche",
+  "text": "تطلق الصواريخ والمدفع. تعيد التذخير في الجو\n\nقوي ضد: الدبابات، المركبات الخفيفة، المشاة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMissileDefender",
+  "text": "يستخدم هجومًا خاصًا موجّهًا بالليزر لإطلاق الصواريخ بسرعة\n\nقوي ضد: الدبابات، الطائرات\nضعيف ضد: المشاة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPathFinder",
+  "text": "مموّه حين لا يتحرك ولا يطلق النار. يرصد الأعداء المخفيين\n\nقوي ضد: المشاة\nضعيف ضد: المركبات الخفيفة، الكشافة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildColonelBurton",
+  "text": "مموّه. يكشف نفسه حين يطلق النار أو يزرع قنبلة\n\nحد البناء: 1\nقوي ضد: المشاة\nضعيف ضد: الكشافة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildTomahawk",
+  "text": "قوي ضد: دفاعات القاعدة\nضعيف ضد: الدبابات، الطائرات، المركبات الخفيفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHumvee",
+  "text": "وسيلة نقل. يمكن للمشاة في داخلها استخدام فتحات الإطلاق للاشتباك مع العدو\n\nقوي ضد: المشاة\nضعيف ضد: الدبابات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMedic",
+  "text": "تعالج المركبات والجنود. تنظّف الإشعاع والسموم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildScoutDrone",
+  "text": "توسّع مدى الرؤية وتكشف الأعداء المخفيين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBattleDrone",
+  "text": "تطلق رشاشًا صغيرًا وتصلح مركبتها الأم\n\nقوي ضد: المشاة\nضعيف ضد: المشاة المسلحين بالصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMIG",
+  "text": "تُحدث عاصفة نارية حين تعمل في مجموعات كبيرة\n\nقوي ضد: الدبابات، المركبات الخفيفة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBlackLotus",
+  "text": "تستولي على مباني العدو، وتسرق المال من مراكز إمداداته، وتعطّل مركباته. مموّهة إلا حين تستخدم قدرة\n\nقوي ضد: المباني، المركبات\nضعيف ضد: وحدات الاستطلاع"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTankHunter",
+  "text": "هجوم TNT خاص\nيكتسب مكافأة الحشد في مجموعات من 5 أو أكثر\n\nقوي ضد: الدبابات\nضعيف ضد: المشاة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInfernoCannon",
+  "text": "يُحدث عاصفة نارية حين يعمل في مجموعات كبيرة\n\nقوي ضد: دفاعات القاعدة، المشاة\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNukeLauncher",
+  "text": "قوي ضد: المباني، المشاة\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTroopCrawler",
+  "text": "وسيلة نقل. تأتي ومعها 8 من الحرس الأحمر. ترصد الوحدات المتخفية\n\nقوي ضد: المشاة، المباني\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDragonTank",
+  "text": "يمكنها إخراج الجنود من المباني بالحرق. يمكنها إنشاء جدار من اللهب\n\nقوي ضد: المشاة، المباني\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTerrorist",
+  "text": "جندي انتحاري\n\nقوي ضد: الدبابات، المباني\nضعيف ضد: المشاة، المركبات الخفيفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRPGTrooper",
+  "text": "قوي ضد: الدبابات\nضعيف ضد: المشاة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildAngryMob",
+  "text": "قوي ضد: المشاة، المركبات\nضعيف ضد: اللهب، السموم، القنابل الصاعقة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildHijacker",
+  "text": "يمكنه الاستيلاء على أي مركبة للعدو. مموّه\n\nقوي ضد: الدبابات، المركبات\nضعيف ضد: المشاة، الكشافة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildJarmenKell",
+  "text": "مموّه. يمكنه الاختباء داخل المباني المدنية لقنص جنود العدو. يمكنه قتل طواقم مركبات العدو فتصبح عرضة للاستيلاء\n\nقوي ضد: المشاة، المركبات\nضعيف ضد: الكشافة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildToxinTruck",
+  "text": "يطهّر المباني من جنود العدو. يلوّث الأرض\nيمكن ترقية سلاحه بقطع يغنمها من الأعداء المدمَّرين\nقوي ضد: المشاة\nضعيف ضد: الدبابات، الطائرات، دفاعات القاعدة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBattlemaster",
+  "text": "تكتسب مكافأة الحشد في مجموعات من 5 أو أكثر\n\nقوي ضد: الدبابات، المباني\nضعيف ضد: المشاة، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildMarauder",
+  "text": "يمكن ترقية سلاحها بقطع يغنمها من الأعداء المدمَّرين\n\nقوي ضد: المباني، المركبات الخفيفة\nضعيف ضد: جنود الصواريخ، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTechnical",
+  "text": "يمكن ترقية سلاحه بقطع يغنمها من الأعداء المدمَّرين\n\nقوي ضد: المشاة\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildQuadCannon",
+  "text": "يمكن ترقية سلاحه بقطع يغنمها من الأعداء المدمَّرين\n\nقوي ضد: المشاة، الطائرات\nضعيف ضد: الدبابات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBombTruck",
+  "text": "يمكنها التنكر في هيئة أي مركبة، صديقة أو معادية\n\nقوي ضد: المشاة، المباني\nضعيف ضد: الكشافة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSCUDLauncher",
+  "text": "يمكن تزويدها برأس حربي متفجر أو بيولوجي\n\nقوي ضد: المباني، المشاة\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCrusader",
+  "text": "قوي ضد: المركبات، المباني\nضعيف ضد: الطائرات، المشاة المسلحين بالصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePaladin",
+  "text": "تستطيع دبابات بالادين إسقاط صواريخ العدو بنظام ليزر دفاعي متطور\n\nيُبنى في: مصنع الحرب"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePathFinder",
+  "text": "المستكشفون قنّاصة نخبة مموّهون\n\nيُبنى في: الثكنات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceStealthFighter",
+  "text": "متخفية أثناء الحركة\n\nيُبنى في: المطار العسكري"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpyDrone",
+  "text": "طائرات التجسس المسيّرة مموّهة عن أنظار العدو ورادارِه، وتكشف مواقعه\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceParaDrop",
+  "text": "إسقاط جنود الرينجر من الجو\n\nالرتبة 1: 5 جنود رينجر\nالرتبة 2: 10 جنود رينجر\nالرتبة 3: 20 جندي رينجر\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceA10Strike",
+  "text": "تدمّر طائرات A10 ثاندربولت المباني والمركبات والمشاة\n\nالرتبة 1: طائرة A10 ثاندربولت واحدة\nالرتبة 2: طائرتا A10 ثاندربولت\nالرتبة 3: 3 طائرات A10 ثاندربولت\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceDaisyCutter",
+  "text": "تدمّر قنابل الوقود الجوي المباني وتجمعات قوات العدو\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeCannon",
+  "text": "تقذف المدافع النووية قنابل نووية تكتيكية صغيرة إلى مسافات بعيدة\n\nيُبنى في: مصنع الحرب\nيتطلب: مركز الدعاية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceRedGuardTraining",
+  "text": "سيُدرَّب جميع الحرس الأحمر كقدامى محاربين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceClusterMines",
+  "text": "تُنشر الألغام العنقودية جوًا\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceARtilleryTraining",
+  "text": "تُبنى المدافع النووية ومدافع الجحيم كقدامى محاربين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceArtilleryBarrage",
+  "text": "استدعاء مدفعية من خارج الخريطة لضرب هدفك\n\nالرتبة 1: 12 قذيفة\nالرتبة 2: 24 قذيفة\nالرتبة 3: 36 قذيفة\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceEMPPulse",
+  "text": "يتيح لك استدعاء قاذفة ثقيلة لإلقاء قنبلة نبضة كهرومغناطيسية. تعطّل النبضة مركبات العدو ومبانيه\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceHijacker",
+  "text": "الخاطفون مموّهون ويمكنهم سرقة مركبات العدو\n\nيُبنى في: الثكنات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSCUDLauncher",
+  "text": "يطلق صاروخًا بعيد المدى يمكن تزويده بالمتفجرات أو بالجمرة الخبيثة القاتلة\n\nيُبنى في: تاجر الأسلحة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLaScienceMarauderTank",
+  "text": "يمكن لدبابات ماراودر غنم قطع من الأعداء المدمَّرين لترقية مدفعها الرئيسي\n\nيُبنى في: تاجر الأسلحة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceTechnicalTraining",
+  "text": "ستُنتَج جميع مركبات التكنيكال كقدامى محاربين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceRebelAmbush",
+  "text": "يتيح لك نصب كمين مفاجئ من المتمردين في أي مكان\n\nالرتبة 1: 4 متمردين\nالرتبة 2: 8 متمردين\nالرتبة 3: 16 متمردًا\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceCashBounty",
+  "text": "احصل على مكافأة مالية عن كل وحدة أو مبنى للعدو تدمّره\n\nالرتبة 1: 5% من قيمة العدو\nالرتبة 2: 10% من قيمة العدو\nالرتبة 3: 20% من قيمة العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceAnthraxBomb",
+  "text": "الجمرة الخبيثة قاتلة لتجمعات قوات العدو\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSecurityFence",
+  "text": "بناء سياج أمني يمنع مرور المركبات وينبّه عند مرور أي مشاة معادين عبره"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildConcreteWall",
+  "text": "بناء جدار خرساني يمنع مرور أي وحدة برية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBurningBarricade",
+  "text": "بناء حاجز مشتعل يحرق الوحدات التي تحاول عبوره"
+ },
+ {
+  "label": "GUI:QuitToDesktop",
+  "text": "الخروج إلى سطح المكتب"
+ },
+ {
+  "label": "GUI:QuitToDesktopConf",
+  "text": "هل أنت متأكد من أنك تريد الخروج إلى سطح المكتب؟"
+ },
+ {
+  "label": "GUI:NewSaveGame",
+  "text": "***** لعبة جديدة *****"
+ },
+ {
+  "label": "GUI:TimeAM",
+  "text": "ص"
+ },
+ {
+  "label": "GUI:TimePM",
+  "text": "م"
+ },
+ {
+  "label": "GUI:OverwriteSaveConfirmation",
+  "text": "استبدال الملف الموجود؟"
+ },
+ {
+  "label": "GUI:LoadGameConfirmation",
+  "text": "ستُفقد بيانات اللعبة الحالية. تحميل اللعبة المحفوظة؟"
+ },
+ {
+  "label": "GUI:Rank1Required",
+  "text": "الرتبة المطلوبة - جنرال بنجمة واحدة"
+ },
+ {
+  "label": "GUI:Rank3Required",
+  "text": "الرتبة المطلوبة - جنرال بثلاث نجوم"
+ },
+ {
+  "label": "GUI:Rank8Required",
+  "text": "الرتبة المطلوبة - جنرال بخمس نجوم"
+ },
+ {
+  "label": "GUI:Experience",
+  "text": "الخبرة"
+ },
+ {
+  "label": "GUI:RemainingSkillPoints",
+  "text": "النقاط"
+ },
+ {
+  "label": "TOOLTIP:ExperienceToLevel",
+  "text": "الخبرة حتى المستوى التالي"
+ },
+ {
+  "label": "GUI:SaveAndLoad",
+  "text": "حفظ/تحميل"
+ },
+ {
+  "label": "GUI:SaveTime",
+  "text": "الوقت"
+ },
+ {
+  "label": "GUI:SaveDate",
+  "text": "التاريخ"
+ },
+ {
+  "label": "SCIENCE:Rank1",
+  "text": "جنرال نجمة واحدة"
+ },
+ {
+  "label": "SCIENCE:Rank2",
+  "text": "جنرال نجمتين"
+ },
+ {
+  "label": "SCIENCE:Rank3",
+  "text": "جنرال 3 نجوم"
+ },
+ {
+  "label": "SCIENCE:Rank4",
+  "text": "جنرال 4 نجوم"
+ },
+ {
+  "label": "SCIENCE:Rank5",
+  "text": "جنرال 5 نجوم"
+ },
+ {
+  "label": "SCIENCE:Rank6",
+  "text": "لواء"
+ },
+ {
+  "label": "SCIENCE:Rank7",
+  "text": "فريق"
+ },
+ {
+  "label": "SCIENCE:Rank8",
+  "text": "جنرال"
+ },
+ {
+  "label": "CONTROLBAR:StructureExit",
+  "text": "الخروج من المبنى"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAircraftArmor",
+  "text": "دروع الميغ (&A)"
+ },
+ {
+  "label": "CONTROLBAR:RangerMachineGun",
+  "text": "رشاش (&M)"
+ },
+ {
+  "label": "CONTROLBAR:RedguardMachineGun",
+  "text": "رشاش (&M)"
+ },
+ {
+  "label": "CONTROLBAR:RebelMachineGun",
+  "text": "رشاش (&M)"
+ },
+ {
+  "label": "CONTROLBAR:FlashBangGrenadeMode",
+  "text": "قنبلة صاعقة (&F)"
+ },
+ {
+  "label": "CONTROLBAR:TranqDartsMode",
+  "text": "وضع السهام المخدرة (&T)"
+ },
+ {
+  "label": "CONTROLBAR:StunBulletsMode",
+  "text": "وضع أخذ الأسرى (&P)"
+ },
+ {
+  "label": "UPGRADE:AircraftArmor",
+  "text": "دروع الطائرات"
+ },
+ {
+  "label": "MAP:USA03Open",
+  "text": "شمال كازاخستان. القوات الأمريكية في انسحاب شامل\nعملية: الملاك الحارس"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeAircraftArmor",
+  "text": "زيادة 25% في متانة الميغ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRangerMachineGun",
+  "text": "ينتقل إلى وضع الرشاش للهجوم متعدد الأغراض"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRedguardMachineGun",
+  "text": "ينتقل إلى وضع الرشاش للهجوم متعدد الأغراض"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRebelMachineGun",
+  "text": "ينتقل إلى وضع الرشاش للهجوم متعدد الأغراض"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToUSAFlashBang",
+  "text": "استخدام القنابل الصاعقة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToChinaStunBullets",
+  "text": "ينتقل إلى وضع إطلاق الرصاص الصاعق لأسر جنود العدو في العراء"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToGLATranqDarts",
+  "text": "ينتقل إلى سلاح السهام المخدرة لأسر جنود العدو في العراء"
+ },
+ {
+  "label": "GUI:ProductionQueueFull",
+  "text": "قائمة إنتاج الوحدة ممتلئة"
+ },
+ {
+  "label": "GUI:ParkingPlacesFull",
+  "text": "جميع أماكن الوقوف مشغولة"
+ },
+ {
+  "label": "GUI:UnitMaxedOut",
+  "text": "لديك بالفعل الحد الأقصى من هذه الوحدة"
+ },
+ {
+  "label": "CONTROLBAR:FireTomahawkAtPosition",
+  "text": "قصف توماهوك (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireTomahawkAtPosition",
+  "text": "إطلاق صواريخ توماهوك على موقع"
+ },
+ {
+  "label": "GUI:SurrenderConfirmation",
+  "text": "هل أنت متأكد من أنك تريد الاستسلام؟"
+ },
+ {
+  "label": "GUI:GameOver",
+  "text": "انتهت اللعبة"
+ },
+ {
+  "label": "TOOLTIP:RefreshNat",
+  "text": "انقر بعد تغيير إعداد الجدار الناري أو مزوّد الإنترنت"
+ },
+ {
+  "label": "GUI:Surrender",
+  "text": "استسلام"
+ },
+ {
+  "label": "GUI:SuperweaponEmergencyRepair",
+  "text": "إصلاح طارئ"
+ },
+ {
+  "label": "CONTROLBAR:FireNukeCannonAtPosition",
+  "text": "قصف نووي (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireInfernoCannonAtPosition",
+  "text": "قصف الجحيم (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudExplosiveAtPosition",
+  "text": "قصف متفجر (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudAnthraxAtPosition",
+  "text": "قصف بالجمرة الخبيثة (&O)"
+ },
+ {
+  "label": "MAP:USA04Objective1Text",
+  "text": "هدف المهمة:\nطهّر الشاطئ من قوات جيش التحرير العالمي"
+ },
+ {
+  "label": "MAP:USA04Objective2Text",
+  "text": "هدف المهمة:\nدمّر مواقع ستينغر"
+ },
+ {
+  "label": "MAP:USA04Objective3Text",
+  "text": "هدف المهمة:\nدمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireNukeCannonAtPosition",
+  "text": "قصف موقع بقذائف المدفع النووي"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireInfernoCannonAtPosition",
+  "text": "قصف موقع بقذائف مدفع الجحيم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudExplosiveAtPosition",
+  "text": "قصف موقع برؤوس حربية متفجرة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudAnthraxAtPosition",
+  "text": "قصف الموقع المحدد برؤوس حربية بالجمرة الخبيثة"
+ },
+ {
+  "label": "TOOLTIP:Brightness",
+  "text": "ضبط سطوع اللعبة"
+ },
+ {
+  "label": "TOOLTIP:ScrollSpeed",
+  "text": "ضبط سرعة تمرير الخريطة"
+ }
+]

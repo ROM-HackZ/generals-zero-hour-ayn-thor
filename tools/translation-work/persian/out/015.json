@@ -1,0 +1,802 @@
+[
+ {
+  "label": "UPGRADE:BecomeRealGLABlackMarket",
+  "text": "بازار سیاه واقعی"
+ },
+ {
+  "label": "UPGRADE:FusionReactors",
+  "text": "رآکتورهای همجوشی"
+ },
+ {
+  "label": "UPGRADE:CamoNetting",
+  "text": "تور استتار"
+ },
+ {
+  "label": "UPGRADE:FortifiedStructure",
+  "text": "سازه مستحکم"
+ },
+ {
+  "label": "UPGRADE:BoobyTrap",
+  "text": "تله انفجاری پنهان"
+ },
+ {
+  "label": "UPGRADE:AnthraxGamma",
+  "text": "سیاه‌زخم گاما"
+ },
+ {
+  "label": "UPGRADE:WorkerShoes",
+  "text": "کفش کارگر"
+ },
+ {
+  "label": "UPGRADE:ChemicalSuits",
+  "text": "لباس ضدشیمیایی"
+ },
+ {
+  "label": "UPGRADE:AmericaCountermeasures",
+  "text": "پادکارها"
+ },
+ {
+  "label": "UPGRADE:UpgradeChinaIsotopeStability",
+  "text": "پایداری ایزوتوپ (&I)"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaIsotopeStability",
+  "text": "از آسیب بیشتر تشعشع جانبی به یگان‌های خودی هنگام نابودی خودروها جلوگیری می‌کند"
+ },
+ {
+  "label": "OBJECT:SecretResearchLab",
+  "text": "آزمایشگاه تحقیقاتی مخفی"
+ },
+ {
+  "label": "OBJECT:InternetCenter",
+  "text": "مرکز اینترنت"
+ },
+ {
+  "label": "OBJECT:AircraftCarrier",
+  "text": "ناو هواپیمابر"
+ },
+ {
+  "label": "OBJECT:TechArtilleryPlatform",
+  "text": "سکوی توپخانه -- تصرفش کنید تا دشمنان زمینی را بمباران کنید"
+ },
+ {
+  "label": "OBJECT:NukeHunter",
+  "text": "شکارچی هسته‌ای"
+ },
+ {
+  "label": "OBJECT:TechRepairPad",
+  "text": "سکوی تعمیر -- تصرفش کنید تا خودروها در آن تعمیر شوند"
+ },
+ {
+  "label": "OBJECT:AirF_Aurora",
+  "text": "بمب‌افکن آرورا سوخت-هوا"
+ },
+ {
+  "label": "OBJECT:SupW_Aurora",
+  "text": "بمب‌افکن آرورا آلفا"
+ },
+ {
+  "label": "OBJECT:BattleBus",
+  "text": "اتوبوس جنگی"
+ },
+ {
+  "label": "OBJECT:Helix",
+  "text": "هلیکس"
+ },
+ {
+  "label": "OBJECT:PropagandaTrooper",
+  "text": "سرباز تبلیغاتی"
+ },
+ {
+  "label": "OBJECT:HellfireDrone",
+  "text": "پهپاد هل‌فایر"
+ },
+ {
+  "label": "OBJECT:Avenger",
+  "text": "اونجر"
+ },
+ {
+  "label": "OBJECT:Microwave",
+  "text": "تانک مایکروویو"
+ },
+ {
+  "label": "OBJECT:MOAB",
+  "text": "مادر همه بمب‌ها"
+ },
+ {
+  "label": "OBJECT:NukeDrop",
+  "text": "پرتاب هسته‌ای"
+ },
+ {
+  "label": "OBJECT:SuitcaseNuke",
+  "text": "بمب هسته‌ای چمدانی"
+ },
+ {
+  "label": "OBJECT:StructureEMPMine",
+  "text": "مین نوترونی"
+ },
+ {
+  "label": "OBJECT:ECMTank",
+  "text": "تانک جنگ الکترونیک"
+ },
+ {
+  "label": "OBJECT:Saboteur",
+  "text": "خرابکار"
+ },
+ {
+  "label": "OBJECT:TechRepairBay",
+  "text": "کارگاه تعمیر فنی -- تصرفش کنید تا خودروها در سراسر میدان نبرد تعمیر شوند"
+ },
+ {
+  "label": "OBJECT:TechReinforcementPad",
+  "text": "سکوی نیروی کمکی -- تصرفش کنید تا خودروهای اضافی بگیرید"
+ },
+ {
+  "label": "OBJECT:Sniper",
+  "text": "تک‌تیرانداز"
+ },
+ {
+  "label": "OBJECT:FireBase",
+  "text": "پایگاه آتش"
+ },
+ {
+  "label": "OBJECT:KingRaptor",
+  "text": "کینگ رپتور"
+ },
+ {
+  "label": "OBJECT:CombatBike",
+  "text": "موتورسیکلت رزمی"
+ },
+ {
+  "label": "OBJECT:SentryDrone",
+  "text": "پهپاد نگهبان"
+ },
+ {
+  "label": "OBJECT:TomahawkStorm",
+  "text": "طوفان تاماهاک"
+ },
+ {
+  "label": "OBJECT:ListeningOutpost",
+  "text": "پاسگاه شنود"
+ },
+ {
+  "label": "Map:LeipzigLowlands",
+  "text": "Leipzig Lowlands"
+ },
+ {
+  "label": "Map:BombardmentBeach",
+  "text": "Bombardment Beach"
+ },
+ {
+  "label": "Map:BearTownBeatdown",
+  "text": "Bear Town Beatdown"
+ },
+ {
+  "label": "MAP:RiverSnakes",
+  "text": "Winding River"
+ },
+ {
+  "label": "MAP:KillingFields",
+  "text": "Killing Fields"
+ },
+ {
+  "label": "MAP:ThinIce",
+  "text": "Thin Ice"
+ },
+ {
+  "label": "MAP:ElScorcho",
+  "text": "El Scorcho"
+ },
+ {
+  "label": "MAP:GreenPastures",
+  "text": "Green Pastures"
+ },
+ {
+  "label": "MAP:FreeFireZone",
+  "text": "Free Fire Zone"
+ },
+ {
+  "label": "MAP:DestructionStation",
+  "text": "Destruction Station"
+ },
+ {
+  "label": "MAP:PolarStorm",
+  "text": "Polar Storm"
+ },
+ {
+  "label": "MAP:BitterWinter",
+  "text": "Bitter Winter"
+ },
+ {
+  "label": "MAP:CitySweep",
+  "text": "City Sweep"
+ },
+ {
+  "label": "MAP:FrozenPlains",
+  "text": "Frozen Plains"
+ },
+ {
+  "label": "MAP:RoadRage",
+  "text": "Road Rage"
+ },
+ {
+  "label": "HELP:SentryDrone-01",
+  "text": "راهنمایی:\nپهپاد نگهبان می‌تواند یگان‌های استتارشده دشمن را شناسایی کند"
+ },
+ {
+  "label": "HELP:SentryDrone-02",
+  "text": "راهنمایی:\nسلاح پهپاد نگهبان را از مرکز استراتژی بخرید"
+ },
+ {
+  "label": "HELP:MicrowaveTank-01",
+  "text": "راهنمایی:\nتانک مایکروویو می‌تواند سازه‌ها را از کار بیندازد"
+ },
+ {
+  "label": "HELP:MicrowaveTank-02",
+  "text": "راهنمایی:\nامواج تانک مایکروویو به پیاده‌نظام نزدیک آسیب می‌زند"
+ },
+ {
+  "label": "HELP:Avenger-01",
+  "text": "راهنمایی:\nلیزر اونجر می‌تواند اهداف دشمن را 'نشانه‌گذاری' کند\nشلیک به اهداف نشانه‌دار آسیب بیشتری می‌زند"
+ },
+ {
+  "label": "HELP:Avenger-02",
+  "text": "راهنمایی:\nاونجرها یگان‌های پشتیبانی‌اند که به هواپیما هم حمله می‌کنند"
+ },
+ {
+  "label": "HELP:FireBase-01",
+  "text": "راهنمایی:\nپایگاه آتش را با مدافعان موشکی پر کنید\nتا هم پدافند هوایی داشته باشید و هم زمینی"
+ },
+ {
+  "label": "HELP:SpectreGunship-01",
+  "text": "راهنمایی:\nمنطقه‌ای را برای حمله هواپیمای توپدار اسپکتر انتخاب کنید،\nسپس دشمنان را دستی هدف بگیرید"
+ },
+ {
+  "label": "HELP:LeafletDrop-01",
+  "text": "راهنمایی:\nبا پخش اعلامیه پیاده‌نظام دشمن را از کار بیندازید"
+ },
+ {
+  "label": "HELP:MOAB-01",
+  "text": "راهنمایی:\nمادر همه بمب‌ها در برابر خودروها کارآمد است و\nبازماندگان را گیج می‌کند"
+ },
+ {
+  "label": "HELP:Countermeasures-01",
+  "text": "راهنمایی:\nپادکارها را ارتقا دهید تا یگان‌های هوایی از حمله‌ها طفره بروند"
+ },
+ {
+  "label": "HELP:HellfireDrone-01",
+  "text": "راهنمایی:\nخودروهایتان را با پهپاد هل‌فایر ارتقا دهید\nتا در برابر نیروهای زرهی کارآمدتر شوند"
+ },
+ {
+  "label": "HELP:ChemicalSuit-01",
+  "text": "راهنمایی:\nبا ارتقای لباس ضدشیمیایی از پیاده‌نظام\nدر برابر سموم کشنده و تشعشع محافظت کنید"
+ },
+ {
+  "label": "HELP:BunkerBuster-01",
+  "text": "راهنمایی:\nارتقای سنگرشکن بمب‌افکن رادارگریز\nبه دشمنان سنگرگرفته آسیب می‌زند"
+ },
+ {
+  "label": "HELP:BunkerBuster-02",
+  "text": "راهنمایی:\nسنگرشکن‌ها می‌توانند یگان‌های درون سنگرها را بکشند"
+ },
+ {
+  "label": "HELP:SupplyLines-01",
+  "text": "راهنمایی:\nارتقای خطوط تدارکات درآمد را بالا می‌برد"
+ },
+ {
+  "label": "HELP:SupplyLines-02",
+  "text": "راهنمایی:\nخطوط تدارکات را ارتقا دهید تا\nکارایی شینوک‌ها بیشتر شود"
+ },
+ {
+  "label": "HELP:ListeningOutpost-01",
+  "text": "راهنمایی:\nپاسگاه‌های شنود پنهان‌اند و یگان‌های\nاستتارشده را شناسایی می‌کنند"
+ },
+ {
+  "label": "HELP:ListeningOutpost-02",
+  "text": "راهنمایی:\nپاسگاه‌های شنود شعاع دید بسیار بزرگی دارند"
+ },
+ {
+  "label": "HELP:Helix-01",
+  "text": "راهنمایی:\nهلیکس را با برج تبلیغات ارتقا دهید تا\nیگان‌های نزدیکتان تعمیر و درمان شوند"
+ },
+ {
+  "label": "HELP:Helix-02",
+  "text": "راهنمایی:\nهلیکس را می‌توان برای انداختن بمب ناپالم ارتقا داد\nاین بمب‌ها روی اهداف زیر هلیکس انداخته می‌شوند"
+ },
+ {
+  "label": "HELP:Helix-03",
+  "text": "راهنمایی:\nمی‌توانید هلیکس را با سنگر نبرد،\nبرج تبلیغات یا توپ گاتلینگ ارتقا دهید"
+ },
+ {
+  "label": "HELP:ECMTank-01",
+  "text": "راهنمایی:\nبا تانک جنگ الکترونیک آتش موشک و راکت دشمن را مختل کنید"
+ },
+ {
+  "label": "HELP:Frenzy-01",
+  "text": "راهنمایی:\nبا توانایی جنون جنگی قدرت آتش\nو زره یگان‌هایتان را بالا ببرید"
+ },
+ {
+  "label": "HELP:InternetCenter-01",
+  "text": "راهنمایی:\nهکرها را در مرکز اینترنت بگذارید\nتا سرعت جمع‌آوری پول بیشتر شود"
+ },
+ {
+  "label": "HELP:InternetCenter-02",
+  "text": "راهنمایی:\nمرکز اینترنت بسازید و آن را به\nهک ماهواره ۱ و ۲ ارتقا دهید"
+ },
+ {
+  "label": "HELP:SatelliteHack1-01",
+  "text": "راهنمایی:\nهک ماهواره ۱ همه مراکز فرماندهی دشمن را آشکار می‌کند"
+ },
+ {
+  "label": "HELP:SatelliteHack2-01",
+  "text": "راهنمایی:\nهک ماهواره ۲ هر چه یگان‌های دشمن می‌بینند را آشکار می‌کند"
+ },
+ {
+  "label": "HELP:EMPMines-01",
+  "text": "راهنمایی:\nمین‌ها را می‌توان به مین‌های نوترونی ارتقا داد که\nخودروهای دشمن را از کار می‌اندازند"
+ },
+ {
+  "label": "HELP:NeutronShell-01",
+  "text": "راهنمایی:\nحمله با گلوله نوترونی توپ هسته‌ای خدمه خودروها را خنثی می‌کند\nتا هر پیاده‌نظامی بتواند تصرفشان کند"
+ },
+ {
+  "label": "HELP:CombatCycle-01",
+  "text": "راهنمایی:\nموتورسیکلت‌های رزمی می‌توانند از صخره‌ها بپرند"
+ },
+ {
+  "label": "HELP:CombatCycle-02",
+  "text": "راهنمایی:\nیک سرباز آرپی‌جی را سوار موتورسیکلت رزمی کنید\nتا بتواند موشک شلیک کند"
+ },
+ {
+  "label": "HELP:CombatCycle-03",
+  "text": "راهنمایی:\nیک تروریست را سوار موتورسیکلت رزمی کنید\nتا موتورسیکلت انتحاری بسازید"
+ },
+ {
+  "label": "HELP:CombatCycle-04",
+  "text": "راهنمایی:\nجارمن کل می‌تواند از روی موتورسیکلت رزمی تک‌تیراندازی کند"
+ },
+ {
+  "label": "HELP:CombatCycle-05",
+  "text": "راهنمایی:\nکارگرها می‌توانند با موتورسیکلت رزمی سریع جابه‌جا شوند"
+ },
+ {
+  "label": "HELP:Saboteur-01",
+  "text": "راهنمایی:\nخرابکار توانایی‌های سازه‌های دشمن را مختل می‌کند"
+ },
+ {
+  "label": "HELP:Saboteur-02",
+  "text": "راهنمایی:\nخرابکار را به مرکز فرماندهی دشمن بفرستید\nتا زمان‌سنج توانایی‌های ژنرالش صفر شود"
+ },
+ {
+  "label": "HELP:FakeStructures-01",
+  "text": "راهنمایی:\nسازه‌های قلابی بسازید تا دشمنانتان فریب بخورند"
+ },
+ {
+  "label": "HELP:SneakAttack-01",
+  "text": "راهنمایی:\nبا حمله غافلگیرانه فوراً یک شبکه تونل\nدر هر جایی که می‌بینید بسازید"
+ },
+ {
+  "label": "HELP:GPSScramble-01",
+  "text": "راهنمایی:\nبا توانایی مختل‌کننده GPS\nیگان‌های خودی را استتار کنید"
+ },
+ {
+  "label": "HELP:WorkerShoes-01",
+  "text": "راهنمایی:\nکفش کارگر بخرید تا سرعت حرکت کارگرها\nو جمع‌آوری منابع بیشتر شود"
+ },
+ {
+  "label": "HELP:CamoNetting-01",
+  "text": "راهنمایی:\nتور استتار سایت‌های استینگر\nو شبکه‌های تونل شما را استتار می‌کند"
+ },
+ {
+  "label": "HELP:FortifiedStructures-01",
+  "text": "راهنمایی:\nسازه‌های مستحکم سخت‌تر نابود می‌شوند"
+ },
+ {
+  "label": "HELP:BoobyTrap-01",
+  "text": "راهنمایی:\nتله‌های انفجاری پنهان وقتی دشمن بخواهد\nدر سازه تله‌گذاری‌شده سنگر بگیرد یا تصرفش کند منفجر می‌شوند"
+ },
+ {
+  "label": "HELP:KingRaptor-01",
+  "text": "راهنمایی:\nکینگ رپتورها مهمات بیشتر و زره قوی‌تری دارند"
+ },
+ {
+  "label": "HELP:CombatChinooks-01",
+  "text": "راهنمایی:\nپیاده‌نظام درون شینوک رزمی می‌توانند در پرواز شلیک کنند"
+ },
+ {
+  "label": "HELP:AuroraAlpha-01",
+  "text": "راهنمایی:\nآرورا آلفا به یک بمب سوخت-هوای\nکوچک اما ویرانگر مجهز است"
+ },
+ {
+  "label": "HELP:MicrowavePatriot-01",
+  "text": "راهنمایی:\nراکت‌های پاتریوت EMP\nهم در برابر خودرو و هم پیاده‌نظام کارآمدند"
+ },
+ {
+  "label": "HELP:AdvancedRods-01",
+  "text": "راهنمایی:\nمیله‌های پیشرفته از میله‌های کنترل معمولی برق بیشتری می‌دهند"
+ },
+ {
+  "label": "HELP:LaserTank-01",
+  "text": "راهنمایی:\nوقتی از تانک لیزری استفاده می‌کنید نیروگاه اضافی بسازید\nبا کمبود برق نمی‌توانند حرکت یا شلیک کنند"
+ },
+ {
+  "label": "HELP:LaserDefenseTurret-01",
+  "text": "راهنمایی:\nبرجک‌های دفاع لیزری قوی‌اند اما برق بیشتری لازم دارند"
+ },
+ {
+  "label": "HELP:AssaultTroopTransport-01",
+  "text": "راهنمایی:\nیگان‌ها می‌توانند از درون نفربر تهاجمی شلیک کنند"
+ },
+ {
+  "label": "HELP:AttackOutpost-01",
+  "text": "راهنمایی:\nپاسگاه تهاجمی پیاده‌نظام بیشتری جا می‌دهد و\nیگان‌های پنهان را شناسایی می‌کند"
+ },
+ {
+  "label": "HELP:FortifiedBunkers-01",
+  "text": "راهنمایی:\nسنگرهای مستحکم با مین و\nزره قوی‌تر می‌آیند و پیاده‌نظام بیشتری جا می‌دهند"
+ },
+ {
+  "label": "HELP:Mini-Gunner-01",
+  "text": "راهنمایی:\nمینی‌گانرها یک مسلسل گاتلینگ شخصی دارند"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-01",
+  "text": "راهنمایی:\nیگان‌های نیلوفر سیاه شما توانایی‌های بهتری دارند"
+ },
+ {
+  "label": "HELP:InfantryBlackLotus-02",
+  "text": "راهنمایی:\nمی‌توانید چند یگان نیلوفر سیاه بسازید"
+ },
+ {
+  "label": "HELP:InfantryHacker-01",
+  "text": "راهنمایی:\nهکرهای ژنرال پیاده‌نظام سریع‌تر پول هک می‌کنند"
+ },
+ {
+  "label": "HELP:ChineseParadrop-01",
+  "text": "راهنمایی:\nفرود چتری چین گارد سرخ را هر جایی پیاده می‌کند"
+ },
+ {
+  "label": "HELP:EmperorTank-01",
+  "text": "راهنمایی:\nتانک امپراتور تانک نهایی است،\nکارآمد در برابر خودرو و پیاده‌نظام"
+ },
+ {
+  "label": "HELP:EmperorTank-02",
+  "text": "راهنمایی:\nتانک امپراتور را می‌توان با توپ گاتلینگ ارتقا داد"
+ },
+ {
+  "label": "HELP:EmperorTank-03",
+  "text": "راهنمایی:\nتانک‌های امپراتور با برج تبلیغات می‌آیند"
+ },
+ {
+  "label": "HELP:TankDrop-01",
+  "text": "راهنمایی:\nفرود تانک امکان پیاده کردن بتل‌مسترها با چتر را می‌دهد"
+ },
+ {
+  "label": "HELP:TacticalNuke-01",
+  "text": "راهنمایی:\nفرودگاه شما می‌تواند میگ‌ها را برای حمل بمب هسته‌ای تاکتیکی ارتقا دهد"
+ },
+ {
+  "label": "HELP:IsotopeStability-01",
+  "text": "راهنمایی:\nپایداری ایزوتوپ آسیب به یگان‌های خودی را\nهنگام نابودی تانک‌های هسته‌ای کم می‌کند"
+ },
+ {
+  "label": "HELP:AdvancedNuclearPower-01",
+  "text": "راهنمایی:\nنیروگاه‌های هسته‌ای پیشرفته از نیروگاه‌های هسته‌ای معمولی برق بیشتری تولید می‌کنند"
+ },
+ {
+  "label": "HELP:ToxinRebels-01",
+  "text": "راهنمایی:\nشورشیان سمی جریانی از سموم بسیار کشنده شلیک می‌کنند"
+ },
+ {
+  "label": "HELP:ToxinRebels-02",
+  "text": "راهنمایی:\nشورشیان سمی در برابر حمله‌های سمی مقاوم‌اند"
+ },
+ {
+  "label": "HELP:ToxinRebels-03",
+  "text": "راهنمایی:\nبا شورشیان سمی سازه‌های سنگرگرفته را سریع پاک کنید"
+ },
+ {
+  "label": "HELP:ToxinNetworks-01",
+  "text": "راهنمایی:\nشبکه‌های سمی از توپ‌هایشان جریان سم شلیک می‌کنند"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-01",
+  "text": "راهنمایی:\nتروریست‌های سمی در ابری از سم منفجر می‌شوند"
+ },
+ {
+  "label": "HELP:ToxinTerrorists-02",
+  "text": "راهنمایی:\nبا تروریست‌های سمی به گروه‌های بزرگ پیاده‌نظام حمله کنید"
+ },
+ {
+  "label": "HELP:AnthraxGamma-01",
+  "text": "راهنمایی:\nسیاه‌زخم گاما آسیب همه حمله‌های سمی را بیشتر می‌کند"
+ },
+ {
+  "label": "HELP:AnthraxGamma-02",
+  "text": "راهنمایی:\nسیاه‌زخم گاما حتی از سیاه‌زخم بتا هم قوی‌تر است"
+ },
+ {
+  "label": "HELP:AdvancedTrap-01",
+  "text": "راهنمایی:\nتله‌های پیشرفته از تله‌های انفجاری معمولی قوی‌ترند"
+ },
+ {
+  "label": "HELP:Demolitions-01",
+  "text": "راهنمایی:\nارتقای تخریب به یگان‌ها توانایی انفجار می‌دهد"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-01",
+  "text": "هدف مأموریت شماره 1:\nانجام شد"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-02",
+  "text": "هدف مأموریت شماره 2:\nانجام شد"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-03",
+  "text": "هدف مأموریت شماره 3:\nانجام شد"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-04",
+  "text": "هدف مأموریت شماره 4:\nانجام شد"
+ },
+ {
+  "label": "GENERIC:MissionObjectiveCompleted-05",
+  "text": "هدف مأموریت شماره 5:\nانجام شد"
+ },
+ {
+  "label": "LOSE:AllUnits",
+  "text": "پیام دریافتی:\nهمه یگان‌هایمان نابود شده‌اند\nما شکست خوردیم، ژنرال. این بار"
+ },
+ {
+  "label": "LOSE:AllBuildings",
+  "text": "پیام دریافتی:\nهمه ساختمان‌هایمان نابود شده‌اند\nما شکست خوردیم، ژنرال. این بار"
+ },
+ {
+  "label": "LOSE:AllUnitsAndBuildings",
+  "text": "پیام دریافتی:\nهمه یگان‌ها و ساختمان‌هایمان نابود شده‌اند\nما شکست خوردیم، ژنرال. این بار"
+ },
+ {
+  "label": "HELP:OilRefinery-01",
+  "text": "راهنمایی:\nپالایشگاه‌های نفت را تصرف کنید تا هزینه خودروها کم شود"
+ },
+ {
+  "label": "HELP:ReinforcementPad-01",
+  "text": "راهنمایی:\nسکوهای نیروی کمکی را تصرف کنید تا تانک کمکی بگیرید"
+ },
+ {
+  "label": "HELP:OilDerrick-01",
+  "text": "راهنمایی:\nدکل‌های نفت را تصرف کنید تا پول بیشتری بگیرید"
+ },
+ {
+  "label": "HELP:RepairBay-01",
+  "text": "راهنمایی:\nکارگاه‌های تعمیر را تصرف کنید تا خودروها را هر جا تعمیر کنید"
+ },
+ {
+  "label": "HELP:ArtilleryPlatform-01",
+  "text": "راهنمایی:\nسکوهای توپخانه را تصرف کنید تا مناطق کلیدی را کنترل کنید"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1",
+  "text": "هدف مأموریت:\nایستگاه قطار را ایمن کنید و پایگاه GLA اطرافش را نابود کنید"
+ },
+ {
+  "label": "MAP:MD_USA01Objective1a",
+  "text": "هدف مأموریت شماره ۱:\nایستگاه قطار را ایمن کنید و پایگاه GLA اطرافش را نابود کنید"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplished",
+  "text": "هدف مأموریت انجام شد"
+ },
+ {
+  "label": "MAP:MD_USA01ObjectiveAccomplisheda",
+  "text": "هدف مأموریت شماره ۱ انجام شد"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2",
+  "text": "پیام دریافتی:\nیگان‌ها را به واگن‌های قطار ببرید"
+ },
+ {
+  "label": "MAP:MD_USA01Objective2a",
+  "text": "پیام دریافتی:\nیگان‌ها را به واگن‌های قطار ببرید"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3",
+  "text": "هدف مأموریت:\nپایگاه GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:MD_USA01Objective3a",
+  "text": "هدف مأموریت شماره ۲:\nپایگاه GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1",
+  "text": "راهنمایی:\nپیاده‌نظام می‌توانند وارد خودروهای رهاشده در شمال شرق شوند"
+ },
+ {
+  "label": "MAP:MD_USA01Hint1a",
+  "text": "راهنمایی:\nپیاده‌نظام می‌توانند وارد خودروهای رهاشده در شمال شرق شوند"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2",
+  "text": "راهنمایی:\nپیاده‌نظام را در ایستگاه رادیو مستقر کنید تا A-10 فرا بخوانید"
+ },
+ {
+  "label": "MAP:MD_USA01Hint2a",
+  "text": "راهنمایی:\nپیاده‌نظام را در ایستگاه رادیو مستقر کنید تا A-10 فرا بخوانید"
+ },
+ {
+  "label": "OBJECT:TrainDepot",
+  "text": "انبار قطار"
+ },
+ {
+  "label": "OBJECT:TrainLoading",
+  "text": "سکوی سوار شدن"
+ },
+ {
+  "label": "MAP:MD_USA01Title",
+  "text": "پایگاه فضایی بایکونور، جنوب قزاقستان\n'عملیات امنیت جهانی'"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation02",
+  "text": "پایگاه دریایی آمریکا\nشمال اروپا"
+ },
+ {
+  "label": "MAP:Intro_Breifing_01",
+  "text": "پایگاه شناسایی آمریکا بیرون از بایکونور\nجنوب قزاقستان"
+ },
+ {
+  "label": "MAP:MD_USA01CINELocation01",
+  "text": "جایی در جنوب قزاقستان\nدر راه بایکونور"
+ },
+ {
+  "label": "MAP:USAX02MissionINtro",
+  "text": "سواحل سومالی"
+ },
+ {
+  "label": "MAP:USAX02MissionStart",
+  "text": "بربره، سومالی\n'عملیات: دست یاری'"
+ },
+ {
+  "label": "MAP:USAX02NavyHint",
+  "text": "پیام دریافتی:\nناوگان دریایی برای درهم شکستن مقاومت در دسترس است"
+ },
+ {
+  "label": "MAP:USAX02ConvoyHint",
+  "text": "پیام دریافتی:\nکاروان وقتی ۱۰ کامیون تدارکات برسند راه می‌افتد"
+ },
+ {
+  "label": "MAP:USAX02ConvoyArrived",
+  "text": "هدف مأموریت شماره 1:\nانجام شد"
+ },
+ {
+  "label": "MAP:USAX02objectives3a",
+  "text": "هدف مأموریت شماره ۲:\nپایگاه GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:USAX02Objectives1",
+  "text": "هدف مأموریت شماره ۱:\nاز کامیون‌های تدارکات در راه محافظت کنید و انبار تدارکات را ایمن کنید"
+ },
+ {
+  "label": "MAP:USAX02Objectives2",
+  "text": "هدف مأموریت:\nاز اسکله‌ها دفاع کنید\nاز کامیون‌های تدارکات در راه محافظت کنید\nانبار را ایمن کنید"
+ },
+ {
+  "label": "MAP:USAX02Objectives3",
+  "text": "هدف مأموریت:\nسازه‌های GLA در کوهستان را پیدا و نابود کنید"
+ },
+ {
+  "label": "MAP:USAX02Ships",
+  "text": "پشتیبانی در دسترس:\nناو هواپیمابر CVN-88 دیدالوس\nگروه اسکورت ناو جنگی، دردنات"
+ },
+ {
+  "label": "MAP:USAX02Truck1Arrived",
+  "text": "کامیون تدارکات 1 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck2Arrived",
+  "text": "کامیون تدارکات 2 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck3Arrived",
+  "text": "کامیون تدارکات 3 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck4Arrived",
+  "text": "کامیون تدارکات 4 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck5Arrived",
+  "text": "کامیون تدارکات 5 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck6Arrived",
+  "text": "کامیون تدارکات 6 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck7Arrived",
+  "text": "کامیون تدارکات 7 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck8Arrived",
+  "text": "کامیون تدارکات 8 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck9Arrived",
+  "text": "کامیون تدارکات 9 از ۱۰ رسید"
+ },
+ {
+  "label": "MAP:USAX02Truck10Arrived",
+  "text": "کامیون تدارکات دهم رسید\nکاروان برای حرکت به سوی انبار آماده می‌شود"
+ },
+ {
+  "label": "MAP:USAX02ConvoyToWarehouse",
+  "text": "کاروان را تا انبار همراهی کنید"
+ },
+ {
+  "label": "MAP:USAX02Dozer",
+  "text": "یک بولدوزر به اسکله رسید\nساخت پایگاه را آغاز کنید"
+ },
+ {
+  "label": "MAP:USAX02Dozerb",
+  "text": "یک بولدوزر رسید"
+ },
+ {
+  "label": "MAP:USAX02Dozer2",
+  "text": "بولدوزر تازه‌ای به اسکله رسید"
+ },
+ {
+  "label": "MAP:USA03xMapName",
+  "text": "آخرین فراخوان"
+ },
+ {
+  "label": "MAP:USA03xOpen",
+  "text": "کوه البروس، گرجستان\n'عملیات: بارش برف'"
+ },
+ {
+  "label": "MAP:USA03xOpenAlt",
+  "text": "کوه البروس، روسیه\n'عملیات: بارش برف'"
+ },
+ {
+  "label": "MAP:USA03xObjective02",
+  "text": "هدف مأموریت شماره ۱:\nاردوگاه اسرای GLA را نابود و اسرا را نجات دهید\nسرهنگ برتون باید زنده بماند"
+ },
+ {
+  "label": "MAP:USA03xObjective03",
+  "text": "هدف مأموریت شماره ۲:\nسرهنگ برتون را به نقطه تجمع ببرید"
+ },
+ {
+  "label": "MAP:USA03xObjectiveCompleted",
+  "text": "هدف مأموریت شماره 1:\nانجام شد"
+ },
+ {
+  "label": "MAP:USA03xTownHallHint",
+  "text": "پیام دریافتی:\nروستا را برای یافتن سربازان مفقود بگردید"
+ },
+ {
+  "label": "MAP:USA03xToxinNetworksWarning",
+  "text": "هشدار:\nمراقب شبکه‌های سمی و سایت‌های استینگر باشید"
+ },
+ {
+  "label": "MAP:USA03xPOWCamp02Hint",
+  "text": "راهنمایی:\nسازه‌های GLA نگهبان این اردوگاه را از میان بردارید\nتا اسرای آنجا آزاد شوند"
+ },
+ {
+  "label": "MAP:USA03xBurtonWarning",
+  "text": "هشدار:\nسرهنگ برتون به‌شدت زخمی است\nاو باید در این مأموریت زنده بماند"
+ },
+ {
+  "label": "MAP:USA03xChemWarning02",
+  "text": "هشدار:\nاین دفاع‌ها برای شلیک مواد شیمیایی اصلاح شده‌اند\nهر پیاده‌نظامی را که زیادی نزدیک شود می‌کشند"
+ },
+ {
+  "label": "MAP:USA03xLoseReason01",
+  "text": "پیام دریافتی:\nسرهنگ برتون کشته شد\nشما شکست خوردید، ژنرال. این بار"
+ },
+ {
+  "label": "MAP:MD-USA04_LOCALE",
+  "text": "میدان‌های نفتی امیس‌آباد، ایران\n'عملیات: طلای سیاه'"
+ },
+ {
+  "label": "MAP:MD-USA04_Start02",
+  "text": "پیام دریافتی:\nنیروهای کمکی رسیدند"
+ }
+]

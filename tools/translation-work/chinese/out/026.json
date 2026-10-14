@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Demo078Subtitle",
+  "text": "*拜托，将军，别把我能替你炸掉的东西卖了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo079Subtitle",
+  "text": "*将军，你这样不公平。去踩几个陷阱吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo080Subtitle",
+  "text": "*你运气特别好，将军，但你不可能永远躲开我的爆破陷阱"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo081Subtitle",
+  "text": "*还没有人破解过我的陷阱，将军，你也不会是第一个……等着瞧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo082Subtitle",
+  "text": "*你以为你在打败我吗，将军？形势随时可能逆转——我可不讲公平"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo083Subtitle",
+  "text": "*你也许打败了我，将军，但死亡打击会为我报仇"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo084Subtitle",
+  "text": "*哈哈！你的部队正落入我的陷阱，将军。很快他们就会死光"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo085Subtitle",
+  "text": "*你在输，将军。我的战术你根本看不透"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo086Subtitle",
+  "text": "*你永远打不败我，将军。趁还没受伤赶紧走吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo087Subtitle",
+  "text": "*我还剩那么多炸药……恐怕比你的部队还多"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo088Subtitle",
+  "text": "*你输了，将军。真遗憾"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo089Subtitle",
+  "text": "*我正好有合适的东西。我们去打仗吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo090Subtitle",
+  "text": "*爆破专家：有什么可以帮你？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo091Subtitle",
+  "text": "*不知道我能不能给那个按钮也装上炸药？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo092Subtitle",
+  "text": "*请吧，将军——进入我的战场……但要看好脚下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo093Subtitle",
+  "text": "*你这次运气好，将军。你再也赢不了我了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo094Subtitle",
+  "text": "*你没准备好打这种仗。有胆量就再来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo095Subtitle",
+  "text": "*这就是战场……空旷……未经战火……我们小小的……一张白纸"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo096Subtitle",
+  "text": "*咦，那些爆破陷阱是从哪儿冒出来的？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo097Subtitle",
+  "text": "*也许我袖子里藏了几张牌，但你难道还指望我会少一点吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger001Subtitle",
+  "text": "*嘿，将军，你近距离见过猛禽吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger002Subtitle",
+  "text": "*嘿，将军，你看到那架隐形战机了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger003Subtitle",
+  "text": "*鸟儿起飞！我们去猎杀推土机！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger004Subtitle",
+  "text": "*我不跟你玩了，将军。（对自己的部队）全体进攻！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger005Subtitle",
+  "text": "*瞧瞧这个……美国军费花得多值"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger006Subtitle",
+  "text": "*（唱歌——跑调）……炮火映红了天，炸弹响彻云霄……"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger007Subtitle",
+  "text": "*恐怖之雨来了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger008Subtitle",
+  "text": "*“震慑”行动感觉如何，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger009Subtitle",
+  "text": "*死亡从天而降！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger010Subtitle",
+  "text": "*这好像不太公平，是吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger011Subtitle",
+  "text": "*是时候倾巢而出了。全体进攻！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger012Subtitle",
+  "text": "*投弹！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger013Subtitle",
+  "text": "*外面静得可怕……你没走吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger014Subtitle",
+  "text": "*别担心，将军，这只是暴风雨前的宁静"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger015Subtitle",
+  "text": "*我要是你，就趁这段时间重建防御，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger016Subtitle",
+  "text": "*嘘……听到了吗？我不会担心的，大概没什么"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger017Subtitle",
+  "text": "*抱歉，将军，我们正在午休——马上回来陪你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger018Subtitle",
+  "text": "*你逼我用坦克了……我讨厌用坦克"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger019Subtitle",
+  "text": "*过河有困难吗，将军？要搭个便车吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger020Subtitle",
+  "text": "*懦夫！别躲了，出来打！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger021Subtitle",
+  "text": "*隐形救不了你，将军；我们会找到你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger022Subtitle",
+  "text": "*哎哟，那一定很贵"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger023Subtitle",
+  "text": "*嗯，你现在打算去哪儿训练部队？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger024Subtitle",
+  "text": "*防御维持不住了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger025Subtitle",
+  "text": "*你损失了好多建筑，将军；你现在是打算骂人了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger026Subtitle",
+  "text": "*推土机，开始修理我们的建筑！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger027Subtitle",
+  "text": "*我会找你算账的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger028Subtitle",
+  "text": "*你会后悔摧毁那座机场的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger029Subtitle",
+  "text": "*推土机，重建我们的防御！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger030Subtitle",
+  "text": "*这里是格兰杰将军呼叫奥林匹亚号航母：派增援……重复：派增援"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger031Subtitle",
+  "text": "*他们在攻击指挥中心！所有部队，重新集结！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger032Subtitle",
+  "text": "*我可不喜欢你击落我的飞机，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger033Subtitle",
+  "text": "*他们在夺取我们的油井！游骑兵，出去把它们夺回来！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger034Subtitle",
+  "text": "*滚出我们的基地！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger035Subtitle",
+  "text": "*滚出我的领空，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger036Subtitle",
+  "text": "*敌人进入防区！所有飞机返回基地！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger037Subtitle",
+  "text": "*地面部队，保卫机场！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger038Subtitle",
+  "text": "*你不是在偷我的补给吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger039Subtitle",
+  "text": "*他们从后门进来了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger040Subtitle",
+  "text": "*躲在村子里，是吧。那是懦夫的战术，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger041Subtitle",
+  "text": "*别躲了，将军。别逼我过去抓你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger042Subtitle",
+  "text": "*他们到东门了！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger043Subtitle",
+  "text": "*守住东侧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger044Subtitle",
+  "text": "*敌军正在接近西门！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger045Subtitle",
+  "text": "*所有部队到西门！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger046Subtitle",
+  "text": "*电力维持不住了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger047Subtitle",
+  "text": "*哎呀，你停电了——炸弹来啦！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger048Subtitle",
+  "text": "*资源用光了，将军？要借一点吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger049Subtitle",
+  "text": "*嘿，将军，这局我们算平手怎么样？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger050Subtitle",
+  "text": "*你也许赢了这场战斗，将军，但战争还远没结束"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger051Subtitle",
+  "text": "*这么说，你建了飞毛腿风暴。觉得你能守住它吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger052Subtitle",
+  "text": "*嗯，好多防空啊，将军……你觉得这足以平息恐惧吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger053Subtitle",
+  "text": "*你的坦克不是我飞机的对手，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger054Subtitle",
+  "text": "*炭疽！所有人找掩护！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger055Subtitle",
+  "text": "*想进驻多少建筑都行，将军——没用的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger056Subtitle",
+  "text": "*你还能撑多久，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger057Subtitle",
+  "text": "*准备投降了吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger058Subtitle",
+  "text": "*你损失的兵还不够多吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger059Subtitle",
+  "text": "*这场战斗结束了，将军——投降，或者准备受死！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger060Subtitle",
+  "text": "*不打算投降，是吧？可惜"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger061Subtitle",
+  "text": "*投弹，臭小子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger062Subtitle",
+  "text": "*来吧，将军——让我给你演示一下什么叫“死亡从天而降”。"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger063Subtitle",
+  "text": "*音爆，宝贝。开干吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger064Subtitle",
+  "text": "*看来我该去找份航空公司的好工作了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger065Subtitle",
+  "text": "*我赢了——你输了。还有什么好说的？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger066Subtitle",
+  "text": "*注意：本区域由空军将军马尔科姆·格兰杰控制。立即撤离，否则准备被炸回石器时代"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger067Subtitle",
+  "text": "*将军，你不是我的对手——天空归我！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger068Subtitle",
+  "text": "*看着天上，将军；我们要来一场飞行表演"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger069Subtitle",
+  "text": "*想再看一遍吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger070Subtitle",
+  "text": "*藏好了没？我来啦！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger071Subtitle",
+  "text": "*我们顺道拜访一下，你不介意吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger072Subtitle",
+  "text": "*你已经打了我两座机场了，将军。我开始恼火了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger073Subtitle",
+  "text": "*该死的，将军。你要是再打一座机场，我就亲自来找你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger074Subtitle",
+  "text": "*这是你今天摧毁的最后一座机场。（对自己的部队）各部队，瞄准他们的指挥中心"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger075Subtitle",
+  "text": "*真不敢相信你打败了我，将军。我向你高明的战术致敬"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger076Subtitle",
+  "text": "*看来这次你打败了我，将军，但总有一天我们会再见，到时我可不会这么仁慈，因为——"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger077Subtitle",
+  "text": "*我还以为他永远不会闭嘴呢"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger078Subtitle",
+  "text": "*你不会以为我会让你留着那座飞毛腿风暴吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger079Subtitle",
+  "text": "*又一座飞毛腿风暴？看来是时候加把劲了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger080Subtitle",
+  "text": "*飞行员们，小心那些毒刺导弹阵地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger081Subtitle",
+  "text": "*游骑兵这么多——能占领的建筑却这么少"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger082Subtitle",
+  "text": "*将军，你知道燃料空气炸弹是怎么起作用的吗？来个演示怎么样？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger083Subtitle",
+  "text": "*欢迎加入派对，伯顿上校。这下你有麻烦了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger084Subtitle",
+  "text": "*你知道怎么阻止 A-10 吗，将军？我也不知道"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger085Subtitle",
+  "text": "*嘿，想看看我们的新钻地弹吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger086Subtitle",
+  "text": "*火炮！你以为你能用火炮攻击我？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger087Subtitle",
+  "text": "*你知道那辆飞毛腿发射车永远到不了我的基地，对吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger088Subtitle",
+  "text": "*等等，那是炸弹卡车！大家小心！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger089Subtitle",
+  "text": "*你逼我用坦克了……我讨厌用坦克"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger090Subtitle",
+  "text": "*过河有困难吗，将军？要搭个便车吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger091Subtitle",
+  "text": "*懦夫！别躲了，出来打！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger092Subtitle",
+  "text": "*隐形救不了你，将军；我们会找到你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger093Subtitle",
+  "text": "*嗯，好多防空啊，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry001Subtitle",
+  "text": "*原来你藏在这儿，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry002Subtitle",
+  "text": "*<sarcastic>感到招架不住了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry003Subtitle",
+  "text": "*（中国步兵阵亡）<angry voice>我们还有十亿人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry004Subtitle",
+  "text": "*（空降）他们像蝗虫一样从天而降，吞噬一切与中国为敌的人"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry005Subtitle",
+  "text": "*被黑过吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry006Subtitle",
+  "text": "*<shouting>前进！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry007Subtitle",
+  "text": "*他们还能当盾牌用"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry008Subtitle",
+  "text": "*给你个建议，将军：投降吧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry009Subtitle",
+  "text": "*别担心，将军，我们不留俘虏"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry010Subtitle",
+  "text": "*放出大军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry011Subtitle",
+  "text": "*没关系，将军，我们给你的基地带了自己的旗子"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry012Subtitle",
+  "text": "*很快你的士兵只能看到军靴从他们身上踏过"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry013Subtitle",
+  "text": "*冲锋！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry014Subtitle",
+  "text": "*与我们为敌者死！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry015Subtitle",
+  "text": "*你知道养活一支大军有多难吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry016Subtitle",
+  "text": "*我的兵多得能举行阅兵。能在你的基地举行吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry017Subtitle",
+  "text": "*你还在这儿吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry018Subtitle",
+  "text": "*你就打算坐在那儿等着被攻陷吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry019Subtitle",
+  "text": "*你的资源快不够了吗，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry020Subtitle",
+  "text": "*你造你那支小坦克部队要花多久？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry021Subtitle",
+  "text": "*<sarcastic>这次你又要用什么战术让我惊叹，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry022Subtitle",
+  "text": "*这不可能是你的最高水平吧，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry023Subtitle",
+  "text": "*到目前为止我没什么印象，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry024Subtitle",
+  "text": "*你没准备好迎接这个挑战，对吧，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry025Subtitle",
+  "text": "*我的兵多得不开一枪就能碾碎你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry026Subtitle",
+  "text": "*我们来找你了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry027Subtitle",
+  "text": "*哎呀……我们推倒了你的小科技建筑。呜呜"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry028Subtitle",
+  "text": "*现在你的兵营没了。没有兵你怎么打仗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry029Subtitle",
+  "text": "*没有战车工厂，你只能跟我肉搏了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry030Subtitle",
+  "text": "*你没飞机了。下来像个男人一样打吧"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry031Subtitle",
+  "text": "*我的士兵正穿过你的基地防线，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry032Subtitle",
+  "text": "*你的指挥中心原来所在的地方只剩一片空地了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry033Subtitle",
+  "text": "*我损失了很多士兵，将军，但让你损失这么多建筑是值得的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry034Subtitle",
+  "text": "*别碰我的科技建筑，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry035Subtitle",
+  "text": "*不！别动我的兵营！我们会再建一座，将军……到时你就要付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry036Subtitle",
+  "text": "*我的战车工厂对我的胜利并非必不可少，但别再摧毁了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry037Subtitle",
+  "text": "*你摧毁了我的机场！这越来越烦人了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry038Subtitle",
+  "text": "*想毁多少基地防御都行——反正它们只是用来拖慢你的"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry039Subtitle",
+  "text": "*你让我损失了很多建筑，将军。我的士兵要来讨债了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry040Subtitle",
+  "text": "*不——！他们摧毁了我的指挥中心！抓住他们！别让他们靠近我！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry041Subtitle",
+  "text": "*想打多少飞机就打吧，将军——我们会造更多"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry042Subtitle",
+  "text": "*我的载具不是给你练靶子的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry043Subtitle",
+  "text": "*我的军队里还有很多人准备为中国献身，将军。你阻止不了我们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry044Subtitle",
+  "text": "*看来你占领了我的油井，将军。我们现在要来夺回中国的石油"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry045Subtitle",
+  "text": "*那座旧火炮平台已经坏了，将军；你永远修不好它"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry046Subtitle",
+  "text": "*你以为那座炼油厂谁都能用吗？马上把炼油厂还给我"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry047Subtitle",
+  "text": "*再靠近我的基地，我就放大军去对付你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry048Subtitle",
+  "text": "*我警告你，将军，离我的基地远点。你知道一百个人能对一辆坦克做什么吗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry049Subtitle",
+  "text": "*他们在我们的基地里！杀了他们！把他们赶出去！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry050Subtitle",
+  "text": "*他们靠得太近了！保护我！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry051Subtitle",
+  "text": "*将军，离我的资源远点——我的士兵需要它们"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry052Subtitle",
+  "text": "*将军，别想包抄我的基地"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry053Subtitle",
+  "text": "*从后门进攻帮不了你，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry054Subtitle",
+  "text": "*正面进攻我的基地是愚蠢的，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry055Subtitle",
+  "text": "*那些是我的科技建筑，将军。离远点"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry056Subtitle",
+  "text": "*滚出我的建筑，将军！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry057Subtitle",
+  "text": "*过那座桥是个错误，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry058Subtitle",
+  "text": "*你没电了，将军——你的防御瘫痪了，我的士兵很快就会攻进去"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry059Subtitle",
+  "text": "*没有电力你永远挡不住我的大军，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry060Subtitle",
+  "text": "*你把所有资源都浪费在对付我的士兵上了……但我还有更多士兵"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry061Subtitle",
+  "text": "*我们没资源了！怎么会这样？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry062Subtitle",
+  "text": "*建你的飞毛腿风暴吧——它只能打中我几个人……剩下的会消灭你"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry063Subtitle",
+  "text": "*我还以为不准用核导弹！这可太不公平了，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry064Subtitle",
+  "text": "*那门粒子加农炮对我的大军毫无用处！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry065Subtitle",
+  "text": "*对，你应该多建些基地防御——至少那样你能挡住冲锋大军的第一波"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry066Subtitle",
+  "text": "*懦夫！你知道你的坦克碾不死我的士兵，对吧？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry067Subtitle",
+  "text": "*这么多飞机……没关系，我的大军也能把你的飞机打下来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry068Subtitle",
+  "text": "*你在动员自己的大军？！要比得上我的力量，你需要多得多的人，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry069Subtitle",
+  "text": "*你的基地太大了，将军。是时候让我的士兵空降进去，为中国占领几座了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry070Subtitle",
+  "text": "*飞毛腿风暴！散开！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry071Subtitle",
+  "text": "*核导弹来袭！快跑！带我离开这里！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry072Subtitle",
+  "text": "*哦，看这漂亮的灯光秀。你想用那件小武器达成什么，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry073Subtitle",
+  "text": "*从那栋建筑里出来，将军。必要时我们有办法把你强行弄出来"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry074Subtitle",
+  "text": "*你把伯顿上校带进了我们的小战争，将军。面对大军，就连他也会倒下"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry075Subtitle",
+  "text": "*黑莲花？她怎么帮你在我的大军面前活下来，将军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry076Subtitle",
+  "text": "*所有部队注意：贾曼·凯尔藏在战场上"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry077Subtitle",
+  "text": "*我看到那座机场了，将军。逃到天上去吧！畏惧我的大军吧！"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry078Subtitle",
+  "text": "*你造坦克有多快，我的士兵就能多快把它们撕碎，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry079Subtitle",
+  "text": "*我的士兵三人一组训练……你训练士兵能有多快？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry080Subtitle",
+  "text": "*卖建筑？蠢！你拿这钱能买什么来阻止我的大军？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry081Subtitle",
+  "text": "*我有这么多部队，你怎么可能赢得这场战斗？"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry082Subtitle",
+  "text": "*我低估了你的战术，将军"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry083Subtitle",
+  "text": "*你让我措手不及，将军，但现在我已经准备好对付你了"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry084Subtitle",
+  "text": "*你打不败我的大军，将军！你现在的优势很快就会丧失"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry085Subtitle",
+  "text": "*我不接受这次失败，将军。我的士兵会掩护我撤退，我们改日再战"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry086Subtitle",
+  "text": "*我的士兵现在比你多，将军。你最好投降"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry087Subtitle",
+  "text": "*看来这就是你的末日了，将军"
+ }
+]

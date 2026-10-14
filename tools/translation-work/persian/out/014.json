@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:LimitSuperweapons",
+  "text": "محدود کردن سلاح‌های ویژه"
+ },
+ {
+  "label": "TOOLTIP:LimitSuperweapons",
+  "text": "برای محدود کردن توپ ذره‌ای، طوفان اسکاد و غیره به یکی برای هر بازیکن علامت بزنید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100",
+  "text": "نشان پیاپی\nبازیکن ۱۰۰ نبرد آزاد پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500",
+  "text": "نشان پیاپی\nبازیکن ۵۰۰ نبرد آزاد پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000",
+  "text": "نشان پیاپی\nبازیکن ۱۰۰۰ نبرد آزاد پیاپی برده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3Online",
+  "text": "نشان پیاپی\nبازیکن ۳ بازی آنلاین پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10Online",
+  "text": "نشان پیاپی\nبازیکن ۱۰ بازی آنلاین پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25Online",
+  "text": "نشان پیاپی\nبازیکن ۲۵ بازی آنلاین پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100Online",
+  "text": "نشان پیاپی\nبازیکن ۱۰۰ بازی آنلاین پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500Online",
+  "text": "نشان پیاپی\nبازیکن ۵۰۰ بازی آنلاین پیاپی برده است\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000Online",
+  "text": "نشان پیاپی\nبازیکن ۱۰۰۰ بازی آنلاین پیاپی برده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100",
+  "text": "نشان سلطه\nبازیکن بیش از ۱۰۰ نبرد آزاد برده است\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500",
+  "text": "نشان سلطه\nبازیکن بیش از ۵۰۰ نبرد آزاد برده است\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000",
+  "text": "نشان سلطه\nبازیکن بیش از ۱٬۰۰۰ نبرد آزاد برده است\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000",
+  "text": "نشان سلطه\nبازیکن بیش از ۱۰٬۰۰۰ نبرد آزاد برده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100Online",
+  "text": "نشان سلطه\nبازیکن بیش از ۱۰۰ بازی آنلاین برده است\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500Online",
+  "text": "نشان سلطه\nبازیکن بیش از ۵۰۰ بازی آنلاین برده است\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000Online",
+  "text": "نشان سلطه\nبازیکن بیش از ۱٬۰۰۰ بازی آنلاین برده است\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000Online",
+  "text": "نشان سلطه\nبازیکن بیش از ۱۰٬۰۰۰ بازی آنلاین برده است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallenge",
+  "text": "نشان کارزار چالش\nکارزار چالش ژنرال‌ها را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimate",
+  "text": "نشان نهایی\nهمه نقشه‌های نبرد آزاد را در برابر بیشترین تعداد حریف سخت ببرید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneral",
+  "text": "نشان ژنرال جهانی\nبا هر ژنرال دست‌کم یک بازی آنلاین ببرید تا مدال بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakDisabled",
+  "text": "نشان پیاپی\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakOnlineDisabled",
+  "text": "نشان پیاپی\nبرای بردهای پیاپی ۳، ۱۰، ۲۵، ۱۰۰، ۵۰۰ و ۱۰۰۰ مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallengeDisabled",
+  "text": "نشان کارزار چالش\nکارزار چالش ژنرال‌ها را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimateDisabled",
+  "text": "نشان نهایی\nهمه نقشه‌های نبرد آزاد را در برابر بیشترین تعداد حریف سخت ببرید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationDisabled",
+  "text": "نشان سلطه\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationOnlineDisabled",
+  "text": "نشان سلطه\nبرای ۱۰۰، ۵۰۰، ۱۰۰۰ و ۱۰۰۰۰ برد در کل دوران مدال تازه بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneralDisabled",
+  "text": "نشان ژنرال جهانی\nبا هر ژنرال دست‌کم یک بازی آنلاین ببرید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitzDisabled",
+  "text": "نشان حمله برق‌آسا\nحریف (حریفان) را در ۱۰ دقیقه یا کمتر شکست دهید تا این مدال را بگیرید"
+ },
+ {
+  "label": "GUI:SuperweaponSpectreGunship",
+  "text": "هواپیمای توپدار اسپکتر"
+ },
+ {
+  "label": "GUI:Nuke_SuperweaponNeutronMissile",
+  "text": "موشک هسته‌ای"
+ },
+ {
+  "label": "GUI:SuperweaponGPSScrambler",
+  "text": "مختل‌کننده GPS"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponParticleUplinkCannon",
+  "text": "توپ ذره‌ای"
+ },
+ {
+  "label": "GUI:SuperweaponTankParadrop",
+  "text": "فرود تانک"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponTomahawkStorm",
+  "text": "طوفان تاماهاک"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponNeutronMissile",
+  "text": "موشک بالستیک قاره‌پیما"
+ },
+ {
+  "label": "INI:FactionAmericaSuperWeaponGeneral",
+  "text": "ژنرال سلاح‌های ویژه آمریکا"
+ },
+ {
+  "label": "INI:FactionAmericaLaserGeneral",
+  "text": "ژنرال لیزر آمریکا"
+ },
+ {
+  "label": "INI:FactionAmericaAirForceGeneral",
+  "text": "ژنرال نیروی هوایی آمریکا"
+ },
+ {
+  "label": "INI:FactionAmericaCommanderInChief",
+  "text": "فرمانده کل آمریکا"
+ },
+ {
+  "label": "INI:FactionChinaTankGeneral",
+  "text": "ژنرال تانک چین"
+ },
+ {
+  "label": "INI:FactionChinaInfantryGeneral",
+  "text": "ژنرال پیاده‌نظام چین"
+ },
+ {
+  "label": "INI:FactionChinaNukeGeneral",
+  "text": "ژنرال هسته‌ای چین"
+ },
+ {
+  "label": "INI:FactionChinaCommanderInChief",
+  "text": "فرمانده کل چین"
+ },
+ {
+  "label": "INI:FactionGLAToxinGeneral",
+  "text": "ژنرال سموم GLA"
+ },
+ {
+  "label": "INI:FactionGLADemolitionGeneral",
+  "text": "ژنرال تخریب GLA"
+ },
+ {
+  "label": "INI:FactionGLAStealthGeneral",
+  "text": "ژنرال پنهان‌کاری GLA"
+ },
+ {
+  "label": "INI:FactionGLACommanderInChief",
+  "text": "فرمانده کل GLA"
+ },
+ {
+  "label": "INI:FactionBossGeneral",
+  "text": "ژنرال رئیس"
+ },
+ {
+  "label": "SIDE:AmericaSuperWeaponGeneral",
+  "text": "ژنرال سلاح‌های ویژه آمریکا"
+ },
+ {
+  "label": "SIDE:AmericaLaserGeneral",
+  "text": "ژنرال لیزر آمریکا"
+ },
+ {
+  "label": "SIDE:AmericaAirForceGeneral",
+  "text": "ژنرال نیروی هوایی آمریکا"
+ },
+ {
+  "label": "SIDE:ChinaTankGeneral",
+  "text": "ژنرال تانک چین"
+ },
+ {
+  "label": "SIDE:ChinaInfantryGeneral",
+  "text": "ژنرال پیاده‌نظام چین"
+ },
+ {
+  "label": "SIDE:ChinaNukeGeneral",
+  "text": "ژنرال هسته‌ای چین"
+ },
+ {
+  "label": "SIDE:GLAToxinGeneral",
+  "text": "ژنرال سموم GLA"
+ },
+ {
+  "label": "SIDE:GLADemolitionGeneral",
+  "text": "ژنرال تخریب GLA"
+ },
+ {
+  "label": "SIDE:GLAStealthGeneral",
+  "text": "ژنرال پنهان‌کاری GLA"
+ },
+ {
+  "label": "SIDE:Boss",
+  "text": "ژنرال رئیس"
+ },
+ {
+  "label": "GUI:SelectAllAircraft",
+  "text": "انتخاب همه هواپیماها"
+ },
+ {
+  "label": "GUI:SelectAllAircraftDescription",
+  "text": "همه هواپیماها را انتخاب می‌کند"
+ },
+ {
+  "label": "SCIENCE:USASpectreGunship1",
+  "text": "هواپیمای توپدار اسپکتر"
+ },
+ {
+  "label": "SCIENCE:USALeafletDrop",
+  "text": "پخش اعلامیه"
+ },
+ {
+  "label": "SCIENCE:ChinaTankHunterTraining",
+  "text": "آموزش شکارچی تانک"
+ },
+ {
+  "label": "SCIENCE:ChinaBattleMasterTraining",
+  "text": "آموزش بتل‌مستر"
+ },
+ {
+  "label": "SCIENCE:ChinaOverlordTraining",
+  "text": "آموزش اورلورد"
+ },
+ {
+  "label": "SCIENCE:ChinaGattlingTankTraining",
+  "text": "آموزش تانک گاتلینگ"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeDrop",
+  "text": "بمباران هسته‌ای"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy",
+  "text": "جنون جنگی ۱"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy2",
+  "text": "جنون جنگی ۲"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy3",
+  "text": "جنون جنگی ۳"
+ },
+ {
+  "label": "SCIENCE:ChinaCarpetBomb",
+  "text": "بمباران فرشی"
+ },
+ {
+  "label": "SCIENCE:GPSScrambler",
+  "text": "مختل‌کننده GPS"
+ },
+ {
+  "label": "SCIENCE:GLASneakAttack",
+  "text": "حمله غافلگیرانه"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop1",
+  "text": "فرود تانک ۱"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop2",
+  "text": "فرود تانک ۲"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop3",
+  "text": "فرود تانک ۳"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop1",
+  "text": "فرود چتری پیاده‌نظام ۱"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop2",
+  "text": "فرود چتری پیاده‌نظام ۲"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop3",
+  "text": "فرود چتری پیاده‌نظام ۳"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyFrenzy",
+  "text": "جنون جنگی"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligenceShortcut",
+  "text": "اطلاعات"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownload",
+  "text": "ارتباطات و دانلود (&D)"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownloadShortcut",
+  "text": "ارتباطات و دانلود (&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixPropagandaTower",
+  "text": "برج تبلیغات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixBattleBunker",
+  "text": "سنگر نبرد (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixGattlingCannon",
+  "text": "توپ گاتلینگ (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNukeBomb",
+  "text": "بمب هسته‌ای (&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaFireBase",
+  "text": "پایگاه آتش (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaArtilleryPlatform",
+  "text": "سکوی توپخانه (&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankAvenger",
+  "text": "اونجر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankMicrowave",
+  "text": "تانک مایکروویو (&M)"
+ },
+ {
+  "label": "CONTROLBAR:BunkerExit",
+  "text": "خروج از سنگر"
+ },
+ {
+  "label": "CONTROLBAR:FireBaseExit",
+  "text": "خروج از پایگاه آتش"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLACommandCenter",
+  "text": "مرکز فرماندهی قلابی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABarracks",
+  "text": "پادگان قلابی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLASupplyStash",
+  "text": "انبار تدارکات قلابی (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLAArmsDealer",
+  "text": "دلال اسلحه قلابی (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInternetCenter",
+  "text": "مرکز اینترنت (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleCombatBike",
+  "text": "موتورسیکلت رزمی (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankEmperor",
+  "text": "امپراتور (&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySaboteur",
+  "text": "خرابکار (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryPropagandaTrooper",
+  "text": "سرباز تبلیغاتی (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryMiniGunner",
+  "text": "مینی‌گانر (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetKingRaptor",
+  "text": "کینگ رپتور (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetFuelAirAurora",
+  "text": "بمب‌افکن آرورا آلفا (&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetHypersonicAurora",
+  "text": "آرورا آلفا (&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySniper",
+  "text": "تک‌تیرانداز (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleSentryDrone",
+  "text": "پهپاد نگهبان (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHellfireDrone",
+  "text": "پهپاد هل‌فایر (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehiclePointDefenseDrone",
+  "text": "پهپاد دفاع نقطه‌ای (&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleHelix",
+  "text": "هلیکس (&X)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryNukeHunter",
+  "text": "شکارچی هسته‌ای (&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaICBMLauncher",
+  "text": "موشک بالستیک قاره‌پیما (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleListeningOutpost",
+  "text": "پاسگاه شنود (&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABlackMarket",
+  "text": "بازار سیاه قلابی (&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTomahawkStorm",
+  "text": "طوفان تاماهاک (&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankECM",
+  "text": "تانک جنگ الکترونیک (&E)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBattleBus",
+  "text": "اتوبوس جنگی (&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSentryDroneGun",
+  "text": "سلاح پهپاد نگهبان (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAQuadCannonSnipe",
+  "text": "تک‌تیراندازی توپ چهارلول (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSupplyLines",
+  "text": "خطوط تدارکات (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaMOAB",
+  "text": "مادر همه بمب‌ها (&M)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLACommandCenter",
+  "text": "تبدیل به مرکز فرماندهی واقعی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABarracks",
+  "text": "تبدیل به پادگان واقعی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLAArmsDealer",
+  "text": "تبدیل به دلال اسلحه واقعی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLASupplyStash",
+  "text": "تبدیل به انبار تدارکات واقعی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABlackMarket",
+  "text": "تبدیل به بازار سیاه واقعی (&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaBunkerBusters",
+  "text": "موشک‌های سنگرشکن (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCountermeasures",
+  "text": "پادکارها (&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaChemicalSuits",
+  "text": "لباس ضدشیمیایی (&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackOne",
+  "text": "هک ماهواره I (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackTwo",
+  "text": "هک ماهواره II (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFanaticism",
+  "text": "میهن‌پرستی (&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaWGUraniumShells",
+  "text": "گلوله‌های اورانیوم غنی‌شده (&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTankAutoLoader",
+  "text": "خودکارگذار (&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNeutronShells",
+  "text": "گلوله‌های نوترونی (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFusionReactors",
+  "text": "رآکتورهای همجوشی (&F)"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNapalmBomb",
+  "text": "این هلیکس را قادر به انداختن بمب ناپالم می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNukeBomb",
+  "text": "این هلیکس را قادر به انداختن بمب هسته‌ای می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNapalmBomb",
+  "text": "بمب ناپالم (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAFortifiedStructure",
+  "text": "سازه مستحکم (&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABoobyTrap",
+  "text": "تله انفجاری پنهان (&O)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateFakeBuilding",
+  "text": "همین حالا منفجر کن! (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerFakeCommandSet",
+  "text": "تغییر به سازه‌های قلابی (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerRealCommandSet",
+  "text": "تغییر به سازه‌های واقعی (&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAHighExplosiveDemoTraps",
+  "text": "تله‌های انفجاری قوی (&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamoNetting",
+  "text": "تور استتار (&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxGamma",
+  "text": "سیاه‌زخم گاما (&X)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerShoes",
+  "text": "کفش کارگر (&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeEMPMines",
+  "text": "مین‌های نوترونی (&M)"
+ },
+ {
+  "label": "CONTROLBAR:NukeWarhead",
+  "text": "گلوله هسته‌ای (&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronWarhead",
+  "text": "گلوله‌های نوترونی (&E)"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDrop",
+  "text": "پخش اعلامیه (&L)"
+ },
+ {
+  "label": "CONTROLBAR:SuitcaseNuke",
+  "text": "بمب هسته‌ای چمدانی (&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissileShortcut",
+  "text": "موشک هسته‌ای"
+ },
+ {
+  "label": "CONTROLBAR:ICBM",
+  "text": "موشک بالستیک قاره‌پیما (&I)"
+ },
+ {
+  "label": "CONTROLBAR:ICBMShortcut",
+  "text": "موشک بالستیک قاره‌پیما"
+ },
+ {
+  "label": "CONTROLBAR:ScudStormShortcut",
+  "text": "طوفان اسکاد"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStorm",
+  "text": "طوفان تاماهاک (&T)"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStormShortcut",
+  "text": "طوفان تاماهاک"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunship",
+  "text": "هواپیمای توپدار اسپکتر (&G)"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunshipFromShortcut",
+  "text": "هواپیمای توپدار اسپکتر"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttack",
+  "text": "حمله غافلگیرانه (&T)"
+ },
+ {
+  "label": "CONTROLBAR:TankParadrop",
+  "text": "فرود تانک (&P)"
+ },
+ {
+  "label": "CONTROLBAR:NukeDrop",
+  "text": "پرتاب هسته‌ای (&U)"
+ },
+ {
+  "label": "CONTROLBAR:Frenzy",
+  "text": "جنون جنگی (&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScanShortcut",
+  "text": "اسکن رادار"
+ },
+ {
+  "label": "CONTROLBAR:SelectAircraftCarriersFromShortcut",
+  "text": "انتخاب ناوهای هواپیمابر"
+ },
+ {
+  "label": "CONTROLBAR:SelectBattleshipsFromShortcut",
+  "text": "بمباران ناو جنگی"
+ },
+ {
+  "label": "CONTROLBAR:BattleshipFire",
+  "text": "بمباران ناو جنگی"
+ },
+ {
+  "label": "CONTROLBAR:AircraftCarrierFire",
+  "text": "حمله رپتور از ناو هواپیمابر"
+ },
+ {
+  "label": "CONTROLBAR:ECMDisableVehicle",
+  "text": "از کار انداختن خودرو (&D)"
+ },
+ {
+  "label": "CONTROLBAR:BoobyTrapAttack",
+  "text": "حمله با تله انفجاری پنهان (&B)"
+ },
+ {
+  "label": "CONTROLBAR:GPSScrambler",
+  "text": "مختل‌کننده GPS (&G)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannonShortcut",
+  "text": "توپ ذره‌ای"
+ },
+ {
+  "label": "UPGRADE:AmericaSentryDroneGun",
+  "text": "سلاح پهپاد نگهبان"
+ },
+ {
+  "label": "UPGRADE:AmericaMOAB",
+  "text": "MOAB: مادر همه بمب‌ها"
+ },
+ {
+  "label": "UPGRADE:AmericaBunkerBusters",
+  "text": "موشک‌های سنگرشکن"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackOne",
+  "text": "هک ماهواره I"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackTwo",
+  "text": "هک ماهواره II"
+ },
+ {
+  "label": "UPGRADE:HelixGattlingCannon",
+  "text": "توپ گاتلینگ هلیکس"
+ },
+ {
+  "label": "UPGRADE:HelixPropagandaTower",
+  "text": "برج تبلیغات هلیکس"
+ },
+ {
+  "label": "UPGRADE:HelixBattleBunker",
+  "text": "سنگر نبرد هلیکس"
+ },
+ {
+  "label": "UPGRADE:SupplyLines",
+  "text": "خطوط تدارکات"
+ },
+ {
+  "label": "UPGRADE:PointDefenseDrone",
+  "text": "پهپاد دفاع نقطه‌ای"
+ },
+ {
+  "label": "UPGRADE:QuadCannonSnipe",
+  "text": "گلوله‌های تک‌تیرانداز توپ چهارلول"
+ },
+ {
+  "label": "UPGRADE:HellfireDrone",
+  "text": "پهپاد هل‌فایر"
+ },
+ {
+  "label": "UPGRADE:Fanaticism",
+  "text": "میهن‌پرستی"
+ },
+ {
+  "label": "UPGRADE:EMPMine",
+  "text": "مین‌های نوترونی"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNapalmBomb",
+  "text": "بمب ناپالم"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNukeBomb",
+  "text": "بمب هسته‌ای"
+ },
+ {
+  "label": "UPGRADE:WGUraniumShells",
+  "text": "گلوله‌های اورانیوم غنی‌شده"
+ },
+ {
+  "label": "UPGRADE:TankAutoLoader",
+  "text": "خودکارگذار"
+ },
+ {
+  "label": "UPGRADE:NeutronShells",
+  "text": "گلوله‌های نوترونی"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLACommandCenter",
+  "text": "مرکز فرماندهی واقعی"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLABarracks",
+  "text": "پادگان واقعی"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLAArmsDealer",
+  "text": "دلال اسلحه واقعی"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLASupplyStash",
+  "text": "انبار تدارکات واقعی"
+ }
+]

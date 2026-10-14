@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat02Subtitle",
+  "text": "*به ما کمین زدند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat03Subtitle",
+  "text": "*به پایگاهمان کمین زدند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat04Subtitle",
+  "text": "*پایگاه مخفی‌شان را پیدا کردیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat05Subtitle",
+  "text": "*از آن سوی دریاچه می‌آیند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat06Subtitle",
+  "text": "*حتماً نیروهایشان در جنگل پنهان‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat07Subtitle",
+  "text": "*یعنی آن طرف رودخانه چه خبر است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat08Subtitle",
+  "text": "*حمله‌های بزن‌دررو‌شان دردسرساز شده"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat09Subtitle",
+  "text": "*باگی‌ها برگشتند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat10Subtitle",
+  "text": "*حمله غافلگیرانه!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat11Subtitle",
+  "text": "*آن توپ جهنمی را له کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat12Subtitle",
+  "text": "*مردم از ترس از خانه‌هایشان بیرون نمی‌آیند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat13Subtitle",
+  "text": "*باید آن‌ها را از این ستم آزاد کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO01Subtitle",
+  "text": "*مردم برای حمایت از ما برمی‌خیزند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO10Subtitle",
+  "text": "*ژنرال. نابودی مجسمه‌های GLA برای بهبود افکار عمومی جهانی درباره ما حیاتی است و حمایت مردم از تلاش‌هایمان را بیشتر می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO11Subtitle",
+  "text": "*یک تراکتور سمی فرستاده‌اند تا سازه‌های سنگرگرفته ما را پاک کند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO12Subtitle",
+  "text": "*تانک‌های دراگون ما هدف اصلی‌اند... خوب از آن‌ها محافظت کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO13Subtitle",
+  "text": "*آفرین، قربان. نابودی مجسمه افکار عمومی جهان را بالا برد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO16Subtitle",
+  "text": "*نگذارید ساختمان‌ها را نابود کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO17Subtitle",
+  "text": "*با گلوله نوترونی ساختمان‌ها را بدون آسیب زدن به آن‌ها پاک کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO18Subtitle",
+  "text": "*مراقب باش! سازه‌های دفاعی‌شان با تور استتار پنهان شده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO19Subtitle",
+  "text": "*ژنرال، GLA به‌خوبی از شهر دفاع می‌کند. باید بیرونشان کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO20Subtitle",
+  "text": "*پیشرفت خوبی داری، فرمانده. بخش بزرگی از شهر از کنترل GLA آزاد شده"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO21Subtitle",
+  "text": "*قربان! شهر علیه دشمنانمان برخاسته!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO22Subtitle",
+  "text": "*ژنرال، باید GLA را از این منطقه پاک کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xXO23Subtitle",
+  "text": "*افکار عمومی جهانی درباره ما بالاست. کارت عالی بود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat01Subtitle",
+  "text": "*نزدیک است فرار کنند! باید متوقفشان کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat010Subtitle",
+  "text": "*دارند دریاچه را دور می‌زنند. رهگیری‌شان کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat011Subtitle",
+  "text": "*دارند سراغ پایگاهمان می‌آیند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat012Subtitle",
+  "text": "*موج اول GLA را متوقف کردیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat013Subtitle",
+  "text": "*باز هم سر جایشان نشاندیمشان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat014Subtitle",
+  "text": "*هیچ‌کس تاب قدرت چین را ندارد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat015Subtitle",
+  "text": "*سون تزو به ما افتخار می‌کرد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat016Subtitle",
+  "text": "*پیروزی از آن ماست!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat017Subtitle",
+  "text": "*هیچ‌کس رد نمی‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat018Subtitle",
+  "text": "*از آسمان بیرونشان می‌کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat019Subtitle",
+  "text": "*قدرت ما بی‌همتاست!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat02Subtitle",
+  "text": "*در روستا راهشان را ببندید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat020Subtitle",
+  "text": "*هلیکس تنها نیروگاه قدرت نیست"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat03Subtitle",
+  "text": "*نباید بگذاریم از آن تپه رد شوند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat04Subtitle",
+  "text": "*حتماً از اینجا می‌گذرند. باید از این منطقه دفاع کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat05Subtitle",
+  "text": "*این هم یک گلوگاه دیگر"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat06Subtitle",
+  "text": "*باید این ساختمان‌ها را ایمن کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat07Subtitle",
+  "text": "*دارند چه می‌کنند؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat08Subtitle",
+  "text": "*مراقب سم باشید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat09Subtitle",
+  "text": "*به ما کمین زده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat15Subtitle",
+  "text": "*نیروهایمان در موقعیت‌اند. برای هر چیزی آماده‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xChat16Subtitle",
+  "text": "*از آنچه فکر می‌کردیم قوی‌ترند. پشتیبانی هوایی لازم داریم. همین حالا هلیکس را بفرستید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO01Subtitle",
+  "text": "*GLA موج دیگری می‌فرستد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO02Subtitle",
+  "text": "*این موج به سمت شمال عقب می‌نشیند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO03Subtitle",
+  "text": "*دارند به سمت شمال شرق عقب می‌نشینند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO04Subtitle",
+  "text": "*این موج به سمت شرق عقب می‌نشیند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO05Subtitle",
+  "text": "*اتحادیه اروپا از عملکرد ما بسیار خشنود است، ژنرال. باید تهاجمی بمانیم و GLA را از میان برداریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO06Subtitle",
+  "text": "*این نیرو فقط برای انحراف بود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO07Subtitle",
+  "text": "*ژنرال، طوفان اسکاد دارند! باید نیروهایمان را پراکنده کنیم تا هدفی به دستشان ندهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO08Subtitle",
+  "text": "*صبر کن... ما را هدف نگرفته‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO09Subtitle",
+  "text": "*GLA هیچ شرفی ندارد! روستا را ویران کردند تا راهی باز کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO10Subtitle",
+  "text": "*باید برای ایمن کردن این منطقه پایگاهی برپا کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO11Subtitle",
+  "text": "*هلیکس ما اورلورد آسمان‌هاست. بیشتر بساز تا منطقه را در کنترل بگیریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO12Subtitle",
+  "text": "*قربان، پیشنهاد می‌کنم پاسگاه‌های شنود را در نقاط کلیدی بگذارید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO13Subtitle",
+  "text": "*اطلاعات کنونی گزارش می‌دهد GLA به سمت این موقعیت عقب می‌نشیند. همین‌جا ایستادگی می‌کنیم. نگذار هیچ یگانی از GLA این منطقه را ترک کند. هلیکوپتر هلیکس تازه ما باید موفقیتت را تضمین کند. ظاهر شدن نیروهایمان از جنوب نشانه کامل شدن هدف اصلی‌ات است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO14Subtitle",
+  "text": "*اطلاعات کنونی گزارش می‌دهد GLA به سمت این موقعیت عقب می‌نشیند. همین‌جا ایستادگی می‌کنیم. نگذار هیچ یگانی از GLA این منطقه را ترک کند. اگر تعداد زیادی از آن‌ها فرار کنند مأموریتمان شکست می‌خورد. هلیکوپتر هلیکس تازه ما باید موفقیتت را تضمین کند. ظاهر شدن نیروهایمان از جنوب نشانه کامل شدن هدف اصلی‌ات است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO15Subtitle",
+  "text": "*موجی از GLA از غرب نزدیک می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO16Subtitle",
+  "text": "*موجی از GLA از جنوب نزدیک می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO17Subtitle",
+  "text": "*نیروهای GLA در حال نزدیک شدن از جنوب غرب دیده شدند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO18Subtitle",
+  "text": "*نیروهای GLA از جنوب شرق می‌آیند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO19Subtitle",
+  "text": "*موجی از نیروهای GLA از جنوب غرب نزدیک می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO20Subtitle",
+  "text": "*موج دیگری از GLA نزدیک می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO21Subtitle",
+  "text": "*کار عالی، قربان. اطلاعات تأیید می‌کند کل موج را نابود کردی"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO22Subtitle",
+  "text": "*دشمن در آستانه شکستن دفاع ماست"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO23Subtitle",
+  "text": "*چند پرتاب طوفان اسکاد شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO24Subtitle",
+  "text": "*دفاعمان شکسته شد، فرمانده. مأموریت شکست خورد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO25Subtitle",
+  "text": "*فرمانده، نیروهایمان از جنوب رسیدند. مأموریتمان موفق بود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO26Subtitle",
+  "text": "*ژنرال، نیروهای دشمن به‌طرز خطرناکی به فرار نزدیک‌اند. باید سریع کارشان را بسازیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO27Subtitle",
+  "text": "*نیروهای GLA در حال فرار از این موقعیت دیده شدند. در مواضع دفاعی قرار بگیر و منتظر درگیری با دشمن باش"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO28Subtitle",
+  "text": "*ژنرال، موج 1 عقب‌نشینی دشمن در حال ورود به منطقه شناسایی شد و اطلاعات نشان می‌دهد در مسیری که روی رادار می‌بینی حرکت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO29Subtitle",
+  "text": "*ژنرال، موج 2 عقب‌نشینی دشمن در حال ورود به منطقه شناسایی شد و اطلاعات نشان می‌دهد در مسیری که روی رادار می‌بینی حرکت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO30Subtitle",
+  "text": "*ژنرال، موج 3 عقب‌نشینی دشمن در حال ورود به منطقه شناسایی شد و اطلاعات نشان می‌دهد در مسیری که روی رادار می‌بینی حرکت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO31Subtitle",
+  "text": "*ژنرال، موج 4 عقب‌نشینی دشمن در حال ورود به منطقه شناسایی شد و اطلاعات نشان می‌دهد در مسیری که روی رادار می‌بینی حرکت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO32Subtitle",
+  "text": "*ژنرال، موج 5 عقب‌نشینی دشمن در حال ورود به منطقه شناسایی شد و اطلاعات نشان می‌دهد در مسیری که روی رادار می‌بینی حرکت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO33Subtitle",
+  "text": "*نیروهایمان از جنوب رسیدند. موفق شدی جلوی عقب‌نشینی دشمن را بگیری. آفرین ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI04xXO34Subtitle",
+  "text": "*ژنرال، نیروهای دشمن به شمال گریختند. مأموریت شکست خورد"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi05OfficerC01Subtitle",
+  "text": "*وقتش است اشتباهمان را جبران کنیم. همه را بکشید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi05OfficerC02Subtitle",
+  "text": "*این موش‌ها را از سوراخشان بیرون بکشیم. مرگ بر ترسوها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf01Subtitle",
+  "text": "*به لطف تلاش‌های چشمگیرت در هالبرشتات کار GLA تقریباً تمام است. اطلاعات آمریکا آخرین دژ GLA را بیرون از هامبورگ پیدا کرده. متأسفانه برای کمک به آمریکایی‌ها در این منطقه دیر رسیدیم و GLA پایگاهشان را تصرف کرد. نیروهایت را بساز و هر دو پایگاه GLA و آمریکا را نابود کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf02Subtitle",
+  "text": "*GLA یک پایگاه قدیمی آمریکا را در منطقه تصرف کرده و در حال تقویت است. هدف نهایی‌ات نابودی هر دو پایگاه آمریکا و GLA است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf03Subtitle",
+  "text": "*GLA توانایی‌های پنهان‌کاری‌اش را بیشتر کرده، ژنرال. حالا تقریباً هر چیزی را می‌توانند پنهان کنند. باید هوشیار بمانیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf04Subtitle",
+  "text": "*با پاسگاه‌های شنود یگان‌های پنهان را شناسایی کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xBrf05Subtitle",
+  "text": "*ژنرال، پیشنهاد می‌کنم اول حمله‌ات را روی پایگاه آمریکا متمرکز کنی. باید توپ‌های ذره‌ای‌شان را از میان برداریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xChat01Subtitle",
+  "text": "*انگار دنبال سوزن در انبار کاه می‌گردیم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin01Subtitle",
+  "text": "*سرجوخه! خبری از چینی‌ها نشد؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin02Subtitle",
+  "text": "*نه قربان، آخرین پیام ساعت ۰۲:۰۰ رسید... از آن به بعد هیچ"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin03Subtitle",
+  "text": "*خب، امیدوارم زود برسند. اطلاعات ما از حمله همه‌جانبه GLA خبر می‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin04Subtitle",
+  "text": "*بله، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin06Subtitle",
+  "text": "*این دیگر چه...!؟ تماس با دشمن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin07Subtitle",
+  "text": "*پایگاهمان شکسته شد... همه یگان‌ها سر پست! پس چینی‌هایی که قولشان را داده بودند کجایند!؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin08Subtitle",
+  "text": "*نارنجک! بخوابید! نارنجک!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin09Subtitle",
+  "text": "*از کجا پیدایشان شد؟!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xCin10Subtitle",
+  "text": "*دارند ساختمان‌هایمان را تصرف می‌کنند! نمی‌توانیم مقاومت کنیم! همه یگان‌ها، عقب‌نشینی! تکرار می‌کنم، عقب‌نشینی!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO01Subtitle",
+  "text": "*همین است! برق پایگاه آمریکا قطع شد! پیش از آنکه دوباره بسازند سریع کارشان را تمام کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO02Subtitle",
+  "text": "*آفرین، ژنرال. دشمن دیگر نمی‌تواند یگان آمریکایی بسازد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO03Subtitle",
+  "text": "*آفرین، ژنرال. دشمن دیگر نمی‌تواند یگان GLA بسازد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO04Subtitle",
+  "text": "*آفرین، ژنرال. پایگاه آمریکا خنثی شد. پایگاه GLA را نابود کن تا این نبرد تمام شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO05Subtitle",
+  "text": "*آفرین، ژنرال. پایگاه GLA خنثی شد. پایگاه آمریکا را نابود کن تا این نبرد تمام شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO06Subtitle",
+  "text": "*باید کاری را که آمریکا نتوانست تمام کنیم. GLA باید سقوط کند تا جهان در آرامش باشد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO07Subtitle",
+  "text": "*اگر بتوانیم GLA را شکست دهیم و اروپا را از چنگالش نجات دهیم، پاداش‌های بزرگی در انتظار است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO08Subtitle",
+  "text": "*ژنرال، جایگاهت در میان بزرگ‌ترین قهرمانان چین خواهد بود. GLA سقوط کرده و چین فانوس درخشان جهانی نو است. جایگاه افتخارت را بگیر و در شکوه چین غرق شو"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO09Subtitle",
+  "text": "*ژنرال، دشمن توانایی پنهان‌کاری‌اش را بهتر کرده، اما به نظر نمی‌رسد از تانک استفاده کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO10Subtitle",
+  "text": "*ژنرال، فرمانده GLA تانک کم دارد. شاید بتوانیم با نیروهایمان زیرش کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO11Subtitle",
+  "text": "*ژنرال، به خاطر جارمن کل خودرو از دست می‌دهیم. اگر می‌خواهیم شانسی داشته باشیم باید ردش را بگیری"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO12Subtitle",
+  "text": "*ژنرال، دشمن از هایجکر استفاده می‌کند! باید متوقفشان کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO13Subtitle",
+  "text": "*ژنرال، دشمن در روستاهای محلی تک‌تیرانداز گذاشته. باید پاکشان کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO14Subtitle",
+  "text": "*ژنرال، به خاطر توپ‌های چهارلول دشمن سرباز از دست می‌دهیم، اینجا زره سنگین لازم داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO15Subtitle",
+  "text": "*ژنرال، اطلاعات کنونی نشان می‌دهد جارمن کل ممکن است در این روستای کوچک پناه گرفته باشد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO16Subtitle",
+  "text": "*ژنرال، پایگاه دشمن ظاهراً آن سوی این رودخانه است. شاید بتوانیم با گذاشتن نیرو نزدیک پل‌ها محاصره‌اش کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO17Subtitle",
+  "text": "*ژنرال، در میدان خودروهای بی‌راننده زیادی داریم... یگان بفرست تا پسشان بگیرند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO18Subtitle",
+  "text": "*قربان! در بخش C اتوبوس‌های جنگی دیده‌ایم. باید پیش از رسیدن به پایگاهمان کارشان را بسازیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO19Subtitle",
+  "text": "*ژنرال، دشمن یگان‌هایی را پنهانی وارد پایگاهمان کرده! باید دفاعمان را بهتر کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO20Subtitle",
+  "text": "*ژنرال، دشمن به پایگاهمان نفوذ کرده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO21Subtitle",
+  "text": "*ژنرال! نابودی مرکز فرماندهی آمریکا پشتیبانی هوایی سنگینش را متوقف می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO22Subtitle",
+  "text": "*ژنرال، باید مرکز اینترنت را هرچه سریع‌تر بسازیم. به یافتن موقعیت‌های دشمن کمکمان می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO23Subtitle",
+  "text": "*ژنرال، دشمن جناحش را بی‌دفاع گذاشته! حالا فرصت ضدحمله است!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI05xXO24Subtitle",
+  "text": "*ژنرال، آمریکایی‌ها فناوری برتری در شناسایی یگان‌های پنهان دارند. شاید بهتر باشد این پایگاه را تصرف کنی نه نابود"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi07RedGuard108Subtitle",
+  "text": "*کمین!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion105Subtitle",
+  "text": "*چینی‌ها نزدیک‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion108Subtitle",
+  "text": "*یک راه مخفی پیدا کردیم. نگهبانی ضعیفی دارد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01Scorpion109Subtitle",
+  "text": "*زیر آتشیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat01Subtitle",
+  "text": "*سازه‌های دفاعی دشمن دیده شد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat02Subtitle",
+  "text": "*موقعیت دشمن دیده شد! باید راهی برای رد شدن از آن‌ها پیدا کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat03Subtitle",
+  "text": "*گشت دشمن! همه یگان‌ها، آتش!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat04Subtitle",
+  "text": "*پهپادهای نگهبان آمریکایی! پیش از آنکه آژیر بکشند سریع نابودشان کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat05Subtitle",
+  "text": "*ببین چطور دست‌وپایشان را گم کرده‌اند! حمله‌مان کاملاً غافلگیرانه بود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat06Subtitle",
+  "text": "*مهاجمان آمریکایی نزدیک می‌شوند! باید موقعیتمان را حفظ کنیم، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat07Subtitle",
+  "text": "*غافلگیری کامل بود! همه یگان‌ها، روی نیروگاه‌هایشان تمرکز کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xChat08Subtitle",
+  "text": "*ژنرال! تلفات سنگینی می‌دهیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin01Subtitle",
+  "text": "*گشت به پایگاه: هدف پیدا شد و در تعقیبیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin02Subtitle",
+  "text": "*توجه، کارزار بمباران آغاز شده. مراقب باش، گشت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin03Subtitle",
+  "text": "*دریافت شد، پایگاه. من سمت راستم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin04Subtitle",
+  "text": "*من چپ را می‌گیرم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin05Subtitle",
+  "text": "*زیر آتشم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin06Subtitle",
+  "text": "*دنبالشان کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin07Subtitle",
+  "text": "*مراقب باش!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin08Subtitle",
+  "text": "*پایگاه! چارلی سه سقوط کرد! تکرار می‌کنم: چارلی سه سقوط کرد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin09Subtitle",
+  "text": "*تعقیب را ادامه بده، چارلی دو! این بهترین فرصت ما برای گرفتن اوست!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin10Subtitle",
+  "text": "*اسکورت‌ها از میان رفتند! گرفتمش!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin11Subtitle",
+  "text": "*نههههه!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin12Subtitle",
+  "text": "*هه هه. ژنرال، فرار کردیم... و به سمت نقطه ملاقات می‌رویم. GLA دوباره برمی‌خیزد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin13Subtitle",
+  "text": "*تأیید. تیم دیده‌بانی حرکت می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin14Subtitle",
+  "text": "*اینجا تیم دیده‌بانی. هیچ حضوری از دشمن نمی‌بینیم. صبر کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin15Subtitle",
+  "text": "*کمین آمریکایی! محاصره‌مان کرده‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xCin16Subtitle",
+  "text": "*پهپادهای نگهبان! این آمریکایی‌ها خیلی زرنگ‌اند. پهپادهایشان وقتی بی‌حرکت‌اند پنهان‌اند. باید با احتیاط پیش بروی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen01Subtitle",
+  "text": "*آمریکایی‌ها دژ ما را با ایست‌های بازرسی نظامی محاصره کرده‌اند. باید راه را باز کنی"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen02Subtitle",
+  "text": "*ژنرال، باید به فرار رهبر واقعی‌مان کمک کنی تا GLA زنده بماند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen03Subtitle",
+  "text": "*دکتر تراکس شاید در راه آرمان مرده باشد، اما اهمیتی نداشت. اگر برادرمان بگریزد، آمریکا هنوز آخرین روی GLA را ندیده"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen04Subtitle",
+  "text": "*ژنرال. دفاع پایگاه آتش اطراف این موقعیت آمریکایی خیلی قوی است. باید از رویارویی مستقیم پرهیز کنیم و راه دیگری به پایگاه پیدا کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen05Subtitle",
+  "text": "*نیروهایت را عقب نگه دار، ژنرال. تیمی را برای شناسایی آن سوی پل می‌فرستیم. موقعیت‌های دشمن را گزارش می‌دهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen06Subtitle",
+  "text": "*ژنرالم. یکی از تیم‌های ضربت سریع ما توانسته از دست تعقیب‌کنندگان آمریکایی‌اش فرار کند و پذیرفته در مأموریتمان کمک کند. غلاف‌های راکتشان در برابر زره دشمن بسیار به کار می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen07Subtitle",
+  "text": "*یکی از تیم‌های تخریب خودمان را پیدا کردیم. با نابود کردن پایگاه‌های پشتیبانی دورافتاده آمریکا راه را برایمان باز می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen08Subtitle",
+  "text": "*ژنرال. باید پیش از رسیدن هواپیمای ترابری فرودگاه را ایمن کنیم. بقای GLA به موفقیت تو بستگی دارد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen09Subtitle",
+  "text": "*موتورسیکلت‌های رزمی ما بسیار همه‌کاره‌اند. توانایی‌های پیاده‌نظام وفادارمان را بیشتر می‌کنند و از زمین‌های ناهموار می‌گذرند. حتی از پریدن از صخره‌ها جان سالم به در می‌برند. با آن‌ها دژهای آمریکا را دور بزن و به جناح‌های آسیب‌پذیرشان حمله کن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen10Subtitle",
+  "text": "*ژنرال! آمریکایی‌ها گروه دوم تعقیب‌کنندگان را برای گرفتن رهبرمان فرستاده‌اند. به هر قیمتی از او محافظت کن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen11Subtitle",
+  "text": "*ژنرال، این پایگاه پنهان منابع لازم برای عبور از محاصره آمریکا و رسیدن به فرودگاه را فراهم می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen12Subtitle",
+  "text": "*ژنرال، رهبرمان زیر حمله است! نباید به دست آمریکایی‌ها بیفتد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen13Subtitle",
+  "text": "*ژنرال، نیروهایت خیلی از رهبرمان جلو افتاده‌اند. یادت باشد اگر می‌خواهیم آرمانمان زنده بماند او باید به فرودگاه برسد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen14Subtitle",
+  "text": "*یک پایگاه آمریکایی دیگر. باید از میان برداشته شود. مراقب پایگاه‌های آتششان باش، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen15Subtitle",
+  "text": "*به فرودگاه نزدیکیم، ژنرال. نیروهای آمریکایی را نابود کن و منطقه را ایمن کن تا رهبرمان را با هواپیما به جای امن ببریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen16Subtitle",
+  "text": "*آفرین، ژنرال. با فرماندهی تو شکست نمی‌خوریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen17Subtitle",
+  "text": "*به فرودگاه رسیدیم، قربان. مطمئن شو رهبرمان وقتی هواپیمایش می‌رسد روی باند آماده و منتظر است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen18Subtitle",
+  "text": "*هواپیمایمان در حال نزدیک شدن است، ژنرال! فقط کمی بیشتر دوام بیاور. رهبرمان باید زنده بماند تا سوار آن هواپیما شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen19Subtitle",
+  "text": "*هواپیما رسید. رهبرمان را سوار کن تا او را به جای امن ببریم و دوباره سازمان بیابیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen20Subtitle",
+  "text": "*هواپیما منتظر سوار شدن رهبرمان است. عجله کن و او را بیاور، ژنرال. نیروهایمان نمی‌توانند تا ابد در برابر آمریکایی‌ها مقاومت کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen21Subtitle",
+  "text": "*مأمورمان جارمن کل خطوط تدارکات آمریکا را آزار داده است. کمک بزرگی به مأموریتمان خواهد بود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen22Subtitle",
+  "text": "*کار عالی، ژنرال. به آمریکایی‌ها نشان می‌دهیم هنوز توان مقاومت داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen23Subtitle",
+  "text": "*یک نیروی دیده‌بانی پیشرو پیدا کردیم، ژنرال. پیشنهاد کمک در مأموریتمان را داده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen24Subtitle",
+  "text": "*ژنرال! نیروگاه‌های آمریکایی را نابود کن تا دفاع پایگاهشان خاموش شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA01xKen25Subtitle",
+  "text": "*نیروهایمان ضعیف شده‌اند، ژنرال. باید نبردهایمان را عاقلانه‌تر انتخاب کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02Chatter04Subtitle",
+  "text": "*اینجاییم و آماده فرمانت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02Chatter18Subtitle",
+  "text": "*این هم از برتری آمریکایایی‌ها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02General07Subtitle",
+  "text": "*نیروهای آمریکا دارند می‌آیند. آماده باشید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat01Subtitle",
+  "text": "*دشمن، دارند حمله می‌کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat02Subtitle",
+  "text": "*مقاومت خیلی قوی است، باید راه دیگری باشد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat03Subtitle",
+  "text": "*شاهزاده باید متوقف شود. GLA نباید به دست او بیفتد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat04Subtitle",
+  "text": "*پایگاهمان زیر حمله است!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat05Subtitle",
+  "text": "*کاخمان نابود شد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat06Subtitle",
+  "text": "*پادگانمان را از دست دادیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xChat07Subtitle",
+  "text": "*باید سریع دلال اسلحه‌مان را دوباره بسازیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin01Subtitle",
+  "text": "*دیده‌بان ۱ به پایگاه. گشتم را تمام می‌کنم. منطقه پاک است"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin02Subtitle",
+  "text": "*اینجا پایگاه. مطمئنی دیده‌بان ۱؟ گزارش‌هایی از جابه‌جایی نیروهای وابسته به شاهزاده قصاد داشته‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin03Subtitle",
+  "text": "*کاملاً مطمئنم. ساعت‌هاست جز گردوخاک و بوته چیزی ندیده‌ام. بعد از این به پایگاه برمی‌گردم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin04Subtitle",
+  "text": "*این دیگر چیست؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin05Subtitle",
+  "text": "*دیده‌بان ۱ به پایگاه! تماس با دشمن! تکرار می‌کنم، تماس با دشمن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin06Subtitle",
+  "text": "*دیده‌بان ۱! موقعیتت کجاست؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin07Subtitle",
+  "text": "*دارد آماده شلیک می‌شود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin08Subtitle",
+  "text": "*دیده‌بان ۱، وضعیتت؟ دیده‌بان ۱! گزارش بده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin09Subtitle",
+  "text": "*وقتی شاهزاده قصاد از میان برداشته شود، GLA زیر فرمان ما خواهد بود. آن‌وقت انتقام از آن ما می‌شود و کافران آمریکایی می‌سوزند"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xCin10Subtitle",
+  "text": "*شاهزاده قصاد هر جا بتواند قدرت را به دست می‌گیرد. باید به تلاشش برای قدرت پایان دهیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen01Subtitle",
+  "text": "*ژنرال، منابعمان رو به اتمام است -- باید منبع تازه‌ای برای تدارکات پیدا کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen02Subtitle",
+  "text": "*قصاد می‌خواهد منابع نزدیک را تصرف کند! نباید بگذاریم آنچه حق ماست را بگیرد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen03Subtitle",
+  "text": "*باید GLA را زیر یک رهبر متحد کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen04Subtitle",
+  "text": "*مراقب باش! قصاد حمله غافلگیرانه‌ای علیه ما کرده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen05Subtitle",
+  "text": "*ما برنامه‌هایی بسیار بزرگ‌تر از آن موش قصاد داریم. وقتی خشم GLA را رها کنیم جهان به لرزه درمی‌آید"
+ }
+]

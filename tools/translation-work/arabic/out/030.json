@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle073Subtitle",
+  "text": "*كل هؤلاء الجنود أيها الجنرال. لم تكن تنوي فعلًا الاندفاع نحوي بهم، صحيح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle074Subtitle",
+  "text": "*قاعدة لا بأس بها لديك أيها الجنرال. تذكّرت أن تباعد بين مبانيك لتتجنب ضربات الأسلحة، صح؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle075Subtitle",
+  "text": "*هل تعرف كم سيستغرق تنظيف ذلك؟!؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle076Subtitle",
+  "text": "*أخرج هذا الإشعاع المقرف من قاعدتي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle077Subtitle",
+  "text": "*هيه، هذا مدفع الجسيمات خاصتي! غير مصرّح لك باستخدامه!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle078Subtitle",
+  "text": "*هل هذه حركة تكتيكية، أم أنك تختبئ فقط؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle079Subtitle",
+  "text": "*العقيد بيرتون؟ حقًا؟ أتظن أنه سيساعدك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle080Subtitle",
+  "text": "*اللوتس الأسود؟ أظنها مواجهة نسائية بامتياز، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle081Subtitle",
+  "text": "*جارمن كيل! الأفضل أن يبتعد عن دباباتي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle082Subtitle",
+  "text": "*مطار جميل أيها الجنرال--فقط أبعد تلك الطائرات عن مدفع الجسيمات خاصتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle083Subtitle",
+  "text": "*مصنع حرب؟ ستهاجمني بجدية، أليس كذلك؟ آن الأوان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle084Subtitle",
+  "text": "*برافو عليك - تستطيع بناء ثكنات"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle085Subtitle",
+  "text": "*تبيع مبانيك؟ هل هذا جزء من تصفية نهائية بمناسبة الإغلاق؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle086Subtitle",
+  "text": "*لماذا لا تستسلم فقط؟ عندي أشياء أفضل أفعلها اليوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle087Subtitle",
+  "text": "*لماذا لا أجد أبدًا واحدًا يصمد أكثر من 5 دقائق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle088Subtitle",
+  "text": "*يبدو أنك تخسر أيها الجنرال. ماذا قلت لك عن التخطيط للفشل؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle089Subtitle",
+  "text": "*يا له من ضرب مبرّح تتلقاه أيها الجنرال. هل أنت مستعد للمزيد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle090Subtitle",
+  "text": "*كنت أود أن أقول \"معركة جيدة\"، لكن من الواضح أن عقلك لم يكن فيها أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle091Subtitle",
+  "text": "*لا أصدق أنك تضرب فتاة بهذا الشكل"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle092Subtitle",
+  "text": "*أحتاج إلى وقت للتفكير. ابتعد أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle093Subtitle",
+  "text": "*تكتيكاتك بعيدة عن الروح الرياضية أيها الجنرال. العب بلطف!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle094Subtitle",
+  "text": "*أيها الجنرال، انظر هناك! أحدهم يستولي على مبانيك! لم تصدّق، هاه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle095Subtitle",
+  "text": "*تعرف، لو كنت رجلًا نبيلًا لأمهلتني خمس دقائق لأعيد بناء دفاعاتي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle096Subtitle",
+  "text": "*ماذا؟! انتهى؟ حسنًا، كان الرقص معك لطيفًا أيها الجنرال. ربما في المرة القادمة أقود أنا"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle097Subtitle",
+  "text": "*أسلحتي الخارقة جاهزة... وأنت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle098Subtitle",
+  "text": "*لن تخترق دفاعاتي أبدًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle099Subtitle",
+  "text": "*تكتيكات الاندفاع خاصتك لن تنفع معي"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle100Subtitle",
+  "text": "*هذا ليس عدلًا! سلاح خارق واحد آخر وكنت هزمتك أيها الجنرال. تحدّني مرة أخرى، أتحداك"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle101Subtitle",
+  "text": "*قلت لك إنك لن تهزم أسلحتي الخارقة أبدًا أيها الجنرال. أتريد المحاولة مجددًا؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle102Subtitle",
+  "text": "*مرحبًا أيها الجنرال. هل أنت مستعد للبدء؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle103Subtitle",
+  "text": "*أوه، ما هذا الصوت؟ الآن أرى ضوءًا في السماء... همم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle104Subtitle",
+  "text": "*يا إلهي!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle106Subtitle",
+  "text": "*أوه يا عزيزي... آسفة أيها الجنرال، لكن هذه طريقتي في قول \"مرحبًا\". حسنًا، حظًا موفقًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle107Subtitle",
+  "text": "*حسنًا، حظًا موفقًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina001Subtitle",
+  "text": "*يستخدم الأمريكيون طائرة الحراسة المسيّرة نظامًا للإنذار المبكر برصد العدو. تصبح غير مرئية حين لا تتحرك، ورأينا بعضها مزوّدًا برشاشات. ليست ندًا للدبابات، لكنها قد تسبب مشكلات للمشاة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina002Subtitle",
+  "text": "*دبابة الميكروويف الأمريكية مدفع موجات دقيقة كبير يعطّل المنشآت والمركبات. إشعاعها قد يؤذي المشاة أيضًا، فأبقِ رجالنا على مسافة آمنة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina003Subtitle",
+  "text": "*الأفنجر مركبة أمريكية مضادة للطائرات تعمل بالليزر، قادرة على إسقاط الصواريخ والطائرات. وتساعد الوحدات الأمريكية الأخرى على استهداف طائراتنا، لذا يجب اعتبارها هدفًا ذا أولوية حين تُصادَف ضمن مجموعة قتالية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina004Subtitle",
+  "text": "*الحربية سبكتر طائرة نفاثة كبيرة مثبّتة على جانبها أنظمة أسلحة متعددة تتيح لها التحليق حول منطقة الهدف وإمطارها بالموت من السماء. هندسة أمريكية نموذجية--يقتلون الذبابة بالمدفع"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina005Subtitle",
+  "text": "*ترقية البدلات الكيميائية تجعل المشاة أكثر مقاومة للسموم والإشعاع"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina006Subtitle",
+  "text": "*ترقية التدابير المضادة الأمريكية تقلل فاعلية النيران المعادية على وحداتهم الجوية. كثيرًا ما تخطئ الصواريخ، ويُحدث الرصاص ضررًا أقل"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina007Subtitle",
+  "text": "*ترقية طائرة هيلفاير المسيّرة الأمريكية تنشئ طائرة مسيّرة تدافع عن المركبة الأم بنظام صواريخ هيلفاير آلي"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina008Subtitle",
+  "text": "*مدمّر المخابئ ترقية للمقاتلة الشبحية والأورورا الأمريكيتين مصممة لاختراق المباني المحصنة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina009Subtitle",
+  "text": "*خطوط الإمداد ترقية تزيد معدل جمع الأمريكيين للموارد من مستودعات الإمداد وإسقاطات الإمداد وأبراج النفط"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina010Subtitle",
+  "text": "*أدرك الجنرالات الأمريكيون حكمة الدعاية. بإلقاء المنشورات يستطيعون تعطيل الوحدات مؤقتًا بينما تتوقف لقراءة الدعاية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina011Subtitle",
+  "text": "*أم القنابل ترقية لقنبلة الوقود الجوي الأمريكية تضيف قدرة الصعق، فتعطّل الوحدات والمنشآت الناجية مؤقتًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina012Subtitle",
+  "text": "*قاعدة النيران الأمريكية موقع دفاعي محاط بأكياس الرمل، فيه مدفع هاوتزر و4 مواقع لإطلاق النار"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina013Subtitle",
+  "text": "*قنبلة النابالم ترقية لمروحية الهيليكس لدينا تتيح لها إلقاء قنبلتين تُحدثان عاصفة نارية كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina014Subtitle",
+  "text": "*موقع التنصت لدينا مركبة بطيئة متخفية ذات مدى رؤية واسع، ويمكن أن يتحصن فيها جنديا مشاة كحارسين. إضافة إلى كشف الأجسام المتخفية، يمكن استخدامها لمعرفة وجهات العدو بالنقر على الوحدات في مداها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina015Subtitle",
+  "text": "*الهيليكس 2 لدينا مروحية نقل بطيئة تحمل المشاة أو مركبة واحدة. ومع أنها مسلحة برشاش خفيف، يمكن ترقيتها بمدفع جاتلينج أو برج دعاية أو مخبأ قتالي، ويمكن ترقيتها أيضًا لحمل قنبلة نابالم كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina016Subtitle",
+  "text": "*دبابة التشويش الإلكتروني تربك أنظمة التتبع الإلكترونية فتحرف صواريخ العدو. ويمكن استخدام نبضتها الكهرومغناطيسية لتعطيل مركبة معادية واحدة، كما تنشئ مجالًا للتشويش الراداري يعطّل كل الطائرات المسيّرة في مداها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina017Subtitle",
+  "text": "*القذيفة النيوترونية ترقية لمدفعنا النووي تتيح له إطلاق قذائف نيوترونية. تقتل هذه القذائف كل المشاة وسائقي المركبات داخل نطاق الانفجار"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina018Subtitle",
+  "text": "*يتيح اختراق الأنظمة للهاكرز لديك سرقة قدرة جنرال عشوائية من أعدائنا. المستوى 1 يتيح سرقة قدرة من فئة النجمة الواحدة أو الثلاث نجوم، والمستوى 2 يتيح سرقة قدرة من فئة الخمس نجوم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina019Subtitle",
+  "text": "*طائرة القصف السجادي الجديدة لدينا تُلقي سلسلة من القنابل على مسار محدد، فتحصد كل قوات العدو"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina020Subtitle",
+  "text": "*ألغامنا النيوترونية بديل للألغام المتفجرة العادية. تعطّل المركبات فورًا وتقتل أي مشاة قريبين"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina021Subtitle",
+  "text": "*الهاكرز لدينا، الذين كانوا عرضة للهجوم، سيجدون الأمان وقدرة أكبر على الاختراق في مركز الإنترنت الجديد"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina022Subtitle",
+  "text": "*اختراق الأقمار الصناعية I ترقية لمركز الإنترنت تكشف ما حول مركز قيادة كل خصم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina023Subtitle",
+  "text": "*اختراق الأقمار الصناعية II ترقية لمركز الإنترنت تكشف الخريطة كلها مؤقتًا، بما فيها قوات العدو المتخفية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina024Subtitle",
+  "text": "*مخرّب جيش التحرير العالمي وحدة مشاة متخفية تستطيع تسلق المنحدرات والتأثير في مباني العدو بدخولها. دخوله محطة طاقة يقطع الكهرباء مؤقتًا، ودخوله سلاحًا خارقًا يعيد تصفير مؤقته. والمخرّب الذي يدخل مركز قيادة العدو يعيد تصفير مؤقتات كل قدرات جنرالات العدو"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina025Subtitle",
+  "text": "*تأتي الدراجة القتالية في البداية مع سائق متمرد ورشاش مثبّت. يمكن استبدال المتمرد بأي جندي آخر من جيش التحرير العالمي فتكتسب الدراجة قدراته الفريدة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina026Subtitle",
+  "text": "*تتسع حافلة القتال لـ 8 جنود مشاة يطلقون النار من النوافذ. وإن دُمّرت تبقى مقصورتها الفولاذية الثقيلة كالمخبأ"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina027Subtitle",
+  "text": "*رقّى جيش التحرير العالمي عماله بالأحذية ليعتصر مزيدًا من العمل القسري من فلاحيه"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina028Subtitle",
+  "text": "*شباك التمويه ترقية لمنشآت الدفاع في قواعد جيش التحرير العالمي تجعلها متخفية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina029Subtitle",
+  "text": "*بدأ جيش التحرير العالمي بتحصين جنود حرس النخبة المسلحين بقاذفات آر بي جي في كل منشآته. احذر عند التسلل إلى أي من قواعده"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina030Subtitle",
+  "text": "*تمكّن ترقية الفخ المفخخ المتمرد من توصيل المنشآت والمركبات المدنية بمتفجرات تنفجر حين يحاول العدو الاستيلاء عليها أو التحصن فيها. انتبه للمتمردين الذين يتسكعون حول المباني في منطقتك"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina031Subtitle",
+  "text": "*بلغت حيل جيش التحرير العالمي مستوى جديدًا. إنهم يبنون مباني وهمية تشبه مبانيهم الحقيقية، لكنها مجرد واجهات مفخخة. دمّر كل شيء من بعيد لتتجنب مفاجآتهم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina032Subtitle",
+  "text": "*يستهدف مشوّش GPS منطقة من الوحدات ويجعلها غير مرئية لوسائل الرصد العادية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina033Subtitle",
+  "text": "*تتيح قدرة الهجوم المباغت لجنرالات جيش التحرير العالمي وضع شبكة أنفاق بلا دفاعات في أي مكان استكشفوه. ومع أنها أضعف قليلًا من النفق العادي، فهي متصلة بالشبكة الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina034Subtitle",
+  "text": "*منصة المدفعية مدفع ثابت قادر وحده على حماية منطقة من هجمات العدو. يجب أن يكون الاستيلاء عليها أولوية في أي ساحة معركة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina035Subtitle",
+  "text": "*تتيح منصة التعزيزات إسقاطًا جويًا دوريًا ومجانيًا للمدرعات. دبابات باتل ماستر المجانية قادرة على قلب موازين أي معركة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina036Subtitle",
+  "text": "*حين يُستولى على مبنى ورشة الإصلاح التقني يتيح إصلاح أي مركبة برية في الميدان. إصلاح المدرعات المتضررة في المواقع الأمامية قد يصنع الفرق بين النصر والهزيمة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA001Subtitle",
+  "text": "*احذر طائرة الحراسة الأمريكية المسيّرة أيها الجنرال؛ فهي ترى الوحدات المتخفية وغالبًا ما تحمل رشاشًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA002Subtitle",
+  "text": "*لدبابة الميكروويف الأمريكية شعاع يعطّل المنشآت والوحدات. يجب ألا تُهاجَم إلا بمجموعات كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA003Subtitle",
+  "text": "*لدبابة الوارلوك الأمريكية شعاع يعطّل المنشآت والوحدات. يجب ألا تُهاجَم إلا بمجموعات كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA004Subtitle",
+  "text": "*الأفنجر الأمريكية مركبة قوية مضادة للطائرات تعمل بالليزر... لكن ليست لدينا طائرات، فخطرها علينا ضئيل"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA005Subtitle",
+  "text": "*الحربية سبكتر الأمريكية طائرة كبيرة بمدافع كبيرة. لا تشتبك معها--احتمِ تحت الأرض حتى تغادر المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA006Subtitle",
+  "text": "*بترقية البدلات الكيميائية يصبح مشاة العدو أكثر مقاومة لسمومنا. لكن ذلك لن يوقف رصاصنا، أليس كذلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA007Subtitle",
+  "text": "*ترقية التدابير المضادة تقلل تأثير نيران العدو على الوحدات الجوية الأمريكية. كثيرًا ما تخطئ الصواريخ، ويُحدث الرصاص ضررًا أقل"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA008Subtitle",
+  "text": "*ترقية طائرة هيلفاير المسيّرة الأمريكية طائرة لعبة صغيرة مربوط بها صاروخ. مثال آخر على تكتيكات الأمريكيين الجبانة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA009Subtitle",
+  "text": "*قنبلة مدمّر المخابئ ترقية للمقاتلة الشبحية والأورورا الأمريكيتين. يستخدمونها لمحاولة مهاجمة مخابئنا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA010Subtitle",
+  "text": "*خطوط الإمداد ترقية تزيد معدل جمع الأمريكيين للموارد من مستودعات الإمداد وإسقاطات الإمداد وأبراج النفط"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA011Subtitle",
+  "text": "*إلقاء المنشورات الأمريكي يعطّل وحداتنا مؤقتًا بينما تتوقف لقراءة الدعاية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA012Subtitle",
+  "text": "*أم القنابل ترقية لقنبلة الوقود الجوي تضيف قدرة الصعق، فتعطّل الوحدات والمنشآت الناجية مؤقتًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA013Subtitle",
+  "text": "*قاعدة النيران هي الرد الأمريكي على مواقع ستينغر لدينا... لكن احذر المدفع الكبير في وسطها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA014Subtitle",
+  "text": "*قنبلة النابالم الصينية ترقية للهيليكس تتيح لها إلقاء قنبلتين تُحدثان عاصفة نارية كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA015Subtitle",
+  "text": "*موقع التنصت مركبة بطيئة متخفية تستخدمها الصين للعثور على وحداتنا المتخفية. تجنبها لتبقى مخفيًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA016Subtitle",
+  "text": "*الهيليكس 2 الصينية مروحية نقل بطيئة تحمل المشاة أو مركبة واحدة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA017Subtitle",
+  "text": "*دبابة التشويش الإلكتروني الصينية مركبة تربك أنظمة التتبع الإلكترونية فتحرف صواريخ العدو"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA018Subtitle",
+  "text": "*القذيفة النيوترونية ترقية للمدفع النووي الصيني تتيح له إطلاق قذائف نيوترونية. تقتل هذه القذائف كل المشاة وسائقي المركبات داخل نطاق الانفجار"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA019Subtitle",
+  "text": "*تتيح تقنية اختراق الأنظمة الصينية الجديدة للهاكرز سرقة قدرة عشوائية من أعدائهم. هذه عاقبة الاعتماد على القدرات في خوض الحروب"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA020Subtitle",
+  "text": "*قاذفة القصف السجادي طائرة تُلقي سلسلة من القنابل على مسار محدد، فتحصد العدو"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA021Subtitle",
+  "text": "*الألغام النيوترونية بديل للألغام الصينية العادية تعطّل المركبات، وما زالت تقتل المشاة أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA022Subtitle",
+  "text": "*يتيح مركز الإنترنت للهاكرز الصينيين زيادة فاعليتهم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA023Subtitle",
+  "text": "*اختراق الأقمار الصناعية I ترقية لمركز الإنترنت تتيح للصين رؤية مركز قيادة كل خصم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA024Subtitle",
+  "text": "*اختراق الأقمار الصناعية II ترقية لمركز الإنترنت الصيني تكشف الخريطة كلها مؤقتًا، وتكشف الأجسام المتخفية أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA025Subtitle",
+  "text": "*المخرّب وحدة متخفية تستطيع تسلق المنحدرات والتأثير في مباني العدو بدخولها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA026Subtitle",
+  "text": "*دراجتنا القتالية الجديدة مزودة برشاشات مثبّتة، وتعززها قدرات أي جندي مشاة يركبها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA027Subtitle",
+  "text": "*حافلة القتال وسيلة نقل بطيئة تتسع لـ 8 جنود مشاة يستطيعون إطلاق النار منها. وإن دُمّرت يبقى هيكلها ويعمل كالمخبأ"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA028Subtitle",
+  "text": "*ترقية أحذية العمال تزيد سرعة كل عمالنا المخلصين وكفاءتهم في الجمع"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA029Subtitle",
+  "text": "*شباك التمويه ترقية لمنشآت الدفاع في قاعدتنا تجعلها متخفية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA030Subtitle",
+  "text": "*ترقية حرس النخبة قدرة للمنشأة تحصّن فيها 4 جنود آر بي جي"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA031Subtitle",
+  "text": "*الفخ المفخخ ترقية للمتمرد تتيح له توصيل المنشآت والمركبات المدنية بمتفجرات تنفجر حين يحاول العدو الاستيلاء عليها أو التحصن فيها. والمنشآت التي يستولي عليها تصبح مفخخة تلقائيًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA032Subtitle",
+  "text": "*يمكن بناء المباني الوهمية بتكلفة أقل بكثير. هذه المباني في البداية واجهات مفخخة، لكن يمكن ترقيتها إلى نسخ عاملة بالكامل من المنشأة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA033Subtitle",
+  "text": "*مشوّش GPS الذي حصلنا عليه حديثًا يستهدف منطقة من الوحدات ويجعلها غير مرئية للأعداء"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA034Subtitle",
+  "text": "*يتيح الهجوم المباغت لدينا وضع شبكة أنفاق بلا دفاعات في أي منطقة مستكشفة. ومع أنها أضعف قليلًا من النفق العادي، فهي متصلة بالشبكة الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA035Subtitle",
+  "text": "*تطلق منصة المدفعية سلاحًا يشبه سلاح مركز الاستراتيجية الأمريكي في المدى والضرر. استولِ عليها أو تجنّب مدفعها القاتل"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA036Subtitle",
+  "text": "*تُرسل منصة التعزيزات دوريًا مجموعة من دبابات سكوربيون لخدمة قضيتنا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA037Subtitle",
+  "text": "*ورشة الإصلاح منشأة إصلاح للمركبات على خط الجبهة. تصلح المركبات كما يفعل تاجر الأسلحة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA001Subtitle",
+  "text": "*طائرة الحراسة المسيّرة وحدة متحركة قادرة على تتبع تحركات العدو، بما فيها الوحدات المموّهة. وهي نفسها قادرة على التخفي حين لا تتحرك، ويمكن ترقيتها برشاش مضاد للأفراد من مركز الاستراتيجية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA002Subtitle",
+  "text": "*دبابة الميكروويف مسلحة بلوح موجات دقيقة موجّهة يعطّل المنشآت والمركبات المستهدفة، وتصدر أيضًا مجالًا متواصلًا من الموجات الدقيقة يؤذي المشاة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA003Subtitle",
+  "text": "*دبابة الوارلوك مسلحة بلوح موجات دقيقة موجّهة يعطّل المنشآت والمركبات المستهدفة، وتصدر أيضًا مجالًا متواصلًا من الموجات الدقيقة يؤذي المشاة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA004Subtitle",
+  "text": "*الأفنجر مركبة مضادة للطائرات تعمل بالليزر قادرة على إسقاط الصواريخ والطائرات. ويمكنها أيضًا منح مكافآت للوحدات التي تهاجم هدفها \"المعلَّم\""
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA005Subtitle",
+  "text": "*الحربية سبكتر طائرة نفاثة كبيرة مثبّتة على جناحيها أنظمة أسلحة متعددة. وهي تحلّق حول الهدف تلتقط الأعداء تلقائيًا. يُسمح بالاستهداف اليدوي، ويمكن ترقيتها لنشر التدابير المضادة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA006Subtitle",
+  "text": "*بترقية البدلات الكيميائية يصبح المشاة أكثر مقاومة للسموم والإشعاع"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA007Subtitle",
+  "text": "*ترقية التدابير المضادة تقلل تأثير نيران العدو على الوحدات الجوية الأمريكية. كثيرًا ما تخطئ الصواريخ، ويُحدث الرصاص ضررًا أقل"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA008Subtitle",
+  "text": "*ترقية طائرة هيلفاير المسيّرة تزوّد المركبة الأم بطائرة مسيّرة قادرة على إطلاق صاروخ واحد. تلتقط الأهداف تلقائيًا وتحتاج إلى وقت لإعادة التذخير"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA009Subtitle",
+  "text": "*مدمّر المخابئ ترقية للمقاتلة الشبحية والأورورا. إضافة إلى تأثيرها المعتاد، تُلحق هذه الصواريخ المطوّرة الضرر بالوحدات المتحصنة داخل المنشآت بل وتقتلها، ومنها قصر جيش التحرير العالمي وشبكة الأنفاق والمخبأ القتالي الصيني"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA010Subtitle",
+  "text": "*ترقية خطوط الإمداد تزيد المال المجموع من مستودعات الإمداد وإسقاطات الإمداد وأبراج النفط"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA011Subtitle",
+  "text": "*إلقاء المنشورات يعطّل الوحدات مؤقتًا بينما تتوقف لقراءة الدعاية. تنثر الطائرة المنشورات فوق المنطقة المستهدفة ويدوم التأثير فترة قصيرة فقط"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA012Subtitle",
+  "text": "*أم القنابل ترقية لقنبلة الوقود الجوي تضيف قدرة الصعق، فتعطّل الوحدات والمنشآت الناجية مؤقتًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA013Subtitle",
+  "text": "*قاعدة النيران محاطة بأكياس الرمل وفيها مدفع هاوتزر و4 مواقع لإطلاق النار. المشاة الذين يدخلونها يتخذون مواقع إطلاق النار خلف أكياس الرمل"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA014Subtitle",
+  "text": "*قنبلة النابالم ترقية للهيليكس تتيح لها إلقاء قنبلتين تُحدثان عاصفة نارية كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA015Subtitle",
+  "text": "*موقع التنصت مركبة بطيئة متخفية ذات مدى رؤية واسع، ويمكن أن يتحصن فيها جنديا مشاة كحارسين. إضافة إلى كشف الأجسام المتخفية، يمكن استخدامها لمعرفة وجهات العدو بالنقر على الوحدات في مداها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA016Subtitle",
+  "text": "*الهيليكس 2 مروحية نقل بطيئة تحمل المشاة أو مركبة واحدة. ومع أنها مسلحة برشاش خفيف، يمكن ترقيتها بمدفع جاتلينج أو برج دعاية أو مخبأ قتالي، ويمكن ترقيتها أيضًا لحمل قنبلة نابالم كبيرة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA017Subtitle",
+  "text": "*دبابة التشويش الإلكتروني مركبة تربك أنظمة التتبع الإلكترونية فتحرف صواريخ العدو. ويمكن استخدام نبضتها لتعطيل مركبات معادية منفردة، كما تنشئ مجالًا للتشويش الراداري يعطّل كل الطائرات المسيّرة في مداها"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA018Subtitle",
+  "text": "*القذيفة النيوترونية ترقية للمدفع النووي الصيني تتيح له إطلاق قذائف نيوترونية. تقتل هذه القذائف كل المشاة وسائقي المركبات داخل نطاق الانفجار"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA019Subtitle",
+  "text": "*يتيح اختراق الأنظمة للهاكرز لديك سرقة قدرة عشوائية من أعدائك. المستوى 1 يتيح سرقة قدرة من الفئة 1 أو 3، والمستوى 2 يتيح سرقة قدرة من فئة الخمس نجوم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA020Subtitle",
+  "text": "*قاذفة القصف السجادي طائرة تُلقي سلسلة من القنابل على مسار محدد، فتحصد العدو"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA021Subtitle",
+  "text": "*الألغام النيوترونية بديل للألغام الصينية العادية تعطّل المركبات، وما زالت تقتل المشاة أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA022Subtitle",
+  "text": "*يتيح مركز الإنترنت للهاكرز زيادة فاعليتهم في جلب المال، ويتيح استخدام اختراق الأقمار الصناعية I وII"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA023Subtitle",
+  "text": "*اختراق الأقمار الصناعية I ترقية لمركز الإنترنت تكشف ما حول مركز قيادة كل خصم"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA024Subtitle",
+  "text": "*اختراق الأقمار الصناعية II ترقية لمركز الإنترنت تكشف الخريطة كلها مؤقتًا، وتكشف الأجسام المتخفية أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA025Subtitle",
+  "text": "*المخرّب وحدة متخفية تستطيع تسلق المنحدرات والتأثير في مباني العدو بدخولها. دخوله محطة طاقة يقطع الكهرباء مؤقتًا، ودخوله سلاحًا خارقًا يعيد تصفير مؤقته. والمخرّب الذي يدخل مركز قيادة العدو يعيد تصفير مؤقتات كل قدرات جنرالات العدو"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA026Subtitle",
+  "text": "*تأتي الدراجة القتالية في البداية مع سائق متمرد ورشاش مثبّت. استبداله بجندي آر بي جي يتيح لها إطلاق الصواريخ، والإرهابي يجعلها دراجة انتحارية. ويستطيع جارمن كيل والخاطفون والمخرّبون ركوبها أيضًا فتصبح متخفية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA027Subtitle",
+  "text": "*شاحنة القتال وسيلة نقل بطيئة تتسع لـ 8 جنود مشاة يستطيعون إطلاق النار منها. وإن دُمّرت يبقى هيكلها ويعمل كالمخبأ. وإن دُمّر الهيكل يُقتل كل من بداخله"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA028Subtitle",
+  "text": "*ترقية أحذية العمال تزيد سرعة كل عمال جيش التحرير العالمي وكفاءتهم في الجمع"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA029Subtitle",
+  "text": "*شباك التمويه ترقية لمنشآت الدفاع في قواعد جيش التحرير العالمي تجعلها متخفية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA030Subtitle",
+  "text": "*ترقية حرس النخبة قدرة للمنشأة تحصّن فيها 4 جنود آر بي جي"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA031Subtitle",
+  "text": "*الفخ المفخخ ترقية للمتمرد تتيح له توصيل المنشآت والمركبات المدنية بمتفجرات تنفجر حين يحاول العدو الاستيلاء عليها أو التحصن فيها. يُلحق الانفجار الضرر بكل شيء ضمن نطاق صغير. والمنشآت التي يستولي عليها متمرد مطوَّر تصبح مفخخة تلقائيًا"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA032Subtitle",
+  "text": "*يمكن بناء المباني الوهمية بتكلفة أقل بكثير. هذه المباني في البداية واجهات مفخخة، لكن يمكن ترقيتها إلى نسخ عاملة بالكامل من المنشأة"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA033Subtitle",
+  "text": "*يستهدف مشوّش GPS منطقة من الوحدات ويجعلها متخفية عن الأعداء"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA034Subtitle",
+  "text": "*يتيح الهجوم المباغت وضع شبكة أنفاق بلا دفاعات في أي منطقة مستكشفة. ومع أنها أضعف قليلًا من النفق العادي، فهي متصلة بالشبكة الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA035Subtitle",
+  "text": "*منصة المدفعية مسلحة بمدفع هاوتزر من العيار الكبير. إنها سلاح إخماد ممتاز، ونقطة تجمّع جيدة لشن الهجمات"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA036Subtitle",
+  "text": "*تعزّز منصة التعزيزات اللاعب دوريًا بدبابة المعركة الرئيسية لفصيله (سكوربيون، باتل ماستر، كروسيدر)"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA037Subtitle",
+  "text": "*ورشة الإصلاح منشأة لإصلاح المركبات. يجب أن ترسو المركبات عندها كما ترسو عند مصنع الحرب"
+ },
+ {
+  "label": "TOOLTIP:Community",
+  "text": "نسب فوز كل جيش بناءً على كل الألعاب الملعوبة عبر الإنترنت"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildHelix",
+  "text": "وسيلة نقل ثقيلة\nتُرقّى بمنشآت دفاعية وقنبلة نووية\n\nقوي ضد: الدبابات، المركبات الخفيفة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "MAP:CHI01xListeningPostHint01",
+  "text": "تلميح:\nتُكشف فخاخ التفجير المخفية حين تكون ضمن مدى رؤية موقع التنصت"
+ },
+ {
+  "label": "OBJECT:SupW_PatriotBattery",
+  "text": "منظومة باتريوت كهرومغناطيسية"
+ },
+ {
+  "label": "CONTROLBAR:SupW_ConstructAmericaPatriotBattery",
+  "text": "منظومة باتريوت الكهرومغناطيسية (&M)"
+ },
+ {
+  "label": "CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery",
+  "text": "دفاع أرضي وجوي. يمكنه نقل موقع العدو إلى منظومات باتريوت القريبة\n\nالطاقة المطلوبة: 3"
+ },
+ {
+  "label": "MAP:USA03xBurtonSurvive",
+  "text": "رسالة واردة:\nيجب أن يبقى العقيد بيرتون حيًا"
+ },
+ {
+  "label": "MAP:MD_GLA04_GatherHint",
+  "text": "تلميح:\nحدّد شاحنات النقل وأمرها بجمع الموارد من منشأة السموم"
+ },
+ {
+  "label": "MAP:MD_GLA04_HospitalHint",
+  "text": "تلميح:\nالمستشفى يجعل وحداتك تُعالَج تلقائيًا"
+ },
+ {
+  "label": "MAP:MD_GLA04_TractorsHint",
+  "text": "تلميح:\nجرارات السموم تستطيع قتل الوحدات داخل المباني المحصنة"
+ },
+ {
+  "label": "OBJECT:AssaultTroopTransport",
+  "text": "ناقلة جنود هجومية"
+ },
+ {
+  "label": "OBJECT:AssaultListeningOutpost",
+  "text": "موقع هجومي"
+ },
+ {
+  "label": "UPGRADE:IsotopeStability",
+  "text": "استقرار النظائر"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "يمكّن رماة الرشاش الدوّار من الاستيلاء على مباني العدو والمباني التقنية"
+ },
+ {
+  "label": "OBJECT:Lazr_PatriotBattery",
+  "text": "برج دفاع ليزري"
+ },
+ {
+  "label": "SCIENCE:Infa_ChinaRedGuardTraining",
+  "text": "تدريب رماة الرشاش الدوّار"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaScienceRedGuardTraining",
+  "text": "سيُبنى جميع رماة الرشاش الدوّار كنخبة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncherBoss",
+  "text": "يطلق صاروخًا نوويًا. يبني ترقيات صينية مهمة\n\nالطاقة المطلوبة: 10\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannonBoss",
+  "text": "يطلق شعاع جسيمات إلى أي مكان في الخريطة\n\nالطاقة المطلوبة: 10\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBikeTerrorist",
+  "text": "سريعة ومتعددة الاستخدامات\nتأتي مع إرهابي\nضعيف ضد: الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSuperHacker",
+  "text": "يمكنه تعطيل مباني العدو ومركباته بفيروس حاسوبي أو اختراق الإنترنت لسرقة المال. مموّه\n\nقوي ضد: المباني\nضعيف ضد: المشاة، المركبات"
+ },
+ {
+  "label": "UPGRADE:Demo_SuicideBomb",
+  "text": "عمليات التفجير"
+ },
+ {
+  "label": "UPGRADE:AirF_StealthComanche",
+  "text": "كومانش شبحية"
+ },
+ {
+  "label": "UPGRADE:HighExplosiveTrap",
+  "text": "فخ تفجير شديد الانفجار"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_0",
+  "text": "تحدي جنرال القوات الجوية"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_1",
+  "text": "تحدي جنرال السموم"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_2",
+  "text": "تحدي الجنرال النووي"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_3",
+  "text": "تحدي جنرال الأسلحة الخارقة"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_4",
+  "text": "تحدي جنرال الدبابات"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_5",
+  "text": "تحدي جنرال الليزر"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_6",
+  "text": "تحدي جنرال التخفي"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_7",
+  "text": "تحدي جنرال المشاة"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_8",
+  "text": "تحدي جنرال التفجير"
+ },
+ {
+  "label": "OBJECT:RocketDrop",
+  "text": "صاروخ"
+ },
+ {
+  "label": "OBJECT:RocketBomb",
+  "text": "صاروخ"
+ },
+ {
+  "label": "OBJECT:PTBoat",
+  "text": "زورق طوربيد"
+ },
+ {
+  "label": "OBJECT:ShiekLimo",
+  "text": "ليموزين"
+ },
+ {
+  "label": "OBJECT:Dock",
+  "text": "رصيف"
+ },
+ {
+  "label": "OBJECT:RailroadBridgeH",
+  "text": "جسر سكة حديد"
+ },
+ {
+  "label": "OBJECT:RepairDrone",
+  "text": "طائرة إصلاح مسيّرة"
+ },
+ {
+  "label": "OBJECT:CINE_Carrier",
+  "text": "حاملة طائرات"
+ },
+ {
+  "label": "OBJECT:SpectreGunship",
+  "text": "الحربية سبكتر"
+ },
+ {
+  "label": "SCIENCE:LaserCannon",
+  "text": "مدفع ليزر"
+ },
+ {
+  "label": "OBJECT:LaserCannon",
+  "text": "مدفع ليزر"
+ },
+ {
+  "label": "UPGRADE:TacticalNukeMig",
+  "text": "ميغ نووي تكتيكي"
+ },
+ {
+  "label": "OBJECT:FuelAirBomb",
+  "text": "قنبلة الوقود الجوي"
+ },
+ {
+  "label": "OBJECT:CruiseMissile",
+  "text": "صاروخ كروز"
+ },
+ {
+  "label": "OBJECT:Ox",
+  "text": "ثور"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTacticalNukeMig",
+  "text": "ترقية الميغ لإطلاق قنبلة نووية صغيرة"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTacticalNukeMig",
+  "text": "ميغ بقنبلة نووية تكتيكية (&G)"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildBarracks",
+  "text": "يدرّب الجنود"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildAirField",
+  "text": "يبني الطائرات\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildBunker",
+  "text": "يتسع لـ 5 جنود"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildWarFactory",
+  "text": "يبني المركبات\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildSupplyCenter",
+  "text": "نقطة تسليم لجامعي الإمدادات\n\nالطاقة المطلوبة: 1"
+ },
+ {
+  "label": "CONTROLBAR:Infa_TooltipParaDrop",
+  "text": "يُسقط رماة الرشاش الدوّار بالطائرة\n\nمؤقت العد التنازلي: 4:00"
+ }
+]

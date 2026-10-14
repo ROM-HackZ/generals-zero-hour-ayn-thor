@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:MD-CHI05_PartCannon_Detected",
+  "text": "警告：\n发现粒子加农炮"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint01",
+  "text": "提示：\n我们应该集中力量攻击美军基地\n必须摧毁他们的粒子加农炮"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint02",
+  "text": "收到通讯：\n摧毁美军指挥中心以切断其空中支援"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint05",
+  "text": "收到通讯：\n消灭敌方劫车犯以保护我们的载具"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint08",
+  "text": "收到通讯：\n贾曼·凯尔可能藏在这个村庄里"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint10",
+  "text": "收到通讯：\n阻止战斗巴士到达我们的基地"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint13",
+  "text": "收到通讯：\n美军基地断电了。迅速出击"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint15",
+  "text": "收到通讯：\n使用监听站阻止\n贾曼·凯尔狙击我们的载具"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint16",
+  "text": "收到通讯：\n用步兵夺回我们失效的载具"
+ },
+ {
+  "label": "MAP:MD-CHI05_InternetCenter02",
+  "text": "提示：\n让黑客进驻网络中心以获得额外收入"
+ },
+ {
+  "label": "MAP:ChemGeneral",
+  "text": "萨拉克斯博士"
+ },
+ {
+  "label": "GC_CHINABOSS:Loc",
+  "text": "中国与西藏交界附近某处\n‘猛虎巢穴’"
+ },
+ {
+  "label": "GC_CHINABOSS:Hint",
+  "text": "收到通讯：\n摧毁敌方武器碉堡将重置所有超级武器的计时器"
+ },
+ {
+  "label": "GC_CHINABOSS:Reset",
+  "text": "\n超级武器计时器已重置"
+ },
+ {
+  "label": "GC_CHINABOSS:Strike",
+  "text": "\n超级武器即将打击"
+ },
+ {
+  "label": "GC_CHINABOSS:Resources",
+  "text": "提示：\n这里资源有限。你必须尽快找到更多补给"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMOAB",
+  "text": "强于：建筑\n会震晕爆炸范围内的单位\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipLeafletDrop",
+  "text": "强于：步兵\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipTankParaDrop",
+  "text": "用飞机空投战斗大师\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeDrop",
+  "text": "用飞机空投一枚战术核弹头\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSuitcaseNuke",
+  "text": "黑客的手提箱里装着一件核武器\n"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSpectreGunship",
+  "text": "强于：载具\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireICBM",
+  "text": "强于：建筑、步兵\n\n冷却时间：6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireTomahawkStorm",
+  "text": "强于：建筑、载具\n\n冷却时间：5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFrenzy",
+  "text": "让你的单位在有限时间内造成更多伤害\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireGPSScrambler",
+  "text": "GPS 干扰器\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCommunicationsDownload",
+  "text": "下载所有敌军的位置信息"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSentryDroneGun",
+  "text": "哨兵无人机获得一挺机枪"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeQuadCannonSnipe",
+  "text": "四管机炮获得一击杀死步兵的能力"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSupplyLines",
+  "text": "资源收集机制额外带来 10% 的收入"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeMOAB",
+  "text": "燃料空气炸弹升级为炸弹之母"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBecomeRealBuilding",
+  "text": "将这座伪建筑升级为功能完整的版本"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeChemicalSuits",
+  "text": "步兵对毒素和辐射伤害的抗性提高"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeBunkerBusters",
+  "text": "隐形战机的导弹可伤害驻守的部队"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCountermeasures",
+  "text": "所有飞机可躲避 50% 的来袭导弹"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon",
+  "text": "在这架赫利克斯上建造加特林机炮"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixPropagandaTower",
+  "text": "在这架赫利克斯上建造宣传塔"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixBattleBunker",
+  "text": "在这架赫利克斯上建造碉堡。部队可以进驻碉堡，并从碉堡内开火"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackOne",
+  "text": "启用卫星入侵能力，显示对手的指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo",
+  "text": "启用卫星入侵能力，间歇性显示所有对手的领地"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeFanaticism",
+  "text": "集群加成额外 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaWGUraniumShells",
+  "text": "战斗大师和霸王坦克的炮弹伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTankAutoLoader",
+  "text": "战斗大师射速提高"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNeutronShells",
+  "text": "升级核弹炮以发射中子炮弹\n中子炮弹会杀死载具内的步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeChinaEMPMines",
+  "text": "地雷被触发时释放中子冲击"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaFusionReactors",
+  "text": "提高皇帝坦克和战斗大师的速度"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateFakebuilding",
+  "text": "命令伪建筑立即引爆"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerFakeCommandSet",
+  "text": "将命令栏切换为建造伪建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerRealCommandSet",
+  "text": "将命令栏切换为建造真实建筑"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ToolTipGLAUpgradeHEBomb",
+  "text": "所有爆破陷阱伤害提高 100%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLACamoNetting",
+  "text": "此建筑获得伪装"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure",
+  "text": "建筑获得额外的装甲防护"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBoobyTrap",
+  "text": "叛军可以在建筑和中立单位上设置诡雷"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeWorkerShoes",
+  "text": "给工人们一直想要的新鞋，提高移动速度"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxGamma",
+  "text": "所有毒素单位伤害 +50%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSaboteur",
+  "text": "瘫痪建筑。重置超级武器计时器"
+ },
+ {
+  "label": "CONTROLBAR:DropNapalmBomb",
+  "text": "投下凝固汽油弹(&D)"
+ },
+ {
+  "label": "CONTROLBAR:DropNukeBomb",
+  "text": "投下核炸弹(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNukeBomb",
+  "text": "向目标区域投下一枚战术核弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNapalmBomb",
+  "text": "强于：大部分地面目标\n弱于：火焰载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNukeWarhead",
+  "text": "装填核弹炮弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNeutronWarhead",
+  "text": "装填中子炮弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireBattleship",
+  "text": "呼叫近海战列舰进行炮击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireAircraftCarrier",
+  "text": "出动航空母舰的攻击机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipECMDisableVehicle",
+  "text": "瘫痪敌方载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireRebelBoobyTrapAttack",
+  "text": "设置诡雷"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFireBase",
+  "text": "地面防御。可由四名步兵进驻"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildArtilleryPlatform",
+  "text": "建造远程火炮平台用于防御\n\n所需电力：4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFakeGLABuilding",
+  "text": "伪建筑可以引爆或升级为真实建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInternetCenter",
+  "text": "帮助黑客获取资金。可升级以侦察对手"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaICBMLauncher",
+  "text": "发射一枚洲际弹道导弹\n所需电力：10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaBuildTomahawkStorm",
+  "text": "发射一轮战斧导弹齐射\n\n冷却时间：5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBike",
+  "text": "快速且用途广泛\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSaboteur",
+  "text": "非战斗渗透单位。可暂时瘫痪敌方建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaTrooper",
+  "text": "播放宣传以治疗附近的单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMiniGunner",
+  "text": "强于：步兵、空中单位\n弱于：坦克"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAvenger",
+  "text": "使用激光摧毁导弹和飞机\n\n强于：导弹、飞机\n弱于：载具、步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildKingRaptor",
+  "text": "可攻击地面或空中目标。装备点防御激光\n载弹量更大。可探测隐形单位\n\n强于：飞机、坦克、轻型载具\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFuelAirAurora",
+  "text": "超音速攻击使极光轰炸机在投下小型燃料空气炸弹时免疫敌方火力。超音速攻击后，极光轰炸机速度降至 50%\n\n强于：建筑\n弱于：战斗机、防空单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHyersonicAurora",
+  "text": "高超音速攻击使极光轰炸机免疫敌方火力。高超音速攻击后，极光轰炸机速度降至 50%\n\n强于：建筑\n弱于：战斗机、防空单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSniper",
+  "text": "不移动或不射击时隐蔽。可发现隐藏的敌人\n\n强于：步兵\n弱于：轻型载具、侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMicrowave",
+  "text": "强于：基地防御\n弱于：坦克、飞机、轻型载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSentryDrone",
+  "text": "可探测隐形单位\n\n强于：步兵\n弱于：坦克"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHellfireDrone",
+  "text": "发射一枚地狱火导弹\n\n强于：载具\n弱于：步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPointDefenseDrone",
+  "text": "发射反导激光"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHelix",
+  "text": "重型运输机\n可升级基地防御建筑和凝固汽油弹\n\n强于：坦克、轻型载具\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildListeningOutpost",
+  "text": "运输载具。可探测隐形单位\n\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildECM",
+  "text": "强于：坦克、载具\n弱于：步兵、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBattleBus",
+  "text": "可搭载 8 名步兵\n\n强于：步兵、建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpectreGunship",
+  "text": "幽灵炮艇在战场上空盘旋，用榴弹炮和加特林机炮猛轰敌军\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceLeafletDrop",
+  "text": "传单可使敌方部队集结点在考虑出路时暂时瘫痪\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankHunterTraining",
+  "text": "所有坦克猎人出厂即为老兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceBattlemasterTraining",
+  "text": "所有战斗大师出厂即为精英"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceOverlordTraining",
+  "text": "所有霸王坦克出厂即为精英"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceGattlingTankTraining",
+  "text": "所有加特林坦克出厂即为精英"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeDrop",
+  "text": "战术核武器由空中投放\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceFrenzy",
+  "text": "被选为目标时，你的单位在一段时间内造成更多伤害\n\n等级 1：10 秒内提高 10%\n等级 2：20 秒内提高 20%\n等级 3：30 秒内提高 30%\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCarpetBomb",
+  "text": "可呼叫重型轰炸机对区域进行地毯式轰炸\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceGPSScrambler",
+  "text": "隐蔽其作用范围内的单位\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASneakAttack",
+  "text": "部队可以在地图任意位置建造地道\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectAircraftCarriers",
+  "text": "选择航空母舰以便发动攻击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectBattleships",
+  "text": "呼叫近海战列舰进行炮击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankParadrop",
+  "text": "从空中空投战斗大师\n\n等级 1：1 辆战斗大师\n等级 2：2 辆战斗大师\n等级 3：4 辆战斗大师\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceInfantryParadrop",
+  "text": "从空中空投红卫兵\n\n等级 1：5 名红卫兵\n等级 2：10 名红卫兵\n等级 3：15 名红卫兵\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "TOOLTIP:ChallengeButton",
+  "text": "将军挑战"
+ },
+ {
+  "label": "GUI:GeneralsChallenge",
+  "text": "选择你的将军"
+ },
+ {
+  "label": "GUI:Biography",
+  "text": "简介"
+ },
+ {
+  "label": "GUI:BioName",
+  "text": "姓名："
+ },
+ {
+  "label": "GUI:BioDOB",
+  "text": "年龄："
+ },
+ {
+  "label": "GUI:BioBirthplace",
+  "text": "驻地："
+ },
+ {
+  "label": "GUI:BioStrategy",
+  "text": "战术："
+ },
+ {
+  "label": "GUI:BioRank",
+  "text": "军衔："
+ },
+ {
+  "label": "GUI:BioBranch",
+  "text": "军种："
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos0",
+  "text": "格兰杰将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos0",
+  "text": "62"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos0",
+  "text": "美国德克萨斯州休斯顿，贝尔蒙特堡"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos0",
+  "text": "空中力量"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos0",
+  "text": "四星将军"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos0",
+  "text": "美国空军"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos0",
+  "text": "07121969-HB"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos0",
+  "text": "马尔科姆·“王牌”·格兰杰将军喜欢动用最大限度的空中力量击败敌人"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos0",
+  "text": "看来我该去找份航空公司的好工作了。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos0",
+  "text": "我赢了，你输了。还有什么好说的？"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos1",
+  "text": "萨拉克斯博士"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos1",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos1",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos1",
+  "text": "毒素武器"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos1",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos1",
+  "text": "未知"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos1",
+  "text": "萨拉克斯博士喜欢调配致命毒素击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos1",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos1",
+  "text": "也许我当初不该在函授大学拿学位。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos1",
+  "text": "你以为我的毒素没用，现在看看你成什么样了，将军。"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos2",
+  "text": "陶将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos2",
+  "text": "50"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos2",
+  "text": "中国成都，牛营基地"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos2",
+  "text": "核武器"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos2",
+  "text": "将军，AAA 级"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos2",
+  "text": "中国人民解放军"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos2",
+  "text": "陶青石将军喜欢利用核辐射击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos2",
+  "text": "不适用"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos2",
+  "text": "再给我一点时间，我就能把你化为灰烬。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos2",
+  "text": "你能完好无损地挺过这场战斗真是幸运。有胆量就再来挑战我。"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos3",
+  "text": "亚历山大将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos3",
+  "text": "42"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos3",
+  "text": "美国缅因州贝尔法斯特，富兰克林营"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos3",
+  "text": "大规模杀伤性武器"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos3",
+  "text": "四星将军"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos3",
+  "text": "美国海军陆战队"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos3",
+  "text": "亚历克西斯·亚历山大将军喜欢修建坚固的基地防御并建造超级武器来击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos3",
+  "text": "178923478-HBGB"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos3",
+  "text": "不公平！再多一件超级武器我就赢你了，将军。有胆量就再来挑战我。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos3",
+  "text": "我早说过你永远赢不了我的超级武器，将军。想再试一次吗？"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos4",
+  "text": "奎将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos4",
+  "text": "51"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos4",
+  "text": "中国济南，鼠营基地"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos4",
+  "text": "精锐坦克师"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos4",
+  "text": "将军，AAA 级"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos4",
+  "text": "中国人民解放军"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos4",
+  "text": "奎大洪将军喜欢建造精良的坦克击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos4",
+  "text": "9999-3224536-5"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos4",
+  "text": "你也许击败了我的坦克，将军，但母老虎会像碾死虫子一样碾碎你。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos4",
+  "text": "坦克是一切胜利的关键……这你很清楚。"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos5",
+  "text": "汤斯将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos5",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos5",
+  "text": "美国加利福尼亚州红木海岸，联合堡"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos5",
+  "text": "激光武器"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos5",
+  "text": "四星将军"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos5",
+  "text": "美国陆军"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos5",
+  "text": "“精确制导”汤斯喜欢利用尖端激光技术击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos5",
+  "text": "00010204-01KE0"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos5",
+  "text": "你击败了我，将军，但我会扫描你的战术，制定出更优的策略。"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos5",
+  "text": "扫描你的战术后，你的弱点一目了然。"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos6",
+  "text": "卡萨德王子"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos6",
+  "text": "34"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos6",
+  "text": "利比亚的黎波里"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos6",
+  "text": "伏击与伪装"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos6",
+  "text": "不适用"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos6",
+  "text": "GLA 眼镜蛇小组"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos6",
+  "text": "卡萨德王子喜欢利用伪装和秘密行动击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos6",
+  "text": "不适用"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos6",
+  "text": "我的手下不会接受首领的这次失败，将军。你用高超的战术给我签下了死刑令……"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos6",
+  "text": "接受你苦涩的失败，从我眼前消失吧，将军。"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos7",
+  "text": "费将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos7",
+  "text": "57"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos7",
+  "text": "中国北京，蛇营基地"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos7",
+  "text": "精锐步兵师"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos7",
+  "text": "将军，AAA 级"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos7",
+  "text": "中国人民解放军"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos7",
+  "text": "“铁砧”费新将军喜欢征召训练有素的士兵击败敌人"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos7",
+  "text": "2030-200403-1"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos7",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos7",
+  "text": "待定"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos8",
+  "text": "尤齐兹将军"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos8",
+  "text": "36"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos8",
+  "text": "未知"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos8",
+  "text": "炸药与炸弹"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos8",
+  "text": "不适用"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos8",
+  "text": "GLA 蝎子小组"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos8",
+  "text": "罗达尔·“爆破”·尤齐兹将军喜欢布设威力强大的炸药击败敌人"
+ }
+]

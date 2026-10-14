@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileReadySubtitle",
+  "text": "*موشک هسته‌ای ما برای پرتاب آماده است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures01Subtitle",
+  "text": "*ژنرال. مراقب باش سازه‌های غیرنظامی نابود نشوند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures02Subtitle",
+  "text": "*نابودی سازه‌های غیرنظامی به افکار عمومی جهانی درباره ما آسیب می‌زند!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStatuesSubtitle",
+  "text": "*مجسمه‌های GLA را نابود کن تا افکار عمومی جهانی بهتر شود، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStructuresSubtitle",
+  "text": "*قربان. نابودی سازه‌های دشمن افکار عمومی جهانی درباره ما را بهتر می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyTroopsSubtitle",
+  "text": "*نیروهای دشمن بیشتری را نابود کن تا افکار عمومی جهانی بهتر شود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionFallingSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در حال افت است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما پایین می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowCriticalSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در وضعیت بحرانی است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowVerySubtitle",
+  "text": "*افکار عمومی جهانی درباره ما بسیار پایین است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionProtectCivilianSubtitle",
+  "text": "*از اموال غیرنظامیان در برابر آسیب محافظت کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionRisingSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در حال بهبود است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonDetectedAllySubtitle",
+  "text": "*متحدمان یک توپ ذره‌ای ساخت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*متحدمان از توپ ذره‌ای‌اش استفاده می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*رها کردن توپ ذره‌ای"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonReadySubtitle",
+  "text": "*توپ ذره‌ای ما آماده است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*جنگجویان بیشتری به یاری‌مان آمدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormDetectedAllySubtitle",
+  "text": "*متحدمان یک طوفان اسکاد ساخت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedAllySubtitle",
+  "text": "*متحدمان یک طوفان اسکاد پرتاب کرد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedOursSubtitle",
+  "text": "*پرتاب طوفان اسکاد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormReadySubtitle",
+  "text": "*حالا می‌توانیم از طوفان اسکاد استفاده کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SelectTargetSubtitle",
+  "text": "*کجا را بزنیم؟"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SneakAttackLaunchedSubtitle",
+  "text": "*ژنرال، دشمن از حمله غافلگیرانه استفاده می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UnitLostSubtitle",
+  "text": "*یک جنگجو به خاک افتاد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UpgradeCompleteSubtitle",
+  "text": "*ارتقا کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VehicleStolenSubtitle",
+  "text": "*یک خودرو دزدیدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VictorySubtitle",
+  "text": "*پیروز شدیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_AllyUnderAttackSubtitle",
+  "text": "*متحدمان زیر حمله است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BaseDefensesOffLineSubtitle",
+  "text": "*دفاع پایگاه از کار افتاده"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BeaconDetectedSubtitle",
+  "text": "*نشانگر شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusEnemySubtitle",
+  "text": "*نیلوفر سیاه دشمن شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusOursSubtitle",
+  "text": "*نیلوفر سیاه ما شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingBeingCapturedSubtitle",
+  "text": "*ساختمانمان در حال تصرف است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingDisabledSubtitle",
+  "text": "*ساختمان از کار افتاد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingEnabledSubtitle",
+  "text": "*ساختمان دوباره فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingStolenSubtitle",
+  "text": "*ساختمان دزدیده شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_CashStolenSubtitle",
+  "text": "*ژنرال، دارند پولمان را می‌دزدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonEnemySubtitle",
+  "text": "*سرهنگ برتون دشمن شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonOursSubtitle",
+  "text": "*سرهنگ برتون ما شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DefeatSubtitle",
+  "text": "*شکست خوردی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedNukeSubtitle",
+  "text": "*هشدار: سیلوی موشک هسته‌ای شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedParticleCannonSubtitle",
+  "text": "*هشدار: توپ ذره‌ای شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedScudStormSubtitle",
+  "text": "*هشدار: طوفان اسکاد شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsReceivedSubtitle",
+  "text": "*از متحدمان پول دریافت کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedSubtitle",
+  "text": "*از متحدت پول درخواست کردی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedAllySubtitle",
+  "text": "*متحدت پول درخواست می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsTransferredSubtitle",
+  "text": "*به متحدمان پول انتقال دادیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GeneralLevelUpSubtitle",
+  "text": "*تبریک ژنرال. ارتقای درجه گرفتی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GPSScramblerLaunchedSubtitle",
+  "text": "*هشدار. مختل‌کننده GPS شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredEnemySubtitle",
+  "text": "*یک قهرمان دشمن کشف شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredOursSubtitle",
+  "text": "*یکی از قهرمانان ما کشف شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingAnthraxSubtitle",
+  "text": "*بمب سیاه‌زخم شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingDaisyCutterSubtitle",
+  "text": "*بمب دیزی‌کاتر شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingEmpPulseSubtitle",
+  "text": "*بمب پالس EMP شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingFuelAirBombSubtitle",
+  "text": "*بمب سوخت-هوا شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_InsufficientFundsSubtitle",
+  "text": "*پول کافی نیست"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellEnemySubtitle",
+  "text": "*جارمن کل دشمن شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellOursSubtitle",
+  "text": "*جارمن کل ما شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaserDefenseSpeechSubtitle",
+  "text": "*ژنرال، حریف ما دژی در مرکز شهر دارد. سامانه دفاع لیزری‌اش ویرانگر است، اما برق زیادی می‌خواهد. مجبور می‌شود برقش را هر بار فقط به یک نقطه دفاعی بدهد. از این به نفع خودت استفاده کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedNukeSubtitle",
+  "text": "*هشدار: موشک هسته‌ای پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedParticleCannonSubtitle",
+  "text": "*هشدار: توپ ذره‌ای فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedScudStormSubtitle",
+  "text": "*هشدار: طوفان اسکاد پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LowPowerSubtitle",
+  "text": "*برق کم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileDetectedAllySubtitle",
+  "text": "*سیلوی هسته‌ای متحد شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*موشک هسته‌ای متحد پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*موشک هسته‌ای پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileReadySubtitle",
+  "text": "*موشک هسته‌ای آماده است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures01Subtitle",
+  "text": "*ژنرال. مراقب باش سازه‌های غیرنظامی نابود نشوند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures02Subtitle",
+  "text": "*نابودی سازه‌های غیرنظامی به افکار عمومی جهانی درباره ما آسیب می‌زند!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStatuesSubtitle",
+  "text": "*مجسمه‌های GLA را نابود کن تا افکار عمومی جهانی بهتر شود، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStructuresSubtitle",
+  "text": "*قربان. نابودی سازه‌های دشمن افکار عمومی جهانی درباره ما را بهتر می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyTroopsSubtitle",
+  "text": "*نیروهای دشمن بیشتری را نابود کن تا افکار عمومی جهانی بهتر شود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionFallingSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در حال افت است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما پایین می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowCriticalSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در وضعیت بحرانی است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowVerySubtitle",
+  "text": "*افکار عمومی جهانی درباره ما بسیار پایین است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionProtectCivilianSubtitle",
+  "text": "*از اموال غیرنظامیان در برابر آسیب محافظت کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionRisingSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در حال بهبود است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonDetectedAllySubtitle",
+  "text": "*توپ ذره‌ای متحد شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*توپ ذره‌ای متحد فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*توپ ذره‌ای فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonReadySubtitle",
+  "text": "*توپ ذره‌ای آماده است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*نیروهای کمکی رسیدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormDetectedAllySubtitle",
+  "text": "*طوفان اسکاد متحد شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedAllySubtitle",
+  "text": "*طوفان اسکاد متحد پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedOursSubtitle",
+  "text": "*طوفان اسکاد پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormReadySubtitle",
+  "text": "*طوفان اسکاد آماده است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SelectTargetSubtitle",
+  "text": "*هدف را انتخاب کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SneakAttackLaunchedSubtitle",
+  "text": "*هشدار. حمله غافلگیرانه شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UnitLostSubtitle",
+  "text": "*یگان از دست رفت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeCompleteSubtitle",
+  "text": "*ارتقا کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodSubtitle",
+  "text": "*ارتقای میله‌های کنترل کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodAdvancedSubtitle",
+  "text": "*ارتقای میله‌های کنترل پیشرفته کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeMoabSubtitle",
+  "text": "*ارتقای مادر همه بمب‌ها کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeSentryDroneSubtitle",
+  "text": "*ارتقای پهپاد نگهبان کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VehicleStolenSubtitle",
+  "text": "*خودرو دزدیده شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VictorySubtitle",
+  "text": "*پیروز شدی"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf01Subtitle",
+  "text": "*ژنرال، GLA توانست نیروهای آمریکا را در این منطقه شکست دهد. ما ضدحمله ویرانگری کردیم، اما مثل سوسک هنوز زنده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf02Subtitle",
+  "text": "*همین حالا هم بازماندگان GLA در حال بازسازی‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf03Subtitle",
+  "text": "*برای نابودی نهایی GLA باید نیروهایمان را بفرستیم و از هر گوشه تاریکی که پنهان شده‌اند بیرونشان بکشیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf04Subtitle",
+  "text": "*ژنرال، پاسگاه‌های شنود تازه ما در منطقه مستقرند. در اختیار شما هستند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf05Subtitle",
+  "text": "*پاسگاه شنود خودش بی‌سلاح است، اما سرنشینانش می‌توانند به دشمنانی که زیادی نزدیک شوند شلیک کنند. برد دید زیاد و توانایی پنهان‌کاری‌اش آگاهی شما از میدان نبرد را بسیار بالا می‌برد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat01Subtitle",
+  "text": "*هیچ نیرویی از GLA از پادگان ما رد نمی‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat02Subtitle",
+  "text": "*تراکتورهای سمی! می‌خواهند همه‌مان را مسموم کنند... کمک لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat03Subtitle",
+  "text": "*نگاه کن... دکل‌های نفت... تصرفشان کنیم؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat04Subtitle",
+  "text": "*GLA توی خانه‌ات؟ کمی آتش بزن... دیگر GLA نمی‌ماند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat05Subtitle",
+  "text": "*GLA آنجا دارد بازسازی می‌کند... آماده حمله باشید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat06Subtitle",
+  "text": "*امروز پیروز می‌شویم... همه به پیش"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01aSubtitle",
+  "text": "*فکر نمی‌کردم آمریکا این‌قدر آسان شکست بخورد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01bSubtitle",
+  "text": "*نمی‌فهمم چرا آمریکا گذاشت این اتفاق بیفتد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01cSubtitle",
+  "text": "*این را نمی‌شود تحمل کرد. چین اوضاع را درست می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01dSubtitle",
+  "text": "*استفاده خائنانه GLA از منابع ما علیه آمریکایی‌ها مایه شرمساری بزرگ چین شده است. باید تاوان گستاخی‌شان را بدهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin02Subtitle",
+  "text": "*موشک‌ها آماده پرتاب‌اند... شمارش معکوس نهایی آغاز شد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin03Subtitle",
+  "text": "*۳... ۲... ۱... موشک‌ها پرتاب شدند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin04Subtitle",
+  "text": "*خیال می‌کنند پیروز شده‌اند، اما زود جشن گرفته‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin05Subtitle",
+  "text": "*وقتی برای دلیل درست به کار برود زیباست"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin06Subtitle",
+  "text": "*بازماندگان GLA برای پناه گرفتن به شهر می‌دوند... باید متوقف شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin07Subtitle",
+  "text": "*در موقعیتیم... درهای محفظه بمب باز است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin08Subtitle",
+  "text": "*بازماندگانی دیدیم. حمله زمینی لازم می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO01Subtitle",
+  "text": "*ژنرال، پایگاه قبلی ما در منطقه به دست GLA افتاد. پیش از درگیری با دشمن باید پایگاه تازه‌ای بسازید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO02Subtitle",
+  "text": "*پیشنهاد می‌کنم برای دفاع از پایگاه در چند ساختمان نزدیک سنگر بگیرید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO03Subtitle",
+  "text": "*ژنرال، GLA در چند ساختمان در سراسر شهر سنگر گرفته است. شاید بتوانید با تانک دراگون این سنگرها را پاک کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO04Subtitle",
+  "text": "*ژنرال، GLA تراکتورهای سمی را به سمت ساختمان‌های سنگرگرفته ما می‌آورد. اگر آن تراکتورها به ساختمان‌ها حمله کنند همه درونشان از بین می‌روند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO05Subtitle",
+  "text": "*GLA از این دکل‌های نفت برای تأمین مالی نیروهایش استفاده می‌کند. یکی از گاردهای سرخ ما می‌تواند آن‌ها را تصرف کند. درآمدش به شکست GLA کمک می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO06Subtitle",
+  "text": "*ژنرال، آیا نابود کردن این دکل‌های نفت عاقلانه است؟ منابع ارزشمندی برای ما دارند. یکی از گاردهای سرخ ما می‌تواند تصرفشان کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO07Subtitle",
+  "text": "*غافلگیرشان کردی، ژنرال. یکی از گاردهای سرخت می‌تواند پیش از واکنششان ساختمان‌هایشان را تصرف کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO08Subtitle",
+  "text": "*حالا که پایگاه عملیاتی‌مان را دوباره برپا کردی، وقت آن است که همه نیروهای باقی‌مانده GLA را در منطقه ریشه‌کن کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO09Subtitle",
+  "text": "*تبریک، ژنرال. شهر را از همه نیروهای GLA آزاد کردی. وقتی آخرین پایگاهشان را نابود کنی مأموریتت کامل می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi02Lin13Subtitle",
+  "text": "*تهدید تروریستی تمام شد. آفرین، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01Subtitle",
+  "text": "*ژنرال، GLA می‌خواهد کلاهک‌های هسته‌ای ذخیره‌شده در این تأسیسات را بدزدد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01aSubtitle",
+  "text": "*ژنرال، GLA می‌خواهد نیروگاه هسته‌ای اصلی ما را نابود کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf02Subtitle",
+  "text": "*سربازان دلیرمان حمله‌شان را دفع کردند اما به بهای سنگین، و GLA هنوز آنجاست"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03Subtitle",
+  "text": "*باید GLA را عقب نگه دارید و مطمئن شوید از همه سنگرهایمان محافظت می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03aSubtitle",
+  "text": "*باید GLA را عقب نگه دارید تا تأسیسات نابود نشود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf04Subtitle",
+  "text": "*چند فناوری تازه داریم که برای مأموریتتان بسیار سودمند است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf05Subtitle",
+  "text": "*توپ‌های هسته‌ای ما اکنون برای شلیک گلوله نوترونی ارتقا یافته‌اند. این گلوله‌های تازه سربازان و رانندگان خودروها را به‌خوبی از میان برمی‌دارند. وقتی تشعشع پاک شد، یکی از پیاده‌نظام ما می‌تواند خودروهای باقی‌مانده را تصرف کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf06Subtitle",
+  "text": "*ساختمان‌های ما اکنون می‌توانند به مین‌های نوترونی ارتقا یابند. در برابر پیاده‌نظام همچنان کارآمدند و خودروهای دشمن را هم موقتاً از کار می‌اندازند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07aSubtitle",
+  "text": "*ژنرال، نیروهای کمکی شما تا ۱۵ دقیقه دیگر می‌رسند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07bSubtitle",
+  "text": "*ژنرال، نیروهای کمکی شما تا ۱۰ دقیقه دیگر می‌رسند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07cSubtitle",
+  "text": "*ژنرال، نیروهای کمکی شما تا ۵ دقیقه دیگر می‌رسند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07dSubtitle",
+  "text": "*ژنرال، نیروهای کمکی شما به‌زودی می‌رسند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat01Subtitle",
+  "text": "*نیروهای دشمن دیده شدند. عقب نگهشان می‌داریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat02Subtitle",
+  "text": "*از جناح راست زیر آتشیم... اینجا پشتیبانی لازم است"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat03Subtitle",
+  "text": "*پشت سرمان‌اند... همه آتش‌ها به سمت جنوب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat04Subtitle",
+  "text": "*پایگاه GLA در برد است... همه تیم‌ها آماده حمله‌اند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat05Subtitle",
+  "text": "*ساختمان‌های دشمن روی آن تپه‌اند. فرمان بده، ژنرال، تا از رویشان رد شویم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat06Subtitle",
+  "text": "*مراقب سربازهای آرپی‌جی باشید! کمک لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat07Subtitle",
+  "text": "*ژنرال، اکنون بالای منطقه هدفیم و بمباران را شروع کرده‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat08Subtitle",
+  "text": "*فرش قرمز پهن می‌کنیم... فرشی از بمب. هه‌هه"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat09Subtitle",
+  "text": "*پدافند هوایی دشمن اینجا انبوه است... آسیب سنگینی می‌بینیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat10Subtitle",
+  "text": "*سایت‌های استینگر رویمان قفل کرده‌اند... گرفتار شدیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat11Subtitle",
+  "text": "*آن شورشی را متوقف کنید، می‌خواهد سنگرمان را تصرف کند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat12Subtitle",
+  "text": "*بتل‌مستر نیست، اما کار راه می‌اندازد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat13Subtitle",
+  "text": "*من تانک گاتلینگ خودم را ترجیح می‌دهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat14Subtitle",
+  "text": "*موج دیگری از GLA!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15Subtitle",
+  "text": "*باید از سنگرهایمان محافظت کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15aSubtitle",
+  "text": "*باید از رآکتور هسته‌ای محافظت کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat16Subtitle",
+  "text": "*حالا نشانشان می‌دهیم حمله به پایگاه یعنی چه!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat17Subtitle",
+  "text": "*نیروی کمکی! از دیدنتان خوشحالیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat18Subtitle",
+  "text": "*آماده فرمان شماییم، ژنرال. کجا لازممان دارید؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01Subtitle",
+  "text": "*باید مراقب باشیم. گزارش‌ها می‌گویند GLA ممکن است به تلافی ورود ما به جنگ حمله کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01aSubtitle",
+  "text": "*نگهبانی از این نیروگاه هسته‌ای حس امنیت به من نمی‌دهد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01bSubtitle",
+  "text": "*آره. کاش به نیروی هوایی پیوسته بودم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01dSubtitle",
+  "text": "*بعد از پیروزی اخیرمان حتماً جرئت نمی‌کنند اینجا به ما حمله کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01cSubtitle",
+  "text": "*غذایشان خیلی بهتر است. کلاه‌خودهای شیک هم سرشان می‌گذارند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin02Subtitle",
+  "text": "*نیروهای GLA! زیر حمله‌ایم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin03Subtitle",
+  "text": "*همه‌جا هستند! دارند محاصره‌مان می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04Subtitle",
+  "text": "*موج دیگر! نیروی کمکی لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04aSubtitle",
+  "text": "*موج دیگر! کامیون بمب و تروریست دارند! نیروی کمکی لازم داریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04bSubtitle",
+  "text": "*موج دیگر! تاکتیک انتحاری به کار می‌برند! پس نیروهای کمکی کجایند؟!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin05Subtitle",
+  "text": "*فرودگاه را از دست دادیم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06Subtitle",
+  "text": "*می‌خواهند به سنگرهای انبار برسند! به هر قیمتی از آن‌ها محافظت کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06aSubtitle",
+  "text": "*می‌خواهند به رآکتور اصلی برسند! به هر قیمتی از آن محافظت کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin07Subtitle",
+  "text": "*مرکز فرماندهی... مرکز فرماندهی را گرفتند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin08Subtitle",
+  "text": "*دوام آوردیم... نیروهای باقی‌مانده گزارش بدهند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin09Subtitle",
+  "text": "*چیز زیادی نمانده. نیروی کمکی لازم خواهیم داشت"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin10Subtitle",
+  "text": "*پیام رسید، اما باید تا رسیدنشان دوام بیاوریم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO01Subtitle",
+  "text": "*ژنرال، نیروهای کمکی‌مان رسیدند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02Subtitle",
+  "text": "*ژنرال، نیروهای GLA به سنگرها حمله می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02aSubtitle",
+  "text": "*ژنرال، نیروهای GLA به نیروگاه هسته‌ای حمله می‌کنند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO03Subtitle",
+  "text": "*GLA می‌خواهد یکی از سنگرهایمان را تصرف کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04Subtitle",
+  "text": "*ژنرال، این سنگر به‌شدت آسیب دیده. پیشنهاد می‌کنم پیش از حمله بعدی GLA تعمیرش کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04aSubtitle",
+  "text": "*ژنرال، نیروگاه هسته‌ای‌مان به‌شدت آسیب دیده. پیشنهاد می‌کنم پیش از حمله بعدی GLA تعمیرش کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05Subtitle",
+  "text": "*ژنرال، حمله اخیر چند سنگر را به‌شدت ضعیف کرد. اگر یکی نابود شود GLA این نبرد را می‌برد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05aSubtitle",
+  "text": "*ژنرال، حمله اخیر نیروگاه هسته‌ای را به‌شدت ضعیف کرد. اگر نابود شود مأموریتمان شکست می‌خورد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06Subtitle",
+  "text": "*هشدار... نیروهای GLA به سمت سنگرها می‌آیند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06aSubtitle",
+  "text": "*هشدار... نیروهای GLA به سمت نیروگاه می‌آیند!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO07Subtitle",
+  "text": "*ژنرال، با یکی از پاسگاه‌های جاسوسی‌مان تماس گرفتم. زیر حمله GLA است. اگر نجاتشان دهیم می‌توانم به سامانه‌شان وصل شوم و بمب‌افکن‌های بمباران فرشی را فرا بخوانیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO08Subtitle",
+  "text": "*ژنرال، اگر آن پاسگاه جاسوسی را ایمن کنید، می‌توانید بمباران فرشی را بر نیروهای GLA هدایت کنید"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO09Subtitle",
+  "text": "*ژنرال، حالا که نیروهای کمکی رسیده‌اند وقت آن است GLA را از این منطقه ریشه‌کن کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat12Subtitle",
+  "text": "*به نبرد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat19Subtitle",
+  "text": "*تانک‌ها را بیاورید! با خاک یکسانشان کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf01Subtitle",
+  "text": "*درود، فرمانده. حالا که ضدحمله GLA را خنثی کردیم، وقت آن است برتری‌مان را پیش ببریم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf02Subtitle",
+  "text": "*باید این شهر را از چنگال GLA آزاد کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf03Subtitle",
+  "text": "*یک پایگاه بسیار مستحکم GLA در شمال رودخانه است. باید نابودش کنیم، اما کار آسانی نیست"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf04Subtitle",
+  "text": "*عملیات ما توجه زیادی از سراسر جهان جلب کرده و زیر نظریم. هرچه این نبرد طولانی‌تر شود افکار عمومی جهانی درباره ما بیشتر افت می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf05Subtitle",
+  "text": "*باید از آسیب به اموال غیرنظامی پرهیز کرد. عملیات ما باید دقیق و سریع باشد. نابودی نیروهای GLA افکار عمومی جهانی درباره ما را به نفع ما بالا می‌برد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf09Subtitle",
+  "text": "*اگر افکار عمومی جهانی درباره ما به اندازه کافی بالا برود، مردم شهر ممکن است به آرمان ما بپیوندند"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf10Subtitle",
+  "text": "*آن‌وقت نابود کردن دفاع GLA آسان می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat01Subtitle",
+  "text": "*حتماً یک شبکه تونل استتارشده همین نزدیکی دارند"
+ }
+]

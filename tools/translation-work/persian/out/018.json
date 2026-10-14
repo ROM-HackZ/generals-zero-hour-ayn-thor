@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BioClassNumber_Pos8",
+  "text": "صدق نمی‌کند"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos8",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos8",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos9",
+  "text": "ژنرال لیانگ"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos9",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos9",
+  "text": "پایگاه اژدها، لانژو، چین"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos9",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos9",
+  "text": "ژنرال اژدها، رده AAAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos9",
+  "text": "ارتش آزادی‌بخش خلق - نیروهای نخبه"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos9",
+  "text": "ژنرال لیونگ \"ماده‌ببر\" لیانگ برای شکست دشمنانش استفاده از همه فناوری‌های دیگر را می‌طلبد"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos9",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos9",
+  "text": "رقابت جالبی بود. شاید دوباره به چالشم بکشی."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos9",
+  "text": "مهارتت را بالا ببر و دوباره به چالشم بکش."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos10",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos10",
+  "text": "33"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos10",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos10",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos10",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos10",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos10",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos10",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos11",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos11",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos11",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos11",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos11",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos11",
+  "text": "."
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos11",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos11",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_GLA",
+  "text": "ارتش آزادی‌بخش جهانی برای شکست دشمنانش تاکتیک‌های زیرکانه و موذیانه را ترجیح می‌دهد"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_China",
+  "text": "چین با آتش و شمار بی‌امان نیرو دشمنانش را شکست می‌دهد"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_USA",
+  "text": "آمریکا با سلاح‌های پیشرفته و مهارت دشمنانش را شکست می‌دهد"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Random",
+  "text": "این گزینه یک جناح تصادفی انتخاب می‌کند"
+ },
+ {
+  "label": "GUI:ChallengeWinText",
+  "text": "تبریک، %s را شکست دادی"
+ },
+ {
+  "label": "GUI:ChallengeLossText",
+  "text": "%s شکستت داد"
+ },
+ {
+  "label": "CREDITS:DevelopmentDirector",
+  "text": "مدیر توسعه"
+ },
+ {
+  "label": "CREDITS:GeneralManager",
+  "text": "مدیرکل EALA"
+ },
+ {
+  "label": "CREDITS:LeadArtist",
+  "text": "هنرمند ارشد"
+ },
+ {
+  "label": "CREDITS:QADirector",
+  "text": "مدیر تضمین کیفیت"
+ },
+ {
+  "label": "CREDITS:SrTestLead",
+  "text": "سرپرست ارشد آزمون"
+ },
+ {
+  "label": "CREDITS:AssistantMultiplayerTestLead",
+  "text": "دستیار سرپرست آزمون چندنفره"
+ },
+ {
+  "label": "CREDITS:TestAnalyst",
+  "text": "تحلیلگر آزمون"
+ },
+ {
+  "label": "CREDITS:AssistantProducer",
+  "text": "دستیار تهیه‌کننده"
+ },
+ {
+  "label": "CREDITS:CameoPhotoshootStudio",
+  "text": "عکس‌ها در Out West Studio گرفته شد"
+ },
+ {
+  "label": "CREDITS:Models",
+  "text": "مدل‌ها"
+ },
+ {
+  "label": "CREDITS:Actors",
+  "text": "بازیگران"
+ },
+ {
+  "label": "CREDITS:VisualEffectsAndEditing",
+  "text": "جلوه‌های ویژه و تدوین"
+ },
+ {
+  "label": "CREDITS:NewsReporterVideos",
+  "text": "ویدیوهای خبرنگار"
+ },
+ {
+  "label": "CREDITS:DirectorOfProductLocalization",
+  "text": "مدیر بومی‌سازی محصول، EALA"
+ },
+ {
+  "label": "CREDITS:LocalizationAssistance",
+  "text": "همکاری در بومی‌سازی"
+ },
+ {
+  "label": "ACADEMY:Eva",
+  "text": "تحلیل تاکتیکی"
+ },
+ {
+  "label": "ACADEMY:BuildAllStructures",
+  "text": "ژنرال، در میدان نبرد مهم است از همه ابزارهای موجود استفاده کنی. حتماً همه سازه‌ها را بساز. باید نیروی نظامی قدرتمندی را حفظ کنی"
+ },
+ {
+  "label": "ACADEMY:BuildSupplyCenterEarlier",
+  "text": "ژنرال، یکی از مهم‌ترین وظایف یک رهبر قوی این است که سربازانش تدارکات کافی داشته باشند. پیشنهاد می‌کنیم هر بار که مأموریتی را شروع می‌کنی یک مرکز یا انبار تدارکات بسازی. تدارکات پول می‌آورد و پول پیروزی"
+ },
+ {
+  "label": "ACADEMY:TryBuildingRadar",
+  "text": "مه جنگ همه ما را فرا گرفته. یکی از راه‌های خوب دیدن آن سوی این مه غلیظ، رادار است. هر جناح به شیوه خودش چشمی در آسمان پیدا می‌کند. مرکز فرماندهی آمریکا خودکار رادار دارد، مرکز فرماندهی چین باید ارتقا یابد و GLA باید از دلال اسلحه‌اش یک ون رادار بسازد"
+ },
+ {
+  "label": "ACADEMY:BuildMorePeons",
+  "text": "از هر ژنرالی بپرسی یک قانون ساده را تأیید می‌کند: ارتش را سربازهای ساده می‌سازند. برای ساخت پایگاه باید بولدوزرها یا کارگرهایت را به کار بگیری. این‌ها کلید موفقیت آینده‌ات هستند، پس فراموششان نکن!"
+ },
+ {
+  "label": "ACADEMY:TryCapturingStructures",
+  "text": "ژنرال، گاهی گرفتن آنچه می‌خواهی آسان‌تر از زحمت کشیدن برایش است. اگر ارتقای \"تصرف\" را از پادگان بخری، می‌توانی سازه‌های دشمن را بدزدی. ساختمان‌های فنی‌ای هم در میدان نبرد پراکنده‌اند که ارتشت را باز هم قوی‌تر می‌کنند"
+ },
+ {
+  "label": "ACADEMY:SpendGeneralsPoints",
+  "text": "جنگ غنیمت دارد. هر بار که دشمنی را نابود کنی به امتیازهای ژنرال بیشتری نزدیک می‌شوی. می‌توانی با زدن دکمه \"ستاره\" در سمت راست نوار فرمان خرجشان کنی. منوی امتیازهای ژنرال را باز کن و امتیازهایی را که با زحمت به دست آورده‌ای خرج اسباب‌بازی‌های جنگی تازه کن"
+ },
+ {
+  "label": "ACADEMY:TryUsingSuperweapons",
+  "text": "جمع کردن امتیاز ژنرال به چه درد می‌خورد اگر خرجشان نکنی؟ اگر با امتیازهایت توانایی ژنرال خریده باشی، نمادی در سمت راست صفحه ظاهر می‌شود. کافی است بزنی‌اش و آتش‌بازی را تماشا کنی. هرچه امتیاز بیشتری خرج کنی، توانایی قوی‌تر است"
+ },
+ {
+  "label": "ACADEMY:TryGarrisoningAStructure",
+  "text": "سربازان در فضای باز کارآمدند، اما وقتی در ساختمان‌های غیرنظامی سنگر بگیرند مرگبارترند. سربازانت را انتخاب کن و به یک سازه خالی بفرست. دیوارها از آن‌ها محافظت می‌کنند - مگر اینکه نارنجک صوتی-نوری، تراکتور سمی یا تانک دراگون سراغشان بیاید"
+ },
+ {
+  "label": "ACADEMY:IdleBuildingUnits",
+  "text": "ژنرال، ساختن و رهبری یک ارتش بزرگ باید بالاترین هدفت باشد. با کلیک روی پادگان، کارخانه جنگ‌افزار، فرودگاه و غیره و سپس کلیک روی تصویر مربوط در نوار فرمان پایین، یگان‌های رزمی‌ات را بساز. پولی است که خوب خرج می‌شود و به پیروزی کمک می‌کند"
+ },
+ {
+  "label": "ACADEMY:TryDragSelectingUnits",
+  "text": "هدایت ارتش یکی از دشوارترین چیزهایی است که یک ژنرال باید یاد بگیرد. می‌توانی روی تک‌تک یگان‌ها کلیک کنی، اما معمولاً \"کمند انداختن\" دور یک گروه سریع‌تر است. کلیک کن و کادری دور یگان‌ها بکش. حالا در اختیار تو هستند. اگر جای دیگری کلیک کنی یگان‌ها به آنجا می‌روند"
+ },
+ {
+  "label": "ACADEMY:ResearchUpgrades",
+  "text": "یک ژنرال بزرگ تانک زیادی می‌سازد، اما ژنرال بزرگ‌تر تانک‌های بهتر زیادی می‌سازد. تقریباً هر یگانی نوعی ارتقا دارد. اغلب بهتر است پولت را خرج بهتر کردن چیزی کنی که داری"
+ },
+ {
+  "label": "ACADEMY:RanOutOfPower",
+  "text": "GLA به برق نیازی ندارد، اما چین و آمریکا مثل تخمه شکستن می‌بلعندش. برای اینکه پایگاه قوی بماند، ژنرال باید پول کافی خرج برق ماشین جنگ کند. برای بیشترین تولید حتماً رآکتور همجوشی سرد یا رآکتور هسته‌ای بساز. برق کم یعنی موفقیت کم"
+ },
+ {
+  "label": "ACADEMY:BuildMoreGatherers",
+  "text": "ژنرال، حتماً کارگر، کامیون تدارکات یا شینوک کافی بساز تا درآمدت جریان داشته باشد. با کلیک روی تصویر جمع‌کننده منابع در مرکز یا انبار تدارکات می‌توانی جمع‌کننده اضافی بسازی. از بیشینه کردن منابعت خجالت نکش"
+ },
+ {
+  "label": "ACADEMY:BuildAHero",
+  "text": "جارمن کل، سرهنگ برتون و نیلوفر سیاه می‌توانند برای راهبردت بی‌بها باشند. این قهرمانان می‌توانند ورق نبرد را برگردانند و از دید دشمن پنهان‌اند. برای یافتن قهرمانت روی رادار دنبال نماد نشانه‌گیر بگرد. هرچند هر بار فقط یکی را می‌توانی بسازی، اهمیتشان را دست‌کم نگیر"
+ },
+ {
+  "label": "ACADEMY:PickStrategyCenterPlan",
+  "text": "مرکز استراتژی آمریکا سازه بسیار مفیدی است. یادت باشد راهبردی را انتخاب کنی که با نقشه بازی‌ات جور است. جستجو و نابودی، بمباران و ایستادگی همگی راه‌های عالی برای برتری‌اند. در کنار این راهبردهای کلی می‌توانی ارتقاهای زیادی از این ساختمان بخری"
+ },
+ {
+  "label": "ACADEMY:UseTunnelNetwork",
+  "text": "در میدان نبرد، دزدکی حرکت کردن امضای GLA است. شبکه‌های تونل توان دفاعی دارند، اما امکان جابه‌جایی سریع را هم می‌دهند. چند شبکه تونل بساز و یگان‌هایت را داخلشان بفرست. روی سازه کلیک کن تا آن‌ها را از هر شبکه تونل دیگری در هر جای نقشه بیرون بیاوری. این‌ها کلید راهبرد کلی GLA هستند"
+ },
+ {
+  "label": "ACADEMY:UseControlGroups",
+  "text": "اداره یک ارتش بزرگ گاهی کمی شلوغ می‌شود. یک راه برای اداره آسان یگان‌های زیاد، ساختن \"گروه کنترل\" است. گروه یگان‌ها را انتخاب کن و \"Ctrl\" را همراه یک عدد بزن. از این پس هر بار آن عدد را بزنی آن گروه انتخاب می‌شود. عدد را دو بار سریع بزن تا دوربین روی گروه متمرکز شود"
+ },
+ {
+  "label": "ACADEMY:UseSecondaryIncomeMethods",
+  "text": "ژنرال، به دست آوردن تدارکات در اواخر مأموریت ممکن است دشوار باشد. هر جناح راه ویژه‌ای برای کسب پول در نبردهای طولانی دارد. چین می‌تواند هکر و مرکز اینترنت بسازد. می‌توانی هکرها را هر جا به هک اینترنت برای پول بفرستی یا داخل مرکز اینترنت بگذاری تا سریع‌تر پول بگیرند. GLA به بازار سیاه متکی است و آمریکا به پرتاب تدارکات. اگر از پیش برنامه نریزی ممکن است کم بیاوری"
+ },
+ {
+  "label": "ACADEMY:ClearBuildings",
+  "text": "کنار آمدن با ساختمان‌های سنگرگرفته ممکن است سخت باشد - مگر اینکه چند ترفند بلد باشی. رنجرهای آمریکا را با نارنجک صوتی-نوری ارتقا بده، یا تراکتور سمی GLA یا تانک دراگون چین بساز تا این دژها را سریع پاک کنی. آمریکا حتی می‌تواند به سنگرشکن ارتقا یابد تا شبکه‌های تونل را هم پاک کند!"
+ },
+ {
+  "label": "ACADEMY:PickUpSalvage",
+  "text": "GLA جماعت موذی‌ای است، اما کاردان هم هست. هر وقت یگان‌های GLA خودرویی را نابود کنند، پاداش قراضه به جا می‌ماند. از روی قطعات قراضه رد شو تا یگان‌هایت ارتقا یابند، تجربه بگیرند یا پول اضافه کسب کنند. قراضه در نبرد طولانی می‌تواند فرق بزرگی ایجاد کند، پس همین‌طور رهایش نکن"
+ },
+ {
+  "label": "ACADEMY:UseGuardAbility",
+  "text": "گاهی مهم است یگان‌ها سر جایشان بمانند و از منطقه‌ای نگهبانی کنند. یگان را انتخاب کن و دکمه \"سپر\" یا کلید \"G\" را بزن، سپس منطقه نگهبانی را انتخاب کن. یگان به هر دشمنی که وارد شعاع نگهبانی‌اش شود حمله می‌کند"
+ },
+ {
+  "label": "ACADEMY:MultipleSupplyCenters",
+  "text": "همه‌چیز به تدارکات بستگی دارد، ژنرال. تدارکات را می‌توان از اسکله‌های تدارکات پراکنده در میدان نبرد جمع کرد. شاید یک اسکله در ابتدا کافی باشد، اما معمولاً بهتر است در طول مأموریت گسترش یابی و چند تای دیگر پیدا کنی. برای جمع‌آوری کارآمد باید مرکز یا انبار تدارکات را نزدیک اسکله بسازی"
+ },
+ {
+  "label": "ACADEMY:GarrionVehicle",
+  "text": "برخی یگان‌ها می‌توانند وارد خودروهای دیگر شوند یا آن‌ها را بدزدند. دزدیدن خودرو با هایجکر یا تروریست امکان نفوذ پنهانی به خاک دشمن را می‌دهد"
+ },
+ {
+  "label": "ACADEMY:UseSelectionHotkeys",
+  "text": "ژنرال، کلیدهای میانبر راهی عالی برای کنترل بهتر نیروهایت هستند. \"E\" همه یگان‌های هم‌نوع را روی صفحه انتخاب می‌کند. اگر \"E\" را دو بار سریع بزنی همه یگان‌های هم‌نوع در کل میدان نبرد انتخاب می‌شوند. \"Q\" همه یگان‌های رزمی‌ات را روی نقشه انتخاب می‌کند. \"W\" همه یگان‌های هوایی‌ات را. امتحانشان کن، کمکت می‌کنند"
+ },
+ {
+  "label": "ACADEMY:AlternateMouseInterface",
+  "text": "یکی از افزوده‌های تازه گزینه \"رابط جایگزین ماوس\" در منوی گزینه‌هاست. اگر عادت داری ارتش را با کلیک راست به‌عنوان دکمه فرمان هدایت کنی، این گزینه ممکن است کنترل ارتش را برایت راحت‌تر کند"
+ },
+ {
+  "label": "ACADEMY:DoubleClickAttackMoveGuard",
+  "text": "ژنرال، راه تازه‌ای برای هدایت ارتشت ساخته‌ایم. یگان‌هایت را انتخاب کن و روی منطقه مقصد دوبار کلیک کن. یگان‌ها با حمله به آن نقطه می‌روند و سپس از آن نگهبانی می‌کنند. می‌توانی این را از منوی گزینه‌ها فعال کنی"
+ },
+ {
+  "label": "ACADEMY:BuildBarracksSooner",
+  "text": "برای ساختن نیرویی متعادل باید پادگان را زودتر در مأموریت بسازی. پیاده‌نظام می‌تواند نقشه‌ات را بسازد یا خراب کند، پس بهتر است فراموششان نکنی"
+ },
+ {
+  "label": "ACADEMY:BuildWarFactorySooner",
+  "text": "هرچند پیاده‌نظام و قدرت هوایی دارایی‌های بزرگی‌اند، هیچ چیز جای یک تانک خوب را نمی‌گیرد. حتماً کارخانه جنگ‌افزار یا دلال اسلحه را زودتر در مأموریت بساز"
+ },
+ {
+  "label": "ACADEMY:BuildTechStructureSooner",
+  "text": "برای سلاح‌های پیشرفته هیچ جایگزینی برای مرکز استراتژی، مرکز تبلیغات یا کاخ نیست. فراموش نکن یکی را کمی زودتر در مأموریت بسازی تا موفقیتت تضمین شود"
+ },
+ {
+  "label": "ACADEMY:NoIncome",
+  "text": "ژنرال، برای موفقیتت حیاتی است که جریان درآمدت در سراسر مأموریت ادامه یابد. وقفه‌های زیاد برتری‌ات را از بین می‌برد. مطمئن شو تدارکات پیوسته می‌رسد"
+ },
+ {
+  "label": "ACADEMY:ClearMines",
+  "text": "تله‌های انفجاری و مین‌ها واقعاً می‌توانند آغاز یک روز بد باشند. با این تاکتیک‌های موذیانه می‌توان با استفاده از بولدوزر یا کارگر برای پاک‌سازی این مناطق خطرناک مقابله کرد"
+ },
+ {
+  "label": "ACADEMY:UnmannedVehicles",
+  "text": "ژنرال، برخی یگان‌ها می‌توانند راننده خودروی دشمن را هدف بگیرند یا بیرون بکشند. وقتی این اتفاق بیفتد خودرو بی‌طرف می‌شود و می‌توان آن را از دشمن \"قرض گرفت\". راحت باش و به خرج دشمنت دوری بزن"
+ },
+ {
+  "label": "ACADEMY:DisguisedUnits",
+  "text": "برخی یگان‌ها می‌توانند خود را به شکل یگان‌های دیگر درآورند. هیچ چیز به اندازه راندن پنهانی یک کامیون بمب GLA به پایگاه دشمن و به پا کردن آشوب لذت‌بخش نیست. حتماً از این تاکتیک کلیدی برای پیشبرد نقشه نبردت استفاده کن"
+ },
+ {
+  "label": "ACADEMY:StealthUpgrade",
+  "text": "برخی سازه‌ها مثل شبکه تونل یا سایت‌های استینگر GLA را می‌توان با استتار ارتقا داد. این‌ها تا وقتی دیر نشده از دید دشمن پنهان‌اند. غافلگیر شدی!"
+ },
+ {
+  "label": "ACADEMY:Firestorm",
+  "text": "چین توانایی منحصربه‌فردی دارد: وقتی چند میگ یا توپ جهنمی یک دشمن یا منطقه را هدف بگیرند طوفان آتش می‌سازند. حتماً حمله‌هایت را برای بیشترین اثر هماهنگ کن"
+ },
+ {
+  "label": "GUI:HeatEffects",
+  "text": "جلوه‌های حرارتی"
+ },
+ {
+  "label": "TOOLTIP:HeatEffects",
+  "text": "نمایش جلوه‌های اعوجاج حرارتی را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "GUI:WeatherEffects",
+  "text": "جلوه‌های آب‌وهوا"
+ },
+ {
+  "label": "TOOLTIP:WeatherEffects",
+  "text": "نمایش جلوه‌های آب‌وهوا مثل برف را روشن یا خاموش می‌کند. برای عملکرد بهتر خاموشش کنید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_AllyUnderAttackSubtitle",
+  "text": "*متحدمان زیر حمله است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BaseDefensesOffLineSubtitle",
+  "text": "*دفاع پایگاه‌مان از کار افتاده"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BeaconDetectedSubtitle",
+  "text": "*یک نشانگر گذاشته شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusEnemySubtitle",
+  "text": "*نیلوفر سیاه دشمن را کشف کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BlackLotusOursSubtitle",
+  "text": "*نیلوفر سیاه کشف شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingBeingCapturedSubtitle",
+  "text": "*ساختمانمان در حال تصرف است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingDisabledSubtitle",
+  "text": "*یک ساختمان از کار افتاد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingEnabledSubtitle",
+  "text": "*یک ساختمان دوباره فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_BuildingStolenSubtitle",
+  "text": "*دشمن یکی از ساختمان‌هایمان را تصرف کرد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_CashStolenSubtitle",
+  "text": "*ژنرال، دارند پولمان را می‌دزدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonEnemySubtitle",
+  "text": "*سرهنگ برتون دشمن را کشف کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ColonelBurtonOursSubtitle",
+  "text": "*سرهنگ برتون کشف شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DefeatSubtitle",
+  "text": "*شکست خوردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedNukeSubtitle",
+  "text": "*هشدار: یک سیلوی موشک هسته‌ای شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedParticleCannonSubtitle",
+  "text": "*هشدار: یک توپ ذره‌ای شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_DetectedScudStormSubtitle",
+  "text": "*هشدار: یک طوفان اسکاد شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsReceivedSubtitle",
+  "text": "*از متحدمان پول دریافت کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedSubtitle",
+  "text": "*از متحدت پول درخواست کردی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsRequestedAllySubtitle",
+  "text": "*متحدت پول درخواست می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_FundsTransferredSubtitle",
+  "text": "*به متحدمان پول انتقال دادیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GeneralLevelUpSubtitle",
+  "text": "*تبریک ژنرال. ارتقای درجه گرفتی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_GPSScramblerLaunchedSubtitle",
+  "text": "*هشدار. یک مختل‌کننده GPS فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingAnthraxSubtitle",
+  "text": "*هشدار: یک بمب سیاه‌زخم پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingDaisyCutterSubtitle",
+  "text": "*هشدار: یک بمب دیزی‌کاتر پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingEmpPulseSubtitle",
+  "text": "*هشدار: یک بمب پالس EMP پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_IncomingFuelAirBombSubtitle",
+  "text": "*هشدار: یک بمب سوخت-هوا پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_InsufficientFundsSubtitle",
+  "text": "*پول بیشتری لازم داریم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellEnemySubtitle",
+  "text": "*جارمن کل دشمن را کشف کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_JarmenKellOursSubtitle",
+  "text": "*جارمن کل کشف شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaserDefenseSpeechSubtitle",
+  "text": "*ژنرال، حریف ما دژی در مرکز شهر دارد. سامانه دفاع لیزری‌اش ویرانگر است، اما برق زیادی می‌خواهد. مجبور می‌شود برقش را هر بار فقط به یک نقطه دفاعی بدهد. از این به نفع خودت استفاده کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedNukeSubtitle",
+  "text": "*هشدار: یک موشک هسته‌ای پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedParticleCannonSubtitle",
+  "text": "*هشدار: توپ ذره‌ای شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LaunchedScudStormSubtitle",
+  "text": "*هشدار: طوفان اسکاد پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_LowPowerSubtitle",
+  "text": "*برقمان کم است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileDetectedAllySubtitle",
+  "text": "*متحدمان یک سیلوی موشک هسته‌ای ساخت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedAllySubtitle",
+  "text": "*متحدمان یک موشک هسته‌ای پرتاب کرد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileLaunchedOursSubtitle",
+  "text": "*موشک هسته‌ای‌مان را پرتاب کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_NuclearMissileReadySubtitle",
+  "text": "*موشک هسته‌ای ما آماده است ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures01Subtitle",
+  "text": "*ژنرال. مراقب باش سازه‌های غیرنظامی نابود نشوند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionCivilianStructures02Subtitle",
+  "text": "*نابودی سازه‌های غیرنظامی به افکار عمومی جهانی درباره ما آسیب می‌زند!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStatuesSubtitle",
+  "text": "*مجسمه‌های GLA را نابود کن تا افکار عمومی جهانی بهتر شود، قربان"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyStructuresSubtitle",
+  "text": "*قربان. نابودی سازه‌های دشمن افکار عمومی جهانی درباره ما را بهتر می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionDestroyTroopsSubtitle",
+  "text": "*نیروهای دشمن بیشتری را نابود کن تا افکار عمومی جهانی بهتر شود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionFallingSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در حال افت است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما پایین می‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowCriticalSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در وضعیت بحرانی است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionLowVerySubtitle",
+  "text": "*افکار عمومی جهانی درباره ما بسیار پایین است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionProtectCivilianSubtitle",
+  "text": "*از اموال غیرنظامیان در برابر آسیب محافظت کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_OpinionRisingSubtitle",
+  "text": "*افکار عمومی جهانی درباره ما در حال بهبود است!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonDetectedAllySubtitle",
+  "text": "*متحدمان یک توپ ذره‌ای ساخت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedAllySubtitle",
+  "text": "*متحدمان توپ ذره‌ای‌اش را فعال کرد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonLaunchedOursSubtitle",
+  "text": "*توپ ذره‌ای ما فعال شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ParticleCannonReadySubtitle",
+  "text": "*توپ ذره‌ای ما آماده است ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ReinforcementsHaveArrivedSubtitle",
+  "text": "*نیروهای کمکی رسیدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormDetectedAllySubtitle",
+  "text": "*متحدمان یک طوفان اسکاد ساخت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedAllySubtitle",
+  "text": "*متحدمان طوفان اسکادش را پرتاب کرد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormLaunchedOursSubtitle",
+  "text": "*طوفان اسکاد ما پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_ScudStormReadySubtitle",
+  "text": "*طوفان اسکاد ما آماده است ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SelectTargetSubtitle",
+  "text": "*هدف را انتخاب کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_SneakAttackLaunchedSubtitle",
+  "text": "*هشدار. یک حمله غافلگیرانه شناسایی شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UnitLostSubtitle",
+  "text": "*یگان از دست رفت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeCompleteSubtitle",
+  "text": "*ارتقا کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeEMPminesSubtitle",
+  "text": "*ارتقای مین‌های نوترونی کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_UpgradeNeutronShellSubtitle",
+  "text": "*ارتقای گلوله نوترونی کامل شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VehicleStolenSubtitle",
+  "text": "*یک خودرو دزدیده شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaChina_VictorySubtitle",
+  "text": "*پیروز شدیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_AllyUnderAttackSubtitle",
+  "text": "*متحدمان زیر حمله است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BaseDefensesOffLineSubtitle",
+  "text": "*دفاع پایگاه‌مان کار نمی‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BeaconDetectedSubtitle",
+  "text": "*یک نشانگر گذاشته شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusEnemySubtitle",
+  "text": "*نیلوفر سیاه دشمن را کشف کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BlackLotusOursSubtitle",
+  "text": "*دشمن نیلوفر سیاه ما را دید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingBeingCapturedSubtitle",
+  "text": "*دشمن در حال تصرف یکی از ساختمان‌هایمان است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingDisabledSubtitle",
+  "text": "*یک ساختمان از کار افتاد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingEnabledSubtitle",
+  "text": "*ساختمانمان دوباره کار می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_BuildingStolenSubtitle",
+  "text": "*کنترل ساختمانمان را گرفتند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_CashStolenSubtitle",
+  "text": "*ژنرال، دارند پولمان را می‌دزدند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonEnemySubtitle",
+  "text": "*سرهنگ برتون دشمن را کشف کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ColonelBurtonOursSubtitle",
+  "text": "*دشمن سرهنگ برتون ما را دید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DefeatSubtitle",
+  "text": "*شکست خوردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedNukeSubtitle",
+  "text": "*مراقب باش، یک سیلوی موشک هسته‌ای دیدیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedParticleCannonSubtitle",
+  "text": "*گوش به زنگ باش، توپ ذره‌ای دشمن را آشکار کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_DetectedScudStormSubtitle",
+  "text": "*مراقب باش، دشمن یک طوفان اسکاد ساخته"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade01Subtitle",
+  "text": "*حالا از سازه‌هایمان نگهبانی می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade02Subtitle",
+  "text": "*در حال ارتقا به گارد نخبه هستیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_EliteGuardUpgrade03Subtitle",
+  "text": "*گارد نخبه حالا از ساختمان‌هایمان محافظت می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsReceivedSubtitle",
+  "text": "*از متحدمان پول دریافت کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedSubtitle",
+  "text": "*از متحدت پول درخواست کردی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsRequestedAllySubtitle",
+  "text": "*متحدت پول درخواست می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_FundsTransferredSubtitle",
+  "text": "*به متحدمان پول انتقال دادیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GeneralLevelUpSubtitle",
+  "text": "*آفرین ژنرال. به درجه بالاتری رسیدی"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_GPSScramblerLaunchedSubtitle",
+  "text": "*ژنرال، دشمن از مختل‌کننده GPS استفاده می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingAnthraxSubtitle",
+  "text": "*گوش به زنگ باش، ممکن است یک بمب سیاه‌زخم در راه باشد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingDaisyCutterSubtitle",
+  "text": "*گوش به زنگ باش. ممکن است یک بمب دیزی‌کاتر در راه باشد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingEmpPulseSubtitle",
+  "text": "*گوش به زنگ باش. ممکن است یک بمب پالس EMP در راه باشد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_IncomingFuelAirBombSubtitle",
+  "text": "*گوش به زنگ باش. ممکن است یک بمب سوخت-هوا در راه باشد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_InsufficientFundsSubtitle",
+  "text": "*پول بیشتری لازم خواهیم داشت، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellEnemySubtitle",
+  "text": "*جارمن کل دشمن را کشف کردیم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_JarmenKellOursSubtitle",
+  "text": "*دشمن جارمن کل ما را دید"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaserDefenseSpeechSubtitle",
+  "text": "*ژنرال، حریف ما دژی در مرکز شهر دارد. سامانه دفاع لیزری‌اش ویرانگر است، اما برق زیادی می‌خواهد. مجبور می‌شود برقش را هر بار فقط به یک نقطه دفاعی بدهد. از این به نفع خودت استفاده کن"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedNukeSubtitle",
+  "text": "*ژنرال، یک موشک هسته‌ای رها شد!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedParticleCannonSubtitle",
+  "text": "*ژنرال، دشمن از توپ ذره‌ای‌اش استفاده می‌کند"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LaunchedScudStormSubtitle",
+  "text": "*ژنرال، یک طوفان اسکاد پرتاب شد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_LowPowerSubtitle",
+  "text": "*برقمان کم است"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileDetectedAllySubtitle",
+  "text": "*متحدمان یک سیلوی موشک هسته‌ای ساخت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*متحدمان یک موشک هسته‌ای پرتاب کرد"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*پرتاب موشک هسته‌ای"
+ }
+]

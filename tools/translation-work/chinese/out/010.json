@@ -1,0 +1,802 @@
+[
+ {
+  "label": "TOOLTIP:SendDelay",
+  "text": "仅限防火墙用户。（请参阅说明书）"
+ },
+ {
+  "label": "GUI:GSFailedToHost",
+  "text": "无法主持游戏"
+ },
+ {
+  "label": "Buddy:SelectBuddyToChat",
+  "text": "选择要聊天的好友"
+ },
+ {
+  "label": "GUI:CannotConnectToServservTitle",
+  "text": "无法连接"
+ },
+ {
+  "label": "GUI:CannotConnectToServserv",
+  "text": "无法与命令与征服将军：绝命时刻服务器建立连接。请检查你的网络连接"
+ },
+ {
+  "label": "MESSAGE:BattlePlanBombardmentInitiated",
+  "text": "轰炸战略已启动"
+ },
+ {
+  "label": "MESSAGE:BattlePlanHoldTheLineInitiated",
+  "text": "坚守阵线战略已启动"
+ },
+ {
+  "label": "MESSAGE:BattlePlanSearchAndDestroyInitiated",
+  "text": "搜索与摧毁战略已启动"
+ },
+ {
+  "label": "OBJECT:TechOilRefinery",
+  "text": "炼油厂 —— 占领后可降低载具造价"
+ },
+ {
+  "label": "OBJECT:SupplyDock",
+  "text": "补给站"
+ },
+ {
+  "label": "GUI:InGameDiplomacy",
+  "text": "外交"
+ },
+ {
+  "label": "GUI:MapPreview",
+  "text": "地图预览"
+ },
+ {
+  "label": "GUI:Error",
+  "text": "错误"
+ },
+ {
+  "label": "Buddy:Disconnected",
+  "text": "你已与好友列表\n断开连接"
+ },
+ {
+  "label": "GUI:SandboxMode",
+  "text": "正在进入沙盒模式……"
+ },
+ {
+  "label": "GUI:BookmarkXSet",
+  "text": "书签 #%d 已设置"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair1",
+  "text": "紧急维修 1"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair2",
+  "text": "紧急维修 2"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair3",
+  "text": "紧急维修 3"
+ },
+ {
+  "label": "MAP:CHI05Open",
+  "text": "吉尔吉斯斯坦，巴雷克奇\n焦土"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceEmergencyRepair",
+  "text": "修复区域内的载具\n\n等级 1：轻度维修\n等级 2：中度维修\n等级 3：深度维修\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "GUI:MinSpecFailedTitle",
+  "text": "警告"
+ },
+ {
+  "label": "GUI:MinSpecFailedMessage",
+  "text": "你的系统未达到最低硬件要求。在多人游戏中帧率可能低于正常水平"
+ },
+ {
+  "label": "TOOLTIP:AlreadyUpgradedDefault",
+  "text": "此升级已购买"
+ },
+ {
+  "label": "TOOLTIP:HasConflictingUpgradeDefault",
+  "text": "无法购买相互冲突的升级"
+ },
+ {
+  "label": "GUI:NoGameSelected",
+  "text": "请先选择要加入的游戏"
+ },
+ {
+  "label": "GUI:CloseExpScreen",
+  "text": "完成"
+ },
+ {
+  "label": "TOOLTIP:CloseExpScreen",
+  "text": "返回游戏"
+ },
+ {
+  "label": "GUI:GPNoCommunicator",
+  "text": "多人测试版中不提供通讯器"
+ },
+ {
+  "label": "GUI:GSKickedGameStarted",
+  "text": "游戏已经开始"
+ },
+ {
+  "label": "GUI:GSKickedGameFull",
+  "text": "游戏已满"
+ },
+ {
+  "label": "Network:PacketRouterTimeout",
+  "text": "数据包路由超时"
+ },
+ {
+  "label": "GUI:EstablishingConnectionPaths",
+  "text": "正在建立连接路径"
+ },
+ {
+  "label": "UPGRADE:RadarVanScan",
+  "text": "雷达车扫描"
+ },
+ {
+  "label": "MAP:CHI04Open",
+  "text": "中国，唐古拉山\n破裂的同盟"
+ },
+ {
+  "label": "MAP:GLA04Open",
+  "text": "阿斯塔纳\n被中国占领的哈萨克斯坦首都"
+ },
+ {
+  "label": "MAP:USA07NewObjective2",
+  "text": "新任务目标：\n摧毁中国指挥中心\n和核导弹发射井"
+ },
+ {
+  "label": "MAP:USA07GotObjective1",
+  "text": "目标已完成：\n消灭东北方的 GLA"
+ },
+ {
+  "label": "MAP:USA07GotObjective2",
+  "text": "目标已完成：\n摧毁中国指挥中心\n和核导弹发射井"
+ },
+ {
+  "label": "GUI:Defaults",
+  "text": "默认"
+ },
+ {
+  "label": "TOOLTIP:OptionsAccept",
+  "text": "接受更改并退出选项菜单"
+ },
+ {
+  "label": "TOOLTIP:OptionsCancel",
+  "text": "不保存更改并退出选项菜单"
+ },
+ {
+  "label": "TOOLTIP:OptionsDefaults",
+  "text": "将选项重置为默认设置"
+ },
+ {
+  "label": "MESSAGE:StealthDiscovered",
+  "text": "发现敌方隐形单位"
+ },
+ {
+  "label": "MESSAGE:StealthNeutralized",
+  "text": "隐形能力已被破除"
+ },
+ {
+  "label": "TOOLTIP:SortBuddies",
+  "text": "将好友置于游戏列表顶部"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenu",
+  "text": "将军经验菜单"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenuDescription",
+  "text": "显示经验菜单，你可以在这里将战斗中获得的经验点数用于各种将军技能"
+ },
+ {
+  "label": "CONTROLBAR:UpDown",
+  "text": "显示/隐藏切换"
+ },
+ {
+  "label": "CONTROLBAR:UpDownDescription",
+  "text": "切换控制栏的显示或隐藏"
+ },
+ {
+  "label": "CONTROLBAR:DisarmMinesAtPosition",
+  "text": "清除地雷(&L)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDisarmMinesAtPosition",
+  "text": "清除指定区域内的地雷和小型炸药"
+ },
+ {
+  "label": "TOOLTIP:ScienceCostUnavailable",
+  "text": "花费：不可用"
+ },
+ {
+  "label": "GUI:OnlineIPAddresses",
+  "text": "在线 IP："
+ },
+ {
+  "label": "GUI:GSDisconReason16",
+  "text": "已存在该昵称的资料"
+ },
+ {
+  "label": "GUI:GSDisconReason17",
+  "text": "密码错误。请重试"
+ },
+ {
+  "label": "GUI:GSDisconReason18",
+  "text": "已存在该昵称的资料"
+ },
+ {
+  "label": "GUI:GSDisconReason19",
+  "text": "服务器错误 - 无法创建账户"
+ },
+ {
+  "label": "Buddy:MessageDisconnected",
+  "text": "你已与好友列表\n断开连接"
+ },
+ {
+  "label": "GUI:PlayerHasBeenDefeated",
+  "text": "%ls 已被击败"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRangerCaptureBuilding",
+  "text": "占领建筑(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRedguardCaptureBuilding",
+  "text": "占领建筑(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARebelCaptureBuilding",
+  "text": "占领建筑(&C)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateBombTruck",
+  "text": "立即引爆！(&N)"
+ },
+ {
+  "label": "UPGRADE:RangerCaptureBuilding",
+  "text": "占领建筑"
+ },
+ {
+  "label": "UPGRADE:RedguardCaptureBuilding",
+  "text": "占领建筑"
+ },
+ {
+  "label": "UPGRADE:RebelCaptureBuilding",
+  "text": "占领建筑"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateBombTruck",
+  "text": "命令炸弹卡车立即在当前位置引爆"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAUpgradeRangerCaptureBuilding",
+  "text": "使游骑兵能够占领敌方建筑和科技建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "使红卫兵能够占领敌方建筑和科技建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRebelCaptureBuilding",
+  "text": "使叛军能够占领敌方建筑和科技建筑"
+ },
+ {
+  "label": "GUI:Loading",
+  "text": "载入中"
+ },
+ {
+  "label": "TOOLTIP:EmoteButton",
+  "text": "表情"
+ },
+ {
+  "label": "CONTROLBAR:Power",
+  "text": "电力"
+ },
+ {
+  "label": "CONTROLBAR:PowerDescription",
+  "text": "当前电力：%d\n所需电力：%d"
+ },
+ {
+  "label": "CONTROLBAR:Money",
+  "text": "资金"
+ },
+ {
+  "label": "CONTROLBAR:MoneyDescription",
+  "text": "这是你拥有的资金数额"
+ },
+ {
+  "label": "MAP:TourneyArena",
+  "text": "Tournament Desert"
+ },
+ {
+  "label": "UPGRADE:AmericaDroneARmor",
+  "text": "无人机装甲"
+ },
+ {
+  "label": "UPGRADE:APRockets",
+  "text": "穿甲火箭"
+ },
+ {
+  "label": "ThingTemplate:EuropeanTowerBridge01",
+  "text": "桥"
+ },
+ {
+  "label": "ThingTemplate:BridgeTowerConcreteRight02",
+  "text": "桥"
+ },
+ {
+  "label": "Team:0",
+  "text": "无"
+ },
+ {
+  "label": "Team:1",
+  "text": "1"
+ },
+ {
+  "label": "Team:2",
+  "text": "2"
+ },
+ {
+  "label": "Team:3",
+  "text": "3"
+ },
+ {
+  "label": "Team:4",
+  "text": "4"
+ },
+ {
+  "label": "Team:AI",
+  "text": "电脑"
+ },
+ {
+  "label": "GUI:RestartConfirmation",
+  "text": "你确定要重新开始吗？"
+ },
+ {
+  "label": "GUI:ErrorStartingGame",
+  "text": "开始游戏时出错"
+ },
+ {
+  "label": "GUI:TooManyPlayers",
+  "text": "此地图仅支持 %d 名玩家"
+ },
+ {
+  "label": "GUI:SandboxWarning",
+  "text": "再次点击开始将进入沙盒游戏"
+ },
+ {
+  "label": "GUI:CantFindMap",
+  "text": "找不到地图。是否已损坏？"
+ },
+ {
+  "label": "GUI:EnterSaveDesc",
+  "text": "输入游戏描述"
+ },
+ {
+  "label": "GUI:MissionSave",
+  "text": "任务开始 - %s %d"
+ },
+ {
+  "label": "GUI:SaveReplay",
+  "text": "保存录像"
+ },
+ {
+  "label": "GUI:OverwriteReplayTitle",
+  "text": "覆盖录像"
+ },
+ {
+  "label": "GUI:OverwriteReplay",
+  "text": "覆盖录像？"
+ },
+ {
+  "label": "GUI:ConfirmDelete",
+  "text": "你确定要删除这个游戏吗？"
+ },
+ {
+  "label": "GUI:DeleteGame",
+  "text": "删除"
+ },
+ {
+  "label": "GUI:GameSaveComplete",
+  "text": "*** 游戏已保存 ***"
+ },
+ {
+  "label": "CAMPAIGN:USA",
+  "text": "美国"
+ },
+ {
+  "label": "CAMPAIGN:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "CAMPAIGN:China",
+  "text": "中国"
+ },
+ {
+  "label": "GUI:Easy",
+  "text": "简单"
+ },
+ {
+  "label": "GUI:Hard",
+  "text": "困难"
+ },
+ {
+  "label": "GUI:SelectDifficulty",
+  "text": "选择难度"
+ },
+ {
+  "label": "GUI:NumPlayersOnline",
+  "text": "在线玩家总数：%d"
+ },
+ {
+  "label": "GUI:AllowableMaps",
+  "text": "可用地图"
+ },
+ {
+  "label": "GUI:QuickMatchTitle",
+  "text": "快速对战"
+ },
+ {
+  "label": "LOAD:TRAINING_1",
+  "text": "—— GLA 控制着一座化学武器工厂"
+ },
+ {
+  "label": "LOAD:TRAINING_2",
+  "text": "—— 摧毁化学武器工厂"
+ },
+ {
+  "label": "LOAD:TRAINING_3",
+  "text": "—— 消除威胁"
+ },
+ {
+  "label": "LOAD:USA01_1",
+  "text": "—— GLA 拥有飞毛腿风暴"
+ },
+ {
+  "label": "LOAD:USA01_2",
+  "text": "—— 他们的基地在巴格达"
+ },
+ {
+  "label": "LOAD:USA01_3",
+  "text": "—— 消除这一威胁"
+ },
+ {
+  "label": "LOAD:USA02_1",
+  "text": "—— GLA 首脑的踪迹指向也门"
+ },
+ {
+  "label": "LOAD:USA02_2",
+  "text": "—— 科曼奇正在搜寻罪犯"
+ },
+ {
+  "label": "LOAD:USA02_3",
+  "text": "—— 营救被俘的飞行员"
+ },
+ {
+  "label": "LOAD:USA03_1",
+  "text": "—— 美军正在全面撤退"
+ },
+ {
+  "label": "LOAD:USA03_2",
+  "text": "—— GLA 紧追不舍"
+ },
+ {
+  "label": "LOAD:USA03_3",
+  "text": "—— 掩护撤退部队"
+ },
+ {
+  "label": "LOAD:USA04_1",
+  "text": "—— 发现了 GLA 训练营"
+ },
+ {
+  "label": "LOAD:USA04_2",
+  "text": "—— 消除这一威胁"
+ },
+ {
+  "label": "LOAD:USA06_1",
+  "text": "—— 卡巴拉市正在举行和平会议"
+ },
+ {
+  "label": "LOAD:USA06_2",
+  "text": "—— GLA 不可信任"
+ },
+ {
+  "label": "LOAD:USA06_3",
+  "text": "—— 保持警惕"
+ },
+ {
+  "label": "LOAD:USA07_1",
+  "text": "—— 一名叛变的中国将军已投靠 GLA"
+ },
+ {
+  "label": "LOAD:USA07_2",
+  "text": "—— 敌人依赖地道网"
+ },
+ {
+  "label": "LOAD:USA07_3",
+  "text": "—— 必须立即发动进攻"
+ },
+ {
+  "label": "LOAD:USA08_1",
+  "text": "—— 美军已包围 GLA 首都"
+ },
+ {
+  "label": "LOAD:USA08_2",
+  "text": "—— GLA 拥有生物武器"
+ },
+ {
+  "label": "LOAD:USA08_3",
+  "text": "—— 中国已承诺支援美国"
+ },
+ {
+  "label": "LOAD:USA08_4",
+  "text": "—— 必须消灭 GLA"
+ },
+ {
+  "label": "LOAD:China01_1",
+  "text": "—— 中国的军威正在阅兵中展示"
+ },
+ {
+  "label": "LOAD:China01_2",
+  "text": "—— 保护中国的阅兵"
+ },
+ {
+  "label": "LOAD:China01_3",
+  "text": "—— 消除北京地区的一切威胁"
+ },
+ {
+  "label": "LOAD:China02_1",
+  "text": "—— 在香港发现了 GLA 小组"
+ },
+ {
+  "label": "LOAD:China02_2",
+  "text": "—— 恐怖分子以会展中心为基地"
+ },
+ {
+  "label": "LOAD:China02_3",
+  "text": "—— 必须铲除该小组"
+ },
+ {
+  "label": "LOAD:China03_1",
+  "text": "—— GLA 已渗透三峡大坝地区"
+ },
+ {
+  "label": "LOAD:China03_2",
+  "text": "—— 敌方增援正威胁我军"
+ },
+ {
+  "label": "LOAD:China03_3",
+  "text": "—— 用中国大军淹没 GLA"
+ },
+ {
+  "label": "LOAD:China04_1",
+  "text": "—— GLA 建造了一座生化毒素工厂"
+ },
+ {
+  "label": "LOAD:China04_2",
+  "text": "—— 在特工黑莲花的协助下找到工厂"
+ },
+ {
+  "label": "LOAD:China04_3",
+  "text": "—— 空袭将协助摧毁它"
+ },
+ {
+  "label": "LOAD:China05_1",
+  "text": "—— GLA 占领了巴雷克奇"
+ },
+ {
+  "label": "LOAD:China05_2",
+  "text": "—— 美军将提供空中支援"
+ },
+ {
+  "label": "LOAD:China05_3",
+  "text": "—— 呼叫地毯式轰炸，消灭 GLA"
+ },
+ {
+  "label": "LOAD:China06_1",
+  "text": "—— GLA 劫持了中国的一条铁路"
+ },
+ {
+  "label": "LOAD:China06_2",
+  "text": "—— GLA 正在阿尔达斯坦比什凯克集结"
+ },
+ {
+  "label": "LOAD:China06_3",
+  "text": "—— 用黑莲花炸毁铁路桥"
+ },
+ {
+  "label": "LOAD:China07_1",
+  "text": "—— 在塔吉克斯坦发现 GLA 亚洲恐怖小组"
+ },
+ {
+  "label": "LOAD:China07_2",
+  "text": "—— 授权你动用核武库"
+ },
+ {
+  "label": "LOAD:GLA01_1",
+  "text": "—— 许多兄弟已经牺牲"
+ },
+ {
+  "label": "LOAD:GLA01_2",
+  "text": "—— 中国的防线过于分散"
+ },
+ {
+  "label": "LOAD:GLA01_3",
+  "text": "—— 消灭中国部队"
+ },
+ {
+  "label": "LOAD:GLA02_1",
+  "text": "—— 联合国物资正运往阿拉木图地区"
+ },
+ {
+  "label": "LOAD:GLA02_2",
+  "text": "—— 为我们的事业截获这些物资"
+ },
+ {
+  "label": "LOAD:GLA02_3",
+  "text": "—— 收集物资为 GLA 注入资金"
+ },
+ {
+  "label": "LOAD:GLA03_1",
+  "text": "—— 压迫者腐化了江布尔的人民"
+ },
+ {
+  "label": "LOAD:GLA03_2",
+  "text": "—— 他们唯一的真正自由在于死亡"
+ },
+ {
+  "label": "LOAD:GLA03_3",
+  "text": "—— 用毒素拖拉机消灭他们"
+ },
+ {
+  "label": "LOAD:GLA04_1",
+  "text": "—— 我们在阿斯塔纳找到了新盟友"
+ },
+ {
+  "label": "LOAD:GLA04_2",
+  "text": "—— 我们可以利用他们骚扰敌人"
+ },
+ {
+  "label": "LOAD:GLA04_3",
+  "text": "—— 趁阿斯塔纳燃烧之际，洗劫全城搜刮物资"
+ },
+ {
+  "label": "LOAD:GLA05_1",
+  "text": "—— 不能容忍美国的傲慢"
+ },
+ {
+  "label": "LOAD:GLA05_2",
+  "text": "—— 不让该地区落入他们的帝国主义魔爪"
+ },
+ {
+  "label": "LOAD:GLA05_3",
+  "text": "—— 摧毁他们“优越”的空军"
+ },
+ {
+  "label": "LOAD:GLA06_1",
+  "text": "—— 咸海传来的消息不妙"
+ },
+ {
+  "label": "LOAD:GLA06_2",
+  "text": "—— 美军控制了我们的毒素储存设施"
+ },
+ {
+  "label": "LOAD:GLA06_3",
+  "text": "—— 夺回储存碉堡"
+ },
+ {
+  "label": "LOAD:GLA07_1",
+  "text": "—— GLA 叛徒已投靠中国"
+ },
+ {
+  "label": "LOAD:GLA07_2",
+  "text": "—— 袭击车队，切断他们的补给线"
+ },
+ {
+  "label": "LOAD:GLA07_3",
+  "text": "—— 消灭叛徒及其中国盟友"
+ },
+ {
+  "label": "LOAD:GLA08_1",
+  "text": "—— 控制航天发射场"
+ },
+ {
+  "label": "LOAD:GLA08_2",
+  "text": "—— 那里的导弹将把致命毒素送给我们的敌人"
+ },
+ {
+  "label": "LOAD:GLA08_3",
+  "text": "—— 我们的命运就在眼前"
+ },
+ {
+  "label": "TOOLTIP:DownloadProgress",
+  "text": "下载进度"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz10",
+  "text": "闪电荣誉\n在 10 分钟内击败对手即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz5",
+  "text": "闪电荣誉\n在 5 分钟内击败对手即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSADisabled",
+  "text": "美国忠诚荣誉\n连续 20 场以上使用美国阵营即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChinaDisabled",
+  "text": "中国忠诚荣誉\n连续 20 场以上使用中国阵营即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLADisabled",
+  "text": "GLA 忠诚荣誉\n连续 20 场以上使用 GLA 阵营即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTankDisabled",
+  "text": "坦克荣誉\n对战电脑时建造 50 辆以上坦克即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWingDisabled",
+  "text": "空军荣誉\n对战电脑时建造 20 架以上飞机即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEnduranceDisabled",
+  "text": "耐力荣誉\n通关每张地图即可获得铜、银或金牌"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSADisabled",
+  "text": "美国战役荣誉\n完成美国战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChinaDisabled",
+  "text": "中国战役荣誉\n完成中国战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLADisabled",
+  "text": "GLA 战役荣誉\n完成GLA 战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallengeDisabled",
+  "text": "挑战荣誉\n击败 1-7 名困难难度的电脑对手即可获得此勋章"
+ },
+ {
+  "label": "GUI:BuildingsKilledStat",
+  "text": "摧毁建筑"
+ },
+ {
+  "label": "GUI:BuildingsBuiltStat",
+  "text": "建造建筑"
+ },
+ {
+  "label": "GUI:BuildingsLostStat",
+  "text": "损失建筑"
+ },
+ {
+  "label": "GUI:QMWinStreak",
+  "text": "快速对战连胜"
+ },
+ {
+  "label": "GUI:LastLadder",
+  "text": "上次天梯"
+ },
+ {
+  "label": "GUI:LobbyJoined",
+  "text": "你已加入 %ls"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoAll",
+  "text": "请输入邮箱、昵称和密码，然后点击“登录”或“创建账户”"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailNickname",
+  "text": "请输入邮箱和昵称，然后点击“登录”或“创建账户”"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailPassword",
+  "text": "请输入邮箱和密码，然后点击“登录”或“创建账户”"
+ }
+]

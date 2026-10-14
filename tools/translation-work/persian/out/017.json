@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:MD-CHI05_PartCannon_Detected",
+  "text": "هشدار:\nتوپ ذره‌ای شناسایی شد"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint01",
+  "text": "راهنمایی:\nباید حمله‌مان را روی پایگاه آمریکا متمرکز کنیم\nباید توپ‌های ذره‌ای‌شان را از میان برداریم"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint02",
+  "text": "پیام دریافتی:\nمرکز فرماندهی آمریکا را نابود کنید تا پشتیبانی هوایی‌شان تمام شود"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint05",
+  "text": "پیام دریافتی:\nهایجکرهای دشمن را بکشید تا از خودروهایمان محافظت کنیم"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint08",
+  "text": "پیام دریافتی:\nجارمن کل ممکن است در این روستا پنهان شده باشد"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint10",
+  "text": "پیام دریافتی:\nنگذارید اتوبوس‌های جنگی به پایگاهمان برسند"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint13",
+  "text": "پیام دریافتی:\nپایگاه آمریکا بی‌برق است. سریع ضربه بزنید"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint15",
+  "text": "پیام دریافتی:\nبا پاسگاه‌های شنود جلوی\nتک‌تیراندازی جارمن کل به خودروهایمان را بگیرید"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint16",
+  "text": "پیام دریافتی:\nبا پیاده‌نظام خودروهای خنثی‌شده‌مان را پس بگیرید"
+ },
+ {
+  "label": "MAP:MD-CHI05_InternetCenter02",
+  "text": "راهنمایی:\nهکرها را در مرکز اینترنت مستقر کنید تا درآمد بیشتری داشته باشید"
+ },
+ {
+  "label": "MAP:ChemGeneral",
+  "text": "دکتر تراکس"
+ },
+ {
+  "label": "GC_CHINABOSS:Loc",
+  "text": "جایی نزدیک مرز چین و تبت\n'کنام ببر'"
+ },
+ {
+  "label": "GC_CHINABOSS:Hint",
+  "text": "پیام دریافتی:\nنابودی سنگرهای سلاح دشمن زمان‌سنج همه سلاح‌های ویژه را صفر می‌کند"
+ },
+ {
+  "label": "GC_CHINABOSS:Reset",
+  "text": "\nزمان‌سنج سلاح‌های ویژه صفر شد"
+ },
+ {
+  "label": "GC_CHINABOSS:Strike",
+  "text": "\nحمله سلاح ویژه قریب‌الوقوع است"
+ },
+ {
+  "label": "GC_CHINABOSS:Resources",
+  "text": "راهنمایی:\nمنابع اینجا محدود است. باید سریع تدارکات بیشتری پیدا کنید"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMOAB",
+  "text": "قوی در برابر: ساختمان‌ها\nیگان‌های درون شعاع انفجار را گیج می‌کند\n\nزمان شمارش معکوس: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipLeafletDrop",
+  "text": "قوی در برابر: پیاده‌نظام\n\nزمان شمارش معکوس: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipTankParaDrop",
+  "text": "بتل‌مسترها را با هواپیما پیاده می‌کند\n\nزمان شمارش معکوس: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeDrop",
+  "text": "یک کلاهک هسته‌ای تاکتیکی را با هواپیما می‌اندازد\n\nزمان شمارش معکوس: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSuitcaseNuke",
+  "text": "هکر یک سلاح هسته‌ای در چمدانش دارد\n"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSpectreGunship",
+  "text": "قوی در برابر: خودروها\n\nزمان شمارش معکوس: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireICBM",
+  "text": "قوی در برابر: ساختمان‌ها، پیاده‌نظام\n\nزمان شمارش معکوس: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireTomahawkStorm",
+  "text": "قوی در برابر: ساختمان‌ها، خودروها\n\nزمان شمارش معکوس: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFrenzy",
+  "text": "یگان‌هایتان برای مدتی محدود آسیب بیشتری می‌زنند\n\nزمان شمارش معکوس: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireGPSScrambler",
+  "text": "مختل‌کننده GPS\nزمان شمارش معکوس: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCommunicationsDownload",
+  "text": "دانلود اطلاعات موقعیت همه نیروهای دشمن"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSentryDroneGun",
+  "text": "پهپادهای نگهبان مسلسل می‌گیرند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeQuadCannonSnipe",
+  "text": "توپ‌های چهارلول توانایی کشتن پیاده‌نظام با یک شلیک را پیدا می‌کنند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSupplyLines",
+  "text": "سازوکارهای جمع‌آوری منابع ۱۰٪ بیشتر می‌آورند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeMOAB",
+  "text": "بمب سوخت-هوا به مادر همه بمب‌ها ارتقا می‌یابد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBecomeRealBuilding",
+  "text": "ارتقای این ساختمان قلابی به نسخه کاملاً کارا"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeChemicalSuits",
+  "text": "پیاده‌نظام در برابر آسیب سموم و تشعشع مقاوم‌تر می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeBunkerBusters",
+  "text": "موشک‌های جنگنده رادارگریز به نیروهای سنگرگرفته آسیب می‌زنند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCountermeasures",
+  "text": "همه هواپیماها می‌توانند از ۵۰٪ موشک‌هایی که به سویشان شلیک می‌شود طفره بروند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon",
+  "text": "ساخت توپ گاتلینگ روی این هلیکس"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixPropagandaTower",
+  "text": "ساخت برج تبلیغات روی این هلیکس"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixBattleBunker",
+  "text": "ساخت سنگر روی این هلیکس. نیروها می‌توانند در سنگر مستقر شوند و از آن شلیک کنند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackOne",
+  "text": "فعال کردن توانایی هک ماهواره برای آشکار کردن مراکز فرماندهی حریفان"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo",
+  "text": "فعال کردن توانایی هک ماهواره برای آشکار کردن گاه‌به‌گاه قلمرو همه حریفان"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeFanaticism",
+  "text": "۲۵٪ افزایش بیشتر پاداش گروهی"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaWGUraniumShells",
+  "text": "۲۵٪ آسیب بیشتر گلوله‌های بتل‌مستر و اورلورد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTankAutoLoader",
+  "text": "سرعت شلیک بتل‌مستر بیشتر می‌شود"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNeutronShells",
+  "text": "توپ هسته‌ای را برای شلیک گلوله نوترونی ارتقا می‌دهد\nگلوله‌های نوترونی پیاده‌نظام درون خودروها را می‌کشند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeChinaEMPMines",
+  "text": "مین‌ها هنگام فعال شدن انفجار نوترونی آزاد می‌کنند"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaFusionReactors",
+  "text": "سرعت امپراتور و بتل‌مستر را بالا می‌برد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateFakebuilding",
+  "text": "به ساختمان قلابی دستور انفجار فوری می‌دهد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerFakeCommandSet",
+  "text": "تغییر نوار فرمان برای ساخت ساختمان‌های قلابی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerRealCommandSet",
+  "text": "تغییر نوار فرمان برای ساخت ساختمان‌های واقعی"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ToolTipGLAUpgradeHEBomb",
+  "text": "۱۰۰٪ آسیب بیشتر همه تله‌های انفجاری"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLACamoNetting",
+  "text": "این سازه استتار می‌شود"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure",
+  "text": "ساختمان‌ها در برابر حمله‌ها زره بیشتری می‌گیرند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBoobyTrap",
+  "text": "شورشی‌ها می‌توانند روی ساختمان‌ها و یگان‌های بی‌طرف تله انفجاری پنهان بگذارند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeWorkerShoes",
+  "text": "به کارگرها کفش‌های نویی را که مدت‌ها می‌خواستند می‌دهد تا تندتر راه بروند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxGamma",
+  "text": "۵۰٪ آسیب بیشتر همه یگان‌های سمی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSaboteur",
+  "text": "ساختمان‌ها را از کار می‌اندازد. زمان‌سنج سلاح‌های ویژه را صفر می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:DropNapalmBomb",
+  "text": "انداختن بمب ناپالم (&D)"
+ },
+ {
+  "label": "CONTROLBAR:DropNukeBomb",
+  "text": "انداختن بمب هسته‌ای (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNukeBomb",
+  "text": "یک بمب هسته‌ای تاکتیکی روی منطقه هدف می‌اندازد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNapalmBomb",
+  "text": "قوی در برابر: بیشتر اهداف زمینی\nضعیف در برابر: خودروهای شعله‌افکن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNukeWarhead",
+  "text": "بارگیری گلوله‌های هسته‌ای"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNeutronWarhead",
+  "text": "بارگیری گلوله‌های نوترونی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireBattleship",
+  "text": "فراخوان بمباران از ناو جنگی در دریا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireAircraftCarrier",
+  "text": "پرتاب هواپیماهای تهاجمی ناو هواپیمابر"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipECMDisableVehicle",
+  "text": "از کار انداختن خودروی دشمن"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireRebelBoobyTrapAttack",
+  "text": "کار گذاشتن تله انفجاری پنهان"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFireBase",
+  "text": "پدافند زمینی. چهار پیاده‌نظام می‌توانند در آن مستقر شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildArtilleryPlatform",
+  "text": "یک سکوی توپخانه دوربرد برای دفاع می‌سازد\n\nبرق مورد نیاز: 4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFakeGLABuilding",
+  "text": "ساختمان‌های قلابی را می‌توان منفجر کرد یا به ساختمان واقعی ارتقا داد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInternetCenter",
+  "text": "به هکرها در کسب پول کمک می‌کند. می‌توان برای جاسوسی از حریفان ارتقایش داد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaICBMLauncher",
+  "text": "یک موشک بالستیک قاره‌پیما شلیک می‌کند\nبرق مورد نیاز: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaBuildTomahawkStorm",
+  "text": "رگباری از موشک‌های تاماهاک شلیک می‌کند\n\nزمان شمارش معکوس: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBike",
+  "text": "سریع و همه‌کاره\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSaboteur",
+  "text": "یگان نفوذی غیررزمی. می‌تواند ساختمان‌های دشمن را موقتاً از کار بیندازد"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaTrooper",
+  "text": "تبلیغاتی پخش می‌کند که یگان‌های نزدیک را درمان می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMiniGunner",
+  "text": "قوی در برابر: پیاده‌نظام، هوا\nضعیف در برابر: تانک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAvenger",
+  "text": "با لیزر موشک‌ها و هواپیماها را نابود می‌کند\n\nقوی در برابر: موشک‌ها، هواپیما\nضعیف در برابر: خودروها، پیاده‌نظام"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildKingRaptor",
+  "text": "می‌تواند با اهداف زمینی و هوایی درگیر شود. به لیزر دفاع نقطه‌ای مجهز است\nمحموله بیشتر. یگان‌های پنهان را شناسایی می‌کند\n\nقوی در برابر: هواپیما، تانک، خودروهای سبک\nضعیف در برابر: پیاده‌نظام موشک‌انداز، پدافند هوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFuelAirAurora",
+  "text": "حمله مافوق صوت آرورا را هنگام انداختن یک بمب سوخت-هوای کوچک در برابر آتش دشمن مصون می‌کند. پس از حمله سرعتش به ۵۰٪ کاهش می‌یابد\n\nقوی در برابر: ساختمان‌ها\nضعیف در برابر: جنگنده‌ها، یگان‌های ضدهوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHyersonicAurora",
+  "text": "حمله فراصوت آرورا را در برابر آتش دشمن مصون می‌کند. پس از حمله سرعتش به ۵۰٪ کاهش می‌یابد\n\nقوی در برابر: ساختمان‌ها\nضعیف در برابر: جنگنده‌ها، یگان‌های ضدهوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSniper",
+  "text": "وقتی حرکت یا شلیک نمی‌کند استتارشده است. دشمنان پنهان را می‌بیند\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: خودروهای سبک، دیده‌بان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMicrowave",
+  "text": "قوی در برابر: دفاع پایگاه\nضعیف در برابر: تانک، هواپیما، خودروهای سبک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSentryDrone",
+  "text": "یگان‌های پنهان را شناسایی می‌کند\n\nقوی در برابر: پیاده‌نظام\nضعیف در برابر: تانک"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHellfireDrone",
+  "text": "موشک هل‌فایر شلیک می‌کند\n\nقوی در برابر: خودروها\nضعیف در برابر: پیاده‌نظام"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPointDefenseDrone",
+  "text": "لیزر ضدموشک شلیک می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHelix",
+  "text": "ترابری سنگین\nبا سازه‌های دفاعی و بمب ناپالم ارتقا می‌یابد\n\nقوی در برابر: تانک، خودروهای سبک\nضعیف در برابر: پیاده‌نظام موشک‌انداز، پدافند هوایی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildListeningOutpost",
+  "text": "وسیله ترابری. یگان‌های پنهان را شناسایی می‌کند\n\nضعیف در برابر: تانک، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildECM",
+  "text": "قوی در برابر: تانک، خودروها\nضعیف در برابر: پیاده‌نظام، هواپیما"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBattleBus",
+  "text": "۸ پیاده‌نظام را می‌توان در آن سوار کرد\n\nقوی در برابر: پیاده‌نظام، ساختمان‌ها"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpectreGunship",
+  "text": "هواپیماهای توپدار اسپکتر بالای میدان نبرد می‌چرخند و نیروهای دشمن را با هویتزر و توپ گاتلینگ می‌کوبند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceLeafletDrop",
+  "text": "اعلامیه‌ها تجمع نیروهای دشمن را از کار می‌اندازند تا درباره گزینه‌هایشان فکر کنند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankHunterTraining",
+  "text": "همه شکارچیان تانک کهنه‌سرباز ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceBattlemasterTraining",
+  "text": "همه بتل‌مسترها نخبه ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceOverlordTraining",
+  "text": "همه اورلوردها نخبه ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceGattlingTankTraining",
+  "text": "همه تانک‌های گاتلینگ نخبه ساخته می‌شوند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeDrop",
+  "text": "سلاح هسته‌ای تاکتیکی از هوا مستقر می‌شود\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceFrenzy",
+  "text": "وقتی هدف قرار می‌گیرند یگان‌هایتان برای مدتی آسیب بیشتری می‌زنند\n\nدرجه ۱: ۱۰ درصد به مدت ۱۰ ثانیه\nدرجه ۲: ۲۰ درصد به مدت ۲۰ ثانیه\nدرجه ۳: ۳۰ درصد به مدت ۳۰ ثانیه\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCarpetBomb",
+  "text": "امکان فراخواندن یک بمب‌افکن سنگین برای بمباران فرشی یک منطقه\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceGPSScrambler",
+  "text": "یگان‌های درون محدوده اثرش را پنهان می‌کند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASneakAttack",
+  "text": "نیروها می‌توانند هر جای نقشه تونل بسازند\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectAircraftCarriers",
+  "text": "انتخاب ناو(های) هواپیمابر برای انجام آسان حمله"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectBattleships",
+  "text": "فراخوان بمباران از ناو جنگی در دریا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankParadrop",
+  "text": "بتل‌مسترها را از هوا پیاده کنید\n\nدرجه ۱: ۱ بتل‌مستر\nدرجه ۲: ۲ بتل‌مستر\nدرجه ۳: ۴ بتل‌مستر\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceInfantryParadrop",
+  "text": "گارد سرخ را از هوا پیاده کنید\n\nدرجه ۱: ۵ گارد سرخ\nدرجه ۲: ۱۰ گارد سرخ\nدرجه ۳: ۱۵ گارد سرخ\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "TOOLTIP:ChallengeButton",
+  "text": "چالش ژنرال‌ها"
+ },
+ {
+  "label": "GUI:GeneralsChallenge",
+  "text": "ژنرالت را انتخاب کن"
+ },
+ {
+  "label": "GUI:Biography",
+  "text": "زندگی‌نامه"
+ },
+ {
+  "label": "GUI:BioName",
+  "text": "نام:"
+ },
+ {
+  "label": "GUI:BioDOB",
+  "text": "سن:"
+ },
+ {
+  "label": "GUI:BioBirthplace",
+  "text": "محل خدمت:"
+ },
+ {
+  "label": "GUI:BioStrategy",
+  "text": "تاکتیک:"
+ },
+ {
+  "label": "GUI:BioRank",
+  "text": "درجه:"
+ },
+ {
+  "label": "GUI:BioBranch",
+  "text": "شاخه:"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos0",
+  "text": "ژنرال گرینجر"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos0",
+  "text": "62"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos0",
+  "text": "فورت بلمونت، هیوستون، تگزاس، آمریکا"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos0",
+  "text": "قدرت هوایی"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos0",
+  "text": "ژنرال چهارستاره"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos0",
+  "text": "نیروی هوایی آمریکا"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos0",
+  "text": "07121969-HB"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos0",
+  "text": "ژنرال مالکوم \"آس\" گرینجر ترجیح می‌دهد برای شکست دشمنانش از بیشترین قدرت هوایی موجود استفاده کند"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos0",
+  "text": "فکر کنم وقتش رسیده بروم یک کار خوب در یک شرکت هواپیمایی پیدا کنم."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos0",
+  "text": "من بردم، تو باختی. دیگر چه بگویم؟"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos1",
+  "text": "دکتر تراکس"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos1",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos1",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos1",
+  "text": "سلاح‌های سمی"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos1",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos1",
+  "text": "نامشخص"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos1",
+  "text": "دکتر تراکس ترجیح می‌دهد برای شکست دشمنانش سموم کشنده را با هم ترکیب کند"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos1",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos1",
+  "text": "شاید نباید مدرکم را از جلوی دانشگاه، میدان انقلاب، می‌خریدم."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos1",
+  "text": "فکر می‌کردی سمومم بی‌اثرند، حالا ببین چه به سرت آمده، ژنرال."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos2",
+  "text": "ژنرال تائو"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos2",
+  "text": "50"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos2",
+  "text": "پایگاه گاو، چنگدو، چین"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos2",
+  "text": "سلاح‌های هسته‌ای"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos2",
+  "text": "ژنرال، رده AAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos2",
+  "text": "ارتش آزادی‌بخش خلق"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos2",
+  "text": "ژنرال تسینگ شی تائو ترجیح می‌دهد برای شکست دشمنانش از تشعشع هسته‌ای استفاده کند"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos2",
+  "text": "صدق نمی‌کند"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos2",
+  "text": "یک لحظه دیگر خاکسترت کرده بودم."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos2",
+  "text": "خوش‌شانسی که از این نبرد سالم بیرون آمدی. اگر جرئتش را داری دوباره به چالشم بکش."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos3",
+  "text": "ژنرال الکساندر"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos3",
+  "text": "42"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos3",
+  "text": "اردوگاه فرانکلین، بلفاست، مین، آمریکا"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos3",
+  "text": "سلاح‌های کشتار جمعی"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos3",
+  "text": "ژنرال چهارستاره"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos3",
+  "text": "تفنگداران دریایی آمریکا"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos3",
+  "text": "ژنرال الکسیس الکساندر ترجیح می‌دهد برای شکست دشمنانش دفاع سنگین پایگاه و سلاح‌های ویژه بسازد"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos3",
+  "text": "178923478-HBGB"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos3",
+  "text": "منصفانه نیست! یک سلاح ویژه دیگر و شکستت داده بودم، ژنرال. دوباره به چالشم بکش، جرئتش را داری؟"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos3",
+  "text": "گفتم که هرگز سلاح‌های ویژه‌ام را شکست نمی‌دهی، ژنرال. دوباره امتحان می‌کنی؟"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos4",
+  "text": "ژنرال کوای"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos4",
+  "text": "51"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos4",
+  "text": "پایگاه موش، جینان، چین"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos4",
+  "text": "لشکرهای زرهی پیشرفته"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos4",
+  "text": "ژنرال، رده AAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos4",
+  "text": "ارتش آزادی‌بخش خلق"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos4",
+  "text": "ژنرال تا هون کوای ترجیح می‌دهد برای شکست دشمنانش تانک‌های مستحکم بسازد"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos4",
+  "text": "9999-3224536-5"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos4",
+  "text": "شاید تانک‌هایم را شکست داده باشی، ژنرال، اما ماده‌ببر مثل حشره لهت می‌کند."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos4",
+  "text": "تانک کلید هر پیروزی است... همان‌طور که خوب می‌دانی."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos5",
+  "text": "ژنرال تاونز"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos5",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos5",
+  "text": "فورت یونیون، ردوود شورز، کالیفرنیا، آمریکا"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos5",
+  "text": "سلاح‌های لیزری"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos5",
+  "text": "ژنرال چهارستاره"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos5",
+  "text": "ارتش آمریکا"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos5",
+  "text": "\"دقیق\" تاونز ترجیح می‌دهد برای شکست دشمنانش از پیشرفته‌ترین فناوری لیزر استفاده کند"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos5",
+  "text": "00010204-01KE0"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos5",
+  "text": "شکستم دادی، ژنرال، اما تاکتیک‌هایت را اسکن می‌کنم و راهبرد برتری می‌سازم."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos5",
+  "text": "وقتی تاکتیک‌هایت را اسکن کردم نقاط ضعفت آشکار شد."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos6",
+  "text": "شاهزاده قصاد"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos6",
+  "text": "34"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos6",
+  "text": "طرابلس، لیبی"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos6",
+  "text": "کمین و استتار"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos6",
+  "text": "صدق نمی‌کند"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos6",
+  "text": "هسته کبرای GLA"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos6",
+  "text": "شاهزاده قصاد ترجیح می‌دهد برای شکست دشمنانش از استتار و عملیات پنهانی استفاده کند"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos6",
+  "text": "صدق نمی‌کند"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos6",
+  "text": "افرادم این شکست رهبرشان را نمی‌پذیرند، ژنرال. با تاکتیک‌های برترت حکم مرگم را امضا کردی..."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos6",
+  "text": "شکست تلخت را بپذیر و از جلوی چشمم دور شو، ژنرال."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos7",
+  "text": "ژنرال فای"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos7",
+  "text": "57"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos7",
+  "text": "پایگاه مار، پکن، چین"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos7",
+  "text": "لشکرهای پیاده‌نظام پیشرفته"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos7",
+  "text": "ژنرال، رده AAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos7",
+  "text": "ارتش آزادی‌بخش خلق"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos7",
+  "text": "ژنرال شین \"سندان\" فای ترجیح می‌دهد برای شکست دشمنانش سربازان بسیار آموزش‌دیده به خدمت بگیرد"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos7",
+  "text": "2030-200403-1"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos7",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos7",
+  "text": "بعداً تعیین می‌شود"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos8",
+  "text": "ژنرال جوزیز"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos8",
+  "text": "36"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos8",
+  "text": "نامشخص"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos8",
+  "text": "مواد منفجره و بمب"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos8",
+  "text": "صدق نمی‌کند"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos8",
+  "text": "هسته عقرب GLA"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos8",
+  "text": "ژنرال رودال \"تخریبچی\" جوزیز ترجیح می‌دهد برای شکست دشمنانش مواد منفجره قوی سیم‌کشی کند"
+ }
+]

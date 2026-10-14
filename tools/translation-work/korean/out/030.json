@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle073Subtitle",
+  "text": "*병력이 많네, 장군. 설마 그걸로 날 러시할 생각은 아니었지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle074Subtitle",
+  "text": "*기지를 제법 잘 꾸려 놨네, 장군. 무기 공격에 대비해서 건물 간격은 띄워 놨겠지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle075Subtitle",
+  "text": "*이거 치우는 데 얼마나 걸릴지 알아?!?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle076Subtitle",
+  "text": "*그 역겨운 방사능 내 기지에서 치워!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle077Subtitle",
+  "text": "*이봐, 그건 내 입자 캐논이야! 넌 쓸 권한이 없어!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle078Subtitle",
+  "text": "*그게 전술적 움직임이야, 아니면 그냥 숨는 거야?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle079Subtitle",
+  "text": "*버튼 대령? 진짜? 그가 널 도와줄 거라 생각해?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle080Subtitle",
+  "text": "*블랙 로투스? 여자들끼리의 대결이 되겠네, 그렇지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle081Subtitle",
+  "text": "*자르멘 켈! 내 전차 근처엔 얼씬도 하지 않는 게 좋을 거야!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle082Subtitle",
+  "text": "*비행장 좋네, 장군 -- 비행기들을 내 입자 캐논 근처에 오지 못하게만 해"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle083Subtitle",
+  "text": "*군수 공장? 이제 진짜 날 공격할 모양이구나. 그럴 때도 됐지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle084Subtitle",
+  "text": "*잘했어 - 병영도 지을 줄 아는구나"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle085Subtitle",
+  "text": "*건물을 파는 거야? 폐업 정리 세일이라도 하나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle086Subtitle",
+  "text": "*그냥 포기하지 그래? 오늘 할 더 좋은 일이 있거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle087Subtitle",
+  "text": "*왜 5분 넘게 버티는 상대는 하나도 없는 걸까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle088Subtitle",
+  "text": "*지고 있는 것 같네, 장군. 실패를 계획하는 것에 대해 내가 뭐라고 했더라?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle089Subtitle",
+  "text": "*아주 제대로 두들겨 맞고 있네, 장군. 더 맞을래?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle090Subtitle",
+  "text": "*\"좋은 경기였어\"라고 말하고 싶지만, 분명 마음은 딴 데 가 있었지, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle091Subtitle",
+  "text": "*여자를 이렇게 두들겨 패다니 믿을 수가 없네"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle092Subtitle",
+  "text": "*생각할 시간이 필요해. 저리 가, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle093Subtitle",
+  "text": "*네 전술은 페어플레이랑은 거리가 머네, 장군. 착하게 굴어!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle094Subtitle",
+  "text": "*장군, 저기 봐! 누가 네 건물을 점령하고 있어! 안 속았구나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle095Subtitle",
+  "text": "*있잖아, 신사라면 방어를 재건할 5분 정도는 줄 텐데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle096Subtitle",
+  "text": "*뭐?! 끝났어? 그래, 함께 춤춰서 즐거웠어, 장군. 다음엔 내가 리드할게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle097Subtitle",
+  "text": "*내 초강력 무기는 준비됐어... 넌?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle098Subtitle",
+  "text": "*절대 내 방어를 못 뚫을 거야, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle099Subtitle",
+  "text": "*네 러시 전술은 나한테 안 통해"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle100Subtitle",
+  "text": "*불공평해! 초강력 무기 하나만 더 있었으면 이겼을 거야, 장군. 다시 도전해 봐, 할 수 있으면"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle101Subtitle",
+  "text": "*내 초강력 무기는 절대 못 이긴다고 했지, 장군. 다시 해 볼래?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle102Subtitle",
+  "text": "*어서 와, 장군. 시작할 준비 됐어?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle103Subtitle",
+  "text": "*오, 무슨 소리지? 이제 하늘에 빛이 보이네... 흠"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle104Subtitle",
+  "text": "*어머나!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle106Subtitle",
+  "text": "*오, 이런... 미안해, 장군. 이게 내가 \"안녕\"이라고 인사하는 방식이거든. 그럼, 행운을 빌어, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle107Subtitle",
+  "text": "*그럼, 행운을 빌어, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina001Subtitle",
+  "text": "*미국은 센트리 드론을 조기 경보 적 탐지 시스템으로 씁니다. 드론은 움직이지 않을 때 보이지 않으며, 기관총으로 업그레이드된 것도 목격되었습니다. 전차의 상대는 안 되지만 보병에게는 골칫거리가 될 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina002Subtitle",
+  "text": "*미국 마이크로웨이브 전차는 건물과 차량을 무력화하는 거대한 전자파 포입니다. 전차의 방사선은 보병도 해칠 수 있으니 우리 병사들을 안전한 거리에 두십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina003Subtitle",
+  "text": "*어벤저는 미사일과 항공기를 격추할 수 있는 미국의 레이저 대공 차량입니다. 다른 미군 유닛이 우리 항공기를 조준하도록 돕기도 하므로, 전투 집단에서 마주치면 최우선 목표로 삼아야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina004Subtitle",
+  "text": "*스펙터 건쉽은 측면에 여러 무기 체계를 단 대형 제트기로, 목표 지역 상공을 선회하며 하늘에서 죽음을 퍼붓습니다. 파리 잡는 데 산탄총을 쓰는 전형적인 미국식 공학이죠"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina005Subtitle",
+  "text": "*화학 방호복 업그레이드는 보병의 독소와 방사능 저항력을 높입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina006Subtitle",
+  "text": "*미국의 대응 장비 업그레이드는 적 공격이 미군 항공 유닛에 미치는 효과를 줄입니다. 미사일은 자주 빗나가고 총알은 피해가 줄어듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina007Subtitle",
+  "text": "*미국의 헬파이어 드론 업그레이드는 자동 헬파이어 미사일 시스템으로 모체 차량을 지키는 원격 공중 드론을 만듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina008Subtitle",
+  "text": "*벙커 버스터는 주둔 중인 건물을 관통하도록 설계된 미국 스텔스 전투기와 오로라의 업그레이드입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina009Subtitle",
+  "text": "*보급선 업그레이드는 미국이 보급 창고, 보급품 투하, 유정에서 자원을 모으는 속도를 높입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina010Subtitle",
+  "text": "*미국 장군들이 선전의 효용을 깨달았습니다. 전단 살포로 유닛들이 멈춰 서서 선전물을 읽게 만들어 일시적으로 무력화합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina011Subtitle",
+  "text": "*MOAB는 미국 연료 기화 폭탄의 업그레이드로, 기절 효과가 있어 살아남은 유닛과 건물을 일시적으로 멈추게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina012Subtitle",
+  "text": "*미국 화력 기지는 모래주머니로 둘러싼 방어 진지로, 곡사포 한 문과 사격 위치 4곳이 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina013Subtitle",
+  "text": "*네이팜 폭탄은 우리 헬릭스 비행선의 업그레이드로, 폭탄 한 쌍을 떨어뜨려 넓은 화염 폭풍을 일으킵니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina014Subtitle",
+  "text": "*청음 전초기지는 시야가 넓은 느린 스텔스 차량으로, 경비병으로 보병 2명이 탑승할 수 있습니다. 스텔스 물체를 드러내는 것 외에도 사정거리 안의 유닛을 클릭하면 적의 목적지를 알아낼 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina015Subtitle",
+  "text": "*우리 헬릭스 2는 보병이나 차량 한 대를 실을 수 있는 느린 수송 헬기입니다. 경기관총만 달고 있지만 개틀링 캐논, 선전탑, 전투 벙커로 업그레이드할 수 있습니다. 대형 네이팜 폭탄을 싣도록 업그레이드할 수도 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina016Subtitle",
+  "text": "*ECM 전차는 전자 추적 시스템을 교란해 적 미사일을 빗나가게 합니다. 전자기 펄스로 적 차량 한 대를 무력화할 수 있고, 범위 안의 모든 드론을 무력화하는 레이더 교란장도 만듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina017Subtitle",
+  "text": "*중성자탄은 우리 핵 캐논의 업그레이드로, 중성자탄을 쏠 수 있게 합니다. 이 포탄은 폭발 반경 안의 모든 보병과 차량 운전병을 죽입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina018Subtitle",
+  "text": "*시스템 해킹으로 해커가 적의 장군 능력 하나를 무작위로 훔칠 수 있습니다. 1단계는 1성이나 3성 능력을, 2단계는 5성 능력을 훔칩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina019Subtitle",
+  "text": "*새 융단 폭격기는 목표 경로를 따라 폭탄을 연달아 떨어뜨려 적 병력을 몰살합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina020Subtitle",
+  "text": "*중성자 지뢰는 일반 폭발 지뢰의 대안입니다. 차량을 즉시 무력화하고 근처 보병을 죽입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina021Subtitle",
+  "text": "*공격에 취약했던 해커들이 새 인터넷 센터에서 안전과 향상된 해킹 능력을 얻게 됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina022Subtitle",
+  "text": "*위성 해킹 I은 인터넷 센터 업그레이드로, 모든 상대 사령부 주변을 드러냅니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina023Subtitle",
+  "text": "*위성 해킹 II는 인터넷 센터 업그레이드로, 스텔스 적을 포함해 맵 전체를 일시적으로 드러냅니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina024Subtitle",
+  "text": "*GLA 파괴 공작원은 절벽을 오를 수 있는 스텔스 보병으로, 적 건물에 들어가 영향을 줍니다. 발전소에 들어가면 전력이 일시적으로 끊기고, 초강력 무기에 들어가면 타이머가 초기화됩니다. 적 사령부에 들어간 파괴 공작원은 적의 모든 장군 능력 타이머를 초기화합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina025Subtitle",
+  "text": "*전투 오토바이는 처음에 GLA 반군 운전병과 거치식 기관총을 갖추고 나옵니다. 반군을 다른 GLA 보병으로 바꾸면 그 보병의 고유 능력을 얻습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina026Subtitle",
+  "text": "*GLA 배틀 버스는 보병을 8명까지 태울 수 있고 창밖으로 사격할 수 있습니다. 파괴되면 두꺼운 강철 차체가 벙커처럼 남습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina027Subtitle",
+  "text": "*GLA는 일꾼들에게 신발을 업그레이드해 농민들에게서 강제 노동을 더 짜냅니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina028Subtitle",
+  "text": "*위장망은 GLA 기지 방어 건물의 업그레이드로, 일반 탐지로는 보이지 않게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina029Subtitle",
+  "text": "*GLA가 모든 건물에 RPG로 무장한 정예 경비대를 주둔시키기 시작했습니다. GLA 기지에 잠입할 때 주의하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina030Subtitle",
+  "text": "*GLA 부비 트랩 업그레이드로 반군이 건물과 민간 차량에 폭약을 설치해, 적이 점령하거나 주둔하려 하면 폭발하게 할 수 있습니다. 주변 건물 근처에 숨어 있는 반군을 조심하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina031Subtitle",
+  "text": "*GLA의 속임수가 새 경지에 올랐습니다. 이제 진짜 건물처럼 보이지만 부비 트랩이 달린 껍데기일 뿐인 가짜 건물을 짓습니다. GLA의 깜짝 선물을 피하려면 모든 것을 원거리에서 파괴하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina032Subtitle",
+  "text": "*GPS 교란기는 지역 안의 유닛을 목표로 해 일반 탐지로는 보이지 않게 만듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina033Subtitle",
+  "text": "*기습 능력으로 GLA 장군은 탐색한 곳 어디에든 방어 능력이 없는 터널 네트워크를 설치할 수 있습니다. 일반 터널보다 약간 약하지만 주 네트워크와 연결됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina034Subtitle",
+  "text": "*포병 플랫폼은 혼자서도 적의 공격으로부터 지역을 장악할 수 있는 고정식 포입니다. 어느 전장에서든 우선 점령해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina035Subtitle",
+  "text": "*증원 패드는 주기적으로 기갑 부대를 무료로 공수 투하합니다. 무료 배틀마스터는 어떤 전투든 뒤집을 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXChina036Subtitle",
+  "text": "*기술 수리소를 점령하면 모든 지상 차량을 전장에서 수리할 수 있습니다. 전방에서 손상된 장갑을 수리하는 것이 승패를 가를 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA001Subtitle",
+  "text": "*미군 센트리 드론을 조심하십시오, 장군. 스텔스 유닛을 볼 수 있고 대개 기관총을 달고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA002Subtitle",
+  "text": "*미군 마이크로웨이브 전차의 광선은 건물과 유닛을 무력화합니다. 대규모 병력으로만 공격하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA003Subtitle",
+  "text": "*미군 워록 전차의 광선은 건물과 유닛을 무력화합니다. 대규모 병력으로만 공격하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA004Subtitle",
+  "text": "*미군 어벤저는 강력한 레이저 대공 차량입니다... 하지만 우리에겐 항공기가 없으니 위험은 미미합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA005Subtitle",
+  "text": "*미군 스펙터 건쉽은 큰 포를 단 대형 항공기입니다. 교전하지 마십시오 -- 떠날 때까지 지하로 피하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA006Subtitle",
+  "text": "*화학 방호복 업그레이드로 적 보병이 우리 독소에 더 강해집니다. 하지만 우리 총알까지 막진 못하겠죠?"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA007Subtitle",
+  "text": "*대응 장비 업그레이드는 적 공격이 미군 항공 유닛에 미치는 효과를 줄입니다. 미사일은 자주 빗나가고 총알은 피해가 줄어듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA008Subtitle",
+  "text": "*미국의 헬파이어 드론 업그레이드는 미사일을 단 작은 장난감 비행기입니다. 미국인의 비겁한 전술의 또 다른 예죠"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA009Subtitle",
+  "text": "*벙커 버스터 폭탄은 미국 스텔스 전투기와 오로라의 업그레이드입니다. 이걸로 우리 벙커를 공격하려 하죠"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA010Subtitle",
+  "text": "*보급선 업그레이드는 미국이 보급 창고, 보급품 투하, 유정에서 자원을 모으는 속도를 높입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA011Subtitle",
+  "text": "*미국의 전단 살포는 우리 유닛이 멈춰 서서 선전물을 읽게 만들어 일시적으로 무력화합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA012Subtitle",
+  "text": "*MOAB는 연료 기화 폭탄의 업그레이드로, 기절 효과가 있어 살아남은 유닛과 건물을 일시적으로 멈추게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA013Subtitle",
+  "text": "*화력 기지는 우리 스팅어 기지에 대한 미국의 대답입니다... 하지만 가운데 큰 포를 조심하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA014Subtitle",
+  "text": "*중국의 네이팜 폭탄은 헬릭스 업그레이드로, 폭탄 한 쌍을 떨어뜨려 넓은 화염 폭풍을 일으킵니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA015Subtitle",
+  "text": "*청음 전초기지는 중국이 우리 스텔스 유닛을 찾는 데 쓰는 느린 스텔스 차량입니다. 들키지 않으려면 피하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA016Subtitle",
+  "text": "*중국의 헬릭스 2는 보병이나 차량 한 대를 실을 수 있는 느린 수송 헬기입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA017Subtitle",
+  "text": "*중국 ECM 전차는 전자 추적 시스템을 교란해 적 미사일을 빗나가게 하는 차량입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA018Subtitle",
+  "text": "*중성자탄은 중국 핵 캐논의 업그레이드로, 중성자탄을 쏠 수 있게 합니다. 이 포탄은 폭발 반경 안의 모든 보병과 차량 운전병을 죽입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA019Subtitle",
+  "text": "*중국의 새 시스템 해킹 기술로 해커가 적의 능력을 무작위로 훔칠 수 있습니다. 전력에 의존해 전쟁하는 자들의 몰락이죠"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA020Subtitle",
+  "text": "*융단 폭격기는 목표 경로를 따라 폭탄을 연달아 떨어뜨려 적을 몰살하는 항공기입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA021Subtitle",
+  "text": "*중성자 지뢰는 차량을 무력화하는 중국 일반 지뢰의 대안입니다. 여전히 보병도 죽입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA022Subtitle",
+  "text": "*인터넷 센터는 중국 해커들의 효율을 높입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA023Subtitle",
+  "text": "*위성 해킹 I은 인터넷 센터 업그레이드로, 중국이 모든 상대의 사령부를 볼 수 있게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA024Subtitle",
+  "text": "*위성 해킹 II는 중국 인터넷 센터 업그레이드로, 맵 전체와 스텔스 물체를 일시적으로 드러냅니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA025Subtitle",
+  "text": "*파괴 공작원은 절벽을 오를 수 있는 스텔스 유닛으로, 적 건물에 들어가 영향을 줍니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA026Subtitle",
+  "text": "*새 전투 오토바이는 기관총을 달고 있으며 탑승한 보병의 능력으로 강화됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA027Subtitle",
+  "text": "*배틀 버스는 보병을 8명까지 태울 수 있는 느린 수송 차량으로, 탑승자가 버스 밖으로 사격할 수 있습니다. 파괴되면 차체가 남아 벙커 역할을 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA028Subtitle",
+  "text": "*일꾼 신발 업그레이드는 충성스러운 모든 일꾼의 속도와 수집 효율을 높입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA029Subtitle",
+  "text": "*위장망은 우리 기지 방어 건물의 업그레이드로, 은폐할 수 있게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA030Subtitle",
+  "text": "*정예 경비대 업그레이드는 건물 능력으로, 건물에 RPG 병사 4명을 주둔시킵니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA031Subtitle",
+  "text": "*부비 트랩은 반군의 업그레이드로, 건물과 민간 차량에 폭약을 설치해 적이 점령하거나 주둔하려 하면 폭발하게 합니다. 점령한 건물에는 자동으로 부비 트랩이 설치됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA032Subtitle",
+  "text": "*가짜 건물은 훨씬 싸게 지을 수 있습니다. 처음엔 부비 트랩이 달린 껍데기지만 완전히 작동하는 건물로 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA033Subtitle",
+  "text": "*새로 얻은 GPS 교란기는 지역 안의 유닛을 목표로 해 적에게 보이지 않게 만듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA034Subtitle",
+  "text": "*기습으로 탐색한 곳 어디에든 방어 능력이 없는 터널 네트워크를 설치할 수 있습니다. 일반 터널보다 약간 약하지만 주 네트워크와 연결됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA035Subtitle",
+  "text": "*포병 플랫폼은 사거리와 피해가 미국 전략 센터와 비슷한 무기를 쏩니다. 점령하거나 그 치명적인 포를 피하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA036Subtitle",
+  "text": "*증원 패드는 우리 대의를 위해 주기적으로 스콜피온 전차 한 무리를 보내 줍니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXGLA037Subtitle",
+  "text": "*수리소는 전방의 차량 수리 시설입니다. 무기상처럼 차량을 수리합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA001Subtitle",
+  "text": "*센트리 드론은 위장한 적을 포함해 적의 움직임을 추적할 수 있는 기동 유닛입니다. 센트리 드론 자체도 움직이지 않을 때 은폐할 수 있으며, 전략 센터에서 대인 기관총으로 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA002Subtitle",
+  "text": "*마이크로웨이브 전차는 목표 건물과 차량을 무력화하는 지향성 에너지 전자파 패널로 무장했습니다. 보병에게 피해를 주는 전자파 영역도 지속적으로 방출합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA003Subtitle",
+  "text": "*워록 전차는 목표 건물과 차량을 무력화하는 지향성 에너지 전자파 패널로 무장했습니다. 보병에게 피해를 주는 전자파 영역도 지속적으로 방출합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA004Subtitle",
+  "text": "*어벤저는 미사일과 항공기를 격추할 수 있는 레이저 대공 차량입니다. '표시'한 목표를 공격하는 유닛에게 보너스를 줄 수도 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA005Subtitle",
+  "text": "*스펙터 건쉽은 날개에 여러 무기 체계를 단 대형 제트기입니다. 목표 상공을 선회하며 적을 자동으로 조준합니다. 수동 조준도 가능하며, 대응 장비를 배치하도록 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA006Subtitle",
+  "text": "*화학 방호복 업그레이드로 보병이 독소와 방사능에 더 강해집니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA007Subtitle",
+  "text": "*대응 장비 업그레이드는 적 공격이 미군 항공 유닛에 미치는 효과를 줄입니다. 미사일은 자주 빗나가고 총알은 피해가 줄어듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA008Subtitle",
+  "text": "*헬파이어 드론 업그레이드는 미사일 한 발을 쏠 수 있는 드론을 모체 차량에 장착합니다. 드론은 자동으로 목표를 잡으며 재장전에 시간이 필요합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA009Subtitle",
+  "text": "*벙커 버스터는 스텔스 전투기와 오로라의 업그레이드입니다. 일반 효과 외에도, 업그레이드된 미사일은 GLA 궁전, 터널 네트워크, 중국 전투 벙커를 포함한 건물 안의 주둔 유닛에게 피해를 주거나 죽이기까지 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA010Subtitle",
+  "text": "*보급선 업그레이드는 보급 창고, 보급품 투하, 유정에서 모으는 자금을 늘립니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA011Subtitle",
+  "text": "*전단 살포는 유닛이 멈춰 서서 선전물을 읽게 만들어 일시적으로 무력화합니다. 항공기가 목표 지역에 전단을 뿌리며 효과는 짧게 지속됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA012Subtitle",
+  "text": "*MOAB는 연료 기화 폭탄의 업그레이드로, 기절 효과가 있어 살아남은 유닛과 건물을 일시적으로 멈추게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA013Subtitle",
+  "text": "*화력 기지는 모래주머니로 둘러싸여 있고 곡사포 한 문과 사격 위치 4곳이 있습니다. 화력 기지에 들어간 보병은 모래주머니 뒤 사격 위치에 자리 잡습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA014Subtitle",
+  "text": "*네이팜 폭탄은 헬릭스 업그레이드로, 폭탄 한 쌍을 떨어뜨려 넓은 화염 폭풍을 일으킵니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA015Subtitle",
+  "text": "*청음 전초기지는 시야가 넓은 느린 스텔스 차량으로, 경비병으로 보병 2명이 탑승할 수 있습니다. 스텔스 물체를 드러내는 것 외에도 사정거리 안의 유닛을 클릭하면 적의 목적지를 알아낼 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA016Subtitle",
+  "text": "*헬릭스 2는 보병이나 차량 한 대를 실을 수 있는 느린 수송 헬기입니다. 경기관총만 달고 있지만 개틀링 캐논, 선전탑, 전투 벙커로 업그레이드할 수 있습니다. 대형 네이팜 폭탄을 싣도록 업그레이드할 수도 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA017Subtitle",
+  "text": "*ECM 전차는 전자 추적 시스템을 교란해 적 미사일을 빗나가게 하는 차량입니다. ECM 펄스로 적 차량 한 대를 무력화할 수 있습니다. 끝으로, 범위 안의 모든 드론을 무력화하는 레이더 교란장을 만듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA018Subtitle",
+  "text": "*중성자탄은 중국 핵 캐논의 업그레이드로, 중성자탄을 쏠 수 있게 합니다. 이 포탄은 폭발 반경 안의 모든 보병과 차량 운전병을 죽입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA019Subtitle",
+  "text": "*시스템 해킹으로 해커가 적의 능력을 무작위로 훔칠 수 있습니다. 1단계는 1단계나 3단계 능력을, 2단계는 5성 능력을 훔칩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA020Subtitle",
+  "text": "*융단 폭격기는 목표 경로를 따라 폭탄을 연달아 떨어뜨려 적을 몰살하는 항공기입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA021Subtitle",
+  "text": "*중성자 지뢰는 차량을 무력화하는 중국 일반 지뢰의 대안입니다. 여전히 보병도 죽입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA022Subtitle",
+  "text": "*인터넷 센터는 해커의 자금 획득 효율을 높이고 위성 해킹 I과 II를 쓸 수 있게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA023Subtitle",
+  "text": "*위성 해킹 I은 인터넷 센터 업그레이드로, 모든 상대 사령부 주변을 드러냅니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA024Subtitle",
+  "text": "*위성 해킹 II는 인터넷 센터 업그레이드로, 맵 전체와 스텔스 물체를 일시적으로 드러냅니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA025Subtitle",
+  "text": "*파괴 공작원은 절벽을 오를 수 있는 스텔스 유닛으로, 적 건물에 들어가 영향을 줍니다. 발전소에 들어가면 전력이 일시적으로 끊기고, 초강력 무기에 들어가면 타이머가 초기화됩니다. 적 사령부에 들어간 파괴 공작원은 적의 모든 장군 능력 타이머를 초기화합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA026Subtitle",
+  "text": "*전투 오토바이는 처음에 반군 운전병과 거치식 기관총을 갖추고 나옵니다. RPG 병사로 바꾸면 미사일을 쏠 수 있습니다. 테러리스트는 자폭 오토바이를 만듭니다. 자르멘 켈, 하이재커, 파괴 공작원도 탈 수 있으며, 그러면 오토바이가 은폐됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA027Subtitle",
+  "text": "*배틀 밴은 보병을 8명까지 태울 수 있는 느린 수송 차량으로, 탑승자가 밖으로 사격할 수 있습니다. 파괴되면 차체가 남아 벙커 역할을 합니다. 파괴될 때 안에 있던 사람도 모두 죽습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA028Subtitle",
+  "text": "*일꾼 신발 업그레이드는 모든 GLA 일꾼의 속도와 수집 효율을 높입니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA029Subtitle",
+  "text": "*위장망은 GLA 기지 방어 건물의 업그레이드로, 은폐할 수 있게 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA030Subtitle",
+  "text": "*정예 경비대 업그레이드는 건물 능력으로, 건물에 RPG 병사 4명을 주둔시킵니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA031Subtitle",
+  "text": "*부비 트랩은 반군의 업그레이드로, 건물과 민간 차량에 폭약을 설치해 적이 점령하거나 주둔하려 하면 폭발하게 합니다. 폭발은 좁은 반경 안의 모든 것에 피해를 줍니다. 업그레이드된 반군이 점령한 건물에는 자동으로 부비 트랩이 설치됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA032Subtitle",
+  "text": "*가짜 건물은 훨씬 싸게 지을 수 있습니다. 처음엔 부비 트랩이 달린 껍데기지만 완전히 작동하는 건물로 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA033Subtitle",
+  "text": "*GPS 교란기는 지역 안의 유닛을 목표로 해 적에게 은폐 상태로 만듭니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA034Subtitle",
+  "text": "*기습으로 탐색한 곳 어디에든 방어 능력이 없는 터널 네트워크를 설치할 수 있습니다. 일반 터널보다 약간 약하지만 주 네트워크와 연결됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA035Subtitle",
+  "text": "*포병 플랫폼은 대구경 곡사포로 무장했습니다. 뛰어난 제압 무기이며 공격을 개시할 좋은 집결지이기도 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA036Subtitle",
+  "text": "*증원 패드는 주기적으로 플레이어 진영의 주력 전차(스콜피온, 배틀마스터, 크루세이더) 한 대를 증원합니다"
+ },
+ {
+  "label": "DIALOGEVENT:UnitDescriptXUSA037Subtitle",
+  "text": "*수리소는 차량 수리 시설입니다. 차량은 군수 공장에 도킹하듯 이 건물에 도킹해야 합니다"
+ },
+ {
+  "label": "TOOLTIP:Community",
+  "text": "모든 온라인 게임 기준 진영별 승률"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildHelix",
+  "text": "중량 수송기\n기지 방어 건물과 핵폭탄을 업그레이드할 수 있습니다\n\n강함: 전차, 경차량\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "MAP:CHI01xListeningPostHint01",
+  "text": "힌트:\n숨겨진 폭파 함정은 청음 전초기지의 시야에 들어오면 드러납니다"
+ },
+ {
+  "label": "OBJECT:SupW_PatriotBattery",
+  "text": "EMP 패트리어트 시스템"
+ },
+ {
+  "label": "CONTROLBAR:SupW_ConstructAmericaPatriotBattery",
+  "text": "E&MP 패트리어트 시스템"
+ },
+ {
+  "label": "CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery",
+  "text": "대지 및 대공 방어. 근처 패트리어트에 적 위치를 전달할 수 있습니다\n\n필요 전력: 3"
+ },
+ {
+  "label": "MAP:USA03xBurtonSurvive",
+  "text": "수신 통신:\n버튼 대령은 반드시 살아남아야 합니다"
+ },
+ {
+  "label": "MAP:MD_GLA04_GatherHint",
+  "text": "힌트:\n수송 트럭을 선택해 독소 시설에서 자원을 모으도록 명령하십시오"
+ },
+ {
+  "label": "MAP:MD_GLA04_HospitalHint",
+  "text": "힌트:\n병원이 있으면 유닛이 자동으로 치료됩니다"
+ },
+ {
+  "label": "MAP:MD_GLA04_TractorsHint",
+  "text": "힌트:\n독소 트랙터는 주둔 중인 건물 안의 유닛을 죽일 수 있습니다"
+ },
+ {
+  "label": "OBJECT:AssaultTroopTransport",
+  "text": "돌격 병력 수송차"
+ },
+ {
+  "label": "OBJECT:AssaultListeningOutpost",
+  "text": "공격 전초기지"
+ },
+ {
+  "label": "UPGRADE:IsotopeStability",
+  "text": "동위원소 안정화"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "미니거너가 적 건물과 기술 건물을 점령할 수 있게 합니다"
+ },
+ {
+  "label": "OBJECT:Lazr_PatriotBattery",
+  "text": "레이저 방어 포탑"
+ },
+ {
+  "label": "SCIENCE:Infa_ChinaRedGuardTraining",
+  "text": "미니거너 훈련"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaScienceRedGuardTraining",
+  "text": "모든 미니거너가 엘리트로 생산됩니다"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncherBoss",
+  "text": "핵미사일을 발사합니다. 중요한 중국 업그레이드를 개발합니다\n\n필요 전력: 10\n재사용 대기시간: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannonBoss",
+  "text": "맵 어디에나 입자 광선을 발사합니다\n\n필요 전력: 10\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBikeTerrorist",
+  "text": "빠르고 다재다능함\n테러리스트 탑승\n약함: 항공기"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSuperHacker",
+  "text": "컴퓨터 바이러스로 적 건물과 차량을 무력화하거나 인터넷을 해킹해 돈을 훔칠 수 있습니다. 위장 상태\n\n강함: 건물\n약함: 보병, 차량"
+ },
+ {
+  "label": "UPGRADE:Demo_SuicideBomb",
+  "text": "폭파"
+ },
+ {
+  "label": "UPGRADE:AirF_StealthComanche",
+  "text": "스텔스 코만치"
+ },
+ {
+  "label": "UPGRADE:HighExplosiveTrap",
+  "text": "고폭 폭파 함정"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_0",
+  "text": "공군 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_1",
+  "text": "독소 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_2",
+  "text": "핵 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_3",
+  "text": "초강력 무기 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_4",
+  "text": "전차 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_5",
+  "text": "레이저 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_6",
+  "text": "스텔스 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_7",
+  "text": "보병 장군 도전"
+ },
+ {
+  "label": "CAMPAIGN:CHALLENGE_8",
+  "text": "폭파 장군 도전"
+ },
+ {
+  "label": "OBJECT:RocketDrop",
+  "text": "로켓"
+ },
+ {
+  "label": "OBJECT:RocketBomb",
+  "text": "로켓"
+ },
+ {
+  "label": "OBJECT:PTBoat",
+  "text": "PT 보트"
+ },
+ {
+  "label": "OBJECT:ShiekLimo",
+  "text": "리무진"
+ },
+ {
+  "label": "OBJECT:Dock",
+  "text": "부두"
+ },
+ {
+  "label": "OBJECT:RailroadBridgeH",
+  "text": "철교"
+ },
+ {
+  "label": "OBJECT:RepairDrone",
+  "text": "수리 드론"
+ },
+ {
+  "label": "OBJECT:CINE_Carrier",
+  "text": "항공모함"
+ },
+ {
+  "label": "OBJECT:SpectreGunship",
+  "text": "스펙터 건쉽"
+ },
+ {
+  "label": "SCIENCE:LaserCannon",
+  "text": "레이저 캐논"
+ },
+ {
+  "label": "OBJECT:LaserCannon",
+  "text": "레이저 캐논"
+ },
+ {
+  "label": "UPGRADE:TacticalNukeMig",
+  "text": "전술 핵 MiG"
+ },
+ {
+  "label": "OBJECT:FuelAirBomb",
+  "text": "연료 기화 폭탄"
+ },
+ {
+  "label": "OBJECT:CruiseMissile",
+  "text": "순항 미사일"
+ },
+ {
+  "label": "OBJECT:Ox",
+  "text": "황소"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTacticalNukeMig",
+  "text": "MiG가 소형 핵을 발사하도록 업그레이드합니다"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTacticalNukeMig",
+  "text": "전술 핵 Mi&G"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildBarracks",
+  "text": "병사를 훈련합니다"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildAirField",
+  "text": "항공기를 생산합니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildBunker",
+  "text": "병사 5명을 수용할 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildWarFactory",
+  "text": "차량을 생산합니다\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipChinaBuildSupplyCenter",
+  "text": "보급 수집 유닛의 하역 지점\n\n필요 전력: 1"
+ },
+ {
+  "label": "CONTROLBAR:Infa_TooltipParaDrop",
+  "text": "항공기로 미니거너를 투하합니다\n\n재사용 대기시간: 4:00"
+ }
+]

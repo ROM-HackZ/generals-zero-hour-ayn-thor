@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:ChooseLadder",
+  "text": "래더 선택"
+ },
+ {
+  "label": "GUI:UnknownLadder",
+  "text": "알 수 없는 래더"
+ },
+ {
+  "label": "GUI:WOLLogin",
+  "text": "GENERALS ONLINE 로그인"
+ },
+ {
+  "label": "GUI:PleaseEnterWOLInfo",
+  "text": "정보를 입력하십시오"
+ },
+ {
+  "label": "GUI:Username",
+  "text": "닉네임"
+ },
+ {
+  "label": "GUI:Server",
+  "text": "서버"
+ },
+ {
+  "label": "GUI:RememberPassword",
+  "text": "비밀번호 기억"
+ },
+ {
+  "label": "GUI:CreateAccount",
+  "text": "계정 만들기"
+ },
+ {
+  "label": "GUI:TryAgain",
+  "text": "다시 시도"
+ },
+ {
+  "label": "GUI:NetworkOptions",
+  "text": "네트워크 옵션"
+ },
+ {
+  "label": "GUI:GammaAdjustment",
+  "text": "밝기"
+ },
+ {
+  "label": "GUI:HelpDescription",
+  "text": "도움말 대화 상자 표시"
+ },
+ {
+  "label": "GUI:ReturnToGame",
+  "text": "게임으로 돌아가기"
+ },
+ {
+  "label": "GUI:NewGame",
+  "text": "새 게임"
+ },
+ {
+  "label": "GUI:RestartGame",
+  "text": "게임 다시 시작"
+ },
+ {
+  "label": "GUI:MatchingProgress",
+  "text": "빠른 대전 진행 상황"
+ },
+ {
+  "label": "GUI:Player'sName",
+  "text": "상대 이름"
+ },
+ {
+  "label": "GUI:AllTimeWins",
+  "text": "통산 승리"
+ },
+ {
+  "label": "GUI:AllTimeLosses",
+  "text": "통산 패배"
+ },
+ {
+  "label": "GUI:AllTimePoints",
+  "text": "통산 계급 점수"
+ },
+ {
+  "label": "GUI:AllTimeDisconnects",
+  "text": "통산 연결 끊김"
+ },
+ {
+  "label": "GUI:HighestRank",
+  "text": "통산 최고 계급"
+ },
+ {
+  "label": "GUI:Honor",
+  "text": "전투 훈장"
+ },
+ {
+  "label": "GUI:LastUpdated",
+  "text": "플레이어 프로필 최종 갱신"
+ },
+ {
+  "label": "GUI:WOLIconKey",
+  "text": "아이콘 설명"
+ },
+ {
+  "label": "GUI:MyInfo",
+  "text": "내 프로필"
+ },
+ {
+  "label": "GUI:Buddies",
+  "text": "커뮤니케이터"
+ },
+ {
+  "label": "GUI:Community",
+  "text": "진영별 일일 승률"
+ },
+ {
+  "label": "GUI:SortAlpha",
+  "text": "이름"
+ },
+ {
+  "label": "GUI:SortPing",
+  "text": "연결"
+ },
+ {
+  "label": "GUI:SortBuddies",
+  "text": "친구"
+ },
+ {
+  "label": "GUI:GSRank0",
+  "text": "이등병"
+ },
+ {
+  "label": "GUI:GSRank1",
+  "text": "상병"
+ },
+ {
+  "label": "GUI:GSRank2",
+  "text": "병장"
+ },
+ {
+  "label": "GUI:GSRank3",
+  "text": "중위"
+ },
+ {
+  "label": "GUI:GSRank4",
+  "text": "대위"
+ },
+ {
+  "label": "GUI:GSRank5",
+  "text": "소령"
+ },
+ {
+  "label": "GUI:GSRank6",
+  "text": "대령"
+ },
+ {
+  "label": "GUI:GSRank7",
+  "text": "준장"
+ },
+ {
+  "label": "GUI:GSRank8",
+  "text": "장군"
+ },
+ {
+  "label": "GUI:GSRank9",
+  "text": "총사령관"
+ },
+ {
+  "label": "GUI:GSErrorTitle",
+  "text": "알림"
+ },
+ {
+  "label": "GUI:GSDisconnected",
+  "text": "채팅 서버와 연결이 끊어졌습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason1",
+  "text": "이미 사용 중인 닉네임입니다. 다른 닉네임을 선택하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason2",
+  "text": "사용할 수 없는 닉네임입니다. 다른 닉네임을 선택하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason3",
+  "text": "C&C 제너럴: 제로아워 온라인와(과)의 연결이 끊어졌습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason4",
+  "text": "C&C 제너럴: 제로아워 온라인에 연결할 수 없습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason5",
+  "text": "로그인 시간이 초과되었습니다. 인터넷 연결을 확인하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason6",
+  "text": "해당 닉네임/이메일 조합이 존재하지 않습니다. 계정을 만들려면 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason7",
+  "text": "잘못된 이메일입니다"
+ },
+ {
+  "label": "GUI:GSDisconReason8",
+  "text": "비밀번호가 틀렸습니다. 다시 시도하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason9",
+  "text": "잘못된 프로필"
+ },
+ {
+  "label": "GUI:GSDisconReason10",
+  "text": "삭제된 프로필입니다"
+ },
+ {
+  "label": "GUI:GSDisconReason11",
+  "text": "친구 서버가 연결을 거부했습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason12",
+  "text": "친구 서버 인증에 실패했습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason13",
+  "text": "잘못된 시리얼 번호입니다. 다른 번호를 입력하십시오"
+ },
+ {
+  "label": "GUI:GSDisconReason14",
+  "text": "레지스트리가 손상되었거나 변경되었습니다"
+ },
+ {
+  "label": "GUI:GSDisconReason15",
+  "text": "차단된 시리얼 번호입니다"
+ },
+ {
+  "label": "GUI:GSGroupRoomJoinFail",
+  "text": "채팅방 참가 실패"
+ },
+ {
+  "label": "GUI:JoinFailedRoomFull",
+  "text": "참가 실패 - 방이 가득 찼습니다"
+ },
+ {
+  "label": "GUI:JoinFailedInviteOnly",
+  "text": "참가 실패 - 초대받은 사람만 참가할 수 있는 방입니다"
+ },
+ {
+  "label": "GUI:JoinFailedBannedFromRoom",
+  "text": "참가 실패 - 이 방에서 차단되었습니다"
+ },
+ {
+  "label": "GUI:JoinFailedBadPassword",
+  "text": "참가 실패 - 잘못된 비밀번호"
+ },
+ {
+  "label": "GUI:JoinFailedAlreadyInRoom",
+  "text": "참가 실패 - 이미 방에 있습니다"
+ },
+ {
+  "label": "GUI:JoinFailedNoConnection",
+  "text": "참가 실패 - 채팅 서버에 연결되지 않았습니다"
+ },
+ {
+  "label": "GUI:JoinFailedCRCMismatch",
+  "text": "참가 실패 - 게임 버전이 다릅니다"
+ },
+ {
+  "label": "GUI:JoinFailedUnknownLadder",
+  "text": "참가 실패 - 알 수 없는 래더를 사용하는 게임입니다"
+ },
+ {
+  "label": "GUI:JoinFailedDefault",
+  "text": "방 참가 실패"
+ },
+ {
+  "label": "GUI:GSKicked",
+  "text": "방에서 추방되었습니다"
+ },
+ {
+  "label": "GUI:NATNegotiationFailed",
+  "text": "다른 플레이어에 연결할 수 없습니다"
+ },
+ {
+  "label": "GUI:GPErrorTitle",
+  "text": "친구 오류"
+ },
+ {
+  "label": "GUI:GPDisconnected",
+  "text": "친구 서버와 연결이 끊어졌습니다. 다시 연결하시겠습니까?"
+ },
+ {
+  "label": "GUI:GPNoProfile",
+  "text": "프로필로 로그인하지 않았습니다. 친구 정보를 사용할 수 없습니다"
+ },
+ {
+  "label": "GUI:PSErrorTitle",
+  "text": "영구 저장소 오류"
+ },
+ {
+  "label": "GUI:PSCannotConnect",
+  "text": "영구 저장소 서버에 연결할 수 없습니다"
+ },
+ {
+  "label": "Buddy:Offline",
+  "text": "오프라인"
+ },
+ {
+  "label": "Buddy:Online",
+  "text": "온라인"
+ },
+ {
+  "label": "Buddy:Chatting",
+  "text": "%ls에서 채팅 중"
+ },
+ {
+  "label": "Buddy:Staging",
+  "text": "%ls에서 준비 중"
+ },
+ {
+  "label": "Buddy:Loading",
+  "text": "%ls에서 로딩 중"
+ },
+ {
+  "label": "Buddy:Playing",
+  "text": "%ls에서 게임 중"
+ },
+ {
+  "label": "Buddy:Matching",
+  "text": "빠른 대전 매칭 중"
+ },
+ {
+  "label": "Buddy:OnlineNotification",
+  "text": "%hs 님이 온라인 상태가 되었습니다"
+ },
+ {
+  "label": "Buddy:OfflineNotification",
+  "text": "%hs 님이 오프라인 상태가 되었습니다"
+ },
+ {
+  "label": "Buddy:AddNotification",
+  "text": "%hs 님의 친구 추가 요청"
+ },
+ {
+  "label": "Buddy:MessageNotification",
+  "text": "%hs 님의 메시지:\n'%s...'"
+ },
+ {
+  "label": "GUI:Com/Tac",
+  "text": "지휘/전술"
+ },
+ {
+  "label": "GUI:MoneySymbol",
+  "text": "$"
+ },
+ {
+  "label": "GUI:$$$",
+  "text": "$$$"
+ },
+ {
+  "label": "GUI:OverchargeExhausted",
+  "text": "과부하 소진"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToBuild",
+  "text": "건설할 자금이 부족합니다"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToUpgrade",
+  "text": "업그레이드할 자금이 부족합니다"
+ },
+ {
+  "label": "GUI:Level",
+  "text": "레벨"
+ },
+ {
+  "label": "GUI:Tac",
+  "text": "전술"
+ },
+ {
+  "label": "GUI:Strat",
+  "text": "전략"
+ },
+ {
+  "label": "GUI:Struct",
+  "text": "건물"
+ },
+ {
+  "label": "GUI:Waypt",
+  "text": "경유지"
+ },
+ {
+  "label": "GUI:WOLStatus",
+  "text": "C&C 제너럴: 제로아워 온라인 상태"
+ },
+ {
+  "label": "GUI:AIDifficulty",
+  "text": "컴퓨터 난이도"
+ },
+ {
+  "label": "GUI:EasyAI",
+  "text": "쉬움 컴퓨터"
+ },
+ {
+  "label": "GUI:MediumAI",
+  "text": "보통 컴퓨터"
+ },
+ {
+  "label": "GUI:HardAI",
+  "text": "어려움 컴퓨터"
+ },
+ {
+  "label": "GUI:Hide",
+  "text": "뒤로"
+ },
+ {
+  "label": "GUI:Pause",
+  "text": "일시 정지"
+ },
+ {
+  "label": "GUI:NextFrame",
+  "text": "다음 프레임"
+ },
+ {
+  "label": "GUI:ReplayMenu",
+  "text": "불러오기"
+ },
+ {
+  "label": "GUI:AntiAliasing",
+  "text": "안티앨리어싱"
+ },
+ {
+  "label": "GUI:ScreenCapture",
+  "text": "화면이 '%s'에 캡처되었습니다"
+ },
+ {
+  "label": "GUI:ScreenshotCapture",
+  "text": "화면 캡처"
+ },
+ {
+  "label": "GUI:ScreenshotCaptureDescription",
+  "text": "게임 화면 스크린샷 찍기"
+ },
+ {
+  "label": "GUI:Null",
+  "text": "."
+ },
+ {
+  "label": "GUI:CRCMismatch",
+  "text": "게임에서 불일치가 감지되었습니다. 멀티플레이 게임에서 플레이어 간 동기화 데이터가 손실되었다는 뜻입니다"
+ },
+ {
+  "label": "GUI:CurrentHotkey",
+  "text": "현재 단축키"
+ },
+ {
+  "label": "GUI:AssignNewHotkey",
+  "text": "새 단축키 지정"
+ },
+ {
+  "label": "GUI:CurrentlyAssignedTo",
+  "text": "현재 지정된 명령"
+ },
+ {
+  "label": "GUI:Reset",
+  "text": "초기화"
+ },
+ {
+  "label": "QM:JOININGQMCHANNEL",
+  "text": "빠른 대전에 참가하는 중..."
+ },
+ {
+  "label": "QM:WORKING",
+  "text": "현재 %d명의 플레이어가 매칭을 시도하고 있습니다..."
+ },
+ {
+  "label": "QM:POOLSIZE",
+  "text": "현재 %d명의 플레이어가 매칭을 시도하고 있습니다..."
+ },
+ {
+  "label": "QM:LOOKINGFORBOT",
+  "text": "C&C 제너럴: 제로아워 온라인 매치메이커를 찾는 중..."
+ },
+ {
+  "label": "QM:SENTINFO",
+  "text": "게임 정보를 보냈습니다..."
+ },
+ {
+  "label": "QM:WIDENINGSEARCH",
+  "text": "선호 조건에 가장 가까운 상대를 찾기 위해 검색 범위를 넓히는 중..."
+ },
+ {
+  "label": "QM:MATCHED",
+  "text": "좋습니다, 상대를 찾았습니다..."
+ },
+ {
+  "label": "QM:INCHANNEL",
+  "text": "채널에 있음..."
+ },
+ {
+  "label": "QM:NEGOTIATINGFIREWALLS",
+  "text": "방화벽 협상 중..."
+ },
+ {
+  "label": "QM:STARTINGGAME",
+  "text": "게임 시작 중..."
+ },
+ {
+  "label": "QM:COULDNOTFINDBOT",
+  "text": "매치메이커를 찾을 수 없습니다"
+ },
+ {
+  "label": "QM:COULDNOTFINDCHANNEL",
+  "text": "빠른 대전 채널을 찾을 수 없습니다"
+ },
+ {
+  "label": "QM:COULDNOTNEGOTIATEFIREWALLS",
+  "text": "방화벽을 협상할 수 없습니다"
+ },
+ {
+  "label": "QM:STOPPED",
+  "text": "빠른 대전 중단"
+ },
+ {
+  "label": "QM:WaitingForPlayerToJoin",
+  "text": "상대의 참가를 기다리는 중"
+ },
+ {
+  "label": "QM:FindingGameChannel",
+  "text": "상대의 게임을 찾는 중"
+ },
+ {
+  "label": "QM:JoinedGameChannel",
+  "text": "상대의 게임에 참가함"
+ },
+ {
+  "label": "QM:PlayerJoined",
+  "text": "상대가 참가함"
+ },
+ {
+  "label": "QM:LookingForMatchChannel",
+  "text": "빠른 대전 채널을 찾는 중"
+ },
+ {
+  "label": "QM:NoMatchChannel",
+  "text": "빠른 대전 채널을 찾지 못했습니다"
+ },
+ {
+  "label": "QM:JoinedMatchChannel",
+  "text": "빠른 대전 채널에 참가함"
+ },
+ {
+  "label": "QM:NoMatchingBot",
+  "text": "매치메이커를 찾지 못했습니다"
+ },
+ {
+  "label": "QM:GameNotFound",
+  "text": "빠른 대전에서 상대의 게임을 찾지 못했습니다"
+ },
+ {
+  "label": "QM:TimeoutOtherPlayer",
+  "text": "상대가 게임에 참가하기를 기다리다 빠른 대전 시간이 초과되었습니다"
+ },
+ {
+  "label": "Version:Format4",
+  "text": "%d.%02d.%d 빌드 %d %c%c"
+ },
+ {
+  "label": "Version:Format3",
+  "text": "버전 %d.%02d.%d"
+ },
+ {
+  "label": "Version:Format2",
+  "text": "버전 %d.%02d"
+ },
+ {
+  "label": "Version:BuildTime",
+  "text": "%ls %ls"
+ },
+ {
+  "label": "Version:BuildMachine",
+  "text": "빌드 머신: %ls"
+ },
+ {
+  "label": "Version:BuildUser",
+  "text": "작성자 %ls"
+ },
+ {
+  "label": "GUI:SuperweaponDaisyCutter",
+  "text": "연료 기화 폭탄"
+ },
+ {
+  "label": "GUI:SuperweaponParadropAmerica",
+  "text": "공수 강하"
+ },
+ {
+  "label": "GUI:SuperweaponClusterMines",
+  "text": "집속 지뢰"
+ },
+ {
+  "label": "GUI:SuperweaponEMPPulse",
+  "text": "EMP 펄스"
+ },
+ {
+  "label": "GUI:SuperweaponA10ThunderboltMissileStrike",
+  "text": "A10 미사일 공습"
+ },
+ {
+  "label": "GUI:SuperweaponCrateDrop",
+  "text": "보급 상자 투하"
+ },
+ {
+  "label": "GUI:SuperweaponCarpetBomb",
+  "text": "융단 폭격"
+ },
+ {
+  "label": "GUI:SuperweaponNapalmStrike",
+  "text": "네이팜 공습"
+ },
+ {
+  "label": "GUI:SuperweaponCashHack",
+  "text": "자금 해킹"
+ },
+ {
+  "label": "GUI:SuperweaponNeutronMissile",
+  "text": "핵미사일"
+ },
+ {
+  "label": "GUI:SuperweaponScudStorm",
+  "text": "스커드 스톰"
+ },
+ {
+  "label": "GUI:SuperweaponTerrorCell",
+  "text": "테러 조직"
+ },
+ {
+  "label": "GUI:SuperweaponRebelAmbush",
+  "text": "매복"
+ },
+ {
+  "label": "GUI:SuperweaponBlackMarketNuke",
+  "text": "암시장 핵폭탄"
+ },
+ {
+  "label": "GUI:SuperweaponAnthraxBomb",
+  "text": "탄저균 폭탄"
+ },
+ {
+  "label": "GUI:SuperweaponDemoralize",
+  "text": "사기 저하"
+ },
+ {
+  "label": "GUI:SpecialAbilityGuidedMissiles",
+  "text": "레이저 유도 미사일"
+ },
+ {
+  "label": "GUI:SpecialAbilityDetonateCharges",
+  "text": "폭약 폭파"
+ },
+ {
+  "label": "GUI:SuperweaponParticleUplinkCannon",
+  "text": "입자 캐논"
+ },
+ {
+  "label": "GUI:PatchAvailable",
+  "text": "업데이트 있음"
+ },
+ {
+  "label": "GUI:MustPatchForOnline",
+  "text": "C&C 제너럴: 제로아워 온라인을(를) 플레이하려면 업데이트를 다운로드해야 합니다"
+ },
+ {
+  "label": "GUI:CanPatchForOnline",
+  "text": "업데이트를 다운로드하시겠습니까?"
+ },
+ {
+  "label": "GUI:CheckingForPatches",
+  "text": "업데이트 확인 중"
+ },
+ {
+  "label": "GUI:DownloadErrorTitle",
+  "text": "다운로드 오류"
+ },
+ {
+  "label": "GUI:DownloadSuccessTitle",
+  "text": "다운로드 성공"
+ },
+ {
+  "label": "GUI:DownloadSuccess",
+  "text": "다운로드가 오류 없이 완료되었습니다"
+ },
+ {
+  "label": "GUI:DownloadSuccessMustQuit",
+  "text": "확인을 클릭하면 Command & Conquer 제너럴: 제로아워를 종료하고 업데이트를 적용합니다"
+ },
+ {
+  "label": "GUI:DownloadBytesRatio",
+  "text": "%d / %d 바이트"
+ },
+ {
+  "label": "GUI:DownloadTimeLeft",
+  "text": "%d:%02d:%02d 남음"
+ },
+ {
+  "label": "GUI:DownloadUnknownTime",
+  "text": "???"
+ },
+ {
+  "label": "FTP:StatusIdle",
+  "text": "대기"
+ },
+ {
+  "label": "FTP:UnknownError",
+  "text": "알 수 없는 오류"
+ },
+ {
+  "label": "FTP:NoSuchServer",
+  "text": "서버 없음"
+ },
+ {
+  "label": "FTP:CouldNotConnect",
+  "text": "연결할 수 없음"
+ },
+ {
+  "label": "FTP:LoginFailed",
+  "text": "로그인 실패"
+ },
+ {
+  "label": "FTP:NoSuchFile",
+  "text": "파일 없음"
+ },
+ {
+  "label": "FTP:LocalFileOpenFailed",
+  "text": "로컬 파일을 열 수 없음"
+ },
+ {
+  "label": "FTP:TCPError",
+  "text": "TCP 오류"
+ },
+ {
+  "label": "FTP:DisconnectError",
+  "text": "연결 끊기 오류"
+ },
+ {
+  "label": "FTP:StatusConnecting",
+  "text": "연결 중"
+ },
+ {
+  "label": "FTP:StatusLoggingIn",
+  "text": "로그인 중"
+ },
+ {
+  "label": "FTP:StatusFindingFile",
+  "text": "파일 찾는 중"
+ },
+ {
+  "label": "FTP:StatusQueryingResume",
+  "text": "이어받기 확인 중"
+ },
+ {
+  "label": "FTP:StatusDownloading",
+  "text": "다운로드 중"
+ },
+ {
+  "label": "FTP:StatusDisconnecting",
+  "text": "연결 끊는 중"
+ },
+ {
+  "label": "FTP:StatusFinishing",
+  "text": "마무리 중"
+ },
+ {
+  "label": "FTP:StatusDone",
+  "text": "완료"
+ },
+ {
+  "label": "FTP:StatusNone",
+  "text": "없음"
+ },
+ {
+  "label": "WOL:InternalError",
+  "text": "C&C 제너럴: 제로아워 온라인 내부 오류"
+ },
+ {
+  "label": "WOL:ServerBan",
+  "text": "죄송합니다. C&C 제너럴: 제로아워 온라인에서 차단되었습니다. 서비스 약관을 확인하십시오"
+ },
+ {
+  "label": "WOL:DisconnectedError",
+  "text": "죄송합니다. C&C 제너럴: 제로아워 온라인에서 차단되었습니다. 서비스 약관을 확인하십시오"
+ },
+ {
+  "label": "WOL:NoServers",
+  "text": "C&C 제너럴: 제로아워 온라인을(를) 찾을 수 없습니다"
+ },
+ {
+  "label": "WOL:LoginTimeout",
+  "text": "C&C 제너럴: 제로아워 온라인 참가 대기 시간 초과"
+ },
+ {
+  "label": "WOL:NoMatchChannel",
+  "text": "매칭 채널을 찾지 못했습니다"
+ }
+]

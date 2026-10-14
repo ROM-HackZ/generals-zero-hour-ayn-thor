@@ -1,0 +1,802 @@
+[
+ {
+  "label": "WOL:NoMatchbot",
+  "text": "未找到匹配服务"
+ },
+ {
+  "label": "WOL:BadMatchParams",
+  "text": "匹配参数错误"
+ },
+ {
+  "label": "WOL:ChatErrorNickInUse",
+  "text": "该昵称已被使用"
+ },
+ {
+  "label": "WOL:ChatErrorBadPass",
+  "text": "该名称的密码错误"
+ },
+ {
+  "label": "WOL:ChatErrorNoneSuch",
+  "text": "没有该用户或频道"
+ },
+ {
+  "label": "WOL:ChatErrorConNetDown",
+  "text": "网络连接已断开"
+ },
+ {
+  "label": "WOL:ChatErrorConLookupFailed",
+  "text": "DNS 查询失败"
+ },
+ {
+  "label": "WOL:ChatErrorConError",
+  "text": "发生严重网络错误"
+ },
+ {
+  "label": "WOL:ChatErrorTimeout",
+  "text": "发生超时"
+ },
+ {
+  "label": "WOL:ChatErrorMustPatch",
+  "text": "加入 C&C 将军：绝命时刻 在线 前，你必须获取最新更新"
+ },
+ {
+  "label": "WOL:ChatErrorStatusError",
+  "text": "内部状态错误"
+ },
+ {
+  "label": "WOL:ChatErrorUnknownResponse",
+  "text": "未知响应"
+ },
+ {
+  "label": "WOL:ChatErrorChannelFull",
+  "text": "频道已满"
+ },
+ {
+  "label": "WOL:ChatErrorChannelExists",
+  "text": "频道已存在"
+ },
+ {
+  "label": "WOL:ChatErrorChannelDoesNotExist",
+  "text": "频道不存在"
+ },
+ {
+  "label": "WOL:ChatErrorBadChannelPassword",
+  "text": "频道密码错误"
+ },
+ {
+  "label": "WOL:ChatErrorBanned",
+  "text": "抱歉，你已被 C&C 将军：绝命时刻 在线 封禁。请查看服务条款"
+ },
+ {
+  "label": "WOL:ChatErrorNotOper",
+  "text": "无法执行该操作"
+ },
+ {
+  "label": "WOL:ChatErrorAccountDisabled",
+  "text": "你的账户已被禁用"
+ },
+ {
+  "label": "WOL:ChatErrorSerialBanned",
+  "text": "你的序列号已被封禁。请查看服务条款"
+ },
+ {
+  "label": "WOL:ChatErrorSerialDup",
+  "text": "你的序列号已被使用"
+ },
+ {
+  "label": "WOL:ChatErrorSerialUnknown",
+  "text": "你的序列号无效"
+ },
+ {
+  "label": "WOL:NetUtilErrorGeneric",
+  "text": "NetUtil 一般错误"
+ },
+ {
+  "label": "WOL:NetUtilErrorBusy",
+  "text": "忙碌"
+ },
+ {
+  "label": "WOL:NetUtilErrorTimeout",
+  "text": "超时"
+ },
+ {
+  "label": "WOL:NetUtilErrorInvalidField",
+  "text": "字段无效"
+ },
+ {
+  "label": "WOL:NetUtilErrorCantVerify",
+  "text": "无法验证"
+ },
+ {
+  "label": "WOL:NetUtilFinished",
+  "text": "已完成"
+ },
+ {
+  "label": "WOL:UnknownError",
+  "text": "未知错误"
+ },
+ {
+  "label": "WOL:CouldNotCreateChannel",
+  "text": "无法创建频道"
+ },
+ {
+  "label": "WOL:ErrorTitle",
+  "text": "C&C 将军：绝命时刻 在线 错误"
+ },
+ {
+  "label": "WOL:LoginErrorTitle",
+  "text": "登录错误"
+ },
+ {
+  "label": "WOL:CreatingChannel",
+  "text": "正在创建频道"
+ },
+ {
+  "label": "WOL:ChannelClosed",
+  "text": "频道已关闭"
+ },
+ {
+  "label": "WOL:BadChannelPassword",
+  "text": "频道密码错误"
+ },
+ {
+  "label": "WOL:ChannelFull",
+  "text": "频道已满"
+ },
+ {
+  "label": "WOL:BannedFromChannel",
+  "text": "你已被禁止进入该频道"
+ },
+ {
+  "label": "WOL:CannotJoinChannel",
+  "text": "无法加入频道"
+ },
+ {
+  "label": "WOL:NoWOLAPI",
+  "text": "未安装共享网络组件"
+ },
+ {
+  "label": "WOL:OldWOLAPI",
+  "text": "共享网络组件需要更新。请从 C&C 将军：绝命时刻 光盘安装"
+ },
+ {
+  "label": "WOL:BadRegistry",
+  "text": "C&C 将军：绝命时刻 注册表已损坏"
+ },
+ {
+  "label": "WOL:GotPing",
+  "text": "收到 %dms 的延迟。延迟越低，连接越好"
+ },
+ {
+  "label": "WOL:ServerListAndVersion",
+  "text": "正在获取服务器列表"
+ },
+ {
+  "label": "WOL:GettingPings",
+  "text": "正在测量延迟。延迟越低，连接越好"
+ },
+ {
+  "label": "WOL:Connecting",
+  "text": "正在连接"
+ },
+ {
+  "label": "WOL:JoinedChannel",
+  "text": "你加入了 %ls"
+ },
+ {
+  "label": "WOL:LeftChannel",
+  "text": "你离开了 %ls"
+ },
+ {
+  "label": "WOL:UserKicked",
+  "text": "%ls 将 %ls 踢出了 %ls"
+ },
+ {
+  "label": "WOL:BeginIgnoreList",
+  "text": "忽略列表开始"
+ },
+ {
+  "label": "WOL:IgnoredUser",
+  "text": "%ls"
+ },
+ {
+  "label": "WOL:EndIgnoreList",
+  "text": "忽略列表结束"
+ },
+ {
+  "label": "WOL:DownloadPatchNow",
+  "text": "你想现在下载更新吗？"
+ },
+ {
+  "label": "WOL:FindInChannel",
+  "text": "%ls 在 %s"
+ },
+ {
+  "label": "WOL:FindInChannelOtherServer",
+  "text": "%ls 在 %s（服务器 %s）"
+ },
+ {
+  "label": "WOL:FindOffline",
+  "text": "%ls 未登录"
+ },
+ {
+  "label": "WOL:FindHiding",
+  "text": "%ls 未响应搜索"
+ },
+ {
+  "label": "WOL:FindNotInChannel",
+  "text": "%ls 不在任何频道中"
+ },
+ {
+  "label": "WOL:FindNotInChannelOtherServer",
+  "text": "%ls 在 %s"
+ },
+ {
+  "label": "WOL:Lob_49_0",
+  "text": "主大厅"
+ },
+ {
+  "label": "WOL:Lob_49_1",
+  "text": "备用"
+ },
+ {
+  "label": "WOL:Lob_49_2",
+  "text": "现实"
+ },
+ {
+  "label": "WOL:Lob_41_0",
+  "text": "快速对战"
+ },
+ {
+  "label": "WOL:UnknownServer",
+  "text": "未知服务器"
+ },
+ {
+  "label": "WOL:UnknownChannel",
+  "text": "未知频道"
+ },
+ {
+  "label": "WOL:BuddyMatching",
+  "text": "%ls 正在快速匹配"
+ },
+ {
+  "label": "WOL:BuddyNotInChan",
+  "text": "%ls 在线"
+ },
+ {
+  "label": "WOL:BuddyInGame",
+  "text": "%ls 正在游戏中"
+ },
+ {
+  "label": "WOL:BuddyInChat",
+  "text": "%ls 正在 %ls 聊天"
+ },
+ {
+  "label": "WOL:BuddyGameSetup",
+  "text": "%ls 在 %ls"
+ },
+ {
+  "label": "WOL:BuddyMatchingOtherServer",
+  "text": "%ls 正在 %ls 快速匹配"
+ },
+ {
+  "label": "WOL:BuddyNotInChanOtherServer",
+  "text": "%ls 在 %ls 在线"
+ },
+ {
+  "label": "WOL:BuddyInGameOtherServer",
+  "text": "%ls 正在 %ls 游戏中"
+ },
+ {
+  "label": "WOL:BuddyInChatOtherServer",
+  "text": "%ls 正在 %ls 聊天（服务器 %ls）"
+ },
+ {
+  "label": "WOL:BuddyGameSetupOtherServer",
+  "text": "%ls 在 %ls（服务器 %ls）"
+ },
+ {
+  "label": "WOL:BuddyHiding",
+  "text": "%ls 已隐身"
+ },
+ {
+  "label": "Chat:Everyone",
+  "text": "所有人可见"
+ },
+ {
+  "label": "Chat:Allies",
+  "text": "仅盟友可见"
+ },
+ {
+  "label": "GUI:Clear",
+  "text": "清除"
+ },
+ {
+  "label": "LAN:GameStartTimerPlural",
+  "text": "游戏将在 %d 秒后开始"
+ },
+ {
+  "label": "LAN:GameStartTimerSingular",
+  "text": "游戏将在 %d 秒后开始"
+ },
+ {
+  "label": "LAN:HostNotResponding",
+  "text": "游戏已退出；主机无响应"
+ },
+ {
+  "label": "LAN:PlayerDropped",
+  "text": "%ls 已掉线；玩家无响应"
+ },
+ {
+  "label": "LAN:NeedMorePlayers",
+  "text": "需要超过 %d 名玩家才能开始游戏"
+ },
+ {
+  "label": "LAN:NeedMoreTeams",
+  "text": "需要超过 1 支队伍才能开始游戏"
+ },
+ {
+  "label": "LAN:TooManyPlayers",
+  "text": "此地图最多支持 %d 名玩家"
+ },
+ {
+  "label": "LAN:OK",
+  "text": "确定"
+ },
+ {
+  "label": "LAN:ErrorNoGameSelected",
+  "text": "请先选择一个游戏"
+ },
+ {
+  "label": "LAN:ErrorTimeout",
+  "text": "连接超时"
+ },
+ {
+  "label": "LAN:ErrorGameFull",
+  "text": "此游戏已满"
+ },
+ {
+  "label": "LAN:ErrorDuplicateName",
+  "text": "游戏中已有相同名称"
+ },
+ {
+  "label": "LAN:ErrorCRCMismatch",
+  "text": "游戏检测到数据不一致。这意味着多人游戏中玩家之间的同步数据已丢失。你的对手可能修改了游戏版本，你可以将其加入忽略列表"
+ },
+ {
+  "label": "LAN:ErrorGameStarted",
+  "text": "抱歉，此游戏已经开始"
+ },
+ {
+  "label": "LAN:ErrorGameExists",
+  "text": "已存在同名游戏"
+ },
+ {
+  "label": "LAN:ErrorGameGone",
+  "text": "游戏已消失"
+ },
+ {
+  "label": "LAN:ErrorBusy",
+  "text": "另一个操作正在进行中"
+ },
+ {
+  "label": "LAN:ErrorUnknown",
+  "text": "未知错误"
+ },
+ {
+  "label": "LAN:JoinFailed",
+  "text": "加入失败"
+ },
+ {
+  "label": "Network:PlayerLeft",
+  "text": "%ls 离开了游戏"
+ },
+ {
+  "label": "INI:MissingDisplayName",
+  "text": "对象“%S”缺少显示名称"
+ },
+ {
+  "label": "INI:FactionDefault",
+  "text": "默认阵营"
+ },
+ {
+  "label": "INI:FactionObserver",
+  "text": "观察者"
+ },
+ {
+  "label": "INI:FactionCivilian",
+  "text": "平民"
+ },
+ {
+  "label": "INI:FactionAmerica",
+  "text": "美国"
+ },
+ {
+  "label": "INI:FactionChina",
+  "text": "中国"
+ },
+ {
+  "label": "INI:FactionGLA",
+  "text": "GLA"
+ },
+ {
+  "label": "INI:FactionChinaHacker",
+  "text": "中国黑客"
+ },
+ {
+  "label": "SIDE:America",
+  "text": "美国"
+ },
+ {
+  "label": "SIDE:China",
+  "text": "中国"
+ },
+ {
+  "label": "SIDE:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "INI:RankLevel1",
+  "text": "一星将军"
+ },
+ {
+  "label": "INI:RankLevel2",
+  "text": "二星将军"
+ },
+ {
+  "label": "INI:RankLevel3",
+  "text": "三星将军"
+ },
+ {
+  "label": "INI:RankLevel4",
+  "text": "四星将军"
+ },
+ {
+  "label": "INI:RankLevel5",
+  "text": "五星将军"
+ },
+ {
+  "label": "INI:RankLevel6",
+  "text": "狠角色先生（6 级）"
+ },
+ {
+  "label": "INI:RankLevel7",
+  "text": "死神博士（7 级）"
+ },
+ {
+  "label": "INI:RankLevel8",
+  "text": "终极杀神（8 级）"
+ },
+ {
+  "label": "TOOLTIP:MyInfo",
+  "text": "点击查看你的资料信息。你可以查看军衔、积分、胜负场数、战斗荣誉等"
+ },
+ {
+  "label": "TOOLTIP:CustomMatch",
+  "text": "点击加入自定义对战大厅，与其他玩家见面聊天"
+ },
+ {
+  "label": "TOOLTIP:SelectAll",
+  "text": "在所有可用地图上快速对战"
+ },
+ {
+  "label": "TOOLTIP:SelectNone",
+  "text": "不在任何地图上快速对战"
+ },
+ {
+  "label": "TOOLTIP:EnterPassword",
+  "text": "请输入密码"
+ },
+ {
+  "label": "TOOLTIP:Quickmatch",
+  "text": "点击开始快速对战。快速对战会自动为你匹配水平和偏好最接近的对手"
+ },
+ {
+  "label": "TOOLTIP:GameLobbys",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:ClearButton",
+  "text": "清空聊天窗口"
+ },
+ {
+  "label": "TOOLTIP:Disconnectbutton",
+  "text": "点击断开当前游戏。断线将计入你的总记录"
+ },
+ {
+  "label": "TOOLTIP:playersonline",
+  "text": "当前在 C&C 将军：绝命时刻 在线 上的玩家列表"
+ },
+ {
+  "label": "TOOLTIP:WidenSearch",
+  "text": "点击放宽对手搜索条件。条件越具体，找到对手就越困难"
+ },
+ {
+  "label": "TOOLTIP:Emote",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:JoinGame",
+  "text": "点击加入所选游戏"
+ },
+ {
+  "label": "TOOLTIP:BuddyButton",
+  "text": "按好友排序游戏列表"
+ },
+ {
+  "label": "TOOLTIP:matchingprogress",
+  "text": "你可以观看快速对战为你寻找最佳对手。祝你好运！"
+ },
+ {
+  "label": "TOOLTIP:CancelButton",
+  "text": "点击取消当前操作"
+ },
+ {
+  "label": "TOOLTIP:resizewindows",
+  "text": "上下拖动以调整游戏列表窗口与聊天窗口的大小"
+ },
+ {
+  "label": "TOOLTIP:CreateGame",
+  "text": "创建新游戏。游戏将显示在游戏列表窗口中，供其他玩家加入"
+ },
+ {
+  "label": "TOOLTIP:ChatWindow",
+  "text": "在下方输入框中输入文字并按回车，即可向此聊天窗口发送消息。其他玩家可以阅读并回复"
+ },
+ {
+  "label": "TOOLTIP:StopSearch",
+  "text": "中止当前搜索"
+ },
+ {
+  "label": "TOOLTIP:StartSearch",
+  "text": "开始搜索"
+ },
+ {
+  "label": "TOOLTIP:UnknownGame",
+  "text": "未知游戏"
+ },
+ {
+  "label": "TOOLTIP:textentrybox",
+  "text": "在此输入框中输入文字并按回车，即可向上方聊天窗口发送消息"
+ },
+ {
+  "label": "TOOLTIP:PlayersInLobby",
+  "text": "当前大厅中的玩家"
+ },
+ {
+  "label": "TOOLTIP:LocalPlayer",
+  "text": "当前玩家 %s"
+ },
+ {
+  "label": "TOOLTIP:BuddyPlayer",
+  "text": "你的好友 %s"
+ },
+ {
+  "label": "TOOLTIP:ProfiledPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:GenericPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:IgnoredModifier",
+  "text": "（已忽略）"
+ },
+ {
+  "label": "TOOLTIP:PlayerInfo",
+  "text": "\n地区：%s\n%d 胜/%d 负"
+ },
+ {
+  "label": "TOOLTIP:GameInfoGameName",
+  "text": "游戏名称：%s"
+ },
+ {
+  "label": "TOOLTIP:GameInfoLadderName",
+  "text": "\n天梯：%s"
+ },
+ {
+  "label": "TOOLTIP:LadderName",
+  "text": "天梯：%s"
+ },
+ {
+  "label": "TOOLTIP:UnknownLadder",
+  "text": "\n未知天梯"
+ },
+ {
+  "label": "TOOLTIP:NoLadder",
+  "text": "\n无天梯"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersionSingleLine",
+  "text": "此游戏版本不同"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersion",
+  "text": ""
+ },
+ {
+  "label": "TOOLTIP:GameInfoMap",
+  "text": "\n地图：%s\n玩家："
+ },
+ {
+  "label": "TOOLTIP:GameInfoPlayer",
+  "text": "\n%s（%d/%d）"
+ },
+ {
+  "label": "TOOLTIP:FreeForAll",
+  "text": "自由混战。不允许组队/结盟"
+ },
+ {
+  "label": "TOOLTIP:ListOfPlayers",
+  "text": "当前游戏中的玩家"
+ },
+ {
+  "label": "TOOLTIP:MapName",
+  "text": "当前选择的地图"
+ },
+ {
+  "label": "TOOLTIP:GameName",
+  "text": "游戏名称"
+ },
+ {
+  "label": "TOOLTIP:StartGame",
+  "text": "开始多人游戏"
+ },
+ {
+  "label": "TOOLTIP:IgnoreButton",
+  "text": "忽略玩家"
+ },
+ {
+  "label": "TOOLTIP:closeButton",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:GameOptions",
+  "text": "游戏中当前启用的选项"
+ },
+ {
+  "label": "TOOLTIP:Crates",
+  "text": "奖励补给箱"
+ },
+ {
+  "label": "TOOLTIP:SuperWeapons",
+  "text": "超级武器。粒子加农炮、核导弹等"
+ },
+ {
+  "label": "DOZER:ConstructionComplete",
+  "text": "建造完成：%s"
+ },
+ {
+  "label": "DOZER:RepairComplete",
+  "text": "维修完成"
+ },
+ {
+  "label": "UPGRADE:UpgradeComplete",
+  "text": "升级完成：%s"
+ },
+ {
+  "label": "GUI:CantBuildRestrictedTerrain",
+  "text": "地形不允许在此建造"
+ },
+ {
+  "label": "GUI:CantBuildNotFlatEnough",
+  "text": "此处地形不够平坦，无法建造"
+ },
+ {
+  "label": "GUI:CantBuildObjectsInTheWay",
+  "text": "有障碍物阻挡，无法在此建造"
+ },
+ {
+  "label": "GUI:CantBuildNoClearPath",
+  "text": "单位无法到达建造地点"
+ },
+ {
+  "label": "GUI:CantBuildShroud",
+  "text": "必须先探索该区域才能建造"
+ },
+ {
+  "label": "GUI:CantBuildThere",
+  "text": "你不能在这里建造"
+ },
+ {
+  "label": "GUI:RallyPointObjectsInTheWay",
+  "text": "无法设置集结点，目的地有物体阻挡"
+ },
+ {
+  "label": "GUI:RallyPointNoPath",
+  "text": "无法设置集结点"
+ },
+ {
+  "label": "GUI:RallyPointSet",
+  "text": "%s 集结点已设置"
+ },
+ {
+  "label": "GUI:MouseType",
+  "text": "鼠标类型"
+ },
+ {
+  "label": "GUI:Com",
+  "text": "EAPIM"
+ },
+ {
+  "label": "GUI:CONTROL",
+  "text": "控制"
+ },
+ {
+  "label": "GUI:INFORMATION",
+  "text": "信息"
+ },
+ {
+  "label": "GUI:INTERFACE",
+  "text": "界面"
+ },
+ {
+  "label": "GUI:SELECTION",
+  "text": "选择"
+ },
+ {
+  "label": "GUI:TAUNT",
+  "text": "嘲讽"
+ },
+ {
+  "label": "GUI:MISC",
+  "text": "其他"
+ },
+ {
+  "label": "GUI:DEBUG",
+  "text": "调试"
+ },
+ {
+  "label": "GUI:Cheer",
+  "text": "欢呼"
+ },
+ {
+  "label": "GUI:CheerDescription",
+  "text": "命令你的部队为你的伟大战绩欢呼"
+ },
+ {
+  "label": "GUI:Deploy",
+  "text": "部署对象"
+ },
+ {
+  "label": "GUI:DeployDescription",
+  "text": "部署所选对象"
+ },
+ {
+  "label": "GUI:Guard",
+  "text": "警戒"
+ },
+ {
+  "label": "GUI:GuardDescription",
+  "text": "将所选对象设为“区域警戒”模式"
+ },
+ {
+  "label": "GUI:CreateFormation",
+  "text": "创建编队"
+ },
+ {
+  "label": "GUI:Follow",
+  "text": "跟随"
+ },
+ {
+  "label": "GUI:FollowDescription",
+  "text": "切换所选对象的跟随状态"
+ },
+ {
+  "label": "GUI:ToggleControlBar",
+  "text": "切换控制栏"
+ },
+ {
+  "label": "GUI:ToggleControlBarDescription",
+  "text": "开启/关闭游戏内控制栏"
+ },
+ {
+  "label": "GUI:ToggleLetterbox",
+  "text": "切换宽银幕"
+ },
+ {
+  "label": "GUI:ToggleLetterboxDescription",
+  "text": "开启/关闭宽银幕模式"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen06Subtitle",
+  "text": "*حصلنا على تقنية تشويش GPS! الآن يمكننا استخدام حيل قصّاد ضده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen07Subtitle",
+  "text": "*ممتاز أيها الجنرال! أمّنّا قدرة الهجوم المباغت!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen08Subtitle",
+  "text": "*استولِ على مراكز قيادة العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen09Subtitle",
+  "text": "*إن استولينا على مركز قيادة العدو فسنستخدم تقنيته ضده"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen10Subtitle",
+  "text": "*أيها الجنرال، يجب أن نستولي على مركز قيادتهم ونستخدم معرفتهم للتقدم نحو هدفنا: توحيد جيش التحرير العالمي تحت راية واحدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen11Subtitle",
+  "text": "*مواردنا تنفد. يجب أن نستولي على بعض أبراج النفط"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen12Subtitle",
+  "text": "*عدونا يهاجم إمدادات النفط لدينا! يجب إيقافهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen13Subtitle",
+  "text": "*استخدم تشويش GPS للتسلل عبر دفاعات العدو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen14Subtitle",
+  "text": "*لن ينفع تشويش GPS هنا، مواقع ستينغر كثيرة جدًا. سنحتاج إلى تكتيك مختلف"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen15Subtitle",
+  "text": "*ربما نجد منطقة غير محروسة نستخدم فيها قدرة الهجوم المباغت الجديدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen16Subtitle",
+  "text": "*لا تدمّر مركز القيادة. يجب أن نستولي على المنشأة ونبقيها سليمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen17Subtitle",
+  "text": "*يجب سرقة معرفتهم. نحتاج إلى استخدام تكتيكاتهم المتطورة لهزيمتهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen18Subtitle",
+  "text": "*أيها الجنرال، احذر القنّاصة -- قصّاد يحب استخدامهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen19Subtitle",
+  "text": "*هذا الجسر شديد التحصين. سنحتاج إلى مساعدة لعبوره"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen20Subtitle",
+  "text": "*استولِ على مركز قيادة العدو في الشمال!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen21Subtitle",
+  "text": "*استولِ على مركز قيادة العدو في الغرب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen22Subtitle",
+  "text": "*أيها الجنرال، إن استولينا على هذا المدفع فسنستخدمه ضد قوات قصّاد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen23Subtitle",
+  "text": "*إن استولينا على مركز القيادة فسنستخدم قدراتهم لقلب موازين هذه المعركة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen24Subtitle",
+  "text": "*انتهى أمر الأمير قصّاد. عاد جيش التحرير العالمي موحدًا ضد أعدائنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen25Subtitle",
+  "text": "*الآن بعد أن حصلنا على تشويش GPS، يمكننا التحرك دون أن نُرى عبر دفاعات جسر قصّاد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen26Subtitle",
+  "text": "*تحصّن الخائن على قمة هذه التلة وقطع كل طرق الوصول الأخرى. الهجوم المباغت هو السبيل الوحيد لضرب قاعدته الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen27Subtitle",
+  "text": "*أيها الجنرال، يسيطر الأمير قصّاد على هذه المنطقة. أدار ظهره لإخوته ولن يساعدنا في قضيتنا ضد الكفار"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen28Subtitle",
+  "text": "*قصّاد سيد التخفي، يخفي قواته أمام الأعين. يرفض مشاركتنا معرفته، لذا سنأخذها منه"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen29Subtitle",
+  "text": "*خلية منشقة من جيش التحرير العالمي بقيادة الأمير قصّاد تسيطر على هذه المنطقة. يرفض قصّاد أن ندع قدراته تخدم جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen30Subtitle",
+  "text": "*قصّاد سيد التخفي، يعتمد على عدة أساليب لمباغتة أعدائه ومهاجمتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen31Subtitle",
+  "text": "*يمنحه تشويش GPS القدرة على جعل أي وحدة تضرب العدو دون أن تُرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen32Subtitle",
+  "text": "*الهجمات المباغتة عبر الأنفاق تمنح مزايا تكتيكية إضافية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA02xKen33Subtitle",
+  "text": "*يجب أن نحصل على هذه التقنيات. إن لم يشاركنا قصّاد فسنأخذها منه. استولِ على مراكز قيادته واقلب قدراته ضده!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar03Subtitle",
+  "text": "*حرّروا إخوتنا الأسرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03Kenwar15Subtitle",
+  "text": "*رصدنا معسكر أسرى، إخوتنا محتجزون داخله"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf01Subtitle",
+  "text": "*مرحبًا أيها القائد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf02Subtitle",
+  "text": "*كان قصّاد أجبن من أن يحاول ضربة كهذه ضد الأمريكيين. أيها الجنرال، أنت حقًا عبقري"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf03Subtitle",
+  "text": "*حين تتحطم القوة البحرية الأمريكية في المتوسط ستصبح أوروبا كلها في قبضتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf04Subtitle",
+  "text": "*الآن وقد توحدنا من جديد، حان وقت إظهار قوتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf05Subtitle",
+  "text": "*هاجمت الولايات المتحدة قاعدتنا السرية في المتوسط"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf06Subtitle",
+  "text": "*لكن قبل أن تُمحى عرفنا موقع مدفع الجسيمات والأسطول البحري التابعين لهم في المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf07Subtitle",
+  "text": "*معظم سفنهم في الميناء وعاجزة. سنسرق مدفع الجسيمات ونستخدمه لتدمير حاملة طائراتهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xBrf08Subtitle",
+  "text": "*ابحث عن فرصة لاستعادة قاعدتنا السرية وإعادة بنائها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat01Subtitle",
+  "text": "*نموت فداءً لك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat02Subtitle",
+  "text": "*وهذا واحد آخر صار في خبر كان"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat03Subtitle",
+  "text": "*مزيد من الضحايا لي"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat04Subtitle",
+  "text": "*احصدوهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat05Subtitle",
+  "text": "*لا مهرب لهم من غضبنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat06Subtitle",
+  "text": "*أوقعناهم حيث نريد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat07Subtitle",
+  "text": "*النصر سيكون لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xChat08Subtitle",
+  "text": "*يا لها من طرطشة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin01Subtitle",
+  "text": "*سننتقم لهذا الهجوم الجبان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin02Subtitle",
+  "text": "*ستتحول حاملتهم إلى خردة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xCin03Subtitle",
+  "text": "*أثبتنا قوة جيش التحرير العالمي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen01Subtitle",
+  "text": "*يستطيع خاطفونا أخذ تلك الدبابة بسهولة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen02Subtitle",
+  "text": "*ذلك الرينجر يركض طلبًا للنجدة! يجب ألا ندعه يفلت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen03Subtitle",
+  "text": "*سنحتاج إلى مدفع الجسيمات هذا لإغراق حاملة العدو. دافع عنه جيدًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen04Subtitle",
+  "text": "*يستطيع متمردونا استخدام قدرة الاستيلاء على المباني للسيطرة على مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen05Subtitle",
+  "text": "*يمكننا استخدام الهجوم المباغت لإنشاء شبكات أنفاق على الجزر القريبة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen06Subtitle",
+  "text": "*يجب ألا ندع الطيار يصل إلى صاروخ التوماهوك الخاص به!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen07Subtitle",
+  "text": "*إنهم قادمون لأخذ التوماهوك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen08Subtitle",
+  "text": "*هذه الثكنات أصبحت لنا الآن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen09Subtitle",
+  "text": "*حرّرنا هذا القصر"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen10Subtitle",
+  "text": "*سيخدمنا تاجر الأسلحة هذا جيدًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen11Subtitle",
+  "text": "*استعدنا مركز قيادتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen12Subtitle",
+  "text": "*أيها الجنرال، هل ترى طائرات الإمداد تلك؟ إن استطعنا تدمير مناطق إسقاطها فسنشلّ إنتاجهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen13Subtitle",
+  "text": "*آه، جرار السموم هذا سيفيدنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen14Subtitle",
+  "text": "*ستدافع هذه المدافع الرباعية عنا ضد طائرات العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen15Subtitle",
+  "text": "*ستعزز دبابات الماراودر هذه قوتنا النارية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen16Subtitle",
+  "text": "*دمّر هذه الدبابات وسنحرر الثكنات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen17Subtitle",
+  "text": "*إن طهّرنا هذه المنطقة فسنحتل مركز القيادة بأمان"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen18Subtitle",
+  "text": "*اقتل هؤلاء الجنود وسيصبح تاجر الأسلحة لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen19Subtitle",
+  "text": "*ربما يشنّون هجومًا علينا! دافعوا عن مبانينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen20Subtitle",
+  "text": "*كومانش! حشّدوا دفاعاتنا الجوية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen21Subtitle",
+  "text": "*يجب أن ندافع ضد تلك الكومانش!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen22Subtitle",
+  "text": "*يحاولون استعادة مدفع الجسيمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen23Subtitle",
+  "text": "*دمّرت طائراتهم شبكة أنفاقنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen24Subtitle",
+  "text": "*يا لهم من أوغاد أذكياء! يستهدفون محطات الطاقة. نحتاج إلى الطاقة لاستخدام مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen25Subtitle",
+  "text": "*دُمّرت محطات الطاقة كلها تقريبًا. يجب أن تتوفر الطاقة لنستخدم مدفع الجسيمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen26Subtitle",
+  "text": "*إن استطعنا الاستيلاء على بعض محطات الطاقة فسنستخدم مدفع الجسيمات ضدهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen27Subtitle",
+  "text": "*آه... وجدنا بعض الغنائم المخبأة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen28Subtitle",
+  "text": "*هذا الممر محصّن جيدًا. يجب أن نستخدم مدفع الجسيمات لاختراقه"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen29Subtitle",
+  "text": "*احذر! هذا الممر شديد الحراسة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen30Subtitle",
+  "text": "*أنزلوا مشاة على الجزر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen31Subtitle",
+  "text": "*مروحياتهم تجلب التعزيزات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen32Subtitle",
+  "text": "*أطلقوا ضربة A10 علينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen33Subtitle",
+  "text": "*أنزلوا جنودًا بالمظلات على مدفع الجسيمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen34Subtitle",
+  "text": "*عطّلنا مناطق إسقاط إمداداتهم! سيُشلّ إنتاجهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen35Subtitle",
+  "text": "*مهمتك تدمير حاملة طائرات العدو بمدفع الجسيمات. عليك اختراق قاعدتهم على البر الرئيسي لتحصل على رؤية مباشرة للحاملة وتتمكن من تدميرها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen36Subtitle",
+  "text": "*عمل رائع! علينا الآن تأمين بعض محطات الطاقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen37Subtitle",
+  "text": "*ستوصلنا شبكة الأنفاق إلى الجزيرة التالية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen38Subtitle",
+  "text": "*مدفع الجسيمات يعمل الآن. يجب أن ندافع عنه وعن محطات الطاقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen39Subtitle",
+  "text": "*دُمّرت جميع وحداتنا ومبانينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen40Subtitle",
+  "text": "*من دون مدفع الجسيمات سيستحيل إغراق الحاملة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen41Subtitle",
+  "text": "*الآن سيذوق الأمريكيون مرارة الهزيمة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen42Subtitle",
+  "text": "*دمّروا شبكة أنفاقنا! استخدم الهجوم المباغت لاستعادة مدفع الجسيمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen43Subtitle",
+  "text": "*نقترب من حاملة الطائرات. إنها جنوب هذا المكان مباشرة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen44Subtitle",
+  "text": "*ها هي حاملة الطائرات! دمّرها بمدفع الجسيمات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen45Subtitle",
+  "text": "*جارمن كيل هنا في خدمتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen46Subtitle",
+  "text": "*قدرته على القنص تعطّل مركبات العدو، فيستطيع مشاتنا الاستيلاء عليها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen47Subtitle",
+  "text": "*هذه السفن الحربية الراسية غير مؤذية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen48Subtitle",
+  "text": "*السفينة الحربية تقصفنا! دمّرها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen49Subtitle",
+  "text": "*لا بد أن هذه قاعدة العدو الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen50Subtitle",
+  "text": "*ستخدع هذه المباني الوهمية أعداءنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA03xKen51Subtitle",
+  "text": "*ابنِ المزيد من المباني الوهمية لخداع العدو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04Dispatcher06Subtitle",
+  "text": "*القوات الأمريكية في طريقها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat01Subtitle",
+  "text": "*يجب أن نطهّر تلك المخابئ!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat02Subtitle",
+  "text": "*طاقتهم مقطوعة! لا صواريخ باتريوت نقلق منها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat03Subtitle",
+  "text": "*اهدموا الأسيجة وأنقذوا إخوتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat04Subtitle",
+  "text": "*الآن يمكن لإخوتنا أن يتحرروا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat05Subtitle",
+  "text": "*ستساعدنا شينوك أمريكية في نقل قواتنا. استولِ على مستودع الإمدادات هذا إن استطعت"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat06Subtitle",
+  "text": "*أحضر دفاعات جوية إلى هنا أيها الجنرال! الكومانش تمزقنا إربًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat07Subtitle",
+  "text": "*أيها الجنرال، يجب أن نجد طريقة لتدمير دفاعات هذا الجسر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat08Subtitle",
+  "text": "*أيها الجنرال، نستخدم هواتفنا المحمولة لطلب شبكة أنفاق مفاجئة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat09Subtitle",
+  "text": "*سنحتاج إلى هذه الجرارات إن أردنا تطهير أي مخابئ"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat10Subtitle",
+  "text": "*هذه العبّارة تحت سيطرتنا الآن! ستأخذنا حيث نريد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat11Subtitle",
+  "text": "*نعم، نعم. سأفعل ما تقولون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat12Subtitle",
+  "text": "*تحرّر إخوتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat13Subtitle",
+  "text": "*يا لكثرة السيارات الرياضية متعددة الأغراض في هذه البلاد الغريبة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat14Subtitle",
+  "text": "*لدينا متعاطف مع جيش التحرير العالمي في هذه المنطقة. وافق هو وإخوته على مساعدتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xChat15Subtitle",
+  "text": "*دبابات! اهربوا! هيا، هيا، هيا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin01Subtitle",
+  "text": "*هنا الفريق الأول. نحن في مواقعنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin02Subtitle",
+  "text": "*يا إخوتي، احذروا، فنحن نطأ أرض العدو. هدفنا الرئيسي الحصول على عينات كيميائية من منشأة السموم الأمريكية القريبة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin03Subtitle",
+  "text": "*انتقل ما تبقى من القوة البحرية الأمريكية إلى المتوسط ردًا على خسارة أسطول قيادتهم، وهذا سمح لنا بالتسلل"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin04Subtitle",
+  "text": "*هزمناهم هناك، وسننتصر هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin05Subtitle",
+  "text": "*افرحوا يا إخوتي! حين نحصل على السموم من هذه المنشأة سيتمكن علماؤنا من صنع سلاح للعدوى الشاملة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin06Subtitle",
+  "text": "*تدخّل الأمريكيون طويلًا. بهذا السلاح الجديد سنزرع الرعب في قلوب ظالمينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin07Subtitle",
+  "text": "*(ضحكة شريرة جدًا)"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin08Subtitle",
+  "text": "*أيها الفريق الأول، هل السموم مؤمّنة وعلى متن الطائرة؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin09Subtitle",
+  "text": "*العينات معنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin10Subtitle",
+  "text": "*نحن جاهزون للإقلاع"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin11Subtitle",
+  "text": "*تأكيد. الشحنة مؤمّنة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin12Subtitle",
+  "text": "*يمكنكم المتابعة. سندافع عن فراركم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin13Subtitle",
+  "text": "*أيها الجنرال، صواريخ باتريوت تعمل!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin14Subtitle",
+  "text": "*أوقفوهم حتى نُخلي مدرج الهبوط!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin15Subtitle",
+  "text": "*أبعدوهم عن ذيلنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin16Subtitle",
+  "text": "*ابتعدوا أيها الأمريكيون الأغبياء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin17Subtitle",
+  "text": "*سنلتقي مجددًا حين نصل إلى منشأة السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin18Subtitle",
+  "text": "*يظن الأمريكيون أنهم طردونا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin19Subtitle",
+  "text": "*فرّق تسد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin20Subtitle",
+  "text": "*لا حول لنا أمام هذه القوة الجوية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin21Subtitle",
+  "text": "*لم تروا آخر ما لدينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin22Subtitle",
+  "text": "*سننتقم منكم أيها الأمريكيون القذرون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin23Subtitle",
+  "text": "*لنقم بدورنا في إسقاط هؤلاء الخنازير الرأسماليين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin24Subtitle",
+  "text": "*سيدفع هؤلاء الأمريكيون ثمن أرواح إخوتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin25Subtitle",
+  "text": "*لنُشعل هؤلاء الدخلاء من جيش التحرير العالمي! فوكس 1!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin26Subtitle",
+  "text": "*رُصد جيش التحرير العالمي قبالة الساحل! جميع الوحدات إلى المواقع الدفاعية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin27Subtitle",
+  "text": "*تسلّل لجيش التحرير العالمي عند الإحداثيات 77 بيتا غاما! جميع الوحدات المتاحة تتحرك للرد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin28Subtitle",
+  "text": "*هناك المزيد منهم على الشاطئ!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin29Subtitle",
+  "text": "*رُصد متسللون من جيش التحرير العالمي على الحافة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xCin30Subtitle",
+  "text": "*جيش التحرير العالمي داخل حدود المدينة! جميع الوحدات تتجمع عند الإحداثيات 34 ألفا ألفا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen01Subtitle",
+  "text": "*عمل جيد أيها الجنرال! بقيت 15 عينة سموم فقط لاستعادتها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen02Subtitle",
+  "text": "*عمل جيد أيها الجنرال! بقيت 10 عينة سموم فقط لاستعادتها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen03Subtitle",
+  "text": "*عمل جيد أيها الجنرال! بقيت 5 عينة سموم فقط لاستعادتها"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen04Subtitle",
+  "text": "*أيها الجنرال، لدينا خطة لمهاجمة القيادة المركزية الأمريكية في أوروبا. لكننا لا نملك بعد القوة لضربهم مباشرة. نحتاج إلى سلاح سموم جديد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen05Subtitle",
+  "text": "*قوتانا في مواقعهما. يجب أن تتعاون المجموعتان إن أردنا استعادة السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen06Subtitle",
+  "text": "*يستطيع خاطفونا الاستيلاء على المركبات، وهم متخفون إلا حين يتحركون"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen07Subtitle",
+  "text": "*يستطيع جارمن كيل قنص السائقين من المركبات وقتل المشاة من مسافة بعيدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen08Subtitle",
+  "text": "*يستطيع مخرّبونا تنفيذ عدد من العمليات السرية مثل تعطيل محطات الطاقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen09Subtitle",
+  "text": "*متمردونا مموّهون، ويستطيعون الاستيلاء على المباني لخدمة قضيتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen10Subtitle",
+  "text": "*حظًا موفقًا أيها الجنرال. ليكن التخفي والدهاء معك في مسعاك"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen11Subtitle",
+  "text": "*صباح الخير أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen12Subtitle",
+  "text": "*أيها الجنرال، يجب أن نستولي على تلك العبّارة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen13Subtitle",
+  "text": "*أيها الجنرال، هناك ألغام هنا لكننا لا نستطيع رصدها! نحتاج إلى شاحنة رادار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen14Subtitle",
+  "text": "*أيها الجنرال، أدخل أحدًا إلى محطة الصمامات قرب النهر. تفريغ خزان التبريد سيسمح لإخوتنا بالتقدم أكثر"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen15Subtitle",
+  "text": "*ممتاز"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen16Subtitle",
+  "text": "*عمل جيد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen17Subtitle",
+  "text": "*أيها الجنرال! دمّر ذلك المطار قبل أن نُباد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen18Subtitle",
+  "text": "*أيها الجنرال، يجب أن ندمّر طاقتهم! عندها سيصبح الأمريكيون صيدًا سهلًا بالتأكيد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen19Subtitle",
+  "text": "*أيها الجنرال، يجب أن نستولي على منشأة السموم تلك"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen20Subtitle",
+  "text": "*عمل ممتاز أيها الجنرال. علينا الآن حماية هذه الشاحنات وهي تنقل السموم إلى طائرة الشحن"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen21Subtitle",
+  "text": "*استخدم الشاحنات لبدء جمع السموم من المنشأة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen22Subtitle",
+  "text": "*أيها الجنرال، أرسل الأمريكيون تعزيزات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen23Subtitle",
+  "text": "*وصلت خلية أخرى من الخاطفين لدعم قضيتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen24Subtitle",
+  "text": "*وصلت خلية أخرى من المتمردين لدعم قضيتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen25Subtitle",
+  "text": "*عُثر على جارمن كيل وعاد لمساعدة قضيتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen26Subtitle",
+  "text": "*اخترق إخوتنا الصفوف وأمدّونا بالتعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen27Subtitle",
+  "text": "*لن يتوقع الأمريكيون هجومًا على أرضهم بعد انتصارنا في اليونان"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen28Subtitle",
+  "text": "*ما كان قصّاد ليملك الشجاعة لمهاجمة الوطن الأمريكي"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA04xKen29Subtitle",
+  "text": "*حين نسرق العامل السام السري من المركز البيولوجي الأمريكي لن يوقفنا أحد"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy104Subtitle",
+  "text": "*احذروا منظومات باتريوت، إنها خطيرة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Buggy108Subtitle",
+  "text": "*إلى قبوركم أيها الحثالة الأمريكيون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar02bSubtitle",
+  "text": "*دمّر القاعدة الجوية الأمريكية وسيفقدون كثيرًا من قدرتهم على فرض قوتهم في هذه المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Kenwar05Subtitle",
+  "text": "*سيستخدم الأمريكيون قوتهم الجوية لإيقافنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Quad201Subtitle",
+  "text": "*مُت يا أمريكي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Rebel02Subtitle",
+  "text": "*نحن عاجزون أمام الهجمات الجوية الأمريكية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05Scorpion105Subtitle",
+  "text": "*أيها الجبناء الأمريكيون! قاتلوا على الأرض كالرجال!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xChat01Subtitle",
+  "text": "*هذه المنطقة تحت سيطرة جنرال سلاح الجو الأمريكي غرينجر. يمكننا استخدام القوة لإخراجكم من هذه المنطقة وسنستخدمها. أنتم مأمورون بالانسحاب فورًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin01Subtitle",
+  "text": "*قواتنا قليلة، لكن يمكننا استخدام ما لدينا لنخرج منتصرين"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin02Subtitle",
+  "text": "*بما أنه ليست لدينا قاعدة في هذه المنطقة فعلينا أخذ واحدة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xCin03Subtitle",
+  "text": "*القاعدة الصينية... يجب أن نضرب الآن! قاعدتهم ستصبح لنا قريبًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen01Subtitle",
+  "text": "*إن أنقذت رفاقنا من القاعدة الأمريكية الجنوبية فسيقاتل محاربو النخبة لدينا إلى جانبك!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen02Subtitle",
+  "text": "*شكرًا لإنقاذ إخوتنا! في المقابل سنفتح لك منطقة من القاعدة الأمريكية لتبدأ هجومك"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen03Subtitle",
+  "text": "*هه هه هه هه هه (ضحكة شريرة) هذا سيعلّمهم الدرس"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen04Subtitle",
+  "text": "*لا تدع موتنا يمر دون عقاب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen05Subtitle",
+  "text": "*معًا هزمنا العدو! النصر لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xJarmen06Subtitle",
+  "text": "*شكرًا لمساعدتك في إنقاذ جنودي. سنرد الجميل ونساعدك على تدمير قاعدة القيادة المركزية الأمريكية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen01Subtitle",
+  "text": "*حين تُدمَّر هذه القاعدة سيهرب الأمريكيون إلى ديارهم كالكلاب الجبانة. وستصبح أوروبا كلها لنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen02Subtitle",
+  "text": "*يحتجز الأمريكيون إخوتنا رهائن في قاعدتهم. يجب أن ننقذهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen03Subtitle",
+  "text": "*من مصلحتنا إنقاذ الأسرى من براثن الأمريكيين"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen04Subtitle",
+  "text": "*عمل جيد! استولِ على هذه القاعدة أو دمّرها لضمان سلامة الأسرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen05Subtitle",
+  "text": "*يجب أن ننقلهم بأمان إلى ديارهم في قاعدتهم بالشمال. يجب ألا يصيبهم أي أذى"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen06Subtitle",
+  "text": "*إمداداتنا تنفد. يجب أن ننتشر ونستولي على موارد جديدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen07Subtitle",
+  "text": "*مزيد من الهجمات الجوية! يجب أن نبني مزيدًا من الدفاعات الجوية"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen08Subtitle",
+  "text": "*أعد بناء دفاعاتنا بسرعة، لم يبقَ وقت طويل قبل الهجوم التالي"
+ }
+]

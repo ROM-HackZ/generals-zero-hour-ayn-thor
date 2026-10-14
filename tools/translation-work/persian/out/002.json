@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:ChooseLadder",
+  "text": "یک رده‌بندی انتخاب کنید"
+ },
+ {
+  "label": "GUI:UnknownLadder",
+  "text": "رده‌بندی نامشخص"
+ },
+ {
+  "label": "GUI:WOLLogin",
+  "text": "ورود به GENERALS ONLINE"
+ },
+ {
+  "label": "GUI:PleaseEnterWOLInfo",
+  "text": "لطفاً اطلاعات را وارد کنید"
+ },
+ {
+  "label": "GUI:Username",
+  "text": "نام مستعار"
+ },
+ {
+  "label": "GUI:Server",
+  "text": "سرور"
+ },
+ {
+  "label": "GUI:RememberPassword",
+  "text": "گذرواژه‌ام را به خاطر بسپار"
+ },
+ {
+  "label": "GUI:CreateAccount",
+  "text": "ساخت حساب"
+ },
+ {
+  "label": "GUI:TryAgain",
+  "text": "دوباره تلاش کنید"
+ },
+ {
+  "label": "GUI:NetworkOptions",
+  "text": "گزینه‌های شبکه"
+ },
+ {
+  "label": "GUI:GammaAdjustment",
+  "text": "روشنایی"
+ },
+ {
+  "label": "GUI:HelpDescription",
+  "text": "نمایش پنجره راهنما"
+ },
+ {
+  "label": "GUI:ReturnToGame",
+  "text": "بازگشت به بازی"
+ },
+ {
+  "label": "GUI:NewGame",
+  "text": "بازی جدید"
+ },
+ {
+  "label": "GUI:RestartGame",
+  "text": "شروع دوباره بازی"
+ },
+ {
+  "label": "GUI:MatchingProgress",
+  "text": "پیشرفت مسابقه سریع"
+ },
+ {
+  "label": "GUI:Player'sName",
+  "text": "نام حریف"
+ },
+ {
+  "label": "GUI:AllTimeWins",
+  "text": "کل بردها"
+ },
+ {
+  "label": "GUI:AllTimeLosses",
+  "text": "کل باخت‌ها"
+ },
+ {
+  "label": "GUI:AllTimePoints",
+  "text": "کل امتیاز رتبه"
+ },
+ {
+  "label": "GUI:AllTimeDisconnects",
+  "text": "کل قطع اتصال‌ها"
+ },
+ {
+  "label": "GUI:HighestRank",
+  "text": "بالاترین رتبه تاکنون"
+ },
+ {
+  "label": "GUI:Honor",
+  "text": "نشان‌های نبرد"
+ },
+ {
+  "label": "GUI:LastUpdated",
+  "text": "آخرین به‌روزرسانی نمایه بازیکن"
+ },
+ {
+  "label": "GUI:WOLIconKey",
+  "text": "راهنمای نمادها"
+ },
+ {
+  "label": "GUI:MyInfo",
+  "text": "هویت من"
+ },
+ {
+  "label": "GUI:Buddies",
+  "text": "ارتباط‌گر"
+ },
+ {
+  "label": "GUI:Community",
+  "text": "درصد برد روزانه ارتش‌ها"
+ },
+ {
+  "label": "GUI:SortAlpha",
+  "text": "نام"
+ },
+ {
+  "label": "GUI:SortPing",
+  "text": "اتصال"
+ },
+ {
+  "label": "GUI:SortBuddies",
+  "text": "دوستان"
+ },
+ {
+  "label": "GUI:GSRank0",
+  "text": "سرباز"
+ },
+ {
+  "label": "GUI:GSRank1",
+  "text": "سرجوخه"
+ },
+ {
+  "label": "GUI:GSRank2",
+  "text": "گروهبان"
+ },
+ {
+  "label": "GUI:GSRank3",
+  "text": "ستوان"
+ },
+ {
+  "label": "GUI:GSRank4",
+  "text": "سروان"
+ },
+ {
+  "label": "GUI:GSRank5",
+  "text": "سرگرد"
+ },
+ {
+  "label": "GUI:GSRank6",
+  "text": "سرهنگ"
+ },
+ {
+  "label": "GUI:GSRank7",
+  "text": "سرتیپ"
+ },
+ {
+  "label": "GUI:GSRank8",
+  "text": "ژنرال"
+ },
+ {
+  "label": "GUI:GSRank9",
+  "text": "فرمانده کل"
+ },
+ {
+  "label": "GUI:GSErrorTitle",
+  "text": "اطلاعیه"
+ },
+ {
+  "label": "GUI:GSDisconnected",
+  "text": "اتصال شما به سرور گفتگو قطع شد"
+ },
+ {
+  "label": "GUI:GSDisconReason1",
+  "text": "این نام مستعار قبلاً گرفته شده است. لطفاً نام دیگری انتخاب کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason2",
+  "text": "این نام مستعار نامعتبر است. لطفاً نام دیگری انتخاب کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason3",
+  "text": "اتصال به C&C Generals Zero Hour Online قطع شد"
+ },
+ {
+  "label": "GUI:GSDisconReason4",
+  "text": "اتصال به C&C Generals Zero Hour Online ممکن نشد"
+ },
+ {
+  "label": "GUI:GSDisconReason5",
+  "text": "زمان ورود به پایان رسید. لطفاً اتصال اینترنت خود را بررسی کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason6",
+  "text": "این ترکیب نام مستعار و ایمیل وجود ندارد. اگر می‌خواهید حساب بسازید، روی ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason7",
+  "text": "این ایمیل نامعتبر است"
+ },
+ {
+  "label": "GUI:GSDisconReason8",
+  "text": "گذرواژه نادرست است. لطفاً دوباره تلاش کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason9",
+  "text": "نمایه نامعتبر"
+ },
+ {
+  "label": "GUI:GSDisconReason10",
+  "text": "نمایه حذف شده است"
+ },
+ {
+  "label": "GUI:GSDisconReason11",
+  "text": "اتصال به سرور دوستان رد شد"
+ },
+ {
+  "label": "GUI:GSDisconReason12",
+  "text": "احراز هویت سرور دوستان ناموفق بود"
+ },
+ {
+  "label": "GUI:GSDisconReason13",
+  "text": "شماره سریال نامعتبر است. لطفاً شماره دیگری امتحان کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason14",
+  "text": "رجیستری خراب است و تغییر کرده است"
+ },
+ {
+  "label": "GUI:GSDisconReason15",
+  "text": "شماره سریال مسدود شده است"
+ },
+ {
+  "label": "GUI:GSGroupRoomJoinFail",
+  "text": "پیوستن به اتاق گفتگو ناموفق بود"
+ },
+ {
+  "label": "GUI:JoinFailedRoomFull",
+  "text": "پیوستن ناموفق - اتاق پر است"
+ },
+ {
+  "label": "GUI:JoinFailedInviteOnly",
+  "text": "پیوستن ناموفق - اتاق فقط با دعوت است"
+ },
+ {
+  "label": "GUI:JoinFailedBannedFromRoom",
+  "text": "پیوستن ناموفق - شما از اتاق محروم شده‌اید"
+ },
+ {
+  "label": "GUI:JoinFailedBadPassword",
+  "text": "پیوستن ناموفق - گذرواژه نادرست"
+ },
+ {
+  "label": "GUI:JoinFailedAlreadyInRoom",
+  "text": "پیوستن ناموفق - شما در حال حاضر در اتاقی هستید"
+ },
+ {
+  "label": "GUI:JoinFailedNoConnection",
+  "text": "پیوستن ناموفق - اتصالی به سرور گفتگو نیست"
+ },
+ {
+  "label": "GUI:JoinFailedCRCMismatch",
+  "text": "پیوستن ناموفق - نسخه بازی متفاوت است"
+ },
+ {
+  "label": "GUI:JoinFailedUnknownLadder",
+  "text": "پیوستن ناموفق - بازی از رده‌بندی نامشخصی استفاده می‌کند"
+ },
+ {
+  "label": "GUI:JoinFailedDefault",
+  "text": "پیوستن به اتاق ناموفق بود"
+ },
+ {
+  "label": "GUI:GSKicked",
+  "text": "از اتاق اخراج شدید"
+ },
+ {
+  "label": "GUI:NATNegotiationFailed",
+  "text": "اتصال به بازیکن(های) دیگر ممکن نیست"
+ },
+ {
+  "label": "GUI:GPErrorTitle",
+  "text": "خطای دوستان"
+ },
+ {
+  "label": "GUI:GPDisconnected",
+  "text": "اتصال شما به سرور دوستان قطع شد. می‌خواهید دوباره وصل شوید؟"
+ },
+ {
+  "label": "GUI:GPNoProfile",
+  "text": "با نمایه وارد نشده‌اید. اطلاعات دوستان در دسترس نیست"
+ },
+ {
+  "label": "GUI:PSErrorTitle",
+  "text": "خطای حافظه دائمی"
+ },
+ {
+  "label": "GUI:PSCannotConnect",
+  "text": "اتصال به سرور حافظه دائمی ممکن نشد"
+ },
+ {
+  "label": "Buddy:Offline",
+  "text": "آفلاین"
+ },
+ {
+  "label": "Buddy:Online",
+  "text": "آنلاین"
+ },
+ {
+  "label": "Buddy:Chatting",
+  "text": "در حال گفتگو در %ls"
+ },
+ {
+  "label": "Buddy:Staging",
+  "text": "در حال آماده‌سازی در %ls"
+ },
+ {
+  "label": "Buddy:Loading",
+  "text": "در حال بارگذاری در %ls"
+ },
+ {
+  "label": "Buddy:Playing",
+  "text": "در حال بازی در %ls"
+ },
+ {
+  "label": "Buddy:Matching",
+  "text": "در مسابقه سریع"
+ },
+ {
+  "label": "Buddy:OnlineNotification",
+  "text": "%hs اکنون آنلاین است"
+ },
+ {
+  "label": "Buddy:OfflineNotification",
+  "text": "%hs اکنون آفلاین است"
+ },
+ {
+  "label": "Buddy:AddNotification",
+  "text": "درخواست دوستی از %hs"
+ },
+ {
+  "label": "Buddy:MessageNotification",
+  "text": "%hs می‌گوید:\n'%s...'"
+ },
+ {
+  "label": "GUI:Com/Tac",
+  "text": "Com/Tac"
+ },
+ {
+  "label": "GUI:MoneySymbol",
+  "text": "$"
+ },
+ {
+  "label": "GUI:$$$",
+  "text": "$$$"
+ },
+ {
+  "label": "GUI:OverchargeExhausted",
+  "text": "اضافه‌بار تمام شد"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToBuild",
+  "text": "پول کافی برای ساختن آن ندارید"
+ },
+ {
+  "label": "GUI:NotEnoughMoneyToUpgrade",
+  "text": "پول کافی برای ارتقا ندارید"
+ },
+ {
+  "label": "GUI:Level",
+  "text": "سطح"
+ },
+ {
+  "label": "GUI:Tac",
+  "text": "تاکتیکی"
+ },
+ {
+  "label": "GUI:Strat",
+  "text": "راهبردی"
+ },
+ {
+  "label": "GUI:Struct",
+  "text": "سازه"
+ },
+ {
+  "label": "GUI:Waypt",
+  "text": "نقطه مسیر"
+ },
+ {
+  "label": "GUI:WOLStatus",
+  "text": "وضعیت C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "GUI:AIDifficulty",
+  "text": "سختی رایانه"
+ },
+ {
+  "label": "GUI:EasyAI",
+  "text": "ارتش آسان"
+ },
+ {
+  "label": "GUI:MediumAI",
+  "text": "ارتش متوسط"
+ },
+ {
+  "label": "GUI:HardAI",
+  "text": "ارتش سخت"
+ },
+ {
+  "label": "GUI:Hide",
+  "text": "بازگشت"
+ },
+ {
+  "label": "GUI:Pause",
+  "text": "مکث"
+ },
+ {
+  "label": "GUI:NextFrame",
+  "text": "فریم بعدی"
+ },
+ {
+  "label": "GUI:ReplayMenu",
+  "text": "بارگذاری"
+ },
+ {
+  "label": "GUI:AntiAliasing",
+  "text": "ضدنیش‌دار شدن"
+ },
+ {
+  "label": "GUI:ScreenCapture",
+  "text": "تصویر صفحه در '%s' ذخیره شد"
+ },
+ {
+  "label": "GUI:ScreenshotCapture",
+  "text": "تصویر صفحه"
+ },
+ {
+  "label": "GUI:ScreenshotCaptureDescription",
+  "text": "گرفتن عکس از صفحه بازی"
+ },
+ {
+  "label": "GUI:Null",
+  "text": "."
+ },
+ {
+  "label": "GUI:CRCMismatch",
+  "text": "بازی عدم تطابق تشخیص داده است. یعنی بازی چندنفره داده‌های همگام‌سازی میان بازیکنان را از دست داده است"
+ },
+ {
+  "label": "GUI:CurrentHotkey",
+  "text": "کلید میانبر فعلی"
+ },
+ {
+  "label": "GUI:AssignNewHotkey",
+  "text": "تخصیص کلید میانبر جدید"
+ },
+ {
+  "label": "GUI:CurrentlyAssignedTo",
+  "text": "اکنون اختصاص‌یافته به"
+ },
+ {
+  "label": "GUI:Reset",
+  "text": "بازنشانی"
+ },
+ {
+  "label": "QM:JOININGQMCHANNEL",
+  "text": "در حال پیوستن به مسابقه سریع..."
+ },
+ {
+  "label": "QM:WORKING",
+  "text": "اکنون %d بازیکن در تلاش برای جفت‌یابی هستند..."
+ },
+ {
+  "label": "QM:POOLSIZE",
+  "text": "اکنون %d بازیکن در تلاش برای جفت‌یابی هستند..."
+ },
+ {
+  "label": "QM:LOOKINGFORBOT",
+  "text": "در حال جستجوی جفت‌یاب C&C Generals Zero Hour Online..."
+ },
+ {
+  "label": "QM:SENTINFO",
+  "text": "اطلاعات بازی ارسال شد..."
+ },
+ {
+  "label": "QM:WIDENINGSEARCH",
+  "text": "در حال گسترش جستجو برای حریفانی نزدیک‌تر به ترجیحات شما..."
+ },
+ {
+  "label": "QM:MATCHED",
+  "text": "عالی، یک مسابقه پیدا شد..."
+ },
+ {
+  "label": "QM:INCHANNEL",
+  "text": "در کانال..."
+ },
+ {
+  "label": "QM:NEGOTIATINGFIREWALLS",
+  "text": "در حال مذاکره با دیوارهای آتش..."
+ },
+ {
+  "label": "QM:STARTINGGAME",
+  "text": "در حال شروع بازی..."
+ },
+ {
+  "label": "QM:COULDNOTFINDBOT",
+  "text": "جفت‌یاب پیدا نشد"
+ },
+ {
+  "label": "QM:COULDNOTFINDCHANNEL",
+  "text": "کانال مسابقه سریع پیدا نشد"
+ },
+ {
+  "label": "QM:COULDNOTNEGOTIATEFIREWALLS",
+  "text": "مذاکره با دیوارهای آتش ممکن نشد"
+ },
+ {
+  "label": "QM:STOPPED",
+  "text": "مسابقه سریع لغو شد"
+ },
+ {
+  "label": "QM:WaitingForPlayerToJoin",
+  "text": "در انتظار پیوستن حریف"
+ },
+ {
+  "label": "QM:FindingGameChannel",
+  "text": "در حال یافتن بازی حریف"
+ },
+ {
+  "label": "QM:JoinedGameChannel",
+  "text": "به بازی حریف پیوستید"
+ },
+ {
+  "label": "QM:PlayerJoined",
+  "text": "حریف پیوست"
+ },
+ {
+  "label": "QM:LookingForMatchChannel",
+  "text": "در حال جستجوی کانال مسابقه سریع"
+ },
+ {
+  "label": "QM:NoMatchChannel",
+  "text": "کانال مسابقه سریع پیدا نشد"
+ },
+ {
+  "label": "QM:JoinedMatchChannel",
+  "text": "به کانال مسابقه سریع پیوستید"
+ },
+ {
+  "label": "QM:NoMatchingBot",
+  "text": "جفت‌یاب پیدا نشد"
+ },
+ {
+  "label": "QM:GameNotFound",
+  "text": "مسابقه سریع بازی حریف شما را پیدا نکرد"
+ },
+ {
+  "label": "QM:TimeoutOtherPlayer",
+  "text": "زمان انتظار مسابقه سریع برای پیوستن حریف به پایان رسید"
+ },
+ {
+  "label": "Version:Format4",
+  "text": "%d.%02d.%d Build %d %c%c"
+ },
+ {
+  "label": "Version:Format3",
+  "text": "نسخه %d.%02d.%d"
+ },
+ {
+  "label": "Version:Format2",
+  "text": "نسخه %d.%02d"
+ },
+ {
+  "label": "Version:BuildTime",
+  "text": "%ls %ls"
+ },
+ {
+  "label": "Version:BuildMachine",
+  "text": "دستگاه ساخت: %ls"
+ },
+ {
+  "label": "Version:BuildUser",
+  "text": "توسط %ls"
+ },
+ {
+  "label": "GUI:SuperweaponDaisyCutter",
+  "text": "بمب سوخت-هوا"
+ },
+ {
+  "label": "GUI:SuperweaponParadropAmerica",
+  "text": "فرود چتری"
+ },
+ {
+  "label": "GUI:SuperweaponClusterMines",
+  "text": "مین‌های خوشه‌ای"
+ },
+ {
+  "label": "GUI:SuperweaponEMPPulse",
+  "text": "پالس EMP"
+ },
+ {
+  "label": "GUI:SuperweaponA10ThunderboltMissileStrike",
+  "text": "حمله موشکی A10"
+ },
+ {
+  "label": "GUI:SuperweaponCrateDrop",
+  "text": "پرتاب جعبه"
+ },
+ {
+  "label": "GUI:SuperweaponCarpetBomb",
+  "text": "بمباران فرشی"
+ },
+ {
+  "label": "GUI:SuperweaponNapalmStrike",
+  "text": "حمله ناپالم"
+ },
+ {
+  "label": "GUI:SuperweaponCashHack",
+  "text": "هک پول"
+ },
+ {
+  "label": "GUI:SuperweaponNeutronMissile",
+  "text": "موشک هسته‌ای"
+ },
+ {
+  "label": "GUI:SuperweaponScudStorm",
+  "text": "طوفان اسکاد"
+ },
+ {
+  "label": "GUI:SuperweaponTerrorCell",
+  "text": "هسته تروریستی"
+ },
+ {
+  "label": "GUI:SuperweaponRebelAmbush",
+  "text": "کمین"
+ },
+ {
+  "label": "GUI:SuperweaponBlackMarketNuke",
+  "text": "بمب هسته‌ای بازار سیاه"
+ },
+ {
+  "label": "GUI:SuperweaponAnthraxBomb",
+  "text": "بمب سیاه‌زخم"
+ },
+ {
+  "label": "GUI:SuperweaponDemoralize",
+  "text": "تضعیف روحیه"
+ },
+ {
+  "label": "GUI:SpecialAbilityGuidedMissiles",
+  "text": "موشک هدایت‌شونده لیزری"
+ },
+ {
+  "label": "GUI:SpecialAbilityDetonateCharges",
+  "text": "انفجار خرج‌ها"
+ },
+ {
+  "label": "GUI:SuperweaponParticleUplinkCannon",
+  "text": "توپ ذره‌ای"
+ },
+ {
+  "label": "GUI:PatchAvailable",
+  "text": "به‌روزرسانی موجود است"
+ },
+ {
+  "label": "GUI:MustPatchForOnline",
+  "text": "برای بازی در C&C Generals Zero Hour Online باید به‌روزرسانی را دانلود کنید"
+ },
+ {
+  "label": "GUI:CanPatchForOnline",
+  "text": "می‌خواهید به‌روزرسانی را دانلود کنید؟"
+ },
+ {
+  "label": "GUI:CheckingForPatches",
+  "text": "در حال بررسی به‌روزرسانی‌ها"
+ },
+ {
+  "label": "GUI:DownloadErrorTitle",
+  "text": "خطای دانلود"
+ },
+ {
+  "label": "GUI:DownloadSuccessTitle",
+  "text": "دانلود موفق"
+ },
+ {
+  "label": "GUI:DownloadSuccess",
+  "text": "دانلود بدون خطا کامل شد"
+ },
+ {
+  "label": "GUI:DownloadSuccessMustQuit",
+  "text": "برای خروج از Command & Conquer Generals Zero Hour و اعمال به‌روزرسانی روی تأیید کلیک کنید"
+ },
+ {
+  "label": "GUI:DownloadBytesRatio",
+  "text": "%d / %d بایت"
+ },
+ {
+  "label": "GUI:DownloadTimeLeft",
+  "text": "%d:%02d:%02d باقی مانده"
+ },
+ {
+  "label": "GUI:DownloadUnknownTime",
+  "text": "???"
+ },
+ {
+  "label": "FTP:StatusIdle",
+  "text": "بیکار"
+ },
+ {
+  "label": "FTP:UnknownError",
+  "text": "خطای نامشخص"
+ },
+ {
+  "label": "FTP:NoSuchServer",
+  "text": "چنین سروری وجود ندارد"
+ },
+ {
+  "label": "FTP:CouldNotConnect",
+  "text": "اتصال ممکن نشد"
+ },
+ {
+  "label": "FTP:LoginFailed",
+  "text": "ورود ناموفق بود"
+ },
+ {
+  "label": "FTP:NoSuchFile",
+  "text": "چنین فایلی وجود ندارد"
+ },
+ {
+  "label": "FTP:LocalFileOpenFailed",
+  "text": "باز کردن فایل محلی ناموفق بود"
+ },
+ {
+  "label": "FTP:TCPError",
+  "text": "خطای TCP"
+ },
+ {
+  "label": "FTP:DisconnectError",
+  "text": "خطای قطع اتصال"
+ },
+ {
+  "label": "FTP:StatusConnecting",
+  "text": "در حال اتصال"
+ },
+ {
+  "label": "FTP:StatusLoggingIn",
+  "text": "در حال ورود"
+ },
+ {
+  "label": "FTP:StatusFindingFile",
+  "text": "در حال یافتن فایل"
+ },
+ {
+  "label": "FTP:StatusQueryingResume",
+  "text": "در حال پرسش برای ادامه دانلود"
+ },
+ {
+  "label": "FTP:StatusDownloading",
+  "text": "در حال دانلود"
+ },
+ {
+  "label": "FTP:StatusDisconnecting",
+  "text": "در حال قطع اتصال"
+ },
+ {
+  "label": "FTP:StatusFinishing",
+  "text": "در حال پایان"
+ },
+ {
+  "label": "FTP:StatusDone",
+  "text": "انجام شد"
+ },
+ {
+  "label": "FTP:StatusNone",
+  "text": "هیچ"
+ },
+ {
+  "label": "WOL:InternalError",
+  "text": "خطای داخلی C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "WOL:ServerBan",
+  "text": "متأسفیم، شما از C&C Generals Zero Hour Online محروم شده‌اید. لطفاً شرایط خدمات را مرور کنید"
+ },
+ {
+  "label": "WOL:DisconnectedError",
+  "text": "متأسفیم، شما از C&C Generals Zero Hour Online محروم شده‌اید. لطفاً شرایط خدمات را مرور کنید"
+ },
+ {
+  "label": "WOL:NoServers",
+  "text": "C&C Generals Zero Hour Online پیدا نشد"
+ },
+ {
+  "label": "WOL:LoginTimeout",
+  "text": "زمان انتظار برای پیوستن به C&C Generals Zero Hour Online به پایان رسید"
+ },
+ {
+  "label": "WOL:NoMatchChannel",
+  "text": "کانال مسابقه‌ای پیدا نشد"
+ }
+]

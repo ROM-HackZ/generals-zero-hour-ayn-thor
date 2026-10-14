@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaInfantryHacker",
+  "text": "超级黑客(&A)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildHacker",
+  "text": "隐形。可用电脑病毒瘫痪敌方建筑和载具，或入侵互联网窃取资金\n\n强于：建筑\n弱于：步兵、载具"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus",
+  "text": "超级莲花(&S)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost",
+  "text": "攻击前哨站(&O)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler",
+  "text": "突击运兵车(&A)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleHelix",
+  "text": "突击赫利克斯(&X)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildHelix",
+  "text": "重型突击运输机\n可升级基地防御建筑和凝固汽油弹\n\n强于：坦克、轻型载具\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "OBJECT:Infa_Helix",
+  "text": "突击赫利克斯"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaScienceInfantryParadrop",
+  "text": "从空中空投机枪兵\n\n等级 1：5 名机枪兵\n等级 2：10 名机枪兵\n等级 3：15 名机枪兵\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeSuicideBomb",
+  "text": "爆破能力(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeSuicideBomb",
+  "text": "使所有单位\n和基地防御都能使用\n爆破能力"
+ },
+ {
+  "label": "OBJECT:MiniGunner",
+  "text": "机枪兵"
+ },
+ {
+  "label": "OBJECT:AirF_Chinook",
+  "text": "战斗支奴干"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ConstructAmericaVehicleChinook",
+  "text": "战斗支奴干(&T)"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABUildChinook",
+  "text": "突击运输直升机。收集物资。与游骑兵配合执行空降突击"
+ },
+ {
+  "label": "CONTROLBAR:SuicideAttack",
+  "text": "自杀(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASuicideAttack",
+  "text": "引爆"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks",
+  "text": "皇帝坦克和战斗大师速度 +25%"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipUSABuildPowerPlant",
+  "text": "为基地提供电力\n\n提供电力：5"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildListeningOutpost",
+  "text": "突击运输载具。可探测隐形单位\n\n强于：步兵、建筑\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ConstructChinaVehicleListeningOutpost",
+  "text": "突击监听站(&S)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildTroopCrawler",
+  "text": "突击运输载具。附带 8 名机枪兵。可探测隐形单位\n\n强于：步兵、建筑\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildListeningOutpost",
+  "text": "运输载具。可容纳 8 名步兵。可探测隐形单位\n\n强于：步兵、建筑\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaBunker",
+  "text": "强化碉堡(&K)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildBunker",
+  "text": "可容纳 10 名中国士兵\n附带雷区升级"
+ },
+ {
+  "label": "OBJECT:Infa_Bunker",
+  "text": "强化碉堡"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSneakAttack",
+  "text": "部队可以在地图任意位置建造地道\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLAInfantryRebel",
+  "text": "毒素叛军(&B)"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildRebel",
+  "text": "喷射毒素流\n强于：步兵\n弱于：坦克、轻型载具"
+ },
+ {
+  "label": "OBJECT:Chem_Rebel",
+  "text": "毒素叛军"
+ },
+ {
+  "label": "OBJECT:Chem_Terrorist",
+  "text": "毒素恐怖分子"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLAInfantryTerrorist",
+  "text": "毒素恐怖分子(&T)"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildTerrorist",
+  "text": "自杀式士兵在一团毒雾中爆炸"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLATunnelNetwork",
+  "text": "毒素地道网(&N)"
+ },
+ {
+  "label": "OBJECT:Chem_TunnelNetwork",
+  "text": "毒素地道网"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildTunnelNetwork",
+  "text": "基地防御和地下隧道。喷射毒素流。单位可以进入地道网，并从任意其他地道网出口离开"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeStealthComanche",
+  "text": "隐形升级(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAirFUpgradeComancheStealth",
+  "text": "科曼奇变为隐形"
+ },
+ {
+  "label": "OBJECT:Entrance",
+  "text": "入口"
+ },
+ {
+  "label": "CONTROLBAR:Boss_TooltipChinaUpgradeNationalism",
+  "text": "坦克猎人的集群加成 +25%"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildPowerPlant",
+  "text": "为美国基地提供电力\n\n提供电力：8"
+ },
+ {
+  "label": "GUI:DoubleClickAttackMove",
+  "text": "双击警戒"
+ },
+ {
+  "label": "TOOLTIP:DoubleClickAttackMove",
+  "text": "双击行动按钮时，玩家单位会移动并警戒目的地区域"
+ },
+ {
+  "label": "DIALOGEVENT:01_AllCheerSoundSubtitle",
+  "text": "<欢呼>"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery",
+  "text": "对地和对空防御。可将敌人位置传递给附近的炮塔\n\n所需电力：5"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ConstructAmericaPatriotBattery",
+  "text": "激光防御炮塔(&T)"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ConstructAmericaTankCrusader",
+  "text": "激光坦克(&T)"
+ },
+ {
+  "label": "OBJECT:Lazr_Tank",
+  "text": "激光坦克"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildCrusader",
+  "text": "强于：载具、建筑\n弱于：飞机、携带导弹的步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildEmperor",
+  "text": "强于：载具、建筑\n弱于：火箭、飞机"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSAScienceSpectreGunship",
+  "text": "幽灵炮艇在战场上空盘旋，用榴弹炮和加特林机炮猛轰敌军\n\n等级 1：10 秒\n等级 2：15 秒\n等级 3：30 秒\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "OBJECT:ValveStation",
+  "text": "阀门站"
+ },
+ {
+  "label": "HELP:Hijacker-01",
+  "text": "提示：\n让劫车犯进入敌方载具即可偷走它"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint08",
+  "text": "提示：\n建造火力基地来帮助保护你的基地"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint09",
+  "text": "收到通讯：\n找到 CIA 特工"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint10",
+  "text": "提示：\n在油田中建造防御以保护油井"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint11",
+  "text": "收到通讯：\nGLA 广播电台已被摧毁"
+ },
+ {
+  "label": "MAP:MD-USA06Warning17",
+  "text": "警告：\n萨拉克斯博士惯用偷袭\n地道网来出其不意地攻击敌人"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_1",
+  "text": "\n对中国基地的进攻现在开始\n他们的基地很快就是我们的了"
+ },
+ {
+  "label": "MAP:MD_CHI03-Title-01",
+  "text": "德国，科堡\n‘解放’"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-01",
+  "text": "任务目标：\n摧毁 GLA 雕像以解放城市\n在成功之前，我们的国际舆论会不断下降"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-02",
+  "text": "收到通讯：\n如果我们的国际舆论降到 0，我们就会失败"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-03",
+  "text": "收到通讯：\n摧毁 GLA 雕像以提高我们的国际舆论"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-10",
+  "text": "收到通讯：\n我们解放了这座城市\n现在消灭河北岸的 GLA 基地"
+ },
+ {
+  "label": "MAP:MD_CHI03-Event-Built-SpeakerTower-01",
+  "text": "收到通讯：\n这座喇叭塔能提高我们的国际舆论"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaUraniumShells",
+  "text": "战斗大师和皇帝坦克的炮弹伤害 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBuggyAmmo",
+  "text": "火箭车弹药 +100%"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLAUpgradeAPBullets",
+  "text": "发射子弹的单位伤害 +25%"
+ },
+ {
+  "label": "GUI:BioFeatures_USA",
+  "text": "MOAB\n反制措施\n钻地导弹\n地狱火无人机\n幽灵炮艇\n哨兵无人机\n微波坦克\n复仇者\n火力基地"
+ },
+ {
+  "label": "GUI:BioFeatures_GLA",
+  "text": "偷袭\nGPS 干扰器\n破坏者\n诡雷\n伪装网\n伪建筑\n强化建筑\n战斗摩托\n战斗巴士"
+ },
+ {
+  "label": "GUI:BioFeatures_China",
+  "text": "赫利克斯\n监听站\n中子地雷\n狂热\n网络中心\n地毯式轰炸机\nECM 坦克\n"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos0",
+  "text": "猛禽之王\n战斗支奴干\n激光点防御\n隐形科曼奇升级\n飞机造价降低\n低军衔即可使用幽灵炮艇\n开局拥有隐形战机\n没有坦克"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos1",
+  "text": "毒素叛军\n毒素地道网\n毒素恐怖分子\n炭疽 Gamma\n坦克开局即装备毒素炮弹\n毒素初始即为炭疽 Beta"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos2",
+  "text": "坦克开局即装备铀弹\n战术核弹米格\n同位素稳定升级\n高级核反应堆\n核弹轰炸机\n开局拥有核弹炮"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos3",
+  "text": "极光阿尔法\nEMP 爱国者系统\n高级控制棒\n粒子加农炮造价降低\n载具造价提高\n没有坦克"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos4",
+  "text": "皇帝坦克\n坦克空投\n所有坦克出厂即为老兵\n坦克造价降低\n飞机造价提高\n没有核弹炮和地狱火炮"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos5",
+  "text": "激光坦克\n激光防御炮塔\n复仇者造价降低\n高级冷核聚变反应堆\n没有战斧导弹发射车"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos6",
+  "text": "所有建筑都可加装伪装网\n伪装叛军\n防御建筑开局即有伪装网\n开局拥有劫车犯\n劫车犯始终隐身\n更早获得 GPS 干扰器\n可更频繁地使用 GPS 干扰"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos7",
+  "text": "突击运兵车\n突击赫利克斯\n攻击前哨站\n强化碉堡\n机枪兵\n黑莲花入侵更快\n黑客入侵更快\n机枪兵空降\n所有步兵出厂即为老兵"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos8",
+  "text": "高级爆破陷阱\n自杀炸弹升级\n恐怖分子伤害更高\n开局拥有诡雷\n战斗摩托初始搭载恐怖分子\n没有伪装单位\n炸弹卡车造价降低"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos9",
+  "text": "精锐中的精锐\n所有英雄\n所有超级武器\n多样的将军技能\n兵种来自所有阵营\n高级防御\n"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos10",
+  "text": "未实现"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos11",
+  "text": "未实现"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_AirTrafficControl01Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth107Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth105Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth106Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "GUI:GroupRoom14",
+  "text": "仅限原版阵营"
+ },
+ {
+  "label": "OBJECT:MissileSilo",
+  "text": "导弹发射井"
+ },
+ {
+  "label": "OBJECT:ScudLauncherHiDef",
+  "text": "飞毛腿发射车"
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainParticleBones",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainScrollingSnow",
+  "text": "雪"
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainStatic",
+  "text": "山"
+ },
+ {
+  "label": "OBJECT:CINE_TreeBirds",
+  "text": "鸟群"
+ },
+ {
+  "label": "TOOLTIP:NoUserMaps",
+  "text": "记录统计的游戏中不允许使用非官方地图"
+ },
+ {
+  "label": "GUI:FireWallPort",
+  "text": "防火墙端口覆盖："
+ },
+ {
+  "label": "TOOLTIP:FireWallPort",
+  "text": "开放防火墙端口号"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaOverlordGattlingCannon",
+  "text": "在这辆皇帝坦克上建造加特林机炮"
+ },
+ {
+  "label": "OBJECT:Tank_Overlord",
+  "text": "皇帝坦克"
+ },
+ {
+  "label": "GUI:USAAllies",
+  "text": "美国盟友"
+ },
+ {
+  "label": "GUI:USAEnemies",
+  "text": "美国敌人"
+ },
+ {
+  "label": "OBJECT:BigNuclearReactor",
+  "text": "核反应堆"
+ },
+ {
+  "label": "CONTROLBAR:SabotageBuilding",
+  "text": "破坏建筑(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASabotageBuilding",
+  "text": "可暂时瘫痪敌方建筑\n\n强于：敌方建筑\n弱于：步兵、侦察单位"
+ },
+ {
+  "label": "SCIENCE:Nuke_ChinaCarpetBomb",
+  "text": "核弹轰炸机"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ConstructGLADemoTrap",
+  "text": "高级爆破陷阱(&D)"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ConstructChinaPowerPlant",
+  "text": "高级核反应堆(&R)"
+ },
+ {
+  "label": "CONTROLBAR:SupW_UpgradeAmericaAdvancedControlRods",
+  "text": "高级控制棒(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_CarpetBomb",
+  "text": "核弹轰炸机(&K)"
+ },
+ {
+  "label": "OBJECT:Nuke_NuclearReactor",
+  "text": "高级核反应堆"
+ },
+ {
+  "label": "OBJECT:Demo_DemoTrap",
+  "text": "高级爆破陷阱"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildPowerPlant",
+  "text": "高级核反应堆。可超载以提供更多电力\n\n提供电力：18"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaScienceCarpetBomb",
+  "text": "可呼叫重型轰炸机，用战术核弹对区域进行地毯式轰炸\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_TooltipCarpetBomb",
+  "text": "对目标区域进行核打击\n\n冷却时间：3:00"
+ },
+ {
+  "label": "GUI:FastForwardInstructions",
+  "text": "按 F 切换快进"
+ },
+ {
+  "label": "GUI:FF_ON",
+  "text": "快进已开启"
+ },
+ {
+  "label": "GUI:FF_OFF",
+  "text": "快进已关闭"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDropShort",
+  "text": "传单空投"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttackShort",
+  "text": "偷袭"
+ },
+ {
+  "label": "CONTROLBAR:TankParadropShort",
+  "text": "坦克空投"
+ },
+ {
+  "label": "OBJECT:Nuke_CarpetBomb",
+  "text": "核弹轰炸机"
+ },
+ {
+  "label": "CONTROLBAR:Slth_ConstructGLAInfantryRebel",
+  "text": "隐形叛军(&B)"
+ },
+ {
+  "label": "GUI:AdjustGameSpeed",
+  "text": "调整游戏速度"
+ },
+ {
+  "label": "GUI:SkirmishLower",
+  "text": "遭遇战"
+ },
+ {
+  "label": "GUI:Refresh",
+  "text": "刷新"
+ },
+ {
+  "label": "CONTROLBAR:MOAB",
+  "text": "炸弹之母(&B)"
+ },
+ {
+  "label": "MAP:TournamentPlains",
+  "text": "Tournament Plains"
+ },
+ {
+  "label": "MAP:DarkNight",
+  "text": "Dark Night"
+ },
+ {
+  "label": "MAP:TournamentUrban",
+  "text": "Tournament Urban"
+ },
+ {
+  "label": "MAP:TwoRoads",
+  "text": "Two Roads"
+ },
+ {
+  "label": "CONTROLBAR:Chem_TooltipFireRebelAmbush",
+  "text": "生成毒素叛军\n\n冷却时间：4:00"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABuildAurora",
+  "text": "超音速攻击使极光轰炸机免疫敌方火力。超音速攻击后，极光轰炸机速度降至 50%\n\n强于：建筑\n弱于：战斗机、防空单位"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush",
+  "text": "可在任意地点发动毒素叛军突袭伏击\n\n等级 1：4 名毒素叛军\n等级 2：8 名毒素叛军\n等级 3：16 名毒素叛军\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CREDITS:PackagingProjectManager",
+  "text": "包装项目经理"
+ },
+ {
+  "label": "CREDITS:PackagingDesign",
+  "text": "包装设计"
+ },
+ {
+  "label": "CREDITS:DocumentationLayout",
+  "text": "文档排版"
+ },
+ {
+  "label": "CREDITS:DocumentationEditor",
+  "text": "文档编辑"
+ },
+ {
+  "label": "CREDITS:Writer",
+  "text": "编剧"
+ },
+ {
+  "label": "CREDITS:Studio",
+  "text": "工作室"
+ },
+ {
+  "label": "CREDITS:ChineseLanguageTester",
+  "text": "中文语言测试员"
+ },
+ {
+  "label": "CREDITS:Marketing",
+  "text": "市场营销"
+ },
+ {
+  "label": "CREDITS:QuotedTraducoes",
+  "text": "Quoted Traduções"
+ },
+ {
+  "label": "CREDITS:ClementDuval",
+  "text": "Clément Duval"
+ },
+ {
+  "label": "CREDITS:JoseLuisRovira",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:ExecutiveProducer",
+  "text": "执行制作人"
+ },
+ {
+  "label": "CREDITS:TechnicalDirection",
+  "text": "技术指导"
+ },
+ {
+  "label": "CREDITS:LeadArtists",
+  "text": "首席美术师"
+ },
+ {
+  "label": "CREDITS:QualityAssurance",
+  "text": "质量保证"
+ },
+ {
+  "label": "CREDITS:TestAnalysts",
+  "text": "测试分析员"
+ },
+ {
+  "label": "CREDITS:TiburonAdditionalQualityAssurance",
+  "text": "Tiburon 额外质量保证"
+ },
+ {
+  "label": "CREDITS:LocalizationBrazil",
+  "text": "巴西本地化"
+ },
+ {
+  "label": "CREDITS:TranslationServices",
+  "text": "翻译服务"
+ },
+ {
+  "label": "CREDITS:TranslationCoordinator",
+  "text": "翻译协调员"
+ },
+ {
+  "label": "CREDITS:LTCoordinator",
+  "text": "LT 协调员"
+ },
+ {
+  "label": "CREDITS:RecordingStudio",
+  "text": "录音棚"
+ },
+ {
+  "label": "CREDITS:EAWorldwideDevelopmentExecutives",
+  "text": "EA 全球开发高管"
+ },
+ {
+  "label": "CREDITS:SpecialThanks",
+  "text": "特别鸣谢"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam3",
+  "text": "开发团队"
+ },
+ {
+  "label": "CREDITS:NACustomerQualityControl",
+  "text": "北美客户质量控制"
+ },
+ {
+  "label": "CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods",
+  "text": "反应堆电力提高 300%"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABuildStealthFighter",
+  "text": "移动时隐形\n装备点防御激光\n\n强于：敌方基地防御\n弱于：敌方战斗机"
+ },
+ {
+  "label": "GUI:RetaliationTitle",
+  "text": "反击"
+ },
+ {
+  "label": "GUI:Retaliation",
+  "text": "关闭此按钮后，你的单位将不会自动反击攻击它们的敌人"
+ },
+ {
+  "label": "CREDITS:LocalizationChinese",
+  "text": "中文本地化"
+ },
+ {
+  "label": "MAP:Breakdown",
+  "text": "Breakdown"
+ },
+ {
+  "label": "MAP:BulletMassacre",
+  "text": "Bullet Massacre"
+ },
+ {
+  "label": "MAP:CarnageCityLimits",
+  "text": "Carnage City Limits"
+ },
+ {
+  "label": "MAP:Cityscape",
+  "text": "Cityscape"
+ },
+ {
+  "label": "MAP:CivilUnrest",
+  "text": "Civil Unrest"
+ },
+ {
+  "label": "MAP:CottageCheese",
+  "text": "Cottage Cheese"
+ },
+ {
+  "label": "MAP:DeathValley",
+  "text": "Death Valley"
+ },
+ {
+  "label": "MAP:DogsOfWar",
+  "text": "Dogs of War"
+ },
+ {
+  "label": "MAP:DoorToDoor",
+  "text": "Door to Door"
+ },
+ {
+  "label": "MAP:FarmersFrenzy",
+  "text": "Farmers Frenzy"
+ },
+ {
+  "label": "MAP:Firestorm",
+  "text": "Firestorm"
+ },
+ {
+  "label": "MAP:FlakAttack",
+  "text": "Flak Attack"
+ },
+ {
+  "label": "MAP:FlankTown",
+  "text": "Flank Town"
+ },
+ {
+  "label": "MAP:Flashbang",
+  "text": "Flash Bang"
+ },
+ {
+  "label": "MAP:FoxHunt",
+  "text": "Fox Hunt"
+ },
+ {
+  "label": "MAP:GhostTown",
+  "text": "Ghost Town"
+ },
+ {
+  "label": "MAP:HighRoad",
+  "text": "High Road"
+ },
+ {
+  "label": "MAP:HighlandHunt",
+  "text": "Highland Hunt"
+ },
+ {
+  "label": "MAP:HostileDawn",
+  "text": "Hostile Dawn"
+ },
+ {
+  "label": "MAP:IslandInTheZone",
+  "text": "Island in the Zone"
+ },
+ {
+  "label": "MAP:JungleRebellion",
+  "text": "Jungle Rebellion"
+ },
+ {
+  "label": "MAP:LARiot",
+  "text": "L.A. Riot"
+ },
+ {
+  "label": "MAP:Liberation",
+  "text": "Liberation"
+ },
+ {
+  "label": "MAP:LongNight",
+  "text": "Long Night"
+ },
+ {
+  "label": "MAP:ManicAggression",
+  "text": "Manic Aggression"
+ },
+ {
+  "label": "MAP:Marshland",
+  "text": "Marshland"
+ },
+ {
+  "label": "MAP:Mirage",
+  "text": "Mirage"
+ },
+ {
+  "label": "MAP:PanicDemise",
+  "text": "Panic Demise"
+ },
+ {
+  "label": "MAP:PowerPlay",
+  "text": "Power Play"
+ },
+ {
+  "label": "MAP:RedRock",
+  "text": "Red Rock"
+ },
+ {
+  "label": "MAP:RubbleTown",
+  "text": "Rubble Town"
+ },
+ {
+  "label": "MAP:SeasideMutiny",
+  "text": "Seaside Mutiny"
+ },
+ {
+  "label": "MAP:ShellShocker",
+  "text": "Shell Shocker"
+ },
+ {
+  "label": "MAP:Shellshock",
+  "text": "Shellshock"
+ },
+ {
+  "label": "MAP:ShockAndAwe",
+  "text": "Shock and Awe"
+ },
+ {
+  "label": "MAP:Shockwave",
+  "text": "Shockwave"
+ }
+]

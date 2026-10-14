@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Scatter",
+  "text": "پراکنده شدن"
+ },
+ {
+  "label": "GUI:StopObject",
+  "text": "توقف شیء"
+ },
+ {
+  "label": "GUI:StopObjectDescription",
+  "text": "توقف شیء (اشیای) انتخاب‌شده"
+ },
+ {
+  "label": "GUI:GoToRadarEvent",
+  "text": "رفتن به رویداد رادار"
+ },
+ {
+  "label": "GUI:GoToRadarEventDescription",
+  "text": "متمرکز کردن نمای تاکتیکی روی آخرین رویداد رادار"
+ },
+ {
+  "label": "GUI:SaveView1",
+  "text": "تنظیم نشانک 1"
+ },
+ {
+  "label": "GUI:SaveView1Description",
+  "text": "ذخیره موقعیت نقشه در نشانک 1"
+ },
+ {
+  "label": "GUI:SaveView2",
+  "text": "تنظیم نشانک 2"
+ },
+ {
+  "label": "GUI:SaveView2Description",
+  "text": "ذخیره موقعیت نقشه در نشانک 2"
+ },
+ {
+  "label": "GUI:SaveView3",
+  "text": "تنظیم نشانک 3"
+ },
+ {
+  "label": "GUI:SaveView3Description",
+  "text": "ذخیره موقعیت نقشه در نشانک 3"
+ },
+ {
+  "label": "GUI:SaveView4",
+  "text": "تنظیم نشانک 4"
+ },
+ {
+  "label": "GUI:SaveView4Description",
+  "text": "ذخیره موقعیت نقشه در نشانک 4"
+ },
+ {
+  "label": "GUI:ViewView1",
+  "text": "نمایش نشانک 1"
+ },
+ {
+  "label": "GUI:ViewView1Description",
+  "text": "نمایش موقعیت نقشه ذخیره‌شده در نشانک 1"
+ },
+ {
+  "label": "GUI:ViewView2",
+  "text": "نمایش نشانک 2"
+ },
+ {
+  "label": "GUI:ViewView2Description",
+  "text": "نمایش موقعیت نقشه ذخیره‌شده در نشانک 2"
+ },
+ {
+  "label": "GUI:ViewView3",
+  "text": "نمایش نشانک 3"
+ },
+ {
+  "label": "GUI:ViewView3Description",
+  "text": "نمایش موقعیت نقشه ذخیره‌شده در نشانک 3"
+ },
+ {
+  "label": "GUI:ViewView4",
+  "text": "نمایش نشانک 4"
+ },
+ {
+  "label": "GUI:ViewView4Description",
+  "text": "نمایش موقعیت نقشه ذخیره‌شده در نشانک 4"
+ },
+ {
+  "label": "GUI:CenterBase",
+  "text": "مرکز پایگاه"
+ },
+ {
+  "label": "GUI:CenterBaseDescription",
+  "text": "متمرکز کردن نما روی پایگاه بازیکن"
+ },
+ {
+  "label": "GUI:SelectNone",
+  "text": "لغو انتخاب"
+ },
+ {
+  "label": "GUI:SelectAll",
+  "text": "انتخاب همه"
+ },
+ {
+  "label": "GUI:SelectAllDescription",
+  "text": "همه یگان‌های نظامی را انتخاب می‌کند"
+ },
+ {
+  "label": "GUI:SelectNextUnit",
+  "text": "شیء بعدی"
+ },
+ {
+  "label": "GUI:SelectNextUnitDescription",
+  "text": "انتخاب شیء بعدی"
+ },
+ {
+  "label": "GUI:SelectPrevUnit",
+  "text": "شیء قبلی"
+ },
+ {
+  "label": "GUI:SelectPrevUnitDescription",
+  "text": "انتخاب یگان قبلی"
+ },
+ {
+  "label": "GUI:SelectNextWorker",
+  "text": "کارگر بعدی"
+ },
+ {
+  "label": "GUI:SelectNextWorkerDescription",
+  "text": "انتخاب کارگر بعدی"
+ },
+ {
+  "label": "GUI:SelectPrevWorker",
+  "text": "کارگر قبلی"
+ },
+ {
+  "label": "GUI:SelectPrevWorkerDescription",
+  "text": "انتخاب کارگر قبلی"
+ },
+ {
+  "label": "GUI:TypeSelect",
+  "text": "انتخاب بر اساس نوع"
+ },
+ {
+  "label": "GUI:TypeSelectDescription",
+  "text": "یگان‌ها را بر اساس نوع انتخاب می‌کند. روی یک یگان دوبار کلیک چپ کنید تا همه یگان‌های هم‌نوعش انتخاب شوند"
+ },
+ {
+  "label": "GUI:CreateTeam0",
+  "text": "ساخت تیم 0"
+ },
+ {
+  "label": "GUI:CreateTeam0Description",
+  "text": "تیم 0 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam1",
+  "text": "ساخت تیم 1"
+ },
+ {
+  "label": "GUI:CreateTeam1Description",
+  "text": "تیم 1 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam2",
+  "text": "ساخت تیم 2"
+ },
+ {
+  "label": "GUI:CreateTeam2Description",
+  "text": "تیم 2 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam3",
+  "text": "ساخت تیم 3"
+ },
+ {
+  "label": "GUI:CreateTeam3Description",
+  "text": "تیم 3 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam4",
+  "text": "ساخت تیم 4"
+ },
+ {
+  "label": "GUI:CreateTeam4Description",
+  "text": "تیم 4 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam5",
+  "text": "ساخت تیم 5"
+ },
+ {
+  "label": "GUI:CreateTeam5Description",
+  "text": "تیم 5 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam6",
+  "text": "ساخت تیم 6"
+ },
+ {
+  "label": "GUI:CreateTeam6Description",
+  "text": "تیم 6 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam7",
+  "text": "ساخت تیم 7"
+ },
+ {
+  "label": "GUI:CreateTeam7Description",
+  "text": "تیم 7 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam8",
+  "text": "ساخت تیم 8"
+ },
+ {
+  "label": "GUI:CreateTeam8Description",
+  "text": "تیم 8 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:CreateTeam9",
+  "text": "ساخت تیم 9"
+ },
+ {
+  "label": "GUI:CreateTeam9Description",
+  "text": "تیم 9 را از یگان‌های انتخاب‌شده فعلی می‌سازد"
+ },
+ {
+  "label": "GUI:SelectTeam0",
+  "text": "انتخاب تیم 0"
+ },
+ {
+  "label": "GUI:SelectTeam0Description",
+  "text": "انتخاب اعضای تیم 0"
+ },
+ {
+  "label": "GUI:SelectTeam1",
+  "text": "انتخاب تیم 1"
+ },
+ {
+  "label": "GUI:SelectTeam1Description",
+  "text": "انتخاب اعضای تیم 1"
+ },
+ {
+  "label": "GUI:SelectTeam2",
+  "text": "انتخاب تیم 2"
+ },
+ {
+  "label": "GUI:SelectTeam2Description",
+  "text": "انتخاب اعضای تیم 2"
+ },
+ {
+  "label": "GUI:SelectTeam3",
+  "text": "انتخاب تیم 3"
+ },
+ {
+  "label": "GUI:SelectTeam3Description",
+  "text": "انتخاب اعضای تیم 3"
+ },
+ {
+  "label": "GUI:SelectTeam4",
+  "text": "انتخاب تیم 4"
+ },
+ {
+  "label": "GUI:SelectTeam4Description",
+  "text": "انتخاب اعضای تیم 4"
+ },
+ {
+  "label": "GUI:SelectTeam5",
+  "text": "انتخاب تیم 5"
+ },
+ {
+  "label": "GUI:SelectTeam5Description",
+  "text": "انتخاب اعضای تیم 5"
+ },
+ {
+  "label": "GUI:SelectTeam6",
+  "text": "انتخاب تیم 6"
+ },
+ {
+  "label": "GUI:SelectTeam6Description",
+  "text": "انتخاب اعضای تیم 6"
+ },
+ {
+  "label": "GUI:SelectTeam7",
+  "text": "انتخاب تیم 7"
+ },
+ {
+  "label": "GUI:SelectTeam7Description",
+  "text": "انتخاب اعضای تیم 7"
+ },
+ {
+  "label": "GUI:SelectTeam8",
+  "text": "انتخاب تیم 8"
+ },
+ {
+  "label": "GUI:SelectTeam8Description",
+  "text": "انتخاب اعضای تیم 8"
+ },
+ {
+  "label": "GUI:SelectTeam9",
+  "text": "انتخاب تیم 9"
+ },
+ {
+  "label": "GUI:SelectTeam9Description",
+  "text": "انتخاب اعضای تیم 9"
+ },
+ {
+  "label": "GUI:ViewTeam0",
+  "text": "تمرکز روی تیم 0"
+ },
+ {
+  "label": "GUI:ViewTeam0Description",
+  "text": "انتخاب تیم 0 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam1",
+  "text": "تمرکز روی تیم 1"
+ },
+ {
+  "label": "GUI:ViewTeam1Description",
+  "text": "انتخاب تیم 1 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam2",
+  "text": "تمرکز روی تیم 2"
+ },
+ {
+  "label": "GUI:ViewTeam2Description",
+  "text": "انتخاب تیم 2 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam3",
+  "text": "تمرکز روی تیم 3"
+ },
+ {
+  "label": "GUI:ViewTeam3Description",
+  "text": "انتخاب تیم 3 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam4",
+  "text": "تمرکز روی تیم 4"
+ },
+ {
+  "label": "GUI:ViewTeam4Description",
+  "text": "انتخاب تیم 4 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam5",
+  "text": "تمرکز روی تیم 5"
+ },
+ {
+  "label": "GUI:ViewTeam5Description",
+  "text": "انتخاب تیم 5 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam6",
+  "text": "تمرکز روی تیم 6"
+ },
+ {
+  "label": "GUI:ViewTeam6Description",
+  "text": "انتخاب تیم 6 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam7",
+  "text": "تمرکز روی تیم 7"
+ },
+ {
+  "label": "GUI:ViewTeam7Description",
+  "text": "انتخاب تیم 7 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam8",
+  "text": "تمرکز روی تیم 8"
+ },
+ {
+  "label": "GUI:ViewTeam8Description",
+  "text": "انتخاب تیم 8 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:ViewTeam9",
+  "text": "تمرکز روی تیم 9"
+ },
+ {
+  "label": "GUI:ViewTeam9Description",
+  "text": "انتخاب تیم 9 و متمرکز کردن نما روی آن"
+ },
+ {
+  "label": "GUI:LocalIPDesc",
+  "text": "IP محلی"
+ },
+ {
+  "label": "GUI:RemoteIPDesc",
+  "text": "IP راه دور"
+ },
+ {
+  "label": "GUI:SaveCamera",
+  "text": "ذخیره دوربین در بازپخش‌ها"
+ },
+ {
+  "label": "GUI:UseCamera",
+  "text": "استفاده از دوربین ذخیره‌شده در بازپخش‌ها"
+ },
+ {
+  "label": "Mouse:Windows",
+  "text": "نشانگر ویندوز"
+ },
+ {
+  "label": "Mouse:W3D",
+  "text": "نشانگر W3D"
+ },
+ {
+  "label": "Mouse:Poly",
+  "text": "نشانگر چندضلعی"
+ },
+ {
+  "label": "Mouse:DX8",
+  "text": "نشانگر DX8"
+ },
+ {
+  "label": "Mouse:Heal",
+  "text": "درمان شدن"
+ },
+ {
+  "label": "Mouse:GetRepaired",
+  "text": "تعمیر شدن"
+ },
+ {
+  "label": "Mouse:Dock",
+  "text": "پهلو گرفتن"
+ },
+ {
+  "label": "Mouse:DoRepair",
+  "text": "تعمیر"
+ },
+ {
+  "label": "Mouse:ResumeConstruction",
+  "text": "ادامه ساخت"
+ },
+ {
+  "label": "Mouse:Enter",
+  "text": "ورود"
+ },
+ {
+  "label": "Mouse:SetRallyPoint",
+  "text": "تنظیم نقطه تجمع"
+ },
+ {
+  "label": "Mouse:DisguiseAsVehicle",
+  "text": "به شکل این درآ!"
+ },
+ {
+  "label": "Mouse:Invalid",
+  "text": "نامعتبر"
+ },
+ {
+  "label": "Mouse:FireFlame",
+  "text": "سوزاندن"
+ },
+ {
+  "label": "Mouse:FireFlashBang",
+  "text": "نارنجک صوتی-نوری"
+ },
+ {
+  "label": "Mouse:FireTranqDarts",
+  "text": "دارت آرام‌بخش"
+ },
+ {
+  "label": "Mouse:FireStunBullets",
+  "text": "گلوله‌های بیهوش‌کننده"
+ },
+ {
+  "label": "Mouse:MakeCarBomb",
+  "text": "ساخت خودروی بمب‌گذاری‌شده"
+ },
+ {
+  "label": "Mouse:Hijack",
+  "text": "ربودن"
+ },
+ {
+  "label": "Mouse:FireBomb",
+  "text": "بمب\nآتش‌زا"
+ },
+ {
+  "label": "Mouse:Defector",
+  "text": "ساخت\nفراری"
+ },
+ {
+  "label": "Mouse:CaptureBuilding",
+  "text": "تصرف ساختمان"
+ },
+ {
+  "label": "Mouse:DisableVehicleHack",
+  "text": "از کار انداختن خودرو"
+ },
+ {
+  "label": "Mouse:StealCashHack",
+  "text": "دزدیدن پول"
+ },
+ {
+  "label": "Mouse:SnipeVehicle",
+  "text": "شکار خودرو"
+ },
+ {
+  "label": "Mouse:DisableBuildingHack",
+  "text": "از کار انداختن ساختمان"
+ },
+ {
+  "label": "Mouse:LaserGuidedMissiles",
+  "text": "موشک‌های هدایت‌شونده لیزری"
+ },
+ {
+  "label": "Mouse:TankHunterTNTAttack",
+  "text": "حمله TNT"
+ },
+ {
+  "label": "Mouse:A10ThunderboltStrike",
+  "text": "محل حمله A10"
+ },
+ {
+  "label": "Mouse:StabAttack",
+  "text": "ضربه چاقو"
+ },
+ {
+  "label": "Mouse:PlaceRemoteCharge",
+  "text": "کار گذاشتن خرج کنترل‌از‌راه‌دور"
+ },
+ {
+  "label": "Mouse:PlaceTimedCharge",
+  "text": "کار گذاشتن خرج زمانی"
+ },
+ {
+  "label": "Mouse:RepairVehicles",
+  "text": "تعمیر اضطراری (&E)"
+ },
+ {
+  "label": "Mouse:Demoralize",
+  "text": "تضعیف روحیه"
+ },
+ {
+  "label": "Mouse:PickUpPrisoner",
+  "text": "برداشتن اسیر"
+ },
+ {
+  "label": "Mouse:Return",
+  "text": "بازگشت"
+ },
+ {
+  "label": "Mouse:PlaceBeacon",
+  "text": "گذاشتن نشانگر"
+ },
+ {
+  "label": "SCRIPT:TestString",
+  "text": "این یه متن آزمایشیه، رفیق"
+ },
+ {
+  "label": "SCRIPT:LongTestString",
+  "text": "این یه متن آزمایشی خیلی خیلی درازه، رفیق، دراز مثل صف نانوایی. کارش اینه که مطمئن بشه شکستن خط‌ها و فاصله‌ها درست کار می‌کنن"
+ },
+ {
+  "label": "SCIENCE:GeneralName",
+  "text": "<نام را وارد کنید>"
+ },
+ {
+  "label": "SCIENCE:SkillPoints",
+  "text": "امتیاز مهارت: %d"
+ },
+ {
+  "label": "SCIENCE:Rank",
+  "text": "سطح %d"
+ },
+ {
+  "label": "SCIENCE:TempName",
+  "text": "برای دانش من نامی بگذار"
+ },
+ {
+  "label": "SCIENCE:TempDescription",
+  "text": "لطف کنید و توضیحات من را که در Science.ini است پر کنید! خیلی ممنون"
+ },
+ {
+  "label": "SCIENCE:USAPaladin",
+  "text": "تانک پالادین"
+ },
+ {
+  "label": "SCIENCE:USAPathFinder",
+  "text": "پث‌فایندر"
+ },
+ {
+  "label": "SCIENCE:USAStealthFighter",
+  "text": "جنگنده رادارگریز"
+ },
+ {
+  "label": "SCIENCE:USASpyDrone",
+  "text": "پهپاد جاسوسی"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop1",
+  "text": "فرود چتری ۱"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop2",
+  "text": "فرود چتری ۲"
+ },
+ {
+  "label": "SCIENCE:USAParaDrop3",
+  "text": "فرود چتری ۳"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike1",
+  "text": "حمله A10 ۱"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike2",
+  "text": "حمله A10 ۲"
+ },
+ {
+  "label": "SCIENCE:USAA10Strike3",
+  "text": "حمله A10 ۳"
+ },
+ {
+  "label": "SCIENCE:USADaisyCutter",
+  "text": "بمب سوخت-هوا"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeLauncher",
+  "text": "توپ هسته‌ای"
+ },
+ {
+  "label": "SCIENCE:ChinaRedGuardTraining",
+  "text": "آموزش گارد سرخ"
+ },
+ {
+  "label": "SCIENCE:ChinaClusterMines",
+  "text": "مین‌های خوشه‌ای"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryTraining",
+  "text": "آموزش توپخانه"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage",
+  "text": "آتش توپخانه ۱"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage2",
+  "text": "آتش توپخانه ۲"
+ },
+ {
+  "label": "SCIENCE:ChinaArtilleryBarrage3",
+  "text": "آتش توپخانه ۳"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack1",
+  "text": "هک پول ۱"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack2",
+  "text": "هک پول ۲"
+ },
+ {
+  "label": "SCIENCE:ChinaCashHack3",
+  "text": "هک پول ۳"
+ },
+ {
+  "label": "SCIENCE:ChinaEMPPulse",
+  "text": "پالس EMP"
+ },
+ {
+  "label": "SCIENCE:GLAHijacker",
+  "text": "هایجکر"
+ },
+ {
+  "label": "SCIENCE:GLASCUDLauncher",
+  "text": "پرتابگر اسکاد"
+ },
+ {
+  "label": "SCIENCE:GLAMaruaderTank",
+  "text": "تانک ماراودر"
+ },
+ {
+  "label": "SCIENCE:GLATechnicalTraining",
+  "text": "آموزش تکنیکال"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush1",
+  "text": "کمین شورشیان ۱"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush2",
+  "text": "کمین شورشیان ۲"
+ },
+ {
+  "label": "SCIENCE:GLARebelAmbush3",
+  "text": "کمین شورشیان ۳"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty1",
+  "text": "جایزه نقدی ۱"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty2",
+  "text": "جایزه نقدی ۲"
+ },
+ {
+  "label": "SCIENCE:GLACashBounty3",
+  "text": "جایزه نقدی ۳"
+ },
+ {
+  "label": "SCIENCE:GLAAnthraxBomb",
+  "text": "بمب سیاه‌زخم"
+ },
+ {
+  "label": "CONTROLBAR:Demoralize",
+  "text": "تضعیف روحیه"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligence",
+  "text": "اطلاعات (&C)"
+ },
+ {
+  "label": "CONTROLBAR:CombatDrop",
+  "text": "فرود رزمی (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Guard",
+  "text": "نگهبانی (&G)"
+ },
+ {
+  "label": "CONTROLBAR:GuardWithoutPursuit",
+  "text": "نگهبانی نزدیک (&C)"
+ },
+ {
+  "label": "CONTROLBAR:GuardFlyingUnitsOnly",
+  "text": "نگهبانی هوایی (&R)"
+ },
+ {
+  "label": "CONTROLBAR:AttackMove",
+  "text": "حرکت با حمله (&A)"
+ },
+ {
+  "label": "CONTROLBAR:Stop",
+  "text": "توقف (&S)"
+ },
+ {
+  "label": "CONTROLBAR:Waypoints",
+  "text": "نقاط مسیر (&T)"
+ },
+ {
+  "label": "CONTROLBAR:CancelBuild",
+  "text": "لغو ساخت (&C)"
+ },
+ {
+  "label": "CONTROLBAR:Contaminate",
+  "text": "آلوده کردن (&C)"
+ },
+ {
+  "label": "CONTROLBAR:FireWall",
+  "text": "دیوار آتش (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAArmTheMob",
+  "text": "مسلح کردن اوباش (&M)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordGattlingCannon",
+  "text": "توپ گاتلینگ (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordPropagandaTower",
+  "text": "برج تبلیغات (&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaOverlordBattleBunker",
+  "text": "سنگر نبرد (&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireBomb",
+  "text": "بمب آتش‌زا (&F)"
+ },
+ {
+  "label": "CONTROLBAR:UnderConstructionDesc",
+  "text": "در حال ساخت: %.0f%%"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDesc",
+  "text": "زمان تا پرتاب بعدی: %d:%d"
+ },
+ {
+  "label": "CONTROLBAR:OCLTimerDescWithPadding",
+  "text": "زمان تا پرتاب بعدی: %d:0%d"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanBombardment",
+  "text": "طرح نبرد بمباران (&B)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanHoldTheLine",
+  "text": "طرح نبرد ایستادگی (&O)"
+ },
+ {
+  "label": "CONTROLBAR:InitiateBattlePlanSearchAndDestroy",
+  "text": "طرح جستجو و نابودی (&D)"
+ }
+]

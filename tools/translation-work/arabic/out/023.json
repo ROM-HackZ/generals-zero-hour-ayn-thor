@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva04Subtitle",
+  "text": "*أيها الجنرال، يبدو أن في المنطقة عدة شاحنات رادار لجيش التحرير العالمي، إن اقتربت قواتك كثيرًا فسيُكشف أمرها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva05Subtitle",
+  "text": "*عمل ممتاز أيها الجنرال. عليك الآن أن تقلق فقط من قوات جيش التحرير العالمي على هذا الجانب من النهر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva06Subtitle",
+  "text": "*لدى جيش التحرير العالمي معسكر أسرى على الطريق الذي يجب أن يسلكه العقيد بيرتون إلى مختبرهم. إن حررت الرجال المحتجزين هناك فسيسهل على العقيد بيرتون الوصول إلى المختبر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva07Subtitle",
+  "text": "*أيها الجنرال، تقترح الاستخبارات أن تحرر الرجال في معسكر الأسرى قبل أن ترسل العقيد بيرتون بعيدًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva08Subtitle",
+  "text": "*تهانينا أيها الجنرال، أنا متأكدة أن عائلات هؤلاء الرجال ستسعد بخبر إنقاذهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva09Subtitle",
+  "text": "*أيها الجنرال، مختبر جيش التحرير العالمي شمال موقعك الحالي مباشرة. ما زال عدد من دفاعاتهم على طريقك... توخَّ الحذر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva10Subtitle",
+  "text": "*يبدو أن أبراج النفط تلك المصدر الوحيد لدخل قاعدة جيش التحرير العالمي. إن دمّرتها فستشلّهم هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva11Subtitle",
+  "text": "*أيها الجنرال، أوصلك باللوتس الأسود"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva12Subtitle",
+  "text": "*أيها الجنرال، الرجال الذين أنقذتهم للتو يقودون أحدث مركباتنا: دبابة الميكروويف"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva13Subtitle",
+  "text": "*لهذه المركبة وضعان: الأول يولّد مجالًا متواصلًا من الموجات الدقيقة أمامها - قاتلًا لكل المشاة. والثاني يتيح لها تعطيل وظائف أي مبنى مستهدف"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva14Subtitle",
+  "text": "*أيها الجنرال، يعلم جيش التحرير العالمي بوجودنا ويبدو في حالة تأهب قصوى. احذر وأنت تنقل العقيد بيرتون إلى موقعه فوق مختبرهم السري"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva15Subtitle",
+  "text": "*أيها الجنرال، رقّى جيش التحرير العالمي قذائف دباباته لتحمل السموم. توخَّ الحذر."
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva16Subtitle",
+  "text": "*أرى دورية لجيش التحرير العالمي في تلك القرية أيها الجنرال... إضافة إلى عدد من قوات العدو المتحصنة في أنحائها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva17Subtitle",
+  "text": "*ربما تكتشف اللوتس الأسود مزيدًا من المعلومات عمّن يقف وراء برنامج أسلحة الدمار الشامل لجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva18Subtitle",
+  "text": "*كان ذلك مذهلًا أيها الجنرال. يبدو أن جيش التحرير العالمي لن يستخدم تلك المنشأة بعد الآن... ويبدو أن اللوتس الأسود نزّلت معلومات حيوية عن مصدر هذا المختبر. لنعِد تنظيم صفوفنا الآن ونرَ ما اكتشفته. عمل رائع"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus01Subtitle",
+  "text": "*عُطّل السكوربيون... سأتولى الأمور عبر النهر. انتظر حتى أعبر ثم دمّر الجسر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus02Subtitle",
+  "text": "*الآن. لا تقلق، سأنتظرك عند المختبر... لكن أسرع"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus03Subtitle",
+  "text": "*أيها الجنرال، أنا في موقع يسمح لي بالمساعدة على تحرير قواتك الأسيرة. ربما يودّ العقيد بيرتون المساعدة؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus04Subtitle",
+  "text": "*أيها الجنرال، هلّا طلبت من العقيد بيرتون أن يسرع إلى معسكر الأسرى... سئمت انتظاره"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus05Subtitle",
+  "text": "*سأجذب انتباه حراس المعسكر إلى هذا الجانب من النهر. هذا سيسمح لك ولروبوتاتك الأليفة بالتعامل مع النفق وتحرير رجالك الأسرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus06Subtitle",
+  "text": "*أيها الجنرال... قواتي تتقدم نحو آخر مواقع جيش التحرير العالمي على هذا الجانب من النهر. أبلغ العقيد بيرتون أن يسرع... أفضّل ألا أنتظره طويلًا حتى يلحق بي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus07Subtitle",
+  "text": "*أبلغ العقيد بيرتون أنني أنا من سينتظره عند المختبر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus08Subtitle",
+  "text": "*أنا هنا أيها العقيد... لقد فزت. قاوم جيش التحرير العالمي أكثر مما توقعت. أبدأ التنزيل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus09Subtitle",
+  "text": "*البيانات معي! الآن أيها العقيد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus10Subtitle",
+  "text": "*أيها الجنرال، أنا جاهزة وأنتظر عند المختبر... متى شاء العقيد أن يصل وينهي هذه المهمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus11Subtitle",
+  "text": "*الجو بارد هنا. أنت قادم، أليس كذلك يا بيرتون؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xLotus12Subtitle",
+  "text": "*أنزّل المعلومات الآن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xRngr01Subtitle",
+  "text": "*شكرًا على الإنقاذ يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xRngr02Subtitle",
+  "text": "*انفصل اثنان من رجالنا لتفقد القرية شرق هنا قبل أن نؤسر. ربما ما زالا هناك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xRngr03Subtitle",
+  "text": "*سعداء برؤيتك أيها الجنرال، ظننا أننا سننتهي أسرى"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xRngr04Subtitle",
+  "text": "*أُسر بقية فريقنا بعد وصولنا إلى القرية مباشرة. أيها الجنرال، نود التطوع لإنقاذهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xRngr05Subtitle",
+  "text": "*أيها الجنرال، أُسرت فرقة من المركبات بعد أسرنا مباشرة. يحتجزها جيش التحرير العالمي في معسكر شمال هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Eva02Subtitle",
+  "text": "*وصلت التعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Eva07Subtitle",
+  "text": "*يجب أن نطهّر مواقع ستينغر هذه قبل أن نستدعي قاذفاتنا لتطهير المنطقة من جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Eva08Subtitle",
+  "text": "*وصلت فرق البناء يا سيدي. عليك إقامة قاعدتنا قبل أن يجتاحنا جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Eva09Subtitle",
+  "text": "*هدفنا الأخير قاعدة جيش التحرير العالمي هذه في التلال. دمّرها وتكتمل العملية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Officer03Subtitle",
+  "text": "*رُصد إرهابيون. على جميع الوحدات التأهب"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Ranger01Subtitle",
+  "text": "*أبلّغ عن موقع مخبأ لجيش التحرير العالمي في المربع بيتا تشارلي 6-8-9-4-4"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Transport01Subtitle",
+  "text": "*فريقا النقل 1 و2 يقتربان من منطقة الهبوط"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04Transport03Subtitle",
+  "text": "*فريق النقل 1 يبلّغ! اكتملت المهمة! أنسحب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xBrf01Subtitle",
+  "text": "*أيها الجنرال، تفيد الاستخبارات بأن القوات المارقة وراء هذه الخلية المنشقة من جيش التحرير العالمي يقودها الدكتور ثراكس"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xBrf02Subtitle",
+  "text": "*الدكتور ثراكس مجرم مطلوب... مسؤول عن جرائم إرهابية شهيرة ضد الجيش الأمريكي. يجب تقديمه للعدالة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xBrf03Subtitle",
+  "text": "*كان الدكتور ثراكس يطوّر سمًا جديدًا تمامًا في مختبره الجبلي السري. الحمد لله أن لوتس وبيرتون كانا هناك لإيقافه"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xBrf04Subtitle",
+  "text": "*يتلقى الدكتور ثراكس تمويله من حقول نفطه. يجب أن نقطع تدفق النفط عنه"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xBrf05Subtitle",
+  "text": "*تثبت المعلومات التي استعدناها من المختبر السري أن جيش التحرير العالمي استولى على حقول النفط هذه لتمويل الدكتور ثراكس الشرير. قد يدمّرونها بدلًا من أن يدعوك تستعيدها. احذر أيها الجنرال، بدأ جيش التحرير العالمي يستخدم الفخاخ المفخخة... استخدم الجرافات لإزالة الفخاخ المفخخة بأمان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat01Subtitle",
+  "text": "*سيدي! جرارات السموم تلتهمنا! أرسلوا المساعدة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat02Subtitle",
+  "text": "*جرارات السموم! اسحبوا المشاة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat03Subtitle",
+  "text": "*رُصدت مدافع رباعية يا سيدي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat04Subtitle",
+  "text": "*نخسر وحدات بسبب المدافع الرباعية يا سيدي! أرسلوا مدرعات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat05Subtitle",
+  "text": "*لا! قُتل برافو ثلاثة بمدفع رباعي يا سيدي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat06Subtitle",
+  "text": "*بدأ العدو إرسال الدبابات يا سيدي! أرسلوا المدافعين الصاروخيين!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat07Subtitle",
+  "text": "*ها! دبابات جيش التحرير العالمي ليست ندًا لنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat08Subtitle",
+  "text": "*سيدي، نخسر وحدات بسبب دبابات العدو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat09Subtitle",
+  "text": "*ماذا يفعل العدو بشاحنات الرادار تلك؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat10Subtitle",
+  "text": "*هل كانت تلك سيارة مفخخة؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat11Subtitle",
+  "text": "*من أين تأتي تلك السيارات المفخخة؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat12Subtitle",
+  "text": "*سيدي، نحتاج إلى مزيد من الدفاعات هنا! السيارات المفخخة تمزقنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat13Subtitle",
+  "text": "*شاحنات مفخخة؟! هذا ليس عدلًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat14Subtitle",
+  "text": "*سيدي، نحتاج إلى دفاعات أفضل ضد هذه الشاحنات المفخخة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat15Subtitle",
+  "text": "*سيدي، اشتبكنا مع حشود غاضبة! أرسلوا وحدات مضادة للأفراد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat16Subtitle",
+  "text": "*الحشود الغاضبة تدمّرنا! أرسلوا بعض القنّاصة إلى هنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat17Subtitle",
+  "text": "*سيدي، يجب أن نفعل شيئًا بشأن هذه الحشود الغاضبة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat18Subtitle",
+  "text": "*سيدي، نخسر وحدات بسبب الإرهابيين، هل يمكن إرسال قنّاص إلى هنا؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat19Subtitle",
+  "text": "*سيدي، هؤلاء الإرهابيون يطحنوننا! أرسلوا الدعم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat20Subtitle",
+  "text": "*يا إلهي! ما كل هذه الفخاخ المتفجرة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat21Subtitle",
+  "text": "*سيدي، هذا الحقل مليء بفخاخ التفجير! يجب أن نطهّره!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat22Subtitle",
+  "text": "*ماذا؟! خسرنا مبنى بسبب سيارة مفخخة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat23Subtitle",
+  "text": "*السيارات المفخخة تهاجمنا! يبدو أنها تأتي من البلدة المحلية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat24Subtitle",
+  "text": "*يا للهول! تلك الشاحنات المفخخة تضرب بقوة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat25Subtitle",
+  "text": "*آخ! هذه آلمت!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat26Subtitle",
+  "text": "*سيدي، ابنِ مزيدًا من الدفاعات للحماية من الشاحنات المفخخة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat27Subtitle",
+  "text": "*يا للهول! تلك الحشود غاضبة فعلًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat28Subtitle",
+  "text": "*سيدي، نحتاج إلى مستكشف للتعامل مع تلك الحشود الغاضبة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat29Subtitle",
+  "text": "*سيدي، نحتاج إلى وحدات مضادة للأفراد هنا الآن! هذه الحشود الغاضبة تطحننا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat30Subtitle",
+  "text": "*سيدي، خسرنا مبنى بسبب سيارة مفخخة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat31Subtitle",
+  "text": "*الإرهابيون يدمّرون مبانينا! استدعوا القنّاصة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xChat32Subtitle",
+  "text": "*سيدي! شاحناتهم المفخخة تدمّر قاعدتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCIA01Subtitle",
+  "text": "*سعداء برؤية أصدقاء! هيا بنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCIA02Subtitle",
+  "text": "*أتبع قيادتك أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCIA03Subtitle",
+  "text": "*ها أنا ذا، تقدّم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin01Subtitle",
+  "text": "*ساتكوم، هنا تشارلي 5. أقترب من الهدف، لا أعداء في الأفق... انتظر... الهدف في مرمى البصر يا ساتكوم... حوّل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin02Subtitle",
+  "text": "*علم يا 5... يمكنك التنفيذ، حوّل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin03Subtitle",
+  "text": "*علم يا ساتكوم... أُطلقت الحمولة... أغادر المنطقة الساخنة! حوّل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin04Subtitle",
+  "text": "*علم يا 5، انتهى. فيكتور 3، لك الإذن بالإسقاط الفوري... حوّل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin05Subtitle",
+  "text": "*علم يا ساتكوم... أقترب من منطقة الهدف"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin06Subtitle",
+  "text": "*لقّموا الأسلحة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin07Subtitle",
+  "text": "*اقفزوا! اقفزوا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin08Subtitle",
+  "text": "*احذروا أن تتلطخوا يا شباب... رُصدت أسلحة كيميائية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin09Subtitle",
+  "text": "*هذه ليست نزهة يا شباب! حافظوا على رباطة جأشكم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin10Subtitle",
+  "text": "*حافظوا على التشكيل!! لا مغامرات فردية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin11Subtitle",
+  "text": "*أُطلقت الماعز. عائدون إلى الحظيرة. انتهى"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin12Subtitle",
+  "text": "*فريق برافو، هدفكم الرئيسي مدرج الطائرات الصغير جنوبكم. أمّنوه للتعزيزات القادمة. انتهى"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin13Subtitle",
+  "text": "*علم يا ساتكوم، ننطلق. اسمعوا يا صغار! هذه منطقة نيران حرة! احذروا الصراصير! كل ما يتحرك اقتلوه"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xCin14Subtitle",
+  "text": "*أُمّن المدرج أيها الجنرال... التعزيزات في الطريق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva01Subtitle",
+  "text": "*بدأ جيش التحرير العالمي باستخدام الفخاخ المفخخة في المنشآت بهذه المنطقة. ستنفجر إن حاولت الاستيلاء عليها أو التحصن فيها. استخدم الجرافات لإزالتها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva02Subtitle",
+  "text": "*استولى جيش التحرير العالمي على حقول النفط القريبة. احمِ أبراج النفط ودمّر قاعدة جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva03Subtitle",
+  "text": "*احذر أيها الجنرال؛ قد يكون العدو نصب فخاخًا في حقل النفط"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva04Subtitle",
+  "text": "*أخبار جيدة أيها الجنرال. يعرف العقيد بيرتون عدة عملاء سريين في هذه المنطقة. قُد بيرتون إليهم لطلب مساعدتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva05Subtitle",
+  "text": "*أخبار جيدة أيها الجنرال. في هذه المنطقة عدة عملاء سريين. اعثر عليهم لطلب مساعدتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva06Subtitle",
+  "text": "*أحسنت أيها الجنرال، تحررت هذه المنطقة من مثيري الشغب في جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva07Subtitle",
+  "text": "*أحسنت أيها الجنرال. أُمّنت هذه المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva08Subtitle",
+  "text": "*أيها الجنرال، هدفك النهائي تدمير قاعدة جيش التحرير العالمي في هذه المنطقة. مصدر تمويلك الرئيسي سيكون أبراج النفط. يجب أن تؤمّنها وتحميها!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva09Subtitle",
+  "text": "*أحسنت أيها الجنرال. نجحت مهمتك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva10Subtitle",
+  "text": "*أيها الجنرال، دعاية جيش التحرير العالمي تسمّم البلدة المحلية وأهلها يشنّون هجمات علينا. دمّر محطة إذاعة جيش التحرير العالمي لإخماد الانتفاضة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva11Subtitle",
+  "text": "*دمّر محطة إذاعة جيش التحرير العالمي في المدينة لإخماد الانتفاضة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva12Subtitle",
+  "text": "*أحسنت أيها الجنرال. دُمّرت آلة الدعاية لجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva13Subtitle",
+  "text": "*دمّر محطة إذاعة جيش التحرير العالمي في المدينة لإيقاف هجمات السيارات المفخخة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva14Subtitle",
+  "text": "*دمّر محطة إذاعة جيش التحرير العالمي في المدينة لإيقاف هجمات الشاحنات المفخخة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva15Subtitle",
+  "text": "*دمّر محطة إذاعة جيش التحرير العالمي في المدينة لإيقاف الهجمات الانتحارية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva16Subtitle",
+  "text": "*أيها الجنرال، في المنطقة عدة منصات مدفعية. استولِ عليها لتوفير نيران الإخماد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva17Subtitle",
+  "text": "*أيها الجنرال، في المنطقة منصة إصلاح. استولِ عليها للمساعدة في إصلاح مركباتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva18Subtitle",
+  "text": "*سيدي، ابنِ مزيدًا من الدفاعات للحماية من السيارات المفخخة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva19Subtitle",
+  "text": "*سيدي، بدأ العدو نشر شاحنات الرادار، يمكنها رصد مستكشفينا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva20Subtitle",
+  "text": "*سيدي، شاحنات رادار العدو تمشّط المنطقة بحثًا عن مستكشفينا... توخَّ الحذر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva21Subtitle",
+  "text": "*سيدي، يجب أن نبني منظومات باتريوت لمواجهة الشاحنات المفخخة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva22Subtitle",
+  "text": "*سيدي، إرهابيو العدو فعّالون جدًا. أقترح إرسال المستكشفين"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva23Subtitle",
+  "text": "*سيدي! نخسر وحدات بسبب فخاخ التفجير، أرجو أن تكون أكثر حذرًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva24Subtitle",
+  "text": "*أيها الجنرال، في المنطقة مصفاة نفط. استولِ عليها لتخفيض تكلفة المركبات"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva25Subtitle",
+  "text": "*سيدي، بدأ العدو مهاجمة حقول النفط"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva26Subtitle",
+  "text": "*تحذير: دُمّر برج نفط!\nبقي برج واحد فقط!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva27Subtitle",
+  "text": "*تحذير: دُمّر برج نفط!\nبقي 5 أبراج فقط"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva28Subtitle",
+  "text": "*تحذير: دُمّر برج نفط!\nبقي 10 أبراج فقط"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva29Subtitle",
+  "text": "*تحذير: دُمّر برج نفط!\nبقي 15 برجًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva30Subtitle",
+  "text": "*أيها الجنرال، احتياطياتنا المالية تنفد -- استولِ على أبراج النفط لتحصل على المال اللازم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva31Subtitle",
+  "text": "*تحذير: رُصدت عاصفة سكود!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva32Subtitle",
+  "text": "*أيها الجنرال! سقط العقيد بيرتون!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva33Subtitle",
+  "text": "*دُمّرت جميع أبراج النفط! فشلت مهمتك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva34Subtitle",
+  "text": "*دُمّرت قاعدتك! فشلت مهمتك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA04xEva35Subtitle",
+  "text": "*حظًا موفقًا يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat01Subtitle",
+  "text": "*قاعدتنا تتعرض للهجوم يا سيدي. بنوا شبكة أنفاق داخل قاعدتنا دون علمنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat02Subtitle",
+  "text": "*تلك الحافلات محمّلة بالأعداء يا سيدي! احذر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat03Subtitle",
+  "text": "*قاعدتنا تتعرض للهجوم يا سيدي. بنوا شبكة أنفاق داخل قاعدتنا دون علمنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat04Subtitle",
+  "text": "*نعرض عليك مساعدتنا لتخلّصنا من تاجر السموم هذا. هوسه سيقتلنا جميعًا ولا يمكن أن نسمح بذلك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat05Subtitle",
+  "text": "*الموت لشيطان الوباء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat06Subtitle",
+  "text": "*النجدة! هنا، أرجوك أطلق سراحي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xChat07Subtitle",
+  "text": "*شكرًا لإطلاق سراحي. انقلني إلى قاعدتي في الشرق وسأساعدك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xCin01Subtitle",
+  "text": "*ساتكوم A4 يؤكد موقع القاعدة. الصور تُرفع الآن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xCin02Subtitle",
+  "text": "*أيها الميدان، يرجى التحقق من حالة منشآت إنتاج السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xCin03Subtitle",
+  "text": "*إذن ننفّذ عند تقديم رمز الإذن النهائي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xCin04Subtitle",
+  "text": "*علم يا ألفا ويسكي إيكو، الطيور في الجو"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xCin05Subtitle",
+  "text": "*تأكّدت منشآت إنتاج السموم يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xCin06Subtitle",
+  "text": "*رمز الإذن: سييرا، هوتيل، أوسكار، تشارلي، كيلو"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva01Subtitle",
+  "text": "*اكتملت المرحلة الأولى من عمليتنا أيها الجنرال. نجحت ضربة صواريخ توماهوك في تدمير كل منشآت إنتاج السموم لجيش التحرير العالمي. لم يبقَ للقضاء عليه سوى قاعدته الرئيسية وصوامع صواريخ السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva02Subtitle",
+  "text": "*أيها الجنرال، تعقّبنا الدكتور ثراكس إلى هذا الموقع النائي. يمتلك صواريخ برؤوس كيميائية أعدّها للإطلاق. تدمير خزانات السموم أبطأه، لكن يجب أن نتقدم ونؤمّن تلك الصواريخ قبل إطلاقها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva03Subtitle",
+  "text": "*أيها الجنرال، تمكّن الدكتور ثراكس من تطوير كميات صغيرة من سمّه الجديد. تأكد أن قواتك في حالة تأهب قصوى"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva04Subtitle",
+  "text": "*أيها الجنرال، بسبب وجود المدنيين في هذا الموقع عليك استخدام القوات البرية لمهاجمة القاعدة الأخيرة والاستيلاء على مواقع صواريخ السموم الأربعة في المنطقة. نجاحنا في تحرير حقول النفط في أميس آباد وفّر لنا موارد إضافية لهذه العملية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva05Subtitle",
+  "text": "*يجب هزيمة الدكتور ثراكس كي لا يزرع مزيدًا من الرعب في العالم. أيها الجنرال، يجب أن توقفه"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva06Subtitle",
+  "text": "*تشير استخباراتنا إلى أن هذه أفضل منطقة لبناء قاعدتك. قد تكون الاضطرابات المحلية في صالحك. حظًا موفقًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva07Subtitle",
+  "text": "*أيها الجنرال، استجاب جيش التحرير العالمي المحلي لإنقاذك وسلّمنا السيطرة على قاعدته. يمكنك الآن استخدام قواته في هجومك"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva08Subtitle",
+  "text": "*أيها الجنرال، هدفك الرئيسي الاستيلاء على صوامع صواريخ السموم الأربع الموجهة نحو كبرى المدن الأمريكية قبل إطلاقها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva09Subtitle",
+  "text": "*أيها الجنرال، تشير عمليات المسح بالأشعة تحت الحمراء إلى أنهم يستعدون لإطلاق صواريخ السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva10Subtitle",
+  "text": "*إطلاق الصواريخ خلال 5 دقائق... يجب أن يبدأ هجومك الأخير الآن"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva11Subtitle",
+  "text": "*إطلاق الصواريخ خلال 4 دقائق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva12Subtitle",
+  "text": "*إطلاق الصواريخ خلال 3 دقائق"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva13Subtitle",
+  "text": "*إطلاق الصواريخ خلال دقيقتين"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva14Subtitle",
+  "text": "*إطلاق الصواريخ خلال دقيقة واحدة... يجب أن نتقدم الآن!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva15Subtitle",
+  "text": "*30 ثانية على إطلاق الصواريخ... كاد يفوت الأوان أيها الجنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva16Subtitle",
+  "text": "*10 ثوانٍ على إطلاق الصواريخ"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva17Subtitle",
+  "text": "*5... 4... 3... 2... 1... (شهقة) رُصد إطلاق صاروخ السموم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva18Subtitle",
+  "text": "*رُصد ارتطام صاروخ السموم وتأكدت المنطقة الملوثة. الإصابات لا تُحصى أيها الجنرال، لقد فشلنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva19Subtitle",
+  "text": "*استُولي على الصومعة الأولى وفريق إزالة التلوث في الطريق. تبقّى القليل أيها القائد"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva20Subtitle",
+  "text": "*عمل جيد يا سيدي. استُولي على الصومعة الثانية. بقيت اثنتان"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva21Subtitle",
+  "text": "*عمل جيد يا سيدي. استُولي على الصومعة الثالثة. بقيت واحدة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva22Subtitle",
+  "text": "*عمل رائع أيها الجنرال. أصبحنا نسيطر على صوامع صواريخ السموم الأربع. نجحت العملية"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva23Subtitle",
+  "text": "*تسرّب سموم، لديك دقيقتان لإرشاد المهندس البيولوجي إلى المنطقة الملوثة لتحييد الخطر"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva24Subtitle",
+  "text": "*حصلنا على الضوء الأخضر للعملية. شنّ الهجوم على القاعدة الطرفية لجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva25Subtitle",
+  "text": "*تقول الاستخبارات إن مواقع الصواريخ التي نبحث عنها في هذه المنطقة. توخَّ الحذر وتأكد من عدم إطلاق تلك السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva26Subtitle",
+  "text": "*لن تنجح المشاة هنا أيها الجنرال. يستخدم عدونا السموم في كل سلاح تقريبًا يرمينا به"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva27Subtitle",
+  "text": "*أيها الجنرال، هدفك الاستيلاء على هذه المنشأة لا تدميرها! إن تسربت تلك السموم فستتلوث المنطقة على مساحة 100 ميل مربع!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva28Subtitle",
+  "text": "*أيها الجنرال، تشير استخباراتنا إلى أننا إن استطعنا تسريب النابالم في تلك الخزانات إلى مخارج الأنفاق القريبة فسنُغرق شبكتهم كلها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva29Subtitle",
+  "text": "*تهانينا أيها الجنرال. لن يسمّم الدكتور ثراكس العالم باختراعاته بعد اليوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva30Subtitle",
+  "text": "*الآن وقد هُزم الدكتور ثراكس يمكننا أخيرًا إعادة شبابنا إلى الوطن. عمل جيد أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva31Subtitle",
+  "text": "*حصلنا على الضوء الأخضر لعملية ضربة النسر. شنّ الهجوم على منشآت إنتاج السموم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva32Subtitle",
+  "text": "*أيها الجنرال، أوامرك بناء قاعدة لمهاجمة جنرال السموم. حين تجهز قواتك استولِ على مواقع صواريخ السموم الأربعة للعدو قبل إطلاقها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva33Subtitle",
+  "text": "*أيها الجنرال، قررت قاعدة جيش التحرير العالمي في الشرق التمرد على جنرال السموم واستخدامه المفرط للسموم. يريدون مساعدتنا في هجومنا على الجنرال بوضع قاعدتهم تحت تصرفنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva34Subtitle",
+  "text": "*أيها الجنرال، اكتشف العدو وجودنا في قاعدته الرئيسية وبدأ الاستعداد لإطلاق صواريخ السموم. يُتوقع أن يتمكنوا من الإطلاق خلال 30 دقيقة تقريبًا. حدّدت الاستخبارات مواقع الصواريخ الأربعة وأظهرتها على شاشة الرادار"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xEva35Subtitle",
+  "text": "*أيها الجنرال، تشير الاستخبارات إلى وجود بعض الصواريخ في هذه المنطقة. احذر من إطلاق السموم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xThrax01Subtitle",
+  "text": "*لقد تأخرت أيها الكافر، بدأ الإطلاق ليطهّر أرضك بالوباء. هاهاهاها"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xThrax02Subtitle",
+  "text": "*خيانتك لم تمر دون أن يلاحظها أحد. ستحترق مع الكفار الذين تساعدهم الآن. لتنتفخ جِمال أبنائك بالوباء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA05xThrax03Subtitle",
+  "text": "*يدي طويلة والآن ستذوق غضبي! موتوا أيها الكلاب الكفار، موتوا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA06Crusader101Subtitle",
+  "text": "*رُصد العدو!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA06Crusader102Subtitle",
+  "text": "*مزيد من جيش التحرير العالمي. لقّموا الأسلحة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA06Crusader202Subtitle",
+  "text": "*إنهم متحصنون جيدًا! نحتاج إلى تعزيزات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA06Crusader206Subtitle",
+  "text": "*أوقفوا تلك الجرارات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA06Officer05Subtitle",
+  "text": "*ركّزوا نيرانكم يا رجال!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Crusader204Subtitle",
+  "text": "*اخترقنا نحو الشمال! أرسلوا التعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Crusader205Subtitle",
+  "text": "*إنهم في كل مكان!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Crusader301Subtitle",
+  "text": "*للعلم، سيارات مفخخة في المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Crusader303Subtitle",
+  "text": "*عبرنا الجسر. مشّطوا وطهّروا"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Crusader306Subtitle",
+  "text": "*النجدة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Officer01Subtitle",
+  "text": "*يجب أن نطهّر المنطقة! دمّروا كل شيء!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Officer02Subtitle",
+  "text": "*دمّروا كل ما ليس أمريكيًا. لا تتركوا شيئًا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA07Officer03Subtitle",
+  "text": "*علم يا دلتا اثنان. أوامرك الانسحاب. حوّل"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA08Chatter06Subtitle",
+  "text": "*هنا إيكو واحد يدخل المنطقة الساخنة. ليبقِ الجميع أعينهم مفتوحة"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA08Chatter10Subtitle",
+  "text": "*سيارة مفخخة! سيارة مفخخة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA08Chatter12Subtitle",
+  "text": "*سيارة مفخخة! أطلقوا النار!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA08Chatter14Subtitle",
+  "text": "*حسنًا يا شباب... هيا بنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA08Cin03Subtitle",
+  "text": "*يبدو أن جيش التحرير العالمي كله اصطف لنا اليوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSAChatter01Subtitle",
+  "text": "*اتخذوا التشكيل، الآن فورًا!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossChi001Subtitle",
+  "text": "*إذن قررت البقاء والوقوف في وجهي. ستندم على هذا القرار أيها الجنرال. استعد لنهايتك!"
+ }
+]

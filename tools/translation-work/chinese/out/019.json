@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileReadySubtitle",
+  "text": "*我们的核导弹已准备发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures01Subtitle",
+  "text": "*将军。注意不要摧毁民用建筑"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures02Subtitle",
+  "text": "*摧毁民用建筑会损害我们的国际舆论！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStatuesSubtitle",
+  "text": "*长官，摧毁 GLA 雕像可以提高国际舆论"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStructuresSubtitle",
+  "text": "*长官。摧毁敌方建筑会提高国际社会对我们的评价"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyTroopsSubtitle",
+  "text": "*消灭更多敌军以提高国际舆论"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionFallingSubtitle",
+  "text": "*我们的国际舆论正在下降！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowSubtitle",
+  "text": "*我们的国际舆论正在变低"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowCriticalSubtitle",
+  "text": "*我们的国际舆论低至危急！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowVerySubtitle",
+  "text": "*我们的国际舆论非常低"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionProtectCivilianSubtitle",
+  "text": "*保护平民财产免受伤害"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionRisingSubtitle",
+  "text": "*我们的国际舆论正在上升！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonDetectedAllySubtitle",
+  "text": "*我们的盟友建造了粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*我们的盟友正在使用粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*释放粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonReadySubtitle",
+  "text": "*我们的粒子加农炮已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*更多勇士前来援助我们"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormDetectedAllySubtitle",
+  "text": "*我们的盟友建造了飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedAllySubtitle",
+  "text": "*我们的盟友发射了飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedOursSubtitle",
+  "text": "*正在发射飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormReadySubtitle",
+  "text": "*我们现在可以使用飞毛腿风暴了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SelectTargetSubtitle",
+  "text": "*我们要攻击哪里？"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SneakAttackLaunchedSubtitle",
+  "text": "*将军，敌人正在使用偷袭"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UnitLostSubtitle",
+  "text": "*一名勇士倒下了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UpgradeCompleteSubtitle",
+  "text": "*升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VehicleStolenSubtitle",
+  "text": "*他们偷走了一辆载具"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VictorySubtitle",
+  "text": "*我们胜利了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_AllyUnderAttackSubtitle",
+  "text": "*我们的盟友遭到攻击"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BaseDefensesOffLineSubtitle",
+  "text": "*基地防御离线"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BeaconDetectedSubtitle",
+  "text": "*发现信标"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusEnemySubtitle",
+  "text": "*发现敌方黑莲花"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusOursSubtitle",
+  "text": "*我们的黑莲花已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingBeingCapturedSubtitle",
+  "text": "*我们的建筑正在被占领"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingDisabledSubtitle",
+  "text": "*建筑离线"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingEnabledSubtitle",
+  "text": "*建筑已恢复上线"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingStolenSubtitle",
+  "text": "*建筑被夺"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_CashStolenSubtitle",
+  "text": "*将军，他们在偷我们的钱"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonEnemySubtitle",
+  "text": "*发现敌方伯顿上校"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonOursSubtitle",
+  "text": "*我们的伯顿上校已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DefeatSubtitle",
+  "text": "*你被击败了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedNukeSubtitle",
+  "text": "*警告：发现核导弹发射井"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedParticleCannonSubtitle",
+  "text": "*警告：发现粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedScudStormSubtitle",
+  "text": "*警告：发现飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsReceivedSubtitle",
+  "text": "*我们收到了盟友的资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedSubtitle",
+  "text": "*你已向盟友请求资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedAllySubtitle",
+  "text": "*你的盟友正在请求资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsTransferredSubtitle",
+  "text": "*我们已向盟友转移资金"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GeneralLevelUpSubtitle",
+  "text": "*恭喜你，将军。你晋升了"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GPSScramblerLaunchedSubtitle",
+  "text": "*警告。发现 GPS 干扰器"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredEnemySubtitle",
+  "text": "*发现一名敌方英雄"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredOursSubtitle",
+  "text": "*我们的一名英雄已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingAnthraxSubtitle",
+  "text": "*发现炭疽炸弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingDaisyCutterSubtitle",
+  "text": "*发现雏菊剪炸弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingEmpPulseSubtitle",
+  "text": "*发现 EMP 电磁脉冲炸弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingFuelAirBombSubtitle",
+  "text": "*发现燃料空气炸弹"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_InsufficientFundsSubtitle",
+  "text": "*资金不足"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellEnemySubtitle",
+  "text": "*发现敌方贾曼·凯尔"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellOursSubtitle",
+  "text": "*我们的贾曼·凯尔已被发现"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaserDefenseSpeechSubtitle",
+  "text": "*将军，敌人在城市中央有一座要塞。他的激光防御系统威力巨大，但需要大量电力。他只能一次把电力集中到一个防御点上。好好利用这一点"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedNukeSubtitle",
+  "text": "*警告：核导弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedParticleCannonSubtitle",
+  "text": "*警告：粒子加农炮已启动"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedScudStormSubtitle",
+  "text": "*警告：飞毛腿风暴已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LowPowerSubtitle",
+  "text": "*电力不足"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileDetectedAllySubtitle",
+  "text": "*发现盟军核导弹发射井"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*盟军核导弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*核导弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileReadySubtitle",
+  "text": "*核导弹已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures01Subtitle",
+  "text": "*将军。注意不要摧毁民用建筑"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures02Subtitle",
+  "text": "*摧毁民用建筑会损害我们的国际舆论！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStatuesSubtitle",
+  "text": "*长官，摧毁 GLA 雕像可以提高国际舆论"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStructuresSubtitle",
+  "text": "*长官。摧毁敌方建筑会提高国际社会对我们的评价"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyTroopsSubtitle",
+  "text": "*消灭更多敌军以提高国际舆论"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionFallingSubtitle",
+  "text": "*我们的国际舆论正在下降！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowSubtitle",
+  "text": "*我们的国际舆论正在变低"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowCriticalSubtitle",
+  "text": "*我们的国际舆论低至危急！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowVerySubtitle",
+  "text": "*我们的国际舆论非常低"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionProtectCivilianSubtitle",
+  "text": "*保护平民财产免受伤害"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionRisingSubtitle",
+  "text": "*我们的国际舆论正在上升！"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonDetectedAllySubtitle",
+  "text": "*发现盟军粒子加农炮"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*盟军粒子加农炮已启动"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*粒子加农炮已启动"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonReadySubtitle",
+  "text": "*粒子加农炮已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*增援已抵达"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormDetectedAllySubtitle",
+  "text": "*发现盟军飞毛腿风暴"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedAllySubtitle",
+  "text": "*盟军飞毛腿风暴已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedOursSubtitle",
+  "text": "*飞毛腿风暴已发射"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormReadySubtitle",
+  "text": "*飞毛腿风暴已就绪"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SelectTargetSubtitle",
+  "text": "*选择目标"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SneakAttackLaunchedSubtitle",
+  "text": "*警告。发现偷袭"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UnitLostSubtitle",
+  "text": "*单位损失"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeCompleteSubtitle",
+  "text": "*升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodSubtitle",
+  "text": "*控制棒升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodAdvancedSubtitle",
+  "text": "*高级控制棒升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeMoabSubtitle",
+  "text": "*MOAB 升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeSentryDroneSubtitle",
+  "text": "*哨兵无人机升级完成"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VehicleStolenSubtitle",
+  "text": "*载具被偷"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VictorySubtitle",
+  "text": "*你胜利了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf01Subtitle",
+  "text": "*将军，GLA 在这一地区击败了美军。我们发动了毁灭性的反击，但他们像蟑螂一样还活着"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf02Subtitle",
+  "text": "*就在此刻，GLA 的幸存者正在重建"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf03Subtitle",
+  "text": "*要彻底消灭 GLA，我们必须派出部队，把他们从每一个藏身的阴暗角落里揪出来"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf04Subtitle",
+  "text": "*将军，我们新的监听站已部署在该地区，听候你的调遣"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf05Subtitle",
+  "text": "*监听站本身没有武装，但乘员可以向靠得太近的敌人开火。它超远的视野和隐形能力将大大提高你对战场的掌控"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat01Subtitle",
+  "text": "*没有一个 GLA 能溜过我们的驻军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat02Subtitle",
+  "text": "*毒素拖拉机！他们想毒死我们所有人……我们需要支援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat03Subtitle",
+  "text": "*看……油井……我们要占领它们吗？"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat04Subtitle",
+  "text": "*家里有 GLA？来点火……GLA 就没了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat05Subtitle",
+  "text": "*GLA 正在那边重建……准备进攻"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat06Subtitle",
+  "text": "*今天我们必胜……全体前进"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01aSubtitle",
+  "text": "*我没想到美国会这么轻易被击败"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01bSubtitle",
+  "text": "*我不明白美国为什么会让这种事发生"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01cSubtitle",
+  "text": "*绝不能容忍这种局面。中国会拨乱反正"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01dSubtitle",
+  "text": "*GLA 背信弃义地利用我们的资源对付美国人，让中国颜面尽失。他们必须为自己的傲慢付出代价"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin02Subtitle",
+  "text": "*导弹已准备就绪……最终倒计时开始"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin03Subtitle",
+  "text": "*3……2……1……导弹已发射"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin04Subtitle",
+  "text": "*他们以为自己赢了，但他们高兴得太早了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin05Subtitle",
+  "text": "*用在正确的地方时，它还是挺美的"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin06Subtitle",
+  "text": "*GLA 幸存者正逃进城里躲避……必须阻止他们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin07Subtitle",
+  "text": "*我们已就位……弹舱门打开"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin08Subtitle",
+  "text": "*我们发现了幸存者。需要发动地面进攻"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO01Subtitle",
+  "text": "*将军，我们在该地区的旧基地已被 GLA 攻占。你需要先建造一座新基地才能与敌人交战"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO02Subtitle",
+  "text": "*我建议你派兵进驻附近的几栋建筑，保卫我们的基地"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO03Subtitle",
+  "text": "*将军，GLA 在镇上的几栋建筑里驻守了部队。也许你可以用龙坦克清除这些据点"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO04Subtitle",
+  "text": "*将军，GLA 正把毒素拖拉机开向我们驻守的建筑。如果那些拖拉机攻击这些建筑，里面的所有人都会被消灭"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO05Subtitle",
+  "text": "*GLA 正利用这些油井为他们的部队提供资金。我们的红卫兵可以占领这些油井。所得收益将帮助我们击败 GLA"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO06Subtitle",
+  "text": "*将军，摧毁这些油井明智吗？它们能为我们提供宝贵的资源。我们的红卫兵可以占领它们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO07Subtitle",
+  "text": "*你打了他们一个措手不及，将军。你的红卫兵可以在他们反应过来之前占领他们的建筑"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO08Subtitle",
+  "text": "*既然你已重建了我们的作战基地，是时候铲除该地区所有残余的 GLA 部队了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO09Subtitle",
+  "text": "*恭喜你，将军。你已把 GLA 部队全部赶出了小镇。一旦消灭他们最后的基地，你的任务就完成了"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi02Lin13Subtitle",
+  "text": "*恐怖威胁已经解除。干得好，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01Subtitle",
+  "text": "*将军，GLA 企图偷走储存在这座设施里的核弹头"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01aSubtitle",
+  "text": "*将军，GLA 企图摧毁我们的主核电站"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf02Subtitle",
+  "text": "*我们勇敢的士兵击退了他们的进攻，但代价惨重，而且 GLA 仍在外面"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03Subtitle",
+  "text": "*你必须挡住 GLA，确保我们的每一座碉堡都得到保护"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03aSubtitle",
+  "text": "*你必须挡住 GLA，确保设施不被摧毁"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf04Subtitle",
+  "text": "*我们有几项新技术，对你的任务会大有帮助，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf05Subtitle",
+  "text": "*我们的核弹炮现已升级，可以发射中子炮弹。这种新炮弹能有效消灭士兵和载具驾驶员。辐射消散后，我们的步兵就能夺取幸存的载具"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf06Subtitle",
+  "text": "*我们的建筑现在可以升级中子地雷。它们对步兵依然有效，还能暂时瘫痪敌方载具"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07aSubtitle",
+  "text": "*将军，你的增援将在 15 分钟后抵达"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07bSubtitle",
+  "text": "*将军，你的增援将在 10 分钟后抵达"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07cSubtitle",
+  "text": "*将军，你的增援将在 5 分钟后抵达"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07dSubtitle",
+  "text": "*将军，你的增援即将抵达"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat01Subtitle",
+  "text": "*发现敌军。我们会挡住他们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat02Subtitle",
+  "text": "*我们的右翼遭到攻击……这里需要支援"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat03Subtitle",
+  "text": "*他们在我们后面……所有火力转向南方！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat04Subtitle",
+  "text": "*GLA 基地进入射程……所有小队准备进攻，将军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat05Subtitle",
+  "text": "*山脊上有敌方建筑。一声令下，将军，我们就碾过去"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat06Subtitle",
+  "text": "*小心那些火箭兵！我们需要帮助！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat07Subtitle",
+  "text": "*将军，我们已到达目标区域上空，开始轰炸"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat08Subtitle",
+  "text": "*铺地毯啦……炸弹地毯。嘿嘿"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat09Subtitle",
+  "text": "*这里敌人的防空火力很密集……我们损伤严重"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat10Subtitle",
+  "text": "*毒刺导弹阵地锁定了我们……我们有麻烦了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat11Subtitle",
+  "text": "*拦住那个叛军，他想占领我们的碉堡！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat12Subtitle",
+  "text": "*虽然不是战斗大师，但也只能将就了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat13Subtitle",
+  "text": "*我还是喜欢我的加特林坦克"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat14Subtitle",
+  "text": "*又一波 GLA！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15Subtitle",
+  "text": "*我们必须保护碉堡！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15aSubtitle",
+  "text": "*我们必须保护核反应堆！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat16Subtitle",
+  "text": "*现在让他们看看怎么进攻基地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat17Subtitle",
+  "text": "*增援！见到你们真高兴！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat18Subtitle",
+  "text": "*我们准备好听候命令了，将军。需要我们去哪里？"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01Subtitle",
+  "text": "*我们必须保持警惕。有报告说 GLA 可能会因我们参战而发动报复"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01aSubtitle",
+  "text": "*守着这座核电站让我觉得不安全"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01bSubtitle",
+  "text": "*是啊。真希望我当初参加的是空军"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01dSubtitle",
+  "text": "*我们刚打了胜仗，他们肯定不敢来这里攻击我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01cSubtitle",
+  "text": "*他们的伙食好多了。还能戴那种神气的头盔"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin02Subtitle",
+  "text": "*GLA 部队！我们遭到攻击！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin03Subtitle",
+  "text": "*到处都是他们！我们快顶不住了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04Subtitle",
+  "text": "*又一波！我们需要增援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04aSubtitle",
+  "text": "*又一波！他们有炸弹卡车和恐怖分子！我们需要增援！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04bSubtitle",
+  "text": "*又一波！他们在用自杀战术！增援到底在哪儿？！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin05Subtitle",
+  "text": "*我们失去了机场！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06Subtitle",
+  "text": "*他们想冲到储存碉堡！不惜一切代价保护它们！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06aSubtitle",
+  "text": "*他们想冲到主反应堆！不惜一切代价保护它！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin07Subtitle",
+  "text": "*指挥中心……他们攻下了指挥中心"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin08Subtitle",
+  "text": "*我们守住了……剩余部队报告情况"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin09Subtitle",
+  "text": "*剩下的不多了。我们需要增援"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin10Subtitle",
+  "text": "*消息传出去了，但在他们赶到之前我们必须坚守"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO01Subtitle",
+  "text": "*将军，我们的增援到了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02Subtitle",
+  "text": "*将军，GLA 部队正在攻击碉堡"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02aSubtitle",
+  "text": "*将军，GLA 部队正在攻击核电站！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO03Subtitle",
+  "text": "*GLA 企图占领我们的一座碉堡"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04Subtitle",
+  "text": "*将军，这座碉堡损坏严重。我建议在 GLA 再次进攻前修好它"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04aSubtitle",
+  "text": "*将军，我们的核电站损坏严重。我建议在 GLA 再次进攻前修好它"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05Subtitle",
+  "text": "*将军，刚才的攻击严重削弱了几座碉堡。只要其中一座被摧毁，GLA 就会赢得这场交锋"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05aSubtitle",
+  "text": "*将军，刚才的攻击严重削弱了核电站。如果它被摧毁，我们的任务就会失败！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06Subtitle",
+  "text": "*警告……GLA 部队正向碉堡移动"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06aSubtitle",
+  "text": "*警告……GLA 部队正向发电站移动！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO07Subtitle",
+  "text": "*将军，我联系上了我们的一个间谍哨所。他们正遭到 GLA 攻击。如果能救下他们，我就能接入他们的系统，我们就可以呼叫地毯式轰炸机"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO08Subtitle",
+  "text": "*将军，如果你能控制那个间谍哨所，就能指挥地毯式轰炸机轰炸 GLA 部队"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO09Subtitle",
+  "text": "*将军，既然增援已到，是时候把 GLA 从这一地区清除出去了"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat12Subtitle",
+  "text": "*投入战斗！"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat19Subtitle",
+  "text": "*派坦克上！把他们夷为平地！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf01Subtitle",
+  "text": "*你好，指挥官。既然我们已挫败了 GLA 的反击，是时候乘胜追击了！"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf02Subtitle",
+  "text": "*我们必须把这座小镇从 GLA 的魔爪中解放出来"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf03Subtitle",
+  "text": "*河北岸有一座防守极为严密的 GLA 基地。我们必须摧毁它，但这不会是件容易的事"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf04Subtitle",
+  "text": "*我们的行动引起了全世界的广泛关注，我们会受到严密监视。这场战斗持续越久，我们的国际舆论就会越低"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf05Subtitle",
+  "text": "*必须避免损坏平民财产。我们的行动必须精准而迅速。消灭 GLA 部队会让国际舆论向有利于我们的方向提升"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf09Subtitle",
+  "text": "*如果我们的国际舆论足够高，镇上的人民也许会加入我们"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf10Subtitle",
+  "text": "*那样消灭 GLA 的防御就易如反掌了"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat01Subtitle",
+  "text": "*他们一定在附近有一个伪装的地道网"
+ }
+]

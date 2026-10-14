@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Demo078Subtitle",
+  "text": "*خواهش می‌کنم، ژنرال، چیزی را که من می‌توانم برایت نابود کنم نفروش"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo079Subtitle",
+  "text": "*ژنرال، منصفانه بازی نمی‌کنی. حالا برو پایت را روی چند تله بگذار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo080Subtitle",
+  "text": "*فوق‌العاده خوش‌شانسی، ژنرال، ولی نمی‌توانی تا ابد از تله‌های انفجاری‌ام فرار کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo081Subtitle",
+  "text": "*هیچ‌کس تله‌هایم را شکست نداده، ژنرال، و تو هم اولی نخواهی بود... خواهی دید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo082Subtitle",
+  "text": "*فکر می‌کنی داری شکستم می‌دهی، ژنرال؟ این در یک چشم به هم زدن عوض می‌شود... من منصفانه نمی‌جنگم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo083Subtitle",
+  "text": "*شاید شکستم داده باشی، ژنرال، ولی دث‌استرایک انتقامم را می‌گیرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo084Subtitle",
+  "text": "*ها ها! نیروهایت در تله‌هایم می‌افتند، ژنرال. به‌زودی همه‌شان از بین می‌روند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo085Subtitle",
+  "text": "*داری می‌بازی، ژنرال. تاکتیک‌هایم از فهم تو خارج است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo086Subtitle",
+  "text": "*هرگز شکستم نمی‌دهی، ژنرال. پیش از آنکه آسیب ببینی برو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo087Subtitle",
+  "text": "*این همه مواد منفجره برایم مانده... متأسفانه بیشتر از نیروهایی که تو داری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo088Subtitle",
+  "text": "*باختی، ژنرال. حیف شد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo089Subtitle",
+  "text": "*دقیقاً همان چیزی را دارم که لازم است. برویم جنگ راه بیندازیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo090Subtitle",
+  "text": "*کارشناس تخریب: چه کمکی از دستم برمی‌آید؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo091Subtitle",
+  "text": "*یعنی می‌شود آن دکمه را برای انفجار سیم‌کشی کرد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo092Subtitle",
+  "text": "*بفرما، ژنرال... وارد میدان نبرد من شو... ولی حواست باشد پایت را کجا می‌گذاری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo093Subtitle",
+  "text": "*این بار خوش‌شانس بودی، ژنرال. دیگر هرگز نمی‌توانی شکستم بدهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo094Subtitle",
+  "text": "*برای این نوع جنگ آماده نبودی. اگر جرئتش را داری دوباره امتحان کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo095Subtitle",
+  "text": "*این هم میدان نبرد... باز... دست‌نخورده از جنگ... لوحی سفید برای... کوچولوی ما"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo096Subtitle",
+  "text": "*حالا این تله‌های انفجاری از کجا پیدایشان شد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo097Subtitle",
+  "text": "*شاید چند برگ برنده در آستینم پنهان کرده باشم، ولی از من انتظاری کمتر داشتی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger001Subtitle",
+  "text": "*هی، ژنرال، تا حالا یک رپتور را از نزدیک دیده‌ای؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger002Subtitle",
+  "text": "*هی، ژنرال، آن جنگنده رادارگریز را دیدی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger003Subtitle",
+  "text": "*پرنده‌ها پرواز کردند! برویم چند تا بولدوزر شکار کنیم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger004Subtitle",
+  "text": "*دیگر بازی با تو بس است، ژنرال. (خطاب به نیروهای خودش) همه حمله کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger005Subtitle",
+  "text": "*اینو نگاه کن... هزینه‌های نظامی آمریکا در بهترین حالتش"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger006Subtitle",
+  "text": "*(آواز می‌خواند... بد) ...و شراره سرخ موشک‌ها، بمب‌هایی که در آسمان می‌ترکند..."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger007Subtitle",
+  "text": "*باران وحشت در راه است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger008Subtitle",
+  "text": "*از «شوک و وحشت» لذت می‌بری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger009Subtitle",
+  "text": "*مرگ از آسمان!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger010Subtitle",
+  "text": "*منصفانه به نظر نمی‌رسد، نه، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger011Subtitle",
+  "text": "*وقتشه دروازه‌بان را هم بفرستیم جلو. همه حمله!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger012Subtitle",
+  "text": "*بمب‌ها رها شد!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger013Subtitle",
+  "text": "*آن بیرون خیلی ساکت است... نکند رفته باشی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger014Subtitle",
+  "text": "*نگران نباش، ژنرال، این فقط آرامش پیش از طوفان است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger015Subtitle",
+  "text": "*اگر جای تو بودم از این وقفه برای بازسازی دفاع‌هایم استفاده می‌کردم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger016Subtitle",
+  "text": "*هیس... شنیدی؟ نگران نباش، احتمالاً چیزی نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger017Subtitle",
+  "text": "*ببخشید، ژنرال، داریم ناهار می‌خوریم... یک دقیقه دیگر در خدمتیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger018Subtitle",
+  "text": "*مجبورم کردی از تانک استفاده کنم... از تانک متنفرم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger019Subtitle",
+  "text": "*در رد شدن از رودخانه مشکل داری، ژنرال؟ برسانمت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger020Subtitle",
+  "text": "*ترسوها! قایم نشوید و بجنگید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger021Subtitle",
+  "text": "*پنهان‌کاری نجاتت نمی‌دهد، ژنرال؛ پیدایت می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger022Subtitle",
+  "text": "*آخ، این یکی حتماً گران تمام شد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger023Subtitle",
+  "text": "*هه، حالا کجا می‌خواهی نیروهایت را آموزش بدهی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger024Subtitle",
+  "text": "*در نگه داشتن آن دفاع‌ها مشکل داری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger025Subtitle",
+  "text": "*کلی ساختمان از دست دادی، ژنرال؛ حالا قصد داری فحش بدهی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger026Subtitle",
+  "text": "*بولدوزرها، تعمیر ساختمان‌هایمان را شروع کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger027Subtitle",
+  "text": "*تلافی‌اش را سرت درمی‌آورم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger028Subtitle",
+  "text": "*از نابود کردن آن فرودگاه پشیمان می‌شوی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger029Subtitle",
+  "text": "*بولدوزرها، دفاع‌هایمان را دوباره بسازید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger030Subtitle",
+  "text": "*ژنرال گرینجر به ناو هواپیمابر المپیا: نیروی کمکی بفرستید... تکرار می‌کنم: نیروی کمکی بفرستید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger031Subtitle",
+  "text": "*به مرکز فرماندهی حمله می‌کنند! همه نیروها، دوباره جمع شوید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger032Subtitle",
+  "text": "*از اینکه هواپیماهایم را می‌زنی خوشم نمی‌آید، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger033Subtitle",
+  "text": "*دارند دکل‌های نفتمان را تصرف می‌کنند! رنجرها، بروید بیرون و پسشان بگیرید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger034Subtitle",
+  "text": "*از پایگاه ما برو بیرون!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger035Subtitle",
+  "text": "*از حریم هوایی من برو بیرون، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger036Subtitle",
+  "text": "*دشمن در محدوده ماست! همه هواپیماها به پایگاه برگردند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger037Subtitle",
+  "text": "*نیروهای زمینی، از فرودگاه‌ها دفاع کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger038Subtitle",
+  "text": "*که تدارکات مرا نمی‌دزدی، ژنرال، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger039Subtitle",
+  "text": "*دارند از در پشتی می‌آیند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger040Subtitle",
+  "text": "*در روستا قایم شدی، ها. این تاکتیک ترسوهاست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger041Subtitle",
+  "text": "*دیگر قایم نشو، ژنرال. مجبورم نکن بیایم سراغت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger042Subtitle",
+  "text": "*پشت دروازه شرقی‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger043Subtitle",
+  "text": "*از ضلع شرقی دفاع کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger044Subtitle",
+  "text": "*نیروهای دشمن به دروازه غربی نزدیک می‌شوند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger045Subtitle",
+  "text": "*همه نیروها به دروازه غربی!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger046Subtitle",
+  "text": "*در نگه داشتن برقت مشکل داری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger047Subtitle",
+  "text": "*اوه، برقت رفت... بمب‌ها در راه‌اند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger048Subtitle",
+  "text": "*منابعت ته کشید، ژنرال؟ می‌خواهی کمی قرض بگیری؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger049Subtitle",
+  "text": "*هی، ژنرال، چطور است این یکی را مساوی اعلام کنیم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger050Subtitle",
+  "text": "*شاید این نبرد را برده باشی، ژنرال، ولی جنگ هنوز خیلی مانده تا تمام شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger051Subtitle",
+  "text": "*خب، طوفان اسکاد ساختی. فکر می‌کنی می‌توانی از آن دفاع کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger052Subtitle",
+  "text": "*هوم، این همه پدافند هوایی، ژنرال... فکر می‌کنی برای آرام کردن ترست کافی است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger053Subtitle",
+  "text": "*تانک‌هایت حریف هواپیماهای من نیستند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger054Subtitle",
+  "text": "*سیاه‌زخم! همه پناه بگیرید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger055Subtitle",
+  "text": "*هر قدر ساختمان می‌خواهی سنگر بگیر، ژنرال... فایده‌ای ندارد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger056Subtitle",
+  "text": "*چقدر دیگر از این را می‌توانی تحمل کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger057Subtitle",
+  "text": "*هنوز آماده تسلیم نیستی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger058Subtitle",
+  "text": "*به اندازه کافی نیرو از دست نداده‌ای، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger059Subtitle",
+  "text": "*این نبرد تمام است، ژنرال... تسلیم شو یا برای مرگ آماده باش!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger060Subtitle",
+  "text": "*تسلیم نمی‌شوی، ها؟ حیف شد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger061Subtitle",
+  "text": "*بمب‌ها رها شد، جوجه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger062Subtitle",
+  "text": "*بیا جلو، ژنرال... معنی «مرگ از آسمان» را نشانت می‌دهم."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger063Subtitle",
+  "text": "*انفجار صوتی، عزیزم. بزن بریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger064Subtitle",
+  "text": "*فکر کنم وقتش رسیده بروم یک شغل خوب در یک شرکت هواپیمایی پیدا کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger065Subtitle",
+  "text": "*من بردم... تو باختی. دیگر چه بگویم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger066Subtitle",
+  "text": "*اطلاع داده می‌شود: این منطقه تحت کنترل ژنرال نیروی هوایی، مالکوم گرینجر، است. همین حالا عقب بکشید یا آماده باشید با بمباران به عصر حجر برگردید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger067Subtitle",
+  "text": "*ژنرال، تو حریف من نیستی... آسمان مال من است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger068Subtitle",
+  "text": "*آسمان را تماشا کن، ژنرال؛ می‌خواهیم نمایش هوایی راه بیندازیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger069Subtitle",
+  "text": "*می‌خواهی دوباره ببینی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger070Subtitle",
+  "text": "*چه آماده باشی چه نباشی، دارم می‌آیم!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger071Subtitle",
+  "text": "*ناراحت نمی‌شوی اگر سری بزنیم و از آسمان بپریم پایین، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger072Subtitle",
+  "text": "*این دومین فرودگاهم بود که زدی، ژنرال. کم‌کم دارم عصبانی می‌شوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger073Subtitle",
+  "text": "*لعنت به تو، ژنرال. اگر یک فرودگاه دیگر را بزنی شخصاً می‌آیم سراغت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger074Subtitle",
+  "text": "*این آخرین فرودگاهی است که امروز نابود می‌کنی. (خطاب به نیروهای خودش) نیروها، مرکز فرماندهی‌شان را هدف بگیرید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger075Subtitle",
+  "text": "*باورم نمی‌شود شکستم دادی، ژنرال. به تاکتیک‌های برترت ادای احترام می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger076Subtitle",
+  "text": "*به نظر این بار شکستم دادی، ژنرال، ولی روزی دوباره روبه‌رو می‌شویم و آن‌وقت این‌قدر مهربان نخواهم بود چون..."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger077Subtitle",
+  "text": "*فکر کردم هیچ‌وقت ساکت نمی‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger078Subtitle",
+  "text": "*فکر که نمی‌کنی بگذارم آن طوفان اسکاد را نگه داری، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger079Subtitle",
+  "text": "*یک طوفان اسکاد دیگر؟ فکر کنم وقتش رسیده یک درجه شدیدترش کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger080Subtitle",
+  "text": "*خلبان‌ها، مراقب آن سایت‌های استینگر باشید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger081Subtitle",
+  "text": "*این همه رنجر... این‌قدر کم ساختمان برای تصرف"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger082Subtitle",
+  "text": "*ژنرال، می‌دانی بمب سوخت-هوا چطور کار می‌کند؟ یک نمایش عملی چطور است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger083Subtitle",
+  "text": "*به مهمانی خوش آمدی، سرهنگ برتون. حالا دیگر کارت ساخته است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger084Subtitle",
+  "text": "*می‌دانی چطور می‌شود جلوی یک A-10 را گرفت، ژنرال؟ من هم نمی‌دانم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger085Subtitle",
+  "text": "*هی، می‌خواهی بمب سنگرشکن جدیدمان را ببینی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger086Subtitle",
+  "text": "*توپخانه! فکر می‌کنی می‌توانی با توپخانه به من حمله کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger087Subtitle",
+  "text": "*می‌دانی که آن پرتابگر اسکاد هیچ‌وقت به پایگاهم نمی‌رسد، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger088Subtitle",
+  "text": "*صبر کنید، این کامیون بمب است! همه مراقب باشید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger089Subtitle",
+  "text": "*مجبورم کردی از تانک استفاده کنم... از تانک متنفرم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger090Subtitle",
+  "text": "*در رد شدن از رودخانه مشکل داری، ژنرال؟ برسانمت؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger091Subtitle",
+  "text": "*ترسوها! قایم نشوید و بجنگید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger092Subtitle",
+  "text": "*پنهان‌کاری نجاتت نمی‌دهد، ژنرال؛ پیدایت می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger093Subtitle",
+  "text": "*هوم، این همه پدافند هوایی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry001Subtitle",
+  "text": "*پس این‌جا قایم شده‌ای، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry002Subtitle",
+  "text": "*<با طعنه> غافلگیر شدی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry003Subtitle",
+  "text": "*(پیاده‌نظام چینی کشته می‌شوند) <با صدای خشمگین> یک میلیارد دیگر هم هست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry004Subtitle",
+  "text": "*(چترنشینی) مثل دسته ملخ از آسمان فرود می‌آیند تا هر که را در برابر چین ایستاده ببلعند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry005Subtitle",
+  "text": "*تا حالا هک شده‌ای، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry006Subtitle",
+  "text": "*<فریاد> قدم‌رو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry007Subtitle",
+  "text": "*سپر خوبی هم می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry008Subtitle",
+  "text": "*یک توصیه، ژنرال: تسلیم شو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry009Subtitle",
+  "text": "*نگران نباش، ژنرال، ما اسیر نمی‌گیریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry010Subtitle",
+  "text": "*لشکر را رها کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry011Subtitle",
+  "text": "*اشکالی ندارد، ژنرال، پرچم خودمان را برای پایگاهت آورده‌ایم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry012Subtitle",
+  "text": "*به‌زودی تنها چیزی که مردانت می‌بینند پوتین‌هایی است که از رویشان رژه می‌روند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry013Subtitle",
+  "text": "*حمله!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry014Subtitle",
+  "text": "*مرگ بر همه مخالفان ما!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry015Subtitle",
+  "text": "*می‌دانی سیر کردن یک لشکر چقدر سخت است، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry016Subtitle",
+  "text": "*آن‌قدر مرد دارم که رژه راه بیندازم. می‌شود در پایگاه تو برگزارش کنیم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry017Subtitle",
+  "text": "*هنوز این‌جایی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry018Subtitle",
+  "text": "*می‌خواهی همین‌جا بنشینی و منتظر بمانی زیر دست و پا بروی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry019Subtitle",
+  "text": "*منابعت دارد ته می‌کشد، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry020Subtitle",
+  "text": "*ساختن آن نیروی تانک کوچولویت چقدر طول می‌کشد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry021Subtitle",
+  "text": "*<با طعنه> حالا با کدام تاکتیک شگفت‌زده‌ام می‌کنی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry022Subtitle",
+  "text": "*این نمی‌تواند بهترین کار تو باشد، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry023Subtitle",
+  "text": "*تا این‌جا که تحت تأثیر قرار نگرفته‌ام، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry024Subtitle",
+  "text": "*برای این چالش آماده نبودی، بودی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry025Subtitle",
+  "text": "*آن‌قدر مرد دارم که بدون شلیک یک گلوله له‌ات کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry026Subtitle",
+  "text": "*داریم می‌آییم سراغت، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry027Subtitle",
+  "text": "*آخی... ساختمان فناوری کوچولویت را انداختیم. اوهو اوهو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry028Subtitle",
+  "text": "*حالا سربازخانه‌ات هم رفت. بدون مرد چطور می‌جنگی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry029Subtitle",
+  "text": "*بدون کارخانه جنگ باید تن به تن با من بجنگی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry030Subtitle",
+  "text": "*دیگر هواپیما نداری. بیا روی زمین و مردانه بجنگ"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry031Subtitle",
+  "text": "*مردانم درست از میان دفاع‌های پایگاهت رژه می‌روند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry032Subtitle",
+  "text": "*جایی که روزی مرکز فرماندهی‌ات بود حالا فقط زمینی خالی است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry033Subtitle",
+  "text": "*مردان زیادی از دست دادم، ژنرال، ولی بهایی که ساختمان‌هایت دادند ارزشش را داشت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry034Subtitle",
+  "text": "*به ساختمان‌های فناوری‌ام کاری نداشته باش، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry035Subtitle",
+  "text": "*نه! سربازخانه‌ام نه! یکی دیگر می‌سازیم، ژنرال... آن‌وقت تاوانش را می‌دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry036Subtitle",
+  "text": "*کارخانه جنگم برای پیروزی‌ام ضروری نیست، ولی یکی دیگر را نابود نکن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry037Subtitle",
+  "text": "*فرودگاهم را نابود کردی! این دارد آزاردهنده می‌شود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry038Subtitle",
+  "text": "*هر قدر دفاع پایگاه می‌خواهی نابود کن... به‌هرحال فقط برای کند کردنت آن‌جا بودند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry039Subtitle",
+  "text": "*ساختمان‌های زیادی از من گرفتی، ژنرال. مردانم برای وصول طلب می‌آیند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry040Subtitle",
+  "text": "*نههه! مرکز فرماندهی‌ام را نابود کردند! بگیریدشان! از من دورشان کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry041Subtitle",
+  "text": "*هر قدر هواپیما می‌خواهی بزن، ژنرال... بیشتر می‌سازیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry042Subtitle",
+  "text": "*خودروهایم سیبل تمرین تو نیستند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry043Subtitle",
+  "text": "*در ارتشم خیلی‌های دیگر آماده‌اند برای چین فدا شوند، ژنرال. جلویمان را نمی‌گیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry044Subtitle",
+  "text": "*می‌بینم دکل نفتم را تصرف کرده‌ای، ژنرال. حالا می‌آییم نفت چین را پس بگیریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry045Subtitle",
+  "text": "*آن سکوی توپخانه قدیمی نابود شده، ژنرال؛ هرگز راهش نمی‌اندازی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry046Subtitle",
+  "text": "*فکر می‌کنی آن پالایشگاه نفت همین‌طوری آن‌جاست تا هر کس خواست استفاده کند؟ همین حالا پالایشگاه را به من برگردان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry047Subtitle",
+  "text": "*یک قدم دیگر به پایگاهم نزدیک شوی لشکر را به جانت می‌اندازم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry048Subtitle",
+  "text": "*هشدار می‌دهم، ژنرال، از پایگاهم دور شو. می‌دانی صد مرد با یک تانک چه می‌کنند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry049Subtitle",
+  "text": "*در پایگاه ما هستند! بکشیدشان! بیرونشان کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry050Subtitle",
+  "text": "*زیادی نزدیک شده‌اند! از من محافظت کنید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry051Subtitle",
+  "text": "*ژنرال، از منابعم دور شو... مردانم لازمشان دارند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry052Subtitle",
+  "text": "*ژنرال، سعی نکن پایگاهم را از جناح دور بزنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry053Subtitle",
+  "text": "*حمله از در پشتی کمکی به تو نمی‌کند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry054Subtitle",
+  "text": "*حمله به جلوی پایگاهم حماقت است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry055Subtitle",
+  "text": "*آن‌ها ساختمان‌های فناوری من‌اند، ژنرال. دور بمان"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry056Subtitle",
+  "text": "*از ساختمان‌هایم برو بیرون، ژنرال!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry057Subtitle",
+  "text": "*رد شدن از آن پل اشتباه است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry058Subtitle",
+  "text": "*برقت تمام شد، ژنرال... دفاع‌هایت از کار افتاده و مردانم به‌زودی هجوم می‌آورند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry059Subtitle",
+  "text": "*بدون برق هرگز جلوی لشکرم را نمی‌گیری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry060Subtitle",
+  "text": "*همه منابعت را در جنگ با مردانم هدر دادی... ولی من هنوز مرد بیشتری دارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry061Subtitle",
+  "text": "*منابعمان تمام شده! چطور این اتفاق افتاد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry062Subtitle",
+  "text": "*طوفان اسکادت را بساز... فقط چند نفر از مردانم را می‌زند... بقیه نابودت می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry063Subtitle",
+  "text": "*فکر می‌کردم موشک هسته‌ای ممنوع است! این اصلاً منصفانه نیست، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry064Subtitle",
+  "text": "*آن توپ ذره‌ای در برابر لشکرم بی‌فایده است!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry065Subtitle",
+  "text": "*آره، بهتر است دفاع پایگاه بیشتری بسازی... دست‌کم می‌توانی جلوی موج اول لشکر مهاجم را بگیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry066Subtitle",
+  "text": "*ترسو! می‌دانی که تانک‌هایت نمی‌توانند مردانم را له کنند، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry067Subtitle",
+  "text": "*این همه هواپیما... مهم نیست، لشکرم هواپیماهایت را هم پایین می‌آورد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry068Subtitle",
+  "text": "*لشکر خودت را بسیج می‌کنی؟! برای رسیدن به قدرت من مردان خیلی بیشتری لازم داری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry069Subtitle",
+  "text": "*پایگاهت زیادی بزرگ شده، ژنرال. وقت آن است که مردانم سری بزنند و چند تایش را برای چین تصرف کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry070Subtitle",
+  "text": "*طوفان اسکاد! پراکنده شوید!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry071Subtitle",
+  "text": "*موشک هسته‌ای نزدیک می‌شود! فرار کنید! مرا از این‌جا ببرید بیرون!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry072Subtitle",
+  "text": "*اوه، ببین چه نورپردازی قشنگی. با این سلاح پیش‌پاافتاده امید داری به چه برسی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry073Subtitle",
+  "text": "*از آن ساختمان بیا بیرون، ژنرال. اگر لازم باشد راه‌هایی برای بیرون کشیدنت به زور داریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry074Subtitle",
+  "text": "*سرهنگ برتون را به جنگ کوچک ما آوردی، ژنرال. حتی او هم در برابر لشکر فرو می‌افتد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry075Subtitle",
+  "text": "*نیلوفر سیاه؟ او چطور کمکت می‌کند از دست لشکرم جان سالم به در ببری، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry076Subtitle",
+  "text": "*همه نیروها مراقب باشند: جارمن کل در میدان پنهان شده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry077Subtitle",
+  "text": "*آن فرودگاه را می‌بینم، ژنرال. به آسمان فرار کن! از لشکرم بترس!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry078Subtitle",
+  "text": "*مردانم تانک‌هایت را به همان سرعتی که می‌سازی‌شان تکه‌تکه می‌کنند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry079Subtitle",
+  "text": "*مردانم سه‌نفره آموزش می‌بینند... تو با چه سرعتی مردانت را آموزش می‌دهی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry080Subtitle",
+  "text": "*ساختمان‌هایت را می‌فروشی؟ احمقانه است! با آن پول چه می‌خری که جلوی لشکرم را بگیرد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry081Subtitle",
+  "text": "*این همه نیرو دارم، چطور ممکن است تو این نبرد را ببری؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry082Subtitle",
+  "text": "*تاکتیک‌هایت را دست‌کم گرفتم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry083Subtitle",
+  "text": "*غافلگیرم کردی، ژنرال، ولی حالا آماده‌ات هستم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry084Subtitle",
+  "text": "*لشکرم را شکست نمی‌دهی، ژنرال! برتری فعلی‌ات به‌زودی از دست می‌رود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry085Subtitle",
+  "text": "*این شکست را نمی‌پذیرم، ژنرال. مردانم پوشش فرارم را می‌دهند و روزی دیگر می‌جنگیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry086Subtitle",
+  "text": "*حالا مردانم از تو بیشترند، ژنرال. اگر جای تو بودم عاقلانه تسلیم می‌شدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry087Subtitle",
+  "text": "*به نظر این پایان کار توست، ژنرال"
+ }
+]

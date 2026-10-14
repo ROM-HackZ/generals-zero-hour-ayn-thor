@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CREDITS:ExternalMultiplayMapCreators",
+  "text": "مصممو خرائط اللعب الجماعي من خارج الفريق"
+ },
+ {
+  "label": "CREDITS:Artists",
+  "text": "الفنانون"
+ },
+ {
+  "label": "CREDITS:AdditionalArt",
+  "text": "فنون إضافية"
+ },
+ {
+  "label": "CREDITS:DirectorofAudio",
+  "text": "مدير الصوت"
+ },
+ {
+  "label": "CREDITS:SoundDesignandVoiceDirection",
+  "text": "تصميم الصوت وإخراج الأداء الصوتي"
+ },
+ {
+  "label": "CREDITS:Composers",
+  "text": "الملحنون"
+ },
+ {
+  "label": "CREDITS:Composer1",
+  "text": "الموسيقى من تأليف وإنتاج"
+ },
+ {
+  "label": "CREDITS:Additionalsoundsanddialogueprocessing",
+  "text": "أصوات إضافية ومعالجة حوارات إضافية"
+ },
+ {
+  "label": "CREDITS:ScriptWriters",
+  "text": "كتّاب النص"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings",
+  "text": "التسجيلات الميدانية للمؤثرات الصوتية"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings1",
+  "text": "Jacques Littlefield and the Military Vehicle Technology Foundation"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings2",
+  "text": "SPEC Samuel H. Cho"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings3",
+  "text": "Staff Sergeant Scott McClane of C troop 1/18 Cav"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings4",
+  "text": "Mary Beth McFadden and Francisco Mendozo at Adam's Steel - Anaheim"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneDirector",
+  "text": "مخرج المشاهد السينمائية"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneArtists",
+  "text": "فنانو المشاهد السينمائية"
+ },
+ {
+  "label": "CREDITS:ProductionAssistance",
+  "text": "إدارة إنتاج إضافية"
+ },
+ {
+  "label": "CREDITS:AdditionalProductionManagement",
+  "text": "إدارة إنتاج إضافية"
+ },
+ {
+  "label": "CREDITS:CameoProduction",
+  "text": "إنتاج الظهور الخاص"
+ },
+ {
+  "label": "CREDITS:Casting",
+  "text": "اختيار الممثلين: Deborah German Casting"
+ },
+ {
+  "label": "CREDITS:Wardrobe",
+  "text": "الأزياء: Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:HairandMakeUp",
+  "text": "الشعر والمكياج: Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:EngineeringInterns",
+  "text": "متدربو الهندسة"
+ },
+ {
+  "label": "CREDITS:ArtIntern",
+  "text": "متدرب الفنون"
+ },
+ {
+  "label": "CREDITS:EAPacificQualityAssurance",
+  "text": "ضمان الجودة في EA Pacific"
+ },
+ {
+  "label": "CREDITS:EAPacificOperations",
+  "text": "العمليات في EA Pacific"
+ },
+ {
+  "label": "CREDITS:VoiceActors",
+  "text": "ممثلو الأصوات"
+ },
+ {
+  "label": "CREDITS:CameoPhotos",
+  "text": "صور الظهور الخاص وصور الجنرالات"
+ },
+ {
+  "label": "CREDITS:AdditionalModels",
+  "text": "نماذج إضافية من Mythos Studios"
+ },
+ {
+  "label": "CREDITS:CinematicIntroandFinaleMovies",
+  "text": "الفيلم الافتتاحي من Mondo Media"
+ },
+ {
+  "label": "CREDITS:MotionCapture",
+  "text": "التقاط الحركة في Westwood"
+ },
+ {
+  "label": "CREDITS:MilitarypropsThanx",
+  "text": "المعدات العسكرية مقدمة من David Hsu وSpecialized Distribution"
+ },
+ {
+  "label": "CREDITS:SpecialThanx1",
+  "text": "الشكر والمحبة لـ Daisy وFreeman Gushee، ولأمي وأبي وIke! - Harvard"
+ },
+ {
+  "label": "CREDITS:SpecialThanx2",
+  "text": "المحبة والشكر لـ Laura وBen وJack وSam وSophie"
+ },
+ {
+  "label": "CREDITS:SpecialThanx3",
+  "text": "شكرًا لفريق دعم عائلة Brown - Robin وJosh وBeth وMeeskite"
+ },
+ {
+  "label": "CREDITS:SpecialThanx4",
+  "text": "شكرًا لابني Colin Moore لأنه سمح لي باللعب على جهازه"
+ },
+ {
+  "label": "CREDITS:SpecialThanx5",
+  "text": "عناق كبير لزوجي الجديد Joji على حبه ودعمه - Jill"
+ },
+ {
+  "label": "CREDITS:SpecialThanx7",
+  "text": "شكرًا لـ DMP وJenny وElizabeth"
+ },
+ {
+  "label": "CREDITS:SpecialThanx8",
+  "text": "شكرًا لأبي. - Mark Lorenzen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx9",
+  "text": "كل الحب لـ Madison وReece وMelissa وأبي وإخوتي! - Randy Greenback"
+ },
+ {
+  "label": "CREDITS:SpecialThanx10",
+  "text": "شكرًا لـ Maha وRamzi وBrooke على دعمهم. تحية لشباب 415 - Amer"
+ },
+ {
+  "label": "CREDITS:SpecialThanx11",
+  "text": "Mom&Dad, Bry,Kev,Dan&Mel,Aaron&Kelsey,Mikki,Adam,Kev,Jay,James - SCC"
+ },
+ {
+  "label": "CREDITS:SpecialThanx12",
+  "text": "إلى Brenda وNero على دعمهما الرائع - Eric Kearns"
+ },
+ {
+  "label": "CREDITS:SpecialThanx13",
+  "text": "شكرًا لـ Gibson وVinge وMieville وBear وHebert وLeGuin - RN Smith"
+ },
+ {
+  "label": "CREDITS:SpecialThanx14",
+  "text": "Deborah وStephen وAlan - شكرًا لتحمّلكم إياي - Ian Barkley-Yeung"
+ },
+ {
+  "label": "CREDITS:SpecialThanx15",
+  "text": "شكرًا لـ Cristi على تفهمها ودعمها - John"
+ },
+ {
+  "label": "CREDITS:SpecialThanx16",
+  "text": "شكرًا لـ April وWesley وKelly وChelsie - Scott Bowen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx17",
+  "text": "شكرًا للأصدقاء والعائلة وChoo Choo Bear وفريق ZH المجتهد! - JB"
+ },
+ {
+  "label": "CREDITS:SpecialThanx18",
+  "text": "شكرًا لـ Junko على حبها. - Robert Minsk"
+ },
+ {
+  "label": "CREDITS:SpecialThanx19",
+  "text": "شكرًا لـ Carina وKat وBrandon على كل هذا التفهم - David Wainstain"
+ },
+ {
+  "label": "CREDITS:SpecialThanx20",
+  "text": "شكرًا لعائلتي، Cheryl وBrandon Burtis، على حبهما ودعمهما"
+ },
+ {
+  "label": "CREDITS:SpecialThanx21",
+  "text": "شكرًا لأصدقائي وعائلتي، وخصوصًا Jeannie. أحبكم جميعًا - KDS"
+ },
+ {
+  "label": "CREDITS:SpecialThanx22",
+  "text": "شكرًا لزوجي الرائع Roman - Samm"
+ },
+ {
+  "label": "CREDITS:SpecialThanx23",
+  "text": "شكرًا Ari على كل حبك ودعمك وتفهمك - Jose"
+ },
+ {
+  "label": "CREDITS:SpecialThanx24",
+  "text": "إلى Rebecca، الشيء الوحيد المهم، والشيء الوحيد الباقي"
+ },
+ {
+  "label": "CREDITS:SpecialThanx25",
+  "text": "شكرًا لزوجتي المحبة على الإلهام والدعم - Chris Rubyor"
+ },
+ {
+  "label": "CREDITS:SpecialThanx26",
+  "text": "شكرًا لزوجتي لأنها منحتني وقتنا. أحبك. - Jeff Stewart"
+ },
+ {
+  "label": "CREDITS:SpecialThanx27",
+  "text": "شكرًا لأمي وBruce وLaura وDasmo وMikey وTedo وTrevor وكل أصدقائي في The OC"
+ },
+ {
+  "label": "CREDITS:SpecialThanx28",
+  "text": "أود أن أشكر عائلتي وAmy Ritchie"
+ },
+ {
+  "label": "CREDITS:SpecialThanx29",
+  "text": "NazBoniadiArtRasoulZohreRahimiAliLeilaTabaFamilyP,T,KMLoBobWindDrFrost"
+ },
+ {
+  "label": "CREDITS:SpecialThanx31",
+  "text": "شكرًا لـ Ben Calmer وLaura Miele"
+ },
+ {
+  "label": "CREDITS:SpecialThanx33",
+  "text": "شكر خاص جدًا لمجتمع محبي Command & Conquer."
+ },
+ {
+  "label": "CREDITS:SpecialThanx34",
+  "text": "تحية كبيرة لحبيبي Joji وطفلي Sparky"
+ },
+ {
+  "label": "CREDITS:SpecialThanx35",
+  "text": "شكرًا لعائلتي، Cheryl وBrandon Burtis، على حبهما ودعمهما"
+ },
+ {
+  "label": "CREDITS:SpecialThanx36",
+  "text": "أود أن أشكر زوجتي على تفهمها لانشغالي"
+ },
+ {
+  "label": "CREDITS:SpecialThanx37",
+  "text": "شكر من Bjorn Muller: لأمي وأبي والعائلة والأصدقاء"
+ },
+ {
+  "label": "CREDITS:SpecialThanx38",
+  "text": "أود أن أشكر عائلتي وAmy على كل الدعم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx39",
+  "text": "شكر خاص: لأمي وأبي وBohdi وWillie ولكل من يقرأ هذا"
+ },
+ {
+  "label": "CREDITS:SpecialThanx40",
+  "text": "شكرًا لجميع الأصدقاء والعائلة على صبرهم وتأجيل عيد الميلاد إلى فبراير"
+ },
+ {
+  "label": "CREDITS:SpecialThanx41",
+  "text": "شكرًا لـ Bing، كان دعمك لا يقدّر بثمن"
+ },
+ {
+  "label": "GUI:GameSaved",
+  "text": "حُفظت اللعبة"
+ },
+ {
+  "label": "GUI:ErrorSavingGame",
+  "text": "خطأ في حفظ اللعبة '%s'"
+ },
+ {
+  "label": "GUI:ErrorLoadingGame",
+  "text": "خطأ في تحميل اللعبة '%s'"
+ },
+ {
+  "label": "CREDITS:InspiredByLine1",
+  "text": "استُلهمت Command & Conquer (TM) Generals Zero Hour من اللعبة الأصلية"
+ },
+ {
+  "label": "CREDITS:InspiredByLine2",
+  "text": "Command & Conquer (TM) التي ابتكرتها Westwood Studios"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine1",
+  "text": "شكرًا لجميع المشاركين الرائعين في اختبار اللعب الجماعي"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine2",
+  "text": "الذين ساعدونا على اختبار اللعبة بكل قوة. كانت مساعدتكم"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine3",
+  "text": "لا تقدّر بثمن، ونأمل أنكم استمتعتم بالتجربة"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage1",
+  "text": "شكر خاص جدًا لعائلاتنا جميعًا لأنها سمحت لنا بفعل ما"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage2",
+  "text": "نحبه: صناعة الألعاب. لا نستطيع أن نوفيكم حقكم من الشكر على دعمكم"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage3",
+  "text": "لكننا سنحاول..."
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line1",
+  "text": "شكرًا لعائلتي وأصدقائي في Chilliwack، كولومبيا البريطانية، كندا! - Kris Morness"
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line2",
+  "text": "ودعمك لا يقدّران بثمن. أحبك من كل قلبي"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line1",
+  "text": "شكرًا لـ Jane وGeorge وDavid وSophia وAudrey وShannon وJohan وagavenectar"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line2",
+  "text": "لوجودكم معي، حتى حين لم أستطع أن أكون معكم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line1",
+  "text": "شكرًا لـ Bing Gordon، كان دعمك المستمر لا يقدّر بثمن."
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line2",
+  "text": "الذي يفعل أي شيء تقريبًا مقابل دولار"
+ },
+ {
+  "label": "GUI:ControlBarBack",
+  "text": "رجوع"
+ },
+ {
+  "label": "GUI:MainMenuLoadGame",
+  "text": "تحميل لعبة"
+ },
+ {
+  "label": "GUI:MainMenuLoadReplay",
+  "text": "تحميل إعادة"
+ },
+ {
+  "label": "GUI:LastReplay",
+  "text": "آخر إعادة"
+ },
+ {
+  "label": "GUI:ControlBarMoneyDisplay",
+  "text": "$ %d"
+ },
+ {
+  "label": "GUI:Player",
+  "text": "اللاعب"
+ },
+ {
+  "label": "CREDITS:UliLachelet",
+  "text": "Uli Lächelt"
+ },
+ {
+  "label": "CREDITS:JorgLindner",
+  "text": "Jörg Lindner"
+ },
+ {
+  "label": "CREDITS:LOCALIZATION",
+  "text": "التعريب"
+ },
+ {
+  "label": "CREDITS:EALocalisationManager",
+  "text": "مدير التعريب الأوروبي في EA"
+ },
+ {
+  "label": "CREDITS:EALocalisationProjectManager",
+  "text": "مدير مشاريع التعريب الأوروبي في EA"
+ },
+ {
+  "label": "CREDITS:EuropeanIntegrationTeam",
+  "text": "فريق الدمج الأوروبي"
+ },
+ {
+  "label": "CREDITS:IntegrationEngineerManager",
+  "text": "مدير مهندسي الدمج"
+ },
+ {
+  "label": "CREDITS:IntegrationProgrammer",
+  "text": "مبرمجو الدمج"
+ },
+ {
+  "label": "CREDITS:AudioPostproduction",
+  "text": "ما بعد الإنتاج الصوتي"
+ },
+ {
+  "label": "CREDITS:SpanishLocalizationTeam",
+  "text": "فريق التعريب الإسباني"
+ },
+ {
+  "label": "CREDITS:LocalizationManagerEAIberia",
+  "text": "مدير التعريب في EA Iberia"
+ },
+ {
+  "label": "CREDITS:QAnLTSupervisor",
+  "text": "مشرف ضمان الجودة واختبار اللغة"
+ },
+ {
+  "label": "CREDITS:QALead",
+  "text": "قائد ضمان الجودة"
+ },
+ {
+  "label": "CREDITS:QATesters",
+  "text": "مختبرو ضمان الجودة"
+ },
+ {
+  "label": "CREDITS:LocalizationSupervisorEAIberia",
+  "text": "مشرف التعريب في EA Iberia"
+ },
+ {
+  "label": "CREDITS:LocalizationCoordinator",
+  "text": "منسق التعريب"
+ },
+ {
+  "label": "CREDITS:Translations",
+  "text": "الترجمة"
+ },
+ {
+  "label": "CREDITS:DTPSupervisor",
+  "text": "مشرف النشر المكتبي"
+ },
+ {
+  "label": "CREDITS:LayoutDesign",
+  "text": "تصميم التخطيط"
+ },
+ {
+  "label": "CREDITS:Documentation",
+  "text": "التوثيق"
+ },
+ {
+  "label": "CREDITS:JoseMaria",
+  "text": "José María García"
+ },
+ {
+  "label": "CREDITS:AndresGine",
+  "text": "Andrés Giné"
+ },
+ {
+  "label": "CREDITS:JoseRamon",
+  "text": "José Ramón Sagarna"
+ },
+ {
+  "label": "CREDITS:DavidSuarez",
+  "text": "David Suárez"
+ },
+ {
+  "label": "CREDITS:AlejandroGomez",
+  "text": "Alejandro Gómez"
+ },
+ {
+  "label": "CREDITS:IsmaeLDuran",
+  "text": "Ismael Durán"
+ },
+ {
+  "label": "CREDITS:JoseLuis",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:JavierMartinez",
+  "text": "Javier Martínez"
+ },
+ {
+  "label": "CREDITS:LuisPines",
+  "text": "Luis Pinés"
+ },
+ {
+  "label": "CREDITS:EAItalyLocalization",
+  "text": "تعريب EA - إيطاليا"
+ },
+ {
+  "label": "CREDITS:LocalisationManager",
+  "text": "مدير التعريب"
+ },
+ {
+  "label": "CREDITS:TranslationSupervisor",
+  "text": "مشرف الترجمة"
+ },
+ {
+  "label": "CREDITS:LTSupervisor",
+  "text": "مشرف اختبار اللغة"
+ },
+ {
+  "label": "CREDITS:LocalisationCoordinator",
+  "text": "منسق التعريب"
+ },
+ {
+  "label": "CREDITS:LocalisationGermany",
+  "text": "تعريب EA - ألمانيا"
+ },
+ {
+  "label": "CREDITS:RobertBock",
+  "text": "Robert Böck"
+ },
+ {
+  "label": "CREDITS:TestCoordination",
+  "text": "تنسيق الاختبار"
+ },
+ {
+  "label": "CREDITS:LanguageTester",
+  "text": "مختبر التعريب"
+ },
+ {
+  "label": "CREDITS:LocalisationFrance",
+  "text": "تعريب EA - فرنسا"
+ },
+ {
+  "label": "CREDITS:TestManager",
+  "text": "مدير الاختبار"
+ },
+ {
+  "label": "CREDITS:FrenchLanguageTestingCoordinator",
+  "text": "منسق اختبار اللغة"
+ },
+ {
+  "label": "CREDITS:StephaneTachon",
+  "text": "Stéphane Tachon"
+ },
+ {
+  "label": "CREDITS:LanguageTesters",
+  "text": "مختبرو التعريب"
+ },
+ {
+  "label": "CREDITS:LocalisationBrazil",
+  "text": "تعريب EA - البرازيل"
+ },
+ {
+  "label": "CREDITS:TranslationAndTesting",
+  "text": "الترجمة والاختبار"
+ },
+ {
+  "label": "CREDITS:LocalisationPoland",
+  "text": "التعريب - بولندا"
+ },
+ {
+  "label": "GUI:LadderNameAndSize",
+  "text": "%ls (%d ضد %d)"
+ },
+ {
+  "label": "GUI:InvalidLadderPassword",
+  "text": "كلمة مرور التصنيف غير صالحة"
+ },
+ {
+  "label": "GUI:EnterLadderPassword",
+  "text": "أدخل كلمة مرور التصنيف:"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeader",
+  "text": "قائمة قطع الاتصال"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeaderCaps",
+  "text": "قائمة قطع الاتصال"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody1",
+  "text": "انقطع اتصال لاعب أو أكثر باللعبة. إن أردت التصويت على إخراج شخص من اللعبة فانقر زر التصويت بجانب اللاعب المعني. حين يصل المؤقت إلى 0 سيُخرج ذلك الشخص من اللعبة وتستمر المعركة"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody2",
+  "text": "قد يحاول الشخص إعادة الاتصال، لذا يمكنك الانتظار حتى ينتهي مؤقت هذا اللاعب. حين يصل المؤقت إلى 0 سيُخرج ذلك الشخص من اللعبة وتستمر المعركة"
+ },
+ {
+  "label": "CREDITS:EAKoreaLocalisationTeam",
+  "text": "فريق EA كوريا"
+ },
+ {
+  "label": "CREDITS:BusinessDevelopmentManager",
+  "text": "مدير تطوير الأعمال"
+ },
+ {
+  "label": "CREDITS:LocalisationProducer",
+  "text": "منتج التعريب"
+ },
+ {
+  "label": "CREDITS:EAKoreaMarketingTeam",
+  "text": "فريق التسويق في EA كوريا"
+ },
+ {
+  "label": "CREDITS:MarketingManager",
+  "text": "مدير التسويق"
+ },
+ {
+  "label": "CREDITS:ProductManager",
+  "text": "مدير المنتج"
+ },
+ {
+  "label": "CREDITS:PublicRelations",
+  "text": "العلاقات العامة"
+ },
+ {
+  "label": "CREDITS:ProductPromotion",
+  "text": "الترويج للمنتج"
+ },
+ {
+  "label": "CREDITS:EATaiwanLocalisationTeam",
+  "text": "فريق التعريب في EA تايوان"
+ },
+ {
+  "label": "CREDITS:EAAsiaPacificLocalisationProjectManager",
+  "text": "مدير مشاريع التعريب في EA آسيا والمحيط الهادئ"
+ },
+ {
+  "label": "CREDITS:AdditionalStoryInspiration",
+  "text": "إلهام إضافي للقصة"
+ },
+ {
+  "label": "GUI:RandomSide",
+  "text": "عشوائي"
+ },
+ {
+  "label": "GUI:Age",
+  "text": "العمر"
+ },
+ {
+  "label": "GUI:Month",
+  "text": "الشهر (MM)"
+ },
+ {
+  "label": "GUI:Day",
+  "text": "اليوم (DD)"
+ },
+ {
+  "label": "GUI:Year",
+  "text": "السنة (YYYY)"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle2",
+  "text": "بواسطة Electronic Arts Los Angeles"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam2",
+  "text": "Command & Conquer (TM) Generals Zero Hour"
+ },
+ {
+  "label": "GUI:MustHaveAdminRights",
+  "text": "يجب أن تملك صلاحيات المسؤول لتثبيت التحديث"
+ },
+ {
+  "label": "GUI:BuddyAddReq",
+  "text": "مستخدم يريد إضافتك صديقًا"
+ },
+ {
+  "label": "GUI:AgeFailedTitle",
+  "text": "إشعار شرط العمر"
+ },
+ {
+  "label": "GUI:AgeFailed",
+  "text": "يجب أن يكون عمرك 13 عامًا أو أكثر للعب هذه اللعبة عبر الإنترنت"
+ },
+ {
+  "label": "GUI:AdditionalLocalizationManagement",
+  "text": "إدارة تعريب إضافية"
+ },
+ {
+  "label": "GUI:GroupRoom4",
+  "text": "4 ضد 4"
+ },
+ {
+  "label": "GUI:GroupRoom5",
+  "text": "آسيا"
+ },
+ {
+  "label": "GUI:GroupRoom6",
+  "text": "أوروبا"
+ },
+ {
+  "label": "GUI:GroupRoom7",
+  "text": "أمريكا الشمالية"
+ },
+ {
+  "label": "GUI:GroupRoom8",
+  "text": "المملكة المتحدة"
+ },
+ {
+  "label": "GUI:GroupRoom9",
+  "text": "ألمانيا"
+ },
+ {
+  "label": "GUI:GroupRoom10",
+  "text": "كوريا"
+ },
+ {
+  "label": "GUI:GroupRoom11",
+  "text": "الكل ضد الكل"
+ },
+ {
+  "label": "GUI:GroupRoom12",
+  "text": "بلا إحصاءات"
+ },
+ {
+  "label": "GUI:GroupRoom13",
+  "text": "خرائط معدّلة"
+ },
+ {
+  "label": "GUI:ControlOptions",
+  "text": "خيارات التحكم"
+ },
+ {
+  "label": "GUI:ClassicMouse",
+  "text": "كلاسيكي"
+ },
+ {
+  "label": "GUI:AlternateMouse",
+  "text": "إعداد بديل للفأرة"
+ },
+ {
+  "label": "TOOLTIP:AlternateMouse",
+  "text": "زر الفأرة الأيمن ينفّذ أوامر الوحدات في ساحة المعركة (هجوم، تحرك، إلخ)"
+ },
+ {
+  "label": "GUI:Generals_Challenge",
+  "text": "التحدي"
+ },
+ {
+  "label": "GUI:Generals_Challenge_Title",
+  "text": "تحدي الجنرالات"
+ },
+ {
+  "label": "GUI:DemoMD_USA01ButtonTitle",
+  "text": "USA 01"
+ },
+ {
+  "label": "GUI:DemoMD_USA02ButtonTitle",
+  "text": "USA 02"
+ },
+ {
+  "label": "GUI:DemoMD_GLA03ButtonTitle",
+  "text": "GLA 03"
+ },
+ {
+  "label": "GUI:DemoMD_CampEADemoTitle",
+  "text": "عرض تجريبي"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildBuildingBecauseMaximumNumber",
+  "text": "المبنى مشيَّد بالفعل"
+ },
+ {
+  "label": "TOOLTIP:MapMaxBrutalSuccess",
+  "text": "تهانينا! لقد انتصرت في هذه الخريطة ضد أكبر عدد من الخصوم الصعبين!"
+ },
+ {
+  "label": "GUI:LimitArmies",
+  "text": "تقييد الجيوش"
+ },
+ {
+  "label": "TOOLTIP:LimitArmies",
+  "text": "حدّد هذا المربع لتقييد الجيوش بالفصائل التقليدية (الولايات المتحدة، جيش التحرير العالمي، الصين) ومنع جيوش الجنرالات المتمردين"
+ },
+ {
+  "label": "GUI:UseStats",
+  "text": "تسجيل الإحصاءات"
+ },
+ {
+  "label": "TOOLTIP:UseStats",
+  "text": "اختر ما إذا كانت إحصاءات هذه اللعبة ستُسجَّل على خادم C&C Generals Zero Hour الرسمي"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOn",
+  "text": "ستُسجَّل إحصاءات هذه اللعبة على خادم C&C Generals Zero Hour الرسمي"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOff",
+  "text": "لن تُسجَّل إحصاءات هذه اللعبة على خادم C&C Generals Zero Hour الرسمي"
+ },
+ {
+  "label": "GUI:StartingMoney",
+  "text": "المال الابتدائي"
+ },
+ {
+  "label": "GUI:StartingMoneyFormat",
+  "text": "$%u"
+ },
+ {
+  "label": "TOOLTIP:StartingMoney",
+  "text": "ضبط المال الابتدائي لجميع اللاعبين"
+ }
+]

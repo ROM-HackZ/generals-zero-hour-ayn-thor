@@ -1,0 +1,102 @@
+[
+ {
+  "label": "MAP:SniperDuel",
+  "text": "Sniper Duel"
+ },
+ {
+  "label": "MAP:TheFrontline",
+  "text": "The Frontline"
+ },
+ {
+  "label": "MAP:TournamentBeach",
+  "text": "Tournament Beach"
+ },
+ {
+  "label": "MAP:TournamentCanyon",
+  "text": "Tournament canyon"
+ },
+ {
+  "label": "MAP:TournamentDesolate",
+  "text": "Tournament Desolate"
+ },
+ {
+  "label": "MAP:TournamentForest",
+  "text": "Tournament Forest"
+ },
+ {
+  "label": "MAP:TournamentIceStorm",
+  "text": "Tournament Ice Storm"
+ },
+ {
+  "label": "MAP:TournamentTactics",
+  "text": "Tournament Tactics"
+ },
+ {
+  "label": "MAP:TournamentTown",
+  "text": "Tournament Town"
+ },
+ {
+  "label": "MAP:TournamentValley",
+  "text": "Tournament Valley"
+ },
+ {
+  "label": "MAP:UnholyWar",
+  "text": "Unholy War"
+ },
+ {
+  "label": "MAP:Unstable",
+  "text": "Unstable"
+ },
+ {
+  "label": "MAP:UrbanUprising",
+  "text": "Urban Uprising"
+ },
+ {
+  "label": "MAP:VictoryOutlook",
+  "text": "Victory Outlook"
+ },
+ {
+  "label": "MAP:VictoryRoad",
+  "text": "Victory Road"
+ },
+ {
+  "label": "MAP:NorthAmerica",
+  "text": "North America"
+ },
+ {
+  "label": "MAP:Floodplains",
+  "text": "Floodplains"
+ },
+ {
+  "label": "MAP:TournamentA",
+  "text": "Tournament A"
+ },
+ {
+  "label": "MAP:TournamentB",
+  "text": "Tournament B"
+ },
+ {
+  "label": "MAP:Defcon6",
+  "text": "Defcon 6"
+ },
+ {
+  "label": "CONTROLBAR:AirF_TooltipUSAUpgradeLaserMissiles",
+  "text": "랩터와 스텔스 전투기의 미사일 피해 +12%"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSAScienceCarpetBomb",
+  "text": "B2 스텔스 폭격기를 불러 지역을 융단 폭격합니다\n\n사용 위치: 전략 센터"
+ },
+ {
+  "label": "GUI:CustomMission",
+  "text": "사용자 지정 임무"
+ },
+ {
+  "label": "GX:ForceAttack",
+  "text": "강제 공격"
+ },
+ {
+  "label": "GX:ToolTipForceAttack",
+  "text": "다음에 탭하는 목표를 공격합니다. 아군 유닛이나 빈 땅도 공격합니다"
+ }
+]

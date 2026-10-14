@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen09Subtitle",
+  "text": "*미국에게서 빌린 새 독소는 놈들 자신의 병력에 특히 효과적일 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen10Subtitle",
+  "text": "*먼저 지중해 함대, 다음은 미국 본토 공격... 이제 유럽 지배가 시작된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen11Subtitle",
+  "text": "*동쪽에서 공격받고 있다. 당장 공격을 끝내라. 놈들을 제거해야 북쪽 본기지에 집중할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen12Subtitle",
+  "text": "*거의 다 왔다... 미국은 우리 민족에 대한 죄의 대가를 톡톡히 치를 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen13Subtitle",
+  "text": "*자금이 떨어져 간다. 주변을 정찰해 자원을 찾아라. 멈춰선 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen14Subtitle",
+  "text": "*이 지역을 확보했으니 이제 병력을 키워 미군 유럽 중부 사령부 기지를 공격해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen15Subtitle",
+  "text": "*미국인들은 공중 유닛에 크게 의존한다. 스팅어 기지와 쿼드 캐논을 더 지어라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen16Subtitle",
+  "text": "*놈들이 우리 방어를 노린다. 스팅어 기지를 위장해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen17Subtitle",
+  "text": "*장군, 스커드 스톰을 지어야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen18Subtitle",
+  "text": "*미군 장군이 우리에게 입자 캐논을 쓰고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen19Subtitle",
+  "text": "*다른 전술을 써야 한다. 기습으로 유닛을 기지에 들여보내라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen20Subtitle",
+  "text": "*미군 기지를 점령해 키워라. 놈들의 무기로 놈들을 칠 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen21Subtitle",
+  "text": "*입자 캐논을 제거해야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen22Subtitle",
+  "text": "*이제 지상에서 공격해 온다. 기지를 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen23Subtitle",
+  "text": "*기지를 빨리 재건하라... 더 많은 공격에 대비해야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen24Subtitle",
+  "text": "*잘했다, 장군. 너의 뛰어난 전술 덕분에 이제 초강력 무기 세 가지를 모두 손에 넣었다. 미국인들은 뭐에 맞았는지도 모를 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen25Subtitle",
+  "text": "*미국인들을 끝장내라, 장군. 오래 버티지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen26Subtitle",
+  "text": "*장군, 놈들의 화학 벙커를 노려 놈들 기지 안에 대혼란을 일으킬 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen27Subtitle",
+  "text": "*놈들의 입자 캐논은 끝났다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen28Subtitle",
+  "text": "*미국인들이 입자 캐논을 또 지었다. 우리에게 쓰게 둬선 안 된다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen29Subtitle",
+  "text": "*적의 남쪽 지원 기지를 지금 제거해야 한다! 오래 기다릴수록 놈들의 공격이 강해진다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen30Subtitle",
+  "text": "*미군 기지에 잡혀 있는 포로들이 곧 이송된다는 보고다. 서둘러 구해야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen31Subtitle",
+  "text": "*포로를 풀어 주려면 미군 기지 지역을 완전히 소탕해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen32Subtitle",
+  "text": "*서둘러라, 지금 포로들을 구해야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen33Subtitle",
+  "text": "*중국 사령부에서 레이더를 업그레이드해 가동해야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen34Subtitle",
+  "text": "*반드시 GLA 사령부를 지어야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen35Subtitle",
+  "text": "*남쪽의 작은 기지가 사라졌으니 미군 유럽 중부 사령부 기지에 집중할 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen36Subtitle",
+  "text": "*미군 중부 사령부 기지는 거대하다. 들어갈 방법을 찾아야 한다! 기습이 통할지도 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen37Subtitle",
+  "text": "*포로들을 마을로 데려가야 테러 조직이 다시 깨어난다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen38Subtitle",
+  "text": "*형제들이 공격받고 있다! 도와야 한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen39Subtitle",
+  "text": "*포로들을 마을로 돌려보내라. 강을 따라 북쪽으로 가면 닿는다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen40Subtitle",
+  "text": "*포로들은 안전하다! 마을로 돌아가도록 도와야 미국과의 싸움에서 우리를 도울 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen41Subtitle",
+  "text": "*이 전차들을 빼앗아 우리 것으로 쓰자!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen42Subtitle",
+  "text": "*보급품을 확보하면 미국인들을 공격할 완벽한 거점을 차지하게 된다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen43Subtitle",
+  "text": "*병사들은 무사하고 가족들은 기쁨에 넘쳐 있다! 그들이 우리와 함께 싸울 것이고 보급품도 더 받았다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen44Subtitle",
+  "text": "*형제들을 실망시켰지만 그래도 그들은 우리와 함께 싸울 것이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen45Subtitle",
+  "text": "*형제들이 포로들의 죽음에 복수하기 위해 우리 편에서 싸울 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen46Subtitle",
+  "text": "*미국인들이 포로들을 옮겼지만 형제들은 여전히 우리와 함께 적과 싸울 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xKen47Subtitle",
+  "text": "*유럽은 곧 우리 것이 된다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW01Subtitle",
+  "text": "*우리를 억류자들에게서 풀어 달라. 미군의 모든 공격에서 지켜 준다면 당신을 돕겠다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW02Subtitle",
+  "text": "*준비되면 언제든 집으로 갈 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW03Subtitle",
+  "text": "*서둘러라, 시간이 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW04Subtitle",
+  "text": "*시간이 얼마 남지 않았다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW05Subtitle",
+  "text": "*제발 살려 달라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA05xPOW06Subtitle",
+  "text": "*도움이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter01Subtitle",
+  "text": "*앞에 다리가 있다. 방어가 삼엄해 보인다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter02Subtitle",
+  "text": "*다리에 다가가고 있다. 미국인은 없다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Chatter07Subtitle",
+  "text": "*죽어라, 미국 놈들!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06Cin01Subtitle",
+  "text": "*죽어라, 미국 놈들!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General05Subtitle",
+  "text": "*미군 정찰병에게 발각됐다. 싸울 준비를 해라"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA06General20Subtitle",
+  "text": "*벙커를 장악하려면 놈들을 밀어내야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA07Convoy13Subtitle",
+  "text": "*보급품을 좀 찾았다. 쓸모 있을지도 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Buggy101Subtitle",
+  "text": "*영광을 위하여!"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar10Subtitle",
+  "text": "*가진 모든 걸로 놈들을 쳐야 한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisGLA08Kenwar39Subtitle",
+  "text": "*아군은 공격 개시 준비가 됐다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander03Subtitle",
+  "text": "*고속 기체 접근 중"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Commander09Subtitle",
+  "text": "*에코 중대, 폭격기 접근 중이다. 너무 가깝다, 물러나라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo108Subtitle",
+  "text": "*추가 표적, 거리 300"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Echo201Subtitle",
+  "text": "*맞았다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Eva02Subtitle",
+  "text": "*장군님, 적 유정을 점령해 전쟁 수행에 필요한 보급품을 더 확보하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01Raptor201Subtitle",
+  "text": "*불태워 버려"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf01Subtitle",
+  "text": "*돌아오신 걸 환영합니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf02Subtitle",
+  "text": "*GLA가 오늘 새벽 바이코누르 시설에서 미사일을 발사했습니다. 정보에 따르면 두 번째 발사를 준비하고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf03Subtitle",
+  "text": "*이 미사일이 쓰이면 유럽에서 우리 입지가 크게 약해집니다. 이 위협을 반드시 제거해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf04Subtitle",
+  "text": "*정보원에 따르면 다음 미사일이 열차로 발사 시설에 운반되고 있습니다. 이 철로가 시설로 들어가는 유일한 길입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf05Subtitle",
+  "text": "*그 열차를 제때 가로채면 그것을 엄폐물 삼아 기지에 잠입할 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf06Subtitle",
+  "text": "*임무 완수의 첫 단계는 이 기차역을 확보하고 지키는 것입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xBrf07Subtitle",
+  "text": "*행운을 빕니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xC+A39hat11Subtitle",
+  "text": "*동쪽에 GLA 건물이 더 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat01Subtitle",
+  "text": "*9시 방향에 스콜피온!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat02Subtitle",
+  "text": "*전원 탑승!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat03Subtitle",
+  "text": "*다들 표는 챙겼나?"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat04Subtitle",
+  "text": "*여보, 나 왔어! 하하하"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat05Subtitle",
+  "text": "*보병을 이 차량들에 태워라! GLA를 물리치는 데 쓸 수 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat06Subtitle",
+  "text": "*누가 저 라디오 방송국에 들어가라! 지금 당장 항공 지원이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat07Subtitle",
+  "text": "*저 통을 노려라! 폭발한다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat08Subtitle",
+  "text": "*자, 얘들아. 싣고... 출바아알!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat09Subtitle",
+  "text": "*스팅어 기지 파괴! 반복한다, 스팅어 파괴! 전 병력 GLA 건물로 집결! 이곳을 쑥대밭으로 만들자!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat10Subtitle",
+  "text": "*서쪽에 GLA 건물이 더 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat12Subtitle",
+  "text": "*알겠다, 본부! 조준 완료"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat13Subtitle",
+  "text": "*폭탄 투하"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xChat14Subtitle",
+  "text": "*아침에 맡는 MOAB 냄새는 언제나 상쾌하지"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin01Subtitle",
+  "text": "*전 병력 발사 구역에서 철수하라. 발사 카운트다운"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin02Subtitle",
+  "text": "*5"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin03Subtitle",
+  "text": "*4"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin04Subtitle",
+  "text": "*3"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin05Subtitle",
+  "text": "*2"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin06Subtitle",
+  "text": "*1"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin07Subtitle",
+  "text": "*0"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin08Subtitle",
+  "text": "*발사"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin09Subtitle",
+  "text": "*발사 성공"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin10Subtitle",
+  "text": "*더러운 미국 놈들. 이곳에서 너희를 불태워 버리겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xCin11Subtitle",
+  "text": "*멍청한 미국 카우보이들!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva01Subtitle",
+  "text": "*잘하셨습니다, 장군님. 기차역을 확보했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva02Subtitle",
+  "text": "*이제 GLA 기지를 파괴할 만큼 큰 공격 부대를 편성해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva03Subtitle",
+  "text": "*최정예 유닛을 열차에 태우십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva04Subtitle",
+  "text": "*열차가 가득 차면 출발합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva05Subtitle",
+  "text": "*잘하셨습니다, 장군님. 열차가 가득 찼습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva06Subtitle",
+  "text": "*드래곤 전차를 보내 저 건물들을 소탕하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva07Subtitle",
+  "text": "*유닛을 더 생산하십시오. 기습에 실패해선 안 됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva08Subtitle",
+  "text": "*장군님! 부하들을 구덩이에서 빼내십시오! MOAB가 날아오고 있습니다. 이곳을 산산조각 낼 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva09Subtitle",
+  "text": "*이 기지를 끝까지 파괴해야 합니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva10Subtitle",
+  "text": "*MOAB가 곧 도착합니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva11Subtitle",
+  "text": "*알파 편대! 지역 확보 완료. 진행하라"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA01xEva12Subtitle",
+  "text": "*잘하셨습니다, 장군님. 드디어 GLA의 위협이 제거된 것 같습니다. 이제 이 일은 뒤로하고 대량 살상 무기를 찾으러 갈 때입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche101Subtitle",
+  "text": "*구해 주셔서 감사합니다! 좀 아슬아슬했습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02Comanche204Subtitle",
+  "text": "*놈들이 떼로 몰려옵니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf01Subtitle",
+  "text": "*부두를 확보했습니다, 장군님. 첫 임무는 보급 트럭이 들어오는 동안 부두를 지키는 것입니다. 건설 도저가 도착할 때까지는 순차적으로 도착하는 병력으로 이 위치를 방어해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xBrf02Subtitle",
+  "text": "*함대 대부분이 GLA의 바이코누르 공격에서 살아남았습니다. 이번 작전을 돕기 위해 항공모함과 전함 호위대를 마음껏 쓰십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat01Subtitle",
+  "text": "*공습 개시"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat02Subtitle",
+  "text": "*전함 포격 개시"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat03Subtitle",
+  "text": "*부두 확보 완료. GLA는 보이지 않는다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat04Subtitle",
+  "text": "*알겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat05Subtitle",
+  "text": "*공격 개시"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat06Subtitle",
+  "text": "*공습 출격"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat07Subtitle",
+  "text": "*전 화력 개방"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xChat08Subtitle",
+  "text": "*제대로 붉은 불꽃을 보여 주지"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin01Subtitle",
+  "text": "*항모 지휘부가 함대에. 계속 사격하라. GLA가 증원군을 데려오고 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin02Subtitle",
+  "text": "*알겠다, 항모 지휘부. 부두에 대한 제압 사격을 유지한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xCin03Subtitle",
+  "text": "*조준 신중히. 정리만 하면 되지 파괴할 필요는 없다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva01Subtitle",
+  "text": "*잘하셨습니다! 다음 목표는 보급 트럭이 도시를 안전하게 지나가도록 하는 것입니다. 트럭은 도시의 보급 창고에 도착해야 합니다. 부두의 통제권도 유지해야 합니다. 행운을 빕니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva02Subtitle",
+  "text": "*보급 트럭이 움직이기 시작했습니다, 장군님. 하역 지점까지 가는 동안 보호해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva03Subtitle",
+  "text": "*새로운 센트리 드론 시제품을 보내 드립니다. 움직이지 않으면 적이 탐지하지 못합니다. 스텔스 유닛과 GLA 폭파 함정도 찾아낼 수 있어 매우 유용할 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva04Subtitle",
+  "text": "*건설 도저가 도착했습니다! 기지 건설을 시작하십시오. GLA가 새로운 공격을 준비하고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva05Subtitle",
+  "text": "*훌륭합니다! 도시 사람들이 구호품에 감사를 표했습니다. 최종 목표는 이 지역에서 GLA를 몰아내는 것입니다. 도시를 내려다보는 놈들의 본기지를 파괴하면 이 지역이 안전해집니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva06Subtitle",
+  "text": "*증원군이 오고 있습니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva07Subtitle",
+  "text": "*장군님, 센트리 드론이 GLA 폭파 함정을 찾는 데 도움이 됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva08Subtitle",
+  "text": "*장군님, 창고 근처에 아직 GLA가 있습니다. 즉시 소탕해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva09Subtitle",
+  "text": "*보급 트럭이 공격받고 있습니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva10Subtitle",
+  "text": "*잘하셨습니다. 모든 트럭이 부두에 안전하게 도착했습니다. 이제 도시로 보냅시다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva11Subtitle",
+  "text": "*민간인 피해를 최소화하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva12Subtitle",
+  "text": "*GLA 훈련소를 발견하셨습니다. 정보부는 이 훈련소 인원이 바이코누르 발사에 일부 책임이 있다고 봅니다. 제거하라는 명령입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva13Subtitle",
+  "text": "*보급 트럭이 안전하게 갈 수 있도록 창고를 확보하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva14Subtitle",
+  "text": "*창고가 확보되면 보급 트럭이 출발합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva15Subtitle",
+  "text": "*건설 도저가 도착했습니다, 장군님. 재량에 따라 GLA를 제거해도 좋습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva16Subtitle",
+  "text": "*GLA가 훔치거나 파괴하기 전에 식량을 도시로 보내십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva17Subtitle",
+  "text": "*장군님, 해냈습니다. 도시가 GLA의 폭정에서 벗어났습니다. 숨겨진 대량 살상 무기로 곧장 안내해 줄 정보도 입수한 것 같습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva18Subtitle",
+  "text": "*이번 작전에는 해군의 전면 지원이 가능합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva19Subtitle",
+  "text": "*전함과 항공모함을 재량껏 사용하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva20Subtitle",
+  "text": "*전함이 사정거리에 들어와 목표를 기다리고 있습니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva21Subtitle",
+  "text": "*항모 다이달로스가 항공기를 준비하고 대기 중입니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva22Subtitle",
+  "text": "*창고를 확보해야 하지만 부두의 안전을 해쳐서는 안 됩니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva23Subtitle",
+  "text": "*이 지역의 병력은 제한적입니다. 증원군은 준비되는 대로 보내 드리겠습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva24Subtitle",
+  "text": "*부두의 안전을 해치지 않고 창고를 확보하십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva25Subtitle",
+  "text": "*호송대가 창고에 보급품을 채웠습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xEva26Subtitle",
+  "text": "*다음 목표는 GLA 기지입니다, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply01Subtitle",
+  "text": "*창고가 안전해지는 대로 출발하겠습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply02Subtitle",
+  "text": "*엄호 사격 고맙습니다, 장군님! 모든 트럭이 적재를 마치고 출발 준비가 됐습니다. 도시만 정리해 주십시오!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply03Subtitle",
+  "text": "*거리마다 폭파 함정이 깔려 있습니다! 치워 주셔야 합니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply04Subtitle",
+  "text": "*창고에 도착했습니다, 장군님. 호위해 주셔서 감사합니다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xSupply05Subtitle",
+  "text": "*호송대가 무사히 도착했습니다. 엄호에 감사드립니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager01Subtitle",
+  "text": "*오, 고맙습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager02Subtitle",
+  "text": "*축복이 있기를"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager03Subtitle",
+  "text": "*정말 오랫동안 못 먹었어요"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA02xVillager04Subtitle",
+  "text": "*더 있나요?"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Comanche102Subtitle",
+  "text": "*쿼드 캐논에 하나씩 떨어지고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader105Subtitle",
+  "text": "*지원이 더 필요하다! 놈들한테 박살 나고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader108Subtitle",
+  "text": "*누가 저 버기들 좀 떼어 내 줘!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader304Subtitle",
+  "text": "*적 접촉 확인! 빠르게 다가오고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03Crusader307Subtitle",
+  "text": "*전 병력! 사격을 멈추지 마라!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf01Subtitle",
+  "text": "*장군님, 버튼 대령과 블랙 로투스가 위치에서 명령을 기다리고 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf02Subtitle",
+  "text": "*주목표는 이 비밀 연구소입니다. 지난 임무에서 입수한 문서로 위치가 드러났습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf03Subtitle",
+  "text": "*GLA가 새로운 대량 살상 무기를 개발하고 있습니다. 블랙 로투스가 이 데이터를 다운로드해야 연구가 얼마나 진척됐는지 알 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBrf04Subtitle",
+  "text": "*다운로드가 끝나면 버튼 대령이 산비탈을 무너뜨려 연구소를 영원히 묻어야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton01Subtitle",
+  "text": "*다리에 도착했다. 로투스, 저 스콜피온을 맡아. 다른 경비병은 내가 처리하지"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton02Subtitle",
+  "text": "*그건 계획에 없던 건데, 로투스"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton03Subtitle",
+  "text": "*날 기다리겠다고? 좋아, 로투스. 누가 빠른지 겨뤄 보자고"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton04Subtitle",
+  "text": "*지금 가는 중이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton05Subtitle",
+  "text": "*좋아, 포로수용소가 보인다... 강 밑으로 지나가는 터널 네트워크가 있는 것 같군"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton06Subtitle",
+  "text": "*잘했어, 로투스... 터널이 여기 아래에 있어... 경비 몇 명만 처리하면 전부 풀어 줄 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton07Subtitle",
+  "text": "*산악 방어에 대한 정보가 맞다면 저 차량들이 쓸모 있을 거다. 장군님, 저것들도 구해야 합니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton08Subtitle",
+  "text": "*장군님, 두 번째 포로수용소 근처에 도착했습니다... 앞에 터널 네트워크와 경비병이 있습니다. 수용소 남쪽 끝의 절벽을 타고 내려가면 몰래 안으로 들어갈 수 있을 겁니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton09Subtitle",
+  "text": "*우쭐대지 마, 로투스. 아직 이긴 거 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton10Subtitle",
+  "text": "*마지막 놈이다... 두 번째 포로수용소 확보... 누가 로투스한테 서두르라고 전해 줘... 연구소에서 기다리고 싶지 않으니까"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton11Subtitle",
+  "text": "*새 장난감이군요. 장군님, 산을 지키는 저 터널 네트워크와 스팅어 기지에 집중해 주시면 그 사이로 빠져나가겠습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton12Subtitle",
+  "text": "*GLA 기지 전체가 있는 것 같군. 정보부는 여기에 이런 게 있다고 한 적이 없는데"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton13Subtitle",
+  "text": "*날 예상하지 못한 모양이군... 여기저기 C4를 좀 설치하면 금방 정리할 수 있다... 명령만 내리십시오, 장군님"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton14Subtitle",
+  "text": "*마을을 지나가는 건 안전할 거다... 이 지역을 감시하는 레이더 밴만 조심하면 된다. 섬광탄이 몇 개 있으면 좋을 텐데"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton15Subtitle",
+  "text": "*여기다! 연구소 위쪽으로 이동 중이다... 기다리게 하지 마, 로투스. 여기 춥다고"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton16Subtitle",
+  "text": "*폭약 설치 완료... 신호만 줘, 로투스"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton17Subtitle",
+  "text": "*그래, 로투스. 빠르긴 하네... 그건 인정하지. 최대한 빨리 가겠다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xBurton18Subtitle",
+  "text": "*좋아... 산에 도착했다... 다운로드가 끝나면 알려 줘, 로투스. 저 연구소를 아무도 못 찾을 곳에 묻어 버릴 테니"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat01Subtitle",
+  "text": "*주둔 병력... 섬광탄이나 먹어라"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat02Subtitle",
+  "text": "*저기 있다... 기억해, 짧게 끊어서 쏴"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat03Subtitle",
+  "text": "*보병? 문제없지"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xChat04Subtitle",
+  "text": "*사격받고 있다... 여기 지원이 필요하다!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin01Subtitle",
+  "text": "*여기는 스피릿. 목표 지역 상공에 진입한다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin02Subtitle",
+  "text": "*알겠다, 스피릿. 임무 개시. 준비됐나?"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin03Subtitle",
+  "text": "*네, 대령님. 시작하죠"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin04Subtitle",
+  "text": "*여기는 스피릿. 폭탄창 개방... 폭탄 투하"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin05Subtitle",
+  "text": "*스피릿이 침투조에게. 착륙 지점 확보... 행운을 빈다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin06Subtitle",
+  "text": "*알겠다, 스피릿. 명중이다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin07Subtitle",
+  "text": "*위치 도착... 남을 사람은 전원 하차"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin08Subtitle",
+  "text": "*태워 줘서 고맙다... 곧 보자"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xCin09Subtitle",
+  "text": "*당신네 작은 치누크도 효율적이긴 하지만... 난 우리 헬릭스의 힘이 더 좋아요..."
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr01Subtitle",
+  "text": "*자유다! 전원 차량으로!"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xDrvr02Subtitle",
+  "text": "*감사합니다, 장군님. 명령만 내려 주십시오"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva01Subtitle",
+  "text": "*장군님, 첫 목표는 이 다리를 파괴하는 것입니다. 다리를 파괴하면 강 건너편에서 오는 GLA 증원군을 끊을 수 있습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva02Subtitle",
+  "text": "*장군님, GLA 증원군이 다리를 건너는 게 포착되었습니다"
+ },
+ {
+  "label": "DIALOGEVENT:MisUSA03xEva03Subtitle",
+  "text": "*또 다른 GLA 분대가 지역에 들어왔습니다, 장군님. 이제 저 다리를 처리하는 게 어떨까요?"
+ }
+]

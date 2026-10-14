@@ -1,0 +1,802 @@
+[
+ {
+  "label": "WOL:NoMatchbot",
+  "text": "매치메이커를 찾지 못했습니다"
+ },
+ {
+  "label": "WOL:BadMatchParams",
+  "text": "잘못된 매칭 조건"
+ },
+ {
+  "label": "WOL:ChatErrorNickInUse",
+  "text": "이미 사용 중인 닉네임입니다"
+ },
+ {
+  "label": "WOL:ChatErrorBadPass",
+  "text": "해당 이름의 비밀번호가 틀렸습니다"
+ },
+ {
+  "label": "WOL:ChatErrorNoneSuch",
+  "text": "해당 사용자나 채널이 없습니다"
+ },
+ {
+  "label": "WOL:ChatErrorConNetDown",
+  "text": "네트워크 연결이 끊어졌습니다"
+ },
+ {
+  "label": "WOL:ChatErrorConLookupFailed",
+  "text": "DNS 조회 실패"
+ },
+ {
+  "label": "WOL:ChatErrorConError",
+  "text": "치명적인 네트워크 오류가 발생했습니다"
+ },
+ {
+  "label": "WOL:ChatErrorTimeout",
+  "text": "시간 초과가 발생했습니다"
+ },
+ {
+  "label": "WOL:ChatErrorMustPatch",
+  "text": "C&C 제너럴: 제로아워 온라인에 참가하려면 최신 업데이트를 받아야 합니다"
+ },
+ {
+  "label": "WOL:ChatErrorStatusError",
+  "text": "내부 상태 오류"
+ },
+ {
+  "label": "WOL:ChatErrorUnknownResponse",
+  "text": "알 수 없는 응답"
+ },
+ {
+  "label": "WOL:ChatErrorChannelFull",
+  "text": "채널이 가득 찼습니다"
+ },
+ {
+  "label": "WOL:ChatErrorChannelExists",
+  "text": "채널이 이미 존재합니다"
+ },
+ {
+  "label": "WOL:ChatErrorChannelDoesNotExist",
+  "text": "채널이 존재하지 않습니다"
+ },
+ {
+  "label": "WOL:ChatErrorBadChannelPassword",
+  "text": "잘못된 채널 비밀번호"
+ },
+ {
+  "label": "WOL:ChatErrorBanned",
+  "text": "죄송합니다. C&C 제너럴: 제로아워 온라인에서 차단되었습니다. 서비스 약관을 확인하십시오"
+ },
+ {
+  "label": "WOL:ChatErrorNotOper",
+  "text": "해당 작업을 수행할 수 없습니다"
+ },
+ {
+  "label": "WOL:ChatErrorAccountDisabled",
+  "text": "계정이 비활성화되었습니다"
+ },
+ {
+  "label": "WOL:ChatErrorSerialBanned",
+  "text": "시리얼 번호가 차단되었습니다. 서비스 약관을 확인하십시오"
+ },
+ {
+  "label": "WOL:ChatErrorSerialDup",
+  "text": "시리얼 번호가 이미 사용 중입니다"
+ },
+ {
+  "label": "WOL:ChatErrorSerialUnknown",
+  "text": "잘못된 시리얼 번호입니다"
+ },
+ {
+  "label": "WOL:NetUtilErrorGeneric",
+  "text": "일반 NetUtil 오류"
+ },
+ {
+  "label": "WOL:NetUtilErrorBusy",
+  "text": "사용 중"
+ },
+ {
+  "label": "WOL:NetUtilErrorTimeout",
+  "text": "시간 초과"
+ },
+ {
+  "label": "WOL:NetUtilErrorInvalidField",
+  "text": "잘못된 필드"
+ },
+ {
+  "label": "WOL:NetUtilErrorCantVerify",
+  "text": "확인할 수 없음"
+ },
+ {
+  "label": "WOL:NetUtilFinished",
+  "text": "완료"
+ },
+ {
+  "label": "WOL:UnknownError",
+  "text": "알 수 없는 오류"
+ },
+ {
+  "label": "WOL:CouldNotCreateChannel",
+  "text": "채널을 만들 수 없습니다"
+ },
+ {
+  "label": "WOL:ErrorTitle",
+  "text": "C&C 제너럴: 제로아워 온라인 오류"
+ },
+ {
+  "label": "WOL:LoginErrorTitle",
+  "text": "로그인 오류"
+ },
+ {
+  "label": "WOL:CreatingChannel",
+  "text": "채널 만드는 중"
+ },
+ {
+  "label": "WOL:ChannelClosed",
+  "text": "채널이 닫혔습니다"
+ },
+ {
+  "label": "WOL:BadChannelPassword",
+  "text": "잘못된 채널 비밀번호"
+ },
+ {
+  "label": "WOL:ChannelFull",
+  "text": "채널이 가득 참"
+ },
+ {
+  "label": "WOL:BannedFromChannel",
+  "text": "채널에서 차단되었습니다"
+ },
+ {
+  "label": "WOL:CannotJoinChannel",
+  "text": "채널에 참가할 수 없습니다"
+ },
+ {
+  "label": "WOL:NoWOLAPI",
+  "text": "공유 인터넷 구성 요소가 설치되지 않았습니다"
+ },
+ {
+  "label": "WOL:OldWOLAPI",
+  "text": "공유 인터넷 구성 요소를 업데이트해야 합니다. C&C 제너럴: 제로아워 디스크에서 설치하십시오"
+ },
+ {
+  "label": "WOL:BadRegistry",
+  "text": "C&C 제너럴: 제로아워 레지스트리가 손상되었습니다"
+ },
+ {
+  "label": "WOL:GotPing",
+  "text": "핑 %dms를 받았습니다. 핑이 낮을수록 연결이 좋습니다"
+ },
+ {
+  "label": "WOL:ServerListAndVersion",
+  "text": "서버 목록을 가져오는 중"
+ },
+ {
+  "label": "WOL:GettingPings",
+  "text": "핑 측정 중. 핑이 낮을수록 연결이 좋습니다"
+ },
+ {
+  "label": "WOL:Connecting",
+  "text": "연결 중"
+ },
+ {
+  "label": "WOL:JoinedChannel",
+  "text": "%ls에 참가했습니다"
+ },
+ {
+  "label": "WOL:LeftChannel",
+  "text": "%ls에서 나갔습니다"
+ },
+ {
+  "label": "WOL:UserKicked",
+  "text": "%ls 님이 %ls 님을 %ls에서 추방했습니다"
+ },
+ {
+  "label": "WOL:BeginIgnoreList",
+  "text": "무시 목록 시작"
+ },
+ {
+  "label": "WOL:IgnoredUser",
+  "text": "%ls"
+ },
+ {
+  "label": "WOL:EndIgnoreList",
+  "text": "무시 목록 끝"
+ },
+ {
+  "label": "WOL:DownloadPatchNow",
+  "text": "지금 업데이트를 다운로드하시겠습니까?"
+ },
+ {
+  "label": "WOL:FindInChannel",
+  "text": "%ls 님은 %s에 있습니다"
+ },
+ {
+  "label": "WOL:FindInChannelOtherServer",
+  "text": "%ls 님은 %s(%s 서버)에 있습니다"
+ },
+ {
+  "label": "WOL:FindOffline",
+  "text": "%ls 님은 로그인하지 않았습니다"
+ },
+ {
+  "label": "WOL:FindHiding",
+  "text": "%ls 님이 검색에 응답하지 않습니다"
+ },
+ {
+  "label": "WOL:FindNotInChannel",
+  "text": "%ls 님은 채널에 없습니다"
+ },
+ {
+  "label": "WOL:FindNotInChannelOtherServer",
+  "text": "%ls 님은 %s에 있습니다"
+ },
+ {
+  "label": "WOL:Lob_49_0",
+  "text": "메인 로비"
+ },
+ {
+  "label": "WOL:Lob_49_1",
+  "text": "대체"
+ },
+ {
+  "label": "WOL:Lob_49_2",
+  "text": "리얼리티"
+ },
+ {
+  "label": "WOL:Lob_41_0",
+  "text": "빠른 대전"
+ },
+ {
+  "label": "WOL:UnknownServer",
+  "text": "알 수 없는 서버"
+ },
+ {
+  "label": "WOL:UnknownChannel",
+  "text": "알 수 없는 채널"
+ },
+ {
+  "label": "WOL:BuddyMatching",
+  "text": "%ls 님이 빠른 대전 매칭 중입니다"
+ },
+ {
+  "label": "WOL:BuddyNotInChan",
+  "text": "%ls 님이 온라인입니다"
+ },
+ {
+  "label": "WOL:BuddyInGame",
+  "text": "%ls 님이 게임 중입니다"
+ },
+ {
+  "label": "WOL:BuddyInChat",
+  "text": "%ls 님이 %ls에서 채팅 중입니다"
+ },
+ {
+  "label": "WOL:BuddyGameSetup",
+  "text": "%ls 님은 %ls에 있습니다"
+ },
+ {
+  "label": "WOL:BuddyMatchingOtherServer",
+  "text": "%ls 님이 %ls에서 빠른 대전 매칭 중입니다"
+ },
+ {
+  "label": "WOL:BuddyNotInChanOtherServer",
+  "text": "%ls 님이 %ls에서 온라인입니다"
+ },
+ {
+  "label": "WOL:BuddyInGameOtherServer",
+  "text": "%ls 님이 %ls에서 게임 중입니다"
+ },
+ {
+  "label": "WOL:BuddyInChatOtherServer",
+  "text": "%ls 님이 %ls(%ls 서버)에서 채팅 중입니다"
+ },
+ {
+  "label": "WOL:BuddyGameSetupOtherServer",
+  "text": "%ls 님은 %ls(%ls 서버)에 있습니다"
+ },
+ {
+  "label": "WOL:BuddyHiding",
+  "text": "%ls 님이 숨어 있습니다"
+ },
+ {
+  "label": "Chat:Everyone",
+  "text": "모두에게 표시"
+ },
+ {
+  "label": "Chat:Allies",
+  "text": "동맹에게만 표시"
+ },
+ {
+  "label": "GUI:Clear",
+  "text": "지우기"
+ },
+ {
+  "label": "LAN:GameStartTimerPlural",
+  "text": "%d초 후 게임이 시작됩니다"
+ },
+ {
+  "label": "LAN:GameStartTimerSingular",
+  "text": "%d초 후 게임이 시작됩니다"
+ },
+ {
+  "label": "LAN:HostNotResponding",
+  "text": "게임 종료; 호스트가 응답하지 않았습니다"
+ },
+ {
+  "label": "LAN:PlayerDropped",
+  "text": "%ls 님의 연결이 끊어졌습니다. 플레이어가 응답하지 않았습니다"
+ },
+ {
+  "label": "LAN:NeedMorePlayers",
+  "text": "게임을 시작하려면 플레이어가 %d명보다 많아야 합니다"
+ },
+ {
+  "label": "LAN:NeedMoreTeams",
+  "text": "게임을 시작하려면 팀이 2개 이상이어야 합니다"
+ },
+ {
+  "label": "LAN:TooManyPlayers",
+  "text": "이 맵은 최대 %d명까지만 지원합니다"
+ },
+ {
+  "label": "LAN:OK",
+  "text": "확인"
+ },
+ {
+  "label": "LAN:ErrorNoGameSelected",
+  "text": "먼저 게임을 선택하십시오"
+ },
+ {
+  "label": "LAN:ErrorTimeout",
+  "text": "연결 시간 초과"
+ },
+ {
+  "label": "LAN:ErrorGameFull",
+  "text": "이 게임은 가득 찼습니다"
+ },
+ {
+  "label": "LAN:ErrorDuplicateName",
+  "text": "게임에 같은 이름이 이미 있습니다"
+ },
+ {
+  "label": "LAN:ErrorCRCMismatch",
+  "text": "게임에서 불일치가 감지되었습니다. 멀티플레이 게임에서 플레이어 간 동기화 데이터가 손실되었다는 뜻입니다. 상대가 게임을 수정했을 수 있으니 무시 목록에 추가하는 것도 고려해 보십시오"
+ },
+ {
+  "label": "LAN:ErrorGameStarted",
+  "text": "죄송합니다. 이미 시작된 게임입니다"
+ },
+ {
+  "label": "LAN:ErrorGameExists",
+  "text": "같은 이름의 게임이 이미 있습니다"
+ },
+ {
+  "label": "LAN:ErrorGameGone",
+  "text": "게임이 사라졌습니다"
+ },
+ {
+  "label": "LAN:ErrorBusy",
+  "text": "다른 작업이 진행 중입니다"
+ },
+ {
+  "label": "LAN:ErrorUnknown",
+  "text": "알 수 없는 오류"
+ },
+ {
+  "label": "LAN:JoinFailed",
+  "text": "참가 실패"
+ },
+ {
+  "label": "Network:PlayerLeft",
+  "text": "%ls 님이 게임을 나갔습니다"
+ },
+ {
+  "label": "INI:MissingDisplayName",
+  "text": "오브젝트 '%S'의 표시 이름이 없습니다"
+ },
+ {
+  "label": "INI:FactionDefault",
+  "text": "기본 진영"
+ },
+ {
+  "label": "INI:FactionObserver",
+  "text": "관전자"
+ },
+ {
+  "label": "INI:FactionCivilian",
+  "text": "민간인"
+ },
+ {
+  "label": "INI:FactionAmerica",
+  "text": "미국"
+ },
+ {
+  "label": "INI:FactionChina",
+  "text": "중국"
+ },
+ {
+  "label": "INI:FactionGLA",
+  "text": "GLA"
+ },
+ {
+  "label": "INI:FactionChinaHacker",
+  "text": "중국 해커"
+ },
+ {
+  "label": "SIDE:America",
+  "text": "미국"
+ },
+ {
+  "label": "SIDE:China",
+  "text": "중국"
+ },
+ {
+  "label": "SIDE:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "INI:RankLevel1",
+  "text": "1성 장군"
+ },
+ {
+  "label": "INI:RankLevel2",
+  "text": "2성 장군"
+ },
+ {
+  "label": "INI:RankLevel3",
+  "text": "3성 장군"
+ },
+ {
+  "label": "INI:RankLevel4",
+  "text": "4성 장군"
+ },
+ {
+  "label": "INI:RankLevel5",
+  "text": "5성 장군"
+ },
+ {
+  "label": "INI:RankLevel6",
+  "text": "나쁜 녀석 (6계급)"
+ },
+ {
+  "label": "INI:RankLevel7",
+  "text": "죽음의 박사 (7계급)"
+ },
+ {
+  "label": "INI:RankLevel8",
+  "text": "궁극의 살인마 (8계급)"
+ },
+ {
+  "label": "TOOLTIP:MyInfo",
+  "text": "클릭하여 프로필 정보를 확인하십시오. 계급, 점수, 승패, 전투 훈장 등을 볼 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:CustomMatch",
+  "text": "클릭하여 사용자 지정 대전 로비에 참가해 다른 플레이어들과 만나 대화하십시오"
+ },
+ {
+  "label": "TOOLTIP:SelectAll",
+  "text": "모든 사용 가능한 맵에서 빠른 대전"
+ },
+ {
+  "label": "TOOLTIP:SelectNone",
+  "text": "맵 없이 빠른 대전"
+ },
+ {
+  "label": "TOOLTIP:EnterPassword",
+  "text": "비밀번호를 입력하십시오"
+ },
+ {
+  "label": "TOOLTIP:Quickmatch",
+  "text": "클릭하여 빠른 대전을 시작합니다. 빠른 대전은 실력과 선호 조건이 가장 비슷한 상대와 자동으로 매칭해 줍니다"
+ },
+ {
+  "label": "TOOLTIP:GameLobbys",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:ClearButton",
+  "text": "채팅 창 지우기"
+ },
+ {
+  "label": "TOOLTIP:Disconnectbutton",
+  "text": "클릭하여 현재 게임에서 연결을 끊습니다. 연결 끊김은 전체 기록에 포함됩니다"
+ },
+ {
+  "label": "TOOLTIP:playersonline",
+  "text": "현재 C&C 제너럴: 제로아워 온라인에 있는 플레이어 목록"
+ },
+ {
+  "label": "TOOLTIP:WidenSearch",
+  "text": "클릭하여 상대 검색 조건을 넓힙니다. 조건이 구체적일수록 상대를 찾기 어렵습니다"
+ },
+ {
+  "label": "TOOLTIP:Emote",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:JoinGame",
+  "text": "선택한 게임에 참가하려면 클릭"
+ },
+ {
+  "label": "TOOLTIP:BuddyButton",
+  "text": "친구순으로 게임 목록 정렬"
+ },
+ {
+  "label": "TOOLTIP:matchingprogress",
+  "text": "빠른 대전이 최적의 상대를 찾는 과정을 지켜볼 수 있습니다. 행운을 빕니다!"
+ },
+ {
+  "label": "TOOLTIP:CancelButton",
+  "text": "현재 작업을 취소하려면 클릭"
+ },
+ {
+  "label": "TOOLTIP:resizewindows",
+  "text": "위아래로 드래그하여 게임 목록 창과 채팅 창의 크기를 조절합니다"
+ },
+ {
+  "label": "TOOLTIP:CreateGame",
+  "text": "새 게임을 만듭니다. 게임이 게임 목록 창에 표시되어 다른 플레이어가 참가할 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:ChatWindow",
+  "text": "아래 입력 상자에 입력하고 Enter를 누르면 이 채팅 창에 메시지를 보냅니다. 다른 플레이어가 읽고 답할 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:StopSearch",
+  "text": "현재 검색 중단"
+ },
+ {
+  "label": "TOOLTIP:StartSearch",
+  "text": "검색 시작"
+ },
+ {
+  "label": "TOOLTIP:UnknownGame",
+  "text": "알 수 없는 게임"
+ },
+ {
+  "label": "TOOLTIP:textentrybox",
+  "text": "이 입력 상자에 입력하고 Enter를 누르면 위 채팅 창에 메시지를 보냅니다"
+ },
+ {
+  "label": "TOOLTIP:PlayersInLobby",
+  "text": "현재 로비에 있는 플레이어"
+ },
+ {
+  "label": "TOOLTIP:LocalPlayer",
+  "text": "현재 플레이어 %s"
+ },
+ {
+  "label": "TOOLTIP:BuddyPlayer",
+  "text": "친구 %s"
+ },
+ {
+  "label": "TOOLTIP:ProfiledPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:GenericPlayer",
+  "text": "%s"
+ },
+ {
+  "label": "TOOLTIP:IgnoredModifier",
+  "text": "(무시됨)"
+ },
+ {
+  "label": "TOOLTIP:PlayerInfo",
+  "text": "\n지역: %s\n%d승/%d패"
+ },
+ {
+  "label": "TOOLTIP:GameInfoGameName",
+  "text": "게임 이름: %s"
+ },
+ {
+  "label": "TOOLTIP:GameInfoLadderName",
+  "text": "\n래더: %s"
+ },
+ {
+  "label": "TOOLTIP:LadderName",
+  "text": "래더: %s"
+ },
+ {
+  "label": "TOOLTIP:UnknownLadder",
+  "text": "\n알 수 없는 래더"
+ },
+ {
+  "label": "TOOLTIP:NoLadder",
+  "text": "\n래더 없음"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersionSingleLine",
+  "text": "이 게임은 버전이 다릅니다"
+ },
+ {
+  "label": "TOOLTIP:InvalidGameVersion",
+  "text": ""
+ },
+ {
+  "label": "TOOLTIP:GameInfoMap",
+  "text": "\n맵: %s\n플레이어:"
+ },
+ {
+  "label": "TOOLTIP:GameInfoPlayer",
+  "text": "\n%s (%d/%d)"
+ },
+ {
+  "label": "TOOLTIP:FreeForAll",
+  "text": "자유 대전. 팀/동맹 불가"
+ },
+ {
+  "label": "TOOLTIP:ListOfPlayers",
+  "text": "현재 게임의 플레이어"
+ },
+ {
+  "label": "TOOLTIP:MapName",
+  "text": "현재 선택된 맵"
+ },
+ {
+  "label": "TOOLTIP:GameName",
+  "text": "게임 이름"
+ },
+ {
+  "label": "TOOLTIP:StartGame",
+  "text": "멀티플레이 게임 시작"
+ },
+ {
+  "label": "TOOLTIP:IgnoreButton",
+  "text": "플레이어 무시"
+ },
+ {
+  "label": "TOOLTIP:closeButton",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:GameOptions",
+  "text": "현재 게임에 적용된 옵션"
+ },
+ {
+  "label": "TOOLTIP:Crates",
+  "text": "보너스 상자"
+ },
+ {
+  "label": "TOOLTIP:SuperWeapons",
+  "text": "초강력 무기. 입자 캐논, 핵미사일 등"
+ },
+ {
+  "label": "DOZER:ConstructionComplete",
+  "text": "건설 완료: %s"
+ },
+ {
+  "label": "DOZER:RepairComplete",
+  "text": "수리 완료"
+ },
+ {
+  "label": "UPGRADE:UpgradeComplete",
+  "text": "업그레이드 완료: %s"
+ },
+ {
+  "label": "GUI:CantBuildRestrictedTerrain",
+  "text": "지형 때문에 여기에 건설할 수 없습니다"
+ },
+ {
+  "label": "GUI:CantBuildNotFlatEnough",
+  "text": "지형이 평평하지 않아 여기에 건설할 수 없습니다"
+ },
+ {
+  "label": "GUI:CantBuildObjectsInTheWay",
+  "text": "장애물이 있어 여기에 건설할 수 없습니다"
+ },
+ {
+  "label": "GUI:CantBuildNoClearPath",
+  "text": "유닛이 건설 위치에 도달할 수 없습니다"
+ },
+ {
+  "label": "GUI:CantBuildShroud",
+  "text": "건설하려면 먼저 그곳을 탐색해야 합니다"
+ },
+ {
+  "label": "GUI:CantBuildThere",
+  "text": "여기에는 건설할 수 없습니다"
+ },
+ {
+  "label": "GUI:RallyPointObjectsInTheWay",
+  "text": "집결지를 설정할 수 없습니다. 목적지에 장애물이 있습니다"
+ },
+ {
+  "label": "GUI:RallyPointNoPath",
+  "text": "집결지를 설정할 수 없습니다"
+ },
+ {
+  "label": "GUI:RallyPointSet",
+  "text": "%s 집결지 설정됨"
+ },
+ {
+  "label": "GUI:MouseType",
+  "text": "마우스 종류"
+ },
+ {
+  "label": "GUI:Com",
+  "text": "EAPIM"
+ },
+ {
+  "label": "GUI:CONTROL",
+  "text": "제어"
+ },
+ {
+  "label": "GUI:INFORMATION",
+  "text": "정보"
+ },
+ {
+  "label": "GUI:INTERFACE",
+  "text": "인터페이스"
+ },
+ {
+  "label": "GUI:SELECTION",
+  "text": "선택"
+ },
+ {
+  "label": "GUI:TAUNT",
+  "text": "도발"
+ },
+ {
+  "label": "GUI:MISC",
+  "text": "기타"
+ },
+ {
+  "label": "GUI:DEBUG",
+  "text": "디버그"
+ },
+ {
+  "label": "GUI:Cheer",
+  "text": "환호"
+ },
+ {
+  "label": "GUI:CheerDescription",
+  "text": "부대에 위대한 공적을 환호하도록 명령합니다"
+ },
+ {
+  "label": "GUI:Deploy",
+  "text": "오브젝트 배치"
+ },
+ {
+  "label": "GUI:DeployDescription",
+  "text": "선택한 오브젝트 배치"
+ },
+ {
+  "label": "GUI:Guard",
+  "text": "경계"
+ },
+ {
+  "label": "GUI:GuardDescription",
+  "text": "선택한 오브젝트를 '구역 경계' 모드로 설정"
+ },
+ {
+  "label": "GUI:CreateFormation",
+  "text": "대형 만들기"
+ },
+ {
+  "label": "GUI:Follow",
+  "text": "따라가기"
+ },
+ {
+  "label": "GUI:FollowDescription",
+  "text": "선택한 오브젝트의 따라가기 상태 전환"
+ },
+ {
+  "label": "GUI:ToggleControlBar",
+  "text": "컨트롤 바 전환"
+ },
+ {
+  "label": "GUI:ToggleControlBarDescription",
+  "text": "게임 내 컨트롤 바 켜기/끄기"
+ },
+ {
+  "label": "GUI:ToggleLetterbox",
+  "text": "레터박스 전환"
+ },
+ {
+  "label": "GUI:ToggleLetterboxDescription",
+  "text": "레터박스 모드 켜기/끄기"
+ }
+]

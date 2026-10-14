@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CREDITS:ExternalMultiplayMapCreators",
+  "text": "سازندگان نقشه‌های چندنفره بیرونی"
+ },
+ {
+  "label": "CREDITS:Artists",
+  "text": "هنرمندان"
+ },
+ {
+  "label": "CREDITS:AdditionalArt",
+  "text": "هنر تکمیلی"
+ },
+ {
+  "label": "CREDITS:DirectorofAudio",
+  "text": "مدیر صدا"
+ },
+ {
+  "label": "CREDITS:SoundDesignandVoiceDirection",
+  "text": "طراحی صدا و کارگردانی گفتار"
+ },
+ {
+  "label": "CREDITS:Composers",
+  "text": "آهنگسازان"
+ },
+ {
+  "label": "CREDITS:Composer1",
+  "text": "موسیقی ساخته و تهیه‌شده توسط"
+ },
+ {
+  "label": "CREDITS:Additionalsoundsanddialogueprocessing",
+  "text": "صداهای تکمیلی و پردازش گفتگوی تکمیلی"
+ },
+ {
+  "label": "CREDITS:ScriptWriters",
+  "text": "نویسندگان فیلمنامه"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings",
+  "text": "ضبط میدانی جلوه‌های صوتی"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings1",
+  "text": "Jacques Littlefield and the Military Vehicle Technology Foundation"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings2",
+  "text": "SPEC Samuel H. Cho"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings3",
+  "text": "Staff Sergeant Scott McClane of C troop 1/18 Cav"
+ },
+ {
+  "label": "CREDITS:SoundEffectsFieldRecordings4",
+  "text": "Mary Beth McFadden and Francisco Mendozo at Adam's Steel - Anaheim"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneDirector",
+  "text": "کارگردان میان‌پرده‌های سینمایی"
+ },
+ {
+  "label": "CREDITS:CinematicCutSceneArtists",
+  "text": "هنرمندان میان‌پرده‌های سینمایی"
+ },
+ {
+  "label": "CREDITS:ProductionAssistance",
+  "text": "مدیریت تولید تکمیلی"
+ },
+ {
+  "label": "CREDITS:AdditionalProductionManagement",
+  "text": "مدیریت تولید تکمیلی"
+ },
+ {
+  "label": "CREDITS:CameoProduction",
+  "text": "تولید حضور افتخاری"
+ },
+ {
+  "label": "CREDITS:Casting",
+  "text": "انتخاب بازیگر: Deborah German Casting"
+ },
+ {
+  "label": "CREDITS:Wardrobe",
+  "text": "لباس: Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:HairandMakeUp",
+  "text": "مو و گریم: Jodi DeMarco"
+ },
+ {
+  "label": "CREDITS:EngineeringInterns",
+  "text": "کارآموزان مهندسی"
+ },
+ {
+  "label": "CREDITS:ArtIntern",
+  "text": "کارآموز هنر"
+ },
+ {
+  "label": "CREDITS:EAPacificQualityAssurance",
+  "text": "تضمین کیفیت EA Pacific"
+ },
+ {
+  "label": "CREDITS:EAPacificOperations",
+  "text": "عملیات EA Pacific"
+ },
+ {
+  "label": "CREDITS:VoiceActors",
+  "text": "صداپیشگان"
+ },
+ {
+  "label": "CREDITS:CameoPhotos",
+  "text": "عکس‌های حضور افتخاری و ژنرال‌ها"
+ },
+ {
+  "label": "CREDITS:AdditionalModels",
+  "text": "مدل‌های تکمیلی از Mythos Studios"
+ },
+ {
+  "label": "CREDITS:CinematicIntroandFinaleMovies",
+  "text": "فیلم آغازین از Mondo Media"
+ },
+ {
+  "label": "CREDITS:MotionCapture",
+  "text": "ضبط حرکت Westwood"
+ },
+ {
+  "label": "CREDITS:MilitarypropsThanx",
+  "text": "تجهیزات نظامی از David Hsu و Specialized Distribution"
+ },
+ {
+  "label": "CREDITS:SpecialThanx1",
+  "text": "سپاس و عشق به Daisy و Freeman Gushee، مامان و بابا و Ike! - Harvard"
+ },
+ {
+  "label": "CREDITS:SpecialThanx2",
+  "text": "عشق و سپاس به Laura، Ben، Jack، Sam و Sophie"
+ },
+ {
+  "label": "CREDITS:SpecialThanx3",
+  "text": "سپاس از تیم پشتیبانی خانواده Brown - Robin، Josh، Beth و Meeskite"
+ },
+ {
+  "label": "CREDITS:SpecialThanx4",
+  "text": "سپاس از پسرم Colin Moore که گذاشت روی دستگاهش بازی کنم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx5",
+  "text": "یک بغل بزرگ برای همسر تازه‌ام Joji به خاطر عشق و حمایتش - Jill"
+ },
+ {
+  "label": "CREDITS:SpecialThanx7",
+  "text": "سپاس از DMP، Jenny و Elizabeth"
+ },
+ {
+  "label": "CREDITS:SpecialThanx8",
+  "text": "سپاس از پدرم. - Mark Lorenzen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx9",
+  "text": "کلی عشق به Madison، Reece، Melissa، بابا و برادرانم! - Randy Greenback"
+ },
+ {
+  "label": "CREDITS:SpecialThanx10",
+  "text": "سپاس از Maha، Ramzi و Brooke برای حمایتشان. درود بر بچه‌های 415 - Amer"
+ },
+ {
+  "label": "CREDITS:SpecialThanx11",
+  "text": "Mom&Dad, Bry,Kev,Dan&Mel,Aaron&Kelsey,Mikki,Adam,Kev,Jay,James - SCC"
+ },
+ {
+  "label": "CREDITS:SpecialThanx12",
+  "text": "به Brenda و Nero برای حمایت فوق‌العاده‌شان - Eric Kearns"
+ },
+ {
+  "label": "CREDITS:SpecialThanx13",
+  "text": "سپاس از Gibson، Vinge، Mieville، Bear، Hebert و LeGuin - RN Smith"
+ },
+ {
+  "label": "CREDITS:SpecialThanx14",
+  "text": "Deborah، Stephen و Alan - ممنون که تحملم کردید - Ian Barkley-Yeung"
+ },
+ {
+  "label": "CREDITS:SpecialThanx15",
+  "text": "سپاس از Cristi برای درک و حمایتش - John"
+ },
+ {
+  "label": "CREDITS:SpecialThanx16",
+  "text": "سپاس از April، Wesley، Kelly و Chelsie - Scott Bowen"
+ },
+ {
+  "label": "CREDITS:SpecialThanx17",
+  "text": "سپاس از دوستان، خانواده، Choo Choo Bear و تیم سخت‌کوش ZH! - JB"
+ },
+ {
+  "label": "CREDITS:SpecialThanx18",
+  "text": "سپاس از Junko برای عشقش. - Robert Minsk"
+ },
+ {
+  "label": "CREDITS:SpecialThanx19",
+  "text": "ممنون Carina، Kat و Brandon که این‌قدر درک کردید - David Wainstain"
+ },
+ {
+  "label": "CREDITS:SpecialThanx20",
+  "text": "سپاس از خانواده‌ام، Cheryl و Brandon Burtis، برای عشق و حمایتشان"
+ },
+ {
+  "label": "CREDITS:SpecialThanx21",
+  "text": "سپاس از دوستان و خانواده‌ام، به‌ویژه Jeannie. همه‌تان را دوست دارم - KDS"
+ },
+ {
+  "label": "CREDITS:SpecialThanx22",
+  "text": "سپاس از همسر فوق‌العاده‌ام Roman - Samm"
+ },
+ {
+  "label": "CREDITS:SpecialThanx23",
+  "text": "ممنون Ari برای همه عشق، حمایت و درکت - Jose"
+ },
+ {
+  "label": "CREDITS:SpecialThanx24",
+  "text": "به Rebecca، تنها چیزی که اهمیت دارد، تنها چیزی که می‌ماند"
+ },
+ {
+  "label": "CREDITS:SpecialThanx25",
+  "text": "سپاس از همسر مهربانم برای الهام و حمایت - Chris Rubyor"
+ },
+ {
+  "label": "CREDITS:SpecialThanx26",
+  "text": "سپاس از همسرم که وقت مشترکمان را به من داد. دوستت دارم. - Jeff Stewart"
+ },
+ {
+  "label": "CREDITS:SpecialThanx27",
+  "text": "سپاس از مامان، Bruce، Laura، Dasmo، Mikey، Tedo، Trevor و همه رفقایم در The OC"
+ },
+ {
+  "label": "CREDITS:SpecialThanx28",
+  "text": "دوست دارم از خانواده‌ام و Amy Ritchie تشکر کنم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx29",
+  "text": "NazBoniadiArtRasoulZohreRahimiAliLeilaTabaFamilyP,T,KMLoBobWindDrFrost"
+ },
+ {
+  "label": "CREDITS:SpecialThanx31",
+  "text": "سپاس از Ben Calmer و Laura Miele"
+ },
+ {
+  "label": "CREDITS:SpecialThanx33",
+  "text": "سپاس بسیار ویژه از جامعه طرفداران Command & Conquer."
+ },
+ {
+  "label": "CREDITS:SpecialThanx34",
+  "text": "درود فراوان بر عزیزم Joji و کوچولویم Sparky"
+ },
+ {
+  "label": "CREDITS:SpecialThanx35",
+  "text": "سپاس از خانواده‌ام، Cheryl و Brandon Burtis، برای عشق و حمایتشان"
+ },
+ {
+  "label": "CREDITS:SpecialThanx36",
+  "text": "دوست دارم از همسرم به خاطر درک مشغله‌ام تشکر کنم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx37",
+  "text": "سپاس Bjorn Muller: مامان، بابا، خانواده و دوستان"
+ },
+ {
+  "label": "CREDITS:SpecialThanx38",
+  "text": "دوست دارم از خانواده‌ام و Amy برای همه حمایت‌ها تشکر کنم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx39",
+  "text": "سپاس ویژه: مامان، بابا، Bohdi، Willie و هرکس که این را می‌خواند"
+ },
+ {
+  "label": "CREDITS:SpecialThanx40",
+  "text": "سپاس از همه دوستان و خانواده که صبر کردند و کریسمس را به فوریه انداختند"
+ },
+ {
+  "label": "CREDITS:SpecialThanx41",
+  "text": "سپاس از Bing، حمایتت بی‌بها بوده است"
+ },
+ {
+  "label": "GUI:GameSaved",
+  "text": "بازی ذخیره شد"
+ },
+ {
+  "label": "GUI:ErrorSavingGame",
+  "text": "خطا در ذخیره بازی '%s'"
+ },
+ {
+  "label": "GUI:ErrorLoadingGame",
+  "text": "خطا در بارگذاری بازی '%s'"
+ },
+ {
+  "label": "CREDITS:InspiredByLine1",
+  "text": "Command & Conquer (TM) Generals Zero Hour الهام‌گرفته از"
+ },
+ {
+  "label": "CREDITS:InspiredByLine2",
+  "text": "Command & Conquer (TM) اصلی ساخته Westwood Studios است"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine1",
+  "text": "سپاس از همه شرکت‌کنندگان فوق‌العاده آزمون چندنفره"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine2",
+  "text": "که کمک کردند بازی را حسابی بیازماییم. کمک شما"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipantThanxMessageLine3",
+  "text": "بی‌بها بوده و امیدواریم از این تجربه لذت برده باشید"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage1",
+  "text": "سپاس بسیار ویژه از همه خانواده‌هایمان که گذاشتند کاری را که"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage2",
+  "text": "دوست داریم انجام دهیم: ساختن بازی. هرچه از حمایتتان تشکر کنیم کم است"
+ },
+ {
+  "label": "CREDITS:SpecialThanxKeyMessage3",
+  "text": "اما تلاشمان را می‌کنیم..."
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line1",
+  "text": "سپاس از خانواده و دوستانم در Chilliwack، بریتیش کلمبیا، کانادا! - Kris Morness"
+ },
+ {
+  "label": "CREDITS:SpecialThanx6Line2",
+  "text": "و حمایتت بی‌بها بوده است. عاشقانه دوستت دارم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line1",
+  "text": "سپاس از Jane، George، David، Sophia، Audrey، Shannon، Johan و agavenectar"
+ },
+ {
+  "label": "CREDITS:SpecialThanx30Line2",
+  "text": "که کنارم بودید، حتی وقتی من نمی‌توانستم"
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line1",
+  "text": "سپاس از Bing Gordon، حمایت همیشگی‌ات بی‌بها بوده است."
+ },
+ {
+  "label": "CREDITS:SpecialThanx32Line2",
+  "text": "کسی که برای یک دلار تقریباً هر کاری می‌کند"
+ },
+ {
+  "label": "GUI:ControlBarBack",
+  "text": "بازگشت"
+ },
+ {
+  "label": "GUI:MainMenuLoadGame",
+  "text": "بارگذاری بازی"
+ },
+ {
+  "label": "GUI:MainMenuLoadReplay",
+  "text": "بارگذاری بازپخش"
+ },
+ {
+  "label": "GUI:LastReplay",
+  "text": "آخرین بازپخش"
+ },
+ {
+  "label": "GUI:ControlBarMoneyDisplay",
+  "text": "$ %d"
+ },
+ {
+  "label": "GUI:Player",
+  "text": "بازیکن"
+ },
+ {
+  "label": "CREDITS:UliLachelet",
+  "text": "Uli Lächelt"
+ },
+ {
+  "label": "CREDITS:JorgLindner",
+  "text": "Jörg Lindner"
+ },
+ {
+  "label": "CREDITS:LOCALIZATION",
+  "text": "بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:EALocalisationManager",
+  "text": "مدیر بومی‌سازی EA اروپا"
+ },
+ {
+  "label": "CREDITS:EALocalisationProjectManager",
+  "text": "مدیر پروژه بومی‌سازی EA اروپا"
+ },
+ {
+  "label": "CREDITS:EuropeanIntegrationTeam",
+  "text": "تیم یکپارچه‌سازی اروپا"
+ },
+ {
+  "label": "CREDITS:IntegrationEngineerManager",
+  "text": "مدیر مهندسان یکپارچه‌سازی"
+ },
+ {
+  "label": "CREDITS:IntegrationProgrammer",
+  "text": "برنامه‌نویسان یکپارچه‌سازی"
+ },
+ {
+  "label": "CREDITS:AudioPostproduction",
+  "text": "پس‌تولید صدا"
+ },
+ {
+  "label": "CREDITS:SpanishLocalizationTeam",
+  "text": "تیم بومی‌سازی اسپانیایی"
+ },
+ {
+  "label": "CREDITS:LocalizationManagerEAIberia",
+  "text": "مدیر بومی‌سازی EA Iberia"
+ },
+ {
+  "label": "CREDITS:QAnLTSupervisor",
+  "text": "سرپرست تضمین کیفیت و آزمون زبان"
+ },
+ {
+  "label": "CREDITS:QALead",
+  "text": "سرپرست تضمین کیفیت"
+ },
+ {
+  "label": "CREDITS:QATesters",
+  "text": "آزمایشگران تضمین کیفیت"
+ },
+ {
+  "label": "CREDITS:LocalizationSupervisorEAIberia",
+  "text": "سرپرست بومی‌سازی EA Iberia"
+ },
+ {
+  "label": "CREDITS:LocalizationCoordinator",
+  "text": "هماهنگ‌کننده بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:Translations",
+  "text": "ترجمه"
+ },
+ {
+  "label": "CREDITS:DTPSupervisor",
+  "text": "سرپرست صفحه‌آرایی"
+ },
+ {
+  "label": "CREDITS:LayoutDesign",
+  "text": "طراحی صفحه"
+ },
+ {
+  "label": "CREDITS:Documentation",
+  "text": "مستندسازی"
+ },
+ {
+  "label": "CREDITS:JoseMaria",
+  "text": "José María García"
+ },
+ {
+  "label": "CREDITS:AndresGine",
+  "text": "Andrés Giné"
+ },
+ {
+  "label": "CREDITS:JoseRamon",
+  "text": "José Ramón Sagarna"
+ },
+ {
+  "label": "CREDITS:DavidSuarez",
+  "text": "David Suárez"
+ },
+ {
+  "label": "CREDITS:AlejandroGomez",
+  "text": "Alejandro Gómez"
+ },
+ {
+  "label": "CREDITS:IsmaeLDuran",
+  "text": "Ismael Durán"
+ },
+ {
+  "label": "CREDITS:JoseLuis",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:JavierMartinez",
+  "text": "Javier Martínez"
+ },
+ {
+  "label": "CREDITS:LuisPines",
+  "text": "Luis Pinés"
+ },
+ {
+  "label": "CREDITS:EAItalyLocalization",
+  "text": "بومی‌سازی EA - ایتالیا"
+ },
+ {
+  "label": "CREDITS:LocalisationManager",
+  "text": "مدیر بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:TranslationSupervisor",
+  "text": "سرپرست ترجمه"
+ },
+ {
+  "label": "CREDITS:LTSupervisor",
+  "text": "سرپرست آزمون زبان"
+ },
+ {
+  "label": "CREDITS:LocalisationCoordinator",
+  "text": "هماهنگ‌کننده بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:LocalisationGermany",
+  "text": "بومی‌سازی EA - آلمان"
+ },
+ {
+  "label": "CREDITS:RobertBock",
+  "text": "Robert Böck"
+ },
+ {
+  "label": "CREDITS:TestCoordination",
+  "text": "هماهنگی آزمون"
+ },
+ {
+  "label": "CREDITS:LanguageTester",
+  "text": "آزمایشگر بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:LocalisationFrance",
+  "text": "بومی‌سازی EA - فرانسه"
+ },
+ {
+  "label": "CREDITS:TestManager",
+  "text": "مدیر آزمون"
+ },
+ {
+  "label": "CREDITS:FrenchLanguageTestingCoordinator",
+  "text": "هماهنگ‌کننده آزمون زبان"
+ },
+ {
+  "label": "CREDITS:StephaneTachon",
+  "text": "Stéphane Tachon"
+ },
+ {
+  "label": "CREDITS:LanguageTesters",
+  "text": "آزمایشگران بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:LocalisationBrazil",
+  "text": "بومی‌سازی EA - برزیل"
+ },
+ {
+  "label": "CREDITS:TranslationAndTesting",
+  "text": "ترجمه و آزمون"
+ },
+ {
+  "label": "CREDITS:LocalisationPoland",
+  "text": "بومی‌سازی - لهستان"
+ },
+ {
+  "label": "GUI:LadderNameAndSize",
+  "text": "%ls (%d در برابر %d)"
+ },
+ {
+  "label": "GUI:InvalidLadderPassword",
+  "text": "گذرواژه رده‌بندی نامعتبر"
+ },
+ {
+  "label": "GUI:EnterLadderPassword",
+  "text": "گذرواژه رده‌بندی را وارد کنید:"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeader",
+  "text": "منوی قطع اتصال"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuHeaderCaps",
+  "text": "منوی قطع اتصال"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody1",
+  "text": "اتصال یک یا چند بازیکن به بازی قطع شده است. اگر می‌خواهید به اخراج کسی از بازی رأی دهید، دکمه رأی کنار آن بازیکن را بزنید. وقتی زمان‌سنج به ۰ برسد آن فرد از بازی حذف می‌شود و نبرد ادامه می‌یابد"
+ },
+ {
+  "label": "GUI:InternetDisconnectionMenuBody2",
+  "text": "ممکن است آن فرد در تلاش برای اتصال دوباره باشد، پس می‌توانید تا پایان زمان‌سنج او صبر کنید. وقتی زمان‌سنج به ۰ برسد آن فرد از بازی حذف می‌شود و نبرد ادامه می‌یابد"
+ },
+ {
+  "label": "CREDITS:EAKoreaLocalisationTeam",
+  "text": "تیم EA کره"
+ },
+ {
+  "label": "CREDITS:BusinessDevelopmentManager",
+  "text": "مدیر توسعه کسب‌وکار"
+ },
+ {
+  "label": "CREDITS:LocalisationProducer",
+  "text": "تهیه‌کننده بومی‌سازی"
+ },
+ {
+  "label": "CREDITS:EAKoreaMarketingTeam",
+  "text": "تیم بازاریابی EA کره"
+ },
+ {
+  "label": "CREDITS:MarketingManager",
+  "text": "مدیر بازاریابی"
+ },
+ {
+  "label": "CREDITS:ProductManager",
+  "text": "مدیر محصول"
+ },
+ {
+  "label": "CREDITS:PublicRelations",
+  "text": "روابط عمومی"
+ },
+ {
+  "label": "CREDITS:ProductPromotion",
+  "text": "تبلیغ محصول"
+ },
+ {
+  "label": "CREDITS:EATaiwanLocalisationTeam",
+  "text": "تیم بومی‌سازی EA تایوان"
+ },
+ {
+  "label": "CREDITS:EAAsiaPacificLocalisationProjectManager",
+  "text": "مدیر پروژه بومی‌سازی EA آسیا و اقیانوسیه"
+ },
+ {
+  "label": "CREDITS:AdditionalStoryInspiration",
+  "text": "الهام تکمیلی داستان"
+ },
+ {
+  "label": "GUI:RandomSide",
+  "text": "تصادفی"
+ },
+ {
+  "label": "GUI:Age",
+  "text": "سن"
+ },
+ {
+  "label": "GUI:Month",
+  "text": "ماه (MM)"
+ },
+ {
+  "label": "GUI:Day",
+  "text": "روز (DD)"
+ },
+ {
+  "label": "GUI:Year",
+  "text": "سال (YYYY)"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle2",
+  "text": "توسط Electronic Arts Los Angeles"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam2",
+  "text": "Command & Conquer (TM) Generals Zero Hour"
+ },
+ {
+  "label": "GUI:MustHaveAdminRights",
+  "text": "برای نصب وصله باید دسترسی مدیر سیستم داشته باشید"
+ },
+ {
+  "label": "GUI:BuddyAddReq",
+  "text": "کاربری می‌خواهد شما را به دوستانش اضافه کند"
+ },
+ {
+  "label": "GUI:AgeFailedTitle",
+  "text": "اطلاعیه شرط سنی"
+ },
+ {
+  "label": "GUI:AgeFailed",
+  "text": "برای بازی آنلاین این بازی باید ۱۳ ساله یا بزرگ‌تر باشید"
+ },
+ {
+  "label": "GUI:AdditionalLocalizationManagement",
+  "text": "مدیریت بومی‌سازی تکمیلی"
+ },
+ {
+  "label": "GUI:GroupRoom4",
+  "text": "۴ در برابر ۴"
+ },
+ {
+  "label": "GUI:GroupRoom5",
+  "text": "آسیا"
+ },
+ {
+  "label": "GUI:GroupRoom6",
+  "text": "اروپا"
+ },
+ {
+  "label": "GUI:GroupRoom7",
+  "text": "آمریکای شمالی"
+ },
+ {
+  "label": "GUI:GroupRoom8",
+  "text": "بریتانیا"
+ },
+ {
+  "label": "GUI:GroupRoom9",
+  "text": "آلمان"
+ },
+ {
+  "label": "GUI:GroupRoom10",
+  "text": "کره"
+ },
+ {
+  "label": "GUI:GroupRoom11",
+  "text": "همه علیه همه"
+ },
+ {
+  "label": "GUI:GroupRoom12",
+  "text": "بدون آمار"
+ },
+ {
+  "label": "GUI:GroupRoom13",
+  "text": "نقشه‌های مد"
+ },
+ {
+  "label": "GUI:ControlOptions",
+  "text": "گزینه‌های کنترل"
+ },
+ {
+  "label": "GUI:ClassicMouse",
+  "text": "کلاسیک"
+ },
+ {
+  "label": "GUI:AlternateMouse",
+  "text": "تنظیم جایگزین ماوس"
+ },
+ {
+  "label": "TOOLTIP:AlternateMouse",
+  "text": "دکمه راست ماوس فرمان یگان را در میدان نبرد اجرا می‌کند (حمله، حرکت و غیره)"
+ },
+ {
+  "label": "GUI:Generals_Challenge",
+  "text": "چالش"
+ },
+ {
+  "label": "GUI:Generals_Challenge_Title",
+  "text": "چالش ژنرال‌ها"
+ },
+ {
+  "label": "GUI:DemoMD_USA01ButtonTitle",
+  "text": "USA 01"
+ },
+ {
+  "label": "GUI:DemoMD_USA02ButtonTitle",
+  "text": "USA 02"
+ },
+ {
+  "label": "GUI:DemoMD_GLA03ButtonTitle",
+  "text": "GLA 03"
+ },
+ {
+  "label": "GUI:DemoMD_CampEADemoTitle",
+  "text": "دمو"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildBuildingBecauseMaximumNumber",
+  "text": "ساختمان قبلاً ساخته شده است"
+ },
+ {
+  "label": "TOOLTIP:MapMaxBrutalSuccess",
+  "text": "تبریک! این نقشه را در برابر بیشترین تعداد حریف سخت بردید!"
+ },
+ {
+  "label": "GUI:LimitArmies",
+  "text": "محدود کردن ارتش‌ها"
+ },
+ {
+  "label": "TOOLTIP:LimitArmies",
+  "text": "برای محدود کردن ارتش‌ها به جناح‌های سنتی آمریکا، GLA و چین و ممنوع کردن ارتش‌های ژنرال‌های یاغی علامت بزنید"
+ },
+ {
+  "label": "GUI:UseStats",
+  "text": "ثبت آمار"
+ },
+ {
+  "label": "TOOLTIP:UseStats",
+  "text": "انتخاب کنید که آمار این بازی در سرور رسمی C&C Generals Zero Hour ثبت شود یا نه"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOn",
+  "text": "آمار این بازی در سرور رسمی C&C Generals Zero Hour ثبت خواهد شد"
+ },
+ {
+  "label": "TOOLTIP:UseStatsOff",
+  "text": "آمار این بازی در سرور رسمی C&C Generals Zero Hour ثبت نخواهد شد"
+ },
+ {
+  "label": "GUI:StartingMoney",
+  "text": "پول آغازین"
+ },
+ {
+  "label": "GUI:StartingMoneyFormat",
+  "text": "$%u"
+ },
+ {
+  "label": "TOOLTIP:StartingMoney",
+  "text": "تنظیم پول آغازین همه بازیکنان"
+ }
+]

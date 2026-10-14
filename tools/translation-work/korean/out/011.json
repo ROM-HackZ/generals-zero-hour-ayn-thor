@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Any",
+  "text": "모두"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNicknamePassword",
+  "text": "닉네임과 비밀번호를 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmail",
+  "text": "이메일을 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNickname",
+  "text": "닉네임을 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoPassword",
+  "text": "비밀번호를 입력한 다음 [로그인] 또는 [계정 만들기]를 클릭하십시오"
+ },
+ {
+  "label": "Buddy:MultipleOnlineNotification",
+  "text": "접속 중인 친구가 있습니다"
+ },
+ {
+  "label": "GUI:ResetHonors",
+  "text": "훈장 초기화"
+ },
+ {
+  "label": "Chat:Observers",
+  "text": "관전자 화면"
+ },
+ {
+  "label": "TOOLTIP:buddies",
+  "text": "친구순으로 게임 목록 정렬"
+ },
+ {
+  "label": "TOOLTIP:AddToBuddies",
+  "text": "친구 목록에 플레이어 추가"
+ },
+ {
+  "label": "TOOLTIP:StagingPlayerInfo",
+  "text": "\n지역: %ls\n핑: %d ms\n%d승/%d패\n연결 끊김 %d회\n선호 진영: %ls"
+ },
+ {
+  "label": "GUI:CantBuildTooCloseToSupplies",
+  "text": "보급원과 너무 가까워서 여기에 건설할 수 없습니다"
+ },
+ {
+  "label": "OBJECT:Frosty",
+  "text": "눈사람"
+ },
+ {
+  "label": "OBJECT:Prop",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:BigGate",
+  "text": "정문"
+ },
+ {
+  "label": "OBJECT:TownHall",
+  "text": "시청"
+ },
+ {
+  "label": "OBJECT:RailroadBridge",
+  "text": "철교"
+ },
+ {
+  "label": "OBJECT:TheLoo",
+  "text": "옥외 화장실"
+ },
+ {
+  "label": "OBJECT:TrainCar",
+  "text": "열차 객차"
+ },
+ {
+  "label": "OBJECT:SandBagWall",
+  "text": "모래주머니 벽"
+ },
+ {
+  "label": "OBJECT:Structure",
+  "text": "민간 건물"
+ },
+ {
+  "label": "OBJECT:Airport",
+  "text": "민간 공항"
+ },
+ {
+  "label": "OBJECT:Highrise",
+  "text": "고층 건물"
+ },
+ {
+  "label": "OBJECT:BridgeTower",
+  "text": "교탑"
+ },
+ {
+  "label": "OBJECT:Field",
+  "text": "경기장"
+ },
+ {
+  "label": "OBJECT:SoccerStadiumGoal",
+  "text": "골대"
+ },
+ {
+  "label": "OBJECT:BigLightpost",
+  "text": "가로등 기둥"
+ },
+ {
+  "label": "MAP:BigRivers",
+  "text": "Mountain Fox"
+ },
+ {
+  "label": "MAP:CHI01Open",
+  "text": "베이징, 중국 군사 퍼레이드\n용이 깨어나다"
+ },
+ {
+  "label": "MAP:CHI03Obj1Done",
+  "text": "임무 목표 완료"
+ },
+ {
+  "label": "MAP:CHI07Obj1",
+  "text": "임무 목표:\n기지를 세우고 자원을 찾으십시오"
+ },
+ {
+  "label": "MAP:CHI07Obj2",
+  "text": "임무 목표:\nGLA 격파"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt2",
+  "text": "카자흐스탄 알마티 외곽 마을\n대의를 위해 외국 보급품을 빼앗아라"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt1",
+  "text": "카자흐스탄 알마티 외곽 마을\n작전명: 마을 약탈"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt2",
+  "text": "카자흐스탄 아랄해 서안\n서방의 독을 훔쳐 그들에게 돌려주어라"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt1",
+  "text": "카자흐스탄 아랄해 서안\n작전명: 독에는 독으로"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt2",
+  "text": "카자흐스탄 렝게르 근처 어딘가\n배신자의 최후를 세상에 보여 주어라"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt",
+  "text": "카자흐스탄 렝게르 근처 어딘가\n작전명: 트로이의 목마"
+ },
+ {
+  "label": "MAP:GLA03Open02",
+  "text": "중국에 점령된 카자흐스탄 잠불\n작전명: 정의의 불꽃"
+ },
+ {
+  "label": "MAP:GLA03Directive",
+  "text": "정보원 보고:\n제약 공장을 파괴해 탄저균 폭탄을 얻으십시오"
+ },
+ {
+  "label": "MAP:USA02Hint1Text",
+  "text": "조종사를 태워 차량의 경험치를 높이십시오"
+ },
+ {
+  "label": "MAP:USA02Hint2Text",
+  "text": "레인저의 섬광탄 업그레이드로 주둔 중인 건물을 소탕하십시오"
+ },
+ {
+  "label": "MAP:USA03Hint1Text",
+  "text": "패트리어트 미사일 시스템을 지어 기지를 방어하십시오"
+ },
+ {
+  "label": "MAP:USA04Hint1Text",
+  "text": "토마호크 미사일 발사대로 GLA 거점을 소탕하십시오"
+ },
+ {
+  "label": "MAP:NVIDIATEXT",
+  "text": "커맨드 앤 컨커 제너럴\n2003년 2월 출시 예정"
+ },
+ {
+  "label": "MAP:USA06ObjHint2",
+  "text": "힌트:\n이 시설을 점령하십시오"
+ },
+ {
+  "label": "MAP:USA06ObjHint1",
+  "text": "힌트:\n여기에 중요한 민간 건물이 있습니다"
+ },
+ {
+  "label": "MAP:GLA03Objective07",
+  "text": "목표 완료:\n배신자 300명 제거"
+ },
+ {
+  "label": "MAP:GLA03Objective08",
+  "text": "목표 완료:\n제약 공장 파괴"
+ },
+ {
+  "label": "MAP:GLA05Open",
+  "text": "터키, 아다나\n인시를리크 공군 기지"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive03",
+  "text": "경고:\n미 공군 접근 중\n스팅어 기지를 지어 기지를 방어하십시오"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive04",
+  "text": "보조 목표:\n중국 첩보 전초기지 파괴"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive05",
+  "text": "경고:\n미 공군 접근 중\n스팅어 기지와 쿼드 캐논으로 적 항공기를 격추하십시오"
+ },
+ {
+  "label": "MAP:GLA08Open",
+  "text": "카자흐스탄 남부 바이코누르 우주 기지\n소련 시절 로켓 발사 시설"
+ },
+ {
+  "label": "MAP:GLA08Open02",
+  "text": "카자흐스탄 남부\n바이코누르 우주 기지"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective01",
+  "text": "임무 목표:\n지상 관제 건물 점령\n로켓 발사대 점령"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective02",
+  "text": "임무 목표:\n지상 관제 건물 점령"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective03",
+  "text": "임무 목표:\n로켓 발사대 점령"
+ },
+ {
+  "label": "SCRIPT:GLA08Directive04",
+  "text": "경고:\n적 초강력 무기 접근 중"
+ },
+ {
+  "label": "MAP:USA07hint1",
+  "text": "힌트:\n이 보급 창고를 활용하십시오"
+ },
+ {
+  "label": "MAP:CHI05ObjInit",
+  "text": "임무 목표:\nGLA 캠프 3곳과\nGLA 본기지 파괴"
+ },
+ {
+  "label": "MAP:CHI05Obj4",
+  "text": "목표가 4개 남았습니다"
+ },
+ {
+  "label": "MAP:CHI05Obj3",
+  "text": "목표가 3개 남았습니다"
+ },
+ {
+  "label": "MAP:CHI05Obj2",
+  "text": "목표가 2개 남았습니다"
+ },
+ {
+  "label": "MAP:CHI05Obj1",
+  "text": "목표가 1개만 남았습니다"
+ },
+ {
+  "label": "MAP:CHI05Objhint1",
+  "text": "힌트:\n이 보급 창고를 활용하십시오"
+ },
+ {
+  "label": "MAP:CHI05Objhint2",
+  "text": "힌트:\n이 시설들을 점령하십시오"
+ },
+ {
+  "label": "MAP:CHI05ObjCBReady",
+  "text": "힌트:\n이제 융단 폭격기를 사용할 수 있습니다"
+ },
+ {
+  "label": "MAP:USA08MapName",
+  "text": "라스트 콜"
+ },
+ {
+  "label": "MAP:USA08Open",
+  "text": "알다스탄, GLA 수도\n작전명: 라스트 콜"
+ },
+ {
+  "label": "MAP:USA08OpenAlt",
+  "text": "카자흐스탄, 아크몰라\n작전명: 라스트 콜"
+ },
+ {
+  "label": "MAP:USA08Objective01",
+  "text": "임무 목표:\n모든 GLA 병력과 건물 파괴"
+ },
+ {
+  "label": "MAP:USA08WallGarWarning",
+  "text": "경고:\nGLA가 성벽에 주둔했습니다\n레인저가 섬광탄으로 주둔한 GLA 병력을 처치해야 합니다"
+ },
+ {
+  "label": "MAP:USA08ChinaHint",
+  "text": "중국 건물을 점령하십시오\n미중 연합군을 편성해 GLA를 전멸시키십시오"
+ },
+ {
+  "label": "MAP:USA08SCUDStormWarn",
+  "text": "경고:\nGLA가 스커드 스톰을 건설했습니다"
+ },
+ {
+  "label": "MAP:USA08MineWarn",
+  "text": "경고:\nGLA 폭파 함정 감지"
+ },
+ {
+  "label": "MAP:USA08GLABaseKIA",
+  "text": "GLA 기지가 파괴되었습니다\n남은 GLA 병력을 제거해 전쟁에서 승리하십시오"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCarpetBomb",
+  "text": "목표 지역에 융단 폭격\n\n재사용 대기시간: 2:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCrateDrop",
+  "text": "보급 상자 투하"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateNuke",
+  "text": "숨겨진 핵 장치 폭발"
+ },
+ {
+  "label": "MAP:GLA01Objective",
+  "text": "임무 목표\n댐 파괴"
+ },
+ {
+  "label": "MAP:GLA01Objective2",
+  "text": "임무 목표\n중국 기지 파괴"
+ },
+ {
+  "label": "MAP:TrainingGenerals",
+  "text": "화면 오른쪽 아래의 장군 버튼을 왼쪽 클릭해 장군의 새 능력을 선택하십시오. 진급할수록 새 능력을 쓸 수 있습니다. 새로운 특수 유닛을 만들 수 있는 능력도 있고, 사령부에서 사용하는 특수 능력을 주는 것도 있습니다"
+ },
+ {
+  "label": "MAP:TrainingSalvage",
+  "text": "잔해 더미가 생겼습니다. GLA 차량이 적 차량을 파괴할 때마다 잔해가 남습니다. GLA 차량이 그 위를 지나가면 잔해를 주울 수 있습니다. 잔해는 돈이나 경험치가 될 수 있습니다. 테크니컬, 쿼드 캐논, 마라우더는 잔해로 무기를 업그레이드할 수 있습니다"
+ },
+ {
+  "label": "MAP:TrainingUpgrade",
+  "text": "업그레이드는 기지의 여러 건물에서 구입하며 유닛을 강화합니다. 병영을 왼쪽 클릭한 다음 건물 점령 아이콘을 왼쪽 클릭하면 레인저가 적 건물을 점령할 수 있도록 업그레이드합니다"
+ },
+ {
+  "label": "GUI:SaveAndContinue",
+  "text": "계속"
+ },
+ {
+  "label": "TOOLTIP:PlayerSetting",
+  "text": "1 대 1 또는 팀 게임 매칭을 선택하십시오"
+ },
+ {
+  "label": "TOOLTIP:Ping",
+  "text": "상대 연결 속도의 허용 범위를 선택하십시오"
+ },
+ {
+  "label": "TOOLTIP:Disconnect",
+  "text": "상대의 총 연결 끊김 허용 범위를 선택하십시오"
+ },
+ {
+  "label": "TOOLTIP:Ladder",
+  "text": "플레이할 래더를 선택하십시오"
+ },
+ {
+  "label": "TOOLTIP:QuickMatchStatus",
+  "text": "빠른 대전은 실력, PC 사양 등을 기준으로 매칭합니다"
+ },
+ {
+  "label": "TOOLTIP:OnlineIP",
+  "text": "C&C 제너럴: 제로아워 온라인 연결에 사용하는 IP 주소"
+ },
+ {
+  "label": "TOOLTIP:LanIP",
+  "text": "네트워크 게임에서 플레이어와 연결할 때 사용하는 IP 주소"
+ },
+ {
+  "label": "TOOLTIP:GamesBeingformed",
+  "text": "이 게임 플레이어들과의 연결 속도"
+ },
+ {
+  "label": "TOOLTIP:EmoteText",
+  "text": "왼쪽 클릭해 텍스트 입력"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCashHack",
+  "text": "적 보급 센터에서 돈을 훔칩니다. 적이 가진 것보다 더 많이 훔칠 수는 없습니다\n\n등급 1: $1000\n등급 2: $2000\n등급 3: $4000\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "GUI:TRAINING",
+  "text": "훈련"
+ },
+ {
+  "label": "GUI:CHINA_Caps",
+  "text": "중국"
+ },
+ {
+  "label": "TOOLTIP:SupplyDock",
+  "text": "보급품"
+ },
+ {
+  "label": "TOOLTIP:TechBuilding",
+  "text": "기술 건물"
+ },
+ {
+  "label": "TOOLTIP:Mission1",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:Mission2_8",
+  "text": "캠페인 1"
+ },
+ {
+  "label": "TOOLTIP:Mission9_16",
+  "text": "캠페인 2"
+ },
+ {
+  "label": "TOOLTIP:Mission17_23",
+  "text": "캠페인 3"
+ },
+ {
+  "label": "TOOLTIP:ButtonClear",
+  "text": "플레이어 이름 입력란 지우기"
+ },
+ {
+  "label": "GUI:Objectives:",
+  "text": "요약:"
+ },
+ {
+  "label": "GUI:WinStreak",
+  "text": "연승"
+ },
+ {
+  "label": "GUI:LossStreak",
+  "text": "연패"
+ },
+ {
+  "label": "GUI:PlayerNoMapWillTransfer",
+  "text": "%ls 님에게 %ls 맵이 없습니다. 게임 시작 시 전송됩니다"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMapWillTransfer",
+  "text": "%ls 맵이 없습니다. 게임 시작 시 전송됩니다"
+ },
+ {
+  "label": "GUI:CouldNotTransferMap",
+  "text": "맵을 전송할 수 없습니다. 게임을 시작할 수 없습니다"
+ },
+ {
+  "label": "GUI:Status",
+  "text": "상태"
+ },
+ {
+  "label": "MapTransfer:CurrentFile",
+  "text": "현재 파일: %ls"
+ },
+ {
+  "label": "MapTransfer:Timeout",
+  "text": "%d:%2.2d 후 중단"
+ },
+ {
+  "label": "MapTransfer:Preparing",
+  "text": "준비 중..."
+ },
+ {
+  "label": "MapTransfer:Sending",
+  "text": "보내는 중..."
+ },
+ {
+  "label": "MapTransfer:Recieving",
+  "text": "받는 중..."
+ },
+ {
+  "label": "MapTransfer:Done",
+  "text": "완료"
+ },
+ {
+  "label": "ThingTemplate:SalvageCrate",
+  "text": "잔해 상자"
+ },
+ {
+  "label": "ThingTemplate:IndustrialBridgeTower01",
+  "text": "다리"
+ },
+ {
+  "label": "ThingTemplate:Crypt01",
+  "text": "묘실"
+ },
+ {
+  "label": "ThingTemplate:AsianAartmentSingle01",
+  "text": "아파트"
+ },
+ {
+  "label": "CONTROLBAR:RadioJam",
+  "text": "전파 방해"
+ },
+ {
+  "label": "MAP:USA01OBJOpen",
+  "text": "임무 목표\n모든 적 병력 파괴"
+ },
+ {
+  "label": "MAP:TrainingWarFactory",
+  "text": "임무 목표\n건설 도저로 군수 공장을 건설하십시오"
+ },
+ {
+  "label": "TOOLTIP:MapNoSuccess",
+  "text": "이 맵에서 쉬움 상대를 물리치십시오!"
+ },
+ {
+  "label": "TOOLTIP:MapEasySuccess",
+  "text": "이 맵에서 보통 상대를 물리치십시오!"
+ },
+ {
+  "label": "TOOLTIP:MapMediumSuccess",
+  "text": "이 맵에서 어려움 상대를 물리치십시오!"
+ },
+ {
+  "label": "TOOLTIP:MapHardSuccess",
+  "text": "이 맵에서 최대 수의 어려움 상대를 물리치십시오!"
+ },
+ {
+  "label": "Buddy:CantTalkToIngameBuddy",
+  "text": "관전 중에는 게임 속 친구에게 메시지를 보낼 수 없습니다"
+ },
+ {
+  "label": "MAP:Bavarian",
+  "text": "Final Crusade"
+ },
+ {
+  "label": "MAP:CLake",
+  "text": "Tournament Lake"
+ },
+ {
+  "label": "MAP:SBlast",
+  "text": "Sand Serpent"
+ },
+ {
+  "label": "MAP:SleepingGiant",
+  "text": "Dark Mountain"
+ },
+ {
+  "label": "MAP:SwissMP",
+  "text": "Lone Eagle"
+ },
+ {
+  "label": "MAP:KandaharHighlands",
+  "text": "Twilight Flame"
+ },
+ {
+  "label": "MAP:BoraBora",
+  "text": "Tournament Island"
+ },
+ {
+  "label": "MAP:PrecipicePass",
+  "text": "Fortress Avalanche"
+ },
+ {
+  "label": "MAP:TTourney",
+  "text": "Tournament Tundra"
+ },
+ {
+  "label": "MAP:Gwall",
+  "text": "Fallen Empire"
+ },
+ {
+  "label": "GUI:HTTPProxy",
+  "text": "HTTP 프록시:"
+ },
+ {
+  "label": "GUI:WinPercent",
+  "text": "%d%%"
+ },
+ {
+  "label": "TOOLTIP:PlayerCreatedName",
+  "text": "게임을 만든 플레이어 이름"
+ },
+ {
+  "label": "TOOLTIP:HTTPProxy",
+  "text": "C&C 제너럴: 제로아워 온라인에 사용할 HTTP 프록시 설정"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistory",
+  "text": "임무 브리핑"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistoryDescription",
+  "text": "클릭하여 임무 브리핑 보기"
+ },
+ {
+  "label": "MAP:CHI04Objective1Text",
+  "text": "임무 목표\nGLA의 스팅어 기지 파괴"
+ },
+ {
+  "label": "MAP:CHI04Objective2Text",
+  "text": "임무 목표\n블랙 로투스로 중국 군수 공장 점령"
+ },
+ {
+  "label": "MAP:CHI04Objective3Text",
+  "text": "임무 목표\n화학 공장 주변 스팅어 기지 파괴"
+ },
+ {
+  "label": "MAP:CHI04Hint1Text",
+  "text": "힌트: 블랙 로투스로 적 차량을 무력화하십시오"
+ },
+ {
+  "label": "MAP:CHI04Hint2Text",
+  "text": "힌트: 해커로 추가 수입을 올리십시오"
+ },
+ {
+  "label": "MAP:CHI04Hint3Text",
+  "text": "힌트: 블랙 로투스로 적 보급 센터를 해킹해 추가 자원을 빼돌리십시오"
+ },
+ {
+  "label": "GUI:GotoMainMenu",
+  "text": "메인 메뉴"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlay",
+  "text": "페어플레이 훈장\n온라인 게임 연결 끊김을 10% 미만(최소 10게임)으로 유지하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypse",
+  "text": "종말 훈장\n싱글 또는 온라인 멀티플레이 게임에서 입자 캐논, 핵미사일, 스커드 스톰을 모두 건설했습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlayDisabled",
+  "text": "페어플레이 훈장\n온라인 게임 연결 끊김을 10% 미만(최소 10게임)으로 유지하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypseDisabled",
+  "text": "종말 훈장\n입자 캐논, 핵미사일, 스커드 스톰을 모두 건설하면 받을 수 있습니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorder",
+  "text": "장교 클럽 훈장\n제너럴 커뮤니티의 창립 회원입니다"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorderDisabled",
+  "text": "장교 클럽 훈장\n제너럴을 예약 구매하지 않았습니다"
+ },
+ {
+  "label": "GUI:Credits",
+  "text": "제작진"
+ },
+ {
+  "label": "ERROR:D3DFailurePrompt",
+  "text": "DirectX 오류"
+ },
+ {
+  "label": "ERROR:D3DFailureMessage",
+  "text": "DirectX 8.1 이상이 설치되어 있는지 확인하십시오. 비디오 카드가 최소 사양을 충족하는지도 확인하십시오"
+ },
+ {
+  "label": "GUI:AudioHardware",
+  "text": "하드웨어 가속 오디오"
+ },
+ {
+  "label": "GUI:AudioSurround",
+  "text": "서라운드 사운드"
+ },
+ {
+  "label": "TOOLTIP:CheckAudioHardware",
+  "text": "오디오 하드웨어 가속을 사용하려면 선택하십시오"
+ },
+ {
+  "label": "TOOLTIP:AudioSurround",
+  "text": "서라운드 스피커가 있으면 선택하십시오"
+ },
+ {
+  "label": "CAMPAIGN:TRAINING",
+  "text": "훈련"
+ },
+ {
+  "label": "GUI:WinPercentLabel",
+  "text": "승률"
+ },
+ {
+  "label": "GUI:BestWinStreak",
+  "text": "최고 연승"
+ },
+ {
+  "label": "Buddy:MatchingNotification",
+  "text": "%hs 님이 빠른 대전 매칭 중입니다"
+ },
+ {
+  "label": "Buddy:StagingNotification",
+  "text": "%hs 님이 게임을 준비 중입니다"
+ },
+ {
+  "label": "Buddy:LoadingNotification",
+  "text": "%hs 님이 게임을 시작하는 중입니다"
+ },
+ {
+  "label": "Buddy:PlayingNotification",
+  "text": "%hs 님이 게임 중입니다"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsPromotion",
+  "text": "장군 진급"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExp",
+  "text": "장군 경험치"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExpDescription",
+  "text": "다음 장군 레벨까지 얼마나 남았는지 보여 줍니다"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOn",
+  "text": "과부하가 현재 켜져 있습니다"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOff",
+  "text": "과부하가 현재 꺼져 있습니다"
+ },
+ {
+  "label": "GUI:ESRB_Top",
+  "text": "ESRB 공지:"
+ },
+ {
+  "label": "GUI:ESRB_Bottom",
+  "text": "온라인 플레이 중에는\n게임 경험이 달라질 수 있습니다"
+ },
+ {
+  "label": "GUI:ReplaySaved",
+  "text": "리플레이 저장됨"
+ },
+ {
+  "label": "OBJECT:Monument",
+  "text": "기념비"
+ },
+ {
+  "label": "TOOLTIP:TooltipNotEnoughMoneyToBuild",
+  "text": "자금 부족"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotPurchaseBecauseQueueFull",
+  "text": "생산 대기열이 가득 참"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseParkingFull",
+  "text": "비행장이 가득 참"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseMaximumNumber",
+  "text": "유닛이 이미 존재함"
+ },
+ {
+  "label": "GUI:SocketError",
+  "text": "네트워크와 통신하지 못했습니다. 연결을 확인하십시오"
+ },
+ {
+  "label": "GUI:NetworkError",
+  "text": "네트워크 오류"
+ },
+ {
+  "label": "GUI:BuddiesTab",
+  "text": "친구"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorOfficersClub",
+  "text": "장교 클럽 훈장\n제너럴 커뮤니티 창립 회원"
+ },
+ {
+  "label": "GUI:CreateFormationDescription",
+  "text": "선택한 유닛으로 대형을 만들어 이동할 때 유지합니다"
+ },
+ {
+  "label": "GUI:ScatterDescription",
+  "text": "선택한 오브젝트 흩어지기"
+ },
+ {
+  "label": "OBJECT:TrainWreckBridge",
+  "text": "열차 잔해 다리"
+ },
+ {
+  "label": "MAP:BarrenBadlands",
+  "text": "Barren Badlands"
+ },
+ {
+  "label": "MAP:CraterCanyon",
+  "text": "Crater Canyon"
+ },
+ {
+  "label": "MAP:DustDevil",
+  "text": "Dust Devil"
+ },
+ {
+  "label": "MAP:EasternEverglades",
+  "text": "Eastern Everglades"
+ },
+ {
+  "label": "MAP:ForgottenForest",
+  "text": "Forgotten Forest"
+ },
+ {
+  "label": "MAP:InterstateInferno",
+  "text": "Interstate Inferno"
+ },
+ {
+  "label": "MAP:MountainMayhem",
+  "text": "Mountain Mayhem"
+ }
+]

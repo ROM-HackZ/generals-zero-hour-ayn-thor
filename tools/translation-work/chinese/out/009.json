@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:ToolTipUSARangerCaptureBuilding",
+  "text": "占领目标敌方建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFire20mmCannon",
+  "text": "向目标发射 20mm 机炮"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireAntiTankMissiles",
+  "text": "向目标发射反坦克导弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireRocketPods",
+  "text": "向目标区域发射火箭弹幕"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireScorpionRocket",
+  "text": "向目标发射一枚重型火箭"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDHEWarhead",
+  "text": "为飞毛腿导弹装填炸药"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASCUDAnthraxWarhead",
+  "text": "为飞毛腿导弹装填炭疽"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireToxinTractorSlime",
+  "text": "向区域喷洒毒素"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLARebelCaptureBuilding",
+  "text": "占领目标敌方建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLATerroristMakeCarBomb",
+  "text": "进入民用汽车并装满炸药"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireFireBomb",
+  "text": "对目标投掷燃烧弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAHijackerHijack",
+  "text": "劫持目标敌方载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAFireJarmenKellVehicleSnipe",
+  "text": "击杀载具乘员"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireMIG",
+  "text": "开火"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardCaptureBuilding",
+  "text": "占领目标敌方建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireStunBullets",
+  "text": "俘虏目标敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaRedGuardFireBayonet",
+  "text": "用刺刀攻击目标敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCaptureHack",
+  "text": "占领敌方建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusVehicleHack",
+  "text": "瘫痪敌方载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireBlackLotusCashHack",
+  "text": "从目标敌方补给中心窃取资金"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireHackerInternetHack",
+  "text": "入侵互联网窃取资金"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaHackerBuildingHack",
+  "text": "用强大的电脑病毒瘫痪敌方建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaDragonTankFire",
+  "text": "开火"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireWall",
+  "text": "在目标区域铺下一道弧形火墙"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipPickUpPrisoner",
+  "text": "押送敌方俘虏回你的基地"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipReturnToPrison",
+  "text": "返回俘虏关押设施"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireTankHunterTNTAttack",
+  "text": "放置 TNT 炸药"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack",
+  "text": "用刀刺杀目标敌方士兵，进行无声攻击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAFireBurtonTimedDemo",
+  "text": "放置定时爆破炸药"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonPlaceRemoteCharge",
+  "text": "放置可随时引爆的遥控爆破炸药"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABurtonDetonateCharges",
+  "text": "引爆所有遥控炸药"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipCancelConstruction",
+  "text": "取消建造"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCommandCenter",
+  "text": "指挥特殊武器。生产推土机。提供雷达"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPowerPlant",
+  "text": "为美国基地提供电力\n\n提供电力：5"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBarracks",
+  "text": "训练美国士兵投入战斗"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyCenter",
+  "text": "美国支奴干补给收集点\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWall",
+  "text": "美国围栏系统。激光传感器会对穿过围栏的敌军发出警报。围栏可阻挡敌方载具通行"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildWarFactory",
+  "text": "生产所有美国地面载具\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPatriotBattery",
+  "text": "对地和对空防御。可将敌人位置传递给附近的爱国者\n\n所需电力：3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAirField",
+  "text": "生产美国飞机\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildParticleCannon",
+  "text": "向地图任意位置发射粒子光束\n\n所需电力：10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStrategyCenter",
+  "text": "所有美国部队可使用一种作战计划\n\n轰炸\n搜索与摧毁\n坚守阵线\n\n所需电力：2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDetentionCamp",
+  "text": "获得侦察敌人的能力"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSupplyDropZone",
+  "text": "每 2 分钟呼叫一次物资空投\n\n所需电力：4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCommandCenter",
+  "text": "指挥特殊武器。训练工人"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABUildDemoTrap",
+  "text": "隐蔽的爆炸装置"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBarracks",
+  "text": "训练 GLA 士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSupplyStash",
+  "text": "收集物资"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildArmsDealer",
+  "text": "生产载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildCommandCenter",
+  "text": "指挥特殊武器。生产推土机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPowerPlant",
+  "text": "中国发电厂。可超载以提供 +50% 电力\n\n提供电力：10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBarracks",
+  "text": "训练中国士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyCenter",
+  "text": "中国补给收集点\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildWarFactory",
+  "text": "生产中国载具\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBunker",
+  "text": "可容纳 5 名中国士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaCenter",
+  "text": "研发重要的中国科技\n\n所需电力：2"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildAirField",
+  "text": "生产中国飞机\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingCannon",
+  "text": "强大的防空基地防御\n\n所需电力：3"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher",
+  "text": "发射核导弹。研发重要的中国升级\n\n所需电力：10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSpeakerTower",
+  "text": "治疗你的部队并提高射速\n\n所需电力：1"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTunnelNetwork",
+  "text": "基地防御和地下隧道。单位可以进入地道网，并从任意其他地道网出口离开"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPalace",
+  "text": "存放重要的 GLA 科技。GLA 部队可以进驻"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBlackMarket",
+  "text": "存放重要的 GLA 科技。为 GLA 玩家提供免费物资"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildStingerSite",
+  "text": "防空和反坦克基地防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScudStorm",
+  "text": "发射一轮飞毛腿导弹齐射\n\n冷却时间：5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildPrison",
+  "text": "用于关押被俘的敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRanger",
+  "text": "强于：步兵\n弱于：轻型载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildDozer",
+  "text": "建造所有美国建筑并维修建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildWorker",
+  "text": "建造所有 GLA 建筑。维修建筑并收集物资"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDozer",
+  "text": "建造所有中国建筑并维修建筑"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildScorpion",
+  "text": "强于：轻型载具\n弱于：火箭兵、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRocketBuggy",
+  "text": "强于：建筑\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRadarVan",
+  "text": "提供雷达。可以发现隐藏的敌方单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildOverlord",
+  "text": "强于：载具、建筑\n弱于：携带火箭的步兵、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildGattlingTank",
+  "text": "强于：步兵、飞机\n弱于：坦克"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRebel",
+  "text": "强于：步兵\n弱于：坦克、轻型载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildRedguard",
+  "text": "5 人或以上成群时获得集群加成\n\n强于：步兵\n弱于：载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHacker",
+  "text": "可用电脑病毒瘫痪敌方建筑，或入侵互联网窃取资金\n\n强于：建筑\n弱于：步兵、载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABUildChinook",
+  "text": "运输直升机。收集物资。与游骑兵配合执行空降突击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildSupplyTruck",
+  "text": "收集物资"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPaladin",
+  "text": "使用激光摧毁导弹和敌方步兵\n\n强于：坦克、建筑和火箭\n弱于：飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildRaptor",
+  "text": "可攻击地面或空中目标\n\n强于：飞机、坦克、轻型载具\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAurora",
+  "text": "超音速攻击使极光轰炸机免疫敌方火力。超音速攻击后，极光轰炸机速度降至 50%\n\n强于：建筑\n弱于：战斗机、防空单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildStealthFighter",
+  "text": "移动时隐形\n\n强于：敌方基地防御\n弱于：敌方战斗机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildComanche",
+  "text": "发射导弹和机炮。可在空中重新装弹\n\n强于：坦克、轻型载具、步兵\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMissileDefender",
+  "text": "使用特殊激光制导攻击快速发射导弹\n\n强于：坦克、飞机\n弱于：步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPathFinder",
+  "text": "不移动或不射击时隐蔽。可发现隐藏的敌人\n\n强于：步兵\n弱于：轻型载具、侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildColonelBurton",
+  "text": "隐蔽。开火或安放炸弹时会暴露\n\n建造上限：1\n强于：步兵\n弱于：侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildTomahawk",
+  "text": "强于：基地防御\n弱于：坦克、飞机、轻型载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHumvee",
+  "text": "运输载具。车内步兵可通过射击孔攻击敌人\n\n强于：步兵\n弱于：坦克"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMedic",
+  "text": "治疗载具和士兵。清除辐射和毒素"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildScoutDrone",
+  "text": "扩大视野范围并显示隐藏的敌人"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildBattleDrone",
+  "text": "发射小型机枪并维修其母载具\n\n强于：步兵\n弱于：携带导弹的步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMIG",
+  "text": "大批出动时可制造火焰风暴\n\n强于：坦克、轻型载具\n弱于：携带导弹的步兵、防空防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBlackLotus",
+  "text": "占领敌方建筑、从敌方补给中心窃取资金并瘫痪敌方载具。使用能力时以外均处于隐蔽状态\n\n强于：建筑、载具\n弱于：侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTankHunter",
+  "text": "特殊 TNT 攻击\n5 人或以上成群时获得集群加成\n\n强于：坦克\n弱于：步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInfernoCannon",
+  "text": "大批出动时可制造火焰风暴\n\n强于：基地防御、步兵\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildNukeLauncher",
+  "text": "强于：建筑、步兵\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildTroopCrawler",
+  "text": "运输载具。附带 8 名红卫兵。可探测隐形单位\n\n强于：步兵、建筑\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildDragonTank",
+  "text": "可将士兵从建筑中烧出来。可制造火墙\n\n强于：步兵、建筑\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTerrorist",
+  "text": "自杀式士兵\n\n强于：坦克、建筑\n弱于：步兵、轻型载具"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildRPGTrooper",
+  "text": "强于：坦克\n弱于：步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildAngryMob",
+  "text": "强于：步兵、载具\n弱于：火焰、毒素、闪光震撼弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildHijacker",
+  "text": "可夺取任何敌方载具。隐蔽\n\n强于：坦克、载具\n弱于：步兵、侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildJarmenKell",
+  "text": "处于隐蔽状态。可藏身于民用建筑中狙击敌方士兵。可击杀敌方载具乘员，使其可被夺取\n\n强于：步兵、载具\n弱于：侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildToxinTruck",
+  "text": "清除建筑内的敌方士兵。污染地面\n可利用击毁敌军获得的零件升级武器\n强于：步兵\n弱于：坦克、飞机、基地防御"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildBattlemaster",
+  "text": "5 辆或以上成群时获得集群加成\n\n强于：坦克、建筑\n弱于：步兵、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildMarauder",
+  "text": "可利用击毁敌军获得的零件升级武器\n\n强于：建筑、轻型载具\n弱于：火箭兵、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildTechnical",
+  "text": "可利用击毁敌军获得的零件升级武器\n\n强于：步兵\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildQuadCannon",
+  "text": "可利用击毁敌军获得的零件升级武器\n\n强于：步兵、飞机\n弱于：坦克"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBombTruck",
+  "text": "可伪装成任何载具，无论敌友\n\n强于：步兵、建筑\n弱于：侦察单位"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSCUDLauncher",
+  "text": "可装备高爆或生化弹头\n\n强于：建筑、步兵\n弱于：坦克、飞机"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildCrusader",
+  "text": "强于：载具、建筑\n弱于：飞机、携带导弹的步兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePaladin",
+  "text": "帕拉丁可用先进的激光防御系统击落敌方导弹\n\n建造地点：战车工厂"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSASciencePathFinder",
+  "text": "探路者是精英隐蔽狙击手\n\n建造地点：兵营"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceStealthFighter",
+  "text": "移动时隐形\n\n建造地点：机场"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpyDrone",
+  "text": "间谍无人机可躲避敌方视线和雷达，并显示敌人位置\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceParaDrop",
+  "text": "从空中空投游骑兵\n\n等级 1：5 名游骑兵\n等级 2：10 名游骑兵\n等级 3：20 名游骑兵\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceA10Strike",
+  "text": "A10 雷电攻击机可摧毁建筑、载具和步兵\n\n等级 1：1 架 A10 雷电攻击机\n等级 2：2 架 A10 雷电攻击机\n等级 3：3 架 A10 雷电攻击机\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceDaisyCutter",
+  "text": "燃料空气炸弹可摧毁建筑和敌方部队集结点\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeCannon",
+  "text": "核弹炮可将小型战术核弹射向远方\n\n建造地点：战车工厂\n需要：宣传中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceRedGuardTraining",
+  "text": "所有红卫兵出厂即为老兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceClusterMines",
+  "text": "集束地雷由空中布设\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceARtilleryTraining",
+  "text": "核弹炮和地狱火炮出厂即为老兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceArtilleryBarrage",
+  "text": "呼叫地图外炮火打击你的目标\n\n等级 1：12 发炮弹\n等级 2：24 发炮弹\n等级 3：36 发炮弹\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceEMPPulse",
+  "text": "可呼叫重型轰炸机投下 EMP 电磁脉冲炸弹。EMP 电磁脉冲可瘫痪敌方载具和建筑\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceHijacker",
+  "text": "劫车犯处于隐蔽状态，可以偷取敌方载具\n\n建造地点：兵营"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSCUDLauncher",
+  "text": "发射可装备炸药或致命炭疽的远程火箭\n\n建造地点：军火商"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLaScienceMarauderTank",
+  "text": "劫掠者坦克可利用击毁的敌军残骸升级主炮\n\n建造地点：军火商"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceTechnicalTraining",
+  "text": "所有技术车出厂即为老兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceRebelAmbush",
+  "text": "可在任意地点发动叛军突袭伏击\n\n等级 1：4 名叛军\n等级 2：8 名叛军\n等级 3：16 名叛军\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceCashBounty",
+  "text": "每摧毁一个敌方单位或建筑都能获得现金赏金\n\n等级 1：敌方价值的 5%\n等级 2：敌方价值的 10%\n等级 3：敌方价值的 20%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceAnthraxBomb",
+  "text": "炭疽对敌方部队集结点极为致命\n\n召唤地点：指挥中心"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSecurityFence",
+  "text": "建造安全围栏，阻止载具通过，并在敌方步兵穿过时发出警报"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildConcreteWall",
+  "text": "建造混凝土墙，阻止任何地面单位通过"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBurningBarricade",
+  "text": "建造燃烧路障，烧伤试图越过的单位"
+ },
+ {
+  "label": "GUI:QuitToDesktop",
+  "text": "退出到桌面"
+ },
+ {
+  "label": "GUI:QuitToDesktopConf",
+  "text": "你确定要退出到桌面吗？"
+ },
+ {
+  "label": "GUI:NewSaveGame",
+  "text": "***** 新游戏 *****"
+ },
+ {
+  "label": "GUI:TimeAM",
+  "text": "上午"
+ },
+ {
+  "label": "GUI:TimePM",
+  "text": "下午"
+ },
+ {
+  "label": "GUI:OverwriteSaveConfirmation",
+  "text": "覆盖现有文件？"
+ },
+ {
+  "label": "GUI:LoadGameConfirmation",
+  "text": "当前游戏数据将会丢失。载入存档吗？"
+ },
+ {
+  "label": "GUI:Rank1Required",
+  "text": "需要军衔 - 一星将军"
+ },
+ {
+  "label": "GUI:Rank3Required",
+  "text": "需要军衔 - 三星将军"
+ },
+ {
+  "label": "GUI:Rank8Required",
+  "text": "需要军衔 - 五星将军"
+ },
+ {
+  "label": "GUI:Experience",
+  "text": "经验"
+ },
+ {
+  "label": "GUI:RemainingSkillPoints",
+  "text": "点数"
+ },
+ {
+  "label": "TOOLTIP:ExperienceToLevel",
+  "text": "升级所需经验"
+ },
+ {
+  "label": "GUI:SaveAndLoad",
+  "text": "保存/载入"
+ },
+ {
+  "label": "GUI:SaveTime",
+  "text": "时间"
+ },
+ {
+  "label": "GUI:SaveDate",
+  "text": "日期"
+ },
+ {
+  "label": "SCIENCE:Rank1",
+  "text": "一星将军"
+ },
+ {
+  "label": "SCIENCE:Rank2",
+  "text": "二星将军"
+ },
+ {
+  "label": "SCIENCE:Rank3",
+  "text": "三星将军"
+ },
+ {
+  "label": "SCIENCE:Rank4",
+  "text": "四星将军"
+ },
+ {
+  "label": "SCIENCE:Rank5",
+  "text": "五星将军"
+ },
+ {
+  "label": "SCIENCE:Rank6",
+  "text": "少将"
+ },
+ {
+  "label": "SCIENCE:Rank7",
+  "text": "中将"
+ },
+ {
+  "label": "SCIENCE:Rank8",
+  "text": "上将"
+ },
+ {
+  "label": "CONTROLBAR:StructureExit",
+  "text": "离开建筑"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaAircraftArmor",
+  "text": "米格装甲(&A)"
+ },
+ {
+  "label": "CONTROLBAR:RangerMachineGun",
+  "text": "机枪(&M)"
+ },
+ {
+  "label": "CONTROLBAR:RedguardMachineGun",
+  "text": "机枪(&M)"
+ },
+ {
+  "label": "CONTROLBAR:RebelMachineGun",
+  "text": "机枪(&M)"
+ },
+ {
+  "label": "CONTROLBAR:FlashBangGrenadeMode",
+  "text": "闪光震撼弹(&F)"
+ },
+ {
+  "label": "CONTROLBAR:TranqDartsMode",
+  "text": "麻醉飞镖模式(&T)"
+ },
+ {
+  "label": "CONTROLBAR:StunBulletsMode",
+  "text": "俘虏模式(&P)"
+ },
+ {
+  "label": "UPGRADE:AircraftArmor",
+  "text": "飞机装甲"
+ },
+ {
+  "label": "MAP:USA03Open",
+  "text": "哈萨克斯坦北部。美军全面撤退\n行动代号：守护天使"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeAircraftArmor",
+  "text": "米格生命值 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRangerMachineGun",
+  "text": "切换到机枪模式，进行通用攻击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRedguardMachineGun",
+  "text": "切换到机枪模式，进行通用攻击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToRebelMachineGun",
+  "text": "切换到机枪模式，进行通用攻击"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToUSAFlashBang",
+  "text": "使用闪光震撼弹"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToChinaStunBullets",
+  "text": "切换到眩晕子弹模式，俘虏开阔地带的敌方士兵"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSwitchToGLATranqDarts",
+  "text": "切换到麻醉飞镖武器，俘虏开阔地带的敌方士兵"
+ },
+ {
+  "label": "GUI:ProductionQueueFull",
+  "text": "该单位的生产队列已满"
+ },
+ {
+  "label": "GUI:ParkingPlacesFull",
+  "text": "所有停机位均已占用"
+ },
+ {
+  "label": "GUI:UnitMaxedOut",
+  "text": "该单位已达到数量上限"
+ },
+ {
+  "label": "CONTROLBAR:FireTomahawkAtPosition",
+  "text": "战斧轰炸(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireTomahawkAtPosition",
+  "text": "向指定位置发射战斧导弹"
+ },
+ {
+  "label": "GUI:SurrenderConfirmation",
+  "text": "你确定要投降吗？"
+ },
+ {
+  "label": "GUI:GameOver",
+  "text": "游戏结束"
+ },
+ {
+  "label": "TOOLTIP:RefreshNat",
+  "text": "更改防火墙设置或网络服务商后点击"
+ },
+ {
+  "label": "GUI:Surrender",
+  "text": "投降"
+ },
+ {
+  "label": "GUI:SuperweaponEmergencyRepair",
+  "text": "紧急维修"
+ },
+ {
+  "label": "CONTROLBAR:FireNukeCannonAtPosition",
+  "text": "核弹轰炸(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireInfernoCannonAtPosition",
+  "text": "地狱火轰炸(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudExplosiveAtPosition",
+  "text": "高爆轰炸(&B)"
+ },
+ {
+  "label": "CONTROLBAR:FireScudAnthraxAtPosition",
+  "text": "炭疽轰炸(&O)"
+ },
+ {
+  "label": "MAP:USA04Objective1Text",
+  "text": "任务目标：\n清除海滩上的 GLA 部队"
+ },
+ {
+  "label": "MAP:USA04Objective2Text",
+  "text": "任务目标：\n摧毁毒刺导弹阵地"
+ },
+ {
+  "label": "MAP:USA04Objective3Text",
+  "text": "任务目标：\n摧毁 GLA 基地"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireNukeCannonAtPosition",
+  "text": "用核弹炮弹轰炸指定位置"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireInfernoCannonAtPosition",
+  "text": "用地狱火炮弹轰炸指定位置"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudExplosiveAtPosition",
+  "text": "用高爆弹头轰炸指定位置"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireScudAnthraxAtPosition",
+  "text": "用炭疽弹头轰炸指定位置"
+ },
+ {
+  "label": "TOOLTIP:Brightness",
+  "text": "调整游戏亮度"
+ },
+ {
+  "label": "TOOLTIP:ScrollSpeed",
+  "text": "调整地图滚动速度"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:BuildingsBuilt",
+  "text": "建筑\n建造"
+ },
+ {
+  "label": "GUI:BuildingsLost",
+  "text": "建筑\n损失"
+ },
+ {
+  "label": "GUI:BuildingsKilled",
+  "text": "建筑\n摧毁"
+ },
+ {
+  "label": "GUI:ResourcesCollected",
+  "text": "物资\n收集"
+ },
+ {
+  "label": "GUI:QuitPopupTitle",
+  "text": "退出？"
+ },
+ {
+  "label": "GUI:QuitPopupMessage",
+  "text": "你确定要退出吗？"
+ },
+ {
+  "label": "GUI:MaxSelectionSize",
+  "text": "你一次只能选择 %d 个单位"
+ },
+ {
+  "label": "GUI:MessagesOn",
+  "text": "消息已启用"
+ },
+ {
+  "label": "GUI:MissionDescription",
+  "text": "任务描述"
+ },
+ {
+  "label": "GUI:MOTD",
+  "text": "每日消息"
+ },
+ {
+  "label": "GUI:DesyncTitle",
+  "text": "不同步"
+ },
+ {
+  "label": "GUI:DesyncText",
+  "text": "C&C 将军：绝命时刻 与其他玩家失去同步。其他玩家可能修改了他们的游戏版本。C&C 将军：绝命时刻 无法继续，但如果你以后不想和他们一起游戏，可以通过通讯器将他们加入忽略列表"
+ },
+ {
+  "label": "GUI:LadderDetails",
+  "text": "天梯信息"
+ },
+ {
+  "label": "GUI:SystemMaps",
+  "text": "官方地图"
+ },
+ {
+  "label": "GUI:UserMaps",
+  "text": "非官方地图"
+ },
+ {
+  "label": "GUI:WaitingToBeginConnection",
+  "text": "等待开始"
+ },
+ {
+  "label": "GUI:NetgearDelay",
+  "text": "发送延迟"
+ },
+ {
+  "label": "GUI:WaitingForManglerResponse",
+  "text": "正在等待外部网络服务商响应"
+ },
+ {
+  "label": "GUI:WaitingForMangledPort",
+  "text": "正在等待端口号"
+ },
+ {
+  "label": "GUI:WaitingForResponse",
+  "text": "正在等待探测响应"
+ },
+ {
+  "label": "GUI:ConnectionDone",
+  "text": "连接已完成"
+ },
+ {
+  "label": "GUI:ConnectionFailed",
+  "text": "连接失败"
+ },
+ {
+  "label": "GUI:UnknownConnectionState",
+  "text": "NAT/防火墙状态未知"
+ },
+ {
+  "label": "GUI:Logout",
+  "text": "主菜单"
+ },
+ {
+  "label": "GUI:CancelMapSelect",
+  "text": "取消"
+ },
+ {
+  "label": "GUI:Deny",
+  "text": "拒绝"
+ },
+ {
+  "label": "GUI:Victory",
+  "text": "胜利"
+ },
+ {
+  "label": "GUI:Ignore",
+  "text": "忽略"
+ },
+ {
+  "label": "GUI:Unignore",
+  "text": "取消忽略"
+ },
+ {
+  "label": "GUI:Stats",
+  "text": "个人资料"
+ },
+ {
+  "label": "GUI:GetMapPack",
+  "text": "下载地图包"
+ },
+ {
+  "label": "GUI:Defeat",
+  "text": "失败"
+ },
+ {
+  "label": "GUI:YouAreVictorious",
+  "text": "你胜利了！"
+ },
+ {
+  "label": "GUI:YouHaveBeenDefeated",
+  "text": "你被击败了"
+ },
+ {
+  "label": "GUI:PlayerAlive",
+  "text": "游戏中"
+ },
+ {
+  "label": "GUI:PlayerDead",
+  "text": "已被击败"
+ },
+ {
+  "label": "GUI:PlayerObserver",
+  "text": "观战中"
+ },
+ {
+  "label": "GUI:PlayerObserverGone",
+  "text": "已离开"
+ },
+ {
+  "label": "GUI:PlayerGone",
+  "text": "已离开"
+ },
+ {
+  "label": "GUI:PlayerName",
+  "text": "玩家名称"
+ },
+ {
+  "label": "GUI:Info",
+  "text": "玩家信息"
+ },
+ {
+  "label": "GUI:Players:",
+  "text": "玩家："
+ },
+ {
+  "label": "GUI:GameOptions:",
+  "text": "游戏选项："
+ },
+ {
+  "label": "GUI:GameName:",
+  "text": "游戏："
+ },
+ {
+  "label": "GUI:MapName:",
+  "text": "地图："
+ },
+ {
+  "label": "GUI:SelectMap",
+  "text": "选择地图"
+ },
+ {
+  "label": "GUI:SelectAMap",
+  "text": "选择地图"
+ },
+ {
+  "label": "GUI:SelectAGame",
+  "text": "选择游戏"
+ },
+ {
+  "label": "GUI:Start",
+  "text": "开始游戏"
+ },
+ {
+  "label": "GUI:Host",
+  "text": "创建游戏"
+ },
+ {
+  "label": "GUI:LocaleSelect",
+  "text": "选择你的地区"
+ },
+ {
+  "label": "GUI:Command&ConquerGenerals",
+  "text": "Command & Conquer (TM) 将军：绝命时刻"
+ },
+ {
+  "label": "GUI:Command&Conquer",
+  "text": "Command & Conquer (TM)"
+ },
+ {
+  "label": "GUI:Generals",
+  "text": "将军：绝命时刻"
+ },
+ {
+  "label": "GUI:GeneralsOnline",
+  "text": "在线"
+ },
+ {
+  "label": "GUI:SendDelay",
+  "text": "发送延迟"
+ },
+ {
+  "label": "GUI:FirewallRefresh",
+  "text": "刷新 NAT"
+ },
+ {
+  "label": "GUI:Exit",
+  "text": "退出游戏"
+ },
+ {
+  "label": "GUI:X",
+  "text": "X"
+ },
+ {
+  "label": "GUI:Campaign",
+  "text": "战役"
+ },
+ {
+  "label": "GUI:WestwoodPacific",
+  "text": "EA Pacific"
+ },
+ {
+  "label": "GUI:ClickToDisplayGameInfo",
+  "text": "点击显示游戏信息"
+ },
+ {
+  "label": "GUI:GameInfo",
+  "text": "游戏信息"
+ },
+ {
+  "label": "GUI:OptionsDescription",
+  "text": "显示游戏选项对话框"
+ },
+ {
+  "label": "GUI:SFXVolume",
+  "text": "音效音量"
+ },
+ {
+  "label": "GUI:3DSound",
+  "text": "3D 音效"
+ },
+ {
+  "label": "GUI:ScrollSpeed",
+  "text": "滚屏速度"
+ },
+ {
+  "label": "GUI:Resolution",
+  "text": "分辨率"
+ },
+ {
+  "label": "GUI:Resolution0",
+  "text": "1024x768"
+ },
+ {
+  "label": "GUI:Resolution1",
+  "text": "800x600"
+ },
+ {
+  "label": "GUI:Resolution2",
+  "text": "640x480"
+ },
+ {
+  "label": "GUI:Detail",
+  "text": "细节"
+ },
+ {
+  "label": "GUI:???",
+  "text": "???"
+ },
+ {
+  "label": "GUI:Faction",
+  "text": "阵营"
+ },
+ {
+  "label": "GUI:AntiAliasing0",
+  "text": "关"
+ },
+ {
+  "label": "GUI:AntiAliasing1",
+  "text": "低"
+ },
+ {
+  "label": "GUI:AntiAliasing2",
+  "text": "高"
+ },
+ {
+  "label": "GUI:IPAddresses",
+  "text": "局域网 IP："
+ },
+ {
+  "label": "GUI:MinPointPercent",
+  "text": "最低胜率要求："
+ },
+ {
+  "label": "GUI:MaxPointPercent",
+  "text": "最高胜率限制："
+ },
+ {
+  "label": "GUI:NumPlayers",
+  "text": "玩家："
+ },
+ {
+  "label": "GUI:PlayersVersusPlayers",
+  "text": "%dv%d"
+ },
+ {
+  "label": "GUI:TimeInMilliseconds",
+  "text": "%d 毫秒"
+ },
+ {
+  "label": "GUI:MaxDisconnects",
+  "text": "最多允许断线次数："
+ },
+ {
+  "label": "GUI:Confirm",
+  "text": "你确定吗？"
+ },
+ {
+  "label": "GUI:NothingSelected",
+  "text": "未选择任何对象"
+ },
+ {
+  "label": "GUI:SelectedAcrossScreen",
+  "text": "已选择屏幕内同类单位"
+ },
+ {
+  "label": "GUI:SelectedAcrossMap",
+  "text": "已选择全地图同类单位"
+ },
+ {
+  "label": "KEYBOARD:Shift+",
+  "text": "Shift+"
+ },
+ {
+  "label": "KEYBOARD:Alt+",
+  "text": "Alt+"
+ },
+ {
+  "label": "KEYBOARD:Ctrl+",
+  "text": "Ctrl+"
+ },
+ {
+  "label": "TOOLTIP:ScienceCost",
+  "text": "花费：%d"
+ },
+ {
+  "label": "TOOLTIP:Cost",
+  "text": "花费：%d"
+ },
+ {
+  "label": "TOOLTIP:SupplyWarehouse",
+  "text": "\n剩余 $%d"
+ },
+ {
+  "label": "TOOLTIP:LobbyPlayers",
+  "text": "当前在游戏大厅中的玩家"
+ },
+ {
+  "label": "TOOLTIP:StartWorldBuilder",
+  "text": "启动地图编辑器"
+ },
+ {
+  "label": "TOOLTIP:GetUpdate",
+  "text": "下载游戏更新"
+ },
+ {
+  "label": "TOOLTIP:GetMapPack",
+  "text": "下载新地图包"
+ },
+ {
+  "label": "TOOLTIP:Skirmish",
+  "text": "进入遭遇战设置菜单"
+ },
+ {
+  "label": "TOOLTIP:Online",
+  "text": "点击加入 C&C 将军：绝命时刻 在线对战。与世界各地的对手一较高下！"
+ },
+ {
+  "label": "TOOLTIP:Network",
+  "text": "点击加入网络大厅。在局域网中与朋友一决胜负"
+ },
+ {
+  "label": "TOOLTIP:Options",
+  "text": "点击修改游戏选项。你可以调整视频、音频和游戏偏好"
+ },
+ {
+  "label": "TOOLTIP:Exit",
+  "text": "退出 C&C 将军：绝命时刻。指挥官，祝你战场好运"
+ },
+ {
+  "label": "TOOLTIP:ExitGame",
+  "text": "退出 C&C 将军：绝命时刻。指挥官，祝你战场好运"
+ },
+ {
+  "label": "TOOLTIP:LoadGame",
+  "text": "点击载入所选游戏"
+ },
+ {
+  "label": "TOOLTIP:MapPreviewWindow",
+  "text": "地图预览能让你在即将到来的战斗中占得先机。记得留意补给站和科技建筑。你也可以选择起始位置"
+ },
+ {
+  "label": "TOOLTIP:SaveGame",
+  "text": "点击保存进行中的游戏"
+ },
+ {
+  "label": "TOOLTIP:AcceptButton",
+  "text": "接受当前选择"
+ },
+ {
+  "label": "TOOLTIP:CopyReplayToDesktop",
+  "text": "将所选录像文件复制到桌面"
+ },
+ {
+  "label": "TOOLTIP:ProviderType",
+  "text": "选择你的音频提供程序"
+ },
+ {
+  "label": "TOOLTIP:SpeakerType",
+  "text": "选择你的扬声器配置"
+ },
+ {
+  "label": "TOOLTIP:LANPlayer",
+  "text": "%ls@%ls"
+ },
+ {
+  "label": "TOOLTIP:Resolution",
+  "text": "选择游戏的屏幕分辨率。分辨率越高，游戏运行可能越慢"
+ },
+ {
+  "label": "TOOLTIP:CommandCategory",
+  "text": "选择键盘命令类别"
+ },
+ {
+  "label": "TOOLTIP:CommandDescription",
+  "text": "所选命令的描述"
+ },
+ {
+  "label": "TOOLTIP:StartPosition",
+  "text": "起始位置"
+ },
+ {
+  "label": "TOOLTIP:SelectMap",
+  "text": "选择你想使用的战场"
+ },
+ {
+  "label": "TOOLTIP:Vote",
+  "text": "点击投票将该玩家踢出游戏，以便继续"
+ },
+ {
+  "label": "TOOLTIP:NumberOfVotes",
+  "text": "踢出该玩家的票数"
+ },
+ {
+  "label": "TOOLTIP:QuitMultiplayerGame",
+  "text": "退出到游戏菜单"
+ },
+ {
+  "label": "TOOLTIP:RestartGame",
+  "text": "以相同设置重新开始游戏"
+ },
+ {
+  "label": "TOOLTIP:Help",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:StartLocation",
+  "text": "起始位置"
+ },
+ {
+  "label": "TOOLTIP:ReturnToGame",
+  "text": "返回游戏"
+ },
+ {
+  "label": "TOOLTIP:CommandList",
+  "text": "当前类别下的可用命令"
+ },
+ {
+  "label": "TOOLTIP:CurrentHotkey",
+  "text": "显示此命令当前的快捷键"
+ },
+ {
+  "label": "TOOLTIP:AssignHotkey",
+  "text": "在此输入新的命令快捷键"
+ },
+ {
+  "label": "TOOLTIP:AssignHotkeyCurrent",
+  "text": "此快捷键当前分配给的命令"
+ },
+ {
+  "label": "TOOLTIP:AssignButton",
+  "text": "分配你选择的快捷键命令"
+ },
+ {
+  "label": "TOOLTIP:ResetAll",
+  "text": "将所有键盘快捷键重置为默认值"
+ },
+ {
+  "label": "TOOLTIP:BackButton",
+  "text": "返回上一菜单"
+ },
+ {
+  "label": "TOOLTIP:ProviderSelect",
+  "text": "选择 3D 音频提供程序。游戏已为你选择最佳设置，但你也可以手动更改"
+ },
+ {
+  "label": "TOOLTIP:SpeakerSelect",
+  "text": "选择扬声器设置。游戏已为你选择最佳设置，但你也可以手动更改"
+ },
+ {
+  "label": "TOOLTIP:DontUseAccount",
+  "text": "不使用 C&C 将军：绝命时刻 在线账户登录。你将无法访问玩家资料或通讯器"
+ },
+ {
+  "label": "TOOLTIP:CommunicatorButton",
+  "text": "联系你的好友"
+ },
+ {
+  "label": "TOOLTIP:NameButton",
+  "text": "按游戏名称排序"
+ },
+ {
+  "label": "TOOLTIP:PingButton",
+  "text": "按延迟排序"
+ },
+ {
+  "label": "TOOLTIP:UseAccount",
+  "text": "加入 C&C 将军：绝命时刻 在线对战"
+ },
+ {
+  "label": "TOOLTIP:Login",
+  "text": "加入 C&C 将军：绝命时刻 在线对战"
+ },
+ {
+  "label": "TOOLTIP:CreateAccount",
+  "text": "创建新的 C&C 将军：绝命时刻 在线账户"
+ },
+ {
+  "label": "TOOLTIP:TOS",
+  "text": "查看服务条款"
+ },
+ {
+  "label": "TOOLTIP:RememberInfo",
+  "text": "记住登录信息。不建议在多人共用的电脑上使用"
+ },
+ {
+  "label": "TOOLTIP:Back",
+  "text": "返回上一界面"
+ },
+ {
+  "label": "TOOLTIP:BattleHonors",
+  "text": "玩家获得的战斗荣誉\n在单人或多人游戏中达成特定目标即可获得战斗荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3",
+  "text": "连胜荣誉\n玩家已连续赢得 3 场遭遇战\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10",
+  "text": "连胜荣誉\n玩家已连续赢得 10 场遭遇战\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSA",
+  "text": "美国忠诚荣誉\n玩家已连续 20 场以上使用美国阵营"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChina",
+  "text": "中国忠诚荣誉\n玩家已连续 20 场以上使用中国阵营"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLA",
+  "text": "GLA 忠诚荣誉\n玩家已连续 20 场以上使用 GLA 阵营"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTank",
+  "text": "坦克荣誉\n玩家在单人或多人在线游戏中建造了 50 辆以上坦克"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWing",
+  "text": "空军荣誉\n玩家在单人或多人在线游戏中建造了 20 架以上飞机"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEndurance",
+  "text": "耐力荣誉\n通关每张地图即可获得铜、银或金牌"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSA",
+  "text": "美国战役荣誉\n完成美国战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChina",
+  "text": "中国战役荣誉\n完成中国战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLA",
+  "text": "GLA 战役荣誉\n完成GLA 战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallenge",
+  "text": "挑战荣誉\n玩家击败了困难难度的电脑对手"
+ },
+ {
+  "label": "TOOLTIP:ProgressToNextRank",
+  "text": "距离下一军衔的进度"
+ },
+ {
+  "label": "TOOLTIP:SetLocale",
+  "text": "更改当前地区选择"
+ },
+ {
+  "label": "TOOLTIP:DeleteAccount",
+  "text": "删除当前账户"
+ },
+ {
+  "label": "TOOLTIP:AsianText",
+  "text": "点击切换亚洲语言聊天等"
+ },
+ {
+  "label": "TOOLTIP:NonAsianText",
+  "text": "点击切换非亚洲语言聊天等"
+ },
+ {
+  "label": "GUI:AreYouSureDeleteAccount",
+  "text": "你确定要永久删除你的账户和所有已保存的统计数据吗？"
+ },
+ {
+  "label": "GUI:NonAsianText",
+  "text": "非亚洲语言文字"
+ },
+ {
+  "label": "GUI:AsianText",
+  "text": "亚洲语言文字"
+ },
+ {
+  "label": "GUI:DeleteAccount",
+  "text": "删除账户"
+ },
+ {
+  "label": "GUI:SetLocale",
+  "text": "设置地区"
+ },
+ {
+  "label": "GUI:WinLoss",
+  "text": "胜/负"
+ },
+ {
+  "label": "GUI:FavSide",
+  "text": "最喜爱的阵营"
+ },
+ {
+  "label": "GUI:Discons",
+  "text": "断线次数"
+ },
+ {
+  "label": "GUI:BattleHonors",
+  "text": "战斗荣誉"
+ },
+ {
+  "label": "GUI:TotalBuddys",
+  "text": "好友总数"
+ },
+ {
+  "label": "GUI:PlayerStatistics",
+  "text": "%hs，来自 %ls"
+ },
+ {
+  "label": "GUI:TotalBuilt",
+  "text": "建造总数"
+ },
+ {
+  "label": "GUI:TotalDeaths",
+  "text": "死亡总数"
+ },
+ {
+  "label": "GUI:TotalKills",
+  "text": "击杀总数"
+ },
+ {
+  "label": "GUI:FavoriteUnit",
+  "text": "最喜爱的单位"
+ },
+ {
+  "label": "GUI:FavoriteSide",
+  "text": "最喜爱的阵营"
+ },
+ {
+  "label": "GUI:Loses",
+  "text": "负场"
+ },
+ {
+  "label": "GUI:Wins",
+  "text": "胜场"
+ },
+ {
+  "label": "GUI:TotalDesyncs",
+  "text": "不同步次数"
+ },
+ {
+  "label": "GUI:TotalDisconnects",
+  "text": "断线次数"
+ },
+ {
+  "label": "GUI:GamesPlayed",
+  "text": "已玩场数"
+ },
+ {
+  "label": "GUI:TOS",
+  "text": "服务条款"
+ },
+ {
+  "label": "GUI:RememberInfo",
+  "text": "记住我的信息"
+ },
+ {
+  "label": "GUI:HostWantsToStart",
+  "text": "主机想要开始游戏。请按“接受”按钮"
+ },
+ {
+  "label": "GUI:PlayerNoMap",
+  "text": "%ls 没有地图 %ls"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMap",
+  "text": "你没有地图 %ls"
+ },
+ {
+  "label": "GUI:NeedMorePlayers",
+  "text": "需要更多玩家才能开始游戏"
+ },
+ {
+  "label": "GUI:NotifiedStartIntent",
+  "text": "已通知其他玩家你想开始游戏"
+ },
+ {
+  "label": "GUI:HostLeft",
+  "text": "主机已离开游戏，但 C&C 将军：绝命时刻 将继续进行"
+ },
+ {
+  "label": "GUI:HostLeftTitle",
+  "text": "主机已离开"
+ },
+ {
+  "label": "GUI:WidenSearch",
+  "text": "扩大搜索范围"
+ },
+ {
+  "label": "GUI:QMAborted",
+  "text": "匹配已中止"
+ },
+ {
+  "label": "GUI:DrawScrollAnchor",
+  "text": "绘制滚屏锚点"
+ },
+ {
+  "label": "GUI:MoveScrollAnchor",
+  "text": "移动滚屏锚点"
+ },
+ {
+  "label": "GUI:GroupRoom1",
+  "text": "1 对 1"
+ },
+ {
+  "label": "GUI:GroupRoom2",
+  "text": "2 对 2"
+ },
+ {
+  "label": "GUI:GroupRoom3",
+  "text": "3 对 3"
+ },
+ {
+  "label": "GUI:Email",
+  "text": "电子邮件"
+ },
+ {
+  "label": "GUI:NoLadder",
+  "text": "无天梯"
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Tank091Subtitle",
+  "text": "*으아아아악! 이럴 수가! 어떻게 내 전차를 이긴 거지?!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank092Subtitle",
+  "text": "*전쟁 기계를 풀 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank093Subtitle",
+  "text": "*네 전차 러시는 내 것에 비하면 아무것도 아니다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank094Subtitle",
+  "text": "*내 전차에 도전하지 마라, 장군 -- 넌 질 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank095Subtitle",
+  "text": "*내 장갑이 네 한심한 병력을 짓밟을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank096Subtitle",
+  "text": "*내 전차를 이겼을지는 몰라도, 장군, 암호랑이가 너를 벌레처럼 짓밟을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank097Subtitle",
+  "text": "*전차는 모든 승리의 열쇠다. 너도 잘 알겠지만"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank098Subtitle",
+  "text": "*내 정찰병을 이겼군, 장군. 다음 공격은 그렇게 잘 풀리지 않을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank099Subtitle",
+  "text": "*간다, 장군. 방어를 세워 뒀길 바란다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank100Subtitle",
+  "text": "*이건 내 배틀마스터일 뿐이다, 장군... 오버로드가 전투에 합류할 때까지 기다려라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Tank101Subtitle",
+  "text": "*나라면 조심하겠다, 장군. 내 전차를 상대하느라 바쁜 사이 레드가드가 건물을 차지하곤 하거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin001Subtitle",
+  "text": "*보인다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin002Subtitle",
+  "text": "*한 모금 맛보면 다시는 못 돌아간다 -- 돌아가고 싶어도!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin003Subtitle",
+  "text": "*내 특제 약 맛 좀 봐라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin004Subtitle",
+  "text": "*숨을 얼마나 참을 수 있지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin005Subtitle",
+  "text": "*화학 수업 한 번 더 할 준비 됐나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin006Subtitle",
+  "text": "*그렇게 나쁘지 않다. 이다음엔 길고 고통스러운 화끈거림만 느낄 테니!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin007Subtitle",
+  "text": "*독소 부대, 공격!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin008Subtitle",
+  "text": "*간다, 장군. 화학 물질 유출처럼"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin009Subtitle",
+  "text": "*요즘 왕진 오는 의사 찾기 어렵지만 스랙스 박사는 간다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin010Subtitle",
+  "text": "*1번 진열대에 쏟아졌어요!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin011Subtitle",
+  "text": "*산성비처럼 네 기지에 내려앉는다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin012Subtitle",
+  "text": "*나아가라, 내 독소 전사들이여! 대중에게 우리의 메시지를 전하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin013Subtitle",
+  "text": "*오, 이건 마음에 들 거다, 장군. 아니, 잠깐... 안 들겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin014Subtitle",
+  "text": "*네가 자초한 일이다, 장군. 이제 네 실수의 대가를 네 부하들이 치르는 걸 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin015Subtitle",
+  "text": "*소리 없이 강하다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin016Subtitle",
+  "text": "*그렇지 -- 편히 앉아 쉬어라! 내 독소가 작용할 시간을 더 줘라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin017Subtitle",
+  "text": "*이 긴장감... 사람 잡는군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin018Subtitle",
+  "text": "*한 통 더 끓일 때다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin019Subtitle",
+  "text": "*꾸물댈수록 조금씩 더 죽어 가는 거다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin020Subtitle",
+  "text": "*살이 뼈에서 떨어져 나갈 때가 딱 좋게 익은 거지!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin021Subtitle",
+  "text": "*탄저균... 몸에 해롭다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin022Subtitle",
+  "text": "*냄새 나나? 안 나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin023Subtitle",
+  "text": "*들이마시고... 내쉬고... 한 번 더... 좀 나아졌나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin024Subtitle",
+  "text": "*마지막 한 방울까지 맛있다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin025Subtitle",
+  "text": "*다음 공격 전에 \"숨 돌릴\" 틈을 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin026Subtitle",
+  "text": "*독소 노즐이 막혔다, 장군... 고칠 테니 잠깐만"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin027Subtitle",
+  "text": "*독소 때문에 왔다가 계속 머물게 될 거다... 죽었으니까!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin028Subtitle",
+  "text": "*내 실험을 방해한 걸 후회하게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin029Subtitle",
+  "text": "*날 공격할 건가, 아니면 내 기지에서 뭘 발견할지 두려운 건가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin030Subtitle",
+  "text": "*내 독소 구름 아래선 아무것도 살 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin031Subtitle",
+  "text": "*어차피 그건 필요 없었잖아"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin032Subtitle",
+  "text": "*네 병사들이 중독된 것 같군, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin033Subtitle",
+  "text": "*오, 장군, 네 병사들은 독소에 약한가 보군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin034Subtitle",
+  "text": "*네 비행장이 파괴됐다, 장군. 이제 내 죽음의 구름을 걸어서 지나가야 할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin035Subtitle",
+  "text": "*독소가 모든 걸 어떻게 찢어발기는지 보이나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin036Subtitle",
+  "text": "*으악! 거기 내 와인 컬렉션이 있었는데!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin037Subtitle",
+  "text": "*내 독소와 네 병사들은 확실히 화학 반응이 있군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin038Subtitle",
+  "text": "*어차피 그건 필요 없었다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin039Subtitle",
+  "text": "*이제 내 화학병은 어디서 구하지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin040Subtitle",
+  "text": "*내 독소 트럭은 다시 달릴 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin041Subtitle",
+  "text": "*거봐, 사람은 하늘에 있으면 안 된다니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin042Subtitle",
+  "text": "*성가시게 구는군, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin043Subtitle",
+  "text": "*내 건물 그만 부숴라, 장군. 안 그러면 상황을 좀... 불쾌하게 만들어 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin044Subtitle",
+  "text": "*내 사령부를 부쉈군! 뭐, 어차피 내 지휘관들이 싫었다... 이제 너랑 나 둘뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin045Subtitle",
+  "text": "*장군, 내 차량을 자꾸 부수면 약을 어떻게 가져다주지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin046Subtitle",
+  "text": "*내 용감한 전사들! 어떻게 그들에게 이럴 수 있지? 그들이 너한테 뭘 했다고 -- 아, 됐다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin047Subtitle",
+  "text": "*그 유정 돌려놔! 석유가 내 독소의 핵심 성분이라는 것도 모르나?!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin048Subtitle",
+  "text": "*그 포병 플랫폼으로는 날 막지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin049Subtitle",
+  "text": "*장군, 내 독소를 정제하려면 그 정유 공장이 필요하다. 너한테 그게 왜 필요하지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin050Subtitle",
+  "text": "*들어와도 된다고 허락했나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin051Subtitle",
+  "text": "*여기서 뭐 하는 거야? 레시피는 내 거다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin052Subtitle",
+  "text": "*내 기지에 오다니 바보로군, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin053Subtitle",
+  "text": "*내 소중한 독소에 너무 가까이 왔다, 장군. 이제 죽어야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin054Subtitle",
+  "text": "*내 스커드 미사일에서 떨어져! 준비되면 줄 테니!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin055Subtitle",
+  "text": "*그 보급품은 원하지 않을 텐데. 아직 준비가 안 됐거든"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin056Subtitle",
+  "text": "*또 기지를 짓는군. 곧 버려지게 될 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin057Subtitle",
+  "text": "*내 마을에서 나가라, 장군. 남은 건 별로 없지만 내 거다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin058Subtitle",
+  "text": "*그 다리 건널 때 조심해라, 장군 -- 아래 물은 수영하기 안전하지 않다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin059Subtitle",
+  "text": "*조심해라, 장군. 그 다리는 안전하지 않을 수도 있다... 하긴 이 근처에 안전한 게 어디 있겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin060Subtitle",
+  "text": "*내 뒷문으로 몰래 들어오다니 똑똑하다고 생각하나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin061Subtitle",
+  "text": "*그래, 강을 건넜군. 이제 전투가 재밌어지겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin062Subtitle",
+  "text": "*전력이 바닥난 것 같군, 장군. 지금 공격해야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin063Subtitle",
+  "text": "*전력이 바닥났군, 장군. 이제 내가 놀러 갈 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin064Subtitle",
+  "text": "*네 자원 더미가 작아졌군, 장군. 내 다음 공격을 막을 만큼 남은 것 같지 않은데... 훌륭하군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin065Subtitle",
+  "text": "*예산?! 예산 얘긴 듣고 싶지 않다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin066Subtitle",
+  "text": "*감히 내 앞에서 스커드 스톰을 지어! 물론 우리 모두 그 독소에 면역이라는 건 알겠지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin067Subtitle",
+  "text": "*핵 격납고? 네가 유독한 방사능을 쓸 줄은 몰랐다... 언젠가 함께 일할 수 있겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin068Subtitle",
+  "text": "*그래서 내 독소에 맞서려고 입자 캐논을? 네 기술은 내 독소의 상대가 안 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin069Subtitle",
+  "text": "*방어가 이렇게나 많다니, 장군. 전부 쓸모없다!!!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin070Subtitle",
+  "text": "*금속은 내 독소를 잠시 막을 뿐이다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin071Subtitle",
+  "text": "*아 -- 겁쟁이! 네 조종사들도 숨은 쉬어야지!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin072Subtitle",
+  "text": "*네 병사들이 어둠 속에서 빛나는 게 좋나? 그럼 더 만들어!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin073Subtitle",
+  "text": "*네 기지가 커졌군, 장군... 내 스커드 스톰의 완벽한 목표다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin074Subtitle",
+  "text": "*그래, 스커드 스톰을 쏴라... 네 쓸모없는 독소를 내 기지에 뿌려 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin075Subtitle",
+  "text": "*네 핵미사일은 우릴 돌연변이로 만들어 더 강하게 할 뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin076Subtitle",
+  "text": "*그 입자 광선으로 내 독소를 걷어 낼 수 있을 거라 기대하지 마라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin077Subtitle",
+  "text": "*그래, 그 건물에 주둔해라... 내 독소 트랙터가 무척 좋아할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin078Subtitle",
+  "text": "*버튼 대령을 끌어들이면 나도 자르멘 켈을 풀 수밖에 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin079Subtitle",
+  "text": "*블랙 로투스? 물론 알겠지만 흑련은 독이 있는 꽃이다... 내 독소 하나에 들어가는 것 같은데... 이야기가 샜군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin080Subtitle",
+  "text": "*자르멘 켈이 우리의 작은 전쟁에 합류했군. 우리 쪽 켈이 저격수 대결을 즐길지도 모르겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin081Subtitle",
+  "text": "*이제 그 비행장으로 뭘 하려는 거지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin082Subtitle",
+  "text": "*그래서 우리 장군께서 군수 공장을 지으시는군. 참 뻔하기도 하지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin083Subtitle",
+  "text": "*그래애애, 병영을 지어라... 네 병사들을 나에게 보내라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin084Subtitle",
+  "text": "*전부... 팔아 치워라, 장군... 그리고 네 병사들을 나에게 보내라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin085Subtitle",
+  "text": "*지금 포기하면 숨 편히 쉬게 해 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin086Subtitle",
+  "text": "*네 병사들이 숨이 차군, 장군. 포기해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin087Subtitle",
+  "text": "*두 번째 숨결이 네 파멸을 알린다, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin088Subtitle",
+  "text": "*근사한 독소로 네 슬픔을 씻어 주지!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin089Subtitle",
+  "text": "*독성 피니시"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin090Subtitle",
+  "text": "*넌 졌다, 장군. 이걸로 스랙스 박사에게 대드는 법을 배우겠지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin091Subtitle",
+  "text": "*화해의 선물을 생각해 보겠나? 해독제라든가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin092Subtitle",
+  "text": "*내 독소를 너무 많이 들이마셨나 보군 -- 네가 날 이기고 있을 리 없어"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin093Subtitle",
+  "text": "*나한테서 떨어져! 넌 날 못 이긴다, 장군. 듣고 있나!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin094Subtitle",
+  "text": "*독소가 뭐가 어때서? 요즘 음식에 뭘 넣는지 봤나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin095Subtitle",
+  "text": "*날 이긴다 해도 내 독소가 결국 널 잡을 거다 -- 언젠가는!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin096Subtitle",
+  "text": "*안 돼! 안 돼. 내가 졌다. 그 청산가리 캡슐을 어디 뒀더라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin097Subtitle",
+  "text": "*그 버튼엔 독이 발려 있었다... 넌 이미 죽었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin098Subtitle",
+  "text": "*감히 스랙스 박사를 골라? 다시 생각해 봐라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin099Subtitle",
+  "text": "*넌 내 독소를 이길 수 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin100Subtitle",
+  "text": "*통신 대학에서 학위를 따는 게 아니었는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin101Subtitle",
+  "text": "*내 독소가 쓸모없다고 생각했나? 지금 네 꼴을 봐라, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin102Subtitle",
+  "text": "*안녕한가, 장군. 네 첩자들이 내 기지 위를 날아다니는 게 안 보이는 줄 아나. 마음껏 봐라, 이게 내 요새를 보는 마지막일지도 모르니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin103Subtitle",
+  "text": "*보다시피 내 방어는 난공불락이다... 그리고 내 독소 무기 체계가 네 병력이 나에게 닿기 훨씬 전에 독살할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin104Subtitle",
+  "text": "*민간인 피해는 걱정 마라, 장군. 그들은 오래전에 이 죽음의 독소 계곡을 떠났다. 우리의 작은 전쟁은 방해 없이 치러질 것이고... 네 여린 양심도 괴롭지 않을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin105Subtitle",
+  "text": "*아, 그래, 네 한심한 기지를 여기에 뒀군. 이제 나 -- 스랙스 박사 -- 에게 맞서 봐라. 네 병력이 내 독성 공기를 마지막으로 들이마시면 난 실험으로 돌아갈 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin106Subtitle",
+  "text": "*네 감각을 믿나, 장군? 나와 교전함으로써 넌 길고 고통스러운 죽음을 선고받았다. 나는 스랙스 박사고, 내 무기는 보이지 않게 공격하니까!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin107Subtitle",
+  "text": "*편히 숨 쉬어라, 장군. 나는 스랙스 박사고, 네가 숨 쉴 때마다 넌 패배에 가까워지니까!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin108Subtitle",
+  "text": "*첫 샘플은 무료!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin109Subtitle",
+  "text": "*초록색으로 할래, 파란색으로 할래? 둘 다 똑같이 끝내준다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin110Subtitle",
+  "text": "*오늘의 패배를 눈이 셋 달린 손주들에게 들려줄 준비나 해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin111Subtitle",
+  "text": "*내 소중한 화학 물질! 그거 섞는 데 얼마나 걸리는지 아나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin112Subtitle",
+  "text": "*희생... 아니, 지원자가 내 실험에 더 왔군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin113Subtitle",
+  "text": "*이제 독소를 실어 나를 차량이 늘었군! 참 너그럽기도 하지!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin114Subtitle",
+  "text": "*오, 그거 말 안 했던가? 지뢰 조심해라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin115Subtitle",
+  "text": "*그 화학병들을 어디 뒀더라?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin117Subtitle",
+  "text": "*흥! 너!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Toxin118Subtitle",
+  "text": "*아, 그래, 네 한심한 기지를 여기에 뒀군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle001Subtitle",
+  "text": "*오, 아직 여기 있네, 장군. 그 결단력은 인상적이야. 춤 한번 출까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle002Subtitle",
+  "text": "*그렇게 아프진 않았지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle003Subtitle",
+  "text": "*전장은 험한 곳이야, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle004Subtitle",
+  "text": "*또 한 번의 완벽한 공격"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle005Subtitle",
+  "text": "*모든 게 계획대로 진행되고 있어"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle006Subtitle",
+  "text": "*모든 게 내 뜻대로 되고 있는 것 같네"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle007Subtitle",
+  "text": "*기분이 어때, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle008Subtitle",
+  "text": "*전술적 우위가 핵심이야, 장군. 자, 보여 줄게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle009Subtitle",
+  "text": "*다음 공격을 네가 막을 수 있을 것 같진 않은데... 그렇지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle010Subtitle",
+  "text": "*또 공격이 간다... 아, 그리고 내 장군 능력이 거의 다 준비됐어... 어느 걸 먼저 보고 싶어?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle011Subtitle",
+  "text": "*내 초강력 무기가 준비된 건가? 아니, 내 공격이 원래 이런 느낌이야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle012Subtitle",
+  "text": "*전 유닛: 알파 공격 패턴! 농담이야... 누가 뭘 \"알파\"라고 부르겠어?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle013Subtitle",
+  "text": "*내 유닛들이 좀 간다, 장군. 경험치 쌓는 거 좀 도와줄래?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle014Subtitle",
+  "text": "*난 병력을 잘 안 보내지만, 넌 특별 대우를 받을 자격이 있어, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle015Subtitle",
+  "text": "*날 과소평가하지 말라고 경고할게"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle016Subtitle",
+  "text": "*내가 숨어 있다고 생각하겠지만 사실은 계획 중이야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle017Subtitle",
+  "text": "*바보들이나 서두르지, 장군. 난 천천히 해"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle018Subtitle",
+  "text": "*내가 뭘 할지 전혀 모르겠지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle019Subtitle",
+  "text": "*계획하지 않는 건 실패를 계획하는 거야, 장군. 생각해 봐"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle020Subtitle",
+  "text": "*내 최고의 \"초강력 무기\"는 내 두뇌야... 그렇지 않아, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle021Subtitle",
+  "text": "*자, 장군, 최선을 다해 쳐 봐"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle022Subtitle",
+  "text": "*기다리고 있어, 장군. 뭐가 그렇게 오래 걸려?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle023Subtitle",
+  "text": "*네 전술을 분석해 봤는데 정말 놀랍네... 전술이 있긴 한 거야, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle024Subtitle",
+  "text": "*나라면 공격하겠어, 장군. 기다리면 너한테 쏠 초강력 무기가 하나 더 생길 뿐이야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle025Subtitle",
+  "text": "*그래서, 네 전체 전략은 날 지루하게 만들어 전장에서 쫓아내는 거야?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle026Subtitle",
+  "text": "*날 공격한 게 현명했는지 다시 생각 중이야, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle027Subtitle",
+  "text": "*봐주려고 했는데, 장군, 슬슬 짜증 나기 시작하네"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle028Subtitle",
+  "text": "*재밌었어, 장군. 하지만 이제 끝낼 때가 된 것 같아"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle029Subtitle",
+  "text": "*다음에 하는 게 좋겠네... 네가 이렇게 정신없지 않을 때... 적어도 그게 문제이길 바라. 네가 \"장군\"이라고 했었지, 맞지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle030Subtitle",
+  "text": "*그거 쓰던 건 아니었지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle031Subtitle",
+  "text": "*그 병영 생긴 게 전혀 마음에 안 들었어"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle032Subtitle",
+  "text": "*네 차량들이 신경을 긁네"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle033Subtitle",
+  "text": "*하늘로 올라오지 마, 장군 -- 땅에 있는 게 더 안전해"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle034Subtitle",
+  "text": "*그게 날 네 기지에서 막으려는 거였어, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle035Subtitle",
+  "text": "*와, 방금 사령부를 잃었네. 별로 좋지 않은데, 그렇지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle036Subtitle",
+  "text": "*네 기지가 전엔 너무 어수선했잖아"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle037Subtitle",
+  "text": "*넌 남의 재산을 존중할 줄 모르는구나!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle038Subtitle",
+  "text": "*여러분, 병영 경비는 누가 맡았죠!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle039Subtitle",
+  "text": "*그 군수 공장 쓰던 중이었다고!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle040Subtitle",
+  "text": "*내 비행장 좀 지켜 달라는 게 그렇게 무리한 부탁이야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle041Subtitle",
+  "text": "*그거 다 이유가 있어서 거기 둔 거라고!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle042Subtitle",
+  "text": "*이제 막 건물들을 원하는 자리에 다 배치했는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle043Subtitle",
+  "text": "*그런 무례는 달갑지 않아!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle044Subtitle",
+  "text": "*그 비행기들 다 이유가 있어서 만든 거라고!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle045Subtitle",
+  "text": "*차량이야 원하는 만큼 부숴. 난 신경 안 써"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle046Subtitle",
+  "text": "*감히 내 병사들을 다치게 해!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle047Subtitle",
+  "text": "*그건 내가 봐준 거야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle048Subtitle",
+  "text": "*어차피 그건 필요 없었어"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle049Subtitle",
+  "text": "*정유 공장을 점령한다고? 어머, 장군, 그렇게 효율을 따지는 줄 몰랐네"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle050Subtitle",
+  "text": "*누가 널 초대했지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle051Subtitle",
+  "text": "*여기 들어올 보안 등급은 없는 것 같은데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle052Subtitle",
+  "text": "*무슨 권리로 내 기지에 있는 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle053Subtitle",
+  "text": "*여긴 내 기지야, 당장 나가!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle054Subtitle",
+  "text": "*좋은 안주인 노릇은 기대하지 마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle055Subtitle",
+  "text": "*불청객은 싫어, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle056Subtitle",
+  "text": "*여기서 뭘 하는 거라고 생각해?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle057Subtitle",
+  "text": "*침입자다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle058Subtitle",
+  "text": "*네가 있다는 게 슬슬 거슬리기 시작하네, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle059Subtitle",
+  "text": "*저 구역 경비는 누가 맡았어?!?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle060Subtitle",
+  "text": "*내 방어를 뚫는 데 성공했구나... 다시는 그런 일 없을 거야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle061Subtitle",
+  "text": "*내 기지에서 나가, 장군. 여기 바로 입자 캐논을 떨어뜨릴 수도 있다는 거 잊지 마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle062Subtitle",
+  "text": "*네 기지가 좀 어두워 보이네, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle063Subtitle",
+  "text": "*누가 전기세 내는 걸 잊었나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle064Subtitle",
+  "text": "*자원 관리를 그다지 현명하게 하진 않았네, 그렇지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle065Subtitle",
+  "text": "*너 때문에 예산을 초과하고 있어, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle066Subtitle",
+  "text": "*어떻게 이런 일이! 모든 걸 완벽하게 계획했는데!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle067Subtitle",
+  "text": "*내가 네 조그만 스커드 스톰을 무서워할 것 같아?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle068Subtitle",
+  "text": "*그 핵 격납고는 하나도 안 무서워"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle069Subtitle",
+  "text": "*무기 취향은 좋지만, 이 전장에서 입자 캐논을 가질 수 있는 건 나뿐이야"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle070Subtitle",
+  "text": "*네 기지 보안이 고작 그 정도야? 정말?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle071Subtitle",
+  "text": "*전차가 많네, 장군. 입자 캐논이 전차 무더기한테 뭘 할 수 있는지 본 적 있어?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Turtle072Subtitle",
+  "text": "*이 비행기들은 나한텐 그냥 대기 오염일 뿐이야"
+ }
+]

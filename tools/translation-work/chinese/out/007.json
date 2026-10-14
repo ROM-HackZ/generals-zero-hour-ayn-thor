@@ -1,0 +1,802 @@
+[
+ {
+  "label": "OBJECT:NukeLauncher",
+  "text": "核弹炮"
+ },
+ {
+  "label": "OBJECT:ParticleCannon",
+  "text": "粒子加农炮"
+ },
+ {
+  "label": "OBJECT:OakTree",
+  "text": "树"
+ },
+ {
+  "label": "OBJECT:Office",
+  "text": "办公楼"
+ },
+ {
+  "label": "OBJECT:OilDepot",
+  "text": "油库"
+ },
+ {
+  "label": "OBJECT:OilRefinery",
+  "text": "炼油厂"
+ },
+ {
+  "label": "OBJECT:OilTank",
+  "text": "油罐"
+ },
+ {
+  "label": "OBJECT:OldWoodenTelephonePole",
+  "text": "电线杆"
+ },
+ {
+  "label": "OBJECT:Outpost",
+  "text": "前哨站"
+ },
+ {
+  "label": "OBJECT:Overlord",
+  "text": "霸王坦克"
+ },
+ {
+  "label": "OBJECT:Palace",
+  "text": "宫殿"
+ },
+ {
+  "label": "OBJECT:PalmTree",
+  "text": "树"
+ },
+ {
+  "label": "OBJECT:ParkBench",
+  "text": "公园长椅"
+ },
+ {
+  "label": "OBJECT:ParkGazebo",
+  "text": "公园凉亭"
+ },
+ {
+  "label": "OBJECT:ParkPavillion",
+  "text": "公园亭子"
+ },
+ {
+  "label": "OBJECT:ParkingGarage",
+  "text": "停车楼"
+ },
+ {
+  "label": "OBJECT:ParkingMeter",
+  "text": "停车计时器"
+ },
+ {
+  "label": "OBJECT:Pathfinder",
+  "text": "探路者"
+ },
+ {
+  "label": "OBJECT:PatriotBattery",
+  "text": "爱国者导弹系统"
+ },
+ {
+  "label": "OBJECT:GattlingCannon",
+  "text": "加特林机炮"
+ },
+ {
+  "label": "OBJECT:PatriotMissile",
+  "text": "爱国者导弹系统"
+ },
+ {
+  "label": "OBJECT:PhoneBooth",
+  "text": "电话亭"
+ },
+ {
+  "label": "OBJECT:PineTree",
+  "text": "树"
+ },
+ {
+  "label": "OBJECT:PoliceCar",
+  "text": "警车"
+ },
+ {
+  "label": "OBJECT:Prison",
+  "text": "监狱"
+ },
+ {
+  "label": "OBJECT:PropagandaBlimp",
+  "text": "宣传飞艇"
+ },
+ {
+  "label": "OBJECT:PropagandaCenter",
+  "text": "宣传中心"
+ },
+ {
+  "label": "OBJECT:Pub",
+  "text": "小酒馆"
+ },
+ {
+  "label": "OBJECT:QuadCannon",
+  "text": "四管机炮"
+ },
+ {
+  "label": "OBJECT:QuonsetHut",
+  "text": "活动营房"
+ },
+ {
+  "label": "OBJECT:RailTie",
+  "text": "铁轨枕木"
+ },
+ {
+  "label": "OBJECT:Ranger",
+  "text": "游骑兵"
+ },
+ {
+  "label": "OBJECT:Raptor",
+  "text": "猛禽战机"
+ },
+ {
+  "label": "OBJECT:RaptorPilot",
+  "text": "飞行员"
+ },
+ {
+  "label": "OBJECT:Restaurant",
+  "text": "餐厅"
+ },
+ {
+  "label": "OBJECT:RetailStore",
+  "text": "零售店"
+ },
+ {
+  "label": "OBJECT:RiverHouse",
+  "text": "河边小屋"
+ },
+ {
+  "label": "OBJECT:RoadCone",
+  "text": "路锥"
+ },
+ {
+  "label": "OBJECT:RocketBuggy",
+  "text": "火箭车"
+ },
+ {
+  "label": "OBJECT:RadarVan",
+  "text": "雷达车"
+ },
+ {
+  "label": "OBJECT:RocketBuggyDebris",
+  "text": "火箭车残骸"
+ },
+ {
+  "label": "OBJECT:RocketBuggyMissile",
+  "text": "火箭车导弹"
+ },
+ {
+  "label": "OBJECT:TomahawkMissile",
+  "text": "战斧导弹"
+ },
+ {
+  "label": "OBJECT:SCUDMissile",
+  "text": "飞毛腿导弹"
+ },
+ {
+  "label": "OBJECT:RangerTeamMissile",
+  "text": "游骑兵小队导弹"
+ },
+ {
+  "label": "OBJECT:Rocks",
+  "text": "岩石"
+ },
+ {
+  "label": "OBJECT:RopeCoil",
+  "text": "绳圈"
+ },
+ {
+  "label": "OBJECT:Rubble",
+  "text": "瓦砾"
+ },
+ {
+  "label": "OBJECT:ColonelBurton",
+  "text": "伯顿上校"
+ },
+ {
+  "label": "OBJECT:SUV",
+  "text": "SUV"
+ },
+ {
+  "label": "OBJECT:Schoolhouse",
+  "text": "校舍"
+ },
+ {
+  "label": "OBJECT:Scorpion",
+  "text": "蝎子坦克"
+ },
+ {
+  "label": "OBJECT:Marauder",
+  "text": "劫掠者坦克"
+ },
+ {
+  "label": "OBJECT:ScoutDrone",
+  "text": "侦察无人机"
+ },
+ {
+  "label": "OBJECT:SpyDrone",
+  "text": "间谍无人机"
+ },
+ {
+  "label": "OBJECT:ScrapCar",
+  "text": "废车"
+ },
+ {
+  "label": "OBJECT:ScudLauncher",
+  "text": "飞毛腿发射车"
+ },
+ {
+  "label": "OBJECT:ScudStorm",
+  "text": "飞毛腿风暴"
+ },
+ {
+  "label": "OBJECT:SecretLab",
+  "text": "秘密实验室"
+ },
+ {
+  "label": "OBJECT:SecretPolice",
+  "text": "秘密警察"
+ },
+ {
+  "label": "OBJECT:SecurityFence",
+  "text": "安全围栏"
+ },
+ {
+  "label": "OBJECT:Hacker",
+  "text": "黑客"
+ },
+ {
+  "label": "OBJECT:Officer",
+  "text": "军官"
+ },
+ {
+  "label": "OBJECT:Agent",
+  "text": "特工"
+ },
+ {
+  "label": "OBJECT:Sedan",
+  "text": "轿车"
+ },
+ {
+  "label": "OBJECT:SeismicTank",
+  "text": "地震坦克"
+ },
+ {
+  "label": "OBJECT:Shack",
+  "text": "棚屋"
+ },
+ {
+  "label": "OBJECT:ShippingContainer",
+  "text": "集装箱"
+ },
+ {
+  "label": "OBJECT:ShippingCrate",
+  "text": "货运箱"
+ },
+ {
+  "label": "OBJECT:SignalLights",
+  "text": "信号灯"
+ },
+ {
+  "label": "OBJECT:Slide",
+  "text": "滑梯"
+ },
+ {
+  "label": "OBJECT:SovietBuilding",
+  "text": "旧办公楼"
+ },
+ {
+  "label": "OBJECT:SovietGovtBuildingSmall",
+  "text": "旧政府大楼"
+ },
+ {
+  "label": "OBJECT:SovietRadioBuilding",
+  "text": "旧广播大楼"
+ },
+ {
+  "label": "OBJECT:SpeakerTower",
+  "text": "喇叭塔"
+ },
+ {
+  "label": "OBJECT:SportCar",
+  "text": "跑车"
+ },
+ {
+  "label": "OBJECT:Sprinkler",
+  "text": "洒水器"
+ },
+ {
+  "label": "OBJECT:SpruceTree",
+  "text": "树"
+ },
+ {
+  "label": "OBJECT:StanTallTower",
+  "text": "高塔"
+ },
+ {
+  "label": "OBJECT:Starlifter",
+  "text": "运输机2"
+ },
+ {
+  "label": "OBJECT:StatueAngel",
+  "text": "天使雕像"
+ },
+ {
+  "label": "OBJECT:StatueLenin",
+  "text": "雕像"
+ },
+ {
+  "label": "OBJECT:StatueRoman",
+  "text": "罗马雕像"
+ },
+ {
+  "label": "OBJECT:StealthFighter",
+  "text": "隐形战机"
+ },
+ {
+  "label": "OBJECT:StingerSite",
+  "text": "毒刺导弹阵地"
+ },
+ {
+  "label": "OBJECT:StoneArch",
+  "text": "石拱门"
+ },
+ {
+  "label": "OBJECT:StoneWall",
+  "text": "石墙"
+ },
+ {
+  "label": "OBJECT:PicketFence",
+  "text": "尖桩篱笆"
+ },
+ {
+  "label": "OBJECT:StopLight",
+  "text": "红绿灯"
+ },
+ {
+  "label": "OBJECT:StreetLamp",
+  "text": "街灯"
+ },
+ {
+  "label": "OBJECT:StreetLight",
+  "text": "路灯"
+ },
+ {
+  "label": "OBJECT:StreetSign",
+  "text": "路牌"
+ },
+ {
+  "label": "OBJECT:SupplyTruck",
+  "text": "补给卡车"
+ },
+ {
+  "label": "OBJECT:SupplyWarehouse",
+  "text": "补给站"
+ },
+ {
+  "label": "OBJECT:Swing",
+  "text": "秋千"
+ },
+ {
+  "label": "OBJECT:TVStation",
+  "text": "电视台"
+ },
+ {
+  "label": "OBJECT:TankTrap",
+  "text": "反坦克障碍"
+ },
+ {
+  "label": "OBJECT:TankerTruck",
+  "text": "油罐车"
+ },
+ {
+  "label": "OBJECT:TaxiCab",
+  "text": "出租车"
+ },
+ {
+  "label": "OBJECT:Technical",
+  "text": "技术车"
+ },
+ {
+  "label": "OBJECT:Tent",
+  "text": "帐篷"
+ },
+ {
+  "label": "OBJECT:Terrorist",
+  "text": "恐怖分子"
+ },
+ {
+  "label": "OBJECT:Tire",
+  "text": "轮胎"
+ },
+ {
+  "label": "OBJECT:TireObstacle",
+  "text": "轮胎障碍"
+ },
+ {
+  "label": "OBJECT:Tollbooth",
+  "text": "收费站"
+ },
+ {
+  "label": "OBJECT:Tomahawk",
+  "text": "战斧"
+ },
+ {
+  "label": "OBJECT:TownHouse",
+  "text": "联排住宅"
+ },
+ {
+  "label": "OBJECT:ToxinTruck",
+  "text": "毒素拖拉机"
+ },
+ {
+  "label": "OBJECT:TrashCan",
+  "text": "垃圾桶"
+ },
+ {
+  "label": "OBJECT:TrashDumpster",
+  "text": "垃圾箱"
+ },
+ {
+  "label": "OBJECT:TrashPaper",
+  "text": "废纸"
+ },
+ {
+  "label": "OBJECT:TrashPile",
+  "text": "垃圾堆"
+ },
+ {
+  "label": "OBJECT:TreeStump",
+  "text": "树桩"
+ },
+ {
+  "label": "OBJECT:TroopCrawler",
+  "text": "运兵车"
+ },
+ {
+  "label": "OBJECT:TunnelDefender",
+  "text": "火箭兵"
+ },
+ {
+  "label": "OBJECT:TunnelNetwork",
+  "text": "地道网"
+ },
+ {
+  "label": "OBJECT:Cave",
+  "text": "洞穴"
+ },
+ {
+  "label": "OBJECT:GLAHole",
+  "text": "GLA 洞口"
+ },
+ {
+  "label": "OBJECT:GLARock",
+  "text": "GLA 岩石"
+ },
+ {
+  "label": "OBJECT:UNHumvee",
+  "text": "联合国悍马"
+ },
+ {
+  "label": "OBJECT:UNSoldier",
+  "text": "联合国士兵"
+ },
+ {
+  "label": "OBJECT:VendingMachine",
+  "text": "自动售货机"
+ },
+ {
+  "label": "OBJECT:Wall",
+  "text": "墙"
+ },
+ {
+  "label": "OBJECT:ConcreteWall",
+  "text": "混凝土墙"
+ },
+ {
+  "label": "OBJECT:WatchTower",
+  "text": "瞭望塔"
+ },
+ {
+  "label": "OBJECT:WaterPlant",
+  "text": "水厂"
+ },
+ {
+  "label": "OBJECT:WindMill",
+  "text": "风车"
+ },
+ {
+  "label": "OBJECT:WoodBeams",
+  "text": "木梁"
+ },
+ {
+  "label": "OBJECT:WoodTower",
+  "text": "木塔"
+ },
+ {
+  "label": "OBJECT:WoodWall",
+  "text": "木墙"
+ },
+ {
+  "label": "OBJECT:WoodenBarrels",
+  "text": "木桶"
+ },
+ {
+  "label": "OBJECT:Worker",
+  "text": "工人"
+ },
+ {
+  "label": "OBJECT:Birch",
+  "text": "树"
+ },
+ {
+  "label": "OBJECT:Building",
+  "text": "建筑"
+ },
+ {
+  "label": "OBJECT:Cathedral",
+  "text": "大教堂"
+ },
+ {
+  "label": "OBJECT:FarmHouse",
+  "text": "农舍"
+ },
+ {
+  "label": "OBJECT:Fir",
+  "text": "树"
+ },
+ {
+  "label": "OBJECT:Garage",
+  "text": "车库"
+ },
+ {
+  "label": "OBJECT:OscarTheGrouch",
+  "text": "废品商"
+ },
+ {
+  "label": "OBJECT:Pilot",
+  "text": "飞行员"
+ },
+ {
+  "label": "OBJECT:Pump",
+  "text": "水泵"
+ },
+ {
+  "label": "OBJECT:Shop",
+  "text": "商店"
+ },
+ {
+  "label": "OBJECT:StingerMissile",
+  "text": "毒刺导弹"
+ },
+ {
+  "label": "OBJECT:StingerSoldier",
+  "text": "毒刺导弹兵"
+ },
+ {
+  "label": "OBJECT:StorageTank",
+  "text": "储罐"
+ },
+ {
+  "label": "OBJECT:Well",
+  "text": "水井"
+ },
+ {
+  "label": "OBJECT:WineVat",
+  "text": "大桶"
+ },
+ {
+  "label": "OBJECT:GenericMale",
+  "text": "平民"
+ },
+ {
+  "label": "OBJECT:GenericFemale",
+  "text": "平民"
+ },
+ {
+  "label": "OBJECT:MogadishuFemaleCivilian",
+  "text": "平民"
+ },
+ {
+  "label": "OBJECT:MogadishuMaleCivilian",
+  "text": "平民"
+ },
+ {
+  "label": "OBJECT:Crane",
+  "text": "起重机"
+ },
+ {
+  "label": "OBJECT:OceanCenter",
+  "text": "会展中心"
+ },
+ {
+  "label": "OBJECT:SoccerStadium",
+  "text": "足球场"
+ },
+ {
+  "label": "OBJECT:Ambulance",
+  "text": "救护车"
+ },
+ {
+  "label": "OBJECT:AsianCar",
+  "text": "汽车"
+ },
+ {
+  "label": "OBJECT:Backhoe",
+  "text": "挖掘机"
+ },
+ {
+  "label": "OBJECT:LargeForklift",
+  "text": "大型叉车"
+ },
+ {
+  "label": "OBJECT:SmallForklift",
+  "text": "叉车"
+ },
+ {
+  "label": "OBJECT:CropDuster",
+  "text": "农用喷药飞机"
+ },
+ {
+  "label": "OBJECT:Cessna",
+  "text": "飞机"
+ },
+ {
+  "label": "OBJECT:ChickenTruck",
+  "text": "运鸡卡车"
+ },
+ {
+  "label": "OBJECT:Combine",
+  "text": "联合收割机"
+ },
+ {
+  "label": "OBJECT:Eurovan",
+  "text": "厢式货车"
+ },
+ {
+  "label": "OBJECT:EuroPoliceVan",
+  "text": "警用厢式车"
+ },
+ {
+  "label": "OBJECT:Firetruck",
+  "text": "消防车"
+ },
+ {
+  "label": "OBJECT:FarmerTruck",
+  "text": "农用卡车"
+ },
+ {
+  "label": "OBJECT:AsianFishingBoat",
+  "text": "渔船"
+ },
+ {
+  "label": "OBJECT:TourBus",
+  "text": "旅游巴士"
+ },
+ {
+  "label": "OBJECT:FishingTrowler",
+  "text": "拖网渔船"
+ },
+ {
+  "label": "OBJECT:WorkTruck",
+  "text": "工程卡车"
+ },
+ {
+  "label": "OBJECT:TugBoat",
+  "text": "拖船"
+ },
+ {
+  "label": "OBJECT:BioHazardTech",
+  "text": "生化防护技术员"
+ },
+ {
+  "label": "OBJECT:MilitiaTank",
+  "text": "民兵坦克"
+ },
+ {
+  "label": "Network:PlayerDisconnected",
+  "text": "%s 已断开连接"
+ },
+ {
+  "label": "Network:PlayerLeftGame",
+  "text": "%s 已离开游戏"
+ },
+ {
+  "label": "Network:Vote",
+  "text": "投票"
+ },
+ {
+  "label": "Network:QuitGame",
+  "text": "退出游戏"
+ },
+ {
+  "label": "MAP:AlpineAssault",
+  "text": "Alpine Assault"
+ },
+ {
+  "label": "MAP:AustrianAmbush",
+  "text": "Market Garden"
+ },
+ {
+  "label": "MAP:Badlands",
+  "text": "Desert Fury"
+ },
+ {
+  "label": "MAP:BridgeBusters",
+  "text": "Iron Dragon"
+ },
+ {
+  "label": "MAP:KashmarKlash",
+  "text": "Wasteland Warlords"
+ },
+ {
+  "label": "MAP:Oasis",
+  "text": "Golden Oasis"
+ },
+ {
+  "label": "MAP:ScorchedEarth",
+  "text": "Scorched Earth"
+ },
+ {
+  "label": "MAP:SleepyHollow",
+  "text": "Heartland Shield"
+ },
+ {
+  "label": "MAP:SmalltownUSA",
+  "text": "Homeland Alliance"
+ },
+ {
+  "label": "MAP:TampicoTrauma",
+  "text": "Silent River"
+ },
+ {
+  "label": "MAP:WoodcrestCircle",
+  "text": "Final Crusader"
+ },
+ {
+  "label": "MAP:XinjiangBang",
+  "text": "Winter Wolf"
+ },
+ {
+  "label": "Audio:Speakers0",
+  "text": "2 声道扬声器"
+ },
+ {
+  "label": "Audio:Speakers1",
+  "text": "耳机"
+ },
+ {
+  "label": "Audio:Speakers2",
+  "text": "环绕声"
+ },
+ {
+  "label": "Audio:Speakers3",
+  "text": "4 声道扬声器"
+ },
+ {
+  "label": "Audio:Speakers4",
+  "text": "5.1 环绕声"
+ },
+ {
+  "label": "Audio:Speakers5",
+  "text": "7.1 环绕声"
+ },
+ {
+  "label": "MAP:CHI01ObjectiveText",
+  "text": "任务目标\n摧毁核弹头储存设施"
+ },
+ {
+  "label": "MAP:CHI02Open",
+  "text": "中国，香港\n香港危机"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder01",
+  "text": "<红卫兵发言>\n‘将军，我们是突击部队仅剩的人了！我们需要建造指挥中心并架起雷达来接收新命令’"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder02",
+  "text": "<红卫兵发言>\n‘将军，如果不把雷达架起来，我们就无法获得敌人位置的情报。我们需要那座雷达’"
+ }
+]

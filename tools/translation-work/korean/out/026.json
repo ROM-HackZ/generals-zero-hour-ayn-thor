@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_Demo078Subtitle",
+  "text": "*제발, 장군, 내가 대신 부숴 줄 수 있는 걸 팔아 치우지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo079Subtitle",
+  "text": "*장군, 반칙이다. 가서 함정이나 좀 밟아라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo080Subtitle",
+  "text": "*운이 정말 좋군, 장군. 하지만 내 폭파 함정을 영원히 피할 순 없다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo081Subtitle",
+  "text": "*아무도 내 함정을 이긴 적이 없다, 장군. 너도 첫 번째가 되진 못할 거다... 두고 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo082Subtitle",
+  "text": "*날 이기고 있다고 생각하나, 장군? 순식간에 뒤바뀔 수 있다 -- 난 정정당당하게 안 싸운다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo083Subtitle",
+  "text": "*날 이겼을지는 몰라도, 장군, 데스스트라이크가 내 복수를 해 줄 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo084Subtitle",
+  "text": "*하하! 네 병력이 내 함정에 걸려 쓰러진다, 장군. 곧 다 사라질 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo085Subtitle",
+  "text": "*넌 지고 있다, 장군. 내 전술을 이해하지 못하는군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo086Subtitle",
+  "text": "*넌 절대 날 못 이긴다, 장군. 다치기 전에 떠나라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo087Subtitle",
+  "text": "*폭약이 아직 이렇게나 남았다... 유감이지만 네 병력보다 많은 것 같군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo088Subtitle",
+  "text": "*네가 졌다, 장군. 안됐군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo089Subtitle",
+  "text": "*딱 맞는 게 있지. 전쟁하러 가자"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo090Subtitle",
+  "text": "*폭파 전문가다. 뭘 도와줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo091Subtitle",
+  "text": "*저 버튼에도 폭약을 연결할 수 있을까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo092Subtitle",
+  "text": "*어서 와라, 장군 -- 내 전장으로... 하지만 발밑을 잘 봐라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo093Subtitle",
+  "text": "*이번엔 운이 좋았다, 장군. 다시는 날 못 이길 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo094Subtitle",
+  "text": "*넌 이런 전쟁에 대비가 안 됐다. 자신 있으면 다시 와라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo095Subtitle",
+  "text": "*여기 전장이 있다... 텅 비고... 전투의 손길이 닿지 않은... 우리의 작은... 백지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo096Subtitle",
+  "text": "*저 폭파 함정들은 어디서 나타났지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo097Subtitle",
+  "text": "*소매 속에 카드 몇 장 숨겼을지도 모르지만, 나한테서 그보다 덜한 걸 기대했나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger001Subtitle",
+  "text": "*이봐, 장군, 랩터를 가까이서 본 적 있나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger002Subtitle",
+  "text": "*이봐, 장군, 저 스텔스 전투기 봤나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger003Subtitle",
+  "text": "*새들 출격! 도저 사냥 가자!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger004Subtitle",
+  "text": "*너랑 노는 것도 끝이다, 장군. (자기 병력에게) 전원 공격!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger005Subtitle",
+  "text": "*이것 좀 봐라... 미국 국방 예산의 모범 사례지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger006Subtitle",
+  "text": "*(노래한다... 음치로) ...로켓의 붉은 섬광, 공중에서 터지는 폭탄..."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger007Subtitle",
+  "text": "*공포의 비가 내린다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger008Subtitle",
+  "text": "*충격과 공포, 맛이 어떤가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger009Subtitle",
+  "text": "*하늘에서 내리는 죽음!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger010Subtitle",
+  "text": "*좀 불공평한 것 같지 않나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger011Subtitle",
+  "text": "*이제 골키퍼까지 빼고 총공세다. 전원 공격!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger012Subtitle",
+  "text": "*폭탄 투하!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger013Subtitle",
+  "text": "*밖이 끔찍하게 조용하군... 떠난 건 아니지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger014Subtitle",
+  "text": "*걱정 마라, 장군. 폭풍 전의 고요일 뿐이다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger015Subtitle",
+  "text": "*나라면 이 틈에 방어를 재건하겠다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger016Subtitle",
+  "text": "*쉿... 들었나? 걱정 안 해도 될 거다, 별거 아닐 테니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger017Subtitle",
+  "text": "*미안하다, 장군. 점심시간이라... 금방 상대해 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger018Subtitle",
+  "text": "*네가 나한테 전차를 쓰게 만들었군... 전차 쓰는 거 정말 싫은데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger019Subtitle",
+  "text": "*강 건너기 힘든가, 장군? 태워 줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger020Subtitle",
+  "text": "*겁쟁이들! 숨지 말고 나와서 싸워라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger021Subtitle",
+  "text": "*은폐도 널 구하지 못한다, 장군. 찾아낼 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger022Subtitle",
+  "text": "*아야, 그거 비쌌겠는데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger023Subtitle",
+  "text": "*어, 이제 병력은 어디서 훈련시키려고?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger024Subtitle",
+  "text": "*방어 유지하기 힘든가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger025Subtitle",
+  "text": "*건물을 많이도 잃었군, 장군. 이제 험한 말이라도 쏟아 낼 건가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger026Subtitle",
+  "text": "*도저들, 건물 수리를 시작해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger027Subtitle",
+  "text": "*이 대가는 치르게 해 주마, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger028Subtitle",
+  "text": "*그 비행장을 부순 걸 후회하게 될 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger029Subtitle",
+  "text": "*도저들, 방어를 재건해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger030Subtitle",
+  "text": "*여기는 그레인저 장군, 항공모함 올림피아에 알린다. 증원을 보내라... 반복한다, 증원을 보내라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger031Subtitle",
+  "text": "*놈들이 사령부를 공격한다! 전 병력 재집결!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger032Subtitle",
+  "text": "*내 비행기를 격추하다니 마음에 안 드는군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger033Subtitle",
+  "text": "*놈들이 우리 유정을 빼앗고 있다! 레인저, 나가서 되찾아라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger034Subtitle",
+  "text": "*우리 기지에서 나가!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger035Subtitle",
+  "text": "*내 영공에서 나가라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger036Subtitle",
+  "text": "*적이 방어선 안에 있다! 모든 항공기 기지로 귀환!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger037Subtitle",
+  "text": "*지상군, 비행장을 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger038Subtitle",
+  "text": "*내 보급품을 훔치는 건 아니겠지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger039Subtitle",
+  "text": "*뒷문으로 들어오고 있다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger040Subtitle",
+  "text": "*마을에 숨는 건가. 그건 겁쟁이 전술이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger041Subtitle",
+  "text": "*그만 숨어라, 장군. 내가 직접 잡으러 가게 만들지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger042Subtitle",
+  "text": "*동문에 적이다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger043Subtitle",
+  "text": "*동쪽을 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger044Subtitle",
+  "text": "*적군이 서문에 접근 중!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger045Subtitle",
+  "text": "*전 병력 서문으로!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger046Subtitle",
+  "text": "*전력 유지하기 힘든가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger047Subtitle",
+  "text": "*이런, 정전이군 -- 폭탄 간다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger048Subtitle",
+  "text": "*자원이 떨어졌나, 장군? 좀 빌려줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger049Subtitle",
+  "text": "*이봐, 장군, 이번 판은 무승부로 할까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger050Subtitle",
+  "text": "*이 전투는 네가 이겼을지 몰라도, 장군, 전쟁은 아직 멀었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger051Subtitle",
+  "text": "*그래, 스커드 스톰을 지었군. 지킬 수 있을 것 같나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger052Subtitle",
+  "text": "*흠, 대공이 많군, 장군... 그걸로 두려움이 좀 가라앉을 것 같나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger053Subtitle",
+  "text": "*네 전차는 내 비행기의 상대가 안 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger054Subtitle",
+  "text": "*탄저균이다! 모두 엄폐해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger055Subtitle",
+  "text": "*원하는 만큼 건물에 주둔해라, 장군. 소용없을 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger056Subtitle",
+  "text": "*얼마나 더 버틸 수 있나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger057Subtitle",
+  "text": "*이제 항복할 준비 됐나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger058Subtitle",
+  "text": "*병력을 잃을 만큼 잃지 않았나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger059Subtitle",
+  "text": "*이 전투는 끝났다, 장군. 항복하든지 죽을 준비를 해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger060Subtitle",
+  "text": "*항복 안 한다고? 안됐군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger061Subtitle",
+  "text": "*폭탄 투하다, 애송이"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger062Subtitle",
+  "text": "*자, 장군 -- \"하늘에서 내리는 죽음\"이 뭔지 보여 주마."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger063Subtitle",
+  "text": "*음속 폭음이다. 한번 해 보자고"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger064Subtitle",
+  "text": "*이제 괜찮은 항공사에 일자리나 알아봐야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger065Subtitle",
+  "text": "*내가 이기고 네가 졌다. 더 할 말이 있나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger066Subtitle",
+  "text": "*알린다. 이 지역은 공군 장군 말콤 그레인저의 통제하에 있다. 당장 철수하든지, 석기 시대로 폭격당할 각오를 해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger067Subtitle",
+  "text": "*장군, 넌 내 상대가 안 된다 -- 하늘은 내 것이다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger068Subtitle",
+  "text": "*하늘을 봐라, 장군. 에어쇼를 보여 주지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger069Subtitle",
+  "text": "*또 보고 싶나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger070Subtitle",
+  "text": "*꼭꼭 숨어라, 머리카락 보일라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger071Subtitle",
+  "text": "*잠깐 들러도 괜찮겠지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger072Subtitle",
+  "text": "*내 비행장을 두 개나 쳤군, 장군. 슬슬 짜증 나기 시작한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger073Subtitle",
+  "text": "*젠장, 장군. 비행장을 하나만 더 치면 내가 직접 찾아가겠다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger074Subtitle",
+  "text": "*이게 네가 오늘 부수는 마지막 비행장이다. (자기 병력에게) 전군, 적 사령부를 조준하라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger075Subtitle",
+  "text": "*날 이기다니 믿을 수 없군, 장군. 네 뛰어난 전술에 경례를 보낸다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger076Subtitle",
+  "text": "*이번엔 날 이긴 것 같군, 장군. 하지만 언젠가 다시 만날 거고, 그땐 그렇게 자비롭지 않을 거다. 왜냐하면--"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger077Subtitle",
+  "text": "*저 사람은 영영 입을 안 다물 줄 알았네"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger078Subtitle",
+  "text": "*그 스커드 스톰을 계속 갖게 둘 줄 알았나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger079Subtitle",
+  "text": "*스커드 스톰이 또? 수위를 좀 올려야겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger080Subtitle",
+  "text": "*조종사들, 저 스팅어 기지를 조심해라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger081Subtitle",
+  "text": "*레인저는 이렇게 많은데 점령할 건물은 이렇게 적다니"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger082Subtitle",
+  "text": "*장군, 연료 기화 폭탄이 어떻게 작동하는지 아나? 시범 한번 보여 줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger083Subtitle",
+  "text": "*파티에 온 걸 환영하네, 버튼 대령. 이제 넌 끝장이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger084Subtitle",
+  "text": "*A-10 막는 법 아나, 장군? 나도 모른다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger085Subtitle",
+  "text": "*이봐, 우리 새 벙커 버스터 보고 싶나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger086Subtitle",
+  "text": "*포병! 포병으로 날 공격할 수 있을 것 같나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger087Subtitle",
+  "text": "*그 스커드 런처는 절대 내 기지까지 못 온다, 알지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger088Subtitle",
+  "text": "*잠깐, 저건 폭탄 트럭이다! 다들 조심해!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger089Subtitle",
+  "text": "*네가 나한테 전차를 쓰게 만들었군... 전차 쓰는 거 정말 싫은데"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger090Subtitle",
+  "text": "*강 건너기 힘든가, 장군? 태워 줄까?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger091Subtitle",
+  "text": "*겁쟁이들! 숨지 말고 나와서 싸워라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger092Subtitle",
+  "text": "*은폐도 널 구하지 못한다, 장군. 찾아낼 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Grainger093Subtitle",
+  "text": "*흠, 대공이 많군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry001Subtitle",
+  "text": "*여기 숨어 있었군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry002Subtitle",
+  "text": "*<sarcastic>벅찬가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry003Subtitle",
+  "text": "*(중국 보병 전사) <angry voice>우리는 아직 10억 명이 더 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry004Subtitle",
+  "text": "*(공수 강하) 메뚜기 떼처럼 하늘에서 내려와 중국에 맞서는 자들을 모조리 삼킨다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry005Subtitle",
+  "text": "*해킹당해 본 적 있나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry006Subtitle",
+  "text": "*<shouting>행진!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry007Subtitle",
+  "text": "*방패로도 쓸 만하지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry008Subtitle",
+  "text": "*조언 하나 하지, 장군. 항복해라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry009Subtitle",
+  "text": "*걱정 마라, 장군. 우리는 포로를 안 잡는다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry010Subtitle",
+  "text": "*대군을 풀어라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry011Subtitle",
+  "text": "*괜찮다, 장군. 네 기지에 꽂을 깃발은 우리가 가져왔다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry012Subtitle",
+  "text": "*곧 네 병사들이 보는 건 자기 위로 행진하는 군화뿐일 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry013Subtitle",
+  "text": "*돌격!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry014Subtitle",
+  "text": "*우리에게 맞서는 자에게 죽음을!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry015Subtitle",
+  "text": "*대군을 먹여 살리는 게 얼마나 힘든지 아나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry016Subtitle",
+  "text": "*열병식을 할 만큼 병력이 있다. 네 기지에서 해도 되겠나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry017Subtitle",
+  "text": "*아직 거기 있나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry018Subtitle",
+  "text": "*그냥 앉아서 짓밟히길 기다릴 건가?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry019Subtitle",
+  "text": "*자원이 부족해지고 있나, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry020Subtitle",
+  "text": "*네 그 작은 전차 부대 만드는 데 얼마나 걸리지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry021Subtitle",
+  "text": "*<sarcastic> 이번엔 무슨 전술로 날 놀라게 할 건가, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry022Subtitle",
+  "text": "*이게 네 최선일 리가 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry023Subtitle",
+  "text": "*지금까지는 별 감흥이 없다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry024Subtitle",
+  "text": "*이 도전에 대비가 안 돼 있었지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry025Subtitle",
+  "text": "*총 한 발 안 쏘고도 널 짓밟을 만큼 병력이 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry026Subtitle",
+  "text": "*널 잡으러 간다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry027Subtitle",
+  "text": "*어머... 네 작은 기술 건물을 넘어뜨렸군. 엉엉"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry028Subtitle",
+  "text": "*이제 네 병영은 없다. 병사 없이 어떻게 싸울 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry029Subtitle",
+  "text": "*군수 공장이 없으니 이제 나랑 맨몸으로 싸워야겠군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry030Subtitle",
+  "text": "*더 이상 비행기는 없다. 내려와서 사내답게 싸워라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry031Subtitle",
+  "text": "*내 병사들이 네 기지 방어선을 곧장 통과해 행진하고 있다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry032Subtitle",
+  "text": "*네 사령부가 있던 자리엔 이제 빈 땅뿐이다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry033Subtitle",
+  "text": "*많은 병사를 잃었지만, 장군, 네 건물을 그만큼 부쉈으니 그럴 가치가 있었다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry034Subtitle",
+  "text": "*내 기술 건물은 건드리지 마라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry035Subtitle",
+  "text": "*안 돼! 내 병영은 안 돼! 다시 지을 거다, 장군... 그때 대가를 치르게 해 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry036Subtitle",
+  "text": "*내 군수 공장이 승리에 꼭 필요한 건 아니지만, 더는 부수지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry037Subtitle",
+  "text": "*내 비행장을 부쉈군! 슬슬 짜증 난다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry038Subtitle",
+  "text": "*기지 방어는 마음껏 부숴라 -- 어차피 널 늦추려고 있는 거니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry039Subtitle",
+  "text": "*네가 내 건물을 많이 부쉈다, 장군. 내 병사들이 빚을 받으러 간다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry040Subtitle",
+  "text": "*안 돼--! 놈들이 내 사령부를 부쉈다! 잡아라! 나한테 다가오지 못하게 해!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry041Subtitle",
+  "text": "*원하는 만큼 비행기를 떨어뜨려라, 장군. 더 만들면 되니까"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry042Subtitle",
+  "text": "*내 차량은 네 사격 연습용이 아니다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry043Subtitle",
+  "text": "*내 군대엔 중국을 위해 희생할 준비가 된 자들이 훨씬 더 많다, 장군. 넌 우리를 막지 못한다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry044Subtitle",
+  "text": "*내 유정을 차지했군, 장군. 이제 중국의 석유를 되찾으러 간다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry045Subtitle",
+  "text": "*그 낡은 포병 플랫폼은 망가졌다, 장군. 절대 작동시키지 못할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry046Subtitle",
+  "text": "*그 정유 공장을 아무나 쓰는 줄 아나? 당장 정유 공장을 돌려놔라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry047Subtitle",
+  "text": "*내 기지에 더 다가오면 대군을 풀어 주마"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry048Subtitle",
+  "text": "*경고한다, 장군. 내 기지에서 떨어져라. 병사 백 명이 전차 한 대에 무슨 짓을 할 수 있는지 아나?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry049Subtitle",
+  "text": "*놈들이 기지 안에 있다! 죽여라! 쫓아내라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry050Subtitle",
+  "text": "*너무 가까이 왔다! 날 지켜라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry051Subtitle",
+  "text": "*장군, 내 자원에서 떨어져라 -- 내 병사들에게 필요하다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry052Subtitle",
+  "text": "*장군, 내 기지를 우회하려 하지 마라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry053Subtitle",
+  "text": "*뒷문 공격은 도움이 안 된다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry054Subtitle",
+  "text": "*내 기지를 정면에서 공격하는 건 어리석다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry055Subtitle",
+  "text": "*그건 내 기술 건물이다, 장군. 떨어져라"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry056Subtitle",
+  "text": "*내 건물에서 나가라, 장군!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry057Subtitle",
+  "text": "*그 다리를 건너는 건 실수다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry058Subtitle",
+  "text": "*전력이 바닥났군, 장군 -- 방어는 꺼졌고 내 병사들이 곧 쳐들어갈 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry059Subtitle",
+  "text": "*전력 없이는 절대 내 대군을 막지 못한다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry060Subtitle",
+  "text": "*내 병사들과 싸우느라 자원을 다 날렸군... 하지만 나한텐 병사가 더 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry061Subtitle",
+  "text": "*자원이 바닥났다! 어떻게 이렇게 된 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry062Subtitle",
+  "text": "*스커드 스톰을 지어라 -- 내 병사 몇 명만 맞힐 뿐이다... 나머지가 널 파괴할 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry063Subtitle",
+  "text": "*핵미사일은 금지인 줄 알았는데! 이건 불공평하다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry064Subtitle",
+  "text": "*그 입자 캐논은 내 대군에게 아무 소용도 없다!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry065Subtitle",
+  "text": "*그래, 기지 방어를 더 지어라 -- 적어도 돌격해 오는 대군의 첫 물결은 막을 수 있겠지"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry066Subtitle",
+  "text": "*겁쟁이! 네 전차가 내 병사들을 깔아뭉개지 못한다는 건 알지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry067Subtitle",
+  "text": "*비행기가 이렇게나 많다니... 상관없다, 내 대군이 네 비행기도 떨어뜨릴 수 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry068Subtitle",
+  "text": "*너도 대군을 동원하는 건가?! 내 힘에 맞서려면 훨씬 많은 병사가 필요할 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry069Subtitle",
+  "text": "*네 기지가 너무 커졌다, 장군. 이제 내 병사들이 뛰어내려 중국을 위해 몇 개 차지할 때다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry070Subtitle",
+  "text": "*스커드 스톰이다! 흩어져라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry071Subtitle",
+  "text": "*핵미사일 접근! 도망쳐! 날 여기서 빼내!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry072Subtitle",
+  "text": "*오, 예쁜 불꽃놀이 좀 봐라. 그 하찮은 무기로 뭘 하려는 거지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry073Subtitle",
+  "text": "*그 건물에서 나와라, 장군. 필요하면 억지로 끌어낼 방법도 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry074Subtitle",
+  "text": "*우리의 작은 전쟁에 버튼 대령을 데려왔군, 장군. 대군 앞에선 그도 쓰러질 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry075Subtitle",
+  "text": "*블랙 로투스? 그녀가 어떻게 내 대군 앞에서 널 살려 주지, 장군?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry076Subtitle",
+  "text": "*전 병력 주의: 자르멘 켈이 전장에 숨어 있다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry077Subtitle",
+  "text": "*저 비행장이 보인다, 장군. 하늘로 도망쳐라! 내 대군을 두려워하라!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry078Subtitle",
+  "text": "*네가 전차를 만드는 속도만큼 내 병사들이 찢어발길 거다, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry079Subtitle",
+  "text": "*내 병사들은 셋씩 훈련받는다... 넌 병사를 얼마나 빨리 훈련시키지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry080Subtitle",
+  "text": "*건물을 판다고? 어리석다! 그 돈으로 뭘 사서 내 대군을 막을 건데?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry081Subtitle",
+  "text": "*내게 이렇게 병력이 많은데 어떻게 네가 이기고 있는 거지?"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry082Subtitle",
+  "text": "*네 전술을 과소평가했군, 장군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry083Subtitle",
+  "text": "*방심한 틈을 찔렀군, 장군. 하지만 이제 준비됐다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry084Subtitle",
+  "text": "*넌 내 대군을 못 이긴다, 장군! 지금의 우위는 곧 사라질 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry085Subtitle",
+  "text": "*이 패배를 받아들이지 않겠다, 장군. 내 병사들이 퇴각을 엄호할 거고, 우린 다른 날 다시 싸울 거다"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry086Subtitle",
+  "text": "*이제 내 병사가 너보다 많다, 장군. 항복하는 게 현명하겠군"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Infantry087Subtitle",
+  "text": "*네 최후가 온 것 같군, 장군"
+ }
+]

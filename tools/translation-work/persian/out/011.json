@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:Any",
+  "text": "هر"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNicknamePassword",
+  "text": "لطفاً نام مستعار و گذرواژه خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmail",
+  "text": "لطفاً ایمیل خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoNickname",
+  "text": "لطفاً نام مستعار خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoPassword",
+  "text": "لطفاً گذرواژه خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "Buddy:MultipleOnlineNotification",
+  "text": "دوستانی آنلاین دارید"
+ },
+ {
+  "label": "GUI:ResetHonors",
+  "text": "بازنشانی نشان‌ها"
+ },
+ {
+  "label": "Chat:Observers",
+  "text": "نمای ناظران"
+ },
+ {
+  "label": "TOOLTIP:buddies",
+  "text": "مرتب‌سازی فهرست بازی‌ها بر اساس دوستان"
+ },
+ {
+  "label": "TOOLTIP:AddToBuddies",
+  "text": "افزودن یک بازیکن به فهرست دوستانتان"
+ },
+ {
+  "label": "TOOLTIP:StagingPlayerInfo",
+  "text": "\nمنطقه: %ls\nپینگ: %d میلی‌ثانیه\n%d برد/%d باخت\n%d قطع اتصال\nارتش محبوب: %ls"
+ },
+ {
+  "label": "GUI:CantBuildTooCloseToSupplies",
+  "text": "نمی‌توانید آنجا بسازید چون خیلی به منبع تدارکات نزدیک است"
+ },
+ {
+  "label": "OBJECT:Frosty",
+  "text": "آدم‌برفی"
+ },
+ {
+  "label": "OBJECT:Prop",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:BigGate",
+  "text": "دروازه"
+ },
+ {
+  "label": "OBJECT:TownHall",
+  "text": "شهرداری"
+ },
+ {
+  "label": "OBJECT:RailroadBridge",
+  "text": "پل راه‌آهن"
+ },
+ {
+  "label": "OBJECT:TheLoo",
+  "text": "توالت صحرایی"
+ },
+ {
+  "label": "OBJECT:TrainCar",
+  "text": "واگن قطار"
+ },
+ {
+  "label": "OBJECT:SandBagWall",
+  "text": "دیوار کیسه شنی"
+ },
+ {
+  "label": "OBJECT:Structure",
+  "text": "ساختمان غیرنظامی"
+ },
+ {
+  "label": "OBJECT:Airport",
+  "text": "فرودگاه غیرنظامی"
+ },
+ {
+  "label": "OBJECT:Highrise",
+  "text": "Highrise"
+ },
+ {
+  "label": "OBJECT:BridgeTower",
+  "text": "برج پل"
+ },
+ {
+  "label": "OBJECT:Field",
+  "text": "زمین بازی"
+ },
+ {
+  "label": "OBJECT:SoccerStadiumGoal",
+  "text": "دروازه فوتبال"
+ },
+ {
+  "label": "OBJECT:BigLightpost",
+  "text": "تیر چراغ"
+ },
+ {
+  "label": "MAP:BigRivers",
+  "text": "Mountain Fox"
+ },
+ {
+  "label": "MAP:CHI01Open",
+  "text": "رژه نظامی چین، پکن\nاژدها بیدار می‌شود"
+ },
+ {
+  "label": "MAP:CHI03Obj1Done",
+  "text": "هدف مأموریت کامل شد"
+ },
+ {
+  "label": "MAP:CHI07Obj1",
+  "text": "هدف مأموریت:\nپایگاهی بسازید و منابع را پیدا کنید"
+ },
+ {
+  "label": "MAP:CHI07Obj2",
+  "text": "هدف مأموریت:\nGLA را شکست دهید"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt2",
+  "text": "روستاهای حومه آلماتی، قزاقستان\nتدارکات بیگانه را برای آرمانمان تصاحب کنید"
+ },
+ {
+  "label": "MAP:GLA02OpenAlt1",
+  "text": "روستاهای حومه آلماتی، قزاقستان\nعملیات: غارت روستا"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt2",
+  "text": "ساحل غربی دریاچه آرال، قزاقستان\nسموم غرب را بدزدید تا علیه خودشان به کار ببریم"
+ },
+ {
+  "label": "MAP:GLA06OpenAlt1",
+  "text": "ساحل غربی دریاچه آرال، قزاقستان\nعملیات: تصاحب سموم"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt2",
+  "text": "جایی نزدیک لنگر، قزاقستان\nبه جهان نشان دهید با خائنان چه می‌شود"
+ },
+ {
+  "label": "MAP:GLA07OpenAlt",
+  "text": "جایی نزدیک لنگر، قزاقستان\nعملیات: اسب تروا"
+ },
+ {
+  "label": "MAP:GLA03Open02",
+  "text": "ژامبیل در اشغال چین، قزاقستان\nعملیات: آتش عدالت"
+ },
+ {
+  "label": "MAP:GLA03Directive",
+  "text": "گزارش خبرچین:\nکارخانه داروسازی را نابود کنید تا بمب سیاه‌زخم به دست آورید"
+ },
+ {
+  "label": "MAP:USA02Hint1Text",
+  "text": "از خلبانان برای تجربه بیشتر خودروهایتان استفاده کنید"
+ },
+ {
+  "label": "MAP:USA02Hint2Text",
+  "text": "با ارتقای نارنجک صوتی-نوری رنجرها سازه‌های سنگرگرفته را پاک کنید"
+ },
+ {
+  "label": "MAP:USA03Hint1Text",
+  "text": "برای دفاع از پایگاهتان سامانه موشکی پاتریوت بسازید"
+ },
+ {
+  "label": "MAP:USA04Hint1Text",
+  "text": "با پرتابگرهای موشک تاماهاک دژهای GLA را پاک کنید"
+ },
+ {
+  "label": "MAP:NVIDIATEXT",
+  "text": "Command & Conquer Generals\nبه‌زودی، فوریه ۲۰۰۳"
+ },
+ {
+  "label": "MAP:USA06ObjHint2",
+  "text": "راهنمایی:\nاین تأسیسات را تصرف کنید"
+ },
+ {
+  "label": "MAP:USA06ObjHint1",
+  "text": "راهنمایی:\nاینجا ساختمان‌های غیرنظامی مهمی هست"
+ },
+ {
+  "label": "MAP:GLA03Objective07",
+  "text": "هدف کامل شد:\n۳۰۰ خائن از میان رفتند"
+ },
+ {
+  "label": "MAP:GLA03Objective08",
+  "text": "هدف کامل شد:\nکارخانه داروسازی نابود شد"
+ },
+ {
+  "label": "MAP:GLA05Open",
+  "text": "آدانا، ترکیه\nپایگاه هوایی اینجرلیک"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive03",
+  "text": "هشدار:\nنیروی هوایی آمریکا در راه است\nبرای دفاع از پایگاهتان سایت استینگر بسازید"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive04",
+  "text": "هدف فرعی:\nپاسگاه جاسوسی چین را نابود کنید"
+ },
+ {
+  "label": "SCRIPT:GLA05Directive05",
+  "text": "هشدار:\nنیروی هوایی آمریکا در راه است\nبا سایت‌های استینگر و توپ‌های چهارلول هواپیماهای دشمن را سرنگون کنید"
+ },
+ {
+  "label": "MAP:GLA08Open",
+  "text": "پایگاه فضایی بایکونور، جنوب قزاقستان\nتأسیسات پرتاب موشک دوران شوروی"
+ },
+ {
+  "label": "MAP:GLA08Open02",
+  "text": "جنوب قزاقستان\nپایگاه فضایی بایکونور"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective01",
+  "text": "اهداف مأموریت:\nساختمان کنترل زمینی را تصرف کنید\nسکوی پرتاب موشک را تصرف کنید"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective02",
+  "text": "هدف مأموریت:\nساختمان کنترل زمینی را تصرف کنید"
+ },
+ {
+  "label": "SCRIPT:GLA08Objective03",
+  "text": "هدف مأموریت:\nسکوی پرتاب موشک را تصرف کنید"
+ },
+ {
+  "label": "SCRIPT:GLA08Directive04",
+  "text": "هشدار:\nسلاح ویژه دشمن در راه است"
+ },
+ {
+  "label": "MAP:USA07hint1",
+  "text": "راهنمایی:\nاز این اسکله تدارکات استفاده کنید"
+ },
+ {
+  "label": "MAP:CHI05ObjInit",
+  "text": "هدف مأموریت:\n۳ اردوگاه GLA\nو پایگاه اصلی GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:CHI05Obj4",
+  "text": "۴ هدف باقی مانده"
+ },
+ {
+  "label": "MAP:CHI05Obj3",
+  "text": "۳ هدف باقی مانده"
+ },
+ {
+  "label": "MAP:CHI05Obj2",
+  "text": "۲ هدف باقی مانده"
+ },
+ {
+  "label": "MAP:CHI05Obj1",
+  "text": "فقط ۱ هدف باقی مانده"
+ },
+ {
+  "label": "MAP:CHI05Objhint1",
+  "text": "راهنمایی:\nاز این اسکله تدارکات استفاده کنید"
+ },
+ {
+  "label": "MAP:CHI05Objhint2",
+  "text": "راهنمایی:\nاین تأسیسات را تصرف کنید"
+ },
+ {
+  "label": "MAP:CHI05ObjCBReady",
+  "text": "راهنمایی:\nبمب‌افکن‌های بمباران فرشی اکنون در دسترس‌اند"
+ },
+ {
+  "label": "MAP:USA08MapName",
+  "text": "آخرین فراخوان"
+ },
+ {
+  "label": "MAP:USA08Open",
+  "text": "پایتخت GLA، آلداستان\nعملیات: آخرین فراخوان"
+ },
+ {
+  "label": "MAP:USA08OpenAlt",
+  "text": "آکمولا، قزاقستان\nعملیات: آخرین فراخوان"
+ },
+ {
+  "label": "MAP:USA08Objective01",
+  "text": "هدف مأموریت:\nهمه نیروها و سازه‌های GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:USA08WallGarWarning",
+  "text": "هشدار:\nGLA در دیوار سنگر گرفته است\nرنجرها باید با نارنجک صوتی-نوری نیروهای سنگرگرفته GLA را بکشند"
+ },
+ {
+  "label": "MAP:USA08ChinaHint",
+  "text": "ساختمان‌های چینی را تصرف کنید\nنیروهای مشترک آمریکا و چین بسازید تا GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:USA08SCUDStormWarn",
+  "text": "هشدار:\nGLA یک طوفان اسکاد ساخته است"
+ },
+ {
+  "label": "MAP:USA08MineWarn",
+  "text": "هشدار:\nتله‌های انفجاری GLA شناسایی شد"
+ },
+ {
+  "label": "MAP:USA08GLABaseKIA",
+  "text": "پایگاه‌های GLA نابود شدند\nنیروهای باقی‌مانده GLA را از میان بردارید تا جنگ را ببرید"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCarpetBomb",
+  "text": "بمباران فرشی منطقه هدف\n\nزمان شمارش معکوس: 2:30"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCrateDrop",
+  "text": "پرتاب جعبه‌های تدارکات"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateNuke",
+  "text": "انفجار وسیله هسته‌ای پنهان"
+ },
+ {
+  "label": "MAP:GLA01Objective",
+  "text": "هدف مأموریت\nسد را نابود کنید"
+ },
+ {
+  "label": "MAP:GLA01Objective2",
+  "text": "هدف مأموریت\nپایگاه چین را نابود کنید"
+ },
+ {
+  "label": "MAP:TrainingGenerals",
+  "text": "روی دکمه ژنرال‌ها در گوشه پایین راست صفحه کلیک چپ کنید تا توانایی تازه‌ای برای ژنرالتان برگزینید. با ارتقای درجه، ژنرالتان به توانایی‌های تازه‌ای دست می‌یابد. برخی توانایی‌ها امکان ساخت یگان‌های ویژه جدید را می‌دهند و برخی قدرت‌های ویژه‌ای که از مرکز فرماندهی به کار می‌روند"
+ },
+ {
+  "label": "MAP:TrainingSalvage",
+  "text": "یک توده قراضه ساختید. هر وقت خودروهای GLA خودروهای دشمن را نابود کنند، قراضه به جا می‌ماند. خودروهای GLA با عبور از روی قراضه آن را برمی‌دارند. قراضه ممکن است پول یا تجربه بدهد. تکنیکال‌ها، توپ‌های چهارلول و ماراودرها می‌توانند سلاحشان را با قراضه ارتقا دهند"
+ },
+ {
+  "label": "MAP:TrainingUpgrade",
+  "text": "ارتقاها از سازه‌های مختلف پایگاهتان خریده می‌شوند و یگان‌هایتان را بهتر می‌کنند. روی پادگان و سپس روی نماد تصرف ساختمان کلیک چپ کنید تا رنجرهایتان بتوانند ساختمان‌های دشمن را تصرف کنند"
+ },
+ {
+  "label": "GUI:SaveAndContinue",
+  "text": "ادامه"
+ },
+ {
+  "label": "TOOLTIP:PlayerSetting",
+  "text": "جفت شدن در بازی ۱ در برابر ۱ یا بازی تیمی را انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:Ping",
+  "text": "میزان تحمل خود را برای سرعت اتصال حریف انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:Disconnect",
+  "text": "میزان تحمل خود را برای کل قطع اتصال‌های حریف انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:Ladder",
+  "text": "رده‌بندی‌ای را که می‌خواهید در آن بازی کنید انتخاب کنید"
+ },
+ {
+  "label": "TOOLTIP:QuickMatchStatus",
+  "text": "مسابقه سریع تلاش می‌کند شما را بر اساس سطح مهارت، مشخصات رایانه و غیره جفت کند"
+ },
+ {
+  "label": "TOOLTIP:OnlineIP",
+  "text": "نشانی IP برای اتصال به C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "TOOLTIP:LanIP",
+  "text": "نشانی IP برای اتصال به بازیکنان در بازی‌های شبکه"
+ },
+ {
+  "label": "TOOLTIP:GamesBeingformed",
+  "text": "سرعت اتصال شما به بازیکنان این بازی"
+ },
+ {
+  "label": "TOOLTIP:EmoteText",
+  "text": "برای وارد کردن متن کلیک چپ کنید"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCashHack",
+  "text": "دزدیدن پول از مراکز تدارکات دشمن. بیش از پولی که دشمن دارد نمی‌توانید بدزدید\n\nدرجه ۱: $1000\nدرجه ۲: $2000\nدرجه ۳: $4000\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "GUI:TRAINING",
+  "text": "آموزش"
+ },
+ {
+  "label": "GUI:CHINA_Caps",
+  "text": "چین"
+ },
+ {
+  "label": "TOOLTIP:SupplyDock",
+  "text": "تدارکات"
+ },
+ {
+  "label": "TOOLTIP:TechBuilding",
+  "text": "ساختمان فنی"
+ },
+ {
+  "label": "TOOLTIP:Mission1",
+  "text": "."
+ },
+ {
+  "label": "TOOLTIP:Mission2_8",
+  "text": "کارزار اول"
+ },
+ {
+  "label": "TOOLTIP:Mission9_16",
+  "text": "کارزار دوم"
+ },
+ {
+  "label": "TOOLTIP:Mission17_23",
+  "text": "کارزار سوم"
+ },
+ {
+  "label": "TOOLTIP:ButtonClear",
+  "text": "پاک کردن کادر نام بازیکن"
+ },
+ {
+  "label": "GUI:Objectives:",
+  "text": "خلاصه:"
+ },
+ {
+  "label": "GUI:WinStreak",
+  "text": "بردهای پیاپی"
+ },
+ {
+  "label": "GUI:LossStreak",
+  "text": "باخت‌های پیاپی"
+ },
+ {
+  "label": "GUI:PlayerNoMapWillTransfer",
+  "text": "%ls نقشه %ls را ندارد. هنگام شروع بازی منتقل می‌شود"
+ },
+ {
+  "label": "GUI:LocalPlayerNoMapWillTransfer",
+  "text": "شما نقشه %ls را ندارید. هنگام شروع بازی برایتان منتقل می‌شود"
+ },
+ {
+  "label": "GUI:CouldNotTransferMap",
+  "text": "انتقال نقشه ممکن نیست. بازی نمی‌تواند شروع شود"
+ },
+ {
+  "label": "GUI:Status",
+  "text": "وضعیت"
+ },
+ {
+  "label": "MapTransfer:CurrentFile",
+  "text": "فایل فعلی: %ls"
+ },
+ {
+  "label": "MapTransfer:Timeout",
+  "text": "لغو تا %d:%2.2d"
+ },
+ {
+  "label": "MapTransfer:Preparing",
+  "text": "در حال آماده‌سازی..."
+ },
+ {
+  "label": "MapTransfer:Sending",
+  "text": "در حال ارسال..."
+ },
+ {
+  "label": "MapTransfer:Recieving",
+  "text": "در حال دریافت..."
+ },
+ {
+  "label": "MapTransfer:Done",
+  "text": "انجام شد"
+ },
+ {
+  "label": "ThingTemplate:SalvageCrate",
+  "text": "جعبه قراضه"
+ },
+ {
+  "label": "ThingTemplate:IndustrialBridgeTower01",
+  "text": "پل"
+ },
+ {
+  "label": "ThingTemplate:Crypt01",
+  "text": "سردابه"
+ },
+ {
+  "label": "ThingTemplate:AsianAartmentSingle01",
+  "text": "آپارتمان"
+ },
+ {
+  "label": "CONTROLBAR:RadioJam",
+  "text": "اختلال رادیویی"
+ },
+ {
+  "label": "MAP:USA01OBJOpen",
+  "text": "هدف مأموریت\nهمه نیروهای دشمن را نابود کنید"
+ },
+ {
+  "label": "MAP:TrainingWarFactory",
+  "text": "هدف مأموریت\nبا بولدوزر یک کارخانه جنگ‌افزار بسازید"
+ },
+ {
+  "label": "TOOLTIP:MapNoSuccess",
+  "text": "این نقشه را در برابر حریف آسان ببرید!"
+ },
+ {
+  "label": "TOOLTIP:MapEasySuccess",
+  "text": "این نقشه را در برابر حریف متوسط ببرید!"
+ },
+ {
+  "label": "TOOLTIP:MapMediumSuccess",
+  "text": "این نقشه را در برابر حریف سخت ببرید!"
+ },
+ {
+  "label": "TOOLTIP:MapHardSuccess",
+  "text": "این نقشه را در برابر بیشترین تعداد حریف سخت ببرید!"
+ },
+ {
+  "label": "Buddy:CantTalkToIngameBuddy",
+  "text": "اگر ناظر باشید نمی‌توانید به دوستان داخل بازی پیام بفرستید"
+ },
+ {
+  "label": "MAP:Bavarian",
+  "text": "Final Crusade"
+ },
+ {
+  "label": "MAP:CLake",
+  "text": "Tournament Lake"
+ },
+ {
+  "label": "MAP:SBlast",
+  "text": "Sand Serpent"
+ },
+ {
+  "label": "MAP:SleepingGiant",
+  "text": "Dark Mountain"
+ },
+ {
+  "label": "MAP:SwissMP",
+  "text": "Lone Eagle"
+ },
+ {
+  "label": "MAP:KandaharHighlands",
+  "text": "Twilight Flame"
+ },
+ {
+  "label": "MAP:BoraBora",
+  "text": "Tournament Island"
+ },
+ {
+  "label": "MAP:PrecipicePass",
+  "text": "Fortress Avalanche"
+ },
+ {
+  "label": "MAP:TTourney",
+  "text": "Tournament Tundra"
+ },
+ {
+  "label": "MAP:Gwall",
+  "text": "Fallen Empire"
+ },
+ {
+  "label": "GUI:HTTPProxy",
+  "text": "پراکسی HTTP:"
+ },
+ {
+  "label": "GUI:WinPercent",
+  "text": "%d%%"
+ },
+ {
+  "label": "TOOLTIP:PlayerCreatedName",
+  "text": "نام بازیکنی که بازی را ساخت"
+ },
+ {
+  "label": "TOOLTIP:HTTPProxy",
+  "text": "تنظیم پراکسی HTTP برای C&C Generals Zero Hour Online"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistory",
+  "text": "گزارش‌های مأموریت"
+ },
+ {
+  "label": "CONTROLBAR:BriefingHistoryDescription",
+  "text": "برای دیدن گزارش‌های مأموریت کلیک کنید"
+ },
+ {
+  "label": "MAP:CHI04Objective1Text",
+  "text": "هدف مأموریت\nسایت‌های استینگر GLA را نابود کنید"
+ },
+ {
+  "label": "MAP:CHI04Objective2Text",
+  "text": "هدف مأموریت\nبا نیلوفر سیاه کارخانه جنگ‌افزار چینی را تصرف کنید"
+ },
+ {
+  "label": "MAP:CHI04Objective3Text",
+  "text": "هدف مأموریت\nسایت‌های استینگر اطراف کارخانه شیمیایی را نابود کنید"
+ },
+ {
+  "label": "MAP:CHI04Hint1Text",
+  "text": "راهنمایی: با نیلوفر سیاه خودروهای دشمن را از کار بیندازید"
+ },
+ {
+  "label": "MAP:CHI04Hint2Text",
+  "text": "راهنمایی: با هکرها درآمد اضافی کسب کنید"
+ },
+ {
+  "label": "MAP:CHI04Hint3Text",
+  "text": "راهنمایی: با نیلوفر سیاه مرکز تدارکات دشمن را هک کنید تا منابع بیشتری بکشید"
+ },
+ {
+  "label": "GUI:GotoMainMenu",
+  "text": "منوی اصلی"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlay",
+  "text": "نشان بازی جوانمردانه\nدر کمتر از ۱۰٪ بازی‌های آنلاین قطع اتصال کنید (با دست‌کم ۱۰ بازی) تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypse",
+  "text": "نشان آخرالزمان\nبازیکن در یک بازی تک‌نفره یا چندنفره آنلاین توپ ذره‌ای، موشک هسته‌ای و طوفان اسکاد ساخته است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorFairPlayDisabled",
+  "text": "نشان بازی جوانمردانه\nدر کمتر از ۱۰٪ بازی‌های آنلاین قطع اتصال کنید (با دست‌کم ۱۰ بازی) تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorApocalypseDisabled",
+  "text": "مدال آخرالزمان\nتوپ ذره‌ای، موشک هسته‌ای و طوفان اسکاد بسازید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorder",
+  "text": "نشان باشگاه افسران\nبازیکن از اعضای بنیان‌گذار جامعه Generals است"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorPreorderDisabled",
+  "text": "مدال باشگاه افسران\nبازیکن Generals را پیش‌خرید نکرده است"
+ },
+ {
+  "label": "GUI:Credits",
+  "text": "دست‌اندرکاران"
+ },
+ {
+  "label": "ERROR:D3DFailurePrompt",
+  "text": "خطای DirectX"
+ },
+ {
+  "label": "ERROR:D3DFailureMessage",
+  "text": "لطفاً مطمئن شوید DirectX 8.1 یا بالاتر نصب است و کارت گرافیک شما حداقل نیازها را دارد"
+ },
+ {
+  "label": "GUI:AudioHardware",
+  "text": "صدای شتاب‌یافته سخت‌افزاری"
+ },
+ {
+  "label": "GUI:AudioSurround",
+  "text": "صدای فراگیر"
+ },
+ {
+  "label": "TOOLTIP:CheckAudioHardware",
+  "text": "برای فعال کردن شتاب سخت‌افزاری صدا این کادر را علامت بزنید"
+ },
+ {
+  "label": "TOOLTIP:AudioSurround",
+  "text": "اگر بلندگوهای صدای فراگیر دارید این کادر را علامت بزنید"
+ },
+ {
+  "label": "CAMPAIGN:TRAINING",
+  "text": "آموزش"
+ },
+ {
+  "label": "GUI:WinPercentLabel",
+  "text": "درصد برد"
+ },
+ {
+  "label": "GUI:BestWinStreak",
+  "text": "بهترین برد پیاپی"
+ },
+ {
+  "label": "Buddy:MatchingNotification",
+  "text": "%hs در مسابقه سریع است"
+ },
+ {
+  "label": "Buddy:StagingNotification",
+  "text": "%hs در حال آماده‌سازی بازی است"
+ },
+ {
+  "label": "Buddy:LoadingNotification",
+  "text": "%hs در حال شروع بازی است"
+ },
+ {
+  "label": "Buddy:PlayingNotification",
+  "text": "%hs در حال بازی است"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsPromotion",
+  "text": "ارتقای درجه ژنرال"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExp",
+  "text": "تجربه ژنرال‌ها"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExpDescription",
+  "text": "این سنجه نشان می‌دهد چقدر به سطح بعدی ژنرال نزدیکید"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOn",
+  "text": "اضافه‌بار اکنون روشن است"
+ },
+ {
+  "label": "TOOLTIP:TooltipNukeReactorOverChargeIsOff",
+  "text": "اضافه‌بار اکنون خاموش است"
+ },
+ {
+  "label": "GUI:ESRB_Top",
+  "text": "اطلاعیه ESRB:"
+ },
+ {
+  "label": "GUI:ESRB_Bottom",
+  "text": "تجربه بازی ممکن است\nدر بازی آنلاین تغییر کند"
+ },
+ {
+  "label": "GUI:ReplaySaved",
+  "text": "بازپخش ذخیره شد"
+ },
+ {
+  "label": "OBJECT:Monument",
+  "text": "بنای یادبود"
+ },
+ {
+  "label": "TOOLTIP:TooltipNotEnoughMoneyToBuild",
+  "text": "پول کافی نیست"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotPurchaseBecauseQueueFull",
+  "text": "صف ساخت پر است"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseParkingFull",
+  "text": "فرودگاه پر است"
+ },
+ {
+  "label": "TOOLTIP:TooltipCannotBuildUnitBecauseMaximumNumber",
+  "text": "یگان از قبل وجود دارد"
+ },
+ {
+  "label": "GUI:SocketError",
+  "text": "ارتباط با شبکه ناموفق بود، اتصال خود را بررسی کنید"
+ },
+ {
+  "label": "GUI:NetworkError",
+  "text": "خطای شبکه"
+ },
+ {
+  "label": "GUI:BuddiesTab",
+  "text": "دوستان"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorOfficersClub",
+  "text": "نشان باشگاه افسران\nعضو بنیان‌گذار جامعه Generals"
+ },
+ {
+  "label": "GUI:CreateFormationDescription",
+  "text": "ساخت آرایشی از یگان‌های انتخاب‌شده که هنگام حرکت حفظش می‌کنند"
+ },
+ {
+  "label": "GUI:ScatterDescription",
+  "text": "پراکنده کردن شیء (اشیای) انتخاب‌شده"
+ },
+ {
+  "label": "OBJECT:TrainWreckBridge",
+  "text": "پل قطار واژگون"
+ },
+ {
+  "label": "MAP:BarrenBadlands",
+  "text": "Barren Badlands"
+ },
+ {
+  "label": "MAP:CraterCanyon",
+  "text": "Crater Canyon"
+ },
+ {
+  "label": "MAP:DustDevil",
+  "text": "Dust Devil"
+ },
+ {
+  "label": "MAP:EasternEverglades",
+  "text": "Eastern Everglades"
+ },
+ {
+  "label": "MAP:ForgottenForest",
+  "text": "Forgotten Forest"
+ },
+ {
+  "label": "MAP:InterstateInferno",
+  "text": "Interstate Inferno"
+ },
+ {
+  "label": "MAP:MountainMayhem",
+  "text": "Mountain Mayhem"
+ }
+]

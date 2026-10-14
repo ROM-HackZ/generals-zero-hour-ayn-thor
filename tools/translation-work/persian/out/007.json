@@ -1,0 +1,802 @@
+[
+ {
+  "label": "OBJECT:NukeLauncher",
+  "text": "توپ هسته‌ای"
+ },
+ {
+  "label": "OBJECT:ParticleCannon",
+  "text": "توپ ذره‌ای"
+ },
+ {
+  "label": "OBJECT:OakTree",
+  "text": "درخت"
+ },
+ {
+  "label": "OBJECT:Office",
+  "text": "دفتر"
+ },
+ {
+  "label": "OBJECT:OilDepot",
+  "text": "انبار نفت"
+ },
+ {
+  "label": "OBJECT:OilRefinery",
+  "text": "پالایشگاه نفت"
+ },
+ {
+  "label": "OBJECT:OilTank",
+  "text": "مخزن نفت"
+ },
+ {
+  "label": "OBJECT:OldWoodenTelephonePole",
+  "text": "تیر تلفن"
+ },
+ {
+  "label": "OBJECT:Outpost",
+  "text": "پاسگاه"
+ },
+ {
+  "label": "OBJECT:Overlord",
+  "text": "اورلورد"
+ },
+ {
+  "label": "OBJECT:Palace",
+  "text": "کاخ"
+ },
+ {
+  "label": "OBJECT:PalmTree",
+  "text": "درخت"
+ },
+ {
+  "label": "OBJECT:ParkBench",
+  "text": "نیمکت پارک"
+ },
+ {
+  "label": "OBJECT:ParkGazebo",
+  "text": "آلاچیق پارک"
+ },
+ {
+  "label": "OBJECT:ParkPavillion",
+  "text": "سایبان پارک"
+ },
+ {
+  "label": "OBJECT:ParkingGarage",
+  "text": "پارکینگ طبقاتی"
+ },
+ {
+  "label": "OBJECT:ParkingMeter",
+  "text": "پارکومتر"
+ },
+ {
+  "label": "OBJECT:Pathfinder",
+  "text": "پث‌فایندر"
+ },
+ {
+  "label": "OBJECT:PatriotBattery",
+  "text": "سامانه موشکی پاتریوت"
+ },
+ {
+  "label": "OBJECT:GattlingCannon",
+  "text": "توپ گاتلینگ"
+ },
+ {
+  "label": "OBJECT:PatriotMissile",
+  "text": "سامانه موشکی پاتریوت"
+ },
+ {
+  "label": "OBJECT:PhoneBooth",
+  "text": "باجه تلفن"
+ },
+ {
+  "label": "OBJECT:PineTree",
+  "text": "درخت"
+ },
+ {
+  "label": "OBJECT:PoliceCar",
+  "text": "ماشین پلیس"
+ },
+ {
+  "label": "OBJECT:Prison",
+  "text": "زندان"
+ },
+ {
+  "label": "OBJECT:PropagandaBlimp",
+  "text": "بالن تبلیغات"
+ },
+ {
+  "label": "OBJECT:PropagandaCenter",
+  "text": "مرکز تبلیغات"
+ },
+ {
+  "label": "OBJECT:Pub",
+  "text": "قهوه‌خانه"
+ },
+ {
+  "label": "OBJECT:QuadCannon",
+  "text": "توپ چهارلول"
+ },
+ {
+  "label": "OBJECT:QuonsetHut",
+  "text": "سوله"
+ },
+ {
+  "label": "OBJECT:RailTie",
+  "text": "تراورس ریل"
+ },
+ {
+  "label": "OBJECT:Ranger",
+  "text": "رنجر"
+ },
+ {
+  "label": "OBJECT:Raptor",
+  "text": "رپتور"
+ },
+ {
+  "label": "OBJECT:RaptorPilot",
+  "text": "خلبان"
+ },
+ {
+  "label": "OBJECT:Restaurant",
+  "text": "رستوران"
+ },
+ {
+  "label": "OBJECT:RetailStore",
+  "text": "فروشگاه"
+ },
+ {
+  "label": "OBJECT:RiverHouse",
+  "text": "خانه کنار رود"
+ },
+ {
+  "label": "OBJECT:RoadCone",
+  "text": "مخروط ترافیکی"
+ },
+ {
+  "label": "OBJECT:RocketBuggy",
+  "text": "باگی راکت‌انداز"
+ },
+ {
+  "label": "OBJECT:RadarVan",
+  "text": "ون رادار"
+ },
+ {
+  "label": "OBJECT:RocketBuggyDebris",
+  "text": "لاشه باگی راکت‌انداز"
+ },
+ {
+  "label": "OBJECT:RocketBuggyMissile",
+  "text": "موشک باگی راکت‌انداز"
+ },
+ {
+  "label": "OBJECT:TomahawkMissile",
+  "text": "موشک تاماهاک"
+ },
+ {
+  "label": "OBJECT:SCUDMissile",
+  "text": "موشک اسکاد"
+ },
+ {
+  "label": "OBJECT:RangerTeamMissile",
+  "text": "موشک تیم رنجر"
+ },
+ {
+  "label": "OBJECT:Rocks",
+  "text": "سنگ‌ها"
+ },
+ {
+  "label": "OBJECT:RopeCoil",
+  "text": "حلقه طناب"
+ },
+ {
+  "label": "OBJECT:Rubble",
+  "text": "آوار"
+ },
+ {
+  "label": "OBJECT:ColonelBurton",
+  "text": "سرهنگ برتون"
+ },
+ {
+  "label": "OBJECT:SUV",
+  "text": "شاسی‌بلند"
+ },
+ {
+  "label": "OBJECT:Schoolhouse",
+  "text": "مدرسه"
+ },
+ {
+  "label": "OBJECT:Scorpion",
+  "text": "اسکورپیون"
+ },
+ {
+  "label": "OBJECT:Marauder",
+  "text": "تانک ماراودر"
+ },
+ {
+  "label": "OBJECT:ScoutDrone",
+  "text": "پهپاد شناسایی"
+ },
+ {
+  "label": "OBJECT:SpyDrone",
+  "text": "پهپاد جاسوسی"
+ },
+ {
+  "label": "OBJECT:ScrapCar",
+  "text": "ماشین اسقاطی"
+ },
+ {
+  "label": "OBJECT:ScudLauncher",
+  "text": "پرتابگر اسکاد"
+ },
+ {
+  "label": "OBJECT:ScudStorm",
+  "text": "طوفان اسکاد"
+ },
+ {
+  "label": "OBJECT:SecretLab",
+  "text": "آزمایشگاه مخفی"
+ },
+ {
+  "label": "OBJECT:SecretPolice",
+  "text": "پلیس مخفی"
+ },
+ {
+  "label": "OBJECT:SecurityFence",
+  "text": "حصار امنیتی"
+ },
+ {
+  "label": "OBJECT:Hacker",
+  "text": "هکر"
+ },
+ {
+  "label": "OBJECT:Officer",
+  "text": "افسر"
+ },
+ {
+  "label": "OBJECT:Agent",
+  "text": "مأمور"
+ },
+ {
+  "label": "OBJECT:Sedan",
+  "text": "سدان"
+ },
+ {
+  "label": "OBJECT:SeismicTank",
+  "text": "تانک لرزه‌ای"
+ },
+ {
+  "label": "OBJECT:Shack",
+  "text": "آلونک"
+ },
+ {
+  "label": "OBJECT:ShippingContainer",
+  "text": "کانتینر حمل بار"
+ },
+ {
+  "label": "OBJECT:ShippingCrate",
+  "text": "جعبه حمل بار"
+ },
+ {
+  "label": "OBJECT:SignalLights",
+  "text": "چراغ‌های علامت"
+ },
+ {
+  "label": "OBJECT:Slide",
+  "text": "سرسره"
+ },
+ {
+  "label": "OBJECT:SovietBuilding",
+  "text": "ساختمان اداری قدیمی"
+ },
+ {
+  "label": "OBJECT:SovietGovtBuildingSmall",
+  "text": "ساختمان دولتی قدیمی"
+ },
+ {
+  "label": "OBJECT:SovietRadioBuilding",
+  "text": "ساختمان رادیوی قدیمی"
+ },
+ {
+  "label": "OBJECT:SpeakerTower",
+  "text": "برج بلندگو"
+ },
+ {
+  "label": "OBJECT:SportCar",
+  "text": "خودروی اسپرت"
+ },
+ {
+  "label": "OBJECT:Sprinkler",
+  "text": "آب‌پاش"
+ },
+ {
+  "label": "OBJECT:SpruceTree",
+  "text": "درخت"
+ },
+ {
+  "label": "OBJECT:StanTallTower",
+  "text": "برج بلند"
+ },
+ {
+  "label": "OBJECT:Starlifter",
+  "text": "استارلیفتر ۲"
+ },
+ {
+  "label": "OBJECT:StatueAngel",
+  "text": "مجسمه فرشته"
+ },
+ {
+  "label": "OBJECT:StatueLenin",
+  "text": "مجسمه"
+ },
+ {
+  "label": "OBJECT:StatueRoman",
+  "text": "مجسمه رومی"
+ },
+ {
+  "label": "OBJECT:StealthFighter",
+  "text": "جنگنده رادارگریز"
+ },
+ {
+  "label": "OBJECT:StingerSite",
+  "text": "سایت استینگر"
+ },
+ {
+  "label": "OBJECT:StoneArch",
+  "text": "طاق سنگی"
+ },
+ {
+  "label": "OBJECT:StoneWall",
+  "text": "دیوار سنگی"
+ },
+ {
+  "label": "OBJECT:PicketFence",
+  "text": "حصار چوبی"
+ },
+ {
+  "label": "OBJECT:StopLight",
+  "text": "چراغ راهنمایی"
+ },
+ {
+  "label": "OBJECT:StreetLamp",
+  "text": "چراغ خیابان"
+ },
+ {
+  "label": "OBJECT:StreetLight",
+  "text": "تیر چراغ برق"
+ },
+ {
+  "label": "OBJECT:StreetSign",
+  "text": "تابلوی خیابان"
+ },
+ {
+  "label": "OBJECT:SupplyTruck",
+  "text": "کامیون تدارکات"
+ },
+ {
+  "label": "OBJECT:SupplyWarehouse",
+  "text": "انبار تدارکات اصلی"
+ },
+ {
+  "label": "OBJECT:Swing",
+  "text": "تاب"
+ },
+ {
+  "label": "OBJECT:TVStation",
+  "text": "ایستگاه تلویزیون"
+ },
+ {
+  "label": "OBJECT:TankTrap",
+  "text": "تله تانک"
+ },
+ {
+  "label": "OBJECT:TankerTruck",
+  "text": "تانکر"
+ },
+ {
+  "label": "OBJECT:TaxiCab",
+  "text": "تاکسی"
+ },
+ {
+  "label": "OBJECT:Technical",
+  "text": "تکنیکال"
+ },
+ {
+  "label": "OBJECT:Tent",
+  "text": "چادر"
+ },
+ {
+  "label": "OBJECT:Terrorist",
+  "text": "تروریست"
+ },
+ {
+  "label": "OBJECT:Tire",
+  "text": "لاستیک"
+ },
+ {
+  "label": "OBJECT:TireObstacle",
+  "text": "مانع لاستیکی"
+ },
+ {
+  "label": "OBJECT:Tollbooth",
+  "text": "باجه عوارض"
+ },
+ {
+  "label": "OBJECT:Tomahawk",
+  "text": "تاماهاک"
+ },
+ {
+  "label": "OBJECT:TownHouse",
+  "text": "خانه شهری"
+ },
+ {
+  "label": "OBJECT:ToxinTruck",
+  "text": "تراکتور سمی"
+ },
+ {
+  "label": "OBJECT:TrashCan",
+  "text": "سطل آشغال"
+ },
+ {
+  "label": "OBJECT:TrashDumpster",
+  "text": "سطل زباله"
+ },
+ {
+  "label": "OBJECT:TrashPaper",
+  "text": "کاغذ باطله"
+ },
+ {
+  "label": "OBJECT:TrashPile",
+  "text": "تل زباله"
+ },
+ {
+  "label": "OBJECT:TreeStump",
+  "text": "کنده درخت"
+ },
+ {
+  "label": "OBJECT:TroopCrawler",
+  "text": "نفربر خزنده"
+ },
+ {
+  "label": "OBJECT:TunnelDefender",
+  "text": "سرباز آرپی‌جی"
+ },
+ {
+  "label": "OBJECT:TunnelNetwork",
+  "text": "شبکه تونل"
+ },
+ {
+  "label": "OBJECT:Cave",
+  "text": "غار"
+ },
+ {
+  "label": "OBJECT:GLAHole",
+  "text": "حفره GLA"
+ },
+ {
+  "label": "OBJECT:GLARock",
+  "text": "صخره GLA"
+ },
+ {
+  "label": "OBJECT:UNHumvee",
+  "text": "هاموی سازمان ملل"
+ },
+ {
+  "label": "OBJECT:UNSoldier",
+  "text": "سرباز سازمان ملل"
+ },
+ {
+  "label": "OBJECT:VendingMachine",
+  "text": "دستگاه فروش خودکار"
+ },
+ {
+  "label": "OBJECT:Wall",
+  "text": "دیوار"
+ },
+ {
+  "label": "OBJECT:ConcreteWall",
+  "text": "دیوار بتنی"
+ },
+ {
+  "label": "OBJECT:WatchTower",
+  "text": "برج دیده‌بانی"
+ },
+ {
+  "label": "OBJECT:WaterPlant",
+  "text": "تصفیه‌خانه آب"
+ },
+ {
+  "label": "OBJECT:WindMill",
+  "text": "آسیاب بادی"
+ },
+ {
+  "label": "OBJECT:WoodBeams",
+  "text": "تیرهای چوبی"
+ },
+ {
+  "label": "OBJECT:WoodTower",
+  "text": "برج چوبی"
+ },
+ {
+  "label": "OBJECT:WoodWall",
+  "text": "دیوار چوبی"
+ },
+ {
+  "label": "OBJECT:WoodenBarrels",
+  "text": "بشکه‌های چوبی"
+ },
+ {
+  "label": "OBJECT:Worker",
+  "text": "کارگر"
+ },
+ {
+  "label": "OBJECT:Birch",
+  "text": "درخت"
+ },
+ {
+  "label": "OBJECT:Building",
+  "text": "ساختمان"
+ },
+ {
+  "label": "OBJECT:Cathedral",
+  "text": "کلیسای جامع"
+ },
+ {
+  "label": "OBJECT:FarmHouse",
+  "text": "خانه روستایی"
+ },
+ {
+  "label": "OBJECT:Fir",
+  "text": "درخت"
+ },
+ {
+  "label": "OBJECT:Garage",
+  "text": "گاراژ"
+ },
+ {
+  "label": "OBJECT:OscarTheGrouch",
+  "text": "فروشنده قراضه"
+ },
+ {
+  "label": "OBJECT:Pilot",
+  "text": "خلبان"
+ },
+ {
+  "label": "OBJECT:Pump",
+  "text": "پمپ"
+ },
+ {
+  "label": "OBJECT:Shop",
+  "text": "مغازه"
+ },
+ {
+  "label": "OBJECT:StingerMissile",
+  "text": "موشک استینگر"
+ },
+ {
+  "label": "OBJECT:StingerSoldier",
+  "text": "سرباز استینگر"
+ },
+ {
+  "label": "OBJECT:StorageTank",
+  "text": "مخزن ذخیره"
+ },
+ {
+  "label": "OBJECT:Well",
+  "text": "چاه"
+ },
+ {
+  "label": "OBJECT:WineVat",
+  "text": "خمره"
+ },
+ {
+  "label": "OBJECT:GenericMale",
+  "text": "غیرنظامی"
+ },
+ {
+  "label": "OBJECT:GenericFemale",
+  "text": "غیرنظامی"
+ },
+ {
+  "label": "OBJECT:MogadishuFemaleCivilian",
+  "text": "غیرنظامی"
+ },
+ {
+  "label": "OBJECT:MogadishuMaleCivilian",
+  "text": "غیرنظامی"
+ },
+ {
+  "label": "OBJECT:Crane",
+  "text": "جرثقیل"
+ },
+ {
+  "label": "OBJECT:OceanCenter",
+  "text": "مرکز همایش‌ها"
+ },
+ {
+  "label": "OBJECT:SoccerStadium",
+  "text": "ورزشگاه فوتبال"
+ },
+ {
+  "label": "OBJECT:Ambulance",
+  "text": "آمبولانس"
+ },
+ {
+  "label": "OBJECT:AsianCar",
+  "text": "خودرو"
+ },
+ {
+  "label": "OBJECT:Backhoe",
+  "text": "بیل مکانیکی"
+ },
+ {
+  "label": "OBJECT:LargeForklift",
+  "text": "لیفتراک بزرگ"
+ },
+ {
+  "label": "OBJECT:SmallForklift",
+  "text": "لیفتراک"
+ },
+ {
+  "label": "OBJECT:CropDuster",
+  "text": "هواپیمای سم‌پاش"
+ },
+ {
+  "label": "OBJECT:Cessna",
+  "text": "هواپیما"
+ },
+ {
+  "label": "OBJECT:ChickenTruck",
+  "text": "کامیون مرغ"
+ },
+ {
+  "label": "OBJECT:Combine",
+  "text": "کمباین"
+ },
+ {
+  "label": "OBJECT:Eurovan",
+  "text": "ون"
+ },
+ {
+  "label": "OBJECT:EuroPoliceVan",
+  "text": "ون پلیس"
+ },
+ {
+  "label": "OBJECT:Firetruck",
+  "text": "ماشین آتش‌نشانی"
+ },
+ {
+  "label": "OBJECT:FarmerTruck",
+  "text": "وانت کشاورز"
+ },
+ {
+  "label": "OBJECT:AsianFishingBoat",
+  "text": "قایق ماهیگیری"
+ },
+ {
+  "label": "OBJECT:TourBus",
+  "text": "اتوبوس توریستی"
+ },
+ {
+  "label": "OBJECT:FishingTrowler",
+  "text": "کشتی صیادی"
+ },
+ {
+  "label": "OBJECT:WorkTruck",
+  "text": "کامیون کار"
+ },
+ {
+  "label": "OBJECT:TugBoat",
+  "text": "یدک‌کش"
+ },
+ {
+  "label": "OBJECT:BioHazardTech",
+  "text": "تکنسین خطر زیستی"
+ },
+ {
+  "label": "OBJECT:MilitiaTank",
+  "text": "تانک شبه‌نظامی"
+ },
+ {
+  "label": "Network:PlayerDisconnected",
+  "text": "اتصال %s قطع شد"
+ },
+ {
+  "label": "Network:PlayerLeftGame",
+  "text": "%s بازی را ترک کرد"
+ },
+ {
+  "label": "Network:Vote",
+  "text": "رأی"
+ },
+ {
+  "label": "Network:QuitGame",
+  "text": "ترک بازی"
+ },
+ {
+  "label": "MAP:AlpineAssault",
+  "text": "Alpine Assault"
+ },
+ {
+  "label": "MAP:AustrianAmbush",
+  "text": "Market Garden"
+ },
+ {
+  "label": "MAP:Badlands",
+  "text": "Desert Fury"
+ },
+ {
+  "label": "MAP:BridgeBusters",
+  "text": "Iron Dragon"
+ },
+ {
+  "label": "MAP:KashmarKlash",
+  "text": "Wasteland Warlords"
+ },
+ {
+  "label": "MAP:Oasis",
+  "text": "Golden Oasis"
+ },
+ {
+  "label": "MAP:ScorchedEarth",
+  "text": "Scorched Earth"
+ },
+ {
+  "label": "MAP:SleepyHollow",
+  "text": "Heartland Shield"
+ },
+ {
+  "label": "MAP:SmalltownUSA",
+  "text": "Homeland Alliance"
+ },
+ {
+  "label": "MAP:TampicoTrauma",
+  "text": "Silent River"
+ },
+ {
+  "label": "MAP:WoodcrestCircle",
+  "text": "Final Crusader"
+ },
+ {
+  "label": "MAP:XinjiangBang",
+  "text": "Winter Wolf"
+ },
+ {
+  "label": "Audio:Speakers0",
+  "text": "۲ بلندگو"
+ },
+ {
+  "label": "Audio:Speakers1",
+  "text": "هدفون"
+ },
+ {
+  "label": "Audio:Speakers2",
+  "text": "صدای فراگیر"
+ },
+ {
+  "label": "Audio:Speakers3",
+  "text": "۴ بلندگو"
+ },
+ {
+  "label": "Audio:Speakers4",
+  "text": "صدای فراگیر ۵.۱"
+ },
+ {
+  "label": "Audio:Speakers5",
+  "text": "صدای فراگیر ۷.۱"
+ },
+ {
+  "label": "MAP:CHI01ObjectiveText",
+  "text": "هدف مأموریت\nانبار کلاهک‌های هسته‌ای را نابود کنید"
+ },
+ {
+  "label": "MAP:CHI02Open",
+  "text": "هنگ کنگ، چین\nبحران هنگ کنگ"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder01",
+  "text": "<گارد سرخ صحبت می‌کند>\n'ژنرال، ما تنها بازماندگان نیروی حمله‌ایم! باید یک مرکز فرماندهی بسازیم و رادار را راه بیندازیم تا دستورهای تازه بگیریم'"
+ },
+ {
+  "label": "SCRIPT:CHI02AudioHolder02",
+  "text": "<گارد سرخ صحبت می‌کند>\n'ژنرال، اگر رادار را راه نیندازیم نمی‌توانیم از موقعیت دشمن خبر بگیریم. آن رادار را لازم داریم'"
+ }
+]

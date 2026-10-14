@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA090Subtitle",
+  "text": "*حس می‌کنم زمان نابودی‌ات نزدیک می‌شود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA091Subtitle",
+  "text": "*نیروهایت دارند زیر دست و پا می‌روند، ژنرال. به‌زودی اسیر من می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA092Subtitle",
+  "text": "*مثل بزی زخمی لگدمالت می‌کنیم، ژنرال. شکست را بپذیر تا از عذاب خلاص شوی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA093Subtitle",
+  "text": "*شکست خوردی. این سرنوشت همه کسانی است که در برابرم می‌ایستند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA094Subtitle",
+  "text": "*احمقی که به چالشم کشیدی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA095Subtitle",
+  "text": "*همه قدرت‌های GLA در اختیار من است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA096Subtitle",
+  "text": "*من از هر سه ژنرالم با هم خطرناک‌ترم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA097Subtitle",
+  "text": "*تو بردی، ژنرال. چرا با بررسی این آمار به شکنجه‌ام ادامه می‌دهی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA098Subtitle",
+  "text": "*بله، حالا می‌بینی چرا باختی... اعداد خودشان گویا هستند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA099Subtitle",
+  "text": "*راه درازی آمدی و با حریفان بسیاری جنگیدی تا به من برسی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA100Subtitle",
+  "text": "*تلاشت را می‌ستایم، ولی هیچ‌کدام تو را برای آنچه در پیش داری آماده نکرده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA101Subtitle",
+  "text": "*با جنگجویان سمی دکتر تراکس، لشکرهای پنهان‌کار قصاد و انفجارهای جوزیز روبه‌رو شدی، ولی هنر جنگ را من به همه‌شان یاد دادم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA102Subtitle",
+  "text": "*این آخرین نبرد توست، ژنرال. هر خدایی را که می‌پرستی، امیدوارم به تو رحم کند... چون من نمی‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossGLA103Subtitle",
+  "text": "*این آخرین نبرد توست، ژنرال. با خودت آشتی کن و برای پایان آماده شو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA001Subtitle",
+  "text": "*خب، پیدات شد. دیگه برای فرار دیره، پسر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA002Subtitle",
+  "text": "*امیدوارم آماده باشی، چون داریم میایم سراغت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA003Subtitle",
+  "text": "*سفره رو بنداز، بچه‌جون، که داریم میایم شام"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA004Subtitle",
+  "text": "*سه چیز می‌خوام یادت بدم، بچه: چطور ببازی؛ چطور گریه کنی؛ و چطور بمیری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA005Subtitle",
+  "text": "*به‌زودی حمله می‌کنیم، پس همه پرچم‌های سفیدت رو دربیار"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA006Subtitle",
+  "text": "*اومدیم، بچه... سعی کن خودتو خیس نکنی، باشه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA007Subtitle",
+  "text": "*کجای «بمیر» رو نفهمیدی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA008Subtitle",
+  "text": "*اوه، حالا حسابی می‌خوری، بچه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA009Subtitle",
+  "text": "*آماده‌ای؟ چون الان یه تاکتیک میاد که شاید تو مدرسه یاد گرفته باشی. آماده‌ای برگردی مدرسه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA010Subtitle",
+  "text": "*وقتشه یکی‌دو تا چیز درباره پشت دستم یادت بدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA011Subtitle",
+  "text": "*وقتی فرصت داشتی باید فرار می‌کردی. حالا می‌خوام معنی احترام رو یادت بدم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA012Subtitle",
+  "text": "*خب، درباره مراسم خاکسپاری‌ت... تابوت باز باشه یا بسته؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA013Subtitle",
+  "text": "*می‌خوام بیام تو پایگاهت و یه لگد محکم بزنم به ماتحتت، «ژنرال»."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA014Subtitle",
+  "text": "*اومدیم، جوجه... یا کنار برو یا له می‌شی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA015Subtitle",
+  "text": "*به خودت می‌گی «ژنرال»؟ من بهت می‌گم دردسر، همینو می‌گم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA016Subtitle",
+  "text": "*اسم این استراتژیه؟ تاکتیکه؟ «کپه تانک» بهترین چیزیه که به فکرت رسید؟ رقت‌انگیزه... واقعاً رقت‌انگیز"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA017Subtitle",
+  "text": "*آره، منم سون تزو خوندم، رفیق: «دشمن بزرگ‌تر... عقب‌نشینی. دشمن کوچک‌تر... حمله.» همه‌ش همینو داری؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA018Subtitle",
+  "text": "*خب، ارتشت کو، پسر؟ یا فقط می‌خواستی با مشت خالی بیای؟ چون اگه بخوای با دست خالی می‌خوابونمت. یه دست از اونو می‌خوای، پسر؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA019Subtitle",
+  "text": "*به‌خاطر این از رختخواب کشیدیم بیرون؟ باید همین الان بخوابونمت رو زانوم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA020Subtitle",
+  "text": "*من از دندونای تو بیشتر مدال دارم، پسر... که بعد از اینکه دندوناتو خورد کردم زیاد هم نمی‌شه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA021Subtitle",
+  "text": "*همه دفاعاتو گذاشتی جلوی پایگاهت؟ فکر نمی‌کنی بتونیم دورش بزنیم؟ خب، فکر می‌کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA022Subtitle",
+  "text": "*پسر، فکر کردی دارم باهات بازی می‌کنم؟ بهتره دوباره فکر کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA023Subtitle",
+  "text": "*بهتره جناحاتو یه نگاه بندازی، رفیق؛ فکر کنم چند تا از نیروهام همین الان یواشکی رفتن تو پایگاهت"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA024Subtitle",
+  "text": "*فکر می‌کنی این بازیه؟ خب، فکر می‌کنی؟ صبر کن، جواب نده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA025Subtitle",
+  "text": "*بچه، کی بهت تاکتیک نظامی یاد داده؟ هان؟ چون باید بری یه سیلی درست بزنی تو دهنش، بهت بگم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA026Subtitle",
+  "text": "*کل ارتش آمریکا پشت منه، پسرم، و همین الان تصمیم گرفتیم از تو خوشمون نمیاد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA027Subtitle",
+  "text": "*این تاکتیکت قراره یه جور شوخی باشه که من ازش خبر ندارم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA028Subtitle",
+  "text": "*خب، تو ژنرال واقعی نیستی، نه؟ از اون مدیرکل‌هایی، مثلاً مدیرکل بهداشت یا یه چیزی تو همین مایه‌ها، درسته؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA029Subtitle",
+  "text": "*مامانت می‌دونه تنهایی اومدی بیرون؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA030Subtitle",
+  "text": "*به من بگو... اینجا فقط خودمون ژنرالاییم. افرادت می‌دونن بی‌عرضه‌ای؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA031Subtitle",
+  "text": "*می‌دونستی همین الان یه ساختمان فناوری از دست دادی، رفیق؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA032Subtitle",
+  "text": "*همین الان سربازخونه‌تو ترکوندم، جوجه. می‌خوای چیکار کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA033Subtitle",
+  "text": "*اینم از کارخونه جنگت. هنوز عصبانی نشدی، پسر؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA034Subtitle",
+  "text": "*نمی‌دونم چرا زحمت ساختن اون فرودگاه رو کشیدی وقتی نمی‌خوای ازش محافظت کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA035Subtitle",
+  "text": "*کی این دفاعای پایگاه رو این‌جوری چیده؟ این‌جوری از هیچی دفاع نمی‌کنن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA036Subtitle",
+  "text": "*باید بذارم یه مرکز فرماندهی دیگه بسازی فقط که دوباره خرابش کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA037Subtitle",
+  "text": "*حس می‌کنم دارم قلعه‌های شنی رو لگد می‌کنم. چند تا دیگه از ساختمونات رو می‌ذاری خراب کنم، رفیق؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA038Subtitle",
+  "text": "*اون ساختمان فناوری رو خودم گذاشتم مال تو باشه، پسر. برای شکست دادنت لازمش ندارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA039Subtitle",
+  "text": "*بچه، اون سربازخونه هدف نظامی نبود. یه بار دیگه این کارو بکنی اوضاع زشت می‌شه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA040Subtitle",
+  "text": "*بهتره کوتاه بیای، پسرم... اجازه نمی‌دم کارخونه‌های جنگمو بترکونی، شنیدی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA041Subtitle",
+  "text": "*می‌دونی اون جت‌ها چقدر خرج برمی‌دارن؟ با چیزی که الان نابود کردی می‌تونستم کل دنیا رو سیر کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA042Subtitle",
+  "text": "*دفاعامو می‌شکنی، هان؟ خب، ادامه بده... همین‌قدر وقت بهم می‌ده که پایگاهتو زیر و رو کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA043Subtitle",
+  "text": "*دیگه بسه ساختمون، پسرم. چرا یه بار به نیروهام حمله نمی‌کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA044Subtitle",
+  "text": "*مرکز فرماندهی من؟! فکر کردی همین‌جا می‌شینم و تحمل می‌کنم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA045Subtitle",
+  "text": "*بهتره کاری به خلبانام نداشته باشی، پسر. هواپیما یه چیزه، ولی می‌ذاری خلبانام سالم برگردن، شنیدی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA046Subtitle",
+  "text": "*تو یه ناقلای کوچولویی، نه؟ ولی فکر کنم به اندازه کافی از خودروهامو نابود کردی، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA047Subtitle",
+  "text": "*زره و پشتیبانی هوایی بفرستید اون‌جا... پیاده‌هامون دارن تیکه‌پاره می‌شن!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA048Subtitle",
+  "text": "*اون دکل نفت رو ول کن، پسر. این جنگ سر قیمت بنزین نیست، می‌دونی که"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA049Subtitle",
+  "text": "*فکر می‌کنی بلدی با اون سکوی توپخونه کار کنی، پسرم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA050Subtitle",
+  "text": "*اون پالایشگاه نفت هدف مناسبی نیست، پسرم. مال تو هم نیست، پس داریم میایم پسش بگیریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA051Subtitle",
+  "text": "*خب، تونستی خودتو برسونی این طرف نقشه. فکر نمی‌کردم عرضه‌شو داشته باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA052Subtitle",
+  "text": "*می‌خوای حمله کنی یا فقط می‌خوای تمام روز اون‌جا وایسی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA053Subtitle",
+  "text": "*اگه صلاح خودتو می‌خوای از پایگاهم برو بیرون، پسر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA054Subtitle",
+  "text": "*دشمن تو محدوده‌مونه... همه نیروها مهاجما رو عقب برونن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA055Subtitle",
+  "text": "*اون تدارکات مال تو نیست، رفیق. بهتره تا آسیب ندیدی بزنی به چاک"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA056Subtitle",
+  "text": "*حمله از جناح؟! منو نخندون، پسر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA057Subtitle",
+  "text": "*می‌خوای از در پشتی حمله کنی؟ موفق باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA058Subtitle",
+  "text": "*داری میای به من حمله کنی، پسر؟ خوبه که یه کم جربزه داری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA059Subtitle",
+  "text": "*اگه صلاح خودتو می‌خوای از ساختمونای فناوری من دور شو"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA060Subtitle",
+  "text": "*نیروهام پایگاهتو زیر نظر دارن، بچه. حالا می‌خوای چیکار کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA061Subtitle",
+  "text": "*پتک داره میاد، جوجه، و تو نمی‌خوای میخ باشی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA062Subtitle",
+  "text": "*تق تق! داریم میایم تو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA063Subtitle",
+  "text": "*اوضاع داره برات خیلی خراب می‌شه، رفیق. نگی بهت هشدار ندادم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA064Subtitle",
+  "text": "*خب، پس منابعتو این‌جا قایم کردی. اشکالی نداره چند تاشو بردارم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA065Subtitle",
+  "text": "*جناحت کاملاً بازه، رفیق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA066Subtitle",
+  "text": "*شاید از در پشتی بیایم تو. نظرت چیه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA067Subtitle",
+  "text": "*حواست باشه، داریم از در جلو میایم تو!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA068Subtitle",
+  "text": "*این‌جا چی داریم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA069Subtitle",
+  "text": "*به‌به، اینو ببین"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA070Subtitle",
+  "text": "*بدون برق می‌خواستی چیکار کنی؟ برای دیدن این استراتژی لحظه‌شماری می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA071Subtitle",
+  "text": "*بهتره قبض برقتو بدی وگرنه مجبوریم این دعوا رو بندازیم عقب"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA072Subtitle",
+  "text": "*منابعت ته کشید؟ پسر، وقتی پول مطرب رو نداری مجلس رقص راه ننداز"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA073Subtitle",
+  "text": "*اوه‌اوه، مثل اینکه باید یه کم کسری بودجه بالا بیاریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA074Subtitle",
+  "text": "*واسه خودت طوفان اسکاد ساختی؟ با اسکاد حتی در طویله رو هم نمی‌تونی بزنی، اینو نمی‌دونستی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA075Subtitle",
+  "text": "*سلاح هسته‌ای‌تو آوردی بیرون، هان؟ اگه واشنگتن دستمو نبسته بود، بهت نشون می‌دادم سلاح هسته‌ای یعنی چی، بهت بگم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA076Subtitle",
+  "text": "*توپ ذره‌ای از کجا آوردی، پسرم؟ اون قرار بود فوق‌سری باشه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA077Subtitle",
+  "text": "*این همه دفاع پایگاه. بوی ترس رو از این‌جا حس می‌کنم، پسر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA078Subtitle",
+  "text": "*اوه، اینو ببین... کپه تانک داره میاد. رو من اثر نداره، پسرم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA079Subtitle",
+  "text": "*هواپیماهای گرون زیادی داری می‌فرستی هوا، بچه. مطمئنی می‌خوای این پولو خرج کنی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA080Subtitle",
+  "text": "*امیدوارم این پیاده‌ها بدونن داری تو چه دردسری میندازیشون"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA081Subtitle",
+  "text": "*ساختمون زیادی داری، پسرم. می‌دونی که ساختمونا نمی‌تونن جای تو بجنگن، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA082Subtitle",
+  "text": "*اسکادا رو بیار، جوجه... من طوفان واقعی رو نشونت می‌دم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA083Subtitle",
+  "text": "*از اینکه منو با بمب اتم زدی پشیمون می‌شی، بچه. از این کار اصلاً خوشم نمیاد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA084Subtitle",
+  "text": "*از پرتو ذره‌ای استفاده می‌کنی، هان؟ بهتره با همون کارمو تموم کنی چون از ضدحمله‌م خوشت نمیاد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA085Subtitle",
+  "text": "*می‌دونی، فقط ترسوها از توی ساختمون می‌جنگن. اینو می‌دونی، نه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA086Subtitle",
+  "text": "*خوش اومدی، سرهنگ برتون. متأسفم که پات به این ماجرا باز شد. به دل نگیر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA087Subtitle",
+  "text": "*نیلوفر سیاه نجات‌دهنده‌ت نیست، پسر. حتی نزدیک پایگاهم هم نمی‌تونه بیاد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA088Subtitle",
+  "text": "*جارمن کل فقط یه تک‌تیرانداز دیگه‌ست، جوجه. من ده‌ها تک‌تیرانداز دارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA089Subtitle",
+  "text": "*آره، فرودگاهتو بساز... چند تا پرنده بفرست هوا. شاید تنها شانست برای متوقف کردن من باشه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA090Subtitle",
+  "text": "*فقط یه کارخونه جنگ؟ دست‌کم نیم‌دوجین لازمه تا جلوی منو بگیری، بچه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA091Subtitle",
+  "text": "*این سربازخونه یه کم زیادی نزدیک خط مقدم نیست، بچه؟ با گلوله تو آسایشگاه سخت می‌شه خوابید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA092Subtitle",
+  "text": "*فقط یه ساختمون رو نفروش، پسر... همه‌شونو بفروش و دعا کن که به‌هرحال سراغت نیام"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA093Subtitle",
+  "text": "*زیادی به خودت غره نشو، پسر... هنوز تموم نشده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA094Subtitle",
+  "text": "*شاید فکر کنی دستت بالاست، ولی هنوز چند تا کلک تو آستینم دارم. می‌بینی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA095Subtitle",
+  "text": "*من از چاله‌های بدتر از این خودمو بیرون کشیدم، جوجه. به این آسونی نمی‌بری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA096Subtitle",
+  "text": "*فکر می‌کنی داری شکستم می‌دی؟ بهتره دوباره فکر کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA097Subtitle",
+  "text": "*هه... فکر کنم تموم شد. کارت خوب بود، بچه. فکر کنم یکی‌دو پله آوردیم پایین"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA098Subtitle",
+  "text": "*حس می‌کنی مشتم داره دور گردنت بسته می‌شه، جوجه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA099Subtitle",
+  "text": "*باختن به من رو زیاد سخت نگیر... همه به من می‌بازن، بچه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA100Subtitle",
+  "text": "*یه لحظه بهم وقت بده چند تا تانک جمع کنم تا این زدوخورد کوچیک رو تموم کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA101Subtitle",
+  "text": "*چرا همین حالا تسلیم نمی‌شی، «ژنرال»."
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA102Subtitle",
+  "text": "*پسر، مثل یه طبل کهنه کوبیدمت. کی بهت فرماندهی داده؟ چون چند کلمه حرف باهاشون دارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA103Subtitle",
+  "text": "*اگه جدی نیستی اون دکمه رو نزن، پسر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA104Subtitle",
+  "text": "*می‌خوای با من درگیر شی؟ فکر کنم بهتره دوباره فکر کنی، بچه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA105Subtitle",
+  "text": "*اگه نمی‌تونی از پسش بربیای این ادا اطوار رو این‌جا نیار، جوجه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA106Subtitle",
+  "text": "*ببینم چی داری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA107Subtitle",
+  "text": "*شاید بتونی با واکس زدن پوتینام چندرغاز دربیاری، چون مطمئناً ژنرال نیستی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA108Subtitle",
+  "text": "*کارت عالی بود، ژنرال. بهت ادای احترام می‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_BossUSA109Subtitle",
+  "text": "*نمی‌خوام سخنرانی کنم، پس بیا شروع کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo001Subtitle",
+  "text": "*چند تا غافلگیری برایت دارم، ژنرال. چرا نمی‌آیی بیرون بازی کنیم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo002Subtitle",
+  "text": "*حالا که میدان پر از مواد منفجره شده، به گمانم حمله می‌کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo003Subtitle",
+  "text": "*ژنرال، یک بسته برایت دارم... امضایش می‌کنی دیگر؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo004Subtitle",
+  "text": "*مراقب باش، کسی چه می‌داند جارمن کل کی یواشکی وارد پایگاهت می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo005Subtitle",
+  "text": "*ساختمانت همین حالا منفجر شد؟ هوم... نمی‌دانم چطور چنین اتفاقی افتاد؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo006Subtitle",
+  "text": "*همه نیروهایم پر از مواد منفجره‌اند، ژنرال. اگر جای تو بودم به آن‌ها شلیک نمی‌کردم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo007Subtitle",
+  "text": "*تروریست‌هایم یاد گرفته‌اند خودشان را به شکل... اوه، زیادی حرف زدم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo008Subtitle",
+  "text": "*شاید متوجه شده باشی مواد منفجره‌ام کمی قوی‌تر شده‌اند... امیدوارم توجه ما به کیفیت را قدر بدانی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo009Subtitle",
+  "text": "*ببین پرتابگر اسکاد حالا چه سریع یک ساختمان را نابود می‌کند... صبر کن، معرکه است"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo010Subtitle",
+  "text": "*اول، سکوت مطلق... بعد «بوم!»... آه... عاشقش نیستی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo011Subtitle",
+  "text": "*من به‌ندرت حمله می‌کنم، باید احساس افتخار کنی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo012Subtitle",
+  "text": "*یک حمله دیگر در راه است، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo013Subtitle",
+  "text": "*نیروهایم برای یورش به پایگاهت می‌آیند... حسابی تحویلشان بگیر"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo014Subtitle",
+  "text": "*لطفاً به کارگرانم توجه نکن، ژنرال؛ فقط دارند کمی... اوم... زباله برایم دفن می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo015Subtitle",
+  "text": "*اوه، ژنرال، باید این را ببینی... این دیگر بمب است. <خنده کودکانه>"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo016Subtitle",
+  "text": "*می‌رویم مواد منفجره بیشتری بیاوریم، ژنرال. زود برمی‌گردیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo017Subtitle",
+  "text": "*بیرون ساکت است، ژنرال. می‌دانی سکوت یعنی چه، نه؟ بوووم!!!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo018Subtitle",
+  "text": "*من استاد مواد منفجره‌ام، ژنرال. هیچ دفاعی در برابر من نداری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo019Subtitle",
+  "text": "*پایگاهت برای تخریب هدف‌گیری شده"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo020Subtitle",
+  "text": "*از حمله بعدی‌ام می‌ترسی، ژنرال؟ باید بترسی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo021Subtitle",
+  "text": "*همین حالا که حرف می‌زنیم مأمورانم یواشکی وارد پایگاهت می‌شوند و مواد منفجره کار می‌گذارند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo022Subtitle",
+  "text": "*ساختمانت شاید همین حالا سیم‌کشی انفجاری شده باشد. تا دیر نشده هرگز نمی‌فهمی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo023Subtitle",
+  "text": "*یگان‌های کمی می‌توانند تخریب‌های مرا شناسایی کنند... می‌دانی کدام‌ها هستند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo024Subtitle",
+  "text": "*ساختن تله‌های انفجاری سخت است، ژنرال. برای درک زیبایی‌شان باید یکی را از نزدیک ببینی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo025Subtitle",
+  "text": "*تا حالا از کلک‌ها و تله‌هایم لذت برده‌ای؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo026Subtitle",
+  "text": "*آخی... ساختمان فناوری‌ات بوم شد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo027Subtitle",
+  "text": "*سربازخانه‌ات را نابود کردیم... امیدوارم کسی داخلش نبوده باشد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo028Subtitle",
+  "text": "*کارخانه جنگت فرو ریخت، ژنرال. یکی دیگر بساز تا دوباره خرابش کنیم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo029Subtitle",
+  "text": "*فرودگاه‌ها خیلی شکننده‌اند... نابود کردنشان اصلاً لطفی ندارد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo030Subtitle",
+  "text": "*دفاع‌های پایگاهت تاب مواد منفجره‌ام را ندارند، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo031Subtitle",
+  "text": "*آه، هیچ چیز مثل نابود کردن یک مرکز فرماندهی نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo032Subtitle",
+  "text": "*این همه از ساختمان‌هایت را نابود کردیم، ژنرال... ممنون که برای سرگرمی ما بیشتر می‌سازی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo033Subtitle",
+  "text": "*دکل نفتمان را نابود کردی. حالا داری وارد حال و هوای کار می‌شوی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo034Subtitle",
+  "text": "*سربازخانه‌ام! خیلی از تخریبگرانم آنجا بودند، ژنرال. تاوانش را از تو می‌گیرم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo035Subtitle",
+  "text": "*نه کارخانه جنگم! ژنرال، این عادت آزاردهنده‌ای که پیدا کرده‌ای نباید ادامه پیدا کند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo036Subtitle",
+  "text": "*نگران نباش، دفاع‌های پایگاهم فقط هشدار زودهنگام بودند. حالا باید از میان دفاع‌های واقعی‌ام بگذری"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo037Subtitle",
+  "text": "*زیادی شد! زیادی از سازه‌هایم را نابود کردی، ژنرال. حالا جنگ کثیف می‌شود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo038Subtitle",
+  "text": "*آن مرکز فرماندهی را دوباره می‌سازیم، ژنرال، و تو تاوان این تجاوز را می‌دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo039Subtitle",
+  "text": "*ژنرال، اگر مدام خودروهایم را نابود کنی چطور انتظار داری شکستت بدهم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo040Subtitle",
+  "text": "*مردانم را پیش از آنکه بتوانند مواد منفجره‌شان را کار بگذارند درو می‌کنی... این درست به نظر نمی‌رسد، نه، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo041Subtitle",
+  "text": "*آه بله، آن دکل نفت را تصرف کن، ژنرال. آن‌وقت چیز بیشتری برای نابود کردن داریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo042Subtitle",
+  "text": "*ژنرال، آن سکوی توپخانه را برای چه می‌خواهی؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo043Subtitle",
+  "text": "*خوب است، ژنرال، پالایشگاه نفت را تصرف کن... خیلی نمایشی منفجر می‌شوند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo044Subtitle",
+  "text": "*مراقب باش، ژنرال... مردانت همین حالا وارد منطقه خطر اطراف پایگاهم شدند. حتی خودم هم یادم نیست همه تله‌ها را کجا کار گذاشته‌ام"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo045Subtitle",
+  "text": "*ژنرال، مردانت به‌طرز خطرناکی به پایگاهم نزدیک می‌شوند. اگر جای تو بودم برمی‌گشتم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo046Subtitle",
+  "text": "*از پایگاهم برو بیرون، ژنرال. کل این منطقه با مواد منفجره سیم‌کشی شده و از استفاده‌شان ترسی ندارم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo047Subtitle",
+  "text": "*احمق! می‌دانی همین حالا چقدر مواد منفجره دور مردانت را گرفته؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo048Subtitle",
+  "text": "*حمله از جناح، ژنرال؟ شاید دفاع آنجا کم باشد، ولی تله‌ها چه؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo049Subtitle",
+  "text": "*پشت پایگاهم به‌خصوص بدقلق است، ژنرال. حمله از آنجا را توصیه نمی‌کنم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo050Subtitle",
+  "text": "*حمله از روبه‌رو؟! از آنچه فکر می‌کردم احمق‌تری، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo051Subtitle",
+  "text": "*در این دره جز مرگ چیزی برایت نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo052Subtitle",
+  "text": "*مراقب باش، ژنرال؛ این‌جا جای خوبی برای کمین به نظر می‌رسد... اوه، دیر شد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo053Subtitle",
+  "text": "*فکر کردی برای آمدنت به این‌جا آماده نشده بودم، ژنرال؟ احمق"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo054Subtitle",
+  "text": "*آن‌ها منابع من‌اند، ژنرال. برو منابع خودت را پیدا کن"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo055Subtitle",
+  "text": "*ژنرال، وارد انبار مواد تخریبی من شدی. یک حرکت اشتباه و همه‌مان می‌میریم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo056Subtitle",
+  "text": "*آه، می‌بینم یکی از خطوط برقت را زدیم. امیدوارم برقت زیاد قطع نماند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo057Subtitle",
+  "text": "*وابستگی‌ات به برق باعث نابودی‌ات می‌شود، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo058Subtitle",
+  "text": "*منابعت ته کشیده، ژنرال. نیروهایم برای ضربه نهایی دورت حلقه زده‌اند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo059Subtitle",
+  "text": "*منابعم کم است، ژنرال. اشکالی ندارد بیاییم کمی از مال تو برداریم؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo060Subtitle",
+  "text": "*طوفان اسکاد... که این‌طور... خب، شاید وقتش رسیده خودم هم یکی بسازم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo061Subtitle",
+  "text": "*نمی‌دانم برای نابود کردن آن سیلوی هسته‌ای چقدر مواد منفجره لازم است؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo062Subtitle",
+  "text": "*حالا چرا می‌خواهی توپ ذره‌ای بسازی؟ تازه داشت به ما خوش می‌گذشت، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo063Subtitle",
+  "text": "*این همه دفاع پایگاه، ژنرال. حالا چطور انتظار داری بمب‌گذارانم وارد پایگاهت شوند؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo064Subtitle",
+  "text": "*تانک... این همه تانک. از تماشای برخورد تانک‌هایت با تله‌هایم لذت می‌برم، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo065Subtitle",
+  "text": "*دیگر هواپیما نساز، ژنرال... نبوغ تله‌هایم را از دست می‌دهی"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo066Subtitle",
+  "text": "*با این همه پیاده‌نظام حتماً تله‌های انفجاری‌ام را فعال می‌کنی. اگر جای تو بودم می‌گفتم موقع عبور از میدان پراکنده شوند، ژنرال... یا نه"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo067Subtitle",
+  "text": "*این همه ساختمان... پایگاهت هدف بی‌نقصی برای مواد منفجره من است، ژنرال. ممنونم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo068Subtitle",
+  "text": "*حرکت احمقانه‌ای بود، ژنرال. طوفان اسکادت جلوی مرا نمی‌گیرد"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo069Subtitle",
+  "text": "*موشک هسته‌ای! تاوانش را می‌دهی، ژنرال"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo070Subtitle",
+  "text": "*نه! آن پرتو ذره‌ای مواد منفجره‌ام را منفجر می‌کند!"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo071Subtitle",
+  "text": "*بله، در آن ساختمان سنگر بگیر، ژنرال... احتمالاً هیچ ماده منفجره‌ای به آن وصل نیست"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo072Subtitle",
+  "text": "*سلام، سرهنگ برتون. سعی کن پایت روی هیچ تله‌ای نرود"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo073Subtitle",
+  "text": "*نیلوفر سیاه... فکر نکن چون می‌توانی تله‌هایم را شناسایی کنی حالا آسیب‌پذیرم"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo074Subtitle",
+  "text": "*چرا جارمن کل را به جنگ من می‌فرستی، ژنرال؟"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo075Subtitle",
+  "text": "*دیگر فرودگاه نساز، ژنرال... از آن‌ها خوشم نمی‌آید"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo076Subtitle",
+  "text": "*کارخانه جنگ خودرو می‌سازد... خودروهایی که تله‌های انفجاری‌ام را فعال می‌کنند"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Demo077Subtitle",
+  "text": "*فکر می‌کنی ساختن سربازخانه عاقلانه است، ژنرال؟"
+ }
+]

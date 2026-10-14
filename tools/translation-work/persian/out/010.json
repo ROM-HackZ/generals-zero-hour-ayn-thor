@@ -1,0 +1,802 @@
+[
+ {
+  "label": "TOOLTIP:SendDelay",
+  "text": "فقط برای کاربران دیوار آتش. (لطفاً به دفترچه راهنما مراجعه کنید)"
+ },
+ {
+  "label": "GUI:GSFailedToHost",
+  "text": "میزبانی بازی ممکن نشد"
+ },
+ {
+  "label": "Buddy:SelectBuddyToChat",
+  "text": "یک دوست برای گفتگو انتخاب کنید"
+ },
+ {
+  "label": "GUI:CannotConnectToServservTitle",
+  "text": "اتصال ممکن نیست"
+ },
+ {
+  "label": "GUI:CannotConnectToServserv",
+  "text": "برقراری اتصال با سرورهای Command and Conquer Generals Zero Hour ممکن نشد. لطفاً اتصال اینترنت خود را بررسی کنید"
+ },
+ {
+  "label": "MESSAGE:BattlePlanBombardmentInitiated",
+  "text": "راهبرد بمباران آغاز شد"
+ },
+ {
+  "label": "MESSAGE:BattlePlanHoldTheLineInitiated",
+  "text": "راهبرد ایستادگی آغاز شد"
+ },
+ {
+  "label": "MESSAGE:BattlePlanSearchAndDestroyInitiated",
+  "text": "راهبرد جستجو و نابودی آغاز شد"
+ },
+ {
+  "label": "OBJECT:TechOilRefinery",
+  "text": "پالایشگاه نفت -- تصرفش کنید تا هزینه خودروها کم شود"
+ },
+ {
+  "label": "OBJECT:SupplyDock",
+  "text": "اسکله تدارکات"
+ },
+ {
+  "label": "GUI:InGameDiplomacy",
+  "text": "دیپلماسی"
+ },
+ {
+  "label": "GUI:MapPreview",
+  "text": "پیش‌نمایش نقشه"
+ },
+ {
+  "label": "GUI:Error",
+  "text": "خطا"
+ },
+ {
+  "label": "Buddy:Disconnected",
+  "text": "اتصال شما\nبه فهرست دوستان قطع شد"
+ },
+ {
+  "label": "GUI:SandboxMode",
+  "text": "در حال ورود به حالت آزمایشی..."
+ },
+ {
+  "label": "GUI:BookmarkXSet",
+  "text": "نشانک شماره %d تنظیم شد"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair1",
+  "text": "تعمیر اضطراری ۱"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair2",
+  "text": "تعمیر اضطراری ۲"
+ },
+ {
+  "label": "SCIENCE:EmergencyRepair3",
+  "text": "تعمیر اضطراری ۳"
+ },
+ {
+  "label": "MAP:CHI05Open",
+  "text": "بالیکچی، قرقیزستان\nزمین سوخته"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceEmergencyRepair",
+  "text": "خودروها را در یک منطقه تعمیر می‌کند\n\nدرجه ۱: تعمیر سبک\nدرجه ۲: تعمیر متوسط\nدرجه ۳: تعمیر کامل\n\nاستقرار از: مرکز فرماندهی"
+ },
+ {
+  "label": "GUI:MinSpecFailedTitle",
+  "text": "هشدار"
+ },
+ {
+  "label": "GUI:MinSpecFailedMessage",
+  "text": "سیستم شما حداقل سخت‌افزار لازم را ندارد. ممکن است در بازی‌های چندنفره نرخ فریم کمتر از معمول ببینید"
+ },
+ {
+  "label": "TOOLTIP:AlreadyUpgradedDefault",
+  "text": "این ارتقا قبلاً خریداری شده است"
+ },
+ {
+  "label": "TOOLTIP:HasConflictingUpgradeDefault",
+  "text": "ارتقای متضاد را نمی‌توان خرید"
+ },
+ {
+  "label": "GUI:NoGameSelected",
+  "text": "ابتدا یک بازی برای پیوستن انتخاب کنید"
+ },
+ {
+  "label": "GUI:CloseExpScreen",
+  "text": "انجام شد"
+ },
+ {
+  "label": "TOOLTIP:CloseExpScreen",
+  "text": "بازگشت به بازی"
+ },
+ {
+  "label": "GUI:GPNoCommunicator",
+  "text": "ارتباط‌گر در نسخه آزمایشی چندنفره در دسترس نیست"
+ },
+ {
+  "label": "GUI:GSKickedGameStarted",
+  "text": "بازی شروع شده است"
+ },
+ {
+  "label": "GUI:GSKickedGameFull",
+  "text": "بازی پر است"
+ },
+ {
+  "label": "Network:PacketRouterTimeout",
+  "text": "پایان زمان مسیریاب بسته"
+ },
+ {
+  "label": "GUI:EstablishingConnectionPaths",
+  "text": "در حال برقراری مسیرهای اتصال"
+ },
+ {
+  "label": "UPGRADE:RadarVanScan",
+  "text": "اسکن ون رادار"
+ },
+ {
+  "label": "MAP:CHI04Open",
+  "text": "کوه‌های تانگولا، چین\nاتحادهای شکسته"
+ },
+ {
+  "label": "MAP:GLA04Open",
+  "text": "شهر آستانه\nپایتخت قزاقستان در اشغال چین"
+ },
+ {
+  "label": "MAP:USA07NewObjective2",
+  "text": "هدف جدید مأموریت:\nمرکز فرماندهی چین\nو سیلوی موشک هسته‌ای را نابود کنید"
+ },
+ {
+  "label": "MAP:USA07GotObjective1",
+  "text": "هدف کامل شد:\nGLA را در شمال شرق نابود کنید"
+ },
+ {
+  "label": "MAP:USA07GotObjective2",
+  "text": "هدف کامل شد:\nمرکز فرماندهی چین\nو سیلوی موشک هسته‌ای را نابود کنید"
+ },
+ {
+  "label": "GUI:Defaults",
+  "text": "پیش‌فرض‌ها"
+ },
+ {
+  "label": "TOOLTIP:OptionsAccept",
+  "text": "پذیرفتن تغییرات و خروج از منوی گزینه‌ها"
+ },
+ {
+  "label": "TOOLTIP:OptionsCancel",
+  "text": "خروج از منوی گزینه‌ها بدون اعمال تغییرات"
+ },
+ {
+  "label": "TOOLTIP:OptionsDefaults",
+  "text": "بازگرداندن گزینه‌ها به تنظیمات پیش‌فرض"
+ },
+ {
+  "label": "MESSAGE:StealthDiscovered",
+  "text": "یگان پنهان دشمن کشف شد"
+ },
+ {
+  "label": "MESSAGE:StealthNeutralized",
+  "text": "توانایی پنهان‌کاری خنثی شد"
+ },
+ {
+  "label": "TOOLTIP:SortBuddies",
+  "text": "دوستان را در بالای فهرست بازی‌ها قرار بده"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenu",
+  "text": "منوی تجربه ژنرال‌ها"
+ },
+ {
+  "label": "CONTROLBAR:GeneralsExperienceMenuDescription",
+  "text": "نمایش منوی تجربه، جایی که امتیازهای تجربه به‌دست‌آمده در نبرد را برای توانایی‌های گوناگون ژنرال خرج می‌کنید"
+ },
+ {
+  "label": "CONTROLBAR:UpDown",
+  "text": "نمایش/پنهان"
+ },
+ {
+  "label": "CONTROLBAR:UpDownDescription",
+  "text": "تعیین می‌کند نوار کنترل نمایش داده شود یا پنهان باشد"
+ },
+ {
+  "label": "CONTROLBAR:DisarmMinesAtPosition",
+  "text": "پاک‌سازی مین (&L)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDisarmMinesAtPosition",
+  "text": "پاک‌سازی مین‌ها و مواد منفجره کوچک در منطقه مشخص"
+ },
+ {
+  "label": "TOOLTIP:ScienceCostUnavailable",
+  "text": "هزینه: در دسترس نیست"
+ },
+ {
+  "label": "GUI:OnlineIPAddresses",
+  "text": "IP آنلاین:"
+ },
+ {
+  "label": "GUI:GSDisconReason16",
+  "text": "نمایه‌ای با این نام مستعار وجود دارد"
+ },
+ {
+  "label": "GUI:GSDisconReason17",
+  "text": "گذرواژه نادرست است. لطفاً دوباره تلاش کنید"
+ },
+ {
+  "label": "GUI:GSDisconReason18",
+  "text": "نمایه‌ای با این نام مستعار وجود دارد"
+ },
+ {
+  "label": "GUI:GSDisconReason19",
+  "text": "خطای سرور - ساخت حساب ممکن نیست"
+ },
+ {
+  "label": "Buddy:MessageDisconnected",
+  "text": "اتصال شما\nبه فهرست دوستان قطع شد"
+ },
+ {
+  "label": "GUI:PlayerHasBeenDefeated",
+  "text": "%ls شکست خورد"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaRangerCaptureBuilding",
+  "text": "تصرف ساختمان (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaRedguardCaptureBuilding",
+  "text": "تصرف ساختمان (&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLARebelCaptureBuilding",
+  "text": "تصرف ساختمان (&C)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateBombTruck",
+  "text": "همین حالا منفجر کن! (&N)"
+ },
+ {
+  "label": "UPGRADE:RangerCaptureBuilding",
+  "text": "تصرف ساختمان"
+ },
+ {
+  "label": "UPGRADE:RedguardCaptureBuilding",
+  "text": "تصرف ساختمان"
+ },
+ {
+  "label": "UPGRADE:RebelCaptureBuilding",
+  "text": "تصرف ساختمان"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateBombTruck",
+  "text": "به کامیون بمب دستور می‌دهد فوراً در جای فعلی‌اش منفجر شود"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAUpgradeRangerCaptureBuilding",
+  "text": "رنجرها را قادر به تصرف ساختمان‌های دشمن و فنی می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaUpgradeRedGuardCaptureBuilding",
+  "text": "گارد سرخ را قادر به تصرف ساختمان‌های دشمن و فنی می‌کند"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeRebelCaptureBuilding",
+  "text": "شورشی‌ها را قادر به تصرف ساختمان‌های دشمن و فنی می‌کند"
+ },
+ {
+  "label": "GUI:Loading",
+  "text": "در حال بارگذاری"
+ },
+ {
+  "label": "TOOLTIP:EmoteButton",
+  "text": "شکلک"
+ },
+ {
+  "label": "CONTROLBAR:Power",
+  "text": "برق"
+ },
+ {
+  "label": "CONTROLBAR:PowerDescription",
+  "text": "برق فعلی: %d\nبرق مورد نیاز: %d"
+ },
+ {
+  "label": "CONTROLBAR:Money",
+  "text": "پول"
+ },
+ {
+  "label": "CONTROLBAR:MoneyDescription",
+  "text": "این مقدار پولی است که دارید"
+ },
+ {
+  "label": "MAP:TourneyArena",
+  "text": "Tournament Desert"
+ },
+ {
+  "label": "UPGRADE:AmericaDroneARmor",
+  "text": "زره پهپاد"
+ },
+ {
+  "label": "UPGRADE:APRockets",
+  "text": "راکت‌های زره‌شکن"
+ },
+ {
+  "label": "ThingTemplate:EuropeanTowerBridge01",
+  "text": "پل"
+ },
+ {
+  "label": "ThingTemplate:BridgeTowerConcreteRight02",
+  "text": "پل"
+ },
+ {
+  "label": "Team:0",
+  "text": "هیچ"
+ },
+ {
+  "label": "Team:1",
+  "text": "1"
+ },
+ {
+  "label": "Team:2",
+  "text": "2"
+ },
+ {
+  "label": "Team:3",
+  "text": "3"
+ },
+ {
+  "label": "Team:4",
+  "text": "4"
+ },
+ {
+  "label": "Team:AI",
+  "text": "رایانه"
+ },
+ {
+  "label": "GUI:RestartConfirmation",
+  "text": "آیا مطمئنید که می‌خواهید از نو شروع کنید؟"
+ },
+ {
+  "label": "GUI:ErrorStartingGame",
+  "text": "خطا در شروع بازی"
+ },
+ {
+  "label": "GUI:TooManyPlayers",
+  "text": "این نقشه فقط %d بازیکن را پشتیبانی می‌کند"
+ },
+ {
+  "label": "GUI:SandboxWarning",
+  "text": "کلیک دوباره روی شروع، یک بازی آزمایشی را آغاز می‌کند"
+ },
+ {
+  "label": "GUI:CantFindMap",
+  "text": "نقشه پیدا نشد. آیا خراب است؟"
+ },
+ {
+  "label": "GUI:EnterSaveDesc",
+  "text": "توضیح بازی را وارد کنید"
+ },
+ {
+  "label": "GUI:MissionSave",
+  "text": "آغاز مأموریت - %s %d"
+ },
+ {
+  "label": "GUI:SaveReplay",
+  "text": "ذخیره بازپخش"
+ },
+ {
+  "label": "GUI:OverwriteReplayTitle",
+  "text": "بازنویسی بازپخش"
+ },
+ {
+  "label": "GUI:OverwriteReplay",
+  "text": "بازپخش بازنویسی شود؟"
+ },
+ {
+  "label": "GUI:ConfirmDelete",
+  "text": "آیا مطمئنید که می‌خواهید این بازی را حذف کنید؟"
+ },
+ {
+  "label": "GUI:DeleteGame",
+  "text": "حذف"
+ },
+ {
+  "label": "GUI:GameSaveComplete",
+  "text": "*** بازی ذخیره شد ***"
+ },
+ {
+  "label": "CAMPAIGN:USA",
+  "text": "آمریکا"
+ },
+ {
+  "label": "CAMPAIGN:GLA",
+  "text": "GLA"
+ },
+ {
+  "label": "CAMPAIGN:China",
+  "text": "چین"
+ },
+ {
+  "label": "GUI:Easy",
+  "text": "آسان"
+ },
+ {
+  "label": "GUI:Hard",
+  "text": "سخت"
+ },
+ {
+  "label": "GUI:SelectDifficulty",
+  "text": "انتخاب سطح دشواری"
+ },
+ {
+  "label": "GUI:NumPlayersOnline",
+  "text": "کل بازیکنان آنلاین: %d"
+ },
+ {
+  "label": "GUI:AllowableMaps",
+  "text": "نقشه‌های مجاز"
+ },
+ {
+  "label": "GUI:QuickMatchTitle",
+  "text": "مسابقه سریع"
+ },
+ {
+  "label": "LOAD:TRAINING_1",
+  "text": "- GLA یک کارخانه سلاح شیمیایی را کنترل می‌کند"
+ },
+ {
+  "label": "LOAD:TRAINING_2",
+  "text": "- کارخانه سلاح شیمیایی را نابود کنید"
+ },
+ {
+  "label": "LOAD:TRAINING_3",
+  "text": "- تهدید را از میان بردارید"
+ },
+ {
+  "label": "LOAD:USA01_1",
+  "text": "- GLA طوفان اسکاد دارد"
+ },
+ {
+  "label": "LOAD:USA01_2",
+  "text": "- پایگاهشان در بغداد است"
+ },
+ {
+  "label": "LOAD:USA01_3",
+  "text": "- این تهدید را از میان بردارید"
+ },
+ {
+  "label": "LOAD:USA02_1",
+  "text": "- رهبران GLA تا یمن ردیابی شده‌اند"
+ },
+ {
+  "label": "LOAD:USA02_2",
+  "text": "- کومانچی‌ها در جستجوی جنایتکاران‌اند"
+ },
+ {
+  "label": "LOAD:USA02_3",
+  "text": "- خلبانان اسیر را نجات دهید"
+ },
+ {
+  "label": "LOAD:USA03_1",
+  "text": "- نیروهای آمریکا در عقب‌نشینی کامل‌اند"
+ },
+ {
+  "label": "LOAD:USA03_2",
+  "text": "- GLA از نزدیک تعقیبشان می‌کند"
+ },
+ {
+  "label": "LOAD:USA03_3",
+  "text": "- از نیروهای در حال عقب‌نشینی پوشش دهید"
+ },
+ {
+  "label": "LOAD:USA04_1",
+  "text": "- یک اردوگاه آموزشی GLA کشف شده است"
+ },
+ {
+  "label": "LOAD:USA04_2",
+  "text": "- این تهدید را از میان بردارید"
+ },
+ {
+  "label": "LOAD:USA06_1",
+  "text": "- کنفرانس صلح در شهر کبارا"
+ },
+ {
+  "label": "LOAD:USA06_2",
+  "text": "- به GLA نمی‌توان اعتماد کرد"
+ },
+ {
+  "label": "LOAD:USA06_3",
+  "text": "- هوشیار باشید"
+ },
+ {
+  "label": "LOAD:USA07_1",
+  "text": "- یک ژنرال یاغی چینی به GLA پیوسته است"
+ },
+ {
+  "label": "LOAD:USA07_2",
+  "text": "- دشمن به شبکه‌های تونل تکیه دارد"
+ },
+ {
+  "label": "LOAD:USA07_3",
+  "text": "- حمله باید فوراً آغاز شود"
+ },
+ {
+  "label": "LOAD:USA08_1",
+  "text": "- نیروهای آمریکا پایتخت GLA را محاصره کرده‌اند"
+ },
+ {
+  "label": "LOAD:USA08_2",
+  "text": "- GLA سلاح زیستی دارد"
+ },
+ {
+  "label": "LOAD:USA08_3",
+  "text": "- چینی‌ها قول حمایت از آمریکا را داده‌اند"
+ },
+ {
+  "label": "LOAD:USA08_4",
+  "text": "- GLA باید نابود شود"
+ },
+ {
+  "label": "LOAD:China01_1",
+  "text": "- قدرت چین در رژه است"
+ },
+ {
+  "label": "LOAD:China01_2",
+  "text": "- از رژه نظامی چین محافظت کنید"
+ },
+ {
+  "label": "LOAD:China01_3",
+  "text": "- هر تهدیدی را در منطقه پکن از میان بردارید"
+ },
+ {
+  "label": "LOAD:China02_1",
+  "text": "- یک هسته GLA در هنگ کنگ کشف شده است"
+ },
+ {
+  "label": "LOAD:China02_2",
+  "text": "- تروریست‌ها از مرکز همایش‌ها به‌عنوان پایگاه استفاده می‌کنند"
+ },
+ {
+  "label": "LOAD:China02_3",
+  "text": "- هسته باید ریشه‌کن شود"
+ },
+ {
+  "label": "LOAD:China03_1",
+  "text": "- GLA منطقه سد سه دره را آلوده کرده است"
+ },
+ {
+  "label": "LOAD:China03_2",
+  "text": "- نیروهای کمکی دشمن اکنون نیروهای ما را تهدید می‌کنند"
+ },
+ {
+  "label": "LOAD:China03_3",
+  "text": "- GLA را در سیل نیروهای چینی غرق کنید"
+ },
+ {
+  "label": "LOAD:China04_1",
+  "text": "- GLA کارخانه سموم زیستی ساخته است"
+ },
+ {
+  "label": "LOAD:China04_2",
+  "text": "- با کمک مأمور نیلوفر سیاه کارخانه را پیدا کنید"
+ },
+ {
+  "label": "LOAD:China04_3",
+  "text": "- حمله هوایی به نابودی آن کمک خواهد کرد"
+ },
+ {
+  "label": "LOAD:China05_1",
+  "text": "- GLA بالیکچی را تصرف کرده است"
+ },
+ {
+  "label": "LOAD:China05_2",
+  "text": "- نیروهای آمریکا پشتیبانی هوایی خواهند کرد"
+ },
+ {
+  "label": "LOAD:China05_3",
+  "text": "- بمباران فرشی را فرا بخوانید و GLA را نابود کنید"
+ },
+ {
+  "label": "LOAD:China06_1",
+  "text": "- GLA یکی از راه‌آهن‌های چین را تصاحب کرده است"
+ },
+ {
+  "label": "LOAD:China06_2",
+  "text": "- GLA در بیشکک، آلداستان جمع می‌شود"
+ },
+ {
+  "label": "LOAD:China06_3",
+  "text": "- با نیلوفر سیاه پل قطار را نابود کنید"
+ },
+ {
+  "label": "LOAD:China07_1",
+  "text": "- یک هسته تروریستی آسیایی GLA در تاجیکستان شناسایی شد"
+ },
+ {
+  "label": "LOAD:China07_2",
+  "text": "- مجوز استفاده از زرادخانه هسته‌ای‌تان را دارید"
+ },
+ {
+  "label": "LOAD:GLA01_1",
+  "text": "- برادران بسیاری را از دست داده‌ایم"
+ },
+ {
+  "label": "LOAD:GLA01_2",
+  "text": "- دفاع چین پراکنده است"
+ },
+ {
+  "label": "LOAD:GLA01_3",
+  "text": "- نیروهای چینی را نابود کنید"
+ },
+ {
+  "label": "LOAD:GLA02_1",
+  "text": "- تدارکات سازمان ملل در راه منطقه آلماتی است"
+ },
+ {
+  "label": "LOAD:GLA02_2",
+  "text": "- این محموله‌ها را برای آرمانمان رهگیری کنید"
+ },
+ {
+  "label": "LOAD:GLA02_3",
+  "text": "- تدارکات را جمع کنید تا GLA را پولدار کنیم"
+ },
+ {
+  "label": "LOAD:GLA03_1",
+  "text": "- ستمگران مردم ژامبیل را فاسد کرده‌اند"
+ },
+ {
+  "label": "LOAD:GLA03_2",
+  "text": "- تنها آزادی واقعی‌شان در مرگ است"
+ },
+ {
+  "label": "LOAD:GLA03_3",
+  "text": "- با تراکتورهای سمی از میان برشان دارید"
+ },
+ {
+  "label": "LOAD:GLA04_1",
+  "text": "- در آستانه متحدان تازه‌ای یافته‌ایم"
+ },
+ {
+  "label": "LOAD:GLA04_2",
+  "text": "- می‌توانیم از آن‌ها برای آزار دشمن استفاده کنیم"
+ },
+ {
+  "label": "LOAD:GLA04_3",
+  "text": "- تا آستانه می‌سوزد، شهر را برای تدارکات غارت کنید"
+ },
+ {
+  "label": "LOAD:GLA05_1",
+  "text": "- غرور آمریکا نباید بی‌پاسخ بماند"
+ },
+ {
+  "label": "LOAD:GLA05_2",
+  "text": "- منطقه را از چنگ امپریالیستی‌شان دور نگه دارید"
+ },
+ {
+  "label": "LOAD:GLA05_3",
+  "text": "- نیروی هوایی 'برتر' آن‌ها را نابود کنید"
+ },
+ {
+  "label": "LOAD:GLA06_1",
+  "text": "- خبرهای دریاچه آرال خوب نیست"
+ },
+ {
+  "label": "LOAD:GLA06_2",
+  "text": "- نیروهای آمریکا تأسیسات ذخیره سموم ما را در کنترل دارند"
+ },
+ {
+  "label": "LOAD:GLA06_3",
+  "text": "- سنگرهای انبار را پس بگیرید"
+ },
+ {
+  "label": "LOAD:GLA07_1",
+  "text": "- فراریان GLA به چین پیوسته‌اند"
+ },
+ {
+  "label": "LOAD:GLA07_2",
+  "text": "- به کاروان‌ها حمله کنید و خطوط تدارکاتشان را قطع کنید"
+ },
+ {
+  "label": "LOAD:GLA07_3",
+  "text": "- خائنان و متحدان چینی‌شان را از میان بردارید"
+ },
+ {
+  "label": "LOAD:GLA08_1",
+  "text": "- پایگاه فضایی را تصرف کنید"
+ },
+ {
+  "label": "LOAD:GLA08_2",
+  "text": "- موشک‌های آنجا سموم کشنده را به دشمنانمان می‌رسانند"
+ },
+ {
+  "label": "LOAD:GLA08_3",
+  "text": "- سرنوشتمان در دستان ماست"
+ },
+ {
+  "label": "TOOLTIP:DownloadProgress",
+  "text": "پیشرفت دانلود"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz10",
+  "text": "نشان حمله برق‌آسا\nحریف (حریفان) را در ۱۰ دقیقه یا کمتر شکست دهید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitz5",
+  "text": "نشان حمله برق‌آسا\nحریف (حریفان) را در ۵ دقیقه یا کمتر شکست دهید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyUSADisabled",
+  "text": "نشان وفاداری به آمریکا\nبیش از ۲۰ بازی پیاپی با آمریکا بازی کنید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyChinaDisabled",
+  "text": "نشان وفاداری به چین\nبیش از ۲۰ بازی پیاپی با چین بازی کنید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorLoyaltyGLADisabled",
+  "text": "نشان وفاداری به GLA\nبیش از ۲۰ بازی پیاپی با GLA بازی کنید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBattleTankDisabled",
+  "text": "نشان تانک نبرد\nدر برابر حریف (حریفان) رایانه‌ای بیش از ۵۰ تانک بسازید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorAirWingDisabled",
+  "text": "نشان بال هوایی\nدر برابر حریف (حریفان) رایانه‌ای بیش از ۲۰ هواپیما بسازید تا این مدال را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorEnduranceDisabled",
+  "text": "نشان استقامت\nدر همه نقشه‌ها پیروز شوید تا مدال برنز، نقره یا طلا بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignUSADisabled",
+  "text": "نشان کارزار آمریکا\nکارزار آمریکا را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChinaDisabled",
+  "text": "نشان کارزار چین\nکارزار چین را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignGLADisabled",
+  "text": "نشان کارزار GLA\nکارزار GLA را تمام کنید تا این نشان را بگیرید\nکارزار را در سطح سخت تمام کنید تا بالاترین نشان را بگیرید"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorChallengeDisabled",
+  "text": "نشان چالش\n۱ تا ۷ حریف رایانه‌ای سخت را شکست دهید تا این مدال را بگیرید"
+ },
+ {
+  "label": "GUI:BuildingsKilledStat",
+  "text": "ساختمان‌های نابودشده"
+ },
+ {
+  "label": "GUI:BuildingsBuiltStat",
+  "text": "ساختمان‌های ساخته‌شده"
+ },
+ {
+  "label": "GUI:BuildingsLostStat",
+  "text": "ساختمان‌های ازدست‌رفته"
+ },
+ {
+  "label": "GUI:QMWinStreak",
+  "text": "برد پیاپی مسابقه سریع"
+ },
+ {
+  "label": "GUI:LastLadder",
+  "text": "آخرین رده‌بندی"
+ },
+ {
+  "label": "GUI:LobbyJoined",
+  "text": "به %ls پیوستید"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoAll",
+  "text": "لطفاً ایمیل، نام مستعار و گذرواژه خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailNickname",
+  "text": "لطفاً ایمیل و نام مستعار خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ },
+ {
+  "label": "GUI:GSNoLoginInfoEmailPassword",
+  "text": "لطفاً ایمیل و گذرواژه خود را وارد کنید. سپس روی ورود یا ساخت حساب کلیک کنید"
+ }
+]

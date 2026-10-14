@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:NoMansLand",
+  "text": "No Man's Land"
+ },
+ {
+  "label": "MAP:OverlandOffensive",
+  "text": "Overland Offensive"
+ },
+ {
+  "label": "MAP:RockyRampage",
+  "text": "Rocky Rampage"
+ },
+ {
+  "label": "MAP:SnowblindStrike",
+  "text": "Snowblind Strike"
+ },
+ {
+  "label": "MAP:UrbanUnderground",
+  "text": "Urban Underground"
+ },
+ {
+  "label": "MAP:VictoryValley",
+  "text": "Victory Valley"
+ },
+ {
+  "label": "MAP:WastelandWarfare",
+  "text": "Wasteland Warfare"
+ },
+ {
+  "label": "MAP:RogueAgent",
+  "text": "Rogue Agent"
+ },
+ {
+  "label": "MAP:DesertEagle",
+  "text": "Desert Eagle"
+ },
+ {
+  "label": "MAP:FlashFire",
+  "text": "Flash Fire"
+ },
+ {
+  "label": "MAP:MountainGuns",
+  "text": "Mountain Guns"
+ },
+ {
+  "label": "MAP:FlashEffect",
+  "text": "Flash Effect"
+ },
+ {
+  "label": "MAP:LightsOut",
+  "text": "Lights Out"
+ },
+ {
+  "label": "MAP:SteelTrap",
+  "text": "Steel Trap"
+ },
+ {
+  "label": "MAP:ArmoredFury",
+  "text": "Armored Fury"
+ },
+ {
+  "label": "MAP:InfiniteJustice",
+  "text": "Cairo Commandos"
+ },
+ {
+  "label": "MAP:Whiteout",
+  "text": "Whiteout"
+ },
+ {
+  "label": "MAP:FalloutEffect",
+  "text": "Fallout Effect"
+ },
+ {
+  "label": "MAP:FloodedPlains",
+  "text": "Flooded Plains"
+ },
+ {
+  "label": "MAP:TournamentContinent",
+  "text": "Tournament Continent"
+ },
+ {
+  "label": "MAP:TournamentCity",
+  "text": "Tournament City"
+ },
+ {
+  "label": "MAP:TournamentLadder01",
+  "text": "Tournament Ladder 01"
+ },
+ {
+  "label": "MAP:TournamentLadder02",
+  "text": "Tournament Ladder 02"
+ },
+ {
+  "label": "MAP:TournamentLadder03",
+  "text": "Tournament Ladder 03"
+ },
+ {
+  "label": "MAP:TournamentLadder04",
+  "text": "Tournament Ladder 04"
+ },
+ {
+  "label": "MAP:TrainingGLAHole",
+  "text": "لمباني جيش التحرير العالمي مساحات عميقة تحت الأرض تحمي عمالهم. بعد تدمير مبنى لـجيش التحرير العالمي تبقى في مكانه حفرة. سيعيد العمال المختبئون في الحفرة بناء المنشأة في النهاية. هاجم الحفرة لإزالة التهديد"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25",
+  "text": "وسام السلسلة\nفاز اللاعب في 25 مناوشة متتالية\nاحصل على ميدالية جديدة عند 3 و10 و25 و100 و500 و1000 انتصار متتالٍ"
+ },
+ {
+  "label": "GUI:InsertCDPrompt",
+  "text": "القرص مفقود"
+ },
+ {
+  "label": "GUI:InsertCDMessage",
+  "text": "يرجى إدخال القرص الأول للعبة"
+ },
+ {
+  "label": "CONTROLBAR:OrRequirement",
+  "text": "أو"
+ },
+ {
+  "label": "SCRIPT:USA02RescueCounter",
+  "text": "الطيارون المتبقون:"
+ },
+ {
+  "label": "GUI:AddCash",
+  "text": "$%d"
+ },
+ {
+  "label": "GUI:LoseCash",
+  "text": "-$%d"
+ },
+ {
+  "label": "RADAR:HarvesterUnderAttack",
+  "text": "جامع الموارد يتعرض للهجوم"
+ },
+ {
+  "label": "OBJECT:PharmaceuticalFactory",
+  "text": "مصنع أدوية"
+ },
+ {
+  "label": "GUI:CareerWins",
+  "text": "انتصارات المسيرة"
+ },
+ {
+  "label": "GUI:CareerLosses",
+  "text": "هزائم المسيرة"
+ },
+ {
+  "label": "GUI:CurrentWinStreak",
+  "text": "سلسلة الانتصارات الحالية"
+ },
+ {
+  "label": "GUI:CarrerWinPercent",
+  "text": "نسبة الفوز في المسيرة"
+ },
+ {
+  "label": "TOOLTIP:NumberOfPlayers",
+  "text": "عدد اللاعبين الموجودين حاليًا في هذه اللعبة"
+ },
+ {
+  "label": "TOOTIP:Password",
+  "text": "كلمة المرور المطلوبة للانضمام إلى اللعبة"
+ },
+ {
+  "label": "TOOLTIP:PingInfo",
+  "text": "جودة سرعة الاتصال بالمضيف"
+ },
+ {
+  "label": "TOOLTIP:LobbyOfficersClub",
+  "text": "نادي الضباط: عضو مؤسس في مجتمع Generals"
+ },
+ {
+  "label": "GUI:Display",
+  "text": "الخيارات"
+ },
+ {
+  "label": "GUI:Audio",
+  "text": "الصوت"
+ },
+ {
+  "label": "GUI:LANLobby",
+  "text": "ردهة الشبكة المحلية"
+ },
+ {
+  "label": "GUI:Mute",
+  "text": "كتم"
+ },
+ {
+  "label": "GUI:NeedHumanPlayers",
+  "text": "تحتاج إلى لاعب بشري غير مراقب لبدء اللعبة"
+ },
+ {
+  "label": "GUI:MediumDifficulty",
+  "text": "متوسط"
+ },
+ {
+  "label": "CONTROLBAR:ObsPlayerLabel",
+  "text": "%ls (الفريق %ls)"
+ },
+ {
+  "label": "GUI:LowTextureDetail",
+  "text": "تفاصيل منخفضة للخامات"
+ },
+ {
+  "label": "TOOLTIP:LowTextureDetail",
+  "text": "استخدام خامات منخفضة الدقة"
+ },
+ {
+  "label": "GUI:QuickMatch800x600",
+  "text": "يرجى تغيير دقة الشاشة إلى 800 x 600 للعب المباراة السريعة"
+ },
+ {
+  "label": "OBJECT:CargoPlane",
+  "text": "طائرة شحن"
+ },
+ {
+  "label": "OBJECT:HuNanProvince",
+  "text": "بكين"
+ },
+ {
+  "label": "OBJECT:HongKong",
+  "text": "هونغ كونغ"
+ },
+ {
+  "label": "OBJECT:HubeiProvince",
+  "text": "سد الخوانق الثلاثة"
+ },
+ {
+  "label": "OBJECT:Tangula",
+  "text": "جبال تانغولا"
+ },
+ {
+  "label": "OBJECT:Balykchy",
+  "text": "باليكشي"
+ },
+ {
+  "label": "OBJECT:Bishkek",
+  "text": "بيشكيك"
+ },
+ {
+  "label": "OBJECT:Dushanbe",
+  "text": "دوشنبه"
+ },
+ {
+  "label": "OBJECT:Shymkent",
+  "text": "شيمكنت"
+ },
+ {
+  "label": "OBJECT:Almaty",
+  "text": "ألماتي"
+ },
+ {
+  "label": "OBJECT:Zambul",
+  "text": "جامبول"
+ },
+ {
+  "label": "OBJECT:Astana",
+  "text": "أستانا"
+ },
+ {
+  "label": "OBJECT:Incirlik",
+  "text": "إنجرليك"
+ },
+ {
+  "label": "OBJECT:AralSea",
+  "text": "بحر آرال"
+ },
+ {
+  "label": "OBJECT:Lenger",
+  "text": "لنغر"
+ },
+ {
+  "label": "OBJECT:Baikonur",
+  "text": "بايكونور"
+ },
+ {
+  "label": "OBJECT:Mazar",
+  "text": "مزار"
+ },
+ {
+  "label": "OBJECT:Baghdad",
+  "text": "بغداد"
+ },
+ {
+  "label": "OBJECT:AlHanad",
+  "text": "الحناد"
+ },
+ {
+  "label": "OBJECT:NorthKazakhstan",
+  "text": "شمال كازاخستان"
+ },
+ {
+  "label": "OBJECT:KazakhstanCoast",
+  "text": "ساحل كازاخستان"
+ },
+ {
+  "label": "OBJECT:KazakhstanDMZ",
+  "text": "المنطقة منزوعة السلاح في كازاخستان"
+ },
+ {
+  "label": "OBJECT:SouthKazkahstan",
+  "text": "جنوب شرق كازاخستان"
+ },
+ {
+  "label": "OBJECT:Akmola",
+  "text": "أكمولا"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective01a",
+  "text": "أهداف المهمة:\nاستولِ على مركز القيادة في الشرق لبدء الإنتاج\nاقتل 200 خائن"
+ },
+ {
+  "label": "SCRIPT:GLA03Objective02a",
+  "text": "هدف المهمة:\nاستخدم جرارات السموم لقتل 200 خائن"
+ },
+ {
+  "label": "TOOLTIP:Campaign1",
+  "text": "الحملة 3"
+ },
+ {
+  "label": "TOOLTIP:Campaign2",
+  "text": "الحملة 2"
+ },
+ {
+  "label": "TOOLTIP:Campaign3",
+  "text": "الحملة 1"
+ },
+ {
+  "label": "GUI:Setup",
+  "text": "الإعداد"
+ },
+ {
+  "label": "GUI:PlayerInfo",
+  "text": "معلومات اللاعب"
+ },
+ {
+  "label": "GUI:Persona",
+  "text": "الهوية"
+ },
+ {
+  "label": "GUI:TextureHigh",
+  "text": "جودة عالية (أبطأ)"
+ },
+ {
+  "label": "GUI:TextureMedium",
+  "text": "جودة متوسطة"
+ },
+ {
+  "label": "GUI:TextureLow",
+  "text": "جودة منخفضة (أسرع)"
+ },
+ {
+  "label": "GUI:GameSpeed",
+  "text": "سرعة اللعبة"
+ },
+ {
+  "label": "GUI:SlowGameSpeed",
+  "text": "بطيئة"
+ },
+ {
+  "label": "GUI:MediumGameSpeed",
+  "text": "متوسطة"
+ },
+ {
+  "label": "GUI:FastGameSpeed",
+  "text": "سريعة"
+ },
+ {
+  "label": "GUI:RestartConfirmationTitle",
+  "text": "إعادة البدء؟"
+ },
+ {
+  "label": "GUI:SurrenderConfirmationTitle",
+  "text": "الاستسلام؟"
+ },
+ {
+  "label": "TOOLTIP:StartPositionN",
+  "text": "موقع البداية للاعب %d"
+ },
+ {
+  "label": "LABEL:FORMATION",
+  "text": "F"
+ },
+ {
+  "label": "GUI:IgnoreSm",
+  "text": "تجاهل"
+ },
+ {
+  "label": "GUI:AcceptSm",
+  "text": "قبول"
+ },
+ {
+  "label": "GUI:EasyCaps",
+  "text": "سهل"
+ },
+ {
+  "label": "GUI:MediumDifficultyCaps",
+  "text": "متوسط"
+ },
+ {
+  "label": "GUI:HardCaps",
+  "text": "صعب"
+ },
+ {
+  "label": "TOOLTIP:AdvanceOptionsAccept",
+  "text": "اعتماد التغييرات على خيارات العرض المتقدمة"
+ },
+ {
+  "label": "TOOLTIP:AdvanceOptionsCancel",
+  "text": "الخروج من قائمة خيارات العرض المتقدمة دون حفظ التغييرات"
+ },
+ {
+  "label": "GUI:AdvanceDisplayOptions",
+  "text": "خيارات العرض المتقدمة"
+ },
+ {
+  "label": "GUI:Shadows",
+  "text": "الظلال"
+ },
+ {
+  "label": "TOOLTIP:Shadows",
+  "text": "إظهار الظلال في اللعبة أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:BehindBuilding",
+  "text": "خلف المباني"
+ },
+ {
+  "label": "TOOLTIP:BehindBuilding",
+  "text": "إظهار الوحدات خلف المباني أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:ShowProps",
+  "text": "إظهار الديكورات"
+ },
+ {
+  "label": "TOOLTIP:ShowProps",
+  "text": "إظهار ديكورات اللعبة أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:LowResSlider",
+  "text": "دقة الخامات"
+ },
+ {
+  "label": "GUI:HighResSlower",
+  "text": "دقة عالية (أبطأ)"
+ },
+ {
+  "label": "GUI:LowResFaster",
+  "text": "دقة منخفضة (أسرع)"
+ },
+ {
+  "label": "TOOLTIP:LowResSlider",
+  "text": "الخامات الأعلى دقة قد تبطئ اللعبة"
+ },
+ {
+  "label": "GUI:ParticleCap",
+  "text": "حد الجسيمات"
+ },
+ {
+  "label": "GUI:MoreParticlesSlower",
+  "text": "أقصى عدد جسيمات (أبطأ)"
+ },
+ {
+  "label": "GUI:LessParticlesFaster",
+  "text": "أدنى عدد جسيمات (أسرع)"
+ },
+ {
+  "label": "TOOLTIP:ParticleCapSlider",
+  "text": "كثرة الجسيمات قد تبطئ اللعبة"
+ },
+ {
+  "label": "GUI:CurrentLossStreak",
+  "text": "سلسلة الهزائم الحالية"
+ },
+ {
+  "label": "GUI:Custom",
+  "text": "مخصص"
+ },
+ {
+  "label": "GUI:ToggleOnOff",
+  "text": "المؤثرات المرئية"
+ },
+ {
+  "label": "GUI:RestartMission",
+  "text": "إعادة بدء المهمة"
+ },
+ {
+  "label": "GUI:ExitMission",
+  "text": "الخروج من المهمة"
+ },
+ {
+  "label": "GUI:OlderReplayVersionTitle",
+  "text": "إصدار أقدم من الإعادة"
+ },
+ {
+  "label": "GUI:OlderReplayVersion",
+  "text": "قد لا تُعرض الإعادة بشكل صحيح، هل تريد متابعة التحميل؟"
+ },
+ {
+  "label": "GUI:Shadows2D",
+  "text": "ظلال ثنائية الأبعاد"
+ },
+ {
+  "label": "TOOLTIP:Shadows2D",
+  "text": "إظهار الظلال ثنائية الأبعاد في اللعبة أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:Shadows3D",
+  "text": "ظلال ثلاثية الأبعاد"
+ },
+ {
+  "label": "TOOLTIP:Shadows3D",
+  "text": "إظهار الظلال ثلاثية الأبعاد في اللعبة أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:CloudShadows",
+  "text": "ظلال السحب"
+ },
+ {
+  "label": "TOOLTIP:CloudShadows",
+  "text": "إظهار ظلال السحب على الأرض أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:GroundLighting",
+  "text": "إضاءة أرضية إضافية"
+ },
+ {
+  "label": "TOOLTIP:GroundLighting",
+  "text": "إظهار الإضاءة التفصيلية على الأرض أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:SmoothWater",
+  "text": "حواف مياه ناعمة"
+ },
+ {
+  "label": "TOOLTIP:SmoothWater",
+  "text": "تنعيم حواف المياه أو إيقافه. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:ExtraAnimations",
+  "text": "رسوم متحركة إضافية"
+ },
+ {
+  "label": "TOOLTIP:ExtraAnimations",
+  "text": "إظهار الرسوم المتحركة الاختيارية مثل تمايل الأشجار أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:NoDynamicLOD",
+  "text": "تعطيل المستوى الديناميكي للتفاصيل"
+ },
+ {
+  "label": "TOOLTIP:NoDynamicLOD",
+  "text": "تعطيل الضبط التلقائي للتفاصيل. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:UnlockMaxFPS",
+  "text": "معدل إطارات غير محدود"
+ },
+ {
+  "label": "TOOLTIP:UnlockMaxFPS",
+  "text": "يسمح بمعدل إطارات أعلى من 30. يؤثر في سرعة اللعبة، لذا لا يُنصح به إلا لاختبارات الأداء"
+ },
+ {
+  "label": "GUI:TreeSway",
+  "text": "حركة الأشجار"
+ },
+ {
+  "label": "TOOLTIP:TreeSway",
+  "text": "تشغيل حركة الأشجار أو إيقافها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:TankTreads",
+  "text": "آثار المركبات"
+ },
+ {
+  "label": "TOOLTIP:TankTreads",
+  "text": "إظهار الآثار التي تتركها المركبات أو إخفاؤها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:WaterWaves",
+  "text": "أمواج المياه"
+ },
+ {
+  "label": "TOOLTIP:WaterWaves",
+  "text": "تشغيل حركة الأمواج على الشواطئ أو إيقافها. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:BuildupAnimations",
+  "text": "رسوم البناء المتحركة"
+ },
+ {
+  "label": "TOOLTIP:BuildupAnimations",
+  "text": "عرض رسوم متحركة إضافية أثناء بناء المنشآت. أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:AdvancedOptionsToggleOnOff",
+  "text": "تشغيل/إيقاف - أوقفه لتحسين الأداء"
+ },
+ {
+  "label": "GUI:PerformanceTestingMessage",
+  "text": "يرجى الانتظار ريثما نختبر أداء نظامك لتحديد الإعدادات المثلى"
+ },
+ {
+  "label": "GUI:PerformanceTestingTitle",
+  "text": "جارٍ اختبار أداء النظام"
+ },
+ {
+  "label": "GUI:ReducedColor",
+  "text": "ألوان 16 بت"
+ },
+ {
+  "label": "TOOLTIP:ReducedColor",
+  "text": "يحسّن الأداء لكنه يقلل الجودة المرئية"
+ },
+ {
+  "label": "GUI:SelectAMapLowerCase",
+  "text": "اختر الخريطة"
+ },
+ {
+  "label": "GUI:SaveAndExit",
+  "text": "حفظ وخروج"
+ },
+ {
+  "label": "GUI:PerSideWinPercentage",
+  "text": "%d%% %ls"
+ },
+ {
+  "label": "GUI:WinnersToday",
+  "text": "فائزو اليوم"
+ },
+ {
+  "label": "GUI:WinnersLastWeek",
+  "text": "فائزو الأسبوع الماضي"
+ },
+ {
+  "label": "MOTD:NumPlayersHeading",
+  "text": "مرحبًا بك في Generals Zero Hour Online."
+ },
+ {
+  "label": "TOOLTIP:GameAcceptance",
+  "text": "قبول الألعاب"
+ },
+ {
+  "label": "TOOLTIP:ConnectionSpeed",
+  "text": "سرعة الاتصال"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyArtilleryBarrage",
+  "text": "قصف مدفعي"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeySpySatellite",
+  "text": "قمر تجسس صناعي"
+ },
+ {
+  "label": "GUI:FetchingPlayerInfo",
+  "text": "جارٍ التحديث..."
+ },
+ {
+  "label": "CREDITS:EALosAngelesFieldRecordingsTeam",
+  "text": "فريق التسجيلات الميدانية في EA Los Angeles"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceSeniorLead",
+  "text": "كبير قادة ضمان الجودة في EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceProjectLead",
+  "text": "قائد مشروع ضمان الجودة في EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonAssociateQualityAssuranceLeads",
+  "text": "القادة المساعدون لضمان الجودة في EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceSeniorTesters",
+  "text": "كبار مختبري ضمان الجودة في EA Tiburon"
+ },
+ {
+  "label": "CREDITS:TiburonQualityAssuranceTesters",
+  "text": "مختبرو ضمان الجودة في EA Tiburon"
+ },
+ {
+  "label": "CREDITS:EAUKAdditionalQualityAssurance",
+  "text": "ضمان جودة إضافي في EAUK"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestParticipants",
+  "text": "المشاركون في اختبار اللعب الجماعي"
+ },
+ {
+  "label": "CREDITS:FocusTesters",
+  "text": "مختبرو المجموعات المركزة"
+ },
+ {
+  "label": "CREDITS:NorthAmericaMarketingPartners",
+  "text": "شركاء التسويق في أمريكا الشمالية"
+ },
+ {
+  "label": "CREDITS:ManagingDirectorEurope",
+  "text": "المدير العام، أوروبا"
+ },
+ {
+  "label": "CREDITS:EuropeanMarketingPartners",
+  "text": "شركاء التسويق الأوروبيون"
+ },
+ {
+  "label": "CREDITS:AsiaPacificPresidentandCoach",
+  "text": "EA آسيا والمحيط الهادئ، الرئيس والمدرب"
+ },
+ {
+  "label": "CREDITS:AsiaPacificMarketingPartners",
+  "text": "شركاء التسويق في EA آسيا والمحيط الهادئ"
+ },
+ {
+  "label": "CREDITS:GamingCommunityPartners",
+  "text": "شركاء مجتمع اللاعبين"
+ },
+ {
+  "label": "CREDITS:EADevelopmentExecutives",
+  "text": "مسؤولو التطوير في EA"
+ },
+ {
+  "label": "CREDITS:SpecialThankstotheMaxiscrew",
+  "text": "شكر خاص لفريق Maxis"
+ },
+ {
+  "label": "CREDITS:VerySpecialThanks",
+  "text": "شكر خاص جدًا"
+ },
+ {
+  "label": "CREDITS:DevelopmentTitle",
+  "text": "طُوّرت Command & Conquer (TM) Generals Zero Hour"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam",
+  "text": "Electronic Arts Los Angeles"
+ },
+ {
+  "label": "CREDITS:ExecutiveInCharge",
+  "text": "المسؤول التنفيذي عن الإنتاج"
+ },
+ {
+  "label": "CREDITS:Producer",
+  "text": "المنتج"
+ },
+ {
+  "label": "CREDITS:LeadDesigner",
+  "text": "كبير المصممين"
+ },
+ {
+  "label": "CREDITS:TechnicalDirector",
+  "text": "المدير التقني"
+ },
+ {
+  "label": "CREDITS:ArtDirector",
+  "text": "المدير الفني"
+ },
+ {
+  "label": "CREDITS:ArtProducer",
+  "text": "منتج الفنون"
+ },
+ {
+  "label": "CREDITS:SeniorProducer",
+  "text": "كبير المنتجين"
+ },
+ {
+  "label": "CREDITS:AssociateProducers",
+  "text": "منتج مساعد"
+ },
+ {
+  "label": "CREDITS:MultiplayerTestProducer",
+  "text": "منتج اختبار اللعب الجماعي"
+ },
+ {
+  "label": "CREDITS:SeniorEngineers",
+  "text": "كبار المهندسين"
+ },
+ {
+  "label": "CREDITS:Engineers",
+  "text": "المهندسون"
+ },
+ {
+  "label": "CREDITS:AdditionalEngineering",
+  "text": "هندسة إضافية"
+ },
+ {
+  "label": "CREDITS:Designers",
+  "text": "المصممون"
+ },
+ {
+  "label": "CREDITS:AdditionalDesignInspirationandSupport",
+  "text": "تصميم إضافي وإلهام ودعم"
+ },
+ {
+  "label": "CREDITS:AdditionalDesign",
+  "text": "تصميم إضافي"
+ }
+]

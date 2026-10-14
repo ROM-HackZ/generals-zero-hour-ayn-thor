@@ -1,0 +1,802 @@
+[
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaInfantryHacker",
+  "text": "슈퍼 해커(&A)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildHacker",
+  "text": "스텔스 상태. 컴퓨터 바이러스로 적 건물과 차량을 무력화하거나 인터넷을 해킹해 돈을 훔칠 수 있습니다\n\n강함: 건물\n약함: 보병, 차량"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus",
+  "text": "슈퍼 로투스(&S)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost",
+  "text": "공격 전초기지(&O)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler",
+  "text": "돌격 병력 수송차(&A)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaVehicleHelix",
+  "text": "돌격 헬릭스(&X)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildHelix",
+  "text": "중량 돌격 수송기\n기지 방어 건물과 네이팜 폭탄을 업그레이드할 수 있습니다\n\n강함: 전차, 경차량\n약함: 미사일 보병, 대공 방어"
+ },
+ {
+  "label": "OBJECT:Infa_Helix",
+  "text": "돌격 헬릭스"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaScienceInfantryParadrop",
+  "text": "공중에서 미니거너를 투하합니다\n\n등급 1: 미니거너 5명\n등급 2: 미니거너 10명\n등급 3: 미니거너 15명\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeSuicideBomb",
+  "text": "폭파 능력(&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeSuicideBomb",
+  "text": "모든 유닛과\n기지 방어가\n폭파 능력을 쓸 수 있게 합니다"
+ },
+ {
+  "label": "OBJECT:MiniGunner",
+  "text": "미니거너"
+ },
+ {
+  "label": "OBJECT:AirF_Chinook",
+  "text": "전투 치누크"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ConstructAmericaVehicleChinook",
+  "text": "전투 치누크(&T)"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABUildChinook",
+  "text": "돌격 수송 헬기. 보급품을 모읍니다. 레인저와 함께 강습 투입 공격을 합니다"
+ },
+ {
+  "label": "CONTROLBAR:SuicideAttack",
+  "text": "자폭(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASuicideAttack",
+  "text": "폭파"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks",
+  "text": "황제와 배틀마스터 속도 +25%"
+ },
+ {
+  "label": "CONTROLBAR:Boss_ToolTipUSABuildPowerPlant",
+  "text": "기지에 전력을 공급합니다\n\n공급 전력: 5"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildListeningOutpost",
+  "text": "돌격 수송 차량. 스텔스 유닛을 탐지합니다\n\n강함: 보병, 건물\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ConstructChinaVehicleListeningOutpost",
+  "text": "돌격 청음 전초기지(&S)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildTroopCrawler",
+  "text": "돌격 수송 차량. 미니거너 8명이 함께 나옵니다. 스텔스 유닛을 탐지합니다\n\n강함: 보병, 건물\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildListeningOutpost",
+  "text": "수송 차량. 보병 8명을 태울 수 있습니다. 스텔스 유닛을 탐지합니다\n\n강함: 보병, 건물\n약함: 전차, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ConstructChinaBunker",
+  "text": "강화 벙커(&K)"
+ },
+ {
+  "label": "CONTROLBAR:Infa_ToolTipChinaBuildBunker",
+  "text": "중국 병사 10명을 수용할 수 있습니다\n지뢰밭 업그레이드 포함"
+ },
+ {
+  "label": "OBJECT:Infa_Bunker",
+  "text": "요새화 벙커"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAScienceSneakAttack",
+  "text": "병력이 맵 어디에나 터널을 만들 수 있습니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLAInfantryRebel",
+  "text": "독소 반군(&B)"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildRebel",
+  "text": "독소 물줄기를 발사합니다\n강함: 보병\n약함: 전차, 경차량"
+ },
+ {
+  "label": "OBJECT:Chem_Rebel",
+  "text": "독소 반군"
+ },
+ {
+  "label": "OBJECT:Chem_Terrorist",
+  "text": "독소 테러리스트"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLAInfantryTerrorist",
+  "text": "독소 테러리스트(&T)"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildTerrorist",
+  "text": "독소 구름 속에서 폭발하는 자폭병"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ConstructGLATunnelNetwork",
+  "text": "독소 네트워크(&N)"
+ },
+ {
+  "label": "OBJECT:Chem_TunnelNetwork",
+  "text": "독소 네트워크"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLABuildTunnelNetwork",
+  "text": "기지 방어 및 지하 터널. 독소 물줄기를 발사합니다. 유닛은 터널 네트워크에 들어가 다른 터널 네트워크로 나올 수 있습니다"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeStealthComanche",
+  "text": "스텔스 업그레이드(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAirFUpgradeComancheStealth",
+  "text": "코만치가 스텔스 상태가 됩니다"
+ },
+ {
+  "label": "OBJECT:Entrance",
+  "text": "입구"
+ },
+ {
+  "label": "CONTROLBAR:Boss_TooltipChinaUpgradeNationalism",
+  "text": "탱크 헌터의 무리 보너스 +25%"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildPowerPlant",
+  "text": "미군 기지에 전력을 공급합니다\n\n공급 전력: 8"
+ },
+ {
+  "label": "GUI:DoubleClickAttackMove",
+  "text": "더블클릭 경계"
+ },
+ {
+  "label": "TOOLTIP:DoubleClickAttackMove",
+  "text": "행동 버튼을 더블클릭하면 유닛이 이동한 뒤 목적지 지역을 경계합니다"
+ },
+ {
+  "label": "DIALOGEVENT:01_AllCheerSoundSubtitle",
+  "text": "<환호>"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery",
+  "text": "대지 및 대공 방어. 근처 포탑에 적 위치를 전달할 수 있습니다\n\n필요 전력: 5"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ConstructAmericaPatriotBattery",
+  "text": "레이저 방어 포탑(&T)"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ConstructAmericaTankCrusader",
+  "text": "레이저 전차(&T)"
+ },
+ {
+  "label": "OBJECT:Lazr_Tank",
+  "text": "레이저 전차"
+ },
+ {
+  "label": "CONTROLBAR:Lazr_ToolTipUSABuildCrusader",
+  "text": "강함: 차량, 건물\n약함: 항공기, 미사일 보병"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildEmperor",
+  "text": "강함: 차량, 건물\n약함: 로켓, 항공기"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSAScienceSpectreGunship",
+  "text": "스펙터 건쉽이 전장을 선회하며 곡사포와 개틀링 캐논으로 적을 두들깁니다\n\n등급 1: 10초\n등급 2: 15초\n등급 3: 30초\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "OBJECT:ValveStation",
+  "text": "밸브 스테이션"
+ },
+ {
+  "label": "HELP:Hijacker-01",
+  "text": "힌트:\n하이재커를 적 차량에 들여보내 훔치십시오"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint08",
+  "text": "힌트:\n화력 기지를 지어 기지 방어를 도우십시오"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint09",
+  "text": "수신 통신:\nCIA 요원 발견"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint10",
+  "text": "힌트:\n유전에 방어 시설을 지어 유정을 보호하십시오"
+ },
+ {
+  "label": "MAP:MD-USA04_Hint11",
+  "text": "수신 통신:\nGLA 라디오 방송국이 파괴되었습니다"
+ },
+ {
+  "label": "MAP:MD-USA06Warning17",
+  "text": "경고:\n스랙스 박사는 기습 터널 네트워크로\n적을 기습하는 것으로 알려져 있습니다"
+ },
+ {
+  "label": "MD_GLA05-MilitaryBriefing:String_1",
+  "text": "\n중국 기지에 대한 공격을 지금 시작한다\n놈들의 기지는 곧 우리 것이 된다"
+ },
+ {
+  "label": "MAP:MD_CHI03-Title-01",
+  "text": "독일, 코부르크\n'해방'"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-01",
+  "text": "임무 목표:\nGLA 동상을 파괴해 도시를 해방하십시오\n성공할 때까지 국제 여론이 떨어집니다"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-02",
+  "text": "수신 통신:\n국제 여론이 0이 되면 패배합니다"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-03",
+  "text": "수신 통신:\nGLA 동상을 파괴해 국제 여론을 높이십시오"
+ },
+ {
+  "label": "MAP:MD_CHI03-Info-MissionObjective-10",
+  "text": "수신 통신:\n도시를 해방했습니다\n이제 강 북쪽의 GLA 기지를 섬멸하십시오"
+ },
+ {
+  "label": "MAP:MD_CHI03-Event-Built-SpeakerTower-01",
+  "text": "수신 통신:\n이 확성기 탑이 국제 여론을 높여 줍니다"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaUraniumShells",
+  "text": "배틀마스터와 황제의 포탄 피해 +25%"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBuggyAmmo",
+  "text": "로켓 버기 탄약 +100%"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLAUpgradeAPBullets",
+  "text": "총알을 쏘는 유닛의 피해 +25%"
+ },
+ {
+  "label": "GUI:BioFeatures_USA",
+  "text": "MOAB\n대응 장비\n벙커 버스터\n헬파이어 드론\n스펙터 건쉽\n센트리 드론\n마이크로웨이브 전차\n어벤저\n화력 기지"
+ },
+ {
+  "label": "GUI:BioFeatures_GLA",
+  "text": "기습\nGPS 교란기\n파괴 공작원\n부비 트랩\n위장망\n가짜 건물\n강화 건물\n전투 오토바이\n배틀 버스"
+ },
+ {
+  "label": "GUI:BioFeatures_China",
+  "text": "헬릭스\n청음 전초기지\n중성자 지뢰\n광란\n인터넷 센터\n융단 폭격기\nECM 전차\n"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos0",
+  "text": "킹 랩터\n전투 치누크\n레이저 점 방어\n스텔스 코만치 업그레이드\n항공기 비용 감소\n낮은 계급에서 스펙터 건쉽\n스텔스 전투기로 시작\n전차 없음"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos1",
+  "text": "독소 반군\n독소 네트워크\n독소 테러리스트\n탄저균 감마\n전차가 독소탄으로 시작\n독소가 탄저균 베타로 시작"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos2",
+  "text": "전차가 우라늄탄으로 시작\n전술 핵 MiG\n동위원소 안정화 업그레이드\n고급 원자로\n핵 폭격기\n핵 캐논으로 시작"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos3",
+  "text": "오로라 알파\nEMP 패트리어트 시스템\n고급 제어봉\n입자 캐논 비용 감소\n차량 비용 증가\n전차 없음"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos4",
+  "text": "황제 전차\n전차 투하\n모든 전차가 베테랑으로 시작\n전차 비용 감소\n항공기 비용 증가\n핵 캐논, 인페르노 캐논 없음"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos5",
+  "text": "레이저 전차\n레이저 방어 포탑\n어벤저 비용 감소\n고급 상온 핵융합로\n토마호크 미사일 발사대 없음"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos6",
+  "text": "모든 건물에 위장망 가능\n위장 반군\n방어 시설이 위장망으로 시작\n하이재커로 시작\n하이재커 항상 은폐\nGPS 교란기 조기 획득\nGPS 교란을 더 자주 사용"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos7",
+  "text": "돌격 병력 수송차\n돌격 헬릭스\n공격 전초기지\n강화 벙커\n미니거너\n블랙 로투스 해킹 속도 증가\n해커 해킹 속도 증가\n미니거너 공수 강하\n모든 보병이 베테랑으로 시작"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos8",
+  "text": "고급 폭파 함정\n자폭 폭탄 업그레이드\n테러리스트 피해 증가\n부비 트랩으로 시작\n전투 오토바이에 테러리스트 탑승\n위장 유닛 없음\n폭탄 트럭 비용 감소"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos9",
+  "text": "최고 중의 최고\n모든 영웅\n모든 초강력 무기\n다양한 장군 능력\n모든 진영의 유닛\n고급 방어\n"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos10",
+  "text": "미구현"
+ },
+ {
+  "label": "GUI:BioFeatures_Pos11",
+  "text": "미구현"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_AirTrafficControl01Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth107Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth105Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "DIALOGEVENT:Taunts_Stealth106Subtitle",
+  "text": "***"
+ },
+ {
+  "label": "GUI:GroupRoom14",
+  "text": "기본 진영만"
+ },
+ {
+  "label": "OBJECT:MissileSilo",
+  "text": "미사일 격납고"
+ },
+ {
+  "label": "OBJECT:ScudLauncherHiDef",
+  "text": "스커드 런처"
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainParticleBones",
+  "text": "."
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainScrollingSnow",
+  "text": "눈"
+ },
+ {
+  "label": "OBJECT:CINE_SnowyMountainStatic",
+  "text": "산"
+ },
+ {
+  "label": "OBJECT:CINE_TreeBirds",
+  "text": "새 떼"
+ },
+ {
+  "label": "TOOLTIP:NoUserMaps",
+  "text": "통계 기록 게임에서는 비공식 맵을 쓸 수 없습니다"
+ },
+ {
+  "label": "GUI:FireWallPort",
+  "text": "방화벽 포트 재정의:"
+ },
+ {
+  "label": "TOOLTIP:FireWallPort",
+  "text": "방화벽 포트 번호 열기"
+ },
+ {
+  "label": "CONTROLBAR:Tank_TooltipUpgradeChinaOverlordGattlingCannon",
+  "text": "이 황제에 개틀링 캐논을 설치합니다"
+ },
+ {
+  "label": "OBJECT:Tank_Overlord",
+  "text": "황제"
+ },
+ {
+  "label": "GUI:USAAllies",
+  "text": "미국 동맹"
+ },
+ {
+  "label": "GUI:USAEnemies",
+  "text": "미국 적"
+ },
+ {
+  "label": "OBJECT:BigNuclearReactor",
+  "text": "원자로"
+ },
+ {
+  "label": "CONTROLBAR:SabotageBuilding",
+  "text": "건물 파괴 공작(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASabotageBuilding",
+  "text": "적 건물을 일시적으로 무력화할 수 있습니다\n\n강함: 적 건물\n약함: 보병, 정찰병"
+ },
+ {
+  "label": "SCIENCE:Nuke_ChinaCarpetBomb",
+  "text": "핵 폭격기"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ConstructGLADemoTrap",
+  "text": "고급 폭파 함정(&D)"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ConstructChinaPowerPlant",
+  "text": "고급 원자로(&R)"
+ },
+ {
+  "label": "CONTROLBAR:SupW_UpgradeAmericaAdvancedControlRods",
+  "text": "고급 제어봉(&C)"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_CarpetBomb",
+  "text": "핵 폭격기(&K)"
+ },
+ {
+  "label": "OBJECT:Nuke_NuclearReactor",
+  "text": "고급 원자로"
+ },
+ {
+  "label": "OBJECT:Demo_DemoTrap",
+  "text": "고급 폭파 함정"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaBuildPowerPlant",
+  "text": "고급 원자로. 과부하로 전력을 더 공급할 수 있습니다\n\n공급 전력: 18"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_ToolTipChinaScienceCarpetBomb",
+  "text": "중폭격기를 불러 전술 핵으로 지역을 융단 폭격합니다\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CONTROLBAR:Nuke_TooltipCarpetBomb",
+  "text": "목표 지역에 핵 공격\n\n재사용 대기시간: 3:00"
+ },
+ {
+  "label": "GUI:FastForwardInstructions",
+  "text": "F를 눌러 빨리 감기 전환"
+ },
+ {
+  "label": "GUI:FF_ON",
+  "text": "빨리 감기 켜짐"
+ },
+ {
+  "label": "GUI:FF_OFF",
+  "text": "빨리 감기 꺼짐"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDropShort",
+  "text": "전단 살포"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttackShort",
+  "text": "기습"
+ },
+ {
+  "label": "CONTROLBAR:TankParadropShort",
+  "text": "전차 투하"
+ },
+ {
+  "label": "OBJECT:Nuke_CarpetBomb",
+  "text": "핵 폭격기"
+ },
+ {
+  "label": "CONTROLBAR:Slth_ConstructGLAInfantryRebel",
+  "text": "스텔스 반군(&B)"
+ },
+ {
+  "label": "GUI:AdjustGameSpeed",
+  "text": "게임 속도 조절"
+ },
+ {
+  "label": "GUI:SkirmishLower",
+  "text": "스커미시"
+ },
+ {
+  "label": "GUI:Refresh",
+  "text": "새로 고침"
+ },
+ {
+  "label": "CONTROLBAR:MOAB",
+  "text": "모든 폭탄의 어머니(&B)"
+ },
+ {
+  "label": "MAP:TournamentPlains",
+  "text": "Tournament Plains"
+ },
+ {
+  "label": "MAP:DarkNight",
+  "text": "Dark Night"
+ },
+ {
+  "label": "MAP:TournamentUrban",
+  "text": "Tournament Urban"
+ },
+ {
+  "label": "MAP:TwoRoads",
+  "text": "Two Roads"
+ },
+ {
+  "label": "CONTROLBAR:Chem_TooltipFireRebelAmbush",
+  "text": "독소 반군을 만듭니다\n\n재사용 대기시간: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABuildAurora",
+  "text": "초음속 공격 중에는 적 공격에 면역입니다. 초음속 공격 후 속도가 50%로 줄어듭니다\n\n강함: 건물\n약함: 전투기, 대공 유닛"
+ },
+ {
+  "label": "CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush",
+  "text": "어디서든 독소 반군 기습 매복을 일으킵니다\n\n등급 1: 독소 반군 4명\n등급 2: 독소 반군 8명\n등급 3: 독소 반군 16명\n\n사용 위치: 사령부"
+ },
+ {
+  "label": "CREDITS:PackagingProjectManager",
+  "text": "패키징 프로젝트 매니저"
+ },
+ {
+  "label": "CREDITS:PackagingDesign",
+  "text": "패키징 디자인"
+ },
+ {
+  "label": "CREDITS:DocumentationLayout",
+  "text": "문서 레이아웃"
+ },
+ {
+  "label": "CREDITS:DocumentationEditor",
+  "text": "문서 편집"
+ },
+ {
+  "label": "CREDITS:Writer",
+  "text": "작가"
+ },
+ {
+  "label": "CREDITS:Studio",
+  "text": "스튜디오"
+ },
+ {
+  "label": "CREDITS:ChineseLanguageTester",
+  "text": "중국어 테스터"
+ },
+ {
+  "label": "CREDITS:Marketing",
+  "text": "마케팅"
+ },
+ {
+  "label": "CREDITS:QuotedTraducoes",
+  "text": "Quoted Traduções"
+ },
+ {
+  "label": "CREDITS:ClementDuval",
+  "text": "Clément Duval"
+ },
+ {
+  "label": "CREDITS:JoseLuisRovira",
+  "text": "José Luis Rovira"
+ },
+ {
+  "label": "CREDITS:ExecutiveProducer",
+  "text": "총괄 프로듀서"
+ },
+ {
+  "label": "CREDITS:TechnicalDirection",
+  "text": "기술 감독"
+ },
+ {
+  "label": "CREDITS:LeadArtists",
+  "text": "리드 아티스트"
+ },
+ {
+  "label": "CREDITS:QualityAssurance",
+  "text": "품질 보증"
+ },
+ {
+  "label": "CREDITS:TestAnalysts",
+  "text": "테스트 분석가"
+ },
+ {
+  "label": "CREDITS:TiburonAdditionalQualityAssurance",
+  "text": "Tiburon 추가 품질 보증"
+ },
+ {
+  "label": "CREDITS:LocalizationBrazil",
+  "text": "브라질 현지화"
+ },
+ {
+  "label": "CREDITS:TranslationServices",
+  "text": "번역 서비스"
+ },
+ {
+  "label": "CREDITS:TranslationCoordinator",
+  "text": "번역 코디네이터"
+ },
+ {
+  "label": "CREDITS:LTCoordinator",
+  "text": "LT 코디네이터"
+ },
+ {
+  "label": "CREDITS:RecordingStudio",
+  "text": "녹음 스튜디오"
+ },
+ {
+  "label": "CREDITS:EAWorldwideDevelopmentExecutives",
+  "text": "EA 전 세계 개발 임원"
+ },
+ {
+  "label": "CREDITS:SpecialThanks",
+  "text": "특별히 감사드립니다"
+ },
+ {
+  "label": "CREDITS:EAPacificDevTeam3",
+  "text": "개발 팀"
+ },
+ {
+  "label": "CREDITS:NACustomerQualityControl",
+  "text": "북미 고객 품질 관리"
+ },
+ {
+  "label": "CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods",
+  "text": "원자로 전력이 300% 늘어납니다"
+ },
+ {
+  "label": "CONTROLBAR:AirF_ToolTipUSABuildStealthFighter",
+  "text": "이동 중 스텔스\n점 방어 레이저 장착\n\n강함: 적 기지 방어\n약함: 적 전투기"
+ },
+ {
+  "label": "GUI:RetaliationTitle",
+  "text": "반격"
+ },
+ {
+  "label": "GUI:Retaliation",
+  "text": "이 버튼을 끄면 유닛이 공격해 오는 적에게 자동으로 반격하지 않습니다"
+ },
+ {
+  "label": "CREDITS:LocalizationChinese",
+  "text": "중국어 현지화"
+ },
+ {
+  "label": "MAP:Breakdown",
+  "text": "Breakdown"
+ },
+ {
+  "label": "MAP:BulletMassacre",
+  "text": "Bullet Massacre"
+ },
+ {
+  "label": "MAP:CarnageCityLimits",
+  "text": "Carnage City Limits"
+ },
+ {
+  "label": "MAP:Cityscape",
+  "text": "Cityscape"
+ },
+ {
+  "label": "MAP:CivilUnrest",
+  "text": "Civil Unrest"
+ },
+ {
+  "label": "MAP:CottageCheese",
+  "text": "Cottage Cheese"
+ },
+ {
+  "label": "MAP:DeathValley",
+  "text": "Death Valley"
+ },
+ {
+  "label": "MAP:DogsOfWar",
+  "text": "Dogs of War"
+ },
+ {
+  "label": "MAP:DoorToDoor",
+  "text": "Door to Door"
+ },
+ {
+  "label": "MAP:FarmersFrenzy",
+  "text": "Farmers Frenzy"
+ },
+ {
+  "label": "MAP:Firestorm",
+  "text": "Firestorm"
+ },
+ {
+  "label": "MAP:FlakAttack",
+  "text": "Flak Attack"
+ },
+ {
+  "label": "MAP:FlankTown",
+  "text": "Flank Town"
+ },
+ {
+  "label": "MAP:Flashbang",
+  "text": "Flash Bang"
+ },
+ {
+  "label": "MAP:FoxHunt",
+  "text": "Fox Hunt"
+ },
+ {
+  "label": "MAP:GhostTown",
+  "text": "Ghost Town"
+ },
+ {
+  "label": "MAP:HighRoad",
+  "text": "High Road"
+ },
+ {
+  "label": "MAP:HighlandHunt",
+  "text": "Highland Hunt"
+ },
+ {
+  "label": "MAP:HostileDawn",
+  "text": "Hostile Dawn"
+ },
+ {
+  "label": "MAP:IslandInTheZone",
+  "text": "Island in the Zone"
+ },
+ {
+  "label": "MAP:JungleRebellion",
+  "text": "Jungle Rebellion"
+ },
+ {
+  "label": "MAP:LARiot",
+  "text": "L.A. Riot"
+ },
+ {
+  "label": "MAP:Liberation",
+  "text": "Liberation"
+ },
+ {
+  "label": "MAP:LongNight",
+  "text": "Long Night"
+ },
+ {
+  "label": "MAP:ManicAggression",
+  "text": "Manic Aggression"
+ },
+ {
+  "label": "MAP:Marshland",
+  "text": "Marshland"
+ },
+ {
+  "label": "MAP:Mirage",
+  "text": "Mirage"
+ },
+ {
+  "label": "MAP:PanicDemise",
+  "text": "Panic Demise"
+ },
+ {
+  "label": "MAP:PowerPlay",
+  "text": "Power Play"
+ },
+ {
+  "label": "MAP:RedRock",
+  "text": "Red Rock"
+ },
+ {
+  "label": "MAP:RubbleTown",
+  "text": "Rubble Town"
+ },
+ {
+  "label": "MAP:SeasideMutiny",
+  "text": "Seaside Mutiny"
+ },
+ {
+  "label": "MAP:ShellShocker",
+  "text": "Shell Shocker"
+ },
+ {
+  "label": "MAP:Shellshock",
+  "text": "Shellshock"
+ },
+ {
+  "label": "MAP:ShockAndAwe",
+  "text": "Shock and Awe"
+ },
+ {
+  "label": "MAP:Shockwave",
+  "text": "Shockwave"
+ }
+]

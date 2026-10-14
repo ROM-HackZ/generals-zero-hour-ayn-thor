@@ -1,0 +1,802 @@
+[
+ {
+  "label": "DIALOGEVENT:EvaGLA_NuclearMissileReadySubtitle",
+  "text": "*صاروخنا النووي جاهز للإطلاق"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures01Subtitle",
+  "text": "*أيها الجنرال، احذر أن تُدمَّر المنشآت المدنية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionCivilianStructures02Subtitle",
+  "text": "*تدمير المنشآت المدنية سيضر برأي العالم فينا!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStatuesSubtitle",
+  "text": "*دمّر تماثيل جيش التحرير العالمي لتحسين الرأي العام الدولي يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyStructuresSubtitle",
+  "text": "*سيدي، تدمير منشآت العدو سيحسّن رأي العالم فينا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionDestroyTroopsSubtitle",
+  "text": "*دمّر المزيد من قوات العدو لتحسين الرأي العام الدولي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionFallingSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا يتراجع!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا ينخفض"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowCriticalSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا في مستوى حرج!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionLowVerySubtitle",
+  "text": "*الرأي العام الدولي تجاهنا منخفض جدًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionProtectCivilianSubtitle",
+  "text": "*احمِ الممتلكات المدنية من الأذى"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_OpinionRisingSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا يتحسن!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonDetectedAllySubtitle",
+  "text": "*بنى حليفنا مدفع جسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*حليفنا يستخدم مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*جارٍ إطلاق مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ParticleCannonReadySubtitle",
+  "text": "*مدفع الجسيمات التابع لنا جاهز"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*جاء مزيد من المحاربين لنجدتنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormDetectedAllySubtitle",
+  "text": "*بنى حليفنا عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedAllySubtitle",
+  "text": "*أطلق حليفنا عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormLaunchedOursSubtitle",
+  "text": "*جارٍ إطلاق عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_ScudStormReadySubtitle",
+  "text": "*يمكننا الآن استخدام عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SelectTargetSubtitle",
+  "text": "*أين نضرب؟"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_SneakAttackLaunchedSubtitle",
+  "text": "*أيها الجنرال، عدونا يستخدم الهجوم المباغت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UnitLostSubtitle",
+  "text": "*سقط أحد المحاربين"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_UpgradeCompleteSubtitle",
+  "text": "*اكتملت الترقية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VehicleStolenSubtitle",
+  "text": "*سرقوا مركبة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaGLA_VictorySubtitle",
+  "text": "*لقد انتصرنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_AllyUnderAttackSubtitle",
+  "text": "*حليفنا يتعرض للهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BaseDefensesOffLineSubtitle",
+  "text": "*دفاعات القاعدة متوقفة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BeaconDetectedSubtitle",
+  "text": "*رُصدت منارة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusEnemySubtitle",
+  "text": "*رُصدت اللوتس الأسود التابعة للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BlackLotusOursSubtitle",
+  "text": "*رُصدت اللوتس الأسود التابعة لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingBeingCapturedSubtitle",
+  "text": "*يجري الاستيلاء على مبنى لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingDisabledSubtitle",
+  "text": "*المبنى متوقف"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingEnabledSubtitle",
+  "text": "*عاد المبنى إلى العمل"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_BuildingStolenSubtitle",
+  "text": "*سُرق مبنى"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_CashStolenSubtitle",
+  "text": "*أيها الجنرال، إنهم يسرقون أموالنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonEnemySubtitle",
+  "text": "*رُصد العقيد بيرتون التابع للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ColonelBurtonOursSubtitle",
+  "text": "*رُصد العقيد بيرتون التابع لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DefeatSubtitle",
+  "text": "*لقد هُزمت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedNukeSubtitle",
+  "text": "*تحذير: رُصدت صومعة صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedParticleCannonSubtitle",
+  "text": "*تحذير: رُصد مدفع جسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_DetectedScudStormSubtitle",
+  "text": "*تحذير: رُصدت عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsReceivedSubtitle",
+  "text": "*تلقينا أموالًا من حليفنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedSubtitle",
+  "text": "*طلبت أموالًا من حليفك"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsRequestedAllySubtitle",
+  "text": "*حليفك يطلب أموالًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_FundsTransferredSubtitle",
+  "text": "*حوّلنا أموالًا إلى حليفنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GeneralLevelUpSubtitle",
+  "text": "*تهانينا أيها الجنرال. لقد رُقّيت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_GPSScramblerLaunchedSubtitle",
+  "text": "*تحذير. رُصد مشوّش GPS"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredEnemySubtitle",
+  "text": "*اكتُشف بطل للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_HeroDiscoveredOursSubtitle",
+  "text": "*اكتُشف أحد أبطالنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingAnthraxSubtitle",
+  "text": "*رُصدت قنبلة جمرة خبيثة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingDaisyCutterSubtitle",
+  "text": "*رُصدت قنبلة ديزي كتر"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingEmpPulseSubtitle",
+  "text": "*رُصدت قنبلة نبضة كهرومغناطيسية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_IncomingFuelAirBombSubtitle",
+  "text": "*رُصدت قنبلة وقود جوي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_InsufficientFundsSubtitle",
+  "text": "*الأموال غير كافية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellEnemySubtitle",
+  "text": "*رُصد جارمن كيل التابع للعدو"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_JarmenKellOursSubtitle",
+  "text": "*رُصد جارمن كيل التابع لنا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaserDefenseSpeechSubtitle",
+  "text": "*أيها الجنرال، لدى خصمنا معقل في وسط المدينة. نظامه الدفاعي الليزري مدمّر، لكنه يتطلب كثيرًا من الطاقة، وسيضطر إلى تحويل طاقته إلى نقطة دفاع واحدة في كل مرة. استغل ذلك لصالحك"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedNukeSubtitle",
+  "text": "*تحذير: أُطلق صاروخ نووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedParticleCannonSubtitle",
+  "text": "*تحذير: فُعّل مدفع جسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LaunchedScudStormSubtitle",
+  "text": "*تحذير: أُطلقت عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_LowPowerSubtitle",
+  "text": "*طاقة منخفضة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileDetectedAllySubtitle",
+  "text": "*رُصدت صومعة نووية حليفة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedAllySubtitle",
+  "text": "*أُطلق صاروخ نووي حليف"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileLaunchedOursSubtitle",
+  "text": "*أُطلق الصاروخ النووي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_NuclearMissileReadySubtitle",
+  "text": "*الصاروخ النووي جاهز"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures01Subtitle",
+  "text": "*أيها الجنرال، احذر أن تُدمَّر المنشآت المدنية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionCivilianStructures02Subtitle",
+  "text": "*تدمير المنشآت المدنية سيضر برأي العالم فينا!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStatuesSubtitle",
+  "text": "*دمّر تماثيل جيش التحرير العالمي لتحسين الرأي العام الدولي يا سيدي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyStructuresSubtitle",
+  "text": "*سيدي، تدمير منشآت العدو سيحسّن رأي العالم فينا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionDestroyTroopsSubtitle",
+  "text": "*دمّر المزيد من قوات العدو لتحسين الرأي العام الدولي"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionFallingSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا يتراجع!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا ينخفض"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowCriticalSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا في مستوى حرج!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionLowVerySubtitle",
+  "text": "*الرأي العام الدولي تجاهنا منخفض جدًا"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionProtectCivilianSubtitle",
+  "text": "*احمِ الممتلكات المدنية من الأذى"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_OpinionRisingSubtitle",
+  "text": "*الرأي العام الدولي تجاهنا يتحسن!"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonDetectedAllySubtitle",
+  "text": "*رُصد مدفع جسيمات حليف"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedAllySubtitle",
+  "text": "*فُعّل مدفع جسيمات حليف"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonLaunchedOursSubtitle",
+  "text": "*فُعّل مدفع الجسيمات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ParticleCannonReadySubtitle",
+  "text": "*مدفع الجسيمات جاهز"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ReinforcementsHaveArrivedSubtitle",
+  "text": "*وصلت التعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormDetectedAllySubtitle",
+  "text": "*رُصدت عاصفة سكود حليفة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedAllySubtitle",
+  "text": "*أُطلقت عاصفة سكود حليفة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormLaunchedOursSubtitle",
+  "text": "*أُطلقت عاصفة سكود"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_ScudStormReadySubtitle",
+  "text": "*عاصفة سكود جاهزة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SelectTargetSubtitle",
+  "text": "*اختر الهدف"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_SneakAttackLaunchedSubtitle",
+  "text": "*تحذير. رُصد هجوم مباغت"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UnitLostSubtitle",
+  "text": "*فُقدت وحدة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeCompleteSubtitle",
+  "text": "*اكتملت الترقية"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodSubtitle",
+  "text": "*اكتملت ترقية قضبان التحكم"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeControlRodAdvancedSubtitle",
+  "text": "*اكتملت ترقية قضبان التحكم المتطورة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeMoabSubtitle",
+  "text": "*اكتملت ترقية أم القنابل"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_UpgradeSentryDroneSubtitle",
+  "text": "*اكتملت ترقية طائرة الحراسة المسيّرة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VehicleStolenSubtitle",
+  "text": "*سُرقت مركبة"
+ },
+ {
+  "label": "DIALOGEVENT:EvaUSA_VictorySubtitle",
+  "text": "*لقد انتصرت"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf01Subtitle",
+  "text": "*أيها الجنرال، تمكّن جيش التحرير العالمي من هزيمة القوات الأمريكية في هذه المنطقة. شننّا هجومًا مضادًا مدمّرًا، لكنهم ما زالوا أحياء كالصراصير"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf02Subtitle",
+  "text": "*حتى الآن يعيد الناجون من جيش التحرير العالمي بناء أنفسهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf03Subtitle",
+  "text": "*للقضاء على جيش التحرير العالمي نهائيًا يجب أن نرسل قواتنا ونقتلعهم من كل زاوية مظلمة يختبئون فيها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf04Subtitle",
+  "text": "*أيها الجنرال، مواقع التنصت الجديدة لدينا متمركزة في المنطقة، وهي تحت تصرفك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xBrf05Subtitle",
+  "text": "*موقع التنصت نفسه غير مسلح، لكن ركابه يستطيعون إطلاق النار على الأعداء الذين يقتربون كثيرًا. ستجد أن مدى رؤيته البعيد وقدرته على التخفي يعززان وعيك بساحة المعركة كثيرًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat01Subtitle",
+  "text": "*لن يتسلل أي عنصر من جيش التحرير العالمي عبر حاميتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat02Subtitle",
+  "text": "*جرارات السموم! يحاولون تسميمنا جميعًا... نحتاج إلى الدعم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat03Subtitle",
+  "text": "*انظروا... أبراج نفط... هل نستولي عليها؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat04Subtitle",
+  "text": "*جيش التحرير العالمي في بيتك؟ القليل من النار... ولا مزيد من جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat05Subtitle",
+  "text": "*جيش التحرير العالمي يعيد البناء هناك... استعدوا للهجوم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xChat06Subtitle",
+  "text": "*سننتصر اليوم... الجميع إلى الأمام"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01aSubtitle",
+  "text": "*لم أظن أن الولايات المتحدة ستُهزم بهذه السهولة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01bSubtitle",
+  "text": "*لا أفهم لماذا سمحت الولايات المتحدة بحدوث هذا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01cSubtitle",
+  "text": "*لا يمكن السكوت على هذا. الصين ستصحح الأمور"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin01dSubtitle",
+  "text": "*استخدام جيش التحرير العالمي الغادر لمواردنا ضد الأمريكيين سبّب إحراجًا كبيرًا للصين. يجب أن يدفعوا ثمن وقاحتهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin02Subtitle",
+  "text": "*الصواريخ جاهزة للإطلاق... بدأ العد التنازلي الأخير"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin03Subtitle",
+  "text": "*3... 2... 1... انطلقت الصواريخ"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin04Subtitle",
+  "text": "*يظنون أنهم انتصروا، لكنهم يحتفلون قبل الأوان"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin05Subtitle",
+  "text": "*إنه جميل حين يُستخدم للأسباب الصحيحة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin06Subtitle",
+  "text": "*الناجون من جيش التحرير العالمي يفرّون إلى البلدة للاحتماء... يجب إيقافهم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin07Subtitle",
+  "text": "*نحن في مواقعنا... أبواب مخزن القنابل مفتوحة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xCin08Subtitle",
+  "text": "*رصدنا ناجين. سيكون الهجوم البري ضروريًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO01Subtitle",
+  "text": "*أيها الجنرال، اجتاح جيش التحرير العالمي قاعدتنا السابقة في المنطقة. عليك بناء قاعدة جديدة قبل الاشتباك مع العدو"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO02Subtitle",
+  "text": "*أقترح أن تتحصن في عدد من المباني القريبة للدفاع عن قاعدتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO03Subtitle",
+  "text": "*أيها الجنرال، تحصّن جيش التحرير العالمي في عدة مبانٍ في أنحاء البلدة. ربما يمكنك استخدام دبابة تنين لتطهير تلك التحصينات"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO04Subtitle",
+  "text": "*أيها الجنرال، جيش التحرير العالمي يحرّك جرارات السموم نحو مبانينا المحصنة. إن هاجمت تلك الجرارات المباني فسيُقضى على كل من فيها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO05Subtitle",
+  "text": "*يستخدم جيش التحرير العالمي أبراج النفط هذه لتمويل قواته. يمكن لأحد جنود الحرس الأحمر الاستيلاء عليها، وستساعد عائداتها على هزيمة جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO06Subtitle",
+  "text": "*أيها الجنرال، هل من الحكمة تدمير أبراج النفط هذه؟ ستوفر لنا موارد قيّمة. يمكن لأحد جنود الحرس الأحمر الاستيلاء عليها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO07Subtitle",
+  "text": "*باغتّهم أيها الجنرال. يمكن لأحد جنود الحرس الأحمر الاستيلاء على مبانيهم قبل أن يتمكنوا من الرد"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO08Subtitle",
+  "text": "*بعد أن أعدت إنشاء قاعدة عملياتنا، حان الوقت لاقتلاع كل ما تبقى من قوات جيش التحرير العالمي في المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI01xXO09Subtitle",
+  "text": "*تهانينا أيها الجنرال. حرّرت البلدة من كل قوات جيش التحرير العالمي. حين تمحو قاعدتهم الأخيرة ستكتمل مهمتك"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi02Lin13Subtitle",
+  "text": "*انتهى التهديد الإرهابي. أحسنت أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01Subtitle",
+  "text": "*أيها الجنرال، يحاول جيش التحرير العالمي سرقة الرؤوس النووية المخزنة في هذه المنشأة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf01aSubtitle",
+  "text": "*أيها الجنرال، يحاول جيش التحرير العالمي تدمير محطتنا النووية الرئيسية"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf02Subtitle",
+  "text": "*صدّ جنودنا الشجعان هجومهم لكن بثمن باهظ، وما زال جيش التحرير العالمي هناك"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03Subtitle",
+  "text": "*عليك صد جيش التحرير العالمي وضمان حماية كل مخبأ من مخابئنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf03aSubtitle",
+  "text": "*عليك صد جيش التحرير العالمي لضمان عدم تدمير المنشأة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf04Subtitle",
+  "text": "*لدينا عدة تقنيات جديدة ستفيد مهمتك كثيرًا أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf05Subtitle",
+  "text": "*رُقّيت مدافعنا النووية لإطلاق قذائف نيوترونية. تقضي هذه القذائف الجديدة بفاعلية على الجنود وسائقي المركبات. وحين يزول الإشعاع يمكن لأحد جنود مشاتنا الاستيلاء على المركبات الناجية"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf06Subtitle",
+  "text": "*يمكن الآن ترقية مبانينا بألغام نيوترونية. تبقى فعّالة ضد المشاة، وتعطّل مركبات العدو مؤقتًا أيضًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07aSubtitle",
+  "text": "*أيها الجنرال، ستصل تعزيزاتك خلال 15 دقيقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07bSubtitle",
+  "text": "*أيها الجنرال، ستصل تعزيزاتك خلال 10 دقائق"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07cSubtitle",
+  "text": "*أيها الجنرال، ستصل تعزيزاتك خلال 5 دقائق"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xBrf07dSubtitle",
+  "text": "*أيها الجنرال، ستصل تعزيزاتك قريبًا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat01Subtitle",
+  "text": "*رُصدت قوات العدو. سنصدّهم"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat02Subtitle",
+  "text": "*نتعرض لإطلاق نار على الجناح الأيمن... نحتاج إلى دعم هنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat03Subtitle",
+  "text": "*إنهم خلفنا... وجّهوا كل النيران إلى الجنوب!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat04Subtitle",
+  "text": "*قاعدة جيش التحرير العالمي في المدى... جميع الفرق جاهزة للهجوم أيها الجنرال"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat05Subtitle",
+  "text": "*مبانٍ للعدو على تلك الهضبة. أعطِ الأمر أيها الجنرال وسنسحقها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat06Subtitle",
+  "text": "*احذروا جنود الآر بي جي! نحتاج إلى مساعدة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat07Subtitle",
+  "text": "*أيها الجنرال، نحن فوق منطقة الهدف الآن وبدأنا القصف"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat08Subtitle",
+  "text": "*نفرش لهم السجادة الحمراء... من القنابل. هههه"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat09Subtitle",
+  "text": "*دفاعات العدو الجوية كثيفة هنا... نتعرض لأضرار جسيمة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat10Subtitle",
+  "text": "*مواقع ستينغر ثبّتت علينا... نحن في ورطة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat11Subtitle",
+  "text": "*أوقفوا ذلك المتمرد، يحاول الاستيلاء على مخبئنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat12Subtitle",
+  "text": "*ليست باتل ماستر، لكنها ستفي بالغرض"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat13Subtitle",
+  "text": "*أفضّل دبابة الجاتلينج خاصتي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat14Subtitle",
+  "text": "*موجة أخرى من جيش التحرير العالمي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15Subtitle",
+  "text": "*يجب أن نحمي مخابئنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat15aSubtitle",
+  "text": "*يجب أن نحمي المفاعل النووي!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat16Subtitle",
+  "text": "*الآن سنريهم كيف تُهاجَم القواعد!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat17Subtitle",
+  "text": "*تعزيزات! سعداء برؤيتكم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xChat18Subtitle",
+  "text": "*نحن جاهزون لأوامرك أيها الجنرال. أين تحتاجنا؟"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01Subtitle",
+  "text": "*يجب أن نكون على حذر. تقول التقارير إن جيش التحرير العالمي قد يهاجم انتقامًا لدخولنا الحرب"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01aSubtitle",
+  "text": "*لا أشعر بالأمان وأنا أحرس هذه المحطة النووية"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01bSubtitle",
+  "text": "*نعم. ليتني التحقت بسلاح الجو بدلًا من هذا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01dSubtitle",
+  "text": "*لا شك أنهم لن يجرؤوا على مهاجمتنا هنا بعد انتصارنا الأخير"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin01cSubtitle",
+  "text": "*طعامهم أفضل بكثير. ويلبسون تلك الخوذ الأنيقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin02Subtitle",
+  "text": "*قوات جيش التحرير العالمي! نتعرض للهجوم!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin03Subtitle",
+  "text": "*إنهم في كل مكان! يجتاحوننا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04Subtitle",
+  "text": "*موجة أخرى! نحتاج إلى تعزيزات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04aSubtitle",
+  "text": "*موجة أخرى! معهم شاحنات مفخخة وإرهابيون! نحتاج إلى تعزيزات!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin04bSubtitle",
+  "text": "*موجة أخرى! يستخدمون تكتيكات انتحارية! أين تلك التعزيزات؟!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin05Subtitle",
+  "text": "*خسرنا المطار العسكري!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06Subtitle",
+  "text": "*يحاولون الوصول إلى مخابئ التخزين! احموها مهما كلّف الأمر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin06aSubtitle",
+  "text": "*يحاولون الوصول إلى المفاعل الرئيسي! احموه مهما كلّف الأمر!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin07Subtitle",
+  "text": "*مركز القيادة... استولوا على مركز القيادة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin08Subtitle",
+  "text": "*صمدنا... على القوات المتبقية أن تبلغ عن أوضاعها"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin09Subtitle",
+  "text": "*لم يبقَ الكثير. سنحتاج إلى تعزيزات"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xCin10Subtitle",
+  "text": "*وصلت الرسالة، لكن علينا الصمود حتى يصلوا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO01Subtitle",
+  "text": "*أيها الجنرال، وصلت تعزيزاتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02Subtitle",
+  "text": "*أيها الجنرال، قوات جيش التحرير العالمي تهاجم المخابئ"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO02aSubtitle",
+  "text": "*أيها الجنرال، قوات جيش التحرير العالمي تهاجم المحطة النووية!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO03Subtitle",
+  "text": "*يحاول جيش التحرير العالمي الاستيلاء على أحد مخابئنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04Subtitle",
+  "text": "*أيها الجنرال، هذا المخبأ متضرر بشدة. أقترح إصلاحه قبل هجوم آخر لـجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO04aSubtitle",
+  "text": "*أيها الجنرال، محطتنا النووية متضررة بشدة. أقترح إصلاحها قبل هجوم آخر لـجيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05Subtitle",
+  "text": "*أيها الجنرال، أضعف الهجوم الأخير عدة مخابئ بشدة. إن دُمّر أحدها فسيربح جيش التحرير العالمي هذه المواجهة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO05aSubtitle",
+  "text": "*أيها الجنرال، أضعف الهجوم الأخير المحطة النووية بشدة. إن دُمّرت فستفشل مهمتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06Subtitle",
+  "text": "*تحذير... قوات جيش التحرير العالمي تتحرك نحو المخابئ"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO06aSubtitle",
+  "text": "*تحذير... قوات جيش التحرير العالمي تتحرك نحو محطة الطاقة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO07Subtitle",
+  "text": "*أيها الجنرال، تواصلت مع أحد مواقع التجسس التابعة لنا. إنه يتعرض لهجوم من جيش التحرير العالمي. إن أنقذناه فسأتمكن من الاتصال بنظامه وسنستطيع استدعاء قاذفات القصف السجادي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO08Subtitle",
+  "text": "*أيها الجنرال، إن أمّنت موقع التجسس ذاك فستتمكن من توجيه غارات القصف السجادي على قوات جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI02xXO09Subtitle",
+  "text": "*أيها الجنرال، بعد وصول تعزيزاتنا حان وقت القضاء على جيش التحرير العالمي في هذه المنطقة"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat12Subtitle",
+  "text": "*إلى المعركة!"
+ },
+ {
+  "label": "DIALOGEVENT:MisChi03RedChat19Subtitle",
+  "text": "*أحضروا الدبابات! سوّوهم بالأرض!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf01Subtitle",
+  "text": "*تحياتي أيها القائد. بعد أن أحبطنا الهجوم المضاد لـجيش التحرير العالمي، حان الوقت لاستغلال أفضليتنا!"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf02Subtitle",
+  "text": "*يجب أن نحرر هذه البلدة من براثن جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf03Subtitle",
+  "text": "*توجد قاعدة لـجيش التحرير العالمي شديدة التحصين شمال النهر. يجب أن ندمّرها، لكنها لن تكون مهمة سهلة"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf04Subtitle",
+  "text": "*جذبت عملياتنا اهتمامًا كبيرًا من بقية العالم، وسنكون تحت المراقبة الدقيقة. كلما طالت هذه المعركة انخفض الرأي العام الدولي تجاهنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf05Subtitle",
+  "text": "*يجب تجنب إلحاق الضرر بالممتلكات المدنية. يجب أن تكون عمليتنا دقيقة وسريعة. تدمير قوات جيش التحرير العالمي سيرفع الرأي العام الدولي لصالحنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf09Subtitle",
+  "text": "*إن ارتفع الرأي العام الدولي تجاهنا بما يكفي، فقد ينضم أهل البلدة إلى قضيتنا"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xBrf10Subtitle",
+  "text": "*عندها سيسهل سحق دفاعات جيش التحرير العالمي"
+ },
+ {
+  "label": "DIALOGEVENT:MisCHI03xChat01Subtitle",
+  "text": "*لا بد أن لديهم شبكة أنفاق مموّهة قرب هنا"
+ }
+]

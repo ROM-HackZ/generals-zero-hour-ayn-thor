@@ -1,0 +1,802 @@
+[
+ {
+  "label": "GUI:LimitSuperweapons",
+  "text": "限制超级武器"
+ },
+ {
+  "label": "TOOLTIP:LimitSuperweapons",
+  "text": "勾选以将粒子加农炮、飞毛腿风暴等限制为每名玩家一座"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100",
+  "text": "连胜荣誉\n玩家已连续赢得 100 场遭遇战\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500",
+  "text": "连胜荣誉\n玩家已连续赢得 500 场遭遇战\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000",
+  "text": "连胜荣誉\n玩家已连续赢得 1000 场遭遇战"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak3Online",
+  "text": "连胜荣誉\n玩家已连续赢得 3 场在线游戏\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak10Online",
+  "text": "连胜荣誉\n玩家已连续赢得 10 场在线游戏\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak25Online",
+  "text": "连胜荣誉\n玩家已连续赢得 25 场在线游戏\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak100Online",
+  "text": "连胜荣誉\n玩家已连续赢得 100 场在线游戏\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak500Online",
+  "text": "连胜荣誉\n玩家已连续赢得 500 场在线游戏\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreak1000Online",
+  "text": "连胜荣誉\n玩家已连续赢得 1000 场在线游戏"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100",
+  "text": "统治荣誉\n玩家已赢得超过 100 场遭遇战\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500",
+  "text": "统治荣誉\n玩家已赢得超过 500 场遭遇战\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000",
+  "text": "统治荣誉\n玩家已赢得超过 1,000 场遭遇战\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000",
+  "text": "统治荣誉\n玩家已赢得超过 10,000 场遭遇战"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination100Online",
+  "text": "统治荣誉\n玩家已赢得超过 100 场在线游戏\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination500Online",
+  "text": "统治荣誉\n玩家已赢得超过 500 场在线游戏\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination1000Online",
+  "text": "统治荣誉\n玩家已赢得超过 1,000 场在线游戏\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDomination10000Online",
+  "text": "统治荣誉\n玩家已赢得超过 10,000 场在线游戏"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallenge",
+  "text": "挑战战役荣誉\n完成将军挑战战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimate",
+  "text": "终极荣誉\n在每张遭遇战地图上击败最大数量的困难难度对手即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneral",
+  "text": "全能将军荣誉\n使用每位将军各赢得至少一场在线游戏即可获得勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakDisabled",
+  "text": "连胜荣誉\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorStreakOnlineDisabled",
+  "text": "连胜荣誉\n连续获胜 3、10、25、100、500 和 1000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorCampaignChallengeDisabled",
+  "text": "挑战战役荣誉\n完成将军挑战战役即可获得此荣誉\n在困难难度下完成战役可获得最高荣誉"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorUltimateDisabled",
+  "text": "终极荣誉\n在每张遭遇战地图上击败最大数量的困难难度对手即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationDisabled",
+  "text": "统治荣誉\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorDominationOnlineDisabled",
+  "text": "统治荣誉\n累计获胜 100、500、1000 和 10000 场可获得新勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorGlobalGeneralDisabled",
+  "text": "全能将军荣誉\n使用每位将军各赢得至少一场在线游戏即可获得此勋章"
+ },
+ {
+  "label": "TOOLTIP:BattleHonorBlitzDisabled",
+  "text": "闪电荣誉\n在 10 分钟内击败对手即可获得此勋章"
+ },
+ {
+  "label": "GUI:SuperweaponSpectreGunship",
+  "text": "幽灵炮艇"
+ },
+ {
+  "label": "GUI:Nuke_SuperweaponNeutronMissile",
+  "text": "核导弹"
+ },
+ {
+  "label": "GUI:SuperweaponGPSScrambler",
+  "text": "GPS 干扰器"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponParticleUplinkCannon",
+  "text": "粒子加农炮"
+ },
+ {
+  "label": "GUI:SuperweaponTankParadrop",
+  "text": "坦克空投"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponTomahawkStorm",
+  "text": "战斧风暴"
+ },
+ {
+  "label": "GUI:SupW_SuperweaponNeutronMissile",
+  "text": "洲际导弹"
+ },
+ {
+  "label": "INI:FactionAmericaSuperWeaponGeneral",
+  "text": "美国超级武器将军"
+ },
+ {
+  "label": "INI:FactionAmericaLaserGeneral",
+  "text": "美国激光将军"
+ },
+ {
+  "label": "INI:FactionAmericaAirForceGeneral",
+  "text": "美国空军将军"
+ },
+ {
+  "label": "INI:FactionAmericaCommanderInChief",
+  "text": "美国总司令"
+ },
+ {
+  "label": "INI:FactionChinaTankGeneral",
+  "text": "中国坦克将军"
+ },
+ {
+  "label": "INI:FactionChinaInfantryGeneral",
+  "text": "中国步兵将军"
+ },
+ {
+  "label": "INI:FactionChinaNukeGeneral",
+  "text": "中国核武将军"
+ },
+ {
+  "label": "INI:FactionChinaCommanderInChief",
+  "text": "中国总司令"
+ },
+ {
+  "label": "INI:FactionGLAToxinGeneral",
+  "text": "GLA 毒素将军"
+ },
+ {
+  "label": "INI:FactionGLADemolitionGeneral",
+  "text": "GLA 爆破将军"
+ },
+ {
+  "label": "INI:FactionGLAStealthGeneral",
+  "text": "GLA 隐形将军"
+ },
+ {
+  "label": "INI:FactionGLACommanderInChief",
+  "text": "GLA 总司令"
+ },
+ {
+  "label": "INI:FactionBossGeneral",
+  "text": "首领将军"
+ },
+ {
+  "label": "SIDE:AmericaSuperWeaponGeneral",
+  "text": "美国超级武器将军"
+ },
+ {
+  "label": "SIDE:AmericaLaserGeneral",
+  "text": "美国激光将军"
+ },
+ {
+  "label": "SIDE:AmericaAirForceGeneral",
+  "text": "美国空军将军"
+ },
+ {
+  "label": "SIDE:ChinaTankGeneral",
+  "text": "中国坦克将军"
+ },
+ {
+  "label": "SIDE:ChinaInfantryGeneral",
+  "text": "中国步兵将军"
+ },
+ {
+  "label": "SIDE:ChinaNukeGeneral",
+  "text": "中国核武将军"
+ },
+ {
+  "label": "SIDE:GLAToxinGeneral",
+  "text": "GLA 毒素将军"
+ },
+ {
+  "label": "SIDE:GLADemolitionGeneral",
+  "text": "GLA 爆破将军"
+ },
+ {
+  "label": "SIDE:GLAStealthGeneral",
+  "text": "GLA 隐形将军"
+ },
+ {
+  "label": "SIDE:Boss",
+  "text": "首领将军"
+ },
+ {
+  "label": "GUI:SelectAllAircraft",
+  "text": "选择所有飞机"
+ },
+ {
+  "label": "GUI:SelectAllAircraftDescription",
+  "text": "选择所有飞机"
+ },
+ {
+  "label": "SCIENCE:USASpectreGunship1",
+  "text": "幽灵炮艇"
+ },
+ {
+  "label": "SCIENCE:USALeafletDrop",
+  "text": "传单空投"
+ },
+ {
+  "label": "SCIENCE:ChinaTankHunterTraining",
+  "text": "坦克猎人训练"
+ },
+ {
+  "label": "SCIENCE:ChinaBattleMasterTraining",
+  "text": "战斗大师训练"
+ },
+ {
+  "label": "SCIENCE:ChinaOverlordTraining",
+  "text": "霸王坦克训练"
+ },
+ {
+  "label": "SCIENCE:ChinaGattlingTankTraining",
+  "text": "加特林坦克训练"
+ },
+ {
+  "label": "SCIENCE:ChinaNukeDrop",
+  "text": "核弹空投"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy",
+  "text": "狂热 1"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy2",
+  "text": "狂热 2"
+ },
+ {
+  "label": "SCIENCE:ChinaFrenzy3",
+  "text": "狂热 3"
+ },
+ {
+  "label": "SCIENCE:ChinaCarpetBomb",
+  "text": "地毯式轰炸"
+ },
+ {
+  "label": "SCIENCE:GPSScrambler",
+  "text": "GPS 干扰器"
+ },
+ {
+  "label": "SCIENCE:GLASneakAttack",
+  "text": "偷袭"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop1",
+  "text": "坦克空投 1"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop2",
+  "text": "坦克空投 2"
+ },
+ {
+  "label": "SCIENCE:ChinaTankParadrop3",
+  "text": "坦克空投 3"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop1",
+  "text": "步兵空降 1"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop2",
+  "text": "步兵空降 2"
+ },
+ {
+  "label": "SCIENCE:ChinaInfantryParadrop3",
+  "text": "步兵空降 3"
+ },
+ {
+  "label": "CONTROLBAR:NoHotKeyFrenzy",
+  "text": "狂热"
+ },
+ {
+  "label": "CONTROLBAR:CIAIntelligenceShortcut",
+  "text": "情报"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownload",
+  "text": "通讯与下载(&D)"
+ },
+ {
+  "label": "CONTROLBAR:CommunicationsDownloadShortcut",
+  "text": "通讯与下载(&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixPropagandaTower",
+  "text": "宣传塔(&T)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixBattleBunker",
+  "text": "战斗碉堡(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaHelixGattlingCannon",
+  "text": "加特林机炮(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNukeBomb",
+  "text": "核炸弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaFireBase",
+  "text": "火力基地(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaArtilleryPlatform",
+  "text": "火炮平台(&R)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankAvenger",
+  "text": "复仇者(&G)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTankMicrowave",
+  "text": "微波坦克(&M)"
+ },
+ {
+  "label": "CONTROLBAR:BunkerExit",
+  "text": "离开碉堡"
+ },
+ {
+  "label": "CONTROLBAR:FireBaseExit",
+  "text": "离开火力基地"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLACommandCenter",
+  "text": "伪指挥中心(&C)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABarracks",
+  "text": "伪兵营(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLASupplyStash",
+  "text": "伪补给储藏站(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLAArmsDealer",
+  "text": "伪军火商(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInternetCenter",
+  "text": "网络中心(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleCombatBike",
+  "text": "战斗摩托(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankEmperor",
+  "text": "皇帝坦克(&O)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySaboteur",
+  "text": "破坏者(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryPropagandaTrooper",
+  "text": "宣传兵(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryMiniGunner",
+  "text": "机枪兵(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetKingRaptor",
+  "text": "猛禽之王(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetFuelAirAurora",
+  "text": "极光阿尔法轰炸机(&B)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaJetHypersonicAurora",
+  "text": "极光阿尔法(&A)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAInfantrySniper",
+  "text": "狙击手(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleSentryDrone",
+  "text": "哨兵无人机(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehicleHellfireDrone",
+  "text": "地狱火无人机(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaVehiclePointDefenseDrone",
+  "text": "点防御无人机(&P)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleHelix",
+  "text": "赫利克斯(&X)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaInfantryNukeHunter",
+  "text": "核猎人(&U)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaICBMLauncher",
+  "text": "洲际导弹(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaVehicleListeningOutpost",
+  "text": "监听站(&S)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructFakeGLABlackMarket",
+  "text": "伪黑市(&M)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructAmericaTomahawkStorm",
+  "text": "战斧风暴(&T)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructChinaTankECM",
+  "text": "ECM 坦克(&E)"
+ },
+ {
+  "label": "CONTROLBAR:ConstructGLAVehicleBattleBus",
+  "text": "战斗巴士(&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSentryDroneGun",
+  "text": "哨兵无人机机枪(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAQuadCannonSnipe",
+  "text": "四管机炮狙击(&C)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaSupplyLines",
+  "text": "补给线(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaMOAB",
+  "text": "炸弹之母(&M)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLACommandCenter",
+  "text": "变为真实指挥中心(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABarracks",
+  "text": "变为真实兵营(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLAArmsDealer",
+  "text": "变为真实军火商(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLASupplyStash",
+  "text": "变为真实补给储藏站(&B)"
+ },
+ {
+  "label": "CONTROLBAR:BecomeRealGLABlackMarket",
+  "text": "变为真实黑市(&B)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaBunkerBusters",
+  "text": "钻地导弹(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaCountermeasures",
+  "text": "反制措施(&O)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeAmericaChemicalSuits",
+  "text": "防化服(&I)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackOne",
+  "text": "卫星入侵 I(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaSatelliteHackTwo",
+  "text": "卫星入侵 II(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFanaticism",
+  "text": "爱国主义(&P)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaWGUraniumShells",
+  "text": "武器级铀弹(&U)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaTankAutoLoader",
+  "text": "自动装填(&A)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaNeutronShells",
+  "text": "中子炮弹(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeChinaFusionReactors",
+  "text": "聚变反应堆(&F)"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNapalmBomb",
+  "text": "使这架赫利克斯能够投掷凝固汽油弹"
+ },
+ {
+  "label": "CONTROLBAR:ChinaUpgradeHelixNukeBomb",
+  "text": "使这架赫利克斯能够投掷核炸弹"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeHelixNapalmBomb",
+  "text": "凝固汽油弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAFortifiedStructure",
+  "text": "强化建筑(&E)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLABoobyTrap",
+  "text": "诡雷(&O)"
+ },
+ {
+  "label": "CONTROLBAR:DetonateFakeBuilding",
+  "text": "立即引爆！(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerFakeCommandSet",
+  "text": "切换到伪建筑(&F)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerRealCommandSet",
+  "text": "切换到真实建筑(&R)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAHighExplosiveDemoTraps",
+  "text": "高爆爆破陷阱(&D)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLACamoNetting",
+  "text": "伪装网(&N)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAAnthraxGamma",
+  "text": "炭疽 Gamma(&X)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeGLAWorkerShoes",
+  "text": "工人鞋(&S)"
+ },
+ {
+  "label": "CONTROLBAR:UpgradeEMPMines",
+  "text": "中子地雷(&M)"
+ },
+ {
+  "label": "CONTROLBAR:NukeWarhead",
+  "text": "核弹炮弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronWarhead",
+  "text": "中子炮弹(&E)"
+ },
+ {
+  "label": "CONTROLBAR:LeafletDrop",
+  "text": "传单空投(&L)"
+ },
+ {
+  "label": "CONTROLBAR:SuitcaseNuke",
+  "text": "手提箱核弹(&N)"
+ },
+ {
+  "label": "CONTROLBAR:NeutronMissileShortcut",
+  "text": "核导弹"
+ },
+ {
+  "label": "CONTROLBAR:ICBM",
+  "text": "洲际导弹(&I)"
+ },
+ {
+  "label": "CONTROLBAR:ICBMShortcut",
+  "text": "洲际导弹"
+ },
+ {
+  "label": "CONTROLBAR:ScudStormShortcut",
+  "text": "飞毛腿风暴"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStorm",
+  "text": "战斧风暴(&T)"
+ },
+ {
+  "label": "CONTROLBAR:TomahawkStormShortcut",
+  "text": "战斧风暴"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunship",
+  "text": "幽灵炮艇(&G)"
+ },
+ {
+  "label": "CONTROLBAR:SpectreGunshipFromShortcut",
+  "text": "幽灵炮艇"
+ },
+ {
+  "label": "CONTROLBAR:SneakAttack",
+  "text": "偷袭(&T)"
+ },
+ {
+  "label": "CONTROLBAR:TankParadrop",
+  "text": "坦克空投(&P)"
+ },
+ {
+  "label": "CONTROLBAR:NukeDrop",
+  "text": "核弹空投(&U)"
+ },
+ {
+  "label": "CONTROLBAR:Frenzy",
+  "text": "狂热(&Y)"
+ },
+ {
+  "label": "CONTROLBAR:RadarVanScanShortcut",
+  "text": "雷达扫描"
+ },
+ {
+  "label": "CONTROLBAR:SelectAircraftCarriersFromShortcut",
+  "text": "选择航空母舰"
+ },
+ {
+  "label": "CONTROLBAR:SelectBattleshipsFromShortcut",
+  "text": "战列舰炮击"
+ },
+ {
+  "label": "CONTROLBAR:BattleshipFire",
+  "text": "战列舰炮击"
+ },
+ {
+  "label": "CONTROLBAR:AircraftCarrierFire",
+  "text": "航空母舰出动猛禽战机攻击"
+ },
+ {
+  "label": "CONTROLBAR:ECMDisableVehicle",
+  "text": "瘫痪载具(&D)"
+ },
+ {
+  "label": "CONTROLBAR:BoobyTrapAttack",
+  "text": "诡雷攻击(&B)"
+ },
+ {
+  "label": "CONTROLBAR:GPSScrambler",
+  "text": "GPS 干扰器(&G)"
+ },
+ {
+  "label": "CONTROLBAR:FireParticleUplinkCannonShortcut",
+  "text": "粒子加农炮"
+ },
+ {
+  "label": "UPGRADE:AmericaSentryDroneGun",
+  "text": "哨兵无人机机枪"
+ },
+ {
+  "label": "UPGRADE:AmericaMOAB",
+  "text": "MOAB：炸弹之母"
+ },
+ {
+  "label": "UPGRADE:AmericaBunkerBusters",
+  "text": "钻地导弹"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackOne",
+  "text": "卫星入侵 I"
+ },
+ {
+  "label": "UPGRADE:SatelliteHackTwo",
+  "text": "卫星入侵 II"
+ },
+ {
+  "label": "UPGRADE:HelixGattlingCannon",
+  "text": "赫利克斯加特林机炮"
+ },
+ {
+  "label": "UPGRADE:HelixPropagandaTower",
+  "text": "赫利克斯宣传塔"
+ },
+ {
+  "label": "UPGRADE:HelixBattleBunker",
+  "text": "赫利克斯战斗碉堡"
+ },
+ {
+  "label": "UPGRADE:SupplyLines",
+  "text": "补给线"
+ },
+ {
+  "label": "UPGRADE:PointDefenseDrone",
+  "text": "点防御无人机"
+ },
+ {
+  "label": "UPGRADE:QuadCannonSnipe",
+  "text": "四管机炮狙击弹"
+ },
+ {
+  "label": "UPGRADE:HellfireDrone",
+  "text": "地狱火无人机"
+ },
+ {
+  "label": "UPGRADE:Fanaticism",
+  "text": "爱国主义"
+ },
+ {
+  "label": "UPGRADE:EMPMine",
+  "text": "中子地雷"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNapalmBomb",
+  "text": "凝固汽油弹"
+ },
+ {
+  "label": "UPGRADE:ChinaHelixNukeBomb",
+  "text": "核炸弹"
+ },
+ {
+  "label": "UPGRADE:WGUraniumShells",
+  "text": "武器级铀弹"
+ },
+ {
+  "label": "UPGRADE:TankAutoLoader",
+  "text": "自动装填"
+ },
+ {
+  "label": "UPGRADE:NeutronShells",
+  "text": "中子炮弹"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLACommandCenter",
+  "text": "真实指挥中心"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLABarracks",
+  "text": "真实兵营"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLAArmsDealer",
+  "text": "真实军火商"
+ },
+ {
+  "label": "UPGRADE:BecomeRealGLASupplyStash",
+  "text": "真实补给储藏站"
+ }
+]

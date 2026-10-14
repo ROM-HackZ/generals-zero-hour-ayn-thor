@@ -1,0 +1,802 @@
+[
+ {
+  "label": "MAP:MD-CHI05_PartCannon_Detected",
+  "text": "تحذير:\nرُصد مدفع جسيمات"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint01",
+  "text": "تلميح:\nعلينا تركيز هجومنا على القاعدة الأمريكية\nيجب أن نقضي على مدافع الجسيمات لديهم"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint02",
+  "text": "رسالة واردة:\nدمّر مركز القيادة الأمريكي لإنهاء دعمهم الجوي"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint05",
+  "text": "رسالة واردة:\nاقتل خاطفي العدو لحماية مركباتنا"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint08",
+  "text": "رسالة واردة:\nقد يكون جارمن كيل مختبئًا في هذه القرية"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint10",
+  "text": "رسالة واردة:\nامنع حافلات القتال من الوصول إلى قاعدتنا"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint13",
+  "text": "رسالة واردة:\nالقاعدة الأمريكية بلا طاقة. اضرب بسرعة"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint15",
+  "text": "رسالة واردة:\nاستخدم مواقع التنصت لمنع\nجارمن كيل من قنص مركباتنا"
+ },
+ {
+  "label": "MAP:MD-CHI05_Hint16",
+  "text": "رسالة واردة:\nاستخدم المشاة لاستعادة مركباتنا المحيَّدة"
+ },
+ {
+  "label": "MAP:MD-CHI05_InternetCenter02",
+  "text": "تلميح:\nضع الهاكرز في مركز الإنترنت لتحصل على دخل إضافي"
+ },
+ {
+  "label": "MAP:ChemGeneral",
+  "text": "الدكتور ثراكس"
+ },
+ {
+  "label": "GC_CHINABOSS:Loc",
+  "text": "في مكان ما قرب الحدود الصينية التبتية\n'عرين النمر'"
+ },
+ {
+  "label": "GC_CHINABOSS:Hint",
+  "text": "رسالة واردة:\nتدمير مخابئ أسلحة العدو يعيد تصفير مؤقتات كل الأسلحة الخارقة"
+ },
+ {
+  "label": "GC_CHINABOSS:Reset",
+  "text": "\nأُعيد تصفير مؤقتات الأسلحة الخارقة"
+ },
+ {
+  "label": "GC_CHINABOSS:Strike",
+  "text": "\nضربة سلاح خارق وشيكة"
+ },
+ {
+  "label": "GC_CHINABOSS:Resources",
+  "text": "تلميح:\nالموارد هنا محدودة. عليك العثور على المزيد من الإمدادات بسرعة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipMOAB",
+  "text": "قوي ضد: المباني\nتصعق الوحدات في نطاق الانفجار\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipLeafletDrop",
+  "text": "قوي ضد: المشاة\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipTankParaDrop",
+  "text": "يُسقط دبابات باتل ماستر بالطائرة\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipNukeDrop",
+  "text": "يُسقط رأسًا نوويًا تكتيكيًا بالطائرة\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSuitcaseNuke",
+  "text": "يحمل الهاكر سلاحًا نوويًا في حقيبته\n"
+ },
+ {
+  "label": "CONTROLBAR:TooltipSpectreGunship",
+  "text": "قوي ضد: المركبات\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireICBM",
+  "text": "قوي ضد: المباني، المشاة\n\nمؤقت العد التنازلي: 6:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireTomahawkStorm",
+  "text": "قوي ضد: المباني، المركبات\n\nمؤقت العد التنازلي: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFrenzy",
+  "text": "يجعل وحداتك تُحدث ضررًا أكبر لفترة محدودة\n\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipFireGPSScrambler",
+  "text": "مشوّش GPS\nمؤقت العد التنازلي: 4:00"
+ },
+ {
+  "label": "CONTROLBAR:TooltipCommunicationsDownload",
+  "text": "تنزيل معلومات مواقع جميع قوات العدو"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSentryDroneGun",
+  "text": "تحصل طائرات الحراسة المسيّرة على رشاش"
+ },
+ {
+  "label": "CONTROLBAR:TooltipGLAUpgradeQuadCannonSnipe",
+  "text": "تكتسب المدافع الرباعية القدرة على قتل المشاة بطلقة واحدة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeSupplyLines",
+  "text": "تجلب آليات جمع الموارد 10% إضافية"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeMOAB",
+  "text": "ترقية قنبلة الوقود الجوي إلى أم القنابل"
+ },
+ {
+  "label": "CONTROLBAR:TooltipBecomeRealBuilding",
+  "text": "ترقية هذا المبنى الوهمي إلى نسخة عاملة بالكامل"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeChemicalSuits",
+  "text": "يصبح المشاة أكثر مقاومة لضرر السموم والإشعاع"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeBunkerBusters",
+  "text": "تُلحق صواريخ المقاتلة الشبحية ضررًا بالقوات المتحصنة"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUSAUpgradeCountermeasures",
+  "text": "تستطيع جميع الطائرات تفادي 50% من الصواريخ المطلقة عليها"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon",
+  "text": "بناء مدفع جاتلينج على هذه الهيليكس"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixPropagandaTower",
+  "text": "بناء برج دعاية على هذه الهيليكس"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaHelixBattleBunker",
+  "text": "بناء مخبأ على هذه الهيليكس. يمكن للقوات التحصن في المخابئ وإطلاق النار منها"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackOne",
+  "text": "تفعيل قدرة اختراق الأقمار الصناعية لكشف مراكز قيادة الخصوم"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo",
+  "text": "تفعيل قدرة اختراق الأقمار الصناعية لكشف أراضي جميع الخصوم على فترات"
+ },
+ {
+  "label": "CONTROLBAR:TooltipChinaUpgradeFanaticism",
+  "text": "زيادة إضافية 25% في مكافأة الحشد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaWGUraniumShells",
+  "text": "زيادة 25% في ضرر قذائف باتل ماستر والأوفرلورد"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaTankAutoLoader",
+  "text": "يحصل باتل ماستر على معدل إطلاق نار أعلى"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaNeutronShells",
+  "text": "ترقية المدفع النووي لإطلاق قذائف نيوترونية\nتقتل القذائف النيوترونية المشاة داخل المركبات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeChinaEMPMines",
+  "text": "تطلق الألغام انفجارًا نيوترونيًا عند تفعيلها"
+ },
+ {
+  "label": "CONTROLBAR:TooltipUpgradeChinaFusionReactors",
+  "text": "يحسّن سرعة الإمبراطور وباتل ماستر"
+ },
+ {
+  "label": "CONTROLBAR:TooltipDetonateFakebuilding",
+  "text": "يأمر المبنى الوهمي بالانفجار فورًا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerFakeCommandSet",
+  "text": "تبديل شريط الأوامر لبناء مبانٍ وهمية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUpgradeGLAWorkerRealCommandSet",
+  "text": "تبديل شريط الأوامر لبناء مبانٍ حقيقية"
+ },
+ {
+  "label": "CONTROLBAR:Demo_ToolTipGLAUpgradeHEBomb",
+  "text": "زيادة 100% في ضرر جميع فخاخ التفجير"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLACamoNetting",
+  "text": "تكتسب هذه المنشأة التمويه"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure",
+  "text": "تحصل المباني على حماية إضافية من الهجمات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeBoobyTrap",
+  "text": "يستطيع المتمردون زرع فخاخ مفخخة في المباني والوحدات المحايدة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeWorkerShoes",
+  "text": "يمنح العمال الأحذية الجديدة التي طالما طالبوا بها، فتزداد سرعتهم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLAUpgradeAnthraxGamma",
+  "text": "زيادة 50% في ضرر جميع وحدات السموم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSaboteur",
+  "text": "يعطّل المباني. يعيد تصفير مؤقتات الأسلحة الخارقة"
+ },
+ {
+  "label": "CONTROLBAR:DropNapalmBomb",
+  "text": "إلقاء قنبلة نابالم (&D)"
+ },
+ {
+  "label": "CONTROLBAR:DropNukeBomb",
+  "text": "إلقاء قنبلة نووية (&D)"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNukeBomb",
+  "text": "يُلقي قنبلة نووية تكتيكية على المنطقة المستهدفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipDropNapalmBomb",
+  "text": "قوي ضد: معظم الأهداف الأرضية\nضعيف ضد: مركبات اللهب"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNukeWarhead",
+  "text": "تحميل القذائف النووية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaNeutronWarhead",
+  "text": "تحميل القذائف النيوترونية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireBattleship",
+  "text": "استدعاء قصف من سفينة حربية قبالة الساحل"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFireAircraftCarrier",
+  "text": "إطلاق الطائرات الهجومية من حاملة الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipECMDisableVehicle",
+  "text": "تعطيل مركبة العدو"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaFireRebelBoobyTrapAttack",
+  "text": "زرع فخ مفخخ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFireBase",
+  "text": "دفاع أرضي. يمكن أن يتحصن فيه أربعة جنود مشاة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildArtilleryPlatform",
+  "text": "يبني منصة مدفعية بعيدة المدى للدفاع\n\nالطاقة المطلوبة: 4"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipFakeGLABuilding",
+  "text": "يمكن تفجير المباني الوهمية أو ترقيتها إلى مبانٍ حقيقية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildInternetCenter",
+  "text": "يساعد الهاكرز على جلب المال. يمكن ترقيته للتجسس على الخصوم"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaICBMLauncher",
+  "text": "يطلق صاروخًا باليستيًا عابرًا للقارات\nالطاقة المطلوبة: 10"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipAmericaBuildTomahawkStorm",
+  "text": "يطلق رشقة من صواريخ توماهوك\n\nمؤقت العد التنازلي: 5:00"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildCombatBike",
+  "text": "سريعة ومتعددة الاستخدامات\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSaboteur",
+  "text": "وحدة تسلل غير قتالية. يمكنها تعطيل مباني العدو مؤقتًا"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildPropagandaTrooper",
+  "text": "ينتج دعاية تعالج الوحدات القريبة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildMiniGunner",
+  "text": "قوي ضد: المشاة، الطائرات\nضعيف ضد: الدبابات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildAvenger",
+  "text": "يستخدم الليزر لتدمير الصواريخ والطائرات\n\nقوي ضد: الصواريخ، الطائرات\nضعيف ضد: المركبات، المشاة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildKingRaptor",
+  "text": "يمكنها الاشتباك مع الأهداف الأرضية والجوية. مزودة بليزر دفاع نقطي\nحمولة أكبر. ترصد المتخفين\n\nقوي ضد: الطائرات، الدبابات، المركبات الخفيفة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildFuelAirAurora",
+  "text": "هجومها الأسرع من الصوت يجعل الأورورا محصّنة من نيران العدو أثناء إلقاء قنبلة وقود جوي صغيرة. بعد الهجوم تنخفض سرعتها إلى 50%\n\nقوي ضد: المباني\nضعيف ضد: المقاتلات، الوحدات المضادة للطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHyersonicAurora",
+  "text": "هجومها فائق السرعة يجعل الأورورا محصّنة من نيران العدو. بعد الهجوم تنخفض سرعتها إلى 50%\n\nقوي ضد: المباني\nضعيف ضد: المقاتلات، الوحدات المضادة للطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildSniper",
+  "text": "مموّه حين لا يتحرك ولا يطلق النار. يرصد الأعداء المخفيين\n\nقوي ضد: المشاة\nضعيف ضد: المركبات الخفيفة، الكشافة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildMicrowave",
+  "text": "قوي ضد: دفاعات القاعدة\nضعيف ضد: الدبابات، الطائرات، المركبات الخفيفة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildSentryDrone",
+  "text": "ترصد المتخفين\n\nقوي ضد: المشاة\nضعيف ضد: الدبابات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildHellfireDrone",
+  "text": "تطلق صاروخ هيلفاير\n\nقوي ضد: المركبات\nضعيف ضد: المشاة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSABuildPointDefenseDrone",
+  "text": "تطلق ليزرًا مضادًا للصواريخ"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildHelix",
+  "text": "وسيلة نقل ثقيلة\nتُرقّى بمنشآت دفاعية وقنبلة نابالم\n\nقوي ضد: الدبابات، المركبات الخفيفة\nضعيف ضد: المشاة المسلحين بالصواريخ، الدفاعات الجوية"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildListeningOutpost",
+  "text": "وسيلة نقل. ترصد الوحدات المتخفية\n\nضعيف ضد: الدبابات، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaBuildECM",
+  "text": "قوي ضد: الدبابات، المركبات\nضعيف ضد: المشاة، الطائرات"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLABuildBattleBus",
+  "text": "يمكن تحميلها بـ 8 جنود مشاة\n\nقوي ضد: المشاة، المباني"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceSpectreGunship",
+  "text": "تحلّق الحربيات سبكتر فوق ساحة المعركة وتسحق قوات العدو بمدافع الهاوتزر والجاتلينج\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipUSAScienceLeafletDrop",
+  "text": "تشلّ المنشورات تجمعات قوات العدو ريثما يفكرون في خياراتهم\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankHunterTraining",
+  "text": "سيُبنى جميع صائدي الدبابات كقدامى محاربين"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceBattlemasterTraining",
+  "text": "ستُبنى جميع دبابات باتل ماستر كنخبة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceOverlordTraining",
+  "text": "ستُبنى جميع الأوفرلورد كنخبة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceGattlingTankTraining",
+  "text": "ستُبنى جميع دبابات جاتلينج كنخبة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceNukeDrop",
+  "text": "يُنشر السلاح النووي التكتيكي جوًا\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceFrenzy",
+  "text": "يجعل وحداتك تُحدث ضررًا أكبر لفترة عند استهدافها\n\nالرتبة 1: 10 بالمئة لمدة 10 ثوانٍ\nالرتبة 2: 20 بالمئة لمدة 20 ثانية\nالرتبة 3: 30 بالمئة لمدة 30 ثانية\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceCarpetBomb",
+  "text": "يتيح لك استدعاء قاذفة ثقيلة لقصف منطقة قصفًا سجاديًا\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipScienceGPSScrambler",
+  "text": "يخفي الوحدات ضمن نطاق تأثيره\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipGLASneakAttack",
+  "text": "تستطيع القوات إنشاء نفق في أي مكان من الخريطة\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectAircraftCarriers",
+  "text": "تحديد حاملة الطائرات (الحاملات) لإطلاق الهجمات بسهولة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipSelectBattleships",
+  "text": "استدعاء قصف من سفينة حربية قبالة الساحل"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceTankParadrop",
+  "text": "إسقاط دبابات باتل ماستر من الجو\n\nالرتبة 1: دبابة باتل ماستر واحدة\nالرتبة 2: دبابتا باتل ماستر\nالرتبة 3: 4 دبابات باتل ماستر\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "CONTROLBAR:ToolTipChinaScienceInfantryParadrop",
+  "text": "إسقاط الحرس الأحمر من الجو\n\nالرتبة 1: 5 من الحرس الأحمر\nالرتبة 2: 10 من الحرس الأحمر\nالرتبة 3: 15 من الحرس الأحمر\n\nيُطلق من: مركز القيادة"
+ },
+ {
+  "label": "TOOLTIP:ChallengeButton",
+  "text": "تحدي الجنرالات"
+ },
+ {
+  "label": "GUI:GeneralsChallenge",
+  "text": "اختر جنرالك"
+ },
+ {
+  "label": "GUI:Biography",
+  "text": "السيرة"
+ },
+ {
+  "label": "GUI:BioName",
+  "text": "الاسم:"
+ },
+ {
+  "label": "GUI:BioDOB",
+  "text": "العمر:"
+ },
+ {
+  "label": "GUI:BioBirthplace",
+  "text": "مكان الخدمة:"
+ },
+ {
+  "label": "GUI:BioStrategy",
+  "text": "التكتيك:"
+ },
+ {
+  "label": "GUI:BioRank",
+  "text": "الرتبة:"
+ },
+ {
+  "label": "GUI:BioBranch",
+  "text": "الفرع:"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos0",
+  "text": "الجنرال غرينجر"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos0",
+  "text": "62"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos0",
+  "text": "فورت بلمونت، هيوستن، تكساس، الولايات المتحدة"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos0",
+  "text": "القوة الجوية"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos0",
+  "text": "جنرال بأربع نجوم"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos0",
+  "text": "سلاح الجو الأمريكي"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos0",
+  "text": "07121969-HB"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos0",
+  "text": "يفضّل الجنرال مالكولم \"الآس\" غرينجر استخدام أقصى ما يتاح من قوة جوية لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos0",
+  "text": "أظن أن الوقت حان لأبحث عن وظيفة محترمة في شركة طيران مدنية."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos0",
+  "text": "أنا فزت وأنت خسرت. ماذا يُقال أكثر من ذلك؟"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos1",
+  "text": "الدكتور ثراكس"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos1",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos1",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos1",
+  "text": "الأسلحة السامة"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos1",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos1",
+  "text": "غير معروف"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos1",
+  "text": "يفضّل الدكتور ثراكس خلط السموم القاتلة لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos1",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos1",
+  "text": "ربما ما كان عليّ أن أشتري شهادتي من بسطة على الرصيف."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos1",
+  "text": "ظننت أن سمومي بلا فائدة، فانظر الآن ماذا حلّ بك أيها الجنرال."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos2",
+  "text": "الجنرال تاو"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos2",
+  "text": "50"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos2",
+  "text": "قاعدة الثور، تشنغدو، الصين"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos2",
+  "text": "الأسلحة النووية"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos2",
+  "text": "جنرال، فئة AAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos2",
+  "text": "جيش التحرير الشعبي"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos2",
+  "text": "يفضّل الجنرال تسينغ شي تاو استخدام الإشعاع النووي لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos2",
+  "text": "لا ينطبق"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos2",
+  "text": "لحظة أخرى فقط وكنت سأحوّلك إلى غبار."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos2",
+  "text": "أنت محظوظ لأنك نجوت من هذه المعركة سالمًا. تحدّني مرة أخرى إن كنت تجرؤ."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos3",
+  "text": "الجنرالة ألكسندر"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos3",
+  "text": "42"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos3",
+  "text": "معسكر فرانكلين، بلفاست، مين، الولايات المتحدة"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos3",
+  "text": "أسلحة الدمار الشامل"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos3",
+  "text": "جنرالة بأربع نجوم"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos3",
+  "text": "مشاة البحرية الأمريكية"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos3",
+  "text": "تفضّل الجنرالة أليكسيس ألكسندر بناء دفاعات قوية لقاعدتها وأسلحة خارقة لهزيمة أعدائها"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos3",
+  "text": "178923478-HBGB"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos3",
+  "text": "هذا ليس عدلًا! سلاح خارق واحد آخر وكنت هزمتك أيها الجنرال. تحدّني مرة أخرى، أتحداك."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos3",
+  "text": "قلت لك إنك لن تهزم أسلحتي الخارقة أبدًا أيها الجنرال. أتريد المحاولة مجددًا؟"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos4",
+  "text": "الجنرال كواي"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos4",
+  "text": "51"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos4",
+  "text": "قاعدة الجرذ، جينان، الصين"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos4",
+  "text": "فرق الدبابات المتطورة"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos4",
+  "text": "جنرال، فئة AAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos4",
+  "text": "جيش التحرير الشعبي"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos4",
+  "text": "يفضّل الجنرال تا هون كواي بناء دبابات متينة الصنع لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos4",
+  "text": "9999-3224536-5"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos4",
+  "text": "ربما هزمت دباباتي أيها الجنرال، لكن النمرة ستسحقك كحشرة."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos4",
+  "text": "الدبابات مفتاح كل نصر... كما تعرف جيدًا."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos5",
+  "text": "الجنرال تاونز"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos5",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos5",
+  "text": "فورت يونيون، ريدوود شورز، كاليفورنيا، الولايات المتحدة"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos5",
+  "text": "أسلحة الليزر"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos5",
+  "text": "جنرال بأربع نجوم"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos5",
+  "text": "الجيش الأمريكي"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos5",
+  "text": "يفضّل \"الدقيق\" تاونز استخدام أحدث تقنيات الليزر لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos5",
+  "text": "00010204-01KE0"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos5",
+  "text": "هزمتني أيها الجنرال، لكنني سأمسح تكتيكاتك وأضع استراتيجية أفضل منها."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos5",
+  "text": "ظهرت نقاط ضعفك بوضوح حين مسحت تكتيكاتك."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos6",
+  "text": "الأمير قصّاد"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos6",
+  "text": "34"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos6",
+  "text": "طرابلس، ليبيا"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos6",
+  "text": "الكمائن والتمويه"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos6",
+  "text": "لا ينطبق"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos6",
+  "text": "خلية الكوبرا في جيش التحرير العالمي"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos6",
+  "text": "يفضّل الأمير قصّاد استخدام التمويه والعمليات السرية لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos6",
+  "text": "لا ينطبق"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos6",
+  "text": "لن يقبل رجالي هذه الهزيمة من قائدهم أيها الجنرال. لقد وقّعت على حكم إعدامي بتكتيكاتك المتفوقة..."
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos6",
+  "text": "تقبّل هزيمتك المرة واغرب عن وجهي أيها الجنرال."
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos7",
+  "text": "الجنرال فاي"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos7",
+  "text": "57"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos7",
+  "text": "قاعدة الأفعى، بكين، الصين"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos7",
+  "text": "فرق المشاة المتطورة"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos7",
+  "text": "جنرال، فئة AAA"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos7",
+  "text": "جيش التحرير الشعبي"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos7",
+  "text": "يفضّل الجنرال شين \"السندان\" فاي تجنيد جنود على أعلى مستوى من التدريب لهزيمة أعدائه"
+ },
+ {
+  "label": "GUI:BioClassNumber_Pos7",
+  "text": "2030-200403-1"
+ },
+ {
+  "label": "GUI:BioDefeatedEntry_Pos7",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioVictoriousEntry_Pos7",
+  "text": "سيُحدَّد لاحقًا"
+ },
+ {
+  "label": "GUI:BioNameEntry_Pos8",
+  "text": "الجنرال جوزيز"
+ },
+ {
+  "label": "GUI:BioDOBEntry_Pos8",
+  "text": "36"
+ },
+ {
+  "label": "GUI:BioBirthplaceEntry_Pos8",
+  "text": "غير معروف"
+ },
+ {
+  "label": "GUI:BioStrategyEntry_Pos8",
+  "text": "المتفجرات والقنابل"
+ },
+ {
+  "label": "GUI:BioRankEntry_Pos8",
+  "text": "لا ينطبق"
+ },
+ {
+  "label": "GUI:BioBranchEntry_Pos8",
+  "text": "خلية العقرب في جيش التحرير العالمي"
+ },
+ {
+  "label": "TOOLTIP:BioStrategyLong_Pos8",
+  "text": "يفضّل الجنرال رودال \"المفجّر\" جوزيز توصيل متفجرات قوية لهزيمة أعدائه"
+ }
+]
