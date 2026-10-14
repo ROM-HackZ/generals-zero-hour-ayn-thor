@@ -110,6 +110,7 @@ android-staging/
 /GeneralsXZH-android-local.apk
 
 # Thor RTS local outputs, private keys and player-owned game data.
+/.local/
 /artifacts/
 /GameData/
 /UserData/
