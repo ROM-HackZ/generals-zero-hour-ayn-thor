@@ -691,6 +691,13 @@ public:
 	GameWindow *getQueueWindow(Int index) const {
 		return index >= 0 && index < MAX_BUILD_QUEUE_BUTTONS ? m_queueData[index].control : nullptr;
 	}
+	// GeneralsX @feature Codex 14/10/2026 Read-only context and occupant bindings for complete external HUD presentation.
+	GameWindow *getContextParent(ContextParent context) const { return m_contextParent[context]; }
+	ObjectID getContainedObjectID(GameWindow *window) const {
+		for (Int i = 0; i < MAX_COMMANDS_PER_SET; ++i)
+			if (m_containData[i].control == window) return m_containData[i].objectID;
+		return INVALID_ID;
+	}
 	// GeneralsX @feature Codex 14/10/2026 Relocate HUD presentation while retaining original command widgets.
 	void presentOnExternalDeck(Bool external);
 

@@ -1594,6 +1594,50 @@ Bool W3DRadar::copyDeckViewBox(std::vector<float> &corners)
 	return TRUE;
 }
 
+// GeneralsX @feature Codex 14/10/2026 Copy filtered hero reticles and existing event triangles using the original radar projection.
+void W3DRadar::copyDeckMarkers(std::vector<DeckMarker> &markers, Bool playEventSound)
+{
+	markers.clear();
+	if (!rts::localPlayerHasRadar() || !TheGameLogic) return;
+	Player *player = rts::getObservedOrLocalPlayer();
+	if (!player) return;
+	for (auto *rObj = m_localObjectList; rObj; rObj = rObj->friend_getNext()) {
+		const Object *obj = rObj->friend_getObject();
+		if (!obj->isHero() || !canRenderObject(rObj, player)) continue;
+		ICoord2D cell{Int(obj->getPosition()->x / (m_mapExtent.width() / RADAR_CELL_WIDTH)), Int(obj->getPosition()->y / (m_mapExtent.height() / RADAR_CELL_HEIGHT))}, pixel;
+		radarToPixel(&cell, &pixel, 0, 0, 10000, 10000);
+		DeckMarker marker{}; marker.hero = true; marker.color = 0xffffffff;
+		marker.points[0] = pixel.x / 10000.f; marker.points[1] = pixel.y / 10000.f;
+		markers.push_back(marker);
+	}
+	const auto frame = TheGameLogic->getFrame();
+	ICoord2D ul, lr; Int width = 128, height = 128;
+	if (m_radarWindow) m_radarWindow->winGetSize(&width, &height);
+	findDrawPositions(0, 0, width, height, &ul, &lr);
+	for (auto &event : m_event) {
+		if (!event.active || event.type == RADAR_EVENT_FAKE || frame >= event.dieFrame) continue;
+		const float age = float(frame - event.createFrame) / (LOGICFRAMES_PER_SECOND * 1.5f);
+		const bool beacon = event.type == RADAR_EVENT_BEACON_PULSE;
+		const int size = std::max(6, Int((lr.x - ul.x) * (beacon ? .1f : .5f) * (1 - age)));
+		const float spin = (beacon ? 1 : -1) * 2 * PI * age;
+		DeckMarker marker{};
+		float alpha = 1;
+		if (frame > event.fadeFrame && event.dieFrame > event.fadeFrame) alpha = 1 - float(frame - event.fadeFrame) / (event.dieFrame - event.fadeFrame);
+		marker.color = (unsigned(event.color1.alpha * alpha) << 24) | (unsigned(event.color1.red) << 16) | (unsigned(event.color1.green) << 8) | unsigned(event.color1.blue);
+		for (int i = 0; i < 3; ++i) {
+			const float angle = spin + (i == 1 ? 2 * PI / 3 : i == 2 ? -2 * PI / 3 : 0);
+			ICoord2D point{Int(Cos(angle) * size + event.radarLoc.x), Int(Sin(angle) * size + event.radarLoc.y)}, pixel;
+			radarToPixel(&point, &pixel, 0, 0, 10000, 10000);
+			marker.points[i * 2] = pixel.x / 10000.f; marker.points[i * 2 + 1] = pixel.y / 10000.f;
+		}
+		markers.push_back(marker);
+		if (playEventSound && !event.soundPlayed) {
+			if (!beacon) { AudioEventRTS sound("RadarEvent"); TheAudio->addAudioEvent(&sound); }
+			event.soundPlayed = TRUE;
+		}
+	}
+}
+
 // GeneralsX @feature Codex 14/10/2026 CPU copy of the game's radar, including fog.
 Bool W3DRadar::copyDeckRadar(std::vector<unsigned int> &pixels)
 {

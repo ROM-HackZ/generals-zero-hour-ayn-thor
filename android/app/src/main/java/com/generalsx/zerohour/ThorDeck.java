@@ -14,6 +14,7 @@ final class ThorDeck extends View {
     final ArrayList<RectF> commandRects=new ArrayList<>();
     final ArrayList<JSONObject> shown=new ArrayList<>();
     final RectF radarRect=new RectF(36,128,396,488),powersRect=new RectF(1020,120,1204,174);
+    final RectF toolsRect=new RectF(812,120,1004,174);
     final RectF radarImageRect=new RectF();
     final float[] radarBounds={0,0,1,1};
     boolean radarTouchCaptured;
@@ -43,6 +44,7 @@ final class ThorDeck extends View {
         int queueStart=control.queuePage*ThorDeckLayout.QUEUE_PER_PAGE;
         for(int i=0;i<ThorDeckLayout.QUEUE_PER_PAGE && queueStart+i<control.queueRows.size();++i) add(control.queueRows.get(queueStart+i),ThorDeckLayout.queue(i));
         if(control.powers!=null) { shown.add(control.powers); commandRects.add(new RectF(powersRect)); }
+        if(control.toolsEntry!=null) { shown.add(control.toolsEntry); commandRects.add(new RectF(toolsRect)); }
     }
     void add(JSONObject row,float[] r) { shown.add(row); commandRects.add(new RectF(r[0],r[1],r[2],r[3])); }
     void navigate(int dx,int dy) {
@@ -75,6 +77,7 @@ final class ThorDeck extends View {
         ThorUi.text(c,paint,"POWER  "+control.snapshot.optInt("powerProduced")+" / "+control.snapshot.optInt("powerConsumed"),664,51,21,low?0xffff958b:ThorUi.TEXT,true);
         ThorUi.text(c,paint,low?"LOW POWER":"Production / consumption",664,80,17,low?0xffff958b:ThorUi.MUTED,false);
         ThorUi.text(c,paint,"RANK "+control.snapshot.optInt("rank"),1020,55,24,ThorUi.TEXT,true);
+        ThorUi.progress(c,paint,new RectF(1020,74,1204,83),(float)control.snapshot.optDouble("rankProgress"),ui.accent);
         paint.setColor(ui.accent); c.drawRect(24,99,1216,102,paint);
         ui.panel(c,paint,new RectF(24,116,408,500),control.mapMode);
         if(control.battle && radar!=null) {
@@ -89,6 +92,24 @@ final class ThorDeck extends View {
             ThorUi.center(c,paint,control.battle?"RADAR UNAVAILABLE":"BATTLEFIELD OVERVIEW",radarRect.centerX(),294,21,ThorUi.MUTED,true);
             ThorUi.wrap(c,paint,control.battle?"Requires your faction's radar capability":"Your tactical map appears during a mission",new RectF(64,314,372,390),18,ThorUi.MUTED,false,3,true);
         }
+        // GeneralsX @feature Codex 14/10/2026 Hero reticles and attack/beacon alerts are separate from the radar texture layers.
+        JSONArray markers=control.snapshot.optJSONArray("radarMarkers");
+        if(radar!=null && markers!=null) {
+            c.save(); c.clipRect(radarRect);
+            for(int i=0;i<markers.length();++i) {
+                JSONObject marker=markers.optJSONObject(i); if(marker==null) continue;
+                JSONArray points=marker.optJSONArray("points"); if(points==null || points.length()<2) continue;
+                if(marker.optBoolean("hero")) {
+                    float x=radarRect.left+(float)points.optDouble(0)*radarRect.width(),y=radarRect.top+(float)points.optDouble(1)*radarRect.height();
+                    ui.icon(c,paint,"HeroReticle",new RectF(x-10,y-10,x+10,y+10),true);
+                } else if(points.length()==6) {
+                    Path path=new Path();
+                    for(int j=0;j<3;++j) { float x=radarRect.left+(float)points.optDouble(j*2)*radarRect.width(),y=radarRect.top+(float)points.optDouble(j*2+1)*radarRect.height(); if(j==0) path.moveTo(x,y); else path.lineTo(x,y); }
+                    path.close(); paint.setColor((int)marker.optLong("color")); paint.setStyle(Paint.Style.STROKE); paint.setStrokeWidth(2); c.drawPath(path,paint); paint.setStyle(Paint.Style.FILL); paint.setAlpha(255);
+                }
+            }
+            c.restore();
+        }
         if(control.mapMode && radar!=null) {
             float x=radarRect.left+control.mapX*radarRect.width(),y=radarRect.top+control.mapY*radarRect.height();
             paint.setColor(ThorUi.FOCUS); paint.setStyle(Paint.Style.STROKE); paint.setStrokeWidth(3); c.drawCircle(x,y,10,paint); c.drawLine(x-18,y,x+18,y,paint); c.drawLine(x,y-18,x,y+18,paint); paint.setStyle(Paint.Style.FILL);
@@ -98,20 +119,43 @@ final class ThorDeck extends View {
             ui.icon(c,paint,control.snapshot.optString("portrait"),new RectF(444,197,548,301),true);
             ThorUi.wrap(c,paint,control.snapshot.optString("selection"),new RectF(566,199,1192,254),25,ThorUi.TEXT,true,2,false);
             int health=control.snapshot.optInt("health"),max=control.snapshot.optInt("maxHealth");
-            ThorUi.text(c,paint,control.snapshot.optInt("selected")+" selected"+(control.snapshot.optInt("selected")==1?"   ·   "+health+" / "+max+" HP":"   ·   Lead unit shown"),566,279,18,ThorUi.MUTED,false);
+            String summary=control.snapshot.optInt("selected")==1?health+" / "+max+" HP":control.snapshot.optInt("selected")+" selected · Lead unit shown";
+            if(control.snapshot.optInt("selected")==1) {
+                int capacity=control.snapshot.optInt("passengerCapacity");
+                if(capacity>0) summary+=" · "+control.snapshot.optInt("passengers")+" / "+capacity+" aboard";
+                int rank=control.snapshot.optInt("veterancy");
+                if(rank>=1 && rank<=3) summary+=" · "+new String[]{"","Veteran","Elite","Heroic"}[rank];
+            }
+            ThorUi.wrap(c,paint,summary,new RectF(566,260,1192,283),18,ThorUi.MUTED,false,1,false);
             float fraction=max>0?health/(float)max:0;
             ThorUi.progress(c,paint,new RectF(566,291,1192,297),fraction,fraction>.5f?0xff83cfa2:fraction>.25f?ThorUi.FOCUS:0xffff958b);
         } else {
-            ThorUi.text(c,paint,control.battle?"NO SELECTION":"MENU NAVIGATION",456,238,25,ThorUi.TEXT,true);
-            ThorUi.wrap(c,paint,control.battle?"A Select · Hold A for area selection · D-pad Up: builder":"D-pad / left stick Navigate · A Confirm · B Back",new RectF(456,256,1192,302),18,ThorUi.MUTED,false,2,false);
+            ThorUi.text(c,paint,control.snapshot.has("observerName")?control.snapshot.optString("observerName"):control.battle?"NO SELECTION":"MENU NAVIGATION",456,238,25,ThorUi.TEXT,true);
+            ThorUi.wrap(c,paint,control.snapshot.has("observerName")?"Observer view · Select Back to choose another player":control.battle?"A Select · Hold A for area selection · D-pad Up: builder":"D-pad / left stick Navigate · A Confirm · B Back",new RectF(456,256,1192,302),18,ThorUi.MUTED,false,2,false);
         }
         ThorUi.text(c,paint,"SELECTION",442,154,19,ThorUi.MUTED,true);
         if(control.powers!=null && control.battle) { ui.panel(c,paint,powersRect,control.deckFocus && control.focusedId==control.powers.optInt("id")); ThorUi.center(c,paint,(control.scienceMenu?"BACK · ":"POWERS · ")+control.snapshot.optInt("sciencePoints"),powersRect.centerX(),154,18,ui.accent,true); }
+        if(control.toolsEntry!=null && control.battle) { ui.panel(c,paint,toolsRect,control.deckFocus && control.focusedId==-1000); ThorUi.center(c,paint,control.toolsMenu?"BACK":"TOOLS",toolsRect.centerX(),154,18,ui.accent,true); }
         ui.panel(c,paint,new RectF(432,320,1216,500),false);
-        ThorUi.text(c,paint,"PRODUCTION",442,346,19,ThorUi.MUTED,true);
-        if(control.queueRows.isEmpty()) ThorUi.text(c,paint,control.battle?"Queue empty":"Available during a mission",456,414,20,ThorUi.MUTED,false);
+        // GeneralsX @feature Codex 14/10/2026 Dedicated construction/timer contexts keep their information on the external deck.
+        boolean construction=control.battle && control.snapshot.has("constructionProgress"),timer=control.battle && control.snapshot.has("timerSeconds");
+        ThorUi.text(c,paint,construction?"CONSTRUCTION":timer?"REINFORCEMENTS":"PRODUCTION",442,346,19,ThorUi.MUTED,true);
+        if(control.queueRows.isEmpty()) {
+            if(construction || timer) {
+                float progress=(float)control.snapshot.optDouble(construction?"constructionProgress":"timerProgress");
+                int seconds=control.snapshot.optInt("timerSeconds");
+                String label=construction?Math.round(progress*100)+"% complete":String.format(java.util.Locale.ROOT,"Next arrival: %d:%02d",seconds/60,seconds%60);
+                ThorUi.text(c,paint,label,456,403,24,ThorUi.TEXT,true);
+                ThorUi.progress(c,paint,new RectF(456,421,1192,433),progress,ui.accent);
+                ThorUi.text(c,paint,construction?"Select Cancel Construction to discard this site":"The original timer controls the next arrival",456,468,18,ThorUi.MUTED,false);
+            } else if(control.snapshot.has("observerStats")) {
+                JSONArray stats=control.snapshot.optJSONArray("observerStats");
+                ThorUi.text(c,paint,"Units: "+stats.optString(0)+" · Buildings: "+stats.optString(1),456,405,22,ThorUi.TEXT,false);
+                ThorUi.text(c,paint,"Kills: "+stats.optString(2)+" · Losses: "+stats.optString(3),456,448,22,ThorUi.MUTED,false);
+            } else ThorUi.text(c,paint,control.battle?"Queue empty":"Available during a mission",456,414,20,ThorUi.MUTED,false);
+        }
         for(int i=0;i<shown.size();++i) {
-            JSONObject row=shown.get(i); RectF r=commandRects.get(i); if(row==control.powers) continue;
+            JSONObject row=shown.get(i); RectF r=commandRects.get(i); if(row==control.powers || r.equals(toolsRect)) continue;
             ui.panel(c,paint,r,control.deckFocus && control.focusedId==row.optInt("id"));
             if(row.optBoolean("queue")) {
                 ui.icon(c,paint,row.optString("icon"),new RectF(r.centerX()-38,r.top+6,r.centerX()+38,r.top+82),true);
@@ -120,14 +164,14 @@ final class ThorDeck extends View {
             } else {
                 ui.icon(c,paint,row.optString("icon"),new RectF(r.left+10,r.top+8,r.left+74,r.top+72),row.optBoolean("enabled"));
                 ThorUi.text(c,paint,ThorUi.cost(row),r.left+86,r.top+31,19,row.optBoolean("enabled")?ui.accent:ThorUi.MUTED,true);
-                String status=row.optBoolean("learned")?"LEARNED":row.has("recharge") && row.optDouble("recharge")<.999?Math.round(row.optDouble("recharge")*100)+"%":!row.optBoolean("enabled")?"LOCKED":"";
+                String status=ThorUi.badge(row);
                 ThorUi.text(c,paint,status,r.left+86,r.top+56,15,ThorUi.MUTED,false);
                 ThorUi.wrap(c,paint,ThorUi.name(row),new RectF(r.left+10,r.top+75,r.right-8,r.bottom-4),18,row.optBoolean("enabled")?ThorUi.TEXT:ThorUi.MUTED,false,2,false);
                 if(row.has("recharge")) ThorUi.progress(c,paint,new RectF(r.left+8,r.bottom-4,r.right-8,r.bottom-1),(float)row.optDouble("recharge"),ui.accent);
             }
         }
         int count=control.battle?control.commands.size():control.deckRows.size();
-        ThorUi.text(c,paint,control.battle?(control.scienceMenu?"GENERAL'S POWERS":"COMMANDS"):"MENU CONTROLS",24,539,19,ThorUi.MUTED,true);
+        ThorUi.text(c,paint,control.battle?(control.toolsMenu?"TACTICAL TOOLS":control.scienceMenu?"GENERAL'S POWERS":"COMMANDS"):"MENU CONTROLS",24,539,19,ThorUi.MUTED,true);
         drawPages(c,control.deckPage,count,ThorDeckLayout.COMMANDS_PER_PAGE,previousRect,nextRect);
         drawPages(c,control.queuePage,control.queueRows.size(),ThorDeckLayout.QUEUE_PER_PAGE,queuePrevious,queueNext);
         if(count==0) ThorUi.text(c,paint,control.battle?"Select a unit or building to see its commands":"Waiting for the game menu…",48,620,22,ThorUi.MUTED,false);
@@ -185,6 +229,8 @@ final class ThorDeck extends View {
         }
         if(action!=MotionEvent.ACTION_UP) return true;
         geometry(); float x=(event.getX()-offsetX)/scale,y=(event.getY()-offsetY)/scale;
+        // GeneralsX @feature Codex 14/10/2026 Portrait touch mirrors L3 camera centring on the current selection.
+        if(control.battle && x>=444 && x<=548 && y>=197 && y<=301 && control.snapshot.optInt("selected")>0) { ThorBridge.intent(4,0); return true; }
         if(control.snapshot.optBoolean("placing")) {
             if(placementCancel.contains(x,y)) { ThorBridge.intent(16,0); return true; }
             if(placementConfirm.contains(x,y)) { ThorBridge.intent(17,0); return true; }

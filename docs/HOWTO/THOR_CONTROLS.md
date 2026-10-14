@@ -38,6 +38,21 @@ For a targeted ability, release RT after choosing it, aim on the battlefield,
 then press A. The game still checks range and prerequisites. B cancels.
 Selling opens a confirmation first.
 
+### Tactical Tools (alpha.4)
+
+Tap **Tools** on the bottom screen, or choose **Tactical tools** in the RT wheel.
+It has **Last Alert**, **Select Army**, **Select Aircraft**, **Select Hero**,
+**Select Matching**, **Scatter**, **Create Formation**, **Reset Camera** and
+**Next Builder**. These use the original game's keyboard commands. Next Builder
+also finds busy workers; D-pad Up still finds idle ones. B returns to normal
+commands. Tools uses the same wheel/grid paging as other commands.
+
+Individual passengers stay separate in the wheel and grid. Select their host,
+then choose an **Exit** entry to release that unit. Overcharge and other toggles
+show **Active** when switched on. The deck also shows construction progress,
+reinforcement countdowns, passenger counts, veterancy and rank progress.
+Tap the selection portrait to centre the camera on it, like pressing L3.
+
 ## Building placement (game preview 0.1.0-alpha.2)
 
 1. Select a worker/dozer and choose the building, then release RT.

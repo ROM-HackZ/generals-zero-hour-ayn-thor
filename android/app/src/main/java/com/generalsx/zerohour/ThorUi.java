@@ -79,13 +79,26 @@ final class ThorUi {
     }
     static String status(JSONObject row,JSONObject state) {
         if(row.optBoolean("queue")) return "A Cancel production";
+        if(row.optBoolean("passengerSlot")) return row.has("occupant")?"A Exit passenger":"Empty";
+        if(row.has("checked")) return row.optBoolean("checked")?"On":"Off";
+        if(row.optBoolean("active")) return "Active";
         if(row.optBoolean("learned")) return "Learned";
         if(row.optBoolean("science") && !row.optBoolean("enabled") && row.optInt("scienceCost")>state.optInt("sciencePoints")) return "Insufficient points";
         if(row.has("recharge") && row.optDouble("recharge",1)<.999) return "Recharging · "+Math.round(row.optDouble("recharge")*100)+"%";
         if(!row.optBoolean("enabled")) return row.optInt("cost")>state.optInt("money")?"Insufficient funds":"Unavailable";
         return "Ready";
     }
-    static String cost(JSONObject row) { int points=row.optInt("scienceCost"); return points>0?points+(points==1?" point":" points"):row.optInt("cost")>0?"$"+row.optInt("cost"):""; }
+    // GeneralsX @feature Codex 14/10/2026 The deck exposes toggle state rather than a generic ready label.
+    static String badge(JSONObject row) {
+        if(row.optBoolean("passengerSlot") && !row.has("occupant")) return "EMPTY";
+        if(row.has("checked")) return row.optBoolean("checked")?"ON":"OFF";
+        if(row.optBoolean("learned")) return "LEARNED";
+        if(row.optBoolean("active")) return "ACTIVE";
+        int rank=row.optInt("veterancy"); if(rank>=1 && rank<=3) return new String[]{"","VETERAN","ELITE","HEROIC"}[rank];
+        if(row.has("recharge") && row.optDouble("recharge")<.999) return Math.round(row.optDouble("recharge")*100)+"%";
+        return row.optBoolean("enabled")?"":"LOCKED";
+    }
+    static String cost(JSONObject row) { if(row.has("sliderValue")) return String.valueOf(row.optInt("sliderValue")); int points=row.optInt("scienceCost"); return points>0?points+(points==1?" point":" points"):row.optInt("cost")>0?"$"+row.optInt("cost"):""; }
     static void progress(Canvas c,Paint p,RectF r,float value,int color) {
         p.setColor(0xff091018); c.drawRoundRect(r,3,3,p);
         float amount=Float.isFinite(value)?Math.max(0,Math.min(1,value)):0;

@@ -82,13 +82,15 @@ final class ThorOverlay extends View {
             } else {
                 float pulse=focused?1+Math.max(0,1-(now-focusedAt)/100f)*.06f:1;
                 control.ui.icon(c,paint,row.optString("icon"),new RectF(x-34*pulse,y-43*pulse,x+34*pulse,y+25*pulse),active);
+                // GeneralsX @feature Codex 14/10/2026 Check-like abilities show their active state in the command wheel.
+                if(row.optBoolean("active")) ThorUi.center(c,paint,"ACTIVE",x,y-51,13,control.ui.accent,true);
                 ThorUi.wrap(c,paint,ThorUi.name(row),new RectF(x-79,y+30,x+79,y+76),16,active?ThorUi.TEXT:ThorUi.MUTED,false,2,true);
                 if(row.has("recharge")) ThorUi.progress(c,paint,new RectF(x-32,y+23,x+32,y+27),(float)row.optDouble("recharge"),control.ui.accent);
             }
         }
         paint.setColor(0xff101922); c.drawCircle(cx,cy,153,paint);
         paint.setStyle(Paint.Style.STROKE); paint.setStrokeWidth(1); paint.setColor(control.ui.accent); c.drawCircle(cx,cy,152,paint); paint.setStyle(Paint.Style.FILL);
-        ThorUi.center(c,paint,control.lb?"CONTROL GROUPS":control.scienceMenu?"GENERAL'S POWERS":"COMMANDS",cx,cy-104,17,control.ui.accent,true);
+        ThorUi.center(c,paint,control.lb?"CONTROL GROUPS":control.toolsMenu?"TACTICAL TOOLS":control.scienceMenu?"GENERAL'S POWERS":"COMMANDS",cx,cy-104,17,control.ui.accent,true);
         JSONObject chosen=control.highlighted();
         if(control.lb) {
             int index=ThorControls.group(wheelPage,control.wedge);

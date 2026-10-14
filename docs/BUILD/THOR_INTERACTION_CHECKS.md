@@ -50,6 +50,31 @@ that is separate from the game and its saves.
 - B cancellation without spending, then a new preview and final-A construction.
 - Selecting that unfinished building exposes Cancel Construction in the wheel
   and bottom-screen grid; touching it refunds the full reactor cost.
+- Every visible registered game action is exported; production stays separate.
+- Tactical Tools opens from the deck; matching selection, camera reset and B back
+  use the original input paths.
+- A stale production token cannot cancel a new item; the actual queue tap refunds
+  the original $1,000 dozer cost.
+
+## Fresh and extended fixtures
+
+Use `-e fresh true` with `am instrument` to start a new skirmish using your saved
+skirmish setup instead of loading a save. The normal/extended checks need USA,
+radar, sufficient money and clear ground around the command center. With
+`-e extended true`, the harness builds a reactor, barracks and fire base through
+ordinary gameplay, produces/garrisons two Rangers, then checks individual exit
+buttons and stale occupant protection. `-e inventory true` runs only that longer
+fixture after starting the skirmish. It also checks the original construction
+radar alert. No test map, retail override or engine cheat is installed.
+
+`-e fresh true -e faction China` chooses China in the setup dropdown and runs a
+separate reactor Overcharge on/off check. This changes your saved skirmish faction
+preference; record/restore your setup before using it. The fixture's construction
+checks wait for a foundation to enter construction and then complete, and wait
+for a production queue to appear before treating its empty state as completion.
+
+These checks still restart the app. Save first, and reload your own match after
+testing. They do not save the temporary skirmishes over your existing saves.
 
 Gesture events go through the activity's normal dispatch and SDL. Controller
 axes use the same JNI queue as the physical controller. The tests complement
