@@ -16,7 +16,7 @@ natively on Android and uses your PC installation's game data and the original
 <a href="https://buymeacoffee.com/romhackz"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="48"></a>
 
 **[Desktop installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)**
-· [APK only](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.1)
+· [APK only](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.4)
 · [Install it](docs/HOWTO/THOR_INSTALL.md)
 · [Controls](docs/HOWTO/THOR_CONTROLS.md)
 · [Build from source](docs/BUILD/THOR.md)
