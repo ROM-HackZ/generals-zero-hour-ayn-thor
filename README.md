@@ -13,6 +13,8 @@ This is a modified community port, built from the released engine source. It run
 natively on Android and uses your PC installation's game data and the original
 30 Hz simulation. **No retail game data is included. You need your own copy.**
 
+<a href="https://buymeacoffee.com/romhackz"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="48"></a>
+
 **[Desktop installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)**
 · [APK only](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.1)
 · [Install it](docs/HOWTO/THOR_INSTALL.md)
