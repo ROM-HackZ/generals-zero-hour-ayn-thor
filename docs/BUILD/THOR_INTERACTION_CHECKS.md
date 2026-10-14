@@ -48,6 +48,8 @@ that is separate from the game and its saves.
 - First-A lock without spending; left-stick facing with a stationary camera.
 - A world-fixed building site while the camera rotates and zooms.
 - B cancellation without spending, then a new preview and final-A construction.
+- Selecting that unfinished building exposes Cancel Construction in the wheel
+  and bottom-screen grid; touching it refunds the full reactor cost.
 
 Gesture events go through the activity's normal dispatch and SDL. Controller
 axes use the same JNI queue as the physical controller. The tests complement

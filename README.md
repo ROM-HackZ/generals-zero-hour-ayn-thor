@@ -32,12 +32,14 @@ natively on Android and uses your PC installation's game data and the original
 | Menus | Controller focus, value editing and an on-screen text keyboard. |
 | Settings | Button remapping, dead zone, camera speed, pan/zoom direction and snapping. |
 
-Game preview **0.1.0-alpha.2** adds two-step building placement (A chooses the
+Game preview **0.1.0-alpha.3** restores **Cancel Construction** when selecting
+an unfinished building, in both the RT wheel and bottom-screen command grid.
+It includes alpha.2's two-step building placement (A chooses the
 site, left stick chooses facing, A builds; B cancels), one-finger touch selection,
 and corrected bottom-screen minimap taps plus drag-to-pan. Pinch/twist camera
-controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.2).
+controls continue to work. [Download that APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.3).
 The desktop installer 0.1.0 still installs the first preview; use **Advanced →
-Local APK** to select this newer APK for an update. The source build uses alpha.2.
+Local APK** to select this newer APK for an update. The source build uses alpha.3.
 
 ### A few pictures
 
@@ -84,6 +86,8 @@ This is a **development preview**, tested on a real Thor running Android 13.
   pinch/twist, a fixed building site during camera changes, B cancellation without
   spending, and final-A construction through the original validator.
 - Native/APK builds and small host tests for controller input, deck focus and artwork.
+- Alpha.3 device check: unfinished-building cancellation in the wheel/grid,
+  with the original $800 reactor refund through a bottom-screen tap.
 
 The observed game rate is around 30 fps. That is a device check, not a long-run
 performance promise. The revised wheel and deck have also been tried by hand.

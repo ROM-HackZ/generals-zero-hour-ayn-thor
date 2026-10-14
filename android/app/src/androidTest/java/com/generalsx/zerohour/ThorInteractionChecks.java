@@ -192,11 +192,45 @@ public final class ThorInteractionChecks extends Instrumentation {
         ThorBridge.intent(1,0); await(s->!s.optBoolean("placing"),"B did not cancel rotation");
         check(state().optInt("money")==money,"Cancelled preview spent money");
         report("First-A lock, analog facing, fixed world site and B cancellation passed.");
-        chooseBuilding(); ThorBridge.nativeIntent(0,0,.78f,.60f);
+        // Keep the construction check away from the owner's existing reactor sites below the command center.
+        chooseBuilding(); ThorBridge.nativeIntent(0,0,.78f,.35f);
         await(s->s.optInt("placementStage")==2,"Second preview failed");
-        ThorBridge.nativeIntent(0,0,.78f,.60f);
+        ThorBridge.nativeIntent(0,0,.78f,.35f);
         JSONObject after=await(s->s.optInt("money")<money,"Final confirmation did not start construction");
         check(after.optInt("money")<money,"Final A did not start construction");
         report("Final-A confirmation started construction through the original validator.");
+        constructionCancellation(money);
+    }
+    // GeneralsX @test Codex 14/10/2026 A dedicated construction button must reach both command surfaces and refund through retail logic.
+    void constructionCancellation(int moneyBefore) throws Exception {
+        ThorBridge.intent(3,0); // Stop the selected dozer so construction cannot finish during the check.
+        await(s->!s.optBoolean("placing"),"Construction preview did not close");
+        ThorBridge.intent(1,0); SystemClock.sleep(150);
+        finger(MotionEvent.ACTION_DOWN,.78f,.35f); finger(MotionEvent.ACTION_UP,.78f,.35f);
+        JSONObject selected=await(s->{
+            JSONArray rows=s.optJSONArray("widgets"); if(rows==null) return false;
+            for(int i=0;i<rows.length();i++) if(rows.optJSONObject(i).optString("action").equals("Command_CancelConstruction")) return true;
+            return false;
+        },"Unfinished building did not expose its cancel button");
+        JSONObject cancel=null; JSONArray rows=selected.getJSONArray("widgets");
+        for(int i=0;i<rows.length();i++) if(rows.getJSONObject(i).optString("action").equals("Command_CancelConstruction")) cancel=rows.getJSONObject(i);
+        check(cancel!=null && cancel.optBoolean("command") && cancel.optBoolean("enabled"),"Cancel construction is missing from the command snapshot");
+        final int cancelId=cancel.getInt("id"); ThorDeck d=deck();
+        SystemClock.sleep(200);
+        runOnMainSync(()->{
+            d.geometry();
+            boolean inWheel=false; for(JSONObject row:d.control.commands) if(row.optInt("id")==cancelId) inWheel=true;
+            check(inWheel,"Cancel construction is missing from the RT command wheel");
+        });
+        float[] point=new float[2];
+        runOnMainSync(()->{
+            int index=-1; for(int i=0;i<d.shown.size();i++) if(d.shown.get(i).optInt("id")==cancelId) index=i;
+            check(index>=0,"Cancel construction is missing from the bottom-screen grid");
+            android.graphics.RectF rect=d.commandRects.get(index);
+            point[0]=d.offsetX+d.scale*rect.centerX(); point[1]=d.offsetY+d.scale*rect.centerY();
+        });
+        dispatch(d,MotionEvent.ACTION_DOWN,point); dispatch(d,MotionEvent.ACTION_UP,point);
+        await(s->s.optInt("money")==moneyBefore,"Cancel construction did not refund the original building cost");
+        report("Unfinished-building cancel appeared in wheel/grid; bottom-screen touch cancelled it and refunded the full cost.");
     }
 }
