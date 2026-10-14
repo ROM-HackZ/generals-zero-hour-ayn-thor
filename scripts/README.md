@@ -1,5 +1,21 @@
 # Scripts Directory
 
+## Thor helpers
+
+The Thor fork's [build guide](../docs/BUILD/THOR.md) and
+[device-helper guide](../docs/BUILD/THOR_DEVICE_HELPERS.md) cover these scripts.
+
+| Script | Use |
+|---|---|
+| `build/android/build-thor.sh` | Build the retail 30 Hz Thor APK locally. |
+| `qa/test-thor.sh` | Run host input, layout, artwork and radar checks. |
+| `thor/install-thor.ps1` | Install the app and copy owned game data from PowerShell. |
+| `thor/capture-thor.ps1` | Capture physical screens and recent app logs. |
+| `thor/save-current-match.ps1` | Create and verify a separate game save. |
+| `thor/resume-latest-save.ps1` | Load the newest save, optionally pausing immediately. |
+
+The remaining inventory below describes inherited engine scripts.
+
 This folder is organized by function for easier maintenance and discovery.
 
 ## Directory Structure
