@@ -121,3 +121,5 @@ android-staging/
 *.jks
 *.p12
 *.pfx
+installer/node_modules/
+installer/LICENSE.md

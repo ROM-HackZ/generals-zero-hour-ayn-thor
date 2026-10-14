@@ -1,0 +1,50 @@
+/* GeneralsX @feature Codex 14/10/2026 Desktop installer styling, scales with system zoom. */
+:root { color-scheme: dark; font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; color: #dce8ee; background: #10181e; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 950px; padding: 28px 32px 18px; margin: auto; }
+header { display: flex; align-items: center; gap: 14px; }
+header img { border-radius: 15px; }
+h1 { font-size: 26px; line-height: 1.1; margin: 3px 0; letter-spacing: -.5px; }
+.eyebrow { color: #91bbcb; font-size: 12px; letter-spacing: 1px; margin: 0; }
+.badge { color: #dfbc83; border: 1px solid #6c5432; border-radius: 20px; padding: 5px 10px; font-size: 11px; margin-left: auto; white-space: nowrap; }
+.intro { color: #a9bdc8; margin: 18px 0 22px; }
+section { background: #17232c; border: 1px solid #293a45; border-radius: 12px; padding: 17px 20px; margin: 12px 0; }
+.section-title { display: flex; align-items: center; gap: 10px; }
+.step { display: inline-grid; place-items: center; width: 24px; height: 24px; font-size: 12px; font-weight: 700; background: #284551; color: #bcecff; border-radius: 7px; }
+h2 { font-size: 16px; margin: 0; font-weight: 650; }
+p { margin: 10px 0; }
+section > p, details > p { color: #a9bdc8; font-size: 13px; }
+.path-row { display: flex; gap: 8px; margin: 10px 0; }
+input[type=text], select { width: 100%; min-width: 0; padding: 10px 12px; background: #0e1920; color: #e3eff5; border: 1px solid #3b505e; border-radius: 7px; font: inherit; font-size: 13px; }
+input::placeholder { color: #8da2af; }
+button { border: 1px solid #455c6b; background: #263c4b; color: #e3eff5; border-radius: 7px; padding: 9px 15px; font: inherit; font-size: 13px; cursor: pointer; white-space: nowrap; }
+button:hover { background: #35556a; }
+:focus-visible { outline: 2px solid #87d7ff; outline-offset: 3px; }
+button:disabled, input:disabled { opacity: .5; cursor: default; }
+.check { display: flex; gap: 8px; align-items: center; margin-top: 12px; font-size: 13px; color: #b9cbd4; }
+input[type=checkbox] { accent-color: #79cafa; width: 16px; height: 16px; flex-shrink: 0; margin: 0; }
+.hint { font-size: 12px; color: #99afbd; }
+#device-hint:empty { display: none; }
+#tools-note { background: #222d32; border-left: 3px solid #cda65e; padding: 0 12px 10px; margin-top: 12px; font-size: 13px; }
+#tools-note p { padding-top: 10px; }
+.link { padding: 0; border: 0; background: none; color: #92d5fa; text-decoration: underline; font-size: 12px; }
+.link:hover { background: none; color: #c8ebff; }
+details { color: #a9bdc8; font-size: 13px; margin: 14px 2px; }
+summary { cursor: pointer; padding: 3px 0; }
+details[open] > summary { margin-bottom: 12px; }
+.actions { display: flex; align-items: center; gap: 14px; margin-top: 16px; }
+.primary { background: #9ddaf6; color: #11202a; border-color: #9ddaf6; font-weight: 700; padding: 11px 24px; font-size: 14px; }
+.primary:hover { background: #c5ecff; }
+.status { margin-top: 18px; font-size: 13px; }
+.status strong { color: #dce8ee; }
+.status p { margin: 4px 0 0; color: #9fb9c8; overflow-wrap: anywhere; }
+.status.error strong, .status.error p { color: #ffbaab; }
+progress { width: 100%; height: 7px; accent-color: #92d5fa; margin-top: 14px; }
+progress::-webkit-progress-bar { background: #304551; border-radius: 8px; }
+progress::-webkit-progress-value { background: #92d5fa; border-radius: 8px; }
+pre { font: 11px/1.65 ui-monospace, monospace; background: #0d161c; padding: 12px; border-radius: 8px; max-height: 180px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; }
+footer { display: flex; gap: 15px; flex-wrap: wrap; color: #819aa9; font-size: 11px; margin-top: 20px; }
+footer span { margin-right: auto; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+[hidden] { display: none !important; }

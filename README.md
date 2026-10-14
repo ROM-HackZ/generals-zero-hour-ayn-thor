@@ -13,7 +13,8 @@ This is a modified community port, built from the released engine source. It run
 natively on Android and uses your PC installation's game data and the original
 30 Hz simulation. **No retail game data is included. You need your own copy.**
 
-**[First preview download](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.1)**
+**[Desktop installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)**
+· [APK only](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.1)
 · [Install it](docs/HOWTO/THOR_INSTALL.md)
 · [Controls](docs/HOWTO/THOR_CONTROLS.md)
 · [Build from source](docs/BUILD/THOR.md)
@@ -39,15 +40,22 @@ natively on Android and uses your PC installation's game data and the original
 
 ## Getting started
 
-You need an AYN Thor, your own PC installation of Zero Hour, and a Windows PC
-with ADB for the first transfer. The **Steam edition** is the one tested so far.
+You need an AYN Thor, your own PC installation of Zero Hour, a USB data cable,
+and a Windows, Mac or Linux computer for the first transfer. The **Steam edition**
+is the one tested so far.
 
-1. Download the APK from [Releases](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.1).
-2. Download this repository (Code -> Download ZIP) and unzip it.
-3. Connect the Thor with USB debugging enabled. Run `scripts/thor/install-thor.ps1`
-   with the paths to your game, APK and ADB. It installs the app, copies your own
-   files and checks the archives. [The guide has the exact command](docs/HOWTO/THOR_INSTALL.md).
-4. Open **Thor RTS**, press **Play**, and try a skirmish.
+1. Download the [desktop installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)
+   for your computer. Windows gets a single EXE; Mac gets an app; Linux gets a
+   Debian package or a portable folder. You don't need to download the source.
+2. Open it, browse to your game folder, and connect the Thor with USB debugging
+   enabled. It can get the USB tools from Google if needed.
+3. Press **Install on Thor**. It downloads the app, copies your own files and
+   checks them. Interrupted transfers resume. [The guide covers each computer](docs/HOWTO/THOR_INSTALL.md).
+4. Open **Thor RTS** on the handheld, press **Play**, and try a skirmish.
+
+The Windows installer has been checked with the actual Thor. The Linux UI has
+been checked under Ubuntu/WSL; physical Linux USB access and the Mac packages
+still need testing. The desktop apps are unsigned community builds.
 
 Installing an update over the same app keeps its data and saves. Uninstalling
 removes them. The transfer reads your PC installation without changing it.
@@ -91,6 +99,7 @@ helper makes an APK locally; it does not need GitHub Actions or your game files.
 | `Core/` | Shared engine and rendering code, including the radar export |
 | `android/` | The app, controller input, wheels and command deck |
 | `scripts/thor/` | PC installation helper |
+| `installer/` | Windows, macOS and Linux desktop installer |
 | `scripts/build/android/build-thor.sh` | Local Thor APK build |
 | `scripts/qa/test-thor.sh` | Controller, layout and artwork checks |
 | `docs/` | Player/build guides, preview notes and inherited engine documentation |
