@@ -44,6 +44,7 @@ The desktop installer 0.1.0 still installs the first preview; use **Advanced →
 Local APK** to select this newer APK for an update. The source build uses alpha.3.
 
 ### A few pictures
+<img width="3024" height="4032" alt="25ac9213-2050-4954-a8a9-e98970b71f84" src="https://github.com/user-attachments/assets/f0dc584c-aa11-4383-a2ac-47787b40e724" />
 
 | Command wheel | Bottom screen |
 |---|---|
