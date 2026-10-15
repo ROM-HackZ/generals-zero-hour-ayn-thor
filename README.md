@@ -16,6 +16,14 @@ edition is the one tested so far. This is a development preview, currently
 [Install guide](docs/HOWTO/THOR_INSTALL.md) · [Full controls](docs/HOWTO/THOR_CONTROLS.md)
 · [Build from source](docs/BUILD/THOR.md) · [Report a bug](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/issues)
 
+## A few pictures
+
+<img width="420" alt="Zero Hour running on both displays of an AYN Thor" src="https://github.com/user-attachments/assets/f0dc584c-aa11-4383-a2ac-47787b40e724" />
+
+| Command wheel | Bottom screen |
+|---|---|
+| ![Command wheel with original building icons](docs/images/thor-command-wheel.png) | ![GLA worker, commands and production on the bottom screen](docs/images/thor-deck.png) |
+
 ## Downloads
 
 The desktop app lets you browse to your game folder, choose your Thor and press
@@ -150,14 +158,6 @@ ability targeting, one finger aims the preview instead of drawing a box.
 The bottom screen also shows health, veterancy, rank progress, construction
 progress, reinforcement countdowns and active toggles such as Overcharge.
 Radar, fog and powers follow the original game's rules.
-
-## A few pictures
-
-<img width="420" alt="Zero Hour running on both displays of an AYN Thor" src="https://github.com/user-attachments/assets/f0dc584c-aa11-4383-a2ac-47787b40e724" />
-
-| Command wheel | Bottom screen |
-|---|---|
-| ![Command wheel with original building icons](docs/images/thor-command-wheel.png) | ![GLA worker, commands and production on the bottom screen](docs/images/thor-deck.png) |
 
 ## What has been tested
 
