@@ -385,7 +385,8 @@ namespace TouchInput
 		if (skipMovieIfPlaying())
 			return;
 
-		if (TheInGameUI == nullptr || TheTacticalView == nullptr)
+		// GeneralsX @bugfix Codex 18/10/2026 Native selection obeys the same scripted input lock as mouse selection.
+        if (TheInGameUI == nullptr || TheTacticalView == nullptr || !TheInGameUI->getInputEnabled())
 			return;
 
 		ICoord2D pixel;
@@ -454,7 +455,8 @@ namespace TouchInput
 		if (skipMovieIfPlaying())
 			return;
 
-		if (TheInGameUI == nullptr || TheTacticalView == nullptr)
+		// GeneralsX @bugfix Codex 18/10/2026 Native selection obeys the same scripted input lock as mouse selection.
+        if (TheInGameUI == nullptr || TheTacticalView == nullptr || !TheInGameUI->getInputEnabled())
 			return;
 
 		if (hasArmedCommand())

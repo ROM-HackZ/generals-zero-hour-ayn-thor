@@ -19,6 +19,9 @@ public final class ThorInteractionChecks extends Instrumentation {
     String faction="";
     boolean inventoryOnly;
     boolean matchingOnly;
+    boolean moviesOnly;
+    boolean menusOnly;
+    boolean snapOnly;
     long touchDown;
     JSONObject state() throws Exception { return new JSONObject(ThorBridge.nativeSnapshot()); }
     interface Condition { boolean matches(JSONObject s) throws Exception; }
@@ -46,7 +49,7 @@ public final class ThorInteractionChecks extends Instrumentation {
         float x=(row.optInt("x")+row.optInt("w")*.5f)/s.optInt("width"),y=(row.optInt("y")+row.optInt("h")*.5f)/s.optInt("height");
         finger(MotionEvent.ACTION_DOWN,x,y); finger(MotionEvent.ACTION_UP,x,y); SystemClock.sleep(2000);
     }
-    @Override public void onCreate(Bundle arguments) { super.onCreate(arguments); fresh=arguments!=null && "true".equals(arguments.getString("fresh")); extended=arguments!=null && "true".equals(arguments.getString("extended")); inventoryOnly=arguments!=null && "true".equals(arguments.getString("inventory")); matchingOnly=arguments!=null && "true".equals(arguments.getString("matching")); faction=arguments==null?"":arguments.getString("faction",""); start(); }
+    @Override public void onCreate(Bundle arguments) { super.onCreate(arguments); fresh=arguments!=null && "true".equals(arguments.getString("fresh")); extended=arguments!=null && "true".equals(arguments.getString("extended")); inventoryOnly=arguments!=null && "true".equals(arguments.getString("inventory")); menusOnly=arguments!=null && "true".equals(arguments.getString("menus")); moviesOnly=arguments!=null && "true".equals(arguments.getString("movies")); snapOnly=arguments!=null && "true".equals(arguments.getString("snap")); matchingOnly=arguments!=null && "true".equals(arguments.getString("matching")); faction=arguments==null?"":arguments.getString("faction",""); start(); }
     @Override public void onStart() {
         Bundle result=new Bundle();
         try {
@@ -56,6 +59,12 @@ public final class ThorInteractionChecks extends Instrumentation {
             while(SystemClock.uptimeMillis()<end) {
                 try { if(state().optBoolean("ready")) break; } catch(UnsatisfiedLinkError ignored) {}
                 SystemClock.sleep(200);
+            }
+            if(menusOnly) {
+                menuChecks(); result.putString("stream","Menu layout, focus, overlay and Extras checks passed.\n"); finish(0,result); return;
+            }
+            if(moviesOnly) {
+                campaignMovies(); result.putString("stream","Movie skip and cinematic controller checks passed.\n"); finish(0,result); return;
             }
             for(int i=0;i<45;i++) {
                 if(widget(state(),"LOAD")!=null) break;
@@ -70,6 +79,9 @@ public final class ThorInteractionChecks extends Instrumentation {
             }
             await(s->s.optBoolean("battle"),"Saved match did not load");
             report(fresh?"Fresh skirmish loaded.":"Saved skirmish loaded.");
+            if(snapOnly) {
+                snappedPress(); result.putString("stream","Snapped selection press passed.\n"); finish(0,result); return;
+            }
             if(matchingOnly) {
                 matchingShortcut(); result.putString("stream","Matching shortcut checks passed. Reload your saved match.\n"); finish(0,result); return;
             }
@@ -308,6 +320,91 @@ public final class ThorInteractionChecks extends Instrumentation {
         return null;
     }
     // GeneralsX @test Codex 14/10/2026 Use activity key dispatch to verify snap-independent matching and repeat/offscreen boundaries.
+    // GeneralsX @test Codex 18/10/2026 The deck must show the current page once, with focus matching its visible columns.
+    void menuChecks() throws Exception {
+        for(int i=0;i<50 && widget(state(),"LOAD")==null;i++) { press(android.view.KeyEvent.KEYCODE_BUTTON_START); SystemClock.sleep(300); }
+        await(s->widget(s,"SOLO PLAY")!=null,"Main menu missing"); SystemClock.sleep(800);
+        ThorDeck d=deck();
+        runOnMainSync(()->{ d.geometry(); check(d.shown.size()==6,"Main menu does not have six actions"); d.control.focusedId=d.shown.get(0).optInt("id"); });
+        press(android.view.KeyEvent.KEYCODE_DPAD_RIGHT);
+        runOnMainSync(()->check(d.control.highlighted().optString("label").equals("MULTIPLAYER"),"Right did not follow the visible menu columns"));
+        press(android.view.KeyEvent.KEYCODE_DPAD_DOWN);
+        runOnMainSync(()->check(d.control.highlighted().optString("label").equals("OPTIONS"),"Down did not follow the visible menu rows"));
+        for(int repeat=0;repeat<2;repeat++) {
+            tapDeckRow(d,widget(state(),"OPTIONS").getInt("id"));
+            JSONObject options=await(s->widget(s,"CANCEL")!=null,"Options did not open"); SystemClock.sleep(800); options=state();
+            check(widget(options,"SOLO PLAY")==null,"Options exposed the covered main menu");
+            java.util.HashSet<Integer> ids=new java.util.HashSet<>(); int extras=0;
+            JSONArray rows=options.getJSONArray("widgets");
+            for(int i=0;i<rows.length();i++) {
+                JSONObject row=rows.getJSONObject(i);
+                check(ids.add(row.getInt("id")),"A native menu button was exported more than once");
+                if(row.optString("label").equals("Extras")) extras++;
+                check(row.optString("icon").isEmpty(),"Menu chrome was exported as a command icon");
+            }
+            check(extras==1,"Options must create exactly one Extras button");
+            activate("CANCEL"); await(s->widget(s,"SOLO PLAY")!=null,"Cancel did not return to the main menu"); SystemClock.sleep(800);
+        }
+        report("Six main actions, visible-grid D-pad focus, isolated Options and one Extras button after reopening passed.");
+    }
+    // GeneralsX @test Codex 18/10/2026 A controller skip must finish the briefing without queuing a pause in the mission.
+    void campaignMovies() throws Exception {
+        for(int i=0;i<50 && widget(state(),"LOAD")==null;i++) {
+            press(android.view.KeyEvent.KEYCODE_BUTTON_START); SystemClock.sleep(300);
+        }
+        await(s->widget(s,"SOLO PLAY")!=null,"Main menu did not appear after startup skip");
+        ThorDeck d=deck(); SystemClock.sleep(800);
+        tapDeckRow(d,widget(state(),"SOLO PLAY").getInt("id"));
+        await(s->widget(s,"USA")!=null,"Bottom-screen Solo Play did not open campaign choices");
+        SystemClock.sleep(800);
+        tapDeckRow(d,widget(state(),"USA").getInt("id"));
+        await(s->widget(s,"EASY")!=null,"Bottom-screen USA choice did not open difficulty");
+        SystemClock.sleep(800);
+        tapDeckRow(d,widget(state(),"EASY").getInt("id"));
+        await(s->!s.optBoolean("ready"),"Campaign briefing did not start");
+        SystemClock.sleep(4500);
+        long skip=SystemClock.uptimeMillis();
+        press(android.view.KeyEvent.KEYCODE_BUTTON_START);
+        JSONObject opening=await(s->s.optBoolean("cinematic"),"Controller could not skip the blocking USA briefing");
+        check(SystemClock.uptimeMillis()-skip<20000,"Briefing finished naturally instead of responding to Start");
+        check(!opening.optBoolean("battle"),"Cinematic exposed battlefield controls");
+        joystick(.7f,.3f,.5f,.5f); press(android.view.KeyEvent.KEYCODE_BUTTON_A); joystick(0,0,0,0);
+        check(state().optInt("selected")==0,"Controller selected units during a scripted input lock");
+        report("Bottom-screen campaign buttons, briefing skip and cinematic selection lock passed.");
+        long deadline=SystemClock.uptimeMillis()+180000; double travel=0; JSONObject previous=state();
+        while(SystemClock.uptimeMillis()<deadline && !state().optBoolean("battle")) {
+            SystemClock.sleep(250); JSONObject next=state(); travel+=distance(previous,next); previous=next;
+        }
+        check(state().optBoolean("battle"),"Campaign did not hand control back after its opening");
+        check(travel>500,"Scripted camera did not travel through the opening scene");
+        SystemClock.sleep(3000);
+        check(state().optBoolean("battle"),"A stale briefing skip opened the pause menu after loading");
+        report("Campaign camera travelled "+Math.round(travel)+" world units; control returned without a delayed pause.");
+    }
+    // GeneralsX @test Codex 18/10/2026 Reproduce the off-centre snap that used to reset as soon as A was held.
+    void snappedPress() throws Exception {
+        joystick(0,0,0,0);
+        ThorBridge.intent(5,0); await(s->s.optInt("selected")==1,"No idle builder for snap test");
+        ThorBridge.intent(4,0); SystemClock.sleep(500);
+        JSONObject target=null;
+        for(int attempt=0;attempt<12;attempt++) {
+            ThorBridge.intent(4,0); SystemClock.sleep(200);
+            joystick(.18f+attempt*.015f,0,0,0); joystick(0,0,0,0); SystemClock.sleep(600);
+            JSONObject candidate=state();
+            double offset=Math.hypot(candidate.optDouble("aimX")-.5,candidate.optDouble("aimY")-.5);
+            if(offset>.001 && offset<.03) { target=candidate; break; }
+        }
+        check(target!=null,"Could not create an off-centre snapped target");
+        ThorBridge.intent(1,0); SystemClock.sleep(200);
+        JSONObject before=state();
+        key(android.view.KeyEvent.ACTION_DOWN,android.view.KeyEvent.KEYCODE_BUTTON_A);
+        SystemClock.sleep(400);
+        JSONObject held=state();
+        check(Math.abs(before.optDouble("aimX")-held.optDouble("aimX"))<.0001 && Math.abs(before.optDouble("aimY")-held.optDouble("aimY"))<.0001,"Holding A reset the snapped cursor");
+        key(android.view.KeyEvent.ACTION_UP,android.view.KeyEvent.KEYCODE_BUTTON_A);
+        await(s->s.optInt("selected")==1,"Releasing A did not select the snapped builder");
+        report("Off-centre snapped cursor remained fixed throughout A press and selected the intended builder.");
+    }
     void key(int action,int code) {
         android.view.KeyEvent event=new android.view.KeyEvent(SystemClock.uptimeMillis(),SystemClock.uptimeMillis(),action,code,0,0,-1,0,0,InputDevice.SOURCE_GAMEPAD);
         runOnMainSync(()->activity.dispatchKeyEvent(event));

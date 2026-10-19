@@ -151,7 +151,11 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                     deckRows.addAll(commands);
                     deckRows.addAll(queueRows);
                     if (powers != null) deckRows.add(powers);
-                } else deckRows.addAll(widgets);
+                } else {
+                    // GeneralsX @bugfix Codex 18/10/2026 Keep menu order tied to its native reading order while windows animate in.
+                    deckRows.addAll(widgets);
+                    java.util.Collections.sort(deckRows,(a,b)->a.optInt("y")==b.optInt("y")?Integer.compare(a.optInt("x"),b.optInt("x")):Integer.compare(a.optInt("y"),b.optInt("y")));
+                }
                 if (battle) {
                     JSONObject retained = null;
                     for (JSONObject row : deckRows) if (row.optInt("id") == focusedId && (focusAction.isEmpty() || focusAction.equals(row.optString("identity", row.optString("action"))))) retained = row;
@@ -258,9 +262,10 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         lastKeyCode = e.getKeyCode(); lastKeySource = e.getSource();
         android.util.Log.d("ThorInput", "Key device=" + e.getDeviceId() + " source=" + e.getSource() + " code=" + e.getKeyCode() + " action=" + e.getAction());
         int code = preferences.getInt("button_" + e.getKeyCode(), e.getKeyCode());
+        // GeneralsX @bugfix Codex 18/10/2026 A briefing skip goes through the blocking movie's Escape handler.
         if (!ready) {
             if (code == KeyEvent.KEYCODE_BUTTON_A || code == KeyEvent.KEYCODE_BUTTON_B || code == KeyEvent.KEYCODE_BUTTON_START) {
-                try { if (e.getAction() == KeyEvent.ACTION_UP) ThorBridge.intent(11, 0); return true; }
+                try { if (e.getAction() == KeyEvent.ACTION_UP) ThorBridge.intent(11, 1); return true; }
                 catch (UnsatisfiedLinkError error) { return false; }
             }
             return false;
@@ -337,6 +342,8 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         sendAxes(); overlay.invalidate(); return true;
     }
     void confirm(long now) {
+        // GeneralsX @bugfix Codex 18/10/2026 A can skip a full-screen movie without selecting a menu behind it.
+        if (snapshot.optBoolean("movie")) { ThorBridge.intent(11, 0); return; }
         if (confirmation != null) { activateChecked(confirmation); confirmation = null; return; }
         if (typing) { if (keyboardIndex < keys.length()) entered += keys.charAt(keyboardIndex); return; }
         if (editingWidget) { ThorBridge.intent(12, 40); editingWidget = false; return; }
@@ -420,25 +427,9 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         }
         return first == null ? 0 : first.optInt("id");
     }
+    // GeneralsX @bugfix Codex 18/10/2026 Focus follows the displayed menu or battlefield deck grid.
     void navigate(int dx, int dy) {
-        // GeneralsX @bugfix Codex 14/10/2026 Deck navigation follows the displayed grid.
-        if (battle && deckFocus) {
-            (deck != null ? deck : fallbackDeck).navigate(dx, dy);
-            return;
-        }
-        JSONObject current = find(focusedId);
-        if (current == null) { focusedId = firstEnabled(); return; }
-        float cx = current.optInt("x") + current.optInt("w") / 2f, cy = current.optInt("y") + current.optInt("h") / 2f;
-        double best = Double.MAX_VALUE; int id = focusedId;
-        for (JSONObject w : widgets) {
-            if (!w.optBoolean("enabled") || w == current) continue;
-            float x = w.optInt("x") + w.optInt("w") / 2f - cx, y = w.optInt("y") + w.optInt("h") / 2f - cy;
-            float forward = x * dx + y * dy;
-            if (forward < 1) continue;
-            double distance = forward + Math.abs(x * dy - y * dx) * 3;
-            if (distance < best) { best = distance; id = w.optInt("id"); }
-        }
-        focusedId = id;
+        (deck != null ? deck : fallbackDeck).navigate(dx, dy);
     }
     public void onDisplayAdded(int id) { attachDisplay(); }
     public void onDisplayRemoved(int id) { attachDisplay(); }

@@ -982,6 +982,21 @@ void OptionsMenuInit( WindowLayout *layout, void *userData )
 	if (TheGameEngine->getQuitting())
 		return;
 	OptionsLayout = layout;
+    // GeneralsX @bugfix Codex 18/10/2026 GWM_CREATE runs for several windows; create one Extras button after layout construction.
+    const NameKeyType extrasID = TheNameKeyGenerator->nameToKey("OptionsMenu.wnd:ButtonExtras");
+    if (!TheWindowManager->winGetWindowFromId(nullptr, extrasID)) {
+        GameWindow* back = TheWindowManager->winGetWindowFromId(nullptr, NAMEKEY("OptionsMenu.wnd:ButtonBack"));
+        if (back) {
+            WinInstanceData data;
+            data.init();
+            BitSet(data.m_style, GWS_PUSH_BUTTON | GWS_MOUSE_TRACK);
+            data.m_textLabelString = "Extras";
+            GameWindow* extras = TheWindowManager->gogoGadgetPushButton(back->winGetParent(),
+                WIN_STATUS_ENABLED | WIN_STATUS_IMAGE, 320, 528, 145, 32, &data, nullptr, TRUE);
+            if (extras) { extras->winSetWindowId(extrasID); extras->winSetSystemFunc(OptionsMenuSystem); }
+        }
+    }
+
 	if (!pref)
 	{
 		pref = NEW OptionPreferences;
@@ -1576,30 +1591,7 @@ WindowMsgHandledType OptionsMenuSystem( GameWindow *window, UnsignedInt msg,
 			buttonAccept = TheNameKeyGenerator->nameToKey( "OptionsMenu.wnd:ButtonAccept" );
 			buttonKeyboardOptionsMenu = TheNameKeyGenerator->nameToKey( "OptionsMenu.wnd:ButtonKeyboardOptions" );
 
-			// GeneralsX @feature fbraz3 08/06/2026 Create Extras button dynamically
-			// (OptionsMenu.wnd in WindowZH.big has no ButtonExtras, so we add it at runtime)
-			{
-				GameWindow *backBtn = TheWindowManager->winGetWindowFromId(window, buttonBack);
-				if (backBtn) {
-					WinInstanceData instData;
-					instData.init();
-					BitSet(instData.m_style, GWS_PUSH_BUTTON | GWS_MOUSE_TRACK);
-					instData.m_textLabelString = "Extras";
-
-					GameWindow *extrasBtn = TheWindowManager->gogoGadgetPushButton(
-						backBtn->winGetParent(),
-						WIN_STATUS_ENABLED | WIN_STATUS_IMAGE,
-						320, 528,
-						145, 32,
-						&instData, nullptr, TRUE);
-
-					if (extrasBtn) {
-						buttonExtrasMenu = TheNameKeyGenerator->nameToKey("OptionsMenu.wnd:ButtonExtras");
-						extrasBtn->winSetWindowId(buttonExtrasMenu);
-						extrasBtn->winSetSystemFunc(OptionsMenuSystem);
-					}
-				}
-			}
+			buttonExtrasMenu = TheNameKeyGenerator->nameToKey("OptionsMenu.wnd:ButtonExtras");
 
 			break;
 

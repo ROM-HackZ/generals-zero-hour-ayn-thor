@@ -6,6 +6,11 @@ final class ThorDeckLayout {
         float x=24+(slot%6)*200,y=558+(slot/6)*134;
         return new float[]{x,y,x+188,y+122};
     }
+    // GeneralsX @bugfix Codex 18/10/2026 Menus use readable text buttons, separate from the battlefield icon grid.
+    static float[] menu(int slot) {
+        float x=24+(slot%2)*608,y=206+(slot/2)*106;
+        return new float[]{x,y,x+584,y+94};
+    }
     static float[] queue(int slot) { float x=452+slot*122; return new float[]{x,368,x+112,478}; }
     static int neighbor(float[][] rects,int current,int dx,int dy) {
         if(rects.length==0) return -1;

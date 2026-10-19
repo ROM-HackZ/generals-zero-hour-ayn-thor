@@ -30,6 +30,8 @@
 #include "GameClient/GameText.h"
 #include "Common/ThingTemplate.h"
 #include "GameClient/ControlBar.h"
+#include "GameClient/Shell.h"
+#include "GameClient/WindowLayout.h"
 #include "GameClient/GameClient.h"
 #include "GameClient/Drawable.h"
 #include "GameClient/GameWindow.h"
@@ -218,13 +220,37 @@ bool inMatch() {
     return TheGameLogic && TheGameLogic->getGameMode() != GAME_NONE &&
         TheGameLogic->getGameMode() != GAME_SHELL;
 }
-bool battlefield() { return inMatch() && !TheGameLogic->isGamePaused(); }
+// GeneralsX @bugfix Codex 18/10/2026 Retail cinematics own selection and camera input until their scripts unlock it.
+bool battlefield() {
+    return inMatch() && !TheGameLogic->isGamePaused() && TheInGameUI &&
+        TheInGameUI->getInputEnabled() && (!TheDisplay || !TheDisplay->isMoviePlaying());
+}
 GameWindow *menuRoot(const char *buttonName) {
     if (!TheWindowManager || !TheNameKeyGenerator) return nullptr;
     auto *w = TheWindowManager->winGetWindowFromId(nullptr, TheNameKeyGenerator->nameToKey(buttonName));
     if (!visible(w)) return nullptr;
     while (w->winGetParent()) w = w->winGetParent();
     return w;
+}
+// GeneralsX @bugfix Codex 18/10/2026 Options can overlay the shell without joining its modal stack.
+GameWindow* menuOverlay() {
+    if (!TheWindowManager) return nullptr;
+    if (auto* modal = TheWindowManager->winGetModalWindow()) return modal;
+    if (auto* options = menuRoot("OptionsMenu.wnd:ButtonBack")) return options;
+    if (inMatch() && TheInGameUI && TheInGameUI->isQuitMenuVisible()) {
+        if (auto* saves = menuRoot("PopupSaveLoad.wnd:ButtonBack")) return saves;
+        return menuRoot("QuitMenu.wnd:ButtonReturn");
+    }
+    return nullptr;
+}
+bool belongsToLayout(GameWindow* window, WindowLayout* layout) {
+    if (!layout) return true;
+    for (auto* parent = window; parent; parent = parent->winGetParent())
+        if (parent->winGetLayout() == layout) return true;
+    return false;
+}
+WindowLayout* activeShellLayout() {
+    return !inMatch() && TheShell && TheShell->isShellActive() ? TheShell->top() : nullptr;
 }
 void key(SDL_Scancode code) {
     if (!TheWindowManager) return;
@@ -304,12 +330,15 @@ void activate(int id, const std::string &expectedAction = {}, const std::string 
     if (!TheWindowManager) return;
     auto *w = TheWindowManager->winGetWindowFromId(nullptr, id);
     if (!visible(w) || !available(w)) return;
-    if (auto *modal = TheWindowManager->winGetModalWindow()) {
+    if (auto *modal = menuOverlay()) {
         bool inside = false;
         for (auto *p = w; p; p = p->winGetParent()) if (p == modal) inside = true;
         if (!inside) return;
     }
+    if (!menuOverlay() && !belongsToLayout(w, activeShellLayout())) return;
     const auto *command = registeredCommand(w);
+    // GeneralsX @bugfix Codex 18/10/2026 A stale deck command cannot bypass a cinematic input lock.
+    if (command && !battlefield()) return;
     if (!expectedActivation.empty() && expectedActivation != activationKey(w, command)) return;
     __android_log_print(ANDROID_LOG_DEBUG, "ThorInput", "Activate window id=%d style=%u", id, w->winGetStyle());
     // GeneralsX @bugfix Codex 14/10/2026 Only registered command data belongs to ControlBar.
@@ -371,9 +400,10 @@ void cycle(int category) {
     m->appendBooleanArgument(TRUE); m->appendObjectIDArgument(d->getObject()->getID());
     center();
 }
-void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth = 0, bool siblings = true) {
+void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth = 0, bool siblings = true, WindowLayout* layout = nullptr) {
     if (depth > 32) return;
     for (auto *w = head; w; w = siblings ? w->winGetNext() : nullptr) {
+        if (!belongsToLayout(w, layout)) continue;
         if (!visible(w)) continue;
         if (!battlefield() && !w->winIsPresentedHere()) continue;
         const unsigned style = w->winGetStyle();
@@ -384,8 +414,9 @@ void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth =
             if (width > 0 && height > 0) {
                 if (!first) out << ','; first = false;
                 std::string label = utf8(w->winGetText());
-                if (style & GWS_COMBO_BOX) label = utf8(GadgetComboBoxGetText(w));
-                else if (style & GWS_ENTRY_FIELD) label = utf8(GadgetTextEntryGetText(w));
+                // GeneralsX @bugfix Codex 18/10/2026 Menu editors identify their purpose as well as their current value.
+                if (style & GWS_COMBO_BOX) label = controlLabel(w) + ": " + utf8(GadgetComboBoxGetText(w));
+                else if (style & GWS_ENTRY_FIELD) label = controlLabel(w);
                 const CommandButton *cmd = registeredCommand(w);
                 if (label.empty()) label = utf8(w->winGetInstanceData()->getTooltipText());
                 if (!cmd && label.empty()) label = controlLabel(w);
@@ -436,6 +467,8 @@ void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth =
                 if (cmd && cmd->getCommandType() == GUI_COMMAND_EXIT_CONTAINER) icon = w->winGetEnabledImage(0);
                 if (entry && entry->getProductionType() == PRODUCTION_UNIT && entry->getProductionObject()) icon = entry->getProductionObject()->getButtonImage();
                 if (entry && entry->getProductionType() == PRODUCTION_UPGRADE && entry->getProductionUpgrade()) icon = entry->getProductionUpgrade()->getButtonImage();
+                // GeneralsX @bugfix Codex 18/10/2026 Menu button borders are window chrome, not command artwork.
+                if (!cmd && !entry && !auxiliary) icon = nullptr;
                 out << ",\"icon\":" << quoted(imageKey(icon)) << ",\"slot\":" << commandSlot;
                 if (style & GWS_ENTRY_FIELD) out << ",\"value\":" << quoted(utf8(GadgetTextEntryGetText(w)));
                 if (style & (GWS_CHECK_BOX | GWS_RADIO_BUTTON)) out << ",\"checked\":" << ((style & GWS_CHECK_BOX) ? GadgetCheckBoxIsChecked(w) ? "true" : "false" : (w->winGetInstanceData()->getState() & WIN_STATE_SELECTED) ? "true" : "false");
@@ -475,7 +508,7 @@ void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth =
                 out << '}';
             }
         }
-        if (!(style & GWS_COMBO_BOX)) widgets(w->winGetChild(), out, first, depth + 1);
+        if (!(style & GWS_COMBO_BOX)) widgets(w->winGetChild(), out, first, depth + 1, true, layout);
     }
 }
 void publish() {
@@ -483,6 +516,10 @@ void publish() {
     // GeneralsX @bugfix Codex 14/10/2026 A live modal must get menu navigation even if it does not pause simulation.
     bool battle = battlefield() && (!TheWindowManager || !TheWindowManager->winGetModalWindow());
     out << "{\"ready\":true,\"battle\":" << (battle ? "true" : "false")
+        // GeneralsX @bugfix Codex 18/10/2026 Distinguish menus, movies and scripted scenes on the command deck.
+        << ",\"inMatch\":" << (inMatch() ? "true" : "false")
+        << ",\"cinematic\":" << (inMatch() && TheInGameUI && !TheInGameUI->getInputEnabled() ? "true" : "false")
+        << ",\"movie\":" << (TheDisplay && TheDisplay->isMoviePlaying() ? "true" : "false")
         << ",\"iconGeneration\":" << iconGeneration
         << ",\"aimX\":" << aimX << ",\"aimY\":" << aimY
         << ",\"width\":" << (TheDisplay ? TheDisplay->getWidth() : 1280)
@@ -619,14 +656,10 @@ void publish() {
     out << ",\"widgets\":[";
     bool first = true;
     if (TheWindowManager) {
-        auto *modal = TheWindowManager->winGetModalWindow();
-        // GeneralsX @bugfix Codex 14/10/2026 The original quit/options layouts are not on the modal stack.
-        if (!modal && inMatch() && TheInGameUI && TheInGameUI->isQuitMenuVisible()) {
-            modal = menuRoot("PopupSaveLoad.wnd:ButtonBack");
-            if (!modal) modal = menuRoot("OptionsMenu.wnd:ButtonBack");
-            if (!modal) modal = menuRoot("QuitMenu.wnd:ButtonReturn");
-        }
-        widgets(modal ? modal : TheWindowManager->winGetWindowList(), out, first, 0, modal == nullptr);
+        // GeneralsX @bugfix Codex 18/10/2026 Publish only the active page, not visible menus behind its overlay.
+        auto* modal = menuOverlay();
+        widgets(modal ? modal : TheWindowManager->winGetWindowList(), out, first, 0,
+            modal == nullptr, modal ? nullptr : activeShellLayout());
     }
     out << "]}";
     std::vector<unsigned int> nextRadar;
@@ -650,6 +683,20 @@ extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeA
     suspended = false;
 }
 extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeIntent(JNIEnv *, jclass, jint type, jint value, jfloat x, jfloat y) {
+    // GeneralsX @bugfix Codex 18/10/2026 Loading movies service SDL events but cannot pump battlefield intents.
+    // Queue a complete Escape press for the retail abort path; never leave a pause queued for the mission.
+    if (type == 11 && value == 1) {
+        SDL_Event event{};
+        event.type = SDL_EVENT_KEY_DOWN;
+        event.key.scancode = SDL_SCANCODE_ESCAPE;
+        event.key.key = SDLK_ESCAPE;
+        event.key.down = true;
+        SDL_PushEvent(&event);
+        event.type = SDL_EVENT_KEY_UP;
+        event.key.down = false;
+        SDL_PushEvent(&event);
+        return;
+    }
     std::lock_guard<std::mutex> guard(bridgeMutex);
     enabled = true;
     if (type == 96) { enabled = axesEnabled = false; std::fill(stick, stick + 4, 0); return; }
@@ -769,9 +816,10 @@ void pump() {
         const bool rotating = TouchInput::placementRotating();
         if (precise && !rotating) { aimX = std::clamp(aimX + axes[2] * dt * .35f, .05f, .95f); aimY = std::clamp(aimY + axes[3] * dt * .35f, .05f, externalDeck ? .95f : .72f); }
         else {
-            aimX = .5f; aimY = externalDeck ? .5f : .4f;
-            TheTacticalView->userZoom(-axes[3] * dt * 250.f);
-            TheTacticalView->userSetAngle(TheTacticalView->getAngle() + axes[2] * dt * 1.25f);
+            // GeneralsX @bugfix Codex 18/10/2026 A press keeps its snapped position; zero stick input never cancels a camera script.
+            if (!boxHeld) { aimX = .5f; aimY = externalDeck ? .5f : .4f; }
+            if (axes[3] != 0) TheTacticalView->userZoom(-axes[3] * dt * 250.f);
+            if (axes[2] != 0) TheTacticalView->userSetAngle(TheTacticalView->getAngle() + axes[2] * dt * 1.25f);
         }
         // GeneralsX @bugfix Codex 14/10/2026 scrollBy already converts screen axes to world space.
         // Use the original keyboard scroll scale once, with a short analog response ramp.
@@ -786,7 +834,7 @@ void pump() {
             }
             const float speed = 200.f * 30.f * dt * (TheGlobalData ? TheGlobalData->m_keyboardScrollFactor : .5f);
             Coord2D delta{smoothPan[0] * speed, smoothPan[1] * speed};
-            TheTacticalView->userScrollBy(&delta);
+            if (delta.x != 0 || delta.y != 0) TheTacticalView->userScrollBy(&delta);
         }
         if (snap && !precise && !boxHeld && !TouchInput::hasArmedCommand() && !TheInGameUI->getPendingPlaceType() && TheGameClient) {
             int targetX = int(aimX * width), targetY = int(aimY * height);
