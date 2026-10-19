@@ -1,0 +1,15 @@
+#!/bin/sh
+# GeneralsX @bugfix Codex 19/10/2026 Reject accidental fallback to a personal Git identity.
+set -eu
+root=$(git rev-parse --show-toplevel)
+expected=$(cat "$root/.gitauthor")
+for field in GIT_AUTHOR_IDENT GIT_COMMITTER_IDENT; do
+    case "$(git var "$field")" in
+        "$expected "*) ;;
+        *)
+            printf '%s\n' "Wrong Git commit identity ($field). Expected: $expected" >&2
+            printf '%s\n' 'Set repository-local user.name/user.email from .gitauthor and remove conflicting author overrides.' >&2
+            exit 1
+            ;;
+    esac
+done
