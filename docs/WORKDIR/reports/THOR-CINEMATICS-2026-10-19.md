@@ -130,5 +130,7 @@ disposable outputs; the cleanup keeps the current APK and matching symbols.
 This establishes file availability, decodability, action-handler coverage and
 the shared fixes described above. It does not certify every mission, subtitle,
 language, camera shot or transition against the PC game. Later scenes still
-need normal playthrough observation. The extra offline fixes have been built
-locally; they were not installed over the owner's running game for this review.
+need normal playthrough observation. The original offline review ended with a local build. Alpha.6 later packaged
+these corrections and was installed with the game closed. Its main menu opened
+and the existing save was byte-identical after the update; no later mission was
+opened during deployment.

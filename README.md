@@ -11,7 +11,7 @@ and buttons, touch, or both. It runs natively on Android with the original
 
 No game files are included. You need your own PC copy of Zero Hour. The Steam
 edition is the one tested so far. This is a development preview, currently
-**0.1.0-alpha.5**.
+**0.1.0-alpha.6**.
 
 [Install guide](docs/HOWTO/THOR_INSTALL.md) · [Full controls](docs/HOWTO/THOR_CONTROLS.md)
 · [Build from source](docs/BUILD/THOR.md) · [Report a bug](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/issues)
@@ -37,14 +37,14 @@ transfers can resume.
 | Intel Mac, macOS 13+ | [Mac x64 ZIP](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-macOS-x64.zip) | Unzip it and open Thor RTS Installer.app. |
 | Ubuntu/Debian, x64 | [Linux DEB](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-Linux-x64.deb) | Install the package, then open Thor RTS Installer. |
 | Other Linux desktops, x64 | [Linux portable folder](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-Linux-x64.tar.gz) | Extract it and run `thor-rts-installer`. See the [Linux requirements](docs/HOWTO/THOR_INSTALL.md). |
-| Current Android app | [Alpha.5 APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/v0.1.0-alpha.5/Thor-RTS-0.1.0-alpha.5.apk) | Choose this file under Advanced → Local APK in the desktop installer. |
+| Current Android app | [Alpha.6 APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/v0.1.0-alpha.6/Thor-RTS-0.1.0-alpha.6.apk) | Choose this file under Advanced → Local APK in the desktop installer. |
 
-**Installer 0.1.0 automatically downloads alpha.1.** Download the alpha.5 APK
+**Installer 0.1.0 automatically downloads alpha.1.** Download the alpha.6 APK
 above and choose it under Advanced → Local APK to get the current controls.
 For an existing installation, tick App update only. Save your match before updating.
 
 The [installer release](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)
-and [app release](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.5)
+and [app release](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.6)
 include checksums. Windows has been tried with the actual Thor. The Linux UI has
 been checked under Ubuntu/WSL; physical Linux USB access and the Mac apps still
 need testing. These are unsigned community desktop apps. The install guide
@@ -55,9 +55,9 @@ covers the Windows/macOS publisher prompts.
 | Step | What to do |
 |---|---|
 | 1. Get your files | Install Zero Hour on your PC. In Steam, use Manage → Browse local files. Keep the whole folder, including `ZH_Generals`. On a Mac, bring that folder over from your PC. |
-| 2. Get the installer and APK | Download the desktop app for your computer and the alpha.5 APK above. |
+| 2. Get the installer and APK | Download the desktop app for your computer and the alpha.6 APK above. |
 | 3. Connect the Thor | Enable USB debugging, connect a USB data cable and accept the debugging prompt on the Thor. |
-| 4. Pick your paths | Browse to the game folder. Under Advanced → Local APK, choose the alpha.5 APK. Refresh the device list and choose the Thor. The installer can download ADB if you need it. |
+| 4. Pick your paths | Browse to the game folder. Under Advanced → Local APK, choose the alpha.6 APK. Refresh the device list and choose the Thor. The installer can download ADB if you need it. |
 | 5. Install | Press Install on Thor. Once it finishes, open Thor RTS on the handheld and press Play. |
 
 You don't need to build the source to play. Your PC game files are read only.
@@ -173,7 +173,7 @@ around 30 fps. Longer sessions still need testing.
 | Powers and saves | Power names/points/back navigation, a learned power purchase, saves kept through APK updates and loaded again. | Every power and importing PC saves. |
 | Build and installer | Native/APK builds, host input/layout/artwork checks, Windows installation on the Thor and Linux UI under WSL. | Physical Mac/Linux installation and other handhelds. |
 
-The local development build also fixes intro frame skipping, briefing skips that
+Alpha.6 fixes intro frame skipping, briefing skips that
 could turn into a delayed pause, the bottom-screen menu layout and the cursor
 jumping back to center when A is held. USA 1's missile shots, black-and-white
 briefing and narration have now been checked on the Thor too. The camera,
@@ -186,7 +186,7 @@ the [cinematic review](docs/WORKDIR/reports/THOR-CINEMATICS-2026-10-19.md) cover
 what was checked. A second file review corrects 29 short dialogue waits across
 eight missions, including waits set in separate scripts. Those changes have
 offline checks but haven't been tried in the later missions on the Thor.
-These fixes are not in the alpha.5 download yet.
+These fixes ship in alpha.6.
 
 Multiplayer, mods and PC save import are outside this preview's scope. Some
 disabled commands show a general unavailable message rather than the exact

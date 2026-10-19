@@ -35,11 +35,10 @@ stays limited to the screen even if pressed again; it does not move the camera.
 With a mixed selection it adds on-screen matches for each selected type. It is
 available in alpha.5 and leaves building/ability targeting and menus alone.
 
-In the current local development build, menu buttons on the bottom screen follow
+In alpha.6, menu buttons on the bottom screen follow
 the D-pad/left-stick grid. A confirms and B goes back. A/B/Start can skip a
 campaign briefing. Scripted opening scenes keep unit and camera input locked
-until the original mission script hands control back. These fixes are not in
-the alpha.5 download yet.
+until the original mission script hands control back.
 
 ## Command wheel: hold RT
 
