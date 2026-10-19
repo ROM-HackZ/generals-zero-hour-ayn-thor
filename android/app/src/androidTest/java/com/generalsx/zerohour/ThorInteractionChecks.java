@@ -322,7 +322,7 @@ public final class ThorInteractionChecks extends Instrumentation {
     // GeneralsX @test Codex 14/10/2026 Use activity key dispatch to verify snap-independent matching and repeat/offscreen boundaries.
     // GeneralsX @test Codex 18/10/2026 The deck must show the current page once, with focus matching its visible columns.
     void menuChecks() throws Exception {
-        for(int i=0;i<50 && widget(state(),"LOAD")==null;i++) { press(android.view.KeyEvent.KEYCODE_BUTTON_START); SystemClock.sleep(300); }
+        for(int i=0;i<50 && widget(state(),"LOAD")==null;i++) { press(android.view.KeyEvent.KEYCODE_BUTTON_A); SystemClock.sleep(300); }
         await(s->widget(s,"SOLO PLAY")!=null,"Main menu missing"); SystemClock.sleep(800);
         ThorDeck d=deck();
         runOnMainSync(()->{ d.geometry(); check(d.shown.size()==6,"Main menu does not have six actions"); d.control.focusedId=d.shown.get(0).optInt("id"); });
@@ -342,6 +342,14 @@ public final class ThorInteractionChecks extends Instrumentation {
         expectFocus(d,"MULTIPLAYER"); press(android.view.KeyEvent.KEYCODE_DPAD_UP); expectFocus(d,"SOLO PLAY");
         press(android.view.KeyEvent.KEYCODE_BUTTON_A);
         await(s->widget(s,"USA")!=null,"A did not open Solo Play"); SystemClock.sleep(800);
+        for (String side : new String[]{"USA","GLA","CHINA"}) {
+            tapDeckRow(d,widget(state(),side).getInt("id"));
+            await(s->widget(s,"EASY")!=null,"Difficulty animation did not finish for "+side);
+            SystemClock.sleep(800); menuReachability(d);
+            press(android.view.KeyEvent.KEYCODE_BUTTON_B);
+            await(s->widget(s,"USA")!=null,"Difficulty Back failed for "+side); SystemClock.sleep(800);
+        }
+        runOnMainSync(()->d.control.focusedId=widget(d.control.snapshot,"USA").optInt("id"));
         expectFocus(d,"USA"); hat(0,1); hat(0,0); expectFocus(d,"GLA");
         hat(0,1); hat(0,0); expectFocus(d,"CHINA");
         hat(0,1); hat(0,0); expectFocus(d,"CHALLENGE");
@@ -421,7 +429,7 @@ public final class ThorInteractionChecks extends Instrumentation {
     // GeneralsX @test Codex 18/10/2026 A controller skip must finish the briefing without queuing a pause in the mission.
     void campaignMovies() throws Exception {
         for(int i=0;i<50 && widget(state(),"LOAD")==null;i++) {
-            press(android.view.KeyEvent.KEYCODE_BUTTON_START); SystemClock.sleep(300);
+            press(android.view.KeyEvent.KEYCODE_BUTTON_A); SystemClock.sleep(300);
         }
         await(s->widget(s,"SOLO PLAY")!=null,"Main menu did not appear after startup skip");
         ThorDeck d=deck(); SystemClock.sleep(800);
@@ -432,13 +440,31 @@ public final class ThorInteractionChecks extends Instrumentation {
         await(s->widget(s,"EASY")!=null,"Bottom-screen USA choice did not open difficulty");
         SystemClock.sleep(800);
         tapDeckRow(d,widget(state(),"EASY").getInt("id"));
-        await(s->!s.optBoolean("ready"),"Campaign briefing did not start");
+        await(s->!s.optBoolean("ready") && s.optInt("skipMovie")!=0,"Campaign briefing did not start");
         SystemClock.sleep(4500);
-        long skip=SystemClock.uptimeMillis();
+        int movie=state().getInt("skipMovie");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_B);
         press(android.view.KeyEvent.KEYCODE_BUTTON_START);
+        check(state().optInt("skipMovie")==movie,"B or Start skipped the briefing");
+        long skip=SystemClock.uptimeMillis();
+        press(android.view.KeyEvent.KEYCODE_BUTTON_A);
         JSONObject opening=await(s->s.optBoolean("cinematic"),"Controller could not skip the blocking USA briefing");
-        check(SystemClock.uptimeMillis()-skip<20000,"Briefing finished naturally instead of responding to Start");
+        check(SystemClock.uptimeMillis()-skip<20000,"Briefing finished naturally instead of responding to A");
         check(!opening.optBoolean("battle"),"Cinematic exposed battlefield controls");
+        ThorBridge.intent(20,movie); // A delayed request for the previous video must be harmless.
+        ThorBridge.intent(11,0); // A stale generic pause must be rejected in a scripted scene.
+        press(android.view.KeyEvent.KEYCODE_BUTTON_B);
+        SystemClock.sleep(500);
+        check(widget(state(),"RETURN TO GAME")==null,"B opened a mission menu during the cinematic");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_START);
+        JSONObject paused=await(s->s.optBoolean("paused"),"Start did not pause the scripted scene");
+        SystemClock.sleep(1500);
+        check(distance(paused,state())<1,"Scripted camera advanced while paused");
+        check(widget(state(),"RETURN TO GAME")==null,"Scene pause opened the frozen mission menu");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_B);
+        check(state().optBoolean("paused"),"B changed the paused scene");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_START);
+        await(s->!s.optBoolean("paused"),"Start did not resume the scene");
         joystick(.7f,.3f,.5f,.5f); press(android.view.KeyEvent.KEYCODE_BUTTON_A); joystick(0,0,0,0);
         check(state().optInt("selected")==0,"Controller selected units during a scripted input lock");
         report("Bottom-screen campaign buttons, briefing skip and cinematic selection lock passed.");
@@ -450,6 +476,11 @@ public final class ThorInteractionChecks extends Instrumentation {
         check(travel>500,"Scripted camera did not travel through the opening scene");
         SystemClock.sleep(3000);
         check(state().optBoolean("battle"),"A stale briefing skip opened the pause menu after loading");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_START);
+        await(s->widget(s,"RETURN TO GAME")!=null,"Normal Start menu did not open after the scene");
+        SystemClock.sleep(800);
+        press(android.view.KeyEvent.KEYCODE_BUTTON_START);
+        await(s->s.optBoolean("battle"),"Normal Start menu did not close after the scene");
         report("Campaign camera travelled "+Math.round(travel)+" world units; control returned without a delayed pause.");
     }
     // GeneralsX @test Codex 18/10/2026 Reproduce the off-centre snap that used to reset as soon as A was held.

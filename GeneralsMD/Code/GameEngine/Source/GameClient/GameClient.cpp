@@ -32,6 +32,7 @@
 #include <cstdio>
 #include <chrono>
 #include "PreRTS.h"	// This must go first in EVERY cpp file in the GameEngine
+#include "GameClient/MoviePlaybackControl.h"
 #include "GameClient/GameClient.h"
 #include "GXTrace.h"
 
@@ -1003,6 +1004,10 @@ Bool GameClient::isMovieAbortRequested()
 	{
 		TheGameEngine->serviceWindowsOS();
 	}
+
+	// GeneralsX @bugfix Codex 19/10/2026 Only an active blocking playback can consume a controller skip.
+	if (moviePlaybackControl().consume(true))
+		return TRUE;
 
 	// TheSuperHackers @feature User can skip video by pressing ESC
 	if (TheKeyboard)

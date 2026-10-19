@@ -27,6 +27,7 @@
 // Author: Michael S. Booth, March 2001
 
 #include "PreRTS.h"	// This must go first in EVERY cpp file in the GameEngine
+#include "GameClient/MoviePlaybackControl.h"
 
 #include "GameClient/Display.h"
 #include "GameClient/Mouse.h"
@@ -233,6 +234,7 @@ void Display::playLogoMovie( AsciiString movieName, Int minMovieLength, Int minC
 		return;
 	}
 
+	m_movieInputSession = moviePlaybackControl().begin(false);
 }
 
 //============================================================================
@@ -265,6 +267,7 @@ void Display::playMovie( AsciiString movieName)
 		return;
 	}
 
+	m_movieInputSession = moviePlaybackControl().begin(false);
 }
 
 //============================================================================
@@ -273,6 +276,8 @@ void Display::playMovie( AsciiString movieName)
 
 void Display::stopMovie()
 {
+	moviePlaybackControl().end(m_movieInputSession);
+	m_movieInputSession = 0;
 	delete m_videoBuffer;
 	m_videoBuffer = nullptr;
 
@@ -301,6 +306,9 @@ void Display::stopMovie()
 
 void Display::update()
 {
+	// GeneralsX @bugfix Codex 19/10/2026 Consume on the engine thread without a mouse tap or Escape fallback.
+	if (moviePlaybackControl().consume(false) && TheGlobalData && TheGlobalData->m_allowExitOutOfMovies)
+		stopMovie();
 	if ( m_videoStream && m_videoBuffer )
 	{
 		if ( m_videoStream->isFrameReady())

@@ -206,6 +206,7 @@ protected:
 	Int m_cinematicTextFrames;          ///< count of how long the cinematic text should be displayed
 
 	// Video playback data
+	unsigned int m_movieInputSession = 0; // GeneralsX @bugfix Codex 19/10/2026 Scope controller skips to this stream.
 	VideoBuffer						*m_videoBuffer;						///< Video playback buffer
 	VideoStreamInterface	*m_videoStream;						///< Video stream;
 	AsciiString						 m_currentlyPlayingMovie;	///< The currently playing video. Used to notify TheScriptEngine of completed videos.

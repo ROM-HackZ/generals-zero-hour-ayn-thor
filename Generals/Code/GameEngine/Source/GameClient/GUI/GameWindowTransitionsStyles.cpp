@@ -1375,6 +1375,11 @@ void TextTypeTransition::init( GameWindow *win )
 	m_fullText = GadgetStaticTextGetText(m_win);
 	Int length = m_fullText.getLength();
 	m_frameLength = MIN(length, TEXTTYPETRANSITION_END);
+    // GeneralsX @bugfix Codex 19/10/2026 An empty label has no frames to type.
+    if (m_frameLength == 0) {
+        if (m_win) m_win->winHide(FALSE);
+        m_isFinished = TRUE;
+    }
 }
 
 void TextTypeTransition::update( Int frame )
@@ -1406,7 +1411,9 @@ void TextTypeTransition::update( Int frame )
 	if(frame >= m_frameLength)
 	{
 		m_win->winHide(FALSE);
-
+        // GeneralsX @bugfix Codex 19/10/2026 TransitionWindow stops at the actual text length, not the 30-frame maximum.
+        // Without completing here, short labels leave the whole menu's transition permanently unfinished.
+        if (m_isForward) m_isFinished = TRUE;
 	}
 	if(frame > TEXTTYPETRANSITION_START && frame < m_frameLength)
 	{

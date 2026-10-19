@@ -52,6 +52,7 @@
 #include "GameClient/InGameUI.h"
 #include "GameClient/View.h"
 #include "GameClient/Display.h"
+#include "GameClient/MoviePlaybackControl.h"
 #include "GameLogic/GameLogic.h"
 #include "GameLogic/Object.h"
 #include "GameLogic/Module/BodyModule.h"
@@ -533,8 +534,9 @@ void publish() {
     out << "{\"ready\":true,\"battle\":" << (battle ? "true" : "false")
         // GeneralsX @bugfix Codex 18/10/2026 Distinguish menus, movies and scripted scenes on the command deck.
         << ",\"inMatch\":" << (inMatch() ? "true" : "false")
-        << ",\"cinematic\":" << (inMatch() && TheInGameUI && !TheInGameUI->getInputEnabled() ? "true" : "false")
+        << ",\"cinematic\":" << (inMatch() && TheInGameUI && !TheInGameUI->getInputEnabled() && !TheInGameUI->isQuitMenuVisible() ? "true" : "false")
         << ",\"movie\":" << (TheDisplay && TheDisplay->isMoviePlaying() ? "true" : "false")
+        << ",\"paused\":" << (TheGameLogic && TheGameLogic->isGamePaused() ? "true" : "false")
         << ",\"menuAnimating\":" << (animatedMenu ? "true" : "false")
         << ",\"iconGeneration\":" << iconGeneration
         << ",\"aimX\":" << aimX << ",\"aimY\":" << aimY
@@ -699,20 +701,8 @@ extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeA
     suspended = false;
 }
 extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeIntent(JNIEnv *, jclass, jint type, jint value, jfloat x, jfloat y) {
-    // GeneralsX @bugfix Codex 18/10/2026 Loading movies service SDL events but cannot pump battlefield intents.
-    // Queue a complete Escape press for the retail abort path; never leave a pause queued for the mission.
-    if (type == 11 && value == 1) {
-        SDL_Event event{};
-        event.type = SDL_EVENT_KEY_DOWN;
-        event.key.scancode = SDL_SCANCODE_ESCAPE;
-        event.key.key = SDLK_ESCAPE;
-        event.key.down = true;
-        SDL_PushEvent(&event);
-        event.type = SDL_EVENT_KEY_UP;
-        event.key.down = false;
-        SDL_PushEvent(&event);
-        return;
-    }
+    // GeneralsX @bugfix Codex 19/10/2026 JNI requests a specific playback; it never injects a global Escape.
+    if (type == 20) { moviePlaybackControl().request(static_cast<unsigned int>(value)); return; }
     std::lock_guard<std::mutex> guard(bridgeMutex);
     enabled = true;
     if (type == 96) { enabled = axesEnabled = false; std::fill(stick, stick + 4, 0); return; }
@@ -749,7 +739,10 @@ extern "C" JNIEXPORT void JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeA
 }
 extern "C" JNIEXPORT jstring JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeSnapshot(JNIEnv *env, jclass) {
     std::lock_guard<std::mutex> guard(bridgeMutex);
-    return env->NewStringUTF(published.c_str());
+    std::string snapshot = published;
+    snapshot.pop_back();
+    snapshot += ",\"skipMovie\":" + std::to_string(moviePlaybackControl().session()) + "}";
+    return env->NewStringUTF(snapshot.c_str());
 }
 extern "C" JNIEXPORT jintArray JNICALL Java_com_generalsx_zerohour_ThorBridge_nativeRadar(JNIEnv *env, jclass) {
     std::lock_guard<std::mutex> guard(bridgeMutex);
@@ -872,8 +865,18 @@ void pump() {
         const int x = int((i.x < 0 ? aimX : i.x) * width), y = int((i.y < 0 ? aimY : i.y) * height);
         if (i.type == 6) { activate(i.value, i.action, i.activation); continue; }
         if (i.type == 11) {
-            if (TheDisplay && TheDisplay->isMoviePlaying()) TouchInput::tap(0, 0);
-            else if (inMatch()) message(GameMessage::MSG_META_OPTIONS);
+            // Recheck the live engine phase: old snapshots must not open a menu during a scene or load.
+            if (inMatch() && TheInGameUI && (TheInGameUI->getInputEnabled() || TheInGameUI->isQuitMenuVisible()) && !TheGameLogic->isLoadingMap()
+                && !TheGameLogic->isLoadingSave() && (!TheDisplay || !TheDisplay->isMoviePlaying()))
+                message(GameMessage::MSG_META_OPTIONS);
+            continue;
+        }
+        // GeneralsX @bugfix Codex 19/10/2026 Scene pause preserves the authored input lock and never opens a menu.
+        if (i.type == 21) {
+            if (inMatch() && TheInGameUI && !TheInGameUI->getInputEnabled() && !TheInGameUI->isQuitMenuVisible()
+                && !TheGameLogic->isLoadingMap() && !TheGameLogic->isLoadingSave()
+                && (!TheDisplay || !TheDisplay->isMoviePlaying()))
+                TheGameLogic->setGamePaused(!TheGameLogic->isGamePaused(), FALSE, FALSE);
             continue;
         }
         if (i.type == 12) {

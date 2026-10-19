@@ -211,7 +211,7 @@ final class ThorDeck extends View {
     // GeneralsX @bugfix Codex 18/10/2026 Native menu actions remain literal, labelled buttons without border-atlas "icons".
     void drawMenu(Canvas c) {
         ThorUi ui=control.ui;
-        boolean movie=control.snapshot.optBoolean("movie"),cinematic=control.snapshot.optBoolean("cinematic");
+        boolean movie=control.snapshot.optBoolean("movie") || control.snapshot.optInt("skipMovie")!=0,cinematic=control.snapshot.optBoolean("cinematic");
         String title=movie?"VIDEO PLAYING":cinematic?"CAMPAIGN SCENE":!control.ready?"LOADING":control.snapshot.optBoolean("inMatch")?"MISSION MENU":"THOR RTS";
         ThorUi.text(c,paint,title,32,71,37,ThorUi.TEXT,true);
         ThorUi.text(c,paint,"Command & Conquer: Generals Zero Hour",32,113,23,ThorUi.MUTED,false);
@@ -235,13 +235,13 @@ final class ThorDeck extends View {
             ui.panel(c,paint,new RectF(24,244,1216,652),false);
             boolean opening=control.snapshot.optBoolean("menuAnimating");
             ThorUi.center(c,paint,opening?"Opening menu\u2026":movie?"Video playing on the top screen":cinematic?"The mission is controlling this scene":"Preparing the game\u2026",620,391,28,ThorUi.TEXT,true);
-            ThorUi.wrap(c,paint,opening?"Controls appear when the menu is ready.":cinematic?"Unit commands return when the scene finishes.":"A / B / Start skips a briefing video.",new RectF(160,424,1080,510),23,ThorUi.MUTED,false,2,true);
+            ThorUi.wrap(c,paint,opening?"Controls appear when the menu is ready.":cinematic?"Unit commands return when the scene finishes.":movie?"Press A to skip this video.":"Controls appear when loading finishes.",new RectF(160,424,1080,510),23,ThorUi.MUTED,false,2,true);
         }
         ui.panel(c,paint,new RectF(24,864,1216,986),false);
         JSONObject detail=control.highlighted();
         ThorUi.text(c,paint,detail==null?"CONTROLS":ThorUi.name(detail).replace("&",""),44,902,24,ThorUi.TEXT,true);
         ThorUi.wrap(c,paint,detail!=null && !detail.optString("description").isEmpty()?detail.optString("description"):cinematic?"Watch the top screen. The original mission script decides when play resumes.":"Tap a button, or use the D-pad / left stick to choose. A confirms; B goes back.",new RectF(44,918,1192,978),21,ThorUi.MUTED,false,2,false);
-        ThorUi.text(c,paint,movie?"START  Skip video":control.editingWidget?"D-pad Adjust \u00b7 A / B Finish editing":"D-pad / left stick Navigate \u00b7 A Confirm \u00b7 B Back",32,1045,22,ui.accent,true);
+        ThorUi.text(c,paint,movie?"A  Skip video":cinematic?(control.snapshot.optBoolean("paused")?"START  Resume scene":"START  Pause scene"):control.editingWidget?"D-pad Adjust \u00b7 A / B Finish editing":"D-pad / left stick Navigate \u00b7 A Confirm \u00b7 B Back",32,1045,22,ui.accent,true);
     }
     void drawPages(Canvas c,int page,int count,int size,RectF prev,RectF next) {
         if(count<=size) return;

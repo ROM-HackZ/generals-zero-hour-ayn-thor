@@ -186,6 +186,11 @@ direction repeats steadily, and disabled menu buttons don't take focus. These
 changes were checked on the Thor, including skirmish dropdowns and B returning
 to the main menu.
 
+The current development build also fixes short menu labels leaving animations
+unfinished. Intro controls are simpler: A skips a playing video; B leaves it
+alone. In scripted scenes, Start pauses/resumes without opening a mission menu.
+Normal play keeps the usual Start menu. These changes are newer than alpha.7.
+
 I also checked the files for all 15 campaign missions: their intro movies decode
 completely and all 748 scripted speech references resolve. That doesn't prove
 every scene plays correctly. Later missions still need playthrough testing;

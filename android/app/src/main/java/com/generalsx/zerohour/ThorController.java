@@ -278,13 +278,19 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         lastKeyCode = e.getKeyCode(); lastKeySource = e.getSource();
         android.util.Log.d("ThorInput", "Key device=" + e.getDeviceId() + " source=" + e.getSource() + " code=" + e.getKeyCode() + " action=" + e.getAction());
         int code = preferences.getInt("button_" + e.getKeyCode(), e.getKeyCode());
-        // GeneralsX @bugfix Codex 18/10/2026 A briefing skip goes through the blocking movie's Escape handler.
-        if (!ready) {
-            if (code == KeyEvent.KEYCODE_BUTTON_A || code == KeyEvent.KEYCODE_BUTTON_B || code == KeyEvent.KEYCODE_BUTTON_START) {
-                try { if (e.getAction() == KeyEvent.ACTION_UP) ThorBridge.intent(11, 1); return true; }
-                catch (UnsatisfiedLinkError error) { return false; }
-            }
-            return false;
+        // GeneralsX @bugfix Codex 19/10/2026 Movies and scripted scenes never fall through to menu/gameplay actions.
+        if (!ready || snapshot.optBoolean("movie") || snapshot.optBoolean("cinematic")) {
+            boolean gamepad = KeyEvent.isGamepadButton(code) || code >= KeyEvent.KEYCODE_DPAD_UP && code <= KeyEvent.KEYCODE_DPAD_RIGHT;
+            if (!gamepad) return false;
+            aHeld = false;
+            try {
+                if (code == KeyEvent.KEYCODE_BUTTON_A && e.getAction() == KeyEvent.ACTION_UP)
+                    ThorBridge.intent(20, snapshot.optInt("skipMovie"));
+                if (ready && snapshot.optBoolean("cinematic") && code == KeyEvent.KEYCODE_BUTTON_START
+                        && e.getAction() == KeyEvent.ACTION_DOWN && e.getRepeatCount() == 0)
+                    ThorBridge.intent(21, 0);
+                return true;
+            } catch (UnsatisfiedLinkError error) { return false; }
         }
         if (!KeyEvent.isGamepadButton(code) && code != KeyEvent.KEYCODE_DPAD_UP && code != KeyEvent.KEYCODE_DPAD_DOWN && code != KeyEvent.KEYCODE_DPAD_LEFT && code != KeyEvent.KEYCODE_DPAD_RIGHT) return false;
         controllerActive = true;
@@ -361,7 +367,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
     }
     void confirm(long now) {
         // GeneralsX @bugfix Codex 18/10/2026 A can skip a full-screen movie without selecting a menu behind it.
-        if (snapshot.optBoolean("movie")) { ThorBridge.intent(11, 0); return; }
+        if (snapshot.optBoolean("movie")) { ThorBridge.intent(20, snapshot.optInt("skipMovie")); return; }
         if (confirmation != null) { activateChecked(confirmation); confirmation = null; return; }
         if (typing) { if (keyboardIndex < keys.length()) entered += keys.charAt(keyboardIndex); return; }
         if (editingWidget) { ThorBridge.intent(12, 40); editingWidget = false; editingId=0; return; }

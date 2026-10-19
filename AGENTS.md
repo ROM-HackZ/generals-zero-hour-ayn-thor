@@ -6,6 +6,8 @@ The GeneralsX guide below is inherited engine context; these Thor rules take
 precedence over its repository, branch, release and binary-publication instructions:
 
 - Work on this repository, not the upstream diagnostics branch or upstream remotes.
+- Author Thor commits as `ROM-HackZ <24526564+intrudir@users.noreply.github.com>`.
+  Set this repository's Git identity before committing; do not change the global identity.
 - Build locally with `bash scripts/build/android/build-thor.sh`; run
   `bash scripts/qa/test-thor.sh`. The Thor simulation stays at retail 30 Hz.
 - APKs go in GitHub Releases when publication is requested, never in source history.

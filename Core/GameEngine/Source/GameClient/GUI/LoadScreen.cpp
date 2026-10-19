@@ -48,6 +48,7 @@
 // SYSTEM INCLUDES ////////////////////////////////////////////////////////////
 //-----------------------------------------------------------------------------
 #include "PreRTS.h"	// This must go first in EVERY cpp file in the GameEngine
+#include "GameClient/MoviePlaybackControl.h"
 #include <algorithm>
 #include "GXTrace.h"
 
@@ -571,6 +572,7 @@ void SinglePlayerLoadScreen::init( GameInfo *game )
 		Int progressUpdateCount = std::max(1, m_videoStream->frameCount() / FRAME_FUDGE_ADD);
 		Int shiftedPercent = -FRAME_FUDGE_ADD + 1;
 		// GeneralsX @bugfix Codex 18/10/2026 Render the final briefing frame before closing its stream.
+        BlockingMovieInput movieInput;
         Bool movieFinished = FALSE;
         while (!movieFinished)
 		{
@@ -675,6 +677,7 @@ void SinglePlayerLoadScreen::init( GameInfo *game )
 		Int begin = timeGetTime();
 		Int currTime = begin;
 		Int fudgeFactor = 0;
+		BlockingMovieInput movieInput;
 		while(begin + delay > currTime )
 		{
 			fudgeFactor = 30 * ((currTime - begin)/ INT_TO_REAL(delay ));

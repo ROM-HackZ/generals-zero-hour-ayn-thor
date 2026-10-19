@@ -19,3 +19,6 @@ c++ -std=c++17 -I "$REPO/Core/GameEngineDevice/Include" "$REPO/scripts/qa/ThorRa
 
 c++ -std=c++17 -I "$REPO/Core/GameEngine/Include" "$REPO/scripts/qa/ThorBriefingTimingTest.cpp" -o "$TEST/briefing"
 "$TEST/briefing"
+
+c++ -std=c++17 -pthread -I "$REPO/Core/GameEngine/Include" "$REPO/scripts/qa/MoviePlaybackControlTest.cpp" -o "$TEST/movie-controls"
+"$TEST/movie-controls"
