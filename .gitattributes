@@ -1,3 +1,5 @@
 *.sh text eol=lf
 *.py text eol=lf
 *.md text eol=lf
+.gitauthor text eol=lf
+.githooks/* text eol=lf
