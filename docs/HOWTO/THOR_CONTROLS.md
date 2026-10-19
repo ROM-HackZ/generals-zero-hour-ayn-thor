@@ -36,14 +36,14 @@ With a mixed selection it adds on-screen matches for each selected type. It is
 available in alpha.5 and leaves building/ability targeting and menus alone.
 
 Menu buttons on the bottom screen follow the D-pad/left-stick layout.
-A confirms and B goes back in menus. In the current development build, **A skips
+A confirms and B goes back in menus. From alpha.8, **A skips
 an intro/briefing video** once playback starts. B and Start leave the video alone;
 loading itself cannot be skipped. The bottom screen shows when A is available.
 
 During a scripted campaign scene, **Start pauses/resumes the scene** without
 opening a menu. B and unit/camera controls stay inactive until the original
 mission script hands control back. During normal play, Start opens/closes the
-usual mission menu. These cinematic control changes are newer than alpha.7.
+usual mission menu. These cinematic controls ship in alpha.8.
 
 Alpha.7 keeps simple lists vertical on both screens: Down
 chooses the next item. Larger setup menus use a grid on the bottom screen.
