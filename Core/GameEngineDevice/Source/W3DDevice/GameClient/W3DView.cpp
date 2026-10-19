@@ -165,6 +165,7 @@ W3DView::W3DView()
 
 #if PRESERVE_RETAIL_SCRIPTED_CAMERA
 	m_initialGroundLevel = 10.0f;
+	m_defaultHeightAspectScale = 1.0f;
 #endif
 
 	m_viewFilterMode = FM_VIEW_DEFAULT;
@@ -709,7 +710,9 @@ Real W3DView::getMaxHeight(Real x, Real y) const
 #if PRESERVE_RETAIL_SCRIPTED_CAMERA
 	if (!m_isUserControlled)
 	{
-		return getHeightAroundPos(x, y) + m_maxHeightAboveGround;
+		// GeneralsX @bugfix Codex 19/10/2026 Script zoom values were authored for
+		// retail height limits. Player widescreen compensation changes shot framing.
+		return getHeightAroundPos(x, y) + m_maxHeightAboveGround / m_defaultHeightAspectScale;
 	}
 #endif
 
@@ -2264,6 +2267,9 @@ void W3DView::setCameraHeightAboveGroundLimitsToDefault(Real heightScale)
 		aspectRatioScale = fabs(( 1 - ( baseAspectRatio - currentAspectRatio) ));
 	}
 
+#if PRESERVE_RETAIL_SCRIPTED_CAMERA
+	m_defaultHeightAspectScale = aspectRatioScale;
+#endif
 	m_maxHeightAboveGround = TheGlobalData->m_maxCameraHeight * aspectRatioScale * heightScale;
 	m_minHeightAboveGround = TheGlobalData->m_minCameraHeight * aspectRatioScale;
 
@@ -2278,6 +2284,9 @@ void W3DView::setDefaultView(Real pitch, Real angle, Real maxHeight)
 	// MDC - we no longer want to rotate maps (design made all of them right to begin with)
 	//	m_defaultAngle = angle * M_PI/180.0f;
 	setDefaultPitch(pitch);
+#if PRESERVE_RETAIL_SCRIPTED_CAMERA
+	m_defaultHeightAspectScale = 1.0f; // An explicit map limit is already authored in retail units.
+#endif
 	m_maxHeightAboveGround = TheGlobalData->m_maxCameraHeight*maxHeight;
 	if (m_minHeightAboveGround > m_maxHeightAboveGround)
 		m_maxHeightAboveGround = m_minHeightAboveGround;

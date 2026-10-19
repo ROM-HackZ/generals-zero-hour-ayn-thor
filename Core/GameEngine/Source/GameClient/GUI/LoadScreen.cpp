@@ -48,6 +48,7 @@
 // SYSTEM INCLUDES ////////////////////////////////////////////////////////////
 //-----------------------------------------------------------------------------
 #include "PreRTS.h"	// This must go first in EVERY cpp file in the GameEngine
+#include <algorithm>
 #include "GXTrace.h"
 
 //-----------------------------------------------------------------------------
@@ -567,9 +568,11 @@ void SinglePlayerLoadScreen::init( GameInfo *game )
 		// TheSuperHackers @bugfix Originally this movie render loop stopped rendering when the game window was inactive.
 		// This either skipped the movie or caused decompression artifacts. Now the video just keeps playing until it done.
 
-		Int progressUpdateCount = m_videoStream->frameCount() / FRAME_FUDGE_ADD;
+		Int progressUpdateCount = std::max(1, m_videoStream->frameCount() / FRAME_FUDGE_ADD);
 		Int shiftedPercent = -FRAME_FUDGE_ADD + 1;
-		while (m_videoStream->frameIndex() < m_videoStream->frameCount() - 1 )
+		// GeneralsX @bugfix Codex 18/10/2026 Render the final briefing frame before closing its stream.
+        Bool movieFinished = FALSE;
+        while (!movieFinished)
 		{
 			if (GameClient::isMovieAbortRequested())
 			{
@@ -589,7 +592,8 @@ void SinglePlayerLoadScreen::init( GameInfo *game )
 			moveWindows( m_videoStream->frameIndex());
 #endif
 
-			m_videoStream->frameNext();
+            movieFinished = m_videoStream->frameIndex() >= m_videoStream->frameCount() - 1;
+            if (!movieFinished) m_videoStream->frameNext();
 
 			// GeneralsX @bugfix fbraz3 20/04/2026 The LoadScreen video loop is a blocking loop
 			// that never reaches TheVideoPlayer->update(). Without an explicit update() call here,
@@ -638,9 +642,14 @@ void SinglePlayerLoadScreen::init( GameInfo *game )
 	{
 #if RTS_GENERALS
 		// if we're min speced
-		m_videoStream->frameGoto(m_videoStream->frameCount()); // zero based
+		// GeneralsX @bugfix Codex 19/10/2026 The last frame is count - 1, not EOF.
+		m_videoStream->frameGoto(std::max(0, m_videoStream->frameCount() - 1));
 		while(!m_videoStream->isFrameReady())
+		{
+			if (GameClient::isMovieAbortRequested())
+				return;
 			Sleep(1);
+		}
 		m_videoStream->frameDecompress();
 		m_videoStream->frameRender(m_videoBuffer);
 		if(m_videoBuffer)
@@ -677,7 +686,8 @@ void SinglePlayerLoadScreen::init( GameInfo *game )
 			}
 
 			TheWindowManager->update();
-			// No audio pump here either -- see the movie loop above. These wait on a movie.
+			// GeneralsX @bugfix Codex 19/10/2026 This is a voice-only wait; no movie pumps its speech.
+			TheAudio->update();
 			TheDisplay->draw();
 			Sleep(100);
 			currTime = timeGetTime();
@@ -1097,9 +1107,11 @@ void ChallengeLoadScreen::init( GameInfo *game )
 		// TheSuperHackers @bugfix Originally this movie render loop stopped rendering when the game window was inactive.
 		// This either skipped the movie or caused decompression artifacts. Now the video just keeps playing until it done.
 
-		Int progressUpdateCount = m_videoStream->frameCount() / FRAME_FUDGE_ADD;
+		Int progressUpdateCount = std::max(1, m_videoStream->frameCount() / FRAME_FUDGE_ADD);
 		Int shiftedPercent = -FRAME_FUDGE_ADD + 1;
-		while (m_videoStream->frameIndex() < m_videoStream->frameCount() - 1 )
+		// GeneralsX @bugfix Codex 18/10/2026 Render the final briefing frame before closing its stream.
+        Bool movieFinished = FALSE;
+        while (!movieFinished)
 		{
 			if (GameClient::isMovieAbortRequested())
 			{
@@ -1114,7 +1126,8 @@ void ChallengeLoadScreen::init( GameInfo *game )
 
 			m_videoStream->frameDecompress();
 			m_videoStream->frameRender(m_videoBuffer);
-			m_videoStream->frameNext();
+            movieFinished = m_videoStream->frameIndex() >= m_videoStream->frameCount() - 1;
+            if (!movieFinished) m_videoStream->frameNext();
 
 			// GeneralsX @bugfix fbraz3 20/04/2026 Same blocking loop fix as SinglePlayerLoadScreen.
 			// TheVideoPlayer->update() must be called explicitly here since this loop never returns
@@ -1152,7 +1165,8 @@ void ChallengeLoadScreen::init( GameInfo *game )
 	else
 	{
 		// if we're min speced
-		m_videoStream->frameGoto(m_videoStream->frameCount()); // zero based
+		// GeneralsX @bugfix Codex 19/10/2026 The last frame is count - 1, not EOF.
+		m_videoStream->frameGoto(std::max(0, m_videoStream->frameCount() - 1));
 		while(!m_videoStream->isFrameReady())
 		{
 			if (GameClient::isMovieAbortRequested())
@@ -1183,7 +1197,10 @@ void ChallengeLoadScreen::init( GameInfo *game )
 			}
 
 			TheWindowManager->update();
-			// No audio pump here either -- see the movie loop above. These wait on a movie.
+			// GeneralsX @bugfix Codex 19/10/2026 Service audio and the VS overlay during this fallback wait.
+			TheVideoPlayer->update();
+			m_wndVideoManager->update();
+			TheAudio->update();
 			TheDisplay->draw();
 			Sleep(100);
 			currTime = timeGetTime();

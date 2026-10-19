@@ -289,6 +289,7 @@ private:
 	// TheSuperHackers @tweak Uses the initial ground level for preserving the original look of the scripted camera,
 	// because alterations to the ground level do affect the positioning in subtle ways.
 	Real m_initialGroundLevel;
+	Real m_defaultHeightAspectScale; ///< Widescreen player zoom adjustment excluded from authored camera shots.
 #endif
 
 	Region2D m_cameraAreaConstraints; ///< Camera should be constrained to be within this area

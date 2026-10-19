@@ -16,6 +16,7 @@
 
 #include "always.h"
 
+#include <cstdint>
 #include <functional>
 #include <vector>
 
@@ -45,7 +46,7 @@ public:
     // GeneralsX @bugfix 14/06/2026 TRUE end-of-file reached (av_read_frame==AVERROR_EOF),
     // as opposed to a transient decode error. Used to detect a finished one-shot stream.
     bool isAtEof() const { return m_atEof; }
-    void seekFrame(int frame_idx);
+    bool seekFrame(int frame_idx);
     bool hasAudio() const;
 
     // Audio specific
@@ -60,7 +61,7 @@ public:
     int getNumFrames() const;
     int getCurrentFrame() const;
     int getPixelFormat() const;
-    unsigned int getFrameTime() const;
+    double getFrameTime() const;
 
 private:
     struct FFmpegStream
@@ -73,6 +74,7 @@ private:
     };
 
     static int readPacket(void *opaque, uint8_t *buf, int buf_size);
+    static std::int64_t seekPacket(void *opaque, std::int64_t offset, int whence);
     const FFmpegStream *findMatch(int type) const;
 
     bool m_atEof = false; ///< GeneralsX: true after av_read_frame hit AVERROR_EOF

@@ -86,3 +86,111 @@ Gesture events go through the activity's normal dispatch and SDL. Controller
 axes use the same JNI queue as the physical controller. The tests complement
 hands-on checks of actual buttons, hardware touch delivery and comfort; they do
 not measure long-session stability or cover every building/placement edge case.
+
+## Menu, movie and snapped-press regressions
+
+The October 18 fixes have focused fixtures, using the same test APK and runner:
+
+```sh
+adb shell am instrument -w -e menus true com.generalsthor.zerohour.test/com.generalsx.zerohour.ThorInteractionChecks
+adb shell am instrument -w -e movies true com.generalsthor.zerohour.test/com.generalsx.zerohour.ThorInteractionChecks
+adb shell am instrument -w -e fresh true -e snap true com.generalsthor.zerohour.test/com.generalsx.zerohour.ThorInteractionChecks
+```
+
+`menus` checks all six main-menu buttons, D-pad focus against the visible deck,
+Options isolation, unique window IDs and one Extras button after reopening.
+`movies` starts USA on Easy through the bottom-screen buttons, skips the briefing
+with Start, checks that controller input cannot select during the opening scene,
+then waits for the scripted camera to finish and control to return without a
+queued pause. It takes about two minutes and does not complete the mission.
+`snap` starts a USA skirmish, finds an off-center snapped dozer and holds A before
+releasing it. The cursor must stay fixed and the intended dozer must be selected.
+
+For uninterrupted video playback, enable the existing audio trace option and
+restart the game before recording. Play the startup or briefing video, collect
+`generals-stderr.log`, then check the actual decoder/presentation trace:
+
+```sh
+python scripts/qa/check-movie-playback.py generals-stderr.log --require-complete 1
+```
+
+Add `--require-skipped 1` when the recording also contains an intentional skip.
+The check expects sequential full-screen movies, without overlapping window
+videos. It rejects missing/out-of-order presentation frames and incomplete log
+recordings. Retail movies and extracted mission scripts stay outside source
+history. The tests do not establish that every campaign mission works.
+
+## Briefing audio and offline campaign review
+
+The seventh host check in `test-thor.sh` covers the duration calculation used by
+frozen black-and-white briefings: narration fits before the next cut, fade offsets
+stay intact, and missing audio or already-long timers receive no extension. The
+engine uses asset duration and fixed simulation frames, never hardware playback
+state, to compute this extension. An explicit reviewed catalog also covers
+individual dialogue waits in ordinary campaign scripts. Its map, script, timer
+and authored duration must match. Skirmish, multiplayer, replay, random timers and
+unlisted camera/combat/FX waits retain their timing.
+
+To check an actual briefing recording, collect the existing audio trace and pass
+the expected event names in order. For the USA 1 opening briefing and handoff:
+
+```sh
+python scripts/qa/check-briefing-playback.py generals-stderr.log --events MisUSA01xBrf01,MisUSA01xBrf02,MisUSA01xBrf03,MisUSA01xBrf04,MisUSA01xBrf06,MisUSA01xBrf05,MisUSA01xBrf07
+```
+
+This requires complete start/end traces. It checks order, completion and overlap;
+the player still judges shot choice, effects and comfortable volume.
+
+The offline audit does not connect to the Thor or launch a mission:
+
+```sh
+python scripts/qa/audit-campaign-cinematics.py "PATH/TO/OWNED/ZERO HOUR" --out artifacts/campaign-audit
+python scripts/qa/audit-campaign-cinematics.py "PATH/TO/OWNED/ZERO HOUR" --out artifacts/campaign-audit --ffmpeg "PATH/TO/ffmpeg"
+```
+
+Python 3.9+ is required; FFmpeg is optional. Point it at the English Steam install
+containing the `ZH_Generals` base-data folder. It reads BIG archives and loose
+overrides, resolves default/expansion video and speech definitions, dumps mission
+scripts and writes `audit.json`. The FFmpeg option decodes video and audio to a
+null output and compares decoded video-frame counts with the Bink header.
+
+Outputs include owned maps and script dumps. Keep them in ignored `artifacts/`,
+never source history. A short timer is a review candidate: camera effects, radio
+chatter, independent timer branches and inactive scripts can overlap on purpose.
+The audit does not rewrite retail assets or certify visual/playthrough parity.
+Missing main-campaign movies, decoder failures or unhandled cinematic actions
+return a failure status. Other unresolved references remain in the report for
+review, including retail's unused training/victory video definitions.
+
+The [October 19 review](../WORKDIR/reports/THOR-CINEMATICS-2026-10-19.md) records
+the checked scope and separates actual Thor observations from offline checks.
+
+## Reviewed dialogue dependencies
+
+`Core/GameEngine/Include/Common/CampaignDialogueCues.def` is the source for the
+reviewed waits. Each record identifies the timer writer, speech source and next
+dialogue/completion script. It contains identifiers and timing metadata, with no
+retail map or audio bytes. The two USA 3 sibling-script entries are intentional.
+
+Check it against your owned English install and exercise those actual durations
+through the same C++ timing/identity functions used by the engine:
+
+```sh
+python scripts/qa/check-campaign-dialogue-timing.py "PATH/TO/OWNED/ZERO HOUR" --out artifacts/dialogue-review
+bash scripts/qa/test-thor.sh
+build/thor-tests/briefing artifacts/dialogue-review/timing-vectors.tsv
+```
+
+The Python check verifies unique writers, authored timer values, speech assets,
+sibling triggers, all timer readers and their presentation actions. Inactive
+readers with no script reference are reported separately; adding an activation
+or a new non-presentation action makes verification fail. It writes raw owned
+maps/dumps alongside vectors, so keep the output ignored and delete it after
+checking if desired. The C++ check verifies every catalog entry and guards
+against applying a correction to a different map, changed wait or adjacent
+camera/FX timer. Already-long waits stay unchanged; unavailable speech does not
+invent a replacement duration.
+
+The October 19 pass checked 37 dependencies in eight missions. Twenty-nine
+English waits required an extension. These are offline checks, not a later-mission
+playthrough or a claim of exact camera/voice synchronization throughout the game.

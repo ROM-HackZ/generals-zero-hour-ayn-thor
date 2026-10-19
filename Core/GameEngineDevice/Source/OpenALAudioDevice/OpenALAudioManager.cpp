@@ -847,15 +847,6 @@ void OpenALAudioManager::playAudioEvent(AudioEventRTS* event)
 			stopAllSpeech();
 		}
 
-		Real curVolume = 1.0;
-		if (info->m_soundType == AT_Music) {
-			curVolume = m_musicVolume;
-		}
-		else {
-			curVolume = m_speechVolume;
-		}
-		curVolume *= event->getVolume();
-
 		Bool foundSoundToReplace = false;
 		if (handleToKill) {
 			for (it = m_playingStreams.begin(); it != m_playingStreams.end(); ++it) {
@@ -955,7 +946,14 @@ void OpenALAudioManager::playAudioEvent(AudioEventRTS* event)
 				setDisallowSpeech(TRUE);
 				s_disallowSpeechSetFrame = TheGameLogic ? TheGameLogic->getFrame() : 0;
 			}
-			// AIL_set_stream_volume_pan(stream, curVolume, 0.5f);
+			// GeneralsX @bugfix Codex 19/10/2026 Match Miles: apply stream gain before
+			// playback, including category volume, event override and volume shift.
+			alSourcef(stream->getSource(), AL_GAIN, getEffectiveVolume(event));
+			GX_AUDIO_TRACE("stream start wallMs=%.0f frame=%u event=%s src=%u gain=%.3f speech=%.3f overlap=%d\n",
+				std::chrono::duration<double, std::milli>(std::chrono::steady_clock::now().time_since_epoch()).count(),
+				TheGameLogic ? TheGameLogic->getFrame() : 0, event->getEventName().str(),
+				(unsigned)stream->getSource(), getEffectiveVolume(event), m_speechVolume,
+				!event->getUninterruptible());
 			playStream(event, stream);
 			m_playingStreams.push_back(audio);
 			audio = NULL;
@@ -2383,8 +2381,7 @@ void OpenALAudioManager::adjustVolumeOfPlayingAudio(AsciiString eventName, Real 
 		if (playing && playing->m_audioEventRTS && playing->m_audioEventRTS->getEventName() == eventName) {
 			// Adjust it
 			playing->m_audioEventRTS->setVolume(newVolume);
-			Real desiredVolume = playing->m_audioEventRTS->getVolume() * playing->m_audioEventRTS->getVolumeShift();
-			alSourcef(playing->m_source, AL_GAIN, desiredVolume);
+			adjustPlayingVolume(playing);
 		}
 	}
 
@@ -2393,8 +2390,7 @@ void OpenALAudioManager::adjustVolumeOfPlayingAudio(AsciiString eventName, Real 
 		if (playing && playing->m_audioEventRTS && playing->m_audioEventRTS->getEventName() == eventName) {
 			// Adjust it
 			playing->m_audioEventRTS->setVolume(newVolume);
-			Real desiredVolume = playing->m_audioEventRTS->getVolume() * playing->m_audioEventRTS->getVolumeShift();
-			alSourcef(playing->m_source, AL_GAIN, desiredVolume);
+			adjustPlayingVolume(playing);
 		}
 	}
 
@@ -2403,8 +2399,7 @@ void OpenALAudioManager::adjustVolumeOfPlayingAudio(AsciiString eventName, Real 
 		if (playing && playing->m_audioEventRTS && playing->m_audioEventRTS->getEventName() == eventName) {
 			// Adjust it
 			playing->m_audioEventRTS->setVolume(newVolume);
-			Real desiredVolume = playing->m_audioEventRTS->getVolume() * playing->m_audioEventRTS->getVolumeShift();
-			alSourcef(playing->m_source, AL_GAIN, desiredVolume);
+			adjustPlayingVolume(playing);
 		}
 	}
 }
@@ -2728,6 +2723,11 @@ void OpenALAudioManager::processPlayingList(void)
 		if (playing->m_stream && sourceIsStopped(playing->m_stream->getSource())
 		    && playing->m_stream->isAtEnd())
 		{
+			GX_AUDIO_TRACE("stream end wallMs=%.0f frame=%u event=%s src=%u\n",
+				std::chrono::duration<double, std::milli>(std::chrono::steady_clock::now().time_since_epoch()).count(),
+				TheGameLogic ? TheGameLogic->getFrame() : 0,
+				playing->m_audioEventRTS ? playing->m_audioEventRTS->getEventName().str() : "?",
+				(unsigned)playing->m_stream->getSource());
 			// If this was an uninterruptible speech stream, clear the disallow flag.
 			const AudioEventInfo* streamInfo = (playing->m_audioEventRTS ? playing->m_audioEventRTS->getAudioEventInfo() : nullptr);
 			if (streamInfo && streamInfo->m_soundType == AT_Streaming && getDisallowSpeech())
@@ -3161,6 +3161,8 @@ ALuint OpenALAudioManager::playSample(AudioEventRTS* event, PlayingAudio* audio)
 	if (bufferHandle) {
 		alSourcei(audio->m_source, AL_SOURCE_RELATIVE, AL_TRUE);
 		alSourcei(audio->m_source, AL_BUFFER, (ALuint)(uintptr_t)bufferHandle);
+		// GeneralsX @bugfix Codex 19/10/2026 Apply category/event gain to each new or reused source.
+		alSourcef(audio->m_source, AL_GAIN, getEffectiveVolume(event));
 		alSourcePlay(audio->m_source);
 	}
 
@@ -3218,6 +3220,8 @@ ALuint OpenALAudioManager::playSample3D(AudioEventRTS* event, PlayingAudio* samp
 			alSourcei(source, AL_BUFFER, handle);
 			DEBUG_LOG(("Playing 3D sample '%s' at %f, %f, %f\n", event->getEventName().str(), x, y, z));
 
+			// GeneralsX @bugfix Codex 19/10/2026 Match the effective 3D gain used by Miles.
+			alSourcef(source, AL_GAIN, getEffectiveVolume(event));
 			// Start playback
 			alSourcePlay(source);
 		}

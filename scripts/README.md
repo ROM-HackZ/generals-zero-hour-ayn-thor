@@ -8,7 +8,11 @@ The Thor fork's [build guide](../docs/BUILD/THOR.md) and
 | Script | Use |
 |---|---|
 | `build/android/build-thor.sh` | Build the retail 30 Hz Thor APK locally. |
-| `qa/test-thor.sh` | Run host input, layout, artwork and radar checks. |
+| `qa/test-thor.sh` | Run seven host checks for input, layout, artwork, radar and briefing timing. |
+| `qa/audit-campaign-cinematics.py` | Read owned retail campaign scripts, speech durations and movie references offline. Optional `--ffmpeg PATH` fully decodes referenced movies. Outputs contain owned data; use an ignored `artifacts/` directory. |
+| `qa/check-campaign-dialogue-timing.py` | Verify the reviewed dialogue-wait catalog against owned maps and WAV durations; produce vectors for the native timing test. |
+| `qa/check-movie-playback.py` | Check a real sequential movie's presentation log for missing frames, completion and expected skips. |
+| `qa/check-briefing-playback.py` | Check traced speech starts/ends against an expected event sequence, rejecting overlapping or unfinished lines. |
 | `thor/install-thor.ps1` | Install the app and copy owned game data from PowerShell. |
 | `thor/capture-thor.ps1` | Capture physical screens and recent app logs. |
 | `thor/save-current-match.ps1` | Create and verify a separate game save. |

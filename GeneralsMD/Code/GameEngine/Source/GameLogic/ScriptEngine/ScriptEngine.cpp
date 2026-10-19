@@ -30,6 +30,11 @@
 
 #include "GXTrace.h"
 
+#include "Common/AudioEventRTS.h"
+#include "Common/AudioEventInfo.h"
+#include "Common/GameAudio.h"
+#include "Common/BriefingTiming.h"
+#include "Common/CampaignDialogueTiming.h"
 #include "Common/DataChunk.h"
 #include "Common/file.h"
 #include "Common/FileSystem.h"
@@ -48,6 +53,7 @@
 #include "GameClient/MessageBox.h"
 #include "GameClient/Shell.h"
 #include "GameClient/View.h"
+#include "GameClient/CommandXlat.h"
 #include "GameClient/CampaignManager.h"
 
 #include "GameLogic/GameLogic.h"
@@ -6766,7 +6772,7 @@ Bool ScriptEngine::evaluateTimer( Condition *pCondition )
 //-------------------------------------------------------------------------------------------------
 /** Starts a timer. */
 //-------------------------------------------------------------------------------------------------
-void ScriptEngine::setTimer( ScriptAction *pAction, Bool millisecondTimer, Bool random )
+void ScriptEngine::setTimer( ScriptAction *pAction, Bool millisecondTimer, Bool random, Int extraFrames )
 {
 	DEBUG_ASSERTCRASH(pAction->getNumParameters() >= 2, ("Not enough parameters."));
 	Int counterNdx = pAction->getParameter(0)->getInt();
@@ -6794,6 +6800,7 @@ void ScriptEngine::setTimer( ScriptAction *pAction, Bool millisecondTimer, Bool 
 		}
 		m_counters[counterNdx].value = value;
 	}
+	m_counters[counterNdx].value += extraFrames;
 	m_counters[counterNdx].isCountdownTimer = true;
 }
 
@@ -7079,7 +7086,7 @@ void ScriptEngine::executeScript( Script *pScript )
 				// Script Debug window
 				if (pScript->getAction()) {
 					_appendMessage(pScript->getName());
-					executeActions(pScript->getAction());
+					executeActions(pScript->getAction(), pScript);
 				}
 
 				if (pScript->isOneShot()) {
@@ -7091,7 +7098,7 @@ void ScriptEngine::executeScript( Script *pScript )
 				_appendMessage(pScript->getName(), false);
 
 				// Only do this if there are actually false actions.
-				executeActions(pScript->getFalseAction());
+				executeActions(pScript->getFalseAction(), nullptr);
       }
 		}
 
@@ -7102,7 +7109,7 @@ void ScriptEngine::executeScript( Script *pScript )
 			if (pScript->getAction()) {
 				// Script Debug window
 				_appendMessage(pScript->getName());
-				executeActions(pScript->getAction());
+				executeActions(pScript->getAction(), pScript);
 			}
 
 			if (pScript->isOneShot()) {
@@ -7114,7 +7121,7 @@ void ScriptEngine::executeScript( Script *pScript )
 			_appendMessage(pScript->getName(), false);
 
 			// Only do this if there are actually false actions.
-			executeActions(pScript->getFalseAction());
+			executeActions(pScript->getFalseAction(), nullptr);
 			if (pScript->isOneShot()) {
 				pScript->setActive(false);
 			}
@@ -7159,7 +7166,7 @@ void ScriptEngine::friend_executeAction( ScriptAction *pActionHead, Team *pThisT
 	if (pThisTeam) {
 		m_currentPlayer = pThisTeam->getControllingPlayer();
 	}
-	executeActions(pActionHead);
+	executeActions(pActionHead, nullptr);
 	m_callingTeam = pSavCallingTeam;
 	m_currentPlayer = pSavPlayer;
 }
@@ -7708,11 +7715,73 @@ Bool ScriptEngine::evaluateConditions( Script *pScript, Team *thisTeam, Player *
 //-------------------------------------------------------------------------------------------------
 /** Execute a linked list of actions */
 //-------------------------------------------------------------------------------------------------
-void ScriptEngine::executeActions( ScriptAction *pActionHead )
+#if defined(__ANDROID__)
+// GeneralsX @bugfix Codex 19/10/2026 Query static speech duration without consuming
+// logic RNG or relying on the device's playback/volume/pause state.
+static Real thorScriptSpeechLength(const AsciiString &name)
+{
+	AudioEventRTS speech(name);
+	TheAudio->getInfoForAudioEvent(&speech);
+	const AudioEventInfo *info = speech.getAudioEventInfo();
+	if (!info || info->m_soundType != AT_Streaming || (info->m_control & AC_LOOP)) return 0.0f;
+	speech.generateFilename();
+	return TheAudio->getFileLengthMS(speech.getFilename());
+}
+#endif
+
+void ScriptEngine::executeActions( ScriptAction *pActionHead, const Script *scriptContext )
 {
 	ScriptAction *pCurAction;
 	UnicodeString uStr1;
+	Int briefingDelayFrames = 0;
+#if defined(__ANDROID__)
+	// GeneralsX @bugfix Codex 19/10/2026 Local frozen surveillance briefings must
+	// reserve enough time for their shipped/localized dialogue. Use asset duration,
+	// never playback state or wall time, and shift all cue timers equally so fade
+	// offsets survive. Other timers require an explicitly reviewed dialogue cue.
+	if (m_freezeByScript && TheGameLogic->getGameMode() == GAME_SINGLE_PLAYER && TheAudio && TheTacticalView &&
+		TheTacticalView->getViewFilterType() == FT_VIEW_BW_FILTER) {
+		Real longestSpeechMs = 0.0f, longestTimerSeconds = 0.0f;
+		for (ScriptAction *action = pActionHead; action; action = action->getNext()) {
+			if (action->getActionType() == ScriptAction::SPEECH_PLAY) {
+				longestSpeechMs = std::max(longestSpeechMs,
+					thorScriptSpeechLength(action->getParameter(0)->getString()));
+			} else if (action->getActionType() == ScriptAction::SET_MILLISECOND_TIMER) {
+				longestTimerSeconds = std::max(longestTimerSeconds, action->getParameter(1)->getReal());
+			} else if (action->getActionType() == ScriptAction::SET_TIMER) {
+				longestTimerSeconds = std::max(longestTimerSeconds,
+					action->getParameter(1)->getInt() / LOGICFRAMES_PER_SECONDS_REAL);
+			}
+		}
+		briefingDelayFrames = ThorBriefingDelayFrames(longestSpeechMs, longestTimerSeconds, LOGICFRAMES_PER_SECOND);
+		if (briefingDelayFrames) GX_AUDIO_TRACE("briefing cue speechMs=%.1f timerSeconds=%.3f extraFrames=%d\n",
+			longestSpeechMs, longestTimerSeconds, briefingDelayFrames);
+	}
+#endif
 	for (pCurAction = pActionHead; pCurAction; pCurAction = pCurAction->getNext()) {
+		Int timerDelayFrames = briefingDelayFrames;
+#if defined(__ANDROID__)
+		// GeneralsX @bugfix Codex 19/10/2026 Only reviewed campaign dialogue waits
+		// are extended. Keep adjacent camera, combat and overlapping FX timers intact.
+		if (scriptContext && TheAudio && TheGameLogic->getGameMode() == GAME_SINGLE_PLAYER &&
+			TheCampaignManager && TheCampaignManager->getCurrentMission() &&
+			(pCurAction->getActionType() == ScriptAction::SET_TIMER ||
+			 pCurAction->getActionType() == ScriptAction::SET_MILLISECOND_TIMER)) {
+			const Real seconds = pCurAction->getActionType() == ScriptAction::SET_TIMER ?
+				pCurAction->getParameter(1)->getInt() / LOGICFRAMES_PER_SECONDS_REAL :
+				pCurAction->getParameter(1)->getReal();
+			const ThorDialogueCue *cue = ThorFindDialogueCue(true,
+				TheCampaignManager->getCurrentMission()->m_mapName.str(), scriptContext->getName().str(),
+				pCurAction->getParameter(0)->getString().str(), seconds);
+			if (cue) {
+				const Int delay = ThorBriefingDelayFrames(thorScriptSpeechLength(AsciiString(cue->speech)),
+					seconds, LOGICFRAMES_PER_SECOND);
+				timerDelayFrames = std::max(timerDelayFrames, delay);
+				if (delay) GX_AUDIO_TRACE("dialogue wait map=%s script=%s timer=%s speech=%s extraFrames=%d\n",
+					cue->map, cue->script, cue->timer, cue->speech, delay);
+			}
+		}
+#endif
 		switch (pCurAction->getActionType()) {
 			default: if (TheScriptActions) TheScriptActions->executeAction(pCurAction); break;
 			case ScriptAction::SET_COUNTER: setCounter(pCurAction);	break;
@@ -7722,10 +7791,10 @@ void ScriptEngine::executeActions( ScriptAction *pActionHead )
 			case ScriptAction::SET_FLAG: setFlag(pCurAction);break;
 			case ScriptAction::STOP_TIMER: pauseTimer(pCurAction);break;
 			case ScriptAction::RESTART_TIMER: restartTimer(pCurAction);break;
-			case ScriptAction::SET_TIMER: setTimer(pCurAction, false, false);break;
-			case ScriptAction::SET_MILLISECOND_TIMER: setTimer(pCurAction, true, false);break;
-			case ScriptAction::SET_RANDOM_TIMER: setTimer(pCurAction, false, true);break;
-			case ScriptAction::SET_RANDOM_MSEC_TIMER: setTimer(pCurAction, true, true);break;
+			case ScriptAction::SET_TIMER: setTimer(pCurAction, false, false, timerDelayFrames);break;
+			case ScriptAction::SET_MILLISECOND_TIMER: setTimer(pCurAction, true, false, timerDelayFrames);break;
+			case ScriptAction::SET_RANDOM_TIMER: setTimer(pCurAction, false, true, 0);break;
+			case ScriptAction::SET_RANDOM_MSEC_TIMER: setTimer(pCurAction, true, true, 0);break;
 			case ScriptAction::ADD_TO_MSEC_TIMER: adjustTimer(pCurAction, true, true);break;
 			case ScriptAction::SUB_FROM_MSEC_TIMER: adjustTimer(pCurAction, true, false);break;
 			case ScriptAction::ENABLE_SCRIPT: enableScript(pCurAction);break;
@@ -8081,7 +8150,7 @@ void ScriptEngine::evaluateAndProgressAllSequentialScripts()
 							seqScript->m_dontAdvanceInstruction = TRUE;
 						}
 					} else {
-						executeActions(action);
+						executeActions(action, nullptr);
 					}
 
 					if (displayMessage) {

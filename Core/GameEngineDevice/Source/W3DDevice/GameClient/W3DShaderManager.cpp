@@ -2651,50 +2651,12 @@ void W3DShaderManager::init()
 	// For now, check & see if we are gf3 or higher on the food chain.
 
 	ChipsetType res=DC_UNKNOWN;
-	// GeneralsX @bugfix Android port 09/09/2026 Build the offscreen render target even on a
-	// chipset this 2003 classifier cannot name.
-	//
-	// getChipset() knows a fixed list of 2001-era cards and, for anything else, falls back to
-	// "4+ simultaneous textures AND pixel shader 1.1+". The GLES translator deliberately
-	// reports 2 texture stages and pixel shader version 0 so the engine picks its
-	// fixed-function paths (d3d8gles.cpp:1957/1977), so it lands on DC_UNKNOWN -- and that
-	// skipped this whole block, which is where the render-to-texture surface is created.
-	// Without it canRenderToTexture() is false forever and every screen filter refuses to
-	// initialise, which is why the scripted black-and-white shots (ScriptActions.cpp:3856,
-	// FT_VIEW_BW_FILTER) came out in full colour.
-	//
-	// Nothing in here is chipset-specific: it asks D3D for the current render target, makes a
-	// texture the same size and format, and gives up cleanly if any of that fails. The
-	// individual shaders below still have their own capability gates, so this does not enable
-	// anything that cannot run.
-	//
-	// Opening this gate once before (09/09/2026) turned the black-and-white shots solid black
-	// and was reverted. The cause was not here -- it was D3DTOP_MULTIPLYADD emitted with its
-	// operands transposed in the GLES translator, which the DOT3 filter is the only other
-	// user of; fixed in gles_pipeline.cpp, where the derivation is written out. Motion blur
-	// and crossfade come alive with this too, as they always would: they need nothing but
-	// this render target. Both are plain full-screen quads with preset shaders and neither
-	// touches MULTIPLYADD or DOTPRODUCT3.
-	// GeneralsX @bugfix Android port 09/09/2026 CLOSED AGAIN, and this time by measurement.
-	//
-	// The MULTIPLYADD transposition below this file was real and is fixed, and the emitted
-	// GLSL now reads exactly as it should:
-	//   cur = clamp(vec4(uTFactor.a) + tex0 * vec4(uTFactor.a), 0, 1)
-	//   cur = clamp(dot(cur.rgb - 0.5, uTFactor.rgb - 0.5) * 4, 0, 1)
-	// But the shot still came out black, because tex0 is black. A glReadPixels of the render
-	// target, taken at the exact moment endRenderToTexture() hands it to the filter, says so
-	// outright:
-	//   rt-sample endRenderToTexture 2510x1156 avg=(0.0,0.0,0.0) max=(0,0,0) nonblack=0/4096 glerr=0x0
-	// The FBO is complete, the read is from the texture's own FBO, and GL reports no error --
-	// the scene simply never lands in it. So there were two independent faults, the arithmetic
-	// was only one of them, and the second is still open.
-	//
-	// Until the scene actually renders into that target, opening this gate ships black
-	// cinematics, which is worse than the colour ones it was meant to fix. The next question
-	// is who unbinds the FBO between preRender() and postRender() -- WW3D::Begin_Render and
-	// the 3D scene pass are the obvious suspects, since they run in between and both touch
-	// the render target.
-	if ((res=W3DShaderManager::getChipset()) != 0)
+	// GeneralsX @bugfix Codex 19/10/2026 Android supports render targets even when the
+	// legacy chipset classifier cannot name its fixed-function translator.
+	res = W3DShaderManager::getChipset();
+#if !defined(__ANDROID__)
+	if (res != DC_UNKNOWN)
+#endif
 	{
 		m_currentChipset = res;	//cache the current chipset.
 
@@ -2959,6 +2921,11 @@ void W3DShaderManager::startRenderToTexture()
 	}
 
 	m_renderingToTexture = true;
+	// GeneralsX @bugfix Codex 19/10/2026 Each filter scene needs fresh depth. GLES
+	// attachments have separate depth storage from the already-cleared backbuffer;
+	// leaving it stale rejected the entire briefing scene while its color was black.
+	DX8Wrapper::Clear(false, true, Vector3(0.0f, 0.0f, 0.0f), 0.0f);
+
 	if (TheGlobalData->m_showSoftWaterEdge)
 	{	//Soft water edges use frame buffer destination alpha so we must clear it to a known value.
 		if (m_currentFilter == FT_VIEW_MOTION_BLUR_FILTER || m_currentFilter == FT_VIEW_CROSSFADE)

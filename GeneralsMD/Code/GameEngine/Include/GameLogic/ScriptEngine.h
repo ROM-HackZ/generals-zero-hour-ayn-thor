@@ -382,7 +382,7 @@ protected:
 	void setFlag( ScriptAction *pAction );
 	void pauseTimer( ScriptAction *pAction );
 	void restartTimer( ScriptAction *pAction );
-	void setTimer( ScriptAction *pAction, Bool millisecondTimer, Bool random);
+	void setTimer( ScriptAction *pAction, Bool millisecondTimer, Bool random, Int extraFrames);
 	void adjustTimer( ScriptAction *pAction, Bool millisecondTimer, Bool add);
 	void enableScript( ScriptAction *pAction );
 	void disableScript( ScriptAction *pAction );
@@ -392,7 +392,7 @@ protected:
 	Bool evaluateFlag( Condition *pCondition );
 	Bool evaluateTimer( Condition *pCondition );
 	Bool evaluateCondition( Condition *pCondition );
-	void executeActions( ScriptAction *pActionHead );
+	void executeActions( ScriptAction *pActionHead, const Script *scriptContext );
 
 	void setPriorityThing( ScriptAction *pAction );
 	void setPriorityKind( ScriptAction *pAction );

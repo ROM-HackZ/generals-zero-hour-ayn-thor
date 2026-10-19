@@ -50,6 +50,7 @@
 //----------------------------------------------------------------------------
 
 #include "GameClient/VideoPlayer.h"
+#include <deque>
 
 //----------------------------------------------------------------------------
 //           Forward References
@@ -73,18 +74,18 @@ class FFmpegVideoStream : public VideoStream
 
 	protected:
 		bool m_good = true;
-		bool m_gotFrame = false;
 		AVFrame *m_frame = nullptr;
     SwsContext *m_swsContext = nullptr;
 		FFmpegFile*				m_ffmpegFile;														///< Bink streaming handle;
 		Char					*m_memFile;													///< Pointer to memory resident file
 		uint64_t				m_startTime = 0;												///< Time the stream started		
 		uint8_t *m_audioBuffer = nullptr;
-		/// GeneralsX @bugfix Android port 08/09/2026 Has this stream already pushed its
-		/// lead-in of silence into the movie audio source? Movie audio arrives one frame
-		/// per decoded packet and is paced by the VIDEO frame rate, so without a cushion
-		/// the source drains and stops between every pair of frames -- inaudible playback.
-		bool m_audioPrimed = false;
+		// GeneralsX @bugfix Codex 18/10/2026 Audio prefetch retains video frames until presentation.
+        std::deque<AVFrame*> m_videoFrames;
+        Int m_frameIndex = -1;
+        Int m_renderedFrames = 0;
+        Int m_lastRenderedFrame = -1;
+        bool m_started = false;
 
 		FFmpegVideoStream(FFmpegFile* file);																///< only BinkVideoPlayer can create these
 		virtual ~FFmpegVideoStream();												

@@ -344,28 +344,19 @@ FFmpegVideoStream::FFmpegVideoStream(FFmpegFile* file)
     audioStream->reset();
 #endif
 
-    // Decode until we have our first video frame
-    while (m_good && m_gotFrame == false)
-        m_good = m_ffmpegFile->decodePacket();
-
+    // GeneralsX @bugfix Codex 18/10/2026 Prime real audio before starting the common clock.
+    // update() buffers both streams without replacing the frame being displayed.
+    update();
+    frameNext();
+    m_startTime = std::chrono::duration_cast<std::chrono::milliseconds>(
+        std::chrono::steady_clock::now().time_since_epoch()).count();
+    m_started = true;
 #ifdef SAGE_USE_OPENAL
-    // Start audio playback
-    // GeneralsX @bugfix fbraz3 23/04/2026 Ensure video stream starts with audible gain even after prior source reuse.
-    // Issue: https://github.com/fbraz3/GeneralsX/issues/38
     audioStream->setVolume(1.0f);
-    // GeneralsX @bugfix Android port 09/09/2026 Do NOT restart a source that is already playing.
-    // alSourcePlay() on an AL_PLAYING source rewinds it to the FRONT of its queue (openal-soft
-    // StartSources: "A source that's already playing is restarted from the beginning"), so this
-    // replayed every buffer the decode loop above had just queued. update() already starts the
-    // source the moment the first buffer lands, which is why it is playing by the time we get
-    // here; all this call has to do is cover the case where it is not.
-    if (!audioStream->isPlaying())
-        audioStream->play();
-    GX_AUDIO_TRACE("FFmpegVideoStream ctor: audioStream=%p hasAudio=%d gotFirstVideoFrame=%d\n",
-            (void*)audioStream, (int)m_ffmpegFile->hasAudio(), (int)m_gotFrame);
+    audioStream->update();
 #endif
-
-    m_startTime = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
+    fprintf(stderr, "[GX-VIDEO] start frames=%d frame_ms=%.6f first=%d buffered=%zu\n",
+        frameCount(), m_ffmpegFile->getFrameTime(), m_frameIndex, m_videoFrames.size());
 }
 
 //============================================================================
@@ -374,6 +365,14 @@ FFmpegVideoStream::FFmpegVideoStream(FFmpegFile* file)
 
 FFmpegVideoStream::~FFmpegVideoStream()
 {
+    // GeneralsX @bugfix Codex 18/10/2026 Skipping frees queued pictures as well as the current one.
+    const auto now = std::chrono::duration_cast<std::chrono::milliseconds>(
+        std::chrono::steady_clock::now().time_since_epoch()).count();
+    fprintf(stderr, "[GX-VIDEO] close presented=%d index=%d frames=%d decoded=%d elapsed_ms=%llu\n",
+        m_renderedFrames, frameIndex(), frameCount(), m_ffmpegFile->getCurrentFrame(),
+        (unsigned long long)(now - m_startTime));
+    for (auto* frame : m_videoFrames) av_frame_free(&frame);
+    m_videoFrames.clear();
     // GeneralsX @bugfix fbraz3 20/04/2026 Stop and clear queued OpenAL buffers so video audio
     // does not bleed into gameplay after the loading screen closes the stream.
     // Issue: https://github.com/fbraz3/GeneralsX/issues/38
@@ -395,9 +394,9 @@ void FFmpegVideoStream::onFrame(AVFrame *frame, int stream_idx, int stream_type,
 {
     FFmpegVideoStream *videoStream = static_cast<FFmpegVideoStream *>(user_data);
     if (stream_type == AVMEDIA_TYPE_VIDEO) {
-        av_frame_free(&videoStream->m_frame);
-        videoStream->m_frame = av_frame_clone(frame);
-        videoStream->m_gotFrame = true;
+        // GeneralsX @bugfix Codex 18/10/2026 Keep decoded video in FIFO order while audio reads ahead.
+        AVFrame* copy = av_frame_clone(frame);
+        if (copy) videoStream->m_videoFrames.push_back(copy);
     }
 #ifdef SAGE_USE_OPENAL
     else if (stream_type == AVMEDIA_TYPE_AUDIO) {
@@ -486,41 +485,7 @@ void FFmpegVideoStream::onFrame(AVFrame *frame, int stream_idx, int stream_type,
 
         ALenum format = OpenALAudioManager::getALFormat(frame->ch_layout.nb_channels, outputBitsPerSample);
 
-        // GeneralsX @bugfix Android port 08/09/2026 Give the movie's audio queue a cushion of
-        // silence ahead of its first real buffer.
-        //
-        // Root cause of "the intro movie has no sound", straight out of a device log: the
-        // movie's audio source never holds more than ONE buffer. Movie audio is not streamed
-        // by OpenALAudioManager -- it is produced right here, one AVFrame per decoded packet,
-        // and the decode loop only runs when the player wants the NEXT VIDEO FRAME. So a
-        // single ~40ms buffer gets queued, OpenAL plays it out in 40ms, and the source drains
-        // and stops before the next video frame arrives. update() then reported, over and
-        // over, for the whole movie:
-        //     unqueue src=1 asked=1 failed=0 queuedAfter=0
-        //     refilled src=1 queued=0 processed=0 state=STOPPED
-        // 240 times in one run, across both intro movies, and never a single probe line --
-        // which is what identifies src=1 as this stream: the probe needs a data callback and
-        // this stream has none. Audio that starts and stops every 40ms is not audio, it is
-        // silence with clicks in it.
-        //
-        // The queue cannot be deepened by decoding ahead: decodePacket() also produces video
-        // frames, and running ahead of the player would drop them. Padding the FRONT of the
-        // queue with silence costs only a fixed lead-in and gives playback a cushion that
-        // absorbs the per-frame jitter, so the source stays AL_PLAYING across frame
-        // boundaries instead of restarting on every single buffer.
-        if (!videoStream->m_audioPrimed) {
-            videoStream->m_audioPrimed = true;
-            const int gxPrimeBuffers = 6;   // 6 * ~40ms == ~240ms of lead-in
-            uint8_t* gxSilence = static_cast<uint8_t*>(av_mallocz(outputFrameSize));
-            if (gxSilence != nullptr) {
-                for (int i = 0; i < gxPrimeBuffers; ++i) {
-                    if (!audioStream->bufferData(gxSilence, outputFrameSize, format, frame->sample_rate))
-                        break;
-                }
-                av_freep(&gxSilence);
-            }
-        }
-
+        // GeneralsX @bugfix Codex 18/10/2026 Buffer actual samples; silence delayed dialogue and cut off its tail.
         // GeneralsX @feature Android port 09/09/2026 Peak amplitude of the PCM we are about to
         // queue. This is the one thing the device logs could never answer: whether the silence
         // is in the pipeline or in the file. peak==0 across a whole movie means the decoder is
@@ -540,7 +505,7 @@ void FFmpegVideoStream::onFrame(AVFrame *frame, int stream_idx, int stream_type,
             GX_AUDIO_TRACE("movie audio frame: bufferData() FAILED (format=0x%x rate=%d size=%d)\n",
                     (unsigned)format, frame->sample_rate, outputFrameSize);
         }
-        audioStream->update();
+        // Source maintenance runs after the bounded decode batch in update().
 
         static int gxAudioFrameCount = 0;
         if ((gxAudioFrameCount++ % 30) == 0) {
@@ -568,60 +533,25 @@ void FFmpegVideoStream::onFrame(AVFrame *frame, int stream_idx, int stream_type,
 
 void FFmpegVideoStream::update( void )
 {
+    // GeneralsX @bugfix Codex 18/10/2026 Bound audio prefetch and preserve every pending video frame.
 #ifdef SAGE_USE_OPENAL
-    // GeneralsX @bugfix BenderAI 22/04/2026 Keep source maintenance without force-restarting playback each frame.
-    // Calling play() from the video update loop can continuously reset source progress
-    // during loadscreen transitions, leading to effective silence.
     OpenALAudioStream* audioStream = (OpenALAudioStream*)TheAudio->getHandleForBink();
-
-    // GeneralsX @bugfix Android port 09/09/2026 Keep the movie's audio fed at REAL TIME,
-    // independently of how fast the video is managing to decode.
-    //
-    // Movie audio is produced one AVFrame per decoded packet, and packets are only pulled
-    // when the player wants the next VIDEO frame (Display::update -> frameNext, at most once
-    // per game frame). On a device that cannot decode and software-scale the movie at its own
-    // frame rate -- and the log says exactly that, every frame going through swscale with
-    // "No accelerated colorspace conversion found from yuv420p to bgra" -- the whole stream,
-    // audio included, advances in slow motion. The audio source then drains between every
-    // pair of video frames no matter how deep the queue starts, which is why a lead-in of
-    // silence alone was not enough.
-    //
-    // So top the queue up here, from the stream's own update, until it holds a real cushion.
-    // This is self-limiting: decoding ahead advances frameIndex(), isFrameReady() compares
-    // that against the wall clock, and the player simply stops asking for frames until time
-    // catches up. The visible effect is that video frames get dropped on a device too slow to
-    // show them all -- which is the correct trade, and what every media player does: audio is
-    // the master clock, video follows.
-    //
-    // m_good is deliberately NOT assigned from these decode calls, so end-of-stream is still
-    // detected exactly where it was before, in frameNext().
-    if (m_good && m_ffmpegFile != nullptr && m_ffmpegFile->hasAudio())
-    {
-        ALint gxQueued = 0;
-        alGetSourcei(audioStream->getSource(), AL_BUFFERS_QUEUED, &gxQueued);
-        int gxBudget = 24;   // bounded work per game frame; never spin on a dead stream
-
-        // GeneralsX @bugfix Android port 09/09/2026 Never let the look-ahead run into the tail
-        // of the movie. Display::update() ends a movie by testing frameIndex() against
-        // frameCount()-1 for EQUALITY; decoding past that point makes the test never match, so
-        // frameNext() is called forever on an exhausted stream and the movie hangs on its last
-        // frame -- reported as a black screen that cannot be skipped. Stopping a few frames
-        // short leaves the ending to Display::update(), which advances one frame at a time and
-        // always lands on it exactly. (A single decodePacket() can deliver more than one frame,
-        // hence the margin rather than a bare "not the last one".)
-        const int gxLastFrame = m_ffmpegFile->getNumFrames() - 1;
-        while (gxQueued < AL_STREAM_BUFFER_COUNT / 2 && gxBudget-- > 0
-               && m_ffmpegFile->getCurrentFrame() + 4 < gxLastFrame)
-        {
-            if (!m_ffmpegFile->decodePacket())
-                break;
-            alGetSourcei(audioStream->getSource(), AL_BUFFERS_QUEUED, &gxQueued);
-        }
-    }
-
-    audioStream->update();
+    if (m_started) audioStream->update();
 #endif
-	//BinkWait( m_handle );
+    int budget = 48;
+    while (m_good && m_videoFrames.size() < 16 && budget-- > 0) {
+        bool needAudio = false;
+#ifdef SAGE_USE_OPENAL
+        ALint queued = 0;
+        alGetSourcei(audioStream->getSource(), AL_BUFFERS_QUEUED, &queued);
+        needAudio = m_ffmpegFile->hasAudio() && queued < 8;
+#endif
+        if (!needAudio && !m_videoFrames.empty()) break;
+        m_good = m_ffmpegFile->decodePacket();
+    }
+#ifdef SAGE_USE_OPENAL
+    if (m_started) audioStream->update();
+#endif
 }
 
 //============================================================================
@@ -630,11 +560,10 @@ void FFmpegVideoStream::update( void )
 
 Bool FFmpegVideoStream::isFrameReady( void )
 {
-    uint64_t time = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
-    bool ready = (time - m_startTime) >= m_ffmpegFile->getFrameTime() * frameIndex();
-    return ready;
-
-	//return !BinkWait( m_handle );
+    // GeneralsX @bugfix Codex 18/10/2026 Schedule the presented frame, not the decoder's look-ahead position.
+    const uint64_t now = std::chrono::duration_cast<std::chrono::milliseconds>(
+        std::chrono::steady_clock::now().time_since_epoch()).count();
+    return double(now - m_startTime) >= m_ffmpegFile->getFrameTime() * frameIndex();
 }
 
 //============================================================================
@@ -690,7 +619,12 @@ void FFmpegVideoStream::frameRender( VideoBuffer *buffer )
         buffer->width(),
         buffer->height(),
         dst_pix_fmt,
+        // GeneralsX @performance Codex 18/10/2026 Match Core's inexpensive Android colorspace conversion.
+#if defined(__ANDROID__)
+        SWS_FAST_BILINEAR,
+#else
         SWS_BICUBIC,
+#endif
         NULL,
         NULL,
         NULL);
@@ -707,6 +641,13 @@ void FFmpegVideoStream::frameRender( VideoBuffer *buffer )
         sws_scale(m_swsContext, m_frame->data, m_frame->linesize, 0, height(), dst_data, dst_strides);
     DEBUG_ASSERTLOG(result >= 0, ("Failed to scale frame"));
     buffer->unlock();
+    // GeneralsX @bugfix Codex 18/10/2026 Trace actual presentation separately from decoder progress.
+    if (m_lastRenderedFrame != m_frameIndex) {
+        m_lastRenderedFrame = m_frameIndex;
+        ++m_renderedFrames;
+        GX_AUDIO_TRACE("movie video present=%d decoded=%d buffered=%zu\n",
+            m_frameIndex, m_ffmpegFile->getCurrentFrame(), m_videoFrames.size());
+    }
 }
 
 //============================================================================
@@ -715,10 +656,14 @@ void FFmpegVideoStream::frameRender( VideoBuffer *buffer )
 
 void FFmpegVideoStream::frameNext( void )
 {
-	m_gotFrame = false;
-    // Decode until we have our next video frame
-    while (m_good && m_gotFrame == false)
-        m_good = m_ffmpegFile->decodePacket();
+    // GeneralsX @bugfix Codex 18/10/2026 Advance presentation by exactly one frame, even after decoding ahead.
+    if (m_videoFrames.empty()) update();
+    if (!m_videoFrames.empty()) {
+        av_frame_free(&m_frame);
+        m_frame = m_videoFrames.front();
+        m_videoFrames.pop_front();
+        ++m_frameIndex;
+    }
 }
 
 //============================================================================
@@ -727,7 +672,7 @@ void FFmpegVideoStream::frameNext( void )
 
 Int FFmpegVideoStream::frameIndex( void )
 {
-	return m_ffmpegFile->getCurrentFrame(); 
+    return m_frameIndex < 0 ? 0 : m_frameIndex;
 }
 
 //============================================================================
@@ -736,7 +681,8 @@ Int FFmpegVideoStream::frameIndex( void )
 
 Int	FFmpegVideoStream::frameCount( void )
 {
-	return m_ffmpegFile->getNumFrames();
+    // GeneralsX @bugfix Codex 18/10/2026 A truncated stream still finishes after its last decoded frame.
+    return m_good ? m_ffmpegFile->getNumFrames() : frameIndex() + int(m_videoFrames.size()) + 1;
 }
 
 //============================================================================
@@ -745,7 +691,25 @@ Int	FFmpegVideoStream::frameCount( void )
 
 void FFmpegVideoStream::frameGoto( Int index )
 {
-    m_ffmpegFile->seekFrame(index);
+    // GeneralsX @bugfix Codex 18/10/2026 A seek discards prefetched pictures and restarts its presentation clock.
+    for (auto* frame : m_videoFrames) av_frame_free(&frame);
+    m_videoFrames.clear();
+    av_frame_free(&m_frame);
+#ifdef SAGE_USE_OPENAL
+    ((OpenALAudioStream*)TheAudio->getHandleForBink())->reset();
+#endif
+    m_started = false;
+    // GeneralsX @bugfix Codex 19/10/2026 Failed seeks terminate instead of reading an unrelated position.
+    index = std::max(0, std::min(index, m_ffmpegFile->getNumFrames() - 1));
+    m_good = m_ffmpegFile->seekFrame(index);
+    m_frameIndex = index - 1;
+    m_lastRenderedFrame = -1;
+    update();
+    frameNext();
+    const uint64_t now = std::chrono::duration_cast<std::chrono::milliseconds>(
+        std::chrono::steady_clock::now().time_since_epoch()).count();
+    m_startTime = now - uint64_t(m_ffmpegFile->getFrameTime() * frameIndex());
+    m_started = true;
 }
 
 //============================================================================

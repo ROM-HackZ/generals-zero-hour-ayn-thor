@@ -22,6 +22,7 @@
 # The tail of the output is a tally of every script action the map uses, which
 # is the quickest read on whether a map is a neutral test harness.
 
+# GeneralsX @bugfix Codex 18/10/2026 Decode the engine's COORD3D parameter type; 22 is MUSIC.
 import sys
 import struct
 
@@ -131,7 +132,7 @@ def rdict(r,names):
 
 def rparam(r,names):
     pt=r.i32()
-    if pt==22:  # COORD3D -- verified below by name table if needed
+    if pt==16:  # Parameter::COORD3D in GameLogic/Scripts.h
         return ('coord', r.f32(), r.f32(), r.f32())
     i=r.i32(); f=r.f32(); s=r.astr()
     return (pt,i,f,s)
@@ -227,4 +228,4 @@ def main(path, coord_type):
         print("  %4d  %s"%(v,k))
 
 if __name__=='__main__':
-    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv)>2 else 22)
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv)>2 else 16)

@@ -1,0 +1,48 @@
+// GeneralsX @bugfix Codex 19/10/2026 Reviewed retail dialogue dependencies.
+// Fields: map filename, timer-writing script, timer, authored seconds, speech event,
+// speech-writing script, next dialogue/completion script. No retail asset bytes.
+// Verify against owned maps/audio with scripts/qa/check-campaign-dialogue-timing.py.
+
+THOR_DIALOGUE_CUE("md_chi02.map", "Briefing Audio", "Briefing 1", 4.0f, "MisCHI02xBrf01a", "Briefing Audio", "Briefing Audio 1")
+THOR_DIALOGUE_CUE("md_chi02.map", "Briefing Audio 1", "Briefing 2", 4.0f, "MisCHI02xBrf02", "Briefing Audio 1", "Briefing Audio 2")
+THOR_DIALOGUE_CUE("md_chi02.map", "Briefing Audio 2", "Briefing 3", 3.0f, "MisCHI02xBrf03a", "Briefing Audio 2", "Briefing Audio 3")
+THOR_DIALOGUE_CUE("md_chi02.map", "Briefing Audio 3", "Briefing 4", 4.0f, "MisCHI02xBrf04", "Briefing Audio 3", "Briefing Audio 5")
+THOR_DIALOGUE_CUE("md_gla02.map", "CINE_dialogue 2", "cine - dialogue 3", 6.0f, "MisGLA02xCin02", "CINE_dialogue 2", "CINE_dialogue 3")
+THOR_DIALOGUE_CUE("md_gla04.map", "cine01 sound", "cine_02", 9.0f, "MisGLA04xCin02", "cine01 sound", "cine02 sound")
+THOR_DIALOGUE_CUE("md_gla04.map", "cine02 sound", "cine_03", 9.75f, "MisGLA04xCin03", "cine02 sound", "cine03 sound")
+THOR_DIALOGUE_CUE("md_gla04.map", "cine03 sound", "cine_04", 3.75f, "MisGLA04xCin04", "cine03 sound", "cine04 sound")
+THOR_DIALOGUE_CUE("md_gla04.map", "cine04 sound", "cine_05", 9.0f, "MisGLA04xCin05", "cine04 sound", "cine05 sound")
+THOR_DIALOGUE_CUE("md_gla04.map", "cine05 sound", "cine_06", 7.5f, "MisGLA04xCin06", "cine05 sound", "cine06 sound")
+THOR_DIALOGUE_CUE("md_gla04.map", "cine06 sound", "start briefing", 1.5f, "MisGLA04xCin07", "cine06 sound", "Mission Briefing Audio 1")
+THOR_DIALOGUE_CUE("md_gla04.map", "Mission Briefing Audio 1", "brief_2", 7.5f, "MisGLA04xKen04", "Mission Briefing Audio 1", "Mission Briefing Audio 2")
+THOR_DIALOGUE_CUE("md_gla04.map", "Mission Briefing Audio 2", "brief_3", 2.0f, "MisGLA04xKen05", "Mission Briefing Audio 2", "Mission Briefing Audio 3")
+THOR_DIALOGUE_CUE("md_gla04.map", "end_sound 01", "end_02", 2.5f, "MisGLA04xCin08", "end_sound 01", "end_sound 02")
+THOR_DIALOGUE_CUE("md_gla04.map", "end_sound 02", "end_03", 1.0f, "MisGLA04xCin09", "end_sound 02", "end_sound 03")
+THOR_DIALOGUE_CUE("md_gla04.map", "end_sound 03", "end_04", 1.5f, "MisGLA04xCin10", "end_sound 03", "end_sound 04")
+THOR_DIALOGUE_CUE("md_gla04.map", "end_sound 04", "end_05", 1.0f, "MisGLA04xCin11", "end_sound 04", "end_sound 05")
+THOR_DIALOGUE_CUE("md_gla04.map", "end_sound 10", "end_11", 1.5f, "MisGLA04xCin15", "end_sound 10", "end_sound 11")
+THOR_DIALOGUE_CUE("md_gla04.map", "end_sound 11", "end_12", 2.0f, "MisGLA04xCin16", "end_sound 11", "end_sound 12")
+THOR_DIALOGUE_CUE("md_usa01.map", "CINE_MOABCuToPlane", "alpha wing 1", 2.75f, "MisUSA01xEva11", "CINE_MOABCuToPlane", "alpha 1")
+THOR_DIALOGUE_CUE("md_usa01.map", "Reinforcements Blurb", "Eva_Reinforcements", 2.0f, "MisUSA04Transport03", "Reinforcements Blurb", "Eva Reinforcements")
+THOR_DIALOGUE_CUE("md_usa02.map", "INTRO_Audio01 and Briefing", "AudioLine1_PlayTime", 3.5f, "MisUSA02xCin01", "INTRO_Audio01 and Briefing", "INTRO_Audio02")
+THOR_DIALOGUE_CUE("md_usa02.map", "INTRO_Audio02", "AudioLine2_PlayTime", 3.0f, "MisUSA02xCin02", "INTRO_Audio02", "INTRO_Audio03")
+THOR_DIALOGUE_CUE("md_usa02.map", "INTRO_Audio03", "AudioLine3_PlayTime", 7.83333333f, "MisUSA02xCin03", "INTRO_Audio03", "INTRO_Audio04")
+THOR_DIALOGUE_CUE("md_usa02.map", "INTRO_Audio04", "AudioLine4_PlayTime", 14.5f, "MisUSA02xChat06", "INTRO_Audio04", "INTRO_Audio05")
+THOR_DIALOGUE_CUE("md_usa03.map", "TIMER-Race-Mid Expired", "TIMER-Race-Mid-02", 8.0f, "MisUSA03xLotus06", "TIMER-Race-Mid Expired", "TIMER-Race-Mid Expired-02")
+THOR_DIALOGUE_CUE("md_usa05.map", "Speech 1", "Speech 2 Timer", 5.0f, "MisUSA05xCin01", "Speech 1", "Speech 2")
+THOR_DIALOGUE_CUE("md_usa05.map", "Speech 2", "Speech 3 Timer", 4.0f, "MisUSA05xCin02", "Speech 2", "Speech 3")
+THOR_DIALOGUE_CUE("md_usa05.map", "Speech 3", "Speech 4 Timer", 3.0f, "MisUSA05xCin05", "Speech 3", "Speech 4")
+THOR_DIALOGUE_CUE("md_usa05.map", "Speech 4", "Speech 5 Timer", 3.0f, "MisUSA05xCin03", "Speech 4", "Speech 5")
+THOR_DIALOGUE_CUE("md_usa05.map", "Speech 5", "Speech 6 Timer", 4.0f, "MisUSA05xCin06", "Speech 5", "Speech 6")
+
+// USA 3 starts these waits in sibling scripts with the same trigger as the speech.
+THOR_DIALOGUE_CUE("md_usa03.map", "AUDIO - Mission Briefing-01a", "TIMER-Briefing-02", 5.5f, "MisUSA03xBrf02", "AUDIO - Mission Briefing-01", "AUDIO - Mission Briefing-02")
+THOR_DIALOGUE_CUE("md_usa03.map", "AUDIO - Mission Briefing-05a", "TIMER-Briefing-06", 4.7f, "MisUSA03xCin09", "AUDIO - Mission Briefing-05", "AUDIO - Mission Briefing-06")
+
+// GLA 2 opening dialogue and the return from its cinematic briefing.
+THOR_DIALOGUE_CUE("md_gla02.map", "CINE_CameraMove01&BuggyMove", "cine - dialogue 2", 5.0f, "MisGLA02xCin01", "CINE_CameraMove01&BuggyMove", "CINE_dialogue 2")
+THOR_DIALOGUE_CUE("md_gla02.map", "CINE_Fade", "CINE_Return", 2.0f, "MisGLA02xCin08", "CINE_Fade", "CINE_Return")
+
+// Dialogue waits masked by a longer unrelated timer, and the final victory narration.
+THOR_DIALOGUE_CUE("md_gla01.map", "run location", "mo audio 2", 4.5f, "MisGLA01xKen02", "run location", "mo audio")
+THOR_DIALOGUE_CUE("md_gla02.map", "capture / destroy main CC", "END GAME", 2.0f, "MisGLA02xKen24", "capture / destroy main CC", "END_Audio_")

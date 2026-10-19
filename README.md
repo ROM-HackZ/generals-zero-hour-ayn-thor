@@ -167,11 +167,26 @@ around 30 fps. Longer sessions still need testing.
 | Area | Checked so far | Still needs testing |
 |---|---|---|
 | Displays and input | Both screens, full top-screen output, pan/rotate/zoom, selection, command/group wheels and pages. The revised wheel and deck have been tried by hand. | All group combinations, suspend/reconnect and the single-screen fallback. |
-| Skirmish and commands | Skirmish startup/AI play, legal/illegal placement, production, queue refunds, unfinished-building cancellation, independent Ranger exits and Overcharge on/off. | Campaigns/Challenge, every ability, timer structures and campaign-specific dialogs. |
+| Skirmish and commands | Skirmish startup/AI play, legal/illegal placement, production, queue refunds, unfinished-building cancellation, independent Ranger exits and Overcharge on/off. | Full campaign/Challenge playthroughs, every ability, timer structures and campaign-specific dialogs. |
 | Touch and radar | Selection rectangles, second-finger cancellation, pan/pinch/twist, minimap taps/drags, fog, camera outline, construction alerts and China's radar upgrade. | Every hero/alert in combat and long sessions. |
 | Matching selection | Alpha.5 device checks selected both visible dozers with the cursor elsewhere, excluded an off-screen match on repeat and kept plain L3 centring. | Physical shortcut comfort and mixed-type selection. |
 | Powers and saves | Power names/points/back navigation, a learned power purchase, saves kept through APK updates and loaded again. | Every power and importing PC saves. |
 | Build and installer | Native/APK builds, host input/layout/artwork checks, Windows installation on the Thor and Linux UI under WSL. | Physical Mac/Linux installation and other handhelds. |
+
+The local development build also fixes intro frame skipping, briefing skips that
+could turn into a delayed pause, the bottom-screen menu layout and the cursor
+jumping back to center when A is held. USA 1's missile shots, black-and-white
+briefing and narration have now been checked on the Thor too. The camera,
+rendering and audio fixes are shared across the game.
+
+I also checked the files for all 15 campaign missions: their intro movies decode
+completely and all 748 scripted speech references resolve. That doesn't prove
+every scene plays correctly. Later missions still need playthrough testing;
+the [cinematic review](docs/WORKDIR/reports/THOR-CINEMATICS-2026-10-19.md) covers
+what was checked. A second file review corrects 29 short dialogue waits across
+eight missions, including waits set in separate scripts. Those changes have
+offline checks but haven't been tried in the later missions on the Thor.
+These fixes are not in the alpha.5 download yet.
 
 Multiplayer, mods and PC save import are outside this preview's scope. Some
 disabled commands show a general unavailable message rather than the exact

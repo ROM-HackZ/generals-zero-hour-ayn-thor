@@ -69,6 +69,7 @@ typedef void (GL_APIENTRY *PFN_glCompressedTexImage2D)(GLenum target, GLint leve
 typedef GLuint (GL_APIENTRY *PFN_glCreateProgram)(void);
 typedef GLuint (GL_APIENTRY *PFN_glCreateShader)(GLenum type);
 typedef void (GL_APIENTRY *PFN_glCullFace)(GLenum mode);
+typedef void (GL_APIENTRY *PFN_glFrontFace)(GLenum mode);
 typedef void (GL_APIENTRY *PFN_glDeleteBuffers)(GLsizei n, const GLuint *buffers);
 typedef void (GL_APIENTRY *PFN_glDeleteFramebuffers)(GLsizei n, const GLuint *framebuffers);
 typedef void (GL_APIENTRY *PFN_glDeleteProgram)(GLuint program);
@@ -157,6 +158,7 @@ PFN_glCompressedTexImage2D d3d8gles_pfn_glCompressedTexImage2D = nullptr;
 PFN_glCreateProgram d3d8gles_pfn_glCreateProgram = nullptr;
 PFN_glCreateShader d3d8gles_pfn_glCreateShader = nullptr;
 PFN_glCullFace d3d8gles_pfn_glCullFace = nullptr;
+PFN_glFrontFace d3d8gles_pfn_glFrontFace = nullptr;
 PFN_glDeleteBuffers d3d8gles_pfn_glDeleteBuffers = nullptr;
 PFN_glDeleteFramebuffers d3d8gles_pfn_glDeleteFramebuffers = nullptr;
 PFN_glDeleteProgram d3d8gles_pfn_glDeleteProgram = nullptr;
@@ -438,6 +440,12 @@ GL_APICALL GLuint GL_APIENTRY glCreateShader(GLenum type)
 	GLuint result = {};
 	gxrt::sync([&] { result = d3d8gles_pfn_glCreateShader(type); });
 	return result;
+}
+
+// GeneralsX @bugfix Codex 19/10/2026 RTT winding follows the queued framebuffer switch.
+GL_APICALL void GL_APIENTRY glFrontFace(GLenum mode)
+{
+	gxrt::post([mode] { d3d8gles_pfn_glFrontFace(mode); });
 }
 
 GL_APICALL void GL_APIENTRY glCullFace(GLenum mode)
@@ -870,6 +878,8 @@ bool d3d8gles_LoadGLESDispatch(const char *libName)
 	if (!d3d8gles_pfn_glCreateProgram) { fprintf(stderr, "[d3d8gles] GLES dispatch: missing symbol glCreateProgram in %s\n", libName); ok = false; }
 	d3d8gles_pfn_glCreateShader = reinterpret_cast<PFN_glCreateShader>(dlsym(lib, "glCreateShader"));
 	if (!d3d8gles_pfn_glCreateShader) { fprintf(stderr, "[d3d8gles] GLES dispatch: missing symbol glCreateShader in %s\n", libName); ok = false; }
+	d3d8gles_pfn_glFrontFace = reinterpret_cast<PFN_glFrontFace>(dlsym(lib, "glFrontFace"));
+	if (!d3d8gles_pfn_glFrontFace) { fprintf(stderr, "[d3d8gles] GLES dispatch: missing symbol glFrontFace in %s\n", libName); ok = false; }
 	d3d8gles_pfn_glCullFace = reinterpret_cast<PFN_glCullFace>(dlsym(lib, "glCullFace"));
 	if (!d3d8gles_pfn_glCullFace) { fprintf(stderr, "[d3d8gles] GLES dispatch: missing symbol glCullFace in %s\n", libName); ok = false; }
 	d3d8gles_pfn_glDeleteBuffers = reinterpret_cast<PFN_glDeleteBuffers>(dlsym(lib, "glDeleteBuffers"));

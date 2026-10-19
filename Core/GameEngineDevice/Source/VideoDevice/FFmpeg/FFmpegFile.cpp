@@ -30,6 +30,7 @@
 #include "GXTrace.h"
 #include "Common/file.h"
 #include <cstdio>
+#include <climits>
 
 extern "C" {
 #include <libavcodec/avcodec.h>
@@ -81,7 +82,8 @@ Bool FFmpegFile::open(File *file)
 		return false;
 	}
 
-	m_avioCtx = avio_alloc_context(buffer, avio_ctx_buffer_size, 0, file, &readPacket, nullptr, nullptr);
+	// GeneralsX @bugfix Codex 19/10/2026 Bink seeks require a seekable engine-file adapter.
+	m_avioCtx = avio_alloc_context(buffer, avio_ctx_buffer_size, 0, file, &readPacket, nullptr, &seekPacket);
 	if (m_avioCtx == nullptr) {
 		DEBUG_LOG(("Failed to alloc AVIOContext"));
 		close();
@@ -172,6 +174,24 @@ int FFmpegFile::readPacket(void *opaque, uint8_t *buf, int buf_size)
 	return read;
 }
 
+// GeneralsX @bugfix Codex 19/10/2026 Preserve archive-relative seeks, including FFmpeg size queries.
+std::int64_t FFmpegFile::seekPacket(void *opaque, std::int64_t offset, int whence)
+{
+	File *file = static_cast<File *>(opaque);
+	if (whence & AVSEEK_SIZE) return file->size();
+	whence &= ~AVSEEK_FORCE;
+	if (offset < INT_MIN || offset > INT_MAX) return AVERROR(EINVAL);
+	File::seekMode mode;
+	switch (whence) {
+		case SEEK_SET: mode = File::START; break;
+		case SEEK_CUR: mode = File::CURRENT; break;
+		case SEEK_END: mode = File::END; break;
+		default: return AVERROR(EINVAL);
+	}
+	const Int position = file->seek((Int)offset, mode);
+	return position < 0 ? AVERROR(EIO) : position;
+}
+
 /**
  * close all the open FFmpeg handles for an open file.
  */
@@ -217,6 +237,9 @@ Bool FFmpegFile::decodePacket()
 		m_atEof = true;
 		return false;
 	}
+
+    // GeneralsX @bugfix Codex 19/10/2026 A demux error has no valid stream index.
+    if (result < 0) return false;
 
 	const int stream_idx = m_packet->stream_index;
 	DEBUG_ASSERTCRASH(m_streams.size() > stream_idx, ("stream index out of bounds"));
@@ -309,19 +332,29 @@ Bool FFmpegFile::decodePacket()
 	return true;
 }
 
-void FFmpegFile::seekFrame(int frame_idx)
+Bool FFmpegFile::seekFrame(int frame_idx)
 {
-	// Note: not tested, since not used ingame
-	for (const auto &stream : m_streams) {
-		Int64 timestamp = av_q2d(m_fmtCtx->streams[stream.stream_idx]->time_base) * frame_idx
-			* av_q2d(m_fmtCtx->streams[stream.stream_idx]->avg_frame_rate);
-		int result = av_seek_frame(m_fmtCtx, stream.stream_idx, timestamp, AVSEEK_FLAG_ANY);
-		if (result < 0) {
-			char error_buffer[1024];
-			av_strerror(result, error_buffer, sizeof(error_buffer));
-			DEBUG_LOG(("Failed 'av_seek_frame': %s", error_buffer));
-		}
+	// GeneralsX @bugfix Codex 19/10/2026 Decode from frame zero to preserve Bink's
+	// reference pictures. The loading fallback seeks to the final still; timestamp
+	// seeks with AVSEEK_FLAG_ANY could land on a dependent picture, without flushing
+	// decoders, and previously used the wrong units (also seeking once per audio track).
+	const FFmpegStream *video = findMatch(AVMEDIA_TYPE_VIDEO);
+	if (!video || frame_idx < 0 || frame_idx >= getNumFrames()) return false;
+	if (av_seek_frame(m_fmtCtx, video->stream_idx, 0, AVSEEK_FLAG_BACKWARD) < 0) return false;
+	av_packet_unref(m_packet);
+	for (auto &stream : m_streams) avcodec_flush_buffers(stream.codec_ctx);
+	m_atEof = false;
+	const FFmpegFrameCallback callback = m_frameCallback;
+	int decodedFrame = -1;
+	m_frameCallback = [&](AVFrame *frame, int stream_idx, int stream_type, void *userData) {
+		if (stream_type == AVMEDIA_TYPE_VIDEO && ++decodedFrame == frame_idx && callback)
+			callback(frame, stream_idx, stream_type, userData);
+	};
+	while (decodedFrame < frame_idx) {
+		if (!decodePacket()) break;
 	}
+	m_frameCallback = callback;
+	return decodedFrame == frame_idx;
 }
 
 Bool FFmpegFile::hasAudio() const
@@ -400,7 +433,10 @@ Int FFmpegFile::getNumFrames() const
 	if (m_fmtCtx == nullptr || stream == nullptr || m_fmtCtx->streams[stream->stream_idx] == nullptr)
 		return 0;
 
-	return (m_fmtCtx->duration / (double)AV_TIME_BASE) * av_q2d(m_fmtCtx->streams[stream->stream_idx]->avg_frame_rate);
+	// GeneralsX @bugfix Codex 18/10/2026 Bink supplies an exact frame count; duration rounding can truncate it.
+    const auto* video = m_fmtCtx->streams[stream->stream_idx];
+    if (video->nb_frames > 0) return int(video->nb_frames);
+    return int((m_fmtCtx->duration / (double)AV_TIME_BASE) * av_q2d(video->avg_frame_rate) + 0.5);
 }
 
 Int FFmpegFile::getCurrentFrame() const
@@ -420,10 +456,11 @@ Int FFmpegFile::getPixelFormat() const
 	return stream->codec_ctx->pix_fmt;
 }
 
-UnsignedInt FFmpegFile::getFrameTime() const
+// GeneralsX @bugfix Codex 18/10/2026 Keep fractional milliseconds so long movies do not drift.
+double FFmpegFile::getFrameTime() const
 {
 	const FFmpegStream *stream = findMatch(AVMEDIA_TYPE_VIDEO);
 	if (stream == nullptr)
 		return 0u;
-	return 1000u / av_q2d(m_fmtCtx->streams[stream->stream_idx]->avg_frame_rate);
+	return 1000.0 / av_q2d(m_fmtCtx->streams[stream->stream_idx]->avg_frame_rate);
 }

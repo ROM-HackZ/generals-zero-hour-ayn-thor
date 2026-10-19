@@ -2878,7 +2878,7 @@ void WebGLPipeline::targetRect(const D3DVIEWPORT8 &vp, GLint *x, GLint *y, GLsiz
 		rtH = m_vbRH;
 	}
 	*x = (GLint)x0;
-	*y = (GLint)(rtH - y1);
+	*y = (GLint)(m_yFlip < 0.0f ? y0 : rtH - y1);
 	*w = (GLsizei)(x1 - x0);
 	*h = (GLsizei)(y1 - y0);
 }
@@ -3886,6 +3886,11 @@ void WebGLPipeline::setRenderTarget(WebGLDevice * /*dev*/, WebGLTexture *tex)
 {
 	if (!m_ctxReady) return;
 
+	// GeneralsX @bugfix Codex 19/10/2026 D3D render textures store their top row
+	// at v=0. Flip rasterization into attachments, including viewport and winding.
+	// The window uses GL's normal presentation orientation instead.
+	m_haveFixedStateKey = false;
+	glFrontFace(tex ? GL_CW : GL_CCW);
 	if (tex == nullptr) {
 		glBindFramebuffer(GL_FRAMEBUFFER, backbufferFBO());
 		m_curFBO = backbufferFBO();
@@ -3967,15 +3972,15 @@ void WebGLPipeline::setRenderTarget(WebGLDevice * /*dev*/, WebGLTexture *tex)
 		// background all appeared upside down and in reversed top-to-bottom
 		// order, matched against a known-correct reference screenshot).
 		m_yFlip = 1.0f;
+		glFrontFace(GL_CCW);
 		return;
 	}
 
 	m_curFBO = tex->m_gl.fbo;
 	m_curRTWidth = w;
 	m_curRTHeight = h;
-	// Same y-flip as the backbuffer: D3D's top row then lands in texel row 0,
-	// which is exactly what engine UVs (v=0 = top) expect when sampling.
-	m_yFlip = 1.0f;
+	// D3D top must land at attachment row 0 for subsequent texture sampling.
+	m_yFlip = -1.0f;
 	// Rendered content supersedes the CPU shadow from now on.
 	tex->m_gl.dirty = false;
 }
@@ -4025,7 +4030,7 @@ void WebGLPipeline::readbackRenderTarget(WebGLTexture *tex)
 		std::chrono::steady_clock::now() - readStart).count();
 
 	// Row 0 of this FBO's texture attachment is D3D's top row (setRenderTarget
-	// keeps m_yFlip at +1 precisely so it lands there), and glReadPixels
+	// uses m_yFlip=-1 precisely so it lands there), and glReadPixels
 	// numbers rows from attachment row 0 upward -- so the rows come back in
 	// the same order the CPU shadow stores them. No vertical flip here.
 	// Bytes still need RGBA -> BGRA, the inverse of the conversion

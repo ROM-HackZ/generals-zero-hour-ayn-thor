@@ -16,3 +16,6 @@ c++ -std=c++17 -I "$REPO/GeneralsMD/Code/GameEngineDevice/Include" "$REPO/script
 "$TEST/artwork"
 c++ -std=c++17 -I "$REPO/Core/GameEngineDevice/Include" "$REPO/scripts/qa/ThorRadarTest.cpp" -o "$TEST/radar"
 "$TEST/radar"
+
+c++ -std=c++17 -I "$REPO/Core/GameEngine/Include" "$REPO/scripts/qa/ThorBriefingTimingTest.cpp" -o "$TEST/briefing"
+"$TEST/briefing"
