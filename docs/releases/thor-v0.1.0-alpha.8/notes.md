@@ -40,6 +40,11 @@ do not uninstall it. `SHA256SUMS.txt` contains the APK checksum.
   duplicate hat/key reports, Skirmish editing and isolated Options.
 - Eight host checks, including 1,000 concurrent video-end/skip-request races.
 - Local native/APK build at retail 30 Hz with the existing update certificate.
+- Installer 0.1.1 automatically found the public alpha.8 release, downloaded and
+  verified its checksum, and updated the Thor over USB. Its packaged Windows UI
+  also found alpha.8 and verified the already-installed APK without replacing it.
+- Confirmed version 10408 / alpha.8 and the published APK hash on the Thor,
+  reached the main menu, checked the save byte-for-byte and closed the game.
 
 Later missions were not opened. Full campaign/Challenge playthroughs and longer
 sessions still need testing; the low-memory voice-only briefing path was reviewed
