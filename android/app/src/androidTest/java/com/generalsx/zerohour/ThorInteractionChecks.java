@@ -326,10 +326,32 @@ public final class ThorInteractionChecks extends Instrumentation {
         await(s->widget(s,"SOLO PLAY")!=null,"Main menu missing"); SystemClock.sleep(800);
         ThorDeck d=deck();
         runOnMainSync(()->{ d.geometry(); check(d.shown.size()==6,"Main menu does not have six actions"); d.control.focusedId=d.shown.get(0).optInt("id"); });
-        press(android.view.KeyEvent.KEYCODE_DPAD_RIGHT);
-        runOnMainSync(()->check(d.control.highlighted().optString("label").equals("MULTIPLAYER"),"Right did not follow the visible menu columns"));
+        // GeneralsX @test Codex 19/10/2026 The Thor sends hat axes, not D-pad key events. Fast released presses must all count.
+        hat(0,1); hat(0,0); hat(0,-1); hat(0,0);
+        runOnMainSync(()->check(d.control.highlighted().optString("label").equals("SOLO PLAY"),"Rapid hat Down/Up lost a released press"));
+        String[] main={"SOLO PLAY","MULTIPLAYER","LOAD","OPTIONS","CREDITS","EXIT GAME"};
+        for(int i=1;i<main.length;++i) { hat(0,1); hat(0,0); expectFocus(d,main[i]); }
+        for(int i=main.length-2;i>=0;--i) { hat(0,-1); hat(0,0); expectFocus(d,main[i]); }
+        hat(0,1); SystemClock.sleep(460); expectFocus(d,"LOAD"); hat(0,0);
+        // Receiving a key for the same held hat must not move twice.
+        hat(0,-1); key(android.view.KeyEvent.ACTION_DOWN,android.view.KeyEvent.KEYCODE_DPAD_UP); expectFocus(d,"MULTIPLAYER");
+        hat(0,0); key(android.view.KeyEvent.ACTION_UP,android.view.KeyEvent.KEYCODE_DPAD_UP);
+        hat(0,-1); hat(0,0); expectFocus(d,"SOLO PLAY");
+        press(android.view.KeyEvent.KEYCODE_DPAD_RIGHT); expectFocus(d,"SOLO PLAY");
         press(android.view.KeyEvent.KEYCODE_DPAD_DOWN);
-        runOnMainSync(()->check(d.control.highlighted().optString("label").equals("OPTIONS"),"Down did not follow the visible menu rows"));
+        expectFocus(d,"MULTIPLAYER"); press(android.view.KeyEvent.KEYCODE_DPAD_UP); expectFocus(d,"SOLO PLAY");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_A);
+        await(s->widget(s,"USA")!=null,"A did not open Solo Play"); SystemClock.sleep(800);
+        expectFocus(d,"USA"); hat(0,1); hat(0,0); expectFocus(d,"GLA");
+        hat(0,1); hat(0,0); expectFocus(d,"CHINA");
+        hat(0,1); hat(0,0); expectFocus(d,"CHALLENGE");
+        hat(0,1); hat(0,0); expectFocus(d,"SKIRMISH");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_A);
+        await(s->widget(s,"PLAY GAME")!=null,"A did not open Skirmish"); SystemClock.sleep(1000);
+        menuReachability(d);
+        menuEditorChecks(d);
+        press(android.view.KeyEvent.KEYCODE_BUTTON_B);
+        await(s->widget(s,"SOLO PLAY")!=null,"B did not activate Skirmish's MAIN MENU button"); SystemClock.sleep(800);
         for(int repeat=0;repeat<2;repeat++) {
             tapDeckRow(d,widget(state(),"OPTIONS").getInt("id"));
             JSONObject options=await(s->widget(s,"CANCEL")!=null,"Options did not open"); SystemClock.sleep(800); options=state();
@@ -343,9 +365,58 @@ public final class ThorInteractionChecks extends Instrumentation {
                 check(row.optString("icon").isEmpty(),"Menu chrome was exported as a command icon");
             }
             check(extras==1,"Options must create exactly one Extras button");
+            menuReachability(d);
             activate("CANCEL"); await(s->widget(s,"SOLO PLAY")!=null,"Cancel did not return to the main menu"); SystemClock.sleep(800);
         }
-        report("Six main actions, visible-grid D-pad focus, isolated Options and one Extras button after reopening passed.");
+        report("Fast hats, held repeat, duplicate key/hat input, both menu layouts, A/B navigation, Skirmish editing and isolated Options passed. No match started.");
+    }
+    void expectFocus(ThorDeck d,String label) {
+        String[] actual={""};
+        runOnMainSync(()->{ JSONObject w=d.control.highlighted(); actual[0]=w==null?"<none>":w.optString("label"); });
+        check(actual[0].equals(label),"Expected focus "+label+", got "+actual[0]);
+    }
+    // Exercise the rendered focus graph, including disabled gaps and every page of a dense native menu.
+    void menuReachability(ThorDeck d) {
+        String[] failure={""};
+        runOnMainSync(()->{
+            ThorController c=d.control; int old=c.focusedId,oldPage=c.deckPage;
+            java.util.HashSet<Integer> expected=new java.util.HashSet<>(),seen=new java.util.HashSet<>();
+            java.util.ArrayDeque<Integer> pending=new java.util.ArrayDeque<>();
+            for(JSONObject row:c.deckRows) if(row.optBoolean("enabled")) expected.add(row.optInt("id"));
+            int initial=c.firstEnabled(); pending.add(initial); seen.add(initial);
+            int[][] directions={{0,1},{0,-1},{1,0},{-1,0}};
+            while(!pending.isEmpty()) {
+                int id=pending.remove();
+                for(int[] direction:directions) {
+                    c.focusedId=id;
+                    for(int i=0;i<c.deckRows.size();++i) if(c.deckRows.get(i).optInt("id")==id) c.deckPage=i/c.deckPageSize();
+                    d.navigate(direction[0],direction[1]);
+                    if(!expected.contains(c.focusedId)) failure[0]="D-pad focused an unavailable control "+c.focusedId;
+                    if(seen.add(c.focusedId)) pending.add(c.focusedId);
+                }
+            }
+            expected.removeAll(seen);
+            if(!expected.isEmpty()) failure[0]="D-pad cannot reach menu controls "+expected;
+            c.focusedId=old; c.deckPage=oldPage;
+        });
+        check(failure[0].isEmpty(),failure[0]);
+    }
+    void menuEditorChecks(ThorDeck d) throws Exception {
+        JSONArray rows=state().getJSONArray("widgets"); JSONObject combo=null;
+        for(int i=0;i<rows.length();++i) { JSONObject row=rows.getJSONObject(i); if(row.optBoolean("enabled") && (row.optInt("style")&32768)!=0) { combo=row; break; } }
+        check(combo!=null,"Skirmish exposes no editable dropdown");
+        final int id=combo.getInt("id"); final String before=combo.getString("label");
+        runOnMainSync(()->d.control.focusedId=id); SystemClock.sleep(100);
+        press(android.view.KeyEvent.KEYCODE_BUTTON_A);
+        runOnMainSync(()->check(d.control.editingWidget,"A did not enter dropdown editing"));
+        hat(0,1); hat(0,0); SystemClock.sleep(200);
+        await(s->{ JSONArray w=s.getJSONArray("widgets"); for(int i=0;i<w.length();++i) if(w.getJSONObject(i).optInt("id")==id) return !w.getJSONObject(i).getString("label").equals(before); return false; },"D-pad did not change the selected dropdown");
+        press(android.view.KeyEvent.KEYCODE_BUTTON_A);
+        runOnMainSync(()->check(!d.control.editingWidget,"A did not finish dropdown editing"));
+        press(android.view.KeyEvent.KEYCODE_BUTTON_A); press(android.view.KeyEvent.KEYCODE_BUTTON_B);
+        runOnMainSync(()->check(!d.control.editingWidget,"B did not finish dropdown editing"));
+        check(widget(state(),"PLAY GAME")!=null,"B inside the editor activated or left the setup menu");
+        // Back leaves the setup; it does not start a match or write a save.
     }
     // GeneralsX @test Codex 18/10/2026 A controller skip must finish the briefing without queuing a pause in the mission.
     void campaignMovies() throws Exception {
@@ -411,6 +482,13 @@ public final class ThorInteractionChecks extends Instrumentation {
         SystemClock.sleep(100);
     }
     void press(int code) { key(android.view.KeyEvent.ACTION_DOWN,code); key(android.view.KeyEvent.ACTION_UP,code); }
+    void hat(float x,float y) {
+        MotionEvent.PointerProperties p=new MotionEvent.PointerProperties(); p.id=0;
+        MotionEvent.PointerCoords c=new MotionEvent.PointerCoords(); c.setAxisValue(MotionEvent.AXIS_HAT_X,x); c.setAxisValue(MotionEvent.AXIS_HAT_Y,y);
+        long now=SystemClock.uptimeMillis();
+        MotionEvent e=MotionEvent.obtain(now,now,MotionEvent.ACTION_MOVE,1,new MotionEvent.PointerProperties[]{p},new MotionEvent.PointerCoords[]{c},0,0,1,1,-1,0,InputDevice.SOURCE_JOYSTICK,0);
+        runOnMainSync(()->activity.dispatchGenericMotionEvent(e)); e.recycle();
+    }
     void joystick(float lx,float ly,float rx,float ry) {
         MotionEvent.PointerProperties p=new MotionEvent.PointerProperties(); p.id=0;
         MotionEvent.PointerCoords c=new MotionEvent.PointerCoords(); c.setAxisValue(MotionEvent.AXIS_X,lx); c.setAxisValue(MotionEvent.AXIS_Y,ly); c.setAxisValue(MotionEvent.AXIS_Z,rx); c.setAxisValue(MotionEvent.AXIS_RZ,ry);

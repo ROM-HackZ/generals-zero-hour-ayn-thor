@@ -179,6 +179,12 @@ jumping back to center when A is held. USA 1's missile shots, black-and-white
 briefing and narration have now been checked on the Thor too. The camera,
 rendering and audio fixes are shared across the game.
 
+The current source also fixes dropped D-pad taps and focus jumping around while
+menus open. Simple menus now run down one column on both screens. Holding a
+direction repeats steadily, and disabled menu buttons don't take focus. These
+changes were checked on the Thor, including skirmish dropdowns and B returning
+to the main menu. They're newer than the alpha.6 download above.
+
 I also checked the files for all 15 campaign missions: their intro movies decode
 completely and all 748 scripted speech references resolve. That doesn't prove
 every scene plays correctly. Later missions still need playthrough testing;

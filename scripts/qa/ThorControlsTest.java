@@ -14,6 +14,16 @@ public final class ThorControlsTest {
         for (int i = 0; i < 8; i++) check(ThorControls.group(0, i) == i, "First group page");
         check(ThorControls.group(1, 0) == 8 && ThorControls.group(1, 1) == 9, "Last two groups");
         for (int i = 2; i < 8; i++) check(ThorControls.group(1, i) == -1, "Empty wedges cannot alias group ten");
+        ThorControls.Navigation nav=new ThorControls.Navigation();
+        check(nav.step(0,1,1000,true),"First hat press moves immediately");
+        check(!nav.step(0,0,1020,true),"Release does not move focus");
+        check(nav.step(0,1,1040,true),"A quick second tap must not be dropped");
+        check(!nav.step(0,1,1100,true),"Unrelated joystick traffic cannot repeat a held hat");
+        check(!nav.step(0,1,1439,true) && nav.step(0,1,1440,true),"Hold has a predictable initial delay");
+        check(!nav.step(0,1,1500,true) && nav.step(0,1,1580,true),"Repeat follows the clock");
+        check(nav.step(0,-1,1590,true),"Direction reversal moves immediately");
+        nav.reset(); check(nav.step(1,0,1600,false),"Resume accepts a fresh direction");
+        check(!nav.step(1,0,2500,false),"Battlefield shortcuts do not auto-repeat");
         System.out.println("Controller normalization and radial boundary tests passed");
     }
 }

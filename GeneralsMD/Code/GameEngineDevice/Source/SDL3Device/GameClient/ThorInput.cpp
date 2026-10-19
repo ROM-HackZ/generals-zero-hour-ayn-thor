@@ -252,6 +252,10 @@ bool belongsToLayout(GameWindow* window, WindowLayout* layout) {
 WindowLayout* activeShellLayout() {
     return !inMatch() && TheShell && TheShell->isShellActive() ? TheShell->top() : nullptr;
 }
+// GeneralsX @bugfix Codex 19/10/2026 Moving shell windows are not actionable until their native callbacks accept input.
+bool menuAnimating() {
+    return activeShellLayout() && !menuOverlay() && !TheShell->isAnimFinished();
+}
 void key(SDL_Scancode code) {
     if (!TheWindowManager) return;
     auto *field = editorId ? TheWindowManager->winGetWindowFromId(nullptr, editorId) : TheWindowManager->winGetFocus();
@@ -328,6 +332,7 @@ std::string activationKey(GameWindow *w, const CommandButton *cmd) {
 }
 void activate(int id, const std::string &expectedAction = {}, const std::string &expectedActivation = {}) {
     if (!TheWindowManager) return;
+    if (menuAnimating()) return;
     auto *w = TheWindowManager->winGetWindowFromId(nullptr, id);
     if (!visible(w) || !available(w)) return;
     if (auto *modal = menuOverlay()) {
@@ -481,6 +486,15 @@ void widgets(GameWindow *head, std::ostringstream &out, bool &first, int depth =
                 std::string identity = cmd ? cmd->getSpecialPowerTemplate() ? "power:" + std::string(cmd->getSpecialPowerTemplate()->getName().str()) : cmd->getName().str() : "window:" + std::to_string(w->winGetWindowId());
                 if (cmd && cmd->getCommandType() == GUI_COMMAND_EXIT_CONTAINER) identity += ":slot:" + std::to_string(commandSlot);
                 out << ",\"identity\":" << quoted(identity) << ",\"activation\":" << quoted(activationKey(w, cmd));
+                // GeneralsX @bugfix Codex 19/10/2026 Back navigation uses the native control identity, including localized MAIN MENU buttons.
+                if (!cmd && (style & GWS_PUSH_BUTTON)) {
+                    const auto &name = windowName(w);
+                    const auto ends = [&name](const char *suffix) {
+                        const size_t length = std::char_traits<char>::length(suffix);
+                        return name.size() >= length && name.compare(name.size() - length, length, suffix) == 0;
+                    };
+                    out << ",\"back\":" << (ends("Back") || ends("Cancel") || ends("Return") || ends("ButtonNo") ? "true" : "false");
+                }
                 out << ",\"active\":" << ((style & GWS_PUSH_BUTTON) && (w->winGetStatus() & WIN_STATUS_CHECK_LIKE) && GadgetCheckLikeButtonIsChecked(w) ? "true" : "false");
                 if (auxiliary) out << ",\"auxiliary\":true,\"window\":" << quoted(windowName(w));
                 if (occupant) out << ",\"occupant\":" << occupant->getID() << ",\"veterancy\":" << occupant->getVeterancyLevel();
@@ -515,11 +529,13 @@ void publish() {
     std::ostringstream out;
     // GeneralsX @bugfix Codex 14/10/2026 A live modal must get menu navigation even if it does not pause simulation.
     bool battle = battlefield() && (!TheWindowManager || !TheWindowManager->winGetModalWindow());
+    const bool animatedMenu = menuAnimating();
     out << "{\"ready\":true,\"battle\":" << (battle ? "true" : "false")
         // GeneralsX @bugfix Codex 18/10/2026 Distinguish menus, movies and scripted scenes on the command deck.
         << ",\"inMatch\":" << (inMatch() ? "true" : "false")
         << ",\"cinematic\":" << (inMatch() && TheInGameUI && !TheInGameUI->getInputEnabled() ? "true" : "false")
         << ",\"movie\":" << (TheDisplay && TheDisplay->isMoviePlaying() ? "true" : "false")
+        << ",\"menuAnimating\":" << (animatedMenu ? "true" : "false")
         << ",\"iconGeneration\":" << iconGeneration
         << ",\"aimX\":" << aimX << ",\"aimY\":" << aimY
         << ",\"width\":" << (TheDisplay ? TheDisplay->getWidth() : 1280)
@@ -655,7 +671,7 @@ void publish() {
     out << ']';
     out << ",\"widgets\":[";
     bool first = true;
-    if (TheWindowManager) {
+    if (TheWindowManager && !animatedMenu) {
         // GeneralsX @bugfix Codex 18/10/2026 Publish only the active page, not visible menus behind its overlay.
         auto* modal = menuOverlay();
         widgets(modal ? modal : TheWindowManager->winGetWindowList(), out, first, 0,

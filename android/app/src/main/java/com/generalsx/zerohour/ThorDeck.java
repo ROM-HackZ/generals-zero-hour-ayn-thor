@@ -39,8 +39,8 @@ final class ThorDeck extends View {
             radarRect.left+radarBounds[2]*radarRect.width(),radarRect.top+radarBounds[3]*radarRect.height());
         shown.clear(); commandRects.clear();
         ArrayList<JSONObject> rows=control.battle?control.commands:control.deckRows;
-        int start=control.deckPage*ThorDeckLayout.COMMANDS_PER_PAGE;
-        for(int i=0;i<ThorDeckLayout.COMMANDS_PER_PAGE && start+i<rows.size();++i) add(rows.get(start+i),control.battle?ThorDeckLayout.command(i):ThorDeckLayout.menu(i));
+        int start=control.deckPage*control.deckPageSize();
+        for(int i=0;i<control.deckPageSize() && start+i<rows.size();++i) add(rows.get(start+i),control.battle?ThorDeckLayout.command(i):ThorDeckLayout.menu(i,control.menuColumns));
         if(!control.battle) return;
         int queueStart=control.queuePage*ThorDeckLayout.QUEUE_PER_PAGE;
         for(int i=0;i<ThorDeckLayout.QUEUE_PER_PAGE && queueStart+i<control.queueRows.size();++i) add(control.queueRows.get(queueStart+i),ThorDeckLayout.queue(i));
@@ -52,20 +52,26 @@ final class ThorDeck extends View {
         geometry(); int current=-1;
         for(int i=0;i<shown.size();++i) if(shown.get(i).optInt("id")==control.focusedId) current=i;
         float[][] rects=new float[commandRects.size()][];
+        boolean[] eligible=new boolean[rects.length];
         for(int i=0;i<rects.length;++i) { RectF r=commandRects.get(i); rects[i]=new float[]{r.left,r.top,r.right,r.bottom}; }
+        for(int i=0;i<eligible.length;++i) eligible[i]=control.battle || shown.get(i).optBoolean("enabled");
         // Horizontal movement stays in its strip; vertical movement crosses sections.
         if(current>=0 && dx!=0) for(int i=0;i<rects.length;++i) if(shown.get(i).optBoolean("queue")!=shown.get(current).optBoolean("queue") || (shown.get(i)==control.powers)!=(shown.get(current)==control.powers)) rects[i]=rects[current];
-        int next=ThorDeckLayout.neighbor(rects,current,dx,dy);
-        if(next==current && current>=0 && dx!=0) { changePage(shown.get(current).optBoolean("queue"),dx); return; }
+        int next=ThorDeckLayout.neighbor(rects,eligible,current,dx,dy);
+        if(next==current && current>=0 && (dx!=0 || (!control.battle && control.menuColumns==1))) { changePage(shown.get(current).optBoolean("queue"),dx!=0?dx:dy); return; }
         if(next>=0) control.focusedId=shown.get(next).optInt("id");
     }
     void changePage(boolean queue,int direction) {
         ArrayList<JSONObject> rows=queue?control.queueRows:(control.battle?control.commands:control.deckRows);
-        int size=queue?ThorDeckLayout.QUEUE_PER_PAGE:ThorDeckLayout.COMMANDS_PER_PAGE,old=queue?control.queuePage:control.deckPage;
+        int size=queue?ThorDeckLayout.QUEUE_PER_PAGE:control.deckPageSize(),old=queue?control.queuePage:control.deckPage;
         int next=Math.max(0,Math.min(Math.max(0,(rows.size()-1)/size),old+direction));
         if(next==old) return;
-        if(queue) control.queuePage=next; else control.deckPage=next;
-        control.focusedId=rows.get(Math.min(rows.size()-1,next*size+(direction<0?size-1:0))).optInt("id"); invalidate();
+        int start=next*size,end=Math.min(rows.size(),start+size);
+        for(int i=direction<0?end-1:start;i>=start && i<end;i+=direction<0?-1:1) {
+            if(!control.battle && !rows.get(i).optBoolean("enabled")) continue;
+            if(queue) control.queuePage=next; else control.deckPage=next;
+            control.focusedId=rows.get(i).optInt("id"); invalidate(); return;
+        }
     }
     protected void onDraw(Canvas canvas) {
         geometry(); canvas.drawColor(ThorUi.BACKGROUND); canvas.save(); canvas.translate(offsetX,offsetY); canvas.scale(scale,scale);
@@ -211,7 +217,7 @@ final class ThorDeck extends View {
         ThorUi.text(c,paint,"Command & Conquer: Generals Zero Hour",32,113,23,ThorUi.MUTED,false);
         paint.setColor(ui.accent); c.drawRect(24,139,1216,142,paint);
         ThorUi.text(c,paint,"MENU CONTROLS",32,184,19,ui.accent,true);
-        drawPages(c,control.deckPage,control.deckRows.size(),ThorDeckLayout.COMMANDS_PER_PAGE,menuPrevious,menuNext);
+        drawPages(c,control.deckPage,control.deckRows.size(),control.deckPageSize(),menuPrevious,menuNext);
         for(int i=0;i<shown.size();++i) {
             JSONObject row=shown.get(i); RectF r=commandRects.get(i);
             boolean enabled=row.optBoolean("enabled"),focus=control.focusedId==row.optInt("id");
@@ -227,8 +233,9 @@ final class ThorDeck extends View {
         }
         if(shown.isEmpty()) {
             ui.panel(c,paint,new RectF(24,244,1216,652),false);
-            ThorUi.center(c,paint,movie?"Video playing on the top screen":cinematic?"The mission is controlling this scene":"Preparing the game\u2026",620,391,28,ThorUi.TEXT,true);
-            ThorUi.wrap(c,paint,cinematic?"Unit commands return when the scene finishes.":"A / B / Start skips a briefing video.",new RectF(160,424,1080,510),23,ThorUi.MUTED,false,2,true);
+            boolean opening=control.snapshot.optBoolean("menuAnimating");
+            ThorUi.center(c,paint,opening?"Opening menu\u2026":movie?"Video playing on the top screen":cinematic?"The mission is controlling this scene":"Preparing the game\u2026",620,391,28,ThorUi.TEXT,true);
+            ThorUi.wrap(c,paint,opening?"Controls appear when the menu is ready.":cinematic?"Unit commands return when the scene finishes.":"A / B / Start skips a briefing video.",new RectF(160,424,1080,510),23,ThorUi.MUTED,false,2,true);
         }
         ui.panel(c,paint,new RectF(24,864,1216,986),false);
         JSONObject detail=control.highlighted();

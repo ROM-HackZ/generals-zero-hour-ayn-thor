@@ -14,5 +14,21 @@ final class ThorControls {
         int index = page * 8 + wedge;
         return page < 0 || page > 1 || wedge < 0 || wedge > 7 || index >= 10 ? -1 : index;
     }
+    // GeneralsX @bugfix Codex 19/10/2026 Released taps are edges, never throttled by the previous tap's repeat timer.
+    static final class Navigation {
+        int dx, dy;
+        long repeatAt;
+        boolean step(int x,int y,long now,boolean repeat) {
+            // Resolve diagonal hats to one direction, with vertical priority.
+            x=y==0?Integer.signum(x):0; y=Integer.signum(y);
+            boolean changed=x!=dx || y!=dy;
+            dx=x; dy=y;
+            if(x==0 && y==0) { repeatAt=0; return false; }
+            if(changed) { repeatAt=now+400; return true; }
+            if(repeat && now>=repeatAt) { repeatAt=now+140; return true; }
+            return false;
+        }
+        void reset() { dx=dy=0; repeatAt=0; }
+    }
     private ThorControls() {}
 }

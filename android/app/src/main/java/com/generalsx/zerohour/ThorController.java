@@ -39,8 +39,10 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
     long lastRadarRead;
     boolean ready, running, battle, lt, rt, lb, r3, deckFocus, mapMode, typing;
     int focusedId, page, wedge = -1, groupPage, keyboardIndex, deckPage;
+    int menuColumns=2, hatX, hatY, dpadKeys, editingId;
+    final ThorControls.Navigation dpadNavigation=new ThorControls.Navigation(),stickNavigation=new ThorControls.Navigation();
     float lx, ly, rx, ry, mapX = .5f, mapY = .5f;
-    long aDown, lastTap, lastNavigation;
+    long aDown, lastTap;
     long lastDiagnostic;
     boolean aHeld;
     boolean description;
@@ -155,20 +157,32 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                     // GeneralsX @bugfix Codex 18/10/2026 Keep menu order tied to its native reading order while windows animate in.
                     deckRows.addAll(widgets);
                     java.util.Collections.sort(deckRows,(a,b)->a.optInt("y")==b.optInt("y")?Integer.compare(a.optInt("x"),b.optInt("x")):Integer.compare(a.optInt("y"),b.optInt("y")));
+                    float[][] nativeRects=new float[deckRows.size()][];
+                    for(int i=0;i<deckRows.size();++i) {
+                        JSONObject row=deckRows.get(i);
+                        nativeRects[i]=new float[]{row.optInt("x"),row.optInt("y"),row.optInt("x")+row.optInt("w"),row.optInt("y")+row.optInt("h")};
+                    }
+                    menuColumns=ThorDeckLayout.menuColumns(nativeRects);
                 }
                 if (battle) {
                     JSONObject retained = null;
                     for (JSONObject row : deckRows) if (row.optInt("id") == focusedId && (focusAction.isEmpty() || focusAction.equals(row.optString("identity", row.optString("action"))))) retained = row;
                     if (retained == null && !focusAction.isEmpty()) for (JSONObject row : deckRows) if (focusAction.equals(row.optString("identity", row.optString("action")))) { retained = row; break; }
                     focusedId = retained != null ? retained.optInt("id") : deckRows.isEmpty() ? 0 : deckRows.get(0).optInt("id");
-                } else if (find(focusedId) == null) focusedId = firstEnabled();
+                } else {
+                    JSONObject focus=find(focusedId);
+                    if(focus==null || !focus.optBoolean("enabled")) focusedId=firstEnabled();
+                }
+                // GeneralsX @bugfix Codex 19/10/2026 Leaving a native editor cannot trap D-pad input in an obsolete field.
+                if(editingWidget && (find(editingId)==null || !find(editingId).optBoolean("enabled"))) { editingWidget=false; editingId=0; }
                 page = Math.min(page, Math.max(0, (commands.size() - 1) / 8));
-                deckPage = Math.min(deckPage, Math.max(0, ((battle ? commands.size() : deckRows.size()) - 1) / ThorDeckLayout.COMMANDS_PER_PAGE));
+                deckPage = Math.min(deckPage, Math.max(0, ((battle ? commands.size() : deckRows.size()) - 1) / deckPageSize()));
                 queuePage = Math.min(queuePage, Math.max(0, (queueRows.size() - 1) / ThorDeckLayout.QUEUE_PER_PAGE));
                 if (battle && deckFocus) {
                     for (int i = 0; i < commands.size(); ++i) if (commands.get(i).optInt("id") == focusedId) deckPage = i / ThorDeckLayout.COMMANDS_PER_PAGE;
                     for (int i = 0; i < queueRows.size(); ++i) if (queueRows.get(i).optInt("id") == focusedId) queuePage = i / ThorDeckLayout.QUEUE_PER_PAGE;
                 }
+                if(!battle) for(int i=0;i<deckRows.size();++i) if(deckRows.get(i).optInt("id")==focusedId) deckPage=i/deckPageSize();
                 refreshArtwork();
                 long diagnosticNow = android.os.SystemClock.uptimeMillis();
                 if ((activity.getApplicationInfo().flags & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0 && diagnosticNow - lastDiagnostic > 1000) {
@@ -195,9 +209,11 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                     mapY = Math.max(bounds==null?0:(float)bounds.optDouble(1), Math.min(bounds==null?.999f:(float)bounds.optDouble(3), mapY + ly * .025f));
                 }
                 sendAxes();
-                if (!battle && !typing && Math.max(Math.abs(lx), Math.abs(ly)) > .6f && android.os.SystemClock.uptimeMillis() - lastNavigation > 220) {
-                    navigate(Math.abs(lx) > Math.abs(ly) ? (lx > 0 ? 1 : -1) : 0, Math.abs(ly) >= Math.abs(lx) ? (ly > 0 ? 1 : -1) : 0);
-                }
+                pumpDpad();
+                boolean stickMenu=!battle && !typing && !rt && !lb;
+                int sx=stickMenu && Math.abs(lx)>.6f && Math.abs(lx)>Math.abs(ly)?(lx>0?1:-1):0;
+                int sy=stickMenu && Math.abs(ly)>.6f && Math.abs(ly)>=Math.abs(lx)?(ly>0?1:-1):0;
+                if(stickNavigation.step(sx,sy,android.os.SystemClock.uptimeMillis(),true)) direction(stickNavigation.dx,stickNavigation.dy);
                 overlay.invalidate();
                 if (deck != null) deck.invalidate();
                 fallbackDeck.setVisibility(presentation == null && (deckFocus || mapMode) ? View.VISIBLE : View.GONE);
@@ -215,7 +231,8 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         running = false; handler.removeCallbacks(tick);
         aHeld = false; lt = rt = lb = r3 = false; lx = ly = rx = ry = 0;
         ltButton = rtButton = ltAxis = rtAxis = false;
-        typing = deckFocus = mapMode = toolsMenu = false; confirmation = null;
+        resetNavigation();
+        typing = deckFocus = mapMode = toolsMenu = editingWidget = false; editingId=0; confirmation = null;
         if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(99, 0); }
     }
     void destroy() {
@@ -253,9 +270,8 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         boolean newLt = ltButton || ltAxis, newRt = battle && (rtButton || rtAxis);
         if (newLt != lt) lt = newLt;
         if (newRt != rt) { rt = newRt; page = 0; wedge = -1; description = false; descriptionScroll = 0; }
-        float hx = e.getAxisValue(MotionEvent.AXIS_HAT_X), hy = e.getAxisValue(MotionEvent.AXIS_HAT_Y);
-        long now = android.os.SystemClock.uptimeMillis();
-        if ((hx != 0 || hy != 0) && now - lastNavigation > 220) direction((int)hx, (int)hy);
+        hatX=Math.round(e.getAxisValue(MotionEvent.AXIS_HAT_X)); hatY=Math.round(e.getAxisValue(MotionEvent.AXIS_HAT_Y));
+        pumpDpad();
         sendAxes(); return true;
     }
     boolean key(KeyEvent e) {
@@ -274,6 +290,12 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         controllerActive = true;
         if (e.getDeviceId() >= 0) lastControllerDevice = e.getDeviceId();
         boolean down = e.getAction() == KeyEvent.ACTION_DOWN;
+        // Hat axes and D-pad keys can describe the same held direction. Route them through one edge/repeat state.
+        if(code>=KeyEvent.KEYCODE_DPAD_UP && code<=KeyEvent.KEYCODE_DPAD_RIGHT) {
+            int bit=1<<(code-KeyEvent.KEYCODE_DPAD_UP);
+            if(down) dpadKeys|=bit; else dpadKeys&=~bit;
+            pumpDpad(); return true;
+        }
         if (down && e.getRepeatCount() != 0) return true;
         switch (code) {
         case KeyEvent.KEYCODE_BUTTON_L2: ltButton = down; lt = ltButton || ltAxis; sendAxes(); return true;
@@ -294,7 +316,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         case KeyEvent.KEYCODE_BUTTON_B:
             if (confirmation != null) confirmation = null;
             else if (typing) { typing = false; entered = ""; }
-            else if (editingWidget) editingWidget = false;
+            else if (editingWidget) { editingWidget = false; editingId=0; }
             else if (toolsMenu) { toolsMenu = false; focusedId = 0; page = deckPage = 0; }
             else if (rt || lb) { rt = lb = false; }
             else if (scienceMenu && powers != null) activate(powers);
@@ -303,7 +325,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                 JSONObject back = null;
                 for (JSONObject w : widgets) {
                     String label = w.optString("label").replace("&", "").trim();
-                    if (w.optBoolean("enabled") && (label.equalsIgnoreCase("BACK") || label.equalsIgnoreCase("CANCEL"))) { back = w; break; }
+                    if (w.optBoolean("enabled") && (w.optBoolean("back") || label.equalsIgnoreCase("BACK") || label.equalsIgnoreCase("CANCEL"))) { back = w; break; }
                 }
                 if (back != null) activate(back); else ThorBridge.intent(11, 0);
             } else ThorBridge.intent(1, 0);
@@ -334,10 +356,6 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
                 if (battle && !rt && !lb && !deckFocus && !mapMode && !typing && !editingWidget && confirmation == null) ThorBridge.intent(19, 0);
             } else ThorBridge.intent(4, 0);
             break;
-        case KeyEvent.KEYCODE_DPAD_UP: direction(0, -1); break;
-        case KeyEvent.KEYCODE_DPAD_DOWN: direction(0, 1); break;
-        case KeyEvent.KEYCODE_DPAD_LEFT: direction(-1, 0); break;
-        case KeyEvent.KEYCODE_DPAD_RIGHT: direction(1, 0); break;
         }
         sendAxes(); overlay.invalidate(); return true;
     }
@@ -346,7 +364,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         if (snapshot.optBoolean("movie")) { ThorBridge.intent(11, 0); return; }
         if (confirmation != null) { activateChecked(confirmation); confirmation = null; return; }
         if (typing) { if (keyboardIndex < keys.length()) entered += keys.charAt(keyboardIndex); return; }
-        if (editingWidget) { ThorBridge.intent(12, 40); editingWidget = false; return; }
+        if (editingWidget) { ThorBridge.intent(12, 40); editingWidget = false; editingId=0; return; }
         if (lb) { if (wedge >= 0 && groupPage * 8 + wedge < 10) ThorBridge.intent(7, groupPage * 8 + wedge); return; }
         if (rt) {
             int index = page * 8 + wedge;
@@ -367,7 +385,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         if ((w.optInt("style") & 64) != 0) {
             typing = true; entered = w.optString("value", w.optString("label")); keyboardIndex = 0;
         }
-        else if ((w.optInt("style") & (8 | 16 | 32 | 32768)) != 0) editingWidget = true;
+        else if ((w.optInt("style") & (8 | 16 | 32 | 32768)) != 0) { editingWidget = true; editingId=w.optInt("id"); }
     }
     // GeneralsX @bugfix Codex 14/10/2026 Reused queue/passenger slots cannot activate a different target from an old snapshot.
     void activateChecked(JSONObject w) {
@@ -381,10 +399,10 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
     void touch() {
         controllerActive = false;
         aHeld = false; rt = lb = r3 = false; description = false;
+        resetNavigation(); editingWidget=false; editingId=0;
         if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(97, 0); ThorBridge.intent(96, 0); }
     }
     void direction(int dx, int dy) {
-        lastNavigation = android.os.SystemClock.uptimeMillis();
         if (typing) { keyboardIndex = (keyboardIndex + dx + dy * 10 + keys.length()) % keys.length(); return; }
         if (editingWidget) { ThorBridge.intent(12, dx < 0 ? 80 : dx > 0 ? 79 : dy < 0 ? 82 : 81); return; }
         if (rt) {
@@ -396,6 +414,13 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         if (!battle || deckFocus) { navigate(dx, dy); return; }
         if (mapMode) return;
         ThorBridge.intent(5, dy < 0 ? 0 : dy > 0 ? 1 : dx < 0 ? 2 : 3);
+    }
+    int deckPageSize() { return battle?ThorDeckLayout.COMMANDS_PER_PAGE:ThorDeckLayout.menuPageSize(menuColumns); }
+    void resetNavigation() { hatX=hatY=dpadKeys=0; dpadNavigation.reset(); stickNavigation.reset(); }
+    void pumpDpad() {
+        int x=hatX,y=hatY;
+        if(x==0 && y==0) { x=((dpadKeys&8)!=0?1:0)-((dpadKeys&4)!=0?1:0); y=((dpadKeys&2)!=0?1:0)-((dpadKeys&1)!=0?1:0); }
+        if(dpadNavigation.step(x,y,android.os.SystemClock.uptimeMillis(),!battle || deckFocus || editingWidget || typing)) direction(dpadNavigation.dx,dpadNavigation.dy);
     }
     JSONObject find(int id) { for (JSONObject w : widgets) if (w.optInt("id") == id) return w; return null; }
     JSONObject highlighted() {
@@ -441,6 +466,7 @@ final class ThorController implements DisplayManager.DisplayListener, android.ha
         // GeneralsX @bugfix Codex 14/10/2026 Disconnects release every held controller state.
         aHeld = false; lt = rt = lb = r3 = false; lx = ly = rx = ry = 0;
         ltButton = rtButton = ltAxis = rtAxis = false;
+        resetNavigation();
         if (ready) { ThorBridge.nativeAxes(0, 0, 0, 0, false, false); ThorBridge.intent(97, 0); }
     }
 }

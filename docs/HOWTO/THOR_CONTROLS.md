@@ -35,10 +35,18 @@ stays limited to the screen even if pressed again; it does not move the camera.
 With a mixed selection it adds on-screen matches for each selected type. It is
 available in alpha.5 and leaves building/ability targeting and menus alone.
 
-In alpha.6, menu buttons on the bottom screen follow
-the D-pad/left-stick grid. A confirms and B goes back. A/B/Start can skip a
+Menu buttons on the bottom screen follow the D-pad/left-stick layout.
+A confirms and B goes back. A/B/Start can skip a
 campaign briefing. Scripted opening scenes keep unit and camera input locked
 until the original mission script hands control back.
+
+The menu fixes after alpha.6 keep simple lists vertical on both screens: Down
+chooses the next item. Larger setup menus use a grid on the bottom screen.
+Quick released D-pad taps each count once; holding a direction repeats after a
+short delay. Disabled menu controls are skipped. Menu buttons appear once the
+game's opening animation finishes, so focus starts on the right item. These
+fixes are in the current source and the owner's test build, ahead of the
+alpha.6 download.
 
 ## Command wheel: hold RT
 
