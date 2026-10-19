@@ -17,9 +17,13 @@ This includes the alpha.6 cinematic and dialogue fixes and keeps the original
 
 ## Install / update
 
-Download `Thor-RTS-0.1.0-alpha.7.apk`. With desktop installer 0.1.0, choose it under
-**Advanced → Local APK**. That installer still automatically downloads alpha.1.
-Tick **App update only** if your game files are already installed.
+Use [desktop installer 0.1.1](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.1).
+It automatically finds the newest game release and checks its checksum. Tick
+**App update only** if your game files are already installed. Replace installer
+0.1.0 once; its automatic download was pinned to alpha.1.
+
+For offline use, download `Thor-RTS-0.1.0-alpha.7.apk` and choose it under
+**Advanced → Local APK**.
 
 Save your match before updating. Install over the existing app to keep its data
 and saves; do not uninstall it first. `SHA256SUMS.txt` contains the APK checksum.

@@ -3,7 +3,7 @@ const { app, BrowserWindow, ipcMain, dialog, shell } = require('electron');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
-const { Installer, findAdb, suggestGameFolder, release, TERMS } = require('./backend');
+const { Installer, findAdb, suggestGameFolder, TERMS } = require('./backend');
 let window, active, cache;
 const history = [];
 const indexURL = pathToFileURL(path.join(__dirname, 'index.html')).href;
@@ -38,7 +38,8 @@ async function operation(options, method) {
     safe.acceptTools = options.acceptTools === true;
     safe.updateOnly = options.updateOnly === true;
     const result = await job[method](safe);
-    if (method === 'install') await fs.writeFile(path.join(cache, 'settings.json'), JSON.stringify({ game: safe.game, adb: job.adbPath, apk: safe.apk }));
+    // GeneralsX @bugfix Codex 19/10/2026 A one-off local APK must not silently pin every future update.
+    if (method === 'install') await fs.writeFile(path.join(cache, 'settings.json'), JSON.stringify({ game: safe.game, adb: job.adbPath }));
     return { result };
   } catch (error) {
     const message = error.message || String(error);
@@ -63,7 +64,7 @@ else {
       let settings = {};
       try { settings = JSON.parse(await fs.readFile(path.join(cache, 'settings.json'), 'utf8')); } catch { /* First run. */ }
       const adb = await findAdb(cache);
-      return { game: settings.game || await suggestGameFolder(), adb: adb || settings.adb || '', apk: settings.apk || '', release,
+      return { game: settings.game || await suggestGameFolder(), adb: adb || settings.adb || '',
         platform: process.platform, version: app.getVersion() };
     });
     handle('browse', async kind => {

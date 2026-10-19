@@ -6,7 +6,10 @@ installer, not for installing the game.
 The UI uses Electron 44.7.2. A Node backend runs ADB without a host shell;
 Android shell arguments are quoted individually. The page is local, sandboxed
 and isolated, and its preload exposes only the specific installer operations.
-APK downloads use the fixed release URL and SHA-256 in `installer/release.json`.
+`installer/releases.js` discovers the newest published game version on GitHub,
+including previews. It checks the release checksum against GitHub asset digests
+when available, then the downloader verifies the actual APK. Desktop releases
+and drafts are excluded. There is no pinned game version to bump.
 No game data or Google SDK tools are bundled in the desktop releases.
 
 ## Develop
@@ -21,11 +24,25 @@ npm test
 npm start
 ```
 
-The nine backend tests cover folder/header validation, remote quoting, device
+The sixteen backend tests cover folder/header validation, remote quoting, device
 states, checksum failures, resumable transfers, cancellation, signature mismatch,
 and keeping an identical installed app running. They use temporary fake game
 data, a fake Android device, and a local download server. ZIP path traversal is
-also checked before extraction. No retail data is needed.
+also checked before extraction. Release discovery covers numeric version order,
+previews, pagination, missing/conflicting checksums and network/cancellation
+failures. An automatic update of an identical installed app leaves it running.
+No retail data is needed.
+
+The packaged UI also has a repeatable smoke check. From `installer/`, run:
+
+```sh
+node test/ui-smoke.js /path/to/thor-rts-installer /path/to/test-output
+```
+
+It opens the actual app, checks the automatic default and captures its window.
+To check a real USB app update too, append your ADB path, device serial and the
+expected published game version. Save first; that mode performs an actual update
+and expects the same APK to be installed already.
 
 ## Package locally
 
@@ -59,10 +76,27 @@ not a player dependency.
 
 ## New game previews
 
-Update `release.json` with the published Thor APK name, URL, version and SHA-256,
-then rebuild the desktop apps. Keep the APK signing key consistent for updates.
-The installer intentionally does not pick arbitrary newer prereleases via an API.
-Publish matching source/tag, platform files and `SHA256SUMS.txt` together.
+Publish the game under its `v<version>` tag with `Thor-RTS-<version>.apk` and
+`SHA256SUMS.txt`. Upload both assets before making the release public. Keep the
+APK signing key consistent for in-place updates. The existing desktop installer
+will select the highest published game version on its next install/update; no
+desktop rebuild, version pin or README game-download URL needs changing.
+
+Check discovery from `installer/` after publication:
+
+```sh
+node -e "require('./releases').latestRelease().then(console.log)"
+```
+
+If the newest release is incomplete or inconsistent, installation stops rather
+than choosing an older build. Offline installs use an explicit local APK.
+Local APK overrides are not saved between app launches.
+
+When the desktop installer itself changes, bump `installer/package.json` and
+its lockfile, rebuild the platform packages and publish them with matching
+source/tag and `SHA256SUMS.txt`. Installer 0.1.0 predates release discovery and
+must be replaced once; installer 0.1.1 and later do not need rebuilding for new
+game previews.
 
 ## Device acceptance checks
 
@@ -77,3 +111,10 @@ The Linux UI was launched with its sandbox enabled in Ubuntu 22.04/WSLg after
 installing `libgbm1`; the backend tests pass on Linux too. USB access from physical
 Linux, fresh installs on clean desktop machines, and Mac runtime behavior remain
 acceptance work. Windows/Mac bundles have no trusted publisher certificate.
+
+Installer 0.1.1's packaged Windows UI passed automatic release discovery,
+download/checksum and a real USB app-only check against the identical alpha.7
+installation. Its old remembered local-APK setting was ignored as intended.
+The packaged Linux UI also opened with its sandbox enabled and passed the
+automatic-default check. Each platform's embedded application source and desktop
+version were checked against this repository.

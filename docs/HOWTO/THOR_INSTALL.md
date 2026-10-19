@@ -4,7 +4,7 @@ The desktop installer does the fiddly part: it gets the app, copies your own
 game files over USB, and checks that they arrived intact. You pick a folder and
 a device, then press **Install on Thor**.
 
-**[Download the installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)**
+**[Download the installer](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.1)**
 
 ![Thor RTS desktop installer](../images/thor-installer.png)
 
@@ -25,11 +25,11 @@ to the handheld, not PC or Mac versions of the game. No retail data is included.
 
 | Computer | Download | Open it |
 |---|---|---|
-| Windows | `Thor-RTS-Installer-0.1.0-Windows-x64.exe` | Double-click the file. It opens the installer without a separate setup. |
-| Apple Silicon Mac | `Thor-RTS-Installer-0.1.0-macOS-arm64.zip` | Unzip it, move **Thor RTS Installer.app** to Applications, and open it. |
-| Intel Mac | `Thor-RTS-Installer-0.1.0-macOS-x64.zip` | Same steps, using the Intel download. |
-| Ubuntu/Debian x64 | `Thor-RTS-Installer-0.1.0-Linux-x64.deb` | Open it in your package installer, then launch **Thor RTS Installer**. |
-| Other Linux x64 | `Thor-RTS-Installer-0.1.0-Linux-x64.tar.gz` | Extract the folder and run `thor-rts-installer` inside it. A normal desktop with GTK 3, NSS, GBM and ALSA libraries is needed. |
+| Windows | `Thor-RTS-Installer-0.1.1-Windows-x64.exe` | Double-click the file. It opens the installer without a separate setup. |
+| Apple Silicon Mac | `Thor-RTS-Installer-0.1.1-macOS-arm64.zip` | Unzip it, move **Thor RTS Installer.app** to Applications, and open it. |
+| Intel Mac | `Thor-RTS-Installer-0.1.1-macOS-x64.zip` | Same steps, using the Intel download. |
+| Ubuntu/Debian x64 | `Thor-RTS-Installer-0.1.1-Linux-x64.deb` | Open it in your package installer, then launch **Thor RTS Installer**. |
+| Other Linux x64 | `Thor-RTS-Installer-0.1.1-Linux-x64.tar.gz` | Extract the folder and run `thor-rts-installer` inside it. A normal desktop with GTK 3, NSS, GBM and ALSA libraries is needed. |
 
 These are community builds without trusted publisher certificates. The Mac
 bundles have ad-hoc signatures, not an Apple Developer ID or notarization.
@@ -129,13 +129,20 @@ Save a running match before installing an update or replacing game files.
 USB connection and downloads/verifies the published app. If the same APK is
 already installed, the installer skips reinstalling it.
 
-The current installer automatically downloads game preview **0.1.0-alpha.1**.
-For the newer [game preview, 0.1.0-alpha.7](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.7),
-download its APK and choose it under **Advanced → Local APK**. Tick **App update
-only** if your game files are already installed. Local APKs do not have the
-automatic download's pinned checksum; the release provides `SHA256SUMS.txt`.
-The same field supports your own builds. Later desktop installer releases can
-advance the automatic download without silently selecting arbitrary APKs.
+Installer **0.1.1** checks published game releases each time you install or update.
+It includes previews, skips desktop-installer releases, and verifies the newest
+APK against its published checksum. When a new game release is published, the
+same installer picks it up automatically. You do not need to download the APK
+separately or replace the installer for each game update.
+
+If the release check or checksum fails, it stops and leaves the installed game
+alone. It does not silently fall back to an older preview. For an offline install
+or your own build, choose a downloaded APK under **Advanced → Local APK**. That
+choice applies to the current session; the next launch returns to automatic
+updates. Local APKs do not use the automatic download's checksum check.
+
+If you have installer **0.1.0**, replace it with 0.1.1 once. The old executable
+still downloads alpha.1; an existing download cannot update its own code.
 
 Local saves live on the Thor at:
 

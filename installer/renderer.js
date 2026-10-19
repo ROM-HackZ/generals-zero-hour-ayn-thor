@@ -89,7 +89,7 @@ $('install').addEventListener('click', async () => {
 });
 window.thor.initial().then(async initial => {
   for (const field of ['game', 'adb', 'apk']) $(field).value = initial[field] || '';
-  $('version').textContent = `Game preview ${initial.release.version}. Downloads the app and copies your own game files over USB.`;
+  $('version').textContent = `Installer ${initial.version}. Downloads the newest published game app, checks its checksum and copies your own files over USB.`;
   if (initial.adb) await refresh();
   else {
     $('device').replaceChildren(new Option('USB tools needed — see below', ''));

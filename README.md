@@ -10,8 +10,8 @@ and buttons, touch, or both. It runs natively on Android with the original
 30 Hz simulation.
 
 No game files are included. You need your own PC copy of Zero Hour. The Steam
-edition is the one tested so far. This is a development preview, currently
-**0.1.0-alpha.7**.
+edition is the one tested so far. This is a development preview. The installer finds the newest published game
+release automatically.
 
 [Install guide](docs/HOWTO/THOR_INSTALL.md) · [Full controls](docs/HOWTO/THOR_CONTROLS.md)
 · [Build from source](docs/BUILD/THOR.md) · [Report a bug](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/issues)
@@ -32,19 +32,20 @@ transfers can resume.
 
 | What you need | Download | Open it |
 |---|---|---|
-| Windows 10/11, x64 | [Installer EXE](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-Windows-x64.exe) | Double-click it. |
-| Apple Silicon Mac, macOS 13+ | [Mac ARM64 ZIP](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-macOS-arm64.zip) | Unzip it and open Thor RTS Installer.app. |
-| Intel Mac, macOS 13+ | [Mac x64 ZIP](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-macOS-x64.zip) | Unzip it and open Thor RTS Installer.app. |
-| Ubuntu/Debian, x64 | [Linux DEB](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-Linux-x64.deb) | Install the package, then open Thor RTS Installer. |
-| Other Linux desktops, x64 | [Linux portable folder](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.0/Thor-RTS-Installer-0.1.0-Linux-x64.tar.gz) | Extract it and run `thor-rts-installer`. See the [Linux requirements](docs/HOWTO/THOR_INSTALL.md). |
-| Current Android app | [Alpha.7 APK](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/v0.1.0-alpha.7/Thor-RTS-0.1.0-alpha.7.apk) | Choose this file under Advanced → Local APK in the desktop installer. |
+| Windows 10/11, x64 | [Installer EXE](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.1/Thor-RTS-Installer-0.1.1-Windows-x64.exe) | Double-click it. |
+| Apple Silicon Mac, macOS 13+ | [Mac ARM64 ZIP](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.1/Thor-RTS-Installer-0.1.1-macOS-arm64.zip) | Unzip it and open Thor RTS Installer.app. |
+| Intel Mac, macOS 13+ | [Mac x64 ZIP](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.1/Thor-RTS-Installer-0.1.1-macOS-x64.zip) | Unzip it and open Thor RTS Installer.app. |
+| Ubuntu/Debian, x64 | [Linux DEB](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.1/Thor-RTS-Installer-0.1.1-Linux-x64.deb) | Install the package, then open Thor RTS Installer. |
+| Other Linux desktops, x64 | [Linux portable folder](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/download/installer-v0.1.1/Thor-RTS-Installer-0.1.1-Linux-x64.tar.gz) | Extract it and run `thor-rts-installer`. See the [Linux requirements](docs/HOWTO/THOR_INSTALL.md). |
+| Game APK, for offline/custom installs | [Game releases](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases) | Choose a downloaded APK under Advanced → Local APK. |
 
-**Installer 0.1.0 automatically downloads alpha.1.** Download the alpha.7 APK
-above and choose it under Advanced → Local APK to get the current controls.
-For an existing installation, tick App update only. Save your match before updating.
+**Installer 0.1.1 automatically downloads the newest game release, including
+previews, and checks its checksum.** New game releases do not need an installer
+rebuild. For an existing installation, tick **App update only**. Save your match
+before updating. If you have installer 0.1.0, replace it with this one once.
 
-The [installer release](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.0)
-and [app release](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/v0.1.0-alpha.7)
+The [installer release](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.1)
+and [game releases](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases)
 include checksums. Windows has been tried with the actual Thor. The Linux UI has
 been checked under Ubuntu/WSL; physical Linux USB access and the Mac apps still
 need testing. These are unsigned community desktop apps. The install guide
@@ -55,9 +56,9 @@ covers the Windows/macOS publisher prompts.
 | Step | What to do |
 |---|---|
 | 1. Get your files | Install Zero Hour on your PC. In Steam, use Manage → Browse local files. Keep the whole folder, including `ZH_Generals`. On a Mac, bring that folder over from your PC. |
-| 2. Get the installer and APK | Download the desktop app for your computer and the alpha.7 APK above. |
+| 2. Get the installer | Download the desktop app for your computer. It gets the game app for you. |
 | 3. Connect the Thor | Enable USB debugging, connect a USB data cable and accept the debugging prompt on the Thor. |
-| 4. Pick your paths | Browse to the game folder. Under Advanced → Local APK, choose the alpha.7 APK. Refresh the device list and choose the Thor. The installer can download ADB if you need it. |
+| 4. Pick your paths | Browse to the game folder. Refresh the device list and choose the Thor. The installer can download ADB if you need it. |
 | 5. Install | Press Install on Thor. Once it finishes, open Thor RTS on the handheld and press Play. |
 
 You don't need to build the source to play. Your PC game files are read only.

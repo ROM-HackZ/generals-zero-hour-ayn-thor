@@ -1,5 +1,9 @@
 # Thor RTS desktop installer — first preview
 
+**Use [installer 0.1.1](https://github.com/ROM-HackZ/generals-zero-hour-ayn-thor/releases/tag/installer-v0.1.1)
+for automatic game updates.** This older executable downloads alpha.1. Replace it
+once; the new installer finds future published game releases automatically.
+
 Pick your game folder, connect the Thor, and press **Install on Thor**. The new
 desktop app handles the APK and the transfer, so you don't need to download the
 source or type an ADB command.

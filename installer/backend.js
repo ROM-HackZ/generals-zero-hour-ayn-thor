@@ -4,7 +4,7 @@ const path = require('node:path');
 const os = require('node:os');
 const crypto = require('node:crypto');
 const { spawn } = require('node:child_process');
-const release = require('./release.json');
+const { latestRelease } = require('./releases');
 
 const PACKAGE = 'com.generalsthor.zerohour';
 const GAME_DATA = `/sdcard/Android/data/${PACKAGE}/files/GameData`;
@@ -237,6 +237,7 @@ class Installer {
     const result = await this.shell(['sha256sum', remote], { allowFailure: true });
     return result.code === 0 ? result.output.match(/^([a-f0-9]{64})\b/i)?.[1]?.toLowerCase() : '';
   }
+  latestRelease() { return latestRelease({ signal: this.signal }); }
   async transfer(files, label) {
     const total = files.reduce((sum, f) => sum + f.size, 0);
     let completed = 0, copied = 0, skipped = 0;
@@ -309,6 +310,8 @@ class Installer {
       if (!path.isAbsolute(apk) || !await exists(apk)) throw new Error('Choose an existing APK file, or leave the APK path blank for the published preview.');
       this.log('Using your local APK. The published checksum applies only to the automatic download.');
     } else {
+      this.report('Checking for updates', 'Finding the newest published Thor RTS game…');
+      const release = await this.latestRelease();
       this.report('Getting the game app', `Downloading preview ${release.version}…`);
       apk = await download(release.url, path.join(this.cache, release.apk), { signal: this.signal, expectedHash: release.sha256,
         onProgress: (n, total) => this.report('Getting the game app', `Downloading preview ${release.version}…`, total ? n / total : null) });
@@ -345,4 +348,4 @@ class Installer {
 }
 
 module.exports = { Installer, validateGame, parseDevices, findAdb, suggestGameFolder, hashFile, download, extractTools,
-  quote, release, TERMS, GAME_DATA, PACKAGE, run };
+  quote, TERMS, GAME_DATA, PACKAGE, run };
